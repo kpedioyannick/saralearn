@@ -1,0 +1,40 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Repository;
+
+use App\Entity\Subject;
+use App\Entity\Subchapter;
+use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\Persistence\ManagerRegistry;
+
+/**
+ * @extends ServiceEntityRepository<Subchapter>
+ */
+class SubchapterRepository extends ServiceEntityRepository
+{
+    public function __construct(ManagerRegistry $registry)
+    {
+        parent::__construct($registry, Subchapter::class);
+    }
+
+    public function findOneByChapterAndSlug(int $chapterId, string $slug): ?Subchapter
+    {
+        return $this->findOneBy(['chapter' => $chapterId, 'slug' => $slug], orderBy: []);
+    }
+
+    /**
+     * Retourne tous les sous-chapitres d'une matière, ordonnés par id.
+     * @return list<Subchapter>
+     */
+    public function findBySubject(Subject $subject): array
+    {
+        $qb = $this->createQueryBuilder('s')
+            ->join('s.chapter', 'c')
+            ->where('c.subject = :subject')
+            ->setParameter('subject', $subject)
+            ->orderBy('s.id', 'ASC');
+        return $qb->getQuery()->getResult();
+    }
+}

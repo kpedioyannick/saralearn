@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title|e }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.0/theme/white.min.css" id="theme">
+    <style>
+        .reveal .slides { text-align: left; }
+        .reveal .slides section { padding: 1em; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            {% for slide in slides %}
+                {% if slide.slide is defined and slide.slide %}
+                    {{ slide.slide|raw }}
+                {% else %}
+                    <section>
+                        <h2>Slide {{ slide.id|default(loop.index) }}</h2>
+                        {% if slide.texte_audio is defined %}<p class="texte_audio">{{ slide.texte_audio }}</p>{% endif %}
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            slideNumber: true,
+            showNotes: false
+        });
+    </script>
+</body>
+</html>
