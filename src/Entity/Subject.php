@@ -11,7 +11,6 @@ use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: SubjectRepository::class)]
 #[ORM\Table(name: 'subject')]
-#[ORM\UniqueConstraint(name: 'uq_subject_classroom_slug', columns: ['classroom_id', 'slug'])]
 class Subject
 {
     #[ORM\Id]
@@ -19,10 +18,10 @@ class Subject
     #[ORM\Column]
     private ?int $id = null;
 
-    #[ORM\Column(length: 128)]
+    #[ORM\Column(length: 1024)]
     private ?string $name = null;
 
-    #[ORM\Column(length: 255)]
+    #[ORM\Column(length: 1024)]
     private ?string $slug = null;
 
     #[ORM\ManyToOne(inversedBy: 'subjects')]

@@ -11,7 +11,6 @@ use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: SubchapterRepository::class)]
 #[ORM\Table(name: 'subchapter')]
-#[ORM\UniqueConstraint(name: 'uq_subchapter_chapter_slug', columns: ['chapter_id', 'slug'])]
 class Subchapter
 {
     /** Type « Cours » : sous-chapitre de type leçon (génération cours, modules, livres). Les « Quiz » sont exclus. */
@@ -22,10 +21,10 @@ class Subchapter
     #[ORM\Column]
     private ?int $id = null;
 
-    #[ORM\Column(length: 512)]
+    #[ORM\Column(length: 1024)]
     private ?string $title = null;
 
-    #[ORM\Column(length: 512)]
+    #[ORM\Column(length: 1024)]
     private ?string $slug = null;
 
     #[ORM\Column(length: 1024, nullable: true)]
