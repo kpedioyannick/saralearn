@@ -37,6 +37,7 @@ final class ManagerGenerateCommand extends Command
     protected function configure(): void
     {
         $this->addOption('dry-run', null, InputOption::VALUE_NONE, 'Ne pas persister (transmis aux commandes appelées)');
+        $this->addOption('batch-size', 'b', InputOption::VALUE_REQUIRED, 'Nombre d\'éléments par phase par round (cours, puis modules, puis livres)', '20');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -54,7 +55,8 @@ final class ManagerGenerateCommand extends Command
             return Command::SUCCESS;
         }
 
-        $io->title(sprintf('Manager : %d sous-chapitre(s) — ne lance que ce qui manque', count($subchaptersWithContext)));
+        $batchSize = max(1, (int) $input->getOption('batch-size'));
+        $io->title(sprintf('Manager : %d sous-chapitre(s) — lots de %d (cours / modules / livres) par round', count($subchaptersWithContext), $batchSize));
 
         $baseArgs = [
             '--no-interaction' => true,
@@ -66,48 +68,68 @@ final class ManagerGenerateCommand extends Command
         $argsWithProvider = $baseArgs + ['--provider' => 'deepseek'];
         $exit = Command::SUCCESS;
 
-        // Phase 1 : cours — uniquement les sous-chapitres sans cours (provider = deepseek)
         $needCourse = $this->subchaptersWithoutCourse($subchaptersWithContext);
-        $io->section(sprintf('Phase 1 : Cours (Reveal.js + mindmap) — %d à générer', count($needCourse)));
-        foreach ($needCourse as $item) {
-            $code = $this->runCommand($output, 'app:generate-course-mindmap', $argsWithProvider + [
-                '--classroom' => $item['classroom'],
-                '--subject' => $item['subject'],
-                '--subchapter' => (string) $item['subchapter']->getId(),
-            ]);
-            if ($code !== Command::SUCCESS) {
-                $exit = $code;
-            }
-        }
-
-        // Phase 2 : modules — par sous-chapitre (provider = deepseek, pas curl)
         $needModules = $this->subchaptersWithMissingBloomLevels($subchaptersWithContext);
-        $io->section(sprintf('Phase 2 : Modules H5P — %d sous-chapitre(s) avec niveaux Bloom manquants', count($needModules)));
-        foreach ($needModules as $item) {
-            $code = $this->runCommand($output, 'app:h5p:generate-modules', $argsWithProvider + [
-                '--classroom' => $item['classroom'],
-                '--subject' => $item['subject'],
-                '--subchapter' => (string) $item['subchapter']->getId(),
-                '--bloom-types' => implode(',', $item['missing_bloom_levels']),
-            ]);
-            if ($code !== Command::SUCCESS) {
-                $exit = $code;
-            }
-        }
-
-        // Phase 3 : livres interactifs — uniquement (sous-chapitre, preset) sans Path
         $needBooks = $this->subchapterPresetsWithoutPath($subchaptersWithContext);
-        $io->section(sprintf('Phase 3 : Livres interactifs — %d combinaison(s) à générer', count($needBooks)));
-        foreach ($needBooks as $item) {
-            $code = $this->runCommand($output, 'app:h5p:generate-interactive-books', $baseArgs + [
-                '--classroom' => $item['classroom'],
-                '--subject' => $item['subject'],
-                '--subchapter' => (string) $item['subchapter']->getId(),
-                '--preset' => $item['preset_key'],
-            ]);
-            if ($code !== Command::SUCCESS) {
-                $exit = $code;
+        $totalCourse = count($needCourse);
+        $totalModules = count($needModules);
+        $totalBooks = count($needBooks);
+        $io->text(sprintf('À générer : %d cours, %d modules (sous-chapitres), %d livres.', $totalCourse, $totalModules, $totalBooks));
+
+        $round = 0;
+        $offsetCourse = 0;
+        $offsetModules = 0;
+        $offsetBooks = 0;
+
+        while ($offsetCourse < $totalCourse || $offsetModules < $totalModules || $offsetBooks < $totalBooks) {
+            $round++;
+            $batchCourse = array_slice($needCourse, $offsetCourse, $batchSize);
+            $batchModules = array_slice($needModules, $offsetModules, $batchSize);
+            $batchBooks = array_slice($needBooks, $offsetBooks, $batchSize);
+
+            if ($batchCourse === [] && $batchModules === [] && $batchBooks === []) {
+                break;
             }
+
+            $io->section(sprintf('Round %d — %d cours, %d modules, %d livres', $round, count($batchCourse), count($batchModules), count($batchBooks)));
+
+            foreach ($batchCourse as $item) {
+                $code = $this->runCommand($output, 'app:generate-course-mindmap', $argsWithProvider + [
+                    '--classroom' => $item['classroom'],
+                    '--subject' => $item['subject'],
+                    '--subchapter' => (string) $item['subchapter']->getId(),
+                ]);
+                if ($code !== Command::SUCCESS) {
+                    $exit = $code;
+                }
+            }
+            $offsetCourse += count($batchCourse);
+
+            foreach ($batchModules as $item) {
+                $code = $this->runCommand($output, 'app:h5p:generate-modules', $argsWithProvider + [
+                    '--classroom' => $item['classroom'],
+                    '--subject' => $item['subject'],
+                    '--subchapter' => (string) $item['subchapter']->getId(),
+                    '--bloom-types' => implode(',', $item['missing_bloom_levels']),
+                ]);
+                if ($code !== Command::SUCCESS) {
+                    $exit = $code;
+                }
+            }
+            $offsetModules += count($batchModules);
+
+            foreach ($batchBooks as $item) {
+                $code = $this->runCommand($output, 'app:h5p:generate-interactive-books', $baseArgs + [
+                    '--classroom' => $item['classroom'],
+                    '--subject' => $item['subject'],
+                    '--subchapter' => (string) $item['subchapter']->getId(),
+                    '--preset' => $item['preset_key'],
+                ]);
+                if ($code !== Command::SUCCESS) {
+                    $exit = $code;
+                }
+            }
+            $offsetBooks += count($batchBooks);
         }
 
         $io->success('Manager terminé.');
