@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace App\Command;
 
+use App\Repository\ClassroomRepository;
 use App\Repository\CourseMusicRepository;
 use App\Repository\SubchapterRepository;
+use App\Repository\SubjectRepository;
 use App\Service\Suno\CourseMusicPromptGenerator;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -23,6 +25,8 @@ final class GenerateCourseMusicPromptCommand extends Command
     public function __construct(
         private readonly SubchapterRepository $subchapterRepository,
         private readonly CourseMusicRepository $courseMusicRepository,
+        private readonly ClassroomRepository $classroomRepository,
+        private readonly SubjectRepository $subjectRepository,
         private readonly CourseMusicPromptGenerator $promptGenerator,
     ) {
         parent::__construct();
@@ -31,6 +35,8 @@ final class GenerateCourseMusicPromptCommand extends Command
     protected function configure(): void
     {
         $this
+            ->addOption('classroom', null, InputOption::VALUE_OPTIONAL, 'ID ou slug de la classe (à utiliser avec --subject)')
+            ->addOption('subject', null, InputOption::VALUE_OPTIONAL, 'ID ou slug de la matière (à utiliser avec --classroom)')
             ->addOption('subchapter', null, InputOption::VALUE_OPTIONAL, 'ID ou slug d\'un seul sous-chapitre à traiter')
             ->addOption('dry-run', null, InputOption::VALUE_NONE, 'Afficher le prompt sans créer/mettre à jour CourseMusic')
             ->addOption('force', null, InputOption::VALUE_NONE, 'Régénérer le prompt même si CourseMusic existe déjà');
@@ -39,6 +45,8 @@ final class GenerateCourseMusicPromptCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $io = new SymfonyStyle($input, $output);
+        $classroomOpt = $input->getOption('classroom') !== null ? trim((string) $input->getOption('classroom')) : null;
+        $subjectOpt = $input->getOption('subject') !== null ? trim((string) $input->getOption('subject')) : null;
         $subchapterOpt = $input->getOption('subchapter') !== null ? trim((string) $input->getOption('subchapter')) : null;
         $dryRun = (bool) $input->getOption('dry-run');
         $force = (bool) $input->getOption('force');
@@ -56,6 +64,21 @@ final class GenerateCourseMusicPromptCommand extends Command
                 return Command::FAILURE;
             }
             $subchapters = [$subchapter];
+        } elseif ($classroomOpt !== null && $classroomOpt !== '' && $subjectOpt !== null && $subjectOpt !== '') {
+            $classroom = $this->classroomRepository->resolveOne($classroomOpt);
+            if ($classroom === null) {
+                $io->error(sprintf('Classe introuvable : %s', $classroomOpt));
+                return Command::FAILURE;
+            }
+            $subject = $this->subjectRepository->findOneByClassroomAndSubject($classroom, $subjectOpt);
+            if ($subject === null) {
+                $io->error(sprintf('Matière introuvable pour la classe : %s', $subjectOpt));
+                return Command::FAILURE;
+            }
+            $subchapters = array_values(array_filter(
+                $this->subchapterRepository->findBySubject($subject),
+                static fn (\App\Entity\Subchapter $s) => $s->isCourseType(),
+            ));
         } else {
             $subchapters = array_values(array_filter(
                 $this->subchapterRepository->findBy([], ['id' => 'ASC']),
