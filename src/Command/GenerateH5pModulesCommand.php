@@ -296,7 +296,7 @@ final class GenerateH5pModulesCommand extends Command
             return $created;
         }
 
-        $nomsSousChapitres = implode(', ', array_map(static fn (Subchapter $s) => $s->getTitle(), $subchaptersCours));
+        $nomsSousChapitres = implode(' ; ', array_map(static fn (Subchapter $s) => $s->getId() . ' : ' . $s->getTitle(), $subchaptersCours));
         foreach ($bloomLevels as $bloomLevel) {
             $prompt = $this->promptTemplateProvider->buildForChapterAndBloom(
                 $matiere,
@@ -399,6 +399,7 @@ final class GenerateH5pModulesCommand extends Command
             $niveauClasse,
             $subchapter->getTitle(),
             $bloomLevel,
+            $subchapter->getId(),
         );
         $io->text(sprintf('Sous-chapitre "%s" / Bloom %s…', $subchapter->getTitle(), $bloomLevel));
         $this->logger->info('API input', ['prompt' => $prompt]);
@@ -439,9 +440,11 @@ final class GenerateH5pModulesCommand extends Command
         }
 
         $created = 0;
+        $subchaptersById = [];
         $subchaptersBySlug = [];
         $subchaptersByNormalizedSlug = [];
         foreach ($chapter->getSubchapters() as $sub) {
+            $subchaptersById[$sub->getId()] = $sub;
             $s = $sub->getSlug();
             $subchaptersBySlug[$s] = $sub;
             $subchaptersByNormalizedSlug[$this->normalizeSlugForMatch($s)] = $sub;
@@ -450,11 +453,18 @@ final class GenerateH5pModulesCommand extends Command
             if (!is_array($scData)) {
                 continue;
             }
+            $id = isset($scData['id']) ? (int) $scData['id'] : null;
             $slug = $scData['slug'] ?? null;
             $title = $scData['title'] ?? null;
-            $subchapter = $this->findSubchapterBySlugOrTitle($chapter, $slug, $title, $subchaptersBySlug, $subchaptersByNormalizedSlug);
+            $subchapter = null;
+            if ($id !== null && isset($subchaptersById[$id])) {
+                $subchapter = $subchaptersById[$id];
+            }
             if ($subchapter === null) {
-                $io->warning(sprintf('Sous-chapitre non trouvé (slug: %s, title: %s). Comparaison par slug uniquement.', $slug ?? '?', $title ?? '?'));
+                $subchapter = $this->findSubchapterBySlugOrTitle($chapter, $slug, $title, $subchaptersBySlug, $subchaptersByNormalizedSlug);
+            }
+            if ($subchapter === null) {
+                $io->warning(sprintf('Sous-chapitre non trouvé (id: %s, slug: %s, title: %s). Vérifiez que l\'IA renvoie bien le champ "id" pour chaque sous-chapitre.', $id !== null ? (string) $id : '?', $slug ?? '?', $title ?? '?'));
                 continue;
             }
 

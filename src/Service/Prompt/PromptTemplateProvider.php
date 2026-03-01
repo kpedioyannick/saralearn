@@ -34,12 +34,14 @@ final class PromptTemplateProvider
         $niveau = $context['niveau'] ?? '';
         $nomsSousChapitres = $context['noms_sous_chapitres'] ?? '';
         $niveauBloom = $context['niveau_bloom'] ?? '';
+        $idSousChapitre = $context['id_sous_chapitre'] ?? '';
 
         $replace = [
             '[MATIÈRE]' => $matiere,
             '[NIVEAU]' => $niveau,
             '[NOMS_SOUS_CHAPITRES]' => $nomsSousChapitres,
             '[NIVEAU_BLOOM]' => $niveauBloom,
+            '[ID_SOUS_CHAPITRE]' => $idSousChapitre,
             '[TYPES_H5P_AUTORISES]' => $niveauBloom !== ''
                 ? BloomH5pTypeMap::getH5pTypesAsString($niveauBloom)
                 : '',
@@ -74,12 +76,14 @@ final class PromptTemplateProvider
         string $niveauClasse,
         string $titreSousChapitre,
         string $bloomLevel,
+        ?int $idSousChapitre = null,
     ): string {
         return $this->build(self::STRATEGY_SUBCHAPTER_BLOOM, [
             'matiere' => $matiere,
             'niveau' => $niveauClasse,
             'noms_sous_chapitres' => $titreSousChapitre,
             'niveau_bloom' => $bloomLevel,
+            'id_sous_chapitre' => $idSousChapitre !== null ? (string) $idSousChapitre : '',
         ]);
     }
 
@@ -183,7 +187,7 @@ LANGUE : Tout le contenu (cours, questions, réponses, indices, explications) DO
 PÉRIMÈTRE DE CET APPEL :
 - Domaine : [MATIÈRE]
 - Niveau classe : [NIVEAU]
-- Sous-chapitres concernés : [NOMS_SOUS_CHAPITRES]
+- Sous-chapitres concernés (format "id : titre", renvoyer l'id tel quel dans le JSON) : [NOMS_SOUS_CHAPITRES]
 - Niveau de Bloom à générer UNIQUEMENT : [NIVEAU_BLOOM]
 - Types H5P autorisés pour ce niveau : [TYPES_H5P_AUTORISES]
 
@@ -193,7 +197,7 @@ TEXT
 
 Pour ce niveau Bloom uniquement, génère 2 sous-niveaux de difficulté : "débutant" (5 exercices) et "intermédiaire" (5 exercices). Chaque exercice DOIT avoir la structure { "type": "...", "level": "...", "content": { ... } } — les données H5P dans la clé "content" uniquement (pas "params").
 
-Renvoie UNIQUEMENT un objet JSON valide avec la racine "subchapters". Chaque élément doit contenir title, slug, level, et "bloom_levels" avec UNIQUEMENT la clé [NIVEAU_BLOOM] : "débutant": [ 5 exercices ], "intermédiaire": [ 5 exercices ].
+Renvoie UNIQUEMENT un objet JSON valide avec la racine "subchapters". Chaque élément doit contenir id (l'entier fourni pour ce sous-chapitre), title, slug, level, et "bloom_levels" avec UNIQUEMENT la clé [NIVEAU_BLOOM] : "débutant": [ 5 exercices ], "intermédiaire": [ 5 exercices ].
 TEXT;
     }
 
@@ -208,6 +212,7 @@ PÉRIMÈTRE :
 - Domaine : [MATIÈRE]
 - Niveau classe : [NIVEAU]
 - Sous-chapitre (un seul) : [NOMS_SOUS_CHAPITRES]
+- Id du sous-chapitre (à renvoyer tel quel dans le JSON) : [ID_SOUS_CHAPITRE]
 - Niveau Bloom : [NIVEAU_BLOOM]
 - Types H5P autorisés : [TYPES_H5P_AUTORISES]
 
@@ -217,7 +222,7 @@ TEXT
 
 Génère 5 exercices "débutant" et 5 exercices "intermédiaire" pour ce niveau Bloom. Chaque exercice DOIT avoir la structure { "type": "...", "level": "...", "content": { ... } } — les données H5P dans la clé "content" uniquement (pas "params").
 
-Renvoie UNIQUEMENT un JSON valide avec la racine "subchapters" contenant un tableau d'un seul élément avec : title, slug, level, et "bloom_levels" contenant uniquement le niveau [NIVEAU_BLOOM] avec "débutant": [ 5 exercices ] et "intermédiaire": [ 5 exercices ].
+Renvoie UNIQUEMENT un JSON valide avec la racine "subchapters" contenant un tableau d'un seul élément avec : id (valeur [ID_SOUS_CHAPITRE]), title, slug, level, et "bloom_levels" contenant uniquement le niveau [NIVEAU_BLOOM] avec "débutant": [ 5 exercices ] et "intermédiaire": [ 5 exercices ].
 TEXT;
     }
 
