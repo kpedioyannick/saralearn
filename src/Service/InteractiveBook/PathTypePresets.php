@@ -38,6 +38,20 @@ final class PathTypePresets
     }
 
     /**
+     * Presets utilisés par le Manager pour l’instant : remember, understand et apply uniquement
+     * (remember+understand, understand+apply). Exclut apply+analyze et analyze+evaluate.
+     *
+     * @return list<list<string>>
+     */
+    public static function presetsForManager(): array
+    {
+        return [
+            self::PRESET_REMEMBER_UNDERSTAND,
+            self::PRESET_UNDERSTAND_APPLY,
+        ];
+    }
+
+    /**
      * Retourne le preset dont les types correspondent à la clé (ex. "remember,understand").
      * Utilisé par le Manager pour appeler la commande livres preset par preset.
      *

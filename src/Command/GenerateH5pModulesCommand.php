@@ -412,6 +412,7 @@ final class GenerateH5pModulesCommand extends Command
         $data = $this->extractJson($raw);
         if ($data === null) {
             $io->error('Réponse IA : JSON invalide.');
+            file_put_contents('/tmp/invalid_json.txt', $raw);
             return 0;
         }
         $subchaptersData = $data['subchapters'] ?? [];

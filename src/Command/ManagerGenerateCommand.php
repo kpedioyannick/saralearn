@@ -23,7 +23,8 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 )]
 final class ManagerGenerateCommand extends Command
 {
-    private const BLOOM_LEVELS = ['remember', 'understand', 'apply', 'analyze', 'evaluate'];
+    /** Niveaux Bloom traités par le Manager pour l’instant (remember, understand, apply uniquement). */
+    private const BLOOM_LEVELS = ['remember', 'understand', 'apply'];
 
     public function __construct(
         private readonly SubchapterRepository $subchapterRepository,
@@ -62,13 +63,14 @@ final class ManagerGenerateCommand extends Command
         if ($dryRun) {
             $baseArgs['--dry-run'] = true;
         }
+        $argsWithProvider = $baseArgs + ['--provider' => 'deepseek'];
         $exit = Command::SUCCESS;
 
-        // Phase 1 : cours — uniquement les sous-chapitres sans cours
+        // Phase 1 : cours — uniquement les sous-chapitres sans cours (provider = deepseek)
         $needCourse = $this->subchaptersWithoutCourse($subchaptersWithContext);
         $io->section(sprintf('Phase 1 : Cours (Reveal.js + mindmap) — %d à générer', count($needCourse)));
         foreach ($needCourse as $item) {
-            $code = $this->runCommand($output, 'app:generate-course-mindmap', $baseArgs + [
+            $code = $this->runCommand($output, 'app:generate-course-mindmap', $argsWithProvider + [
                 '--classroom' => $item['classroom'],
                 '--subject' => $item['subject'],
                 '--subchapter' => (string) $item['subchapter']->getId(),
@@ -78,11 +80,11 @@ final class ManagerGenerateCommand extends Command
             }
         }
 
-        // Phase 2 : modules — par sous-chapitre, uniquement les niveaux Bloom qui n'ont pas encore de module
+        // Phase 2 : modules — par sous-chapitre (provider = deepseek, pas curl)
         $needModules = $this->subchaptersWithMissingBloomLevels($subchaptersWithContext);
         $io->section(sprintf('Phase 2 : Modules H5P — %d sous-chapitre(s) avec niveaux Bloom manquants', count($needModules)));
         foreach ($needModules as $item) {
-            $code = $this->runCommand($output, 'app:h5p:generate-modules', $baseArgs + [
+            $code = $this->runCommand($output, 'app:h5p:generate-modules', $argsWithProvider + [
                 '--classroom' => $item['classroom'],
                 '--subject' => $item['subject'],
                 '--subchapter' => (string) $item['subchapter']->getId(),
@@ -195,7 +197,7 @@ final class ManagerGenerateCommand extends Command
     private function subchapterPresetsWithoutPath(array $items): array
     {
         $out = [];
-        $presets = PathTypePresets::all();
+        $presets = PathTypePresets::presetsForManager(); // remember+understand, understand+apply uniquement
         foreach ($items as $item) {
             $subchapter = $item['subchapter'];
             foreach ($presets as $types) {
