@@ -16,6 +16,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
+use Symfony\Component\Process\Process;
 
 #[AsCommand(
     name: 'app:manager:generate',
@@ -38,6 +39,7 @@ final class ManagerGenerateCommand extends Command
     {
         $this->addOption('dry-run', null, InputOption::VALUE_NONE, 'Ne pas persister (transmis aux commandes appelées)');
         $this->addOption('batch-size', 'b', InputOption::VALUE_REQUIRED, 'Nombre d\'éléments par phase par round (cours, puis modules, puis livres)', '20');
+        $this->addOption('concurrency', 'j', InputOption::VALUE_REQUIRED, 'Nombre de commandes à lancer en parallèle (1 = séquentiel)', '1');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -56,7 +58,8 @@ final class ManagerGenerateCommand extends Command
         }
 
         $batchSize = max(1, (int) $input->getOption('batch-size'));
-        $io->title(sprintf('Manager : %d sous-chapitre(s) — lots de %d (cours / modules / livres) par round', count($subchaptersWithContext), $batchSize));
+        $concurrency = max(1, (int) $input->getOption('concurrency'));
+        $io->title(sprintf('Manager : %d sous-chapitre(s) — lots de %d, concurrence %d', count($subchaptersWithContext), $batchSize, $concurrency));
 
         $baseArgs = [
             '--no-interaction' => true,
@@ -93,42 +96,49 @@ final class ManagerGenerateCommand extends Command
 
             $io->section(sprintf('Round %d — %d cours, %d modules, %d livres', $round, count($batchCourse), count($batchModules), count($batchBooks)));
 
+            $tasksCourse = [];
             foreach ($batchCourse as $item) {
-                $code = $this->runCommand($output, 'app:generate-course-mindmap', $argsWithProvider + [
+                $tasksCourse[] = ['app:generate-course-mindmap', $argsWithProvider + [
                     '--classroom' => $item['classroom'],
                     '--subject' => $item['subject'],
                     '--subchapter' => (string) $item['subchapter']->getId(),
-                ]);
-                if ($code !== Command::SUCCESS) {
-                    $exit = $code;
-                }
+                ]];
             }
-            $offsetCourse += count($batchCourse);
+            $code = $this->runTasks($output, $tasksCourse, $concurrency);
+            if ($code !== Command::SUCCESS) {
+                $exit = $code;
+            }
 
+            $tasksModules = [];
             foreach ($batchModules as $item) {
-                $code = $this->runCommand($output, 'app:h5p:generate-modules', $argsWithProvider + [
+                $tasksModules[] = ['app:h5p:generate-modules', $argsWithProvider + [
                     '--classroom' => $item['classroom'],
                     '--subject' => $item['subject'],
                     '--subchapter' => (string) $item['subchapter']->getId(),
                     '--bloom-types' => implode(',', $item['missing_bloom_levels']),
-                ]);
-                if ($code !== Command::SUCCESS) {
-                    $exit = $code;
-                }
+                ]];
             }
-            $offsetModules += count($batchModules);
+            $code = $this->runTasks($output, $tasksModules, $concurrency);
+            if ($code !== Command::SUCCESS) {
+                $exit = $code;
+            }
 
+            $tasksBooks = [];
             foreach ($batchBooks as $item) {
-                $code = $this->runCommand($output, 'app:h5p:generate-interactive-books', $baseArgs + [
+                $tasksBooks[] = ['app:h5p:generate-interactive-books', $baseArgs + [
                     '--classroom' => $item['classroom'],
                     '--subject' => $item['subject'],
                     '--subchapter' => (string) $item['subchapter']->getId(),
                     '--preset' => $item['preset_key'],
-                ]);
-                if ($code !== Command::SUCCESS) {
-                    $exit = $code;
-                }
+                ]];
             }
+            $code = $this->runTasks($output, $tasksBooks, $concurrency);
+            if ($code !== Command::SUCCESS) {
+                $exit = $code;
+            }
+
+            $offsetCourse += count($batchCourse);
+            $offsetModules += count($batchModules);
             $offsetBooks += count($batchBooks);
         }
 
@@ -229,6 +239,73 @@ final class ManagerGenerateCommand extends Command
             }
         }
         return $out;
+    }
+
+    /**
+     * Exécute une liste de tâches (command name + args). Si concurrency > 1, lance jusqu'à N processus en parallèle.
+     * @param array<int, array{0: string, 1: array<string, mixed>}> $tasks
+     */
+    private function runTasks(OutputInterface $output, array $tasks, int $concurrency): int
+    {
+        if ($tasks === []) {
+            return Command::SUCCESS;
+        }
+        if ($concurrency <= 1) {
+            $exit = Command::SUCCESS;
+            foreach ($tasks as [$commandName, $args]) {
+                $code = $this->runCommand($output, $commandName, $args);
+                if ($code !== Command::SUCCESS) {
+                    $exit = $code;
+                }
+            }
+            return $exit;
+        }
+        $chunks = array_chunk($tasks, $concurrency);
+        $exit = Command::SUCCESS;
+        foreach ($chunks as $chunk) {
+            $processes = [];
+            foreach ($chunk as [$commandName, $args]) {
+                $processes[] = $this->createProcess($commandName, $args);
+            }
+            foreach ($processes as $p) {
+                $p->start();
+            }
+            foreach ($processes as $p) {
+                $p->wait();
+                if ($p->getExitCode() !== null && $p->getExitCode() !== 0) {
+                    $exit = Command::FAILURE;
+                }
+                $out = $p->getOutput();
+                if ($out !== '') {
+                    $output->write($out);
+                }
+                $err = $p->getErrorOutput();
+                if ($err !== '') {
+                    if (method_exists($output, 'getErrorOutput')) {
+                        $output->getErrorOutput()->write($err);
+                    } else {
+                        $output->write($err);
+                    }
+                }
+            }
+        }
+        return $exit;
+    }
+
+    private function createProcess(string $commandName, array $args): Process
+    {
+        $console = getcwd() . '/bin/console';
+        $php = (\defined('PHP_BINARY') && \PHP_BINARY !== '') ? \PHP_BINARY : 'php';
+        $cmd = [$php, $console, $commandName];
+        foreach ($args as $k => $v) {
+            if ($v === true) {
+                $cmd[] = $k;
+            } else {
+                $cmd[] = $k . '=' . $v;
+            }
+        }
+
+        return new Process($cmd, getcwd(), null, null, null);
     }
 
     private function runCommand(OutputInterface $output, string $commandName, array $args): int
