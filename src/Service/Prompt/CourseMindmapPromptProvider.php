@@ -11,8 +11,8 @@ namespace App\Service\Prompt;
 final class CourseMindmapPromptProvider
 {
     /**
-     * Construit le prompt pour générer un cours Reveal.js + mindmap.
-     * Réponse attendue : { "course": { "title", "description", "slides": [...] }, "mindmap": { "content": "PlantUML", "text_to_audio": "..." } }
+     * Construit le prompt pour générer un cours Reveal.js (sans mindmap).
+     * Réponse attendue : { "course": { "title", "description", "slides": [...] } }
      */
     public function buildForCourseRevealAndMindmap(string $chapitre, string $niveauClasse): string
     {
@@ -20,7 +20,9 @@ final class CourseMindmapPromptProvider
             '[CHAPITRE À INDIQUER]' => $chapitre,
             '[CLASSE À INDIQUER, ex: CP, CE1, 6ème, Seconde...]' => $niveauClasse,
         ];
-        return str_replace(array_keys($replace), array_values($replace), $this->getRevealJsTemplate()) . "\n\n" . $this->getMindmapInstruction();
+        return str_replace(array_keys($replace), array_values($replace), $this->getRevealJsTemplate());
+        // Mindmap désactivé : ne plus demander à l'IA de générer la clé "mindmap"
+        // . "\n\n" . $this->getMindmapInstruction();
     }
 
     private function getRevealJsTemplate(): string
@@ -67,19 +69,21 @@ Le cours doit être :
 - Adapté à la classe , au chapitre
 - Les slides seront visibles sur un petit écran : donc 
 les slides ne doivent pas etre trop longs pas de gros titre, pas de grose taille et de police
-Génère maintenant le JSON complet.
+
+Renvoie UN SEUL objet JSON avec la clé "course" (objet avec title, description, slides). Génère maintenant le JSON complet.
 TEXT;
     }
 
-    private function getMindmapInstruction(): string
-    {
-        return <<<'TEXT'
-En plus du cours Reveal.js ci-dessus, ajoute une clé "mindmap" à la racine du JSON avec :
-{ "content": "code PlantUML (@startmindmap ... @endmindmap)", "text_to_audio": "texte pour synthèse vocale décrivant la mind map" }
-
-ATTENTION: Le code PlantUML dans "content" doit être écrit sur une seule ligne. Utilise le littéral \n (un antislash suivi d'un n) pour marquer les retours à la ligne, ne mets JAMAIS de vrais retours à la ligne dans la chaîne JSON.
-
-Renvoie UN SEUL objet JSON avec les clés "course" (objet avec title, description, slides) et "mindmap" (objet avec content, text_to_audio).
-TEXT;
-    }
+    /** Instruction mindmap désactivée (génération et sauvegarde non utilisées). */
+    // private function getMindmapInstruction(): string
+    // {
+    //     return <<<'TEXT'
+    // En plus du cours Reveal.js ci-dessus, ajoute une clé "mindmap" à la racine du JSON avec :
+    // { "content": "code PlantUML (@startmindmap ... @endmindmap)", "text_to_audio": "texte pour synthèse vocale décrivant la mind map" }
+    //
+    // ATTENTION: Le code PlantUML dans "content" doit être écrit sur une seule ligne. Utilise le littéral \n (un antislash suivi d'un n) pour marquer les retours à la ligne, ne mets JAMAIS de vrais retours à la ligne dans la chaîne JSON.
+    //
+    // Renvoie UN SEUL objet JSON avec les clés "course" (objet avec title, description, slides) et "mindmap" (objet avec content, text_to_audio).
+    // TEXT;
+    // }
 }

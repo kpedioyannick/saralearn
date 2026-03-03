@@ -109,7 +109,7 @@ final class GenerateCourseMindmapCommand extends Command
             $chapitre = $item['chapitre'];
             $niveau = $item['niveau'];
             $prompt = $this->promptProvider->buildForCourseRevealAndMindmap($chapitre, $niveau);
-            $io->text(sprintf('Génération cours + mindmap : "%s"…', $chapitre));
+            $io->text(sprintf('Génération cours : "%s"…', $chapitre));
             $this->logger->info('API input', ['prompt' => $prompt]);
             try {
                 $raw = $generate($prompt);
@@ -269,13 +269,14 @@ final class GenerateCourseMindmapCommand extends Command
         if (is_array($course) && isset($course['title'], $course['slides'])) {
             $entity->setCourse($course);
         }
-        $mindmap = $data['mindmap'] ?? null;
-        if (is_array($mindmap) && (isset($mindmap['content']) || isset($mindmap['text_to_audio']))) {
-            $entity->setMindmap([
-                'content' => (string) ($mindmap['content'] ?? ''),
-                'text_to_audio' => (string) ($mindmap['text_to_audio'] ?? ''),
-            ]);
-        }
+        // Génération et sauvegarde mindmap désactivées
+        // $mindmap = $data['mindmap'] ?? null;
+        // if (is_array($mindmap) && (isset($mindmap['content']) || isset($mindmap['text_to_audio']))) {
+        //     $entity->setMindmap([
+        //         'content' => (string) ($mindmap['content'] ?? ''),
+        //         'text_to_audio' => (string) ($mindmap['text_to_audio'] ?? ''),
+        //     ]);
+        // }
     }
 
     private function extractJson(string $raw): ?array
