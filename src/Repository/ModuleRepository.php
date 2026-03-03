@@ -50,4 +50,52 @@ class ModuleRepository extends ServiceEntityRepository
             ->addOrderBy('m.id', 'ASC');
         return $qb->getQuery()->getResult();
     }
+
+    /**
+     * Pour une liste de sous-chapitres, retourne les paires (subchapter_id, bloom_level) présentes.
+     * Utile pour des stats : combien de sous-chapitres ont au moins un module par niveau Bloom.
+     *
+     * @param list<int> $subchapterIds
+     * @return array<int, list<string>> subchapterId => liste des bloom_level présents
+     */
+    public function getSubchapterIdsByBloomLevel(array $subchapterIds): array
+    {
+        if ($subchapterIds === []) {
+            return [];
+        }
+        $qb = $this->createQueryBuilder('m')
+            ->select('s.id AS subchapterId', 'm.bloomLevel')
+            ->join('m.subchapter', 's')
+            ->andWhere('s.id IN (:ids)')
+            ->setParameter('ids', $subchapterIds)
+            ->groupBy('s.id', 'm.bloomLevel');
+        $rows = $qb->getQuery()->getResult();
+        $bySubchapter = [];
+        foreach ($rows as $row) {
+            $id = (int) $row['subchapterId'];
+            if (!isset($bySubchapter[$id])) {
+                $bySubchapter[$id] = [];
+            }
+            $bySubchapter[$id][] = $row['bloomLevel'];
+        }
+        return $bySubchapter;
+    }
+
+    /**
+     * Nombre total de modules pour les sous-chapitres donnés.
+     *
+     * @param list<int> $subchapterIds
+     */
+    public function countBySubchapterIds(array $subchapterIds): int
+    {
+        if ($subchapterIds === []) {
+            return 0;
+        }
+        return (int) $this->createQueryBuilder('m')
+            ->select('COUNT(m.id)')
+            ->andWhere('m.subchapter IN (:ids)')
+            ->setParameter('ids', $subchapterIds)
+            ->getQuery()
+            ->getSingleScalarResult();
+    }
 }

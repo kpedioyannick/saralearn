@@ -138,3 +138,8 @@ Attention le manager peut etre coupé et lancer à tout moment mais doit recrer 
 1. Git Pusher sur le serveur 
 2. Lancer les commandes 
 3. Vérifier les crédits 
+# Tous les sous-chapitres
+php bin/console app:stats:subchapters
+
+# Même périmètre que le Manager (type "Cours" + contexte classe/matière/chapitre)
+php bin/console app:stats:subchapters --course-type-only --with-context-only

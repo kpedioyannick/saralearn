@@ -62,4 +62,27 @@ class PathRepository extends ServiceEntityRepository
             ->getQuery()
             ->getResult();
     }
+
+    /**
+     * Paths (livres interactifs) pour les sous-chapitres donnés.
+     * Utile pour des stats : combien de sous-chapitres ont un livre par preset.
+     *
+     * @param list<int> $subchapterIds
+     * @return Path[]
+     */
+    public function findBySubchapterIds(array $subchapterIds): array
+    {
+        if ($subchapterIds === []) {
+            return [];
+        }
+        return $this->createQueryBuilder('p')
+            ->andWhere('p.category = :category')
+            ->andWhere('p.subchapter IN (:ids)')
+            ->setParameter('category', Path::CATEGORY_H5P_INTERACTIVE_BOOK)
+            ->setParameter('ids', $subchapterIds)
+            ->orderBy('p.subchapter', 'ASC')
+            ->addOrderBy('p.id', 'ASC')
+            ->getQuery()
+            ->getResult();
+    }
 }
