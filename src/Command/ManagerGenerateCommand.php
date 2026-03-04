@@ -73,28 +73,29 @@ final class ManagerGenerateCommand extends Command
 
         $needCourse = $this->subchaptersWithoutCourse($subchaptersWithContext);
         $needModules = $this->subchaptersWithMissingBloomLevels($subchaptersWithContext);
-        $needBooks = $this->subchapterPresetsWithoutPath($subchaptersWithContext);
+        // Livres interactifs désactivés
+        // $needBooks = $this->subchapterPresetsWithoutPath($subchaptersWithContext);
         $totalCourse = count($needCourse);
         $totalModules = count($needModules);
-        $totalBooks = count($needBooks);
-        $io->text(sprintf('À générer : %d cours, %d modules (sous-chapitres), %d livres.', $totalCourse, $totalModules, $totalBooks));
+        // $totalBooks = count($needBooks);
+        $io->text(sprintf('À générer : %d cours, %d modules (sous-chapitres).', $totalCourse, $totalModules));
 
         $round = 0;
         $offsetCourse = 0;
         $offsetModules = 0;
-        $offsetBooks = 0;
+        // $offsetBooks = 0;
 
-        while ($offsetCourse < $totalCourse || $offsetModules < $totalModules || $offsetBooks < $totalBooks) {
+        while ($offsetCourse < $totalCourse || $offsetModules < $totalModules) {
             $round++;
             $batchCourse = array_slice($needCourse, $offsetCourse, $batchSize);
             $batchModules = array_slice($needModules, $offsetModules, $batchSize);
-            $batchBooks = array_slice($needBooks, $offsetBooks, $batchSize);
+            // $batchBooks = array_slice($needBooks, $offsetBooks, $batchSize);
 
-            if ($batchCourse === [] && $batchModules === [] && $batchBooks === []) {
+            if ($batchCourse === [] && $batchModules === []) {
                 break;
             }
 
-            $io->section(sprintf('Round %d — %d cours, %d modules, %d livres', $round, count($batchCourse), count($batchModules), count($batchBooks)));
+            $io->section(sprintf('Round %d — %d cours, %d modules', $round, count($batchCourse), count($batchModules)));
 
             $tasksCourse = [];
             foreach ($batchCourse as $item) {
@@ -123,23 +124,24 @@ final class ManagerGenerateCommand extends Command
                 $exit = $code;
             }
 
-            $tasksBooks = [];
-            foreach ($batchBooks as $item) {
-                $tasksBooks[] = ['app:h5p:generate-interactive-books', $baseArgs + [
-                    '--classroom' => $item['classroom'],
-                    '--subject' => $item['subject'],
-                    '--subchapter' => (string) $item['subchapter']->getId(),
-                    '--preset' => $item['preset_key'],
-                ]];
-            }
-            $code = $this->runTasks($output, $tasksBooks, $concurrency);
-            if ($code !== Command::SUCCESS) {
-                $exit = $code;
-            }
+            // Commande livres interactifs désactivée
+            // $tasksBooks = [];
+            // foreach ($batchBooks as $item) {
+            //     $tasksBooks[] = ['app:h5p:generate-interactive-books', $baseArgs + [
+            //         '--classroom' => $item['classroom'],
+            //         '--subject' => $item['subject'],
+            //         '--subchapter' => (string) $item['subchapter']->getId(),
+            //         '--preset' => $item['preset_key'],
+            //     ]];
+            // }
+            // $code = $this->runTasks($output, $tasksBooks, $concurrency);
+            // if ($code !== Command::SUCCESS) {
+            //     $exit = $code;
+            // }
 
             $offsetCourse += count($batchCourse);
             $offsetModules += count($batchModules);
-            $offsetBooks += count($batchBooks);
+            // $offsetBooks += count($batchBooks);
         }
 
         $io->success('Manager terminé.');
