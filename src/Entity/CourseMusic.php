@@ -33,6 +33,9 @@ class CourseMusic
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $title = null;
 
+    #[ORM\Column(length: 2048, nullable: true)]
+    private ?string $style = null;
+
     #[ORM\Column(type: Types::FLOAT, nullable: true)]
     private ?float $duration = null;
 
@@ -101,6 +104,17 @@ class CourseMusic
     public function setTitle(?string $title): static
     {
         $this->title = $title;
+        return $this;
+    }
+
+    public function getStyle(): ?string
+    {
+        return $this->style;
+    }
+
+    public function setStyle(?string $style): static
+    {
+        $this->style = $style;
         return $this;
     }
 

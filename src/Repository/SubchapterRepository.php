@@ -37,4 +37,25 @@ class SubchapterRepository extends ServiceEntityRepository
             ->orderBy('s.id', 'ASC');
         return $qb->getQuery()->getResult();
     }
+
+    /**
+     * Sous-chapitres avec contexte qui n'ont pas encore de CourseMusic (donc pas de prompt enregistré).
+     * Pour l'API liste : ne retourner que les sous-chapitres à remplir.
+     *
+     * @return list<Subchapter>
+     */
+    public function findWithContextWithoutCourseMusicOrderById(int $limit = 50): array
+    {
+        return $this->createQueryBuilder('s')
+            ->join('s.chapter', 'c')
+            ->join('c.subject', 'subj')
+            ->join('subj.classroom', 'cl')
+            ->andWhere('s.type = :type')
+            ->andWhere('SIZE(s.courseMusics) = 0')
+            ->setParameter('type', Subchapter::TYPE_COURS)
+            ->orderBy('s.id', 'ASC')
+            ->setMaxResults($limit)
+            ->getQuery()
+            ->getResult();
+    }
 }
