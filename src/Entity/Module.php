@@ -21,7 +21,7 @@ class Module
     #[ORM\JoinColumn(nullable: false)]
     private ?Subchapter $subchapter = null;
 
-    #[ORM\Column(length: 512)]
+    #[ORM\Column(length: 1024)]
     private ?string $title = null;
 
     #[ORM\ManyToOne]

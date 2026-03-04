@@ -500,7 +500,8 @@ final class GenerateH5pModulesCommand extends Command
                         $module = new Module();
                         $module->setSubchapter($subchapter);
                         $module->setChapter($chapter);
-                        $module->setTitle(sprintf('%s - %s %s', $subchapter->getTitle(), $diffValue, $index + 1));
+                        $fullTitle = sprintf('%s - %s %s', $subchapter->getTitle(), $diffValue, $index + 1);
+                        $module->setTitle(mb_substr($fullTitle, 0, 1024));
                         $module->setBloomLevel($bloomLevel);
                         $module->setDifficulty($diffValue);
                         $module->setH5pType((string) $type);

@@ -197,7 +197,7 @@ TEXT
 
 Pour ce niveau Bloom uniquement, génère 2 sous-niveaux de difficulté : "débutant" (5 exercices) et "intermédiaire" (5 exercices). Chaque exercice DOIT avoir la structure { "type": "...", "level": "...", "content": { ... } } — les données H5P dans la clé "content" uniquement (pas "params").
 
-Renvoie UNIQUEMENT un objet JSON valide avec la racine "subchapters". Chaque élément doit contenir id (l'entier fourni pour ce sous-chapitre), title, slug, level, et "bloom_levels" avec UNIQUEMENT la clé [NIVEAU_BLOOM] : "débutant": [ 5 exercices ], "intermédiaire": [ 5 exercices ].
+Renvoie UNIQUEMENT un objet JSON valide avec la racine "subchapters". Chaque élément doit contenir id (l'entier fourni pour ce sous-chapitre), title (chaîne, maximum 1000 caractères), slug, level, et "bloom_levels" avec UNIQUEMENT la clé [NIVEAU_BLOOM] : "débutant": [ 5 exercices ], "intermédiaire": [ 5 exercices ].
 TEXT;
     }
 
@@ -222,7 +222,7 @@ TEXT
 
 Génère 5 exercices "débutant" et 5 exercices "intermédiaire" pour ce niveau Bloom. Chaque exercice DOIT avoir la structure { "type": "...", "level": "...", "content": { ... } } — les données H5P dans la clé "content" uniquement (pas "params").
 
-Renvoie UNIQUEMENT un JSON valide avec la racine "subchapters" contenant un tableau d'un seul élément avec : id (valeur [ID_SOUS_CHAPITRE]), title, slug, level, et "bloom_levels" contenant uniquement le niveau [NIVEAU_BLOOM] avec "débutant": [ 5 exercices ] et "intermédiaire": [ 5 exercices ].
+Renvoie UNIQUEMENT un JSON valide avec la racine "subchapters" contenant un tableau d'un seul élément avec : id (valeur [ID_SOUS_CHAPITRE]), title (chaîne, maximum 1000 caractères), slug, level, et "bloom_levels" contenant uniquement le niveau [NIVEAU_BLOOM] avec "débutant": [ 5 exercices ] et "intermédiaire": [ 5 exercices ].
 TEXT;
     }
 
