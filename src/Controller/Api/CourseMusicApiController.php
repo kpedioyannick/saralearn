@@ -15,8 +15,47 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
 /**
- * API 1 : POST /api/subchapters/list — retourne des sous-chapitres sans CourseMusic (sans prompt enregistré).
- * API 2 : POST /api/course-music — enregistre ou met à jour une CourseMusic.
+ * API Course Music — sous-chapitres sans prompt et enregistrement CourseMusic.
+ *
+ * Toutes les routes attendent un body JSON et renvoient du JSON.
+ * Content-Type : application/json.
+ *
+ * ---
+ *
+ * POST /api/subchapters/list
+ * Retourne les sous-chapitres qui n'ont pas encore de CourseMusic (candidats pour remplir un prompt).
+ *
+ * Request body (JSON) :
+ *   - number (int, optionnel) : nombre de sous-chapitres à retourner (1–500, défaut 50).
+ *
+ * Response 200 :
+ *   { "items": [ { "id", "subchapterTitle", "chapterTitle", "classroom", "subject" }, ... ] }
+ *
+ * Exemple : POST /api/subchapters/list  { "number": 10 }
+ *
+ * ---
+ *
+ * POST /api/course-music
+ * Crée ou met à jour une CourseMusic pour un sous-chapitre (title, prompt, style).
+ *
+ * Request body (JSON) :
+ *   - subchapterId (int, requis) : ID du sous-chapitre.
+ *   - title (string, optionnel) : titre de la musique / cours.
+ *   - prompt (string, optionnel) : prompt pour la génération (ex. Suno).
+ *   - style (string, optionnel) : style musical.
+ *
+ * Response 201 : { "id": <id de la CourseMusic> }
+ * Response 400 : { "error": "..." }  (body invalide ou subchapterId manquant)
+ * Response 404 : { "error": "Sous-chapitre introuvable." }
+ *
+ * Exemple : POST /api/course-music  { "subchapterId": 42, "title": "Intro", "prompt": "...", "style": "pop" }
+ *
+ * ---
+ *
+ * GET /api/course-music/status
+ * Statut : nombre total de sous-chapitres et nombre de sous-chapitres avec prompt (aucune liste).
+ *
+ * Response 200 : { "totalSubchapters": 123, "subchaptersWithPromptCount": 45 }
  */
 #[Route('/api')]
 final class CourseMusicApiController extends AbstractController
@@ -29,8 +68,9 @@ final class CourseMusicApiController extends AbstractController
     }
 
     /**
-     * Liste de sous-chapitres qui n'ont pas encore de CourseMusic (pas de prompt enregistré).
-     * POST body : { "number": 10 } (nombre de résultats à retourner).
+     * Liste de sous-chapitres sans CourseMusic.
+     *
+     * Body : { "number": 10 }. Réponse : { "items": [ { id, subchapterTitle, chapterTitle, classroom, subject }, ... ] }
      */
     #[Route('/subchapters/list', name: 'api_subchapters_list', methods: ['POST'])]
     public function subchaptersList(Request $request): JsonResponse
@@ -57,8 +97,9 @@ final class CourseMusicApiController extends AbstractController
     }
 
     /**
-     * Enregistre ou met à jour une CourseMusic. Body : subchapterId, title, prompt, style.
-     * Si une CourseMusic existe déjà pour ce sous-chapitre, elle est mise à jour.
+     * Crée ou met à jour une CourseMusic.
+     *
+     * Body : subchapterId (requis), title, prompt, style (optionnels). 201 : { "id" }. 400/404 : { "error" }.
      */
     #[Route('/course-music', name: 'api_course_music_save', methods: ['POST'])]
     public function saveCourseMusic(Request $request): JsonResponse
@@ -98,5 +139,17 @@ final class CourseMusicApiController extends AbstractController
         $this->entityManager->flush();
 
         return $this->json(['id' => $courseMusic->getId()], Response::HTTP_CREATED);
+    }
+
+    /**
+     * Statut : uniquement les totaux (totalSubchapters, subchaptersWithPromptCount).
+     */
+    #[Route('/course-music/status', name: 'api_course_music_status', methods: ['GET'])]
+    public function status(): JsonResponse
+    {
+        return $this->json([
+            'totalSubchapters' => $this->subchapterRepository->countWithContext(),
+            'subchaptersWithPromptCount' => $this->subchapterRepository->countWithContextWithPrompt(),
+        ]);
     }
 }
