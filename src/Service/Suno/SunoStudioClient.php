@@ -91,9 +91,9 @@ final class SunoStudioClient
     }
 
     /**
-     * Récupère le statut d'un clip audio (et l'URL audio finale si complete).
+     * Récupère le statut d'un clip (feed v3) : audio, vidéo, cover, durée.
      *
-     * @return array{status: string, audio_url: ?string, duration: ?float}
+     * @return array{status: string, audio_url: ?string, duration: ?float, video_url: ?string, cover_url: ?string}
      */
     public function getClipStatus(string $clipId): array
     {
@@ -122,6 +122,8 @@ final class SunoStudioClient
                 'status' => 'unknown',
                 'audio_url' => null,
                 'duration' => null,
+                'video_url' => null,
+                'cover_url' => null,
             ];
         }
 
@@ -132,11 +134,23 @@ final class SunoStudioClient
         if (isset($clip['metadata']['duration'])) {
             $duration = (float) $clip['metadata']['duration'];
         }
+        $videoUrl = isset($clip['video_url']) && is_string($clip['video_url']) ? $clip['video_url'] : null;
+        if ($videoUrl !== null && $videoUrl === '') {
+            $videoUrl = null;
+        }
+        $coverUrl = null;
+        if (isset($clip['image_large_url']) && is_string($clip['image_large_url'])) {
+            $coverUrl = $clip['image_large_url'];
+        } elseif (isset($clip['image_url']) && is_string($clip['image_url'])) {
+            $coverUrl = $clip['image_url'];
+        }
 
         return [
             'status' => $status,
             'audio_url' => $audioUrl,
             'duration' => $duration,
+            'video_url' => $videoUrl,
+            'cover_url' => $coverUrl,
         ];
     }
 
@@ -147,7 +161,17 @@ final class SunoStudioClient
      */
     public function getVideoStatus(string $videoId): array
     {
-        $headers = $this->buildHeaders(false);
+        $headers = $this->buildHeaders(true);
+        $response = $this->httpClient->request(
+            'POST',
+            self::BASE_URL . '/api/video/generate/' . urlencode($videoId) . '/',
+            [
+                'headers' => $headers,
+                'timeout' => 20,
+            ],
+        );
+
+        $headers = $this->buildHeaders(true);
 
         $response = $this->httpClient->request(
             'GET',

@@ -36,18 +36,13 @@ final class ManageSunoCommand extends Command
     {
         $this
             ->addOption('limit', null, InputOption::VALUE_OPTIONAL, 'Nombre maximum de CourseMusic à traiter', null)
-            ->addOption('dry-run', null, InputOption::VALUE_NONE, 'Affiche ce qui serait fait sans appeler Suno')
-            ->addOption('video-id', null, InputOption::VALUE_OPTIONAL, 'Si renseigné, ne fait que récupérer le lien vidéo pour cet id Suno et s’arrête');
+            ->addOption('dry-run', null, InputOption::VALUE_NONE, 'Affiche ce qui serait fait sans appeler Suno');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $io = new SymfonyStyle($input, $output);
 
-        $videoId = $input->getOption('video-id');
-        if (is_string($videoId) && $videoId !== '') {
-            return $this->handleVideoStatus($videoId, $io);
-        }
 
         $dryRun = (bool) $input->getOption('dry-run');
         $limit = $input->getOption('limit');
@@ -68,22 +63,7 @@ final class ManageSunoCommand extends Command
 
         $io->title(sprintf('Gestion Suno (studio) : %d CourseMusic à traiter', count($toProcess)));
 
-        if ($dryRun) {
-            $io->note('Mode dry-run : aucun appel HTTP à Suno.');
-            foreach ($toProcess as $cm) {
-                \assert($cm instanceof CourseMusic);
-                $io->text(sprintf(
-                    '  - id=%d, subchapter=%d, title="%s", prompt=%d caractères (sunoTaskId=%s, audioUrl=%s)',
-                    $cm->getId(),
-                    $cm->getSubchapter()?->getId() ?? 0,
-                    (string) $cm->getTitle(),
-                    mb_strlen((string) $cm->getPrompt()),
-                    $cm->getSunoTaskId() ?? 'null',
-                    $cm->getAudioUrl() ?? 'null',
-                ));
-            }
-            return Command::SUCCESS;
-        }
+
 
         $success = 0;
         foreach ($toProcess as $courseMusic) {
@@ -102,18 +82,26 @@ final class ManageSunoCommand extends Command
                 $io->text('→ Appel Suno generate (v2-web)…');
                 $generation = $this->sunoStudioClient->createSong($prompt, $style, $title);
                 $taskId = $generation['task_id'];
-                $clipId = $generation['clip_ids'][0];
+                $clipIds = $generation['clip_ids'];
+                if ($clipIds === []) {
+                    throw new \RuntimeException('Aucun clip retourné par Suno.');
+                }
 
-                $courseMusic->setSunoTaskId($taskId);
+                $io->text(sprintf('   task_id=%s, %d clip(s): %s', $taskId, count($clipIds), implode(', ', $clipIds)));
+
+                foreach ($clipIds as $index => $clipId) {
+                    $cm = $index === 0
+                        ? $courseMusic
+                        : $this->createCourseMusicForClip($courseMusic, $taskId, $clipId, $prompt, $title, $style);
+                    $cm->setSunoTaskId($taskId);
+                    $cm->setSunoClipId($clipId);
+                    $this->entityManager->flush();
+                    $io->text(sprintf('   Clip %d/%d (%s)…', $index + 1, count($clipIds), $clipId));
+                    $this->waitForCompletion($cm, $clipId, $io);
+                    $success++;
+                }
                 $this->entityManager->flush();
-
-                $io->text(sprintf('   task_id=%s, clip_id=%s', $taskId, $clipId));
-
-                $this->waitForCompletion($courseMusic, $clipId, $io);
-                $this->entityManager->flush();
-
-                $io->success('OK : audioUrl mis à jour.');
-                $success++;
+                $io->success(sprintf('OK : %d CourseMusic (audioUrl/cover/video) mises à jour.', count($clipIds)));
             } catch (\Throwable $e) {
                 $io->error(sprintf('Erreur Suno pour CourseMusic #%d : %s', $courseMusic->getId(), $e->getMessage()));
             }
@@ -141,6 +129,11 @@ final class ManageSunoCommand extends Command
                 if ($duration !== null) {
                     $courseMusic->setDuration($duration);
                 }
+                $coverUrl = $status['cover_url'] ?? null;
+                if ($coverUrl !== null && $coverUrl !== '') {
+                    $courseMusic->setCoverUrl($coverUrl);
+                }
+                $this->handleVideoStatus($clipId, $courseMusic, $io);
                 return;
             }
 
@@ -154,18 +147,42 @@ final class ManageSunoCommand extends Command
         throw new \RuntimeException('Timeout attente Suno (clip non terminé).');
     }
 
-    private function handleVideoStatus(string $videoId, SymfonyStyle $io): int
+    /**
+     * Crée une nouvelle CourseMusic pour un clip additionnel (même subchapter, task_id, prompt/title/style).
+     */
+    private function createCourseMusicForClip(CourseMusic $template, string $taskId, string $clipId, string $prompt, ?string $title, ?string $style): CourseMusic
+    {
+        $subchapter = $template->getSubchapter();
+        if ($subchapter === null) {
+            throw new \RuntimeException('Subchapter manquant sur la CourseMusic source.');
+        }
+        $newCm = new CourseMusic();
+        $newCm->setSubchapter($subchapter);
+        $newCm->setPrompt($prompt);
+        $newCm->setTitle($title);
+        $newCm->setStyle($style);
+        $newCm->setSunoTaskId($taskId);
+        $newCm->setSunoClipId($clipId);
+        if ($template->getRelevance() !== null) {
+            $newCm->setRelevance($template->getRelevance());
+        }
+        $subchapter->addCourseMusic($newCm);
+        $this->entityManager->persist($newCm);
+        return $newCm;
+    }
+
+    private function handleVideoStatus(string $videoId, CourseMusic $courseMusic, SymfonyStyle $io): void
     {
         try {
             $status = $this->sunoStudioClient->getVideoStatus($videoId);
-            $io->title(sprintf('Statut vidéo Suno %s', $videoId));
-            $io->writeln(sprintf('status: %s', $status['status']));
-            $io->writeln(sprintf('video_url: %s', $status['video_url'] ?? 'null'));
-
-            return Command::SUCCESS;
+            if (($status['status'] ?? '') === 'complete') {
+                $url = $status['video_url'] ?? null;
+                if ($url !== null && $url !== '') {
+                    $courseMusic->setVideoUrl($url);
+                }
+            }
         } catch (\Throwable $e) {
-            $io->error(sprintf('Erreur lors de la récupération du statut vidéo : %s', $e->getMessage()));
-            return Command::FAILURE;
+            $io->warning(sprintf('   getVideoStatus: %s', $e->getMessage()));
         }
     }
 }

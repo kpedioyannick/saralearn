@@ -46,6 +46,8 @@ use Symfony\Component\Routing\Attribute\Route;
  *   - relevance (string, optionnel)
  *   - sunoTaskId (string, optionnel)
  *   - audioUrl (string, optionnel)
+ *   - videoUrl (string, optionnel)
+ *   - coverUrl (string, optionnel) : URL de la cover image Suno.
  *   - duration (float, optionnel) : durée en secondes.
  *
  * Response 201 : { "id": <id de la CourseMusic> }
@@ -103,7 +105,7 @@ final class CourseMusicApiController extends AbstractController
     /**
      * Crée ou met à jour une CourseMusic.
      *
-     * Body : subchapterId (requis), title, prompt, style, relevance, sunoTaskId, audioUrl, duration (optionnels). 201 : { "id" }. 400/404 : { "error" }.
+     * Body : subchapterId (requis), title, prompt, style, relevance, sunoTaskId, audioUrl, videoUrl, coverUrl, duration (optionnels). 201 : { "id" }. 400/404 : { "error" }.
      */
     #[Route('/course-music', name: 'api_course_music_save', methods: ['POST'])]
     public function saveCourseMusic(Request $request): JsonResponse
@@ -147,6 +149,12 @@ final class CourseMusicApiController extends AbstractController
         }
         if (array_key_exists('audioUrl', $body)) {
             $courseMusic->setAudioUrl(is_string($body['audioUrl']) ? $body['audioUrl'] : null);
+        }
+        if (array_key_exists('videoUrl', $body)) {
+            $courseMusic->setVideoUrl(is_string($body['videoUrl']) ? $body['videoUrl'] : null);
+        }
+        if (array_key_exists('coverUrl', $body)) {
+            $courseMusic->setCoverUrl(is_string($body['coverUrl']) ? $body['coverUrl'] : null);
         }
         if (array_key_exists('duration', $body)) {
             $courseMusic->setDuration(is_numeric($body['duration']) ? (float) $body['duration'] : null);

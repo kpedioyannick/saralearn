@@ -66,4 +66,37 @@ class CourseMusicRepository extends ServiceEntityRepository
             ->getQuery()
             ->getResult();
     }
+
+    /**
+     * CourseMusic avec audio (ou un id Suno) mais sans videoUrl, pour --fill-video.
+     *
+     * @return list<CourseMusic>
+     */
+    public function findWithAudioWithoutVideo(int $limit = 500): array
+    {
+        return $this->createQueryBuilder('cm')
+            ->where('cm.videoUrl IS NULL')
+            ->andWhere('cm.sunoTaskId IS NOT NULL OR cm.sunoClipId IS NOT NULL')
+            ->orderBy('cm.id', 'ASC')
+            ->setMaxResults($limit)
+            ->getQuery()
+            ->getResult();
+    }
+
+    /**
+     * CourseMusic avec sunoClipId mais sans videoUrl (pour ManageSunoVideoCommand).
+     *
+     * @return list<CourseMusic>
+     */
+    public function findWithClipIdWithoutVideo(int $limit = 500): array
+    {
+        return $this->createQueryBuilder('cm')
+            ->where('cm.sunoClipId IS NOT NULL')
+            ->andWhere('cm.sunoClipId <> \'\'')
+            ->andWhere('cm.videoUrl IS NULL')
+            ->orderBy('cm.id', 'ASC')
+            ->setMaxResults($limit)
+            ->getQuery()
+            ->getResult();
+    }
 }

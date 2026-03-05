@@ -41,10 +41,6 @@ services:
             $projectDir: '%kernel.project_dir%'
             $contentBasePath: 'h5p/server/content'
 
-    App\Service\Suno\SunoApiClient:
-        arguments:
-            $apiKey: '%suno_api_key%'
-
     App\Service\Suno\SunoStudioClient:
         arguments:
             $bearerToken: '%suno_studio_bearer%'

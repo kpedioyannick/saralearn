@@ -24,8 +24,19 @@ class CourseMusic
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $sunoTaskId = null;
 
+    /** ID du clip Suno (premier clip de la génération), utilisé pour getVideoStatus). */
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $sunoClipId = null;
+
     #[ORM\Column(length: 2048, nullable: true)]
     private ?string $audioUrl = null;
+
+    #[ORM\Column(length: 2048, nullable: true)]
+    private ?string $videoUrl = null;
+
+    /** Cover image URL (image_url / image_large_url renvoyée par Suno pour le clip). */
+    #[ORM\Column(length: 2048, nullable: true)]
+    private ?string $coverUrl = null;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
     private ?string $prompt = null;
@@ -78,6 +89,17 @@ class CourseMusic
         return $this;
     }
 
+    public function getSunoClipId(): ?string
+    {
+        return $this->sunoClipId;
+    }
+
+    public function setSunoClipId(?string $sunoClipId): static
+    {
+        $this->sunoClipId = $sunoClipId;
+        return $this;
+    }
+
     public function getAudioUrl(): ?string
     {
         return $this->audioUrl;
@@ -86,6 +108,28 @@ class CourseMusic
     public function setAudioUrl(?string $audioUrl): static
     {
         $this->audioUrl = $audioUrl;
+        return $this;
+    }
+
+    public function getVideoUrl(): ?string
+    {
+        return $this->videoUrl;
+    }
+
+    public function setVideoUrl(?string $videoUrl): static
+    {
+        $this->videoUrl = $videoUrl;
+        return $this;
+    }
+
+    public function getCoverUrl(): ?string
+    {
+        return $this->coverUrl;
+    }
+
+    public function setCoverUrl(?string $coverUrl): static
+    {
+        $this->coverUrl = $coverUrl;
         return $this;
     }
 
