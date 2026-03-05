@@ -36,19 +36,23 @@ use Symfony\Component\Routing\Attribute\Route;
  * ---
  *
  * POST /api/course-music
- * Crée ou met à jour une CourseMusic pour un sous-chapitre (title, prompt, style).
+ * Crée ou met à jour une CourseMusic. Tous les champs de l'entité (sauf id, subchapter, createdAt) sont éditables via le body.
  *
  * Request body (JSON) :
  *   - subchapterId (int, requis) : ID du sous-chapitre.
- *   - title (string, optionnel) : titre de la musique / cours.
- *   - prompt (string, optionnel) : prompt pour la génération (ex. Suno).
- *   - style (string, optionnel) : style musical.
+ *   - title (string, optionnel)
+ *   - prompt (string, optionnel)
+ *   - style (string, optionnel)
+ *   - relevance (string, optionnel)
+ *   - sunoTaskId (string, optionnel)
+ *   - audioUrl (string, optionnel)
+ *   - duration (float, optionnel) : durée en secondes.
  *
  * Response 201 : { "id": <id de la CourseMusic> }
  * Response 400 : { "error": "..." }  (body invalide ou subchapterId manquant)
  * Response 404 : { "error": "Sous-chapitre introuvable." }
  *
- * Exemple : POST /api/course-music  { "subchapterId": 42, "title": "Intro", "prompt": "...", "style": "pop" }
+ * Exemple : POST /api/course-music  { "subchapterId": 42, "title": "Intro", "prompt": "...", "style": "pop", "relevance": "high", "audioUrl": "https://...", "duration": 120.5 }
  *
  * ---
  *
@@ -99,7 +103,7 @@ final class CourseMusicApiController extends AbstractController
     /**
      * Crée ou met à jour une CourseMusic.
      *
-     * Body : subchapterId (requis), title, prompt, style (optionnels). 201 : { "id" }. 400/404 : { "error" }.
+     * Body : subchapterId (requis), title, prompt, style, relevance, sunoTaskId, audioUrl, duration (optionnels). 201 : { "id" }. 400/404 : { "error" }.
      */
     #[Route('/course-music', name: 'api_course_music_save', methods: ['POST'])]
     public function saveCourseMusic(Request $request): JsonResponse
@@ -134,6 +138,18 @@ final class CourseMusicApiController extends AbstractController
         }
         if (array_key_exists('style', $body)) {
             $courseMusic->setStyle(is_string($body['style']) ? $body['style'] : null);
+        }
+        if (array_key_exists('relevance', $body)) {
+            $courseMusic->setRelevance(is_string($body['relevance']) ? $body['relevance'] : null);
+        }
+        if (array_key_exists('sunoTaskId', $body)) {
+            $courseMusic->setSunoTaskId(is_string($body['sunoTaskId']) ? $body['sunoTaskId'] : null);
+        }
+        if (array_key_exists('audioUrl', $body)) {
+            $courseMusic->setAudioUrl(is_string($body['audioUrl']) ? $body['audioUrl'] : null);
+        }
+        if (array_key_exists('duration', $body)) {
+            $courseMusic->setDuration(is_numeric($body['duration']) ? (float) $body['duration'] : null);
         }
 
         $this->entityManager->flush();

@@ -47,4 +47,23 @@ class CourseMusicRepository extends ServiceEntityRepository
             ->getSingleColumnResult();
         return array_flip(array_map('intval', $result));
     }
+
+    /**
+     * CourseMusic avec un prompt mais sans tâche Suno ou sans URL audio.
+     *
+     * Utilisé par la commande de gestion Suno pour (re)lancer les générations
+     * uniquement là où il manque encore les données distantes.
+     *
+     * @return list<CourseMusic>
+     */
+    public function findNeedingSunoGeneration(): array
+    {
+        return $this->createQueryBuilder('cm')
+            ->where('cm.prompt IS NOT NULL')
+            ->andWhere('cm.prompt <> \'\'')
+            ->andWhere('cm.sunoTaskId IS NULL OR cm.audioUrl IS NULL')
+            ->orderBy('cm.id', 'ASC')
+            ->getQuery()
+            ->getResult();
+    }
 }

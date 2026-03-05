@@ -36,6 +36,10 @@ class CourseMusic
     #[ORM\Column(length: 2048, nullable: true)]
     private ?string $style = null;
 
+    /** Relevance of the music/prompt for the subchapter (e.g. high, medium, low or score). */
+    #[ORM\Column(length: 64, nullable: true)]
+    private ?string $relevance = null;
+
     #[ORM\Column(type: Types::FLOAT, nullable: true)]
     private ?float $duration = null;
 
@@ -115,6 +119,17 @@ class CourseMusic
     public function setStyle(?string $style): static
     {
         $this->style = $style;
+        return $this;
+    }
+
+    public function getRelevance(): ?string
+    {
+        return $this->relevance;
+    }
+
+    public function setRelevance(?string $relevance): static
+    {
+        $this->relevance = $relevance;
         return $this;
     }
 

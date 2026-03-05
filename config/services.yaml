@@ -21,6 +21,9 @@ parameters:
     content_generator_default_value: 'curl'
     content_generator_default: '%env(default:content_generator_default_value:CONTENT_GENERATOR_DEFAULT)%'
     suno_api_key: '%env(default:env_default_empty:SUNO_API_KEY)%'
+    suno_studio_bearer: '%env(default:env_default_empty:SUNO_STUDIO_BEARER)%'
+    suno_studio_browser_token: '%env(default:env_default_empty:SUNO_STUDIO_BROWSER_TOKEN)%'
+    suno_studio_device_id: '%env(default:env_default_empty:SUNO_STUDIO_DEVICE_ID)%'
 
 services:
     # default configuration for services in *this* file
@@ -41,6 +44,12 @@ services:
     App\Service\Suno\SunoApiClient:
         arguments:
             $apiKey: '%suno_api_key%'
+
+    App\Service\Suno\SunoStudioClient:
+        arguments:
+            $bearerToken: '%suno_studio_bearer%'
+            $browserToken: '%suno_studio_browser_token%'
+            $deviceId: '%suno_studio_device_id%'
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
