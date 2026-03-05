@@ -161,15 +161,18 @@ final class SunoStudioClient
      */
     public function getVideoStatus(string $videoId): array
     {
-        $headers = $this->buildHeaders(true);
-        $response = $this->httpClient->request(
-            'POST',
-            self::BASE_URL . '/api/video/generate/' . urlencode($videoId) . '/',
-            [
-                'headers' => $headers,
-                'timeout' => 20,
-            ],
-        );
+        try {
+            $response = $this->httpClient->request(
+                'POST',
+                self::BASE_URL . '/api/video/generate/' . urlencode($videoId) . '/',
+                [
+                    'headers' => $headers,
+                    'timeout' => 20,
+                ],
+            );
+        } catch (\Throwable $e) {
+          
+        }
 
         $headers = $this->buildHeaders(true);
 
