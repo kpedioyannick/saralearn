@@ -32,7 +32,7 @@ class Path
     #[ORM\JoinColumn(nullable: true, onDelete: 'CASCADE')]
     private ?Subchapter $subchapter = null;
 
-    #[ORM\Column(length: 512)]
+    #[ORM\Column(length: 1024)]
     private ?string $title = null;
 
     /** @var Collection<int, Module> */
