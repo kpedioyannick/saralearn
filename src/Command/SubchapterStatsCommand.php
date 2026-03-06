@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Command;
 
 use App\Entity\Subchapter;
+use App\Repository\CourseMusicRepository;
 use App\Repository\ModuleRepository;
 use App\Repository\PathRepository;
 use App\Repository\SubchapterRepository;
@@ -24,6 +25,7 @@ final class SubchapterStatsCommand extends Command
 {
     public function __construct(
         private readonly SubchapterRepository $subchapterRepository,
+        private readonly CourseMusicRepository $courseMusicRepository,
         private readonly ModuleRepository $moduleRepository,
         private readonly PathRepository $pathRepository,
     ) {
@@ -164,6 +166,20 @@ final class SubchapterStatsCommand extends Command
             $bookRows[] = [sprintf('Avec livre « %s »', $label), (string) $count, $total > 0 ? sprintf('%d / %d (%.1f%%)', $count, $total, 100 * $count / $total) : '-'];
         }
         $io->table(['Indicateur', 'Nombre', 'Sur total'], $bookRows);
+
+        // Musique (CourseMusic)
+        $withPrompt = $this->courseMusicRepository->countDistinctSubchaptersWithPrompt($ids);
+        $withAudio = $this->courseMusicRepository->countDistinctSubchaptersWithAudio($ids);
+        $withAudioAndVideo = $this->courseMusicRepository->countDistinctSubchaptersWithAudioAndVideo($ids);
+        $io->section('Musique (CourseMusic)');
+        $io->table(
+            ['Indicateur', 'Nombre', 'Sur total'],
+            [
+                ['Avec prompt (slam)', (string) $withPrompt, $total > 0 ? sprintf('%d / %d (%.1f%%)', $withPrompt, $total, 100 * $withPrompt / $total) : '-'],
+                ['Avec lien audio', (string) $withAudio, $total > 0 ? sprintf('%d / %d (%.1f%%)', $withAudio, $total, 100 * $withAudio / $total) : '-'],
+                ['Avec lien audio et vidéo', (string) $withAudioAndVideo, $total > 0 ? sprintf('%d / %d (%.1f%%)', $withAudioAndVideo, $total, 100 * $withAudioAndVideo / $total) : '-'],
+            ]
+        );
 
         $io->success('Statistiques affichées.');
         return Command::SUCCESS;

@@ -99,4 +99,66 @@ class CourseMusicRepository extends ServiceEntityRepository
             ->getQuery()
             ->getResult();
     }
+
+    /**
+     * Nombre de sous-chapitres (parmi les ids donnés) ayant au moins une CourseMusic avec prompt non vide.
+     *
+     * @param list<int> $subchapterIds
+     */
+    public function countDistinctSubchaptersWithPrompt(array $subchapterIds): int
+    {
+        if ($subchapterIds === []) {
+            return 0;
+        }
+        return (int) $this->createQueryBuilder('cm')
+            ->select('COUNT(DISTINCT cm.subchapter)')
+            ->where('cm.subchapter IN (:ids)')
+            ->andWhere('cm.prompt IS NOT NULL')
+            ->andWhere("cm.prompt <> ''")
+            ->setParameter('ids', $subchapterIds)
+            ->getQuery()
+            ->getSingleScalarResult();
+    }
+
+    /**
+     * Nombre de sous-chapitres (parmi les ids donnés) ayant au moins une CourseMusic avec audioUrl non vide.
+     *
+     * @param list<int> $subchapterIds
+     */
+    public function countDistinctSubchaptersWithAudio(array $subchapterIds): int
+    {
+        if ($subchapterIds === []) {
+            return 0;
+        }
+        return (int) $this->createQueryBuilder('cm')
+            ->select('COUNT(DISTINCT cm.subchapter)')
+            ->where('cm.subchapter IN (:ids)')
+            ->andWhere('cm.audioUrl IS NOT NULL')
+            ->andWhere("cm.audioUrl <> ''")
+            ->setParameter('ids', $subchapterIds)
+            ->getQuery()
+            ->getSingleScalarResult();
+    }
+
+    /**
+     * Nombre de sous-chapitres (parmi les ids donnés) ayant au moins une CourseMusic avec audioUrl et videoUrl non vides.
+     *
+     * @param list<int> $subchapterIds
+     */
+    public function countDistinctSubchaptersWithAudioAndVideo(array $subchapterIds): int
+    {
+        if ($subchapterIds === []) {
+            return 0;
+        }
+        return (int) $this->createQueryBuilder('cm')
+            ->select('COUNT(DISTINCT cm.subchapter)')
+            ->where('cm.subchapter IN (:ids)')
+            ->andWhere('cm.audioUrl IS NOT NULL')
+            ->andWhere("cm.audioUrl <> ''")
+            ->andWhere('cm.videoUrl IS NOT NULL')
+            ->andWhere("cm.videoUrl <> ''")
+            ->setParameter('ids', $subchapterIds)
+            ->getQuery()
+            ->getSingleScalarResult();
+    }
 }
