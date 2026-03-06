@@ -11,12 +11,16 @@ use App\Service\ContentGenerator\ContentGeneratorService;
 use Doctrine\ORM\EntityManagerInterface;
 
 /**
- * Génère le prompt (max 400 caractères) pour la musique du cours via le provider curl,
- * en extrayant les éléments essentiels du cours à mettre en chanson.
+ * Génère le prompt (paroles slam), le style et la relevance via le provider curl.
+ * Style fixe, structure slam (Verse/Hook), règles PROMPT.md. Réponse IA en JSON : title, prompt, relevance.
  */
 final class CourseMusicPromptGenerator
 {
-    private const MAX_PROMPT_LENGTH = 400;
+    /** Style musical (toujours le même). */
+    public const DEFAULT_STYLE = 'slam, afropop, serious tone, melodic african instruments, clear vocals, soft beat';
+
+    private const MAX_PROMPT_LENGTH = 4000;
+    private const VALID_RELEVANCE = ['high', 'medium', 'low'];
 
     public function __construct(
         private readonly ContentGeneratorService $contentGeneratorService,
@@ -30,64 +34,88 @@ final class CourseMusicPromptGenerator
      */
     public function extractCourseContentForPrompt(Subchapter $subchapter): string
     {
-        $course = $subchapter->getCourse();
-        if ($course === null || !is_array($course)) {
-            return $subchapter->getTitle() ?? '';
-        }
-
-        $parts = [];
-        $title = $course['title'] ?? $subchapter->getTitle() ?? '';
-        if ($title !== '') {
-            $parts[] = 'Titre : ' . $title;
-        }
-        $slides = $course['slides'] ?? [];
-        if (is_array($slides)) {
-            foreach ($slides as $slide) {
-                $text = $slide['texte_audio'] ?? $slide['text_to_audio'] ?? $slide['slide'] ?? '';
-                if (is_string($text) && trim($text) !== '') {
-                    $parts[] = trim($text);
-                }
-            }
-        }
+        $chapter = $subchapter->getChapter();
+        $subject = $chapter?->getSubject();
+        $classroom = $subject?->getClassroom();
+        $parts = [
+            'Titre : ' . ($subchapter->getTitle() ?? ''),
+            'Chapitre : ' . ($chapter?->getTitle() ?? ''),
+            'Matière : ' . ($subject?->getName() ?? ''),
+            'Classe : ' . ($classroom?->getName() ?? ''),
+        ];
+   
         return implode("\n\n", $parts);
     }
 
     /**
-     * Génère un prompt (max 400 caractères) pour Suno via le provider curl :
-     * les éléments essentiels du cours à traduire en chanson.
+     * Génère le slam (prompt) et retourne title, prompt, relevance (réponse IA en JSON).
      *
-     * @throws \RuntimeException
+     * @return array{title: string, prompt: string, relevance: string}
      */
-    public function generatePromptForSubchapter(Subchapter $subchapter): string
+    public function generatePromptForSubchapter(Subchapter $subchapter): array
     {
-        $courseContent = $this->extractCourseContentForPrompt($subchapter);
-        if ($courseContent === '') {
-            $fallback = $subchapter->getTitle() ?? 'Educational lesson';
-            return mb_substr('Calm instrumental background music for a lesson about: ' . $fallback, 0, self::MAX_PROMPT_LENGTH);
-        }
+        $subchapterTitle = $subchapter->getTitle() ?? 'Cours';
+        $chapter = $subchapter->getChapter();
+        $subject = $chapter?->getSubject();
+        $classroom = $subject?->getClassroom();
+        $niveau = $classroom?->getName() ?? 'élèves';
+        $matiere = $subject?->getName() ?? '';
+
 
         $instruction = <<<PROMPT
-Tu es un expert en création de contenu pour la musique éducative.
+Tu es un expert en création de slams pédagogiques pour des élèves.
 
-Contenu du cours (sous-chapitre) :
----
-{$courseContent}
----
+Contexte :
+- Sous-chapitre : {$subchapterTitle}
+- Classe (niveau) : {$niveau}
+- Matière : {$matiere}
 
-Rédige UN SEUL prompt en anglais, de 400 caractères maximum, qui décrit une chanson instrumentale de fond pour ce cours. Le prompt doit contenir les éléments essentiels que le cours doit faire passer en musique : thème, notions clés, ambiance. Style : instrumental, calme, pédagogique. Pas de paroles.
 
-Réponds UNIQUEMENT par le prompt, sans explication, sans guillemets superflus.
+
+Règles : Langue française. Public : élèves du niveau indiqué. Ton : sérieux, pédagogique, rythmé. Durée max trois minutes. Contenu : l'essentiel. Chiffres et dates en toutes lettres. Pas d'acronymes (écrire en toutes lettres). Paroles bien prononcées et intelligibles.
+
+Structure obligatoire :
+(Titre de la chanson)
+[Verse]
+(Introduction : accroche, présentation du sujet)
+[Hook]
+(Refrain mémorable qui résume le thème)
+[Verse]
+(Développement : explications claires et rythmées)
+[Hook]
+(Répétition du refrain)
+[Verse - Ce qu'il faut retenir]
+(Récapitulatif final : points essentiels à retenir)
+
+Réponds UNIQUEMENT par un objet JSON valide avec exactement ces clés :
+- "title" : titre court de la chanson (string)
+- "prompt" : paroles complètes du slam avec les balises [Verse], [Hook], [Verse - Ce qu'il faut retenir] (string)
+- "relevance" : "high", "medium" ou "low" selon l'importance du thème pour les élèves (string)
 PROMPT;
 
-        $raw = $this->contentGeneratorService->generateViaCurl($instruction);
+        $raw = $this->contentGeneratorService->generateViaDeepSeek($instruction);
         $data = json_decode($raw, true);
         if (is_array($data) && isset($data['content'])) {
-            $prompt = (string) $data['content'];
-        } else {
-            $prompt = trim(preg_replace('/^["\']|["\']$/u', '', trim($raw)));
+            $data = is_string($data['content']) ? json_decode($data['content'], true) : $data['content'];
         }
+        if (!is_array($data)) {
+            $data = [];
+        }
+        $title = isset($data['title']) && is_string($data['title']) ? trim($data['title']) : $subchapterTitle;
+        $prompt = isset($data['prompt']) && is_string($data['prompt']) ? trim($data['prompt']) : $this->buildFallbackSlam($subchapterTitle);
+        $relevance = isset($data['relevance']) && is_string($data['relevance']) && in_array(strtolower($data['relevance']), self::VALID_RELEVANCE, true)
+            ? strtolower($data['relevance']) : 'high';
 
-        return mb_substr($prompt, 0, self::MAX_PROMPT_LENGTH);
+        return [
+            'title' => $title,
+            'prompt' => $prompt,
+            'relevance' => $relevance,
+        ];
+    }
+
+    private function buildFallbackSlam(string $title): string
+    {
+        return "{$title}\n[Verse]\nCe cours te permettra de comprendre l'essentiel. Écoute bien et retiens les points clés.\n[Hook]\nApprendre en rythme, retenir en chanson. Chaque mot compte, chaque idée résonne.\n[Verse]\nRévise à ton rythme, écoute cette leçon. La musique t'accompagne dans ta réflexion.\n[Hook]\nApprendre en rythme, retenir en chanson. Chaque mot compte, chaque idée résonne.\n[Verse - Ce qu'il faut retenir]\nRetiens l'essentiel de ce thème. La pratique et l'écoute renforceront ton savoir.";
     }
 
     /**
@@ -95,13 +123,15 @@ PROMPT;
      */
     public function createOrUpdatePromptForSubchapter(Subchapter $subchapter): CourseMusic
     {
-        $prompt = $this->generatePromptForSubchapter($subchapter);
+        $result = $this->generatePromptForSubchapter($subchapter);
 
         $courseMusic = $this->courseMusicRepository->findOneBySubchapter($subchapter)
             ?? new CourseMusic();
         $courseMusic->setSubchapter($subchapter);
-        $courseMusic->setPrompt($prompt);
-        $courseMusic->setTitle(mb_substr($subchapter->getTitle() ?? 'Course music', 0, 255));
+        $courseMusic->setPrompt($result['prompt']);
+        $courseMusic->setTitle($result['title']);
+        $courseMusic->setStyle(self::DEFAULT_STYLE);
+        $courseMusic->setRelevance($result['relevance']);
         if (!$this->entityManager->contains($courseMusic)) {
             $this->entityManager->persist($courseMusic);
             $subchapter->addCourseMusic($courseMusic);
