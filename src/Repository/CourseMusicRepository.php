@@ -133,6 +133,28 @@ class CourseMusicRepository extends ServiceEntityRepository
     }
 
     /**
+     * CourseMusic avec prompt et active = 'disabled'.
+     *
+     * @return list<CourseMusic>
+     */
+    public function findWithPromptDisabled(int $limit = 100): array
+    {
+        return $this->createQueryBuilder('cm')
+            ->join('cm.subchapter', 'sub')
+            ->join('sub.chapter', 'ch')
+            ->join('ch.subject', 'subj')
+            ->join('subj.classroom', 'cl')
+            ->where('cm.prompt IS NOT NULL')
+            ->andWhere("cm.prompt <> ''")
+            ->andWhere('cm.active = :active')
+            ->setParameter('active', 'disabled')
+            ->orderBy('cm.id', 'ASC')
+            ->setMaxResults($limit)
+            ->getQuery()
+            ->getResult();
+    }
+
+    /**
      * CourseMusic avec audio (ou un id Suno) mais sans videoUrl, pour --fill-video.
      *
      * @return list<CourseMusic>

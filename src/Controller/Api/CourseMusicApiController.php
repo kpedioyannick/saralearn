@@ -107,6 +107,38 @@ final class CourseMusicApiController extends AbstractController
     }
 
     /**
+     * Liste des CourseMusic dont le prompt est désactivé (active = disabled).
+     *
+     * Body : { "number": 50 }. Réponse : { "items": [ { id, prompt, subchapterId, subchapterTitle, chapterTitle, classroom, subject }, ... ] }
+     */
+    #[Route('/course-music/disabled-list', name: 'api_course_music_disabled_list', methods: ['POST'])]
+    public function disabledList(Request $request): JsonResponse
+    {
+        $body = json_decode((string) $request->getContent(), true) ?? [];
+        $number = isset($body['number']) && is_numeric($body['number']) ? max(1, min(500, (int) $body['number'])) : 100;
+
+        $courseMusics = $this->courseMusicRepository->findWithPromptDisabled($number);
+        $items = [];
+        foreach ($courseMusics as $cm) {
+            $s = $cm->getSubchapter();
+            $chapter = $s?->getChapter();
+            $subject = $chapter?->getSubject();
+            $classroom = $subject?->getClassroom();
+            $items[] = [
+                'id' => $cm->getId(),
+                'prompt' => $cm->getPrompt(),
+                'subchapterId' => $s?->getId(),
+                'subchapterTitle' => $s?->getTitle(),
+                'chapterTitle' => $chapter?->getTitle(),
+                'classroom' => $classroom?->getName(),
+                'subject' => $subject?->getName(),
+            ];
+        }
+
+        return $this->json(['items' => $items]);
+    }
+
+    /**
      * Crée ou met à jour une CourseMusic.
      *
      * Body : subchapterId (requis), title, prompt, style, relevance, sunoTaskId, audioUrl, videoUrl, coverUrl, duration (optionnels). 201 : { "id" }. 400/404 : { "error" }.
@@ -166,11 +198,8 @@ final class CourseMusicApiController extends AbstractController
         if (array_key_exists('duration', $body)) {
             $courseMusic->setDuration(is_numeric($body['duration']) ? (float) $body['duration'] : null);
         }
-        if (array_key_exists('active', $body)) {
-            $v = is_string($body['active']) ? trim($body['active']) : '';
-            $courseMusic->setActive($v === 'active' || $v === 'disabled' ? $v : null);
-        }
 
+        $courseMusic->setActive('active');
         $this->entityManager->flush();
 
         return $this->json(['id' => $courseMusic->getId()], Response::HTTP_CREATED);
