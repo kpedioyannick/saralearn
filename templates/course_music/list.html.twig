@@ -1,67 +1,86 @@
-{% extends 'base.html.twig' %}
-
-{% block title %}CourseMusic - Liste{% endblock %}
-
-{% block body %}
-<div class="max-w-[1600px] mx-auto">
-    <h1 class="text-2xl font-bold text-gray-900 mb-6">Liste des CourseMusic</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseMusic - Liste</title>
+    <style>
+        body { font-family: system-ui, sans-serif; margin: 1rem 2rem; color: #111; background: #f5f5f5; }
+        h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+        .flash-success { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: #dcfce7; color: #166534; border-radius: 0.5rem; font-size: 0.875rem; }
+        .flash-error { margin-bottom: 1rem; padding: 0.5rem 0.75rem; background: #fee2e2; color: #991b1b; border-radius: 0.5rem; font-size: 0.875rem; }
+        table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+        th, td { padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid #e5e7eb; }
+        th { background: #f9fafb; font-weight: 600; color: #374151; }
+        tr:hover { background: #fafafa; }
+        td { font-size: 0.875rem; vertical-align: top; }
+        input[type="text"], textarea, select { width: 100%; padding: 0.25rem 0.5rem; border: 1px solid #d1d5db; border-radius: 0.25rem; font-size: 0.875rem; box-sizing: border-box; }
+        input:focus, textarea:focus, select:focus { outline: none; border-color: #0d9488; box-shadow: 0 0 0 2px rgba(13, 148, 136, 0.2); }
+        button[type="submit"] { padding: 0.375rem 0.75rem; background: #0d9488; color: #fff; border: none; border-radius: 0.25rem; font-size: 0.75rem; font-weight: 600; cursor: pointer; }
+        button[type="submit"]:hover { background: #0f766e; }
+        .truncate { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .w-max-400 { max-width: 400px; }
+    </style>
+</head>
+<body>
+    <h1>Liste des CourseMusic</h1>
 
     {% for message in app.flashes('success') %}
-        <div class="mb-4 p-3 rounded-lg bg-green-100 text-green-800 text-sm">{{ message }}</div>
+        <div class="flash-success">{{ message }}</div>
     {% endfor %}
     {% for message in app.flashes('error') %}
-        <div class="mb-4 p-3 rounded-lg bg-red-100 text-red-800 text-sm">{{ message }}</div>
+        <div class="flash-error">{{ message }}</div>
     {% endfor %}
 
-    <div class="overflow-x-auto rounded-lg border border-gray-200 bg-white shadow-sm">
-        <table class="min-w-full divide-y divide-gray-200 text-left text-sm">
-            <thead class="bg-gray-50">
+    <div style="overflow-x: auto;">
+        <table>
+            <thead>
                 <tr>
-                    <th class="px-4 py-3 font-semibold text-gray-700">ID</th>
-                    <th class="px-4 py-3 font-semibold text-gray-700">Classe</th>
-                    <th class="px-4 py-3 font-semibold text-gray-700">Chapitre</th>
-                    <th class="px-4 py-3 font-semibold text-gray-700">Sous-chapitre</th>
-                    <th class="px-4 py-3 font-semibold text-gray-700">Actif</th>
-                    <th class="px-4 py-3 font-semibold text-gray-700">Prompt · Style · Actions</th>
+                    <th>ID</th>
+                    <th>Classe</th>
+                    <th>Chapitre</th>
+                    <th>Sous-chapitre</th>
+                    <th>Actif</th>
+                    <th>Prompt · Style · Actions</th>
                 </tr>
             </thead>
-            <tbody class="divide-y divide-gray-100">
+            <tbody>
                 {% for cm in course_musics %}
                     {% set sub = cm.subchapter %}
                     {% set ch = sub ? sub.chapter : null %}
                     {% set subject = ch ? ch.subject : null %}
                     {% set classroom = subject ? subject.classroom : null %}
-                    <tr class="hover:bg-gray-50/50">
-                        <td class="px-4 py-2 font-mono text-gray-600">{{ cm.id }}</td>
-                        <td class="px-4 py-2 text-gray-800">{{ classroom ? classroom.name : '—' }}</td>
-                        <td class="px-4 py-2 text-gray-800 max-w-[200px] truncate" title="{{ ch ? ch.title : '' }}">{{ ch ? ch.title : '—' }}</td>
-                        <td class="px-4 py-2 text-gray-800 max-w-[220px] truncate" title="{{ sub ? sub.title : '' }}">{{ sub ? sub.title : '—' }}</td>
-                        <td class="px-4 py-2">
-                            <form action="{{ path('app_course_music_edit', { id: cm.id }) }}" method="post" class="space-y-1">
-                                <select name="active" class="w-full rounded border border-gray-300 px-2 py-1 text-sm focus:ring-2 focus:ring-sara-green focus:border-sara-green">
+                    <tr>
+                        <td style="font-family: monospace; color: #6b7280;">{{ cm.id }}</td>
+                        <td>{{ classroom ? classroom.name : '—' }}</td>
+                        <td class="truncate" title="{{ ch ? ch.title : '' }}">{{ ch ? ch.title : '—' }}</td>
+                        <td class="truncate" title="{{ sub ? sub.title : '' }}">{{ sub ? sub.title : '—' }}</td>
+                        <td>
+                            <form action="{{ path('app_course_music_edit', { id: cm.id }) }}" method="post" style="display: flex; flex-direction: column; gap: 0.25rem;">
+                                <select name="active">
                                     <option value="" {{ (cm.active ?? '') == '' ? 'selected' : '' }}>—</option>
                                     <option value="active" {{ (cm.active ?? '') == 'active' ? 'selected' : '' }}>Activé</option>
                                     <option value="disabled" {{ (cm.active ?? '') == 'disabled' ? 'selected' : '' }}>Désactivé</option>
                                 </select>
-                                <button type="submit" class="mt-1 px-3 py-1.5 rounded bg-sara-green text-white text-xs font-semibold hover:bg-sara-green-hover transition-colors">Sauvegarder</button>
+                                <button type="submit">Sauvegarder</button>
                             </form>
                         </td>
-                        <td class="px-4 py-2 max-w-[400px]">
-                            <form action="{{ path('app_course_music_edit', { id: cm.id }) }}" method="post" class="space-y-2">
-                                <textarea name="prompt" rows="3" class="w-full rounded border border-gray-300 px-2 py-1 text-gray-800 text-sm focus:ring-2 focus:ring-sara-green focus:border-sara-green" placeholder="Prompt">{{ cm.prompt ?? '' }}</textarea>
-                                <input type="text" name="style" value="{{ cm.style ?? '' }}" class="w-full rounded border border-gray-300 px-2 py-1 text-gray-700 text-sm focus:ring-2 focus:ring-sara-green focus:border-sara-green" placeholder="Style" />
+                        <td class="w-max-400">
+                            <form action="{{ path('app_course_music_edit', { id: cm.id }) }}" method="post" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                                <textarea name="prompt" rows="3" placeholder="Prompt">{{ cm.prompt ?? '' }}</textarea>
+                                <input type="text" name="style" value="{{ cm.style ?? '' }}" placeholder="Style" />
                                 <input type="hidden" name="active" value="{{ cm.active ?? '' }}" />
-                                <button type="submit" class="px-3 py-1.5 rounded bg-sara-green text-white text-xs font-semibold hover:bg-sara-green-hover transition-colors">Sauvegarder</button>
+                                <button type="submit">Sauvegarder</button>
                             </form>
                         </td>
                     </tr>
                 {% else %}
                     <tr>
-                        <td colspan="6" class="px-4 py-8 text-center text-gray-500">Aucun CourseMusic.</td>
+                        <td colspan="6" style="text-align: center; padding: 2rem; color: #6b7280;">Aucun CourseMusic.</td>
                     </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
-</div>
-{% endblock %}
+</body>
+</html>
