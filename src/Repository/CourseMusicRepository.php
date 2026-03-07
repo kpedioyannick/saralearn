@@ -68,16 +68,24 @@ class CourseMusicRepository extends ServiceEntityRepository
     }
 
     /**
-     * CourseMusic avec un prompt mais sans sunoClipId.
+     * CourseMusic avec un prompt mais sans sunoClipId, dont la Classroom a priorité haute.
      *
      * @return list<CourseMusic>
      */
     public function findWithPromptWithoutSunoClipId(int $limit = 50): array
     {
         return $this->createQueryBuilder('cm')
+            ->join('cm.subchapter', 'sub')
+            ->join('sub.chapter', 'ch')
+            ->join('ch.subject', 'subj')
+            ->join('subj.classroom', 'cl')
             ->where('cm.prompt IS NOT NULL')
             ->andWhere("cm.prompt <> ''")
             ->andWhere('cm.sunoClipId IS NULL')
+            ->andWhere('cl.priority = :highPri')
+            ->andWhere('subj.priority != :lowPri OR subj.priority IS NULL')
+            ->setParameter('highPri', 'high')
+            ->setParameter('lowPri', 'low')
             ->orderBy('cm.id', 'ASC')
             ->setMaxResults($limit)
             ->getQuery()
