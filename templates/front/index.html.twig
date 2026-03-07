@@ -1,0 +1,96 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    
+    {# Section 1: Ligne de choix des classes #}
+    <section class="mb-10 mt-2">
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">Choisis ta classe</h2>
+        <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide snap-x">
+            {% if classrooms is defined %}
+                {% for classroom in classrooms %}
+                    {% set isSelected = currentClassroom and currentClassroom.id == classroom.id %}
+                    
+                    <a href="?class={{ classroom.slug }}" 
+                       class="snap-start flex-shrink-0 px-6 py-3 rounded-full font-bold text-sm transition-all whitespace-nowrap border shadow-sm
+                              {% if isSelected %}
+                                  bg-sara-green text-white border-sara-green hover:bg-sara-green-hover
+                              {% else %}
+                                  bg-white text-gray-600 border-gray-200 hover:bg-gray-50 hover:text-gray-900
+                              {% endif %}">
+                        {{ classroom.name }}
+                    </a>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </section>
+
+    {# Section 2 à N : Lignes des matières (Albums) #}
+    {% if currentClassroom %}
+        {% if currentClassroom.subjects|length > 0 %}
+            
+            {% set colors = [
+                'from-sara-green/20 to-teal-500/40',
+                'from-sara-yellow/20 to-orange-400/40',
+                'from-sara-light-purple/40 to-purple-400/40',
+                'from-blue-300/40 to-indigo-500/40',
+                'from-rose-300/40 to-red-500/40'
+            ] %}
+
+            {% for subject in currentClassroom.subjects %}
+                {% set subjectBg = colors[loop.index0 % colors|length] %}
+                
+                <section id="subject-{{ subject.id }}" class="mb-10">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-gray-900 hover:underline cursor-pointer flex items-center gap-2">
+                            {{ subject.name }}
+                            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </h3>
+                        <a href="?class={{ currentClassroom.slug }}#subject-{{ subject.id }}" class="text-xs font-bold text-gray-500 hover:text-gray-900 uppercase tracking-wider transition-colors">Tout voir</a>
+                    </div>
+                    
+                    <div class="flex gap-4 overflow-x-auto pb-6 scrollbar-hide snap-x">
+                        {% if subject.chapters|length > 0 %}
+                            {% for chapter in subject.chapters %}
+                                
+                                {# "Album" Card representing a Chapter #}
+                                <div class="snap-start flex-shrink-0 w-40 md:w-48 group cursor-pointer">
+                                    <div class="relative w-40 h-40 md:w-48 md:h-48 rounded-lg bg-white mb-3 overflow-hidden shadow-sm border border-gray-100 transition-transform hover:-translate-y-1 hover:shadow-md">
+                                        {# Cover Art #}
+                                        <div class="absolute inset-0 bg-gradient-to-br {{ subjectBg }}"></div>
+                                        <div class="absolute inset-0 flex items-center justify-center text-gray-800/10">
+                                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                                        </div>
+                                        
+                                        {# Play Button Overlay #}
+                                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/20 backdrop-blur-[2px]">
+                                            <button @click.prevent="loadChapter({{ chapter.id }})" class="w-12 h-12 rounded-full bg-sara-green flex items-center justify-center text-white shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-all hover:scale-105">
+                                                <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <h4 class="font-bold text-gray-900 text-sm md:text-base leading-tight mb-1 truncate group-hover:text-sara-green transition-colors" title="{{ chapter.title }}">
+                                        {{ chapter.title }}
+                                    </h4>
+                                    <p class="text-xs text-gray-500 truncate">{{ subject.name }}</p>
+                                </div>
+                                
+                            {% endfor %}
+                        {% else %}
+                            <p class="text-sm text-gray-400 italic">Aucun chapitre pour le moment.</p>
+                        {% endif %}
+                    </div>
+                </section>
+                
+            {% endfor %}
+            
+        {% else %}
+            <div class="flex flex-col items-center justify-center py-20 text-center">
+                <svg class="w-16 h-16 text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Aucune matière trouvée</h3>
+                <p class="text-gray-500">Nous ajoutons bientôt de nouveaux cours pour cette classe.</p>
+            </div>
+        {% endif %}
+    {% endif %}
+
+{% endblock %}

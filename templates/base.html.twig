@@ -2,16 +2,342 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}sara. - Apprendre en streaming{% endblock %}</title>
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>">
+        
+        {# Google Fonts - Outfit #}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
         {% block stylesheets %}
+            <link rel="stylesheet" href="/app.css?v=3">
         {% endblock %}
+        
+        {# AlpineJS script for UI interaction #}
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
         {% block javascripts %}
-            {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
     </head>
-    <body>
-        {% block body %}{% endblock %}
+
+    <body class="flex flex-col h-screen overflow-hidden text-gray-900 bg-sara-bg font-sara" 
+          x-data="{ 
+            isPlayerOpen: false,
+            isPlaying: false,
+            currentTime: 0,
+            duration: 0,
+            volume: 1,
+            playlist: [],
+            currentChapter: null,
+            currentTrackIndex: -1,
+            isLoading: false,
+            
+            async loadChapter(id) {
+                this.isLoading = true;
+                try {
+                    const response = await fetch('/api/chapter/' + id + '/playlist');
+                    const data = await response.json();
+                    
+                    this.currentChapter = { id: data.chapterId, title: data.chapterTitle, subject: data.chapterSubject };
+                    this.playlist = data.tracks;
+                    
+                    if (this.playlist.length > 0) {
+                        this.playTrack(0);
+                    }
+                } catch (error) {
+                    console.error('Failed to load chapter playlist', error);
+                } finally {
+                    this.isLoading = false;
+                }
+            },
+            
+            playTrack(index) {
+                if (index < 0 || index >= this.playlist.length) return;
+                
+                this.currentTrackIndex = index;
+                const track = this.playlist[index];
+                
+                if (track.audioUrl) {
+                    $refs.audioPlayer.src = track.audioUrl;
+                    $refs.audioPlayer.play();
+                    this.isPlaying = true;
+                } else {
+                    $refs.audioPlayer.pause();
+                    this.isPlaying = false;
+                }
+            },
+            
+            nextTrack() {
+                if (this.currentTrackIndex < this.playlist.length - 1) {
+                    this.playTrack(this.currentTrackIndex + 1);
+                }
+            },
+            
+            prevTrack() {
+                if (this.currentTrackIndex > 0) {
+                    this.playTrack(this.currentTrackIndex - 1);
+                }
+            },
+            
+            formatTime(seconds) {
+                if (isNaN(seconds)) return '0:00';
+                const m = Math.floor(seconds / 60);
+                const s = Math.floor(seconds % 60);
+                return m + ':' + (s < 10 ? '0' : '') + s;
+            }
+          }">
+        
+        <audio x-ref="audioPlayer" 
+               @timeupdate="currentTime = $event.target.currentTime"
+               @loadedmetadata="duration = $event.target.duration"
+               @ended="nextTrack()"
+               src=""></audio>
+               
+        <div class="flex flex-1 overflow-hidden pb-24 transition-all duration-300" :class="{ 'pb-[85vh]': isPlayerOpen }"> {# pb-24 leaves space for player #}
+            
+            {# Sidebar (Desktop only) #}
+            <aside class="w-64 flex-shrink-0 bg-white flex flex-col p-6 hidden md:flex border-r border-gray-200 z-20">
+                <div class="mb-8 flex items-center gap-2">
+                    <div class="w-8 h-8 rounded-full bg-sara-green flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                    <h1 class="text-3xl font-black tracking-tight text-gray-900">sara.</h1>
+                </div>
+                
+                <nav class="flex-1 space-y-4">
+                    <div class="space-y-1">
+                        <a href="?/" class="flex items-center gap-4 px-3 py-2 text-gray-500 font-bold hover:text-gray-900 transition-colors bg-white rounded-md">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                            Accueil
+                        </a>
+                        <a href="?explore=1" class="flex items-center gap-4 px-3 py-2 text-sara-green font-semibold rounded-md transition-colors bg-sara-light-purple">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14h-2v-2h2zm0-4h-2V7h2z"/></svg>
+                            Explorer
+                        </a>
+                    </div>
+                </nav>
+            </aside>
+
+            {# Main Content Area #}
+            <main class="flex-1 overflow-y-auto w-full relative group/main">
+                
+                {# Topbar #}
+                <header class="sticky top-0 z-10 p-4 md:px-8 md:py-4 flex items-center justify-between bg-sara-bg/90 backdrop-blur-md transition-all border-b border-gray-100">
+                    {# Mobile branding #}
+                    <div class="md:hidden flex items-center gap-2">
+                        <div class="w-6 h-6 rounded-full bg-sara-green flex items-center justify-center">
+                            <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <h1 class="text-xl font-black tracking-tight text-gray-900">sara.</h1>
+                    </div>
+                    
+                    {# Desktop top nav #}
+                    <div class="hidden md:flex flex-1 gap-2">
+                        <button class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-gray-500 hover:text-gray-900 transition-colors">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                        </button>
+                        <button class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-gray-500 hover:text-gray-900 transition-colors">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </button>
+                    </div>
+
+                    {# Search bar & Profile #}
+                    <div class="flex items-center gap-4">
+                        <div class="hidden md:block relative">
+                            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-400">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            </div>
+                            <input type="text" class="bg-sara-card hover:bg-sara-card-hover text-gray-900 text-sm rounded-full focus:ring-2 focus:ring-sara-green focus:bg-sara-card block w-64 pl-10 p-2 outline-none font-medium border border-gray-200 transition-all placeholder-gray-500 shadow-sm" placeholder="Que veux-tu apprendre ?">
+                        </div>
+                        <button class="w-8 h-8 rounded-full bg-gray-200 border border-gray-300 hover:scale-105 transition-transform overflow-hidden font-bold text-xs flex items-center justify-center text-gray-700">
+                            YK
+                        </button>
+                    </div>
+                </header>
+
+                <div class="p-4 md:p-8 pt-2">
+                    {% block body %}{% endblock %}
+                </div>
+            </main>
+        </div>
+
+        {# Expanded Player Panel (Playlist) #}
+        <div 
+            class="fixed bottom-24 left-0 right-0 h-[calc(85vh-6rem)] bg-white z-40 border-t border-gray-200 shadow-xl transition-transform duration-300 ease-in-out transform flex flex-col"
+            :class="{ 'translate-y-0': isPlayerOpen, 'translate-y-full': !isPlayerOpen }"
+            x-cloak
+        >
+            {# Panel Header #}
+            <div class="flex items-center justify-between px-6 py-4 border-b border-gray-100 bg-sara-card z-10">
+                <div class="flex items-center gap-4">
+                    <img src="https://ui-avatars.com/api/?name=Chapter&background=random" alt="Cover" class="w-16 h-16 rounded shadow-sm object-cover">
+                    <div class="flex flex-col">
+                        <span class="text-xs text-sara-green font-bold uppercase tracking-wider mb-1" x-text="currentChapter ? currentChapter.subject : 'Chapitre en cours'">Chapitre en cours</span>
+                        <h2 class="text-2xl font-black text-gray-900" x-text="currentChapter ? currentChapter.title : 'Sélectionne un cours'">Titre du Chapitre Sélectionné</h2>
+                        <p class="text-sm text-gray-500" x-text="playlist.length + ' sous-chapitres'">0 sous-chapitres</p>
+                    </div>
+                </div>
+                <button @click="isPlayerOpen = false" class="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600 transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
+            </div>
+            
+            {# Playlist Content #}
+            <div class="flex-1 overflow-y-auto p-6 bg-sara-bg">
+                <div class="max-w-4xl mx-auto">
+                    <div class="flex text-xs font-bold text-gray-400 uppercase tracking-wider pb-2 border-b border-gray-200 mb-4 px-4">
+                        <div class="w-12 text-center">#</div>
+                        <div class="flex-1">Titre</div>
+                        <div class="w-32 text-center">Entraînement</div>
+                        <div class="w-16 text-right">Durée</div>
+                    </div>
+                    
+                    {# Dynamic playlist rendering #}
+                    <template x-for="(track, index) in playlist" :key="track.id">
+                        <div @click="playTrack(index)" 
+                             class="flex items-center px-4 py-3 hover:bg-white rounded-lg group cursor-pointer transition-colors border border-transparent hover:border-gray-100 hover:shadow-sm mb-1"
+                             :class="{ 'bg-white shadow-sm ring-1 ring-sara-green/20': currentTrackIndex === index }">
+                             
+                            <div class="w-12 text-center relative flex justify-center items-center">
+                                {# Playing indicator #}
+                                <template x-if="currentTrackIndex === index && isPlaying">
+                                    <div class="flex items-center gap-0.5 h-4">
+                                        <div class="w-1 bg-sara-green rounded-full h-full animate-[bounce_1s_infinite]"></div>
+                                        <div class="w-1 bg-sara-green rounded-full h-2/3 animate-[bounce_1s_infinite_0.2s]"></div>
+                                        <div class="w-1 bg-sara-green rounded-full h-full animate-[bounce_1s_infinite_0.4s]"></div>
+                                    </div>
+                                </template>
+                                
+                                <span x-show="currentTrackIndex !== index || !isPlaying" class="text-gray-400 font-medium group-hover:opacity-0 transition-opacity" :class="{'text-sara-green': currentTrackIndex === index}" x-text="index + 1"></span>
+                                
+                                <button x-show="currentTrackIndex !== index || !isPlaying" class="absolute opacity-0 group-hover:opacity-100 transition-opacity text-sara-green hover:scale-110 transform">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                </button>
+                            </div>
+                            
+                            <div class="flex-1 flex flex-col ml-4">
+                                <span class="font-bold text-gray-900 text-sm group-hover:text-sara-green transition-colors"
+                                      :class="{ 'text-sara-green': currentTrackIndex === index }"
+                                      x-text="track.title">Titre de la leçon</span>
+                                <span class="text-xs text-gray-500">Section de cours</span>
+                            </div>
+                            
+                            <div class="w-32 flex justify-center" @click.stop>
+                                <template x-if="track.moduleId">
+                                    <a :href="'/module/' + track.moduleId" class="text-xs font-bold text-white bg-blue-500 hover:bg-blue-600 px-3 py-1.5 rounded-full transition-colors flex items-center gap-1 group-hover:scale-105 transform">
+                                        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                                        Module
+                                    </a>
+                                </template>
+                                <template x-if="!track.moduleId">
+                                    <span class="text-xs text-gray-400">-</span>
+                                </template>
+                            </div>
+                            
+                            <div class="w-16 text-right text-sm text-gray-500 font-medium" x-text="formatTime(track.duration)">
+                                0:00
+                            </div>
+                        </div>
+                    </template>
+                    
+                    <div x-show="playlist.length === 0 && !isLoading" class="text-center py-12 text-gray-500 text-sm">
+                        Aucune piste dans ce chapitre.
+                    </div>
+                    <div x-show="isLoading" class="text-center py-12 text-gray-500 text-sm flex justify-center">
+                        <svg class="animate-spin h-6 w-6 text-sara-green" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {# Fixed Player Bar (Deezer style) #}
+        <div class="fixed bottom-0 left-0 right-0 h-24 bg-sara-card z-50 flex items-center px-4 md:px-6 justify-between border-t border-gray-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] cursor-pointer" @click.self="isPlayerOpen = !isPlayerOpen">
+            {# Course Info (Left) #}
+            <div class="flex items-center gap-4 w-1/3" @click="isPlayerOpen = !isPlayerOpen">
+                <div class="w-14 h-14 rounded bg-sara-card-hover flex-shrink-0 relative group border border-gray-200 flex items-center justify-center overflow-hidden">
+                    {# Placeholder icon representing Album/Chapter art #}
+                    <div class="w-full h-full bg-gradient-to-br from-sara-green to-teal-700 flex items-center justify-center">
+                         <svg class="w-6 h-6 text-white/80" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+                    </div>
+                    {# Hover expand #}
+                    <div class="absolute top-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity bg-black/60 rounded-full p-1">
+                        <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+                    </div>
+                </div>
+                <div class="hidden sm:flex flex-col truncate">
+                    <h4 class="text-gray-900 font-bold text-sm hover:underline cursor-pointer truncate" x-text="currentTrackIndex >= 0 ? playlist[currentTrackIndex].title : 'Sélectionne un cours pour commencer'">Sélectionne un cours pour commencer</h4>
+                    <p class="text-xs text-gray-500 hover:underline cursor-pointer truncate" x-text="currentChapter ? currentChapter.title : 'Matière'">Matière</p>
+                </div>
+                <button class="text-gray-400 hover:text-sara-yellow transition-colors ml-2 hidden lg:block" title="Ajouter aux favoris">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                </button>
+            </div>
+            
+            {# Controls (Center) #}
+            <div class="flex flex-col items-center flex-1 max-w-xl px-4">
+                <div class="flex items-center gap-6 mb-2">
+                    <button @click="prevTrack()" class="text-gray-500 hover:text-gray-900 transition-colors" :class="{'opacity-50 cursor-not-allowed': currentTrackIndex <= 0}">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+                    </button>
+                    <button @click="if(isPlaying) { $refs.audioPlayer.pause(); isPlaying = false; } else if($refs.audioPlayer.src) { $refs.audioPlayer.play(); isPlaying = true; }" class="w-10 h-10 rounded-full bg-sara-green text-white flex items-center justify-center hover:scale-105 transition-transform hover:bg-sara-green-hover shadow-md">
+                        {# Play Icon #}
+                        <svg x-show="!isPlaying" class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        {# Pause Icon #}
+                        <svg x-show="isPlaying" x-cloak class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                    </button>
+                    <button @click="nextTrack()" class="text-gray-500 hover:text-gray-900 transition-colors" :class="{'opacity-50 cursor-not-allowed': currentTrackIndex >= playlist.length - 1 || currentTrackIndex === -1}">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+                    </button>
+                </div>
+                <div class="flex items-center w-full gap-3">
+                    <span class="text-xs text-gray-500 font-medium w-8 text-right" x-text="formatTime(currentTime)">0:00</span>
+                    <div class="relative flex-1 h-1.5 bg-gray-200 rounded-full cursor-pointer group" 
+                         @click="const rect = $el.getBoundingClientRect(); const pos = ($event.clientX - rect.left) / rect.width; $refs.audioPlayer.currentTime = pos * duration;">
+                        <div class="absolute top-0 left-0 bottom-0 bg-gray-400 rounded-full group-hover:bg-sara-green transition-colors" 
+                             :style="`width: ${duration > 0 ? (currentTime / duration) * 100 : 0}%`"></div>
+                        <div class="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-gray-500 rounded-full scale-0 group-hover:scale-100 transition-transform"
+                             :style="`left: calc(${duration > 0 ? (currentTime / duration) * 100 : 0}% - 0.375rem)`"></div>
+                    </div>
+                    <span class="text-xs text-gray-500 font-medium w-8" x-text="formatTime(duration)">0:00</span>
+                </div>
+            </div>
+            
+            {# Extra Actions (Volume, Exercices, Queue - Right) #}
+            <div class="flex items-center justify-end w-1/3 gap-4">
+                {# Exercices #}
+                <template x-if="currentTrackIndex >= 0 && playlist[currentTrackIndex].moduleId">
+                    <a :href="'/module/' + playlist[currentTrackIndex].moduleId" class="hidden md:flex text-gray-700 hover:text-white transition-colors items-center gap-1 text-xs font-bold uppercase tracking-wider bg-blue-100 hover:bg-blue-500 py-1 px-2 rounded cursor-pointer" title="Accéder au module d'entraînement">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                        Quiz
+                    </a>
+                </template>
+                <template x-if="!(currentTrackIndex >= 0 && playlist[currentTrackIndex].moduleId)">
+                    <button class="hidden md:flex text-gray-500 hover:text-gray-900 transition-colors items-center gap-1 text-xs font-bold uppercase tracking-wider bg-gray-100 py-1 px-2 rounded cursor-not-allowed opacity-50" title="Exercices indisponibles">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                        Quiz
+                    </button>
+                </template>
+                
+                {# File d'attente / Queue #}
+                <button @click="isPlayerOpen = !isPlayerOpen" class="text-gray-500 transition-colors" :class="{ 'text-sara-green': isPlayerOpen, 'hover:text-gray-900': !isPlayerOpen }">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+                </button>
+
+                {# Volume #}
+                <div class="hidden lg:flex items-center gap-2 group w-24">
+                    <button @click="if(volume > 0) { $refs.audioPlayer.volume = 0; volume = 0; } else { $refs.audioPlayer.volume = 1; volume = 1; }" class="text-gray-500 hover:text-gray-900 transition-colors">
+                        <svg x-show="volume > 0" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5 10v4a2 2 0 002 2h2l4 4V4L9 8H7a2 2 0 00-2 2z"></path></svg>
+                        <svg x-show="volume == 0" x-cloak class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2"></path></svg>
+                    </button>
+                    <div class="relative flex-1 h-1 bg-gray-200 rounded-full cursor-pointer"
+                         @click="const rect = $el.getBoundingClientRect(); volume = ($event.clientX - rect.left) / rect.width; $refs.audioPlayer.volume = volume;">
+                        <div class="absolute top-0 left-0 bottom-0 bg-gray-400 rounded-full group-hover:bg-sara-green transition-colors"
+                             :style="`width: ${volume * 100}%`"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

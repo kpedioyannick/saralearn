@@ -1,3 +1,44 @@
-body {
-    background-color: skyblue;
+@import "tailwindcss";
+
+@theme {
+  --color-sara-green: rgb(32, 129, 74);
+  --color-sara-green-hover: rgb(42, 149, 84);
+  --color-sara-yellow: #facc15;
+  --color-sara-light-purple: #f3e8ff;
+  --color-sara-bg: #f9fafb;
+  --color-sara-card: #ffffff;
+  --color-sara-card-hover: #f3f4f6;
+  --font-sara: "Outfit", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-sara-bg);
+    color: #111827; /* gray-900 */
+    font-family: var(--font-sara);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  ::selection {
+    background-color: var(--color-sara-green);
+    color: white;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }

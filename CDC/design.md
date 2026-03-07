@@ -1,0 +1,1 @@
+Votre application de streaming musical doit être esthétique et facile à utiliser. L'interface utilisateur (UI) doit être claire et visuellement attrayante, tandis que l'expérience utilisateur (UX) doit être intuitive pour garantir que les utilisateurs puissent trouver et écouter rapidement leurs morceaux préférés.
