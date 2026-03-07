@@ -51,6 +51,10 @@ class CourseMusic
     #[ORM\Column(length: 64, nullable: true)]
     private ?string $relevance = null;
 
+    /** État du prompt : null (non défini), "active" (activé), "disabled" (désactivé). */
+    #[ORM\Column(length: 32, nullable: true)]
+    private ?string $active = null;
+
     #[ORM\Column(type: Types::FLOAT, nullable: true)]
     private ?float $duration = null;
 
@@ -174,6 +178,17 @@ class CourseMusic
     public function setRelevance(?string $relevance): static
     {
         $this->relevance = $relevance;
+        return $this;
+    }
+
+    public function getActive(): ?string
+    {
+        return $this->active;
+    }
+
+    public function setActive(?string $active): static
+    {
+        $this->active = $active;
         return $this;
     }
 

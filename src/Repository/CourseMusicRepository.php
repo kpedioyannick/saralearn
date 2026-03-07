@@ -28,6 +28,23 @@ class CourseMusicRepository extends ServiceEntityRepository
     }
 
     /**
+     * Tous les CourseMusic avec jointures (subchapter, chapter, subject, classroom) pour affichage liste.
+     *
+     * @return list<CourseMusic>
+     */
+    public function findAllOrdered(): array
+    {
+        return $this->createQueryBuilder('cm')
+            ->join('cm.subchapter', 'sub')
+            ->join('sub.chapter', 'ch')
+            ->join('ch.subject', 'subj')
+            ->join('subj.classroom', 'cl')
+            ->orderBy('cm.id', 'ASC')
+            ->getQuery()
+            ->getResult();
+    }
+
+    /**
      * Sous-chapitres de la liste qui ont déjà une CourseMusic.
      *
      * @param list<Subchapter> $subchapters

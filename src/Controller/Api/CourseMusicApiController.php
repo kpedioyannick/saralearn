@@ -43,6 +43,7 @@ use Symfony\Component\Routing\Attribute\Route;
  *   - title (string, optionnel)
  *   - prompt (string, optionnel)
  *   - style (string, optionnel)
+ *   - active (string, optionnel) : "active", "disabled" ou null
  *   - relevance (string, optionnel)
  *   - sunoTaskId (string, optionnel)
  *   - audioUrl (string, optionnel)
@@ -164,6 +165,10 @@ final class CourseMusicApiController extends AbstractController
         }
         if (array_key_exists('duration', $body)) {
             $courseMusic->setDuration(is_numeric($body['duration']) ? (float) $body['duration'] : null);
+        }
+        if (array_key_exists('active', $body)) {
+            $v = is_string($body['active']) ? trim($body['active']) : '';
+            $courseMusic->setActive($v === 'active' || $v === 'disabled' ? $v : null);
         }
 
         $this->entityManager->flush();

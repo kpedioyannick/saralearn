@@ -6,6 +6,7 @@ namespace App\Controller\Api;
 
 use App\Entity\Module;
 use App\Repository\SubchapterRepository;
+use App\Type\H5pType;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -56,7 +57,8 @@ final class ExpertModuleApiController extends AbstractController
 
     /**
      * Sauvegarde un ou plusieurs modules H5P (de difficulté 'expert') pour un sous-chapitre.
-     * Body : { "subchapterId": 123, "modules": [ { "title": "M1", "bloomLevel": "analyze", "h5pType": "H5P.MultiChoice", "content": "..." } ] }
+     * Body : { "subchapterId": 123, "modules": [ { "title": "M1", "content": "..." } ] }
+     * Les modules sont créés en type H5P.Blanks (texte à trous).
      */
     #[Route('/save', name: 'api_expert_modules_save', methods: ['POST'])]
     public function saveExpertModules(Request $request): JsonResponse
@@ -85,7 +87,7 @@ final class ExpertModuleApiController extends AbstractController
         $createdCount = 0;
 
         foreach ($modulesData as $m) {
-            if (!isset($m['content'], $m['h5pType'], $m['bloomLevel'], $m['title'])) {
+            if (!isset($m['content'], $m['title'])) {
                 continue; // Skip invalid module definitions
             }
 
@@ -93,9 +95,9 @@ final class ExpertModuleApiController extends AbstractController
             $module->setSubchapter($subchapter);
             $module->setChapter($chapter);
             $module->setTitle($m['title']);
-            $module->setBloomLevel($m['bloomLevel']);
+            $module->setBloomLevel('apply');
             $module->setDifficulty('expert'); // Forced to expert
-            $module->setH5pType($m['h5pType']);
+            $module->setH5pType(H5pType::Blanks->value);
             
             // Content can be an array in JSON payload or a stringized JSON
             $content = is_array($m['content']) ? json_encode($m['content']) : $m['content'];

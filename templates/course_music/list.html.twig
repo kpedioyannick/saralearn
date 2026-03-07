@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}CourseMusic - Liste{% endblock %}
+
+{% block body %}
+<div class="max-w-[1600px] mx-auto">
+    <h1 class="text-2xl font-bold text-gray-900 mb-6">Liste des CourseMusic</h1>
+
+    {% for message in app.flashes('success') %}
+        <div class="mb-4 p-3 rounded-lg bg-green-100 text-green-800 text-sm">{{ message }}</div>
+    {% endfor %}
+    {% for message in app.flashes('error') %}
+        <div class="mb-4 p-3 rounded-lg bg-red-100 text-red-800 text-sm">{{ message }}</div>
+    {% endfor %}
+
+    <div class="overflow-x-auto rounded-lg border border-gray-200 bg-white shadow-sm">
+        <table class="min-w-full divide-y divide-gray-200 text-left text-sm">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th class="px-4 py-3 font-semibold text-gray-700">ID</th>
+                    <th class="px-4 py-3 font-semibold text-gray-700">Classe</th>
+                    <th class="px-4 py-3 font-semibold text-gray-700">Chapitre</th>
+                    <th class="px-4 py-3 font-semibold text-gray-700">Sous-chapitre</th>
+                    <th class="px-4 py-3 font-semibold text-gray-700">Actif</th>
+                    <th class="px-4 py-3 font-semibold text-gray-700">Prompt · Style · Actions</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+                {% for cm in course_musics %}
+                    {% set sub = cm.subchapter %}
+                    {% set ch = sub ? sub.chapter : null %}
+                    {% set subject = ch ? ch.subject : null %}
+                    {% set classroom = subject ? subject.classroom : null %}
+                    <tr class="hover:bg-gray-50/50">
+                        <td class="px-4 py-2 font-mono text-gray-600">{{ cm.id }}</td>
+                        <td class="px-4 py-2 text-gray-800">{{ classroom ? classroom.name : '—' }}</td>
+                        <td class="px-4 py-2 text-gray-800 max-w-[200px] truncate" title="{{ ch ? ch.title : '' }}">{{ ch ? ch.title : '—' }}</td>
+                        <td class="px-4 py-2 text-gray-800 max-w-[220px] truncate" title="{{ sub ? sub.title : '' }}">{{ sub ? sub.title : '—' }}</td>
+                        <td class="px-4 py-2">
+                            <form action="{{ path('app_course_music_edit', { id: cm.id }) }}" method="post" class="space-y-1">
+                                <select name="active" class="w-full rounded border border-gray-300 px-2 py-1 text-sm focus:ring-2 focus:ring-sara-green focus:border-sara-green">
+                                    <option value="" {{ (cm.active ?? '') == '' ? 'selected' : '' }}>—</option>
+                                    <option value="active" {{ (cm.active ?? '') == 'active' ? 'selected' : '' }}>Activé</option>
+                                    <option value="disabled" {{ (cm.active ?? '') == 'disabled' ? 'selected' : '' }}>Désactivé</option>
+                                </select>
+                                <button type="submit" class="mt-1 px-3 py-1.5 rounded bg-sara-green text-white text-xs font-semibold hover:bg-sara-green-hover transition-colors">Sauvegarder</button>
+                            </form>
+                        </td>
+                        <td class="px-4 py-2 max-w-[400px]">
+                            <form action="{{ path('app_course_music_edit', { id: cm.id }) }}" method="post" class="space-y-2">
+                                <textarea name="prompt" rows="3" class="w-full rounded border border-gray-300 px-2 py-1 text-gray-800 text-sm focus:ring-2 focus:ring-sara-green focus:border-sara-green" placeholder="Prompt">{{ cm.prompt ?? '' }}</textarea>
+                                <input type="text" name="style" value="{{ cm.style ?? '' }}" class="w-full rounded border border-gray-300 px-2 py-1 text-gray-700 text-sm focus:ring-2 focus:ring-sara-green focus:border-sara-green" placeholder="Style" />
+                                <input type="hidden" name="active" value="{{ cm.active ?? '' }}" />
+                                <button type="submit" class="px-3 py-1.5 rounded bg-sara-green text-white text-xs font-semibold hover:bg-sara-green-hover transition-colors">Sauvegarder</button>
+                            </form>
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="6" class="px-4 py-8 text-center text-gray-500">Aucun CourseMusic.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
