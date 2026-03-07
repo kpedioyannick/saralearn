@@ -28,20 +28,41 @@ class CourseMusicRepository extends ServiceEntityRepository
     }
 
     /**
-     * Tous les CourseMusic avec jointures (subchapter, chapter, subject, classroom) pour affichage liste.
+     * CourseMusic dont le prompt (trim) commence par le préfixe donné (ex. "[Verse]").
      *
      * @return list<CourseMusic>
      */
-    public function findAllOrdered(): array
+    public function findWherePromptStartsWith(string $prefix): array
     {
         return $this->createQueryBuilder('cm')
+            ->where('cm.prompt IS NOT NULL')
+            ->andWhere('TRIM(cm.prompt) LIKE :prefix')
+            ->setParameter('prefix', $prefix . '%')
+            ->orderBy('cm.id', 'ASC')
+            ->getQuery()
+            ->getResult();
+    }
+
+    /**
+     * CourseMusic avec jointures (subchapter, chapter, subject, classroom) pour affichage liste.
+     *
+     * @param null|'active'|'disabled' $active Filtre par champ active (null = tous)
+     * @return list<CourseMusic>
+     */
+    public function findAllOrdered(?string $active = null): array
+    {
+        $qb = $this->createQueryBuilder('cm')
             ->join('cm.subchapter', 'sub')
             ->join('sub.chapter', 'ch')
             ->join('ch.subject', 'subj')
             ->join('subj.classroom', 'cl')
-            ->orderBy('cm.id', 'ASC')
-            ->getQuery()
-            ->getResult();
+            ->orderBy('cm.id', 'ASC');
+
+        if ($active === 'active' || $active === 'disabled') {
+            $qb->andWhere('cm.active = :active')->setParameter('active', $active);
+        }
+
+        return $qb->getQuery()->getResult();
     }
 
     /**
@@ -101,8 +122,10 @@ class CourseMusicRepository extends ServiceEntityRepository
             ->andWhere('cm.sunoClipId IS NULL')
             ->andWhere('cl.priority = :highPri')
             ->andWhere('subj.priority != :lowPri OR subj.priority IS NULL')
+            ->andWhere('cm.active = :active')
             ->setParameter('highPri', 'high')
             ->setParameter('lowPri', 'low')
+            ->setParameter('active', 'active')
             ->orderBy('cm.id', 'ASC')
             ->setMaxResults($limit)
             ->getQuery()

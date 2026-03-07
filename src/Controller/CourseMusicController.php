@@ -21,12 +21,18 @@ final class CourseMusicController extends AbstractController
     }
 
     #[Route('', name: 'app_course_music_list', methods: ['GET'])]
-    public function list(): Response
+    public function list(Request $request): Response
     {
-        $items = $this->courseMusicRepository->findAllOrdered();
+        $activeFilter = $request->query->get('active');
+        if ($activeFilter !== null && $activeFilter !== 'active' && $activeFilter !== 'disabled') {
+            $activeFilter = null;
+        }
+
+        $items = $this->courseMusicRepository->findAllOrdered($activeFilter);
 
         return $this->render('course_music/list.html.twig', [
             'course_musics' => $items,
+            'active_filter' => $activeFilter,
         ]);
     }
 
@@ -57,6 +63,9 @@ final class CourseMusicController extends AbstractController
         $this->entityManager->flush();
         $this->addFlash('success', sprintf('CourseMusic #%d mis à jour.', $id));
 
-        return $this->redirectToRoute('app_course_music_list');
+        $filter = $request->request->get('filter');
+        $params = ($filter === 'active' || $filter === 'disabled') ? ['active' => $filter] : [];
+
+        return $this->redirectToRoute('app_course_music_list', $params);
     }
 }
