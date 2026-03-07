@@ -22,7 +22,7 @@ enum H5pType: string
     case InteractiveBook = 'H5P.InteractiveBook';
 
     /** Niveaux de difficulté communs à tous les types. */
-    private const LEVELS = ['débutant', 'intermédiaire'];
+    private const LEVELS = ['débutant', 'intermédiaire', 'avancé', 'expert'];
 
     public function getLabel(): string
     {

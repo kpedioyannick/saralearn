@@ -21,6 +21,8 @@ class Classroom
 
     #[ORM\Column(length: 64)]
     private ?string $name = null;
+    #[ORM\Column(length: 50, nullable: true)]
+    private ?string $priority = null;
 
     #[ORM\Column(length: 128)]
     private ?string $slug = null;
@@ -45,6 +47,18 @@ class Classroom
     public function getName(): ?string
     {
         return $this->name;
+    }
+
+    public function getPriority(): ?string
+    {
+        return $this->priority;
+    }
+
+    public function setPriority(?string $priority): static
+    {
+        $this->priority = $priority;
+
+        return $this;
     }
 
     public function setName(string $name): static

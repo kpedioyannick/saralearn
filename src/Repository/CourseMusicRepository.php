@@ -68,6 +68,23 @@ class CourseMusicRepository extends ServiceEntityRepository
     }
 
     /**
+     * CourseMusic avec un prompt mais sans sunoClipId.
+     *
+     * @return list<CourseMusic>
+     */
+    public function findWithPromptWithoutSunoClipId(int $limit = 50): array
+    {
+        return $this->createQueryBuilder('cm')
+            ->where('cm.prompt IS NOT NULL')
+            ->andWhere("cm.prompt <> ''")
+            ->andWhere('cm.sunoClipId IS NULL')
+            ->orderBy('cm.id', 'ASC')
+            ->setMaxResults($limit)
+            ->getQuery()
+            ->getResult();
+    }
+
+    /**
      * CourseMusic avec audio (ou un id Suno) mais sans videoUrl, pour --fill-video.
      *
      * @return list<CourseMusic>

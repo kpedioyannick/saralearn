@@ -23,6 +23,8 @@ class Subchapter
 
     #[ORM\Column(length: 1024)]
     private ?string $title = null;
+    #[ORM\Column(length: 50, nullable: true)]
+    private ?string $priority = null;
 
     #[ORM\Column(length: 1024)]
     private ?string $slug = null;
@@ -67,6 +69,18 @@ class Subchapter
     public function getTitle(): ?string
     {
         return $this->title;
+    }
+
+    public function getPriority(): ?string
+    {
+        return $this->priority;
+    }
+
+    public function setPriority(?string $priority): static
+    {
+        $this->priority = $priority;
+
+        return $this;
     }
 
     public function setTitle(string $title): static

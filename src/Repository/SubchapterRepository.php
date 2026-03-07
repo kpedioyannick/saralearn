@@ -93,4 +93,31 @@ class SubchapterRepository extends ServiceEntityRepository
             ->getQuery()
             ->getResult();
     }
+
+    /**
+     * Sous-chapitres candidats pour modules avancés/experts.
+     * Classe = high, Matière != low, pas de module expert.
+     *
+     * @return list<Subchapter>
+     */
+    public function findPriorityCandidatesForExpertModules(int $limit = 50): array
+    {
+        return $this->createQueryBuilder('s')
+            ->join('s.chapter', 'c')
+            ->join('c.subject', 'subj')
+            ->join('subj.classroom', 'cl')
+            ->leftJoin('s.modules', 'm', 'WITH', 'm.difficulty = :diff')
+            ->andWhere('s.type = :type')
+            ->andWhere('cl.priority = :highPri')
+            ->andWhere('subj.priority != :lowPri')
+            ->andWhere('m.id IS NULL') // pas de module avancé/expert
+            ->setParameter('type', Subchapter::TYPE_COURS)
+            ->setParameter('highPri', 'high')
+            ->setParameter('lowPri', 'low')
+            ->setParameter('diff', 'expert') // ou 'avancé', on a mis 'expert' dans H5pType
+            ->orderBy('s.id', 'ASC')
+            ->setMaxResults($limit)
+            ->getQuery()
+            ->getResult();
+    }
 }

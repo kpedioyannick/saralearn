@@ -74,9 +74,9 @@ final class CourseMusicApiController extends AbstractController
     }
 
     /**
-     * Liste de sous-chapitres sans CourseMusic.
+     * Liste de CourseMusic avec un prompt mais sans sunoClipId.
      *
-     * Body : { "number": 10 }. Réponse : { "items": [ { id, subchapterTitle, chapterTitle, classroom, subject }, ... ] }
+     * Body : { "number": 10 }. Réponse : { "items": [ { id, prompt, subchapterId, subchapterTitle, chapterTitle, classroom, subject }, ... ] }
      */
     #[Route('/subchapters/list', name: 'api_subchapters_list', methods: ['POST'])]
     public function subchaptersList(Request $request): JsonResponse
@@ -84,15 +84,18 @@ final class CourseMusicApiController extends AbstractController
         $body = json_decode((string) $request->getContent(), true);
         $number = isset($body['number']) && is_numeric($body['number']) ? max(1, min(500, (int) $body['number'])) : 50;
 
-        $subchapters = $this->subchapterRepository->findWithContextWithoutCourseMusicOrderById($number);
+        $courseMusics = $this->courseMusicRepository->findWithPromptWithoutSunoClipId($number);
         $items = [];
-        foreach ($subchapters as $s) {
-            $chapter = $s->getChapter();
+        foreach ($courseMusics as $cm) {
+            $s = $cm->getSubchapter();
+            $chapter = $s?->getChapter();
             $subject = $chapter?->getSubject();
             $classroom = $subject?->getClassroom();
             $items[] = [
-                'id' => $s->getId(),
-                'subchapterTitle' => $s->getTitle(),
+                'id' => $cm->getId(),
+                'prompt' => $cm->getPrompt(),
+                'subchapterId' => $s?->getId(),
+                'subchapterTitle' => $s?->getTitle(),
                 'chapterTitle' => $chapter?->getTitle(),
                 'classroom' => $classroom?->getName(),
                 'subject' => $subject?->getName(),
@@ -126,7 +129,7 @@ final class CourseMusicApiController extends AbstractController
         }
 
         $courseMusic = $this->courseMusicRepository->findOneBySubchapter($subchapter);
-        if ($courseMusic === null) {
+        if ($courseMusic === null || $courseMusic->getSunoClipId() !== null) {
             $courseMusic = new CourseMusic();
             $courseMusic->setSubchapter($subchapter);
             $this->entityManager->persist($courseMusic);
@@ -146,6 +149,9 @@ final class CourseMusicApiController extends AbstractController
         }
         if (array_key_exists('sunoTaskId', $body)) {
             $courseMusic->setSunoTaskId(is_string($body['sunoTaskId']) ? $body['sunoTaskId'] : null);
+        }
+        if (array_key_exists('sunoClipId', $body)) {
+            $courseMusic->setSunoClipId(is_string($body['sunoClipId']) ? $body['sunoClipId'] : null);
         }
         if (array_key_exists('audioUrl', $body)) {
             $courseMusic->setAudioUrl(is_string($body['audioUrl']) ? $body['audioUrl'] : null);
