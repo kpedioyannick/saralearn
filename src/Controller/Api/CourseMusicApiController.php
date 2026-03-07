@@ -126,7 +126,7 @@ final class CourseMusicApiController extends AbstractController
             $classroom = $subject?->getClassroom();
             $items[] = [
                 'id' => $cm->getId(),
-                'prompt' => $cm->getPrompt(),
+                'prompt' => '', //$cm->getPrompt(),
                 'subchapterId' => $s?->getId(),
                 'subchapterTitle' => $s?->getTitle(),
                 'chapterTitle' => $chapter?->getTitle(),
