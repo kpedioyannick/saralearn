@@ -1,0 +1,140 @@
+/* ============================================================
+   Sara — design tokens
+   Imported from the Réviz design system (colors_and_type.css),
+   trimmed to what this app uses, plus the app's runtime theme
+   tokens (--sc-*) which flip between the paper and dark worlds.
+   ============================================================ */
+
+:root {
+  /* ----- TYPEFACES ---------------------------------------- */
+  --font-display: 'Newsreader', 'Iowan Old Style', Georgia, serif;
+  --font-ui: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* ----- INK / PAPER (design-system source values) --------- */
+  --paper: #faf7f0;
+  --paper-deep: #f2ede2;
+  --surface: #ffffff;
+  --surface-sunk: #f6f2ea;
+
+  --ink-900: #1a1814;
+  --ink-700: #3f3a33;
+  --ink-500: #6e665b;
+  --line: #e5decf;
+  --line-strong: #d2c9b5;
+
+  /* ----- ACCENT (Gold Leaf) ------------------------------- */
+  --gold-100: #f8ebc6;
+  --gold-300: #e8c56f;
+  --gold-500: #c8932e;
+  --gold-700: #8e6516;
+
+  /* ----- BRAND GREEN — carries every action ---------------- */
+  --brand-green: #118c44;
+  --brand-green-50: #e6f4ec;
+  --brand-green-100: #c8e7d3;
+  --brand-green-700: #0a5c2c;
+
+  /* ----- SEMANTIC ----------------------------------------- */
+  --success-50: #e8f5ec;
+  --success-500: #2f9352;
+  --success-700: #1b5e33;
+  --warning-50: #fff3de;
+  --warning-500: #d88a0e;
+  --amber-50: #fff8eb;
+  --amber-300: #f4c66b;
+  --amber-ink: #5c3a02;
+
+  /* ----- THEME COLOURS (subject dots) --------------------- */
+  --sky-500: #1684d6;
+  --sky-50: #ecf6fe;
+  --violet-500: #7a4fcb;
+  --violet-50: #f3eefe;
+  --rose-500: #ec4880;
+  --rose-50: #fff1f4;
+  --amber-500: #e29412;
+  --college-500: #2f8a74;
+  --lycee-500: #4e3a91;
+
+  /* ----- RADIUS ------------------------------------------- */
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-xl: 20px;
+  --r-2xl: 28px;
+  --r-pill: 999px;
+
+  /* ----- ELEVATION ---------------------------------------- */
+  --shadow-sm: 0 1px 2px rgba(26, 24, 20, 0.06);
+  --shadow-md: 0 2px 4px rgba(26, 24, 20, 0.05);
+  --shadow-lg: 0 4px 8px rgba(26, 24, 20, 0.06), 0 16px 32px -8px rgba(26, 24, 20, 0.12);
+  --shadow-xl: 0 8px 16px rgba(26, 24, 20, 0.08), 0 32px 64px -16px rgba(26, 24, 20, 0.18);
+  --shadow-sunk: inset 0 1px 2px rgba(26, 24, 20, 0.08);
+
+  /* ----- MOTION ------------------------------------------- */
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.34, 0.64, 1);
+  --dur-fast: 140ms;
+  --dur-base: 220ms;
+  --dur-slow: 360ms;
+}
+
+/* ============================================================
+   Runtime theme — the app paints exclusively through these.
+   Light is the retained direction: papier crème, action verte.
+   ============================================================ */
+
+.theme-light {
+  --sc-bg: #faf7f0;
+  --sc-surface: #ffffff;
+  --sc-sunk: #f6f2ea;
+  --sc-text: #1a1814;
+  --sc-text2: #3f3a33;
+  --sc-text3: #6e665b;
+  --sc-line: #e5decf;
+  --sc-primary: #0a5c2c;
+  --sc-primary-soft: #e6f4ec;
+  --sc-on-primary: #ffffff;
+  /* Le vert de la marque — celui du « Sara » du logo. Distinct
+     du vert d'action (--sc-primary), qui est plus sombre pour
+     tenir le contraste sur un bouton plein. */
+  --sc-brand: #20814a;
+  --sc-scrim: rgba(26, 24, 20, 0.32);
+  --sc-shimmer: linear-gradient(90deg, #f6f2ea 0%, #ece6d8 40%, #f6f2ea 80%);
+}
+
+.theme-dark {
+  --sc-bg: #14120f;
+  --sc-surface: #1e1b17;
+  --sc-sunk: #221e19;
+  --sc-text: #f5f1e8;
+  --sc-text2: #dcd5c6;
+  --sc-text3: #a79e90;
+  --sc-line: #33302a;
+  --sc-primary: #74c494;
+  --sc-primary-soft: #10241a;
+  --sc-on-primary: #08190e;
+  /* #20814a tombe à ~2,4:1 sur le fond sombre : illisible. On
+     éclaircit la même teinte plutôt que d'en changer. */
+  --sc-brand: #4fb57c;
+  --sc-scrim: rgba(8, 7, 5, 0.58);
+  --sc-shimmer: linear-gradient(90deg, #221e19 0%, #2e2921 40%, #221e19 80%);
+}
+
+/* The error card keeps a calm green on both grounds — never a red,
+   never a cross. Dark needs its own pair to stay legible. */
+.theme-light {
+  --sc-good-bg: #e8f5ec;
+  --sc-good-line: #2f9352;
+  --sc-good-ink: #1b5e33;
+  --sc-miss-bg: #fff3de;
+  --sc-miss-line: #d88a0e;
+  --sc-miss-ink: #8e6516;
+}
+
+.theme-dark {
+  --sc-good-bg: #10281a;
+  --sc-good-line: #3f9f63;
+  --sc-good-ink: #86d3a3;
+  --sc-miss-bg: #2a2418;
+  --sc-miss-line: #d88a0e;
+  --sc-miss-ink: #f4c66b;
+}

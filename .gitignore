@@ -1,0 +1,36 @@
+# ── Secrets ──────────────────────────────────────────────────────────
+# .env porte le jeton d'administration. Une clé OpenAI a déjà fini en
+# clair dans un vhost Apache sur cette machine, puis dans les sauvegardes
+# système : ce fichier ne doit jamais être versionné.
+.env
+.env.local
+.env.*.local
+
+# ── Contenu ──────────────────────────────────────────────────────────
+# La base porte les exercices, les comptes et les votes. Elle ne rentre
+# pas dans un dépôt : elle change à chaque réponse d'élève, et elle
+# contient des données personnelles.
+#
+# ATTENTION : elle n'est donc sauvegardée nulle part par ce dépôt.
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# ── Fabriqué ─────────────────────────────────────────────────────────
+node_modules
+dist
+*.tsbuildinfo
+
+# ── Média ────────────────────────────────────────────────────────────
+# Les 9,7 Mo d'images de panneaux SONT versionnés, volontairement : ils
+# sont régénérables par scripts/import_signs.py, mais le téléchargement
+# prend une heure et dépend de sites tiers. C'est le prix d'un clone qui
+# fonctionne du premier coup.
+
+# ── Divers ───────────────────────────────────────────────────────────
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+.venv/
