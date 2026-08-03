@@ -250,6 +250,45 @@ Deux pièges rencontrés en reconstruisant `exercise` :
   `PRAGMA foreign_keys = ON` à chaque connexion — sans lui, supprimer des exercices
   laisse des tentatives et des votes orphelins, que la migration suivante refusera.
 
+## Sauvegardes
+
+La base porte **tout le contenu** : exercices, thèmes, comptes, votes. Le dépôt git ne
+la contient pas — elle change à chaque réponse d'élève et contient des données
+personnelles. Elle n'a donc qu'une seule protection : ces sauvegardes.
+
+```bash
+python3 scripts/sauvegarde.py                      # ponctuelle
+python3 scripts/sauvegarde.py --vers /media/disque --garder 30
+systemctl list-timers sara-sauvegarde              # la quotidienne
+```
+
+Un timer systemd la déclenche **chaque nuit à 3 h 20**, garde les **14 dernières** et
+supprime le reste. `Persistent=true` rattrape la sauvegarde si la machine était éteinte.
+
+**Ne sauvegarde jamais avec `cp sara.db ailleurs`.** SQLite est en mode WAL : les
+écritures récentes vivent dans `sara.db-wal` et pas encore dans le fichier principal.
+Copier l'un sans l'autre produit une base tronquée, et on ne s'en aperçoit qu'au moment
+de restaurer. `scripts/sauvegarde.py` passe par `Connection.backup()`, qui prend un
+instantané cohérent pendant que l'API continue d'écrire — puis **relit la copie** et
+vérifie son intégrité avant de la conserver. Une sauvegarde qu'on n'a jamais ouverte
+n'est pas une sauvegarde, c'est un espoir.
+
+### Restaurer
+
+```bash
+sudo systemctl stop sara-exos-api
+gunzip -c /var/backups/saralearn/sara-AAAAMMJJ-HHMMSS.db.gz > data/sara.db
+sqlite3 data/sara.db "PRAGMA integrity_check;"
+sudo systemctl start sara-exos-api
+```
+
+### La limite à connaître
+
+`/var/backups/saralearn` est **sur la même machine que la base**. Ça protège d'une
+fausse manœuvre — une suppression, une migration ratée — pas d'une panne de disque ni
+de la perte du serveur. Une copie hors machine reste à mettre en place : elle demande
+une destination et des identifiants.
+
 ## Configuration
 
 Toute la configuration de l'API vit dans **`.env`**, à la racine, lu par systemd
