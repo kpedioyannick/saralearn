@@ -77,6 +77,7 @@ from ..schemas import (
     CommentIn,
     CommentOut,
     ExerciseOut,
+    StepOut,
     OptionOut,
     VoteIn,
 )
@@ -151,12 +152,49 @@ def to_exercise_out(
         ko_line=e["ko_line"],
         exp_title=e["exp_title"],
         exp_text=e["exp_text"],
+        steps=_etapes(conn, e["id"], lang),
         up_count=e["up_count"],
         down_count=e["down_count"],
         my_vote=my_vote,
         comment_count=comment_count or 0,
         state=e["state"],
     )
+
+
+def _etapes(conn: sqlite3.Connection, exercise_id: int, lang: str) -> list[StepOut]:
+    """Les étapes de l'explication, traduites quand elles le sont.
+
+    LA TRADUCTION EST JOINTE, PAS CHERCHÉE À PART : une étape non
+    traduite tomberait sinon en anglais au milieu d'une carte française,
+    et c'est précisément la bascule dont se plaignait le lecteur. Ici le
+    repli est explicite et se voit — `COALESCE` sur le texte source.
+
+    L'IMAGE, ELLE, NE SE TRADUIT PAS. Elle est la même dans toutes les
+    langues, ce qui suppose qu'aucun mot ne soit écrit dessus : c'est
+    une règle du titre d'image, pas un hasard.
+    """
+    lignes = rows(
+        conn,
+        "SELECT COALESCE(t.texte, s.texte) AS texte, s.image_url, s.image_alt,"
+        "       s.image_credit, s.image_credit_url, s.image_source"
+        "  FROM exercise_step s"
+        "  LEFT JOIN exercise_step_translation t"
+        "    ON t.exercise_id = s.exercise_id AND t.rang = s.rang AND t.lang = ?"
+        " WHERE s.exercise_id = ?"
+        " ORDER BY s.rang",
+        (lang, exercise_id),
+    )
+    return [
+        StepOut(
+            text=r["texte"],
+            image=r["image_url"],
+            image_alt=r["image_alt"],
+            image_credit=r["image_credit"],
+            image_credit_url=r["image_credit_url"],
+            image_source=r["image_source"],
+        )
+        for r in lignes
+    ]
 
 
 # Les champs qu'une traduction remplace. `correct_index` n'y est pas, et

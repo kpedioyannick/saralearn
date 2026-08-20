@@ -20,6 +20,7 @@ import {
   type ApiExercise,
   type ApiKnowledge,
   type ApiOption,
+  type ApiStep,
   type ApiProgress,
   type ApiRankRow,
   type ApiTheme,
@@ -82,6 +83,19 @@ export type ExoCard = Exercise & {
    * dont un texte à trous a besoin.
    */
   opts: ApiOption[]
+  /**
+   * L'explication découpée, une étape par image.
+   *
+   * Le découpage vient de l'API, PAS DU FRONT. Il le faisait lui-même,
+   * phrase par phrase, dans chaque langue séparément : 14 cartes sur 261
+   * n'avaient alors pas le même nombre d'étapes en français et en
+   * anglais, et l'image d'une étape s'y serait décalée. Le rang est
+   * désormais figé en base.
+   *
+   * Vide sur un serveur d'avant la migration 032 — l'explication
+   * s'affiche alors d'un bloc, comme avant.
+   */
+  steps: ApiStep[]
 }
 
 /**
@@ -113,6 +127,7 @@ function adapt(e: ApiExercise, lang: Lang): ExoCard {
     koLine: e.ko_line ?? '',
     expTitle: e.exp_title ?? '',
     expText: e.exp_text,
+    steps: e.steps ?? [],
   }
 }
 
@@ -124,6 +139,12 @@ interface State {
   lang: Lang
   screen: Screen
   phase: Phase
+  /**
+   * L'étape de l'explication qu'on lit. Remise à zéro à chaque
+   * changement de phase et de carte — une explication commence toujours
+   * par son premier pas.
+   */
+  step: number
   i: number
   chosen: number | null
   /**
@@ -341,6 +362,7 @@ function initialState(): State {
     afterAuth: null,
     screen: entry?.screen ?? 'exo',
     phase: entry?.phase ?? 'q',
+    step: 0,
     i: 0,
     ...NO_ANSWER,
     win: 0,
@@ -419,6 +441,12 @@ export interface Store {
   restartCode: () => void
   /** Passe à la phase suivante, à la demande. */
   advance: () => void
+  /** Passe à l'étape suivante de l'explication depuis le rang donné.
+   *  Le rang sert de garde : deux sources avancent l'écran — la voix et
+   *  le minuteur — et la seconde arrivée ne doit rien faire. */
+  avancerEtape: (depuis: number) => void
+  /** Va droit à une étape : les pastilles de l'explication. */
+  allerEtape: (rang: number) => void
   /** Rouvre la relecture d'un apprentissage déjà généré. */
   resumeDraft: (themeId: number) => Promise<void>
   /** Pose le pseudo — en base et en local. */
@@ -767,7 +795,39 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     (phase: Phase) => {
       phaseStart.current = performance.now()
       ended.current = false
-      set({ phase, prog: 0 })
+      set({ phase, prog: 0, step: 0 })
+    },
+    [set],
+  )
+
+  /**
+   * Passer à l'étape suivante de l'explication.
+   *
+   * `depuis` est le rang d'où l'on part, et c'est un GARDE-FOU, pas une
+   * commodité : deux sources font avancer l'écran — la voix qui finit
+   * de lire une phrase, et le minuteur qui suit la vitesse de lecture.
+   * La première qui arrive gagne ; l'autre se présente ensuite avec un
+   * rang périmé et ne fait rien. Sans ça, une étape sautait deux fois.
+   */
+  const avancerEtape = useCallback(
+    (depuis: number) => {
+      const cur = live.current
+      const etapes = liveExo.current?.steps ?? []
+      if (cur.phase !== 'exp' || cur.step !== depuis) return
+      if (depuis >= etapes.length - 1) return
+      phaseStart.current = performance.now()
+      set({ step: depuis + 1, prog: 0 })
+    },
+    [set],
+  )
+
+  /** Revenir sur une étape déjà lue, ou sauter en avant. */
+  const allerEtape = useCallback(
+    (rang: number) => {
+      const etapes = liveExo.current?.steps ?? []
+      if (!etapes.length) return
+      phaseStart.current = performance.now()
+      set({ step: Math.max(0, Math.min(etapes.length - 1, rang)), prog: 0 })
     },
     [set],
   )
@@ -840,15 +900,23 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       // lit elle aussi. La barre y suit donc la voix, comme ailleurs,
       // et ne décide de rien : `AUTO_ADVANCE` étant faux, personne ne
       // quitte l'écran à la place du lecteur.
-      const lu = readingMs(spokenText(liveExo.current, cur.phase))
+      const lu = readingMs(spokenText(liveExo.current, cur.phase, cur.step))
       const total = (lu || DURATIONS[cur.phase]) * PACE
       const p = Math.min(1, (performance.now() - phaseStart.current) / total)
       if (Math.abs(p - cur.prog) > 0.004 || (p === 1 && cur.prog !== 1)) set({ prog: p })
-      if (p >= 1) endPhase()
+      if (p < 1) return
+      // L'explication n'est pas finie tant qu'il lui reste une étape :
+      // la barre repart, l'image change, et personne ne quitte l'écran.
+      const etapes = liveExo.current?.steps ?? []
+      if (cur.phase === 'exp' && cur.step < etapes.length - 1) {
+        avancerEtape(cur.step)
+        return
+      }
+      endPhase()
     }
     raf = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(raf)
-  }, [endPhase, set])
+  }, [endPhase, set, avancerEtape])
 
   const answer = useCallback(
     (index: number) => {
@@ -1652,6 +1720,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       prev,
       go,
       advance,
+      avancerEtape,
+      allerEtape,
       leaveCode,
       restartCode,
       goCreate,
@@ -1690,7 +1760,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       s, exo, deck.length, ready, offline, user, categories, themes, myThemes,
       sharedExercises, progression,
       rankRows, comments, set, toggleFlag, hideFlag, answer, next, prev, go,
-      advance, leaveCode, restartCode, goCreate, resumeDraft, setPseudo, enterFeed, openMyTheme, sheetKnowledge, sheetLoading, generate, setLang, toggleDark, toggleMute, vote, card, subscribedIds,
+      advance, avancerEtape, allerEtape, leaveCode, restartCode, goCreate, resumeDraft, setPseudo, enterFeed, openMyTheme, sheetKnowledge, sheetLoading, generate, setLang, toggleDark, toggleMute, vote, card, subscribedIds,
       toggleSubscribe, sendComment, submitAuth, logout, draftExercises, createDraft,
       syncDraft, reviewExercise, publishDraft,
       proposeKnowledge, writePrompts, reviewChapter, generateFromChapters, startWriting, validateAll,

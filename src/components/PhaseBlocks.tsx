@@ -354,7 +354,80 @@ function steps(text: string): string[] {
   return sentences.length > 1 ? sentences : [text]
 }
 
+/**
+ * L'explication, une étape à la fois — l'image d'abord.
+ *
+ * ELLE NE DÉFILE PLUS. Le pavé numéroté qui la précédait empilait
+ * quatre phrases : 408 caractères de moyenne en français, jusqu'à 759,
+ * dans une bande qui n'en tenait pas la moitié. C'était la phase où le
+ * défilement du texte se confondait avec la pagination du flux, et une
+ * phrase à l'écran fait disparaître le conflit là où il se produisait.
+ *
+ * L'image porte l'écran, le texte la légende. Une étape sans image
+ * garde celle d'avant : une image qui persiste vaut mieux qu'un trou,
+ * et bien mieux qu'une image fausse — voir `StepOut` côté API.
+ */
 export function ExplanationBlock({ desktop }: Props) {
+  const { s, exo, t, allerEtape } = useStore()
+  if (!exo) return null
+
+  // Sans étapes — serveur d'avant la migration 032 — on retombe sur le
+  // pavé d'origine. Le client déployé ne doit pas se vider parce que
+  // l'API a une version de retard.
+  if (!exo.steps.length) return <ExplanationPave desktop={desktop} />
+
+  const rang = Math.max(0, Math.min(exo.steps.length - 1, s.step))
+  // L'image de l'étape, ou la dernière connue en remontant.
+  let vue = -1
+  for (let i = rang; i >= 0; i--) {
+    if (exo.steps[i].image) {
+      vue = i
+      break
+    }
+  }
+  const img = vue >= 0 ? exo.steps[vue] : null
+
+  return (
+    <div className="exp-suite">
+      <div className="exp-image">
+        {img?.image && (
+          <img
+            key={img.image}
+            src={img.image}
+            alt={img.image_alt ?? ''}
+            className="exp-image-img"
+          />
+        )}
+        {img?.image_credit && (
+          <span className="exp-image-credit">
+            {img.image_credit}
+            {img.image_source ? ` · ${img.image_source}` : ''}
+          </span>
+        )}
+        <div className="exp-pastilles">
+          {exo.steps.map((_, i) => (
+            <button
+              key={i}
+              className={i === rang ? 'exp-pastille is-on' : 'exp-pastille'}
+              onClick={() => allerEtape(i)}
+              aria-label={`${t.explanation} ${i + 1}/${exo.steps.length}`}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="exp-texte">
+        {rang === 0 && <span className="eyebrow">{t.explanation}</span>}
+        <p key={rang} className="exp-phrase anim-fade-up" style={{ fontSize: desktop ? 21 : 18 }}>
+          {exo.steps[rang].text}
+        </p>
+      </div>
+    </div>
+  )
+}
+
+/** L'explication d'un bloc — le repli, et rien d'autre. */
+function ExplanationPave({ desktop }: Props) {
   const { exo, t } = useStore()
   if (!exo) return null
   const parts = steps(exo.expText)

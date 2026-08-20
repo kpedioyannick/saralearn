@@ -23,6 +23,16 @@ export interface ApiOption {
   correct?: boolean
 }
 
+/** Une étape de l'explication, telle que l'API la sert. */
+export interface ApiStep {
+  text: string
+  image: string | null
+  image_alt: string | null
+  image_credit: string | null
+  image_credit_url: string | null
+  image_source: string | null
+}
+
 export interface ApiExercise {
   id: number
   theme_id: number
@@ -52,6 +62,9 @@ export interface ApiExercise {
   ok_line: string | null
   ko_title: string | null
   ko_line: string | null
+  // L'explication découpée. Absente d'un serveur qui n'a pas encore la
+  // migration 032 : le front retombe alors sur `exp_text` entier.
+  steps?: ApiStep[]
   exp_title: string | null
   exp_text: string
   up_count: number

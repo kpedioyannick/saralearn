@@ -197,6 +197,36 @@ function speakWeb(text: string, lang: Lang, rate: number, gen: number, handlers:
 // API publique
 // --------------------------------------------------------------------------
 
+/**
+ * LE MP3 DE LA SUITE, TÉLÉCHARGÉ PENDANT QU'ON ÉCOUTE LE COURANT.
+ *
+ * L'explication se lit désormais une étape à la fois, et chaque étape
+ * est un appel à `/api/tts` : sans avance, un blanc s'installe entre
+ * deux images pendant que le serveur fabrique le son. On garde donc
+ * UNE seule promesse d'avance — celle de l'étape suivante — et `speak`
+ * la ramasse si elle correspond au texte demandé.
+ *
+ * Une seule, jamais un cache : le catalogue ferait grossir la mémoire
+ * sans fin, et un son qu'on ne jouera pas est un son qu'on a payé pour
+ * rien.
+ */
+let avance: { cle: string; blob: Promise<Blob> } | null = null
+
+const cleAudio = (texte: string, lang: Lang, rate: number) =>
+  `${lang}|${rate}|${texte.trim()}`
+
+export function prefetch(text: string, lang: Lang, rate = 1): void {
+  const clean = text.trim()
+  if (!clean || serverMute) return
+  const cle = cleAudio(clean, lang, rate)
+  if (avance?.cle === cle) return
+  // `catch` posé tout de suite : une promesse rejetée sans gestionnaire
+  // remonte en « unhandled rejection » et pollue la console pour un son
+  // qu'on n'a même pas encore demandé.
+  avance = { cle, blob: api.tts(clean, lang, rate) }
+  void avance.blob.catch(() => undefined)
+}
+
 /** Coupe net : le MP3 en cours, la file du navigateur, et les réponses en vol. */
 export function cancel(): void {
   generation += 1
@@ -219,8 +249,11 @@ export function speak(text: string, lang: Lang, handlers: Handlers = {}, rate = 
     return
   }
 
-  void api
-    .tts(clean, lang, rate)
+  const cle = cleAudio(clean, lang, rate)
+  const attendu = avance?.cle === cle ? avance.blob : api.tts(clean, lang, rate)
+  avance = null
+
+  void attendu
     .then(async (blob) => {
       if (gen !== generation) return
       audioUrl = URL.createObjectURL(blob)

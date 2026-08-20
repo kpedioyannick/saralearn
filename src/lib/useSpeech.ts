@@ -19,7 +19,26 @@ export type SpeechState = 'playing' | 'paused' | 'done'
  * et la question se lit. Rien à trouver, rien à viser : l'orbe n'a plus
  * à être le seul moyen de lancer ce qui devait partir tout seul.
  */
-export function useSpeech(text: string, lang: Lang, enabled: boolean) {
+export function useSpeech(
+  text: string,
+  lang: Lang,
+  enabled: boolean,
+  /**
+   * Appelée quand CE texte-là vient d'être lu jusqu'au bout.
+   *
+   * C'est ce qui fait avancer l'explication : la fin d'une phrase
+   * amène l'image suivante. Elle n'est pas appelée sur une pause, ni
+   * sur une erreur, ni quand le navigateur refuse le son — dans ces
+   * trois cas rien n'a été lu, et faire avancer l'écran ferait défiler
+   * l'explication en silence.
+   */
+  onDone?: () => void,
+) {
+  // Lue hors du rendu : la refermer dans `start` figerait la version du
+  // premier appel, et l'étape n'avancerait qu'une fois.
+  const fini = useRef(onDone)
+  fini.current = onDone
+
   const [state, setState] = useState<SpeechState>('done')
 
   // `supported` n'est pas figé au montage : tant que le serveur n'a pas
@@ -40,7 +59,10 @@ export function useSpeech(text: string, lang: Lang, enabled: boolean) {
     forget()
     setState('playing')
     speech.speak(text, lang, {
-      onEnd: () => setState('done'),
+      onEnd: () => {
+        setState('done')
+        fini.current?.()
+      },
       onError: () => {
         setState('done')
         refresh()

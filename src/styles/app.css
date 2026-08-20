@@ -6627,3 +6627,128 @@ button {
   margin: 0;
   align-self: flex-start;
 }
+
+/* ============================================================
+   L'EXPLICATION EN ÉTAPES — l'image porte l'écran
+
+   70 % pour l'image, le reste au texte. Le rapport n'est pas
+   décoratif : à cette taille l'image cesse d'illustrer la phrase,
+   c'est elle qui parle et la phrase devient sa légende.
+
+   Le corps de l'exercice (`.exo-body`) est une zone de lecture qui
+   défile. Ici il ne doit PAS défiler — une étape tient à l'écran,
+   c'est tout l'intérêt — d'où la reprise de ses marges et de son
+   centrage sur cette phase seulement.
+   ============================================================ */
+
+.exo-body:has(.exp-suite) {
+  padding: 0;
+  overflow: hidden;
+}
+
+.exo-body:has(.exp-suite) > * {
+  margin-block: 0;
+  flex: 1;
+  min-height: 0;
+}
+
+.exp-suite {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+  min-height: 0;
+}
+
+.exp-image {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  background: var(--sc-veil);
+}
+
+.exp-image-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  /* La photo respire : 1.00 → 1.06 en douze secondes. C'est ce détail
+     qui fait qu'une suite d'images fixes se regarde comme une séquence
+     et non comme un diaporama. */
+  animation: slFade 340ms var(--ease-out) both, slRespire 12s linear both;
+}
+
+@keyframes slRespire {
+  from { transform: scale(1); }
+  to   { transform: scale(1.06); }
+}
+
+@keyframes slFade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* NON NÉGOCIABLE, comme sous la photo de la question : les trois
+   banques imposent de créditer le photographe et de nommer la banque
+   dès qu'une de leurs images est affichée. */
+.exp-image-credit {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  padding: 3px 8px;
+  border-radius: var(--r-pill);
+  background: rgba(0, 0, 0, 0.42);
+  color: rgba(255, 255, 255, 0.9);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.02em;
+}
+
+/* Les pastilles sont posées SUR l'image : elles disent où on en est
+   sans prendre un pixel au texte. Elles restent des cibles — on revient
+   sur une étape qu'on a lue trop vite. */
+.exp-pastilles {
+  position: absolute;
+  left: 12px;
+  bottom: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.exp-pastille {
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: width var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+
+.exp-pastille.is-on {
+  width: 20px;
+  background: #ffffff;
+}
+
+.exp-texte {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.exp-phrase {
+  margin: 0;
+  font-family: var(--font-display);
+  line-height: 1.4;
+  font-weight: 500;
+  color: var(--sc-text);
+}
+
+/* Le cadre desktop a sa propre zone de lecture, mêmes règles. */
+.desk-card-body:has(.exp-suite) {
+  overflow: hidden;
+}

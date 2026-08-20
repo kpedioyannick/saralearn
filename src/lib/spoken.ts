@@ -21,12 +21,29 @@ export interface Spokenable {
   koLine: string
   expTitle: string
   expText: string
+  /** L'explication découpée. Vide sur un serveur d'avant les étapes. */
+  steps?: { text: string }[]
 }
 
 export type SpokenPhase = 'q' | 'ok' | 'ko' | 'exp'
 
-/** Ce qu'il y a à lire, phase par phase. */
-export function spokenText(exo: Spokenable | null, phase: SpokenPhase): string {
+/**
+ * Ce qu'il y a à lire, phase par phase — et, dans l'explication, ÉTAPE
+ * PAR ÉTAPE.
+ *
+ * Une étape à la fois, et c'est le cœur de l'écran : la fin de la
+ * lecture d'une phrase fait passer l'image à la suivante. La voix
+ * devient l'horloge, il n'y a pas de minuteur à calibrer et rien ne
+ * dérive entre ce qu'on entend et ce qu'on voit.
+ *
+ * Sans étapes — un serveur d'avant la migration 032 — `exp_text` est lu
+ * d'un trait, comme avant.
+ */
+export function spokenText(
+  exo: Spokenable | null,
+  phase: SpokenPhase,
+  step = 0,
+): string {
   if (!exo) return ''
   const join = (parts: (string | undefined)[]) =>
     parts.filter((x) => x && x.trim()).join('. ').replace(/\.\.+/g, '.')
@@ -48,8 +65,17 @@ export function spokenText(exo: Spokenable | null, phase: SpokenPhase): string {
       ])
     case 'ko':
       return join([exo.koTitle, exo.koLine])
-    case 'exp':
-      return join([exo.expTitle, exo.expText])
+    case 'exp': {
+      const etapes = exo.steps ?? []
+      if (!etapes.length) return join([exo.expTitle, exo.expText])
+      const rang = Math.max(0, Math.min(etapes.length - 1, step))
+      // Le titre n'accompagne que la première étape : le répéter à
+      // chaque image ferait entendre « Pourquoi la paille semble
+      // cassée » quatre fois de suite.
+      return rang === 0
+        ? join([exo.expTitle, etapes[0].text])
+        : join([etapes[rang].text])
+    }
     // LA FÉLICITATION SE DIT AUSSI. Elle ne se lisait pas, et le
     // bandeau disparaissait avec elle : l'écran d'une bonne réponse
     // était le seul muet de la séquence — celui, justement, où la voix

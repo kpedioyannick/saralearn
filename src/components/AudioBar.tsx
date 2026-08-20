@@ -1,3 +1,5 @@
+import { useCallback, useEffect } from 'react'
+import { prefetch } from '../lib/speech'
 import { spokenText } from '../lib/spoken'
 import { useSpeech } from '../lib/useSpeech'
 import { useStore } from '../state/store'
@@ -34,9 +36,26 @@ import { Icon } from './Icon'
 const WAVE = [9, 16, 21, 13, 8, 14, 10]
 
 export function AudioBar({ desktop = false }: { desktop?: boolean }) {
-  const { s, exo, t } = useStore()
-  const text = spokenText(exo, s.phase)
-  const { supported, state, toggle, replay } = useSpeech(text, s.lang, !s.muted)
+  const { s, exo, t, avancerEtape } = useStore()
+  const text = spokenText(exo, s.phase, s.step)
+  // LA VOIX MÈNE L'EXPLICATION. Quand elle finit une phrase, l'image
+  // passe à la suivante — pas de minuteur à calibrer, aucune dérive
+  // entre ce qu'on entend et ce qu'on voit. Le minuteur du store reste
+  // en second : il prend le relais quand le son est coupé, et le rang
+  // passé en garde empêche les deux d'avancer ensemble.
+  const rang = s.step
+  const fini = useCallback(() => {
+    if (s.phase === 'exp') avancerEtape(rang)
+  }, [s.phase, rang, avancerEtape])
+  const { supported, state, toggle, replay } = useSpeech(text, s.lang, !s.muted, fini)
+
+  // Le son de l'étape suivante se télécharge pendant qu'on écoute
+  // celle-ci. Sans ça, chaque image s'ouvre sur un blanc, le temps que
+  // le serveur fabrique son MP3 — quatre blancs par explication.
+  const suivante = exo && s.phase === 'exp' ? spokenText(exo, 'exp', s.step + 1) : ''
+  useEffect(() => {
+    if (!s.muted && suivante && suivante !== text) prefetch(suivante, s.lang)
+  }, [suivante, text, s.muted, s.lang])
 
   if (s.muted || !supported || !text) return null
 

@@ -166,6 +166,28 @@ class OptionOut(BaseModel):
     correct: bool | None = None
 
 
+class StepOut(BaseModel):
+    """Une étape de l'explication, avec son image.
+
+    Le RANG n'est pas envoyé : la liste est déjà dans l'ordre, et un
+    numéro que le client n'affiche pas est un numéro qui finit par
+    diverger de la position. C'est ce qui arrivait quand le front
+    redécoupait `exp_text` lui-même.
+
+    `image` est nulle quand l'étape énonce une relation ou une négation
+    — rien à photographier — ou quand aucune banque n'a rendu de photo.
+    Le client garde alors celle de l'étape précédente : une image qui
+    persiste vaut mieux qu'un trou, et bien mieux qu'une image fausse.
+    """
+
+    text: str
+    image: str | None = None
+    image_alt: str | None = None
+    image_credit: str | None = None
+    image_credit_url: str | None = None
+    image_source: str | None = None
+
+
 class ExerciseOut(BaseModel):
     id: int
     theme_id: int
@@ -198,6 +220,10 @@ class ExerciseOut(BaseModel):
     ko_line: str | None = None
     exp_title: str | None = None
     exp_text: str
+    # L'explication découpée, une étape par image. `exp_text` reste : la
+    # voix le lit d'un trait quand le client ne sait pas enchaîner, et
+    # un client déployé qui ignore `steps` continue de fonctionner.
+    steps: list[StepOut] = []
     up_count: int = 0
     down_count: int = 0
     # +1, -1, ou None si l'utilisateur n'a pas voté.
