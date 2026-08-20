@@ -83,7 +83,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from .db import connection, rows, transaction
+from .db import connection, row, rows, transaction
 
 # TROIS BANQUES, ESSAYÉES DANS CET ORDRE — et l'ordre est un jugement,
 # pas un hasard. Unsplash d'abord parce que c'est la plus belle : sur les
@@ -483,8 +483,12 @@ async def chercher(requete: str) -> dict | None:
     return None
 
 
-def _rapatrier(url: str, exercise_id: int) -> str | None:
+def _rapatrier(url: str, exercise_id: int | str) -> str | None:
     """Copie une photo chez nous et rend son chemin public.
+
+    L'identifiant peut être un rang composé — « 412-2 » pour la
+    troisième étape de la carte 412 : deux étapes d'une même carte se
+    rapatrieraient sinon dans le même fichier.
 
     Pour Pixabay seul, dont les conditions interdisent le lien direct
     permanent. Rend None si la copie échoue — l'exercice reste alors sans
@@ -584,5 +588,96 @@ async def illustrer_chapitre(chapter_id: int) -> int:
     n = 0
     for eid in attente:
         if await illustrer(eid):
+            n += 1
+    return n
+
+
+# ==========================================================================
+# LES IMAGES DES ÉTAPES DE L'EXPLICATION
+#
+# Deux différences avec la photo de la carte, et elles vont dans le même
+# sens : ici l'élève a déjà répondu.
+#
+#   · `revele()` NE S'APPLIQUE PAS. Il interdit de nommer le phénomène
+#     sur la question, parce que l'image donnerait la réponse. Sur
+#     l'explication, la réponse est donnée depuis deux écrans — cacher
+#     le mécanisme n'a plus de sens, c'est lui qu'on veut montrer.
+#   · La recherche part du TITRE écrit par le modèle (`image_title`),
+#     pas de mots-clés fabriqués après coup. Il nomme ce qu'il faut
+#     montrer pour cette étape-là.
+#
+# Le reste est partagé : les trois banques dans l'ordre, le quota, le
+# filtre de contenu, le rapatriement de Pixabay.
+# ==========================================================================
+
+
+async def illustrer_etape(exercise_id: int, rang: int) -> bool:
+    """Pose la photo d'une étape. Silencieuse, comme `illustrer`."""
+    with connection() as conn:
+        e = row(
+            conn,
+            "SELECT image_title, image_url FROM exercise_step"
+            " WHERE exercise_id = ? AND rang = ?",
+            (exercise_id, rang),
+        )
+    if e is None or e["image_url"] or not (e["image_title"] or "").strip():
+        return False
+    if quota_epuise():
+        return False
+
+    photo = await chercher(e["image_title"])
+    if photo is None:
+        return False
+
+    if photo["source"] == "Pixabay":
+        # Le nom du fichier porte le rang : deux étapes de la même carte
+        # se rapatrieraient sinon l'une sur l'autre.
+        chemin = await asyncio.to_thread(
+            _rapatrier, photo["url"], f"{exercise_id}-{rang}"
+        )
+        if chemin is None:
+            return False
+        photo["url"] = chemin
+
+    with connection() as conn:
+        with transaction(conn):
+            conn.execute(
+                "UPDATE exercise_step SET image_url = ?, image_alt = ?,"
+                " image_credit = ?, image_credit_url = ?, image_source = ?"
+                " WHERE exercise_id = ? AND rang = ?",
+                (
+                    photo["url"],
+                    photo["alt"] or e["image_title"],
+                    photo["credit"],
+                    photo["credit_url"],
+                    photo["source"],
+                    exercise_id,
+                    rang,
+                ),
+            )
+    return True
+
+
+async def illustrer_les_etapes(chapter_id: int) -> int:
+    """Les étapes de ce chapitre qui attendent leur image."""
+    if not banques_ouvertes():
+        return 0
+    with connection() as conn:
+        attente = [
+            (r["exercise_id"], r["rang"])
+            for r in rows(
+                conn,
+                "SELECT s.exercise_id, s.rang FROM exercise_step s"
+                "  JOIN exercise e ON e.id = s.exercise_id"
+                " WHERE e.chapter_id = ? AND e.state = 'validated'"
+                "   AND s.image_url IS NULL AND s.image_title IS NOT NULL"
+                "   AND TRIM(s.image_title) <> ''"
+                " ORDER BY s.exercise_id, s.rang",
+                (chapter_id,),
+            )
+        ]
+    n = 0
+    for eid, rang in attente:
+        if await illustrer_etape(eid, rang):
             n += 1
     return n

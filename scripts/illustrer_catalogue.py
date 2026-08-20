@@ -41,6 +41,7 @@ from api.llm import ask  # noqa: E402
 from api.photos import (  # noqa: E402
     PAR_HEURE,
     illustrer,
+    illustrer_etape,
     oublier_le_quota,
     quota_epuise,
     restant,
@@ -116,12 +117,33 @@ VEILLE = 600
 async def poser_les_photos(boucle: bool) -> int:
     total = 0
     while True:
+        # LA FILE TIENT DEUX SORTES DE TRAVAUX : la photo d'ambiance
+        # d'une carte, et l'image d'une étape de son explication. Elles
+        # puisent au même quota, chez les mêmes banques — les compter à
+        # part ferait dimensionner deux rondes qui s'ignorent, et la
+        # seconde taperait dans un quota que la première a vidé.
+        #
+        # Les cartes passent devant : leur photo se voit dès la
+        # question, celle d'une étape seulement quand l'élève a répondu.
         with connection() as conn:
-            reste = rows(
-                conn,
-                "SELECT id FROM exercise WHERE state = 'validated'"
-                "   AND image_query IS NOT NULL AND image_url IS NULL ORDER BY id",
-            )
+            reste = [
+                ("carte", r["id"], None)
+                for r in rows(
+                    conn,
+                    "SELECT id FROM exercise WHERE state = 'validated'"
+                    "   AND image_query IS NOT NULL AND image_url IS NULL ORDER BY id",
+                )
+            ] + [
+                ("etape", r["exercise_id"], r["rang"])
+                for r in rows(
+                    conn,
+                    "SELECT s.exercise_id, s.rang FROM exercise_step s"
+                    "  JOIN exercise e ON e.id = s.exercise_id"
+                    " WHERE e.state = 'validated' AND s.image_url IS NULL"
+                    "   AND s.image_title IS NOT NULL AND TRIM(s.image_title) <> ''"
+                    " ORDER BY s.exercise_id, s.rang",
+                )
+            ]
         if not reste:
             if not boucle:
                 print("Plus rien à illustrer.")
@@ -149,11 +171,15 @@ async def poser_les_photos(boucle: bool) -> int:
         if place == 0 and not boucle:
             return total
         pose = refuse = 0
-        for e in reste[:place]:
+        for sorte, eid, rang in reste[:place]:
             if quota_epuise():
                 print("  quota atteint en cours de ronde")
                 break
-            if await illustrer(e["id"]):
+            fait = (
+                await illustrer(eid) if sorte == "carte"
+                else await illustrer_etape(eid, rang)
+            )
+            if fait:
                 pose += 1
             else:
                 refuse += 1

@@ -49,7 +49,7 @@ from . import sections
 from .critic import review
 from .db import connection, row, rows, scalar, transaction
 from .llm import GenerationError, ask, validate
-from .photos import illustrer_chapitre
+from .photos import illustrer_chapitre, illustrer_les_etapes
 from .traduction import traduire_partout
 
 # Sous ce nombre d'exercices encore servables, on recharge. Pas à zéro :
@@ -312,7 +312,7 @@ async def _ecrire_un_lot(chapter_id: int, lang: str, count: int = BATCH) -> int:
     with connection() as conn:
         with transaction(conn):
             for item in kept:
-                conn.execute(
+                cur = conn.execute(
                     "INSERT INTO exercise (chapter_id, exercise_prompt_id, type_question,"
                     " prompt, body, options, correct_index, ok_title, ok_line,"
                     " ko_title, ko_line, exp_title, exp_text, image_query, state)"
@@ -334,6 +334,16 @@ async def _ecrire_un_lot(chapter_id: int, lang: str, count: int = BATCH) -> int:
                         item.get("image_query"),
                     ),
                 )
+                # LES ÉTAPES DANS LA MÊME TRANSACTION QUE LA CARTE. Un
+                # exercice sans ses étapes serait à moitié écrit, et
+                # c'est le genre de moitié qu'on ne retrouve jamais :
+                # rien ne repasse derrière pour les poser.
+                for rang, etape in enumerate(item.get("steps") or []):
+                    conn.execute(
+                        "INSERT INTO exercise_step (exercise_id, rang, texte, image_title)"
+                        " VALUES (?,?,?,?)",
+                        (cur.lastrowid, rang, etape["text"], etape.get("image_title")),
+                    )
             conn.execute(
                 "UPDATE exercise_prompt SET status = 'done', produced_count = ?,"
                 " finished_at = datetime('now') WHERE id = ?",
@@ -407,4 +417,8 @@ async def ecrire_et_traduire(chapter_id: int, count: int = BATCH) -> int:
     # carte sans image, il ne peut pas lire une carte en anglais quand il
     # a demandé le français. L'ordre suit ce qui manque le plus.
     await illustrer_chapitre(chapter_id)
+    # Puis les étapes de l'explication, qui ont leur propre titre
+    # d'image. Après la photo de la carte : celle-là se voit dès la
+    # question, les autres seulement quand l'élève a répondu.
+    await illustrer_les_etapes(chapter_id)
     return produits

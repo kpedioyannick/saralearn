@@ -80,6 +80,7 @@ from __future__ import annotations
 import asyncio
 import json
 import os
+import re
 import sqlite3
 
 from . import titres
@@ -355,7 +356,75 @@ async def _ecrire_traduction(exercise_id: int, lang: str) -> bool:
                     traduit["exp_text"],
                 ),
             )
+
+    # Les étapes suivent l'explication qu'elles découpent. Après, jamais
+    # avant : une étape traduite sur un exercice qui n'a pas pu l'être
+    # afficherait du français sous une question anglaise.
+    await _traduire_les_etapes(exercise_id, lang, traduit["exp_text"])
     return True
+
+
+async def _traduire_les_etapes(exercise_id: int, lang: str, exp_fr: str) -> int:
+    """Le texte de chaque étape, dans la langue voulue.
+
+    D'ABORD SANS RIEN DEMANDER À GOOGLE. Les étapes sont une partition
+    de `exp_text`, et `exp_text` vient d'être traduit : si le découpage
+    mécanique de la traduction rend le même nombre de morceaux que
+    d'étapes, ce sont les mêmes phrases dans le même ordre, et c'est
+    gratuit. Mesuré sur le catalogue : 247 cartes sur 261 tombent
+    juste.
+
+    Les autres — le français fond deux phrases en une, ou en coupe une
+    en deux — passent par le traducteur, étape par étape, sous le même
+    verrou que le reste. C'est le seul cas qui coûte des requêtes.
+    """
+    with connection() as conn:
+        etapes = rows(
+            conn,
+            "SELECT rang, texte FROM exercise_step WHERE exercise_id = ? ORDER BY rang",
+            (exercise_id,),
+        )
+        deja = scalar(
+            conn,
+            "SELECT COUNT(*) FROM exercise_step_translation"
+            " WHERE exercise_id = ? AND lang = ?",
+            (exercise_id, lang),
+        )
+    if not etapes or deja:
+        return 0
+
+    textes = _phrases(exp_fr)
+    if len(textes) != len(etapes):
+        try:
+            traducteur = _traducteur(lang)
+        except Exception:  # noqa: BLE001 — la bibliothèque peut manquer
+            return 0
+        textes = []
+        async with _GOOGLE:
+            for e in etapes:
+                rendu = await _morceau(traducteur, e["texte"])
+                if rendu is None:
+                    return 0
+                textes.append(rendu)
+
+    with connection() as conn:
+        with transaction(conn):
+            for e, texte in zip(etapes, textes):
+                conn.execute(
+                    "INSERT OR IGNORE INTO exercise_step_translation"
+                    " (exercise_id, rang, lang, texte) VALUES (?,?,?,?)",
+                    (exercise_id, e["rang"], lang, texte),
+                )
+    return len(etapes)
+
+
+def _phrases(texte: str) -> list[str]:
+    """Le découpage mécanique — le même que celui de `llm._decouper`."""
+    lignes = [x.strip(" -–•*\t") for x in re.split(r"\r?\n+", texte or "") if x.strip()]
+    if len(lignes) > 1:
+        return lignes
+    phrases = [x.strip() for x in re.findall(r"[^.!?]+[.!?]*", texte or "") if x.strip()]
+    return phrases if len(phrases) > 1 else [texte]
 
 
 async def traduire_exercice(exercise_id: int, lang: str) -> bool:

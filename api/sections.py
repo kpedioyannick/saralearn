@@ -271,6 +271,29 @@ Return ONLY a JSON object of the form {{"exercises": [ ... ]}}, holding
                    finally appears, to name what has just been
                    understood. Clear, sharp, precise. Neither too long
                    nor too short
+  "steps"          the SAME explanation, cut into 3 to 5 steps that
+                   follow one another. Each step is an object:
+                     {"text": "...", "image_title": "..."}
+                   "text" is one sentence of the explanation. Read end
+                   to end, the steps must say exactly what "exp_text"
+                   says — same order, same mechanism, nothing added.
+                   "image_title" is THE TITLE OF THE PICTURE TO GO AND
+                   FIND for that step: name the thing to be shown, the
+                   way a photograph is named. Three to six words, no
+                   sentence.
+                   Here the answer is already given, so the picture MAY
+                   show the mechanism — that is the whole point. Name
+                   something that can be photographed, and stay inside
+                   the world of the lesson: the heart, an artery, a
+                   pulse; water, a glass, light. NEVER the comparison
+                   you used to explain — a step saying "like a car whose
+                   wheels hit mud" must not ask for a car — and never
+                   generic scenery.
+                   Use "" when the step states a relation nothing can
+                   show ("light travels faster in air") or denies
+                   something ("it is not the blood moving by itself").
+                   An empty title is the honest answer: that step keeps
+                   the picture of the one before it.
 
 Two options cannot have the same label. No commentary, no code fence.
 

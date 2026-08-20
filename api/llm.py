@@ -361,6 +361,59 @@ FALLBACK_TITLES = {
 }
 
 
+def _etapes(item: dict, exp_text: str) -> list[dict]:
+    """Les étapes de l'explication, avec le titre de leur image.
+
+    FACULTATIF ET TOLÉRANT, à dessein : le contrat vient d'être élargi,
+    et un modèle qui l'ignore ne doit pas faire perdre l'exercice. Sans
+    `steps`, l'explication est recoupée phrase par phrase — c'est ce que
+    le front faisait déjà à l'affichage — et les étapes n'ont pas de
+    titre d'image. Elles existent quand même, ce qui garde une seule
+    forme en base.
+
+    LE GARDE-FOU QUI COMPTE : la réunion des étapes doit dire ce que dit
+    `exp_text`. Un modèle qui en profite pour réécrire l'explication
+    donnerait à l'élève un texte à l'écran et un autre à l'oreille, la
+    voix lisant `exp_text`. On compare donc les deux à la lettre près —
+    espaces et ponctuation ôtés — et on retombe sur le découpage
+    mécanique dès que ça diverge.
+    """
+    brutes = item.get("steps")
+    etapes: list[dict] = []
+    if isinstance(brutes, list):
+        for e in brutes[:6]:
+            texte = ""
+            titre = ""
+            if isinstance(e, dict):
+                texte = _clean(e.get("text"), "exp_text") or ""
+                titre = str(e.get("image_title") or "").strip()[:120]
+            elif isinstance(e, str):
+                texte = _clean(e, "exp_text") or ""
+            if texte:
+                etapes.append({"text": texte, "image_title": titre or None})
+
+    if len(etapes) >= 2:
+        plat = lambda t: re.sub(r"[^a-z0-9]+", "", t.lower())
+        if plat(" ".join(e["text"] for e in etapes)) == plat(exp_text):
+            return etapes
+
+    return [{"text": t, "image_title": None} for t in _decouper(exp_text)]
+
+
+def _decouper(texte: str) -> list[str]:
+    """Le découpage mécanique, celui que le front applique aujourd'hui.
+
+    Les lignes d'abord — une explication en liste en porte —, les
+    phrases ensuite. Le repli de `_etapes`, et la seule façon de donner
+    des étapes aux 261 cartes écrites avant ce contrat.
+    """
+    lignes = [x.strip(" -–•*\t") for x in re.split(r"\r?\n+", texte or "") if x.strip()]
+    if len(lignes) > 1:
+        return lignes
+    phrases = [x.strip() for x in re.findall(r"[^.!?]+[.!?]*", texte or "") if x.strip()]
+    return phrases if len(phrases) > 1 else [texte]
+
+
 def validate(raw: str, type_question: str, lang: str = "fr") -> list[dict]:
     """Ne garde que les exercices exploitables. Le reste est écarté sans bruit."""
     kept: list[dict] = []
@@ -422,6 +475,7 @@ def validate(raw: str, type_question: str, lang: str = "fr") -> list[dict]:
 
         kept.append(
             {
+                "steps": _etapes(item, exp_text),
                 "image_query": image_query,
                 "prompt": prompt,
                 "body": body,
