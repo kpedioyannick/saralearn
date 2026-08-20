@@ -29,7 +29,9 @@ au lieu d'appeler Google. Ce qui n'y figure pas repart chez le traducteur :
 la table n'est pas un mur, c'est un raccourci sûr.
 
 La voix est celle du front (`src/data/content.ts`) : sobre, un point, pas
-de point d'exclamation.
+de point d'exclamation — SAUF sur l'écran d'erreur, où quatre des six
+titres encouragent, tutoient et s'exclament depuis le 20/08/2026. Voir
+`KO`.
 """
 
 from __future__ import annotations
@@ -37,10 +39,10 @@ from __future__ import annotations
 import re
 
 # Ce que le modèle a le droit d'écrire, et la seule chose que la table
-# ait à traduire. Cinq de chaque : assez pour que le titre colle à la
-# situation — « C'est l'inverse. » quand l'élève a pris le contraire —
-# et assez peu pour que la voix de l'app reste la même d'une carte à
-# l'autre.
+# ait à traduire. Assez de formes pour que le titre colle à la
+# situation, assez peu pour que la voix de l'app reste la même d'une
+# carte à l'autre : cinq du côté de la réussite, six du côté de
+# l'erreur.
 OK = (
     "Exactly.",
     "That's it.",
@@ -49,25 +51,29 @@ OK = (
     "Well reasoned.",
 )
 
+# L'ÉCHEC ENCOURAGE, DÉCISION DU PROPRIÉTAIRE (20/08/2026). Les quatre
+# premiers s'adressent à l'élève, le tutoient et portent un point
+# d'exclamation — trois choses que la voix de l'app évitait jusqu'ici.
+# C'est un choix assumé et il ne concerne QUE cet écran : celui d'une
+# réponse ratée est le seul où quelqu'un a besoin qu'on lui parle.
+#
+# Ce qui ne change pas : un titre RÉAGIT À LA TENTATIVE, il n'affirme
+# rien sur le contenu et ne désigne aucune option. « Courage » ne dit
+# pas où était l'erreur — `ko_line` s'en charge, juste en dessous.
+#
+# Trois formes ont été retirées ici : « Think again. », « Not this
+# time. » et « The common trap. ». La dernière portait quelque chose que
+# rien ne remplace — elle disait à l'élève que sa réponse est l'erreur
+# que TOUT LE MONDE fait, pendant exact de la consigne qui veut que
+# chaque mauvaise option soit une croyance réelle. Elle reste dans `FR`
+# et dans `_VERS_KO`, prête à revenir.
 KO = (
+    "You can do this!",
+    "You learned something!",
+    "You'll get there!",
+    "Keep going!",
     "Not quite.",
     "Almost.",
-    # Celui-ci porte quelque chose que les quatre autres n'ont pas : il
-    # dit à l'élève que sa réponse est l'erreur que TOUT LE MONDE fait.
-    # C'est le pendant exact de la consigne d'écriture, qui demande que
-    # chaque mauvaise option soit une croyance réelle — se tromper doit
-    # montrer son propre modèle, et savoir qu'on partage l'erreur vaut
-    # mieux que se croire seul à côté de la plaque.
-    #
-    # Il remplace « The other way round. », retiré : sur quatre options,
-    # « c'est l'inverse » désignait presque la bonne case avant même
-    # l'explication, sans même en désigner une seule. Et c'était le seul
-    # des cinq à AFFIRMER quelque chose sur le contenu au lieu de réagir
-    # à la tentative — mal choisi, il contredisait l'explication juste
-    # en dessous.
-    "The common trap.",
-    "Think again.",
-    "Not this time.",
 )
 
 # La table, sur une clé sans casse ni ponctuation : « Exactly! »,
@@ -86,10 +92,16 @@ FR = {
     "well reasoned": "Bien raisonné.",
     "not quite": "Pas tout à fait.",
     "almost": "Presque.",
-    # Sans adresse directe, comme les quatre autres : l'app hésite
-    # entre le tutoiement et le vouvoiement (46 « vous » contre 27 « tu »
-    # dans `i18n.ts`), et ce n'est pas un titre de deux mots qui doit
-    # trancher.
+    # Les quatre qui encouragent. Le tutoiement est ici un choix, pas un
+    # oubli : l'app hésite ailleurs entre « tu » et « vous » (46 contre
+    # 27 dans `i18n.ts`), et cet écran-là tranche pour le « tu ».
+    "you can do this": "Courage, tu peux le faire !",
+    "you learned something": "Courage, tu as appris !",
+    "you ll get there": "Tu peux y arriver !",
+    "keep going": "Courage, continue !",
+    # RETIRÉES DU JEU, GARDÉES DANS LA TABLE. Une carte ancienne qui
+    # porte encore l'une d'elles doit se traduire juste ; et si l'une
+    # revient un jour dans `KO`, sa ligne française est déjà là.
     "the common trap": "Le piège classique.",
     "think again": "À reconsidérer.",
     "not this time": "Pas cette fois.",
@@ -112,14 +124,20 @@ def traduire(titre: str, lang: str) -> str | None:
 # accroche gagne, donc l'ordre compte : « not exactly » doit tomber sur
 # « Not quite. » et non sur « Exactly. », d'où la négation en tête.
 _VERS_KO = (
-    (r"\b(?:common|usual|classic|trap|everyone|most people)\b", "The common trap."),
+    # Les trois formes retirées, rattachées chacune à sa plus proche
+    # voisine du nouveau jeu. Sans ces trois lignes, les 59 cartes qui
+    # les portent tomberaient sur le tirage par numéro et changeraient
+    # de sens au lieu de changer de ton.
+    (r"\b(?:common|usual|classic|trap|everyone|most people)\b",
+     "You learned something!"),
+    (r"\b(?:think|remember|consider|careful|watch)\b", "You'll get there!"),
+    (r"\b(?:this time|yet)\b", "Keep going!"),
     (r"\b(?:close|almost|nearly|not so far)\b", "Almost."),
-    (r"\b(?:think|remember|consider|careful|watch)\b", "Think again."),
     (r"\bnot (?:quite|exactly|so|that|it|right)\b", "Not quite."),
     # Les rabaissants tombent ici, et c'est le point : « Wrong », « Nope »
     # et « Misstep » n'ont jamais eu leur place sur cet écran.
     (r"\b(?:wrong|no|nope|oops|misstep|incorrect|false)\b", "Not quite."),
-    (r"\b(?:yet|again|retry|try)\b", "Not this time."),
+    (r"\b(?:again|retry|try)\b", "Keep going!"),
 )
 
 _VERS_OK = (

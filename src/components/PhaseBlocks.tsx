@@ -296,9 +296,20 @@ export function MissBlock({ desktop }: Props) {
         <Icon name="undo" size={desktop ? 36 : 32} stroke={1.9} />
       </span>
 
+      {/* LA TAILLE SUIT LA LONGUEUR. Le jeu de titres tenait en deux
+          mots — « Pas tout à fait. » — et quatre des six en font
+          désormais cinq : « Courage, tu peux le faire ! ». À 34 px, un
+          titre pareil prend trois lignes sur un téléphone étroit et
+          pousse la réponse attendue hors de l'écran. On descend d'un
+          cran au-delà de vingt caractères, ce qui les ramène à deux
+          lignes sans toucher aux courts. */}
       <p
         className="display"
-        style={{ fontSize: desktop ? 40 : 34, lineHeight: 1.1, fontWeight: 700 }}
+        style={{
+          fontSize: exo.koTitle.length > 20 ? (desktop ? 34 : 27) : desktop ? 40 : 34,
+          lineHeight: 1.1,
+          fontWeight: 700,
+        }}
       >
         {exo.koTitle}
       </p>

@@ -251,14 +251,17 @@ Return ONLY a JSON object of the form {{"exercises": [ ... ]}}, holding
                      "Exactly."  "That's it."  "Well seen."
                      "Correct."  "Well reasoned."
   "ok_line"        one sentence confirming the reasoning
-  "ko_title"       PICK ONE OF THESE FIVE, copied exactly, nothing else.
+  "ko_title"       PICK ONE OF THESE SIX, copied exactly, nothing else.
                    Choose the one that fits the mistake:
-                     "Not quite."  "Almost."  "Think again."
-                     "The common trap."  "Not this time."
-                   Use "The common trap." when the learner picked the
-                   belief most people hold — the one you wrote as the
-                   widespread mistake. Never let a title give the answer
-                   away: it reacts to the attempt, the explanation comes
+                     "You can do this!"  "You learned something!"
+                     "You'll get there!"  "Keep going!"
+                     "Not quite."  "Almost."
+                   Four of them encourage the learner and address them
+                   directly — that is deliberate, and only on this
+                   screen. Use "Almost." when the answer was close, and
+                   "Not quite." when it was not. Never let a title give
+                   the answer away: it reacts to the attempt, it says
+                   nothing about the content, and the explanation comes
                    after
   "ko_line"        one sentence saying where the mistake creeps in
   "exp_title"      the title of the explanation
