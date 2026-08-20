@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 225,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason a cloud stays up in the sky instead of falling to the ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The water droplets are lighter than air, so they float.",
+            "feedback": "Water droplets are denser than air; they don't float. They stay up because rising air pushes against them."
+          },
+          {
+            "label": "Rising air currents push upward against the droplets with a force that balances their weight.",
+            "feedback": "Yes. Droplets fall due to gravity, but if the upward speed of the air inside the cloud is at least as fast as the droplets' falling speed, they are held aloft."
+          },
+          {
+            "label": "The droplets are so small they are immune to gravity.",
+            "feedback": "Gravity acts on all matter, including tiny droplets. It's the upward air motion that keeps them from falling."
+          },
+          {
+            "label": "The droplets are stuck to each other, forming a single mass that is too light to fall.",
+            "feedback": "Droplets can collide and merge, but a larger droplet falls faster, not slower. The cloud is kept up by rising air, not by clinging together."
+          }
+        ],
+        "ok_title": "Updrafts hold droplets",
+        "ok_line": "Rising air keeps the droplets suspended.",
+        "ko_title": "Not floating, not glued",
+        "ko_line": "Upward air motion balances gravity.",
+        "exp_title": "Why clouds stay aloft",
+        "exp_text": "Cloud droplets are pulled down by gravity like anything else, but they are so small that their falling speed is very slow. Inside a cloud, air is often rising, and as long as that rising air moves upward at least as fast as the droplets fall, the droplets are carried along. So a cloud stays up because the upward air currents hold it there, not because water is light or because the droplets have no weight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a cloud droplet when it collides with another droplet of a different size?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They may merge into a larger droplet.",
+            "feedback": "Correct. Collisions between droplets of different sizes can lead to them joining together, which is how droplets grow."
+          },
+          {
+            "label": "They bounce apart without any change.",
+            "feedback": "Collisions can cause merging, not just bouncing. Droplets that collide often stick together to form a larger droplet."
+          },
+          {
+            "label": "The smaller one evaporates instantly.",
+            "feedback": "Collision doesn't cause evaporation; it can lead to coalescence, where the two droplets combine into one bigger droplet."
+          },
+          {
+            "label": "They both split into even smaller droplets.",
+            "feedback": "The warm-rain process is about droplets combining, not splitting. Collisions can make droplets grow, not break them apart."
+          }
+        ],
+        "ok_title": "Droplets coalesce on collision",
+        "ok_line": "They stick together and grow larger.",
+        "ko_title": "Collisions grow, not break",
+        "ko_line": "Merging makes bigger droplets.",
+        "exp_title": "Warm-rain process",
+        "exp_text": "When cloud droplets of different sizes collide, they can merge into a single, larger droplet. This is called collision and coalescence, and it is a key way droplets grow big enough to fall as rain. The different falling speeds of droplets make collisions more likely, so larger droplets sometimes catch up to smaller ones and combine."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a cloud condensation nucleus?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A small ice crystal that grows inside a cloud",
+            "feedback": "Ice crystals form from freezing droplets, not from condensation nuclei. A condensation nucleus is a particle on which water vapour condenses."
+          },
+          {
+            "label": "A droplet that has grown large enough to fall",
+            "feedback": "That's a precipitation-sized droplet, not a nucleus. A condensation nucleus is the tiny particle that starts the droplet."
+          },
+          {
+            "label": "A tiny particle of dust, smoke, or other matter on which water vapour condenses",
+            "feedback": "Yes. Water vapour needs a surface to condense onto, and these microscopic particles provide it, helping droplets form."
+          },
+          {
+            "label": "A chunk of hail that forms inside a thunderstorm",
+            "feedback": "Hail is a precipitation particle, not a condensation nucleus. A nucleus is far smaller and is present at the start of droplet formation."
+          }
+        ],
+        "ok_title": "Seed for droplets",
+        "ok_line": "A tiny particle that lets vapour condense.",
+        "ko_title": "Not ice, not rain",
+        "ko_line": "It's the starting point for a droplet.",
+        "exp_title": "Cloud condensation nuclei",
+        "exp_text": "Water vapour in the air cannot condense into a droplet without something to condense onto. Cloud condensation nuclei are microscopic particles of dust, smoke, or other matter that float in the air. When moist air cools and becomes saturated, water vapour condenses onto these particles, forming the tiny droplets that make up a cloud."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the lifted condensation level (LCL) mark in the atmosphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The top of a cloud where it stops growing",
+            "feedback": "The LCL is about the base of a cloud, not the top. It's the height where condensation begins for a non-convective cloud."
+          },
+          {
+            "label": "The level where rain starts to fall from a cloud",
+            "feedback": "Rain begins after droplets grow, which happens well above the cloud base. The LCL is where the cloud first becomes visible."
+          },
+          {
+            "label": "The height at which air becomes completely dry",
+            "feedback": "The LCL is where air becomes saturated, not dry. At that level, water vapour starts condensing into cloud droplets."
+          },
+          {
+            "label": "The altitude where condensation begins, roughly setting the height of the cloud base",
+            "feedback": "Yes. When non-convective air rises and cools to its dew point, the level at which it becomes saturated is the LCL, and that's about where the bottom of the cloud forms."
+          }
+        ],
+        "ok_title": "Height of cloud base",
+        "ok_line": "The LCL is where condensation begins.",
+        "ko_title": "Not top, not rain",
+        "ko_line": "It marks the start of the cloud.",
+        "exp_title": "Lifted condensation level",
+        "exp_text": "When air rises, it cools, and at some height it becomes saturated with water vapour. That height is called the lifted condensation level, and it roughly determines where the base of a non-convective cloud will be. Below that level, the air is not saturated, so no cloud forms; above it, condensation begins and a cloud appears."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three lifting agents that can cause air to rise and form clouds?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Cyclonic, convective, and stratiform",
+            "feedback": "Stratiform is a cloud type, not a lifting agent. The three agents are cyclonic/frontal, convective, and orographic."
+          },
+          {
+            "label": "Cyclonic/frontal, convective, and orographic",
+            "feedback": "Yes. These are the three ways air can be forced upward: by fronts and low-pressure systems, by heating from the surface, and by mountains."
+          },
+          {
+            "label": "Orographic, convective, and adiabatic",
+            "feedback": "Adiabatic cooling is the process that happens as air rises, not a lifting agent itself. The three agents are the ones that start the rising."
+          },
+          {
+            "label": "Frontal, convective, and condensation",
+            "feedback": "Condensation is a result of rising and cooling, not a cause of lifting. The agents are cyclonic/frontal, convective, and orographic."
+          }
+        ],
+        "ok_title": "Three ways to lift air",
+        "ok_line": "Fronts, heat, and mountains lift air.",
+        "ko_title": "Not types of clouds",
+        "ko_line": "These are the causes of upward motion.",
+        "exp_title": "Lifting agents",
+        "exp_text": "Air must be lifted to cool and form clouds. There are three ways this happens: cyclonic or frontal lift, where stable air is pushed up at weather fronts or around low-pressure centers; convective lift, where the sun heats the ground and warms the air, making it rise; and orographic lift, where air is forced upward by mountains. Each can bring moist air to its dew point and produce clouds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical radius of a normal cloud droplet?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "About 0.015 millimetres",
+            "feedback": "That is the size of droplets in moderate convective clouds that can produce light showers, not the typical size of a cloud droplet."
+          },
+          {
+            "label": "About 0.1 millimetres",
+            "feedback": "That size is when droplets become large enough to fall as precipitation, not the normal size of a cloud droplet."
+          },
+          {
+            "label": "About 0.002 millimetres",
+            "feedback": "Yes. A typical cloud droplet has a radius of about 0.002 millimetres, which is very small and easily kept aloft by rising air."
+          },
+          {
+            "label": "About 1 millimetre",
+            "feedback": "That is far larger than a cloud droplet; droplets of that size would fall as rain, not stay suspended in a cloud."
+          }
+        ],
+        "ok_title": "Tiny droplet size",
+        "ok_line": "Cloud droplets are about 0.002 mm in radius.",
+        "ko_title": "Sizes differ by stage",
+        "ko_line": "Typical droplets are much smaller than rain drops.",
+        "exp_title": "Size of cloud droplets",
+        "exp_text": "Cloud droplets are extremely small, with a typical radius of about 0.002 millimetres. This tiny size is why they are so easily carried upward by the gentle rising air inside a cloud. If they grow to about 0.1 millimetres or larger, they can become heavy enough to fall as precipitation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens when a cloud droplet is carried above the freezing level in a strong updraft?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It becomes supercooled first, then freezes into an ice particle",
+            "feedback": "Correct. The droplet can stay liquid even below freezing, becoming supercooled, and then freeze, sometimes forming small hail if it continues to grow."
+          },
+          {
+            "label": "It immediately turns into a snowflake",
+            "feedback": "Freezing into an ice particle is correct, but snowflakes form from ice crystals that grow, not directly from a single droplet. The droplet first becomes supercooled, then freezes."
+          },
+          {
+            "label": "It evaporates because the air is too cold for liquid water",
+            "feedback": "Cloud droplets can exist at temperatures below freezing as supercooled water; they don't evaporate just because it's cold."
+          },
+          {
+            "label": "It stays a liquid droplet and falls as rain",
+            "feedback": "If carried above the freezing level, the droplet will freeze eventually, not stay liquid. It becomes supercooled first, then freezes."
+          }
+        ],
+        "ok_title": "Supercooled then frozen",
+        "ok_line": "Droplets can freeze above the freezing level.",
+        "ko_title": "Not immediate snow",
+        "ko_line": "They first become supercooled, then freeze.",
+        "exp_title": "Freezing of cloud droplets",
+        "exp_text": "When a cloud droplet is lifted above the freezing level, it doesn't freeze instantly. It can remain liquid at temperatures below 0°C, becoming supercooled. If it then freezes, it turns into an ice particle. In strong updrafts, these frozen particles can grow by collecting supercooled water, sometimes becoming small hail. The freezing process is an important part of how precipitation forms in cold clouds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main mechanism that causes rising air to cool and form clouds?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cooling by contact with cold mountains",
+            "feedback": "Mountains can lift air (orographic lift), but the cooling that forms clouds is from expansion as the air rises, not from touching cold surfaces."
+          },
+          {
+            "label": "Cooling from cold water below",
+            "feedback": "The cooling that leads to clouds happens because the air expands as it rises into lower pressure, not because of contact with cold surfaces."
+          },
+          {
+            "label": "Cooling by mixing with colder air",
+            "feedback": "Mixing can play a minor role, but the principal mechanism is adiabatic cooling, where the air cools because it expands."
+          },
+          {
+            "label": "Adiabatic cooling, because the rising air expands and uses energy",
+            "feedback": "Yes. As air rises, atmospheric pressure decreases, so the air expands. That expansion uses energy, which cools the air, allowing water vapour to condense into cloud droplets."
+          }
+        ],
+        "ok_title": "Adiabatic cooling",
+        "ok_line": "Expanding air cools and condenses.",
+        "ko_title": "Not external cooling",
+        "ko_line": "The air cools from its own expansion.",
+        "exp_title": "How air cools to form clouds",
+        "exp_text": "When a packet of air rises, it moves into regions of lower atmospheric pressure. Because the pressure is lower, the air expands, and that expansion consumes energy, which cools the air. This is called adiabatic cooling. As the air cools, it eventually reaches its dew point, and water vapour condenses onto particles to form cloud droplets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a rain droplet when it is kept aloft by a strong updraft for a long time?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It shrinks and evaporates completely",
+            "feedback": "Updrafts don't evaporate droplets; they give them more time to grow by collecting other droplets. The droplet gets larger, not smaller."
+          },
+          {
+            "label": "It grows into a larger droplet because it has more time to collect others",
+            "feedback": "Yes. The longer a droplet stays in the cloud, the more chances it has to collide with other droplets and grow. Strong updrafts keep it aloft, so it can become heavy enough to fall as large rain."
+          },
+          {
+            "label": "It turns into a snowflake even if it never reaches freezing temperatures",
+            "feedback": "Snowflakes form from ice crystals, which require freezing temperatures. Staying aloft doesn't automatically turn a droplet into ice."
+          },
+          {
+            "label": "It stays the same size because it's already at its maximum",
+            "feedback": "There is no fixed maximum size. As long as the droplet is aloft and colliding with other droplets, it can keep growing."
+          }
+        ],
+        "ok_title": "Longer aloft, bigger drops",
+        "ok_line": "Updrafts give droplets time to grow.",
+        "ko_title": "Not shrinking, not turning to ice",
+        "ko_line": "More time aloft means more growth.",
+        "exp_title": "Growth of rain droplets",
+        "exp_text": "In a cloud with strong updrafts, falling rain droplets can be carried back upward instead of falling to the ground. This gives them more time to collide with other droplets and merge, so they grow larger. The longer they stay aloft, the bigger they become, and eventually they get so heavy that the updraft can't hold them, and they fall as heavy rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the convective condensation level (CCL) in relation to clouds?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The level where rain begins to fall from free convective clouds",
+            "feedback": "Rain forms after droplets grow, well above the cloud base. The CCL is the height where free convective clouds begin to form, not where rain starts."
+          },
+          {
+            "label": "The top of a cumulus cloud where it spreads into an anvil",
+            "feedback": "The anvil top is far above the condensation level. The CCL is about the base of convective clouds, not their top."
+          },
+          {
+            "label": "The altitude at which free convective clouds generally form",
+            "feedback": "Yes. For clouds that form because of heating from below (convection), the altitude where condensation begins is the convective condensation level, which sets their base height."
+          },
+          {
+            "label": "The level where air becomes too dry to support any cloud",
+            "feedback": "The CCL is where air becomes saturated and clouds start, not where it becomes dry. That would be the opposite."
+          }
+        ],
+        "ok_title": "Base of convective clouds",
+        "ok_line": "The CCL is where convective clouds form.",
+        "ko_title": "Not rain, not anvil",
+        "ko_line": "It marks the start of a convective cloud.",
+        "exp_title": "Convective condensation level",
+        "exp_text": "When the sun heats the ground, air near the surface becomes warm and rises. As it rises, it cools, and at some specific altitude it becomes saturated and a cloud starts to form. That altitude is called the convective condensation level, and it roughly determines the height of the base of free convective clouds, like cumulus clouds."
+      }
+    ]
+  }
+]

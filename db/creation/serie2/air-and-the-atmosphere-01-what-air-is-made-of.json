@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate percentage of nitrogen in the air around you?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 78%",
+            "feedback": "Correct. Nitrogen makes up roughly 78% of the air, which is its largest single component."
+          },
+          {
+            "label": "About 21%",
+            "feedback": "That is the share of oxygen, not nitrogen. Nitrogen is far more abundant."
+          },
+          {
+            "label": "About 1%",
+            "feedback": "That is roughly the share of argon, a much smaller component than nitrogen."
+          },
+          {
+            "label": "About 50%",
+            "feedback": "No single gas makes up half of the air; nitrogen is the biggest at about 78%."
+          }
+        ],
+        "ok_title": "Mostly nitrogen",
+        "ok_line": "Air is nearly four-fifths nitrogen.",
+        "ko_title": "Wrong gas share",
+        "ko_line": "Check which gas holds the largest portion of the mix.",
+        "exp_title": "Nitrogen's dominance",
+        "exp_text": "The air you breathe is about 78% nitrogen by volume. Oxygen comes second at about 21%, and argon and other gases make up the small remainder. Remember that nitrogen is the quiet majority of the mixture."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which gas in the air is present in the smallest amount among nitrogen, oxygen, argon, and carbon dioxide?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen is the largest component, not the smallest. Carbon dioxide is far less abundant than nitrogen."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is the second most abundant gas, around 21%, much higher than carbon dioxide's tiny share."
+          },
+          {
+            "label": "Argon",
+            "feedback": "Argon is about 0.9% of the air, which is small but still much larger than carbon dioxide's share of roughly 0.04%."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Correct. Carbon dioxide makes up only a tiny fraction, around 0.04% of the air, far less than the others listed."
+          }
+        ],
+        "ok_title": "Tiny carbon dioxide",
+        "ok_line": "Carbon dioxide is the scarcest of the four main gases.",
+        "ko_title": "Smallest gas?",
+        "ko_line": "Compare the percentages: nitrogen 78%, oxygen 21%, argon 0.9%, carbon dioxide 0.04%.",
+        "exp_title": "Relative gas amounts",
+        "exp_text": "In the dry air, nitrogen is about 78%, oxygen about 21%, argon about 0.9%, and carbon dioxide only about 0.04%. So carbon dioxide is far smaller than argon and all the others listed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the state of water in the air?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Always liquid, tiny droplets",
+            "feedback": "Liquid droplets appear only when water condenses into clouds or fog. In ordinary clear air, water exists as an invisible gas."
+          },
+          {
+            "label": "Always solid, as ice crystals",
+            "feedback": "Ice crystals form only in clouds at high altitude or in very cold air. The water vapour in the air is a gas, not a solid."
+          },
+          {
+            "label": "Usually an invisible gas called water vapour",
+            "feedback": "Correct. Water is present in the air mostly as water vapour, an invisible gas, though it can condense into droplets or freeze into crystals."
+          },
+          {
+            "label": "It is not really in the air at all",
+            "feedback": "Water vapour is definitely part of the air mixture, varying in amount from place to place and day to day."
+          }
+        ],
+        "ok_title": "Water as gas",
+        "ok_line": "The air's water is mostly invisible vapour.",
+        "ko_title": "Water's form",
+        "ko_line": "Think of what you cannot see: water in the air is usually gas.",
+        "exp_title": "Water vapour in air",
+        "exp_text": "Water exists in the air chiefly as water vapour, an invisible gas. It becomes visible only when it condenses into tiny droplets forming clouds or fog, or freezes into ice crystals high in the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two gases together make up about 99% of the dry air?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Nitrogen and oxygen",
+            "feedback": "Correct. Nitrogen at about 78% and oxygen at about 21% together total roughly 99% of the dry air."
+          },
+          {
+            "label": "Oxygen and argon",
+            "feedback": "Argon is only about 0.9%, so together with oxygen they would be only about 22% of the air, not 99%."
+          },
+          {
+            "label": "Nitrogen and carbon dioxide",
+            "feedback": "Carbon dioxide is about 0.04%, so nitrogen plus carbon dioxide is about 78%, not 99%."
+          },
+          {
+            "label": "Argon and carbon dioxide",
+            "feedback": "These two together make up about 1% of the air, not 99%. The lion's share is nitrogen and oxygen."
+          }
+        ],
+        "ok_title": "Top two gases",
+        "ok_line": "Nitrogen and oxygen dominate the air.",
+        "ko_title": "Missing the majority",
+        "ko_line": "Remember the big two: nitrogen and oxygen cover almost all the air.",
+        "exp_title": "Main air components",
+        "exp_text": "In dry air, nitrogen is about 78% and oxygen about 21%, giving a combined share of about 99%. Argon and carbon dioxide make up the remaining 1% or so, so they are minor by comparison."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which gas is the second most abundant in the air?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Argon",
+            "feedback": "Argon is a small fraction, about 0.9%, much less than oxygen's 21%. It is not second."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Correct. After nitrogen at about 78%, oxygen is next at about 21%, making it the second most abundant gas."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is a trace gas, about 0.04%, far smaller than oxygen. It is not second."
+          },
+          {
+            "label": "Water vapour",
+            "feedback": "Water vapour varies a lot, but even in humid air it is usually only a few percent, not a constant second place like oxygen."
+          }
+        ],
+        "ok_title": "Second gas",
+        "ok_line": "Oxygen comes right after nitrogen in abundance.",
+        "ko_title": "Not the runner-up",
+        "ko_line": "Check the order: nitrogen first, oxygen second, argon third.",
+        "exp_title": "Abundance order",
+        "exp_text": "By volume, nitrogen is first at about 78%, oxygen second at about 21%, and argon third at about 0.9%. Oxygen is clearly the second most abundant gas in the air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the usual name for the invisible gaseous form of water in the air?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Steam",
+            "feedback": "Steam usually means the visible white mist that forms when hot water vapour cools quickly. The invisible gas itself is called water vapour."
+          },
+          {
+            "label": "Cloud",
+            "feedback": "A cloud is made of visible tiny water droplets or ice crystals, not the invisible gas."
+          },
+          {
+            "label": "Humidity",
+            "feedback": "Humidity is the measure of how much water vapour is in the air, not the name of the gas itself."
+          },
+          {
+            "label": "Water vapour",
+            "feedback": "Correct. Water vapour is the invisible gas that water becomes when it evaporates, and it is a normal component of air."
+          }
+        ],
+        "ok_title": "Invisible water",
+        "ok_line": "Water vapour is the gas hiding in the air.",
+        "ko_title": "Wrong water term",
+        "ko_line": "Distinguish the gas (water vapour) from its visible forms like clouds.",
+        "exp_title": "Water vapour definition",
+        "exp_text": "Water vapour is the gaseous state of water. It is invisible, unlike steam or cloud, and it exists in varying amounts in the air. Humidity is the term for how much of it is present."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which gas makes up about 0.9% of the air and is chemically very unreactive?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is about 21% of the air and is very reactive, not unreactive. Argon is the unreactive one at 0.9%."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is about 0.04%, not 0.9%, and it does react with things, like dissolving in water. Argon is far less reactive."
+          },
+          {
+            "label": "Argon",
+            "feedback": "Correct. Argon is about 0.9% of the air and belongs to the noble gases, which almost never combine with other elements."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen is about 78%, not 0.9%, and it does react under some conditions, such as in lightning or in fertilizers. Argon is the 0.9% gas."
+          }
+        ],
+        "ok_title": "The quiet 0.9%",
+        "ok_line": "Argon is rare and nearly inert.",
+        "ko_title": "Wrong gas amount",
+        "ko_line": "Match the percentage to the right gas: argon is the 0.9% one.",
+        "exp_title": "Argon's properties",
+        "exp_text": "Argon makes up about 0.9% of the air. It is a noble gas, meaning its atoms are very stable and almost never form chemical bonds with other atoms, so it just sits in the mixture without reacting."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which gas do plants remove from the air to build their food through photosynthesis?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Plants release oxygen as a byproduct of photosynthesis; they take in carbon dioxide, not oxygen, for making food."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Correct. Plants absorb carbon dioxide from the air and, using sunlight and water, convert it into sugars, releasing oxygen in the process."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Most plants cannot use nitrogen gas directly from the air; they get nitrogen from soil compounds. For photosynthesis, they need carbon dioxide."
+          },
+          {
+            "label": "Argon",
+            "feedback": "Argon is unreactive and not used by plants for anything. Photosynthesis relies on carbon dioxide."
+          }
+        ],
+        "ok_title": "Plant's food gas",
+        "ok_line": "Carbon dioxide is the raw material for photosynthesis.",
+        "ko_title": "Wrong plant gas",
+        "ko_line": "Remember: plants take in carbon dioxide, not oxygen or nitrogen.",
+        "exp_title": "Photosynthesis input",
+        "exp_text": "During photosynthesis, plants take carbon dioxide from the air and combine it with water, using sunlight as energy, to make glucose. Oxygen is given off as a waste product. So the gas they remove is carbon dioxide."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the mixture of gases that surrounds Earth called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The atmosphere",
+            "feedback": "Correct. The atmosphere is the whole layer of gases held around Earth by gravity."
+          },
+          {
+            "label": "The hydrosphere",
+            "feedback": "The hydrosphere is all the water on Earth, like oceans and lakes, not the layer of air."
+          },
+          {
+            "label": "The lithosphere",
+            "feedback": "The lithosphere is the solid outer part of Earth, including the crust and upper mantle, not the gas layer."
+          },
+          {
+            "label": "The biosphere",
+            "feedback": "The biosphere is the zone where life exists on Earth, including land, water, and air, but it is not the name for the gas mixture itself."
+          }
+        ],
+        "ok_title": "Earth's air layer",
+        "ok_line": "The atmosphere is the shell of gas around the planet.",
+        "ko_title": "Wrong sphere name",
+        "ko_line": "Think 'air' for atmosphere, not water or rock.",
+        "exp_title": "Atmosphere meaning",
+        "exp_text": "The atmosphere is the layer of gases that surrounds Earth, held in place by gravity. It contains nitrogen, oxygen, argon, carbon dioxide, water vapour, and trace gases. Hydrosphere, lithosphere, and biosphere refer to water, rock, and life, respectively."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these substances is NOT a gas normally found in the air?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is a gas and a major component of air, about 21%. It is found in the air."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is a gas present in the air, though only in a tiny amount, about 0.04%."
+          },
+          {
+            "label": "Salt",
+            "feedback": "Correct. Salt is a solid, not a gas, and it is not part of the ordinary air mixture. It may be in sea spray, but not as a normal atmospheric gas."
+          },
+          {
+            "label": "Water vapour",
+            "feedback": "Water vapour is indeed a gas, and it is always present in the air, varying in amount."
+          }
+        ],
+        "ok_title": "Not an air gas",
+        "ok_line": "Salt is a solid, not an atmospheric gas.",
+        "ko_title": "Air gas or not?",
+        "ko_line": "Check the state of matter: gases are oxygen, carbon dioxide, water vapour.",
+        "exp_title": "States of matter in air",
+        "exp_text": "The air is a mixture of gases: nitrogen, oxygen, argon, carbon dioxide, water vapour, and others. Salt is a solid compound, not a gas, so it is not part of the normal air composition."
+      }
+    ]
+  }
+]

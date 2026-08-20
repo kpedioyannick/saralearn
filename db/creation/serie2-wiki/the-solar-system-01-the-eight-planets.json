@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many planets are there in the Solar System according to the most restrictive definition?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Seven",
+            "feedback": "That's one short. The count includes Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune, so there are eight."
+          },
+          {
+            "label": "Eight",
+            "feedback": "Correct. The eight planets are the four terrestrial ones—Mercury, Venus, Earth, and Mars—and the four giant ones—Jupiter, Saturn, Uranus, and Neptune."
+          },
+          {
+            "label": "Nine",
+            "feedback": "That number includes Pluto, which is now classed as a dwarf planet, not a planet. The eight planet list excludes it."
+          },
+          {
+            "label": "Ten",
+            "feedback": "That's too many. Beyond the eight planets, other round bodies like Ceres and Eris are dwarf planets, not planets."
+          }
+        ],
+        "ok_title": "Eight planets",
+        "ok_line": "The Solar System has exactly eight planets.",
+        "ko_title": "Not that many",
+        "ko_line": "Check the count again.",
+        "exp_title": "The eight planets",
+        "exp_text": "The Solar System has eight planets: Mercury, Venus, Earth, and Mars are the terrestrial planets, and Jupiter, Saturn, Uranus, and Neptune are the giant planets. This count follows the definition that a planet must be in orbit around a star and not be one itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is a terrestrial planet?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mars",
+            "feedback": "Correct. Mars is one of the four terrestrial planets, along with Mercury, Venus, and Earth. Terrestrial planets are largely composed of rock and metal."
+          },
+          {
+            "label": "Jupiter",
+            "feedback": "Jupiter is a giant planet, not a terrestrial one. It is a gas giant made mostly of hydrogen and helium."
+          },
+          {
+            "label": "Saturn",
+            "feedback": "Saturn is a giant planet, specifically a gas giant, not a terrestrial planet. Terrestrials are rocky and metallic."
+          },
+          {
+            "label": "Neptune",
+            "feedback": "Neptune is an ice giant, a type of giant planet, not a terrestrial. Terrestrial planets are the four closest to the Sun."
+          }
+        ],
+        "ok_title": "Mars is terrestrial",
+        "ok_line": "Mars belongs to the four rocky inner planets.",
+        "ko_title": "That's a giant",
+        "ko_line": "Remember the two planet families.",
+        "exp_title": "Terrestrial planets",
+        "exp_text": "The terrestrial planets are Mercury, Venus, Earth, and Mars. They are similar to Earth in being largely composed of rock and metal. Jupiter, Saturn, Uranus, and Neptune are the giant planets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are Jupiter and Saturn primarily made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Rock and metal",
+            "feedback": "That is the composition of terrestrial planets like Earth, not of Jupiter or Saturn. These two giants are mostly gas."
+          },
+          {
+            "label": "Water, methane, and ammonia",
+            "feedback": "That set of materials describes the ice giants Uranus and Neptune. Jupiter and Saturn are different—they are gas giants."
+          },
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Correct. Jupiter and Saturn are gas giants, composed primarily of hydrogen and helium, making them the most massive planets."
+          },
+          {
+            "label": "Iron and nickel",
+            "feedback": "Iron and nickel are heavy metals that sink toward a planet's core; they are not the main composition of these two giants."
+          }
+        ],
+        "ok_title": "Gas giants",
+        "ok_line": "Jupiter and Saturn are mostly hydrogen and helium.",
+        "ko_title": "Wrong composition",
+        "ko_line": "Think of the gas giant makeup.",
+        "exp_title": "Gas giant composition",
+        "exp_text": "Jupiter and Saturn are classified as gas giants because they are primarily composed of hydrogen and helium. They are the most massive planets in the Solar System, with Saturn being about one third as massive as Jupiter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet is the largest in the Solar System?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Saturn",
+            "feedback": "Saturn is large, but it is only about a third as massive as Jupiter. Jupiter is the most massive planet."
+          },
+          {
+            "label": "Earth",
+            "feedback": "Earth is the largest terrestrial planet, but it is tiny compared to the giant planets."
+          },
+          {
+            "label": "Neptune",
+            "feedback": "Neptune is an ice giant with about 17 Earth masses, far less than Jupiter's mass of 318 Earth masses."
+          },
+          {
+            "label": "Jupiter",
+            "feedback": "Correct. Jupiter is the largest planet, at 318 Earth masses, more than twice as massive as all other planets combined."
+          }
+        ],
+        "ok_title": "Jupiter is largest",
+        "ok_line": "Jupiter tops the planetary size scale.",
+        "ko_title": "Not that one",
+        "ko_line": "Which planet outweighs all others?",
+        "exp_title": "Largest planet",
+        "exp_text": "Jupiter is the largest planet in the Solar System, with a mass of 318 Earth masses. Saturn, the next largest, is only about one third as massive as Jupiter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the smallest planet in the Solar System?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mars",
+            "feedback": "Mars is small, but Mercury is smaller. Mercury has a mass of only 0.055 Earth masses."
+          },
+          {
+            "label": "Mercury",
+            "feedback": "Correct. Mercury is the smallest planet, with a mass of 0.055 Earth masses, making it much lighter than any other planet."
+          },
+          {
+            "label": "Pluto",
+            "feedback": "Pluto is smaller, but it is not a planet; it is a dwarf planet. Among the eight planets, Mercury is the smallest."
+          },
+          {
+            "label": "Venus",
+            "feedback": "Venus is slightly smaller than Earth but much larger than Mercury. It is not the smallest."
+          }
+        ],
+        "ok_title": "Mercury is smallest",
+        "ok_line": "Mercury weighs the least of all planets.",
+        "ko_title": "Not the smallest",
+        "ko_line": "Compare the rocky planets.",
+        "exp_title": "Smallest planet",
+        "exp_text": "Mercury is the smallest planet in the Solar System, with a mass of 0.055 Earth masses. It is the closest planet to the Sun and is a terrestrial planet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two planets are classified as ice giants?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Jupiter and Saturn",
+            "feedback": "Those are the gas giants, made mostly of hydrogen and helium. Ice giants are a different pair of planets."
+          },
+          {
+            "label": "Mercury and Venus",
+            "feedback": "Those are terrestrial planets, not ice giants. Ice giants are giant planets beyond Saturn."
+          },
+          {
+            "label": "Uranus and Neptune",
+            "feedback": "Correct. Uranus and Neptune are the ice giants, composed primarily of water, methane, and ammonia, with thick hydrogen-helium atmospheres."
+          },
+          {
+            "label": "Earth and Mars",
+            "feedback": "Those are terrestrial planets. Ice giants are much larger and are found far from the Sun."
+          }
+        ],
+        "ok_title": "Ice giants",
+        "ok_line": "Uranus and Neptune are the ice giants.",
+        "ko_title": "Not those",
+        "ko_line": "Look at the outer planets.",
+        "exp_title": "Ice giant planets",
+        "exp_text": "Uranus and Neptune are the ice giants. They are composed mainly of low-boiling-point materials like water, methane, and ammonia, with thick atmospheres of hydrogen and helium. They are less massive than the gas giants Jupiter and Saturn."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the eight planets have in common regarding their orbits?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They all orbit the Sun",
+            "feedback": "Correct. A planet is defined as a body that orbits a star, and all eight planets orbit the Sun."
+          },
+          {
+            "label": "They all orbit Earth",
+            "feedback": "That is not true; planets orbit the Sun, not Earth. Earth itself is one of the planets orbiting the Sun."
+          },
+          {
+            "label": "They all orbit the Moon",
+            "feedback": "The Moon orbits Earth, not the other way around. Planets orbit the Sun."
+          },
+          {
+            "label": "They all orbit Jupiter",
+            "feedback": "Jupiter is a planet, not the center of the Solar System. All planets orbit the Sun."
+          }
+        ],
+        "ok_title": "Orbit the Sun",
+        "ok_line": "Every planet circles the Sun.",
+        "ko_title": "Wrong orbited body",
+        "ko_line": "What is at the center?",
+        "exp_title": "Planetary orbits",
+        "exp_text": "All eight planets orbit the Sun. This is a defining feature of a planet: it must be in orbit around a star, and the Sun is the star at the center of the Solar System."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet is the largest terrestrial planet?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mercury",
+            "feedback": "Mercury is the smallest planet, not the largest terrestrial. Earth is much larger than Mercury."
+          },
+          {
+            "label": "Earth",
+            "feedback": "Correct. Earth is the largest of the four terrestrial planets, which are Mercury, Venus, Earth, and Mars."
+          },
+          {
+            "label": "Mars",
+            "feedback": "Mars is smaller than Earth and Venus. It is not the largest terrestrial planet."
+          },
+          {
+            "label": "Venus",
+            "feedback": "Venus is slightly smaller than Earth. Earth is the largest terrestrial planet."
+          }
+        ],
+        "ok_title": "Earth is largest",
+        "ok_line": "Earth leads the rocky planets in size.",
+        "ko_title": "Not the biggest rocky",
+        "ko_line": "Compare the four inner worlds.",
+        "exp_title": "Largest terrestrial planet",
+        "exp_text": "Among the four terrestrial planets—Mercury, Venus, Earth, and Mars—Earth is the largest. Terrestrial planets are composed largely of rock and metal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the composition of terrestrial planets like Earth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Mostly hydrogen and helium",
+            "feedback": "That is the composition of gas giants like Jupiter and Saturn, not of terrestrial planets."
+          },
+          {
+            "label": "Mostly water and methane",
+            "feedback": "That describes ice giants like Uranus and Neptune. Terrestrial planets have a rocky and metallic composition."
+          },
+          {
+            "label": "Mostly ammonia and ice",
+            "feedback": "Ammonia and ice are found in ice giants, not in terrestrial planets. Terrestrials are rocky and metallic."
+          },
+          {
+            "label": "Mostly rock and metal",
+            "feedback": "Correct. Terrestrial planets are largely composed of rock and metal, which is why they have solid surfaces."
+          }
+        ],
+        "ok_title": "Rock and metal",
+        "ok_line": "Terrestrials are rocky and metallic.",
+        "ko_title": "That's not terrestrial",
+        "ko_line": "Think of solid, heavy materials.",
+        "exp_title": "Terrestrial composition",
+        "exp_text": "Terrestrial planets like Earth are composed largely of rock and metal. This gives them solid surfaces, unlike the gas giants which are mostly hydrogen and helium."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which statement is true about the order of planets from the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Earth is fifth from the Sun",
+            "feedback": "Earth is the third planet from the Sun. The fifth is Jupiter."
+          },
+          {
+            "label": "Mars is fourth from the Sun",
+            "feedback": "Mars is the fourth planet from the Sun, but Jupiter is fifth, so check the order again."
+          },
+          {
+            "label": "Jupiter is fifth from the Sun",
+            "feedback": "Correct. The order is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Jupiter is the fifth."
+          },
+          {
+            "label": "Neptune is seventh from the Sun",
+            "feedback": "Neptune is the eighth and last planet from the Sun. Uranus is the seventh."
+          }
+        ],
+        "ok_title": "Jupiter is fifth",
+        "ok_line": "Jupiter sits beyond Mars.",
+        "ko_title": "Wrong order",
+        "ko_line": "Recall the planet sequence.",
+        "exp_title": "Planet order",
+        "exp_text": "The eight planets in increasing distance from the Sun are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Jupiter is the fifth planet in this sequence."
+      }
+    ]
+  }
+]

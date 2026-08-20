@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 236,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a solar eclipse?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The Moon passes between Earth and the Sun, hiding the Sun from view",
+            "feedback": "Correct. The Moon blocks the Sun's light for a small part of Earth."
+          },
+          {
+            "label": "Earth passes between the Sun and the Moon, hiding the Moon from view",
+            "feedback": "That would be a lunar eclipse, not a solar one. In a solar eclipse, the Moon is the one in the middle."
+          },
+          {
+            "label": "The Sun passes between Earth and the Moon, hiding the Moon from view",
+            "feedback": "The Sun is never between Earth and the Moon. The Sun is much farther away, and it's the source of light being blocked."
+          },
+          {
+            "label": "The Moon's shadow falls on the Sun, darkening it",
+            "feedback": "The Moon's shadow falls on Earth, not on the Sun. The Sun itself is not darkened; it's just hidden from view."
+          }
+        ],
+        "ok_title": "Correct alignment",
+        "ok_line": "The Moon stands between Earth and the Sun.",
+        "ko_title": "Wrong alignment",
+        "ko_line": "Check which body sits between the other two.",
+        "exp_title": "Solar eclipse basics",
+        "exp_text": "A solar eclipse happens when the Moon passes directly between Earth and the Sun, blocking the Sun's light from reaching a small part of Earth. This can hide the Sun totally or partially."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When does a solar eclipse typically occur?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "During a full moon",
+            "feedback": "A full moon is when Earth is between the Sun and the Moon, which leads to a lunar eclipse, not a solar one. Solar eclipses need the Moon between Earth and the Sun, which happens at new moon."
+          },
+          {
+            "label": "During a new moon",
+            "feedback": "Correct. At new moon, the Moon lies between Earth and the Sun, which is the right alignment for a solar eclipse."
+          },
+          {
+            "label": "During any moon phase",
+            "feedback": "Only at new moon is the Moon positioned between Earth and the Sun. At other phases, the Moon is elsewhere in its orbit, so it can't block the Sun."
+          },
+          {
+            "label": "During a crescent moon",
+            "feedback": "A crescent moon is a phase after new moon, when the Moon is not between Earth and the Sun, so no solar eclipse can happen then."
+          }
+        ],
+        "ok_title": "New moon timing",
+        "ok_line": "The Moon must be new for a solar eclipse.",
+        "ko_title": "Wrong moon phase",
+        "ko_line": "Solar eclipses only happen at new moon.",
+        "exp_title": "When eclipses occur",
+        "exp_text": "A solar eclipse occurs only during the new moon phase, when the Moon is between Earth and the Sun. This happens roughly every six months, during what is called the eclipse season."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the umbra in a solar eclipse?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The bright region outside the shadow",
+            "feedback": "That's the opposite. The umbra is the dark, central part of the shadow where the Sun is completely hidden, not a bright region."
+          },
+          {
+            "label": "The part of the shadow where only part of the Sun is hidden",
+            "feedback": "That describes the penumbra, not the umbra. The umbra is the fully dark area where the Sun is completely covered."
+          },
+          {
+            "label": "The dark central shadow where the Sun is fully hidden",
+            "feedback": "Correct. The umbra is the dark gray region between the Moon and Earth where the Sun is completely obscured."
+          },
+          {
+            "label": "The area beyond the umbra where the Sun appears as a ring",
+            "feedback": "That is the antumbra, which is where an annular eclipse is seen, not the umbra itself."
+          }
+        ],
+        "ok_title": "Umbra is dark",
+        "ok_line": "The umbra is the fully dark shadow.",
+        "ko_title": "Shadow mix-up",
+        "ko_line": "The umbra is the darkest part, not the edge.",
+        "exp_title": "Shadows of an eclipse",
+        "exp_text": "The umbra is the dark gray region between the Moon and Earth where the Sun is completely hidden. Only a small area where the umbra touches Earth sees a total eclipse."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the penumbra in a solar eclipse?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The region where the Sun is completely hidden",
+            "feedback": "That's the umbra, not the penumbra. The penumbra only partially hides the Sun."
+          },
+          {
+            "label": "The region outside the shadow where nothing is hidden",
+            "feedback": "The penumbra is still part of the shadow, just lighter. It's not outside the shadow entirely."
+          },
+          {
+            "label": "The region where the Sun appears as a ring",
+            "feedback": "That is the antumbra, where an annular eclipse is seen, not the penumbra."
+          },
+          {
+            "label": "The lighter shadow where only part of the Sun is hidden",
+            "feedback": "Correct. The penumbra is the light gray area around the umbra, where a partial eclipse is visible."
+          }
+        ],
+        "ok_title": "Penumbra is lighter",
+        "ok_line": "The penumbra gives a partial eclipse.",
+        "ko_title": "Wrong shadow part",
+        "ko_line": "The penumbra is the lighter shadow, not the darkest.",
+        "exp_title": "Shadows of an eclipse",
+        "exp_text": "The penumbra is the light gray shadow that surrounds the umbra. Observers in the penumbra see a partial eclipse, where only part of the Sun is covered."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of eclipse is seen from the antumbra?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Annular eclipse",
+            "feedback": "Correct. In the antumbra, the Moon covers the center of the Sun, leaving a ring of sunlight, which is an annular eclipse."
+          },
+          {
+            "label": "Total eclipse",
+            "feedback": "A total eclipse is seen in the umbra, not the antumbra. The antumbra lies beyond the umbra, where the Moon appears too small to fully cover the Sun."
+          },
+          {
+            "label": "Partial eclipse",
+            "feedback": "A partial eclipse is seen in the penumbra, not the antumbra. The antumbra gives a ring of sunlight, not a partial cover."
+          },
+          {
+            "label": "No eclipse at all",
+            "feedback": "The antumbra still sees an eclipse, just not a total one. It's an annular eclipse, with a bright ring around the Moon."
+          }
+        ],
+        "ok_title": "Antumbra gives ring",
+        "ok_line": "The antumbra shows an annular eclipse.",
+        "ko_title": "Wrong shadow zone",
+        "ko_line": "The antumbra is where the ring of fire appears.",
+        "exp_title": "Antumbra and annular eclipses",
+        "exp_text": "The antumbra is the region beyond the umbra where the Moon's disk appears smaller than the Sun's. Observers there see an annular eclipse, with a bright ring of sunlight around the Moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the Moon's apparent size when it is closer to Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It appears smaller",
+            "feedback": "Actually, the closer the Moon is, the larger it appears. Smaller apparent size happens when the Moon is farther away."
+          },
+          {
+            "label": "It appears larger",
+            "feedback": "Correct. When the Moon is closer to Earth, it appears bigger in the sky, which is why it can fully cover the Sun during a total eclipse."
+          },
+          {
+            "label": "It stays the same size",
+            "feedback": "The Moon's apparent size changes because its distance from Earth varies. It doesn't stay constant."
+          },
+          {
+            "label": "It appears larger but only during the day",
+            "feedback": "The apparent size depends on distance, not on day or night. It's the same whether you see it during the day or night."
+          }
+        ],
+        "ok_title": "Closer means bigger",
+        "ok_line": "A closer Moon looks larger.",
+        "ko_title": "Distance and size",
+        "ko_line": "Apparent size changes with distance.",
+        "exp_title": "Moon's apparent size",
+        "exp_text": "The Moon's distance from Earth varies, so its apparent size changes. When the Moon is closer to Earth, it looks larger, which is necessary for a total eclipse to occur."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes an annular solar eclipse?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Moon is closer than average to Earth",
+            "feedback": "If the Moon is closer, it looks larger and can fully cover the Sun, giving a total eclipse, not an annular one. An annular eclipse needs the Moon to look smaller."
+          },
+          {
+            "label": "Earth is closer than average to the Sun",
+            "feedback": "Earth's distance to the Sun changes the Sun's apparent size a little, but the main cause of an annular eclipse is the Moon appearing too small, not the Sun being too big."
+          },
+          {
+            "label": "The Moon is farther from Earth than average",
+            "feedback": "Correct. When the Moon is farther away, it appears smaller in the sky, so it cannot fully cover the Sun, leaving a bright ring—an annular eclipse."
+          },
+          {
+            "label": "The Moon is perfectly aligned with the Sun's center",
+            "feedback": "Perfect alignment is what creates a total eclipse when the Moon is big enough. An annular eclipse happens when the alignment is precise but the Moon is too small to cover the Sun."
+          }
+        ],
+        "ok_title": "Far Moon gives ring",
+        "ok_line": "A distant Moon makes an annular eclipse.",
+        "ko_title": "Wrong cause",
+        "ko_line": "Annular eclipses need a smaller-looking Moon.",
+        "exp_title": "Why annular eclipses happen",
+        "exp_text": "An annular eclipse occurs when the Moon is farther from Earth than average, so it appears smaller and cannot completely cover the Sun. A ring of sunlight remains visible around the Moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How often do total solar eclipses occur somewhere on Earth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Every month",
+            "feedback": "Solar eclipses don't happen every month because the Moon's orbit is tilted. Only during eclipse seasons are conditions right, and even then, not every new moon gives a total eclipse."
+          },
+          {
+            "label": "Once a year",
+            "feedback": "That's too frequent. Total solar eclipses happen on average every 18 months, not every year."
+          },
+          {
+            "label": "Every six months",
+            "feedback": "Eclipse seasons come about every six months, but not every eclipse season produces a total eclipse. At least one solar eclipse happens per season, but it could be partial or annular."
+          },
+          {
+            "label": "Every 18 months on average",
+            "feedback": "Correct. Although they are rare at any given location, total solar eclipses occur somewhere on Earth on average every 18 months."
+          }
+        ],
+        "ok_title": "Total eclipse frequency",
+        "ok_line": "Total eclipses come about every 18 months.",
+        "ko_title": "Wrong frequency",
+        "ko_line": "Total eclipses are rarer than monthly or yearly.",
+        "exp_title": "How often total eclipses happen",
+        "exp_text": "Total solar eclipses occur somewhere on Earth every 18 months on average. However, at any specific place on Earth, they may not be seen again for 360 to 410 years."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the Moon usually pass above or below the Sun instead of covering it?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the Moon's orbit is tilted about 5 degrees to Earth's orbit",
+            "feedback": "Correct. The Moon's orbit is inclined, so most of the time at new moon it is not directly in line with the Sun; it passes a bit north or south."
+          },
+          {
+            "label": "Because the Moon moves too fast to line up with the Sun",
+            "feedback": "The Moon's speed affects how long an eclipse lasts, but not whether it happens. The tilt is what keeps the Moon from covering the Sun most months."
+          },
+          {
+            "label": "Because Earth's shadow deflects the Moon",
+            "feedback": "Earth's gravity affects the Moon's orbit but does not deflect its shadow. The tilt is the reason for the miss."
+          },
+          {
+            "label": "Because the Sun moves too quickly across the sky",
+            "feedback": "The Sun's apparent motion is due to Earth's rotation, not a real movement that prevents alignment. The tilt is the cause of the usual miss."
+          }
+        ],
+        "ok_title": "Tilted orbit",
+        "ok_line": "The Moon's 5-degree tilt causes misses.",
+        "ko_title": "Wrong reason",
+        "ko_line": "The tilt, not speed, explains the miss.",
+        "exp_title": "Why eclipses are rare",
+        "exp_text": "The Moon's orbit is tilted about 5 degrees relative to Earth's orbit around the Sun. Because of this tilt, at new moon the Moon usually passes north or south of the Sun, so its shadow misses Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an eclipse season?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A period when the Moon is closest to Earth every month",
+            "feedback": "That's the perigee, not an eclipse season. Eclipse seasons are about the alignment of the new moon with the nodes, not the Moon's closeness."
+          },
+          {
+            "label": "A period about every six months when solar eclipses can occur",
+            "feedback": "Correct. Eclipse seasons happen about every six months, when the new moon occurs near the nodes of the Moon's orbit, allowing eclipses."
+          },
+          {
+            "label": "A period when Earth's orbit is closest to the Sun",
+            "feedback": "That's perihelion, which is about Earth's distance from the Sun, not a time for eclipses. Eclipse seasons are tied to the Moon's nodes."
+          },
+          {
+            "label": "A period when the Moon's shadow always hits Earth",
+            "feedback": "Eclipse seasons only give opportunities for eclipses; not every new moon in a season produces a total eclipse, and sometimes only partial ones happen."
+          }
+        ],
+        "ok_title": "Eclipse seasons",
+        "ok_line": "Eclipse seasons come every six months.",
+        "ko_title": "Wrong season",
+        "ko_line": "It's about alignment, not distance.",
+        "exp_title": "When eclipses happen",
+        "exp_text": "Eclipse seasons occur about every six months when the new moon happens near the points where the Moon's orbit crosses Earth's orbital plane. During these periods, there is always at least one solar eclipse, and there can be up to two."
+      }
+    ]
+  }
+]

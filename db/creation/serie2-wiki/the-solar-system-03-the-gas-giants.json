@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two planets in the Solar System are classified as gas giants?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Jupiter and Uranus",
+            "feedback": "Uranus is an ice giant, not a gas giant, because it is made mainly of heavier ices like water and methane."
+          },
+          {
+            "label": "Saturn and Neptune",
+            "feedback": "Neptune is an ice giant, not a gas giant, since its composition is dominated by ices rather than hydrogen and helium."
+          },
+          {
+            "label": "Jupiter and Saturn",
+            "feedback": "Correct. Jupiter and Saturn are the two gas giants, both composed mainly of hydrogen and helium."
+          },
+          {
+            "label": "Uranus and Neptune",
+            "feedback": "Those two are ice giants, a separate class from gas giants; they contain mostly heavier volatile substances called ices."
+          }
+        ],
+        "ok_title": "Two gas giants",
+        "ok_line": "Jupiter and Saturn are the gas giants.",
+        "ko_title": "Not the ice giants",
+        "ko_line": "Uranus and Neptune are ice giants, not gas giants.",
+        "exp_title": "Gas giant planets",
+        "exp_text": "A gas giant is a giant planet composed mainly of hydrogen and helium. In the Solar System, there are exactly two: Jupiter and Saturn. Uranus and Neptune, being made mostly of heavier ices, are called ice giants."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are gas giants like Jupiter and Saturn mostly made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Correct. Hydrogen and helium are the main gases in gas giants, with heavier elements making up only a small fraction of their mass."
+          },
+          {
+            "label": "Water and methane",
+            "feedback": "That is the composition of ice giants like Uranus and Neptune, not gas giants."
+          },
+          {
+            "label": "Iron and nickel",
+            "feedback": "Iron and nickel are rocks or metals, which form only the small solid cores, not the bulk of a gas giant."
+          },
+          {
+            "label": "Carbon dioxide and nitrogen",
+            "feedback": "Carbon dioxide and nitrogen are not the main gases of Jupiter or Saturn; hydrogen and helium dominate."
+          }
+        ],
+        "ok_title": "Main gases",
+        "ok_line": "Gas giants are mostly hydrogen and helium.",
+        "ko_title": "Other compositions",
+        "ko_line": "Ice giants use water and methane; rocks are only small cores.",
+        "exp_title": "Composition of gas giants",
+        "exp_text": "Jupiter and Saturn consist mostly of hydrogen and helium, with heavier elements making up between 3 and 13 percent of their mass. This is why they are called gas giants."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a gas giant, what is the layer of liquid metallic hydrogen?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The outermost cloud layer",
+            "feedback": "The outer atmosphere is molecular hydrogen with visible clouds, not the metallic hydrogen layer, which lies deeper inside."
+          },
+          {
+            "label": "A layer of solid iron",
+            "feedback": "Iron is part of the rocky core, not the metallic hydrogen layer, which is made of hydrogen under extreme pressure."
+          },
+          {
+            "label": "The upper atmosphere of ammonia",
+            "feedback": "Ammonia appears in clouds, but the metallic hydrogen layer is deeper and is made of hydrogen, not ammonia."
+          },
+          {
+            "label": "A deep layer where hydrogen conducts electricity",
+            "feedback": "Correct. Under immense pressure, hydrogen becomes an electrical conductor, and this metallic hydrogen layer makes up most of the gas giant's mass."
+          }
+        ],
+        "ok_title": "Metallic hydrogen layer",
+        "ok_line": "Deep hydrogen becomes a conductor.",
+        "ko_title": "Not clouds or core",
+        "ko_line": "This layer sits between atmosphere and core.",
+        "exp_title": "Interior of gas giants",
+        "exp_text": "Inside Jupiter and Saturn, the deep atmosphere of molecular hydrogen surrounds a layer of liquid metallic hydrogen. This layer is called metallic because the very high pressure turns hydrogen into an electrical conductor."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where are the visible clouds of a gas giant mostly located?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Deep in the metallic hydrogen layer",
+            "feedback": "The metallic hydrogen layer is below the clouds, in the mid-interior, and is not where clouds are seen."
+          },
+          {
+            "label": "In the outermost parts of the hydrogen atmosphere",
+            "feedback": "Correct. The visible clouds are in the outer layers of the hydrogen atmosphere, composed mostly of water and ammonia."
+          },
+          {
+            "label": "Around the molten rocky core",
+            "feedback": "The core is hot and under high pressure, not a place for visible clouds; clouds are much higher up."
+          },
+          {
+            "label": "In the region where helium rains",
+            "feedback": "Helium rain occurs deeper in the interior, not in the visible cloud layers at the top."
+          }
+        ],
+        "ok_title": "Cloud location",
+        "ok_line": "Clouds sit at the top atmosphere.",
+        "ko_title": "Deeper layers",
+        "ko_line": "Clouds are not found deep inside.",
+        "exp_title": "Cloud layers on gas giants",
+        "exp_text": "The outermost portions of the hydrogen atmospheres of gas giants contain many layers of visible clouds, mostly composed of water and ammonia. They sit above the deeper metallic hydrogen layer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "According to the classification based on atmospheric properties, what class are Jupiter and Saturn?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Class IV",
+            "feedback": "Class IV are alkali-metal clouds; that class is for hot Jupiters, not for Jupiter and Saturn."
+          },
+          {
+            "label": "Class V",
+            "feedback": "Class V involves silicate clouds; that also applies to hot Jupiters, not the Solar System's gas giants."
+          },
+          {
+            "label": "Class I",
+            "feedback": "Correct. Jupiter and Saturn are class I, which corresponds to ammonia clouds."
+          },
+          {
+            "label": "Class III",
+            "feedback": "Class III is cloudless; Jupiter and Saturn have visible clouds, so they are not this class."
+          }
+        ],
+        "ok_title": "Class I giants",
+        "ok_line": "Jupiter and Saturn are class I.",
+        "ko_title": "Other classes",
+        "ko_line": "Class IV and V are for hot Jupiters.",
+        "exp_title": "Gas giant classes",
+        "exp_text": "Gas giants can be divided into five classes based on predicted atmospheric properties: ammonia clouds (I), water clouds (II), cloudless (III), alkali-metal clouds (IV), and silicate clouds (V). Jupiter and Saturn are both class I."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Great Red Spot on Jupiter?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A high-pressure anticyclone storm",
+            "feedback": "Correct. The Great Red Spot is a powerful anticyclone, swirling counterclockwise in Jupiter's southern hemisphere."
+          },
+          {
+            "label": "A volcano spewing lava",
+            "feedback": "Volcanoes are not on Jupiter; the Great Red Spot is a storm, not a volcanic feature."
+          },
+          {
+            "label": "A giant crater from an impact",
+            "feedback": "Impact craters are on rocky surfaces; Jupiter has no solid surface, and the Red Spot is a storm."
+          },
+          {
+            "label": "A region of helium rain",
+            "feedback": "Helium rain occurs deep inside, not as a visible red spot on the surface of the atmosphere."
+          }
+        ],
+        "ok_title": "Great Red Spot",
+        "ok_line": "It is a storm, an anticyclone.",
+        "ko_title": "Not a volcano",
+        "ko_line": "The Red Spot is a weather system.",
+        "exp_title": "Jupiter's Great Red Spot",
+        "exp_text": "The Great Red Spot is a high-pressure system in Jupiter's southern hemisphere. It is a powerful anticyclone, swirling counterclockwise at about 430 to 680 kilometers per hour."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the red color of Jupiter's Great Red Spot?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Reflection of sunlight off ammonia clouds",
+            "feedback": "Ammonia clouds are white; the red color is not from their simple reflection."
+          },
+          {
+            "label": "Iron oxide dust like on Mars",
+            "feedback": "Iron oxide is a mineral on rocky planets; the Great Red Spot's red comes from organic compounds called tholins, not iron."
+          },
+          {
+            "label": "Molten rock from the interior",
+            "feedback": "The interior heat does not directly paint the spot red; the spot's color is from tholins carried up by storms."
+          },
+          {
+            "label": "Brown organic compounds called tholins",
+            "feedback": "Correct. Tholins are brown organic compounds formed by UV irradiation; they are sucked up into the atmosphere and get stuck in the Great Red Spot, making it red."
+          }
+        ],
+        "ok_title": "Red from tholins",
+        "ok_line": "Tholins make the spot red.",
+        "ko_title": "Not dust or lava",
+        "ko_line": "The color comes from organic compounds.",
+        "exp_title": "Color of the Great Red Spot",
+        "exp_text": "Tholins are brown organic compounds formed by exposure to UV irradiation. They exist on Jupiter's surface, get sucked up by storms, and when trapped in the Great Red Spot, they cause it to appear red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to helium on Saturn due to condensation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It disappears into the core",
+            "feedback": "Helium does not disappear; it condenses into droplets that fall and later dissolve in warmer regions."
+          },
+          {
+            "label": "It forms liquid helium rain",
+            "feedback": "Correct. Condensation of helium creates liquid helium rain on gas giants like Saturn."
+          },
+          {
+            "label": "It turns into metallic hydrogen",
+            "feedback": "Metallic hydrogen is a separate substance; helium condensation produces helium droplets, not hydrogen."
+          },
+          {
+            "label": "It becomes part of the visible clouds",
+            "feedback": "Visible clouds are mostly water and ammonia; helium rain happens deeper inside, not in the cloud layers."
+          }
+        ],
+        "ok_title": "Helium rain",
+        "ok_line": "Helium condenses into droplets.",
+        "ko_title": "Not clouds or hydrogen",
+        "ko_line": "It rains as liquid helium inside.",
+        "exp_title": "Helium condensation on Saturn",
+        "exp_text": "Condensation of helium creates liquid helium rain on gas giants. On Saturn, helium does not mix with liquid metallic hydrogen, so the denser helium forms droplets that fall as rain until they reach a warmer region and dissolve."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for planets like Uranus and Neptune, which are made mainly of heavier volatile substances?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Ice giants",
+            "feedback": "Correct. Uranus and Neptune are classified as ice giants, distinct from gas giants, because they are composed mainly of ices."
+          },
+          {
+            "label": "Rocky planets",
+            "feedback": "Rocky planets are the inner planets like Earth, not the ice giants."
+          },
+          {
+            "label": "Brown dwarfs",
+            "feedback": "Brown dwarfs are substellar objects, not planets; Uranus and Neptune are not brown dwarfs."
+          },
+          {
+            "label": "Hot Jupiters",
+            "feedback": "Hot Jupiters are a class of extrasolar gas giants, not ice giants like Uranus or Neptune."
+          }
+        ],
+        "ok_title": "Ice giants",
+        "ok_line": "Uranus and Neptune are ice giants.",
+        "ko_title": "Different class",
+        "ko_line": "They are not gas or rocky giants.",
+        "exp_title": "Term for Uranus and Neptune",
+        "exp_text": "In the classification of giant planets, Uranus and Neptune are called ice giants because they are composed mainly of heavier volatile substances referred to as ices, such as water, methane, and ammonia."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the 'ices' in planetary science shorthand?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Hydrogen and helium are called 'gases', not 'ices', in this shorthand."
+          },
+          {
+            "label": "Iron and nickel",
+            "feedback": "Iron and nickel are 'rocks' or metals; they are not classified as ices."
+          },
+          {
+            "label": "Water, methane and ammonia",
+            "feedback": "Correct. In planetary science, water, methane, and ammonia are referred to as 'ices'."
+          },
+          {
+            "label": "Carbon dioxide and nitrogen",
+            "feedback": "Carbon dioxide and nitrogen are not listed as ices in this context; the ices are water, methane, and ammonia."
+          }
+        ],
+        "ok_title": "Ices defined",
+        "ok_line": "Ices are water, methane, ammonia.",
+        "ko_title": "Not gases or rocks",
+        "ko_line": "Hydrogen and helium are gases; metals are rocks.",
+        "exp_title": "Planetary science shorthand",
+        "exp_text": "In the outer Solar System, hydrogen and helium are called 'gases', water, methane, and ammonia are called 'ices', and silicates and metals are called 'rocks'. This shorthand is used regardless of the actual phase of matter."
+      }
+    ]
+  }
+]

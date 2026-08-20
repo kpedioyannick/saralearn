@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 192,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What, fundamentally, is a galaxy?",
+        "body": null,
+        "options": [
+          {
+            "label": "A single enormous star surrounded by planets",
+            "feedback": "One star with orbiting planets is a solar system; a galaxy is an entirely larger structure made of a huge number of stars."
+          },
+          {
+            "label": "A vast, gravitationally bound collection of stars, gas and dust",
+            "feedback": "Everything in it, from the faintest wisp of gas to the brightest star, is held together by the combined pull of its own mass."
+          },
+          {
+            "label": "A single cloud of gas that never formed any stars",
+            "feedback": "A galaxy is full of stars that have already formed out of its gas, not a cloud that stayed as gas alone."
+          },
+          {
+            "label": "A ring of dust left behind by an exploded star",
+            "feedback": "That describes debris from one star, far too small and short-lived to be a galaxy, which holds huge numbers of stars over vast stretches of time."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "Held together as one system by its own gravity.",
+        "ko_title": "Too small a picture",
+        "ko_line": "A galaxy is a whole system of matter, not any single piece of it.",
+        "exp_title": "One system, bound by its own pull",
+        "exp_text": "A galaxy is a great many stars, along with gas and dust drifting between them, all held together as a single system by the combined gravity of everything inside it. That shared pull is what makes it one object rather than a loose scatter of unrelated matter, keeping stars on orbits around a common center instead of letting them drift apart."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do elliptical galaxies appear as smooth, rounded blobs with little new star formation, unlike flat spiral galaxies?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because they never contained any gas to begin with",
+            "feedback": "An elliptical galaxy usually did have gas at some point; the shortage seen today is the result of what happened to it, not an absence from the start."
+          },
+          {
+            "label": "Because a violent merger scrambled the orbits of its stars and used up its gas",
+            "feedback": "Colliding and merging galaxies fling stars onto random, tangled orbits instead of a shared flat plane, while the disturbance also compresses and consumes much of the gas in one burst of star formation."
+          },
+          {
+            "label": "Because it is spinning too fast to keep a disk",
+            "feedback": "A fast, orderly spin is what builds a flat disk in the first place; an elliptical galaxy's stars move on disordered paths rather than a shared fast spin."
+          },
+          {
+            "label": "Because it is much younger than any spiral galaxy",
+            "feedback": "Age alone doesn't decide the shape; what matters is the disordered history of collisions that shaped the orbits inside it."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's the history",
+        "ok_line": "A rounded shape is often the scar of a violent past.",
+        "ko_title": "Think about its past",
+        "ko_line": "A shape this disordered usually comes from something disruptive having happened to it.",
+        "exp_title": "The shape of a merger",
+        "exp_text": "When two galaxies collide and merge, the gravity of the encounter flings stars onto random, tangled orbits pointing every which way instead of a single shared plane, smoothing the result into a rounded rather than flattened shape. The same disturbance compresses much of the remaining gas and burns through it in one intense burst of star formation, so an elliptical galaxy is left with little gas and few young stars still forming."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do spiral galaxies keep forming new stars while elliptical galaxies largely do not?",
+        "body": null,
+        "options": [
+          {
+            "label": "A spiral galaxy retains a gas-rich, flattened disk where clouds can still collapse into stars",
+            "feedback": "Its orderly, rotating disk keeps a reservoir of gas that can still gather and collapse under its own gravity to build new stars."
+          },
+          {
+            "label": "A spiral galaxy is much smaller, so its gas lasts longer",
+            "feedback": "Size isn't the deciding factor here; what matters is whether the gas has been disturbed and used up or preserved in an orderly disk."
+          },
+          {
+            "label": "A spiral galaxy contains no old stars at all",
+            "feedback": "Old stars are still present throughout a spiral galaxy's disk and bulge; it simply keeps adding young ones as well."
+          },
+          {
+            "label": "A spiral galaxy has never collided with anything",
+            "feedback": "Some spirals have had past encounters too; what matters most is whether a calm, gas-rich disk was left intact afterward."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right mechanism",
+        "ok_line": "A calm disk keeps its gas ready to collapse into new stars.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what a disk still holds onto that a scrambled shape has already lost.",
+        "exp_title": "A disk that keeps making stars",
+        "exp_text": "A spiral galaxy's disk stays flat and orderly, and within it clouds of gas can still gather together and collapse under their own gravity to form new stars. Because that disk was never violently disturbed and stripped of its gas the way a merger would do, the raw material for building stars keeps being replenished and used, generation after generation."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do irregular galaxies lack any clear disk or rounded shape at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are usually galaxies disrupted by a close gravitational encounter with a neighbor",
+            "feedback": "The pull of a passing or interacting galaxy can drag out and distort a smaller galaxy's stars and gas before it has time to settle into an orderly shape again."
+          },
+          {
+            "label": "They were built from a completely different kind of matter",
+            "feedback": "An irregular galaxy is made of the same stars, gas and dust as any other; the difference is in how that matter has been arranged, not what it's made of."
+          },
+          {
+            "label": "They contain no gravity to hold themselves together",
+            "feedback": "Gravity still binds an irregular galaxy into one system; without it the matter would simply disperse rather than stay together in any recognizable shape."
+          },
+          {
+            "label": "They spin far too slowly to form any pattern",
+            "feedback": "A slow, undisturbed spin would tend to settle matter into an orderly shape over time, not leave it chaotic — chaos comes from disruption, not from a lack of spin."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That's it",
+        "ok_line": "A shape left unsettled by a recent disturbance.",
+        "ko_title": "Think disruption",
+        "ko_line": "A messy shape usually means something recently pulled it out of order, rather than it lacking some ingredient.",
+        "exp_title": "Pulled out of shape",
+        "exp_text": "A nearby galaxy passing close enough exerts a strong, uneven pull on a smaller galaxy, stretching and dragging its stars and gas out of whatever orderly arrangement they once had. Without enough time or mass to settle back into a smooth disk or rounded shape before the next disturbance, the galaxy is left with the tangled, patchy look that gives an irregular galaxy its name."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "When two galaxies collide and pass through each other, why do the individual stars inside them almost never actually crash into one another?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because stars repel each other with their own gravity",
+            "feedback": "Gravity only ever attracts; it never pushes two stars apart, so it plays no part in keeping them from colliding."
+          },
+          {
+            "label": "Because the stars inside a galaxy are separated by gaps enormous compared with their own size",
+            "feedback": "Even in a crowded galaxy, the space between one star and its neighbor dwarfs the stars themselves, so two galaxies can pass through each other with their stars sliding past almost untouched."
+          },
+          {
+            "label": "Because the stars move too slowly to ever meet",
+            "feedback": "Speed isn't what keeps them apart; stars move at tremendous speed during a collision. What matters is how much empty space separates them."
+          },
+          {
+            "label": "Because one galaxy always stops before reaching the other",
+            "feedback": "Colliding galaxies don't halt at a distance; their gravity draws them together and they do pass through and merge with one another."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right idea",
+        "ok_line": "So much empty space between stars that two crowds can pass through each other.",
+        "ko_title": "Think about the emptiness",
+        "ko_line": "A galaxy looks crowded from a distance, but ask how much space actually separates one star from the next.",
+        "exp_title": "Mostly empty, even when crowded",
+        "exp_text": "A galaxy may hold a vast number of stars, but the distance separating any one star from its nearest neighbor is enormous compared with the stars' own size. When two galaxies collide, their gas clouds do slam together and their gravity does reshape both galaxies, but the individual stars are so sparsely scattered within that vast volume that they slide past one another with almost no direct collisions at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What holds a whole cluster made up of many separate galaxies together as one system?",
+        "body": null,
+        "options": [
+          {
+            "label": "The mutual gravity of all the galaxies and gas within the cluster",
+            "feedback": "Every galaxy and every wisp of gas in the cluster contributes its own pull, and together that combined gravity holds the whole group in orbit around a shared center."
+          },
+          {
+            "label": "A rigid shell of dust wrapped around the whole group",
+            "feedback": "No enclosing shell exists; nothing physically walls a cluster in from the outside."
+          },
+          {
+            "label": "The individual galaxies are physically touching one another",
+            "feedback": "Galaxies in a cluster are typically separated by huge distances of their own; they are bound by gravity across that gap, not by touching."
+          },
+          {
+            "label": "Each galaxy in the cluster stopped moving long ago",
+            "feedback": "Every galaxy in a cluster keeps orbiting the shared center of mass; nothing in the cluster is standing still."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "The same force, scaled up to bind whole galaxies together.",
+        "ko_title": "Same principle, bigger scale",
+        "ko_line": "Whatever holds a single galaxy's stars together works the same way one level up, on galaxies themselves.",
+        "exp_title": "Gravity, scaled up again",
+        "exp_text": "Just as the stars inside one galaxy are bound together by their combined gravity, the many galaxies inside a cluster are bound together by their own combined gravity, along with that of the gas filling the space between them. That shared pull keeps every galaxy in the cluster orbiting a common center of mass rather than drifting apart into separate, unrelated paths through space."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually fills the space between the galaxies inside a cluster?",
+        "body": null,
+        "options": [
+          {
+            "label": "Completely empty space, with nothing between the galaxies at all",
+            "feedback": "The space between galaxies in a cluster isn't a perfect vacuum; it holds thin, hot gas spread through it."
+          },
+          {
+            "label": "A very thin haze of hot gas",
+            "feedback": "Spread thinly across the whole cluster, this gas is faint but real, filling far more volume than the galaxies themselves take up."
+          },
+          {
+            "label": "Solid rock and dust left over from broken planets",
+            "feedback": "No solid debris of that kind fills the space between galaxies; what's there is gas, far too thin to be solid."
+          },
+          {
+            "label": "A frozen lattice of ice",
+            "feedback": "Nothing there is cold or solid enough to form ice; the gas filling that space is instead extremely hot."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right answer",
+        "ok_line": "Not empty at all — just thin, hot, and hard to notice.",
+        "ko_title": "Not truly empty",
+        "ko_line": "Space that looks dark to the eye can still be filled with something far too thin and hot to see directly.",
+        "exp_title": "A haze between the galaxies",
+        "exp_text": "The gaps separating galaxies within a cluster are not a true vacuum; they are filled with gas heated to enormous temperatures as it falls into and swirls around within the cluster's gravity. That gas is so thin and spread out that it looks like nothing at all next to the crowded light of a galaxy, even though it occupies far more of the cluster's volume than the galaxies do."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What are dwarf galaxies, and why are they so often found as companions to much larger galaxies?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are small bound systems of stars, and their weaker gravity leaves them easily captured into orbit by a bigger galaxy's stronger pull",
+            "feedback": "A dwarf galaxy is a complete galaxy in its own right, just far smaller in mass, and its comparatively weak gravity is no match for a nearby giant's, so it tends to end up circling the larger one instead of standing apart."
+          },
+          {
+            "label": "They are broken-off fragments of planets that never had any stars",
+            "feedback": "A dwarf galaxy is built from its own stars, gas and dust, not fragments of planets, which belong to an entirely different, much smaller scale."
+          },
+          {
+            "label": "They are enormous galaxies that only look small because they are so far away",
+            "feedback": "A dwarf galaxy's small size isn't a trick of distance; it genuinely holds far fewer stars than a giant galaxy like the one it often orbits."
+          },
+          {
+            "label": "They are clusters of hundreds of giant galaxies bundled tightly together",
+            "feedback": "A dwarf galaxy is a single small galaxy, not a bundle of many giant ones; a cluster of galaxies is an entirely different, much larger structure."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Smaller mass, weaker pull, easily drawn into another galaxy's orbit.",
+        "ko_title": "Reconsider the scale",
+        "ko_line": "A dwarf galaxy is a genuine galaxy, just built from far fewer stars — think about what that smaller mass means for its gravity.",
+        "exp_title": "Outmatched, and drawn in",
+        "exp_text": "A dwarf galaxy is a real galaxy in its own right, holding its own stars, gas and dust bound by its own gravity, but it contains far less mass than a giant galaxy nearby. Because its own pull is so much weaker by comparison, a dwarf galaxy that strays close to a giant one is far more easily caught by the giant's stronger gravity than the other way around, settling into a long orbit as a companion."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the outer stars of a galaxy keep orbiting just as fast as stars closer to the center, instead of slowing down the way distance alone would suggest?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the outer stars are secretly much lighter than the inner ones",
+            "feedback": "A star's own weight has no bearing on how fast gravity can make it orbit; what determines the speed is the mass gathered inside its orbit, not the star's own mass."
+          },
+          {
+            "label": "Because there is far more mass spread through and around the galaxy than its visible stars and gas can account for",
+            "feedback": "An orbit that fast, that far out, needs far more pulling mass than the visible stars and gas provide, so something unseen must be spread through and beyond the galaxy, adding its own gravity."
+          },
+          {
+            "label": "Because the outer stars aren't actually orbiting at all, only drifting",
+            "feedback": "The outer stars are measurably orbiting the galaxy's center on real paths, not drifting freely; a freely drifting star wouldn't stay bound to the galaxy at all."
+          },
+          {
+            "label": "Because gravity gets stronger, not weaker, the farther a star is from the center",
+            "feedback": "Gravity from a fixed amount of mass grows weaker with distance, not stronger; the puzzle is exactly that the outer stars orbit faster than a fixed, visible amount of central mass would allow."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's the puzzle solved",
+        "ok_line": "More gravity than the visible matter alone can supply.",
+        "ko_title": "Think about missing mass",
+        "ko_line": "The visible stars and gas alone aren't enough to pull that hard, that far out — something extra must be adding its own gravity.",
+        "exp_title": "More pull than meets the eye",
+        "exp_text": "If a galaxy's gravity came only from its visible stars and gas, the pull on stars far out from the center would be weak, and those outer stars ought to orbit noticeably slower than the ones closer in. Instead they keep pace with the inner stars, which means a great deal of additional, unseen mass must be spread through and around the galaxy, adding its own gravity to keep the outer orbits moving that fast."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do galaxies tend to be arranged into a web-like pattern of filaments and clumps across the universe, rather than being scattered evenly through space?",
+        "body": null,
+        "options": [
+          {
+            "label": "Slightly denser regions in the early universe pulled in more matter over time through gravity, growing into filaments while leaving the sparser regions ever emptier",
+            "feedback": "A region that started out just a little denser than average drew in a little more surrounding matter through its extra gravity, which made it denser still, drawing in still more — a self-reinforcing process that built dense filaments while draining the emptier regions further."
+          },
+          {
+            "label": "Every galaxy was placed at an identical, evenly spaced distance from every other one from the very start",
+            "feedback": "The universe shows no such even, gridlike spacing; galaxies are bunched into some regions and largely absent from others, the opposite of an even arrangement."
+          },
+          {
+            "label": "Collisions between galaxies pushed them apart into an even scatter over time",
+            "feedback": "Collisions pull galaxies together and merge them rather than spreading them evenly apart; they tend to build denser clumps, not smooth out the pattern."
+          },
+          {
+            "label": "Light pressure from stars swept matter into a web shape",
+            "feedback": "The pressure of starlight is far too weak, over distances that vast, to gather matter into the huge structures seen; that shaping is gravity's work."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right mechanism",
+        "ok_line": "A small head start in density, growing itself larger through gravity.",
+        "ko_title": "Think self-reinforcing",
+        "ko_line": "A pattern this large usually starts from a tiny difference that gravity then makes bigger and bigger over time.",
+        "exp_title": "A small edge, magnified by gravity",
+        "exp_text": "Regions of the early universe that were only very slightly denser than their surroundings exerted a very slightly stronger pull, drawing in a little extra matter from nearby and becoming denser still. Repeated over a very long stretch of time, that self-reinforcing pull built the denser regions into the filaments and clumps where galaxies now gather, while the regions that started out sparser were drained further, left as the vast, nearly empty voids stretching between them."
+      }
+    ]
+  }
+]

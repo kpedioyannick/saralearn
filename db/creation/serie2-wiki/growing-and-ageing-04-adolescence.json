@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 252,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the age range officially given by the World Health Organization for adolescence?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "12 to 18 years old",
+            "feedback": "That range is not the one used by the World Health Organization. Their official definition sets adolescence as the phase from 10 to 19 years old."
+          },
+          {
+            "label": "13 to 17 years old",
+            "feedback": "That is a narrower and different range. The World Health Organization officially designates adolescence as the ages of 10 to 19."
+          },
+          {
+            "label": "10 to 19 years old",
+            "feedback": "Correct. The World Health Organization defines adolescence as the phase of life from 10 to 19 years of age."
+          },
+          {
+            "label": "15 to 25 years old",
+            "feedback": "That is not the official range. The World Health Organization places adolescence between 10 and 19 years old."
+          }
+        ],
+        "ok_title": "Official age range",
+        "ok_line": "Adolescence spans ages 10 to 19 according to the WHO.",
+        "ko_title": "Wrong age range",
+        "ko_line": "The WHO defines adolescence as ages 10 to 19, not another span.",
+        "exp_title": "Adolescence definition",
+        "exp_text": "The World Health Organization officially designates adolescence as the phase of life from ages 10 to 19. This range is a rough marker because individual development can begin earlier or end later."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the first ejaculation in males during puberty?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Spermarche",
+            "feedback": "Correct. Spermarche is the term for the first ejaculation, which occurs on average at age 13."
+          },
+          {
+            "label": "Menarche",
+            "feedback": "Menarche is the onset of menstruation in females, not the first ejaculation in males."
+          },
+          {
+            "label": "Gynecomastia",
+            "feedback": "Gynecomastia is breast development in boys, not the first ejaculation."
+          },
+          {
+            "label": "Growth spurt",
+            "feedback": "Growth spurt refers to the rapid increase in height and weight, not the first ejaculation."
+          }
+        ],
+        "ok_title": "First ejaculation term",
+        "ok_line": "Spermarche is the first ejaculation in males.",
+        "ko_title": "Wrong term for ejaculation",
+        "ko_line": "The correct term is spermarche, not another puberty sign.",
+        "exp_title": "Male puberty landmark",
+        "exp_text": "The major landmark of puberty for males is spermarche, the first ejaculation, which happens on average around age 13. It signals sexual maturation in boys."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which gland secretes a surge of hormonal agents into the blood to begin puberty?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Thyroid gland",
+            "feedback": "The thyroid gland is not the one that triggers puberty. It is the pituitary gland that secretes the hormonal surge to start the process."
+          },
+          {
+            "label": "Adrenal gland",
+            "feedback": "The adrenal gland is not the initiator here. Puberty is triggered by the pituitary gland, which sends hormones into the bloodstream."
+          },
+          {
+            "label": "Pineal gland",
+            "feedback": "The pineal gland is not involved in starting puberty. The pituitary gland is the one that secretes the surge of hormonal agents."
+          },
+          {
+            "label": "Pituitary gland",
+            "feedback": "Correct. The pituitary gland secretes a surge of hormonal agents into the bloodstream, which starts the chain reaction of puberty."
+          }
+        ],
+        "ok_title": "Puberty trigger",
+        "ok_line": "The pituitary gland starts puberty by releasing hormones.",
+        "ko_title": "Wrong gland",
+        "ko_line": "Puberty is triggered by the pituitary gland, not another gland.",
+        "exp_title": "Endocrine initiation",
+        "exp_text": "Puberty begins when the pituitary gland secretes a surge of hormonal agents into the blood stream. This initiates a chain reaction that activates the gonads."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the average ages for the onset of puberty in girls and boys respectively?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "9–10 for girls, 10–11 for boys",
+            "feedback": "That is earlier than the average. The typical onset is 10–11 for girls and 11–12 for boys."
+          },
+          {
+            "label": "10–11 for girls, 11–12 for boys",
+            "feedback": "Correct. The average age of onset is 10–11 for girls and 11–12 for boys."
+          },
+          {
+            "label": "12–13 for girls, 13–14 for boys",
+            "feedback": "That is later than the average. Girls usually start at 10–11 and boys at 11–12."
+          },
+          {
+            "label": "11–12 for girls, 12–13 for boys",
+            "feedback": "This swaps the usual order. Girls typically start earlier, at 10–11, while boys start at 11–12."
+          }
+        ],
+        "ok_title": "Puberty onset ages",
+        "ok_line": "Puberty starts around 10–11 in girls and 11–12 in boys.",
+        "ko_title": "Incorrect onset ages",
+        "ko_line": "The average starts are 10–11 for girls and 11–12 for boys.",
+        "exp_title": null,
+        "exp_text": "Puberty begins, on average, at ages 10–11 for girls and 11–12 for boys. Individual timetables vary because heredity mainly influences them, with diet and exercise also playing a role."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the major landmark of puberty for females?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Spermarche",
+            "feedback": "Spermarche is the first ejaculation in males, not a female landmark. For females, the major landmark is menarche."
+          },
+          {
+            "label": "Growth of underarm hair",
+            "feedback": "Underarm hair growth is a secondary sex characteristic, not the major landmark. Menarche, the onset of menstruation, is the key event."
+          },
+          {
+            "label": "Menarche",
+            "feedback": "Correct. Menarche, the onset of menstruation, is the major landmark of puberty for females, typically occurring around age 13."
+          },
+          {
+            "label": "Breast development",
+            "feedback": "Breast development is an early sign of puberty, but the major landmark specifically is menarche, the beginning of menstruation."
+          }
+        ],
+        "ok_title": "Female puberty landmark",
+        "ok_line": "Menarche is the onset of menstruation and the major female landmark.",
+        "ko_title": "Wrong female landmark",
+        "ko_line": "The major landmark for girls is menarche, not another change.",
+        "exp_title": null,
+        "exp_text": "For females, the major landmark of puberty is menarche, which is the onset of menstruation. It typically occurs around age 13, plus or minus two or three years."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which hormone is primarily released by the testes during puberty?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Testosterone",
+            "feedback": "Correct. The testes primarily release testosterone, which drives many male pubertal changes."
+          },
+          {
+            "label": "Estrogen",
+            "feedback": "Estrogen is predominantly released by the ovaries, not the testes. The testes mainly produce testosterone."
+          },
+          {
+            "label": "Progesterone",
+            "feedback": "Progesterone is not the primary hormone from the testes. Testosterone is the main hormone released by the testes."
+          },
+          {
+            "label": "Prolactin",
+            "feedback": "Prolactin is not the primary testicular hormone. The testes mainly release testosterone."
+          }
+        ],
+        "ok_title": "Testicular hormone",
+        "ok_line": "The testes mainly produce testosterone.",
+        "ko_title": "Wrong testicular hormone",
+        "ko_line": "Testosterone is the primary hormone from the testes.",
+        "exp_title": null,
+        "exp_text": "During puberty, the testes primarily release testosterone. This hormone is responsible for many male secondary sex characteristics and the deepening of the voice."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What primarily influences an individual's timetable for puberty?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The season of birth",
+            "feedback": "Season of birth is not mentioned as a factor. Heredity is the main influence on the puberty timetable."
+          },
+          {
+            "label": "The amount of sleep",
+            "feedback": "Sleep amount is not listed as a major influence. Heredity primarily determines the timetable, with diet and exercise as secondary factors."
+          },
+          {
+            "label": "The number of friends",
+            "feedback": "Social factors are not the main influence. Heredity is the primary factor, and environmental aspects like diet and exercise also contribute."
+          },
+          {
+            "label": "Heredity",
+            "feedback": "Correct. Heredity is the primary influence on each person's timetable for puberty, though diet and exercise also play a part."
+          }
+        ],
+        "ok_title": "Puberty timetable factor",
+        "ok_line": "Heredity mainly sets the pace of puberty.",
+        "ko_title": "Wrong factor for puberty timing",
+        "ko_line": "Heredity is the main influence, not other listed factors.",
+        "exp_title": null,
+        "exp_text": "Every person's individual timetable for puberty is influenced primarily by heredity. Environmental factors like diet and exercise also have some effect, but genetics are the main driver."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the first facial hair to appear in boys during puberty?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Hair on the chin",
+            "feedback": "Chin hair comes later. The first facial hair grows at the corners of the upper lip, typically between 14 and 16 years of age."
+          },
+          {
+            "label": "Hair at the corners of the upper lip",
+            "feedback": "Correct. The first facial hair appears at the corners of the upper lip, usually between 14 and 16 years old, then spreads to form a moustache."
+          },
+          {
+            "label": "Hair on the cheeks",
+            "feedback": "Cheek hair appears after the moustache forms. The initial growth is at the corners of the upper lip."
+          },
+          {
+            "label": "Hair under the lower lip",
+            "feedback": "Hair under the lower lip comes later than the corners of the upper lip. That is the first area to grow facial hair."
+          }
+        ],
+        "ok_title": "First facial hair",
+        "ok_line": "Facial hair starts at the corners of the upper lip.",
+        "ko_title": "Wrong first facial hair location",
+        "ko_line": "The first facial hair is at the upper lip corners, not elsewhere.",
+        "exp_title": null,
+        "exp_text": "In boys, the first facial hair normally appears at the corners of the upper lip, typically between 14 and 16 years of age. It then spreads to form a moustache and later to the cheeks and chin."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Around what age do girls usually reach full physical development?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "10–12 years old",
+            "feedback": "That is too early. Girls typically reach full physical development around ages 15–17, not in early adolescence."
+          },
+          {
+            "label": "13–14 years old",
+            "feedback": "That is still before the typical range. Girls usually complete physical development around 15–17 years old."
+          },
+          {
+            "label": "15–17 years old",
+            "feedback": "Correct. Girls have usually reached full physical development around ages 15–17, while boys complete puberty around 16–17."
+          },
+          {
+            "label": "18–20 years old",
+            "feedback": "That is later than typical. Girls usually reach full physical development by ages 15–17."
+          }
+        ],
+        "ok_title": "Girls' full development",
+        "ok_line": "Girls typically finish physical growth around 15–17.",
+        "ko_title": "Wrong age for girls' development",
+        "ko_line": "Full physical development in girls usually happens around 15–17.",
+        "exp_title": null,
+        "exp_text": "Girls have usually reached full physical development around ages 15–17. This contrasts with boys, who typically complete puberty around 16–17 years old."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a secondary sex characteristic in boys?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A deeper voice and larger Adam's apple",
+            "feedback": "Correct. A deeper voice and a larger Adam's apple are examples of secondary sex characteristics that appear in boys during puberty."
+          },
+          {
+            "label": "Development of breasts",
+            "feedback": "Breast development is a secondary sex characteristic in girls, not typically in boys. In boys, the deeper voice and Adam's apple are examples."
+          },
+          {
+            "label": "Wider hips",
+            "feedback": "Wider hips are a secondary sex characteristic in girls. For boys, a deeper voice and larger Adam's apple are the examples given."
+          },
+          {
+            "label": "Onset of menstruation",
+            "feedback": "Menstruation is not a secondary sex characteristic; it is a major event of puberty in females. In boys, a deeper voice and Adam's apple are secondary characteristics."
+          }
+        ],
+        "ok_title": "Male secondary traits",
+        "ok_line": "Boys develop a deeper voice and larger Adam's apple.",
+        "ko_title": "Wrong male secondary trait",
+        "ko_line": "A deeper voice and Adam's apple are male traits, not the others.",
+        "exp_title": null,
+        "exp_text": "Secondary sex characteristics include a deeper voice and larger Adam's apple in boys, and breast development with more curved hips in girls. These appear as puberty progresses."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the fundamental process that powers a star?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Nuclear fusion in its core",
+            "feedback": "Correct. A star fuses light elements, mainly hydrogen, into heavier ones, releasing enormous energy that makes it shine."
+          },
+          {
+            "label": "Burning like a giant fire",
+            "feedback": "Incorrect. Burning is a chemical reaction, not nuclear fusion. Stars fuse atomic nuclei, which releases far more energy than ordinary combustion."
+          },
+          {
+            "label": "Reflecting light from nearby stars",
+            "feedback": "Incorrect. Reflection only sends back light already present. A star produces its own light from internal fusion, so it is not a mirror."
+          },
+          {
+            "label": "Slowly releasing heat from its formation",
+            "feedback": "Incorrect. While a forming star is hot from gravitational collapse, that heat would fade quickly. Fusion is what sustains a star's shine for millions or billions of years."
+          }
+        ],
+        "ok_title": "Fusion power",
+        "ok_line": "A star shines because nuclear fusion runs in its core.",
+        "ko_title": "Not burning",
+        "ko_line": "Stars are not on fire; they fuse atoms.",
+        "exp_title": "Nuclear fusion",
+        "exp_text": "A star shines because its core fuses hydrogen into helium, releasing light and heat. This nuclear process is vastly more energetic than chemical burning and keeps the star stable over a long lifetime."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a star?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A large planet with a bright surface",
+            "feedback": "Incorrect. Planets do not fuse elements; they shine only by reflected light. A star's shine comes from its own internal fusion."
+          },
+          {
+            "label": "A luminous ball of plasma held together by gravity",
+            "feedback": "Correct. A star is a massive sphere of hot plasma whose gravity pulls inward while fusion pushes outward, keeping it stable."
+          },
+          {
+            "label": "A solid rock that glows due to heat",
+            "feedback": "Incorrect. Stars are not solid; their matter is plasma, a hot ionized state. Solid rock would cool and stop glowing, unlike a star."
+          },
+          {
+            "label": "A cloud of gas that floats in space without shape",
+            "feedback": "Incorrect. A cloud of gas is a nebula, not a star. A star is dense and spherical, with fusion at its core."
+          }
+        ],
+        "ok_title": "Luminous plasma ball",
+        "ok_line": "A star is a glowing sphere of plasma, balanced by gravity.",
+        "ko_title": "Not a planet",
+        "ko_line": "Stars shine by fusion; planets only reflect light.",
+        "exp_title": "Definition of a star",
+        "exp_text": "A star is a self-gravitating sphere of plasma that generates energy through nuclear fusion in its core. Gravity pulls inward, and the outward pressure from fusion keeps the star from collapsing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the source of a star's energy?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The heat left over from its formation",
+            "feedback": "Incorrect. That heat would leak away in a short time. Stars last for billions of years because fusion continuously supplies new energy."
+          },
+          {
+            "label": "The friction of gas moving inside it",
+            "feedback": "Incorrect. Friction is too weak to power a star over its lifetime. Fusion in the core is what provides the sustained energy."
+          },
+          {
+            "label": "The conversion of mass into energy in its core",
+            "feedback": "Correct. In fusion, a tiny bit of mass is turned into energy, following E=mc², fueling the star's light and heat."
+          },
+          {
+            "label": "The absorption of light from other stars",
+            "feedback": "Incorrect. A star emits its own light; absorbing nearby light could not make it shine brightly for millions of years."
+          }
+        ],
+        "ok_title": "Mass to energy",
+        "ok_line": "Fusion converts a little mass into a lot of energy.",
+        "ko_title": "No leftovers",
+        "ko_line": "Formation heat fades; fusion alone sustains a star.",
+        "exp_title": null,
+        "exp_text": "A star's energy comes from nuclear fusion, where hydrogen nuclei combine into helium and release a small fraction of their mass as energy. This process is so efficient that a star shines for billions of years without running out quickly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the state of matter inside a star?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Solid",
+            "feedback": "Incorrect. The extreme heat strips electrons from atoms, so matter cannot stay solid. Everything is too hot and energetic."
+          },
+          {
+            "label": "Liquid",
+            "feedback": "Incorrect. Liquids need moderate temperatures and pressures; a star's core is millions of degrees, far too hot for liquid."
+          },
+          {
+            "label": "Ordinary gas",
+            "feedback": "Incorrect. Ordinary gas has neutral atoms, but in a star's heat atoms break apart into ions and electrons, making plasma."
+          },
+          {
+            "label": "Plasma",
+            "feedback": "Correct. At stellar temperatures, electrons are stripped from nuclei, so the matter is a hot, ionized plasma."
+          }
+        ],
+        "ok_title": "Hot plasma",
+        "ok_line": "Inside a star, matter is ionized plasma.",
+        "ko_title": "Not ordinary gas",
+        "ko_line": "Stars are so hot that atoms split into plasma.",
+        "exp_title": null,
+        "exp_text": "Inside a star, temperatures reach millions of degrees. This heat strips electrons from atoms, turning the matter into plasma—a state where charged particles move freely. This plasma is what allows fusion to happen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape is a typical star?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A sphere",
+            "feedback": "Correct. Gravity pulls equally from all directions, so a star naturally forms a round ball."
+          },
+          {
+            "label": "A flat disc",
+            "feedback": "Incorrect. Discs form around stars (like planetary disks), but the star itself is spherical because gravity compresses it evenly."
+          },
+          {
+            "label": "A cube",
+            "feedback": "Incorrect. A cube would require uneven forces; gravity always acts symmetrically, making a sphere, not a box."
+          },
+          {
+            "label": "An irregular blob",
+            "feedback": "Incorrect. A blob would mean weak self-gravity, but stars have strong gravity that pulls them into a smooth sphere."
+          }
+        ],
+        "ok_title": "Spherical shape",
+        "ok_line": "Gravity makes stars round balls.",
+        "ko_title": "Not a disc",
+        "ko_line": "Stars are spheres, not flat discs.",
+        "exp_title": null,
+        "exp_text": "A star is a sphere because its own gravity pulls inward equally from every direction. This symmetrical pull forces the star's outer layers to settle into the most compact shape, which is a ball."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do stars primarily consist of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Iron and nickel",
+            "feedback": "Incorrect. Iron is made only in the final stages of a massive star's life and is rare overall. Stars are mostly made of hydrogen and helium."
+          },
+          {
+            "label": "Carbon and oxygen",
+            "feedback": "Incorrect. Carbon and oxygen are produced later, but the initial star is overwhelmingly hydrogen and helium."
+          },
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Correct. Stars form from clouds of hydrogen and helium, the simplest and most abundant elements in the universe."
+          },
+          {
+            "label": "Silicon and magnesium",
+            "feedback": "Incorrect. These are heavier elements that appear only in small amounts, not the main ingredients of a star."
+          }
+        ],
+        "ok_title": "Hydrogen and helium",
+        "ok_line": "Stars are almost entirely hydrogen and helium.",
+        "ko_title": "Not heavy metals",
+        "ko_line": "Heavy elements are rare in stars; light ones dominate.",
+        "exp_title": null,
+        "exp_text": "Stars are born from clouds of gas and dust that are about 73% hydrogen and 25% helium, with traces of other elements. This is why hydrogen is the main fuel for fusion."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What keeps a star from collapsing under its own gravity?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Heat from chemical reactions",
+            "feedback": "Incorrect. Chemical reactions are far too weak. Only the enormous pressure and energy from nuclear fusion can counteract gravity."
+          },
+          {
+            "label": "The outward pressure from nuclear fusion",
+            "feedback": "Correct. Fusion releases energy that pushes outward, exactly balancing the inward pull of gravity."
+          },
+          {
+            "label": "The spin of the star",
+            "feedback": "Incorrect. Spinning helps slightly, but it is not the main support; without fusion, the star would still collapse."
+          },
+          {
+            "label": "The magnetic field of the star",
+            "feedback": "Incorrect. Magnetic fields are too weak to hold up an entire star against gravity; fusion pressure is the key."
+          }
+        ],
+        "ok_title": "Fusion pressure",
+        "ok_line": "Fusion pushes out, gravity pulls in—balance.",
+        "ko_title": "Not spinning",
+        "ko_line": "Rotation doesn't hold stars up; fusion does.",
+        "exp_title": null,
+        "exp_text": "Inside a star, fusion generates heat that creates outward gas pressure. This pressure pushes against gravity's inward pull, keeping the star stable. If fusion stops, the star will contract."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How is a star different from a planet?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A star is smaller than a planet",
+            "feedback": "Incorrect. Stars are generally much larger than planets; even a small star is bigger than the largest planet."
+          },
+          {
+            "label": "A star orbits a planet",
+            "feedback": "Incorrect. Planets orbit stars, not the other way around. A star is the central body with planets circling it."
+          },
+          {
+            "label": "A star is made of rock and metal",
+            "feedback": "Incorrect. Stars are made of plasma, not solid rock. Planets can be rocky or gaseous, but they lack fusion."
+          },
+          {
+            "label": "A star generates its own light through fusion",
+            "feedback": "Correct. Planets only reflect light from their star, while stars produce their own light and energy through fusion."
+          }
+        ],
+        "ok_title": "Self-luminous vs reflecting",
+        "ok_line": "Stars shine by fusion; planets only reflect.",
+        "ko_title": "Planets don't shine",
+        "ko_line": "A planet has no fusion, so it cannot glow on its own.",
+        "exp_title": null,
+        "exp_text": "The key difference is that a star fuses elements in its core, making it self-luminous. A planet does not have enough mass to start fusion and only reflects the light of its star."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the mass of a star's core during fusion?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A tiny amount is converted into energy",
+            "feedback": "Correct. In each fusion reaction, a small fraction of the mass becomes energy, which is why stars shine so brightly."
+          },
+          {
+            "label": "It stays exactly the same",
+            "feedback": "Incorrect. Mass is not conserved; part of it is transformed into energy, so the core slowly loses mass over time."
+          },
+          {
+            "label": "All of it is turned into helium",
+            "feedback": "Incorrect. Only a tiny fraction of the mass becomes helium; most of the remaining mass is converted into energy."
+          },
+          {
+            "label": "It increases over time",
+            "feedback": "Incorrect. Fusion reduces the core's mass, not increases it, because the missing mass becomes energy."
+          }
+        ],
+        "ok_title": "Mass becomes energy",
+        "ok_line": "Fusion turns a little mass into shining light.",
+        "ko_title": "Not unchanged",
+        "ko_line": "The core slowly loses mass as energy radiates away.",
+        "exp_title": null,
+        "exp_text": "During fusion, hydrogen nuclei combine to form helium, and about 0.7% of the mass is lost as energy. This tiny loss per reaction still powers a star because so many reactions happen every second."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main fuel for a typical star like the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Incorrect. Oxygen is too heavy to be the primary fuel; stars start with hydrogen because it is the simplest and most abundant."
+          },
+          {
+            "label": "Carbon",
+            "feedback": "Incorrect. Carbon is produced only after hydrogen runs out, and it is not the first fuel a star burns."
+          },
+          {
+            "label": "Hydrogen",
+            "feedback": "Correct. The Sun and most stars fuse hydrogen into helium as their main fuel source."
+          },
+          {
+            "label": "Iron",
+            "feedback": "Incorrect. Iron cannot be fused to release energy; it would actually absorb energy, so it is never a fuel for a star."
+          }
+        ],
+        "ok_title": "Hydrogen fuel",
+        "ok_line": "Stars burn hydrogen to make helium and light.",
+        "ko_title": "Not heavy elements",
+        "ko_line": "Hydrogen is the first and primary stellar fuel.",
+        "exp_title": null,
+        "exp_text": "A star like the Sun fuses hydrogen nuclei into helium in its core. Hydrogen is the lightest and most common element, making it the natural first fuel for any star."
+      }
+    ]
+  }
+]

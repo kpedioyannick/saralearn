@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 223,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the amount of daylight tell a living thing about the season?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It tells whether it is spring, summer, autumn, or winter.",
+            "feedback": "Correct. The length of the day changes through the year, so it is a reliable signal of which season has arrived."
+          },
+          {
+            "label": "It tells the temperature of the air each day.",
+            "feedback": "Not quite. Daylight length does not change with daily temperature; it follows the calendar through the seasons."
+          },
+          {
+            "label": "It tells how much rain will fall that week.",
+            "feedback": "Wrong. Rain is not linked to daylight length; daylight changes slowly with the seasons, not with weekly weather."
+          },
+          {
+            "label": "It tells exactly what time the sun will rise tomorrow.",
+            "feedback": "Close but off. That is the clock time of sunrise, not the seasonal signal about the time of year."
+          }
+        ],
+        "ok_title": "Seasonal daylight signal",
+        "ok_line": "Day length reliably marks the season.",
+        "ko_title": "Not temperature or weather",
+        "ko_line": "Day length is about seasons, not weather.",
+        "exp_title": "Day length as a season cue",
+        "exp_text": "The length of daylight changes predictably through the year: short in winter, long in summer. Living things use this to know when to flower, migrate, or change colour. It is a more dependable signal than temperature, which can vary from year to year."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a long-day plant do only when the days are long?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It drops its leaves.",
+            "feedback": "No. Leaf fall happens in short days of autumn, not when days are long. Long days signal the growing season."
+          },
+          {
+            "label": "It blooms or flowers.",
+            "feedback": "Correct. A long-day plant waits until the daylight lasts long enough, then it produces flowers."
+          },
+          {
+            "label": "It turns white for winter.",
+            "feedback": "Wrong. Turning white in winter is a response to short days, not long ones. Long days come with summer."
+          },
+          {
+            "label": "It goes dormant and stops growing.",
+            "feedback": "Incorrect. Dormancy is tied to short days and cold, not the long days of summer."
+          }
+        ],
+        "ok_title": "Long-day flowering",
+        "ok_line": "Long days trigger flowering.",
+        "ko_title": "Not dormancy or leaf drop",
+        "ko_line": "Those happen in short days.",
+        "exp_title": "Long-day plants and flowering",
+        "exp_text": "Long-day plants measure the length of daylight and start to flower when the days exceed a certain length. This is a common way for plants to make sure they bloom in the summer, when pollinators are active and conditions are good for seeds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a stoat or ptarmigan do in response to shorter autumn days?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It grows longer ears.",
+            "feedback": "No. Longer ears are not a seasonal change; these animals change the colour of their fur or feathers for winter."
+          },
+          {
+            "label": "It migrates to warmer areas.",
+            "feedback": "Not correct. These animals stay and change colour, they do not fly or walk away to warmer places."
+          },
+          {
+            "label": "It turns white for the winter.",
+            "feedback": "Correct. As days shorten in autumn, the stoat and ptarmigan moult into white fur or feathers to match the snow."
+          },
+          {
+            "label": "It grows a thicker dark coat.",
+            "feedback": "Wrong. They grow a white coat, not a darker one, so they are camouflaged against winter snow."
+          }
+        ],
+        "ok_title": "Winter whitening",
+        "ok_line": "Short days bring white winter coats.",
+        "ko_title": "No migration or dark coat",
+        "ko_line": "They stay and turn white.",
+        "exp_title": "Camouflage for snow",
+        "exp_text": "When days shorten, stoat and ptarmigan replace their summer browns with white. This keeps them hidden from predators and prey against the snow. The trigger is the day length, not the cold itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is day length a better signal for the season than temperature?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because temperature changes faster than daylight.",
+            "feedback": "That is part of it, but not the main reason. Temperature can swing quickly with weather, while day length changes steadily with the seasons."
+          },
+          {
+            "label": "Because temperature never changes in some places.",
+            "feedback": "Incorrect. Temperature does change, but it is unreliable as a season cue because it varies from year to year."
+          },
+          {
+            "label": "Because animals can feel daylight but not temperature.",
+            "feedback": "No. Animals can sense temperature, but it is not a reliable signal for the time of year."
+          },
+          {
+            "label": "Because daylight changes predictably every year, while temperature can vary.",
+            "feedback": "Correct. The length of the day is the same on the same date every year, so living things can plan ahead. Temperature may be warm or cold at the same date in different years."
+          }
+        ],
+        "ok_title": "Reliable season signal",
+        "ok_line": "Day length is predictable, temperature is not.",
+        "ko_title": "Temperature is variable",
+        "ko_line": "Weather changes year to year.",
+        "exp_title": null,
+        "exp_text": "Day length follows the tilt of the Earth, so it is identical on the same date each year. Temperature, by contrast, can be unusually warm or cold in a given season. That makes daylight a trustworthy cue for migration, flowering, and winter preparation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does skin produce when sunlight falls on it?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Vitamin D",
+            "feedback": "Correct. Skin makes vitamin D when exposed to sunlight, which the body uses for healthy bones."
+          },
+          {
+            "label": "Melanin",
+            "feedback": "Melanin is made too, but it is a pigment, not the main product the body needs from sunlight. Vitamin D is the answer."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "No. Oxygen is released by plants during photosynthesis, not by human skin in sunlight."
+          },
+          {
+            "label": "Sugar",
+            "feedback": "Wrong. Sugar is made by plants, not by skin. Skin's main sunlight product is vitamin D."
+          }
+        ],
+        "ok_title": "Skin makes vitamin D",
+        "ok_line": "Sunlight triggers vitamin D production.",
+        "ko_title": "Not melanin or sugar",
+        "ko_line": "Those are not the main sunlight product.",
+        "exp_title": null,
+        "exp_text": "When sunlight hits the skin, the body uses it to produce vitamin D. This vitamin helps absorb calcium and keeps bones strong. Without enough sun, a person can run low on vitamin D."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What job does melanin do in the skin?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It makes vitamin D.",
+            "feedback": "No. Vitamin D comes from sunlight reacting with skin chemicals; melanin is the pigment that colours the skin."
+          },
+          {
+            "label": "It gives skin its colour.",
+            "feedback": "Correct. Melanin is the pigment that makes skin darker or lighter. It protects against UV damage."
+          },
+          {
+            "label": "It helps skin breathe.",
+            "feedback": "Incorrect. Skin does not breathe through pigment; melanin's role is colour and protection."
+          },
+          {
+            "label": "It keeps skin warm in winter.",
+            "feedback": "Wrong. Melanin does not regulate heat; it is a colouring agent."
+          }
+        ],
+        "ok_title": "Melanin gives colour",
+        "ok_line": "Melanin colours the skin.",
+        "ko_title": "No vitamin D or warmth",
+        "ko_line": "Melanin is about pigment.",
+        "exp_title": null,
+        "exp_text": "Melanin is a pigment produced by skin cells. It gives skin its range of colours and also absorbs harmful ultraviolet rays, reducing damage. Darker skin has more melanin, lighter skin has less."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What tells the body's internal clock what time of day it is?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The stomach's feeling of hunger.",
+            "feedback": "No. Hunger is a daily cycle but it is not the signal that sets the internal clock; light is."
+          },
+          {
+            "label": "The temperature of the skin.",
+            "feedback": "Not correct. Skin temperature changes with activity, but the clock is set by light reaching the eyes."
+          },
+          {
+            "label": "Light entering the eyes.",
+            "feedback": "Correct. Light that comes through the eyes signals the internal clock, telling it whether it is day or night."
+          },
+          {
+            "label": "The amount of melanin in the skin.",
+            "feedback": "Wrong. Melanin colours the skin, it does not tell time. Light is the cue for the body clock."
+          }
+        ],
+        "ok_title": "Light sets body clock",
+        "ok_line": "Eyes tell the clock the time.",
+        "ko_title": "Not hunger or melanin",
+        "ko_line": "Light is the key signal.",
+        "exp_title": null,
+        "exp_text": "Special cells in the eye detect light and send that information to the brain's internal clock. This clock uses it to set sleep and wake cycles. Darkness tells it that night is coming."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the body release into the blood once it grows dark?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Vitamin D",
+            "feedback": "No. Vitamin D is made in sunlight, not at night. Darkness triggers a sleep hormone."
+          },
+          {
+            "label": "Melanin",
+            "feedback": "Incorrect. Melanin is a pigment in the skin; it is not released into blood at night."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Wrong. Oxygen is carried by blood always, not released just because it gets dark."
+          },
+          {
+            "label": "A hormone that makes you sleepy.",
+            "feedback": "Correct. In darkness, the body releases a hormone that promotes sleep, helping align the body with night."
+          }
+        ],
+        "ok_title": "Darkness brings sleep hormone",
+        "ok_line": "Night triggers a sleep-inducing hormone.",
+        "ko_title": "No vitamin D or pigment",
+        "ko_line": "Darkness is for sleep, not those.",
+        "exp_title": null,
+        "exp_text": "When light fades, the internal clock signals the pineal gland to release a hormone called melatonin. This hormone makes you feel drowsy and prepares the body for sleep. In the morning light, its release stops."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the pupil grow smaller in bright light?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To let more light into the eye.",
+            "feedback": "No. A smaller pupil lets less light in, not more. That would be the opposite of what bright light needs."
+          },
+          {
+            "label": "To protect the eye from too much light.",
+            "feedback": "Correct. The pupil shrinks in bright light to reduce the amount entering, protecting the retina from glare and damage."
+          },
+          {
+            "label": "To help the eye focus on distant objects.",
+            "feedback": "Focus is done by the lens, not the pupil size. The pupil controls light, not focus."
+          },
+          {
+            "label": "To improve colour vision.",
+            "feedback": "Colour vision depends on cone cells, not pupil size. Reducing light does not improve colour."
+          }
+        ],
+        "ok_title": "Pupil protects from glare",
+        "ok_line": "Bright light makes pupils shrink.",
+        "ko_title": "Not for more light or focus",
+        "ko_line": "Pupil size controls light entry.",
+        "exp_title": null,
+        "exp_text": "The pupil is the opening in the iris. In bright light it narrows so less light enters, preventing overexposure. In dim light it widens to gather more light and help you see."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do many animals near the equator breed all year round?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because day length stays nearly the same all year.",
+            "feedback": "Correct. Near the equator, daylight does not vary much, so there is no strong seasonal signal. Animals can breed whenever conditions are right."
+          },
+          {
+            "label": "Because the temperature is always very hot.",
+            "feedback": "Heat alone does not drive year-round breeding; it is the lack of a reliable day-length change that matters."
+          },
+          {
+            "label": "Because there is no winter at all.",
+            "feedback": "True that winters are mild, but the reason for year-round breeding is that day length does not change, not just lack of cold."
+          },
+          {
+            "label": "Because they do not need to migrate.",
+            "feedback": "Migration is not the cause. The even day length keeps the internal clock from triggering a seasonal breeding window."
+          }
+        ],
+        "ok_title": "Constant day length",
+        "ok_line": "No seasons means breeding anytime.",
+        "ko_title": "Not heat or migration",
+        "ko_line": "It is the steady daylight.",
+        "exp_title": null,
+        "exp_text": "Near the equator, the sun rises and sets at nearly the same times every day. Since there is no long or short day, animals do not have a seasonal signal. They can breed throughout the year, often timed to rain or food availability instead."
+      }
+    ]
+  }
+]

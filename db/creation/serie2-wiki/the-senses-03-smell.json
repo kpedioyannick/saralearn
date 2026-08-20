@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 249,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the sense of smell called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Gustation",
+            "feedback": "That is the scientific name for the sense of taste, not smell. The sense of smell is called olfaction."
+          },
+          {
+            "label": "Olfaction",
+            "feedback": "Correct. The sense of smell is known as olfaction, and through it we perceive odors or smells."
+          },
+          {
+            "label": "Audition",
+            "feedback": "That is the scientific term for the sense of hearing. The sense of smell is olfaction."
+          },
+          {
+            "label": "Tactition",
+            "feedback": "That is a term sometimes used for the sense of touch. The sense of smell is olfaction."
+          }
+        ],
+        "ok_title": "Correct: Olfaction",
+        "ok_line": "Smell is indeed olfaction.",
+        "ko_title": "Not that sense",
+        "ko_line": "That name belongs to a different sense.",
+        "exp_title": "The name of smell",
+        "exp_text": "The sense of smell goes by the special name olfaction. It is the sense through which we perceive smells, also called odors."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the body does an odor molecule first bind to a receptor to start the sense of smell?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "On the tongue",
+            "feedback": "The tongue deals with taste, not smell. The binding for smell happens inside the nasal cavity."
+          },
+          {
+            "label": "In the throat",
+            "feedback": "The throat is part of the passage for food and air, but smell detection begins higher, in the nasal cavity."
+          },
+          {
+            "label": "Inside the nasal cavity",
+            "feedback": "Correct. An odor binds to a receptor within the nasal cavity, and from there the signal travels along the olfactory system."
+          },
+          {
+            "label": "On the skin",
+            "feedback": "The skin is for touch, not for smell. Odor molecules bind to receptors in the nasal cavity."
+          }
+        ],
+        "ok_title": "In the nose",
+        "ok_line": "Smell starts in the nasal cavity.",
+        "ko_title": "Wrong location",
+        "ko_line": "That is not where smell receptors are found.",
+        "exp_title": "First step of smell",
+        "exp_text": "An odor molecule binds to a receptor inside the nasal cavity. That binding is the very first step that leads to the perception of a smell."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which structure receives the signals that have been gathered by glomeruli and starts interacting with brain areas for smell identification, memory, and emotion?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The olfactory bulb",
+            "feedback": "Correct. The olfactory bulb is where the sensory input begins to interact with brain regions responsible for identifying smells, memory, and emotion."
+          },
+          {
+            "label": "The thalamus",
+            "feedback": "The olfactory system is special because it bypasses the thalamus. The destination here is the olfactory bulb."
+          },
+          {
+            "label": "The cochlea",
+            "feedback": "The cochlea is part of the inner ear for hearing, not for smell. The olfactory bulb is the structure in question."
+          },
+          {
+            "label": "The retina",
+            "feedback": "The retina is in the eye for vision. For smell, signals converge at the olfactory bulb."
+          }
+        ],
+        "ok_title": "The olfactory bulb",
+        "ok_line": "Glomeruli send signals to the olfactory bulb.",
+        "ko_title": "That's another system",
+        "ko_line": "That structure belongs to a different sense.",
+        "exp_title": "Where smell signals go",
+        "exp_text": "After glomeruli aggregate the signals from smell receptors, they transmit them to the olfactory bulb. There the sensory input starts to interact with parts of the brain that handle smell identification, memory, and emotion."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does each olfactory receptor neuron express in mammals?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Many different functional odor receptors",
+            "feedback": "That would let one cell respond to many kinds of odors. In mammals, each olfactory receptor neuron expresses only one functional odor receptor."
+          },
+          {
+            "label": "No odor receptors at all",
+            "feedback": "If a neuron had no receptors, it could not respond to odors. Each olfactory receptor neuron expresses exactly one functional odor receptor."
+          },
+          {
+            "label": "All the odor receptors the animal has",
+            "feedback": "That would make every neuron the same. Instead, each olfactory receptor neuron expresses only one functional odor receptor."
+          },
+          {
+            "label": "Only one functional odor receptor",
+            "feedback": "Correct. Each olfactory receptor neuron in mammals expresses just a single functional odor receptor, which fits one particular molecular feature."
+          }
+        ],
+        "ok_title": "One receptor per neuron",
+        "ok_line": "Each olfactory neuron expresses one functional receptor.",
+        "ko_title": "Not more than one",
+        "ko_line": "The neuron expresses a single functional receptor.",
+        "exp_title": "One neuron, one receptor",
+        "exp_text": "In mammals, each olfactory receptor neuron expresses only one functional odor receptor. This means each nerve cell responds only to odors that fit that particular receptor, like a key fitting a lock."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In the key-and-lock system of smell, what does the lock represent?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The odor molecule",
+            "feedback": "In the comparison, the odor molecule is the key, not the lock. The lock is the odor receptor on the nerve cell."
+          },
+          {
+            "label": "The odor receptor",
+            "feedback": "Correct. The odor receptor is the lock, and the airborne molecule is the key; the nerve cell responds only when a molecule fits its receptor."
+          },
+          {
+            "label": "The olfactory bulb",
+            "feedback": "The olfactory bulb is further along the pathway, after receptor binding. The lock in the key–lock system is the odor receptor itself."
+          },
+          {
+            "label": "The mucus layer",
+            "feedback": "Mucus covers the receptors but is not what the key fits into. The lock is the odor receptor protein."
+          }
+        ],
+        "ok_title": "Receptor is the lock",
+        "ok_line": "The odor receptor is the lock in the key–lock system.",
+        "ko_title": "That's the key, not the lock",
+        "ko_line": "The fitting part is the receptor, not the molecule.",
+        "exp_title": "Key and lock",
+        "exp_text": "Odor receptor nerve cells work like a key–lock system. The airborne odor molecules are the keys, and the receptors are the locks; if a molecule fits a receptor, the nerve cell responds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which human sense bypasses the thalamus and connects directly to the forebrain?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Smell",
+            "feedback": "Correct. The olfactory system is the only human sense that bypasses the thalamus and connects directly to the forebrain."
+          },
+          {
+            "label": "Hearing",
+            "feedback": "Hearing sends signals through the thalamus on the way to the cortex. The sense that bypasses the thalamus is smell."
+          },
+          {
+            "label": "Taste",
+            "feedback": "Taste signals also travel through the thalamus. Only the olfactory system connects directly to the forebrain."
+          },
+          {
+            "label": "Touch",
+            "feedback": "Touch pathways go through the thalamus. It is smell that bypasses this structure."
+          }
+        ],
+        "ok_title": "Smell is unique",
+        "ok_line": "Smell bypasses the thalamus.",
+        "ko_title": "That sense uses the thalamus",
+        "ko_line": "This sense does not bypass the thalamus.",
+        "exp_title": "A special route",
+        "exp_text": "The olfactory system is the only human sense that bypasses the thalamus and connects directly to the forebrain. This direct connection is part of why smells can so strongly link to memories and emotions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the perception that is proposed to arise from the interaction between smell and sound?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Flavor",
+            "feedback": "Flavor comes from the combination of smell and taste, not from smell and sound. The proposed term for smell–sound interaction is smound."
+          },
+          {
+            "label": "Umami",
+            "feedback": "Umami is one of the basic tastes, not a smell–sound perception. The idea described here is called smound."
+          },
+          {
+            "label": "Anosmia",
+            "feedback": "Anosmia is the loss of the sense of smell, not a perception from smell and sound. The proposed perception is smound."
+          },
+          {
+            "label": "Smound",
+            "feedback": "Correct. In rodents, smell and sound information converge in the olfactory tubercles, and the resulting perception is proposed to be called a smound."
+          }
+        ],
+        "ok_title": "Smound is the term",
+        "ok_line": "Smell plus sound gives a smound.",
+        "ko_title": "That's a different concept",
+        "ko_line": "This name belongs to another kind of perception.",
+        "exp_title": "Smell and sound together",
+        "exp_text": "When smell and sound information converge in the brain, the resulting perception is proposed to be called a smound. This is distinct from flavor, which arises from smell and taste together."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the odorant receptor OR6A2 influence in humans?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The ability to smell β-ionone",
+            "feedback": "That is linked to the receptor OR5A1, not OR6A2. OR6A2 is associated with the preference or dislike of cilantro."
+          },
+          {
+            "label": "The preference or dislike of cilantro",
+            "feedback": "Correct. The preference or dislike of cilantro (coriander) has been linked to the olfactory receptor OR6A2."
+          },
+          {
+            "label": "The ability to detect the grassy odor cis-3-hexen-1-ol",
+            "feedback": "That grassy odor is linked to the receptor OR2J3, not OR6A2. OR6A2 is tied to cilantro preference."
+          },
+          {
+            "label": "The ability to smell one's own siblings",
+            "feedback": "Kin detection by smell involves other processes, not a single named odorant receptor. OR6A2 is linked to cilantro preference."
+          }
+        ],
+        "ok_title": "Cilantro and OR6A2",
+        "ok_line": "OR6A2 links to cilantro preference.",
+        "ko_title": "Wrong receptor link",
+        "ko_line": "That trait is tied to a different receptor.",
+        "exp_title": "A gene tied to cilantro",
+        "exp_text": "The olfactory receptor OR6A2 has been linked to whether a person prefers or dislikes cilantro. This is one of the few odorant receptor genes that has been conclusively connected to a particular smell-related trait."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the sense of smell also called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Olfaction",
+            "feedback": "That's right. The sense of smell is known as olfaction."
+          },
+          {
+            "label": "Gustation",
+            "feedback": "Gustation is the sense of taste, not smell."
+          },
+          {
+            "label": "Audition",
+            "feedback": "Audition is the sense of hearing."
+          },
+          {
+            "label": "Somatosensation",
+            "feedback": "Somatosensation covers touch, pressure, and pain, not smell."
+          }
+        ],
+        "ok_title": "Correct name",
+        "ok_line": "Yes, olfaction.",
+        "ko_title": "Wrong name",
+        "ko_line": "That is a different sense.",
+        "exp_title": "Olfaction",
+        "exp_text": "The sense of smell is called olfaction. It is one of the special senses, and it lets the body perceive odors."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the body does the sense of smell begin?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the mouth",
+            "feedback": "The mouth is involved with taste, not the start of smell. Smell begins in the nasal cavity."
+          },
+          {
+            "label": "In the nasal cavity",
+            "feedback": "Yes. An odor binds to a receptor inside the nasal cavity to start the sense of smell."
+          },
+          {
+            "label": "In the throat",
+            "feedback": "The throat is a passage for air and food, but smell starts higher up in the nose."
+          },
+          {
+            "label": "In the ear",
+            "feedback": "The ear handles hearing and balance, not the beginning of smell."
+          }
+        ],
+        "ok_title": "Start of smell",
+        "ok_line": "Smell starts in the nose.",
+        "ko_title": "Wrong place",
+        "ko_line": "That location does not detect odors.",
+        "exp_title": "Nasal cavity",
+        "exp_text": "Smell begins when an odor molecule binds to a receptor in the nasal cavity. That binding sends a signal along the olfactory system to the brain."
+      }
+    ]
+  }
+]

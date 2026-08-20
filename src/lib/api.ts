@@ -36,11 +36,16 @@ export interface ApiExercise {
     | 'reorder'
     | 'short_answer'
     | 'cloze'
-  type_bloom: 'remember' | 'understand' | 'apply' | 'analyze'
   prompt: string
   body: string | null
   image: string | null
   image_alt: string | null
+  // Le crédit du photographe. Les conditions de l'API Unsplash imposent
+  // de l'afficher avec un lien dès qu'une de leurs photos est montrée —
+  // ce n'est pas une politesse, c'est la contrepartie du service.
+  image_credit: string | null
+  image_credit_url: string | null
+  image_source: string | null
   options: ApiOption[]
   correct_index: number
   ok_title: string | null
@@ -49,7 +54,6 @@ export interface ApiExercise {
   ko_line: string | null
   exp_title: string | null
   exp_text: string
-  exp_tip: string | null
   up_count: number
   down_count: number
   my_vote: -1 | 0 | 1 | null
@@ -67,37 +71,84 @@ export interface ApiUser {
   dark: boolean | null
 }
 
-export interface ApiSubCategory {
-  id: number
-  slug: string
-  label: string
-  color: string | null
-}
-
 export interface ApiCategory {
   id: number
   slug: string
   label: string
   color: string
-  sub_categories: ApiSubCategory[]
 }
 
 export interface ApiTheme {
   id: number
   slug: string
+  /** Le code de partage, six caractères. */
+  code: string | null
   title: string
   description: string | null
   color: string | null
   category_id: number
   category_label: string | null
-  sub_category_id: number | null
-  sub_category_label: string | null
   visibility: 'private' | 'pending' | 'public'
   exercise_count: number
   subscriber_count: number
+  /** Consignes de génération retenues — les chapitres non écartés. */
+  prompt_count: number
+  /** Personnes ayant répondu à au moins un exercice de cet apprentissage. */
+  learner_count: number
+  /**
+   * Combien d'articles descendent directement de celui-ci — le poids du
+   * sujet dans l'arbre de Wikipédia, et l'ordre de repos du catalogue.
+   */
+  child_count: number
+  /**
+   * L'étage dans l'arbre : 0 pour l'article racine du thème, 1 pour ses
+   * piliers. Le tri s'en sert AVANT le poids, pour que la racine ouvre
+   * sa catégorie — voir `byWeight`.
+   */
+  depth: number
+  /** Le chapitre dont celui-ci descend — `null` à la racine du thème. */
+  parent_id: number | null
   tags: string[]
   is_owner: boolean
   subscribed: boolean
+}
+
+/**
+ * Un chapitre du programme d'une connaissance.
+ *
+ * Les trois champs de rédaction n'arrivent qu'au second appel : tant que
+ * `type_question` est nul et qu'il n'y a pas d'`error`, le prompt est
+ * encore en train de s'écrire. C'est ce qui donne la progression, sans
+ * qu'il ait fallu une colonne d'état de plus.
+ */
+export interface ApiChapter {
+  id: number
+  position: number
+  title: string
+  description: string | null
+  /** Le prompt écrit pour ce chapitre — nul tant qu'il ne l'est pas. */
+  generated_prompt: string | null
+  type_question: 'qcm' | 'complete' | 'find_error' | 'short_answer' | 'cloze' | null
+  example: {
+    prompt: string
+    options: string[]
+    correct_index: number
+    exp_text: string | null
+  } | null
+  status: 'draft' | 'validated' | 'rejected'
+  error: string | null
+}
+
+export interface ApiKnowledge {
+  theme_id: number
+  title: string
+  description: string | null
+  category_id: number
+  category_label: string
+  /** La catégorie a été créée par le modèle : elle attend d'être retenue. */
+  category_is_new: boolean
+  tags: string[]
+  chapters: ApiChapter[]
 }
 
 export interface ApiAttempt {
@@ -136,6 +187,8 @@ export interface ApiSettings {
   dark: boolean | null
   lang: 'fr' | 'en'
   theme_ids: number[]
+  /** Le pseudo. `null` tant que personne ne l'a posé. */
+  display_name: string | null
 }
 
 export class ApiError extends Error {
@@ -204,8 +257,36 @@ async function request<T>(
   return (await res.json()) as T
 }
 
+/**
+ * La voix, à part : la réponse est un MP3, pas du JSON.
+ *
+ * Même réflexe de session que `request` — un jeton expiré rouvre une
+ * session anonyme et rejoue une fois, sinon la voix se tairait
+ * définitivement là où le reste de l'app se rétablit tout seul.
+ */
+async function requestAudio(
+  path: string,
+  body: unknown,
+  retry = true,
+): Promise<Blob> {
+  const headers: Record<string, string> = { 'content-type': 'application/json' }
+  const t = token()
+  if (t) headers.authorization = `Bearer ${t}`
+
+  const res = await fetch(BASE + path, { method: 'POST', headers, body: JSON.stringify(body) })
+
+  if (res.status === 401 && retry) {
+    await openSession()
+    return requestAudio(path, body, false)
+  }
+  // Le message porte le code : `speech.ts` distingue le 501 — pas de clé
+  // sur ce déploiement, inutile de réessayer — d'une panne passagère.
+  if (!res.ok) throw new ApiError(res.status, `tts ${res.status}`)
+  return res.blob()
+}
+
 /** Ouvre (ou retrouve) la session anonyme de cet appareil. */
-export async function openSession(lang: 'fr' | 'en' = 'fr'): Promise<ApiUser> {
+export async function openSession(lang: 'fr' | 'en' = 'en'): Promise<ApiUser> {
   const res = await request<{ token: string; user: ApiUser }>(
     'POST',
     '/auth/anonymous',
@@ -217,7 +298,11 @@ export async function openSession(lang: 'fr' | 'en' = 'fr'): Promise<ApiUser> {
 }
 
 export const api = {
-  async start(lang: 'fr' | 'en' = 'fr'): Promise<ApiUser> {
+  /** Le texte lu à voix haute, en MP3. Voir `lib/speech.ts`. */
+  tts: (text: string, lang: 'fr' | 'en', rate = 1): Promise<Blob> =>
+    requestAudio('/tts', { text, lang, rate }),
+
+  async start(lang: 'fr' | 'en' = 'en'): Promise<ApiUser> {
     if (!token()) return openSession(lang)
     try {
       return await request<ApiUser>('GET', '/auth/me')
@@ -229,7 +314,7 @@ export const api = {
   signup: async (
     email: string,
     password: string,
-    lang: 'fr' | 'en' = 'fr',
+    lang: 'fr' | 'en' = 'en',
     displayName?: string,
   ) => {
     const res = await request<{ token: string; user: ApiUser }>('POST', '/auth/signup', {
@@ -260,12 +345,21 @@ export const api = {
    * device_id n'a pas besoin de tourner ici, le compte a lâché le sien
    * en se créant (voir POST /auth/signup côté API).
    */
-  logout: async (lang: 'fr' | 'en' = 'fr'): Promise<ApiUser> => {
+  logout: async (lang: 'fr' | 'en' = 'en'): Promise<ApiUser> => {
     localStorage.removeItem(TOKEN_KEY)
     return openSession(lang)
   },
 
-  feed: (n = 5) => request<ApiExercise[]>('GET', `/feed?n=${n}`),
+  /**
+   * Le flux. `code` le ferme sur une seule connaissance, même privée :
+   * c'est le partage par code, et rien d'autre n'est servi tant qu'il
+   * est là.
+   */
+  feed: (n = 5, code?: string | null) =>
+    request<ApiExercise[]>(
+      'GET',
+      `/feed?n=${n}${code ? `&code=${encodeURIComponent(code)}` : ''}`,
+    ),
 
   attempt: (exerciseId: number, chosenIndex: number | null, answerMs?: number) =>
     request<ApiAttempt>('POST', '/attempts', {
@@ -308,21 +402,36 @@ export const api = {
   createTheme: (payload: {
     title: string
     category_id: number
-    sub_category_id?: number | null
     description?: string | null
     source_markdown?: string | null
     tags?: string[]
     lang?: 'fr' | 'en'
   }) => request<ApiTheme>('POST', '/themes', payload),
 
-  generate: (themeId: number, types: string[], blooms: string[], count: number) =>
-    request<unknown>('POST', `/themes/${themeId}/generate`, { types, blooms, count }),
+  /**
+   * Le brouillon se crée au dépôt (étape 1), mais son classement se
+   * choisit à l'étape 2 : sans cet appel, la catégorie retenue par
+   * l'auteur ne quittait jamais le navigateur.
+   */
+  updateTheme: (
+    themeId: number,
+    patch: {
+      title?: string
+      category_id?: number
+      description?: string | null
+      tags?: string[]
+    },
+  ) => request<ApiTheme>('PATCH', `/themes/${themeId}`, patch),
 
   generationStatus: (themeId: number) =>
     request<{ running: boolean; requested: number; produced: number; validated: number }>(
       'GET',
       `/themes/${themeId}/generation`,
     ),
+
+  /** Retrouver une connaissance par son code — même privée. */
+  themeByCode: (code: string) =>
+    request<ApiTheme>('GET', `/themes/by-code/${encodeURIComponent(code)}`),
 
   themeExercises: (themeId: number, state?: string) =>
     request<ApiExercise[]>(
@@ -335,4 +444,45 @@ export const api = {
 
   publish: (themeId: number, isPublic: boolean) =>
     request<ApiTheme>('POST', `/themes/${themeId}/publish`, { public: isPublic }),
+
+  // ----- Connaissance : d'un sujet écrit, un programme ------------------
+
+  /**
+   * Un sujet entre, une connaissance en brouillon en sort.
+   *
+   * L'appel est long — le modèle écrit la présentation et le programme
+   * d'un trait. Tout est déjà en base au retour : le thème, ses
+   * chapitres et la catégorie, en brouillon. Une création interrompue se
+   * reprend par `knowledge(id)`.
+   */
+  outline: (subject: string, lang?: 'fr' | 'en') =>
+    request<ApiKnowledge>('POST', '/knowledge/outline', { subject, lang: lang ?? null }),
+
+  knowledge: (themeId: number) => request<ApiKnowledge>('GET', `/knowledge/${themeId}`),
+
+  /**
+   * Lance la rédaction d'un prompt par chapitre — un appel au modèle
+   * chacun, en tâches de fond. La réponse revient tout de suite ; c'est
+   * `knowledge(id)` qu'on interroge ensuite pour suivre.
+   *
+   * Sans `force`, seuls les chapitres sans prompt sont traités : relancer
+   * après un échec partiel ne réécrit pas ce que l'auteur a corrigé.
+   */
+  writePrompts: (themeId: number, force = false) =>
+    request<ApiKnowledge>('POST', `/knowledge/${themeId}/prompts?force=${force}`),
+
+  /** Les exercices, écrits depuis les prompts de chapitre retenus. */
+  generateFromChapters: (themeId: number, count: number) =>
+    request<unknown>('POST', `/knowledge/${themeId}/generate`, { count }),
+
+  patchChapter: (
+    id: number,
+    patch: {
+      status?: 'draft' | 'validated' | 'rejected'
+      title?: string
+      description?: string | null
+      type_question?: ApiChapter['type_question']
+      generated_prompt?: string
+    },
+  ) => request<ApiChapter>('PATCH', `/chapters/${id}`, patch),
 }

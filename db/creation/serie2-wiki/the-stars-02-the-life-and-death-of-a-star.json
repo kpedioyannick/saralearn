@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the cloud of gas and dust from which a star forms?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A nebula or molecular cloud",
+            "feedback": "Correct. Stars are born from collapsing clouds of gas and dust, often called nebulae or molecular clouds."
+          },
+          {
+            "label": "A protostar",
+            "feedback": "A protostar is the hot, condensed ball that forms after the cloud collapses, not the initial cloud itself."
+          },
+          {
+            "label": "A main-sequence star",
+            "feedback": "A main-sequence star is the stable, long-lived stage after the cloud has collapsed and fusion has begun, not the starting cloud."
+          },
+          {
+            "label": "A white dwarf",
+            "feedback": "A white dwarf is an end product of a low-mass star's life, far removed from the birth of a star."
+          }
+        ],
+        "ok_title": "Cloud name",
+        "ok_line": "Stars start from nebulae or molecular clouds.",
+        "ko_title": "Wrong cloud name",
+        "ko_line": "Remember, the birth cloud is the nebula.",
+        "exp_title": "Star birthplace",
+        "exp_text": "All stars form from collapsing clouds of gas and dust, often called nebulae or molecular clouds. These clouds break into fragments as they collapse, eventually forming stars."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the rotating ball of superhot gas that forms when a fragment of a collapsing cloud condenses?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A brown dwarf",
+            "feedback": "A brown dwarf is a ball that never gets hot enough for hydrogen fusion, not the early rotating ball that later becomes a star."
+          },
+          {
+            "label": "A protostar",
+            "feedback": "Correct. The condensing fragment becomes a rotating ball of superhot gas called a protostar."
+          },
+          {
+            "label": "A red giant",
+            "feedback": "A red giant is a late, swollen phase in a star's life, not an early birth stage."
+          },
+          {
+            "label": "A main-sequence star",
+            "feedback": "A main-sequence star is the stable stage after fusion begins, not the initial rotating ball."
+          }
+        ],
+        "ok_title": "Early star stage",
+        "ok_line": "The collapsing fragment becomes a protostar.",
+        "ko_title": "Wrong early stage",
+        "ko_line": "The hot rotating ball is a protostar.",
+        "exp_title": "Protostar definition",
+        "exp_text": "When a giant molecular cloud collapses, it fragments into pieces. Each fragment condenses into a rotating ball of superhot gas called a protostar, which continues to grow by accreting gas and dust."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What must a protostar's core reach for hydrogen fusion to begin, turning it into a main-sequence star?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A temperature of 100 million kelvin",
+            "feedback": "That temperature is needed for helium fusion, not the start of hydrogen fusion, which begins at 10 million kelvin."
+          },
+          {
+            "label": "A mass of at least one solar mass",
+            "feedback": "Mass determines evolution, but the onset of fusion depends on the core temperature reaching a specific value, not a fixed mass."
+          },
+          {
+            "label": "The presence of a protoplanetary disk",
+            "feedback": "A protoplanetary disk may form around the star but is not required for fusion to start."
+          },
+          {
+            "label": "A core temperature of 10 million kelvin",
+            "feedback": "Correct. At about 10 million kelvin, hydrogen fusion begins via the proton–proton chain, and the star becomes a main-sequence star."
+          }
+        ],
+        "ok_title": "Fusion onset",
+        "ok_line": "Hydrogen fusion starts at 10 million kelvin.",
+        "ko_title": "Wrong temperature",
+        "ko_line": "The threshold is 10 million, not 100 million kelvin.",
+        "exp_title": "Core temperature threshold",
+        "exp_text": "For a protostar to become a main-sequence star, its core temperature must reach about 10 million kelvin. This initiates the proton–proton chain reaction, allowing hydrogen to fuse into helium."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are protostars with a mass less than about 0.08 times the Sun's mass called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "White dwarfs",
+            "feedback": "White dwarfs are the dense remnants left after a low-mass star like the Sun has finished fusing, not failed star cores."
+          },
+          {
+            "label": "Red giants",
+            "feedback": "Red giants are large, cool stars that form from mid-sized stars later in their lives, not from low-mass protostars."
+          },
+          {
+            "label": "Brown dwarfs",
+            "feedback": "Correct. Protostars with masses below about 0.08 solar masses never reach the temperature for hydrogen fusion and are called brown dwarfs."
+          },
+          {
+            "label": "Sub-brown dwarfs",
+            "feedback": "Sub-brown dwarfs are even smaller objects, below 13 Jupiter masses, so the 0.08 solar mass threshold refers to brown dwarfs, not sub-brown dwarfs."
+          }
+        ],
+        "ok_title": "Failed stars",
+        "ok_line": "Below 0.08 solar masses, they are brown dwarfs.",
+        "ko_title": "Wrong object type",
+        "ko_line": "Low-mass protostars become brown dwarfs.",
+        "exp_title": "Brown dwarf definition",
+        "exp_text": "If a protostar has a mass less than roughly 0.08 times the Sun's mass, its core never heats up enough for hydrogen fusion. Such objects are called brown dwarfs; they shine dimly and cool down over time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a main-sequence star, where does the fusion of hydrogen into helium take place?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In a spherical shell outside the core",
+            "feedback": "That shell burning happens later, after the core has turned to helium, not during the main-sequence phase."
+          },
+          {
+            "label": "At the star's core",
+            "feedback": "Correct. During the main-sequence phase, hydrogen fusion occurs at the core of the star."
+          },
+          {
+            "label": "Throughout the entire star",
+            "feedback": "Fusion is concentrated in the core where pressures and temperatures are highest, not spread through the whole star."
+          },
+          {
+            "label": "In the star's outer atmosphere",
+            "feedback": "The outer atmosphere is far too cool for fusion; the energy comes from deep inside."
+          }
+        ],
+        "ok_title": "Main-sequence fusion",
+        "ok_line": "Hydrogen fuses at the star's core.",
+        "ko_title": "Wrong fusion site",
+        "ko_line": "Fusion happens in the core, not elsewhere.",
+        "exp_title": "Core fusion",
+        "exp_text": "A main-sequence star is balanced by nuclear fusion of hydrogen atoms at its core. This releases energy that maintains pressure against gravity, keeping the star stable for most of its life."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a star like the Sun after it exhausts the hydrogen in its core, before it becomes a red giant?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It begins fusing hydrogen in a spherical shell around the core",
+            "feedback": "Correct. The core contracts, and the star starts fusing hydrogen in a shell, gradually growing in size."
+          },
+          {
+            "label": "It immediately collapses into a white dwarf",
+            "feedback": "The collapse into a white dwarf happens only after all fuel is exhausted, far later, after the red giant phase."
+          },
+          {
+            "label": "It begins fusing helium at its core",
+            "feedback": "Helium fusion requires higher temperatures and happens later, not immediately after core hydrogen is exhausted."
+          },
+          {
+            "label": "It explodes as a supernova",
+            "feedback": "Supernovae occur only in stars with about ten or more times the Sun's mass, not in stars like the Sun."
+          }
+        ],
+        "ok_title": "After core hydrogen",
+        "ok_line": "Shell fusion begins, swelling the star.",
+        "ko_title": "Wrong next step",
+        "ko_line": "The star starts shell fusion, not a collapse.",
+        "exp_title": "Subgiant phase",
+        "exp_text": "When a star like the Sun runs out of hydrogen in its core, it begins fusing hydrogen in a shell that surrounds the core. This makes the star gradually grow in size, leading to a subgiant and eventually a red giant."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these stars can also begin fusing helium at its core?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A star with less than half the Sun's mass",
+            "feedback": "Stars below half a solar mass never get hot enough for helium fusion; they eventually become white dwarfs without it."
+          },
+          {
+            "label": "A brown dwarf",
+            "feedback": "Brown dwarfs never ignite hydrogen, let alone helium fusion; they just cool down."
+          },
+          {
+            "label": "A red dwarf of 0.1 solar masses",
+            "feedback": "Such small red dwarfs never become giants or fuse helium; they slowly turn into white dwarfs."
+          },
+          {
+            "label": "A star with at least half the Sun's mass",
+            "feedback": "Correct. Stars with at least half the Sun's mass can fuse helium at their cores."
+          }
+        ],
+        "ok_title": "Helium fusion stars",
+        "ok_line": "Stars with half the Sun's mass can fuse helium.",
+        "ko_title": "Wrong helium-capable star",
+        "ko_line": "Only stars above half the Sun's mass can fuse helium.",
+        "exp_title": "Helium fusion capability",
+        "exp_text": "Stars with at least half the mass of the Sun can reach temperatures high enough to fuse helium in their cores. Smaller stars never achieve this and skip helium fusion entirely."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a star like the Sun leave behind after it has exhausted its nuclear fuel?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A neutron star",
+            "feedback": "Neutron stars form from the collapse of very massive stars after a supernova, not from sun-like stars."
+          },
+          {
+            "label": "A black hole",
+            "feedback": "Black holes also result from the collapse of the most massive stars, not from sun-like stars."
+          },
+          {
+            "label": "A white dwarf",
+            "feedback": "Correct. A star like the Sun ends as a dense white dwarf after its core collapses and outer layers are expelled."
+          },
+          {
+            "label": "A red giant",
+            "feedback": "The red giant is a phase before the end; the final remnant is a white dwarf."
+          }
+        ],
+        "ok_title": "Sun-like end state",
+        "ok_line": "The Sun-like star leaves a white dwarf.",
+        "ko_title": "Wrong remnant",
+        "ko_line": "Sun-like stars become white dwarfs, not neutron stars.",
+        "exp_title": "White dwarf remnant",
+        "exp_text": "For a star like the Sun, once all nuclear fuel is gone, the core collapses into a dense white dwarf. The outer layers are thrown off as a planetary nebula."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a star in its earliest stage, formed from a collapsing fragment of a giant molecular cloud?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Red giant",
+            "feedback": "A red giant is a much later stage, when a star swells up after exhausting its core hydrogen. The earliest stage, right after the cloud fragment condenses, is called a protostar."
+          },
+          {
+            "label": "Protostar",
+            "feedback": "Correct. As a fragment of a giant molecular cloud collapses, it condenses into a rotating ball of superhot gas called a protostar."
+          },
+          {
+            "label": "White dwarf",
+            "feedback": "A white dwarf is the dense remnant left behind after a star like the Sun has exhausted its fuel, not the initial stage. The initial stage is a protostar."
+          },
+          {
+            "label": "Main-sequence star",
+            "feedback": "A main-sequence star is the stable phase that comes after the protostar settles into equilibrium, not the earliest stage itself."
+          }
+        ],
+        "ok_title": "Protostar named",
+        "ok_line": "The earliest stage is the protostar.",
+        "ko_title": "Wrong stage",
+        "ko_line": "That name belongs to a later or final phase.",
+        "exp_title": "Star's first stage",
+        "exp_text": "A star begins as a protostar, which forms when a fragment of a giant molecular cloud collapses and condenses into a rotating ball of superhot gas."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the clouds of gas and dust from which all stars are formed called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Planetary nebulae",
+            "feedback": "Planetary nebulae are expelled outer layers of a star like the Sun at the end of its life, not the birth clouds. Birth clouds are nebulae or molecular clouds."
+          },
+          {
+            "label": "White dwarfs",
+            "feedback": "White dwarfs are dense remnants of dead stars, not clouds. The birth clouds are nebulae or molecular clouds."
+          },
+          {
+            "label": "Nebulae or molecular clouds",
+            "feedback": "Correct. All stars are formed from collapsing clouds of gas and dust, often called nebulae or molecular clouds."
+          },
+          {
+            "label": "Supernovae",
+            "feedback": "A supernova is an explosion of a very massive star at the end of its life, not a birth cloud. Birth clouds are nebulae or molecular clouds."
+          }
+        ],
+        "ok_title": "Birth clouds named",
+        "ok_line": "Stars form from nebulae.",
+        "ko_title": "Not the birth cloud",
+        "ko_line": "That term describes a later or different object.",
+        "exp_title": "Star-forming clouds",
+        "exp_text": "Stars form from collapsing clouds of gas and dust, which are called nebulae or molecular clouds."
+      }
+    ]
+  }
+]

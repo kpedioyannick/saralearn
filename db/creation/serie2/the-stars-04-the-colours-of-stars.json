@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What property of a star directly determines the colour it appears to us?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Its surface temperature",
+            "feedback": "Correct. The hotter a star's surface is, the bluer its light; the cooler it is, the redder it appears."
+          },
+          {
+            "label": "Its distance from Earth",
+            "feedback": "Distance affects how bright a star appears, not what colour it is. A distant blue star still looks blue."
+          },
+          {
+            "label": "Its age",
+            "feedback": "Age can change a star's colour as it evolves, but at any given moment, temperature is what sets the colour."
+          },
+          {
+            "label": "Its size",
+            "feedback": "Size alone does not set colour; a large star can be red or blue depending on its surface temperature."
+          }
+        ],
+        "ok_title": "Right!",
+        "ok_line": "Temperature is the root of a star's colour.",
+        "ko_title": "Not quite",
+        "ko_line": "Distance, age, or size do not set the colour directly.",
+        "exp_title": "Colour from heat",
+        "exp_text": "A star's colour is set by its surface temperature. Hotter surfaces emit more blue and violet light, cooler surfaces emit more red and orange. This is why blue stars are hotter than red stars."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour corresponds to the hottest stars we observe?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red is the colour of the coolest stars, not the hottest. A red star is still hot, but far less so than a blue one."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow is typical of moderate-temperature stars like the Sun, not the very hottest ones."
+          },
+          {
+            "label": "Blue-white",
+            "feedback": "Correct. The hottest stars shine blue-white because their high temperature pushes most of their light into the blue and ultraviolet range."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green is not a colour associated with any star's dominant glow; stars that appear greenish are an illusion from Earth's atmosphere, not a real class."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Blue-white marks the hottest stars.",
+        "ko_title": "Not that",
+        "ko_line": "Red is coolest, yellow is moderate, green is not a real star colour.",
+        "exp_title": "Hottest glow",
+        "exp_text": "The hottest known stars have surface temperatures around 40,000 K or more. Their light peaks in the blue and ultraviolet, so they appear blue-white to our eyes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do the coolest stars still appear reddish rather than completely dark?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because they are not actually cool, just less hot than others",
+            "feedback": "Correct in spirit: even 'cool' stars are thousands of degrees, so they still glow red, just not as brightly or as blue."
+          },
+          {
+            "label": "Because they emit no light at all",
+            "feedback": "They do emit light, just mostly in red and infrared. A cool star is still a glowing object, not a dark one."
+          },
+          {
+            "label": "Because they reflect light from nearby hotter stars",
+            "feedback": "Stars generate their own light by fusion; they do not shine by reflecting others, though they may be in a pair."
+          },
+          {
+            "label": "Because they are made of glowing red minerals",
+            "feedback": "Stars are made of plasma, mainly hydrogen and helium, not minerals. Their glow comes from heat, not from minerals."
+          }
+        ],
+        "ok_title": "Yes",
+        "ok_line": "Even cool stars are still hot enough to glow red.",
+        "ko_title": "Not that",
+        "ko_line": "Cool stars do shine, and they do so by their own heat.",
+        "exp_title": "Red glow of cool stars",
+        "exp_text": "The coolest stars still have surface temperatures around 2,500 K, which is hot enough to emit visible light, but the peak falls in the red and infrared, so they look deep red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which star colour indicates a surface temperature roughly between the hottest and the coolest stars?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Blue",
+            "feedback": "Blue is the hottest colour, not intermediate. It indicates temperatures much higher than the Sun's."
+          },
+          {
+            "label": "Red",
+            "feedback": "Red is the coolest colour, not intermediate. It marks the lowest surface temperatures among stars."
+          },
+          {
+            "label": "Orange-red",
+            "feedback": "Orange-red is still on the cool side, though slightly warmer than pure red. It is not the middle of the range."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Correct. Yellow stars like the Sun have surface temperatures around 5,500 K, which sits between the hottest blue stars and the coolest red ones."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Yellow marks a middle temperature.",
+        "ko_title": "Not that",
+        "ko_line": "Blue is hotter, red is cooler, orange-red is still cool.",
+        "exp_title": "Middle range",
+        "exp_text": "A yellow star's surface is hot enough to emit a broad spectrum that our eyes combine as yellow-white. It is cooler than blue stars but warmer than red ones."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a star's colour as it swells into a much larger, older star?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It tends to become redder",
+            "feedback": "Correct. As a star expands and its surface cools, its peak light shifts toward red, which is why many old giant stars are red."
+          },
+          {
+            "label": "It tends to become bluer",
+            "feedback": "Bluer would mean the surface got hotter, but expansion usually cools the surface, not heats it."
+          },
+          {
+            "label": "It stays exactly the same",
+            "feedback": "A star's surface temperature changes as it evolves, so its colour changes too, not stays fixed."
+          },
+          {
+            "label": "It becomes green",
+            "feedback": "Green is not a real star colour; expanding stars shift toward red, not green."
+          }
+        ],
+        "ok_title": "Yes",
+        "ok_line": "Old swollen stars turn redder.",
+        "ko_title": "Not that",
+        "ko_line": "Expansion cools the surface, shifting colour to red.",
+        "exp_title": "Ageing colour shift",
+        "exp_text": "When a star runs low on core hydrogen, it expands into a red giant. The larger surface spreads the same energy over more area, so the surface cools and the glow shifts to red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do most stars look plain white or silvery to the naked eye at night, even though they have their own colour?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because they are all actually white",
+            "feedback": "Stars do have real colours, but our eyes are not sensitive enough to see them in most stars' faint light."
+          },
+          {
+            "label": "Because the atmosphere removes their colour",
+            "feedback": "The atmosphere can distort light, but it does not wash out colour for most stars; it is our eye's sensitivity that is the issue."
+          },
+          {
+            "label": "Because their light is too faint for our colour vision to detect",
+            "feedback": "Correct. At low light levels, our colour-sensing cells are not active, so we see grey or white regardless of true colour."
+          },
+          {
+            "label": "Because they emit only white light",
+            "feedback": "Stars emit a full spectrum, but the peak differs; they are not purely white. The white appearance is an illusion of low light."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ok_line": "Faint light disables our colour vision.",
+        "ko_title": "No",
+        "ko_line": "Stars have colours, but our eyes can't pick them up in faint light.",
+        "exp_title": "Low-light vision",
+        "exp_text": "Human colour vision relies on cones that need bright light. In dim conditions, rods take over, and they see only light and dark, so faint stars appear white or grey regardless of hue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the visible colour of a star with a surface temperature of about 3,000 K?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Blue-white",
+            "feedback": "Blue-white requires much higher temperatures, around 10,000 K or more. 3,000 K is far cooler."
+          },
+          {
+            "label": "Red-orange",
+            "feedback": "Correct. Around 3,000 K, the peak of emission is in the red and near-infrared, so the star appears reddish-orange."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow is typical of about 5,500 K, not 3,000 K. 3,000 K is cooler and redder."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green is not a real dominant star colour at any temperature; 3,000 K gives red, not green."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "3,000 K gives a red-orange glow.",
+        "ko_title": "Not that",
+        "ko_line": "3,000 K is cool, so it's red, not blue, yellow, or green.",
+        "exp_title": "Cool star colour",
+        "exp_text": "A star at 3,000 K emits most of its visible light in the red part of the spectrum, with some orange, so it looks red-orange to the eye."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a heated piece of metal change colour as it gets hotter, in the same way a star does?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because metal and stars are made of the same material",
+            "feedback": "Metal is solid and mostly iron or other elements, while stars are plasma. The rule is about temperature, not material."
+          },
+          {
+            "label": "Because metal absorbs starlight",
+            "feedback": "Metal's glow comes from its own heat, not from absorbing starlight. The colour is from thermal emission."
+          },
+          {
+            "label": "Because the metal's chemical composition changes",
+            "feedback": "Heating metal does not change its composition; it changes how much thermal energy it radiates, which sets the colour."
+          },
+          {
+            "label": "Because any hot object glows with a colour that depends on its temperature",
+            "feedback": "Correct. The same law of thermal radiation applies to metal and stars: hotter objects glow bluer, cooler ones redder."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Hot objects follow the same colour rule.",
+        "ko_title": "Not that",
+        "ko_line": "It's about temperature, not material or composition.",
+        "exp_title": "Thermal radiation rule",
+        "exp_text": "All hot objects, from a stove coil to a star, emit light because of their temperature. The hotter the object, the shorter the wavelength of the peak emission, shifting from red to blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why might two stars born together as a close pair show clearly different colours?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because they have different masses",
+            "feedback": "Correct. Mass sets the internal pressure and fusion rate, so a more massive star is hotter and bluer, while a less massive one is cooler and redder."
+          },
+          {
+            "label": "Because they are at different distances from Earth",
+            "feedback": "Distance affects brightness, not colour. Both stars are in the same pair, so distance to Earth is nearly equal."
+          },
+          {
+            "label": "Because one is older than the other",
+            "feedback": "Stars in a pair form at the same time, so they have the same age. Colour difference comes from mass, not age."
+          },
+          {
+            "label": "Because one reflects light from the other",
+            "feedback": "Stars do not shine by reflection; they each produce their own light from fusion."
+          }
+        ],
+        "ok_title": "Yes",
+        "ok_line": "Mass sets a star's temperature and colour.",
+        "ko_title": "No",
+        "ko_line": "Distance, age, or reflection don't explain the colour difference.",
+        "exp_title": "Mass and colour",
+        "exp_text": "In a binary pair formed together, both stars have the same age, but their masses differ. More mass means stronger gravity, higher core pressure, faster fusion, and a hotter, bluer surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do astronomers use as the standard classification system for stars, based on their colour and temperature?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The magnitude scale",
+            "feedback": "The magnitude scale measures brightness, not colour or temperature. Classification of colour uses letters like O, B, A."
+          },
+          {
+            "label": "The distance scale",
+            "feedback": "Distance is measured in parsecs or light-years; it does not classify stars by colour."
+          },
+          {
+            "label": "The age scale",
+            "feedback": "Age is not used as a classification system for star colour; stars of different ages can have the same colour."
+          },
+          {
+            "label": "The spectral class letters (O, B, A, F, G, K, M)",
+            "feedback": "Correct. This sequence runs from hottest (O, blue) to coolest (M, red) and is the standard way to name a star's temperature and colour."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ok_line": "Spectral classes name a star's temperature.",
+        "ko_title": "Not that",
+        "ko_line": "Magnitude, distance, or age don't classify by colour.",
+        "exp_title": "Spectral classes",
+        "exp_text": "Astronomers sort stars into spectral classes O, B, A, F, G, K, M, from hottest to coolest. Each class has a characteristic colour, from blue-white O stars to red M stars."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 241,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What group of mammals includes whales, dolphins, and porpoises?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cetaceans",
+            "feedback": "Correct. Cetaceans are the group of marine mammals that includes whales, dolphins, and porpoises, and they live entirely in water."
+          },
+          {
+            "label": "Pinnipeds",
+            "feedback": "Pinnipeds include seals, sea lions, and walruses, not whales or dolphins. Those belong to cetaceans."
+          },
+          {
+            "label": "Sirenians",
+            "feedback": "Sirenians are manatees and dugongs, which are sea cows, not whales or dolphins. Cetaceans are the right group."
+          },
+          {
+            "label": "Mustelids",
+            "feedback": "Mustelids include otters and weasels, not whales or dolphins. Cetaceans are the marine group you are looking for."
+          }
+        ],
+        "ok_title": "Cetaceans identified",
+        "ok_line": "Whales, dolphins, and porpoises are cetaceans.",
+        "ko_title": "Groups mixed up",
+        "ko_line": "Cetaceans, not the other groups, include whales and dolphins.",
+        "exp_title": "Cetacean group",
+        "exp_text": "Cetaceans are the marine mammals that include whales, dolphins, and porpoises. They are fully aquatic, meaning they spend their entire lives in water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which marine mammals are fully aquatic, spending their whole lives in water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Polar bears",
+            "feedback": "Polar bears are mostly terrestrial and only enter water when necessary, so they are not fully aquatic. Cetaceans and sirenians are the fully aquatic ones."
+          },
+          {
+            "label": "Sea otters",
+            "feedback": "Sea otters live in kelp forests and estuaries, but they are not fully aquatic; they come ashore. Fully aquatic means living entirely in water, like cetaceans and sirenians."
+          },
+          {
+            "label": "Cetaceans and sirenians",
+            "feedback": "Correct. Cetaceans (whales, dolphins) and sirenians (manatees, dugongs) are obligate water dwellers, meaning they never leave the water."
+          },
+          {
+            "label": "Pinnipeds",
+            "feedback": "Pinnipeds are semiaquatic; they spend most time in water but must return to land for breeding and molting. Fully aquatic refers to cetaceans and sirenians."
+          }
+        ],
+        "ok_title": "Fully aquatic types",
+        "ok_line": "Cetaceans and sirenians never leave the water.",
+        "ko_title": "Aquatic levels confused",
+        "ko_line": "Pinnipeds and otters are not fully aquatic.",
+        "exp_title": "Obligate water dwellers",
+        "exp_text": "Cetaceans and sirenians are fully aquatic, so they are obligate water dwellers. Pinnipeds are semiaquatic, and polar bears are mostly terrestrial."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do pinnipeds need to return to land for?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Feeding",
+            "feedback": "Pinnipeds feed in the water, not on land. They return to land for mating, breeding, and molting."
+          },
+          {
+            "label": "Mating, breeding, and molting",
+            "feedback": "Correct. Pinnipeds are semiaquatic and come onto land or ice to mate, breed, and molt."
+          },
+          {
+            "label": "Sleeping",
+            "feedback": "Pinnipeds can sleep in water; they go to land for reproduction and molting, not for sleep."
+          },
+          {
+            "label": "Avoiding predators",
+            "feedback": "Pinnipeds return to land for mating and molting, not primarily to avoid predators. Their land visits are for reproduction and shedding fur."
+          }
+        ],
+        "ok_title": "Land needs",
+        "ok_line": "Pinnipeds need land for mating and molting.",
+        "ko_title": "Purpose of land visits",
+        "ko_line": "It is for reproduction and molting, not feeding.",
+        "exp_title": "Semiaquatic land use",
+        "exp_text": "Pinnipeds, like seals and sea lions, spend most time in water but must haul out on land or ice to mate, breed, and molt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a sirenian?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Walrus",
+            "feedback": "A walrus is a pinniped, not a sirenian. Sirenians are manatees and dugongs."
+          },
+          {
+            "label": "Sea lion",
+            "feedback": "Sea lions are pinnipeds. Sirenians are the sea cows, which include manatees and dugongs."
+          },
+          {
+            "label": "Polar bear",
+            "feedback": "Polar bears are carnivorans, not sirenians. Sirenians are manatees and dugongs."
+          },
+          {
+            "label": "Manatee",
+            "feedback": "Correct. Manatees belong to the order Sirenia, also known as sea cows."
+          }
+        ],
+        "ok_title": "Sirenian example",
+        "ok_line": "Manatees are sirenians.",
+        "ko_title": "Sirenian mix-up",
+        "ko_line": "Walruses and sea lions are pinnipeds, not sirenians.",
+        "exp_title": "Sea cows",
+        "exp_text": "Sirenians include manatees and dugongs. Walruses, sea lions, and polar bears belong to other groups."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a polar bear's dependence on the marine environment compare to a dolphin's?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Polar bears are less dependent, spending mostly time on land",
+            "feedback": "Correct. Polar bears are mostly terrestrial and only enter water when necessary, unlike dolphins which are fully aquatic."
+          },
+          {
+            "label": "Polar bears are equally dependent on water",
+            "feedback": "Polar bears are not as dependent; they live mostly on land. Dolphins need water for all life stages."
+          },
+          {
+            "label": "Polar bears need water for breeding",
+            "feedback": "Polar bears breed on land, not in water. Their dependence is less than that of dolphins."
+          },
+          {
+            "label": "Polar bears are fully aquatic like dolphins",
+            "feedback": "Polar bears are not fully aquatic; they are mostly terrestrial. Only cetaceans and sirenians are fully aquatic."
+          }
+        ],
+        "ok_title": "Polar bear dependence",
+        "ok_line": "Polar bears are least aquatic among these.",
+        "ko_title": "Marine dependence levels",
+        "ko_line": "Polar bears use land much more than dolphins.",
+        "exp_title": "Varied marine reliance",
+        "exp_text": "Marine mammals differ in how much they depend on the ocean. Polar bears are mostly terrestrial, going into water only when necessary, while dolphins are fully aquatic."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What role do marine mammals play in their ecosystems?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They have little effect",
+            "feedback": "Marine mammals have large roles despite their small numbers, especially in maintaining marine ecosystems by regulating prey populations."
+          },
+          {
+            "label": "They help maintain marine ecosystems by regulating prey populations",
+            "feedback": "Correct. Marine mammals regulate prey populations, which helps maintain the health of marine ecosystems."
+          },
+          {
+            "label": "They only provide food for predators",
+            "feedback": "While they can be prey, their main role is regulating prey populations, which supports ecosystem balance."
+          },
+          {
+            "label": "They clean the ocean of pollution",
+            "feedback": "Marine mammals do not clean pollution; their role is in ecosystem maintenance through predation and other interactions."
+          }
+        ],
+        "ok_title": "Ecosystem role",
+        "ok_line": "Marine mammals regulate prey numbers.",
+        "ko_title": "Ecological importance",
+        "ko_line": "They have a big role despite few species.",
+        "exp_title": "Ecosystem maintenance",
+        "exp_text": "Marine mammals, though few in number, are important for maintaining marine ecosystems by regulating the populations of their prey."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group is known as 'eared seals'?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Phocids",
+            "feedback": "Phocids are earless seals, not eared seals. Otariids are the eared seals."
+          },
+          {
+            "label": "Odobenids",
+            "feedback": "Odobenids are walruses, not seals. Otariids are eared seals."
+          },
+          {
+            "label": "Mustelids",
+            "feedback": "Mustelids are otters and weasels, not seals. Otariids are the eared seals."
+          },
+          {
+            "label": "Otariids",
+            "feedback": "Correct. Otariids are the family of eared seals, which includes sea lions and fur seals."
+          }
+        ],
+        "ok_title": "Eared seals",
+        "ok_line": "Otariids are the eared seals.",
+        "ko_title": "Seal families",
+        "ko_line": "Eared seals are otariids, not phocids.",
+        "exp_title": "Otariid family",
+        "exp_text": "Otariids are the eared seals, such as sea lions and fur seals. Phocids are earless seals, and odobenids are walruses."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the closest living land relative of whales and dolphins?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Hippopotamuses",
+            "feedback": "Correct. Cetaceans are closely related to hippopotamuses, based on genetic and morphological studies."
+          },
+          {
+            "label": "Cows",
+            "feedback": "Cows are also even-toed ungulates, but hippos are the closest living relatives of whales, not cows."
+          },
+          {
+            "label": "Horses",
+            "feedback": "Horses are odd-toed ungulates, not closely related to whales. Hippos are the closest."
+          },
+          {
+            "label": "Elephants",
+            "feedback": "Elephants are not closely related to whales; hippos are the closest land relatives."
+          }
+        ],
+        "ok_title": "Whale relatives",
+        "ok_line": "Hippos are whales' closest kin.",
+        "ko_title": "Land relatives",
+        "ko_line": "Not cows or horses, but hippos.",
+        "exp_title": "Cetacean ancestry",
+        "exp_text": "Molecular and morphological research shows that cetaceans are nested within even-toed ungulates, and their closest living land relative is the hippopotamus."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do sea otters differ from pinnipeds in terms of birth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Sea otters give birth on land",
+            "feedback": "Sea otters give birth in water, unlike pinnipeds which must haul out on land or ice to give birth."
+          },
+          {
+            "label": "Sea otters are more adapted to water for birth than pinnipeds",
+            "feedback": "Correct. Sea otters give birth in water, showing they are more fully adapted to aquatic life than pinnipeds, which need land for birth."
+          },
+          {
+            "label": "Sea otters give birth on ice",
+            "feedback": "Sea otters do not need ice for birth; they are more aquatic than pinnipeds and give birth in water."
+          },
+          {
+            "label": "Sea otters give birth in kelp forests on land",
+            "feedback": "Kelp forests are underwater, and sea otters give birth there, but pinnipeds need land. Sea otters are more aquatic for birth."
+          }
+        ],
+        "ok_title": "Birth in water",
+        "ok_line": "Sea otters give birth in water.",
+        "ko_title": "Birth adaptations",
+        "ko_line": "Pinnipeds need land, sea otters do not.",
+        "exp_title": "Aquatic birth",
+        "exp_text": "Sea otters are more adapted to water than pinnipeds in some ways, as they give birth in water, while pinnipeds must come ashore to give birth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'marine mammal' refer to?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mammals that rely on marine ecosystems for their existence",
+            "feedback": "That's correct. Marine mammals are mammals that depend on marine environments for feeding and survival."
+          },
+          {
+            "label": "Mammals that live only in freshwater",
+            "feedback": "Freshwater is not the same as marine. Marine mammals rely on oceans or seas, though some, like river dolphins, live in rivers that connect to the sea."
+          },
+          {
+            "label": "Mammals that live only on land",
+            "feedback": "Land mammals do not rely on marine environments. Marine mammals depend on the ocean for their existence."
+          },
+          {
+            "label": "Mammals that can fly over the ocean",
+            "feedback": "Flying mammals like bats are not typically called marine mammals, even if some bats hunt over water. The term refers to mammals that depend on marine ecosystems."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "Marine mammals depend on the sea to live and feed.",
+        "ko_title": "Not that",
+        "ko_line": "Marine mammals are tied to oceans, not to land or freshwater.",
+        "exp_title": "Marine mammal dependency",
+        "exp_text": "Marine mammals are an informal group of mammals whose survival depends entirely or almost entirely on the oceans. They include cetaceans, pinnipeds, sirenians, sea otters, and polar bears, and they feed in marine environments."
+      }
+    ]
+  }
+]

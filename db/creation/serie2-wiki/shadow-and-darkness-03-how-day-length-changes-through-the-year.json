@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the daytime period of the day?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The time when the Sun is above the local horizon",
+            "feedback": "Correct. Daytime is defined as the period when the Sun is above the local horizon at a given place."
+          },
+          {
+            "label": "The time when the Sun is directly overhead",
+            "feedback": "The Sun is directly overhead only in the tropics, not everywhere. Daytime is simply when the Sun is above the horizon."
+          },
+          {
+            "label": "The time when the sky is fully bright with no stars",
+            "feedback": "That is more about twilight and full daylight. Daytime is defined by the Sun's position above the horizon, not by how bright the sky looks."
+          },
+          {
+            "label": "The time between sunrise and solar noon",
+            "feedback": "Solar noon is only the middle of the day. Daytime lasts from sunrise to sunset, not just the first half."
+          }
+        ],
+        "ok_title": "Daytime defined",
+        "ok_line": "Daytime is when the Sun is above the local horizon.",
+        "ko_title": "Daytime mix-up",
+        "ko_line": "Check what defines daytime, not how bright it is.",
+        "exp_title": "What daytime is",
+        "exp_text": "Daytime is the period of the day when the Sun is above the local horizon. It is sometimes just called 'day' and covers the time from sunrise to sunset at any given location."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How much of the Earth is facing the Sun at any given time?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "About one quarter",
+            "feedback": "No, that is too little. The Earth is a sphere, and the Sun can light only one half of it at a time."
+          },
+          {
+            "label": "About half",
+            "feedback": "Correct. At any moment, roughly half of the Earth is turned toward the Sun and experiences daytime."
+          },
+          {
+            "label": "About three quarters",
+            "feedback": "No, that would mean more than half is lit, which is not possible for a sphere facing a single light source."
+          },
+          {
+            "label": "The entire surface",
+            "feedback": "No, the Earth is a sphere, so only one side can face the Sun at a time. The other side is in night."
+          }
+        ],
+        "ok_title": "Half lit at once",
+        "ok_line": "About half the Earth faces the Sun right now.",
+        "ko_title": "Half the Earth",
+        "ko_line": "Only one side of the Earth can be lit at once.",
+        "exp_title": "Earth's lit half",
+        "exp_text": "Because the Earth is a sphere, only about half of it is facing the Sun at any instant. This half experiences daytime while the other half is in night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the length of daytime change during the year?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the Earth spins faster in summer",
+            "feedback": "No, the Earth's rotation speed does not change with the seasons. The length of daytime changes because of the tilted axis and the orbit."
+          },
+          {
+            "label": "Because the Sun gets nearer to the Earth in summer",
+            "feedback": "The Sun's distance does not cause the day-length change. It is the tilt of the Earth's axis and its orbit that matter."
+          },
+          {
+            "label": "Because the Earth's axis topples over during the year",
+            "feedback": "The axis does not topple; it stays pointed in nearly the same direction relative to the stars. It is the Earth moving around the Sun that changes the Sun's position in the sky."
+          },
+          {
+            "label": "Because the Earth's axis is tilted and the Earth moves around the Sun",
+            "feedback": "Correct. The axis is tilted about 23.44° from the perpendicular to the orbit, and as the Earth goes around the Sun, different parts get more or less daylight."
+          }
+        ],
+        "ok_title": "Tilt and orbit",
+        "ok_line": "Day length changes because the tilted axis moves relative to the Sun.",
+        "ko_title": "Seasonal change",
+        "ko_line": "Day length changes from the tilt, not from speed or distance.",
+        "exp_title": "Why daytime varies",
+        "exp_text": "The Earth's rotation axis is tilted 23.44° away from the perpendicular to its orbital plane. Because the axis keeps its direction while the Earth orbits the Sun, the Sun's height and the length of daytime change with the seasons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At the Equator, how long is the daytime period in all seasons?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "About 9 hours",
+            "feedback": "No, that is too short for the Equator. The Equator gets about 12 hours of daylight every day of the year."
+          },
+          {
+            "label": "About 15 hours",
+            "feedback": "No, that is longer than any day at the Equator. There, daytime stays close to 12 hours."
+          },
+          {
+            "label": "About 12 hours",
+            "feedback": "Correct. At the Equator, the daytime period always lasts about 12 hours, regardless of the season."
+          },
+          {
+            "label": "About 18 hours",
+            "feedback": "No, such long days happen only near the poles in summer, not at the Equator."
+          }
+        ],
+        "ok_title": "Equator's constant day",
+        "ok_line": "The Equator has about 12 hours of daylight every day.",
+        "ko_title": "Equator day length",
+        "ko_line": "The Equator's day length does not vary with seasons.",
+        "exp_title": null,
+        "exp_text": "At the Equator, the Sun rises and sets roughly vertically, and the daytime period lasts about 12 hours all year. This is true no matter the season."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to daytime length in the winter at latitudes away from the Equator?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Daytime becomes shorter than 12 hours",
+            "feedback": "Correct. In winter, the days are shorter than 12 hours at all latitudes except the Equator."
+          },
+          {
+            "label": "Daytime becomes longer than 12 hours",
+            "feedback": "That is what happens in summer, not winter. In winter, the days are shorter."
+          },
+          {
+            "label": "Daytime stays exactly 12 hours",
+            "feedback": "Only the Equator has 12 hours all year. Other latitudes see variation with seasons."
+          },
+          {
+            "label": "Daytime becomes 24 hours",
+            "feedback": "A 24-hour day happens only near the poles in summer, not in winter at most places."
+          }
+        ],
+        "ok_title": "Winter days short",
+        "ok_line": "Winter brings shorter than 12-hour days away from the Equator.",
+        "ko_title": "Winter daytime",
+        "ko_line": "Winter days are short, not long or unchanged.",
+        "exp_title": null,
+        "exp_text": "At latitudes other than the Equator, the length of daytime changes with the seasons. During winter, daytime lasts shorter than 12 hours because that part of the Earth is tilted away from the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the midnight sun?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A sun that shines at midnight only at the Equator",
+            "feedback": "No, the Equator never has a midnight sun. It happens near the poles during their summer."
+          },
+          {
+            "label": "A period of 24 hours of daylight in summer near the poles",
+            "feedback": "Correct. Within about 23.44° of the poles, there are days in summer when the Sun never goes below the horizon, giving 24 hours of daylight."
+          },
+          {
+            "label": "A night when the sky is lit by the Moon as bright as the Sun",
+            "feedback": "No, the midnight sun is actual sunlight, not moonlight. It is the Sun staying above the horizon all day."
+          },
+          {
+            "label": "A long twilight that lasts all night in the tropics",
+            "feedback": "No, the tropics never see the midnight sun. It is a polar phenomenon."
+          }
+        ],
+        "ok_title": "Midnight sun defined",
+        "ok_line": "The midnight sun is 24 hours of daylight in polar summer.",
+        "ko_title": "Midnight sun",
+        "ko_line": "The midnight sun is real sunlight lasting all day near the poles.",
+        "exp_title": null,
+        "exp_text": "The midnight sun is the phenomenon where the Sun never sets for days or months at a time. It occurs within about 23.44° of the poles during their summer, when the Sun stays above the horizon for 24 hours."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What marks the boundary where the midnight sun can occur in the north?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Equator",
+            "feedback": "No, the Equator is far from the midnight sun. It is the line where day length stays 12 hours."
+          },
+          {
+            "label": "The Tropic of Cancer",
+            "feedback": "No, the Tropic of Cancer is at 23.44° north, not near the pole. It marks where the Sun can be overhead, not where the midnight sun happens."
+          },
+          {
+            "label": "The Arctic Circle",
+            "feedback": "Correct. The Arctic Circle at 66.56° north marks the boundary north of which the midnight sun can occur."
+          },
+          {
+            "label": "The Tropic of Capricorn",
+            "feedback": "No, the Tropic of Capricorn is in the southern hemisphere, not near the North Pole."
+          }
+        ],
+        "ok_title": "Arctic Circle boundary",
+        "ok_line": "The Arctic Circle marks the start of the midnight sun region in the north.",
+        "ko_title": "Polar boundary",
+        "ko_line": "The midnight sun starts at the Arctic Circle, not at the tropics.",
+        "exp_title": null,
+        "exp_text": "The Arctic Circle is the line at 66.56° north latitude. North of it, there are days in summer when the Sun never goes below the horizon, producing the midnight sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why are the polar regions cold even in summer, despite long daylight?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they are far from the Sun",
+            "feedback": "No, the distance to the Sun is not the reason. The poles are cold because the Sun stays low in the sky."
+          },
+          {
+            "label": "Because they receive no sunlight at all in summer",
+            "feedback": "They do receive sunlight — the midnight sun gives them 24 hours of daylight. Still, the Sun is low, so they stay cold."
+          },
+          {
+            "label": "Because the day is too short in summer",
+            "feedback": "No, in summer the day is 24 hours long at the poles, but the Sun's low angle means little heat reaches the ground."
+          },
+          {
+            "label": "Because the Sun never rises high above the horizon",
+            "feedback": "Correct. Even at the summer solstice, the Sun is only about 23.44° above the horizon at the poles, so its rays strike at a low angle and give little warmth."
+          }
+        ],
+        "ok_title": "Low polar sun",
+        "ok_line": "The poles stay cold because the Sun stays low in the sky.",
+        "ko_title": "Polar cold",
+        "ko_line": "Long days do not make the poles warm because the Sun is low.",
+        "exp_title": null,
+        "exp_text": "At the poles, the Sun never rises high above the horizon, even in summer. Because sunlight arrives at a low angle, it spreads over a large area and heats weakly, keeping the poles cold despite 24-hour daylight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the Sun's path across the sky as you approach the poles?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It becomes more vertical",
+            "feedback": "No, near the poles the path becomes flatter, not more vertical. A vertical path is seen near the Equator."
+          },
+          {
+            "label": "It becomes flatter and more horizontal",
+            "feedback": "Correct. As you go toward the poles, the Sun's apparent path across the sky diverges from vertical, becoming flatter and more horizontal."
+          },
+          {
+            "label": "It stays exactly the same at all latitudes",
+            "feedback": "No, the path changes with latitude. At the Equator the Sun rises and sets vertically, while at the poles it moves in a flat circle."
+          },
+          {
+            "label": "It becomes steeper and faster",
+            "feedback": "The steepness increases toward the Equator, not the poles. Near the poles, the Sun's path is low and slow."
+          }
+        ],
+        "ok_title": "Sun's flat path",
+        "ok_line": "Near the poles, the Sun moves low and flat across the sky.",
+        "ko_title": "Sun's path shape",
+        "ko_line": "The Sun's path gets flatter, not steeper, toward the poles.",
+        "exp_title": null,
+        "exp_text": "The apparent path of the Sun through the sky depends on latitude. Near the poles, the path becomes almost horizontal, a flat circle that stays close to the horizon instead of rising high."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How often does the Sun pass directly overhead at the Tropic of Cancer?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Once per year, on the June solstice",
+            "feedback": "Correct. On the Tropic of Cancer, the Sun is directly overhead only once each year, on the corresponding solstice."
+          },
+          {
+            "label": "Twice per year, near the equinoxes",
+            "feedback": "That is the case for latitudes closer to the Equator, not exactly on the Tropic of Cancer."
+          },
+          {
+            "label": "Every day of the year",
+            "feedback": "No, only the Equator has the Sun overhead twice a year, not every day. The Tropic of Cancer gets it once."
+          },
+          {
+            "label": "Never, because it is outside the tropics",
+            "feedback": "The Tropic of Cancer is the northern boundary of the tropics, so the Sun does pass overhead there once a year."
+          }
+        ],
+        "ok_title": "Overhead once a year",
+        "ok_line": "At the Tropic of Cancer, the Sun is overhead once each year.",
+        "ko_title": "Overhead frequency",
+        "ko_line": "The Tropic of Cancer gets a yearly overhead Sun, not daily.",
+        "exp_title": null,
+        "exp_text": "The Tropic of Cancer at 23.44° north is the northernmost latitude where the Sun can ever be directly overhead. This happens only once per year, on the June solstice."
+      }
+    ]
+  }
+]

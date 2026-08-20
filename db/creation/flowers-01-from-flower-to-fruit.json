@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 160,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What part of a flower grows into the fruit?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The petals",
+            "feedback": "Petals exist to be noticed. Once pollination is done they have no further job and simply drop off."
+          },
+          {
+            "label": "The ovary",
+            "feedback": "It holds the ovules, and once one is fertilized the ovary wall begins to swell around it."
+          },
+          {
+            "label": "The stamen",
+            "feedback": "The stamen makes and releases pollen. Once that pollen is gone, the stamen withers with the rest of the flower."
+          },
+          {
+            "label": "The sepals",
+            "feedback": "Sepals are the tough outer leaves that protected the bud. Their work is finished before the flower even opens."
+          }
+        ],
+        "ok_title": "Exactly there",
+        "ok_line": "The part that held the seeds is the part that grows around them.",
+        "ko_title": "Not that part",
+        "ko_line": "Ask which part of the flower was ever connected to the seeds in the first place.",
+        "exp_title": "One part keeps growing",
+        "exp_text": "After fertilization, an ovule inside the ovary begins turning into a seed. The ovary wall around it does not wither with the rest of the flower — it keeps growing, thickening around the developing seed instead of dropping away. That continued growth, wrapped around the seeds it holds, is the fruit."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What tells an ovary to start swelling into a fruit?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sunlight falling directly on the petals",
+            "feedback": "Petals do respond to light, but light on a petal has no route to the ovary hidden beneath them."
+          },
+          {
+            "label": "The petals falling off",
+            "feedback": "Petals fall because their job is done, not because their fall causes anything downstream. Cutting petals off an unfertilized flower does not make its ovary grow."
+          },
+          {
+            "label": "Water taken up by the stem",
+            "feedback": "Water flows to every part of the plant all the time, fertilized or not. It cannot be the signal that starts fruit growth."
+          },
+          {
+            "label": "Chemical signals released by the fertilized ovule",
+            "feedback": "Once fertilized, the ovule sends hormones outward into the surrounding tissue, and those hormones are what switch the ovary from waiting to growing."
+          }
+        ],
+        "ok_title": "Right cue",
+        "ok_line": "A fertilized seed announces itself to the tissue around it.",
+        "ko_title": "Not the trigger",
+        "ko_line": "The true signal has to come from inside the flower, from the one thing fertilization actually changes.",
+        "exp_title": "A message from the seed to its wrapping",
+        "exp_text": "A pollen tube delivers sperm cells down into an ovule, and once that ovule is fertilized it starts releasing hormones into the ovary tissue surrounding it. Those hormones are the cue that switches the ovary from sitting still to swelling and thickening. Without that chemical signal from the newly fertilized seed, the ovary usually stays small and the whole flower withers instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do petals fall off once a flower has been pollinated?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Their job of attracting a pollinator is done, and the plant reclaims what they were built from",
+            "feedback": "A weakened layer of cells at the base of the petal lets it drop, and the plant draws the nutrients back in rather than wasting them."
+          },
+          {
+            "label": "The pollinator eats them on its way out",
+            "feedback": "A pollinator visits for nectar or pollen, not for the petal itself, and petals fall on flowers no insect ever touched."
+          },
+          {
+            "label": "Cold weather kills them",
+            "feedback": "Petals drop just as reliably on a warm day once pollination has happened. Temperature is not what is deciding it."
+          },
+          {
+            "label": "The growing fruit pushes them off from underneath",
+            "feedback": "The fruit only starts swelling after the petals have already gone, so it cannot be what pushes them out of the way."
+          }
+        ],
+        "ok_title": "Spent and reclaimed",
+        "ok_line": "A structure that has finished its work stops being worth keeping.",
+        "ko_title": "Wrong cause",
+        "ko_line": "Ask what changes for the flower the moment pollination succeeds, and what a petal is actually for.",
+        "exp_title": "A cost the plant stops paying",
+        "exp_text": "A petal's only task is to be noticed, drawing a pollinator close enough to brush against the flower's pollen. Once pollination has happened that task is finished, and keeping broad, thin, easily damaged tissue alive costs the plant water and nutrients for nothing further in return. A layer of cells at the petal's base weakens and lets it drop, while whatever it was built from is drawn back into the plant to be used elsewhere."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually changes inside a fruit like an apple as it ripens from hard and sour into soft and sweet?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It absorbs sugar pulled up from the soil through its stem",
+            "feedback": "Roots take up water and minerals, not ready-made sugar. Every sugar in a fruit was built by the plant itself, not drawn from the ground."
+          },
+          {
+            "label": "The seeds inside release sugar into the flesh around them",
+            "feedback": "The seeds are drawing nutrients in to finish their own growth, not giving anything back out to the flesh surrounding them."
+          },
+          {
+            "label": "Stored starch turns into sugar, and the walls between cells start to loosen",
+            "feedback": "Enzymes switched on during ripening break starch down into sugar and loosen the pectin holding neighbouring cells together."
+          },
+          {
+            "label": "Sunlight bleaches the sour taste out of the skin",
+            "feedback": "Sourness comes from acids dissolved through the flesh, not a pigment sitting in the skin, so light falling on the surface cannot remove it."
+          }
+        ],
+        "ok_title": "Both changes at once",
+        "ok_line": "One change adds the sweetness, the other gives the softness.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ripening is something happening inside the fruit's own tissue, not something arriving from outside it.",
+        "exp_title": "Starch loosened and unlocked",
+        "exp_text": "A developing fruit builds up stores of starch and holds its cell walls stiff with pectin, which is why it tastes starchy or sour and feels hard while it is still growing. Ripening switches on enzymes that break that starch down into sugar and loosen the pectin gluing neighbouring cells together. The fruit that follows is sweeter because of the first change and softer because of the second."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does unripe fruit so often taste bitter or sharply sour?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It simply has not had time to make sugar yet",
+            "feedback": "Low sugar alone gives blandness, not the sharp, unpleasant taste that makes an animal spit the bite out."
+          },
+          {
+            "label": "It contains chemicals that discourage animals from eating it before its seeds are ready",
+            "feedback": "The seeds inside an unripe fruit have not finished developing, and an early bite would carry or destroy them too soon."
+          },
+          {
+            "label": "Its skin is too thick to let any sweetness through",
+            "feedback": "Many unripe fruits already have thin skins, and thickness changes texture, not the chemistry of taste underneath it."
+          },
+          {
+            "label": "Insects have already removed the sugar from inside it",
+            "feedback": "An unripe fruit that has not been chewed into is not hollow. Nothing has been removed from flesh that is still forming."
+          }
+        ],
+        "ok_title": "A deliberate deterrent",
+        "ok_line": "The sharp taste is doing a job, not marking an accident.",
+        "ko_title": "Not yet the reason",
+        "ko_line": "The taste is too unpleasant to be a mere absence of something. Ask what it is actively keeping away.",
+        "exp_title": "Unpleasant on purpose, for now",
+        "exp_text": "A seed inside an unripe fruit is not yet ready to grow, and an animal that eats the fruit early would carry those unready seeds away or crush them before they can survive it. Many unripe fruits build up bitter or sour compounds in their flesh that make an early bite unpleasant, holding animals off until the seeds inside have matured. Once that maturing is finished, the same flesh is often remade into something sweet instead, turning the fruit from a warning into an invitation."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "A strawberry carries dozens of tiny specks across its red surface. What are they?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A strawberry flower has no ovary at all",
+            "feedback": "A strawberry flower has dozens of ovaries, not none — that is exactly why so many specks appear on one berry."
+          },
+          {
+            "label": "Seeds that grew only after the red flesh had already ripened",
+            "feedback": "The seeds and the flesh develop together, not one after the other. What differs is which flower part becomes which."
+          },
+          {
+            "label": "Seeds held onto the surface with a sticky coating the plant produces",
+            "feedback": "Nothing is gluing anything onto a finished surface. Each speck is attached because it grew there, on that surface, from the start."
+          },
+          {
+            "label": "Each speck is its own tiny dry fruit, with a seed sealed inside it",
+            "feedback": "The red flesh is a swollen stem-like base, not an ovary, and each true fruit — one per speck — sits on top of it."
+          }
+        ],
+        "ok_title": "Not one fruit but many",
+        "ok_line": "The berry you eat is the stage, and the specks are the actual fruits standing on it.",
+        "ko_title": "Wrong structure",
+        "ko_line": "In most fruit, an ovary becomes the flesh. A strawberry flower has many ovaries, not one — so where do they end up?",
+        "exp_title": "A flesh that is not an ovary",
+        "exp_text": "In most fruit, the flesh is the swollen wall of a single ovary with seeds hidden inside it. A strawberry flower instead carries many separate tiny ovaries scattered over a swollen central base, and it is that base — not any ovary — that becomes the sweet red flesh. Each speck on the surface is its own miniature dry fruit, and the seed sits inside that speck rather than inside the flesh around it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Some fruit varieties, like most seedless bananas, form without any seeds at all. What has happened to fertilization in these fruits?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ovary swells into fruit even though no fertilization ever took place",
+            "feedback": "The growth signal is triggered without a fertilized seed ever forming, so the flesh develops and no seed is ever left inside it."
+          },
+          {
+            "label": "Fertilization happens twice as fast so the seeds finish early and dissolve",
+            "feedback": "There is no fertilization event here to speed up. The process that would create a seed never starts in the first place."
+          },
+          {
+            "label": "Seeds do form but stay too small to notice",
+            "feedback": "A seedless banana's fruit contains no seed structures at all, not tiny hidden ones — the process that would build a seed never begins."
+          },
+          {
+            "label": "The fruit is not truly a fruit, only a swollen piece of stem",
+            "feedback": "The flesh still grows from the same ovary wall as in any other banana. What is missing is the fertilized seed usually found inside it, not the ovary itself."
+          }
+        ],
+        "ok_title": "Growth without the usual cause",
+        "ok_line": "The ovary answered a signal that, this time, did not come from a fertilized seed.",
+        "ko_title": "Rethink the missing step",
+        "ko_line": "A fruit still forms here, so the ovary is still growing. What is missing is the event that normally starts it.",
+        "exp_title": "Fruit growth without a fertilized seed",
+        "exp_text": "Fertilization normally supplies the chemical trigger that starts an ovary swelling into fruit, and the developing seed keeps sending that signal as it grows. In some varieties the ovary can be triggered to grow into fruit without any pollen tube ever reaching it, so no seed ever forms inside. The flesh still comes from the very same ovary wall as in any other fruit — it has simply grown without the fertilized seed that would usually accompany it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "A pea pod is often called a vegetable, but botanically it is a fruit. Why does it count as one?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it grows on a plant that has flowers",
+            "feedback": "Leaves and roots grow on flowering plants too. Growing on such a plant cannot be what separates a fruit from every other part."
+          },
+          {
+            "label": "Because it contains sugar, the way sweet fruit does",
+            "feedback": "A pea pod is barely sweet at all, and plenty of true fruit, like a lemon, is not sweet either. Taste is not the test."
+          },
+          {
+            "label": "Because it develops from a flower's ovary and holds the seeds it produced",
+            "feedback": "The pod is the ovary wall of the flower, and the peas inside are the seeds it produced — the same relationship any fruit has to its seeds."
+          },
+          {
+            "label": "Because it is picked before it has fully ripened",
+            "feedback": "Ripening stage has nothing to do with what a structure is. An unripe pod and a ripe one are both fruit; timing of picking changes neither."
+          }
+        ],
+        "ok_title": "Origin decides it",
+        "ok_line": "A fruit is defined by where it grew from, not by how it tastes.",
+        "ko_title": "Not the deciding factor",
+        "ko_line": "Kitchen habit sorts things by taste. Botany sorts them by which flower part they grew from.",
+        "exp_title": "Sweetness has nothing to do with it",
+        "exp_text": "Whether something is called a fruit in the kitchen depends on whether it tastes sweet, but that is not what decides it botanically. A fruit is whatever grows from a fertilized ovary and encloses the seeds it produced, and a pea pod does exactly that: it is the ovary wall of the flower, and the peas inside are the seeds. A tomato, a cucumber and a pea pod all qualify on that same ground, whatever they are called at the table."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "A peach has thin skin, juicy flesh, and a hard stone at its centre. What is that hard stone actually made of?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The seed itself, swollen and hardened with water",
+            "feedback": "The true seed is the almond-shaped kernel found inside the stone, not the stone itself, which surrounds and protects it."
+          },
+          {
+            "label": "A woody layer of the fruit's own wall, wrapped tightly around the seed inside",
+            "feedback": "A fruit's wall is built in layers, and here the innermost one hardens into a tough woody shell instead of staying soft like the flesh around it."
+          },
+          {
+            "label": "A second seed that never finished developing",
+            "feedback": "There is only one seed in a peach, held inside the stone. The stone is not a failed seed but a layer of the fruit's own wall."
+          },
+          {
+            "label": "A mineral shell deposited around the seed by the roots",
+            "feedback": "Minerals travel up from the roots in tiny amounts to build particular tissues, not as a shell poured around a seed. The stone is grown from the fruit's own wall."
+          }
+        ],
+        "ok_title": "Part of the fruit itself",
+        "ok_line": "The stone is a layer of the fruit's wall, hardened rather than softened.",
+        "ko_title": "Not the seed",
+        "ko_line": "Crack the stone open in your mind: what sits inside it, and what is doing the protecting?",
+        "exp_title": "One wall, three different textures",
+        "exp_text": "The wall of a fruit is not a single layer; it is built in three, and each can turn into something different. In a peach the outer layer stays thin as skin and the middle layer swells into juicy flesh, but the innermost layer hardens and thickens into a tough woody shell instead of staying soft. The true seed, the kernel that could grow into a new plant, sits protected inside that shell."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a fruit's skin so often change colour as it ripens, from green to red, orange or yellow?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The plant paints the skin using minerals it pulls from the soil",
+            "feedback": "Minerals build small structural parts of the plant. No mineral is used as a pigment painted onto a ripening skin."
+          },
+          {
+            "label": "Sunburn changes the colour of the surface",
+            "feedback": "A fruit ripening in shade changes colour on the same schedule as one in full sun, so exposure to sunlight is not what is driving it."
+          },
+          {
+            "label": "The skin fades because it is drying out",
+            "feedback": "A ripening fruit's skin usually stays plump and moist, and colour change happens well before any drying — the two are not linked here."
+          },
+          {
+            "label": "Green chlorophyll breaks down, unmasking other pigments underneath it",
+            "feedback": "Chlorophyll had been hiding whatever colour was already there or newly made. Once it breaks down, that colour is finally visible."
+          }
+        ],
+        "ok_title": "A curtain coming down",
+        "ok_line": "The other colour was there all along, waiting behind the green.",
+        "ko_title": "Not the source",
+        "ko_line": "Something is disappearing to reveal the new colour, not being added or damaged from outside.",
+        "exp_title": "Green was always the disguise",
+        "exp_text": "While a fruit is still growing, its skin is packed with green chlorophyll, which can hide any other pigments quietly sitting underneath it. As the fruit ripens, that chlorophyll breaks down and disappears, and whatever colour was masked underneath — yellow and orange, or reds and purples made fresh at this stage — becomes visible for the first time. The fruit is not being painted; a curtain of green is simply being taken down."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 229,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary cause of an earthquake?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sudden slip along a fault in the Earth's crust",
+            "feedback": "Correct. An earthquake happens when rocks on either side of a fault suddenly slip past each other, releasing built-up stress as seismic waves."
+          },
+          {
+            "label": "Volcanic eruption pushing magma upward",
+            "feedback": "Volcanic eruptions can trigger small quakes, but the main cause of earthquakes is fault slip, not the movement of magma itself."
+          },
+          {
+            "label": "Movement of the Earth's magnetic field",
+            "feedback": "The magnetic field is generated in the outer core and has nothing to do with the shaking of the ground; earthquakes are from rock movement."
+          },
+          {
+            "label": "The Moon's gravitational pull on the crust",
+            "feedback": "The Moon's gravity causes tides, not earthquakes. Earthquakes come from stress released along faults."
+          }
+        ],
+        "ok_title": "Sudden slip",
+        "ok_line": "Fault slip releases energy.",
+        "ko_title": "Not magma field",
+        "ko_line": "Fault slip, not magma or tides.",
+        "exp_title": "Earthquake cause",
+        "exp_text": "Earthquakes occur when rocks along a fault suddenly slip, releasing stored elastic energy as seismic waves that shake the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a fault in geological terms?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A crack in the crust with no movement",
+            "feedback": "A crack without movement is called a joint, not a fault. Faults involve displacement of rock on either side."
+          },
+          {
+            "label": "A large underground cavern filled with water",
+            "feedback": "A water-filled cavern is a cave, not a fault. Faults are fractures where rocks have moved."
+          },
+          {
+            "label": "A fracture in the Earth's crust where rocks have moved past each other",
+            "feedback": "Correct. A fault is a fracture along which there has been relative movement of the rock blocks, often leading to earthquakes."
+          },
+          {
+            "label": "A boundary between two separate tectonic plates",
+            "feedback": "Plate boundaries may contain faults, but a fault is specifically a fracture with movement, not the boundary itself."
+          }
+        ],
+        "ok_title": "Moving fracture",
+        "ok_line": "Faults shift rocks.",
+        "ko_title": "Not joint or cave",
+        "ko_line": "Fault means movement, not crack.",
+        "exp_title": "Fault definition",
+        "exp_text": "A fault is a fracture in rock where the two sides have been displaced relative to each other, often causing earthquakes when slip occurs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do most earthquakes occur?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the middle of continental interiors",
+            "feedback": "Most quakes are not in continental interiors; they are rare there because these areas are far from plate boundaries."
+          },
+          {
+            "label": "Along plate boundaries and fault lines",
+            "feedback": "Correct. Most earthquakes happen at or near plate boundaries where plates interact, and along associated fault lines."
+          },
+          {
+            "label": "Under the ocean floor, far from any boundary",
+            "feedback": "The ocean floor far from boundaries is usually quiet; earthquakes concentrate at boundaries, not in quiet interiors."
+          },
+          {
+            "label": "In the Earth's core, deep below the crust",
+            "feedback": "Earthquakes originate in the crust and upper mantle, not in the core, which is too deep and fluid."
+          }
+        ],
+        "ok_title": "Boundary hotspots",
+        "ok_line": "Quakes cluster at plate edges.",
+        "ko_title": "Not interiors",
+        "ko_line": "Focus is on plate boundaries.",
+        "exp_title": "Earthquake location",
+        "exp_text": "Earthquakes predominantly occur along plate boundaries and fault zones where tectonic plates interact, building and releasing stress."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the point on the Earth's surface directly above the earthquake's origin called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Epicenter",
+            "feedback": "Correct. The epicenter is the surface point directly above the focus (hypocenter), where the quake's shaking is typically strongest."
+          },
+          {
+            "label": "Focus",
+            "feedback": "The focus (hypocenter) is the point below the surface where the rock slips, not the surface point above it."
+          },
+          {
+            "label": "Fault plane",
+            "feedback": "The fault plane is the fracture surface itself, not a surface point. The epicenter is a specific location on the ground."
+          },
+          {
+            "label": "Seismic wave source",
+            "feedback": "Seismic waves originate at the focus, but the surface point above is specifically the epicenter, not a general source."
+          }
+        ],
+        "ok_title": "Surface above",
+        "ok_line": "Epicenter is above focus.",
+        "ko_title": "Not focus",
+        "ko_line": "Focus is below the surface.",
+        "exp_title": "Epicenter definition",
+        "exp_text": "The epicenter is the location on the Earth's surface directly above the earthquake's focus, where damage is often greatest."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of seismic wave arrives first at a seismograph after an earthquake?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Surface wave",
+            "feedback": "Surface waves travel along the ground and arrive last, after body waves; they are slowest but often most damaging."
+          },
+          {
+            "label": "S-wave",
+            "feedback": "S-waves (secondary waves) arrive after P-waves because they travel slower; they cannot pass through liquids."
+          },
+          {
+            "label": "P-wave",
+            "feedback": "Correct. P-waves (primary waves) are the fastest seismic waves, so they reach seismographs first, before S-waves and surface waves."
+          },
+          {
+            "label": "Love wave",
+            "feedback": "Love waves are a type of surface wave, arriving later; they are not the first to be recorded."
+          }
+        ],
+        "ok_title": "Fastest P-waves",
+        "ok_line": "P-waves arrive first.",
+        "ko_title": "Not surface or S",
+        "ko_line": "P-waves lead the arrival.",
+        "exp_title": "First seismic wave",
+        "exp_text": "P-waves are compressional waves that travel fastest through rock, so they are the first to be detected after an earthquake."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the shaking of the ground during an earthquake actually caused by?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The ground moving up and down like an ocean wave",
+            "feedback": "Seismic waves can have up-and-down motion, but they are energy traveling through rock, not actual water waves."
+          },
+          {
+            "label": "Magma flowing below the crust",
+            "feedback": "Magma movement may cause volcanic tremors, but the shaking of a typical earthquake is from seismic waves, not magma."
+          },
+          {
+            "label": "The whole planet tilting slightly",
+            "feedback": "Earthquakes do not tilt the whole planet; the shaking comes from localized wave motion along the fault."
+          },
+          {
+            "label": "Seismic waves traveling through the ground",
+            "feedback": "Correct. The shaking is the passage of seismic waves, which are energy released from the fault slip, moving through the Earth."
+          }
+        ],
+        "ok_title": "Seismic energy",
+        "ok_line": "Waves cause ground motion.",
+        "ko_title": "Not magma tilt",
+        "ko_line": "Shaking is from seismic waves.",
+        "exp_title": "Cause of shaking",
+        "exp_text": "Earthquake shaking is the direct result of seismic waves, which spread outward from the focus, causing the ground to vibrate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do aftershocks happen after a large earthquake?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They are caused by aftershocks of the aftershocks",
+            "feedback": "That's just recursive; aftershocks happen because the main quake changes stress on nearby faults, not because of a chain of aftershocks."
+          },
+          {
+            "label": "The main quake redistributes stress on nearby faults",
+            "feedback": "Correct. The main earthquake changes the stress in the surrounding rock, causing other faults to slip in smaller earthquakes as they adjust."
+          },
+          {
+            "label": "The Earth's crust continues to move because of the magnetic field",
+            "feedback": "Magnetic field changes do not cause earthquakes; aftershocks are due to stress adjustments, not magnetism."
+          },
+          {
+            "label": "Magma continues to rise after the quake",
+            "feedback": "Aftershocks are not related to magma; they occur on faults near the original rupture from stress changes."
+          }
+        ],
+        "ok_title": "Stress adjustment",
+        "ok_line": "Quakes shift stress to neighbors.",
+        "ko_title": "Not magnetic magma",
+        "ko_line": "Stress redistribution triggers aftershocks.",
+        "exp_title": "Aftershock reason",
+        "exp_text": "Aftershocks occur because the main quake alters stress on nearby faults, making them slip again in smaller events as the crust adjusts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the point inside the Earth where an earthquake starts called?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Epicenter",
+            "feedback": "The epicenter is on the surface, not inside. The start point underground is a different term."
+          },
+          {
+            "label": "Seismograph location",
+            "feedback": "A seismograph is a surface instrument that records waves, not where the quake begins."
+          },
+          {
+            "label": "Fault line",
+            "feedback": "A fault line is the surface trace of a fault, not the point of origin underground."
+          },
+          {
+            "label": "Focus (hypocenter)",
+            "feedback": "Correct. The focus, also called the hypocenter, is the underground point where the rock first slips and energy is released."
+          }
+        ],
+        "ok_title": "Underground origin",
+        "ok_line": "Focus is the start point.",
+        "ko_title": "Not epicenter",
+        "ko_line": "Focus is below the surface.",
+        "exp_title": "Focus definition",
+        "exp_text": "The focus (hypocenter) is the exact location below ground where an earthquake rupture begins, from which seismic waves radiate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a tsunami?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A series of large ocean waves caused by sudden displacement of water",
+            "feedback": "Correct. Tsunamis are giant waves generated by abrupt water displacement, often from underwater earthquakes, landslides, or volcanic eruptions."
+          },
+          {
+            "label": "A giant wall of water caused by the Moon's gravity",
+            "feedback": "Tides are from the Moon's gravity, but tsunamis are from sudden displacement, not tidal forces."
+          },
+          {
+            "label": "A single enormous wave that travels across the ocean surface",
+            "feedback": "Tsunamis are a series of waves, not just one, and they travel through the whole water column, not just on the surface."
+          },
+          {
+            "label": "A wave that only happens during high tide",
+            "feedback": "Tsunamis are unrelated to tides; they occur from any sudden water displacement, regardless of tidal stage."
+          }
+        ],
+        "ok_title": "Water displacement",
+        "ok_line": "Quakes push water into waves.",
+        "ko_title": "Not tidal wave",
+        "ko_line": "Tsunamis are not from tides.",
+        "exp_title": "Tsunami definition",
+        "exp_text": "A tsunami is a series of ocean waves with very long wavelengths, caused by the sudden displacement of a large volume of water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What instrument is used to detect and record seismic waves?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Barometer",
+            "feedback": "A barometer measures air pressure, not ground motion. Seismic waves need a seismograph."
+          },
+          {
+            "label": "Seismograph",
+            "feedback": "Correct. A seismograph detects and records the vibrations of the ground caused by seismic waves during an earthquake."
+          },
+          {
+            "label": "Thermometer",
+            "feedback": "A thermometer measures temperature, which is unrelated to detecting seismic waves."
+          },
+          {
+            "label": "Compass",
+            "feedback": "A compass detects magnetic fields and gives direction, not seismic waves."
+          }
+        ],
+        "ok_title": "Seismic recorder",
+        "ok_line": "Seismographs catch waves.",
+        "ko_title": "Not weather tools",
+        "ko_line": "Seismograph is for quakes.",
+        "exp_title": "Seismograph role",
+        "exp_text": "A seismograph is a sensitive instrument that detects ground motion from seismic waves, producing a seismogram record."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 211,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why aren't deep-sea fish crushed by the immense water pressure around them?",
+        "body": null,
+        "options": [
+          {
+            "label": "Their bodies have no gas-filled spaces to be squeezed",
+            "feedback": "Water and fat barely compress at all, so a body built mostly from them has almost nothing for pressure to crush."
+          },
+          {
+            "label": "Their skin is unusually thick and armoured",
+            "feedback": "Thick armour would only add weight; the real defence lies in what fills the body, not what covers it."
+          },
+          {
+            "label": "They swim inside pockets of trapped air",
+            "feedback": "No fish carries a bubble of air down with it; trapped air would collapse under pressure long before it could help."
+          },
+          {
+            "label": "Their bones are hollow to absorb the pressure",
+            "feedback": "A hollow bone is a gas-filled space, and gas-filled spaces are exactly what pressure crushes fastest."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Nothing gas-filled means nothing left for the pressure to squeeze.",
+        "ko_title": "Reconsider",
+        "ko_line": "Pressure crushes gas far more easily than it crushes liquid or solid tissue.",
+        "exp_title": "A body with nothing left to crush",
+        "exp_text": "Pressure squeezes gas readily, because gas is mostly empty space between its molecules, but water and fat are already packed tight and barely compress at all. Most deep-sea fish have given up the gas-filled swim bladder that shallow-water fish use for buoyancy, and are built instead almost entirely from water-rich flesh and fat. With nothing gas-filled left inside them, there is nothing for the surrounding pressure to squeeze."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many deep-sea fish have huge, wide-opening jaws and a stomach that can stretch enormously?",
+        "body": null,
+        "options": [
+          {
+            "label": "Food is so scarce that any meal, of any size, must be seized",
+            "feedback": "With encounters this rare, a fish that could only manage small prey would starve waiting for one that fits."
+          },
+          {
+            "label": "It scares away rival predators before they can attack",
+            "feedback": "A wide jaw is used for seizing prey, not as a display; most deep-sea predators never even meet a rival face to face."
+          },
+          {
+            "label": "It helps the fish swim faster by reducing drag",
+            "feedback": "A gaping jaw and a stretchable stomach add drag rather than reduce it; neither is built for speed."
+          },
+          {
+            "label": "It lets the fish store extra water for long journeys",
+            "feedback": "A stomach built to swallow prey has no role in storing water; deep-sea fish are already surrounded by it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A meal might not come again for a long while, so nothing edible is turned away.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about how rarely a meal is likely to pass by, down where these fish live.",
+        "exp_title": "Built to refuse nothing",
+        "exp_text": "Far below the sunlit surface, food drifts down thinly and unpredictably, so a meal that swims within reach may be the only chance for a long while. A jaw that opens wide and a stomach that can stretch far past its resting size let a deep-sea fish seize and hold prey much larger than itself, rather than passing up anything too big to manage. That opportunism matters more than speed or grace, since going hungry costs far more than a slightly clumsier body."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some deep-sea fish have unusually huge eyes, while others in the very same waters have almost no eyes at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each is a different strategy for coping with near-total darkness",
+            "feedback": "Huge eyes gather every last trace of dim light, while shrinking the eyes saves energy where light barely matters at all."
+          },
+          {
+            "label": "Huge eyes belong to young fish and no eyes to old ones",
+            "feedback": "The difference is not a matter of age; a species keeps the same eye size throughout its adult life."
+          },
+          {
+            "label": "Fish with no eyes have simply gone blind from disease",
+            "feedback": "This is a feature built into the species, passed down and shaped over long stretches of time, not an illness affecting individuals."
+          },
+          {
+            "label": "Eye size only reflects how big the fish's head happens to be",
+            "feedback": "Head size varies for many reasons unrelated to eyes; some small-headed deep-sea fish still carry enormous eyes."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Two opposite answers to the same dark, food-scarce world.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about what an eye is worth to a fish, and what it costs to keep one working.",
+        "exp_title": "Two answers to the same darkness",
+        "exp_text": "In the deep sea, a handful of species chase what little dim light remains or hunt the faint glow given off by other creatures, and for them a larger eye gathers more of that scarce light and sharpens the difference between prey and empty water. Other species live where essentially no light of any kind reaches, and an eye there gathers nothing useful while still costing energy and nutrients to build and maintain. Where an eye earns its keep, it grows large; where it earns nothing, it shrinks away almost entirely."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is \"marine snow\", and why does it matter so much to life in the deep sea?",
+        "body": null,
+        "options": [
+          {
+            "label": "A drift of dead plankton, waste, and debris sinking from above, feeding creatures below",
+            "feedback": "Since sunlight never reaches the deep sea, this steady fall from the surface is the main food supply that keeps deep-sea life going."
+          },
+          {
+            "label": "Frozen crystals that form only in the coldest deep-sea currents",
+            "feedback": "It is not ice or a mineral at all, but organic material, the remains of living things drifting down from above."
+          },
+          {
+            "label": "A layer of fine sand stirred up from the seafloor",
+            "feedback": "It falls from above rather than rising from below, and it is made of living remains rather than mineral grains."
+          },
+          {
+            "label": "A cloud of bioluminescent particles released by fish",
+            "feedback": "It does not glow and is not released by fish; it is simply organic debris drifting down under its own weight."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A slow, steady fall of scraps from a world with no sunlight of its own.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about where the deep sea's food could possibly come from, since no sunlight reaches down there for anything to grow on.",
+        "exp_title": "A slow rain of scraps from above",
+        "exp_text": "Because sunlight cannot reach the deep sea, nothing there can grow the way a plant does near the surface, so deep-sea life depends almost entirely on food produced somewhere else. Dead plankton, shed skin, waste, and other fine debris drift down from the sunlit layers above in a slow, steady fall known as marine snow. For most deep-sea creatures, this thin, ever-falling supply is effectively the only food reaching them at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many deep-sea fish have soft, watery muscles instead of the firm, powerful muscle of a fast-swimming surface fish?",
+        "body": null,
+        "options": [
+          {
+            "label": "Firm muscle costs far more energy to build and maintain than food there allows",
+            "feedback": "With so little food reaching these depths, spending less on muscle and more on simply staying alive pays off better."
+          },
+          {
+            "label": "Water pressure gradually dissolves firm muscle tissue over time",
+            "feedback": "Pressure does not dissolve tissue; the difference in muscle comes from how the body is built, not from being worn away."
+          },
+          {
+            "label": "Watery muscle helps the fish swim faster over long distances",
+            "feedback": "Watery, low-power muscle actually makes for weaker, slower swimming, not faster; the trade favours saving energy instead."
+          },
+          {
+            "label": "It keeps the fish's body warmer in the cold water",
+            "feedback": "Muscle firmness has no bearing on retaining heat; deep-sea fish are simply the same temperature as the cold water around them."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Cheap, watery tissue in a place where food almost never arrives.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about what firm, powerful muscle costs to build and keep fed, and how little food reaches these depths.",
+        "exp_title": "Muscle built to be cheap, not strong",
+        "exp_text": "Firm, powerful muscle needs a steady supply of food to build and maintain, and down where marine snow is the only food arriving, that supply is thin and unreliable. Many deep-sea fish instead carry soft, watery muscle that costs far less to grow and keep alive, trading power and speed for a body that can survive on very little. Where a surface fish is built to chase prey quickly, a deep-sea fish is built simply to last."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the tiny male of some deep-sea anglerfish species bite onto a female and fuse permanently to her body?",
+        "body": null,
+        "options": [
+          {
+            "label": "In such a vast, dark ocean, finding a second mate might never happen",
+            "feedback": "Once found, fusing to a female guarantees the male stays available, since another encounter may never come."
+          },
+          {
+            "label": "It protects the male from being eaten by other predators",
+            "feedback": "Fusing to a female offers no defence against predators; the reason lies in reproduction, not protection."
+          },
+          {
+            "label": "It allows the male to steal food from the female's stomach",
+            "feedback": "The male does draw nutrients from the female's body once fused, but that is a side effect, not the reason fusing happens in the first place."
+          },
+          {
+            "label": "Both fish are unable to swim on their own at that stage",
+            "feedback": "Both the male and the female can swim perfectly well on their own; fusing is not a response to any difficulty moving."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A mate found once, kept for good, in a world too empty to risk losing him.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about how hard it would be to find a second mate in such a vast, dark, thinly populated place.",
+        "exp_title": "A mate too rare to risk losing",
+        "exp_text": "In the deep sea, individuals are spread thinly across a vast, dark space, and a male anglerfish that finally crosses paths with a female may never get such a chance again. Rather than parting after mating, the small male bites onto her body and fuses to it, his tissue gradually joining with hers until he draws nourishment straight from her bloodstream. From that point on, the two remain physically joined, and the female always has a mate ready whenever she is prepared to spawn."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do fish such as the viperfish have long, needle-like teeth that curve backward, too long to even fit inside a closed mouth?",
+        "body": null,
+        "options": [
+          {
+            "label": "The curve traps struggling prey and stops it from escaping",
+            "feedback": "Once a curved tooth has closed around prey, that same curve makes pulling back out nearly impossible."
+          },
+          {
+            "label": "The length lets the fish sense vibrations in the water",
+            "feedback": "Sensing vibration is a job for the lateral line along the body, not for teeth built to seize prey."
+          },
+          {
+            "label": "The teeth are used only for display, not for feeding",
+            "feedback": "In the near-total darkness of the deep sea, a display seen by almost no one would serve little purpose; the teeth are used for seizing prey."
+          },
+          {
+            "label": "Long teeth help the fish filter tiny food particles from the water",
+            "feedback": "Filtering fine food from the water calls for closely packed gill rakers, not a small number of long, spaced-out teeth."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "A trap that only tightens the harder the prey struggles to pull free.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about what happens to something caught between two backward-curving points, once it tries to pull away.",
+        "exp_title": "Teeth shaped like a trap, not a blade",
+        "exp_text": "Meals come so rarely at these depths that a prey animal seized once cannot be allowed to slip free again. A backward-curving tooth works less like a blade for cutting and more like a barb: as prey struggles against it, the curve digs in deeper rather than letting go. With teeth too long to fit behind a closed mouth, the fish keeps its jaws open even between meals, always ready to strike the instant something edible passes near."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "In near-total darkness, how do many deep-sea fish detect prey or predators moving nearby without relying on sight?",
+        "body": null,
+        "options": [
+          {
+            "label": "A row of sensors along the body that feels vibration in the water",
+            "feedback": "Known as the lateral line, this row of sensors picks up the faint pressure changes made by anything moving through the water nearby."
+          },
+          {
+            "label": "By tasting chemicals released from the seafloor",
+            "feedback": "Taste can pick up chemical traces, but detecting the movement of a nearby body relies on a different sense entirely."
+          },
+          {
+            "label": "By listening for echoes, the way a bat does",
+            "feedback": "That method, based on sending out and timing sound, belongs to a few marine mammals, not to fish."
+          },
+          {
+            "label": "By tracking tiny changes in water temperature",
+            "feedback": "Temperature at these depths stays nearly constant everywhere, so it carries almost no useful information about where a nearby animal is."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A line of sensors that feels the water itself moving.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about a row of sensing organs running along a fish's flank, from head to tail.",
+        "exp_title": "Feeling the water move",
+        "exp_text": "Running along each side of a fish's body is a line of small sensing organs called the lateral line, each one sensitive to the slightest shift in surrounding water pressure. Any animal moving nearby, whether swimming forward or simply flexing its body, pushes the water around it just enough to be felt through this line, even from an angle sight could never reach. Where eyes are of little or no use in the dark, this sense lets a fish build a picture of movement happening all around it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many deep-sea ambush predators lie almost motionless in the water rather than actively chasing their prey?",
+        "body": null,
+        "options": [
+          {
+            "label": "Waiting costs far less energy than swimming after scarce, scattered prey",
+            "feedback": "With food so thin and unpredictable, spending as little energy as possible while waiting for a meal to come close is the safer strategy."
+          },
+          {
+            "label": "Their muscles are too weak to move at all",
+            "feedback": "These fish can and do move when they need to; staying still is a choice suited to their surroundings, not an inability."
+          },
+          {
+            "label": "They are simply resting between meals, much like sleep",
+            "feedback": "Their stillness is not sleep but a deliberate way of hunting, staying alert and ready to strike the moment prey draws near."
+          },
+          {
+            "label": "Moving would attract too many rival predators nearby",
+            "feedback": "At these depths, other predators are rarely close enough to notice movement at all; the real cost of moving is simply energy."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Stillness saves the very energy that chasing would burn away.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about how much energy an active chase would cost, and how rarely a chase down here would actually succeed.",
+        "exp_title": "A cheaper way to hunt",
+        "exp_text": "Chasing prey burns a great deal of energy, and in the deep sea, where a meal might not come again for a long while, that spent energy may never be recovered in time. Many deep-sea predators instead stay almost motionless, letting their body's low demands keep them going while they wait, sometimes using a lure or simply blending into the dark to draw prey close. The moment something edible comes within reach, a short, sudden strike costs far less than a long pursuit ever would."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are some deep-sea creatures, such as certain squid and small fish, almost completely see-through?",
+        "body": null,
+        "options": [
+          {
+            "label": "With no rocks or plants to hide behind, letting light pass through hides them instead",
+            "feedback": "A body that light simply passes through leaves almost nothing for a hunting eye to catch hold of, even at close range."
+          },
+          {
+            "label": "Transparency helps them stay warmer in cold water",
+            "feedback": "Being transparent has no bearing on body warmth; deep-sea creatures share the temperature of the water around them regardless."
+          },
+          {
+            "label": "It is a side effect of having no blood at all",
+            "feedback": "Many transparent deep-sea creatures do have blood; their transparency comes from the structure of their tissue, not from lacking it."
+          },
+          {
+            "label": "It lets them absorb oxygen directly through their see-through skin",
+            "feedback": "Absorbing oxygen still depends on gills or a similar structure; transparency of the outer body plays no part in that process."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A body light passes straight through, with nothing left to give it away.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about what a hunting eye is actually looking for, in a place with no scenery to hide behind.",
+        "exp_title": "Hiding by letting light straight through",
+        "exp_text": "In open water there are no rocks, plants, or shadows to duck behind, so the usual ways of hiding on land or near a reef simply do not exist. A body built from very thin muscle and watery tissue that matches the way light bends through seawater lets light pass almost straight through it instead of bouncing back to a hunter's eye. With so little light reflected, a transparent creature can drift in plain water while remaining extremely hard to make out, even at close range."
+      }
+    ]
+  }
+]

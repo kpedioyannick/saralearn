@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 221,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What color are most night-blooming flowers?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "White or very pale",
+            "feedback": "Correct. White petals reflect any faint starlight or moonlight, making the flower visible to night insects and bats that need to find it in the dark."
+          },
+          {
+            "label": "Bright red",
+            "feedback": "Red is not right. Red petals appear almost black in dim light and would be nearly invisible to night visitors. White or pale colors are what night flowers use."
+          },
+          {
+            "label": "Deep blue",
+            "feedback": "Blue is not the typical color. Blue petals do not stand out well in low light. Night-blooming flowers rely on white or pale petals to be seen by their pollinators."
+          },
+          {
+            "label": "Dark purple",
+            "feedback": "Dark purple is incorrect. Dark petals absorb light instead of reflecting it, so the flower would be hard for night pollinators to locate. White or pale petals are the usual choice."
+          }
+        ],
+        "ok_title": "White petals",
+        "ok_line": "White petals catch the faint night light.",
+        "ko_title": "Not dark colors",
+        "ko_line": "Dark petals would hide the flower at night.",
+        "exp_title": "Why white works",
+        "exp_text": "Most night-blooming flowers are white or very pale. In near-darkness, white reflects even a little moonlight or starlight, so moths and bats can spot the flower from a distance. Dark colors would make the flower invisible, so they are rare among night bloomers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do night-blooming flowers use to attract their pollinators?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Bright colors only",
+            "feedback": "Bright colors are not enough. In darkness, colors are hard to see, so night flowers mainly rely on a strong scent to guide pollinators. Color helps only if some light is present."
+          },
+          {
+            "label": "A strong scent",
+            "feedback": "Correct. Night-blooming flowers release a powerful fragrance that travels through the air, allowing moths and bats to find them by smell even when they cannot see the flower."
+          },
+          {
+            "label": "Loud sounds",
+            "feedback": "Sounds are not used by flowers. Flowers cannot make sounds, and pollinators do not listen for them. The main attractant at night is scent, not noise."
+          },
+          {
+            "label": "Warmth from the petals",
+            "feedback": "Warmth is not a typical attractant. While some flowers may warm up slightly, night bloomers do not use heat to lure pollinators. They depend on scent and pale color."
+          }
+        ],
+        "ok_title": "Strong fragrance",
+        "ok_line": "Scent guides night visitors to the flower.",
+        "ko_title": "Not colors alone",
+        "ko_line": "Colors are hard to see in the dark.",
+        "exp_title": null,
+        "exp_text": "Night-blooming flowers produce a strong, often sweet scent that spreads far in the cool night air. Moths and bats have a keen sense of smell and follow the fragrance to the flower. Bright colors would not help in darkness, so scent is the main signal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which insect is the most common pollinator of night-opening flowers?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Bees",
+            "feedback": "Bees are daytime insects. They are active when the sun is up, so they rarely visit flowers that open at night. The main night pollinators are moths."
+          },
+          {
+            "label": "Butterflies",
+            "feedback": "Butterflies are also daytime visitors. They feed during the day and rest at night, so they do not pollinate night-blooming flowers. Moths, their night-active relatives, do."
+          },
+          {
+            "label": "Moths",
+            "feedback": "Correct. Moths are active at night and have a strong sense of smell, so they are the classic pollinators of night-opening flowers. They can find the flowers by scent and by the pale petals."
+          },
+          {
+            "label": "Ants",
+            "feedback": "Ants are not typical pollinators of night flowers. They may crawl on flowers but do not carry pollen between them as effectively as moths do. Moths are the main night pollinators."
+          }
+        ],
+        "ok_title": "Moths pollinate",
+        "ok_line": "Moths are the night-shift pollinators.",
+        "ko_title": "Not bees or butterflies",
+        "ko_line": "Those insects are active only by day.",
+        "exp_title": null,
+        "exp_text": "Moths are the most common pollinators of night-blooming flowers. They fly after dark and use their excellent sense of smell to locate the flowers. Their long tongues can reach nectar deep inside the flower, and as they feed, they pick up pollen and carry it to the next flower."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do some tropical flowers open at night specifically for bats?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Bats are attracted to bright colors",
+            "feedback": "Bats do not rely on bright colors. They have poor color vision and mostly use smell and hearing. Night flowers that serve bats produce a strong musty scent and have pale, sturdy petals that resist handling."
+          },
+          {
+            "label": "Bats only come out in the daytime",
+            "feedback": "That is backwards. Bats are active at night, not daytime. The flowers open when bats are flying, so they can visit and pollinate them."
+          },
+          {
+            "label": "Bats prefer sweet nectar with little smell",
+            "feedback": "Bat-pollinated flowers often have a musky or strong smell, not a sweet one like moth flowers. The smell helps bats find the flowers in the dark. The nectar is plentiful and watery."
+          },
+          {
+            "label": "Bats are active at night and can find the flowers by smell",
+            "feedback": "Correct. Tropical bats fly at night and have a good sense of smell, so these flowers open after dark and give off a strong scent that attracts the bats. The bats drink the nectar and carry pollen as they move between flowers."
+          }
+        ],
+        "ok_title": "Bats visit at night",
+        "ok_line": "These flowers open for night-flying bats.",
+        "ko_title": "Not for daytime visitors",
+        "ko_line": "Bats are nocturnal, not daytime animals.",
+        "exp_title": null,
+        "exp_text": "Some tropical flowers open at night because their pollinators, bats, are active after sunset. The flowers produce a musty or fruity scent that bats can sniff out, and they have sturdy petals that can withstand a bat landing on them. In return, the bats drink nectar and spread pollen from flower to flower."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What did Darwin predict from the shape of a Madagascan orchid?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "That the flower would close at noon",
+            "feedback": "No, Darwin was not predicting when the flower opens. He looked at the long nectar tube and guessed that a moth with an extremely long tongue must pollinate it."
+          },
+          {
+            "label": "That a moth with a very long tongue must exist",
+            "feedback": "Correct. The orchid had a nectar tube far longer than any known insect's tongue, so Darwin predicted a moth with an unusually long tongue must pollinate it. Years later, such a moth was discovered."
+          },
+          {
+            "label": "That the flower would produce no nectar",
+            "feedback": "Not correct. Darwin never predicted the flower had no nectar. He believed the long tube contained nectar at its deepest end, meant for a special pollinator."
+          },
+          {
+            "label": "That the flower would open only in daylight",
+            "feedback": "That is not what Darwin predicted. He made his prediction about the pollinator, not the flowering time. The orchid in question is night-blooming, and the predicted moth is nocturnal."
+          }
+        ],
+        "ok_title": "Long-tongued moth",
+        "ok_line": "Darwin predicted a moth with an extremely long tongue.",
+        "ko_title": "Not about flowering time",
+        "ko_line": "His prediction was about the pollinator's tongue.",
+        "exp_title": null,
+        "exp_text": "Charles Darwin examined a Madagascan orchid with a nectar tube about 30 centimetres long. He reasoned that a moth must have a tongue long enough to reach the nectar, a prediction that seemed bold at the time. Later, a moth with a matching long tongue was found, confirming his idea."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a flower know when to open at night?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It has an internal clock that tracks day and night",
+            "feedback": "Correct. Flowers contain a built-in biological clock that senses light and darkness, so they open when night falls even if they are moved to a dark room. This rhythm is controlled by the plant's genes."
+          },
+          {
+            "label": "It listens for the sounds of insects",
+            "feedback": "Flowers cannot hear sounds. They do not respond to noise. Instead, they use light cues and an internal timekeeper to know when to open."
+          },
+          {
+            "label": "It waits for a drop in temperature",
+            "feedback": "Temperature can influence flowers, but it is not the main signal. Many night flowers open based on the change from light to dark, and the internal clock plays a bigger role than temperature."
+          },
+          {
+            "label": "It opens only when rain falls",
+            "feedback": "Rain is not what triggers nighttime blooming. Flowers open in response to darkness and their internal clock, not to moisture. Many night flowers do not need rain to open."
+          }
+        ],
+        "ok_title": "Internal clock",
+        "ok_line": "A plant's inner clock tells it when it is night.",
+        "ko_title": "Not sound or rain",
+        "ko_line": "Flowers use light and an internal timer.",
+        "exp_title": null,
+        "exp_text": "A night-blooming flower has an internal biological clock, a kind of timekeeper inside its cells. This clock tracks the passing of day and night. When evening arrives, the clock triggers the petals to open, and when daylight comes, it tells the petals to close again."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is unusual about the flowering of the night-blooming cereus?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It blooms for a whole week",
+            "feedback": "That is not correct. The cereus does not stay open for a week. Its bloom is very short, lasting only a single night, and the flower is often gone by morning."
+          },
+          {
+            "label": "It opens in the daytime and closes at night",
+            "feedback": "No, that is the opposite. The night-blooming cereus opens at night, not during the day. Its name tells you it flowers when darkness falls."
+          },
+          {
+            "label": "Its flower opens for only one night",
+            "feedback": "Correct. The night-blooming cereus produces a large, fragrant flower that opens at dusk and withers before dawn, so it blooms for just a single night."
+          },
+          {
+            "label": "It produces no nectar",
+            "feedback": "That is not the unusual part. The cereus does produce nectar and relies on night moths for pollination. What stands out is the one-night bloom, not the absence of nectar."
+          }
+        ],
+        "ok_title": "One-night bloom",
+        "ok_line": "The flower lasts from dusk to dawn only.",
+        "ko_title": "Not a long bloom",
+        "ko_line": "It shrivels before the next morning.",
+        "exp_title": null,
+        "exp_text": "The night-blooming cereus is famous for its brief flowering. Its bud opens in the evening, releases a sweet scent, and by the time the sun rises, the petals are already wilting. The entire bloom lasts only a few hours, making it a rare and prized sight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do many flowers close their petals at night?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "To keep warm in the cold night air",
+            "feedback": "Warmth is not the main reason. Actually, closing petals can protect the flower's reproductive parts, but it is not primarily about keeping warm. The main purpose is to save pollen and nectar until the right pollinator comes."
+          },
+          {
+            "label": "To prevent rain from washing away the pollen",
+            "feedback": "Protection from rain can help, but it is not the main reason. Many flowers close at night even in dry weather. The real reason is to protect pollen and nectar from being wasted on night visitors that do not pollinate."
+          },
+          {
+            "label": "To make it harder for insects to find them",
+            "feedback": "That would not help the flower. If insects could not find them, pollination would not happen. Instead, closing keeps pollen safe until morning when the correct insects are active."
+          },
+          {
+            "label": "To protect their pollen from being wasted at night",
+            "feedback": "Correct. By closing at night, these flowers keep their pollen and nectar safe from night insects that would not carry it to another flower. The flower reopens in the morning when its daytime pollinators are active."
+          }
+        ],
+        "ok_title": "Protect the pollen",
+        "ok_line": "Closing keeps pollen for the right visitors.",
+        "ko_title": "Not to hide from insects",
+        "ko_line": "Closing keeps pollen, not hides the flower.",
+        "exp_title": null,
+        "exp_text": "Many flowers close their petals at night because no suitable pollinator is flying in the dark. If they stayed open, night insects might take nectar without effectively moving pollen. By closing, the flower saves its pollen and nectar for the morning, when bees and other daytime insects can do the job."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a moth locate a flower from far away in the dark?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "By the flower's bright colors",
+            "feedback": "Colors are not visible from far away in the dark. Moths cannot rely on bright colors at night. They use their sense of smell to detect the flower's scent from a distance."
+          },
+          {
+            "label": "By following the scent carried on the wind",
+            "feedback": "Correct. Night-blooming flowers release a strong fragrance that spreads on the breeze. A moth can smell these molecules and fly upwind until it reaches the flower, even in complete darkness."
+          },
+          {
+            "label": "By listening for the flower's hum",
+            "feedback": "Flowers do not make sounds, so a moth cannot hear them. The moth finds the flower through smell, not hearing."
+          },
+          {
+            "label": "By seeing the flower's glow in the dark",
+            "feedback": "Flowers do not glow on their own. They may look pale in moonlight, but they do not emit light. The moth locates them by scent, not by glow."
+          }
+        ],
+        "ok_title": "Following scents",
+        "ok_line": "Moths sniff out pollen-rich flowers.",
+        "ko_title": "Not by vision",
+        "ko_line": "Scent leads moths from far away.",
+        "exp_title": null,
+        "exp_text": "Moths have a highly sensitive sense of smell. When a night flower releases its fragrance, the scent molecules drift through the air. The moth detects them with its antennae and then flies in the direction that the smell is strongest, tracking it all the way to the flower."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a moonflower open in a matter of minutes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To be ready as soon as dusk falls for its night pollinators",
+            "feedback": "Correct. The moonflower opens quickly at dusk so that it is fully open and releasing scent exactly when moths begin flying. A fast bloom means it does not miss the short window of evening activity."
+          },
+          {
+            "label": "To avoid drying out in the daytime heat",
+            "feedback": "That is not the reason. The moonflower is not trying to avoid heat; it is trying to catch the first moments of darkness when moths are active. The rapid opening is timed to dusk, not to temperature."
+          },
+          {
+            "label": "To surprise other plants",
+            "feedback": "Plants do not surprise each other. The quick opening is an adaptation for pollination, not a competition between plants."
+          },
+          {
+            "label": "To close quickly before sunrise",
+            "feedback": "The moonflower opens fast, but it does not close before sunrise immediately. It needs to be open for the whole night to attract moths. The rapid opening is to start attracting pollinators right at dusk."
+          }
+        ],
+        "ok_title": "Rapid dusk bloom",
+        "ok_line": "It opens fast to greet night moths.",
+        "ko_title": "Not for heat or surprise",
+        "ko_line": "The speed is to catch the evening flight time.",
+        "exp_title": null,
+        "exp_text": "The moonflower unrolls its petals very quickly, sometimes in just a few minutes, as soon as darkness falls. This rapid opening ensures that the flower is ready when nocturnal moths begin their search for nectar. If it opened slowly, it might miss many of the night's pollinators."
+      }
+    ]
+  }
+]

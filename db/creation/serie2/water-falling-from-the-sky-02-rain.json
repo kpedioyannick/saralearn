@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the general name for any form of water that falls from the sky to the ground?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Precipitation",
+            "feedback": "Yes. Precipitation is the umbrella term for rain, snow, hail, sleet, and other forms of water falling from the sky."
+          },
+          {
+            "label": "Condensation",
+            "feedback": "Condensation is the process of water vapour turning back into liquid droplets, which forms clouds, not the falling water itself."
+          },
+          {
+            "label": "Evaporation",
+            "feedback": "Evaporation is the process of liquid water turning into vapour and rising; it is the opposite of water falling from the sky."
+          },
+          {
+            "label": "Runoff",
+            "feedback": "Runoff is water that flows over the ground surface, not what falls from the sky itself."
+          }
+        ],
+        "ok_title": "Correct: precipitation",
+        "ok_line": "Rain and snow are both forms of precipitation.",
+        "ko_title": "Not that term",
+        "ko_line": "Check which process or category the word names.",
+        "exp_title": "Precipitation defined",
+        "exp_text": "Precipitation is the term for any water that falls from the atmosphere to the Earth's surface. It includes rain, snow, sleet, hail, and drizzle. The word comes from the idea of something precipitating, or falling out of a mixture, like water falling out of the air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the most common type of precipitation, produced when cloud droplets grow large enough to fall as liquid water?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Snow",
+            "feedback": "Snow is precipitation that falls as ice crystals, not liquid water, so it is not the most common type."
+          },
+          {
+            "label": "Rain",
+            "feedback": "Yes. Rain is the most common precipitation, falling as liquid water droplets from clouds."
+          },
+          {
+            "label": "Hail",
+            "feedback": "Hail is frozen precipitation that forms in strong storms, not the typical liquid rain."
+          },
+          {
+            "label": "Drizzle",
+            "feedback": "Drizzle is light rain with very small droplets, but it is a subtype of rain, not a separate most common type."
+          }
+        ],
+        "ok_title": "Rain is main",
+        "ok_line": "Most of Earth gets liquid rain at some point.",
+        "ko_title": "Other precipitation",
+        "ko_line": "These are different forms of precipitation, but rain is the most common.",
+        "exp_title": "Rain as precipitation",
+        "exp_text": "Rain is the most common form of precipitation around the world. It forms when cloud droplets collide and merge until they are heavy enough to fall through the air as liquid water. Most places on Earth experience rain regularly, unlike snow or hail which require colder conditions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do we call the tiny drops of water that float in the air and form the visible cloud?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Raindrops",
+            "feedback": "Raindrops are the larger drops that fall from clouds, not the tiny suspended ones that make up the cloud itself."
+          },
+          {
+            "label": "Water vapour",
+            "feedback": "Water vapour is an invisible gas, not tiny visible liquid drops; the cloud is made of liquid droplets."
+          },
+          {
+            "label": "Cloud droplets",
+            "feedback": "Yes. Cloud droplets are the extremely small liquid water drops, about a micrometre to a few tens of micrometres wide, that stay suspended in the air and make up the cloud."
+          },
+          {
+            "label": "Ice crystals",
+            "feedback": "Ice crystals are solid frozen water, and while some clouds are made of ice, the general term for liquid cloud particles is cloud droplets."
+          }
+        ],
+        "ok_title": "Cloud droplets",
+        "ok_line": "Clouds are made up of countless cloud droplets.",
+        "ko_title": "Wrong particle",
+        "ko_line": "Remember the difference in size and state of water.",
+        "exp_title": "Cloud droplets explained",
+        "exp_text": "Cloud droplets are the tiny liquid water particles, typically 10 to 20 micrometres across, that form when water vapour condenses around a tiny particle in the air. They are so small and light that air currents keep them floating, which is why a cloud can hang in the sky without falling."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is the usual range of sizes for a typical raindrop that falls to the ground?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A few micrometres",
+            "feedback": "A few micrometres is the size of a cloud droplet, not a raindrop; raindrops are hundreds of times larger."
+          },
+          {
+            "label": "A few millimetres",
+            "feedback": "This is close, but the exact range is more commonly given in tenths of a millimetre, not full millimetres; the total is usually between 0.5 and 4 mm."
+          },
+          {
+            "label": "A few centimetres",
+            "feedback": "Centimetre-sized drops are huge and would break apart in the air; typical raindrops are much smaller."
+          },
+          {
+            "label": "About 0.5 to 4 millimetres",
+            "feedback": "Yes. A typical raindrop is between 0.5 and about 4 millimetres across, depending on how long it has grown while falling."
+          }
+        ],
+        "ok_title": "Raindrop size",
+        "ok_line": "Raindrops are a fraction of a centimetre.",
+        "ko_title": "Size mistake",
+        "ko_line": "Compare with cloud droplet size to avoid confusion.",
+        "exp_title": "Raindrop dimensions",
+        "exp_text": "A raindrop ranges from about 0.5 to 4 millimetres in diameter. Drops larger than about 4–5 mm become unstable and split into smaller drops as they fall, because air resistance tears them apart. Cloud droplets, by contrast, are only micrometres across, so raindrops are thousands of times bigger."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for water falling from clouds in the form of ice crystals that stick together as they fall?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Snow",
+            "feedback": "Yes. Snow is precipitation made of ice crystals that form in cold clouds and fall to the ground as flakes."
+          },
+          {
+            "label": "Sleet",
+            "feedback": "Sleet is a mix of rain and snow or melted snow, not pure ice crystals."
+          },
+          {
+            "label": "Hail",
+            "feedback": "Hail forms as solid balls of ice inside storms, not as flakes of crystals, so it is different."
+          },
+          {
+            "label": "Freezing rain",
+            "feedback": "Freezing rain is liquid rain that freezes on impact with surfaces, not ice crystals falling from the cloud."
+          }
+        ],
+        "ok_title": "Snow is ice crystals",
+        "ok_line": "Snowflakes are clusters of ice crystals.",
+        "ko_title": "Not snow",
+        "ko_line": "These other types involve liquid or different ice forms.",
+        "exp_title": "Snow formation",
+        "exp_text": "Snow starts as ice crystals in cold clouds, when water vapour freezes directly onto a particle. These crystals grow and sometimes stick together in loose clumps we call snowflakes. If temperatures stay below freezing all the way down, they land as snow rather than melting into rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which condition is necessary for precipitation to fall as snow instead of rain?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The cloud must be very tall",
+            "feedback": "Tall clouds bring heavy rain or hail, but height alone does not guarantee snow; temperature is what matters."
+          },
+          {
+            "label": "The ground must be frozen",
+            "feedback": "Ground frost is not necessary; snow can fall on unfrozen ground if the air is cold enough."
+          },
+          {
+            "label": "The air at cloud level and below must stay below freezing",
+            "feedback": "Yes. For snow to reach the ground, the temperature must stay below freezing from the cloud down to the surface, so the ice crystals do not melt."
+          },
+          {
+            "label": "The wind must be calm",
+            "feedback": "Wind does not determine whether precipitation is snow or rain; it only affects where the flakes fall."
+          }
+        ],
+        "ok_title": "Cold air needed",
+        "ok_line": "Snow needs freezing temperatures all the way down.",
+        "ko_title": "Wrong condition",
+        "ko_line": "Think about temperature, not wind or height.",
+        "exp_title": "Snow versus rain",
+        "exp_text": "Snow falls when the entire vertical column from the cloud base to the ground is at or below 0°C (32°F). If any layer in between is above freezing, the ice crystals melt into rain drops, and the precipitation arrives as rain instead of snow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the process where a cold surface directly turns water vapour in the air into ice crystals, without forming liquid water first?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Condensation",
+            "feedback": "Condensation turns vapour into liquid water, not directly into ice; that would be deposition."
+          },
+          {
+            "label": "Deposition",
+            "feedback": "Yes. Deposition is the direct change from a gas (water vapour) to a solid (ice), skipping the liquid phase. This is how frost forms."
+          },
+          {
+            "label": "Evaporation",
+            "feedback": "Evaporation turns liquid into gas, the opposite direction of what the question asks."
+          },
+          {
+            "label": "Freezing",
+            "feedback": "Freezing turns liquid water into ice; it needs liquid first, but deposition skips liquid entirely."
+          }
+        ],
+        "ok_title": "Deposition",
+        "ok_line": "Frost forms by deposition of vapour directly.",
+        "ko_title": "Wrong phase change",
+        "ko_line": "Check whether liquid is involved or not.",
+        "exp_title": "Deposition defined",
+        "exp_text": "Deposition is the change of water vapour directly into ice crystals when the air is cold enough and the surface is below freezing. It is the reverse of sublimation. This process occurs when humid air touches a cold surface like a window or a leaf, and the vapour instantly freezes into frost without ever becoming liquid droplets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape do ice crystals typically take as they grow naturally in cold clouds?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sphere",
+            "feedback": "Spheres are not typical for ice crystals; they grow with flat faces and angles because of water molecules' arrangement."
+          },
+          {
+            "label": "Cube",
+            "feedback": "Cubes are a different crystal shape, but ice forms hexagonal (six-sided) prisms, not cubic ones."
+          },
+          {
+            "label": "Pyramid",
+            "feedback": "Pyramids are not a natural shape for ice crystals; ice forms hexagonal plates and columns."
+          },
+          {
+            "label": "Hexagonal prism",
+            "feedback": "Yes. Ice crystals naturally grow as hexagonal prisms because of way water molecules bond in a six-fold symmetrical lattice."
+          }
+        ],
+        "ok_title": "Hexagonal crystal",
+        "ok_line": "Ice crystals are six-sided due to molecular structure.",
+        "ko_title": "Not that shape",
+        "ko_line": "Look for six-fold symmetry in ice crystal geometry.",
+        "exp_title": "Ice crystal geometry",
+        "exp_text": "Ice crystals have a hexagonal (six-sided) crystal structure because when water molecules freeze, they arrange in layers of hexagons. This is why snowflakes always show six-fold symmetry — six arms, six points, or six sides. It is a property of the solid form of water itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the usual diameter of a single cloud droplet before it grows into a raindrop?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 10 to 20 micrometres",
+            "feedback": "Yes. Typical cloud droplets are only 10 to 20 micrometres across, too small to fall at any noticeable speed."
+          },
+          {
+            "label": "About 1 to 2 millimetres",
+            "feedback": "Millimetre sizes are raindrop sizes, not cloud droplet sizes; droplets are much smaller."
+          },
+          {
+            "label": "About 1 to 2 centimetres",
+            "feedback": "Centimetre sizes are far too large for cloud droplets; that would be huge hailstones or large drops."
+          },
+          {
+            "label": "About 0.5 to 1 micrometre",
+            "feedback": "That is closer to the size of condensation nuclei (particles) than to the droplet itself, which is larger."
+          }
+        ],
+        "ok_title": "Droplet size",
+        "ok_line": "Cloud droplets are invisible to the naked eye.",
+        "ko_title": "Too large or small",
+        "ko_line": "Compare with raindrop size and the size of condensation nuclei.",
+        "exp_title": "Cloud droplet scale",
+        "exp_text": "Cloud droplets range from about 5 to 50 micrometres in diameter, but the most common are around 10 to 20 micrometres. That is about one-hundredth of a millimetre. They are so small that gravity is balanced by air resistance and turbulence, so they stay suspended in the cloud for a long time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the streak of rain that can be seen hanging below a cloud but that evaporates before reaching the ground?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Virgo",
+            "feedback": "Virgo is a constellation, not a weather term; the correct term is virga."
+          },
+          {
+            "label": "Rain shaft",
+            "feedback": "A rain shaft is a visible column of rain that does reach the ground, not one that evaporates."
+          },
+          {
+            "label": "Virga",
+            "feedback": "Yes. Virga is precipitation that falls from a cloud but evaporates in the dry air below before touching the ground."
+          },
+          {
+            "label": "Drizzle",
+            "feedback": "Drizzle is light rain that actually reaches the surface, not precipitation that evaporates mid-air."
+          }
+        ],
+        "ok_title": "Virga",
+        "ok_line": "Virga is rain that evaporates before landing.",
+        "ko_title": "Not virga",
+        "ko_line": "Name the fall streak that disappears downwards.",
+        "exp_title": "Virga explained",
+        "exp_text": "Virga is visible as wispy streaks descending from a cloud, but the drops are so small and the air below so dry that they evaporate completely before hitting the ground. It is common in deserts and at high altitudes where the lower air is very dry. The streaks look like rain, but they never reach the surface."
+      }
+    ]
+  }
+]

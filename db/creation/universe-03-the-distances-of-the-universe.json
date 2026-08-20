@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 193,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What does the term \"light-year\" actually measure?",
+        "body": null,
+        "options": [
+          {
+            "label": "A distance — how far light travels in one year",
+            "feedback": "It names a length by describing how far a beam of light covers while a year passes, not the year itself."
+          },
+          {
+            "label": "A length of time — how long a single year lasts",
+            "feedback": "The word \"year\" inside it names the amount of time used to define the length, but the light-year itself is the distance covered in that time, not the time."
+          },
+          {
+            "label": "The brightness of a star as seen from Earth",
+            "feedback": "Brightness is measured on an entirely different scale; a light-year says nothing about how bright or faint something looks."
+          },
+          {
+            "label": "The speed at which light travels",
+            "feedback": "The speed of light is a fixed rate, used to define the light-year, but the light-year itself is the distance covered at that rate, not the rate."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "A distance dressed up in the units of time.",
+        "ko_title": "Not time or speed",
+        "ko_line": "The name is built from a unit of time, but ask what it's actually describing.",
+        "exp_title": "A distance measured by a journey",
+        "exp_text": "Light travels at a fixed, enormous speed, and in the time it takes for one year to pass, a beam of it covers a very specific, very large distance. That distance is what the light-year names, so calling something a certain number of light-years away is a statement about how far it is, using the length of light's yearly journey as the ruler."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does light from a distant galaxy take an extremely long time to reach us, even though light is the fastest thing there is?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because even the fastest possible speed still needs time to cross a large enough distance",
+            "feedback": "No matter how fast something travels, crossing a big enough gap still takes a correspondingly long stretch of time — speed alone cannot make a journey instantaneous."
+          },
+          {
+            "label": "Because light slows down sharply once it leaves a galaxy",
+            "feedback": "Light's speed through open space stays the same throughout the journey; nothing about leaving a galaxy makes it travel any slower."
+          },
+          {
+            "label": "Because light has to stop and rest along the way",
+            "feedback": "Light in open space keeps moving continuously; nothing causes it to pause partway through its journey."
+          },
+          {
+            "label": "Because the light gets lost and has to travel a longer, winding path",
+            "feedback": "Light from a distant galaxy generally travels in a straight line toward us; the long delay comes from the sheer distance, not from wandering off course."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That's the reason",
+        "ok_line": "Even the fastest speed needs time for a big enough gap.",
+        "ko_title": "Think about the gap, not the speed",
+        "ko_line": "Light's speed never changes — so what else about the journey could make it take so long?",
+        "exp_title": "Fast, but not instant",
+        "exp_text": "Light's speed is fixed and enormous, but a fixed speed still means a fixed amount of distance covered per unit of time, never an infinite amount all at once. Stretch the distance far enough, as the gap between galaxies does, and even that tremendous speed adds up to a very long travel time before the light finally arrives."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does the parallax method let a small shift in a nearby star's apparent position, seen from opposite sides of Earth's orbit, reveal its distance?",
+        "body": null,
+        "options": [
+          {
+            "label": "By comparing the star's apparent shift against the far more distant background stars, then using the known width of Earth's orbit and simple geometry",
+            "feedback": "The nearby star appears to shift slightly against stars far behind it as the observing point moves; knowing exactly how far that observing point moved lets the size of the shift be turned into a distance by geometry."
+          },
+          {
+            "label": "By measuring how much the star's color changes between the two observations",
+            "feedback": "Parallax is a matter of apparent position shifting against the background, not a change in the star's color; color changes are used for an entirely different kind of measurement."
+          },
+          {
+            "label": "By timing how long it takes the star to twinkle differently from each viewpoint",
+            "feedback": "Twinkling comes from Earth's own atmosphere disturbing starlight and has nothing to do with how far the underlying star actually is."
+          },
+          {
+            "label": "By counting how many other stars lie between the two viewpoints",
+            "feedback": "Nothing about the number of other stars enters into the calculation; only the size of the apparent shift and the known distance between the two viewpoints matter."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "A shift against the far background, turned into a distance by geometry.",
+        "ko_title": "Think geometry, not appearance",
+        "ko_line": "What's actually being measured is a change in apparent position, against a fixed backdrop, from two known viewpoints.",
+        "exp_title": "Two viewpoints, one triangle",
+        "exp_text": "As Earth moves from one side of its orbit to the other, a nearby star appears to shift very slightly against the much more distant, essentially unmoving stars behind it, the way a finger held up close seems to jump against a far wall when you view it from one eye and then the other. Because the width of Earth's orbit between those two viewpoints is already known, the size of that tiny apparent shift can be fed into simple geometry to work out exactly how far away the nearby star must be."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a light source appear dimmer the farther away it is, following a precise, predictable rule rather than just a rough trend?",
+        "body": null,
+        "options": [
+          {
+            "label": "The same total light keeps spreading out over an ever-larger sphere as it travels, thinning it out by a fixed mathematical rate",
+            "feedback": "As light radiates outward, the same amount of it must cover a bigger and bigger sphere the farther it goes, so the amount reaching any single patch — such as an eye — thins out in an exact, calculable way."
+          },
+          {
+            "label": "Distant light simply gets tired and loses energy over the journey",
+            "feedback": "Light doesn't lose energy just from traveling through empty space over time; the dimming comes from how thinly the same light gets spread out, not from any weakening of the light itself."
+          },
+          {
+            "label": "Distant objects are dimmer to begin with, regardless of distance",
+            "feedback": "Distance itself changes how dim a source looks, independent of how bright the object truly is — that's precisely why apparent dimness alone can't tell you an object's true brightness without knowing its distance."
+          },
+          {
+            "label": "Light only dims when it passes through dust clouds along the way",
+            "feedback": "Dust can dim light further when it happens to lie in the way, but the light gets fainter with distance in a precise, predictable manner even through perfectly clear space, with no dust involved at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right mechanism",
+        "ok_line": "The same light, spread thinner and thinner over a growing sphere.",
+        "ko_title": "Think about spreading, not fading",
+        "ko_line": "The light itself doesn't weaken on its own — ask what happens to a fixed amount of it as it spreads outward.",
+        "exp_title": "The same light, ever more spread out",
+        "exp_text": "A light source sends the same total light outward in every direction at once, and as that light travels, it is always spread over the surface of a sphere that keeps growing the farther the light gets from its source. Because the same amount of light is smeared across an ever-larger area, the amount landing on any one small patch, such as an eye or any device you might use to measure it, drops off in a fixed, precise way as the distance grows."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "If the true brightness of a certain kind of object is already known, how does seeing it look unusually faint in the sky reveal how far away it is?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its faintness can be compared against its known true brightness, and the dimming rule for light spreading out with distance then gives the distance",
+            "feedback": "Knowing exactly how bright the object truly is provides a fixed reference point; measuring how much dimmer it actually looks tells you, through the same fixed dimming rule that spreading light always follows, how far the light must have traveled to fade by that much."
+          },
+          {
+            "label": "Fainter objects are always simply farther away, no matter what kind of object they are",
+            "feedback": "A faint appearance on its own is ambiguous — it could mean a dim nearby object or a bright distant one; only knowing the object's true brightness in advance lets faintness be turned into a distance."
+          },
+          {
+            "label": "Fainter objects are always physically smaller than brighter ones",
+            "feedback": "How dim something looks isn't a measure of its physical size; a huge object far away can look every bit as faint as a small one nearby."
+          },
+          {
+            "label": "The object's faintness reveals its age rather than its distance",
+            "feedback": "Faintness on its own says nothing about age directly; here it is being used, together with the object's known true brightness, specifically to work out distance."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly right",
+        "ok_line": "Known true brightness plus measured faintness gives distance.",
+        "ko_title": "You need the true brightness first",
+        "ko_line": "Faintness alone tells you nothing; it only becomes useful once you already know how bright the object truly is.",
+        "exp_title": "A known candle, dimmed by distance",
+        "exp_text": "If a particular kind of object is already known to shine with a certain true brightness wherever it occurs, then finding one that looks unusually faint means its light has been spread out and thinned by an unusually long journey. Since light fades with distance according to a fixed, known rule, comparing how bright the object truly is against how dim it now appears is enough to work out exactly how far its light has traveled to reach us."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can two objects that appear to be the same size in the night sky actually be at wildly different distances from Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "The apparent size seen from Earth mixes together the object's true size and its distance, so a small nearby object and a huge distant one can look identical",
+            "feedback": "A given angular size in the sky can be produced either by something small that's close or something enormous that's far away; appearance alone can't tell those two cases apart without more information."
+          },
+          {
+            "label": "Distance has no real effect on how large an object appears",
+            "feedback": "Distance is exactly what changes how large something looks; moving an object farther away makes it appear smaller even though its true size never changed."
+          },
+          {
+            "label": "Every object in the sky is, in truth, the same actual size",
+            "feedback": "Objects in the sky vary enormously in their true size; it's precisely because sizes differ so much that appearance alone can't be trusted to reveal true size or distance."
+          },
+          {
+            "label": "Apparent size only depends on how much light an object gives off, not on distance or true size at all",
+            "feedback": "How much light an object gives off affects how bright it looks, not how large an area it appears to cover in the sky; apparent size is a separate matter, governed by true size and distance together."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That's it",
+        "ok_line": "Small and close can look exactly like huge and far.",
+        "ko_title": "Two things are tangled together",
+        "ko_line": "What you see in the sky is a mix of two separate facts, true size and distance, and appearance alone can't untangle them.",
+        "exp_title": "Two unknowns, one appearance",
+        "exp_text": "The angle an object takes up in the sky depends on both how physically large it truly is and how far away it sits, and those two facts can trade off against each other endlessly. A small object placed close by can occupy exactly the same patch of sky as a colossal object placed far away, so apparent size on its own can never distinguish between the two without some other piece of information about true size or distance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are the gaps between separate galaxies enormously larger, in proportion, than the gaps between stars inside a single galaxy?",
+        "body": null,
+        "options": [
+          {
+            "label": "A galaxy's own gravity pulls its stars into a comparatively compact, tightly bound clump, while the pull between separate galaxies over such distances is far weaker",
+            "feedback": "Within one galaxy, the combined gravity of everything in it draws its stars into a fairly compact region compared with the huge distances involved; between different galaxies, that same kind of pull acts far more weakly across the much greater distance separating them, leaving room for far larger relative gaps."
+          },
+          {
+            "label": "Stars inside a galaxy are simply much larger objects than entire galaxies",
+            "feedback": "A single galaxy, made of enormous numbers of stars together with gas and dust, is vastly larger than any one star within it; the comparison in this question is about the size of the gaps, not the size of the objects themselves."
+          },
+          {
+            "label": "There is no real difference — the two kinds of gaps are about the same size, proportionally",
+            "feedback": "The two kinds of gaps differ enormously in proportion; the space between galaxies dwarfs, relative to galaxy size, the space between stars relative to star size."
+          },
+          {
+            "label": "Galaxies actively repel one another over large distances",
+            "feedback": "Gravity between galaxies is always attractive, never repulsive; it draws them together rather than pushing them apart."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Tightly bound within a galaxy, far more loosely bound between them.",
+        "ko_title": "Compare the binding, not the size",
+        "ko_line": "Ask how strongly gravity holds things together at each of these two different scales.",
+        "exp_title": "Tightly bound within, loosely bound between",
+        "exp_text": "Every star in a galaxy feels the combined pull of the whole galaxy's mass concentrated fairly close by, and that strong shared pull draws its stars into a relatively compact region given how large the galaxy's full extent could otherwise be. Between one galaxy and its nearest neighbor, by contrast, that same gravity has to act across a vastly greater distance, so its pull is far weaker there, leaving the galaxies themselves separated by comparatively enormous gaps."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the parallax method stop working once a galaxy is far enough away, forcing a completely different way of judging its distance?",
+        "body": null,
+        "options": [
+          {
+            "label": "The apparent shift used by parallax becomes too tiny to detect once the distance grows large enough",
+            "feedback": "The farther away an object is, the smaller its apparent shift becomes when viewed from two points on Earth's orbit, until eventually that shift shrinks past the point where it can be told apart from no shift at all."
+          },
+          {
+            "label": "Distant galaxies stop obeying the laws of geometry",
+            "feedback": "Geometry works the same at any distance; the problem is a practical one of measuring an extremely small angle, not a breakdown of geometry itself."
+          },
+          {
+            "label": "Earth's orbit becomes a different shape at large distances",
+            "feedback": "Earth's orbit stays the same regardless of how far away the object being observed happens to be; nothing about the orbit itself changes with distance."
+          },
+          {
+            "label": "Light from very distant galaxies no longer shifts position at all",
+            "feedback": "Distant light still does shift very slightly as the viewpoint moves; the shift doesn't vanish outright, it simply becomes too small to measure reliably."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "A shift too small to measure, once the distance is great enough.",
+        "ko_title": "It's a matter of scale",
+        "ko_line": "Nothing about geometry changes with distance — think about how small that measured shift becomes.",
+        "exp_title": "A shift too small to catch",
+        "exp_text": "Parallax relies on measuring a genuine but very small shift in an object's apparent position as the observing point moves along Earth's orbit, and that shift keeps shrinking the farther away the object is. Past a certain distance the shift becomes so tiny that it can no longer be reliably told apart from no shift at all, so a different property of the distant galaxy's light, one that keeps changing usefully even at those extreme distances, has to be used instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the age of the universe place a hard limit on how far into space we will ever be able to see?",
+        "body": null,
+        "options": [
+          {
+            "label": "Light from anything farther away simply hasn't yet had enough time to reach us, however long we wait",
+            "feedback": "Light needs a certain amount of time to cross any given distance, and if the universe has only existed for a limited stretch of time, light from beyond a certain distance cannot possibly have arrived yet."
+          },
+          {
+            "label": "Light eventually wears out and disappears if it travels too far",
+            "feedback": "Light in open space doesn't simply vanish after traveling a long way; the limit comes from how much time has been available for it to make the journey, not from the light running out."
+          },
+          {
+            "label": "The universe has a solid wall at its outer edge blocking any further light",
+            "feedback": "Nothing about this limit involves a physical wall or barrier; it is a limit set purely by how much time light has had to travel since the universe began."
+          },
+          {
+            "label": "Our own location happens to sit in an unusually dark patch of the universe",
+            "feedback": "This limit isn't about which particular direction or patch we happen to be looking at; the same time-based limit applies equally in every direction from any point in the universe."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "No light from beyond that distance has had time to arrive yet.",
+        "ko_title": "Think about travel time, not a barrier",
+        "ko_line": "There's no wall out there — only a fixed amount of time light has had to make the journey.",
+        "exp_title": "A horizon set by time",
+        "exp_text": "Light travels at a fixed, finite speed, so however far away something is, its light needs a matching amount of time to cross that distance and reach us. Because the universe has only existed for a limited length of time, light from anything beyond the distance that limited time allows simply has not had the chance to arrive yet, no matter how long we go on watching, which is why the observable universe has an edge at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is most of the space that makes up the universe nearly empty, rather than being filled edge to edge with galaxies?",
+        "body": null,
+        "options": [
+          {
+            "label": "Gravity pulled matter together into galaxies and clusters, concentrating it in relatively few places and leaving the rest comparatively bare",
+            "feedback": "As matter clumped together under gravity to build galaxies and clusters, it was drawn out of the surrounding regions to do so, so what remains between those concentrations is left far sparser."
+          },
+          {
+            "label": "The universe simply never contained very much matter to begin with",
+            "feedback": "The matter that built every galaxy, star and planet that exists is itself already an enormous quantity; the emptiness of the space between galaxies isn't due to a shortage of matter overall, but to how unevenly that matter ended up distributed."
+          },
+          {
+            "label": "Galaxies actively push matter away from themselves into the empty regions",
+            "feedback": "Galaxies don't push matter away from themselves; their gravity pulls nearby matter inward, drawing it into the galaxy rather than expelling it outward."
+          },
+          {
+            "label": "Empty space is where galaxies used to be before they vanished",
+            "feedback": "The sparse regions between galaxies were never previously filled with galaxies that later disappeared; they are instead the areas gravity drew matter away from as it built the denser regions elsewhere."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That's the reason",
+        "ok_line": "Matter drawn together into galaxies, leaving the rest of space comparatively bare.",
+        "ko_title": "Think about where the matter went",
+        "ko_line": "The matter didn't vanish or fail to appear — ask where gravity ended up gathering it.",
+        "exp_title": "Gathered in, leaving the rest bare",
+        "exp_text": "As gravity drew matter together over time to build galaxies and the clusters they belong to, it necessarily drew that matter out of the space surrounding those growing concentrations. What is left behind in between is comparatively depleted, so the enormous volume of space separating one galaxy or cluster from the next stays close to empty even though the universe as a whole holds an immense amount of matter."
+      }
+    ]
+  }
+]

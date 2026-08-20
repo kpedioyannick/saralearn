@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 121,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is wind actually made of, in the simplest sense?",
+        "body": null,
+        "options": [
+          {
+            "label": "Air flowing from high pressure toward low pressure",
+            "feedback": "A push from the crowded side toward the emptier one, nothing more exotic than that."
+          },
+          {
+            "label": "Heat moving from a warm place to a cool one",
+            "feedback": "Heat does travel that way, but heat moving is not the same thing as air moving. Wind is matter in motion, not warmth alone."
+          },
+          {
+            "label": "Water vapour drifting between two places",
+            "feedback": "Water vapour rides along inside the wind, but it is a passenger. Wind itself is the whole mass of air, wet or dry."
+          },
+          {
+            "label": "The Earth spinning under a still sky",
+            "feedback": "The sky is not still — it turns with the Earth beneath it too, which is why standing air feels like no wind at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly it",
+        "ok_line": "Wind is just air, pushed.",
+        "ko_title": "Not quite",
+        "ko_line": "Strip away everything wind carries with it — moisture, heat, dust — and ask what is left moving.",
+        "exp_title": "A push, not a substance",
+        "exp_text": "Air pressing on itself is not perfectly even from place to place, and wherever it is denser it pushes harder than wherever it is thinner. That imbalance drives the crowded air to spread out toward the thinner patch, and the moving mass of air doing the spreading is what we call wind."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is air pressure at the ground higher in some places than in others?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because some places are closer to the sea",
+            "feedback": "Distance from the sea shapes climate over years, but it does not by itself decide today's pressure at any one spot."
+          },
+          {
+            "label": "Because the sun heats the ground unevenly",
+            "feedback": "Warmed unevenly, the air above warms unevenly too, and that is where the pressure difference starts."
+          },
+          {
+            "label": "Because the ground is not perfectly flat",
+            "feedback": "Hills and plains steer air once it is moving, but a bump in the land does not on its own create a pressure difference."
+          },
+          {
+            "label": "Because plants release gases into the air",
+            "feedback": "Whatever gases plants add are far too small a share of the air to shift its pressure noticeably."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Uneven heat is where it starts.",
+        "ko_title": "Look at the heating",
+        "ko_line": "One thing changes the temperature of air fastest and most unevenly: the sun striking different surfaces differently.",
+        "exp_title": "Heat first, pressure second",
+        "exp_text": "Sunlight lands on deserts, forests, oceans and ice all at once, and each surface warms the air resting on it by a different amount. Warmed air expands and grows lighter, so it presses down on the ground beneath it a little less than the cooler, denser air sitting somewhere else, and that difference in weight is what shows up as a difference in pressure."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a cool breeze often blow in off the sea on a hot afternoon?",
+        "body": null,
+        "options": [
+          {
+            "label": "The sea pushes air away from itself as it warms",
+            "feedback": "The sea barely warms at all over an afternoon, so it has nothing extra to push with."
+          },
+          {
+            "label": "Waves stir the air above them into motion",
+            "feedback": "Waves move water, not air, and they are far too small and low to drive a breeze that reaches inland."
+          },
+          {
+            "label": "The land heats faster than the sea, so air rises over the land and sea air flows in to replace it",
+            "feedback": "Rising land air leaves a gap at the surface, and the cooler sea air slides in underneath it to fill that gap."
+          },
+          {
+            "label": "Salt in the sea air makes it flow toward fresh air",
+            "feedback": "Salt changes nothing about how air moves. Wind answers to pressure and temperature, not to what is dissolved in the water below it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "That is the sea breeze",
+        "ok_line": "Land heats fast, sea drags behind, and the gap gets filled.",
+        "ko_title": "Compare the two surfaces",
+        "ko_line": "One surface warms quickly in sunlight and one does not. Ask what the fast one does to the air above it.",
+        "exp_title": "The land runs ahead of the sea",
+        "exp_text": "Solid ground heats up in sunshine far faster than water does, so by early afternoon the air over the land is noticeably warmer than the air over the sea. That warm land air rises, and cooler, heavier air from over the sea flows in along the surface to take its place — the onshore breeze that greets you at the coast on a sunny day."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does that same coastal breeze often reverse and blow out to sea after dark?",
+        "body": null,
+        "options": [
+          {
+            "label": "The moon pulls air toward the ocean at night",
+            "feedback": "The moon's pull is far too weak to move air noticeably. It shifts the ocean's tides, not the sky's breezes."
+          },
+          {
+            "label": "Cool air is simply heavier at any time of day",
+            "feedback": "Air being heavier when cool is true at every hour, yet the breeze still reverses at night. Something about day versus night has to explain that reversal."
+          },
+          {
+            "label": "Fewer people are active on land at night",
+            "feedback": "Human activity has no measurable effect on which way a breeze blows. The reversal happens over empty coastlines just as it does over busy ones."
+          },
+          {
+            "label": "The land cools faster than the sea after sunset, so air now rises over the sea instead",
+            "feedback": "With the land now the cooler surface, the sea becomes the warmer one, and the rising air moves to the sea's side of the shoreline."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Correct",
+        "ok_line": "Whichever surface is warmer decides which way the air flows.",
+        "ko_title": "The roles swap after sunset",
+        "ko_line": "By night the land has lost its heat but the sea has kept most of its own. Ask which surface is now the warmer one.",
+        "exp_title": "The land breeze",
+        "exp_text": "Land loses the heat it stored during the day very quickly once the sun sets, while the sea, slow to warm, is also slow to cool and stays milder through the night. With the sea now the warmer surface, air rises over it instead, and cooler air from the land flows out to sea underneath it to fill the space that rising air leaves behind."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does moving air curve instead of flowing in a straight line from high pressure to low pressure?",
+        "body": null,
+        "options": [
+          {
+            "label": "The spinning Earth turns beneath the moving air",
+            "feedback": "The ground and the air both move with the spinning planet, but the air's straight-line path keeps pointing the same way in space while the ground beneath it turns, and the difference between the two looks like a curve."
+          },
+          {
+            "label": "Mountains block the straight path almost everywhere",
+            "feedback": "Mountains do deflect wind locally, but wind curves even over flat oceans with nothing in its way at all."
+          },
+          {
+            "label": "Air is too light to travel in a straight line",
+            "feedback": "Lightness has nothing to do with keeping a straight path — thrown gently or hard, a light object still travels straight until something pushes it sideways."
+          },
+          {
+            "label": "Clouds drag the wind sideways as it passes",
+            "feedback": "Clouds are carried by the wind, not the other way around. They have no grip on the air strong enough to bend its path."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That is the Coriolis effect",
+        "ok_line": "The ground turns under the air's straight path.",
+        "ko_title": "Nothing is pushing it sideways",
+        "ko_line": "No object is bending the wind's path. What is moving is the ground it is measured against.",
+        "exp_title": "Straight, but measured against a turning floor",
+        "exp_text": "Air setting off toward low pressure keeps heading in the same direction relative to space, but the Earth underneath it is turning on its axis the whole time. Watched from the ground, which is itself part of that turning, the air's path appears to bend — to the right of its direction of travel north of the equator, and to the left south of it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does wind usually feel calmer at ground level than it does higher up, say at the top of a tall flagpole?",
+        "body": null,
+        "options": [
+          {
+            "label": "Pressure differences fade out closer to the ground",
+            "feedback": "The pressure difference driving the wind is the same at both heights over such a short distance. What changes is what stands in the air's way."
+          },
+          {
+            "label": "Cold air sinks and traps the wind close to the ground",
+            "feedback": "Sinking cold air can happen, but it is not why wind is slower near the surface everywhere, including on warm, cloudless days with no cold air involved."
+          },
+          {
+            "label": "Birds and insects break up the airflow near the ground",
+            "feedback": "Wildlife is far too sparse and small to meaningfully slow a moving mass of air across a whole landscape."
+          },
+          {
+            "label": "Trees, buildings and the rough ground itself drag on the air and slow it down near the surface",
+            "feedback": "Every bump, blade of grass and wall the air brushes past saps some of its speed, and that drag is strongest right at the surface."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "The surface itself is what drags on the wind.",
+        "ko_title": "Think about friction",
+        "ko_line": "Something at ground level is rubbing against the moving air and is absent higher up.",
+        "exp_title": "Friction eats the lowest layer first",
+        "exp_text": "Every surface the wind flows over — grass, gravel, a rooftop — rubs against the air passing just above it, and that drag slows the lowest layer of moving air the most. Higher up, the air has drifted clear of that rough contact and moves closer to the full speed the pressure difference is driving it at, which is why a flag at the top of a pole often snaps harder than the air feels at your feet."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a steady breeze often blow up a sunlit mountain slope during the day?",
+        "body": null,
+        "options": [
+          {
+            "label": "Air trapped in the valley below has nowhere else to go",
+            "feedback": "Valley air is not sealed in — it is free to sit still or flow along the valley floor. Something has to push it upward specifically."
+          },
+          {
+            "label": "Water flowing down the mountain pulls air up behind it",
+            "feedback": "Flowing water has far too little grip on the air above it to drag a wind uphill against gravity."
+          },
+          {
+            "label": "The slope itself warms in the sun faster than the open air at the same height, so air against it rises",
+            "feedback": "Air resting directly against a sunlit slope is heated by it and becomes lighter than the air sitting away from the mountain at that same altitude, so it rises along the surface."
+          },
+          {
+            "label": "The peak is always colder than the valley, and cold pulls air toward it",
+            "feedback": "Cold air sinks rather than pulling anything toward it. A cold peak would work against an uphill breeze, not cause one."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "That is the anabatic wind",
+        "ok_line": "A sunlit slope heats the air resting on it, and that air climbs.",
+        "ko_title": "Look at what the slope does to the air touching it",
+        "ko_line": "One surface among many on the mountain is aimed straight at the sun and heats faster than the air around it.",
+        "exp_title": "A slope that heats faster than the air beside it",
+        "exp_text": "A mountainside facing the sun absorbs its heat and warms up faster than the free air sitting at the same height but away from the slope. The air in direct contact with that warm ground is heated by it, becomes lighter than its surroundings, and rises along the surface — a breeze that climbs the mountain as the day goes on."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does cold air often pour down a mountainside like an invisible river once the sun has set?",
+        "body": null,
+        "options": [
+          {
+            "label": "Warm air from the valley pushes it back up first",
+            "feedback": "There is no warm valley air pushing anything at night. The valley floor is losing heat too, just more slowly than the exposed slope above it."
+          },
+          {
+            "label": "Gravity pulls dense, cold air down a slope once it forms there",
+            "feedback": "Cold air weighs more for its size than the warmer air around it, and once it collects on a slope, gravity draws that heavier air downhill."
+          },
+          {
+            "label": "The mountain peak releases stored sunlight after dark",
+            "feedback": "Rock has no way to release light back out after the sun sets — it can only give off the heat it stored, and even that fades within hours, not enough to drive a nightly flow."
+          },
+          {
+            "label": "Falling temperature makes air heavier everywhere at once, with no direction to it",
+            "feedback": "Cooling does make air heavier, but that alone gives it no direction to travel in. Something has to be shaped like a slope for the heavy air to flow down."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That is the katabatic wind",
+        "ok_line": "Cold, dense air simply drains downhill.",
+        "ko_title": "Think about weight and shape",
+        "ko_line": "The night-cooled air on a slope is heavier than the air around it, and a slope gives that heavy air a direction to go.",
+        "exp_title": "Heavy air draining off a slope",
+        "exp_text": "After sunset, a mountainside loses the heat it stored during the day and cools the air resting against it, and that cooled air becomes denser than the air around it. Being both heavier and sitting on a tilted surface, it slides downhill under its own weight, gathering in valleys as a cold wind that can arrive well after the sky has gone dark."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does wind often speed up sharply when it is squeezed between two tall buildings or through a narrow mountain pass?",
+        "body": null,
+        "options": [
+          {
+            "label": "The narrow gap adds extra pressure that pushes the air faster",
+            "feedback": "Nothing in a gap adds new pressure from outside. The same amount of air simply has less room to pass through."
+          },
+          {
+            "label": "Walls and cliffs are smoother than open ground, so the air meets less friction",
+            "feedback": "Smoother surfaces can reduce drag a little, but that alone would not explain the sudden, sharp jump in speed felt right in the gap."
+          },
+          {
+            "label": "Sound bouncing between the walls stirs the air into faster motion",
+            "feedback": "Sound moves as a pressure ripple far too faint to push a whole mass of air along. It cannot account for a stronger wind."
+          },
+          {
+            "label": "The same amount of air has to pass through a smaller opening in the same time, so it speeds up to keep flowing",
+            "feedback": "Air cannot pile up and stop at the entrance to a gap, so when the space it flows through narrows, it moves through faster to keep the same amount passing per moment."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "That is the funnelling effect",
+        "ok_line": "Squeeze the same flow through less space, and it must move faster.",
+        "ko_title": "Think about the amount of air, not the walls",
+        "ko_line": "The same quantity of moving air has to get through the gap. Ask what happens to its speed when the opening narrows.",
+        "exp_title": "The same flow through a smaller doorway",
+        "exp_text": "Air arriving at a narrow gap between buildings or peaks cannot simply stop and back up, because more air is constantly arriving behind it. To let the same amount pass through the smaller opening in the same stretch of time, the air is forced to travel faster once it is inside the gap, and that is why alleys and mountain passes are so often noticeably windier than the open ground on either side."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does wind so often gust and swirl rather than blow at one steady speed?",
+        "body": null,
+        "options": [
+          {
+            "label": "Pressure differences themselves rise and fall every few seconds",
+            "feedback": "The pressure difference driving a wind changes gradually, over hours, not second by second — far too slowly to explain a gust that arrives and passes within moments."
+          },
+          {
+            "label": "Rough ground, buildings and rising warm air break the flow into swirling eddies",
+            "feedback": "Obstacles and patches of rising heated air disturb what would otherwise be a smooth stream, breaking it into whirls of faster and slower moving air that arrive at you as gusts."
+          },
+          {
+            "label": "The Earth's rotation briefly speeds up and slows down",
+            "feedback": "The planet's spin is extraordinarily steady and never wavers on a timescale anyone could feel as a gust."
+          },
+          {
+            "label": "Wind is made of separate puffs of air with gaps of stillness between them",
+            "feedback": "Wind is a continuous flow, not a series of separate puffs. What varies is its speed and direction from moment to moment, not whether air is present at all."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Obstacles and rising warm patches chop a smooth flow into eddies.",
+        "ko_title": "Look for what disturbs a smooth flow",
+        "ko_line": "Something the air passes over or through breaks its motion into swirls, which arrive at you as alternating gusts and lulls.",
+        "exp_title": "A smooth flow torn into eddies",
+        "exp_text": "As wind streams over uneven ground, past buildings, or across patches of sun-warmed earth sending up plumes of rising air, its path is repeatedly disturbed and thrown into swirling eddies of different sizes and speeds. Those eddies drift along inside the larger flow, so a spot on the ground feels a faster swirl arrive as a gust and a slower one arrive moments later as a lull, rather than one unbroken speed."
+      }
+    ]
+  }
+]

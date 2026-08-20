@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 140,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How does a deep pile of ordinary snow eventually turn into solid glacier ice?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sunlight melts the surface and refreezes it into one solid block",
+            "feedback": "Surface melting and refreezing does harden the very top layer, but it cannot explain how ice forms deep within a pile many metres thick, far below where sunlight reaches."
+          },
+          {
+            "label": "Cold temperatures alone are enough, without any need for more snow to fall",
+            "feedback": "Snow that just sits at a constant cold temperature stays loose and fluffy indefinitely; something has to actively squeeze the air out of it."
+          },
+          {
+            "label": "New snow piles on top and compresses the older layers, squeezing out the air between crystals",
+            "feedback": "Each new snowfall adds weight, pressing down on the snow beneath it and forcing the air pockets between crystals smaller and smaller until only dense ice remains."
+          },
+          {
+            "label": "Underground heat rises and bakes the snow into ice",
+            "feedback": "Heat from below would melt snow into water rather than compact it into ice, and glaciers form in places with no such source of heat underneath them."
+          }
+        ],
+        "ok_title": "Weight does the work",
+        "ok_line": "Every new snowfall presses a little harder on what is beneath it.",
+        "ko_title": "Not heat, not sunlight",
+        "ko_line": "Think about what happens to the snow that never sees the sun, buried deep under everything that fell after it.",
+        "exp_title": "Snow crushed until the air is gone",
+        "exp_text": "Freshly fallen snow is mostly trapped air, loosely held between fragile ice crystals. As more snow falls on top year after year, the weight of each new layer presses down on the layers below, crushing the crystals closer together and forcing the trapped air out. Once enough of that air has been squeezed away, what remains is no longer snow but dense, solid glacier ice."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a glacier move slowly downhill like an extremely slow river?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Its own great weight makes the ice deform and creep under gravity",
+            "feedback": "A thick enough mass of ice behaves less like a rigid solid and more like a very stiff, slow-flowing material, deforming and creeping downhill under its own weight."
+          },
+          {
+            "label": "Wind pushes the surface of the ice forward",
+            "feedback": "Wind can shape and polish a glacier's surface, but it has nowhere near the force needed to shift a mass of ice that can be hundreds of metres thick."
+          },
+          {
+            "label": "The whole glacier melts and refreezes further downhill",
+            "feedback": "A glacier does not vanish and reappear lower down; the same ice itself is what travels, deforming as it goes rather than melting away entirely."
+          },
+          {
+            "label": "Earthquakes shake it gradually down the slope",
+            "feedback": "Most glaciers flow steadily even where earthquakes are rare, so quaking ground cannot be the general explanation for their movement."
+          }
+        ],
+        "ok_title": "Ice that behaves like a slow fluid",
+        "ok_line": "Enough weight makes even ice give way and creep.",
+        "ko_title": "It is the ice itself that moves",
+        "ko_line": "Nothing pushes a glacier from outside. Something inside it is giving way under its own weight.",
+        "exp_title": "Solid ice that flows",
+        "exp_text": "Once ice piles up thick enough, the immense weight bearing down from above causes the ice crystals deep inside to slowly slide and deform against one another, even though the ice never turns to liquid. This slow internal deformation lets the whole mass creep downhill under gravity, much like thick honey spreading, only vastly slower. Near the base, meltwater can also let the glacier slide directly over the rock beneath it, adding to the same downhill motion."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do glaciers carve broad, U-shaped valleys, while rivers cut narrow, V-shaped ones?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Glaciers only form in valleys that are already U-shaped",
+            "feedback": "Many glacial valleys began as narrow V-shaped river valleys before a glacier ever moved through them; the U-shape is carved afterward, not inherited."
+          },
+          {
+            "label": "A glacier is a wide mass of ice that grinds against the whole valley floor and walls at once",
+            "feedback": "Unlike a narrow stream of water confined to a channel, a thick glacier fills and scrapes against the entire width and sides of a valley as it flows, wearing a broad U-shape rather than a narrow groove."
+          },
+          {
+            "label": "Rivers only ever flow through valleys made of much softer rock",
+            "feedback": "Rivers cut their narrow, angular valleys through the same kinds of rock that glaciers later broaden, so rock type is not what decides the shape."
+          },
+          {
+            "label": "Glacier ice is heavier than river water, so it presses straight down",
+            "feedback": "Even if ice is denser, the shape of the valley is set by where the eroding material actually makes contact, and a glacier makes contact across its whole width, not only straight down the centre."
+          }
+        ],
+        "ok_title": "Wide contact, wide shape",
+        "ok_line": "A river touches a line. A glacier touches the whole valley.",
+        "ko_title": "Think about what is actually scraping the rock",
+        "ko_line": "A stream of water is narrow. What is a glacier, by comparison?",
+        "exp_title": "One erodes a line, the other erodes a whole valley",
+        "exp_text": "A river is a narrow ribbon of water confined to the lowest part of a valley, so it grinds away mainly at the streambed directly beneath it, cutting a deep, narrow notch. A glacier, by contrast, is a thick mass of ice that fills the entire valley from wall to wall, so as it flows it grinds against the floor and both sides at once. Eroding the whole cross-section rather than only the streambed beneath it is what leaves behind the glacier's broad, rounded U-shape."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does densely packed glacier ice inside a deep crevasse often look strikingly blue?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Blue minerals dissolved in the meltwater stain the ice",
+            "feedback": "Glacier ice forms from compressed snow, not from mineral-rich water, and the blue colour appears even where no meltwater has touched the ice at all."
+          },
+          {
+            "label": "The shadow inside a crevasse makes any ice appear blue",
+            "feedback": "A shadow only dims light; it does not add colour to something that is otherwise colourless, and the same blue tint shows up in blocks of dense glacier ice in full sunlight too."
+          },
+          {
+            "label": "Reflections from the sky are trapped inside the crevasse",
+            "feedback": "The blue seen deep inside solid ice is generated by the ice itself, and appears even in ice viewed indoors, far from any sky to reflect."
+          },
+          {
+            "label": "Densely packed ice absorbs red light strongly and scatters blue light back out",
+            "feedback": "Once nearly all the trapped air has been squeezed from the ice, it becomes dense enough to absorb red wavelengths of light noticeably while letting blue light travel through and scatter back to the eye."
+          }
+        ],
+        "ok_title": "A colour made by the ice itself",
+        "ok_line": "Blue is what red light leaves behind.",
+        "ko_title": "Not a reflection, not a stain",
+        "ko_line": "The blue comes from inside the ice, from what happens to light as it passes all the way through.",
+        "exp_title": "Red light absorbed, blue light returned",
+        "exp_text": "Ordinary snow and loose, bubbly ice scatter every colour of light straight back out before it can travel far, which is why they look white. Ice that has been compressed for a long time, with almost all its trapped air squeezed away, lets light travel much deeper before scattering, and across that longer path the ice quietly absorbs red light more than blue. What escapes back out toward your eye is what is left after the red has been absorbed away, which is why ice compressed enough to have lost nearly all its trapped air can look blue."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a chunk of sea ice float on top of the ocean instead of sinking?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Water expands and becomes less dense as it freezes into ice",
+            "feedback": "Unlike most substances, water's molecules arrange into a more open, spread-out lattice as they freeze, so ice takes up more space than the same mass of liquid water and ends up less dense."
+          },
+          {
+            "label": "Trapped air bubbles alone make the ice light enough to float",
+            "feedback": "Even completely bubble-free ice, with no trapped air at all, still floats on liquid water, so bubbles are not the reason for the buoyancy."
+          },
+          {
+            "label": "Salt in the seawater pushes the ice upward",
+            "feedback": "Freshwater ice floats on freshwater in exactly the same way, with no salt involved at all, so salt cannot be the underlying cause of the floating."
+          },
+          {
+            "label": "Wind and waves keep the ice from sinking",
+            "feedback": "A block of sea ice left in perfectly still water still floats without any wind or waves acting on it, so motion at the surface is not what holds it up."
+          }
+        ],
+        "ok_title": "Lighter for its size",
+        "ok_line": "Ice takes up more room than the water it came from.",
+        "ko_title": "It is about the ice's structure, not its surroundings",
+        "ko_line": "Think about what happens to water's molecules the moment they lock into a solid.",
+        "exp_title": "A solid that spreads out instead of packing in",
+        "exp_text": "In most liquids, molecules pack closer together as they cool and freeze into a solid, making the solid form denser than the liquid. Water is unusual: as it freezes, its molecules lock into a six-sided lattice that actually holds them slightly farther apart than in liquid water. That more open structure makes ice less dense than liquid water, so a floating piece of it settles with much of its bulk below the surface and only a small portion showing above."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is newly formed sea ice less salty than the ocean water it froze from?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Salt evaporates out of the water just before it freezes",
+            "feedback": "Salt does not evaporate the way water itself can; it stays dissolved in liquid water right up until the moment the water actually freezes."
+          },
+          {
+            "label": "Freezing destroys the salt dissolved in the water",
+            "feedback": "Freezing is a physical change in the water, not a chemical reaction, and it has no way to break down or destroy the salt that was dissolved in it."
+          },
+          {
+            "label": "The ice crystal structure mostly excludes salt, pushing it into pockets of brine",
+            "feedback": "As ice crystals form, their orderly structure has little room for salt ions, so most of the salt is squeezed out into small pockets of concentrated liquid brine trapped between the crystals, much of which slowly drains away."
+          },
+          {
+            "label": "Fresh rain mixes into the ice as it forms",
+            "feedback": "Sea ice forms and loses much of its salt in places and seasons with no rainfall involved at all, so incoming rain cannot be the general explanation."
+          }
+        ],
+        "ok_title": "Squeezed out, not washed away",
+        "ok_line": "The ice crystal has no room for the salt.",
+        "ko_title": "Think about the crystal, not the water around it",
+        "ko_line": "Freezing is not the same as boiling. Ask what an orderly crystal structure has room for.",
+        "exp_title": "A crystal that turns salt away",
+        "exp_text": "As seawater freezes, the water molecules lock into an ordered ice crystal, and that tight structure has very little space to include dissolved salt ions. Most of the salt is squeezed out of the forming ice and collects instead in small pockets of concentrated liquid brine trapped between the ice crystals. Over time much of that brine slowly drains downward out of the ice, leaving behind ice that is made of far fresher water than the sea it grew from."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do glaciers sometimes leave large boulders sitting far from any matching rock formation, once the ice has melted away?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The boulders grew in place from minerals in the glacial meltwater",
+            "feedback": "A boulder like this is solid rock broken off a cliff somewhere else; it did not grow on the spot from minerals dissolved in meltwater."
+          },
+          {
+            "label": "The glacier froze around the rock and carried it along as it flowed",
+            "feedback": "A boulder that breaks free from a cliff or outcrop can become frozen into the base or side of a moving glacier, which then carries it along, sometimes for a very long distance, before eventually melting and setting it down."
+          },
+          {
+            "label": "An earthquake threw the boulder to its resting place",
+            "feedback": "These out-of-place boulders are typically found scattered along the exact paths that glaciers are known to have followed, not scattered randomly the way an earthquake's debris would be."
+          },
+          {
+            "label": "Wind rolled the boulder slowly across the landscape",
+            "feedback": "Wind can shift sand and small pebbles, but it has nowhere near the force needed to move a boulder that can weigh many tonnes."
+          }
+        ],
+        "ok_title": "Carried, not thrown",
+        "ok_line": "The ice picked it up in one place and set it down in another.",
+        "ko_title": "Think about what could carry something that heavy",
+        "ko_line": "Almost nothing can move a rock this large — except something that can freeze around it and drag it along.",
+        "exp_title": "A rock frozen into moving ice",
+        "exp_text": "As a glacier flows past a cliff or outcrop, broken fragments of rock can become locked into the ice at its base or along its edges. The glacier then carries that rock along as it creeps downhill, sometimes over a very long distance, still frozen firmly in place within the ice. When the glacier eventually retreats or melts away, the rock is simply left sitting wherever the ice happened to release it, often far from anything else made of the same stone."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a retreating glacier often leave behind long ridges of loose rock and rubble marking where its edge used to be?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Rain washes rock down from nearby peaks after the ice is gone",
+            "feedback": "These ridges appear right along the glacier's former edge, in patterns that match exactly where the ice used to sit, which rainfall after the fact would not reproduce."
+          },
+          {
+            "label": "The ground beneath the glacier cracks open and pushes rubble upward",
+            "feedback": "The rubble is a pile of loose material sitting on top of the ground, not rock that has broken upward through it from below."
+          },
+          {
+            "label": "Wind sweeps rock debris into place along old ice boundaries",
+            "feedback": "Wind alone is far too weak to gather and shape debris into ridges as large and continuous as those left along a glacier's edges."
+          },
+          {
+            "label": "The glacier scrapes and carries rock as it flows, then drops it where the ice melts back or stalls",
+            "feedback": "As it moves, a glacier picks up loose rock and grinds pieces off the surrounding bedrock, pushing and carrying this material along its sides and front; wherever the ice edge stays in one place for a while or finally melts away, that load of rock is left behind in a ridge."
+          }
+        ],
+        "ok_title": "A trail marking where the ice stopped",
+        "ok_line": "The ridge is the load the ice was carrying, set down where the ice ended.",
+        "ko_title": "The ridge follows the ice, not the weather",
+        "ko_line": "These ridges trace the exact outline of where the glacier's edge used to sit. What could leave a mark shaped exactly like that?",
+        "exp_title": "The glacier's own cargo, dropped in place",
+        "exp_text": "As a glacier flows, it grinds rock loose from the land beneath and around it and carries this debris along, piled up mainly at its sides and its leading edge. Wherever that edge stays roughly in the same place for a long stretch of time, or wherever the ice finally melts back for good, the rock it was carrying has nowhere further to go and simply accumulates there. The resulting ridge of rubble, called a moraine, marks the outline of the glacier's edge at the moment it stopped advancing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do deep cracks called crevasses open up in the surface of a moving glacier?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Meltwater tunnels straight down through the ice from above",
+            "feedback": "Meltwater can later widen an existing crack by flowing into it, but the crack itself opens up first because of stress in the moving ice, not because water bored the tunnel from scratch."
+          },
+          {
+            "label": "Underground heat melts channels upward through the glacier",
+            "feedback": "Crevasses form at the surface of the ice where it is coldest and most brittle, the opposite of where rising underground heat would act."
+          },
+          {
+            "label": "Surface ice is brittle and fractures when the glacier flows over uneven ground or around a bend",
+            "feedback": "While deep ice can slowly deform without breaking, ice near the surface is cold and brittle; when the glacier's flow speeds up, slows down, or curves over changing terrain, that surface ice is stretched faster than it can bend, and it cracks open instead."
+          },
+          {
+            "label": "The glacier is compressed from both sides until it splits down the middle",
+            "feedback": "Compression tends to close cracks rather than open them; crevasses form where the ice is instead being stretched or pulled apart at the surface."
+          }
+        ],
+        "ok_title": "Brittle on top, flowing underneath",
+        "ok_line": "The surface cannot bend as easily as the ice deep below it.",
+        "ko_title": "Not carved from above, not melted from below",
+        "ko_line": "Something about the way the surface ice moves is different from the ice deep inside the glacier.",
+        "exp_title": "Ice that cracks because it cannot bend fast enough",
+        "exp_text": "Deep within a glacier, the ice is warmer and under enough pressure to slowly deform without breaking, letting it flow rather than crack. Ice nearer the surface, though, is colder and more rigid, so it cannot stretch and bend nearly as easily. When the glacier flows over a steep drop, a bend, or a bump in the ground beneath it, the surface ice is pulled apart faster than it can deform, and it fractures open into a crevasse instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does floating sea ice grow mainly from its underside, adding new ice beneath the existing sheet rather than on top?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ice on top insulates the water below, so freezing happens where liquid water still touches ice",
+            "feedback": "Once a layer of ice covers the surface, it acts like a lid that slows heat loss from the water below, so the only place liquid seawater still meets cold ice directly is at the ice's underside, and that is where new freezing takes place."
+          },
+          {
+            "label": "Snow falling on top of the ice melts and refreezes underneath it",
+            "feedback": "Snow settling on top of sea ice generally stays as snow or compacts in place; it does not travel down through the ice to refreeze at the bottom."
+          },
+          {
+            "label": "Sunlight only reaches the underside of the ice",
+            "feedback": "Sunlight strikes the top surface of sea ice directly; very little of it penetrates all the way through to the underside, so light is not what is driving the growth there."
+          },
+          {
+            "label": "Ocean currents scrape ice away from the top so it can only thicken below",
+            "feedback": "Calm areas of sea ice with little current beneath them still thicken from the bottom in exactly the same way, so scraping currents are not the general explanation."
+          }
+        ],
+        "ok_title": "Growth where the water still meets ice",
+        "ok_line": "The top is already frozen. The bottom is where the freezing still happens.",
+        "ko_title": "The top is not where the action is",
+        "ko_line": "Ask where liquid seawater is still in direct contact with cold ice.",
+        "exp_title": "Freezing happens where liquid water still touches ice",
+        "exp_text": "Once a sheet of sea ice covers the ocean surface, it acts as a lid that slows how quickly heat from the water below can escape into the cold air above. That insulation means the ice's top surface, already frozen, has no liquid water left to add to it. The only place seawater still sits directly against ice is at the ice's underside, so that is where heat keeps flowing out of the water into the ice above it, and where new ice keeps forming, thickening the sheet from below."
+      }
+    ]
+  }
+]

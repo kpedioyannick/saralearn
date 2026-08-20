@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 228,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is diffuse sky radiation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sunlight that reaches the ground after being scattered by the atmosphere",
+            "feedback": "Correct. Diffuse sky radiation is solar radiation that has been scattered from the direct solar beam by molecules or particles in the air before reaching Earth's surface."
+          },
+          {
+            "label": "Light emitted by the sky itself at night",
+            "feedback": "No. Diffuse sky radiation comes from the Sun, not from the sky's own emission. It is scattered sunlight."
+          },
+          {
+            "label": "Heat radiated from the ground upward",
+            "feedback": "Incorrect. That is terrestrial radiation, not sky radiation. Diffuse sky radiation is solar in origin."
+          },
+          {
+            "label": "Light reflected off the Moon's surface",
+            "feedback": "Wrong. Moonlight is reflected sunlight, but diffuse sky radiation refers to sunlight scattered by Earth's atmosphere, not by the Moon."
+          }
+        ],
+        "ok_title": "Scattered sunlight",
+        "ok_line": "Diffuse sky radiation is sunlight scattered by the atmosphere.",
+        "ko_title": "Not that source",
+        "ko_line": "Remember, it comes from the Sun, not from the sky or Moon.",
+        "exp_title": "Diffuse sky radiation",
+        "exp_text": "Diffuse sky radiation is solar radiation that reaches the ground after being scattered from the direct solar beam by molecules or particulates in the atmosphere. It is the reason the sky has color, especially blue on a clear day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of light is scattered most strongly by Earth's atmosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red light",
+            "feedback": "No. Red has a longer wavelength, so it is scattered less efficiently. Blue is scattered more."
+          },
+          {
+            "label": "Green light",
+            "feedback": "Incorrect. Green is scattered more than red but less than blue. Short wavelengths scatter most."
+          },
+          {
+            "label": "Blue light",
+            "feedback": "Correct. Blue light has a shorter wavelength, so the atmosphere scatters it more efficiently than red or green light."
+          },
+          {
+            "label": "All colors are scattered equally",
+            "feedback": "Wrong. The atmosphere scatters short-wavelength light more strongly; colors are not scattered equally."
+          }
+        ],
+        "ok_title": "Blue scatters most",
+        "ok_line": "Short-wavelength blue light is scattered more than longer wavelengths.",
+        "ko_title": "Not equal scattering",
+        "ko_line": "The atmosphere favors short wavelengths, not all colors alike.",
+        "exp_title": "Wavelength and scattering",
+        "exp_text": "Earth's atmosphere scatters short-wavelength light more efficiently. Because blue light has a shorter wavelength than red or green, it is scattered most, which is why the daytime sky appears blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the color of the Sun near sunset?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It turns blue because the sky is blue",
+            "feedback": "No. Near sunset, blue and green light are scattered away from the line of sight, leaving the reds."
+          },
+          {
+            "label": "It turns orange to red because blue light is scattered away",
+            "feedback": "Correct. At sunset, sunlight passes through much more atmosphere, so blue and green light are scattered out of view, leaving orange-red colors."
+          },
+          {
+            "label": "It stays the same white color all day",
+            "feedback": "Incorrect. The path through the atmosphere at sunset removes much of the blue and green light, changing the color."
+          },
+          {
+            "label": "It turns violet because of ozone absorption",
+            "feedback": "Wrong. Violet is not the dominant color; ozone absorption helps keep blue in the evening sky, not the Sun's color. The Sun appears orange to red."
+          }
+        ],
+        "ok_title": "Sunset reddening",
+        "ok_line": "At sunset, blue and green scatter away, leaving orange-red light.",
+        "ko_title": "Not blue or white",
+        "ko_line": "The longer path removes short wavelengths, reddening the Sun.",
+        "exp_title": "Sunset colors",
+        "exp_text": "Near sunrise or sunset, sunlight travels nearly tangentially through the atmosphere, so its path is elongated. Much blue and green light is scattered away from the line of sight, leaving the Sun's rays and illuminated clouds orange to red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Under an overcast sky, what kind of light reaches the ground?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Only direct sunlight",
+            "feedback": "No. Under overcast skies, there is essentially no direct sunlight; all light is diffuse."
+          },
+          {
+            "label": "Mostly red light from the clouds",
+            "feedback": "Incorrect. Cloud droplets scatter all colors approximately equally, so the light is not reddened."
+          },
+          {
+            "label": "A mix of direct and diffuse light",
+            "feedback": "Wrong. An overcast sky blocks the direct solar beam, leaving only scattered diffuse light."
+          },
+          {
+            "label": "Only diffuse sky radiation",
+            "feedback": "Correct. Under an overcast sky, there is no direct sunlight; all light results from diffused skylight radiation."
+          }
+        ],
+        "ok_title": "All diffuse light",
+        "ok_line": "Overcast skies give only diffused skylight, no direct sun.",
+        "ko_title": "Not direct sunlight",
+        "ko_line": "Clouds block the direct beam, leaving only scattered light.",
+        "exp_title": "Overcast light",
+        "exp_text": "When the sky is overcast, cloud cover blocks the direct solar beam, so all light reaching the ground is diffuse sky radiation. The flux is not very wavelength-dependent because cloud droplets scatter all colors roughly equally."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are Rayleigh scattering and Mie scattering?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The two dominant scattering processes in the atmosphere",
+            "feedback": "Correct. Rayleigh and Mie scattering are the main atmospheric scattering processes; both are elastic, meaning light changes direction without being absorbed or changing wavelength."
+          },
+          {
+            "label": "The two gases that make up most of the air",
+            "feedback": "No. Those gases are nitrogen and oxygen, not scattering processes. Rayleigh and Mie are how light is redirected."
+          },
+          {
+            "label": "Two types of clouds that produce rain",
+            "feedback": "Incorrect. They are not cloud types; they are physical descriptions of scattering by particles of different sizes."
+          },
+          {
+            "label": "The colors seen at sunrise and sunset",
+            "feedback": "Wrong. They cause color changes, but they are not colors themselves; they are scattering mechanisms."
+          }
+        ],
+        "ok_title": "Main scatterers",
+        "ok_line": "Rayleigh and Mie scattering dominate atmospheric light scattering.",
+        "ko_title": "Not gases or clouds",
+        "ko_line": "They are scattering processes, not substances.",
+        "exp_title": "Rayleigh and Mie scattering",
+        "exp_text": "The dominant radiative scattering processes in the atmosphere are Rayleigh scattering and Mie scattering. They are elastic, meaning a photon can be deviated from its path without being absorbed and without changing wavelength."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When does Rayleigh scattering occur?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "When particles are larger than the wavelength of light",
+            "feedback": "No. Larger particles follow Mie scattering or geometric optics, not Rayleigh scattering."
+          },
+          {
+            "label": "When particle diameters are less than about one-tenth of the light's wavelength",
+            "feedback": "Correct. Rayleigh scattering happens when the ratio of particle diameter to wavelength is less than about one-tenth."
+          },
+          {
+            "label": "When particles are exactly the same size as the wavelength",
+            "feedback": "Incorrect. That ratio is around one, which is larger and not Rayleigh scattering; it falls into more complex scattering."
+          },
+          {
+            "label": "Only at night when the Sun is absent",
+            "feedback": "Wrong. Rayleigh scattering occurs in daylight and twilight; it is not tied to night-time conditions."
+          }
+        ],
+        "ok_title": "Tiny particles",
+        "ok_line": "Rayleigh scattering needs particles smaller than one-tenth the wavelength.",
+        "ko_title": "Size matters",
+        "ko_line": "Larger particles give Mie scattering, not Rayleigh.",
+        "exp_title": "Rayleigh condition",
+        "exp_text": "Scattering varies with the ratio of particle diameter to light wavelength. When that ratio is less than about one-tenth, Rayleigh scattering occurs; at larger ratios, scattering behaves differently, as described by Mie theory."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the scattering coefficient in Rayleigh scattering depend on?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The temperature of the air",
+            "feedback": "No. Temperature is not mentioned as a factor; the coefficient depends on wavelength."
+          },
+          {
+            "label": "The height above the ground",
+            "feedback": "Incorrect. Altitude is not part of the scattering coefficient; it is about the ratio of particle size to wavelength."
+          },
+          {
+            "label": "The color of the cloud",
+            "feedback": "Wrong. Clouds are not involved in the coefficient; it depends on the wavelength of light."
+          },
+          {
+            "label": "The fourth power of the wavelength inversely",
+            "feedback": "Correct. In Rayleigh scattering, the scattering coefficient varies inversely with the fourth power of the wavelength."
+          }
+        ],
+        "ok_title": "Wavelength power",
+        "ok_line": "Rayleigh scattering coefficient varies inversely with the fourth power.",
+        "ko_title": "Not temperature or height",
+        "ko_line": "The dependence is purely on wavelength, not on air conditions.",
+        "exp_title": "Scattering coefficient",
+        "exp_text": "For Rayleigh scattering, the scattering coefficient varies inversely with the fourth power of the wavelength. This strong wavelength dependence is why shorter blue light is scattered much more than longer red light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During twilight, which gas helps keep the sky blue?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Carbon dioxide",
+            "feedback": "No. Carbon dioxide is not mentioned; ozone is the gas that helps maintain blue in the evening sky."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Incorrect. Nitrogen is involved in Rayleigh scattering in daylight, but at twilight it is ozone that contributes to the blue color."
+          },
+          {
+            "label": "Ozone",
+            "feedback": "Correct. Near sunset and especially during twilight, absorption by ozone significantly contributes to maintaining the blue color in the evening sky."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Wrong. Oxygen is a diatomic gas involved in Rayleigh scattering, but the blue maintenance at twilight is attributed to ozone, not oxygen."
+          }
+        ],
+        "ok_title": "Ozone keeps blue",
+        "ok_line": "Ozone absorption helps keep the twilight sky blue.",
+        "ko_title": "Not the usual gases",
+        "ko_line": "Ozone, not nitrogen or oxygen, does this at twilight.",
+        "exp_title": "Twilight blue",
+        "exp_text": "In broad daylight, Rayleigh scattering by nitrogen and oxygen makes the sky blue. Near sunset, especially during twilight, absorption by ozone significantly contributes to maintaining that blue color in the evening sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to light when it passes through thick storm clouds?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It becomes very dim, down to about 1/1000 of direct sunlight",
+            "feedback": "Correct. Under the thickest storm clouds, the intensity of diffuse light drops to roughly one-thousandth of direct sunlight."
+          },
+          {
+            "label": "It stays as bright as direct sunlight",
+            "feedback": "No. Clouds scatter and absorb light, reducing intensity significantly; even thin clouds lower it to about one-sixth."
+          },
+          {
+            "label": "It turns red because of scattering",
+            "feedback": "Incorrect. Cloud droplets scatter all colors equally, so there is no reddening; the light is just dimmer."
+          },
+          {
+            "label": "It becomes completely black with no light at all",
+            "feedback": "Wrong. Even thick storm clouds let some diffuse light through, not zero; it is about 1/1000 of direct sunlight."
+          }
+        ],
+        "ok_title": "Dim storm light",
+        "ok_line": "Thick storm clouds dim light to about 1/1000 of direct sun.",
+        "ko_title": "Not full or black",
+        "ko_line": "Clouds dim but don't eliminate light, and they don't redden it.",
+        "exp_title": "Cloud intensity",
+        "exp_text": "Under overcast skies, light intensity depends on cloud thickness. For relatively thin clouds, it is about one-sixth of direct sunlight, but under the thickest storm clouds, it drops to about one-thousandth."
+      }
+    ]
+  }
+]

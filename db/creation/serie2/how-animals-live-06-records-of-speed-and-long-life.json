@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 246,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the fastest bird in a diving chase, reaching speeds far above any other bird?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The eagle",
+            "feedback": "Eagles are powerful hunters, but their top diving speed is far below that of the peregrine falcon, which is the record holder for speed in a dive."
+          },
+          {
+            "label": "The swallow",
+            "feedback": "Swallows are agile and quick in level flight, but they are not built for high-speed diving; they lack the streamlined body and wing shape of the peregrine falcon."
+          },
+          {
+            "label": "The peregrine falcon",
+            "feedback": "Correct. The peregrine falcon is the fastest bird in a dive, folding its wings back to become a streamlined arrow, reaching speeds of over 300 km/h."
+          },
+          {
+            "label": "The albatross",
+            "feedback": "Albatrosses are superb gliders over long distances, but their flight speed is moderate; they are not adapted for steep, fast dives like the peregrine falcon."
+          }
+        ],
+        "ok_title": "Fastest diver",
+        "ok_line": "The peregrine falcon is the fastest bird in a dive.",
+        "ko_title": "Not the fastest",
+        "ko_line": "The peregrine falcon holds the diving speed record.",
+        "exp_title": "Diving speed",
+        "exp_text": "The peregrine falcon is the fastest animal in a dive, reaching speeds over 300 km/h. It achieves this by pulling its wings close to its body, making itself as streamlined as possible, and using gravity to accelerate toward prey below."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which animal is the fastest land animal over short distances?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The cheetah",
+            "feedback": "Correct. The cheetah is the fastest land animal, able to sprint at about 100 km/h in short bursts, using its flexible spine and long legs for maximum stride length."
+          },
+          {
+            "label": "The lion",
+            "feedback": "Lions are powerful but not the fastest; they typically chase prey at about 60 km/h and tire quickly, unlike the cheetah which is built for explosive speed."
+          },
+          {
+            "label": "The horse",
+            "feedback": "Horses are fast over longer distances, but a top racehorse reaches about 70 km/h, well below the cheetah's sprint speed."
+          },
+          {
+            "label": "The kangaroo",
+            "feedback": "Kangaroos hop efficiently for long distances at moderate speeds, but they are nowhere near the cheetah's sprint speed."
+          }
+        ],
+        "ok_title": "Speed champion",
+        "ok_line": "The cheetah is the fastest land animal.",
+        "ko_title": "Not the fastest",
+        "ko_line": "No land animal outruns the cheetah in a sprint.",
+        "exp_title": "Sprint speed",
+        "exp_text": "The cheetah is the fastest land animal, reaching about 100 km/h in short bursts. Its lightweight body, long legs, and flexible spine allow it to cover ground quickly, but it can only keep this up for a few hundred metres before overheating."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which fish is known for the fastest swimming speed among all fish?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The salmon",
+            "feedback": "Salmon are strong swimmers, especially against currents, but their top speed is only about 40 km/h, far below the fastest fish."
+          },
+          {
+            "label": "The tuna",
+            "feedback": "Tuna are fast, reaching about 70 km/h, but they are not the fastest; the sailfish is quicker in bursts."
+          },
+          {
+            "label": "The shark",
+            "feedback": "Sharks are efficient hunters, but most species swim at moderate speeds; the shortfin mako is fast but not the fastest fish."
+          },
+          {
+            "label": "The sailfish",
+            "feedback": "Correct. The sailfish is the fastest fish, reaching speeds of about 110 km/h in short bursts, using its large tail fin and streamlined body to accelerate quickly."
+          }
+        ],
+        "ok_title": "Fastest fish",
+        "ok_line": "The sailfish is the fastest swimmer.",
+        "ko_title": "Not the fastest",
+        "ko_line": "The sailfish outswims all other fish.",
+        "exp_title": "Fish speed",
+        "exp_text": "The sailfish is the fastest fish, capable of bursts up to 110 km/h. Its long, sleek body and powerful tail fin let it slice through water, and it uses this speed to chase down smaller fish in sudden sprints."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the longest-living land animal known to science?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The elephant",
+            "feedback": "Elephants can live 60–70 years, which is long, but some land animals live far longer; the giant tortoise outlives them by centuries."
+          },
+          {
+            "label": "The giant tortoise",
+            "feedback": "Correct. Giant tortoises are the longest-living land animals, with some individuals living over 150 years, thanks to their slow metabolism and low predation risk."
+          },
+          {
+            "label": "The grizzly bear",
+            "feedback": "Grizzly bears live about 25–30 years in the wild; they are long-lived for their size but far shorter than giant tortoises."
+          },
+          {
+            "label": "The camel",
+            "feedback": "Camels live about 40–50 years, which is average for their size, but not the longest among land animals."
+          }
+        ],
+        "ok_title": "Land longevity",
+        "ok_line": "The giant tortoise lives the longest on land.",
+        "ko_title": "Not the longest",
+        "ko_line": "Giant tortoises far outlive other land animals.",
+        "exp_title": "Long-lived tortoises",
+        "exp_text": "Giant tortoises are the longest-living land animals, with lifespans over 150 years. Their slow metabolism, low energy use, and lack of natural predators on their island homes mean they age very slowly compared to other animals of similar size."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which animal holds the record for the longest confirmed lifespan of any vertebrate?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The blue whale",
+            "feedback": "Blue whales can live about 80–90 years, which is long, but they do not reach the century mark like some sharks and whales."
+          },
+          {
+            "label": "The elephant seal",
+            "feedback": "Elephant seals live about 20–25 years; they are not known for extreme lifespans."
+          },
+          {
+            "label": "The Greenland shark",
+            "feedback": "Correct. The Greenland shark has the longest confirmed lifespan of any vertebrate, with individuals estimated to live over 400 years, possibly up to 500."
+          },
+          {
+            "label": "The orca",
+            "feedback": "Orcas can live up to 90 years in the wild, but that is far shorter than the Greenland shark's multi-century life."
+          }
+        ],
+        "ok_title": "Vertebrate record",
+        "ok_line": "The Greenland shark lives the longest of all vertebrates.",
+        "ko_title": "Shorter record",
+        "ko_line": "The Greenland shark outlives every other vertebrate.",
+        "exp_title": "Century-old shark",
+        "exp_text": "The Greenland shark is the longest-living vertebrate, with some individuals over 400 years old. It lives in cold, deep Arctic waters, and its slow growth (about 1 cm per year) and very slow metabolism are linked to its extreme longevity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the cheetah tire quickly after a short sprint?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because its body builds up heat rapidly",
+            "feedback": "Correct. The cheetah's sprint generates enormous heat, and its body cannot cool down fast enough, forcing it to rest after about 30 seconds to avoid overheating."
+          },
+          {
+            "label": "Because its legs are weak",
+            "feedback": "A cheetah's legs are very strong, built for speed; the limit is not muscle weakness but heat buildup."
+          },
+          {
+            "label": "Because it runs out of oxygen",
+            "feedback": "The cheetah uses anaerobic energy for the sprint, but the main limiting factor is heat, not running out of oxygen."
+          },
+          {
+            "label": "Because its heart is small",
+            "feedback": "A cheetah has a large heart and lungs for rapid oxygen delivery; the problem is heat dissipation, not heart size."
+          }
+        ],
+        "ok_title": "Cheetah's limit",
+        "ok_line": "Heat buildup forces the cheetah to stop.",
+        "ko_title": "Heat, not weakness",
+        "ko_line": "The cheetah stops because it overheats, not because it tires.",
+        "exp_title": "Sprint overheating",
+        "exp_text": "The cheetah's sprint speeds up its muscles so much that they produce excess heat faster than the body can shed it. Within about 30 seconds, its temperature rises dangerously, so it must stop and rest before it can sprint again."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the peregrine falcon's body most helps it dive at extreme speed?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Its sharp talons",
+            "feedback": "Talons are for gripping prey, not for speed; the falcon's speed comes from its body shape and wing position."
+          },
+          {
+            "label": "Its large eyes",
+            "feedback": "Large eyes help it see prey clearly, but they do not contribute to the dive's speed."
+          },
+          {
+            "label": "Its thick feathers",
+            "feedback": "Thick feathers provide insulation, but the key to diving speed is the streamlined shape, not feather thickness."
+          },
+          {
+            "label": "Its folded wings",
+            "feedback": "Correct. By folding its wings back against its body, the peregrine falcon becomes an aerodynamic dart, minimizing drag and allowing it to reach over 300 km/h."
+          }
+        ],
+        "ok_title": "Streamlined dive",
+        "ok_line": "Folded wings make the falcon a fast dart.",
+        "ko_title": "Not the wings' shape",
+        "ko_line": "Folding wings is what gives the falcon its speed.",
+        "exp_title": "Diving aerodynamics",
+        "exp_text": "The peregrine falcon's diving speed comes from folding its wings tightly against its body, which turns it into a streamlined, bullet-like shape. This reduces air resistance, letting gravity accelerate it to over 300 km/h as it drops onto prey."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What feature of the sailfish's body helps it reach such high swimming speeds?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Its large dorsal fin",
+            "feedback": "The dorsal fin is raised mainly for display, and when swimming fast, the sailfish folds it down; it is not the main speed feature."
+          },
+          {
+            "label": "Its long, streamlined body",
+            "feedback": "Correct. The sailfish's long, slim, and smooth body cuts through water with little drag, and its powerful tail fin propels it at high speed."
+          },
+          {
+            "label": "Its sharp bill",
+            "feedback": "The bill is used for slashing prey, but it does not significantly contribute to swimming speed."
+          },
+          {
+            "label": "Its bright colour",
+            "feedback": "Colour is for communication and hunting display, not for speed."
+          }
+        ],
+        "ok_title": "Streamlined swimmer",
+        "ok_line": "A slim body lets the sailfish cut through water.",
+        "ko_title": "Not the fins or bill",
+        "ko_line": "The sailfish's body shape gives it speed, not its bill or colour.",
+        "exp_title": "High-speed swimming",
+        "exp_text": "The sailfish is fast because its long, slender body reduces water drag, and its large, crescent-shaped tail fin produces powerful thrust. When sprinting, it also folds its tall dorsal fin flat to become even more streamlined."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a giant tortoise live so much longer than most other animals of similar size?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it sleeps for months each year",
+            "feedback": "Tortoises do not hibernate for months; they are active year-round in warm climates. Their long life is tied to a slow metabolism, not long sleep."
+          },
+          {
+            "label": "Because it has no predators at any age",
+            "feedback": "On their native islands, adult tortoises have few predators, but that alone does not explain their longevity; many animals with no predators still die young."
+          },
+          {
+            "label": "Because its body works slowly and cells age slowly",
+            "feedback": "Correct. The giant tortoise has a very slow metabolism, meaning its body uses energy slowly, produces few damaging byproducts, and repairs itself slowly but steadily, leading to a very long life."
+          },
+          {
+            "label": "Because it eats only plants",
+            "feedback": "A herbivore diet is not enough for extreme longevity; many herbivores live short lives. The slow metabolism is the key factor."
+          }
+        ],
+        "ok_title": "Slow ageing",
+        "ok_line": "A slow metabolism makes tortoises live long.",
+        "ko_title": "Not a simple reason",
+        "ko_line": "It is the slow pace of life, not diet or sleep.",
+        "exp_title": "Tortoise longevity",
+        "exp_text": "Giant tortoises live over 150 years because their slow metabolism means their cells work at a low rate, producing less wear and tear over time. They grow slowly, move slowly, and use little energy, which slows down the ageing process compared to faster-living animals."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the bowhead whale manage to live for over 200 years despite its huge body?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Its cells resist damage and repair well",
+            "feedback": "Correct. The bowhead whale's cells have strong mechanisms to resist and repair damage from oxygen and other stresses, so even with millions of cells, they last for centuries."
+          },
+          {
+            "label": "It sleeps most of its life",
+            "feedback": "Bowhead whales swim and feed actively; they do not sleep more than other whales, and sleep is not the reason for their long life."
+          },
+          {
+            "label": "It stays in cold water all the time",
+            "feedback": "Cold water slows some body processes, but many cold-water animals live short lives; the whale's longevity comes from its cells, not just cold temperature."
+          },
+          {
+            "label": "It has no natural predators",
+            "feedback": "A lack of predators helps it avoid death, but it does not explain why its cells age so slowly; many predator-free animals live short lives."
+          }
+        ],
+        "ok_title": "Century whale",
+        "ok_line": "Strong cell repair lets bowheads live long.",
+        "ko_title": "More than environment",
+        "ko_line": "The bowhead's cells are the key to its long life.",
+        "exp_title": "Bowhead longevity",
+        "exp_text": "Bowhead whales live over 200 years because their body cells are exceptionally good at repairing damage and resisting the harmful effects of oxygen. This means that even with a huge number of cells, the whale's body stays healthy for much longer than most mammals."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 244,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a crocodile and an alligator when their snouts are compared from above?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Crocodiles have a wide, U-shaped snout, and alligators have a narrow, V-shaped one.",
+            "feedback": "That is backwards. Alligators have the wide, U-shaped snout, while crocodiles have the narrow, V-shaped one."
+          },
+          {
+            "label": "Crocodiles have a blunt, rounded snout, and alligators have a long, pointed one.",
+            "feedback": "The blunt, rounded snout belongs to the alligator, not the crocodile. Crocodiles have a longer, more pointed snout."
+          },
+          {
+            "label": "Crocodiles have a narrow, V-shaped snout, and alligators have a wide, U-shaped one.",
+            "feedback": "Correct. From above, the crocodile's snout tapers to a V, while the alligator's is broader and U-shaped."
+          },
+          {
+            "label": "Crocodiles and alligators have identical snout shapes, so they cannot be told apart that way.",
+            "feedback": "They do differ. The crocodile's snout is narrow and V-shaped, whereas the alligator's is wide and U-shaped."
+          }
+        ],
+        "ok_title": "Snout shape difference",
+        "ok_line": "A crocodile's snout is narrow and V-shaped, while an alligator's is wide and U-shaped.",
+        "ko_title": "Snout shape mix-up",
+        "ko_line": "Remember which snout belongs to which animal.",
+        "exp_title": "Snout shapes of crocs and gators",
+        "exp_text": "When you look at them from above, a crocodile has a narrow, pointed snout that forms a V, while an alligator has a broad, rounded snout that forms a U. This is one of the quickest ways to tell the two apart in the wild."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which tooth feature helps you identify an alligator from a crocodile?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Alligators have teeth that stick out sideways from their jaws.",
+            "feedback": "Teeth do not stick out sideways in either animal. The visible teeth are along the jawline, and the key difference is whether the lower teeth show when the mouth is shut."
+          },
+          {
+            "label": "An alligator's lower teeth are hidden when its mouth is closed, but a crocodile's lower fourth tooth sticks out over the upper lip.",
+            "feedback": "Correct. When an alligator shuts its mouth, its lower teeth fit into pits and are not visible, while a crocodile's lower fourth tooth is always visible."
+          },
+          {
+            "label": "Crocodiles have no visible teeth when their mouths are closed, but alligators show many teeth.",
+            "feedback": "It is the opposite. Crocodiles show a tooth even with the mouth shut, while alligators hide their lower teeth."
+          },
+          {
+            "label": "Alligators have fangs on the outside of their jaws, and crocodiles have them on the inside.",
+            "feedback": "There are no fangs on the outside of the jaw in either animal. The visible tooth difference is about the lower fourth tooth."
+          }
+        ],
+        "ok_title": "Tooth visibility clue",
+        "ok_line": "A shut alligator hides its lower teeth, but a crocodile shows its lower fourth tooth.",
+        "ko_title": "Tooth clue flipped",
+        "ko_line": "The visible tooth belongs to the crocodile, not the alligator.",
+        "exp_title": "Teeth as an identifier",
+        "exp_text": "Close the mouth of an alligator and you see no lower teeth because they fit into sockets in the upper jaw. A crocodile's lower fourth tooth is too big for that, so it sticks up and remains visible over the upper lip. This is a reliable field mark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What color is an alligator's belly compared to its back?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The belly is darker than the back, almost black.",
+            "feedback": "Alligator bellies are lighter, not darker. The back carries the dark pigmentation."
+          },
+          {
+            "label": "The belly is bright red like a fish's gills.",
+            "feedback": "No reptile has a bright red belly. Alligator bellies are a pale, creamy color."
+          },
+          {
+            "label": "The belly is the same dark gray as the back.",
+            "feedback": "The back is dark gray, but the belly is noticeably lighter, often a creamy or pale yellow."
+          },
+          {
+            "label": "The belly is pale, often a creamy or light yellow color.",
+            "feedback": "Correct. The belly is light because it has less pigment, helping the alligator blend with the bright water surface when seen from below."
+          }
+        ],
+        "ok_title": "Belly color",
+        "ok_line": "Alligators have a pale, creamy belly and a dark back.",
+        "ko_title": "Color contrast",
+        "ko_line": "The belly is light, not dark.",
+        "exp_title": "Alligator belly coloration",
+        "exp_text": "An alligator's back is dark gray or nearly black, while its belly is pale, often creamy or light yellow. This countershading helps it hide: from above it blends with dark water, and from below the pale belly matches the bright sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the bony plates on a crocodile's back, called scutes, contain that makes them so tough?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They contain bone and sometimes bits of hardened skin.",
+            "feedback": "Correct. Scutes are bony plates embedded in the skin, giving the back a tough, armor-like covering."
+          },
+          {
+            "label": "They contain only soft cartilage like a shark's skeleton.",
+            "feedback": "Cartilage is not what makes scutes tough. They are reinforced with bone."
+          },
+          {
+            "label": "They contain a layer of fat for insulation.",
+            "feedback": "Fat is for energy storage, not toughness. Scutes are bone-based protective plates."
+          },
+          {
+            "label": "They contain a venomous liquid that defends against predators.",
+            "feedback": "Crocodiles have no venom in their scutes. The toughness comes from bone."
+          }
+        ],
+        "ok_title": "Scute composition",
+        "ok_line": "Scutes are bony plates embedded in the skin.",
+        "ko_title": "Scute material",
+        "ko_line": "It is bone, not cartilage, fat, or venom.",
+        "exp_title": "Bony back plates",
+        "exp_text": "The scutes on a crocodile's back are hard, bony plates that sit inside the skin. They form a protective armor that makes the animal difficult to bite or injure from above."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a crocodile keep its eyes clear while swimming underwater?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It closes its eyes completely and feels its way with its snout.",
+            "feedback": "Crocodiles keep their eyes open underwater and can see. They do not rely on touch from the snout."
+          },
+          {
+            "label": "It produces a special oil that coats the eyes and repels water.",
+            "feedback": "There is no such oil. The protection comes from a transparent membrane you can see."
+          },
+          {
+            "label": "It has a transparent third eyelid that slides across the eye like a pair of goggles.",
+            "feedback": "Correct. This nictitating membrane covers the eye and protects it while still letting the crocodile see clearly underwater."
+          },
+          {
+            "label": "It blinks constantly to push water out of its eyes.",
+            "feedback": "Blinking is not the mechanism. The protective third eyelid is what allows underwater vision."
+          }
+        ],
+        "ok_title": "Underwater eye protection",
+        "ok_line": "A transparent third eyelid shields the eye underwater.",
+        "ko_title": "Eye protection mechanism",
+        "ko_line": "It is the nictitating membrane, not blinking or oil.",
+        "exp_title": "Third eyelid function",
+        "exp_text": "Crocodiles have a clear, thin membrane called a nictitating eyelid that slides sideways across the eye. It acts like a built-in pair of goggles, letting the crocodile see while keeping water out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where are a crocodile's nostrils located, and why is that helpful?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They are at the back of the throat, so the crocodile breathes through its mouth.",
+            "feedback": "The nostrils are not in the throat. They are on top of the snout, which allows breathing while the rest of the head is underwater."
+          },
+          {
+            "label": "They are on the sides of the snout, near the eyes.",
+            "feedback": "They are on the top of the snout, not the sides. This placement lets the crocodile breathe with only its nostrils above water."
+          },
+          {
+            "label": "They are at the very tip of the lower jaw, pointing downward.",
+            "feedback": "The lower jaw has no nostrils. The nostrils are on the upper snout, at the very front."
+          },
+          {
+            "label": "They are on the tip of the upper snout, on top, so the crocodile can breathe while the rest of its body is hidden underwater.",
+            "feedback": "Correct. The nostrils sit on the raised tip of the snout, letting the crocodile breathe while almost completely submerged."
+          }
+        ],
+        "ok_title": "Nostril placement",
+        "ok_line": "Nostrils sit on top of the snout, letting the croc breathe while hidden.",
+        "ko_title": "Nostril location",
+        "ko_line": "The nostrils are on the upper snout tip, not sides or throat.",
+        "exp_title": "Breathing while submerged",
+        "exp_text": "A crocodile's nostrils are on the top of its snout, at the very tip. When the animal floats with just that tip above water, it can breathe while the eyes and body stay hidden below the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the jaw muscles of a crocodile when it closes its mouth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They are weak, so the crocodile cannot hold prey securely.",
+            "feedback": "The closing muscles are extremely strong. The weak muscles are the ones that open the jaw."
+          },
+          {
+            "label": "They contract with great force, giving the bite its crushing power.",
+            "feedback": "Correct. The muscles that shut the jaw are massive and powerful, allowing the crocodile to clamp down on prey with enormous force."
+          },
+          {
+            "label": "They relax completely, so the jaw drops open.",
+            "feedback": "No, closing the jaw requires contraction of the closing muscles. Opening is the weak action."
+          },
+          {
+            "label": "They produce a snapping sound that scares prey.",
+            "feedback": "The force of the bite, not sound production, is the purpose of the closing muscles."
+          }
+        ],
+        "ok_title": "Bite force source",
+        "ok_line": "Closing muscles give the crocodile its crushing bite.",
+        "ko_title": "Muscle strength",
+        "ko_line": "It is the closing muscles that are strong, not the opening ones.",
+        "exp_title": "Powerful bite mechanics",
+        "exp_text": "Crocodiles have enormous muscles that close their jaws, allowing them to bite down with crushing force. In contrast, the muscles that open the jaws are relatively weak, which is why a person can sometimes hold a croc's mouth shut."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a crocodile do if it needs to open its mouth while underwater to grab prey?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It closes a flap at the back of its throat so water cannot enter its lungs.",
+            "feedback": "Correct. A valve called the palatal flap seals off the throat, letting the crocodile open its mouth underwater without drowning."
+          },
+          {
+            "label": "It holds its breath and never opens its mouth underwater, because that would flood its lungs.",
+            "feedback": "Crocodiles do open their mouths underwater; the palatal flap prevents water from reaching the lungs."
+          },
+          {
+            "label": "It exhales all the air from its lungs so no water can get in.",
+            "feedback": "Exhaling does not seal the throat. The palatal flap is the actual protective valve."
+          },
+          {
+            "label": "It surfaces first, opens its mouth, and then dives down to grab prey.",
+            "feedback": "Crocodiles can seize prey underwater thanks to the throat flap, so they do not need to surface first."
+          }
+        ],
+        "ok_title": "Throat valve",
+        "ok_line": "A flap seals the throat so water stays out while the mouth is open.",
+        "ko_title": "Underwater feeding",
+        "ko_line": "The palatal flap lets the croc open its mouth safely underwater.",
+        "exp_title": "Palatal flap function",
+        "exp_text": "At the back of a crocodile's mouth is a flap of skin that closes off the entrance to the throat. When the crocodile opens its jaws underwater, this flap keeps water from flowing into its lungs, so it can bite prey without swallowing water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What special organs on a crocodile's jaws detect ripples and movements in the water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They are tiny ears that hear vibrations.",
+            "feedback": "Crocodiles have ears, but the jaw organs detect pressure changes, not sound. They are sensitive to movement in water."
+          },
+          {
+            "label": "They are nostrils that smell prey in the water.",
+            "feedback": "Smell is detected by the nose, not the jaw. The jaw organs sense water movement."
+          },
+          {
+            "label": "They are sensory pits that detect pressure changes made by moving prey.",
+            "feedback": "Correct. These pits, often called dome pressure receptors, allow the crocodile to feel the slightest ripple even in murky or dark water."
+          },
+          {
+            "label": "They are taste buds that sense chemicals from prey.",
+            "feedback": "Taste is not how the jaw organs work. They are pressure sensors for detecting movement."
+          }
+        ],
+        "ok_title": "Jaw sensory pits",
+        "ok_line": "Pressure-sensitive pits on the jaws detect water movement.",
+        "ko_title": "Jaw sensor function",
+        "ko_line": "It is pressure detection, not hearing, smell, or taste.",
+        "exp_title": "Detecting prey in water",
+        "exp_text": "Crocodiles have small, dark pits on their jaws that are packed with pressure sensors. When any animal moves in the water, it creates ripples and pressure changes that these pits pick up, allowing the crocodile to locate prey even in complete darkness or muddy water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a mother crocodile respond when her hatchlings call from inside the nest?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "She ignores them and leaves the eggs to hatch on their own.",
+            "feedback": "Crocodiles are attentive parents. The mother hears the calls and actively helps the hatchlings."
+          },
+          {
+            "label": "She calls back but does not actually go to the nest.",
+            "feedback": "She both calls and goes to the nest, then digs them out carefully."
+          },
+          {
+            "label": "She opens the nest only after the hatchlings have all emerged by themselves.",
+            "feedback": "The hatchlings cannot dig out easily on their own. The mother uses her jaws to break open the nest when she hears their calls."
+          },
+          {
+            "label": "She hears their chirping and digs open the nest to help them out.",
+            "feedback": "Correct. The hatchlings make high-pitched calls, and the mother responds by uncovering the nest and sometimes gently carrying them to water."
+          }
+        ],
+        "ok_title": "Mother's nest response",
+        "ok_line": "The mother digs open the nest when she hears the hatchlings' calls.",
+        "ko_title": "Parental care",
+        "ko_line": "She does help, guided by the hatchlings' chirping.",
+        "exp_title": "Crocodile parenting",
+        "exp_text": "Crocodile embryos make sounds from inside the egg, and after hatching, the young chirp loudly. The mother recognizes these calls and responds by digging into the nest to free them, showing active parental care."
+      }
+    ]
+  }
+]

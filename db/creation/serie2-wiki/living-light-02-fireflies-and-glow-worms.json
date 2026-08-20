@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 222,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which family of beetles are fireflies classified?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Lampyridae",
+            "feedback": "Correct. Fireflies belong to the beetle family Lampyridae, which includes over 2,400 described species."
+          },
+          {
+            "label": "Coleoptera",
+            "feedback": "Coleoptera is the order that includes all beetles; Lampyridae is the specific family within that order."
+          },
+          {
+            "label": "Elateridae",
+            "feedback": "Elateridae is a related beetle family, but fireflies are in Lampyridae, though both are elateroid beetles."
+          },
+          {
+            "label": "Photuridae",
+            "feedback": "Photuris is a genus of fireflies, not a family. The family name is Lampyridae."
+          }
+        ],
+        "ok_title": "Firefly family",
+        "ok_line": "Fireflies are in the beetle family Lampyridae.",
+        "ko_title": "Wrong family",
+        "ko_line": "Remember, fireflies belong to Lampyridae.",
+        "exp_title": "Family Lampyridae",
+        "exp_text": "Fireflies are classified in the family Lampyridae, which is part of the beetle order. This family includes both fireflies and glow-worms."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary purpose of light production in adult fireflies?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To scare away predators",
+            "feedback": "That is the original role of larval glow, not the main purpose for adults. Adults mostly use light to find mates."
+          },
+          {
+            "label": "To light up their surroundings",
+            "feedback": "Fireflies do not glow to illuminate their environment; their light serves as a signal, not a light source for seeing."
+          },
+          {
+            "label": "To attract mates",
+            "feedback": "Correct. Adults emit light mainly to attract and identify mates of their own species."
+          },
+          {
+            "label": "To confuse prey",
+            "feedback": "Fireflies do not use light to confuse prey; they use it for communication, especially during courtship."
+          }
+        ],
+        "ok_title": "Mating signal",
+        "ok_line": "Adult fireflies glow to attract mates.",
+        "ko_title": "Wrong purpose",
+        "ko_line": "Adult light is for finding a mate, not for other uses.",
+        "exp_title": "Adult light function",
+        "exp_text": "In adult fireflies, light production is primarily used as a mate attraction signal, helping them find and recognize a suitable partner."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "On which part of a female firefly's body are the light organs usually located?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "On the head",
+            "feedback": "Light organs are not on the head. They are found on a different part of the body."
+          },
+          {
+            "label": "On the wings",
+            "feedback": "The wings do not house the light organs. Look to the abdomen instead."
+          },
+          {
+            "label": "On the thorax",
+            "feedback": "The thorax is the middle section, but the light organs are lower down, on the abdomen."
+          },
+          {
+            "label": "On the lower abdomen",
+            "feedback": "Correct. The light-producing organs, or photophores, are usually on the female firefly's lower abdomen."
+          }
+        ],
+        "ok_title": "Light organ site",
+        "ok_line": "The light organs sit on the lower abdomen.",
+        "ko_title": "Wrong location",
+        "ko_line": "It's the abdomen, not the head or wings.",
+        "exp_title": "Photophore location",
+        "exp_text": "In female fireflies, the specialized light-emitting organs called photophores are usually found on the lower abdomen, where the glow is produced."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do most firefly larvae feed on?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Plant nectar",
+            "feedback": "Plant nectar is an adult diet in some species, not the usual food of larvae. Larvae are predators."
+          },
+          {
+            "label": "Other larvae, snails, and slugs",
+            "feedback": "Correct. Most firefly larvae are specialized predators that feed on other larvae, terrestrial snails, and slugs."
+          },
+          {
+            "label": "Dead wood",
+            "feedback": "Dead wood is not a typical food for firefly larvae; they hunt living prey."
+          },
+          {
+            "label": "Algae",
+            "feedback": "Algae are not a food source for firefly larvae, which are carnivorous."
+          }
+        ],
+        "ok_title": "Larval diet",
+        "ok_line": "Larvae hunt other larvae, snails, and slugs.",
+        "ko_title": "Wrong diet",
+        "ko_line": "Larvae are predators, not plant-eaters.",
+        "exp_title": "Larval predation",
+        "exp_text": "Most firefly larvae are specialized predators, feeding on other insect larvae, terrestrial snails, and slugs. Their grooved mandibles help deliver digestive fluids to prey."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which compound do fireflies contain that makes them distasteful to predators?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Lucibufagins",
+            "feedback": "Correct. Fireflies contain steroid pyrone compounds called lucibufagins, which make them distasteful to vertebrate predators."
+          },
+          {
+            "label": "Luciferin",
+            "feedback": "Luciferin is involved in light production, not in making fireflies distasteful. The distasteful compounds are lucibufagins."
+          },
+          {
+            "label": "Bufadienolides",
+            "feedback": "Bufadienolides are similar chemicals found in toads, but the firefly's own defensive substance is lucibufagins."
+          },
+          {
+            "label": "ATP",
+            "feedback": "ATP is an energy molecule used in the light reaction, not a defensive chemical."
+          }
+        ],
+        "ok_title": "Defensive chemical",
+        "ok_line": "Lucibufagins make fireflies taste bad.",
+        "ko_title": "Wrong compound",
+        "ko_line": "The distasteful chemical is lucibufagins.",
+        "exp_title": "Lucibufagin function",
+        "exp_text": "Fireflies contain steroid compounds called lucibufagins, which are distasteful to vertebrate predators, providing a chemical defense."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the original evolutionary function of light production in firefly larvae?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To attract prey",
+            "feedback": "Larval glow is not used to attract prey; it serves as a warning to predators."
+          },
+          {
+            "label": "To communicate with other larvae",
+            "feedback": "Larval light is not for communication between larvae; it is an aposematic warning signal."
+          },
+          {
+            "label": "To warn predators that they are distasteful",
+            "feedback": "Correct. Light production in larvae is an aposematic warning signal, indicating that they are distasteful."
+          },
+          {
+            "label": "To find a place to pupate",
+            "feedback": "Larval glow is not used for finding pupation sites; it is a warning signal."
+          }
+        ],
+        "ok_title": "Larval glow origin",
+        "ok_line": "Larvae glow to warn predators of their bad taste.",
+        "ko_title": "Wrong origin",
+        "ko_line": "Larval light is a warning, not for hunting.",
+        "exp_title": "Aposematic signal",
+        "exp_text": "The original function of light in firefly larvae was to serve as an aposematic warning signal, letting predators know they are distasteful because of their lucibufagin content."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which genera of fireflies are known for their unique courtship flash patterns?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lampyris and Ellychnia",
+            "feedback": "Lampyris includes glow-worms, and Ellychnia are non-luminescent, but the distinctive flash patterns belong to other genera."
+          },
+          {
+            "label": "Photinus, Photuris, and Pyractomena",
+            "feedback": "Correct. These lightning bug genera are distinguished by unique courtship flash patterns emitted by flying males."
+          },
+          {
+            "label": "Lucidota and Phosphaenus",
+            "feedback": "Lucidota are diurnal and Phosphaenus is diurnal, so they are not known for flash patterns; they use pheromones."
+          },
+          {
+            "label": "Aquatica and Ellychnia",
+            "feedback": "Aquatica has aquatic larvae, and Ellychnia doesn't flash, so they are not the genera known for flash patterns."
+          }
+        ],
+        "ok_title": "Flashing genera",
+        "ok_line": "Photinus, Photuris, and Pyractomena flash in courtship.",
+        "ko_title": "Wrong genera",
+        "ko_line": "It's Photinus, Photuris, and Pyractomena.",
+        "exp_title": "Lightning bug genera",
+        "exp_text": "The genera Photinus, Photuris, and Pyractomena are noted for their unique courtship flash patterns, used by flying males to signal to females."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do non-bioluminescent fireflies communicate to find mates?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "By flashing light",
+            "feedback": "Non-bioluminescent fireflies do not flash; they use chemical signals instead."
+          },
+          {
+            "label": "By making sounds",
+            "feedback": "Sounds are not mentioned as a communication method; they rely on pheromones."
+          },
+          {
+            "label": "By touching each other",
+            "feedback": "Touching is not the primary means; they use chemical signals in the air."
+          },
+          {
+            "label": "By releasing pheromones",
+            "feedback": "Correct. Non-bioluminescent fireflies use pheromones, or chemical signals, to attract and locate mates."
+          }
+        ],
+        "ok_title": "Pheromone signaling",
+        "ok_line": "Non-glowing fireflies use chemical pheromones.",
+        "ko_title": "Wrong communication",
+        "ko_line": "They use pheromones, not light or sound.",
+        "exp_title": "Chemical communication",
+        "exp_text": "Fireflies that do not produce light, often diurnal species, rely on pheromones to communicate and find mates. This chemical signaling is the ancestral form of sexual communication in the family."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the larvae of some firefly species with aquatic life, such as Aquatica leii, do after hatching?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They descend into the water",
+            "feedback": "Correct. In species with aquatic larvae like Aquatica leii, the larvae descend into the water after hatching."
+          },
+          {
+            "label": "They burrow underground",
+            "feedback": "Burrowing underground is what many terrestrial larvae do for hibernation, not what aquatic larvae do after hatching."
+          },
+          {
+            "label": "They climb up trees",
+            "feedback": "Climbing trees is not mentioned for larvae after hatching; they go into water."
+          },
+          {
+            "label": "They stay on the plant",
+            "feedback": "They do not stay; they descend into the water to live."
+          }
+        ],
+        "ok_title": "Aquatic larvae",
+        "ok_line": "Aquatic firefly larvae enter the water after hatching.",
+        "ko_title": "Wrong behavior",
+        "ko_line": "They go into water, not underground.",
+        "exp_title": "Aquatic life cycle",
+        "exp_text": "In firefly species with aquatic larvae, the female lays eggs on aquatic plants, and after hatching, the larvae descend into the water to develop."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the usual adult lifespan of most fireflies?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Several years",
+            "feedback": "Several years is more typical of the larval stage, not the adult stage. Adults live much shorter."
+          },
+          {
+            "label": "Several months",
+            "feedback": "Months is too long for most adult fireflies; they live only a few weeks."
+          },
+          {
+            "label": "A few weeks",
+            "feedback": "Correct. In most species, adult fireflies live for a few weeks during the summer."
+          },
+          {
+            "label": "One day",
+            "feedback": "One day is too short; most adults live for a few weeks, not just a day."
+          }
+        ],
+        "ok_title": "Adult lifespan",
+        "ok_line": "Most firefly adults live a few weeks.",
+        "ko_title": "Wrong lifespan",
+        "ko_line": "It's a few weeks, not years or months.",
+        "exp_title": "Short-lived adults",
+        "exp_text": "Adult fireflies of most species live only for a few weeks in the summer, emerging to mate and lay eggs before dying."
+      }
+    ]
+  }
+]

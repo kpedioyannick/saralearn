@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 229,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a mineral?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A naturally occurring, solid substance with a definite chemical composition and an ordered internal structure",
+            "feedback": "Correct. A mineral is a natural, inorganic solid with a specific chemical formula and a regular atomic arrangement, which gives it characteristic properties."
+          },
+          {
+            "label": "Any solid material found in or on the ground",
+            "feedback": "That is too broad. Soil, for example, is solid and natural but is a mixture of many substances, not a single mineral with a fixed composition."
+          },
+          {
+            "label": "A rock that has been polished or cut for use in jewelry",
+            "feedback": "That describes a gemstone, not a mineral. A mineral is defined by its natural properties, not by human cutting or polishing."
+          },
+          {
+            "label": "A substance that forms only from the cooling of molten rock",
+            "feedback": "That describes one origin of some minerals, but minerals can also form from evaporation, metamorphism, and other processes, not only from cooling magma."
+          }
+        ],
+        "ok_title": "Mineral defined",
+        "ok_line": "A mineral is a natural, solid, chemically definite, internally ordered substance.",
+        "ko_title": "Confused with rock or gems",
+        "ko_line": "A mineral is specific; a rock or gem is not the same thing.",
+        "exp_title": "Mineral definition",
+        "exp_text": "A mineral must be naturally occurring (not human-made), solid (not liquid or gas), have a definite chemical composition (like quartz being SiO₂), and have atoms arranged in a regular pattern, which is called a crystal structure. Rocks are made of one or more minerals, so a rock is a mixture, not a mineral itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a mineral?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Granite",
+            "feedback": "Granite is a rock, not a mineral. It is a solid mixture of several minerals, like quartz, feldspar, and mica, so it does not have a single chemical composition."
+          },
+          {
+            "label": "Quartz",
+            "feedback": "Correct. Quartz is a single mineral with the chemical formula SiO₂ and a regular crystal structure, so it meets all the criteria."
+          },
+          {
+            "label": "Glass",
+            "feedback": "Glass is not a mineral because it is human-made and lacks an ordered internal structure; its atoms are randomly arranged, not in a crystal pattern."
+          },
+          {
+            "label": "Coal",
+            "feedback": "Coal is not a mineral because it is organic, coming from partially decayed plant matter, and it does not have a fixed chemical composition or a regular atomic arrangement."
+          }
+        ],
+        "ok_title": "Recognizing a mineral",
+        "ok_line": "Quartz is a true mineral; granite, glass, and coal are not.",
+        "ko_title": "Distinguishing rock from mineral",
+        "ko_line": "A rock is a mixture; a mineral is a single substance.",
+        "exp_title": "Mineral vs. non-mineral",
+        "exp_text": "A mineral must be natural, solid, chemically definite, and crystalline. Quartz meets all these. Granite is a rock—a mix of minerals. Glass is synthetic and disorderly. Coal is organic and variable."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the most common mineral group in Earth's crust?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Carbonates",
+            "feedback": "Carbonates, like calcite, are common but not the most abundant. They form mainly in sedimentary environments, not as the dominant crustal minerals."
+          },
+          {
+            "label": "Oxides",
+            "feedback": "Oxides, like hematite, are important minerals but make up only a small fraction of the crust compared to the dominant group."
+          },
+          {
+            "label": "Silicates",
+            "feedback": "Correct. Silicon and oxygen together make up about 75% of Earth's crust, and minerals built around the silicon-oxygen tetrahedron are called silicates. They are by far the most common."
+          },
+          {
+            "label": "Sulfides",
+            "feedback": "Sulfides, like pyrite, are minor minerals in the crust, usually found in ore deposits, not as the main rock-forming minerals."
+          }
+        ],
+        "ok_title": "Most common group",
+        "ok_line": "Silicates dominate Earth's crust.",
+        "ko_title": "Other mineral groups",
+        "ko_line": "Carbonates, oxides, and sulfides are far less abundant.",
+        "exp_title": "Crustal mineral abundance",
+        "exp_text": "The two most abundant elements in Earth's crust are silicon and oxygen. They combine to form the silicate group, which includes quartz, feldspar, and mica. Because these two elements are so plentiful, nearly all common rocks are made of silicates."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a rock?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A single mineral with a large crystal size",
+            "feedback": "That is a mineral crystal, not a rock. A rock is an aggregate, meaning it is a collection of one or more minerals, not a single one."
+          },
+          {
+            "label": "Any hard object found outdoors",
+            "feedback": "That includes man-made materials like concrete or bricks, which are not rocks. A rock is a natural solid made of minerals or mineral-like substances."
+          },
+          {
+            "label": "A mineral that has been heated and squeezed",
+            "feedback": "That describes a metamorphic rock, but a rock can also be igneous or sedimentary. The definition of a rock is not about its history but about being a natural solid aggregate of minerals."
+          },
+          {
+            "label": "A natural solid made of one or more minerals or mineral-like materials",
+            "feedback": "Correct. A rock is an aggregate, so granite contains several minerals, while limestone can be mostly one mineral (calcite). Some rocks even contain glass, which is not a mineral, but it is still mineral-like."
+          }
+        ],
+        "ok_title": "Rock defined",
+        "ok_line": "A rock is a natural solid mixture of minerals.",
+        "ko_title": "Rock vs mineral",
+        "ko_line": "A rock is a collection, not a single mineral.",
+        "exp_title": "Definition of a rock",
+        "exp_text": "A rock is a naturally occurring solid mass made of one or more minerals or mineraloids. For example, granite consists of quartz, feldspar, and mica. Even a rock like obsidian, which is volcanic glass, is still a rock because it is natural and solid, even though it lacks a crystal structure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three main types of rocks?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Igneous, sedimentary, metamorphic",
+            "feedback": "Correct. These three classes are based on how the rock forms: from cooling magma, from compaction of sediments, or from heat and pressure changing existing rocks."
+          },
+          {
+            "label": "Hard, soft, brittle",
+            "feedback": "These describe physical properties, not rock types. A rock's hardness or brittleness does not classify it into a fundamental kind."
+          },
+          {
+            "label": "Volcanic, granitic, basaltic",
+            "feedback": "Those are subtypes of igneous rocks, not the three main types. Sedimentary and metamorphic rocks are missing here."
+          },
+          {
+            "label": "Crystalline, glassy, clastic",
+            "feedback": "These are textures within rock types, not categories. For example, clastic texture describes sedimentary rocks, but it is not a class itself."
+          }
+        ],
+        "ok_title": "Three rock types",
+        "ok_line": "Igneous, sedimentary, and metamorphic are the three kinds.",
+        "ko_title": "Wrong classification",
+        "ko_line": "Proper rock types come from formation, not texture.",
+        "exp_title": "Classification of rocks",
+        "exp_text": "Rocks are grouped by their origin: igneous rocks form when magma or lava cools, sedimentary rocks form from compressed particles or dissolved materials, and metamorphic rocks form when existing rocks are changed by heat and pressure deep underground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is magma?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Molten rock that has erupted onto Earth's surface",
+            "feedback": "That is lava, not magma. Magma is molten rock that is still underground."
+          },
+          {
+            "label": "Molten rock that is underground",
+            "feedback": "Correct. Magma is hot, liquid rock beneath Earth's surface. When it reaches the surface, it is called lava, even though it is the same material."
+          },
+          {
+            "label": "A solid rock that has been melted by extreme pressure",
+            "feedback": "That is not a standard term. Magma is a liquid, not a solid, and it forms from melting, not just high pressure."
+          },
+          {
+            "label": "A mixture of rock fragments and water",
+            "feedback": "That sounds like mud or sediment, not magma. Magma is composed of molten rock, dissolved gases, and sometimes crystals, but not water as a main component."
+          }
+        ],
+        "ok_title": "Magma defined",
+        "ok_line": "Magma is molten rock below the surface.",
+        "ko_title": "Magma vs lava",
+        "ko_line": "Lava is magma that has reached the surface.",
+        "exp_title": "Underground molten rock",
+        "exp_text": "Magma forms in the mantle or lower crust where temperatures are high enough to melt rock. It is less dense than the surrounding solid rock, so it tends to rise. When it erupts from a volcano, it is called lava. The distinction is purely about location."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is lava?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Molten rock that is still underground",
+            "feedback": "That is magma. Lava is the same material but has come out onto the surface."
+          },
+          {
+            "label": "Hot ash and gas ejected from a volcano",
+            "feedback": "That is volcanic ash and gas, not lava. Lava is liquid rock flowing on the surface."
+          },
+          {
+            "label": "Molten rock that has erupted onto Earth's surface",
+            "feedback": "Correct. Once magma reaches the surface through a volcanic vent, it is called lava. As it flows and cools, it solidifies into igneous rock."
+          },
+          {
+            "label": "A solid rock formed from cooling underground",
+            "feedback": "That describes a plutonic igneous rock, like granite. Lava is liquid, not solid."
+          }
+        ],
+        "ok_title": "Lava defined",
+        "ok_line": "Lava is magma that has reached the surface.",
+        "ko_title": "Lava vs magma",
+        "ko_line": "The only difference is location.",
+        "exp_title": "Surface molten rock",
+        "exp_text": "Lava is molten rock that pours out of a volcano or fissure. It starts as magma underground, but the name changes when it emerges. When it cools and hardens, it becomes extrusive igneous rock, such as basalt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the rock cycle?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The process of rocks moving from one place to another due to water",
+            "feedback": "That describes erosion and transport of sediments, not the rock cycle. The rock cycle involves changes between rock types."
+          },
+          {
+            "label": "The sequence in which a rock changes from igneous to sedimentary to metamorphic and never goes back",
+            "feedback": "That is a one-way order, but the rock cycle is not a strict sequence. It is a network of paths; for example, a sedimentary rock can become igneous directly if it melts."
+          },
+          {
+            "label": "The breaking down of rocks into smaller pieces",
+            "feedback": "That is weathering, one part of the cycle, not the entire cycle. Weathering only produces sediments."
+          },
+          {
+            "label": "The endless set of processes that transform rocks from one type to another",
+            "feedback": "Correct. The rock cycle shows how any rock type can become any other through processes like melting, cooling, weathering, compaction, and heat and pressure. It has no fixed starting or ending point."
+          }
+        ],
+        "ok_title": "Rock cycle defined",
+        "ok_line": "The rock cycle is a continuous loop of changes.",
+        "ko_title": "Limited view of cycle",
+        "ko_line": "The cycle has many paths, not just one sequence.",
+        "exp_title": "Understanding the rock cycle",
+        "exp_text": "The rock cycle describes how magma cools into igneous rock, how that rock weathers into sediment, which compacts into sedimentary rock, and how heat and pressure turn any rock into metamorphic rock. Each type can also be melted back into magma, so the cycle never ends and no path is forced."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is weathering?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The breaking down of rock into smaller pieces at or near Earth's surface",
+            "feedback": "Correct. Weathering happens where rock is exposed to air, water, and living things. It produces sediment that can later become sedimentary rock."
+          },
+          {
+            "label": "The movement of rock fragments from one place to another by wind or water",
+            "feedback": "That is erosion, not weathering. Weathering breaks rock in place; erosion carries the pieces away."
+          },
+          {
+            "label": "The melting of rock deep underground",
+            "feedback": "That is the formation of magma, not weathering. Weathering is a surface process."
+          },
+          {
+            "label": "The compaction of sediments into solid rock",
+            "feedback": "That is lithification, the process that creates sedimentary rock, not weathering."
+          }
+        ],
+        "ok_title": "Weathering defined",
+        "ok_line": "Weathering breaks rock into smaller pieces in place.",
+        "ko_title": "Weathering vs erosion",
+        "ko_line": "Erosion moves the pieces, weathering breaks them.",
+        "exp_title": "Breaking down rock",
+        "exp_text": "Weathering occurs when rock is exposed to the atmosphere and surface conditions. It can be physical, like frost cracking, or chemical, like acid dissolving limestone. The result is smaller rock fragments and dissolved ions, which are then available for erosion and sediment formation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is erosion?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The breaking of rock into smaller pieces due to temperature changes",
+            "feedback": "That is weathering, specifically physical weathering. Erosion is not about breaking but about moving."
+          },
+          {
+            "label": "The transport of rock fragments and sediment from one location to another by wind, water, ice, or gravity",
+            "feedback": "Correct. Erosion picks up the pieces that weathering produced and carries them downhill, downstream, or downwind. It is movement, not breakdown."
+          },
+          {
+            "label": "The deposition of sediment in a new location",
+            "feedback": "That is deposition, the step after erosion. Erosion is the carrying away, not the dropping off."
+          },
+          {
+            "label": "The chemical alteration of minerals in rock",
+            "feedback": "That is chemical weathering. Erosion is a physical process of transport, not a chemical change."
+          }
+        ],
+        "ok_title": "Erosion defined",
+        "ok_line": "Erosion moves rock and sediment away.",
+        "ko_title": "Erosion vs weathering",
+        "ko_line": "Weathering breaks; erosion carries.",
+        "exp_title": "Transport of sediment",
+        "exp_text": "Erosion is the process by which weathered rock material is picked up and carried by moving agents like rivers, glaciers, wind, or landslides. It shapes landscapes by wearing down mountains and filling valleys. After transport, the material is deposited where the agent loses energy."
+      }
+    ]
+  }
+]

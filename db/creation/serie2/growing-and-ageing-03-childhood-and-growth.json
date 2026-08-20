@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 252,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the stage of life from birth to about two years old?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Adolescence",
+            "feedback": "Adolescence is the teenage years, not the first two years of life."
+          },
+          {
+            "label": "Childhood",
+            "feedback": "Childhood generally covers the years after infancy, starting around age two or three, not the very first period."
+          },
+          {
+            "label": "Infancy",
+            "feedback": "Infancy is the first two years after birth, the stage when a baby grows fastest and learns to sit, crawl, and walk."
+          },
+          {
+            "label": "Puberty",
+            "feedback": "Puberty is the stage when the body changes to become sexually mature, which happens later, during adolescence."
+          }
+        ],
+        "ok_title": "First stage",
+        "ok_line": "Infancy covers the first two years after birth.",
+        "ko_title": "Earlier stage",
+        "ko_line": "That is a later stage, not the first one.",
+        "exp_title": "Infancy defined",
+        "exp_text": "Infancy is the stage of life from birth to about two years old. During this time, a baby grows very quickly and develops basic skills like lifting its head, rolling over, sitting up, and eventually walking."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which body part grows the fastest during early childhood?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The head",
+            "feedback": "The head grows fastest early on because the brain is already developing rapidly, so it needs a bigger skull to protect it."
+          },
+          {
+            "label": "The legs",
+            "feedback": "Legs grow fastest later, during the adolescent growth spurt, not in early childhood."
+          },
+          {
+            "label": "The hands",
+            "feedback": "Hands and feet grow quickly during adolescence, not especially in early childhood."
+          },
+          {
+            "label": "The arms",
+            "feedback": "Arms grow steadily but not as fast as the head in the first years of life."
+          }
+        ],
+        "ok_title": "Fastest grower",
+        "ok_line": "The head outpaces all other parts early on.",
+        "ko_title": "Not yet fastest",
+        "ko_line": "That part grows quickly at another stage of life.",
+        "exp_title": "Head growth priority",
+        "exp_text": "In early childhood, the head grows faster than any other part of the body. This is because the brain is already busy developing, so the skull must expand quickly to keep up. Other parts, like legs and arms, catch up later."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are a young child's first set of teeth called?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Permanent teeth",
+            "feedback": "Permanent teeth replace the first set and come in later, starting around age six."
+          },
+          {
+            "label": "Molar teeth",
+            "feedback": "Molars are specific back teeth, not the name for the whole first set."
+          },
+          {
+            "label": "Canine teeth",
+            "feedback": "Canines are pointed teeth, one type among the first set, not the name for all of them."
+          },
+          {
+            "label": "Baby teeth",
+            "feedback": "Baby teeth, also called milk teeth or deciduous teeth, are the first set that appear during infancy and early childhood."
+          }
+        ],
+        "ok_title": "First set",
+        "ok_line": "Baby teeth are the first teeth a child gets.",
+        "ko_title": "Later or partial",
+        "ko_line": "That is not the name for the entire first set.",
+        "exp_title": "Baby teeth basics",
+        "exp_text": "The first set of teeth are called baby teeth. They start to come through the gums around six months of age and are gradually replaced by permanent teeth during childhood."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During the toddler years, what does a child learn to do that requires balance and coordination?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Read aloud",
+            "feedback": "Reading develops later, around age five or six, and does not depend on physical balance."
+          },
+          {
+            "label": "Walk",
+            "feedback": "Walking is the key skill of toddlerhood, and it requires the child to balance on two legs and coordinate many muscles."
+          },
+          {
+            "label": "Write letters",
+            "feedback": "Writing letters comes much later, in school age, and involves fine motor skills, not whole-body balance."
+          },
+          {
+            "label": "Ride a bicycle",
+            "feedback": "Riding a bicycle usually comes in later childhood, after walking is well established."
+          }
+        ],
+        "ok_title": "New skill",
+        "ok_line": "Toddlers learn to walk.",
+        "ko_title": "Not yet",
+        "ko_line": "That skill usually appears at a later age.",
+        "exp_title": "Walking milestone",
+        "exp_text": "During the toddler years, a child learns to walk. This takes practice because walking upright requires the brain, muscles, and bones to work together to keep the body balanced on two feet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the growth spurt that happens around ages 10 to 14 in girls and slightly later in boys?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Infant growth spurt",
+            "feedback": "That spurt happens right after birth, not during the pre-teen years."
+          },
+          {
+            "label": "Childhood plateau",
+            "feedback": "A plateau means no growth spurt; that term describes a steady period, not a rapid one."
+          },
+          {
+            "label": "Adolescent growth spurt",
+            "feedback": "The adolescent growth spurt is the rapid increase in height that occurs during puberty, usually earlier in girls than in boys."
+          },
+          {
+            "label": "Senile growth spurt",
+            "feedback": "Senile refers to old age, where growth does not speed up but actually stops."
+          }
+        ],
+        "ok_title": "Rapid growth",
+        "ok_line": "That is the adolescent growth spurt.",
+        "ko_title": "Wrong timing",
+        "ko_line": "That spurt happens at a different stage of life.",
+        "exp_title": "Puberty spurt",
+        "exp_text": "The adolescent growth spurt is the rapid increase in height that happens around ages 10 to 14 in girls and a bit later in boys, driven by hormones. It is the fastest growth since infancy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the soft, flexible material called that covers the ends of bones in a growing child?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Ligament",
+            "feedback": "A ligament connects bone to bone, but it is not a covering for the bone ends."
+          },
+          {
+            "label": "Tendon",
+            "feedback": "A tendon attaches muscle to bone, but it is not the covering of the bone ends."
+          },
+          {
+            "label": "Marrow",
+            "feedback": "Marrow is the soft tissue inside the middle of a bone, not the outer covering of the ends."
+          },
+          {
+            "label": "Cartilage",
+            "feedback": "Cartilage is the flexible, rubbery material that covers the ends of bones, allowing joints to move smoothly and helping bones grow longer."
+          }
+        ],
+        "ok_title": "Bone covering",
+        "ok_line": "Cartilage caps the ends of bones.",
+        "ko_title": "Other tissues",
+        "ko_line": "That structure does not cover bone ends.",
+        "exp_title": "Cartilage role",
+        "exp_text": "Cartilage is the smooth, flexible tissue that covers the ends of bones where they meet at joints. In children, it also acts as a growth plate, where new bone forms to make the bone longer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At what age do most children begin to lose their baby teeth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About age six",
+            "feedback": "Around age six, the roots of baby teeth dissolve and the teeth fall out, making room for permanent teeth."
+          },
+          {
+            "label": "About age three",
+            "feedback": "At age three, baby teeth are just coming in fully, not falling out yet."
+          },
+          {
+            "label": "About age twelve",
+            "feedback": "By age twelve, most baby teeth have already been replaced; losing them starts earlier."
+          },
+          {
+            "label": "About age eighteen",
+            "feedback": "At eighteen, permanent teeth are already in place; baby teeth are long gone."
+          }
+        ],
+        "ok_title": "Tooth loss age",
+        "ok_line": "Most children lose their first baby tooth around six.",
+        "ko_title": "Early or late",
+        "ko_line": "That age is not when baby teeth typically fall out.",
+        "exp_title": "First tooth loss",
+        "exp_text": "Most children start to lose their baby teeth around age six. The roots of the baby tooth get dissolved, so the tooth becomes loose and falls out, and the permanent tooth underneath pushes up."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the new, larger teeth that come in behind the baby teeth called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Milk teeth",
+            "feedback": "Milk teeth are the same as baby teeth, the first set, not the replacements."
+          },
+          {
+            "label": "Permanent teeth",
+            "feedback": "Permanent teeth are the adult set that replace baby teeth and do not fall out naturally."
+          },
+          {
+            "label": "Wisdom teeth",
+            "feedback": "Wisdom teeth are a specific type of permanent molars that appear in late teens or twenties, not all new teeth."
+          },
+          {
+            "label": "Temporary teeth",
+            "feedback": "Temporary teeth are baby teeth, which are meant to fall out; permanent ones are not temporary."
+          }
+        ],
+        "ok_title": "Adult set",
+        "ok_line": "Permanent teeth replace baby teeth.",
+        "ko_title": "Wrong set",
+        "ko_line": "That name belongs to a different set of teeth.",
+        "exp_title": "Permanent teeth",
+        "exp_text": "The new teeth that replace baby teeth are called permanent teeth because they are meant to last the rest of a person's life. They are larger and stronger than baby teeth and start appearing around age six."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a baby's height and weight during the first year of life?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They stay almost the same",
+            "feedback": "A baby grows very rapidly, so staying the same is not correct for the first year."
+          },
+          {
+            "label": "They double only in weight",
+            "feedback": "Weight typically triples, not just doubles, and height also increases significantly."
+          },
+          {
+            "label": "They increase rapidly",
+            "feedback": "In the first year, a baby usually triples its birth weight and grows about twenty-five centimeters, a very rapid increase."
+          },
+          {
+            "label": "They decrease then increase",
+            "feedback": "A newborn does not lose height or weight overall; growth is continuous in the first year."
+          }
+        ],
+        "ok_title": "Rapid gain",
+        "ok_line": "Babies grow very quickly in year one.",
+        "ko_title": "Slow or decreasing",
+        "ko_line": "Stable or dropping measurements are not typical of infancy.",
+        "exp_title": "First-year growth",
+        "exp_text": "During the first year, a baby grows at its fastest rate after birth. Weight usually triples, and length increases by about half of birth length. This rapid growth slows down later in childhood."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the way a child's body proportions change as it grows, with the head becoming smaller relative to the rest of the body?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Shrinking",
+            "feedback": "Shrinking means becoming smaller in absolute size, but the head does not shrink; it just becomes a smaller fraction of total height."
+          },
+          {
+            "label": "Stretching",
+            "feedback": "Stretching describes the limbs lengthening, but it does not capture the head-to-body ratio change."
+          },
+          {
+            "label": "Maturing",
+            "feedback": "Maturing is a general term, not the specific name for this change in body proportions."
+          },
+          {
+            "label": "Allometric growth",
+            "feedback": "Allometric growth is the scientific term for body parts growing at different rates, so the head becomes proportionally smaller as the rest catches up."
+          }
+        ],
+        "ok_title": "Proportion shift",
+        "ok_line": "That is allometric growth.",
+        "ko_title": "General terms",
+        "ko_line": "Those words do not name this specific pattern.",
+        "exp_title": "Allometric growth",
+        "exp_text": "Allometric growth means different parts of the body grow at different speeds. For example, the head grows quickly early on but slowly later, so by adulthood it is much smaller relative to the total body height than it was in infancy."
+      }
+    ]
+  }
+]

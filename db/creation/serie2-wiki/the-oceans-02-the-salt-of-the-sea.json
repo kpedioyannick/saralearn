@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 232,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the salinity of seawater refer to?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The temperature of the water",
+            "feedback": "Temperature is a separate property that affects density and freezing point, but salinity is about dissolved salts, not heat."
+          },
+          {
+            "label": "The depth of the water",
+            "feedback": "Depth influences pressure and density, but salinity is specifically the amount of dissolved salts in the water, not how deep it is."
+          },
+          {
+            "label": "The amount of dissolved salts in the water",
+            "feedback": "Correct. Salinity measures how much salt is dissolved, typically given as a percentage or grams per kilogram."
+          },
+          {
+            "label": "The speed of the water's currents",
+            "feedback": "Currents move water around, but they do not define salinity; salinity is about the salt content, not motion."
+          }
+        ],
+        "ok_title": "Salinity defined",
+        "ok_line": "Salinity is how much salt is dissolved in the water.",
+        "ko_title": "Not temperature or depth",
+        "ko_line": "Salinity is about salt, not heat, depth, or motion.",
+        "exp_title": "Salinity basics",
+        "exp_text": "Salinity is the measure of dissolved salts in seawater, usually expressed as a percentage or grams per kilogram. It is a fundamental property that affects density and freezing point."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the average salinity of the world's oceans?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "about 1%",
+            "feedback": "That is too low. Seawater averages much higher than 1% salt; typical ocean salinity is around 3.5%."
+          },
+          {
+            "label": "about 3.5%",
+            "feedback": "Correct. The world's oceans average about 3.5% salinity, meaning 35 grams of salt per kilogram of water."
+          },
+          {
+            "label": "about 10%",
+            "feedback": "That is too high for open oceans. Only isolated bodies like the Dead Sea reach such high levels, not the open ocean average."
+          },
+          {
+            "label": "about 0.5%",
+            "feedback": "That is much too low. Fresh water has very little salt, but seawater averages around 3.5%, not half a percent."
+          }
+        ],
+        "ok_title": "Typical ocean salt",
+        "ok_line": "Open ocean water averages about 3.5% salt.",
+        "ko_title": "Not extremes",
+        "ko_line": "The ocean average is neither nearly fresh nor as salty as the Dead Sea.",
+        "exp_title": "Ocean salinity level",
+        "exp_text": "On average, seawater in the world's oceans has a salinity of about 3.5%, which works out to roughly 35 grams of dissolved salts per kilogram of water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which ions are the most abundant dissolved salts in seawater?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "sodium and chloride",
+            "feedback": "Correct. Sodium and chloride are the predominant ions in seawater, making up most of its dissolved salt."
+          },
+          {
+            "label": "calcium and magnesium",
+            "feedback": "These are present but in smaller amounts. Sodium and chloride dominate by far."
+          },
+          {
+            "label": "sulfate and bicarbonate",
+            "feedback": "Sulfate is common, but bicarbonate is only a tiny fraction. Sodium and chloride are the main ions."
+          },
+          {
+            "label": "potassium and nitrate",
+            "feedback": "Potassium exists in trace amounts, and nitrate is not a major ion. Sodium and chloride lead."
+          }
+        ],
+        "ok_title": "Main salt ions",
+        "ok_line": "Sodium and chloride are the most abundant dissolved ions.",
+        "ko_title": "Other ions are minor",
+        "ko_line": "Calcium, magnesium, and sulfate are present but not the main ones.",
+        "exp_title": "Seawater's main ions",
+        "exp_text": "Seawater's dissolved salts are predominantly sodium (Na+) and chloride (Cl−) ions, with magnesium and sulfate also present in smaller amounts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the density of seawater compare to the density of fresh water?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Seawater is less dense than fresh water",
+            "feedback": "That is incorrect. Dissolved salts add mass, making seawater denser, not lighter, than fresh water."
+          },
+          {
+            "label": "Seawater has the same density as fresh water",
+            "feedback": "They differ. The dissolved salts in seawater increase its density above that of fresh water."
+          },
+          {
+            "label": "Seawater density changes with depth but fresh water does not",
+            "feedback": "Fresh water also changes density with temperature, but the key difference is that seawater is denser overall due to salt."
+          },
+          {
+            "label": "Seawater is denser than fresh water",
+            "feedback": "Correct. The dissolved salts increase the mass more than the volume, so seawater is denser than pure fresh water."
+          }
+        ],
+        "ok_title": "Density comparison",
+        "ok_line": "Seawater is denser than fresh water because of dissolved salt.",
+        "ko_title": "Salt adds density",
+        "ko_line": "Fresh water has a density of about 1.0 kg/L, while seawater is higher.",
+        "exp_title": "Why seawater is denser",
+        "exp_text": "Seawater's average surface density is about 1.025 kg/L, higher than fresh water's 1.0 kg/L, because dissolved salts add mass without adding much volume."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At what approximate temperature does typical seawater freeze?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "0 °C (32 °F)",
+            "feedback": "That is the freezing point of fresh water. Salt lowers the freezing point below this."
+          },
+          {
+            "label": "-5 °C (23 °F)",
+            "feedback": "That is colder than typical seawater freezes. The usual freezing point is around -2 °C."
+          },
+          {
+            "label": "-2 °C (28 °F)",
+            "feedback": "Correct. At average salinity, seawater freezes at about -2 °C, lower than fresh water's 0 °C."
+          },
+          {
+            "label": "2 °C (36 °F)",
+            "feedback": "That is above freezing for fresh water. Salt lowers the freezing point, so seawater freezes below 0 °C."
+          }
+        ],
+        "ok_title": "Seawater freezing point",
+        "ok_line": "Seawater freezes at about -2 °C because of salt.",
+        "ko_title": "Lower than fresh water",
+        "ko_line": "Salt lowers the freezing point below the fresh water value.",
+        "exp_title": "Effect of salt on freezing",
+        "exp_text": "The freezing point of seawater decreases as salt concentration increases, so at typical salinity it freezes around -2 °C, not at 0 °C."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical pH range of seawater?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "between 5 and 6",
+            "feedback": "That is too acidic. Seawater is slightly basic, not strongly acidic, so its pH is above 7."
+          },
+          {
+            "label": "between 7.5 and 8.4",
+            "feedback": "Correct. Seawater pH typically stays between 7.5 and 8.4, making it slightly basic."
+          },
+          {
+            "label": "between 8.5 and 9.5",
+            "feedback": "That is too high. Seawater rarely exceeds 8.4, even in productive surface waters."
+          },
+          {
+            "label": "between 6.5 and 7.0",
+            "feedback": "That is slightly acidic. Seawater is alkaline, with pH above 7.5 in most cases."
+          }
+        ],
+        "ok_title": "Seawater pH",
+        "ok_line": "Seawater is slightly basic, usually between 7.5 and 8.4.",
+        "ko_title": "Not acidic",
+        "ko_line": "Seawater's pH is above neutral, not below 7.",
+        "exp_title": "Typical pH of seawater",
+        "exp_text": "Seawater pH is typically limited to a range between 7.5 and 8.4, indicating it is slightly basic rather than neutral or acidic."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which body of water is described as the most saline open sea?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Mediterranean Sea",
+            "feedback": "The Mediterranean is saltier than average but not the most saline open sea; that title goes to the Red Sea."
+          },
+          {
+            "label": "The Dead Sea",
+            "feedback": "The Dead Sea is far saltier, but it is an isolated lake, not an open sea."
+          },
+          {
+            "label": "The Baltic Sea",
+            "feedback": "The Baltic Sea has low salinity due to river runoff, not high salinity."
+          },
+          {
+            "label": "The Red Sea",
+            "feedback": "Correct. The Red Sea has the highest salinity among open seas due to high evaporation and low rainfall."
+          }
+        ],
+        "ok_title": "Saltiest open sea",
+        "ok_line": "The Red Sea is the most saline open sea.",
+        "ko_title": "Not the Dead Sea",
+        "ko_line": "The Dead Sea is saltier but it is isolated, not an open sea.",
+        "exp_title": "Red Sea salinity",
+        "exp_text": "The Red Sea is the most saline open sea because high evaporation, low precipitation, and limited water exchange concentrate its salt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the salinity of seawater where a river meets the ocean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It becomes much saltier",
+            "feedback": "River water is fresh, so it dilutes the seawater, making it less salty, not more."
+          },
+          {
+            "label": "It stays the same as the open ocean",
+            "feedback": "Mixing with fresh river water lowers the salinity, so it does not stay the same."
+          },
+          {
+            "label": "It becomes less salty",
+            "feedback": "Correct. Fresh water from rivers mixes with seawater, reducing the salinity near the mouth."
+          },
+          {
+            "label": "It becomes more salty due to evaporation",
+            "feedback": "Evaporation can raise salinity, but here river inflow adds fresh water, diluting the salt."
+          }
+        ],
+        "ok_title": "River mouth saltiness",
+        "ok_line": "Fresh river water makes the sea less salty nearby.",
+        "ko_title": "Dilution effect",
+        "ko_line": "Mixing with fresh water lowers salinity, not raises it.",
+        "exp_title": "Salinity at river mouths",
+        "exp_text": "Where seawater mixes with freshwater runoff from rivers, the salinity becomes substantially lower than in the open ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the osmolarity of seawater?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "about 1000 mOsm/L",
+            "feedback": "Correct. Seawater's osmolarity is approximately 1000 mOsm/L, reflecting its total dissolved ions."
+          },
+          {
+            "label": "about 100 mOsm/L",
+            "feedback": "That is too low. Fresh water has low osmolarity, but seawater is much higher due to dissolved salts."
+          },
+          {
+            "label": "about 5000 mOsm/L",
+            "feedback": "That is far too high. Seawater's osmolarity is around 1000, not thousands."
+          },
+          {
+            "label": "about 10 mOsm/L",
+            "feedback": "That is negligible for seawater. Such low values would be typical of very dilute fresh water."
+          }
+        ],
+        "ok_title": "Seawater osmolarity",
+        "ok_line": "Seawater has an osmolarity of about 1000 mOsm/L.",
+        "ko_title": "High but not extreme",
+        "ko_line": "Osmolarity reflects total dissolved ions, which is high in seawater.",
+        "exp_title": "Osmolarity of seawater",
+        "exp_text": "Seawater's osmolarity is about 1000 mOsm/L, a measure of the total concentration of dissolved particles, consistent with its salinity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which ions make up a much smaller percentage of seawater's dissolved ions than of river water's?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "sodium and chloride",
+            "feedback": "Sodium and chloride dominate seawater, so they are not small percentages. The question is about a component that is small in seawater."
+          },
+          {
+            "label": "bicarbonate",
+            "feedback": "Correct. Bicarbonate is only 0.14% of seawater's dissolved ions, but it is 48% of river water's."
+          },
+          {
+            "label": "magnesium and sulfate",
+            "feedback": "These are significant in seawater, not tiny percentages. Bicarbonate is the one that is proportionally much smaller."
+          },
+          {
+            "label": "calcium",
+            "feedback": "Calcium is present but not the one with the dramatic difference. Bicarbonate shows the greatest contrast."
+          }
+        ],
+        "ok_title": "Bicarbonate difference",
+        "ok_line": "Bicarbonate is a tiny share of seawater ions.",
+        "ko_title": "Not sodium or chloride",
+        "ko_line": "Bicarbonate, not the main salt ions, is proportionally far smaller in seawater.",
+        "exp_title": "Ion ratios in seawater",
+        "exp_text": "Bicarbonate constitutes 48% of river water solutes but only 0.14% of seawater's dissolved ions, showing how solute ratios differ dramatically."
+      }
+    ]
+  }
+]

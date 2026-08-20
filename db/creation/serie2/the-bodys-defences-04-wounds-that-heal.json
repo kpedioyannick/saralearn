@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the first thing that happens inside a wound right after the skin is broken?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A scab forms immediately",
+            "feedback": "A scab takes a little time to form; the first response is from blood vessels."
+          },
+          {
+            "label": "Blood vessels narrow to reduce bleeding",
+            "feedback": "Correct. Narrowing the vessels slows blood loss, which is the immediate priority after a break in the skin."
+          },
+          {
+            "label": "White blood cells multiply quickly",
+            "feedback": "That happens over hours and days, not as the very first step."
+          },
+          {
+            "label": "New skin cells start growing across the gap",
+            "feedback": "New skin growth comes later, after the wound is sealed and cleaned."
+          }
+        ],
+        "ok_title": "First response",
+        "ok_line": "Vessels narrow first to slow bleeding.",
+        "ko_title": "Not the first step",
+        "ko_line": "That happens later in the healing process.",
+        "exp_title": "Immediate wound response",
+        "exp_text": "When skin breaks, blood vessels in the area narrow quickly to reduce blood loss. This is the body's first reaction to a wound. Then, platelets and clotting proteins gather to form a clot, and only after that do other healing steps begin."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a scab made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "New skin cells",
+            "feedback": "New skin cells grow underneath the scab, not as part of it."
+          },
+          {
+            "label": "White blood cells and pus",
+            "feedback": "White blood cells and pus are involved in fighting infection, but they are not what makes a scab."
+          },
+          {
+            "label": "Dried blood and clotting proteins",
+            "feedback": "Correct. When blood dries and the clot hardens, it becomes a scab that seals the wound from the outside."
+          },
+          {
+            "label": "Mucus and sweat",
+            "feedback": "Mucus and sweat are not involved in scab formation."
+          }
+        ],
+        "ok_title": "Scab material",
+        "ok_line": "Dried blood and clotting proteins form the scab.",
+        "ko_title": "Not scab parts",
+        "ko_line": "Those are not what the scab is made of.",
+        "exp_title": "Composition of a scab",
+        "exp_text": "A scab is a hardened clot made of dried blood and clotting proteins that seal the wound. It protects the injured area while new skin grows underneath."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the blood helps the blood to clot and form a scab?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Platelets",
+            "feedback": "Correct. Platelets are small cells that clump together and release chemicals to make the blood clot."
+          },
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells carry oxygen; they do not clot the blood."
+          },
+          {
+            "label": "White blood cells",
+            "feedback": "White blood cells fight infection, not clot blood."
+          },
+          {
+            "label": "Plasma",
+            "feedback": "Plasma is the liquid part of blood; clotting needs the action of platelets and proteins in it, not plasma itself."
+          }
+        ],
+        "ok_title": "Clotting cells",
+        "ok_line": "Platelets make the blood clot.",
+        "ko_title": "Not the clotter",
+        "ko_line": "Those blood parts do not clot the blood.",
+        "exp_title": "Role of platelets",
+        "exp_text": "Platelets are the blood cells that stick together at the wound site and help form a clot. They are the main reason bleeding stops."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of white blood cells at the site of a wound?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They make the scab harder",
+            "feedback": "Scab hardness comes from dried blood and clotting proteins, not white blood cells."
+          },
+          {
+            "label": "They pull the skin edges together",
+            "feedback": "Pulling skin edges together is done by special cells called fibroblasts, not white blood cells."
+          },
+          {
+            "label": "They carry oxygen to the wound",
+            "feedback": "Carrying oxygen is the job of red blood cells."
+          },
+          {
+            "label": "They destroy germs that enter the wound",
+            "feedback": "Correct. White blood cells engulf and kill microbes that get in through the broken skin."
+          }
+        ],
+        "ok_title": "White cell duty",
+        "ok_line": "White blood cells fight off germs.",
+        "ko_title": "Not white cell job",
+        "ko_line": "That is done by a different type of cell.",
+        "exp_title": "White blood cells in wounds",
+        "exp_text": "White blood cells gather at a wound to fight infection. They eat or destroy microbes that enter through the break, keeping the wound from becoming infected."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the redness and warmth around a healing wound?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The scab drying out",
+            "feedback": "A drying scab does not cause redness or warmth."
+          },
+          {
+            "label": "New skin cells growing",
+            "feedback": "New skin growth is part of healing, but it does not produce redness or warmth by itself."
+          },
+          {
+            "label": "Increased blood flow to the area",
+            "feedback": "Correct. Extra blood brings oxygen and white blood cells, and the extra warmth and redness are signs of that increased flow."
+          },
+          {
+            "label": "The wound losing heat to the air",
+            "feedback": "Losing heat would make the area cooler, not warmer."
+          }
+        ],
+        "ok_title": "Redness and warmth",
+        "ok_line": "Extra blood flow causes the heat and colour.",
+        "ko_title": "Not the cause",
+        "ko_line": "That does not explain the redness or warmth.",
+        "exp_title": "Why wounds feel warm",
+        "exp_text": "When a wound heals, blood vessels widen to bring more blood to the area. The extra blood makes the skin look red and feel warm. This is a normal part of the healing response."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the area around a wound often swell up?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because air gets into the skin",
+            "feedback": "Air does not enter the skin and cause swelling."
+          },
+          {
+            "label": "Because fluid leaks from blood vessels into the tissue",
+            "feedback": "Correct. Fluid from the blood moves into the surrounding tissue, making the area puff up."
+          },
+          {
+            "label": "Because blood vessels narrow and trap blood",
+            "feedback": "Narrowing vessels reduces blood flow, not swelling; swelling comes from fluid, not trapped blood."
+          },
+          {
+            "label": "Because new skin cells push the old ones apart",
+            "feedback": "New skin cells do not cause swelling; they grow under the scab."
+          }
+        ],
+        "ok_title": "Swelling reason",
+        "ok_line": "Fluid leaking from vessels makes it swell.",
+        "ko_title": "Not the swelling cause",
+        "ko_line": "That does not lead to a puffy wound area.",
+        "exp_title": "Why wounds swell",
+        "exp_text": "During healing, small blood vessels become leakier, allowing fluid to pass into the tissue. This extra fluid causes the swelling you see around a wound."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main job of the scab while a wound heals?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To protect the wound from dirt and germs",
+            "feedback": "Correct. The scab acts as a natural protective cover over the damaged skin."
+          },
+          {
+            "label": "To make the wound numb",
+            "feedback": "Scabs do not numb pain; pain comes from nerve endings and inflammation."
+          },
+          {
+            "label": "To pull the wound closed quickly",
+            "feedback": "Pulling the edges together is done by cells underneath, not the scab itself."
+          },
+          {
+            "label": "To feed the new skin cells",
+            "feedback": "New skin cells get nutrients from blood, not from the scab."
+          }
+        ],
+        "ok_title": "Scab purpose",
+        "ok_line": "Scabs shield the wound from infection.",
+        "ko_title": "Not scab job",
+        "ko_line": "That is not what the scab is for.",
+        "exp_title": "Protective role of a scab",
+        "exp_text": "A scab is a natural barrier that keeps out dirt, germs, and further injury while the skin underneath repairs itself. It stays in place until new skin is ready."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the scab when the wound underneath is fully healed?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It turns into new skin",
+            "feedback": "The scab does not become skin; it is made of dried blood and is removed."
+          },
+          {
+            "label": "It stays on the skin forever",
+            "feedback": "A scab is temporary and falls off after healing."
+          },
+          {
+            "label": "It sinks into the skin",
+            "feedback": "Scabs do not sink in; they are shed from the surface."
+          },
+          {
+            "label": "It dries out and falls off",
+            "feedback": "Correct. Once new skin is formed underneath, the scab loosens and drops off naturally."
+          }
+        ],
+        "ok_title": "Scab removal",
+        "ok_line": "The scab falls off after healing.",
+        "ko_title": "Not what happens",
+        "ko_line": "Scabs do not turn into skin or stay forever.",
+        "exp_title": "End of a scab",
+        "exp_text": "When the skin underneath has fully closed, the scab is no longer needed. It dries, loosens, and falls off by itself, leaving the new skin visible."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a deep wound take longer to heal than a shallow scrape?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because deep wounds have no blood supply",
+            "feedback": "Deep wounds do have blood supply, just more tissue to repair."
+          },
+          {
+            "label": "Because the skin cannot grow back over a deep hole",
+            "feedback": "Skin does regrow, but it takes longer because more layers are involved."
+          },
+          {
+            "label": "Because more tissue needs to be repaired and replaced",
+            "feedback": "Correct. A deep wound damages more layers of skin and tissue, so the body has more work to do."
+          },
+          {
+            "label": "Because deep wounds are always infected",
+            "feedback": "Infection may delay healing, but it is not the reason deeper wounds are slower in general."
+          }
+        ],
+        "ok_title": "Deep wound healing",
+        "ok_line": "More damage means more repair time.",
+        "ko_title": "Not the reason",
+        "ko_line": "That is not why deep wounds are slower.",
+        "exp_title": "Depth vs. healing speed",
+        "exp_text": "A shallow scrape only damages the top skin layer, which is replaced quickly. A deep wound cuts through more layers and often into the tissue below, so rebuilding all that takes longer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the final result of a wound that heals without leaving a scar?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "New skin that looks and works like the original",
+            "feedback": "Correct. When a wound heals cleanly, the new skin is almost identical to the surrounding skin."
+          },
+          {
+            "label": "A thick, raised patch of scar tissue",
+            "feedback": "That is a scar, which happens when healing is more severe or deeper."
+          },
+          {
+            "label": "A permanent scab",
+            "feedback": "Scabs are temporary and fall off."
+          },
+          {
+            "label": "A white patch that never tans",
+            "feedback": "That is a type of scar, not normal healed skin."
+          }
+        ],
+        "ok_title": "Perfect healing",
+        "ok_line": "New skin matches the original.",
+        "ko_title": "Not normal healing",
+        "ko_line": "That is a scar, not unscarred skin.",
+        "exp_title": "Healing without a scar",
+        "exp_text": "If a wound is shallow and heals without complications, the skin cells replace the lost ones and the area looks normal again. Scars form only when the damage goes deep enough that the body uses fibrous tissue to patch it."
+      }
+    ]
+  }
+]

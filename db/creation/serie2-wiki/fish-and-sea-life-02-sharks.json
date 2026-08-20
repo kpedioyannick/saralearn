@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the small, tooth-like scales that cover a shark's skin called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Gill rakers",
+            "feedback": "Gill rakers are comb-like structures in the gills that filter food, not scales on the skin."
+          },
+          {
+            "label": "Placoid scales",
+            "feedback": "Placoid scales is another name for dermal denticles, so this is actually correct—this option is a duplicate of the right answer."
+          },
+          {
+            "label": "Dermal denticles",
+            "feedback": "Yes, these are the tiny tooth-like scales covering the skin; they protect against damage and parasites and improve water flow."
+          },
+          {
+            "label": "Spiny rays",
+            "feedback": "Spiny rays are not a real structure on sharks; the skin covering is made of dermal denticles, not rays."
+          }
+        ],
+        "ok_title": "Correct skin scales",
+        "ok_line": "Dermal denticles are the tooth-like scales that cover a shark's skin.",
+        "ko_title": "Incorrect skin scales",
+        "ko_line": "That is not the name of the scales on a shark's skin.",
+        "exp_title": "Shark skin covering",
+        "exp_text": "Sharks have a covering of placoid scales, also called denticles, which are like tiny teeth. These scales protect the skin from damage and parasites and also improve how water flows over the body, helping the shark swim efficiently."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many gill slits does a shark have on each side of its body?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Five to seven",
+            "feedback": "Yes, sharks have between five and seven gill slits on each side, depending on the species."
+          },
+          {
+            "label": "Three to four",
+            "feedback": "That is too few; sharks have more, typically five to seven on each side."
+          },
+          {
+            "label": "Eight to ten",
+            "feedback": "That is too many; sharks have five to seven gill slits per side, not eight to ten."
+          },
+          {
+            "label": "Exactly five",
+            "feedback": "While many sharks have five, some species have six or seven, so the range is five to seven."
+          }
+        ],
+        "ok_title": "Correct gill count",
+        "ok_line": "Sharks have five to seven gill slits on each side.",
+        "ko_title": "Incorrect gill count",
+        "ko_line": "That number of gill slits does not match a shark's anatomy.",
+        "exp_title": "Gill slit range",
+        "exp_text": "Sharks are characterized by having five to seven gill slits on each side of their head. These slits are openings through which water passes over the gills for breathing. The exact number varies among species, but it always falls within that range."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of skeleton does a shark have?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Bony skeleton",
+            "feedback": "Sharks do not have bones; their skeleton is made of cartilage, not bone like bony fish."
+          },
+          {
+            "label": "No skeleton at all",
+            "feedback": "Sharks do have a skeleton, but it is made of cartilage rather than bone."
+          },
+          {
+            "label": "A skeleton of hard shell",
+            "feedback": "That describes an exoskeleton, which sharks do not have; their internal skeleton is cartilaginous."
+          },
+          {
+            "label": "Cartilaginous skeleton",
+            "feedback": "Yes, sharks have skeletons made of cartilage and connective tissue, which is lighter and more flexible than bone."
+          }
+        ],
+        "ok_title": "Cartilage skeleton",
+        "ok_line": "Sharks have a skeleton made of cartilage, not bone.",
+        "ko_title": "Wrong skeleton type",
+        "ko_line": "That is not what a shark's skeleton is made of.",
+        "exp_title": "Shark skeleton material",
+        "exp_text": "Sharks, like other cartilaginous fish such as rays, have skeletons made of cartilage and connective tissue. Cartilage is flexible and about half the density of bone, which reduces weight and saves energy. Because they lack a rib cage, a shark can be crushed under its own weight on land."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a whale shark's main food source?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Large fish and seals",
+            "feedback": "A whale shark is a filter feeder, not a predator of large prey; it eats tiny plankton instead."
+          },
+          {
+            "label": "Tiny plankton",
+            "feedback": "Yes, the whale shark is a filter-feeding planktivore, meaning it strains small plankton from the water."
+          },
+          {
+            "label": "Seaweed and algae",
+            "feedback": "Sharks are not plant-eaters; the whale shark eats animal plankton, not seaweed."
+          },
+          {
+            "label": "Small crabs and shrimp",
+            "feedback": "While some sharks eat crustaceans, the whale shark specifically filters plankton, not crabs."
+          }
+        ],
+        "ok_title": "Filter feeder diet",
+        "ok_line": "The whale shark eats tiny plankton by filter feeding.",
+        "ko_title": "Incorrect diet",
+        "ko_line": "That is not what a whale shark eats.",
+        "exp_title": "Whale shark feeding",
+        "exp_text": "The whale shark, the largest fish in the world, is a filter-feeding planktivore. Instead of hunting large prey, it swims with its mouth open to strain tiny plankton from the water. This is why it can grow so enormous without needing big, predatory teeth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these sharks is an apex predator?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Great white shark",
+            "feedback": "Yes, the great white shark is listed as an apex predator, meaning it sits at the top of its food chain."
+          },
+          {
+            "label": "Whale shark",
+            "feedback": "The whale shark is a filter feeder, not an apex predator; it eats plankton, not other animals."
+          },
+          {
+            "label": "Basking shark",
+            "feedback": "The basking shark is also a plankton-eater, so it is not an apex predator."
+          },
+          {
+            "label": "Nurse shark",
+            "feedback": "Nurse sharks are not listed as apex predators; they feed on smaller bottom-dwelling animals."
+          }
+        ],
+        "ok_title": "Apex predator example",
+        "ok_line": "The great white shark is an apex predator.",
+        "ko_title": "Not an apex predator",
+        "ko_line": "That shark is not an apex predator.",
+        "exp_title": "Apex predators among sharks",
+        "exp_text": "Several shark species are apex predators, meaning they are at the top of their food chain with no natural predators. Examples include the bull shark, tiger shark, great white shark, mako sharks, thresher sharks, Greenland sharks, and hammerhead sharks. In contrast, whale and basking sharks are filter feeders."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How are a shark's teeth attached to its jaw?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Fused directly to the bone",
+            "feedback": "Sharks do not have jaws with bones like that; their teeth are not fused to the jaw at all."
+          },
+          {
+            "label": "Held in sockets like human teeth",
+            "feedback": "Shark teeth are embedded in the gums, not in sockets, and they are constantly replaced."
+          },
+          {
+            "label": "Embedded in the gums",
+            "feedback": "Yes, shark teeth are embedded in the gums rather than fixed to the jaw, which allows them to be replaced throughout life."
+          },
+          {
+            "label": "Attached to cartilage only in young sharks",
+            "feedback": "In all sharks, teeth are embedded in the gums, not attached to cartilage or bone."
+          }
+        ],
+        "ok_title": "Teeth in gums",
+        "ok_line": "Shark teeth are embedded in the gums.",
+        "ko_title": "Wrong tooth attachment",
+        "ko_line": "That is not how shark teeth are attached.",
+        "exp_title": "Shark tooth placement",
+        "exp_text": "Unlike human teeth that sit in sockets, shark teeth are embedded in the gums. They grow in multiple rows inside the jaw and move forward continuously like a conveyor belt. When a tooth is lost, a new one moves in to replace it, so sharks never run out of teeth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which shark order includes the great white shark?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Carcharhiniformes",
+            "feedback": "That order includes ground sharks like tigers and hammerheads, but the great white belongs to Lamniformes."
+          },
+          {
+            "label": "Lamniformes",
+            "feedback": "Yes, the great white shark is a member of Lamniformes, also called mackerel sharks."
+          },
+          {
+            "label": "Orectolobiformes",
+            "feedback": "That order includes carpet sharks like the whale shark, not the great white."
+          },
+          {
+            "label": "Squaliformes",
+            "feedback": "That order includes dogfish sharks, not the great white."
+          }
+        ],
+        "ok_title": "Great white order",
+        "ok_line": "The great white shark belongs to Lamniformes.",
+        "ko_title": "Wrong shark order",
+        "ko_line": "That order does not include the great white shark.",
+        "exp_title": "Lamniformes family",
+        "exp_text": "The great white shark is classified under the order Lamniformes, commonly known as mackerel sharks. This order also includes the goblin shark, basking shark, megamouth shark, thresher sharks, and mako sharks. Lamniformes are distinguished by their large jaws and ovoviviparous reproduction."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do sharks have instead of a rib cage?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A heavy bony rib cage",
+            "feedback": "Sharks do not have a rib cage at all; their skeleton is made of cartilage without ribs."
+          },
+          {
+            "label": "A thick shell for protection",
+            "feedback": "Sharks have no shell; their internal skeleton is cartilaginous and lacks ribs."
+          },
+          {
+            "label": "A series of external bones",
+            "feedback": "Sharks have no external bones; they have a cartilaginous endoskeleton with no ribs."
+          },
+          {
+            "label": "No rib cage at all",
+            "feedback": "Yes, sharks have no rib cage, which makes them easily crushed under their own weight on land."
+          }
+        ],
+        "ok_title": "No ribs",
+        "ok_line": "Sharks have no rib cage.",
+        "ko_title": "Incorrect rib structure",
+        "ko_line": "That is not what sharks have instead of ribs.",
+        "exp_title": "Ribless skeleton",
+        "exp_text": "Sharks are characterized by a ribless endoskeleton. Unlike terrestrial vertebrates and bony fish, sharks do not have rib bones. This is part of their cartilaginous skeleton, which is lighter but also means that on land, a shark's body is not supported and can be crushed under its own weight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group of sharks is recognized by an elongated snout and a nictitating membrane over the eye?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Carcharhiniformes",
+            "feedback": "Yes, ground sharks like the blue, tiger, and bull have an elongated snout and a nictitating membrane that protects the eyes."
+          },
+          {
+            "label": "Lamniformes",
+            "feedback": "Mackerel sharks have large jaws, but they do not have a nictitating membrane; that trait belongs to Carcharhiniformes."
+          },
+          {
+            "label": "Orectolobiformes",
+            "feedback": "Carpet sharks, including the whale shark, do not have the nictitating membrane described for this group."
+          },
+          {
+            "label": "Squaliformes",
+            "feedback": "Dogfish sharks are not known for an elongated snout or nictitating membrane; that is typical of ground sharks."
+          }
+        ],
+        "ok_title": "Ground shark features",
+        "ok_line": "Carcharhiniformes have an elongated snout and a nictitating membrane.",
+        "ko_title": "Wrong shark order",
+        "ko_line": "That order does not have those features.",
+        "exp_title": "Carcharhiniformes characteristics",
+        "exp_text": "Carcharhiniformes, or ground sharks, are distinguished by an elongated snout and a nictitating membrane, which is a protective eyelid that slides over the eye during an attack. This order includes familiar sharks like the blue, tiger, bull, and hammerhead sharks, along with houndsharks and catsharks."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where are sharks most commonly found in the ocean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only in fresh water rivers",
+            "feedback": "Most sharks live in the sea, not fresh water; only a few exceptions like the bull shark enter rivers."
+          },
+          {
+            "label": "Only in shallow coastal waters",
+            "feedback": "Sharks are found in all seas, including deep waters, not just near shore."
+          },
+          {
+            "label": "In all seas",
+            "feedback": "Yes, sharks are found in all seas, ranging from surface waters to depths of about 2,000 metres."
+          },
+          {
+            "label": "Only in tropical oceans",
+            "feedback": "Sharks live in all seas, not only tropical ones; they are found in cold and temperate waters too."
+          }
+        ],
+        "ok_title": "Sharks in all seas",
+        "ok_line": "Sharks are found in all seas.",
+        "ko_title": "Wrong shark habitat",
+        "ko_line": "That is not where sharks are most commonly found.",
+        "exp_title": "Shark distribution",
+        "exp_text": "Sharks are found in all seas across the globe. They are common at depths up to 2,000 metres, from shallow coastal areas to the open ocean. Most sharks do not live in fresh water, though a few species such as the bull shark and river sharks can tolerate both salt and fresh water, and the Ganges shark lives only in fresh water."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 236,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A star",
+            "feedback": "Correct. The Sun is a star, a giant ball of hot plasma that produces its own light and heat through nuclear fusion."
+          },
+          {
+            "label": "A planet",
+            "feedback": "Incorrect. Planets orbit stars and do not produce their own light; the Sun is the star at the center of our solar system."
+          },
+          {
+            "label": "A moon",
+            "feedback": "Incorrect. Moons orbit planets, not the other way around; the Sun is not a moon."
+          },
+          {
+            "label": "A comet",
+            "feedback": "Incorrect. Comets are icy bodies that orbit stars, not the stars themselves."
+          }
+        ],
+        "ok_title": "It's a star",
+        "ok_line": "The Sun is a star, not a planet or moon.",
+        "ko_title": "Not a planet",
+        "ko_line": "The Sun is a star, the center of our solar system.",
+        "exp_title": "The Sun's nature",
+        "exp_text": "The Sun is a star, a massive sphere of hot plasma that generates energy through nuclear fusion in its core. It is not a planet, moon, or comet; it is the central object around which Earth and other planets orbit."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where is the Sun located in the solar system?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "At the edge",
+            "feedback": "Incorrect. The Sun is not at the edge; it is at the center, with all planets orbiting around it."
+          },
+          {
+            "label": "At the center",
+            "feedback": "Correct. The Sun sits at the center of the solar system, and its gravity holds all the planets in orbit."
+          },
+          {
+            "label": "Between Mars and Jupiter",
+            "feedback": "Incorrect. That region is the asteroid belt, not the Sun's location."
+          },
+          {
+            "label": "Orbiting the Earth",
+            "feedback": "Incorrect. Earth orbits the Sun, not the other way around."
+          }
+        ],
+        "ok_title": "Center of system",
+        "ok_line": "The Sun is at the center of the solar system.",
+        "ko_title": "Not at edge",
+        "ko_line": "The Sun is central, not peripheral.",
+        "exp_title": "Central position",
+        "exp_text": "The Sun is the gravitational anchor of the solar system, located at its center. Everything, from planets to asteroids, orbits around it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sun primarily made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Iron and nickel",
+            "feedback": "Incorrect. Iron and nickel are common in solid planets, but the Sun's composition is dominated by lighter elements."
+          },
+          {
+            "label": "Oxygen and carbon",
+            "feedback": "Incorrect. Oxygen and carbon are present but only in trace amounts; they are not the main components."
+          },
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Correct. The Sun is about 74% hydrogen and 24% helium, with heavier elements making up the rest."
+          },
+          {
+            "label": "Rock and dust",
+            "feedback": "Incorrect. The Sun is not solid rock; it is a plasma ball of gas, mostly hydrogen and helium."
+          }
+        ],
+        "ok_title": "Hydrogen & helium",
+        "ok_line": "The Sun is made mostly of hydrogen and helium.",
+        "ko_title": "Not heavy metals",
+        "ko_line": "The Sun's matter is light gases, not heavy metals.",
+        "exp_title": "Elemental makeup",
+        "exp_text": "The Sun is a giant sphere of plasma, composed mainly of hydrogen (about 74%) and helium (about 24%), with trace amounts of other elements like oxygen and carbon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the state of matter of the Sun's outer layers?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Solid",
+            "feedback": "Incorrect. The Sun is far too hot for solid matter; solids would melt and vaporize instantly."
+          },
+          {
+            "label": "Liquid",
+            "feedback": "Incorrect. The Sun's intense heat and pressure keep matter in a plasma state, not a liquid."
+          },
+          {
+            "label": "Ordinary gas",
+            "feedback": "Incorrect. Although it's gas-like, the Sun's matter is ionized, making it plasma, not ordinary gas."
+          },
+          {
+            "label": "Plasma",
+            "feedback": "Correct. The Sun's matter is plasma, a hot, ionized gas where electrons are stripped from atoms."
+          }
+        ],
+        "ok_title": "Hot plasma",
+        "ok_line": "The Sun's matter is in the plasma state.",
+        "ko_title": "Not ordinary gas",
+        "ko_line": "The Sun is plasma, not just gas.",
+        "exp_title": "Plasma state",
+        "exp_text": "The Sun's matter exists as plasma, a state where atoms are broken into ions and free electrons due to extreme temperatures. This is different from ordinary gas because the particles are electrically charged."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What process powers the Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Nuclear fusion",
+            "feedback": "Correct. In the Sun's core, hydrogen atoms fuse into helium, releasing vast amounts of energy."
+          },
+          {
+            "label": "Nuclear fission",
+            "feedback": "Incorrect. Fission splits heavy atoms, which is how nuclear power plants work; the Sun uses fusion to combine light atoms."
+          },
+          {
+            "label": "Chemical burning",
+            "feedback": "Incorrect. Chemical burning, like wood or coal, releases far less energy and would not last billions of years."
+          },
+          {
+            "label": "Gravitational collapse",
+            "feedback": "Incorrect. Collapse could heat the Sun, but it is not the ongoing power source; fusion is."
+          }
+        ],
+        "ok_title": "Fusion powers",
+        "ok_line": "The Sun runs on nuclear fusion.",
+        "ko_title": "Not fission",
+        "ko_line": "Fusion, not fission, fuels the Sun.",
+        "exp_title": "Energy source",
+        "exp_text": "The Sun's energy comes from nuclear fusion in its core, where hydrogen nuclei combine to form helium. This process releases enormous amounts of light and heat that sustain life on Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sun's visible surface called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The corona",
+            "feedback": "Incorrect. The corona is the Sun's outer atmosphere, not its visible surface."
+          },
+          {
+            "label": "The photosphere",
+            "feedback": "Correct. The photosphere is the bright surface we see, where sunlight is emitted into space."
+          },
+          {
+            "label": "The chromosphere",
+            "feedback": "Incorrect. The chromosphere is a thin layer above the photosphere, seen as a red rim during eclipses."
+          },
+          {
+            "label": "The core",
+            "feedback": "Incorrect. The core is deep inside, where fusion occurs; it is not visible from outside."
+          }
+        ],
+        "ok_title": "Visible layer",
+        "ok_line": "The photosphere is the Sun's visible surface.",
+        "ko_title": "Not corona",
+        "ko_line": "The corona is outer, not the surface.",
+        "exp_title": "Photosphere explained",
+        "exp_text": "The photosphere is the layer of the Sun that emits the light we see. It is much cooler than the core, with a temperature around 5,500°C."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What keeps the Sun from falling apart under its own gravity?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Rotation",
+            "feedback": "Incorrect. Rotation helps shape the Sun but does not counteract gravity's pull inward."
+          },
+          {
+            "label": "Magnetic fields",
+            "feedback": "Incorrect. Magnetic fields cause sunspots and flares but do not support the whole star against gravity."
+          },
+          {
+            "label": "Outward pressure from fusion",
+            "feedback": "Correct. The extreme heat and pressure from fusion push outward, balancing the inward pull of gravity."
+          },
+          {
+            "label": "Nothing, it is collapsing",
+            "feedback": "Incorrect. The Sun is stable; it is not collapsing because outward pressure balances gravity."
+          }
+        ],
+        "ok_title": "Balance of forces",
+        "ok_line": "Fusion pressure balances gravity.",
+        "ko_title": "Not rotation",
+        "ko_line": "Pressure, not rotation, holds the Sun up.",
+        "exp_title": "Hydrostatic equilibrium",
+        "exp_text": "The Sun remains stable because the outward pressure from nuclear fusion in its core exactly balances the inward gravitational pull. This balance keeps the Sun from collapsing or exploding."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sun's outermost layer called?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The photosphere",
+            "feedback": "Incorrect. The photosphere is the visible surface, not the outermost layer."
+          },
+          {
+            "label": "The chromosphere",
+            "feedback": "Incorrect. The chromosphere sits above the photosphere but below the corona."
+          },
+          {
+            "label": "The core",
+            "feedback": "Incorrect. The core is the innermost layer, not the outermost."
+          },
+          {
+            "label": "The corona",
+            "feedback": "Correct. The corona is the Sun's outer atmosphere, extending millions of kilometers into space."
+          }
+        ],
+        "ok_title": "Outer atmosphere",
+        "ok_line": "The corona is the Sun's outermost layer.",
+        "ko_title": "Not photosphere",
+        "ko_line": "The photosphere is surface, corona is outer.",
+        "exp_title": "Corona location",
+        "exp_text": "The corona is the Sun's outermost layer, a very hot but sparse plasma that is usually only visible during a total solar eclipse. It extends far beyond the visible surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate temperature of the Sun's visible surface?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 5,500°C",
+            "feedback": "Correct. The photosphere's temperature is roughly 5,500 degrees Celsius."
+          },
+          {
+            "label": "About 1,000°C",
+            "feedback": "Incorrect. That is too cool; even lava on Earth is around 1,200°C."
+          },
+          {
+            "label": "About 15 million°C",
+            "feedback": "Incorrect. That is the temperature of the Sun's core, not its surface."
+          },
+          {
+            "label": "About 100°C",
+            "feedback": "Incorrect. That is the boiling point of water, far cooler than the Sun's surface."
+          }
+        ],
+        "ok_title": "Surface heat",
+        "ok_line": "The Sun's surface is about 5,500°C.",
+        "ko_title": "Not core temp",
+        "ko_line": "15 million°C is the core, not the surface.",
+        "exp_title": "Photosphere temperature",
+        "exp_text": "The Sun's visible surface, the photosphere, has a temperature of about 5,500°C. This is much cooler than the core, which reaches around 15 million°C."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape is the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A cube",
+            "feedback": "Incorrect. Gravity pulls matter equally in all directions, creating a sphere, not a cube."
+          },
+          {
+            "label": "A flat disk",
+            "feedback": "Incorrect. The Sun is three-dimensional, not flat like a disk."
+          },
+          {
+            "label": "An almost perfect sphere",
+            "feedback": "Correct. The Sun is nearly spherical because its gravity pulls evenly from all sides, with only a slight bulge at the equator."
+          },
+          {
+            "label": "An irregular blob",
+            "feedback": "Incorrect. The Sun's shape is very regular due to the balance of gravity and pressure."
+          }
+        ],
+        "ok_title": "Sphere shape",
+        "ok_line": "The Sun is an almost perfect sphere.",
+        "ko_title": "Not flat",
+        "ko_line": "The Sun is round, not flat or cubed.",
+        "exp_title": "Spherical Sun",
+        "exp_text": "The Sun is an almost perfect sphere because its own gravity pulls equally toward the center from all directions. A slight equatorial bulge exists due to rotation, but overall it is round."
+      }
+    ]
+  }
+]

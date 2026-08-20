@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a snowflake made of from the moment it forms until it disappears?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Frozen crystalline water",
+            "feedback": "Yes, a snowflake is frozen crystalline water throughout its whole life, from formation in the air to melting or sublimating away."
+          },
+          {
+            "label": "Liquid water with air bubbles",
+            "feedback": "No, that describes rain droplets or foam, not snow. A snowflake is solid ice, not liquid water."
+          },
+          {
+            "label": "A mixture of ice and dust",
+            "feedback": "No, though dust can help a snowflake start forming, the snowflake itself is pure frozen water, not a mixture with dust inside."
+          },
+          {
+            "label": "Soft hail pellets",
+            "feedback": "No, soft hail pellets, called graupel, are a different type of precipitation. A snowflake is a single ice crystal or cluster of crystals, not a pellet."
+          }
+        ],
+        "ok_title": "Pure frozen water",
+        "ok_line": "A snowflake is frozen crystalline water at every stage of its life.",
+        "ko_title": "Not liquid or mixed",
+        "ko_line": "Snowflakes are solid ice, not liquid water or a mix with dust.",
+        "exp_title": "Snowflake composition",
+        "exp_text": "A snowflake consists of frozen crystalline water from the moment it forms in the cloud until it melts, slides away, or sublimates. It is never liquid water while it is a snowflake."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Around what do snowflakes begin to form high in the sky?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A tiny grain of sand",
+            "feedback": "Sand can act as a nucleus, but it is not the only or most common one. Snowflakes form around any small particle in the air, such as dust or clay, not specifically sand."
+          },
+          {
+            "label": "A tiny particle in the atmosphere",
+            "feedback": "Correct, snowflakes nucleate around small particles like dust, clay, or biological bits floating in the air."
+          },
+          {
+            "label": "A droplet of liquid water",
+            "feedback": "No, a snowflake starts when supercooled water droplets freeze around a nucleus, but the nucleus itself is a solid particle, not a droplet."
+          },
+          {
+            "label": "A crystal of ice that fell from higher up",
+            "feedback": "No, there is no pre-existing falling crystal. The snowflake grows from a tiny frozen droplet that forms around a particle."
+          }
+        ],
+        "ok_title": "Nucleus in the air",
+        "ok_line": "Snowflakes form around tiny airborne particles.",
+        "ko_title": "Not sand or droplets",
+        "ko_line": "The nucleus is a small particle, not a droplet or a falling crystal.",
+        "exp_title": "Snowflake nucleation",
+        "exp_text": "Snowflakes start when supercooled water droplets freeze around a small particle in the atmosphere, such as a speck of dust or clay. That particle acts as the core on which the ice crystal grows."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the four basic shapes that snowflakes can take?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Platelets, stars, needles, and columns",
+            "feedback": "Stars are a type of platelet or dendritic shape, not a separate basic shape. The four basic shapes are platelets, needles, columns, and rime."
+          },
+          {
+            "label": "Columns, plates, dendrites, and bullets",
+            "feedback": "Dendrites and bullets are more complex growth patterns, not part of the basic list. The basic shapes include platelets, needles, columns, and rime."
+          },
+          {
+            "label": "Platelets, needles, columns, and rime",
+            "feedback": "Correct, these are the four basic shapes listed for snowflakes."
+          },
+          {
+            "label": "Hexagons, stars, plates, and spikes",
+            "feedback": "Hexagons describe the symmetry, not a shape category, and spikes are not a listed basic shape. The basic shapes are platelets, needles, columns, and rime."
+          }
+        ],
+        "ok_title": "Four basic shapes",
+        "ok_line": "Platelets, needles, columns, and rime are the four basic snowflake shapes.",
+        "ko_title": "Only these four",
+        "ko_line": "Other forms are combinations or more complex growth patterns.",
+        "exp_title": "Basic snowflake shapes",
+        "exp_text": "Snowflakes come in many forms, but the basic shapes are platelets (flat plates), needles (long thin rods), columns (short hexagon prisms), and rime (when supercooled droplets freeze onto the crystal). More complex patterns build from these."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do snow clouds most often form?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "In a low-pressure area with warm and cold fronts",
+            "feedback": "Yes, snow clouds usually develop in larger weather systems, especially low-pressure areas with their associated warm and cold fronts."
+          },
+          {
+            "label": "In a high-pressure area with clear skies",
+            "feedback": "No, high-pressure systems usually bring calm, clear weather, not snow clouds. Snow needs the lifting and moisture of a low-pressure system."
+          },
+          {
+            "label": "Along the equator where it is warm",
+            "feedback": "No, snow needs cold air, so it does not form in equatorial warmth. Snow clouds form in colder regions or where cold air meets moisture."
+          },
+          {
+            "label": "Only over the ocean",
+            "feedback": "No, snow clouds form over both land and ocean. Low-pressure areas can occur anywhere, and mountains and lakes also trigger snow."
+          }
+        ],
+        "ok_title": "Low-pressure systems",
+        "ok_line": "Snow clouds usually form in low-pressure areas with fronts.",
+        "ko_title": "Not high pressure",
+        "ko_line": "High pressure brings clear skies, not snow clouds.",
+        "exp_title": "Where snow clouds form",
+        "exp_text": "Snow clouds are usually part of a larger low-pressure system, which includes cold and warm fronts. These systems lift moist air, cool it, and produce snow. Lake and mountain effects can also create snow clouds locally."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a supercooled water droplet before it becomes a snow crystal?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It warms up and turns to vapour",
+            "feedback": "No, the droplet is supercooled, meaning it is liquid below freezing. It does not warm up; it freezes solid to form a crystal."
+          },
+          {
+            "label": "It sits on the ground and waits for frost",
+            "feedback": "No, this happens in the cloud, not on the ground. The droplet freezes while suspended in the air."
+          },
+          {
+            "label": "It merges with other droplets to grow bigger",
+            "feedback": "Merging is how raindrops grow, not how snow crystals start. A snow crystal starts when one droplet freezes around a nucleus."
+          },
+          {
+            "label": "It freezes around a tiny particle",
+            "feedback": "Correct, the droplet freezes when a few molecules arrange into an ice pattern around a tiny particle, which becomes the nucleus of the snow crystal."
+          }
+        ],
+        "ok_title": "Freezes around a nucleus",
+        "ok_line": "A supercooled droplet freezes around a tiny particle to start a snow crystal.",
+        "ko_title": "Not warming or merging",
+        "ko_line": "The droplet freezes on its own, not by warming or merging.",
+        "exp_title": "From droplet to crystal",
+        "exp_text": "A supercooled water droplet can stay liquid even below freezing, but when a few molecules accidentally line up like ice around a tiny particle, the whole droplet freezes. That frozen droplet is the beginning of a snow crystal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a single snowflake usually fall to the ground rather than floating forever?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the wind pushes it downward",
+            "feedback": "Wind can blow snow around, but it is not the reason snowflakes fall. Snowflakes fall because they are heavy enough to overcome air resistance."
+          },
+          {
+            "label": "Because the cloud becomes too heavy",
+            "feedback": "The cloud holding up droplets is a different concept. A snowflake falls because it has grown large enough to fall through the air."
+          },
+          {
+            "label": "Because it grows large enough to be pulled down by its own weight",
+            "feedback": "Correct, once a snow crystal grows to hundreds of micrometers or millimeters, its mass makes it fall through the air."
+          },
+          {
+            "label": "Because it sticks to other snowflakes and gets heavy",
+            "feedback": "Sticking to others can make it heavier, but even a single large crystal falls on its own. The primary reason is its own growth in size."
+          }
+        ],
+        "ok_title": "Grows heavy enough",
+        "ok_line": "A snowflake falls because its growth makes it heavy enough.",
+        "ko_title": "Not wind or cloud weight",
+        "ko_line": "The snowflake's own mass makes it fall.",
+        "exp_title": "Why snowflakes fall",
+        "exp_text": "Snow crystals grow by collecting water vapour, becoming hundreds of micrometers to millimeters in size. With that mass, they are heavy enough to fall through the air toward the ground, instead of staying suspended in the cloud."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main local sources of snow besides low-pressure systems?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Thunderstorms and tornadoes",
+            "feedback": "No, thunderstorms and tornadoes are not listed as sources of snow. Lake-effect and mountain effects are the local sources."
+          },
+          {
+            "label": "Lake-effect storms and mountain effects",
+            "feedback": "Correct, lake-effect (or sea-effect) storms and elevation effects in mountains are two additional local sources of snow."
+          },
+          {
+            "label": "Ocean currents and wind patterns",
+            "feedback": "Ocean currents are not a direct source of snow. The local sources are lake-effect storms and mountain effects."
+          },
+          {
+            "label": "Cold fronts and warm fronts",
+            "feedback": "Fronts are part of low-pressure systems, not separate local sources. The question asks for the two additional sources beyond those systems."
+          }
+        ],
+        "ok_title": "Lake and mountain snow",
+        "ok_line": "Lake-effect storms and mountain effects are local snow sources.",
+        "ko_title": "Not storms or fronts",
+        "ko_line": "The two local sources are lake-effect and elevation effects.",
+        "exp_title": "Local snow sources",
+        "exp_text": "Besides the big low-pressure systems, snow can come from lake-effect storms, where cold air passes over warm water and picks up moisture, and from mountain effects, where moist air is forced upward over mountain slopes and cools to form snow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does lake-effect snow form?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cold air moves over warm lake water, picks up moisture, rises, and freezes",
+            "feedback": "Yes, that is exactly the process: cold air warms over the lake, gathers water vapour, rises into colder air above, and freezes into snow."
+          },
+          {
+            "label": "Warm air moves over cold lake water and cools into snow",
+            "feedback": "No, the air that picks up the moisture must be colder than the water. Warm air over cold water would not pick up much water vapour."
+          },
+          {
+            "label": "The lake itself releases snow crystals into the air",
+            "feedback": "No, lakes do not release snow crystals. The snow forms from moisture that evaporates off the lake and then freezes in the air."
+          },
+          {
+            "label": "Rain falls into the lake and freezes on the surface",
+            "feedback": "No, lake-effect snow forms in the air, not from rain freezing on the lake. The lake provides warmth and moisture to the passing air."
+          }
+        ],
+        "ok_title": "Cold air over warm lake",
+        "ok_line": "Lake-effect snow happens when cold air crosses warm water and freezes the moisture.",
+        "ko_title": "Not warm over cold",
+        "ko_line": "The cold air must move over warmer water.",
+        "exp_title": "Lake-effect snow formation",
+        "exp_text": "When a cold air mass moves across a long expanse of warmer lake water, the lower air warms up and picks up water vapour from the lake. This moist air then rises through the colder air above, freezes, and falls as snow on the downwind shore."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does orographic snow fall on a mountain range?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "On the leeward side, where the air is dry and warm",
+            "feedback": "No, the leeward side gets little snow because the air has lost its moisture. The snow falls on the windward side where air rises and cools."
+          },
+          {
+            "label": "Evenly on both sides",
+            "feedback": "No, the windward side gets much more snow because moist air is forced up there. The leeward side is drier."
+          },
+          {
+            "label": "Only in the valleys between mountains",
+            "feedback": "No, snow forms on the slopes facing the wind, not in valleys. Valleys may collect snow but are not where the snow is created."
+          },
+          {
+            "label": "On the windward side, where moist air is forced upward",
+            "feedback": "Correct, orographic snow falls on the windward side because moist air is lifted up the mountain, cools, and releases snow."
+          }
+        ],
+        "ok_title": "Windward side",
+        "ok_line": "Orographic snow falls on the side facing the wind.",
+        "ko_title": "Not leeward",
+        "ko_line": "The leeward side gets dry, warm air.",
+        "exp_title": "Where orographic snow falls",
+        "exp_text": "When moist air is pushed up the windward side of a mountain range, it cools and condenses, producing snow. By the time the air descends on the leeward side, it has lost most of its moisture, so that side gets little snow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are aggregates of ice crystals called when they fall to the ground?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Graupel",
+            "feedback": "No, graupel is a different type of precipitation where supercooled droplets freeze onto a crystal. Aggregates of crystals are called snowflakes."
+          },
+          {
+            "label": "Hail",
+            "feedback": "No, hail forms in thunderstorms and has layers. The clusters of ice crystals that fall as precipitation are snowflakes."
+          },
+          {
+            "label": "Snowflakes",
+            "feedback": "Correct, when ice crystals collide and stick together in clusters, those clusters are called snowflakes, and they are usually what falls to the ground."
+          },
+          {
+            "label": "Ice pellets",
+            "feedback": "No, ice pellets are a distinct form of precipitation. Snowflakes are aggregates of ice crystals, not small frozen raindrops."
+          }
+        ],
+        "ok_title": "Clusters are snowflakes",
+        "ok_line": "Clusters of ice crystals are called snowflakes.",
+        "ko_title": "Not other precipitation",
+        "ko_line": "Graupel and hail are different ice forms.",
+        "exp_title": "What snowflakes are",
+        "exp_text": "When individual ice crystals collide and stick together, they form a cluster called a snowflake. This aggregate is usually the ice particle that reaches the ground, rather than a single crystal."
+      }
+    ]
+  }
+]

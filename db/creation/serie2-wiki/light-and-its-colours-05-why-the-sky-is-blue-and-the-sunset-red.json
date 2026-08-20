@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is diffuse sky radiation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Light that comes straight from the Sun to the ground",
+            "feedback": "That is direct sunlight, not diffuse sky radiation. Diffuse sky radiation has been scattered on its way."
+          },
+          {
+            "label": "Sunlight that has been scattered by the atmosphere before reaching the ground",
+            "feedback": "Correct. Diffuse sky radiation is solar radiation that reaches the ground after being scattered by molecules or particulates in the air."
+          },
+          {
+            "label": "Light that is absorbed by the atmosphere and never reaches the ground",
+            "feedback": "Absorbed light does not reach the ground; diffuse sky radiation is scattered light that does reach the ground."
+          },
+          {
+            "label": "Light that comes from the Moon at night",
+            "feedback": "That would be moonlight, not diffuse sky radiation. Diffuse sky radiation comes from the Sun via the atmosphere."
+          }
+        ],
+        "ok_title": "Diffuse skylight",
+        "ok_line": "It is sunlight scattered by the atmosphere.",
+        "ko_title": "Not direct beam",
+        "ko_line": "Direct sunlight is not scattered.",
+        "exp_title": "Sky radiation",
+        "exp_text": "Diffuse sky radiation is sunlight that has been scattered by molecules or particles in the atmosphere before it reaches the ground. It is the light that makes the sky bright and is part of what we see as daylight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour of light is scattered most strongly by the Earth's atmosphere?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Blue",
+            "feedback": "Correct. Blue light has shorter wavelengths, and the atmosphere scatters short-wavelength light more efficiently."
+          },
+          {
+            "label": "Red",
+            "feedback": "Red light has longer wavelengths and is scattered less strongly than blue. That is why red light passes through more directly."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green light is scattered less than blue but more than red; blue is the most strongly scattered."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow light has longer wavelengths than blue and is not scattered as strongly."
+          }
+        ],
+        "ok_title": "Short waves win",
+        "ok_line": "Blue is scattered the most.",
+        "ko_title": "Long waves pass",
+        "ko_line": "Red and green scatter less.",
+        "exp_title": "Scattering strength",
+        "exp_text": "The atmosphere scatters short-wavelength light more efficiently than longer wavelengths. Since blue light has shorter wavelengths than red or green, it is scattered most strongly, which is why the sky appears blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a photon of light when it is scattered by the atmosphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is absorbed and converted into heat",
+            "feedback": "Scattering is elastic; the photon is not absorbed. It only changes direction without being absorbed."
+          },
+          {
+            "label": "It changes its wavelength",
+            "feedback": "Scattering in the atmosphere is elastic, so the wavelength does not change."
+          },
+          {
+            "label": "It is destroyed and a new photon is created",
+            "feedback": "No new photon is created; the same photon is deviated from its path."
+          },
+          {
+            "label": "It changes direction without being absorbed",
+            "feedback": "Correct. In scattering, a photon can be deviated from its path without being absorbed and without changing wavelength."
+          }
+        ],
+        "ok_title": "Elastic scattering",
+        "ok_line": "The photon just bends.",
+        "ko_title": "No absorption",
+        "ko_line": "The photon is not lost.",
+        "exp_title": "Scattered photon",
+        "exp_text": "Rayleigh and Mie scattering are elastic, meaning a photon of light can be deviated from its path without being absorbed and without changing wavelength. The photon simply travels in a new direction."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the sky look like under an overcast sky?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It is blue because of Rayleigh scattering",
+            "feedback": "Under an overcast sky, cloud droplets are larger than the wavelength of light and scatter all colours about equally, so the sky does not appear blue."
+          },
+          {
+            "label": "It is white or grey because all colours are scattered about equally",
+            "feedback": "Correct. Cloud droplets scatter all colours approximately equally, so the light is not strongly tinted blue."
+          },
+          {
+            "label": "It is red because only long wavelengths penetrate",
+            "feedback": "Red light is not specially penetrating in clouds; all colours are scattered about the same amount."
+          },
+          {
+            "label": "It is black because no sunlight reaches the ground",
+            "feedback": "There is no direct sunlight under clouds, but diffuse sky radiation still reaches the ground, so the sky is not black."
+          }
+        ],
+        "ok_title": "Cloudy sky colour",
+        "ok_line": "All colours scatter equally.",
+        "ko_title": "Not Rayleigh blue",
+        "ko_line": "Clouds scatter all colours alike.",
+        "exp_title": "Overcast scattering",
+        "exp_text": "Under an overcast sky, cloud droplets are larger than the light's wavelength, so they scatter all colours approximately equally. The result is that the sky appears white or grey rather than blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the sky appear blue when you look away from the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the atmosphere absorbs red light first",
+            "feedback": "The atmosphere does not absorb red light preferentially; it scatters short wavelengths more strongly."
+          },
+          {
+            "label": "Because blue light travels faster than other colours",
+            "feedback": "All colours of light travel at the same speed in a vacuum; the blue colour comes from stronger scattering."
+          },
+          {
+            "label": "Because blue light is scattered more strongly than red or green",
+            "feedback": "Correct. Blue light has shorter wavelengths, so the atmosphere scatters it more, and that scattered light reaches your eye from all parts of the sky."
+          },
+          {
+            "label": "Because the Sun emits only blue light",
+            "feedback": "The Sun emits all visible colours; blue light is just scattered more strongly by the atmosphere."
+          }
+        ],
+        "ok_title": "Blue from scattering",
+        "ok_line": "Short wavelengths scatter more.",
+        "ko_title": "Not absorption",
+        "ko_line": "The atmosphere scatters, not absorbs.",
+        "exp_title": "Blue sky cause",
+        "exp_text": "When looking at the sky away from the Sun, you see scattered light. Since blue light is scattered more efficiently than red or green, the scattered light reaching your eye is predominantly blue, making the sky appear blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When does Rayleigh scattering occur?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "When the particle diameter is much larger than the wavelength",
+            "feedback": "At larger ratios, scattering is described by Mie theory, not Rayleigh scattering."
+          },
+          {
+            "label": "When the particle diameter is equal to the wavelength",
+            "feedback": "At a ratio around one, Rayleigh scattering does not apply; it is for much smaller particles."
+          },
+          {
+            "label": "When the particle diameter is about the same as the wavelength",
+            "feedback": "Rayleigh scattering occurs only when the ratio is much less than one-tenth."
+          },
+          {
+            "label": "When the particle diameter is smaller than about one-tenth of the wavelength",
+            "feedback": "Correct. Rayleigh scattering occurs when the ratio of particle diameter to wavelength is less than about one-tenth."
+          }
+        ],
+        "ok_title": "Tiny particles",
+        "ok_line": "Diameter is under a tenth of wavelength.",
+        "ko_title": "Not for big drops",
+        "ko_line": "Larger particles use Mie scattering.",
+        "exp_title": "Rayleigh condition",
+        "exp_text": "Rayleigh scattering happens when the particles in the atmosphere are much smaller than the wavelength of light, specifically when the ratio of particle diameter to wavelength is less than about one-tenth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour does the atmosphere scatter most strongly?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red has a longer wavelength, so it is scattered less than blue, not more."
+          },
+          {
+            "label": "Blue",
+            "feedback": "Correct. Blue light has a shorter wavelength, so the atmosphere scatters it more efficiently than red or green."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green is in between; longer than blue, so it is scattered less than blue."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow has a longer wavelength than blue, so it is scattered less strongly."
+          }
+        ],
+        "ok_title": "Blue scatters most",
+        "ok_line": "Short wavelengths are scattered the most.",
+        "ko_title": "Longer waves scatter less",
+        "ko_line": "Red and green are longer waves, so they scatter less.",
+        "exp_title": "Wavelength and scattering",
+        "exp_text": "Because its wavelength is shorter, blue light is scattered more strongly than red or green light. That is why the sky looks blue when you look away from the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of scattering happens when the particles in the air are much smaller than the wavelength of the light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Mie scattering",
+            "feedback": "Mie scattering happens when the particles are larger, not much smaller than the wavelength."
+          },
+          {
+            "label": "Geometric optics scattering",
+            "feedback": "Geometric optics apply when the particles are much larger, not smaller, than the wavelength."
+          },
+          {
+            "label": "Rayleigh scattering",
+            "feedback": "Correct. When the particle diameter is less than about one-tenth of the light's wavelength, Rayleigh scattering occurs."
+          },
+          {
+            "label": "No scattering at all",
+            "feedback": "Scattering still happens; this is exactly the condition that produces Rayleigh scattering."
+          }
+        ],
+        "ok_title": "Rayleigh scattering",
+        "ok_line": "Small particles give Rayleigh scattering.",
+        "ko_title": "Other scattering types",
+        "ko_line": "Mie and geometric optics need larger particles.",
+        "exp_title": "Rayleigh scattering condition",
+        "exp_text": "When the ratio of particle diameter to wavelength is less than about one-tenth, Rayleigh scattering occurs. This is the process that makes the sky blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Under an overcast sky, what happens to direct sunlight?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "There is no direct sunlight; all light is diffuse",
+            "feedback": "Correct. Under an overcast sky, essentially no direct sunlight reaches the ground; all light is diffuse sky radiation."
+          },
+          {
+            "label": "Direct sunlight still reaches the ground but is weaker",
+            "feedback": "Clouds block the direct beam entirely; the light you see is scattered, not direct."
+          },
+          {
+            "label": "Direct sunlight becomes red because of the clouds",
+            "feedback": "The colour change to red happens at sunrise and sunset, not under an overcast sky."
+          },
+          {
+            "label": "Direct sunlight turns into blue light only",
+            "feedback": "Clouds scatter all colours roughly equally; they do not turn the light blue."
+          }
+        ],
+        "ok_title": "No direct beam",
+        "ok_line": "Clouds take away the direct sunlight.",
+        "ko_title": "Diffuse only",
+        "ko_line": "Only scattered light reaches the ground.",
+        "exp_title": "Overcast sky light",
+        "exp_text": "Under an overcast sky there is essentially no direct sunlight; all light results from diffused skylight radiation. The clouds scatter all colours about equally."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do clouds look white rather than blue?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they block all light",
+            "feedback": "Clouds let light through; they scatter it, not block it completely."
+          },
+          {
+            "label": "Because they scatter blue light more than other colours",
+            "feedback": "That is what the clear sky does, not what clouds do."
+          },
+          {
+            "label": "Because they absorb all colours equally",
+            "feedback": "Clouds are translucent, not absorbing; they scatter the light."
+          },
+          {
+            "label": "Because their droplets are large and scatter all colours equally",
+            "feedback": "Correct. Cloud droplets are larger than the light's wavelength, so they scatter all colours about equally, which we see as white."
+          }
+        ],
+        "ok_title": "Equal scattering",
+        "ok_line": "Big droplets scatter every colour alike.",
+        "ko_title": "Not like the sky",
+        "ko_line": "Clouds do not favour blue; they scatter all.",
+        "exp_title": "Why clouds are white",
+        "exp_text": "Cloud droplets are larger than the wavelength of light, so they scatter all colours approximately equally. The combined light appears white, not blue."
+      }
+    ]
+  }
+]

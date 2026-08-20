@@ -1,16 +1,23 @@
 -- =====================================================================
 -- Sara — app d'exercices · schéma SQLite
 --
+-- ⚠ CE FICHIER NE REPRODUIT PLUS LA BASE. Il date du démarrage et n'a
+-- pas suivi les 19 migrations. Il lui manque `chapter` et `sign`, il
+-- déclare `exercise_like` là où la base a `exercise_vote`, et il garde
+-- des bornes de longueur retirées par la 015. La vérité est dans
+-- `data/sara.db` et dans `db/migrations/`. Ne pas s'en servir pour
+-- recréer la base.
+--
 -- On part de zéro : pas de H5P, pas de reprise de sara_learn.
--- La source d'un thème est du Markdown ; les exercices en sont dérivés
--- par un prompt choisi selon (type de question × niveau de Bloom).
+-- La source d'un thème est du Markdown, découpé en chapitres ; chaque
+-- chapitre commande un lancement, et un lancement écrit ses exercices.
 --
 --   category ─┬─ sub_category ─┐
 --             └────────────────┴─> theme ─< theme_tag >─ tag
 --                                    │
---                                    └─< exercise_prompt >── prompt
---                                             │
---                                             └─< exercise
+--                                    └─< chapter ─< exercise_prompt >─┐
+--                                                        │  ^─────────┘ (parent_id)
+--                                                        └─< exercise
 --
 --   sqlite3 data/sara.db < db/schema.sql
 --
@@ -113,44 +120,20 @@ CREATE TABLE IF NOT EXISTS theme_tag (
 CREATE INDEX IF NOT EXISTS ix_theme_tag_tag ON theme_tag (tag_id);
 
 -- ---------------------------------------------------------------------
--- Prompts — le gabarit, puis son instance rendue pour un thème
+-- Lancements — un texte envoyé au modèle, et ce qu'il en est sorti
 -- ---------------------------------------------------------------------
 
--- Un gabarit par couple (type de question × niveau de Bloom).
--- Versionné : améliorer un prompt ne doit pas effacer la trace de ce
--- qui a produit les exercices déjà en base.
-CREATE TABLE IF NOT EXISTS prompt (
-  id            INTEGER PRIMARY KEY,
-  -- Doit rester aligné sur `TypeQuestion` dans api/schemas.py : un type
-  -- accepté ici mais absent là-bas fait tomber le feed entier en 500.
-  --   short_answer  saisie libre ; `options` liste les graphies acceptées
-  --   cloze         plusieurs trous ; chaque option porte `blank` et `correct`
-  type_question TEXT NOT NULL
-                CHECK (type_question IN ('qcm','true_false','complete','find_error',
-                                         'reorder','short_answer','cloze')),
-  type_bloom    TEXT NOT NULL
-                CHECK (type_bloom IN ('remember','understand','apply','analyze')),
-  version       INTEGER NOT NULL DEFAULT 1,
-  is_active     INTEGER NOT NULL DEFAULT 1,
-
-  label         TEXT NOT NULL,
-  -- Gabarit avec substitutions : {{source}}, {{title}}, {{tags}}, {{count}}
-  template      TEXT NOT NULL,
-  -- Forme attendue de la réponse du modèle, validée avant insertion.
-  output_schema TEXT,
-
-  created_at    TEXT NOT NULL DEFAULT (datetime('now')),
-  UNIQUE (type_question, type_bloom, version)
-);
-
-CREATE INDEX IF NOT EXISTS ix_prompt_active ON prompt (is_active, type_question, type_bloom);
-
--- Une exécution : ce thème, ce gabarit, ce texte réellement envoyé.
+-- Une exécution : ce thème, ce texte réellement envoyé, ce qui en est né.
 -- Permet de remonter d'un exercice douteux au prompt exact qui l'a écrit.
+-- `parent_id` pointe vers un autre lancement : une recharge de feed
+-- rejoue la consigne d'un lancement antérieur et se déclare son enfant.
 CREATE TABLE IF NOT EXISTS exercise_prompt (
   id              INTEGER PRIMARY KEY,
-  theme_id        INTEGER NOT NULL REFERENCES theme (id)  ON DELETE CASCADE,
-  prompt_id       INTEGER NOT NULL REFERENCES prompt (id),
+  -- L'unique rattachement, depuis la 019 : le thème se lit sur le
+  -- chapitre. (`chapter` n'est pas déclarée dans ce fichier — voir
+  -- l'avertissement en tête.)
+  chapter_id      INTEGER NOT NULL REFERENCES chapter (id) ON DELETE CASCADE,
+  parent_id       INTEGER          REFERENCES exercise_prompt (id) ON DELETE CASCADE,
 
   rendered_prompt TEXT    NOT NULL,
   model           TEXT,
@@ -162,11 +145,16 @@ CREATE TABLE IF NOT EXISTS exercise_prompt (
   error           TEXT,
 
   created_at      TEXT NOT NULL DEFAULT (datetime('now')),
-  finished_at     TEXT
+  finished_at     TEXT,
+
+  -- Interdit la boucle la plus bête : une ligne sa propre mère. SQLite
+  -- ne sait pas interdire les cycles plus longs, c'est au code de ne
+  -- pas en fabriquer.
+  CHECK (parent_id IS NULL OR parent_id <> id)
 );
 
-CREATE INDEX IF NOT EXISTS ix_exercise_prompt_theme  ON exercise_prompt (theme_id, status);
-CREATE INDEX IF NOT EXISTS ix_exercise_prompt_prompt ON exercise_prompt (prompt_id);
+CREATE INDEX IF NOT EXISTS ix_exercise_prompt_chapter ON exercise_prompt (chapter_id, status);
+CREATE INDEX IF NOT EXISTS ix_exercise_prompt_parent  ON exercise_prompt (parent_id);
 
 -- ---------------------------------------------------------------------
 -- Exercice — exactement les champs que l'écran consomme
@@ -184,9 +172,6 @@ CREATE TABLE IF NOT EXISTS exercise (
   type_question TEXT NOT NULL
                 CHECK (type_question IN ('qcm','true_false','complete','find_error',
                                          'reorder','short_answer','cloze')),
-  type_bloom    TEXT NOT NULL
-                CHECK (type_bloom IN ('remember','understand','apply','analyze')),
-  difficulty    INTEGER NOT NULL DEFAULT 2,
 
   -- Écran exercice. Limites de longueur imposées ici plutôt que dans
   -- l'UI : « un écran, pas de scroll » se tient à l'écriture.
@@ -206,7 +191,6 @@ CREATE TABLE IF NOT EXISTS exercise (
   ko_line       TEXT CHECK (ko_line   IS NULL OR length(ko_line)   <= 200),
   exp_title     TEXT CHECK (exp_title IS NULL OR length(exp_title) <= 160),
   exp_text      TEXT NOT NULL CHECK (length(exp_text) <= 600),
-  exp_tip       TEXT CHECK (exp_tip   IS NULL OR length(exp_tip)   <= 240),
 
   -- draft     : sorti du modèle, pas encore relu
   -- validated : relu, servi dans le feed
@@ -222,7 +206,7 @@ CREATE TABLE IF NOT EXISTS exercise (
 );
 
 -- L'index qui porte le feed : thème abonné + validé.
-CREATE INDEX IF NOT EXISTS ix_exercise_feed       ON exercise (theme_id, state, type_bloom);
+CREATE INDEX IF NOT EXISTS ix_exercise_feed       ON exercise (theme_id, state);
 CREATE INDEX IF NOT EXISTS ix_exercise_prompt_run ON exercise (exercise_prompt_id);
 
 CREATE TRIGGER IF NOT EXISTS tg_exercise_touch

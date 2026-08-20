@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 231,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the cliff or ledge over which a waterfall's water plunges?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The brink",
+            "feedback": "Correct. The brink is the lip or edge at the top of the waterfall, where the water leaves the riverbed and begins its free fall."
+          },
+          {
+            "label": "The basin",
+            "feedback": "The basin is the pool at the bottom of the waterfall, not the top edge. The brink is the specific lip where the water starts to drop."
+          },
+          {
+            "label": "The gorge",
+            "feedback": "A gorge is the narrow valley or canyon downstream, often carved by the falling water. The brink is the very edge over which the water falls."
+          },
+          {
+            "label": "The apron",
+            "feedback": "The apron is not a standard term for a waterfall's top. The brink is what marks the start of the drop."
+          }
+        ],
+        "ok_title": "Brink confirmed",
+        "ok_line": "The brink is the lip the water pours over.",
+        "ko_title": "Edge misnamed",
+        "ko_line": "That's a different part of the waterfall.",
+        "exp_title": "The waterfall's top edge",
+        "exp_text": "The brink is the sharp edge at the top of a waterfall. Water flows smoothly over it before falling freely. Knowing this term helps identify the point where the river's bed abruptly ends."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the deep pool at the bottom of a waterfall called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The plunge pool",
+            "feedback": "Yes, this is the correct name. The falling water carves out a hollow at the base, and that depression filled with water is the plunge pool."
+          },
+          {
+            "label": "The wearing pool",
+            "feedback": "That is not a standard term. The correct name is plunge pool, because the water plunges into it with force."
+          },
+          {
+            "label": "The base lake",
+            "feedback": "This is informal and not a recognized term. The proper name is plunge pool, reflecting the erosion caused by the falling water."
+          },
+          {
+            "label": "The impact hole",
+            "feedback": "This describes what happens but is not the accepted term. The correct name is plunge pool, used in geography."
+          }
+        ],
+        "ok_title": "Plunge pool named",
+        "ok_line": "The falling water digs out a plunge pool.",
+        "ko_title": "Pool mislabeled",
+        "ko_line": "That isn't the standard term for the pool.",
+        "exp_title": "Erosion at the base",
+        "exp_text": "The plunge pool forms because the falling water hits the riverbed with great force, wearing away rock over time. This deepens the riverbed right below the waterfall, creating a hollow that fills with water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes a waterfall to slowly move upstream over hundreds of years?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The water evaporates at the base",
+            "feedback": "Evaporation removes water but does not move the waterfall's position. The upstream movement comes from erosion at the base of the cliff."
+          },
+          {
+            "label": "The falling water erodes the cliff at its base, making it collapse",
+            "feedback": "Correct. The plunging water weakens the rock at the bottom, causing the cliff to crumble and the waterfall to retreat upstream."
+          },
+          {
+            "label": "The river changes course without any erosion",
+            "feedback": "A river's course can shift, but a waterfall's retreat is specifically due to the base being eaten away, not a simple course change."
+          },
+          {
+            "label": "The sun heats the rock and cracks it",
+            "feedback": "Weathering by heat can affect rock, but the main reason waterfalls migrate upstream is the undercutting by the falling water."
+          }
+        ],
+        "ok_title": "Retreat explained",
+        "ok_line": "Base erosion makes the waterfall recede.",
+        "ko_title": "Wrong cause cited",
+        "ko_line": "That doesn't drive the upstream shift.",
+        "exp_title": "Undercutting and retreat",
+        "exp_text": "The falling water at the base scours the rock, undermining the cliff above. Over time, chunks of the overhanging rock break off, and the waterfall's position moves upstream along the river."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What rock layer is hardest for a waterfall to erode, often making the ledge more resistant?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Soft sandstone",
+            "feedback": "Sandstone is relatively soft and erodes easily, so it does not hold up as a durable ledge. Hard rock like basalt does."
+          },
+          {
+            "label": "Loosely packed gravel",
+            "feedback": "Gravel is not solid rock and is washed away quickly. A resistant ledge needs solid, hard rock."
+          },
+          {
+            "label": "Layered shale",
+            "feedback": "Shale is soft and splits easily, so it erodes faster than many other rocks. It cannot form a lasting cliff edge."
+          },
+          {
+            "label": "Hard igneous rock such as basalt",
+            "feedback": "Correct. Basalt is very hard and resists erosion, so it can form the cap of a waterfall, staying while softer rock below wears away."
+          }
+        ],
+        "ok_title": "Resistant rock identified",
+        "ok_line": "Hard rock like basalt caps waterfalls.",
+        "ko_title": "Soft rock mistaken",
+        "ko_line": "That type erodes too quickly to form a ledge.",
+        "exp_title": "The caprock that resists",
+        "exp_text": "A waterfall often forms where a layer of hard rock, such as basalt, sits on top of softer rock. The hard layer resists erosion and remains as the lip, while the softer rock below wears away faster."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the mist of tiny water droplets that hangs in the air around a waterfall?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Fog",
+            "feedback": "Fog is a cloud that forms near the ground from moisture in the air, not from a waterfall's falling water. The term here is spray."
+          },
+          {
+            "label": "Drizzle",
+            "feedback": "Drizzle is light rain falling from clouds. What a waterfall produces is spray, which comes directly from the water breaking apart."
+          },
+          {
+            "label": "Spray",
+            "feedback": "Correct. As water crashes down, it breaks into tiny droplets that are carried into the air, called spray."
+          },
+          {
+            "label": "Vapor",
+            "feedback": "Vapor is water in its gas state, invisible. The visible mist at a waterfall is liquid droplets, so it is spray."
+          }
+        ],
+        "ok_title": "Spray named",
+        "ok_line": "Falling water breaks into spray.",
+        "ko_title": "Mist misidentified",
+        "ko_line": "That term means something else.",
+        "exp_title": "Droplets in the air",
+        "exp_text": "When the water hits the plunge pool, it splashes and breaks into fine droplets. These hang in the air as spray, which can wet nearby rocks and support plants that like damp conditions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the water at the top of a waterfall often look smooth and glassy just before it drops?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The water accelerates as it approaches the edge, stretching out",
+            "feedback": "Correct. The river speeds up near the brink, and the water surface becomes smooth and stretched as it readies to fall."
+          },
+          {
+            "label": "The water freezes briefly before the drop",
+            "feedback": "Freezing would make ice, not smooth water. The glassy look comes from acceleration, not temperature change."
+          },
+          {
+            "label": "The water slows down and becomes calm",
+            "feedback": "Slowing down would cause ripples, not a glassy surface. Actually, the water speeds up near the edge."
+          },
+          {
+            "label": "Wind blows the water flat only at the edge",
+            "feedback": "Wind can flatten water but not specifically at a waterfall's top. The smoothness is due to the acceleration of the flow."
+          }
+        ],
+        "ok_title": "Glassy surface explained",
+        "ok_line": "Speeding up makes the water look smooth.",
+        "ko_title": "Cause misunderstood",
+        "ko_line": "That isn't why the water looks glassy.",
+        "exp_title": "Acceleration near the brink",
+        "exp_text": "As the river approaches the waterfall, the slope steepens, so the water speeds up. This stretching flow becomes smooth and translucent, giving the glassy appearance right before the plunge."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the hollow space behind some waterfalls, where the water falls without touching the rock?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A cavern",
+            "feedback": "A cavern is a large natural underground chamber, not specifically behind a waterfall. The term here is overhang."
+          },
+          {
+            "label": "An overhang",
+            "feedback": "Correct. The softer rock behind the falling water is eroded away, leaving a rock shelf that juts out, creating a hollow or overhang."
+          },
+          {
+            "label": "A grotto",
+            "feedback": "A grotto is a small picturesque cave, often used loosely. The precise term for this waterfall feature is overhang, caused by differential erosion."
+          },
+          {
+            "label": "A niche",
+            "feedback": "A niche is a small recess, but the standard term for the space behind a waterfall is overhang, where the cliff face has been eaten back."
+          }
+        ],
+        "ok_title": "Overhang identified",
+        "ok_line": "A hollow behind falls is an overhang.",
+        "ko_title": "Cave term wrong",
+        "ko_line": "That word doesn't match this feature.",
+        "exp_title": "Erosion behind the curtain",
+        "exp_text": "The falling water and spray erode the rock at the base and behind the falling stream faster than the hard caprock. This carves out a recessed area, often letting you walk behind the water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the water at the bottom of a waterfall that helps deepen the riverbed there?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It cools and freezes, cracking the rock",
+            "feedback": "Freezing is a weathering process but not the main cause of deepening at the base. The force of the falling water is what digs the pool."
+          },
+          {
+            "label": "It evaporates, leaving the bed dry",
+            "feedback": "Evaporation does not deepen a riverbed. The plunge pool forms from the mechanical force of the water crashing down."
+          },
+          {
+            "label": "It spreads out and deposits sediment",
+            "feedback": "Deposition would fill in the bed, not deepen it. The water's impact scours and removes material."
+          },
+          {
+            "label": "It strikes the bed with great force, churning and scouring the rock",
+            "feedback": "Correct. The falling water hits the base with huge kinetic energy, stirring up sediment and abrading the rock, which carves out the plunge pool."
+          }
+        ],
+        "ok_title": "Downcutting at base",
+        "ok_line": "Falling water scours the riverbed deep.",
+        "ko_title": "Process misidentified",
+        "ko_line": "That doesn't explain the deepening.",
+        "exp_title": "Impact erosion",
+        "exp_text": "The water's impact at the base is powerful. It dislodges rock fragments and keeps them swirling, which grinds the bed like sandpaper. Over time, this deepens the pool directly below the falls."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a waterfall often form exactly where a river crosses from hard rock to soft rock?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The hard rock holds water back, raising the river level upstream",
+            "feedback": "This is partly true but not the main reason for the falls itself. The key is that soft rock erodes faster, leaving the hard rock as a ledge."
+          },
+          {
+            "label": "The soft rock absorbs all the water, reducing flow",
+            "feedback": "Soft rock may be porous, but the waterfall forms because of differential erosion, not because water is absorbed."
+          },
+          {
+            "label": "The soft rock erodes faster, leaving the hard rock standing as a ledge",
+            "feedback": "Correct. The river wears away the softer rock more quickly, so the harder rock remains as a step, creating a sudden drop."
+          },
+          {
+            "label": "The hard rock pushes the water up into the air",
+            "feedback": "Hard rock does not push water upward. The drop is due to the softer rock downstream being removed more easily."
+          }
+        ],
+        "ok_title": "Rock contrast explains",
+        "ok_line": "Hard rock stands while soft rock erodes.",
+        "ko_title": "Erosion order wrong",
+        "ko_line": "That isn't why the drop forms.",
+        "exp_title": "Differential erosion",
+        "exp_text": "Rivers wear away soft rock faster than hard rock. Where the river flows from a resistant layer to a weaker one, the downstream bed lowers quickly, leaving the hard rock as a lip over which the water falls."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the usual reason a waterfall makes a loud noise that can be heard from far away?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The falling water hits the plunge pool with great force, creating turbulence and sound",
+            "feedback": "Correct. The impact and churning water produce continuous loud noise, especially when the fall is high and the flow is large."
+          },
+          {
+            "label": "The waterfall vibrates like a musical instrument",
+            "feedback": "A waterfall isn't a solid object that vibrates like a instrument. The noise comes from the water's own impact and turbulence."
+          },
+          {
+            "label": "Wind blowing through the spray creates a whistle",
+            "feedback": "Wind can whistle through small gaps, but the dominant roar is from water striking water and rock, not from wind."
+          },
+          {
+            "label": "The rocks at the base are cracked and rattle",
+            "feedback": "Rocks may tumble, but the sustained loud noise is due to the water's impact and mixing, not rattling stones."
+          }
+        ],
+        "ok_title": "Loud roar source",
+        "ok_line": "Impact and turbulence make the noise.",
+        "ko_title": "Noise cause mistaken",
+        "ko_line": "That doesn't produce the roar.",
+        "exp_title": "Acoustics of falling water",
+        "exp_text": "When water falls, it accelerates and then crashes into the pool, creating bubbles and turbulence that generate sound. The greater the height and water volume, the louder the roar."
+      }
+    ]
+  }
+]

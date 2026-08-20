@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 228,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for the optical phenomena that are visible to the naked eye, such as rainbows and mirages?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Meteorological optical phenomena",
+            "feedback": "Correct. These are the patterns in the sky that can be seen without any optical aid, like the blue sky, halos, and mirages."
+          },
+          {
+            "label": "Atmospheric optics",
+            "feedback": "Atmospheric optics is the broader study of all optical characteristics of the atmosphere, including those beyond naked-eye visibility. The naked-eye patterns are specifically called meteorological optical phenomena."
+          },
+          {
+            "label": "Rayleigh scattering",
+            "feedback": "Rayleigh scattering is a physical process that causes the blue color of the sky, not a category of phenomena itself."
+          },
+          {
+            "label": "Refraction",
+            "feedback": "Refraction is one of the mechanisms that can create phenomena like mirages, but it is not the name for the set of visible phenomena."
+          }
+        ],
+        "ok_title": "Naked-eye sky patterns",
+        "ok_line": "These are the optical phenomena you can see without instruments.",
+        "ko_title": "Not the right term",
+        "ko_line": "Check whether the term names a category of phenomena or a specific process.",
+        "exp_title": "Meteorological optical phenomena",
+        "exp_text": "The study of what you can see with your own eyes is called meteorological optics, and the phenomena themselves are meteorological optical phenomena. They include the blue sky, rainbows, halos, and mirages, all caused by how light interacts with the atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes the sky appear blue during the day?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The sky reflects the blue color of the oceans",
+            "feedback": "The oceans do not color the sky. The blue comes from how sunlight is scattered by the air itself."
+          },
+          {
+            "label": "Rayleigh scattering of sunlight",
+            "feedback": "Correct. Rayleigh scattering sends more blue light into your eye than other colors because blue light is short-wavelength and is scattered more strongly."
+          },
+          {
+            "label": "The atmosphere absorbs all other colors",
+            "feedback": "The atmosphere does not absorb other colors; it scatters them. Red and other colors still reach you, but blue is scattered more."
+          },
+          {
+            "label": "Ice crystals in the upper atmosphere",
+            "feedback": "Ice crystals can create halos and sun dogs, but they are not what makes the daytime sky uniformly blue."
+          }
+        ],
+        "ok_title": "Blue from scattering",
+        "ok_line": "Short blue wavelengths get scattered toward your eyes.",
+        "ko_title": "Not absorption or reflection",
+        "ko_line": "The color comes from scattering, not from reflection off surfaces or absorption.",
+        "exp_title": "Rayleigh scattering of the sky",
+        "exp_text": "Sunlight passing through the atmosphere is scattered by air molecules. Blue light, having a shorter wavelength, is scattered more than red light, so the sky appears blue from all directions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a sunrise or sunset, why does the Sun appear reddish rather than blue or white?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The atmosphere emits red light at those times",
+            "feedback": "The atmosphere does not emit red light. The redness is due to how sunlight is filtered through a thicker layer of air."
+          },
+          {
+            "label": "The Sun itself changes color near the horizon",
+            "feedback": "The Sun's color does not change. The effect comes from the longer path its light takes through the atmosphere."
+          },
+          {
+            "label": "Red light is scattered less than blue light",
+            "feedback": "Correct. When the Sun is low, its light travels through much more air. Blue light gets scattered out of your line of sight, while red light, being long-wavelength, is scattered less and reaches your eye."
+          },
+          {
+            "label": "Water vapor in the air absorbs blue light",
+            "feedback": "Absorption by water vapor is not the cause. The key is differential scattering: blue is scattered away, red is not."
+          }
+        ],
+        "ok_title": "Red Sun at low angle",
+        "ok_line": "Blue gets scattered away, red travels through.",
+        "ko_title": "Not a change in the Sun",
+        "ko_line": "It is the atmosphere that removes blue and lets red pass.",
+        "exp_title": "Sunset redness",
+        "exp_text": "At sunrise or sunset, sunlight crosses a thicker atmosphere, so blue light is scattered out of the direct beam. The remaining red light reaches your eye, making the Sun look red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What physical process bends light rays to create a mirage?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Reflection off a layer of hot air",
+            "feedback": "Mirages are not caused by reflection off a surface. They are caused by bending of light as it passes through air of different temperatures."
+          },
+          {
+            "label": "Diffraction by dust particles",
+            "feedback": "Diffraction by dust can create some atmospheric effects, but a mirage is a bending due to temperature variations in the air's refractive index."
+          },
+          {
+            "label": "Absorption of light by water vapor",
+            "feedback": "Absorption removes light; it does not bend it to produce a displaced image. Mirages require a change in the speed of light through air."
+          },
+          {
+            "label": "Refraction due to thermal variations in the refractive index of air",
+            "feedback": "Correct. When air has different temperatures in layers, light bends as it moves between them, making distant objects appear displaced or distorted."
+          }
+        ],
+        "ok_title": null,
+        "ok_line": null,
+        "ko_title": "Not a mirage cause",
+        "ko_line": "Mirages are a bending effect, not reflection or absorption.",
+        "exp_title": "Refraction in a mirage",
+        "exp_text": "A mirage happens because warm and cool air have different refractive indices. Light passing through these layers bends, so the image of a distant object appears shifted or reshaped, like the shimmering puddle on a hot road."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of cloud is associated with halos around the Sun or Moon?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Thin, high cirrus clouds made of ice crystals",
+            "feedback": "Correct. Halos are formed by light refracting through ice crystals in thin, high clouds, not by the thick lower clouds that bring rain."
+          },
+          {
+            "label": "Thick, low cumulus clouds",
+            "feedback": "Cumulus clouds are made of water droplets, not ice crystals, and they are too thick to produce the clear ring of a halo."
+          },
+          {
+            "label": "Nimbostratus clouds",
+            "feedback": "Nimbostratus are rain clouds, thick and full of water droplets. They do not have the ice crystals needed for halos."
+          },
+          {
+            "label": "Fog",
+            "feedback": "Fog is near the ground and made of tiny water droplets; it cannot form the ice crystals that create halos."
+          }
+        ],
+        "ok_title": null,
+        "ok_line": null,
+        "ko_title": "Wrong cloud type",
+        "ko_line": "Halos need ice crystals, not water droplets.",
+        "exp_title": "Ice-crystal halos",
+        "exp_text": "A halo is a ring of light seen around the Sun or Moon, caused by light refracting through ice crystals in thin, high cirrus clouds. The crystals act as tiny prisms, bending light to form the ring."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the colors of a rainbow?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Scattering of light by air molecules",
+            "feedback": "Scattering by air molecules gives the sky its blue color, not the organized arc of a rainbow. Rainbows need raindrops."
+          },
+          {
+            "label": "Internal reflection and dispersive refraction in raindrops",
+            "feedback": "Correct. Light enters a raindrop, reflects off the back, and refracts as it exits, splitting white light into colors."
+          },
+          {
+            "label": "Diffraction of light by cloud edges",
+            "feedback": "Diffraction at cloud edges can produce colored fringes, but a full rainbow comes from refraction and reflection inside raindrops."
+          },
+          {
+            "label": "Absorption of red light by water",
+            "feedback": "Water does absorb some light, but a rainbow's colors come from separating white light into its components, not from absorbing colors."
+          }
+        ],
+        "ok_title": null,
+        "ok_line": null,
+        "ko_title": "Not raindrop optics",
+        "ko_line": "Rainbows are not from scattering or absorption.",
+        "exp_title": "Rainbow formation",
+        "exp_text": "A rainbow appears when sunlight enters raindrops, reflects off their inner surfaces, and then refracts on the way out. This combination splits the light into its spectral colors, forming an arc in the sky opposite the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of the sky is a rainbow visible relative to the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "On the same side as the Sun",
+            "feedback": "A rainbow is not on the same side as the Sun. It appears opposite the Sun, so you must look away from it to see one."
+          },
+          {
+            "label": "Directly overhead",
+            "feedback": "A rainbow is not fixed overhead. Its position depends on the Sun's height; it always appears on the opposite side."
+          },
+          {
+            "label": "On the opposite side of the sky from the Sun",
+            "feedback": "Correct. The rainbow is formed by light that has been reflected and refracted in raindrops on the side of the sky opposite the Sun."
+          },
+          {
+            "label": "Near the northern horizon",
+            "feedback": "The direction of a rainbow is not tied to the north. It always lies opposite the Sun, regardless of compass direction."
+          }
+        ],
+        "ok_title": null,
+        "ok_line": null,
+        "ko_title": "Wrong side of the sky",
+        "ko_line": "You must face away from the Sun to see a rainbow.",
+        "exp_title": "Rainbow position",
+        "exp_text": "A rainbow always appears in the part of the sky opposite the Sun. That is why, when the Sun is low on the horizon, the rainbow can be high in the sky, but when the Sun is overhead, the rainbow is low near your feet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes the Sun appear larger near the horizon than when it is high overhead?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The atmosphere magnifies the Sun's image",
+            "feedback": "The atmosphere does not act like a magnifying glass. The apparent size difference is about how the brain judges distance, not about optical magnification."
+          },
+          {
+            "label": "The Sun is actually closer to Earth near the horizon",
+            "feedback": "The Sun's distance from Earth does not change noticeably during the day. The illusion is psychological, not physical."
+          },
+          {
+            "label": "Refraction by the atmosphere stretches the Sun",
+            "feedback": "Refraction can distort the Sun's shape, but the large apparent size at the horizon is a perceptual illusion, not a change in the image size on the retina."
+          },
+          {
+            "label": "The brain judges distance and size based on intervening objects",
+            "feedback": "Correct. When the Sun is near the horizon, we see many objects between us and it, so it appears farther and therefore larger. High overhead, without those cues, it appears closer and smaller."
+          }
+        ],
+        "ok_title": null,
+        "ok_line": null,
+        "ko_title": "Not an optical enlargement",
+        "ko_line": "The Sun's image on your eye is the same size.",
+        "exp_title": "The Moon/Sun size illusion",
+        "exp_text": "The Sun and Moon appear larger near the horizon because the brain uses distance cues. With many intervening objects, it judges the Sun as farther away, and since it produces the same image size, it concludes the Sun is bigger. Overhead, with no distance cues, it seems nearer and smaller."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which phenomenon is a form of refraction that can make distant ships or islands appear as elevated, castle-like shapes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Fata Morgana",
+            "feedback": "Correct. A Fata Morgana happens during a temperature inversion and makes objects on the horizon appear elongated, elevated, and sometimes stacked like fairy-tale castles."
+          },
+          {
+            "label": "Crepuscular rays",
+            "feedback": "Crepuscular rays are alternating beams of light and shadow, not a distortion of distant objects."
+          },
+          {
+            "label": "A halo",
+            "feedback": "A halo is a ring around the Sun or Moon, made by ice crystals, not a distortion of horizon objects."
+          },
+          {
+            "label": "The Novaya Zemlya effect",
+            "feedback": "The Novaya Zemlya effect distorts the shape of the Sun and makes it rise earlier, not the shape of ships or islands."
+          }
+        ],
+        "ok_title": null,
+        "ok_line": null,
+        "ko_title": "Wrong mirage type",
+        "ko_line": "It is a specific kind of refracted image, not a ray or a halo.",
+        "exp_title": "Fata Morgana",
+        "exp_text": "A Fata Morgana is a spectacular mirage that appears during a temperature inversion, when light is bent downward. Objects at or beyond the horizon, like ships or cliffs, appear stretched upward and often look like castles or towers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do crepuscular rays look like?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A complete circle of light around the Sun",
+            "feedback": "A circle of light around the Sun is a halo, formed by ice crystals, not by shadows and beams."
+          },
+          {
+            "label": "Alternating beams of light and shadow, often seen in the sky",
+            "feedback": "Correct. Crepuscular rays are visible beams of sunlight separated by shadowed regions, usually appearing when the Sun is low and clouds cast shadows into the atmosphere."
+          },
+          {
+            "label": "A single bright spot on either side of the Sun",
+            "feedback": "Bright spots beside the Sun are sun dogs, caused by ice crystals, not rays of light and shadow."
+          },
+          {
+            "label": "A colored arc in the sky",
+            "feedback": "A colored arc is a rainbow, which requires raindrops and is seen opposite the Sun, not rays of light."
+          }
+        ],
+        "ok_title": null,
+        "ok_line": null,
+        "ko_title": "Not a ray pattern",
+        "ko_line": "Crepuscular rays are alternating light and dark beams.",
+        "exp_title": "Crepuscular rays",
+        "exp_text": "Crepuscular rays are beams of sunlight that appear to radiate from the Sun when its light passes through gaps in clouds, casting long shadows. They are a visual illusion caused by the way our eye sees the contrast between lit and unlit air."
+      }
+    ]
+  }
+]

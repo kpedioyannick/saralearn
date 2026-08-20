@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 115,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why can an ordinary fluffy cumulus cloud on a summer afternoon sometimes keep growing into a towering, storm-producing cumulonimbus?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It absorbs neighbouring clouds as it drifts, growing by merging with them",
+            "feedback": "A storm cloud doesn't grow mainly by swallowing separate clouds nearby; it grows because the air feeding it keeps rising and condensing internally."
+          },
+          {
+            "label": "A strong, sustained updraft keeps carrying moist air upward, and condensation keeps releasing heat that feeds that same updraft further",
+            "feedback": "As long as that cycle of rising, condensing, and reheating continues, the cloud keeps climbing instead of levelling off."
+          },
+          {
+            "label": "The ground beneath it grows unusually hot for just that one cloud",
+            "feedback": "It's the persistence of the updraft feeding the cloud, not some special extra heat confined to the patch of ground under it, that lets a cumulus keep building."
+          },
+          {
+            "label": "Lightning inside the cloud pushes it upward",
+            "feedback": "Lightning is a result of a storm cloud's internal structure, not a cause of its vertical growth; the cloud is already building well before any lightning occurs."
+          }
+        ],
+        "ok_title": "A cycle that feeds itself",
+        "ok_line": "Each new bit of condensation adds a little more lift to carry the cloud higher still.",
+        "ko_title": "Not merging, not special heat below, not lightning",
+        "ko_line": "Ask what keeps an updraft going once it's already started, rather than what starts it in the first place.",
+        "exp_title": "An updraft that feeds itself",
+        "exp_text": "An ordinary cumulus cloud stops growing once its updraft runs out of moist air to lift, but under the right conditions fresh warm, humid air keeps arriving at its base and rising. Each parcel that condenses inside the cloud releases heat as it does, and that released heat keeps the rising air a little warmer, and so a little more buoyant, than its surroundings, driving the updraft on rather than letting it stall. As long as that cycle of rising, condensing, and reheating keeps renewing itself, the cloud keeps climbing higher instead of settling into the modest, flat-topped shape of a fair-weather cumulus."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the top of a mature storm cloud so often spread out flat into the shape of an anvil?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The cloud has simply used up all its available moisture",
+            "feedback": "An anvil-topped cloud is very often still actively growing and producing heavy rain below; running out of moisture isn't what flattens its top."
+          },
+          {
+            "label": "Wind at ground level pushes the top sideways from below",
+            "feedback": "Ground-level wind has no direct effect on the shape of a cloud's top many kilometres above it; the flattening happens up there, for a reason specific to that height."
+          },
+          {
+            "label": "The rising air meets a stable layer high up that it cannot push through, so it spreads sideways instead",
+            "feedback": "Unable to keep rising, the air has nowhere to go but outward, fanning into the broad, flat shape of an anvil."
+          },
+          {
+            "label": "Ice crystals at the top are too heavy to keep rising",
+            "feedback": "The ice crystals up there are, if anything, especially light for their size; weight isn't what stops the cloud's vertical growth at that height."
+          }
+        ],
+        "ok_title": "Blocked from above, spread instead",
+        "ok_line": "With nowhere higher to go, the rising air fans out sideways.",
+        "ko_title": "Not exhausted, not ground wind, not heavy ice",
+        "ko_line": "Ask what the air at that great height is like above the cloud, and what it does to a parcel that's still trying to rise.",
+        "exp_title": "Stopped by a ceiling, spread sideways",
+        "exp_text": "A powerful updraft can carry a storm cloud's top thousands of metres upward, but eventually it reaches a layer where the air above is actually warmer than the rising air itself, and warmer air above offers no more buoyancy to climb into. Unable to keep rising against that stable layer, the air spreads out sideways instead, carried along in whichever direction the wind blows at that great height. That outward spread, happening at the same ceiling height each time, is what gives the cloud its broad, flat-topped anvil shape."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the base of an approaching storm cloud so often look darker, or take on a greenish or ominous cast, compared with an ordinary cloud?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The cloud has begun absorbing sunlight to power the coming storm",
+            "feedback": "A cloud doesn't draw in and store sunlight as fuel; its darkness comes from how much light is being blocked, not from light being absorbed for energy."
+          },
+          {
+            "label": "It's an optical illusion caused by the approaching wind",
+            "feedback": "The darkening is a genuine difference in how much light reaches your eye from that cloud, not a trick played by wind or motion."
+          },
+          {
+            "label": "Rain has already begun falling and is dimming the whole scene",
+            "feedback": "The darkened look of a storm cloud's base is often visible well before any rain begins falling from it; the colour is a property of the cloud itself, not of rain already underway."
+          },
+          {
+            "label": "The cloud is extremely thick and dense, blocking almost all the light trying to pass through it",
+            "feedback": "With very little sunlight making it through such a deep, densely packed cloud, the underside you see from below looks far darker than a thinner cloud ever would."
+          }
+        ],
+        "ok_title": "Too thick for the light to pass",
+        "ok_line": "A cloud that deep leaves almost nothing of the sunlight to reach your eyes from below.",
+        "ko_title": "Not absorbed sunlight, not illusion, not falling rain",
+        "ko_line": "Ask how much cloud, top to bottom, actually stands between the sun and what you're seeing from underneath.",
+        "exp_title": "Too much cloud for the light to cross",
+        "exp_text": "A mature storm cloud can extend upward for a great distance, densely packed with water droplets and ice throughout its depth. Sunlight entering at the top is scattered and absorbed repeatedly on its way down through all that material, and only a small fraction ever makes it through to the underside. Looking up from below at a cloud that thick, you're seeing what little light survives that whole journey, which is why its base can look so much darker than an ordinary, thinner cloud overhead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do mammatus clouds hang beneath a storm cloud's base in rounded pouches or sacks, instead of the usual flat or bulging shape?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Localised pockets of cold, saturated air sink into the drier air below, bulging the base downward as they descend",
+            "feedback": "Where those sinking pockets push into the drier layer beneath, the cloud's underside gets pulled into hanging, rounded lobes rather than staying flat."
+          },
+          {
+            "label": "The cloud's underside is being pulled up by wind from the ground",
+            "feedback": "Mammatus lobes hang downward, and their shape comes from air sinking within the cloud, not from anything pulling upward from ground level."
+          },
+          {
+            "label": "Ice crystals clump together into ball-shaped pouches",
+            "feedback": "The pouch shape isn't made of clumped ice; it's the outline of the cloud's underside itself being shaped by pockets of sinking air."
+          },
+          {
+            "label": "It only happens where lightning has recently struck the cloud",
+            "feedback": "Mammatus lobes form through sinking pockets of air within the cloud, with no connection to whether or where lightning has struck."
+          }
+        ],
+        "ok_title": "Sinking pockets, hanging lobes",
+        "ok_line": "Where cold, saturated air pushes down into drier air below, the base bulges into a pouch.",
+        "ko_title": "Not pulled from below, not clumped ice, not lightning",
+        "ko_line": "Ask what's moving inside the cloud right at its underside -- rising, as usual, or sinking, for once.",
+        "exp_title": "Pockets of sinking air, hanging low",
+        "exp_text": "Most of a storm cloud's shape comes from air rising through it, but at the base of an especially turbulent storm, localised pockets of cold, saturated air can instead sink downward, pushing into the drier air just beneath the cloud. As each pocket descends and spreads a little before finally evaporating, it drags the cloud's underside downward with it, producing a smooth, rounded lobe. Many such pockets sinking side by side across the base give the whole underside its pouch-like, mammatus texture."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What causes a long, wedge-shaped shelf cloud to form along the leading edge of an approaching thunderstorm?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lightning heats the air just ahead of the storm into a visible shape",
+            "feedback": "The shelf's shape is produced by air motion, not by heat from lightning; it can be seen forming well before any lightning strikes nearby."
+          },
+          {
+            "label": "Cold air spreading out from the storm's downdraft forces warm, humid air ahead of it sharply upward",
+            "feedback": "That sharp, forced lifting along the boundary between the two air masses cools the warm air quickly enough to condense into the shelf's distinctive wedge shape."
+          },
+          {
+            "label": "The storm cloud is simply tipping forward as it moves",
+            "feedback": "The shelf isn't the main storm cloud leaning over; it's a separate, lower cloud forming from the collision between the storm's outflowing cold air and the warm air ahead of it."
+          },
+          {
+            "label": "Dust kicked up by the storm's wind forms the visible shape",
+            "feedback": "A shelf cloud is made of condensed water droplets, just as any other cloud is, not of dust; dust may accompany a storm's gusty wind but isn't what forms this shape."
+          }
+        ],
+        "ok_title": "Cold air shoving warm air up",
+        "ok_line": "The wedge shape traces exactly where that forced, sudden lifting happens.",
+        "ko_title": "Not lightning, not the storm tipping, not dust",
+        "ko_line": "Ask what happens where a storm's outflowing cold air runs into the warm air still sitting ahead of it.",
+        "exp_title": "A wedge where cold air shoves warm air up",
+        "exp_text": "A mature thunderstorm's downdraft spreads a pool of cold, dense air outward along the ground ahead of the storm itself. Where that cold air meets the warmer, more humid air still sitting undisturbed in front of the storm, it acts like a small wedge, forcing that warm air to rise sharply rather than simply pushing it aside. The rising warm air cools quickly along that boundary and condenses, tracing out the long, low, wedge-shaped shelf cloud that marks the storm's advancing edge."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the top of a maturing storm cloud change from a bubbling, cauliflower-like texture to a smooth, fibrous one as it grows tallest?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The cloud slows down and stops growing at that point",
+            "feedback": "A storm cloud's top very often keeps growing actively even after this texture change; the smoothness marks a change in what the top is made of, not that growth has stopped."
+          },
+          {
+            "label": "Wind polishes the surface of the cloud smooth",
+            "feedback": "Wind can shear and stretch a cloud's outline, but the fibrous look at a storm's summit comes from what the cloud is made of at that height, not from being polished."
+          },
+          {
+            "label": "The rising droplets freeze into ice crystals once they reach the very cold air at that height",
+            "feedback": "Ice-crystal cloud has that same smooth, streaky look as a cirrus cloud, quite different from the bubbling texture of liquid droplets lower down."
+          },
+          {
+            "label": "Sunlight bleaches the top white and smooth-looking",
+            "feedback": "Sunlight doesn't change a cloud's texture in this way; the shift from bubbling to fibrous reflects an actual change in what the cloud top is made of, not lighting."
+          }
+        ],
+        "ok_title": "Liquid gives way to ice",
+        "ok_line": "The texture changes because the material at that height has changed.",
+        "ko_title": "Not stalled growth, not polishing wind, not bleaching",
+        "ko_line": "Ask what happens to a rising water droplet once it reaches air cold enough at the very top of a tall storm cloud.",
+        "exp_title": "Where liquid turns to ice",
+        "exp_text": "Lower in a growing storm cloud, the rounded, bubbling texture comes from liquid water droplets carried up in surge after surge of updraft. As those droplets rise high enough, they reach air cold enough to freeze them into ice crystals, and a cloud made of ice crystals takes on the same smooth, streaky, fibrous look as an ordinary cirrus cloud far away. The change in texture at the very top of a tall storm cloud marks the exact height where liquid droplets have finally turned into ice."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lowered, sometimes rotating patch of cloud occasionally hang beneath a thunderstorm's main base, distinct from the cloud around it?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It's a separate small cloud that has drifted in and attached itself",
+            "feedback": "This lowered patch is connected to the storm's own base, formed from the very same updraft, rather than a separate cloud that has arrived from elsewhere."
+          },
+          {
+            "label": "Hail forming inside the storm weighs that part of the cloud down",
+            "feedback": "Hail forms and falls within the storm's core, not specifically at this lowered patch, and its weight isn't what pulls this part of the cloud's base down."
+          },
+          {
+            "label": "It only appears once rain has already reached the ground",
+            "feedback": "This lowered cloud feature can appear well before any rain reaches the ground, tied to the storm's updraft rather than to rainfall timing."
+          },
+          {
+            "label": "It marks where the storm's updraft is unusually concentrated, pulling in a narrow column of especially humid air",
+            "feedback": "Because that concentrated air condenses at a lower height than the surrounding, less humid air feeding the rest of the base, this one patch hangs down further than its surroundings."
+          }
+        ],
+        "ok_title": "A narrower, more humid column",
+        "ok_line": "More concentrated moisture there means condensation starts a little lower than everywhere else on the base.",
+        "ko_title": "Not a drifting cloud, not hail, not rainfall",
+        "ko_line": "Ask what might make one patch of the storm's updraft more concentrated than the rest, and what a more humid updraft does to the height at which it condenses.",
+        "exp_title": "A lower base where the updraft concentrates",
+        "exp_text": "Across most of a thunderstorm's base, moist air rises broadly and condenses at roughly the same height, matching the cloud's usual flat underside. Where the storm's updraft becomes unusually concentrated, pulling in a narrower, more humid column of air, that air can reach saturation and condense at a slightly lower height than the broader air around it. The result is a lowered patch of cloud hanging beneath the main base, marking exactly where that tighter, more intense column of rising air sits."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a storm cloud occasionally show a smooth, bulging dome rising briefly above its flat anvil top?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An especially powerful updraft briefly pushes through the stable layer that normally flattens the cloud's top",
+            "feedback": "For that one surge to punch through and bulge upward before sinking back shows just how much force the updraft carries at that moment."
+          },
+          {
+            "label": "The anvil itself is being blown upward by surface wind",
+            "feedback": "Surface-level wind has no direct effect on the shape of a cloud top many kilometres overhead; this bulge is produced locally, at that height, by the updraft itself."
+          },
+          {
+            "label": "It's simply another, separate cloud passing above the anvil",
+            "feedback": "This dome is directly connected to the storm cloud below it, rising up from the anvil's surface, rather than being an unrelated cloud drifting past."
+          },
+          {
+            "label": "Ice crystals pile up there because the anvil has run out of room",
+            "feedback": "An anvil doesn't have a fixed 'capacity' that fills up; the dome forms because a burst of especially strong updraft is briefly overpowering the stable layer that usually stops the cloud's rise."
+          }
+        ],
+        "ok_title": "A surge strong enough to break through",
+        "ok_line": "Most of the cloud stops at the stable layer; this one surge briefly didn't.",
+        "ko_title": "Not wind from below, not a separate cloud, not overflow",
+        "ko_line": "Ask what it would take for part of a cloud to rise higher than the stable layer that normally stops the whole cloud's climb.",
+        "exp_title": "A surge strong enough to punch through",
+        "exp_text": "The flat anvil top of a storm cloud marks the height where its updraft normally runs out of buoyancy against a stable layer above. On rare occasions, a particularly forceful surge of updraft carries enough momentum to briefly overshoot that boundary, pushing a smooth, rounded dome of cloud above the flat anvil before it loses momentum and sinks back down. Such an overshooting dome is a visible sign that the updraft feeding the storm at that moment is especially strong."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the underside of a mature storm cloud sometimes appear to churn and boil visibly, unlike the calm, steady look of an ordinary fair-weather cloud?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The storm cloud is rotating as a single solid block",
+            "feedback": "A storm cloud isn't turning as one rigid piece; the churning look comes from many different currents of air moving through it at once, not from the whole cloud spinning together."
+          },
+          {
+            "label": "Strong updrafts and downdrafts move through it at once, dragging different parts of the cloud in conflicting directions",
+            "feedback": "With rising and sinking air both active at the same time nearby, the visible cloud gets pulled and folded in different directions all at once, producing that churning look."
+          },
+          {
+            "label": "Rain falling through it stirs the cloud from below",
+            "feedback": "Falling rain passes through the cloud without meaningfully stirring its overall shape from below; the churn comes from air currents inside and around the cloud itself, not from raindrops."
+          },
+          {
+            "label": "Sunlight heats one side of the cloud unevenly",
+            "feedback": "The churning appearance shows up just as strongly on an overcast, low-light day as on a bright one; uneven sunlight isn't what's driving it."
+          }
+        ],
+        "ok_title": "Different currents, dragged different ways",
+        "ok_line": "Rising and sinking air at the same time pulls the visible cloud in conflicting directions.",
+        "ko_title": "Not solid rotation, not falling rain, not sunlight",
+        "ko_line": "Ask how many different currents of air -- rising, sinking -- might be active inside a single storm cloud at once, compared with a calm fair-weather cumulus.",
+        "exp_title": "Many currents pulling at once",
+        "exp_text": "A fair-weather cumulus is shaped by one gentle, fairly steady updraft, which gives it a calm, settled outline. A mature storm cloud instead has several currents of air active at once -- updrafts feeding new growth and downdrafts of cooled, sinking air from precipitation evaporating within the cloud -- often side by side and moving in different directions. Those conflicting currents drag visible parts of the cloud along with them, and the constant, uneven tugging is what gives the underside its restless, churning look."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do storm clouds so often look far taller than they are wide, unlike the flatter, broader clouds of a calm day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They only appear that way from a distance, due to perspective",
+            "feedback": "Storm clouds genuinely do extend far higher relative to their width than fair-weather clouds; this isn't a trick of distance or viewing angle."
+          },
+          {
+            "label": "The wind blowing at their base compresses them inward from the sides",
+            "feedback": "Surface wind at the base doesn't squeeze the cloud narrower; what's shaping this proportion is how fast the cloud is growing upward relative to outward."
+          },
+          {
+            "label": "A continuous strong updraft pushes the cloud upward much faster than it can spread sideways at its base",
+            "feedback": "With vertical growth consistently outpacing any sideways spread, the cloud ends up towering rather than settling into a flat, broad layer."
+          },
+          {
+            "label": "Rain falling from the sides trims the cloud narrower as it grows",
+            "feedback": "Falling rain removes water from the cloud but doesn't actively trim or narrow its outline; the tall, narrow shape comes from how the cloud is growing upward, not from rain shaping its sides."
+          }
+        ],
+        "ok_title": "Upward outpaces outward",
+        "ok_line": "A sustained strong updraft builds height faster than the cloud can ever spread at its base.",
+        "ko_title": "Not perspective, not wind squeezing it, not rain trimming it",
+        "ko_line": "Ask which direction -- up or sideways -- the cloud is actually growing fastest in, moment to moment.",
+        "exp_title": "Growing up faster than it spreads",
+        "exp_text": "A calm-weather cloud typically grows and spreads at a gentle, fairly even pace in every direction, settling into a broad, relatively flat shape. A storm cloud, driven by a sustained and powerful updraft, keeps adding height at its top far faster than its base manages to widen. With vertical growth consistently outrunning horizontal spread, the cloud ends up standing tall and comparatively narrow, towering over the landscape rather than spreading out across it."
+      }
+    ]
+  }
+]

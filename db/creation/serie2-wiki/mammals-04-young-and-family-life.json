@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 241,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do all female mammals have that they use to feed their young?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Egg sacs",
+            "feedback": "Egg sacs are not a mammal feature; mammals are defined by milk-producing glands, not sacs."
+          },
+          {
+            "label": "Mammary glands",
+            "feedback": "Correct. Mammary glands produce milk, which is the defining characteristic of mammals for feeding their young."
+          },
+          {
+            "label": "Placenta",
+            "feedback": "The placenta is an organ used during pregnancy, not for feeding after birth, and not all mammals have one."
+          },
+          {
+            "label": "Blubber",
+            "feedback": "Blubber is a fat layer for warmth, not for feeding young; it's found in some marine mammals but is not universal."
+          }
+        ],
+        "ok_title": "Milk glands",
+        "ok_line": "Mammary glands are what make mammals unique.",
+        "ko_title": "Not that organ",
+        "ko_line": "That isn't the feeding organ for young.",
+        "exp_title": "Defining mammal feature",
+        "exp_text": "Mammary glands are the milk-producing glands that give mammals their name. They are present in females and are used to feed newborn young, which is a trait that all mammals share, even the egg-laying ones."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group of mammals lays eggs instead of giving birth to live young?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Marsupials",
+            "feedback": "Marsupials give birth to live but very underdeveloped young, not eggs."
+          },
+          {
+            "label": "Placentals",
+            "feedback": "Placentals give birth to live young that have developed with a placenta; they do not lay eggs."
+          },
+          {
+            "label": "Cetaceans",
+            "feedback": "Cetaceans, like whales and dolphins, are placental mammals that give birth to live young."
+          },
+          {
+            "label": "Monotremes",
+            "feedback": "Correct. Monotremes, such as the platypus and echidna, are the only five mammal species that lay eggs."
+          }
+        ],
+        "ok_title": "Egg-laying mammals",
+        "ok_line": "Monotremes are the exceptions.",
+        "ko_title": "Not live birth",
+        "ko_line": "Those groups don't lay eggs.",
+        "exp_title": "The monotreme exception",
+        "exp_text": "Monotremes are the only modern mammals that lay eggs. All other mammals, including marsupials and placentals, give birth to live young, but monotremes keep the egg-laying habit."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the temporary organ that a placental mammal uses to feed its unborn young?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Placenta",
+            "feedback": "Correct. The placenta is the temporary organ that connects the mother to the developing young and supplies it with nutrition during gestation."
+          },
+          {
+            "label": "Umbilical cord",
+            "feedback": "The umbilical cord is the tube that links the young to the placenta, but the placenta itself is the feeding organ."
+          },
+          {
+            "label": "Mammary gland",
+            "feedback": "Mammary glands produce milk after birth, not during development inside the womb."
+          },
+          {
+            "label": "Egg sac",
+            "feedback": "Egg sacs are not a mammal organ; placentals do not use egg sacs for feeding their unborn young."
+          }
+        ],
+        "ok_title": "Feeding organ",
+        "ok_line": "The placenta feeds the unborn mammal.",
+        "ko_title": "Not the tube",
+        "ko_line": "That's a different part.",
+        "exp_title": "Placenta's role",
+        "exp_text": "The placenta is a temporary organ that allows the developing offspring to draw nutrients from the mother's blood during gestation. It's what makes placental mammals distinct from other mammals that don't have this organ."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group of mammals has the most species, according to the largest orders?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Bats",
+            "feedback": "Bats are the second largest order, not the largest; rodents have more species."
+          },
+          {
+            "label": "Primates",
+            "feedback": "Primates are the fourth largest order, not the largest; they come after rodents, bats, and eulipotyphlans."
+          },
+          {
+            "label": "Rodents",
+            "feedback": "Correct. Rodents, which include mice, rats, and beavers, form the order with the most mammal species."
+          },
+          {
+            "label": "Carnivorans",
+            "feedback": "Carnivorans, like cats and dogs, are the sixth largest order, not the largest."
+          }
+        ],
+        "ok_title": "Largest order",
+        "ok_line": "Rodents top the count.",
+        "ko_title": "Not the top",
+        "ko_line": "That order is smaller in species.",
+        "exp_title": "Rodent dominance",
+        "exp_text": "Rodents, such as mice, rats, porcupines, and beavers, are the most species-rich order of mammals. They outnumber bats, the second-largest order, and all other mammal groups."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do most mammals use for moving on land?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Two limbs",
+            "feedback": "Only a few mammals, like humans, are bipedal; most use four limbs."
+          },
+          {
+            "label": "Four limbs",
+            "feedback": "Correct. The basic mammalian body type is quadrupedal, meaning most mammals walk on four limbs."
+          },
+          {
+            "label": "Flippers",
+            "feedback": "Flippers are used by sea mammals like seals and whales, not by most mammals on land."
+          },
+          {
+            "label": "Wings",
+            "feedback": "Only bats have wings; most mammals do not fly."
+          }
+        ],
+        "ok_title": "Four-legged walk",
+        "ok_line": "Most mammals are quadrupedal.",
+        "ko_title": "Not the norm",
+        "ko_line": "That's only for a few.",
+        "exp_title": "Quadrupedal body",
+        "exp_text": "Most mammals use four limbs for terrestrial locomotion. Some have adapted their limbs for other environments, like wings for flight or flippers for swimming, but the basic plan is four-legged."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammals have limbs adapted for life in the air?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Whales",
+            "feedback": "Whales have limbs adapted for sea life, not air; they have flippers and internal hind limbs."
+          },
+          {
+            "label": "Moles",
+            "feedback": "Moles have limbs adapted for underground digging, not for air."
+          },
+          {
+            "label": "Bats",
+            "feedback": "Correct. Bats have forelimbs modified into wings, which lets them fly through the air."
+          },
+          {
+            "label": "Seals",
+            "feedback": "Seals have limbs adapted for swimming in the sea, not for air."
+          }
+        ],
+        "ok_title": "Air adapters",
+        "ok_line": "Bats fly with modified limbs.",
+        "ko_title": "Wrong habitat",
+        "ko_line": "Those limbs are for elsewhere.",
+        "exp_title": "Flight in mammals",
+        "exp_text": "Bats are the mammals that have adapted their limbs for life in the air, with wings formed from a membrane stretched between elongated fingers. No other mammal flies with true powered flight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do all modern mammals do with their young, except for monotremes?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Lay eggs",
+            "feedback": "Only monotremes lay eggs; all other modern mammals give birth to live young."
+          },
+          {
+            "label": "Abandon them",
+            "feedback": "Mammals typically care for their young, not abandon them; this is not a universal trait."
+          },
+          {
+            "label": "Leave them in nests",
+            "feedback": "Some mammals build nests, but this is not universal, and it's not about how they are born."
+          },
+          {
+            "label": "Give birth to live young",
+            "feedback": "Correct. All modern mammals give birth to live young, except for the five monotreme species that lay eggs."
+          }
+        ],
+        "ok_title": "Live birth",
+        "ok_line": "Most mammals bear live young.",
+        "ko_title": "Not like that",
+        "ko_line": "Egg-laying is rare.",
+        "exp_title": "Live young norm",
+        "exp_text": "The vast majority of mammals give birth to live young. The only exceptions are the monotremes, which lay eggs, but even they still feed their hatchlings milk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the group of mammals that includes humans, monkeys, and lemurs?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Primates",
+            "feedback": "Correct. Primates are the order that includes humans, monkeys, and lemurs."
+          },
+          {
+            "label": "Rodents",
+            "feedback": "Rodents are gnawing mammals like mice and rats, not humans or monkeys."
+          },
+          {
+            "label": "Carnivorans",
+            "feedback": "Carnivorans are meat-eating mammals like cats and dogs, not primates."
+          },
+          {
+            "label": "Eulipotyphlans",
+            "feedback": "Eulipotyphlans include shrews, moles, and hedgehogs, not primates."
+          }
+        ],
+        "ok_title": "Primate order",
+        "ok_line": "Primates cover humans and monkeys.",
+        "ko_title": "Different order",
+        "ko_line": "That group doesn't include them.",
+        "exp_title": "The primate group",
+        "exp_text": "Primates are one of the major orders of mammals, and they include a wide range of species such as humans, monkeys, and lemurs. They are known for their relatively large brains and grasping hands."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical lifespan range for mammals, from the shortest to the longest?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "From 1 year to 50 years",
+            "feedback": "This range is too short; some mammals live much longer than 50 years, and the shortest is about 2 years."
+          },
+          {
+            "label": "From 5 years to 100 years",
+            "feedback": "This is not accurate; some shrews live only 2 years, and whales can live over 200 years."
+          },
+          {
+            "label": "From 2 years to 211 years",
+            "feedback": "Correct. The shortest-lived mammal, the shrew, lives about 2 years, while the bowhead whale can live up to 211 years."
+          },
+          {
+            "label": "From 10 years to 150 years",
+            "feedback": "This range misses both the very short lives of shrews and the very long lives of bowhead whales."
+          }
+        ],
+        "ok_title": "Lifespan range",
+        "ok_line": "Shrews to whales cover 2 to 211.",
+        "ko_title": "Not the full range",
+        "ko_line": "That misses the extremes.",
+        "exp_title": "Mammal lifespans",
+        "exp_text": "Maximum lifespan varies greatly among mammals, from about 2 years for a shrew to 211 years for a bowhead whale. This shows how different species have very different life expectancies."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do most mammals use to communicate with each other?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only complex language",
+            "feedback": "Complex language is unique to humans; most mammals use other methods."
+          },
+          {
+            "label": "Various sounds and scents",
+            "feedback": "Correct. Mammals communicate through vocalizations, scent marking, and other signals like ultrasound or echolocation."
+          },
+          {
+            "label": "Writing and drawing",
+            "feedback": "Writing and drawing are human inventions, not used by other mammals."
+          },
+          {
+            "label": "Just body postures",
+            "feedback": "Body postures are used, but mammals also vocalize and use scents; it's not the only method."
+          }
+        ],
+        "ok_title": "Communication ways",
+        "ok_line": "Sounds and scents are key.",
+        "ko_title": "Too narrow",
+        "ko_line": "That's not all they use.",
+        "exp_title": "Mammal signaling",
+        "exp_text": "Mammals communicate and vocalize in many ways, including producing ultrasound, scent marking, alarm signals, singing, and echolocation. This lets them share information about danger, territory, or mates."
+      }
+    ]
+  }
+]

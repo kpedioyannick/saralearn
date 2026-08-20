@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 122,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does warm, rising air near the equator eventually flow toward the poles rather than just going straight up forever?",
+        "body": null,
+        "options": [
+          {
+            "label": "It cools and spreads outward once it reaches high, stable air it cannot rise through",
+            "feedback": "Rising air keeps climbing only as long as it stays warmer than its surroundings. Once it reaches a layer it cannot out-warm, it spreads sideways instead, and much of it heads toward the poles."
+          },
+          {
+            "label": "The ground beneath the equator keeps pushing more air upward behind it",
+            "feedback": "More air does keep rising behind it, but that explains why air keeps arriving at height, not why the air already up there turns and travels away rather than piling up on the spot."
+          },
+          {
+            "label": "Gravity is weaker directly above the equator",
+            "feedback": "Gravity's pull barely varies with latitude, and the tiny difference that does exist is nowhere near enough to steer a global flow of air."
+          },
+          {
+            "label": "The poles actively draw air toward themselves",
+            "feedback": "The poles have no pulling power of their own. Air moves toward them only because it is pushed from behind by pressure differences, not because anything there is drawing it in."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "It runs out of room to keep climbing and spreads out instead.",
+        "ko_title": "Think about the ceiling, not the floor",
+        "ko_line": "Rising air does not climb forever. Ask what stops it and which way it goes once it is stopped.",
+        "exp_title": "A ceiling that turns the flow sideways",
+        "exp_text": "Air rising over the hot equator keeps climbing only while it stays warmer and lighter than the air around it, but higher up it meets a stable layer it can no longer out-warm, and there it stalls. With nowhere left to go upward and air still pushing up from below, it spreads outward at that height, a share of it travelling on toward each pole before sinking again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is there a belt of unusually calm, light winds near the equator, long dreaded by sailors as the doldrums?",
+        "body": null,
+        "options": [
+          {
+            "label": "Storms there are so frequent that calm periods stand out sharply",
+            "feedback": "The doldrums are named for the opposite problem — a lack of storms and wind for stretches at a time, not an alternation with frequent ones."
+          },
+          {
+            "label": "So much air is rising straight upward there that little is left flowing sideways along the surface",
+            "feedback": "With sun-heated air lifting almost vertically off the ocean, the surface winds that would otherwise blow across that stretch of sea are weak or missing."
+          },
+          {
+            "label": "The equator sits furthest from both poles, so pressure differences barely reach it",
+            "feedback": "Distance from the poles is not what drains the wind here. The belt is calm because of what the air itself is doing straight overhead."
+          },
+          {
+            "label": "Cold air constantly sinks and spreads out just above the sea surface",
+            "feedback": "Sinking air near the equator would strengthen the surface wind, not weaken it. The doldrums are calm because the air is rising, not sinking."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Straight-up motion leaves little air moving sideways at the surface.",
+        "ko_title": "Which way is the air going overhead?",
+        "ko_line": "Picture the air near the equator moving mostly in one direction — and it is not sideways.",
+        "exp_title": "A belt where the air goes up instead of along",
+        "exp_text": "Along the equator, intense heating from the sun pulls air upward almost directly, feeding the great rising branch described above rather than pushing it sideways across the sea surface. With so little pressure difference left over to drive a horizontal flow near the water, ships in this belt could sit for days with barely a breath of wind to fill a sail."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the trade winds near the equator blow so steadily from almost the same direction, day after day?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sailors named them and so kept sailing the same course each time",
+            "feedback": "A name given by sailors could not make the wind itself blow consistently. They named the trade winds because the wind was already dependable, not the other way around."
+          },
+          {
+            "label": "The ocean surface there is unusually flat and offers no resistance",
+            "feedback": "Ocean surfaces are flat almost everywhere at this scale, including regions with far less steady wind, so flatness alone cannot explain the trade winds' steadiness."
+          },
+          {
+            "label": "They are fed by a pressure difference between the sinking air of the subtropics and the rising air of the equator, a pattern that barely shifts",
+            "feedback": "Air sinking in the subtropics and rising at the equator sets up a pressure difference between the two belts that holds nearly steady through the year, so the wind it drives holds steady too."
+          },
+          {
+            "label": "Volcanic islands along the equator release gases that push air along",
+            "feedback": "Volcanic gases are a vanishingly small and patchy source of moving air, nowhere near enough to drive a wind belt that spans entire oceans."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "That is it",
+        "ok_line": "A steady pressure difference produces a steady wind.",
+        "ko_title": "Look for what stays the same",
+        "ko_line": "A wind this reliable is being driven by something that itself barely changes through the year.",
+        "exp_title": "A dependable engine behind a dependable wind",
+        "exp_text": "Air is constantly sinking over the subtropics, where the great overturning described earlier comes back down, while air is constantly rising over the equator, and that pairing holds a fairly constant pressure difference between the two belts through most of the year. Steadily flowing from that sinking region back toward the rising one, and bent by the turning Earth as it goes, the resulting wind arrives from very nearly the same direction on most days."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is there a belt of weak, unpredictable wind around 30 degrees latitude, on the poleward edge of the trade winds?",
+        "body": null,
+        "options": [
+          {
+            "label": "This latitude marks the exact middle of the ocean on every continent",
+            "feedback": "No ocean is centred on this particular latitude everywhere, and the calm belt appears at this latitude on every ocean regardless of where the nearest coastline lies."
+          },
+          {
+            "label": "The sun's rays strike this latitude at a constant angle all year",
+            "feedback": "The angle of sunlight at any latitude changes with the seasons just as it does elsewhere. That shifting angle is not what keeps this belt calm."
+          },
+          {
+            "label": "Cold water upwelling from the deep ocean cools the air enough to still it",
+            "feedback": "Upwelling of cold water happens only along particular coastlines, not across this entire belt at every longitude, so it cannot be the general cause."
+          },
+          {
+            "label": "This is where the air that rose at the equator comes back down, arriving with little sideways motion left",
+            "feedback": "Air spends its outward journey moving away from the equator at height, and by the time it descends here much of its sideways push has already been spent, leaving weak surface winds behind."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "Descending air arrives here having already spent its horizontal push.",
+        "ko_title": "Think about where the descending air comes from",
+        "ko_line": "This belt sits directly beneath the sinking branch of the same overturning that feeds the trade winds — ask what that sinking air still has left to give sideways.",
+        "exp_title": "The floor of the same overturning current",
+        "exp_text": "Air that rose over the equator and travelled poleward at height loses much of its outward momentum before it sinks back down around 30 degrees latitude, arriving at the surface with comparatively little horizontal push. Spreading gently outward from there rather than streaming steadily in one direction, the belt is left with the light, shifting winds that becalmed sailing ships for so long that it earned the old name horse latitudes."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the westerlies, the wind belt found roughly between 30 and 60 degrees latitude, blow from the west rather than the east?",
+        "body": null,
+        "options": [
+          {
+            "label": "Air flowing poleward from the sinking subtropical belt is deflected strongly enough by the turning Earth to arrive mostly from the west",
+            "feedback": "As this air heads toward the pole it is bent hard by the same deflection that curves the trade winds, but here the bend is strong enough to swing the flow around until it arrives from the west rather than the east."
+          },
+          {
+            "label": "Mountain ranges in that belt happen to run mostly north to south",
+            "feedback": "Mountains can locally reroute wind, but the westerlies blow steadily from the west over open ocean too, far from any mountain range."
+          },
+          {
+            "label": "The sun sets in the west and drags the last of its heat with it",
+            "feedback": "Sunset does not carry heat sideways across the sky. Wind direction is set by pressure and the planet's rotation, not by which direction the sun appears to move."
+          },
+          {
+            "label": "Ships built centuries ago sailed west and left currents of air behind them",
+            "feedback": "Wind is far too vast and constantly renewed to be shaped by the passage of ships. Air currents from centuries past leave nothing behind them today."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "The same deflection that curves the trade winds swings this belt around to a westerly flow.",
+        "ko_title": "Follow the deflection further",
+        "ko_line": "Air moving toward the pole from the sinking subtropical belt is bent the same way the trade winds are — just further along its journey.",
+        "exp_title": "A stronger bend, further from the equator",
+        "exp_text": "Air flowing poleward out of the sinking subtropical belt is deflected by the turning Earth just as the trade winds are, but this air travels further from the equator, where that deflection is strongest. By the time it settles into a steady flow, the bend has swung its direction around until it streams in from the west, opposite to the trade winds nearer the equator."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the jet stream, the narrow ribbon of very fast wind found high above the westerlies?",
+        "body": null,
+        "options": [
+          {
+            "label": "Exhaust trails left behind by aircraft flying at high altitude",
+            "feedback": "Aircraft trails are thin streaks of condensation that dissipate within minutes. The jet stream existed long before aircraft did, and steers them rather than the reverse."
+          },
+          {
+            "label": "A thin, fast-flowing river of air, high in the atmosphere, driven by the sharp temperature contrast between polar and tropical air masses",
+            "feedback": "Where cold polar air meets warmer air from lower latitudes, the temperature contrast between them sharpens the pressure difference at that height enormously, and the wind squeezed along that boundary reaches far higher speeds than the air below it."
+          },
+          {
+            "label": "A layer of ozone that pushes air along as it forms",
+            "feedback": "Ozone forming or breaking down releases no meaningful push to moving air. It absorbs sunlight; it does not drive wind."
+          },
+          {
+            "label": "A slow drift of air that only seems fast from an aircraft window",
+            "feedback": "The jet stream is not an illusion of speed — it genuinely reaches far higher wind speeds than the air around and below it, fast enough to noticeably shorten or lengthen flight times."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "A fast ribbon of air riding along a sharp temperature boundary.",
+        "ko_title": "Think about what sits at that boundary",
+        "ko_line": "High up, cold polar air and warmer air from lower latitudes meet along a boundary. Ask what a sharp temperature contrast does to the pressure difference there.",
+        "exp_title": "Riding the boundary between cold and warm air",
+        "exp_text": "High in the atmosphere, the boundary between cold polar air and warmer air from lower latitudes can be remarkably sharp, and a sharp temperature contrast produces a sharp pressure difference alongside it. Squeezed along that narrow boundary, the wind accelerates far beyond the speeds found in the broader westerlies below, forming the fast, winding ribbon known as the jet stream."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the wind over much of South Asia reverse direction between summer and winter, a pattern known as the monsoon?",
+        "body": null,
+        "options": [
+          {
+            "label": "Two entirely separate wind systems simply take turns by coincidence",
+            "feedback": "The summer and winter winds are not unrelated systems taking turns — they are the same land-and-sea heating pattern responding to the changing seasons, connected rather than coincidental."
+          },
+          {
+            "label": "Migrating birds disturb the airflow twice a year",
+            "feedback": "Birds are far too light and few to influence a wind system spanning a continent. Their migrations follow the seasons; they do not cause them."
+          },
+          {
+            "label": "The seasonal shift of the sun's most direct rays moves the whole global wind pattern north and south with it",
+            "feedback": "The belts of rising and sinking air described earlier are not fixed in place — they shift with the sun through the year, and over a continent that shift is dramatic enough to flip the surface wind."
+          },
+          {
+            "label": "The Himalayas melt and refreeze, changing their height each year",
+            "feedback": "Mountains do not meaningfully change height with the seasons. Snow cover varies, but the rock beneath stays the same shape year-round."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "That is it",
+        "ok_line": "The whole heating pattern drifts north and south with the sun through the year.",
+        "ko_title": "Think about what else moves with the seasons",
+        "ko_line": "The belts of rising and sinking air are not fixed on the map. Something about the sun's position through the year drags them along.",
+        "exp_title": "A land-sized version of the sea breeze, on a yearly clock",
+        "exp_text": "As the sun's most direct rays swing from one side of the equator toward the other over the course of a year, the great belts of rising and sinking air shift with them, and over a vast continent like Asia that shift is amplified by how much faster land heats and cools than the ocean beside it. In summer the heated continent draws in moist wind from the sea, and in winter the now-cooler continent sends dry wind back out toward the sea, reversing the direction the wind blows across the whole region."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the polar easterlies, the cold winds found near the North and South Poles, blow from the east?",
+        "body": null,
+        "options": [
+          {
+            "label": "The poles spin faster than the rest of the planet",
+            "feedback": "Every point on the Earth's surface completes one full turn in the same day. The poles do not spin faster; if anything, a point right at the pole barely travels any distance at all as it turns."
+          },
+          {
+            "label": "Ice reflects sunlight in a way that pushes air eastward",
+            "feedback": "Reflected sunlight carries away energy, not a physical push. It cools the air beneath it, but it cannot shove that air in any particular direction."
+          },
+          {
+            "label": "Warm air constantly rises at the poles and spins as it goes",
+            "feedback": "The opposite happens at the poles — the air there is cold and sinking, not warm and rising. It is that sinking, spreading air that becomes the polar easterlies."
+          },
+          {
+            "label": "Cold, dense polar air sinks and spreads outward toward lower latitudes, and this flow is bent strongly westward by the turning Earth",
+            "feedback": "As sinking polar air spreads out toward the milder latitudes beyond it, the turning Earth deflects it, and so close to the pole that deflection is strong enough to swing the flow around until it arrives from the east."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "Sinking polar air spreads outward and is bent hard toward the east.",
+        "ko_title": "Follow the sinking air outward",
+        "ko_line": "Cold air is heavy and piles up over the poles before spreading away from them. Ask what the turning Earth does to that outward flow so close to the axis.",
+        "exp_title": "The deflection at its strongest",
+        "exp_text": "Cold, dense air collects over the poles and sinks, then spreads outward toward the milder latitudes beyond, and this outward flow is caught by the planet's rotation exactly where that deflection is at its strongest. Bent around until it streams in from the east rather than the west, this cold, dry flow forms the polar easterlies that ring both poles."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a compass needle, floating freely, settle to point roughly north rather than staying still in any direction — and why does that matter to how sailors long charted the great wind belts?",
+        "body": null,
+        "options": [
+          {
+            "label": "It has nothing to do with wind belts at all; it answers to the Earth's magnetic field, while wind belts were charted separately by tracking the direction the wind itself blew from day to day",
+            "feedback": "A compass needle aligns with the planet's magnetic field, an entirely different phenomenon from moving air, and sailors mapped the wind belts by recording the wind's own direction over many voyages, not by reading a compass for it."
+          },
+          {
+            "label": "Wind blowing steadily from one direction slowly turns a compass needle to match it",
+            "feedback": "A compass needle is not sensitive to air movement at all — moving air exerts no meaningful force on a small magnetised needle."
+          },
+          {
+            "label": "The trade winds themselves are made of tiny magnetic particles that pull the needle",
+            "feedback": "Wind is ordinary air, entirely free of magnetic material. Nothing in it could act on a compass needle."
+          },
+          {
+            "label": "Sailors adjusted their compasses to match whichever wind belt they were sailing through",
+            "feedback": "A compass reads the same magnetic north regardless of which wind belt a ship happens to be sailing in. Adjusting it to match the wind would make it useless for navigation."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Two separate things — a magnetic needle and a moving wind belt — charted by two separate methods.",
+        "ko_title": "Keep the two apart",
+        "ko_line": "A compass answers to the planet's magnetism. A wind belt is air in motion. Ask whether either one could act on the other.",
+        "exp_title": "Two unrelated observations, both useful to a sailor",
+        "exp_text": "A compass needle lines up with the Earth's own magnetic field, a force with nothing to do with moving air, so it tells a sailor which way is north regardless of the wind blowing at the time. The great wind belts, by contrast, were mapped over centuries by recording which direction the wind itself blew on countless voyages, and the two kinds of information — a fixed magnetic direction and a shifting wind pattern — were combined on the same charts without either one influencing the other."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the great wind belts circle the entire globe as continuous rings rather than forming one single flow from equator to pole?",
+        "body": null,
+        "options": [
+          {
+            "label": "Continents block a single flow and force it to break apart",
+            "feedback": "The belts appear in much the same pattern over open ocean, far from any continent, so land is not what breaks the flow into separate rings."
+          },
+          {
+            "label": "A single overturning cell from equator to pole would have to move too much heat too fast for the deflection of the spinning Earth to leave it stable, so it breaks into several smaller cells stacked by latitude",
+            "feedback": "A flow that tried to travel the whole way from equator to pole would be bent so strongly by the planet's rotation that it could not hold together, so instead the overturning splits into a handful of separate cells, each confined to its own band of latitude."
+          },
+          {
+            "label": "The atmosphere is too thin to carry one flow all the way to the poles",
+            "feedback": "The atmosphere's thinness affects how much air is available overall, not whether that air organises itself into one cell or several. Thinness alone does not explain the break into bands."
+          },
+          {
+            "label": "Ocean currents beneath the atmosphere pull the wind into separate rings",
+            "feedback": "Ocean currents move far too slowly, and too deep beneath the surface, to shape the pattern of wind belts many kilometres above them."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "The spinning Earth breaks one long flow into several stacked cells instead.",
+        "ko_title": "Think about the whole journey",
+        "ko_line": "A flow travelling the entire way from equator to pole would be deflected further and further as it went. Ask whether that deflection would let it stay as one unbroken stream.",
+        "exp_title": "One overturning current, broken into stacked rings",
+        "exp_text": "Heat has to move from the hot equator toward the cold poles, and a single unbroken current doing that whole journey would be deflected more and more strongly by the turning Earth the further it travelled, until it could no longer hold a steady shape. Instead the overturning settles into several separate cells stacked by latitude — the tropical cell, the mid-latitude cell, and the polar cell — each one moving heat only part of the way before handing it off to the next, and each producing its own ring of steady wind."
+      }
+    ]
+  }
+]

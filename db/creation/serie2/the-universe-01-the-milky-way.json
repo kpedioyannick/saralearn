@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 240,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the large, flat system of stars, gas, and dust that contains our Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The Milky Way galaxy",
+            "feedback": "Correct. The Milky Way is the barred spiral galaxy that includes our Sun, along with hundreds of billions of other stars."
+          },
+          {
+            "label": "The Solar System",
+            "feedback": "The Solar System is just the Sun and its planets, moons, and smaller bodies, not the entire galaxy of stars."
+          },
+          {
+            "label": "The Andromeda galaxy",
+            "feedback": "Andromeda is a separate, larger galaxy far away from us, not the one that contains our Sun."
+          },
+          {
+            "label": "The Local Group",
+            "feedback": "The Local Group is a cluster of galaxies that includes the Milky Way and Andromeda, but it is not the galaxy itself."
+          }
+        ],
+        "ok_title": "Our home galaxy",
+        "ok_line": "The Milky Way is the galaxy where our Sun lives.",
+        "ko_title": "Not the galaxy",
+        "ko_line": "Check what each term actually refers to.",
+        "exp_title": "The Milky Way galaxy",
+        "exp_text": "The Milky Way is a vast, flat disk of stars, gas, and dust, with a bulge in the middle and spiral arms. Our Sun is just one star among hundreds of billions inside it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do we call the collection of stars and other matter that orbits around a common center and is held together by gravity?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A star cluster",
+            "feedback": "A star cluster is a small group of stars, often a few hundred or thousand, but a galaxy contains many such clusters and spans far larger scales."
+          },
+          {
+            "label": "A galaxy",
+            "feedback": "Correct. A galaxy is a huge system of stars, gas, dust, and dark matter, all bound together by gravity and orbiting a shared center."
+          },
+          {
+            "label": "A nebula",
+            "feedback": "A nebula is a cloud of gas and dust within a galaxy, not a large collection of stars with its own gravity."
+          },
+          {
+            "label": "A universe",
+            "feedback": "The universe is everything that exists, containing all galaxies, not just one group of stars."
+          }
+        ],
+        "ok_title": "Defining a galaxy",
+        "ok_line": "A galaxy is a gravity-bound system of stars and matter.",
+        "ko_title": "Different terms",
+        "ko_line": "Each option names a distinct object in space.",
+        "exp_title": "What a galaxy is",
+        "exp_text": "A galaxy is a massive, gravitationally bound system of stars, stellar remnants, gas, dust, and dark matter. Its components orbit a common center, and it can contain billions to trillions of stars."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "About how many stars are there in the Milky Way galaxy?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "About a thousand",
+            "feedback": "A thousand stars is far too few; that would be a tiny star cluster, not a galaxy."
+          },
+          {
+            "label": "About a million",
+            "feedback": "A million is still too few; even small galaxies have more stars than that."
+          },
+          {
+            "label": "Hundreds of billions",
+            "feedback": "Correct. The Milky Way contains on the order of 100 to 400 billion stars, so 'hundreds of billions' is the right scale."
+          },
+          {
+            "label": "About a trillion",
+            "feedback": "A trillion is possible for some galaxies like Andromeda, but the Milky Way is usually estimated in hundreds of billions."
+          }
+        ],
+        "ok_title": "Star count",
+        "ok_line": "The Milky Way holds hundreds of billions of stars.",
+        "ko_title": "Wrong magnitude",
+        "ko_line": "The number is far larger than thousands or millions.",
+        "exp_title": "Scale of the Milky Way",
+        "exp_text": "Astronomers estimate the Milky Way has somewhere between 100 and 400 billion stars. This huge number makes it a typical large spiral galaxy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the very dense, compact object located at the exact center of the Milky Way?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A black dwarf",
+            "feedback": "A black dwarf is a hypothetical cooled remnant of a dead star, not the center of a galaxy."
+          },
+          {
+            "label": "A neutron star",
+            "feedback": "A neutron star is the collapsed core of a massive star, but it is much smaller and less massive than the object at our galaxy's center."
+          },
+          {
+            "label": "A white dwarf",
+            "feedback": "A white dwarf is the remaining core of a Sun-like star, far too small to anchor an entire galaxy."
+          },
+          {
+            "label": "A supermassive black hole",
+            "feedback": "Correct. The Milky Way's center holds a supermassive black hole called Sagittarius A*, with a mass of about four million Suns."
+          }
+        ],
+        "ok_title": "Galactic center",
+        "ok_line": "A supermassive black hole sits at the middle.",
+        "ko_title": "Not a small remnant",
+        "ko_line": "The center's mass is far greater than any ordinary star remnant.",
+        "exp_title": "The Milky Way's core",
+        "exp_text": "At the very heart of the Milky Way lies a supermassive black hole, known as Sagittarius A*. Its immense gravity influences the orbits of stars around it, and it anchors the entire galaxy's motion."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of the Milky Way is our Sun located?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "In one of the spiral arms, about halfway out from the center",
+            "feedback": "Correct. Our Sun sits in the Orion Arm, a minor spiral arm, roughly 26,000 light-years from the galactic center."
+          },
+          {
+            "label": "At the exact center of the galaxy",
+            "feedback": "The center is very far away from us and is a violently active region, not where we are."
+          },
+          {
+            "label": "On the outer edge of the disk, just before the halo",
+            "feedback": "The outer edge is much farther out than our position; we are about halfway to the edge."
+          },
+          {
+            "label": "Above the disk, in the halo",
+            "feedback": "The halo is a sparse, spherical region above and below the disk, containing old stars and globular clusters, not our Sun."
+          }
+        ],
+        "ok_title": "Sun's address",
+        "ok_line": "The Sun lives in a spiral arm, mid-disk.",
+        "ko_title": "Wrong location",
+        "ko_line": "The Sun is not in the center, edge, or halo.",
+        "exp_title": "Our position in the galaxy",
+        "exp_text": "The Sun is located in the disk of the Milky Way, inside a spiral arm called the Orion Arm or Local Arm. It lies about 26,000 light-years from the galactic center, roughly two-thirds of the way out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is a small, irregular-shaped companion galaxy of the Milky Way?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Andromeda",
+            "feedback": "Andromeda is a large spiral galaxy, not a small companion of the Milky Way; it is a separate major galaxy."
+          },
+          {
+            "label": "The Triangulum galaxy",
+            "feedback": "Triangulum is another spiral galaxy in our Local Group, but it is not a companion to the Milky Way specifically."
+          },
+          {
+            "label": "The Large Magellanic Cloud",
+            "feedback": "Correct. The Large Magellanic Cloud is an irregular dwarf galaxy that orbits the Milky Way as a companion."
+          },
+          {
+            "label": "The Sombrero galaxy",
+            "feedback": "The Sombrero is a distant spiral galaxy, not a companion of the Milky Way."
+          }
+        ],
+        "ok_title": "Milky Way companions",
+        "ok_line": "The Magellanic Clouds are its small neighbors.",
+        "ko_title": "Not a companion",
+        "ko_line": "The other options are distant, larger galaxies.",
+        "exp_title": "Companion galaxies",
+        "exp_text": "The Milky Way has several small satellite galaxies, the most famous being the Large and Small Magellanic Clouds. They are irregular dwarf galaxies that orbit around us, held by our galaxy's gravity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the bright, central bulge of stars that we see in the Milky Way's disk?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The halo",
+            "feedback": "The halo is the sparse, spherical outer region, not the bright center of the disk."
+          },
+          {
+            "label": "The galactic bulge",
+            "feedback": "Correct. The galactic bulge is a dense, roughly spherical concentration of stars at the galaxy's center, often visible as a glowing core."
+          },
+          {
+            "label": "A globular cluster",
+            "feedback": "A globular cluster is a small, tightly packed group of old stars that orbits in the halo, not the center of the galaxy."
+          },
+          {
+            "label": "The spiral arm",
+            "feedback": "Spiral arms are lanes of young stars and gas that wind through the disk, but the bulge is the central region itself."
+          }
+        ],
+        "ok_title": "Central bulge",
+        "ok_line": "The bulge is the dense star-filled core.",
+        "ko_title": "Not the bulge",
+        "ko_line": "The other terms describe different parts of the galaxy.",
+        "exp_title": "Galactic bulge",
+        "exp_text": "The galactic bulge is the central, spheroidal region of the Milky Way, packed with older stars, gas, and dust. It extends a few thousand light-years from the center, and it is much denser than the surrounding disk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do we call the very flat, rotating layer of stars, gas, and dust that makes up the main body of the Milky Way?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The galactic disk",
+            "feedback": "Correct. The disk is the thin, flat region where most of the galaxy's stars, gas, and dust are found, and where spiral arms are located."
+          },
+          {
+            "label": "The galactic halo",
+            "feedback": "The halo is a roughly spherical, sparse region that surrounds the disk, not the flat layer itself."
+          },
+          {
+            "label": "The galactic corona",
+            "feedback": "The corona is a hot, gaseous outer atmosphere of a galaxy, not the main flat structure."
+          },
+          {
+            "label": "The galactic nucleus",
+            "feedback": "The nucleus is the small, innermost part of the bulge, not the entire disk."
+          }
+        ],
+        "ok_title": "Disk structure",
+        "ok_line": "The disk is the galaxy's flat, rotating part.",
+        "ko_title": "Not the disk",
+        "ko_line": "The other terms name different structural zones.",
+        "exp_title": "Galactic disk",
+        "exp_text": "The galactic disk is a thin, rotating layer, typically only about a thousand light-years thick, but extending tens of thousands of light-years across. It contains most of the galaxy's gas and dust and is the site of ongoing star formation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the roughly spherical, sparse region of old stars and globular clusters that surrounds the Milky Way's disk?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The galactic disk",
+            "feedback": "The disk is the flat, dense part; the spherical surrounding region is different."
+          },
+          {
+            "label": "The spiral arms",
+            "feedback": "Spiral arms are within the disk, not surrounding it in a sphere."
+          },
+          {
+            "label": "The galactic bulge",
+            "feedback": "The bulge is the central dense region, not the outer spherical halo."
+          },
+          {
+            "label": "The galactic halo",
+            "feedback": "Correct. The halo is a vast, spherical, thinly populated region containing old stars and globular clusters, extending far beyond the disk."
+          }
+        ],
+        "ok_title": "Halo region",
+        "ok_line": "The halo is the galaxy's outer, sparse sphere.",
+        "ko_title": "Inside the disk",
+        "ko_line": "The answer is not part of the disk itself.",
+        "exp_title": "Galactic halo",
+        "exp_text": "The galactic halo is a round, diffuse structure that envelops the entire disk. It contains old, metal-poor stars and many globular clusters, but has very little gas or dust, so star formation is rare there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the long, curving lanes of stars and gas that wind outward from the center of the Milky Way called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Galactic rings",
+            "feedback": "Rings are circular features, but the Milky Way's structure is made of winding arms, not closed rings."
+          },
+          {
+            "label": "Stellar streams",
+            "feedback": "Stellar streams are remnants of disrupted star clusters or dwarf galaxies, not the main arms."
+          },
+          {
+            "label": "Spiral arms",
+            "feedback": "Correct. The Milky Way has several spiral arms, such as the Perseus and Sagittarius Arms, that spiral outward from the center in a logarithmic pattern."
+          },
+          {
+            "label": "Density waves",
+            "feedback": "Density waves are the mechanism that creates arms, but the visible structures themselves are called spiral arms."
+          }
+        ],
+        "ok_title": "Spiral structure",
+        "ok_line": "The Milky Way's arms are spiral-shaped.",
+        "ko_title": "Not the arms",
+        "ko_line": "The other terms name different features or causes.",
+        "exp_title": "Spiral arms",
+        "exp_text": "Spiral arms are long, curved regions of enhanced star density that extend from the center of a spiral galaxy. They contain many young, bright stars and lots of gas, making them stand out as bright lanes."
+      }
+    ]
+  }
+]

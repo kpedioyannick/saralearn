@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 232,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary driving force behind most ocean surface currents?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Differences in water density caused by temperature and saltiness",
+            "feedback": "Density differences drive deep currents, not the main surface currents. Surface currents are pushed by moving air."
+          },
+          {
+            "label": "Wind blowing steadily across the ocean surface",
+            "feedback": "Yes — the friction of wind against the water drags the surface layer along, setting large bodies of water in motion."
+          },
+          {
+            "label": "The pull of the Moon's gravity acting on the water",
+            "feedback": "The Moon's gravity causes tides, which are a periodic rise and fall, not the steady, long-distance flow of a surface current."
+          },
+          {
+            "label": "Earth's rotation acting alone, without any force on the water",
+            "feedback": "Earth's rotation only deflects moving water, it does not start the movement. You need wind or another force to get the water moving first."
+          }
+        ],
+        "ok_title": "Wind drives currents",
+        "ok_line": "Surface currents are pushed along by the wind.",
+        "ko_title": "Check the driver",
+        "ko_line": "Look for the force that actually starts the movement.",
+        "exp_title": "The engine of surface currents",
+        "exp_text": "The main engine of surface currents is the wind. Steady winds, like the trade winds and westerlies, blow over vast stretches of ocean, and the friction of the moving air drags the water along with it. This sets the great surface currents in motion. Tides are caused by the Moon's gravity, and density differences drive the deep currents, but neither is what pushes the surface water across the ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which direction do major ocean currents in the Northern Hemisphere tend to curve?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Clockwise",
+            "feedback": "Yes — the Coriolis effect deflects moving water to the right in the Northern Hemisphere, which bends the current's path into a clockwise loop."
+          },
+          {
+            "label": "Counter-clockwise",
+            "feedback": "Counter-clockwise is the direction of currents in the Southern Hemisphere, not the Northern. The deflection is to the left there, not to the right."
+          },
+          {
+            "label": "Straight toward the poles",
+            "feedback": "Currents do not run straight toward the poles. The Earth's rotation bends them sideways, so they follow a curved path, not a direct north–south line."
+          },
+          {
+            "label": "Straight toward the equator",
+            "feedback": "Currents do not run straight toward the equator either. They curve due to the Coriolis effect, which turns their path into a rotating loop."
+          }
+        ],
+        "ok_title": "Coriolis bends north currents",
+        "ok_line": "Northern surface currents curve clockwise.",
+        "ko_title": "Remember the hemisphere",
+        "ko_line": "The deflection changes direction between hemispheres.",
+        "exp_title": "The Coriolis effect's swing",
+        "exp_text": "In the Northern Hemisphere, the Coriolis effect — caused by Earth's rotation — deflects any moving body, including ocean water, to the right of its path. This rightward push bends the flow of currents so they circulate clockwise around a gyre. In the Southern Hemisphere the deflection is to the left, making the circulation counter-clockwise. That's why the direction differs between the two hemispheres."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What actually drives the deep ocean currents that flow far below the reach of wind?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The pull of the Sun's heat on the deep water",
+            "feedback": "The Sun heats only the surface of the ocean. The deep water never feels the Sun's heat directly, so it cannot be the driving force for deep currents."
+          },
+          {
+            "label": "The pressure from the weight of the water above",
+            "feedback": "Pressure does affect the water's properties, but it does not set currents in motion. Movement needs a driving force, and pressure alone just compresses water."
+          },
+          {
+            "label": "The same winds that drive surface currents",
+            "feedback": "Wind only ruffles the top layer of the ocean. The deep water lies hundreds of metres down, where wind cannot reach to push it."
+          },
+          {
+            "label": "Differences in density caused by temperature and salt content",
+            "feedback": "Yes — colder, saltier water is denser and sinks, while warmer, fresher water stays on top. This sinking and rising drives a slow circulation of deep water."
+          }
+        ],
+        "ok_title": "Density powers deep flow",
+        "ok_line": "Cold, salty water sinks and drives the deep currents.",
+        "ko_title": "Wind can't reach down",
+        "ko_line": "Deep water is moved by density, not by surface winds.",
+        "exp_title": "The engine of the deep ocean",
+        "exp_text": "Deep ocean currents are driven by differences in water density. Water that becomes colder or saltier gets denser and sinks, while water that is warmer or fresher is lighter and rises. This constant sinking and rising creates a slow, massive circulation known as the thermohaline circulation. Wind cannot reach the deep water, so it plays no part in moving it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does the Gulf Stream carry warm water that helps keep parts of Western Europe milder in winter?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "From the Arctic Ocean southward along the coast of Africa",
+            "feedback": "The Gulf Stream does not originate in the Arctic. It starts in the warm waters of the Caribbean and the Gulf of Mexico, not in the cold polar regions."
+          },
+          {
+            "label": "From the North Atlantic across to the eastern coast of North America",
+            "feedback": "The Gulf Stream actually flows from the west toward the east across the North Atlantic, not from the east toward the west. Its path runs from the American coast toward Europe."
+          },
+          {
+            "label": "From the Gulf of Mexico north-eastward across the Atlantic toward Europe",
+            "feedback": "Yes — it starts in the warm Gulf of Mexico, flows up the American coast, then turns east across the Atlantic, bringing warmth to Europe's shores."
+          },
+          {
+            "label": "From the Mediterranean Sea westward through the Strait of Gibraltar into the open Atlantic",
+            "feedback": "The Gulf Stream does not enter the Mediterranean, nor does it begin there. It is an Atlantic current that starts far to the west, in the Gulf region."
+          }
+        ],
+        "ok_title": "Warmth heads to Europe",
+        "ok_line": "The Gulf Stream carries warm water from the Americas toward Europe.",
+        "ko_title": "Check the start point",
+        "ko_line": "Look for where the current actually begins before it travels.",
+        "exp_title": "The Gulf Stream's journey",
+        "exp_text": "The Gulf Stream is a powerful warm surface current that begins in the Gulf of Mexico, flows north-east along the east coast of the United States, then turns east and crosses the North Atlantic toward Western Europe. As it travels, it carries a large amount of heat with it. This warm water, and the warm air above it, gives Western Europe a milder winter climate than other regions at the same latitude that do not receive such a warm current."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes coastal upwelling, the rising of cold, deep water near certain shorelines?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Warm surface water being heated and rising up from the coast",
+            "feedback": "Warm water is light and stays at the surface; it does not rise from depth. Upwelling brings cold water upward, not warm water."
+          },
+          {
+            "label": "Wind blowing surface water away from the coast, letting deeper water rise to fill the gap",
+            "feedback": "Yes — when wind pushes the surface water offshore, water from below moves up to take its place, and that water is cold."
+          },
+          {
+            "label": "The sinking of heavy, salty water near the shore",
+            "feedback": "Sinking moves water downward, not upward. Upwelling is an upward movement of water, and it is the wind that causes it."
+          },
+          {
+            "label": "The tidal pull of the Moon bringing deep water to the surface",
+            "feedback": "Tides cause the water level to rise and fall, but they do not push deep water up to the surface near a coast. Only wind-driven offshore flow does that."
+          }
+        ],
+        "ok_title": "Wind pulls water away",
+        "ok_line": "Upwelling is caused by wind moving surface water off the coast.",
+        "ko_title": "Think about the wind",
+        "ko_line": "Wind is the trigger, not tides or sinking.",
+        "exp_title": "How upwelling happens",
+        "exp_text": "Coastal upwelling happens when steady winds blow parallel to a coast and push the surface water away from the shore. As the lighter surface water moves offshore, water from below rises to replace it. This deeper water is cold and rich in nutrients, which is why upwelling zones are so productive. It is the wind, not the tide or any downward sinking, that sets this upward flow in motion."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does floating debris tend to collect in certain regions of the open ocean, far from any coastline?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the converging currents in the middle of a gyre push the debris together",
+            "feedback": "Yes — the currents around a gyre spiral inward, concentrating anything that floats at the calm centre of the loop."
+          },
+          {
+            "label": "Because the deep ocean currents bring the debris up to the surface there",
+            "feedback": "Deep currents flow far below the surface and do not bring debris upward. Debris floats on the surface; it is the surface currents that move it."
+          },
+          {
+            "label": "Because the wind never blows in those regions, leaving the debris stranded",
+            "feedback": "The collection is not because the wind is absent; the debris is gathered by the circular motion of the currents, not by a lack of wind."
+          },
+          {
+            "label": "Because the tides leave the debris heaped up at those exact latitudes",
+            "feedback": "Tides cause a back-and-forth rise and fall, not a one-way transport that would concentrate debris. It is the steady, circular gyre currents that do that."
+          }
+        ],
+        "ok_title": "Gyres concentrate debris",
+        "ok_line": "Floating material gathers where gyre currents converge.",
+        "ko_title": "Not tides or deep water",
+        "ko_line": "The collection happens at the surface, driven by the gyre loop.",
+        "exp_title": "Garbage patches in the gyres",
+        "exp_text": "Floating debris ends up in certain open-ocean regions because of the way ocean currents circulate. Around each subtropical gyre, the currents spiral slowly inward, and at the calm centre they converge, pushing whatever floats together. Debris accumulates there because there is no current carrying it away. These areas are often called garbage patches, and they sit far from any coast, in the quiet heart of a gyre."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a gyre in the ocean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A single straight-line current that crosses the entire ocean",
+            "feedback": "A gyre is not a straight line. It is a large circular loop, and no one current runs straight across an entire ocean."
+          },
+          {
+            "label": "A narrow channel where water flows between two continents",
+            "feedback": "A narrow channel is a strait or a passage, not a gyre. A gyre is a circular circulation in the open ocean."
+          },
+          {
+            "label": "A large, roughly circular system of ocean currents",
+            "feedback": "Yes — a gyre is a giant loop of surface currents, spanning a whole ocean basin, that rotates in one closed circle."
+          },
+          {
+            "label": "A small patch of calm water with no currents at all",
+            "feedback": "A gyre is not just a patch of calm; it is the whole rotating system of currents. The calm centre is only one small part of the larger loop."
+          }
+        ],
+        "ok_title": "A giant circular current",
+        "ok_line": "A gyre is a large, looping system of ocean currents.",
+        "ko_title": "Not a line or a channel",
+        "ko_line": "The shape is a closed circle, not a straight path.",
+        "exp_title": "The loop of a gyre",
+        "exp_text": "A gyre is a large, roughly circular system of ocean currents that spans a whole ocean basin. It forms because winds push the water in different directions at different latitudes, and the Coriolis effect bends the flow, so the water ends up moving in a giant loop. There are five major gyres in the world's oceans, each rotating either clockwise or counter-clockwise depending on the hemisphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can two neighbouring ocean currents sometimes show a sharp, visible line where they meet?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because a barrier of ice blocks the two waters from mixing",
+            "feedback": "Ice barriers are not what separates the two currents. The sharp line appears even in warm regions where no ice exists."
+          },
+          {
+            "label": "Because one current is moving and the other is completely still, so they cannot mix",
+            "feedback": "Both currents are moving; the sharp line is not about stillness. It is about different water properties, like temperature and saltiness, that resist blending."
+          },
+          {
+            "label": "Because the wind pushes the two currents in exactly opposite directions, pulling them apart",
+            "feedback": "Opposing wind direction is not the cause of the visible line. The line persists because the waters have different densities that keep them separate."
+          },
+          {
+            "label": "Because the currents have different temperatures and salt contents, which keep them from mixing quickly",
+            "feedback": "Yes — one current may be warm and salty while the other is cold and fresher. These different densities resist mixing, so a sharp front appears at their boundary."
+          }
+        ],
+        "ok_title": "Different waters resist mixing",
+        "ok_line": "A sharp line appears where currents of different temperature and salt meet.",
+        "ko_title": "Look at the water's nature",
+        "ko_line": "The separation is due to density differences, not to barriers.",
+        "exp_title": "Currents that refuse to blend",
+        "exp_text": "When two ocean currents with different temperatures and salt contents meet, they do not mix instantly. The colder or saltier water is denser, and the warmer or fresher water is lighter, and these density differences keep them from blending easily. The result is a visible front, a sharp line at the surface, where the two water masses slide alongside each other without merging. This can be seen where warm and cold currents collide."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What role does the continuous sinking of dense water in the polar oceans play in the 'global conveyor belt'?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stops the belt from moving by blocking the deep water",
+            "feedback": "Sinking does not block the belt; it is the very push that keeps the deep water moving. Without it, the belt would slow to a standstill."
+          },
+          {
+            "label": "It pulls surface water downward and pushes deep water along, keeping the circulation going",
+            "feedback": "Yes — the sinking of cold, salty water in the polar regions is the starting push that sets the deep part of the belt in motion."
+          },
+          {
+            "label": "It warms the deep water, making it rise again near the poles",
+            "feedback": "The water that sinks is cold, not warm. Warm water is light and rises; it is the cold, dense water that sinks."
+          },
+          {
+            "label": "It only affects the surface currents, not the deep ones",
+            "feedback": "The sinking of dense polar water is exactly what drives the deep currents, not just the surface ones. It is the engine of the deep half of the belt."
+          }
+        ],
+        "ok_title": "Polar sinking powers it",
+        "ok_line": "Cold, dense water sinking at the poles drives the conveyor belt.",
+        "ko_title": "That sinking is the motor",
+        "ko_line": "Look for how sinking starts and pushes the deep circulation.",
+        "exp_title": "The push of the conveyor",
+        "exp_text": "The global conveyor belt is a slow, planet-wide circulation that links surface and deep ocean currents. It is powered by the sinking of cold, dense water in the polar oceans, especially in the North Atlantic. When seawater freezes, salt is left behind, making the remaining water saltier, and cold temperatures make it even denser. This dense water sinks, and its descent pulls more water in from the surface and pushes the deep water forward. That sinking is the motor that keeps the entire belt moving."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does surface water near the equator tend to flow steadily westward?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Moon's gravity pulls the water along the equator",
+            "feedback": "The Moon's gravity pulls the water into tidal bulges, not into a steady westward flow. Tides rise and fall; they do not push the surface water west."
+          },
+          {
+            "label": "Because the water is warmer there, making it move westward on its own",
+            "feedback": "Warmth does not push water in any direction. The westward motion comes from the steady trade winds blowing from the east."
+          },
+          {
+            "label": "Because the trade winds blow steadily from the east toward the west",
+            "feedback": "Yes — the trade winds, blowing consistently from the east, drag the ocean surface along with them, setting a steady westward current at the equator."
+          },
+          {
+            "label": "Because Earth's rotation pushes the water toward the west",
+            "feedback": "Earth's rotation deflects moving water, but it does not start the movement, nor does it push water toward the west. The push comes from the wind."
+          }
+        ],
+        "ok_title": "Trade winds push west",
+        "ok_line": "Steady easterly trade winds drive equatorial water westward.",
+        "ko_title": "Winds, not gravity or heat",
+        "ko_line": "Look for what blows the water along the equator.",
+        "exp_title": "The westward drift at the equator",
+        "exp_text": "Near the equator, the trade winds blow steadily from the east toward the west. The friction of these winds on the ocean surface drags the water along with them, creating a steady westward current. This current is one of the main surface flows in the tropics. Neither the Moon's gravity nor the warmth of the water itself has any role in pushing the water westward — it is the wind that does the driving."
+      }
+    ]
+  }
+]

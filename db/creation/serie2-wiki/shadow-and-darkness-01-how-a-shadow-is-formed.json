@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the dark area where light is blocked called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A shadow",
+            "feedback": "Correct. A shadow is the dark area on a surface where light from a source is blocked."
+          },
+          {
+            "label": "A shade",
+            "feedback": "Shade is the three-dimensional volume behind an object, not the dark area on a surface."
+          },
+          {
+            "label": "A silhouette",
+            "feedback": "A silhouette is the cross-section shape of a shadow, but it is not what the dark area itself is called."
+          },
+          {
+            "label": "A penumbra",
+            "feedback": "A penumbra is a specific part of a shadow from an extended source, not the general name for the dark area."
+          }
+        ],
+        "ok_title": "Shadow defined",
+        "ok_line": "A shadow is the dark patch where light is blocked.",
+        "ko_title": "Wrong term",
+        "ko_line": "Pick the name for the dark area itself.",
+        "exp_title": "Shadow vs. shade",
+        "exp_text": "A shadow is a two-dimensional dark area on a surface. Shade is the three-dimensional space behind an object with light in front."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of light source produces an umbra without a penumbra?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "An extended source",
+            "feedback": "An extended source produces umbra, penumbra, and antumbra, not only an umbra."
+          },
+          {
+            "label": "A point source",
+            "feedback": "Correct. A point source casts only the simple umbra with no penumbra."
+          },
+          {
+            "label": "A diffuse source",
+            "feedback": "Diffuse lighting softens shadows, but it is not what produces a single umbra."
+          },
+          {
+            "label": "The Sun",
+            "feedback": "The Sun is an extended source, so it casts both umbra and penumbra."
+          }
+        ],
+        "ok_title": "Point source shadow",
+        "ok_line": "A point source gives just a plain umbra.",
+        "ko_title": "Not extended",
+        "ko_line": "Think of a single tiny light.",
+        "exp_title": "Simple umbra",
+        "exp_text": "A point source of light is small and casts only a simple shadow called the umbra. Extended sources divide the shadow into umbra, penumbra, and antumbra."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a shadow receives no direct light from any part of the light source?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The penumbra",
+            "feedback": "The penumbra receives light from some parts of the source, so it is not fully dark."
+          },
+          {
+            "label": "The antumbra",
+            "feedback": "The antumbra is a zone beyond the umbra and is not the part with no direct light."
+          },
+          {
+            "label": "The umbra",
+            "feedback": "Correct. The umbra region gets no light from any part of the source, making it the darkest."
+          },
+          {
+            "label": "The silhouette",
+            "feedback": "A silhouette is the shape of the shadow, not a region of darkness within it."
+          }
+        ],
+        "ok_title": "Umbra darkest",
+        "ok_line": "The umbra is the fully dark core.",
+        "ko_title": "Darkest zone",
+        "ko_line": "Only one part is completely light-free.",
+        "exp_title": "Umbra's darkness",
+        "exp_text": "The umbra does not receive any direct light from any part of the light source, so it is the darkest region. A viewer in it cannot see any part of the source."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a shadow when the light source becomes wider?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It becomes sharper",
+            "feedback": "A wider source makes the shadow more blurred, not sharper."
+          },
+          {
+            "label": "It becomes darker",
+            "feedback": "A wider source lets more light around the edges, reducing sharpness and contrast, not increasing darkness."
+          },
+          {
+            "label": "It disappears completely",
+            "feedback": "A wider source blurs the edges, but the shadow does not vanish unless the source is very diffuse."
+          },
+          {
+            "label": "It becomes more blurred",
+            "feedback": "Correct. The wider the light source, the more blurred the shadow becomes."
+          }
+        ],
+        "ok_title": "Wider source blurs",
+        "ok_line": "A wider light blurs the shadow edges.",
+        "ko_title": "Blur effect",
+        "ko_line": "Wider sources soften the outline.",
+        "exp_title": "Blurred edges",
+        "exp_text": "With a wider or extended light source, light comes from many directions, so the shadow's edges get blurred. A point source, in contrast, gives a crisp umbra only."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is it called when two overlapping penumbras appear to merge?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The shadow blister effect",
+            "feedback": "Correct. When two penumbras overlap, the shadows seem to attract and merge, which is the shadow blister effect."
+          },
+          {
+            "label": "Rayleigh scattering",
+            "feedback": "Rayleigh scattering makes shadows bluish, but it does not cause merging."
+          },
+          {
+            "label": "A lunar eclipse",
+            "feedback": "A lunar eclipse is Earth's shadow on the Moon, not a merging of penumbras."
+          },
+          {
+            "label": "Crepuscular rays",
+            "feedback": "Crepuscular rays are beams of light, not overlapping shadows."
+          }
+        ],
+        "ok_title": "Shadow merging",
+        "ok_line": "Overlapping penumbras merge in the blister effect.",
+        "ko_title": "Merging effect",
+        "ko_line": "This is about shadows, not light beams.",
+        "exp_title": "Shadow blister",
+        "exp_text": "When two penumbras overlap, the shadows appear to attract each other and merge, an effect called the shadow blister effect. It happens with extended sources."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Under what lighting condition does an overcast sky produce almost no visible shadows?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "When the sun is a point source",
+            "feedback": "The Sun is never a point source; also overcast skies are diffuse, not point-like."
+          },
+          {
+            "label": "When there are multiple light sources",
+            "feedback": "Multiple sources create several shadows, not none."
+          },
+          {
+            "label": "When the lighting is diffuse",
+            "feedback": "Correct. The more diffuse the lighting, the softer and more indistinct the shadows, until they disappear."
+          },
+          {
+            "label": "When the object is far from the surface",
+            "feedback": "A far object makes a larger and blurred shadow, but it still exists."
+          }
+        ],
+        "ok_title": "Diffuse lighting",
+        "ok_line": "Diffuse light makes shadows vanish.",
+        "ko_title": "Soft shadows",
+        "ko_line": "Overcast skies diffuse the light.",
+        "exp_title": "No shadows in overcast",
+        "exp_text": "An overcast sky provides very diffuse light, so shadows become soft and indistinct and may disappear. Diffuse lighting spreads light from many directions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What color tinge does a daytime shadow cast by an opaque object in sunlight have?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red tint comes from other scattering conditions, not from Rayleigh scattering in the atmosphere."
+          },
+          {
+            "label": "Bluish",
+            "feedback": "Correct. Rayleigh scattering makes the sky blue, and this ambient blue light fills the shadow, giving it a bluish tinge."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green is not the color from Rayleigh scattering."
+          },
+          {
+            "label": "Black only",
+            "feedback": "A shadow is never purely black in open air because ambient light from the sky fills it."
+          }
+        ],
+        "ok_title": "Bluish shadow",
+        "ok_line": "Daytime shadows look bluish due to the sky.",
+        "ko_title": "Not black",
+        "ko_line": "The sky's blue light colors the shadow.",
+        "exp_title": "Why shadows are bluish",
+        "exp_text": "Rayleigh scattering makes the sky blue. The object blocks the sun's direct light but not the blue sky light, so the shadow appears bluish."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a rain shadow?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A shadow caused by rain droplets",
+            "feedback": "Rain shadows are not light shadows; they are dry regions, not dark areas."
+          },
+          {
+            "label": "A shadow seen in fog",
+            "feedback": "A fog shadow is a volumetric light shadow, not a dry region."
+          },
+          {
+            "label": "An acoustic shadow",
+            "feedback": "An acoustic shadow is a blocked sound area, not a rain effect."
+          },
+          {
+            "label": "A dry area beyond a mountain range",
+            "feedback": "Correct. A rain shadow is a dry area on the leeward side of a mountain range where clouds are blocked."
+          }
+        ],
+        "ok_title": "Rain shadow",
+        "ok_line": "A rain shadow is a dry zone behind mountains.",
+        "ko_title": "Not a light shadow",
+        "ko_line": "This is about weather, not light.",
+        "exp_title": "Rain shadow defined",
+        "exp_text": "A rain shadow is a dry area that is beyond a mountain range with respect to the prevailing wind, because the elevated terrain blocks rainclouds from entering."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a shadow's size when the surface it falls on is farther from the object?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It becomes larger",
+            "feedback": "Correct. The farther the projection surface, the larger the silhouette, proportionally."
+          },
+          {
+            "label": "It becomes smaller",
+            "feedback": "The shadow grows, not shrinks, with distance."
+          },
+          {
+            "label": "It stays the same size",
+            "feedback": "The size changes because light rays spread out with distance."
+          },
+          {
+            "label": "It disappears",
+            "feedback": "The shadow does not vanish; it gets larger and more blurred."
+          }
+        ],
+        "ok_title": "Larger with distance",
+        "ok_line": "A farther surface makes a bigger shadow.",
+        "ko_title": "Proportional size",
+        "ko_line": "Distance enlarges the silhouette.",
+        "exp_title": "Shadow size vs. distance",
+        "exp_text": "The distance from the object to the projection surface is proportional to the silhouette size. Farther away, the shadow expands."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the fear of shadows?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Claustrophobia",
+            "feedback": "Claustrophobia is the fear of enclosed spaces, not shadows."
+          },
+          {
+            "label": "Arachnophobia",
+            "feedback": "Arachnophobia is the fear of spiders."
+          },
+          {
+            "label": "Sciophobia",
+            "feedback": "Correct. The fear of shadows is called sciophobia or sciaphobia."
+          },
+          {
+            "label": "Nyctophobia",
+            "feedback": "Nyctophobia is the fear of night or darkness, not of shadows specifically."
+          }
+        ],
+        "ok_title": "Fear of shadows",
+        "ok_line": "Sciophobia is the fear of shadows.",
+        "ko_title": "Wrong phobia",
+        "ko_line": "This is about shadows, not other fears.",
+        "exp_title": "Sciophobia",
+        "exp_text": "The name for the fear of shadows is sciophobia or sciaphobia. It is a specific phobia related to shadows."
+      }
+    ]
+  }
+]

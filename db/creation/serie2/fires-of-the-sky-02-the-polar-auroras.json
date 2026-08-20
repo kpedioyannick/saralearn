@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 228,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At what height above the Earth's surface do auroras typically occur?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the troposphere, below 10 km where weather happens",
+            "feedback": "The troposphere is the lowest atmospheric layer where clouds and weather form. Auroras glow much higher, in the upper atmosphere, far above any weather."
+          },
+          {
+            "label": "In the upper atmosphere, between about 90 and 300 km",
+            "feedback": "Correct. The particles from the Sun collide with atmospheric gases in the thermosphere, where the glow forms. This is high above the stratosphere and troposphere."
+          },
+          {
+            "label": "In the stratosphere, around 30 km above the surface",
+            "feedback": "The stratosphere contains the ozone layer and is far lower than auroras. Auroral glows occur at altitudes three to ten times higher than this."
+          },
+          {
+            "label": "In the mesosphere, around 50 to 60 km high",
+            "feedback": "The mesosphere is higher than the stratosphere, but still below auroral altitudes. The ionosphere, where auroras shine, is higher still."
+          }
+        ],
+        "ok_title": "Auroral altitude",
+        "ok_line": "Auroras glow between about 90 and 300 km high.",
+        "ko_title": "Wrong altitude",
+        "ko_line": "Auroras are far higher than weather or ozone.",
+        "exp_title": "Where auroras form",
+        "exp_text": "Auroras form in the upper atmosphere, chiefly in the thermosphere where the air is thin but not empty. The incoming particles from the Sun hit oxygen and nitrogen atoms at these heights, making them glow. The exact altitude varies, but most of the green glow sits roughly 100–150 km up, with red colors higher, around 200–300 km."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of particles from the Sun cause the aurora when they hit the Earth's atmosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Light particles called photons",
+            "feedback": "Photons are particles of light itself, and they do not carry the energy that excites atmospheric atoms into glowing. The aurora comes from charged particles, not from light."
+          },
+          {
+            "label": "Tiny dust grains and micrometeoroids",
+            "feedback": "Dust and meteoroids produce meteors as they burn up in the atmosphere, not auroras. Auroras require particles that respond to the Earth's magnetic field, which dust grains do not."
+          },
+          {
+            "label": "Electrons and protons, which carry electric charge",
+            "feedback": "Correct. These charged particles are guided by the Earth's magnetic field toward the polar regions. When they collide with oxygen and nitrogen atoms, the atoms absorb the energy and release it as visible light."
+          },
+          {
+            "label": "Neutral helium atoms blown from the Sun's surface",
+            "feedback": "Neutral atoms are not steered by the magnetic field and would not funnel toward the poles. Only electrically charged particles inside the solar wind are drawn down into the polar skies."
+          }
+        ],
+        "ok_title": "Solar charged particles",
+        "ok_line": "Electrons and protons from the Sun trigger auroras.",
+        "ko_title": "Not these particles",
+        "ko_line": "Light, dust, and neutral atoms do not make auroras.",
+        "exp_title": "The Sun's incoming particles",
+        "exp_text": "The Sun constantly releases a stream of charged particles, mostly electrons and protons, known as the solar wind. When these charged particles reach Earth, they are deflected by the planet's magnetic field and guided toward the magnetic poles. There, they slam into oxygen and nitrogen atoms in the upper atmosphere, transferring energy that is later released as the colored glow of the aurora."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two gases in the Earth's atmosphere are mainly responsible for the colors of the aurora?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Oxygen and nitrogen",
+            "feedback": "Correct. Oxygen produces the green and red hues, while nitrogen produces blue and purplish-red colors. These two gases make up virtually all of the air where auroras glow."
+          },
+          {
+            "label": "Carbon dioxide and argon",
+            "feedback": "Carbon dioxide and argon exist in the atmosphere, but they are minor constituents and do not produce the bright auroral colors. The glow comes from the two dominant gases, oxygen and nitrogen."
+          },
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Hydrogen and helium are abundant in the Sun and in outer space, but they are extremely scarce in Earth's atmosphere. They are not the ones that give auroras their colors."
+          },
+          {
+            "label": "Ozone and water vapor",
+            "feedback": "Ozone and water vapor are important for weather and for blocking ultraviolet light, but they are not present in the thin upper air where auroras shine. Nitrogen and oxygen dominate there."
+          }
+        ],
+        "ok_title": "Coloring gases",
+        "ok_line": "Oxygen and nitrogen paint the aurora.",
+        "ko_title": "Wrong gases",
+        "ko_line": "Minor gases cannot create the glow.",
+        "exp_title": "The two auroral gases",
+        "exp_text": "Earth's upper atmosphere is almost entirely oxygen and nitrogen. When the incoming solar electrons and protons strike these atoms, each gas emits its own set of colors. Atomic oxygen gives the familiar green and the higher-altitude red, while molecular nitrogen gives off blue and a purplish-red. Together, these two gases produce every visible shade in an aurora."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape does the zone of frequent auroral activity form around each magnetic pole?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A perfect circle centered exactly on the pole",
+            "feedback": "The auroral zone is not a perfect circle. It is stretched and oval-shaped, with its center offset from the geographic pole toward the night side of the Earth."
+          },
+          {
+            "label": "A thin line that stays right on the pole itself",
+            "feedback": "Auroras do not cling to the pole itself. They appear in a broad ring that surrounds the pole at a distance, forming an oval band of activity."
+          },
+          {
+            "label": "A wide patch that covers the entire polar cap",
+            "feedback": "The polar cap, the area directly around the pole, is usually free of auroras. The glow occurs in a ring around that cap, not across it."
+          },
+          {
+            "label": "An oval ring, often off-center from the pole",
+            "feedback": "Correct. The charged particles enter the atmosphere along magnetic field lines that form an oval band around each magnetic pole. The oval is not centered on the pole and expands during geomagnetic storms."
+          }
+        ],
+        "ok_title": "Auroral oval shape",
+        "ok_line": "The aurora forms an oval ring around each pole.",
+        "ko_title": "Not a simple circle",
+        "ko_line": "The glow forms a stretched, off-center oval.",
+        "exp_title": "The auroral oval",
+        "exp_text": "The particles from the Sun are funneled by the Earth's magnetic field into two roughly oval-shaped zones, one around each magnetic pole. These ovals are not perfectly circular and are not centered exactly on the geographic poles. During quiet times they sit around 65 to 70 degrees of latitude, and during strong geomagnetic storms they widen and shift toward the equator."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does an aurora look like when seen from space high above the Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Two small flashes that blink on and off",
+            "feedback": "Auroras are not brief blinks. From space they appear as large, steady glowing rings that remain visible for hours as continuous bands of light encircling the poles."
+          },
+          {
+            "label": "A thin white line that moves slowly across the whole planet",
+            "feedback": "Auroras do not sweep across the entire globe. They stay confined to the polar ovals and are invisible elsewhere, even from high above."
+          },
+          {
+            "label": "Two glowing rings of light around the magnetic poles",
+            "feedback": "Correct. Satellites see the auroras as two luminous ovals that girdle the polar regions. The rings glow steadily and shift in brightness but keep their overall oval shape."
+          },
+          {
+            "label": "A single spot of bright light exactly over the geographic North Pole",
+            "feedback": "The aurora is not a single spot, and it does not sit over the geographic pole. It forms a full oval ring around the magnetic pole, visible as a band rather than a point."
+          }
+        ],
+        "ok_title": "View from space",
+        "ok_line": "From above, auroras are glowing polar rings.",
+        "ko_title": "Not single flashes",
+        "ko_line": "Auroras appear as continuous rings from orbit.",
+        "exp_title": "Auroras seen from orbit",
+        "exp_text": "Astronauts and satellites looking down at Earth see the auroras as two large oval rings of light wrapped around the magnetic poles. These rings are present nearly all the time, though their brightness and size vary with solar activity. The view from space makes the connection to the magnetic field unmistakable, since the glow follows the field lines into the atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which season are auroras most easily seen at high-latitude locations like northern Scandinavia or Alaska?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Summer, because the nights are warm",
+            "feedback": "In summer at high latitudes, nights are very short or don't happen at all. The sky never gets dark enough for the aurora to be visible, even though the aurora is present."
+          },
+          {
+            "label": "Winter, because the nights are long and dark",
+            "feedback": "Correct. Winter nights last many hours, and the sky is dark enough for the faint auroral glow to be seen. The aurora itself occurs year-round, but only the dark winter sky reveals it."
+          },
+          {
+            "label": "Spring, because the Sun's activity is strongest",
+            "feedback": "The Sun's activity follows an eleven-year cycle and is not tied to the seasons. Spring nights are shorter than winter nights, making auroras harder to observe even if the glow is present."
+          },
+          {
+            "label": "Autumn, because the nights are cooler than summer",
+            "feedback": "Autumn nights are indeed darker than summer nights, but winter provides even longer periods of darkness. The decisive factor is darkness, and winter offers the most of it."
+          }
+        ],
+        "ok_title": "Best viewing season",
+        "ok_line": "Long, dark winter nights show auroras best.",
+        "ko_title": "Season not the cause",
+        "ko_line": "Auroras happen year-round; darkness reveals them.",
+        "exp_title": "Aurora visibility and season",
+        "exp_text": "Auroras are generated throughout the year, but they are only visible when the sky is dark enough. At high latitudes, summer nights are short or nonexistent, so the glow is hidden by daylight. In winter, nights can last 16 to 24 hours, giving observers long dark windows in which to see the aurora. Temperature plays no role; only darkness matters."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the green color of a typical aurora produced by?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Oxygen atoms high in the atmosphere",
+            "feedback": "Correct. Atomic oxygen, when struck by incoming particles, emits a bright green wavelength of light. This is the most common and most visible color in auroras."
+          },
+          {
+            "label": "Nitrogen molecules in the lower atmosphere",
+            "feedback": "Nitrogen produces blue and purplish-red colors, not the typical green. The dominant green glow comes specifically from oxygen atoms."
+          },
+          {
+            "label": "Dust particles that reflect sunlight",
+            "feedback": "Auroral light is emitted by excited gas atoms, not reflected sunlight off dust. Dust would not produce a glowing green band across the sky."
+          },
+          {
+            "label": "Ozone molecules absorbing ultraviolet light",
+            "feedback": "Ozone is involved in absorbing solar ultraviolet light in the stratosphere, but it does not emit the green auroral glow. The emission comes from oxygen atoms in the thermosphere."
+          }
+        ],
+        "ok_title": "Green auroral source",
+        "ok_line": "Oxygen atoms emit the green glow.",
+        "ko_title": "Not the green source",
+        "ko_line": "Nitrogen, dust, and ozone make no green here.",
+        "exp_title": "The source of green auroras",
+        "exp_text": "The most common auroral color is a bright green, and it comes from atomic oxygen. When a solar particle hits an oxygen atom in the upper atmosphere, the atom absorbs energy and then releases it as light at a specific green wavelength. This emission is so efficient that even faint auroras often show a green tint, making it the signature color of the display."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the auroral ovals when a strong geomagnetic storm arrives from the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They disappear completely for several hours",
+            "feedback": "Auroras do not vanish during storms; they become far more active. The ovals brighten and expand rather than fading away."
+          },
+          {
+            "label": "They shrink and move closer to the poles",
+            "feedback": "During storms, the opposite happens. The ovals grow larger and move toward the equator, not toward the poles."
+          },
+          {
+            "label": "They expand and move toward the equator",
+            "feedback": "Correct. A strong solar storm pushes the auroral ovals to lower latitudes, so people far from the poles can suddenly see auroras. The ovals also brighten and become more dynamic."
+          },
+          {
+            "label": "They stay exactly the same size and place",
+            "feedback": "Auroral ovals are constantly shifting with solar activity. A strong storm dramatically changes them, both expanding them and relocating them equatorward."
+          }
+        ],
+        "ok_title": "Storm time ovals",
+        "ok_line": "During storms, auroral ovals expand equatorward.",
+        "ko_title": "Wrong oval behavior",
+        "ko_line": "Storms enlarge the ovals, not shrink or freeze them.",
+        "exp_title": "Auroral ovals during geomagnetic storms",
+        "exp_text": "A geomagnetic storm is caused by a surge of charged particles and magnetic energy from the Sun. When it hits Earth, it compresses the magnetic field and allows particles to penetrate deeper into the atmosphere, at lower latitudes. The auroral ovals respond by widening and shifting toward the equator, which is why auroras are then visible in places like the northern United States or central Europe, far outside their usual range."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the Earth is the aurora in the Southern Hemisphere named after?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The South Pole",
+            "feedback": "The aurora is named after a different feature. The Roman goddess of dawn gives her name to the northern lights, and the southern ones follow a similar naming pattern."
+          },
+          {
+            "label": "The Antarctic continent",
+            "feedback": "The Antarctic continent does not give its name to the aurora. The name comes from classical mythology, not from geography."
+          },
+          {
+            "label": "The Southern Ocean",
+            "feedback": "The Southern Ocean is near where auroras appear, but the name itself is not derived from it. The Latin root is the source."
+          },
+          {
+            "label": "The Roman goddess of the dawn, Aurora",
+            "feedback": "Correct. The southern aurora is called aurora australis. 'Aurora' is the Roman goddess of dawn, and 'australis' means 'southern' in Latin, giving the full name 'dawn of the south.'"
+          }
+        ],
+        "ok_title": "Southern aurora name",
+        "ok_line": "Aurora australis comes from the goddess Aurora.",
+        "ko_title": "Not the right source",
+        "ko_line": "The name is from mythology, not geography.",
+        "exp_title": "The naming of the southern aurora",
+        "exp_text": "The southern lights are called aurora australis. The first part, aurora, comes from Aurora, the Roman goddess of the dawn, because the shimmering glow reminded early observers of the first light of morning. The second part, australis, is Latin for 'southern.' Together they mean 'southern dawn,' mirroring the northern lights, which are called aurora borealis, after the Greek god of the north wind, Boreas."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical shape of an aurora as seen from the ground on a clear night?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A single bright dot that stays fixed in one spot",
+            "feedback": "Auroras are not stationary points of light. They are large, extended structures that stretch across much of the sky and continuously change shape."
+          },
+          {
+            "label": "Curtains, arcs, or ribbons of light that stretch across the sky",
+            "feedback": "Correct. On the ground, auroras typically appear as long, flowing curtains or arcs of light that hang like draperies across the sky. They ripple, fold, and shift as the particles stream in."
+          },
+          {
+            "label": "Small circles of light scattered randomly in the sky",
+            "feedback": "Auroras do not form small circles. They form huge, elongated structures that can span hundreds of kilometers and cover a large portion of the sky."
+          },
+          {
+            "label": "Thin horizontal lines that never move",
+            "feedback": "Auroral curtains are dynamic, not static. They constantly ripple, undulate, and change brightness as new particles arrive along the magnetic field lines."
+          }
+        ],
+        "ok_title": "Ground-level aurora shape",
+        "ok_line": "Auroras look like rippling curtains of light.",
+        "ko_title": "Not a fixed shape",
+        "ko_line": "Auroras are large, moving, curtain-like structures.",
+        "exp_title": "Auroral appearance from the ground",
+        "exp_text": "When you stand under an aurora, you see vast sheets of light hanging in the sky like folded curtains or long ribbons. These structures are aligned along the Earth's magnetic field lines, and they stretch for hundreds of kilometers. As new particles arrive, the curtains ripple, split, and shift, creating the shimmering, flowing appearance that makes auroras so distinctive."
+      }
+    ]
+  }
+]

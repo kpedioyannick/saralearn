@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the sky to change from bright blue to orange and red during sunset?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sunlight passes through more air, so blue light scatters away and red remains",
+            "feedback": "Correct. At sunset the Sun is low, so its light travels through a thicker layer of atmosphere, scattering the blue and leaving the warm reds and oranges."
+          },
+          {
+            "label": "The Sun itself turns red as it gets closer to the horizon",
+            "feedback": "The Sun does not change colour. It only appears red because of the way its light is filtered by the atmosphere."
+          },
+          {
+            "label": "Clouds reflect red light from the ground",
+            "feedback": "The red colour comes from atmospheric scattering of sunlight, not from cloud reflection of ground light."
+          },
+          {
+            "label": "The Earth's shadow falls on the sky, making it red",
+            "feedback": "The Earth's shadow darkens the sky after sunset, but the red glow is from scattered sunlight, not from the shadow itself."
+          }
+        ],
+        "ok_title": "Sunset colours",
+        "ok_line": "The long path through the air makes the sky red.",
+        "ko_title": "Sunset misconception",
+        "ko_line": "The Sun does not change, the air does the work.",
+        "exp_title": "Atmospheric scattering",
+        "exp_text": "During sunset, sunlight has to pass through much more atmosphere than at noon. The air scatters blue and violet light away, so what reaches your eyes is the red and orange range. That is why the evening sky glows warm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the period of time called when the Sun is just below the horizon but the sky is still partly lit?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Dusk",
+            "feedback": "Dusk is the evening twilight, but the question asks for the general period, which includes both morning and evening. The term covering both is twilight."
+          },
+          {
+            "label": "Twilight",
+            "feedback": "Correct. Twilight is the time between daylight and full darkness, when the Sun is below the horizon but still lights the sky."
+          },
+          {
+            "label": "Equinox",
+            "feedback": "An equinox is a day when day and night are nearly equal, not a time of partial light."
+          },
+          {
+            "label": "Night",
+            "feedback": "Night is the period of full darkness, when the Sun is far enough below the horizon that no scattered light reaches you."
+          }
+        ],
+        "ok_title": "Twilight defined",
+        "ok_line": "Twilight is the partly lit time around sunrise and sunset.",
+        "ko_title": "Twilight vs. dusk",
+        "ko_line": "Dusk is only the evening half of twilight.",
+        "exp_title": "Between day and night",
+        "exp_text": "Twilight is the interval when the Sun sits below the horizon but still illuminates the sky. It happens twice a day: before sunrise and after sunset. When twilight is over, the sky is fully dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does twilight last longer at high latitudes (near the poles) in summer?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Sun moves slower there",
+            "feedback": "The Sun's apparent speed across the sky is the same everywhere. The difference is the angle at which it sets, not its speed."
+          },
+          {
+            "label": "Because the air is thinner near the poles",
+            "feedback": "Air thickness does not control twilight length. The angle of the Sun's path below the horizon does."
+          },
+          {
+            "label": "Because the Sun sets at a shallow angle, so it takes a long time to sink far below the horizon",
+            "feedback": "Correct. Near the poles in summer, the Sun slides down at a very shallow angle, so it stays just under the horizon for a long time, giving long twilight."
+          },
+          {
+            "label": "Because the Earth rotates faster near the poles",
+            "feedback": "The Earth's rotation speed does not vary with latitude in a way that affects twilight. The geometry of the Sun's path is what matters."
+          }
+        ],
+        "ok_title": "Long polar twilight",
+        "ok_line": "The Sun's shallow path keeps it near the horizon longer.",
+        "ko_title": "Why twilight lingers",
+        "ko_line": "It is the angle of descent, not speed or air, that matters.",
+        "exp_title": "Shallow sunset angles",
+        "exp_text": "At high latitudes in summer, the Sun sets at a very shallow angle, almost parallel to the horizon. So it takes a long time to get far enough below the horizon for full darkness, stretching the twilight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the opposite glow seen in the eastern sky around sunset called?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Aurora",
+            "feedback": "An aurora is a glowing display in the sky caused by charged particles from the Sun, not a normal opposite glow at sunset."
+          },
+          {
+            "label": "Crepuscular rays",
+            "feedback": "Crepuscular rays are beams of light radiating from the Sun, not a glow opposite to it."
+          },
+          {
+            "label": "Earthshine",
+            "feedback": "Earthshine is sunlight reflected off Earth lighting the dark part of the Moon, not a sky glow."
+          },
+          {
+            "label": "Anti-crepuscular glow",
+            "feedback": "Correct. The pink or purplish glow opposite the setting Sun is the anti-crepuscular glow, caused by the same scattered sunlight that lights the west."
+          }
+        ],
+        "ok_title": "Opposite glow",
+        "ok_line": "The eastern sky glows because scattered light reflects back.",
+        "ko_title": "Glow vs. other lights",
+        "ko_line": "It is not an aurora or earthshine, but a back-scattered sunset glow.",
+        "exp_title": "Back-scattered light",
+        "exp_text": "When the Sun sets in the west, its light scatters off the atmosphere. Some of that scattered light reaches the eastern sky and reflects back toward you, creating a soft glow opposite the Sun. That is the anti-crepuscular glow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the beams of sunlight that appear to radiate from the Sun through gaps in clouds at dusk?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Crepuscular rays",
+            "feedback": "Correct. Crepuscular rays are shafts of sunlight separated by cloud shadows, looking like they spread out from the Sun."
+          },
+          {
+            "label": "Anti-crepuscular rays",
+            "feedback": "Anti-crepuscular rays appear opposite the Sun, not radiating from it. These are the ones converging at the horizon opposite."
+          },
+          {
+            "label": "Sun pillars",
+            "feedback": "Sun pillars are vertical columns of light caused by ice crystals, not the spreading beams from cloud edges."
+          },
+          {
+            "label": "Aurora borealis",
+            "feedback": "The aurora is caused by charged particles interacting with the atmosphere, not by sunlight passing through clouds."
+          }
+        ],
+        "ok_title": "Crepuscular rays",
+        "ok_line": "Cloud gaps let sunlight shine through in visible beams.",
+        "ko_title": "Rays vs. other lights",
+        "ko_line": "These beams come from the Sun, not from the opposite side or from ice.",
+        "exp_title": "Sunbeams through clouds",
+        "exp_text": "Crepuscular rays happen when clouds block part of the sunlight, and the light that passes through gaps appears as bright beams. Although they look like they diverge from the Sun, they are actually parallel—perspective makes them spread out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do colours appear to fade or lose their brightness as evening approaches?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the Sun gives off less light as it sets",
+            "feedback": "The Sun's actual light output does not change. It is the angle and scattering that reduce the light reaching the ground."
+          },
+          {
+            "label": "Because the light becomes dimmer and more scattered, reducing the intensity of reflected colours",
+            "feedback": "Correct. As the Sun drops, its light travels through more air, scattering away many wavelengths. What reaches objects is dimmer and less colourful, so they appear washed out."
+          },
+          {
+            "label": "Because your eyes stop working in low light",
+            "feedback": "Your eyes adapt, but colours fade because of the reduced and scattered light, not because your eyes fail."
+          },
+          {
+            "label": "Because the air absorbs all colours equally",
+            "feedback": "The atmosphere does not absorb all colours equally; it scatters blue more, and overall less light reaches the ground, which washes out colours."
+          }
+        ],
+        "ok_title": "Fading colours",
+        "ok_line": "Dim scattered light makes colours look dull.",
+        "ko_title": "Why colours dull",
+        "ko_line": "It is not the Sun's output, but the loss of light through the air.",
+        "exp_title": "Light scattering and colour",
+        "exp_text": "At dusk, sunlight passes through a thicker layer of air, so more light is scattered before it reaches the ground. What remains is dimmer and has fewer colours, making objects appear grey and faded."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Approximately how long does it take for a human eye to reach full sensitivity in complete darkness?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A few seconds",
+            "feedback": "The eye begins adapting quickly, but full dark adaptation takes much longer than a few seconds."
+          },
+          {
+            "label": "About a minute",
+            "feedback": "A minute helps, but the rod cells continue improving for a much longer time."
+          },
+          {
+            "label": "About 20 to 30 minutes",
+            "feedback": "Correct. After entering darkness, the eye's rod cells build up their light-sensitive chemicals, reaching maximum sensitivity in roughly 20 to 30 minutes."
+          },
+          {
+            "label": "Several hours",
+            "feedback": "The eye reaches its full sensitivity well before several hours; that time estimate is too long."
+          }
+        ],
+        "ok_title": "Dark adaptation time",
+        "ok_line": "Full night vision takes about half an hour.",
+        "ko_title": "Eye adjustment speed",
+        "ko_line": "The eye improves gradually, not in seconds or minutes alone.",
+        "exp_title": "Rod cell adaptation",
+        "exp_text": "Human eyes adapt to darkness by rebuilding a light-sensitive pigment in rod cells. This process takes 20 to 30 minutes for maximum sensitivity, though the first few minutes bring the fastest improvement."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do many animals become more active at dawn and dusk rather than in full daylight?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the temperature is always highest then",
+            "feedback": "Dawn and dusk are usually cooler or warmer depending on location; this is not the general reason for activity."
+          },
+          {
+            "label": "Because there is no light at all, so they can hide",
+            "feedback": "Dawn and dusk have some light, and many animals use the dim conditions to avoid both heat and predators, not to hide in total darkness."
+          },
+          {
+            "label": "Because their eyes only work in low light",
+            "feedback": "Some animals have adapted to low light, but many are active then to avoid predators or heat, not because their eyes require it."
+          },
+          {
+            "label": "To avoid predators and reduce water loss while still having enough light to see",
+            "feedback": "Correct. Dawn and dusk offer enough light for many animals to find food, while cooler temperatures lower the need for water and many predators are less active."
+          }
+        ],
+        "ok_title": "Dawn and dusk activity",
+        "ok_line": "Animals use the dim light and cooler hours for safety.",
+        "ko_title": "Nocturnal vs. crepuscular",
+        "ko_line": "They are not fully nocturnal; they prefer the low light of twilight.",
+        "exp_title": "Crepuscular behaviour",
+        "exp_text": "Many animals are crepuscular, meaning they are most active at dawn and dusk. The lower light reduces the risk of being seen by some predators, the cooler air cuts down water loss, and there is still enough light to navigate and hunt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the dawn chorus of birds happen mainly in the early morning?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Birds sing to establish territory and attract mates when the air is calm and sound travels clearly",
+            "feedback": "Correct. Early morning air is often still and cool, so bird calls carry further. Singing then also lets males claim territory before daytime activity begins."
+          },
+          {
+            "label": "Because birds are cold and sing to warm up",
+            "feedback": "Singing does not warm birds up. They sing for communication, not body temperature."
+          },
+          {
+            "label": "Because the Sun's light wakes them instantly and they cannot help it",
+            "feedback": "Birds are not forced to sing by light alone; they choose this time for reasons of sound and social strategy."
+          },
+          {
+            "label": "Because there is more food at dawn",
+            "feedback": "Food availability varies, but the main reason for the chorus is communication, not feeding."
+          }
+        ],
+        "ok_title": "Dawn chorus reason",
+        "ok_line": "Quiet morning air makes calls carry farther.",
+        "ko_title": "Bird song timing",
+        "ko_line": "It is about sound and territory, not warmth or food.",
+        "exp_title": "Acoustic advantage at dawn",
+        "exp_text": "At dawn, the air is usually calm and cooler, so sound travels with less distortion and over longer distances. Birds take advantage of this to broadcast their songs, defending territory and attracting mates before the day gets noisy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How far below the horizon must the Sun be for the sky to become completely dark at night?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "0 degrees (at the horizon)",
+            "feedback": "When the Sun is at the horizon, it is still twilight, not full night. There is still scattered light in the sky."
+          },
+          {
+            "label": "About 18 degrees",
+            "feedback": "Correct. When the Sun is more than 18 degrees below the horizon, its scattered light no longer reaches the sky, so you see full astronomical darkness."
+          },
+          {
+            "label": "About 6 degrees",
+            "feedback": "At 6 degrees below the horizon, civil twilight ends, but the sky is still lit by scattered light, so it is not fully dark."
+          },
+          {
+            "label": "About 90 degrees",
+            "feedback": "Ninety degrees would put the Sun directly overhead the opposite side of Earth, but full darkness occurs well before that, at 18 degrees."
+          }
+        ],
+        "ok_title": "Full darkness threshold",
+        "ok_line": "The Sun must sink 18 degrees below the horizon.",
+        "ko_title": "Twilight stages",
+        "ko_line": "6 degrees is civil twilight, not full night.",
+        "exp_title": "Astronomical twilight end",
+        "exp_text": "Twilight ends when the Sun is about 18 degrees below the horizon. At that point, the atmosphere no longer scatters any sunlight to your location, and the sky reaches its darkest possible state, revealing the faintest stars."
+      }
+    ]
+  }
+]

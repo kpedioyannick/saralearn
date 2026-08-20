@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 249,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What part of the skin actually contains the nerve endings that detect touch?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The outer layer of dead cells",
+            "feedback": "The outer layer, the epidermis, is made mostly of dead, keratin-filled cells and has no nerve endings in its top part; touch receptors sit deeper."
+          },
+          {
+            "label": "The dermis, the layer below the surface",
+            "feedback": "Correct. The dermis is the living layer beneath the surface where touch receptors and nerve endings are located."
+          },
+          {
+            "label": "The subcutaneous fat layer",
+            "feedback": "The fat layer lies under the dermis and stores energy and insulates, but the actual touch receptors are in the dermis above it."
+          },
+          {
+            "label": "The hair follicles only",
+            "feedback": "Hair follicles have nerve endings wrapped around them, but most of the skin's touch detection happens in the dermis, not just at follicles."
+          }
+        ],
+        "ok_title": "Touch in dermis",
+        "ok_line": "Touch is felt in the dermis, the living layer under the surface.",
+        "ko_title": "Layer confusion",
+        "ko_line": "The dead outer layer can't feel; receptors live below.",
+        "exp_title": "Skin layers and touch",
+        "exp_text": "The skin's outermost part, the epidermis, is mostly dead cells and has no feeling. The dermis, just beneath it, holds the nerve endings and touch receptors that send signals to the brain when something presses, stretches, or vibrates against the skin."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes a light touch on a hairy part of the arm, like when a mosquito lands on you, noticeable even though the skin itself isn't pressed hard?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A nerve ending wrapped around the base of the hair detects the hair bending",
+            "feedback": "Correct. Each hair has a nerve coil around its root, so bending the hair stretches the nerve and sends a signal."
+          },
+          {
+            "label": "The touch stimulates pain receptors directly",
+            "feedback": "Pain receptors respond to damage or strong pressure, not to a light hair bend; the nerve at the hair base handles this."
+          },
+          {
+            "label": "The skin stretches enough to trigger pressure receptors",
+            "feedback": "A light touch doesn't stretch the skin enough; the hair's movement is what's detected, not skin deformation."
+          },
+          {
+            "label": "The mosquito's saliva is detected by the skin",
+            "feedback": "Saliva triggers an immune reaction later, not an immediate touch sensation; the feeling comes from the hair bending."
+          }
+        ],
+        "ok_title": "Hair-root nerve",
+        "ok_line": "Hair bending is felt by a nerve coil at the base.",
+        "ko_title": "Wrong trigger",
+        "ko_line": "Light touch isn't pain, and it doesn't stretch skin.",
+        "exp_title": "Hair follicle receptors",
+        "exp_text": "Around the base of each hair is a nerve ending that wraps around the follicle. When anything bends the hair, it squeezes that nerve and fires a signal, so you feel a light touch on hairy skin without any real pressure on the skin itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between the receptors that detect light touch on the skin and those that detect deep pressure?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Light touch uses pain receptors; deep pressure uses temperature receptors",
+            "feedback": "Pain and temperature are separate senses; light touch and pressure both use mechanoreceptors, just different types."
+          },
+          {
+            "label": "Light touch uses receptors in the fat; deep pressure uses receptors in the epidermis",
+            "feedback": "Both are in the dermis; the difference is in size and depth of the receptors, not the layer they sit in."
+          },
+          {
+            "label": "Light touch uses small, shallow receptors; deep pressure uses larger, deeper receptors",
+            "feedback": "Correct. Small receptors near the surface respond to gentle contact, while larger, deeper ones respond to strong squeeze."
+          },
+          {
+            "label": "Light touch uses one receptor type; deep pressure uses the same type but with more nerve cells",
+            "feedback": "They are different receptor types with different shapes and locations, not just a difference in cell number."
+          }
+        ],
+        "ok_title": "Receptor depth",
+        "ok_line": "Shallow receptors feel light touch, deep ones feel pressure.",
+        "ko_title": "Same type? No",
+        "ko_line": "Light and deep touch use distinct receptors.",
+        "exp_title": "Mechanoreceptor variety",
+        "exp_text": "The skin has several kinds of touch receptors. Small, superficial ones respond to a light brush, while larger, deeper ones, like Pacinian corpuscles, detect firm pressure and vibration. Having different receptors lets you distinguish a gentle stroke from a hard squeeze."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does your fingertip feel fine texture, like the ridges of a coin, so much better than your back can?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The fingertip has more pain receptors than the back",
+            "feedback": "Pain receptors don't help with texture; they signal damage, not fine pattern."
+          },
+          {
+            "label": "The back has thicker skin, so it blocks all sensation",
+            "feedback": "The back's skin is thicker, but it still feels touch; the issue is fewer touch receptors per area, not a block."
+          },
+          {
+            "label": "The fingertip has larger receptors that are more sensitive",
+            "feedback": "Larger receptors are for deep pressure, not fine detail; small, densely packed receptors give fine discrimination."
+          },
+          {
+            "label": "The fingertip has many more touch receptors packed closely together",
+            "feedback": "Correct. Dense clusters of small receptors in the fingertip let the brain tell apart tiny differences in location and pressure."
+          }
+        ],
+        "ok_title": "Fingertip density",
+        "ok_line": "Closely packed receptors give fingertips fine detail.",
+        "ko_title": "Sensitivity source",
+        "ko_line": "It's receptor density, not pain or receptor size.",
+        "exp_title": "Two-point discrimination",
+        "exp_text": "The skin's ability to tell two nearby points apart depends on how many touch receptors sit in a given area. Fingertips have a very high density of small receptors, so each one covers a tiny patch of skin. The back has far fewer, so each receptor covers a larger area, making fine texture hard to detect."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When you touch something icy cold, which receptors are responsible for the cold sensation, and are they the same as pressure receptors?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Pressure receptors, because cold presses on the skin",
+            "feedback": "Cold is not a mechanical force; it doesn't press. Temperature has its own specific receptors."
+          },
+          {
+            "label": "Temperature receptors, which are separate from pressure receptors",
+            "feedback": "Correct. Cold is detected by thermoreceptors that respond to temperature change, not by the mechanoreceptors for pressure."
+          },
+          {
+            "label": "Pain receptors, because cold is always painful",
+            "feedback": "Mild cold is not painful; pain receptors fire only when cold becomes extreme enough to damage tissue."
+          },
+          {
+            "label": "Touch receptors, because they sense everything on the skin",
+            "feedback": "Touch receptors detect mechanical deformation, not temperature; cold needs a different type of receptor."
+          }
+        ],
+        "ok_title": "Cold thermoreceptors",
+        "ok_line": "Cold is felt by separate temperature receptors.",
+        "ko_title": "Separate senses",
+        "ko_line": "Pressure and temperature use different receptors.",
+        "exp_title": "Temperature sensing",
+        "exp_text": "Cold and pressure are distinct senses. Cold is detected by thermoreceptors in the skin that respond to a drop in temperature, while pressure uses mechanoreceptors that respond to physical deformation. They send signals along different nerve pathways to different parts of the brain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the immediate, automatic reaction that happens when your hand touches something painfully hot, before you even feel the pain?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A reflex that pulls your hand away",
+            "feedback": "Correct. The pain signal travels to the spinal cord, which sends a motor command back to pull your hand away before the brain registers pain."
+          },
+          {
+            "label": "Your brain tells your muscles to move after feeling pain",
+            "feedback": "The brain isn't involved in the quick pull; the spinal cord handles it directly, which is why it's faster."
+          },
+          {
+            "label": "Your skin cools down instantly to stop the burn",
+            "feedback": "Skin can't cool itself that fast; the movement away is a reflex, not a temperature change."
+          },
+          {
+            "label": "Your hand clenches into a fist to protect itself",
+            "feedback": "The reflex pulls the limb away, not clench; clenching would keep you in contact with the hot object."
+          }
+        ],
+        "ok_title": "Reflex withdrawal",
+        "ok_line": "The spinal cord pulls your hand away first.",
+        "ko_title": "Brain not needed",
+        "ko_line": "The reflex works before conscious pain.",
+        "exp_title": "Spinal reflex arc",
+        "exp_text": "When a heat receptor fires a strong signal, the message travels to the spinal cord, which immediately sends a command to the arm muscles to pull away. This reflex happens in a fraction of a second, long before the brain has processed the pain, so you react to protect yourself before you feel the hurt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do you stop noticing the feeling of your clothes against your skin a few minutes after getting dressed?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The receptors stop sending any signals at all",
+            "feedback": "Receptors still send signals when the clothes shift, but the steady pressure signal fades because receptors adapt."
+          },
+          {
+            "label": "The clothes become part of your skin and are felt as normal",
+            "feedback": "Clothes don't merge with skin; the brain simply stops paying attention to constant, unchanging signals."
+          },
+          {
+            "label": "The touch receptors adapt and stop responding to constant pressure",
+            "feedback": "Correct. Receptors respond to change, not to steady pressure, so they stop firing after a while."
+          },
+          {
+            "label": "Your brain deletes all touch information from that area",
+            "feedback": "The brain doesn't delete information; it just filters out unchanging signals, so new touches are still felt."
+          }
+        ],
+        "ok_title": "Receptor adaptation",
+        "ok_line": "Steady pressure stops firing after a while.",
+        "ko_title": "Constant signal?",
+        "ko_line": "Receptors care about change, not steady pressure.",
+        "exp_title": "Sensory adaptation",
+        "exp_text": "Touch receptors are built to detect changes, not sustained contact. When you put on clothes, the pressure is new, so they fire strongly. Within minutes the pressure becomes constant, the receptors stop sending signals, and your brain no longer feels the clothes, until you move and create a new change."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does your hand know to grip a slippery glass more tightly the instant it starts to slide, even before you consciously notice the movement?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The brain calculates the glass's weight and predicts the slip",
+            "feedback": "The brain isn't consciously predicting; the reflex uses touch signals from the skin to adjust grip automatically."
+          },
+          {
+            "label": "Temperature receptors detect the cold glass and tighten the grip",
+            "feedback": "Temperature doesn't control grip; it's the touch receptors sensing the sliding motion that trigger the adjustment."
+          },
+          {
+            "label": "Pain receptors detect the glass pressing and cause a withdrawal",
+            "feedback": "Withdrawal would drop the glass; this is a grip adjustment reflex, not a withdrawal."
+          },
+          {
+            "label": "Touch receptors detect the slide and trigger a quick grip adjustment reflex",
+            "feedback": "Correct. When the glass starts to move, touch receptors send signals that cause the hand muscles to tighten automatically."
+          }
+        ],
+        "ok_title": "Grip reflex",
+        "ok_line": "Sliding triggers a fast grip adjustment.",
+        "ko_title": "Conscious? No",
+        "ko_line": "The adjustment is a reflex from touch signals.",
+        "exp_title": "Slip reflex",
+        "exp_text": "When a held object begins to slip, the skin's touch receptors detect the change in pressure and the movement of the object. This triggers a reflex in the spinal cord that increases grip strength, all before you consciously feel the sliding. This helps you keep hold of things without thinking."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of sensation does a chilli pepper's 'hot' feeling on the tongue actually come from, if it isn't a taste?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It's a bitter taste that tricks the tongue",
+            "feedback": "Chilli doesn't activate taste receptors; it activates pain and heat receptors, not bitterness."
+          },
+          {
+            "label": "It activates pain and heat receptors on the tongue",
+            "feedback": "Correct. Capsaicin from the chilli binds to the same receptor that responds to heat and pain, so you feel burning."
+          },
+          {
+            "label": "It triggers the sour receptors with a chemical reaction",
+            "feedback": "Sour receptors respond to acids; capsaicin isn't an acid and doesn't trigger sourness."
+          },
+          {
+            "label": "It's a pressure sensation from the chilli's texture",
+            "feedback": "The heat sensation is chemical, not mechanical pressure; texture is felt by touch receptors, not by capsaicin."
+          }
+        ],
+        "ok_title": "Chilli heat",
+        "ok_line": "Capsaicin sets off heat and pain receptors.",
+        "ko_title": "Not a taste",
+        "ko_line": "Chilli burns through pain, not taste buds.",
+        "exp_title": "Capsaicin receptor",
+        "exp_text": "Capsaicin, the chemical in chillies, binds to a receptor on nerve endings that normally responds to high temperatures and tissue damage. This makes the brain interpret the signal as heat and pain, so you feel a burning sensation even though no actual burn occurs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do you feel like you're still spinning for a few seconds after you stop turning quickly on a playground roundabout?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The fluid in your inner ear keeps moving even after you've stopped",
+            "feedback": "Correct. The fluid's momentum causes it to continue pushing on the hair cells, so the brain still thinks you're turning."
+          },
+          {
+            "label": "Your brain replays the memory of spinning to make sense of it",
+            "feedback": "Memory isn't involved; the ongoing sensation comes from fluid movement, not recollection."
+          },
+          {
+            "label": "The muscles in your neck are still tense from turning",
+            "feedback": "Muscle tension doesn't create the spinning sensation; the inner ear fluid is the cause."
+          },
+          {
+            "label": "Your eyes send a signal that the world is still moving",
+            "feedback": "Your eyes see the world as still; it's the inner ear's fluid that falsely signals motion."
+          }
+        ],
+        "ok_title": "Inner ear inertia",
+        "ok_line": "Fluid keeps moving after you stop.",
+        "ko_title": "Not memory",
+        "ko_line": "The sensation is fluid momentum, not recall.",
+        "exp_title": "Vestibular after-effect",
+        "exp_text": "Inside the balance organs, fluid bends hair cells to signal rotation. When you stop, the fluid's inertia makes it keep moving for a moment, so the hair cells still bend and send 'turning' signals. Your brain interprets this as continued spinning, which is why the world seems to whirl briefly after you stop."
+      }
+    ]
+  }
+]

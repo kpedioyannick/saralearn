@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 152,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What mainly drives the great surface currents that flow across the open ocean?",
+        "body": null,
+        "options": [
+          {
+            "label": "The pull of the Moon, acting the same way it does on the tides",
+            "feedback": "The Moon's pull raises tides, which move water back and forth on a daily rhythm, but the great steady surface currents flow in one consistent direction, which tides don't explain."
+          },
+          {
+            "label": "Sound waves from earthquakes travelling through the water",
+            "feedback": "Earthquake vibrations dissipate quickly and don't sustain a steady, ongoing flow of water across an entire ocean."
+          },
+          {
+            "label": "Wind blowing steadily over the surface, dragging the top layer of water along with it",
+            "feedback": "Where wind blows consistently in one direction over a long stretch of ocean, the friction between air and water drags the surface layer along, and that dragging is what sets a current moving and keeps it flowing."
+          },
+          {
+            "label": "Fish and other sea life swimming together in the same direction",
+            "feedback": "No amount of swimming by living things could move a mass of water the size of an ocean current; the force involved is far too small."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Dragged by the wind",
+        "ok_line": "Steady wind, steady drag, steady current.",
+        "ko_title": "Not the driver",
+        "ko_line": "Ask what blows across the ocean surface in the same direction, day after day.",
+        "exp_title": "Air dragging water along",
+        "exp_text": "Where a wind blows consistently across the same stretch of ocean for long enough, friction between the moving air and the water beneath it drags the surface layer forward. That dragged layer in turn tugs at the water just beneath it, and over a large enough area and a long enough time, that steady tug builds into one of the ocean's great surface currents."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do major ocean currents curve clockwise in the Northern Hemisphere and counter-clockwise in the Southern Hemisphere?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's rotation deflects moving water sideways, in opposite directions on either side of the equator",
+            "feedback": "Because Earth is spinning, anything moving freely across its surface — water included — gets deflected sideways relative to the ground beneath it, to the right of its motion in the north and to the left in the south, and that steady sideways deflection curves a current into a loop."
+          },
+          {
+            "label": "Warmer water in the north pushes currents one way, and colder water in the south pushes them the other way",
+            "feedback": "Temperature differences do drive some currents, but they don't explain the specific mirrored, opposite curving seen north and south of the equator."
+          },
+          {
+            "label": "The shape of every continent happens to bend currents the same way on each side",
+            "feedback": "Continents do redirect currents locally, but the mirrored clockwise and counter-clockwise pattern shows up across entirely different ocean basins with very different coastlines, so coastline shape alone can't be the cause."
+          },
+          {
+            "label": "Underwater mountain ranges are arranged in a spiral on each side of the equator",
+            "feedback": "There is no such spiral arrangement of underwater mountains; the curving comes from a force acting on the moving water itself, not from the seabed's shape."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Deflected by the spin",
+        "ok_line": "Same spin, opposite deflection on either side of the equator.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what a spinning planet does to anything moving freely across its surface.",
+        "exp_title": "Curved by a spinning Earth",
+        "exp_text": "As Earth spins, any water moving across its surface is carried along by the ground beneath it at a slightly different speed depending on latitude, and the result is a steady sideways deflection relative to the direction the water started moving in. That deflection pushes moving water to the right of its path in the Northern Hemisphere and to the left in the Southern Hemisphere, and applied continuously to a whole current, it bends the flow into a long curving loop, clockwise on one side of the equator and counter-clockwise on the other."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Deep ocean currents flow far below where wind can reach the water — what drives them instead?",
+        "body": null,
+        "options": [
+          {
+            "label": "Vibrations carried down from surface waves",
+            "feedback": "Wave energy fades out within a shallow depth and never reaches the deep ocean where these currents flow."
+          },
+          {
+            "label": "Leftover momentum from surface currents that simply carries on downward",
+            "feedback": "Surface currents are driven by wind acting only on the top layer; that motion doesn't carry on down into water thousands of metres below."
+          },
+          {
+            "label": "The pull of gravity from the Moon and Sun, focused entirely on the ocean floor",
+            "feedback": "The Moon and Sun's pull acts on the whole ocean at once to produce tides; it isn't focused specifically on deep water in a way that would drive a separate current."
+          },
+          {
+            "label": "Differences in density: cold, salty water is heavier and sinks, pushing a slow circulation through the deep ocean",
+            "feedback": "Near the poles, seawater becomes cold and salty enough to grow denser than the water around it, and that dense water sinks toward the bottom and spreads outward, pulling more water in behind it and driving a slow circulation that reaches through the deep ocean."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Driven by weight, not wind",
+        "ok_line": "Denser water sinks, and its sinking pulls a whole circulation along behind it.",
+        "ko_title": "Not the driver",
+        "ko_line": "Wind can't reach that deep — ask what property of the water itself could set it moving instead.",
+        "exp_title": "Sinking water pulling a circulation behind it",
+        "exp_text": "Far below the reach of wind, water still moves because of differences in its own density. Near the poles, seawater grows cold and, through the extra salt left behind as sea ice forms, grows saltier too, and that combination makes it denser than the water around it. Being denser, it sinks toward the ocean floor and spreads slowly outward, and as it sinks it draws more water in behind it, setting off a slow circulation that reaches across entire ocean basins."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does the Gulf Stream help keep parts of Western Europe milder in winter than other regions at a similar distance from the equator?",
+        "body": null,
+        "options": [
+          {
+            "label": "It blocks cold air from Canada from ever reaching Europe",
+            "feedback": "A current in the ocean cannot physically block moving air; its effect on climate comes from the heat carried in the water itself, not from stopping wind."
+          },
+          {
+            "label": "It carries warm water from the tropics far northward, and that warm water releases heat into the air blowing over it toward Europe",
+            "feedback": "The Gulf Stream picks up warmth in the tropics and carries a huge volume of that warm water steadily northeastward, and as air passes over it on the way to Europe, it picks up heat from the water and carries that warmth on to the coasts it reaches."
+          },
+          {
+            "label": "It increases the amount of sunlight reaching European coastlines",
+            "feedback": "A current in the water has no effect on how much sunlight strikes the coastline above it; its influence is through the heat stored in the water, not through light."
+          },
+          {
+            "label": "It raises the salt content of the air over Europe, which traps warmth",
+            "feedback": "Salt doesn't become airborne in amounts that could trap heat; the warming comes directly from heat released by the current's water, not from salt in the air."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Warmth carried, then released",
+        "ok_line": "Tropical heat, delivered north by moving water.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what property of the current's water could actually warm the air passing over it.",
+        "exp_title": "Tropical heat delivered northward",
+        "exp_text": "Water in the tropics absorbs a great deal of heat from the sun, and the Gulf Stream carries a large, steady volume of that warmed water far to the north before it eventually cools and sinks. Along the way, air travelling over the current picks up some of the heat stored in that water, and winds carry that warmed air on toward the coasts of Western Europe, keeping winters there milder than at similar latitudes elsewhere."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What causes coastal upwelling, where unusually cold water rises to the surface near certain shorelines?",
+        "body": null,
+        "options": [
+          {
+            "label": "Underwater volcanoes near the coast push cold water upward as they erupt",
+            "feedback": "Volcanic eruptions release heat, not cold, and upwelling coastlines aren't defined by nearby volcanic activity; the cause is wind, not eruptions."
+          },
+          {
+            "label": "Rain falling on the coast is cold enough to sink and displace the water below",
+            "feedback": "Rainfall adds only a thin layer of fresh water at the very surface; it has nowhere near the volume needed to push deep water upward."
+          },
+          {
+            "label": "Wind blowing steadily along the coast pushes surface water away from shore, and deeper, colder water rises up to take its place",
+            "feedback": "When wind consistently pushes the surface layer of water away from a coastline, there has to be something to fill the space it leaves behind, and cold water from below rises up to replace it, bringing that cold water to the surface."
+          },
+          {
+            "label": "Ships travelling along shipping lanes stir the water and cool it",
+            "feedback": "Ship traffic has no capacity to move enough water to bring cold, deep water all the way to the surface along an entire coastline."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Pushed away, and replaced from below",
+        "ok_line": "Wind clears the surface, and cold water fills the gap.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what has to happen to the water at the surface before anything from below could rise up to replace it.",
+        "exp_title": "A gap the deep water fills",
+        "exp_text": "Along certain coastlines, wind blows steadily in a direction that pushes the surface layer of water away from the shore. As that surface water moves off, it leaves behind less water than there was before, and colder water from deeper down rises up to take its place, bringing with it the noticeably lower temperature — and often extra nutrients — typical of upwelling."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does floating debris tend to collect and concentrate in certain regions of the open ocean, far from any coastline?",
+        "body": null,
+        "options": [
+          {
+            "label": "Several currents form a large circular loop, and their combined motion steadily pushes floating material toward the calmer centre of that loop",
+            "feedback": "Where wind-driven currents form a large rotating loop, the water at the loop's centre is left relatively calm and slow-moving, and the surrounding currents keep nudging floating material inward toward that centre, where it becomes trapped with nowhere left to drift."
+          },
+          {
+            "label": "Debris is naturally denser in the middle of the ocean than near the coast",
+            "feedback": "The density of a given piece of debris doesn't change based on its location; what changes is how the surrounding currents move it."
+          },
+          {
+            "label": "The seabed rises close to the surface in those regions, catching debris on its peaks",
+            "feedback": "These debris-collecting regions sit over ordinary open-ocean depths, not a shallow rise in the seabed; the gathering happens at the surface, driven by currents."
+          },
+          {
+            "label": "Storms specifically steer debris toward the middle of ocean basins",
+            "feedback": "Storms scatter debris in many directions rather than reliably steering it toward one particular spot; the steady, patient work of a rotating current does that instead."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Nudged inward, again and again",
+        "ok_line": "A rotating loop of currents has a calm centre, and everything drifts toward it.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about the overall shape the currents in that region trace out, and where the calmest water in that shape would be.",
+        "exp_title": "Trapped at the centre of a loop",
+        "exp_text": "In several ocean basins, wind-driven currents circle around in a single enormous loop rather than flowing in a straight line. Water at the outer edge of that loop keeps moving, but the water at its centre is left comparatively calm, and the surrounding currents keep pushing floating material inward toward that calm centre a little at a time. Over years, material drifting into the loop from any direction ends up gathered there, unable to drift back out."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a gyre, and why does it take the shape of one large, roughly circular loop rather than a straight-line current?",
+        "body": null,
+        "options": [
+          {
+            "label": "A gyre is simply the point where two rivers meet the ocean at the same latitude",
+            "feedback": "A gyre has nothing to do with rivers meeting the sea; it is a large system of ocean currents, not a river mouth."
+          },
+          {
+            "label": "A gyre forms wherever an underwater trench happens to run in a circle",
+            "feedback": "The shape of a gyre is set by wind patterns and Earth's rotation acting on the water's surface, not by the shape of any trench on the seafloor."
+          },
+          {
+            "label": "A gyre is a seasonal current that only appears for part of the year",
+            "feedback": "Major gyres are permanent, ongoing features of ocean circulation, not something that appears and disappears with the seasons."
+          },
+          {
+            "label": "Steady wind patterns push water in one direction, Earth's rotation deflects it sideways, and the surrounding continents block it from flowing straight — together these confine the current into a closed loop",
+            "feedback": "Wind sets the water moving, Earth's rotation bends that motion steadily to one side, and the coastlines of the surrounding continents stop the current from simply continuing in a straight line, so between the push, the bend and the barrier, the flow is left with nowhere to go but around in a large closed loop."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Pushed, bent, and boxed in",
+        "ok_line": "Three forces, one closed loop.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what pushes the water, what bends its path, and what stops it from just continuing in a straight line.",
+        "exp_title": "Boxed into a loop by three forces at once",
+        "exp_text": "Steady winds blowing over an ocean basin set its surface water moving in a particular direction, and Earth's rotation steadily deflects that moving water to one side as it goes. At the same time, the coastlines of the continents bordering the basin block the current from continuing on in a straight line forever. Pushed, bent and boxed in all together, the water has nowhere left to go but around, tracing out the large, roughly circular loop known as a gyre."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can two neighbouring ocean currents sometimes show a sharp, visible line where they meet, rather than blending smoothly into each other?",
+        "body": null,
+        "options": [
+          {
+            "label": "One current is simply painted a different colour by algae living only on its side",
+            "feedback": "Algae can tint water locally, but a sharp boundary line between currents shows up even where no such algae are present, so it isn't the general explanation."
+          },
+          {
+            "label": "The two currents differ enough in temperature, salinity or sediment that their waters resist mixing, so a visible boundary persists between them",
+            "feedback": "Water of a different temperature, saltiness or sediment load has a different density from the water beside it, and two masses of water with different densities resist blending together quickly, so the two currents can flow side by side for a long distance with a sharp, visible line marking where one ends and the other begins."
+          },
+          {
+            "label": "Ships travelling along shipping routes draw an artificial line with their wake",
+            "feedback": "A ship's wake dissipates within moments; it cannot maintain a persistent boundary stretching for a long distance across the ocean."
+          },
+          {
+            "label": "The seafloor beneath the boundary is painted a different colour, showing through the water",
+            "feedback": "The colour or line seen at the surface reflects the properties of the water itself, not a marking on the distant seabed far below."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Different water, slow to mix",
+        "ok_line": "Where density differs, water resists blending — and the line shows.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what could make water on one side genuinely different from water on the other, in a way that resists mixing.",
+        "exp_title": "Two waters that won't easily blend",
+        "exp_text": "Water carries a distinct temperature, saltiness and sometimes a load of sediment depending on where it has travelled from, and those properties set its density. When two currents made of water with different densities flow side by side, they resist mixing the way oil resists mixing with water, and that resistance can hold a visible line between them steady for a considerable distance before the two finally blend."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What keeps the 'global conveyor belt' — the slow circulation linking surface currents to deep ocean currents — running continuously?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fish migrating along the same route year after year drag the water with them",
+            "feedback": "Migrating animals move far too little water to sustain a circulation reaching across entire oceans and down to the seafloor."
+          },
+          {
+            "label": "The Sun heats one fixed spot in the ocean every single day, powering the whole loop from there",
+            "feedback": "The Sun warms the entire ocean surface broadly rather than one fixed spot, and it is the sinking of cold, dense water at the poles, not a single heated point, that drives this circulation."
+          },
+          {
+            "label": "Cold, dense water sinking at the poles keeps pulling more surface water in behind it, drawing the whole circulation along in a continuous loop",
+            "feedback": "As cold, salty water sinks near the poles and spreads along the ocean floor, it draws surface water in behind it to replace what sank, and that surface water is eventually carried around to the poles too, sinking in its turn and keeping the entire loop, from surface to depth and back again, continuously moving."
+          },
+          {
+            "label": "Tides push the deep water forward once a day, in the same direction each time",
+            "feedback": "Tides move water back and forth on a daily rhythm; the conveyor belt's steady, one-directional flow over centuries is driven by sinking dense water, not by the tide."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Pulled along by what sinks",
+        "ok_line": "Every bit of water that sinks pulls the next stretch of surface water in behind it.",
+        "ko_title": "Not the driver",
+        "ko_line": "Ask what happens at the poles that could pull water in behind it and keep an entire loop moving.",
+        "exp_title": "Kept moving by what sinks at the poles",
+        "exp_text": "At certain points near the poles, seawater becomes cold and salty enough to sink all the way to the ocean floor, and as it does, it draws in surface water from elsewhere to take its place. That replacement water eventually travels to the same sinking regions and sinks in turn, and it is this steady, self-sustaining chain of sinking and replacement that keeps the whole circulation, spanning every ocean and reaching from the surface to the deep floor, in continuous motion."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does surface water near the equator tend to flow steadily westward rather than in some other direction?",
+        "body": null,
+        "options": [
+          {
+            "label": "Steady trade winds blow from east to west across the tropics, and their constant drag on the surface pushes the water the same way",
+            "feedback": "Across a wide belt on either side of the equator, trade winds blow consistently from east to west, and just as any steady wind drags the water beneath it along, this reliable wind keeps dragging equatorial surface water westward, day after day."
+          },
+          {
+            "label": "The equator marks the lowest point of the ocean's surface, so water simply rolls downhill toward the west",
+            "feedback": "The ocean surface isn't tilted downhill toward the west at the equator; the westward flow comes from wind pushing the water, not from any slope."
+          },
+          {
+            "label": "Deep currents beneath the equator all flow westward and carry the surface water along with them",
+            "feedback": "Deep currents move far too slowly, and too separately from the surface layer, to be what drags equatorial surface water along; wind acting directly on the surface does that."
+          },
+          {
+            "label": "The equator is the only place on Earth where the Moon's pull acts sideways instead of straight down",
+            "feedback": "The Moon's gravitational pull doesn't act sideways at the equator any more than elsewhere; its effect on the ocean is the tide, not a steady westward push."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Blown, not sloped",
+        "ok_line": "A steady wind belt drags the water the same way it blows.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what blows consistently across the tropics in one direction, and what that steady blowing could drag along with it.",
+        "exp_title": "Dragged along by a steady wind belt",
+        "exp_text": "Across the tropics, a dependable band of wind called the trade winds blows from the east toward the west almost without interruption. As with any wind that blows steadily over open water, friction between the moving air and the sea drags the surface layer along in the same direction, and because the trade winds are so consistent across such a wide stretch of ocean, the surface water near the equator settles into a steady westward flow."
+      }
+    ]
+  }
+]

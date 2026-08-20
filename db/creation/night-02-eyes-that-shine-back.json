@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 92,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is the mirror behind a night animal's retina called?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tapetum lucidum",
+            "feedback": "Latin for bright carpet, which describes it well."
+          },
+          {
+            "label": "The iris",
+            "feedback": "That is the coloured ring that sizes the pupil."
+          },
+          {
+            "label": "The cornea",
+            "feedback": "The clear dome at the very front of the eye."
+          },
+          {
+            "label": "The vitreous body",
+            "feedback": "The jelly filling the eyeball, and quite clear."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A bright carpet laid behind the sensing cells.",
+        "ko_title": "Not that.",
+        "ko_line": "The layer sits behind the retina, not in front of it.",
+        "exp_title": "A bright carpet at the back of the eye",
+        "exp_text": "The tapetum lucidum is a reflective sheet lying immediately behind the retina in many night-active animals. Light that passed through the sensing cells without being caught is bounced back for a second attempt, raising sensitivity by roughly a factor of two. In cats and dogs it is built from stacked crystals; in some fish it uses guanine, the same material that makes their scales shine."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does an animal give up by having a tapetum?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sharpness of the image",
+            "feedback": "The reflected light lands slightly off target."
+          },
+          {
+            "label": "The ability to see any colour",
+            "feedback": "Colour loss comes from having few cones, not from the mirror."
+          },
+          {
+            "label": "The use of one eye at a time",
+            "feedback": "Both eyes carry it and both work together."
+          },
+          {
+            "label": "Vision in bright daylight",
+            "feedback": "Cats see perfectly well by day."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Twice the light, slightly blurred. That is the trade.",
+        "ko_title": "Not it.",
+        "ko_line": "The light comes back a second time, but not to exactly the same spot.",
+        "exp_title": "Brighter, and a little blurred",
+        "exp_text": "Reflected light does not return precisely to the cell it missed, so it lands slightly scattered and the image softens. For a hunter in the dark that is a bargain worth making: a blurred sighting beats none at all. Animals that need fine detail in good light — humans, most birds of prey — have no tapetum, and use the space for a dense carpet of cones instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do human eyes come out red in a photograph?",
+        "body": null,
+        "options": [
+          {
+            "label": "The flash lights the blood in the retina",
+            "feedback": "There is no mirror, so the blood shows through."
+          },
+          {
+            "label": "We have a red tapetum",
+            "feedback": "Humans have no tapetum of any colour."
+          },
+          {
+            "label": "The camera adds the colour",
+            "feedback": "Film cameras did it long before any software."
+          },
+          {
+            "label": "The pupil is red underneath",
+            "feedback": "The pupil is an opening with no colour of its own."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "No mirror behind, so what shines back is blood.",
+        "ko_title": "Not it.",
+        "ko_line": "A cat photographs green or gold. Why would a human come out red?",
+        "exp_title": "Blood, not a mirror",
+        "exp_text": "With no tapetum, a camera flash lights the back of the human eye directly, and the retina is dense with blood vessels — so the light that returns is red. It only happens when the flash sits close to the lens and the pupil is wide, which is why the effect belongs to indoor snapshots. Moving the flash away from the lens removes it entirely."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does eyeshine differ in colour between species?",
+        "body": null,
+        "options": [
+          {
+            "label": "Their mirrors are made differently",
+            "feedback": "Material and structure decide which colours return."
+          },
+          {
+            "label": "It depends on the animal's mood",
+            "feedback": "The colour is fixed by anatomy."
+          },
+          {
+            "label": "It changes with the animal's age only",
+            "feedback": "It shifts a little in the young, but species sets it."
+          },
+          {
+            "label": "It reflects the colour of the torch",
+            "feedback": "One white torch gives different colours per species."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Different mirrors, different colours coming back.",
+        "ko_title": "Not that.",
+        "ko_line": "Shine one white torch across a field and each species answers in its own colour.",
+        "exp_title": "A signature you can read in the dark",
+        "exp_text": "The tapetum's material and the spacing of its layers decide which wavelengths bounce back most strongly. Cats and dogs usually return green or gold, cattle and deer whitish yellow, crocodiles and many spiders red, and some fish blue. Field biologists exploit this: sweeping a torch across a marsh at night, they can identify what is looking back from the colour alone."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a spider be found at night with a headtorch?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its eyes reflect as tiny bright points",
+            "feedback": "Wolf spiders carry a tapetum of their own."
+          },
+          {
+            "label": "Its web glows in the dark",
+            "feedback": "Silk gives off no light of its own."
+          },
+          {
+            "label": "Its body gives off heat",
+            "feedback": "A spider is the same temperature as the air."
+          },
+          {
+            "label": "It always sits on white surfaces",
+            "feedback": "Spiders hunt across every kind of ground."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Pinpoints of light scattered across the grass, all looking back.",
+        "ko_title": "Not it.",
+        "ko_line": "The same trick that finds a cat in a garden finds a spider in a field.",
+        "exp_title": "Diamonds in the grass",
+        "exp_text": "Wolf spiders and their relatives have a tapetum behind their main eyes, and it throws light straight back at its source. Held level with your eyes, a torch reveals hundreds of white points across an ordinary lawn — one spider per point, and far more of them than anyone expects. The reflection only works when the light is close to your line of sight, so a torch held at arm's length shows nothing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a cat's eye seem to glow when the room is not fully dark?",
+        "body": null,
+        "options": [
+          {
+            "label": "It returns light it has received",
+            "feedback": "In genuine darkness the eye shows nothing at all."
+          },
+          {
+            "label": "It stores light gathered by day",
+            "feedback": "No eye stores light for later."
+          },
+          {
+            "label": "It produces light chemically",
+            "feedback": "No mammal makes light in its eyes."
+          },
+          {
+            "label": "It heats up and glows faintly",
+            "feedback": "A body is far too cool to glow visibly."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Everything it gives back, it was given first.",
+        "ko_title": "Not it.",
+        "ko_line": "Shut every light in the room and the glow stops. That settles it.",
+        "exp_title": "Reflection, never emission",
+        "exp_text": "Eyeshine needs a source: block every photon and a cat's eyes are as dark as anything else in the room. What looks like glowing is a very efficient return of whatever faint light was already present — moonlight, a screen, a streetlamp through a curtain. The impression of self-illumination comes from how little else in the room is bright enough to compete."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do a cat's pupils narrow to slits rather than small circles?",
+        "body": null,
+        "options": [
+          {
+            "label": "A slit closes further than a circle",
+            "feedback": "It gives a far wider range between open and shut."
+          },
+          {
+            "label": "It sharpens vision at a distance",
+            "feedback": "Distance vision does not depend on pupil shape."
+          },
+          {
+            "label": "It protects against dust",
+            "feedback": "Eyelids and lashes handle dust."
+          },
+          {
+            "label": "It helps the eye judge colour",
+            "feedback": "Colour comes from the retina, not the pupil."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A slit can shut almost completely. A circle cannot.",
+        "ko_title": "Not that.",
+        "ko_line": "A cat needs a huge pupil at night and a tiny one at noon. Which shape manages both?",
+        "exp_title": "The widest possible range",
+        "exp_text": "An eye built for hunting in near-darkness needs an enormous pupil, but that same eye must survive daylight. A slit can be squeezed by eyelids from two directions and closes to a hairline, giving cats a range of over a hundredfold against about sixteen for a human. Vertical slits belong to small ambush hunters close to the ground; large cats such as lions have round pupils."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do grazing animals such as goats have horizontal pupils?",
+        "body": null,
+        "options": [
+          {
+            "label": "It widens the view along the horizon",
+            "feedback": "A panoramic strip is where danger appears."
+          },
+          {
+            "label": "It keeps dust out while feeding",
+            "feedback": "Eyelids do that far better."
+          },
+          {
+            "label": "It helps them judge the height of grass",
+            "feedback": "Grazers do not need to judge that."
+          },
+          {
+            "label": "It lets them see directly upward",
+            "feedback": "The shape favours the sides, not above."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "A letterbox slit, aimed at the horizon where the wolves are.",
+        "ko_title": "Not it.",
+        "ko_line": "Ask which direction a prey animal most needs to watch.",
+        "exp_title": "A letterbox aimed at the horizon",
+        "exp_text": "A horizontal slit gives a sharp panoramic band across the ground and blurs what is overhead, which is exactly the arrangement a grazer wants — threats come along the horizon. Placed on the sides of the head, the two eyes cover nearly the full circle. Most remarkably, when the animal lowers its head to feed, the eyes rotate in their sockets to keep the slits level with the ground."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which animal has the largest eyes of any on Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "The colossal squid",
+            "feedback": "Around 27 cm across, the size of a dinner plate."
+          },
+          {
+            "label": "The blue whale",
+            "feedback": "The largest animal alive, with eyes the size of a grapefruit."
+          },
+          {
+            "label": "The ostrich",
+            "feedback": "The largest of any land animal, at about 5 cm."
+          },
+          {
+            "label": "The giant tortoise",
+            "feedback": "Its eyes are unremarkable in size."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The size of a dinner plate, built for a world without light.",
+        "ko_title": "Not that.",
+        "ko_line": "It lives where there is no sunlight at all, and it is not a whale.",
+        "exp_title": "Eyes for a world with almost no light",
+        "exp_text": "The colossal squid of the deep Southern Ocean has eyes around 27 cm across, far larger than any whale's. At that size they gather enough light to detect the faint glow stirred up by a moving sperm whale — its main predator — from perhaps 120 metres away. Beyond a certain size an eye stops paying for itself, and modelling suggests this particular threat is the only reason to build one so large."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does an owl turn its whole head instead of moving its eyes?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its eyes are fixed in the sockets",
+            "feedback": "They are tubes, too large and long to swivel."
+          },
+          {
+            "label": "Its eyes would fall out if it tried",
+            "feedback": "They are held firmly in place."
+          },
+          {
+            "label": "Turning the head is faster",
+            "feedback": "Eye movement is quicker in any animal that has it."
+          },
+          {
+            "label": "It listens better with the head turned",
+            "feedback": "The ears work in any position."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The eyes cannot move, so the head does the work.",
+        "ko_title": "Not it.",
+        "ko_line": "An owl's eyes are not balls. That is the clue.",
+        "exp_title": "Tubes, not balls",
+        "exp_text": "An owl's eyes are elongated tubes braced by a ring of bone, a shape that gathers far more light than a sphere of the same weight but cannot rotate. The bird compensates by turning its head up to 270 degrees, helped by extra neck vertebrae and by arteries with slack built in so the blood supply is not cut off. Together the two eyes take up more room in the skull than the brain does."
+      }
+    ]
+  }
+]

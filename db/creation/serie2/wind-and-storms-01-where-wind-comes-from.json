@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the immediate cause of wind on Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Differences in air pressure between two places",
+            "feedback": "Correct. Wind is simply air moving from a region of higher pressure to a region of lower pressure."
+          },
+          {
+            "label": "The rotation of the Earth pulling the air along",
+            "feedback": "The Earth's rotation influences wind direction through the Coriolis effect but does not itself create wind; pressure differences do."
+          },
+          {
+            "label": "The presence of mountains and hills",
+            "feedback": "Mountains and hills can channel and modify wind, but they are not the fundamental cause; wind exists even without them."
+          },
+          {
+            "label": "The gravitational pull of the Moon on the atmosphere",
+            "feedback": "The Moon's gravity affects tides in the ocean, but it has a negligible effect on creating winds on Earth."
+          }
+        ],
+        "ok_title": "Pressure differences",
+        "ok_line": "Air moves from high to low pressure.",
+        "ko_title": "Check the cause",
+        "ko_line": "Wind starts with pressure differences, not other factors.",
+        "exp_title": "Wind as air movement",
+        "exp_text": "Wind is the movement of air from a region where air pressure is higher to a region where air pressure is lower. This movement happens because air naturally flows to balance out differences in pressure. The greater the difference, the faster the wind."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to air when it is heated by the Sun?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It becomes heavier and sinks",
+            "feedback": "Heated air expands and becomes less dense, so it rises, not sinks. Cooler air sinks."
+          },
+          {
+            "label": "It expands, becomes less dense, and rises",
+            "feedback": "Correct. When air warms, its molecules spread out, making it lighter and causing it to rise upward."
+          },
+          {
+            "label": "It contracts and becomes denser",
+            "feedback": "Heating causes expansion, not contraction. Denser air is cooler, not warmer."
+          },
+          {
+            "label": "It stays in place and does not move",
+            "feedback": "Air that is heated does move; it rises because it becomes less dense than the surrounding cooler air."
+          }
+        ],
+        "ok_title": "Warm air rises",
+        "ok_line": "Heated air expands and goes up.",
+        "ko_title": "Remember the effect",
+        "ko_line": "Warming makes air rise, not sink.",
+        "exp_title": "Heating and air density",
+        "exp_text": "When the Sun heats the ground, the air above it warms. Warm air expands, so the same amount of air takes up more space, making it less dense. Less dense air is lighter than the cooler air around it, so it floats upward."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What creates the difference in air pressure at the ground between two neighbouring areas?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The speed of the Earth's rotation at each spot",
+            "feedback": "Rotation speed does not create local pressure differences; it only affects the direction of wind already flowing."
+          },
+          {
+            "label": "The height of the ground above sea level only",
+            "feedback": "Height does affect pressure, but neighbouring areas usually have similar heights; the main cause is uneven heating."
+          },
+          {
+            "label": "The amount of cloud cover in the sky",
+            "feedback": "Clouds affect how much sunlight reaches the ground, but the direct cause of pressure differences is the temperature of the air itself."
+          },
+          {
+            "label": "Uneven heating of the ground by the Sun",
+            "feedback": "Correct. The Sun heats different surfaces (like land and water) unevenly, warming the air above them differently and creating areas of low and high pressure."
+          }
+        ],
+        "ok_title": "Uneven solar heating",
+        "ok_line": "Suns heats places differently, making pressure vary.",
+        "ko_title": "Look at heating",
+        "ko_line": "Pressure differences come from uneven warming.",
+        "exp_title": "Why pressures differ",
+        "exp_text": "The Sun does not heat all parts of the ground equally. Dark soil, sand, or rock warm faster than water or green fields. The air above a hot spot warms, expands, and rises, lowering the pressure at that spot. Nearby cooler air remains denser and higher in pressure. This difference drives the wind."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a calm, sunny day, where would you expect air pressure to be lower, over a sun-heated parking lot or over a shaded forest?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Over the parking lot",
+            "feedback": "Correct. The parking lot heats up more, warming the air above it, which expands and rises, lowering the pressure there."
+          },
+          {
+            "label": "Over the forest",
+            "feedback": "The forest is cooler because trees provide shade, so the air above it is denser and has higher pressure, not lower."
+          },
+          {
+            "label": "Equal over both",
+            "feedback": "They heat differently, so the air pressures are not equal; the warmer area has lower pressure."
+          },
+          {
+            "label": "It depends on wind direction",
+            "feedback": "Wind direction is a result of pressure differences, not a cause of them. The heating pattern determines the pressures."
+          }
+        ],
+        "ok_title": "Warm spots lower pressure",
+        "ok_line": "Heated ground makes lower pressure above it.",
+        "ko_title": "Temperature and pressure",
+        "ko_line": "Warmer air means lower pressure, not higher.",
+        "exp_title": null,
+        "exp_text": "A parking lot with dark asphalt absorbs more sunlight and becomes hotter than a shaded forest. The air above the parking lot heats, expands, and rises, creating an area of lower pressure. The cooler, denser air above the forest has higher pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does air do when it cools down after sunset?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It expands and rises quickly",
+            "feedback": "Cooling makes air contract and become denser, so it sinks, not rises. Expansion happens when air warms."
+          },
+          {
+            "label": "It stays exactly where it is",
+            "feedback": "Cooler air moves downwards because it becomes heavier than the surrounding warmer air."
+          },
+          {
+            "label": "It contracts, becomes denser, and sinks",
+            "feedback": "Correct. As air cools, its molecules slow and pack closer together, making the air heavier, so it settles downward."
+          },
+          {
+            "label": "It evaporates into the ground",
+            "feedback": "Air does not evaporate into the ground. Cooling affects its density and movement, not its existence."
+          }
+        ],
+        "ok_title": "Cold air sinks",
+        "ok_line": "Cooled air gets denser and falls.",
+        "ko_title": "Cooling effect",
+        "ko_line": "Cool air descends, not rises.",
+        "exp_title": null,
+        "exp_text": "At night, the ground loses heat and cools, cooling the air in contact with it. Cool air contracts, so it becomes denser and heavier. This heavier air sinks toward the ground, while warmer air is pushed upward. This sinking motion helps drive nighttime breezes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Over a large body of water on a hot afternoon, the air above the water is usually what compared to the air over the nearby warm land?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Warmer and rising",
+            "feedback": "Water warms more slowly than land, so the air above it is usually cooler, not warmer."
+          },
+          {
+            "label": "Cooler and denser, with higher pressure",
+            "feedback": "Correct. Water heats slowly, so the air above it stays cooler, denser, and higher in pressure than the air over the hot land."
+          },
+          {
+            "label": "The same temperature as the land air",
+            "feedback": "Land and water heat at very different rates, so their air temperatures are not the same."
+          },
+          {
+            "label": "Cooler but with lower pressure",
+            "feedback": "Cooler air is denser, so it has higher pressure, not lower, compared to the warmer land air."
+          }
+        ],
+        "ok_title": "Sea air stays cool",
+        "ok_line": "Water heats slowly, keeping air cool.",
+        "ko_title": "Land vs. water",
+        "ko_line": "Air over water is cooler, not warmer.",
+        "exp_title": null,
+        "exp_text": "Water takes longer to warm than land does. So in the afternoon, the sea surface is cooler than the land, and the air above the sea is cooler and denser. This denser air has higher pressure, which pushes it toward the lower pressure over the warm land, creating a sea breeze."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does warm air rise above a sunlit field?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it is pushed up by the wind",
+            "feedback": "Wind is not the cause; the air rises on its own because it is less dense than the surrounding air."
+          },
+          {
+            "label": "Because it is lighter than the cold air above it",
+            "feedback": "It is lighter, so it floats upward, but the fuller reason is that it has expanded, making it less dense."
+          },
+          {
+            "label": "Because it expands and becomes less dense than the cooler air around it",
+            "feedback": "Correct. Heating makes the air expand, spreading its molecules, so the air becomes less dense and floats up through the denser surrounding air."
+          },
+          {
+            "label": "Because the Sun's gravity pulls on it less",
+            "feedback": "The Sun's gravity is far too weak to affect air movement on Earth; the rise is due to density differences."
+          }
+        ],
+        "ok_title": "Less dense floats up",
+        "ok_line": "Expanded warm air rises through cooler air.",
+        "ko_title": "Density explains it",
+        "ko_line": "Warm air is less dense, so it goes up.",
+        "exp_title": null,
+        "exp_text": "Sunlight heats the ground, which warms the air directly above it. This air expands, meaning its molecules spread farther apart. With fewer molecules in the same volume, the air is less dense than the surrounding cooler air. Just as a cork floats in water, this lighter air rises up through the denser air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does the air that flows in as a breeze on a hot afternoon come from?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "From high in the sky above the same spot",
+            "feedback": "Air does rise from the ground, but the breeze that you feel at the surface comes from the side, from a cooler, high-pressure area, not from directly above."
+          },
+          {
+            "label": "From underground, through cracks in the soil",
+            "feedback": "Air does not come from underground; breezes are horizontal movements of air over the surface."
+          },
+          {
+            "label": "From the warm air itself, which swaps places with cooler air",
+            "feedback": "Warm air rises, and cooler air rushes in to replace it, but that cooler air comes from a specific neighbouring region, not from the warm air itself."
+          },
+          {
+            "label": "From a nearby cooler region with higher pressure",
+            "feedback": "Correct. The cool, dense air in a nearby area, like over water or shade, has higher pressure, so it flows into the low-pressure zone left by the rising warm air."
+          }
+        ],
+        "ok_title": "Cool air rushes in",
+        "ok_line": "Breeze is cool air moving to replace rising air.",
+        "ko_title": "Source of breeze",
+        "ko_line": "Breeze comes from a cool, high-pressure area.",
+        "exp_title": null,
+        "exp_text": "When warm air rises over a hot field, it leaves an area of lower pressure near the ground. Air moves to fill that low-pressure space. The air that moves in comes from wherever the air is cooler and denser, like over a lake or a shaded patch, because that air has higher pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the rising warm air high above a sun-heated area, eventually?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It cools, becomes denser, and may sink back down elsewhere",
+            "feedback": "Correct. As the air rises, it expands and cools, eventually becoming denser than the air around it, so it descends in another place."
+          },
+          {
+            "label": "It keeps getting warmer and rising forever",
+            "feedback": "Air at high altitudes is cold; rising air cools, not warms, so it cannot keep rising indefinitely."
+          },
+          {
+            "label": "It stays high up and never comes back down",
+            "feedback": "Air that cools becomes denser and will sink; it does not remain aloft permanently."
+          },
+          {
+            "label": "It turns into clouds and disappears",
+            "feedback": "Rising air can form clouds as it cools, but the air itself does not disappear; it eventually sinks."
+          }
+        ],
+        "ok_title": "Rising air cools",
+        "ok_line": "Up high, air cools and later sinks.",
+        "ko_title": "Cycle of air",
+        "ko_line": "Air rises, cools, sinks, and moves on.",
+        "exp_title": null,
+        "exp_text": "As warm air rises, it moves into lower pressure at higher altitude, so it expands and cools. Cooler air is denser, so it eventually becomes heavier than the air around it and starts to sink. This sinking air then flows back toward the ground, completing a circulation loop known as a convection cell."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "On a clear, calm night, what kind of breeze would you expect to feel blowing from a large lake toward the land?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A strong, warm breeze",
+            "feedback": "At night the land cools faster than the water, so the breeze blows from the land to the water, and it is usually cool."
+          },
+          {
+            "label": "A gentle breeze from the lake to the land",
+            "feedback": "At night the land is cooler than the water, so the breeze reverses and blows from the land toward the lake, not the other way."
+          },
+          {
+            "label": "A breeze from the land toward the lake",
+            "feedback": "Correct. The land cools quickly at night, making the air above it cool and dense with high pressure, so it flows out toward the warmer, lower-pressure air over the lake."
+          },
+          {
+            "label": "No breeze at all, because it is too dark",
+            "feedback": "Darkness does not stop wind; temperature differences still create breezes at night."
+          }
+        ],
+        "ok_title": "Night land breeze",
+        "ok_line": "Cool land air blows out to the lake.",
+        "ko_title": "Night reversal",
+        "ko_line": "Breeze goes from land to water at night.",
+        "exp_title": null,
+        "exp_text": "At night, the land loses heat quickly and becomes cooler than the water, which holds its warmth longer. The air above the land cools, becomes denser, and has higher pressure. This cooler, denser air flows outward toward the warmer, lower-pressure air over the lake, creating a land breeze."
+      }
+    ]
+  }
+]

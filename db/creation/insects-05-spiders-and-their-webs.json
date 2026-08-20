@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 225,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a spider not classed as an insect?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It has eight legs and a body split into two parts, not three",
+            "feedback": "This is the real dividing line: leg count and body plan, not habits or size."
+          },
+          {
+            "label": "It has no hard outer shell",
+            "feedback": "A spider's body is covered by a hard cuticle just as an insect's is. Both groups share that shell."
+          },
+          {
+            "label": "It cannot fly",
+            "feedback": "Plenty of insects cannot fly either — ants and fleas, for instance — so flight is not what separates the two groups."
+          },
+          {
+            "label": "It lives on the ground rather than in the air",
+            "feedback": "Most insects live on the ground too. Habitat says nothing about which group a creature belongs to."
+          }
+        ],
+        "ok_title": "Legs and body plan, not habits",
+        "ok_line": "Eight legs, two body sections — counts an insect never has.",
+        "ko_title": "Not size, not flight",
+        "ko_line": "The line between spider and insect is drawn by counting legs and body sections, not by what a creature can do.",
+        "exp_title": "Eight legs, two parts, no antennae",
+        "exp_text": "An insect's body is built in three sections — head, thorax, abdomen — carried on six legs, usually with a pair of antennae. A spider's body has only two sections: a fused head-and-thorax called the cephalothorax, joined to a separate abdomen, carried on eight legs, with no antennae at all. Counting legs and body sections is what sorts a creature into one group or the other."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does spider silk leave the spider as a liquid but end up as a solid thread?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sunlight cures it like a chemical coating",
+            "feedback": "A spider spins working thread just as well in complete darkness, so light is not what triggers the change."
+          },
+          {
+            "label": "The spider's body heat sets it as it leaves",
+            "feedback": "Silk hardens even when a spider is cold, so heat from the spider's body is not the cause."
+          },
+          {
+            "label": "Pulling it through the spinnerets aligns and hardens the proteins",
+            "feedback": "The pulling force stretches the stored protein straight and locks it into a solid fibre."
+          },
+          {
+            "label": "Simple contact with air dries it into a thread",
+            "feedback": "A drop of the same liquid left standing on its own does not turn into thread. It has to be drawn out to change."
+          }
+        ],
+        "ok_title": "Drawn, not dried",
+        "ok_line": "The thread is made by pulling, not by waiting for it to dry.",
+        "ko_title": "Not heat, not light",
+        "ko_line": "Ask what physically happens to the liquid as it is pulled through the narrow duct, rather than what touches it afterward.",
+        "exp_title": "The change happens in the pulling",
+        "exp_text": "Inside the silk gland the protein is stored as a liquid, coiled and tangled. As the spider draws the strand out through the narrow spinneret duct, that pulling force stretches the protein molecules straight and lines them up side by side, locking them into a solid fibre. The thread hardens because it is drawn, not because it simply meets the air."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does an orb-weaver spider move across its own web without sticking to it?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Its whole body has a natural non-stick coating",
+            "feedback": "The coating that resists sticking sits mainly on the leg tips, not over the whole body, and the spider still relies on stepping choices as well."
+          },
+          {
+            "label": "It walks mainly on the dry spoke threads, and its legs resist the sticky ones",
+            "feedback": "The frame and spokes are laid in dry silk built for walking; only the spiral is sticky, and the spider treats it carefully."
+          },
+          {
+            "label": "The sticky coating only works once the web is wet with rain",
+            "feedback": "The capture spiral is sticky whether the air is dry or damp. Rain is not what activates it."
+          },
+          {
+            "label": "It moves too fast for the glue to take hold",
+            "feedback": "Speed would not stop a sticky droplet from clinging. Spiders often move slowly and carefully across their own web."
+          }
+        ],
+        "ok_title": "Two kinds of thread, one careful gait",
+        "ok_line": "Dry road, sticky trap — the spider knows which is which.",
+        "ko_title": "Not luck, not speed",
+        "ko_line": "A web is built from more than one kind of silk. Ask which kind the spider actually stands on.",
+        "exp_title": "Dry threads to walk, sticky threads to trap",
+        "exp_text": "An orb web is spun from two kinds of silk: the frame and the spoke threads running out from the centre are dry and not sticky, while only the spiral winding between them carries glue droplets. The spider travels mainly along the dry spokes, and where it must cross the sticky spiral it touches down with the tips of its legs, which are coated in an oil that keeps the glue from gripping."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "In what order does an orb-weaver spider usually build its web?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sticky spiral first, with the spokes threaded through it afterward",
+            "feedback": "Without spokes to anchor to, a spiral thread would have nothing to attach to and no shape to follow."
+          },
+          {
+            "label": "The whole web is spun as one single, unbroken thread",
+            "feedback": "The frame, the spokes, and the spiral are different kinds of silk from different glands, so they cannot be one continuous strand."
+          },
+          {
+            "label": "Frame and spoke threads first, with the sticky spiral added last",
+            "feedback": "The dry frame and spokes give the web its shape and strength before any glue-covered thread is added."
+          },
+          {
+            "label": "A solid sheet at the centre, later cut into separate strands",
+            "feedback": "A web is never spun as a sheet. Every thread is laid separately from the start."
+          }
+        ],
+        "ok_title": "Structure before the trap",
+        "ok_line": "Frame and spokes hold the shape; the sticky spiral is the last thing added.",
+        "ko_title": "Not one thread, not the glue first",
+        "ko_line": "A web needs something rigid to hang from before anything sticky can be strung across it.",
+        "exp_title": "Scaffold first, capture thread last",
+        "exp_text": "A spider begins with a bridge line strung between two points, then adds frame threads around the edge and spoke threads running from the centre out to the frame, giving the web its shape and strength. Only once that scaffold is in place does the spider lay the sticky capture spiral, working from the outer edge inward and removing a temporary dry spiral it used to keep its spacing even."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a spider resting at the centre of its web know that an insect has been caught?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It feels vibrations carried through silk threads to sensors in its legs",
+            "feedback": "Struggling prey shakes the threads it is caught on, and that shaking travels through the web to the spider's legs."
+          },
+          {
+            "label": "It watches the web constantly with its eyes",
+            "feedback": "Most web-building spiders have weak eyesight and rest with their backs to the web, relying on touch instead of sight."
+          },
+          {
+            "label": "It smells the prey's scent carried on the wind",
+            "feedback": "Scent drifts unevenly and slowly. A struggling insect is found in an instant, far faster than smell could explain."
+          },
+          {
+            "label": "The struggling insect makes a sound the spider hears through the air",
+            "feedback": "Spiders have no ears for airborne sound. What reaches them travels through the silk itself, not through the air."
+          }
+        ],
+        "ok_title": "Felt, not seen",
+        "ok_line": "The web itself carries the news to the spider's legs.",
+        "ko_title": "Not sight, not sound",
+        "ko_line": "Ask what a taut silk thread is good at carrying, and what body part a resting spider keeps in contact with it.",
+        "exp_title": "The web as a stretched-out ear",
+        "exp_text": "A spider rests with its legs touching signal threads that connect to every part of the web. When trapped prey struggles, the movement travels as vibration along the silk, and tiny slit-shaped sense organs in the spider's legs pick up the pattern, strength, and direction of the shaking. That pattern tells the spider where to rush and whether the catch is worth chasing at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a spider feed on prey that is far too solid to fit through its narrow mouth opening?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It swallows the prey whole and digests it inside its body",
+            "feedback": "A spider's mouth opening is far too narrow for solid prey to pass through at all."
+          },
+          {
+            "label": "It stores the prey for several days before feeding on it",
+            "feedback": "Storage alone would not change a solid body into something that can pass through a narrow opening."
+          },
+          {
+            "label": "Sunlight and time slowly break the prey down before it returns",
+            "feedback": "Digestion happens at once, at the bite site, and does not depend on the sun or on time passing untended."
+          },
+          {
+            "label": "It injects digestive juices that turn the prey's insides to liquid, then sucks up the liquid",
+            "feedback": "The prey's tissues are broken down outside the spider's body, into a liquid narrow enough to pass through its mouth."
+          }
+        ],
+        "ok_title": "Liquefied before it is eaten",
+        "ok_line": "The prey is dissolved first; only the liquid ever goes in.",
+        "ko_title": "Not whole, not stored",
+        "ko_line": "The mouth opening never changes size, so ask what has to change about the food instead.",
+        "exp_title": "Digestion outside the body",
+        "exp_text": "After gripping its prey, a spider injects digestive juices through its fangs, and those juices break down the prey's internal tissues into a liquid. The spider then draws that liquid up through its narrow mouth, leaving behind an empty husk of the original body. Digestion begins outside the spider, in the prey itself, before any of it is taken in."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a jumping spider catch prey without spinning any kind of web?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It throws a sticky line of silk like a lasso to snag prey",
+            "feedback": "That trick belongs to a different hunter, the bolas spider. A jumping spider closes the distance itself instead."
+          },
+          {
+            "label": "It stalks close using sharp eyesight, then leaps on a sudden surge of leg fluid pressure",
+            "feedback": "Large forward-facing eyes judge the distance precisely, and the leap itself is powered by a rush of fluid into the legs rather than by muscle alone."
+          },
+          {
+            "label": "It waits motionless near a hidden burrow entrance for long stretches",
+            "feedback": "That patient ambush belongs to a burrow-dwelling hunter like a trapdoor spider, not to a jumping spider stalking in the open."
+          },
+          {
+            "label": "It chases prey across long stretches of open ground",
+            "feedback": "A jumping spider's attack is a short, precise pounce over a small gap, not an extended chase."
+          }
+        ],
+        "ok_title": "Eyes to aim, fluid to leap",
+        "ok_line": "No web needed when sight and a hydraulic pounce do the work.",
+        "ko_title": "Not a lasso, not a chase",
+        "ko_line": "Think about what a jumping spider's large front eyes are for, and how a small creature without bulky leg muscles manages to jump at all.",
+        "exp_title": "A pounce driven by fluid pressure",
+        "exp_text": "A jumping spider's large forward-facing eyes give it sharp enough vision to judge distance and creep within striking range unnoticed. Rather than relying on large leg muscles it does not have, it leaps by suddenly forcing body fluid into its legs, snapping them straight and launching itself at the prey, all while trailing a silk safety line back to its starting point."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does a spider's venom do to the prey it bites?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It glues the prey's legs to the ground so it cannot move",
+            "feedback": "Trapping legs in place is a job for silk wrapping, not for venom injected through a bite."
+          },
+          {
+            "label": "It stains the prey a bright colour so it is easier to find later",
+            "feedback": "Venom has no effect on colour. A caught prey animal looks exactly as it did before the bite."
+          },
+          {
+            "label": "It disrupts the prey's nervous system so its muscles stop responding",
+            "feedback": "The venom interferes with the signals nerves send to muscles, so the prey cannot keep struggling or escape."
+          },
+          {
+            "label": "It sends the prey into a long, harmless sleep",
+            "feedback": "What venom causes is not gentle rest but a breakdown of the nervous signals a body needs to move at all."
+          }
+        ],
+        "ok_title": "It silences the signals, not the colour",
+        "ok_line": "Muscles stop answering the nerves, and the struggle ends there.",
+        "ko_title": "Not glue, not paint",
+        "ko_line": "Venom is injected into the body, so ask what inside the body it is built to interfere with.",
+        "exp_title": "A signal jammed, not a body glued",
+        "exp_text": "Spider venom is a mixture of compounds that interferes with the way nerves pass signals to muscles. Once those signals are jammed, the prey's muscles stop responding properly and it can no longer fight or flee, giving the spider time to wrap it or begin digesting it. The venom works on the prey's own nervous system, not on its surface or its outward appearance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do young spiderlings travel far away from the place they hatched?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They climb high, release fine silk threads, and let moving air carry them aloft",
+            "feedback": "The threads catch rising air currents, lifting the light spiderling and carrying it away — a method called ballooning."
+          },
+          {
+            "label": "They ride on the back of a larger flying insect",
+            "feedback": "Spiderlings travel on threads they spin themselves, not by hitching a ride on another animal's body."
+          },
+          {
+            "label": "Their mother carries them, one at a time, to a new site",
+            "feedback": "In most spider species the young disperse on their own once they leave the egg sac; they are not carried individually."
+          },
+          {
+            "label": "Wind rolls their sealed egg sac across the ground",
+            "feedback": "By the time this kind of travel happens, the spiderlings have already hatched and left the egg sac behind."
+          }
+        ],
+        "ok_title": "Lifted by their own silk",
+        "ok_line": "A few threads released into moving air are enough to carry a spiderling away.",
+        "ko_title": "Not carried, not hatched in transit",
+        "ko_line": "The spiderling has already hatched and is acting on its own. Ask what it makes and releases into the air itself.",
+        "exp_title": "Ballooning on threads of silk",
+        "exp_text": "A newly hatched spiderling climbs to an exposed high point, raises its abdomen, and releases several fine threads of silk into the air. Rising air currents catch those threads and lift the light spiderling off its perch, carrying it away to settle somewhere new. This drifting journey on self-spun silk is what lets a spider colonise ground far from where it hatched."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a growing spider have to shed its exoskeleton from time to time?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Shedding washes away parasites living on its surface",
+            "feedback": "Removing parasites can happen as a side effect, but it is not the reason a spider must moult in the first place."
+          },
+          {
+            "label": "Its hard shell cannot stretch, so a larger one is grown underneath and the old one is shed",
+            "feedback": "A rigid cuticle stays the same size no matter how much the body inside it grows, so a bigger shell has to be built and the old one cast off."
+          },
+          {
+            "label": "It needs a fresh colour underneath to attract a mate",
+            "feedback": "Colour plays no part in why a spider moults. The shedding is about size, not appearance."
+          },
+          {
+            "label": "The old shell simply dissolves and is absorbed back into the body",
+            "feedback": "The old shell is split open and pulled away from the body, not dissolved and reabsorbed."
+          }
+        ],
+        "ok_title": "A shell that cannot grow",
+        "ok_line": "The old case has to come off because it never stretches.",
+        "ko_title": "Not parasites, not colour",
+        "ko_line": "Think about what a rigid outer shell can and cannot do as the soft body inside it keeps growing.",
+        "exp_title": "Outgrowing a shell that will not stretch",
+        "exp_text": "A spider's exoskeleton is a rigid outer cuticle that gives its body support, but rigid material cannot expand as the spider grows. Beneath the old shell the spider grows a new, larger, still-soft cuticle, then splits the old one open and pulls its body free in a process called moulting. The new shell expands briefly before it hardens, giving the spider room to grow again."
+      }
+    ]
+  }
+]

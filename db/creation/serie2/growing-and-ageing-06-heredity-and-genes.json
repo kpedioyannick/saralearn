@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 252,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the basic unit of heredity that carries information from parents to offspring?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A gene",
+            "feedback": "Correct. A gene is a segment of DNA that holds the instructions for a specific trait, passed from parents to offspring."
+          },
+          {
+            "label": "A chromosome",
+            "feedback": "Chromosomes are structures that package DNA, but the gene is the actual unit of heredity—each chromosome contains many genes."
+          },
+          {
+            "label": "A protein",
+            "feedback": "Proteins are made using gene instructions, but they are not the unit of heredity themselves."
+          },
+          {
+            "label": "A cell",
+            "feedback": "Cells contain genes, but the cell as a whole is not the basic unit of heredity—genes are."
+          }
+        ],
+        "ok_title": "Gene is unit",
+        "ok_line": "A gene is the basic unit of heredity.",
+        "ko_title": "Not the unit",
+        "ko_line": "Chromosomes, proteins, and cells are not the basic unit of heredity.",
+        "exp_title": "Gene as unit",
+        "exp_text": "A gene is a segment of DNA that carries instructions for a specific trait, like eye color or blood type. It is the basic unit of heredity because it is what gets passed from parents to offspring. Each gene has a specific location on a chromosome."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where is a person's DNA primarily located inside each cell?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the cytoplasm",
+            "feedback": "Cytoplasm is the fluid filling the cell, but DNA is not free-floating there; it is housed in the nucleus."
+          },
+          {
+            "label": "In the nucleus",
+            "feedback": "Correct. The nucleus contains most of a cell's DNA, organized into chromosomes. A small amount is also in mitochondria, but the main store is the nucleus."
+          },
+          {
+            "label": "In the cell membrane",
+            "feedback": "The cell membrane is the outer barrier; DNA is inside the cell, not part of the membrane."
+          },
+          {
+            "label": "In the ribosomes",
+            "feedback": "Ribosomes make proteins using RNA, but they do not store the cell's DNA."
+          }
+        ],
+        "ok_title": "DNA in nucleus",
+        "ok_line": "Most DNA is in the cell nucleus.",
+        "ko_title": "DNA elsewhere",
+        "ko_line": "DNA is not in cytoplasm, membrane, or ribosomes.",
+        "exp_title": "DNA location",
+        "exp_text": "In each cell, most DNA is packed inside the nucleus, organized into chromosomes. This is where genes sit. A small amount of DNA exists in mitochondria, but the main genetic material is nuclear. The nucleus acts as the control center because it holds the instructions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How is DNA organized inside the nucleus of a cell?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "As a single long strand floating freely",
+            "feedback": "DNA is not a single loose strand; it is wound around proteins and packed into chromosomes."
+          },
+          {
+            "label": "As separate circles of RNA",
+            "feedback": "DNA is not RNA; RNA is a different molecule. DNA is arranged into chromosomes, not circles."
+          },
+          {
+            "label": "As small fragments attached to the membrane",
+            "feedback": "DNA is not attached to the membrane; it is in the nucleus, organized into chromosomes."
+          },
+          {
+            "label": "As chromosomes made of DNA wound around proteins",
+            "feedback": "Correct. DNA is tightly wrapped around proteins called histones and coiled into chromosomes. This packing keeps it compact and organized."
+          }
+        ],
+        "ok_title": "DNA as chromosomes",
+        "ok_line": "DNA is packed into chromosomes with proteins.",
+        "ko_title": "Not loose DNA",
+        "ko_line": "DNA is not free or in RNA form.",
+        "exp_title": "DNA packaging",
+        "exp_text": "Inside the nucleus, DNA is wrapped around histone proteins and coiled into chromosomes. Each chromosome is a single long DNA molecule with many genes. This packaging allows a huge amount of DNA to fit inside a tiny nucleus. Humans have 46 chromosomes in most body cells."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a child usually show a mix of traits from both parents rather than looking identical to just one?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the child only gets genes from the mother",
+            "feedback": "A child gets half its genes from each parent, not just one. The mix comes from both."
+          },
+          {
+            "label": "Because the father's genes always dominate over the mother's",
+            "feedback": "Neither parent's genes always dominate; traits can be dominant or recessive, but both contribute."
+          },
+          {
+            "label": "Because the child inherits half its genes from each parent",
+            "feedback": "Correct. Each parent contributes half of the child's genes, so the child ends up with a combination of traits from both. This mix creates a unique individual."
+          },
+          {
+            "label": "Because the mother's genes are copied exactly",
+            "feedback": "The mother's genes are not copied exactly; the child gets a mix, not a duplicate."
+          }
+        ],
+        "ok_title": "Half from each",
+        "ok_line": "Child gets genes from both parents.",
+        "ko_title": "Not one parent",
+        "ko_line": "Traits come from both, not a single parent.",
+        "exp_title": "Gene mix",
+        "exp_text": "A child inherits one set of chromosomes from the egg (mother) and one from the sperm (father), so each gene has two copies—one from each parent. Thus, traits are a blend or combination. This is why siblings can look different but all share features from both parents."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "If a child inherits two different versions of the same gene, one from each parent, what can determine which trait shows?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The version inherited from the mother always shows",
+            "feedback": "It is not about which parent; it is about whether a version is dominant or recessive."
+          },
+          {
+            "label": "The dominant version typically shows",
+            "feedback": "Correct. If one version is dominant and the other recessive, the dominant trait usually appears. The recessive trait only shows if both copies are recessive."
+          },
+          {
+            "label": "The two versions mix to create a new third trait",
+            "feedback": "Sometimes incomplete dominance occurs, but in simple cases, the dominant version determines the trait, not a mix."
+          },
+          {
+            "label": "The trait is randomly chosen each time",
+            "feedback": "Trait expression is not random; it follows the rules of dominance and recessiveness."
+          }
+        ],
+        "ok_title": "Dominant shows",
+        "ok_line": "Dominant gene typically determines the trait.",
+        "ko_title": "Not random or maternal",
+        "ko_line": "Dominance, not parent, decides the trait.",
+        "exp_title": "Dominant vs recessive",
+        "exp_text": "When a child has two different alleles (versions) of a gene, the dominant allele is expressed, while the recessive allele is hidden. For example, if brown eye color is dominant over blue, a child with one brown and one blue allele will have brown eyes. The recessive trait only appears when both alleles are recessive."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do identical twins come to exist?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "One fertilized egg splits into two embryos",
+            "feedback": "Correct. Identical twins start from a single fertilized egg that divides into two separate embryos, so they share the same genes."
+          },
+          {
+            "label": "Two eggs are fertilized by two sperm at the same time",
+            "feedback": "That describes fraternal twins, not identical. Identical twins come from one egg-sperm combination."
+          },
+          {
+            "label": "One egg releases two yolks and both develop",
+            "feedback": "This is not a real process for human twins. Identical twins are not about yolks."
+          },
+          {
+            "label": "A single embryo divides during the later fetal stage",
+            "feedback": "The split happens early in development, not during the fetal stage. That is when it creates separate twins."
+          }
+        ],
+        "ok_title": "One egg splits",
+        "ok_line": "Identical twins come from one fertilized egg splitting.",
+        "ko_title": "Not two eggs",
+        "ko_line": "Two eggs make fraternal twins, not identical.",
+        "exp_title": "Identical twin origin",
+        "exp_text": "Identical twins arise when a single fertilized egg divides into two separate embryos shortly after conception. Because they come from the same egg and sperm, they have identical DNA. This split is random and not inherited. In contrast, fraternal twins come from two separate eggs and sperm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How are fraternal twins different from identical twins at the moment they begin?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Fraternal twins share the same DNA",
+            "feedback": "Fraternal twins do not share the same DNA; they are as genetically similar as regular siblings. Identical twins share DNA."
+          },
+          {
+            "label": "Fraternal twins are always one boy and one girl",
+            "feedback": "They can be, but not always. They can be two boys, two girls, or one of each."
+          },
+          {
+            "label": "Fraternal twins come from one egg splitting",
+            "feedback": "That describes identical twins. Fraternal twins come from two separate eggs."
+          },
+          {
+            "label": "Fraternal twins come from two separate eggs fertilized by two separate sperm",
+            "feedback": "Correct. Fraternal twins begin when two different eggs are each fertilized by a different sperm, so they are like siblings born together, with different genes."
+          }
+        ],
+        "ok_title": "Two eggs, two sperm",
+        "ok_line": "Fraternal twins come from two separate eggs and sperm.",
+        "ko_title": "Not one egg",
+        "ko_line": "Fraternal twins are not from a single split egg.",
+        "exp_title": "Fraternal twin start",
+        "exp_text": "Fraternal twins start when two eggs are released and each is fertilized by a different sperm. This gives them different DNA, just like any non-twin siblings. In contrast, identical twins come from one egg that splits, so they share identical genes. Fraternal twins can be of different sexes or the same."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What determines whether a baby develops as biologically male or female?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The number of chromosomes in the mother's egg",
+            "feedback": "The mother's egg always carries an X chromosome. It is the father's sperm that decides the sex, not the egg's number."
+          },
+          {
+            "label": "The size of the parents' bodies",
+            "feedback": "Body size has no influence on chromosomal sex determination."
+          },
+          {
+            "label": "The sex chromosomes inherited from the father's sperm",
+            "feedback": "Correct. A sperm carries either an X or a Y chromosome. If it carries X, the child is female (XX); if Y, the child is male (XY)."
+          },
+          {
+            "label": "The timing of conception after ovulation",
+            "feedback": "Conception timing does not change the sex chromosomes. It is determined by which sperm fertilizes the egg."
+          }
+        ],
+        "ok_title": "Sperm decides sex",
+        "ok_line": "The father's sperm determines the baby's sex.",
+        "ko_title": "Not egg or timing",
+        "ko_line": "Sex is set by the sperm's chromosome, not other factors.",
+        "exp_title": "Sex chromosome determination",
+        "exp_text": "A baby's biological sex is determined at fertilization. The mother's egg always provides an X chromosome. The father's sperm can provide either an X or a Y. If the sperm carries X, the baby has XX (female); if Y, the baby has XY (male). This is why the father's sperm decides the sex."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does new genetic variation, not already present in either parent, come from?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "From the child's environment after birth",
+            "feedback": "Environmental factors can affect gene expression or cause changes in cells, but they do not create new variation in the egg or sperm before conception. Variation arises before birth."
+          },
+          {
+            "label": "From mutations in the parents' egg or sperm cells",
+            "feedback": "Correct. Mutations, or random changes in DNA, can occur in gametes (egg or sperm) and introduce new alleles not present in the parents. This is a source of novel genetic variation."
+          },
+          {
+            "label": "From the mother's immune system",
+            "feedback": "The immune system does not create new genes for the child. Variation comes from mutations."
+          },
+          {
+            "label": "From the father's age alone",
+            "feedback": "Age can increase mutation rate, but mutations are the actual source, not age itself. Age does not directly 'create' variation."
+          }
+        ],
+        "ok_title": "Mutations create variation",
+        "ok_line": "New variation comes from mutations in egg or sperm.",
+        "ko_title": "Not environment or immunity",
+        "ko_line": "Variation arises from DNA changes, not outside factors.",
+        "exp_title": "Source of new variation",
+        "exp_text": "New genetic variation arises from mutations—random changes in DNA—that occur in the egg or sperm cells before fertilization. These mutations can create new alleles that were not in either parent. This is how novel traits can appear in a child. Mutations are rare but are the raw material for genetic diversity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why doesn't a child usually look exactly like either parent?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the child inherits a unique combination of genes from both parents",
+            "feedback": "Correct. Each child receives half their genes from each parent, but the specific combination is unique, leading to a new mix of traits. This is why siblings can differ and why a child resembles both parents but is not identical to either."
+          },
+          {
+            "label": "Because the child is a clone of the mother",
+            "feedback": "A child is not a clone; it has genes from both parents."
+          },
+          {
+            "label": "Because only the father's traits are expressed",
+            "feedback": "Traits from both parents are expressed. Dominance may hide some, but many traits come from both."
+          },
+          {
+            "label": "Because the child mutates randomly at birth",
+            "feedback": "Mutations can occur, but they are not the reason a child looks different. Normal inheritance produces variation."
+          }
+        ],
+        "ok_title": "Unique gene mix",
+        "ok_line": "A child gets a unique mix of genes from both parents.",
+        "ko_title": "Not clone or single parent",
+        "ko_line": "Both parents contribute to the child's look.",
+        "exp_title": "Why children differ from parents",
+        "exp_text": "Each child inherits one set of 23 chromosomes from the mother and one set from the father, so they have two copies of every gene. The combination of alleles they get is unique—even siblings can inherit different combinations. This shuffle of genes ensures that a child is not a perfect copy of either parent, but a blend."
+      }
+    ]
+  }
+]

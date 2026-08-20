@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a glacier made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Natural ice that is constantly moving under its own weight",
+            "feedback": "Correct. A glacier is a persistent body of natural ice that flows and deforms under its own weight."
+          },
+          {
+            "label": "Frozen seawater that forms on the ocean surface",
+            "feedback": "That describes sea ice, not a glacier. Glaciers originate only on land."
+          },
+          {
+            "label": "Compacted snow that stays still all year",
+            "feedback": "A glacier is constantly moving, not still. Snow that stays put is just a snowfield."
+          },
+          {
+            "label": "Rock made of frozen minerals",
+            "feedback": "Glaciers are ice, not rock. Although ice is sometimes called a rock, the material is frozen water."
+          }
+        ],
+        "ok_title": "Glacier material",
+        "ok_line": "A glacier is moving natural ice.",
+        "ko_title": "Not sea ice",
+        "ko_line": "Sea ice is different from glacier ice.",
+        "exp_title": "Glacier definition",
+        "exp_text": "A glacier is a persistent body of natural ice that constantly moves under its own weight. It forms on land, not on water, and is distinct from the much thinner sea ice and lake ice that freeze on the surface of bodies of water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does a glacier originate?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the middle of the ocean",
+            "feedback": "Glaciers do not form on the ocean. They originate only on land, even though some may later flow into water."
+          },
+          {
+            "label": "On land, often in a bowl-shaped depression between mountains",
+            "feedback": "Correct. A glacier usually starts in a cirque, an armchair-shaped depression that collects snow."
+          },
+          {
+            "label": "At the bottom of a lake",
+            "feedback": "Lake ice forms on the surface of freezing lakes, but that is not a glacier. Glaciers need land to start."
+          },
+          {
+            "label": "On a flat plain with no mountains",
+            "feedback": "While ice sheets can cover flat land, a glacier typically originates from a cirque in mountainous terrain."
+          }
+        ],
+        "ok_title": "Glacier origin",
+        "ok_line": "Glaciers start on land.",
+        "ko_title": "Not on water",
+        "ko_line": "Glaciers never begin in water.",
+        "exp_title": "Where glaciers begin",
+        "exp_text": "A glacier usually originates from a cirque, a bowl- or armchair-shaped depression between mountains. Snow accumulates there, compresses, and eventually overflows as glacial ice. It forms only on land."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the zone of a glacier where there is a net loss of mass?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Accumulation zone",
+            "feedback": "That is the opposite. The accumulation zone is where snow gain exceeds loss, not where there is a net loss."
+          },
+          {
+            "label": "Equilibrium line",
+            "feedback": "The equilibrium line is the boundary between gain and loss, not the zone itself where loss dominates."
+          },
+          {
+            "label": "Ablation zone",
+            "feedback": "Correct. The ablation zone is the region where the glacier loses more mass than it gains."
+          },
+          {
+            "label": "Glacier head",
+            "feedback": "The glacier head is simply the starting point of the glacier, not a zone of net mass loss."
+          }
+        ],
+        "ok_title": "Ablation zone",
+        "ok_line": "Loss happens in the ablation zone.",
+        "ko_title": "Gain vs loss",
+        "ko_line": "Accumulation is gain, ablation is loss.",
+        "exp_title": "Glacier zones",
+        "exp_text": "The ablation zone is the lower part of a glacier where melting and other losses exceed new snow. In contrast, the accumulation zone is where new snow adds more than is lost, and the equilibrium line separates the two."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to snow as it turns into glacial ice?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It becomes lighter and full of air",
+            "feedback": "The opposite is true. Glacial ice has fewer trapped air bubbles because pressure squeezes the air out."
+          },
+          {
+            "label": "It melts completely and refreezes as solid water",
+            "feedback": "While melting can occur in temperate glaciers, the main process is compaction and fusion of snow grains, not complete melting."
+          },
+          {
+            "label": "It stays as loose, granular snow",
+            "feedback": "Granular snow is called névé, which is an intermediate stage, not the final glacial ice."
+          },
+          {
+            "label": "It compresses, expels air, and becomes denser ice",
+            "feedback": "Correct. Snow turns into névé, then firn, and finally glacial ice as pressure packs the grains and squeezes out air."
+          }
+        ],
+        "ok_title": "Snow to ice",
+        "ok_line": "Pressure turns snow into dense ice.",
+        "ko_title": "Not melting",
+        "ko_line": "Compaction, not melting, forms glacial ice.",
+        "exp_title": "Transformation of snow",
+        "exp_text": "Snow accumulates, refreezes, and turns into granular névé. Further crushing expels air, turning it into firn and eventually glacial ice, which is denser and has fewer air bubbles than freshly frozen water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an ice sheet?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A glacial body larger than 50,000 square kilometres",
+            "feedback": "Correct. Ice sheets, also called continental glaciers, are larger than 50,000 km² and cover vast areas."
+          },
+          {
+            "label": "A thin layer of ice on a lake",
+            "feedback": "Lake ice is not a glacier at all, and it is much smaller than an ice sheet."
+          },
+          {
+            "label": "A glacier that fills a mountain valley",
+            "feedback": "That is a valley glacier, not an ice sheet. Ice sheets are much larger and cover entire regions."
+          },
+          {
+            "label": "A fast-moving section of a glacier",
+            "feedback": "Fast-moving sections are called ice streams, not ice sheets. Ice sheets move slowly overall."
+          }
+        ],
+        "ok_title": "Ice sheet size",
+        "ok_line": "Ice sheets are huge glacial bodies.",
+        "ko_title": "Not valley ice",
+        "ko_line": "Valley glaciers are much smaller.",
+        "exp_title": "Definition of ice sheet",
+        "exp_text": "An ice sheet, or continental glacier, is a glacial body larger than 50,000 square kilometres. Only two exist today, covering most of Antarctica and Greenland. Smaller glacial bodies on mountains are ice caps or ice fields."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens when a tidewater glacier reaches the sea?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stops moving entirely",
+            "feedback": "Tidewater glaciers keep flowing into the sea; they do not stop at the shoreline."
+          },
+          {
+            "label": "Pieces break off and form icebergs",
+            "feedback": "Correct. This process is called calving, and the broken pieces become icebergs."
+          },
+          {
+            "label": "It melts completely before touching the water",
+            "feedback": "Tidewater glaciers do reach the water; that is what makes them tidewater glaciers. They do not melt entirely at the coast."
+          },
+          {
+            "label": "It turns into sea ice",
+            "feedback": "Sea ice forms from freezing ocean water, not from glacier ice. Calved ice floats as icebergs but is not sea ice."
+          }
+        ],
+        "ok_title": "Tidewater calving",
+        "ok_line": "Glaciers calve icebergs at the sea.",
+        "ko_title": "Not sea ice",
+        "ko_line": "Calved ice is glacier ice, not sea ice.",
+        "exp_title": "Tidewater glaciers",
+        "exp_text": "Tidewater glaciers terminate in the sea. As the ice reaches the water, pieces break off—this is called calving—and form icebergs. Most tidewater glaciers calve above sea level, causing a big splash as the ice hits the water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a nunatak?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A type of glacial valley",
+            "feedback": "Nunataks are not valleys. They are rock peaks that stick up through the ice."
+          },
+          {
+            "label": "A fast-moving ice stream",
+            "feedback": "Ice streams are different features. Nunataks are exposed rocky summits, not moving ice."
+          },
+          {
+            "label": "A mountain peak that protrudes above an ice sheet",
+            "feedback": "Correct. Nunataks are the only parts of the underlying topography that stick out from an ice sheet's surface."
+          },
+          {
+            "label": "A deep crevasse in the ice",
+            "feedback": "Crevasses are cracks in the ice, not rocky peaks. Nunataks are solid rock."
+          }
+        ],
+        "ok_title": "Nunatak peak",
+        "ok_line": "Nunataks poke through the ice.",
+        "ko_title": "Not ice features",
+        "ko_line": "Nunataks are rock, not ice.",
+        "exp_title": "Nunatak definition",
+        "exp_text": "A nunatak is a mountain peak or ridge that protrudes above the surface of an ice sheet or glacier. Ice sheets are so thick they hide the underlying land, except where such rocky summits break through."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What color does a large body of glacial ice appear?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "White",
+            "feedback": "White ice comes from trapped air bubbles, but glacial ice has few bubbles, so it is not white."
+          },
+          {
+            "label": "Clear",
+            "feedback": "Glacial ice is not fully clear; it has a blue tint due to how water molecules absorb light."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green is not the natural color of glacial ice. The blue comes from water's absorption of other colors."
+          },
+          {
+            "label": "Blue",
+            "feedback": "Correct. Water molecules absorb other colors more efficiently than blue, and glacial ice has few air bubbles, so it appears blue."
+          }
+        ],
+        "ok_title": "Glacier blue",
+        "ok_line": "Glacial ice looks blue.",
+        "ko_title": "Not white",
+        "ko_line": "Air bubbles make ice white, not blue.",
+        "exp_title": "Why glacial ice is blue",
+        "exp_text": "Glacial ice appears blue because water molecules absorb red and other colors more than blue. Also, the pressure of the ice squeezes out air bubbles, which would otherwise scatter light and make the ice look white."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the equilibrium line on a glacier?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The contour where snow gain equals ice loss",
+            "feedback": "Correct. The equilibrium line separates the accumulation zone from the ablation zone where gains and losses balance."
+          },
+          {
+            "label": "The line where the glacier meets the ocean",
+            "feedback": "That is the terminus or snout of a tidewater glacier, not the equilibrium line."
+          },
+          {
+            "label": "The topmost edge of the glacier",
+            "feedback": "The top is the glacier head, not the equilibrium line. The equilibrium line is inside the glacier."
+          },
+          {
+            "label": "The boundary between ice and rock underneath",
+            "feedback": "The base of the glacier is the bed, not the equilibrium line. The equilibrium line is on the surface."
+          }
+        ],
+        "ok_title": "Equilibrium line",
+        "ok_line": "Gain equals loss at this line.",
+        "ko_title": "Not the edge",
+        "ko_line": "The equilibrium line is internal, not a boundary.",
+        "exp_title": "Equilibrium line on a glacier",
+        "exp_text": "The equilibrium line is the contour on a glacier where the amount of new snow gained equals the amount lost through melting and other processes. Above it is the accumulation zone; below it is the ablation zone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an ice shelf?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A thick layer of ice on a frozen lake",
+            "feedback": "Lake ice is not part of a glacier, and ice shelves are extensions of ice sheets into water, not lake ice."
+          },
+          {
+            "label": "A portion of an ice sheet that extends into water",
+            "feedback": "Correct. Ice shelves are thin, flat extensions of ice sheets or caps that float on the sea."
+          },
+          {
+            "label": "A narrow, fast-moving stream of ice",
+            "feedback": "That is an ice stream, not an ice shelf. Ice streams are fast-moving, but they are not the floating extensions."
+          },
+          {
+            "label": "A glacier that terminates on land",
+            "feedback": "An ice shelf specifically extends into water. A land-terminating glacier does not form an ice shelf."
+          }
+        ],
+        "ok_title": "Ice shelf",
+        "ok_line": "Ice shelves float on water.",
+        "ko_title": "Not a stream",
+        "ko_line": "Ice streams move fast; shelves float.",
+        "exp_title": "Ice shelf definition",
+        "exp_text": "An ice shelf is a portion of an ice sheet or ice cap that extends out into a body of water. It tends to be thin, with limited slopes and slow movement, unlike the faster ice streams that drain ice sheets."
+      }
+    ]
+  }
+]

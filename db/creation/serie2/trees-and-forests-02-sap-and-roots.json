@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 233,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main substance that makes up the sap rising from a tree's roots to its leaves?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Water with dissolved minerals",
+            "feedback": "Correct. The sap that rises from the roots is mostly water carrying dissolved mineral nutrients from the soil to the leaves."
+          },
+          {
+            "label": "Sugar made by the leaves",
+            "feedback": "That's the sap that flows downward from the leaves to the rest of the tree, not the rising sap from the roots."
+          },
+          {
+            "label": "Pure water with no minerals",
+            "feedback": "The rising sap does contain dissolved minerals absorbed from the soil, so it is not pure water."
+          },
+          {
+            "label": "Sticky resin produced by the bark",
+            "feedback": "Resin is a different substance, produced mainly in conifers for protection, not the main sap that rises from roots."
+          }
+        ],
+        "ok_title": "Rising sap",
+        "ok_line": "The rising sap is water carrying minerals.",
+        "ko_title": "Sap mix-up",
+        "ko_line": "Remember which sap goes up and which goes down.",
+        "exp_title": "Root sap composition",
+        "exp_text": "The sap that rises from the roots is water with dissolved mineral salts. It travels up through the xylem vessels to supply the leaves, which use it for photosynthesis."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in a tree root does most of the water absorption actually happen?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "At the very tip of the root cap",
+            "feedback": "The root cap protects the growing tip but does not absorb water; absorption happens just behind it on the root hairs."
+          },
+          {
+            "label": "Along the entire length of the root equally",
+            "feedback": "Older parts of the root have a tougher outer layer and absorb little water; most uptake is near the tip."
+          },
+          {
+            "label": "On the young root hairs just behind the tip",
+            "feedback": "Correct. The fine root hairs create a large surface area that efficiently takes in water and minerals from the soil."
+          },
+          {
+            "label": "In the thick woody base of the root",
+            "feedback": "The woody base has bark and is not designed for absorption; it mainly anchors the tree and conducts sap."
+          }
+        ],
+        "ok_title": "Root hair uptake",
+        "ok_line": "Root hairs near the tip absorb water.",
+        "ko_title": "Wrong root part",
+        "ko_line": "Look near the tip, not the base.",
+        "exp_title": "Where roots drink",
+        "exp_text": "Water enters a tree mainly through the delicate root hairs that grow in a cluster just behind the root tip. These hairs vastly increase the surface area in contact with soil moisture, letting the root draw in water efficiently."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What pushes water upward through a tree's trunk against gravity?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Pressure from the roots pushing water up",
+            "feedback": "Root pressure is small and only helps in some conditions; it is not the main force for tall trees."
+          },
+          {
+            "label": "The weight of water in the trunk",
+            "feedback": "Weight would pull water down, not push it up. The actual driving force comes from the leaves."
+          },
+          {
+            "label": "Muscle-like contractions in the trunk tissues",
+            "feedback": "Trees have no muscles; water movement is driven by physical forces, not tissue contractions."
+          },
+          {
+            "label": "Evaporation from the leaves pulling water up",
+            "feedback": "Correct. As water evaporates from leaf surfaces, it creates a pulling force, called transpiration pull, that draws water up through the xylem like a straw."
+          }
+        ],
+        "ok_title": "Transpiration pull",
+        "ok_line": "Leaf evaporation pulls water upward.",
+        "ko_title": "Wrong upward force",
+        "ko_line": "Remember it's a pull from above.",
+        "exp_title": "How water climbs",
+        "exp_text": "Water rises because evaporation from the leaves creates a continuous pull along the column of water in the xylem. This transpiration pull is strong enough to lift water to the top of even the tallest tree."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the fine hairs on young root tips do for the tree?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Anchor the root firmly into the soil",
+            "feedback": "Anchoring is done by the thicker, woody parts of the root system, not by the delicate root hairs."
+          },
+          {
+            "label": "Increase the surface area for absorbing water and minerals",
+            "feedback": "Correct. The hairs spread out into the soil, creating a large contact area that lets the root take in water and dissolved nutrients efficiently."
+          },
+          {
+            "label": "Protect the root tip from damage as it pushes through soil",
+            "feedback": "Protection is the job of the root cap, a different structure at the very tip, not the hairs behind it."
+          },
+          {
+            "label": "Store food for the tree during winter",
+            "feedback": "Food storage happens in the root's inner tissues and sometimes in swollen roots, not in the surface hairs."
+          }
+        ],
+        "ok_title": "Hair purpose",
+        "ok_line": "Hairs absorb water and minerals.",
+        "ko_title": "Hair confusion",
+        "ko_line": "They don't anchor or protect.",
+        "exp_title": "Root hair function",
+        "exp_text": "Root hairs are thin extensions of single root cells. Their only job is absorption: they greatly increase the root's surface area, allowing the tree to draw in water and dissolved minerals from the surrounding soil."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a tree root is responsible for sensing gravity and guiding the root downward?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The root cap at the very tip",
+            "feedback": "Correct. Cells in the root cap detect gravity and help the root grow downward, while also protecting the growing tip as it pushes through soil."
+          },
+          {
+            "label": "The root hairs along the sides",
+            "feedback": "Root hairs are for absorption, not for sensing direction. They do not guide growth."
+          },
+          {
+            "label": "The woody bark near the base",
+            "feedback": "Bark protects and insulates but has no role in detecting gravity or directing root growth."
+          },
+          {
+            "label": "The xylem vessels in the centre",
+            "feedback": "Xylem carries water upward; it does not sense gravity or control growth direction."
+          }
+        ],
+        "ok_title": "Root cap role",
+        "ok_line": "The root cap senses gravity.",
+        "ko_title": "Wrong root structure",
+        "ko_line": "Not the hairs or the bark.",
+        "exp_title": "Gravity sensing in roots",
+        "exp_text": "The root cap, a small thimble-like layer of cells at the very tip, contains statoliths—dense particles that settle under gravity. This tells the root which way is down, guiding it to grow deeper into the soil."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What substance travels downward from the leaves to the roots through the inner bark?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Water with minerals",
+            "feedback": "That's the rising sap in the xylem, not the downward flow in the inner bark."
+          },
+          {
+            "label": "Pure oxygen",
+            "feedback": "Oxygen is used in respiration and diffuses, but it is not the main substance transported down through the inner bark."
+          },
+          {
+            "label": "Sugar produced by photosynthesis",
+            "feedback": "Correct. The sugar made in the leaves travels down through the phloem in the inner bark to feed the roots and other parts of the tree."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is taken in by leaves and released in respiration; it is not the downward-transported sap."
+          }
+        ],
+        "ok_title": "Downward sugar",
+        "ok_line": "Sugar moves down in the phloem.",
+        "ko_title": "Wrong downward flow",
+        "ko_line": "It's sugar, not water or gas.",
+        "exp_title": "Phloem transport",
+        "exp_text": "The inner bark contains phloem, living cells that carry the sugars made in the leaves down to the roots and other non-photosynthetic parts. This downward flow feeds the whole tree's growth and storage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do tree roots typically grow toward moist soil instead of growing randomly in all directions?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They are attracted to the water molecules directly",
+            "feedback": "Roots do not sense water molecules directly; they respond to moisture gradients with chemical signals."
+          },
+          {
+            "label": "They grow faster on the dry side",
+            "feedback": "The opposite is true: the dry side grows slower, curving the root toward the wetter area."
+          },
+          {
+            "label": "They always follow the pull of gravity",
+            "feedback": "Gravity guides roots downward, but moisture guides them sideways or upward toward damp patches as well."
+          },
+          {
+            "label": "They grow faster on the moist side, curving them that way",
+            "feedback": "Correct. Cells on the wetter side elongate more, bending the root tip toward the moisture, a response called hydrotropism."
+          }
+        ],
+        "ok_title": "Moisture seeking",
+        "ok_line": "Roots bend toward moist soil.",
+        "ko_title": "Root direction error",
+        "ko_line": "It's uneven growth, not attraction.",
+        "exp_title": "Hydrotropism in roots",
+        "exp_text": "Roots detect moisture gradients in the soil. The side of the root facing drier soil grows more slowly, while the moister side grows faster, causing the root to curve toward the water-rich patch."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main function of the root hairs' thin walls?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To give the root strength to push through rocky soil",
+            "feedback": "Strength comes from the thicker inner tissues, not the delicate hairs which are easily damaged."
+          },
+          {
+            "label": "To allow water and minerals to pass through easily",
+            "feedback": "Correct. The thin walls let water and dissolved minerals diffuse quickly into the root from the surrounding soil."
+          },
+          {
+            "label": "To store large amounts of sap for dry periods",
+            "feedback": "Storage happens in the root's inner cells, not in the thin-walled hairs which are too small to store much."
+          },
+          {
+            "label": "To produce a waxy layer that repels water",
+            "feedback": "A waxy layer would block water absorption; root hairs are permeable, not waterproof."
+          }
+        ],
+        "ok_title": "Thin hair walls",
+        "ok_line": "Thin walls let water pass.",
+        "ko_title": "Hair wall role",
+        "ko_line": "They absorb, not store or repel.",
+        "exp_title": "Permeability of root hairs",
+        "exp_text": "Root hairs have very thin, permeable cell walls with no thick cuticle. This design allows water and dissolved minerals to move into the root quickly, feeding the tree's needs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the sticky material that some tree roots release into the soil around them?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Resin",
+            "feedback": "Resin is produced mainly in conifer trunks and branches, not by roots into the surrounding soil."
+          },
+          {
+            "label": "Lignin",
+            "feedback": "Lignin is a structural material in wood, not a sticky secretion from roots into soil."
+          },
+          {
+            "label": "Mucilage",
+            "feedback": "Correct. Root tips secrete mucilage, a slimy substance that lubricates the root's passage through soil and helps bind soil particles to the root."
+          },
+          {
+            "label": "Sap",
+            "feedback": "Sap is the internal fluid of the tree, not a secretion released into the soil."
+          }
+        ],
+        "ok_title": "Root secretion",
+        "ok_line": "Roots secrete mucilage.",
+        "ko_title": "Wrong sticky substance",
+        "ko_line": "It's mucilage, not resin or sap.",
+        "exp_title": "Mucilage from roots",
+        "exp_text": "The tip of a growing root exudes mucilage, a gel-like substance that eases movement through soil and helps hold soil moisture and nutrients near the root surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the root system when a tree's leaves are removed or severely damaged?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The roots receive less sugar and may stop growing",
+            "feedback": "Correct. Without leaves, photosynthesis stops, so the downward flow of sugar in the phloem is cut off, and the roots lose their main energy source."
+          },
+          {
+            "label": "The roots grow faster to compensate for the loss",
+            "feedback": "Roots depend on leaf-produced sugars, so with fewer leaves they actually slow down, not speed up."
+          },
+          {
+            "label": "The roots immediately absorb more water to help the tree recover",
+            "feedback": "Water absorption is driven by leaf demand; without leaves, less water is pulled up, so roots absorb less, not more."
+          },
+          {
+            "label": "The roots die instantly from lack of light",
+            "feedback": "Roots do not need light; they need sugars from leaves. Death is slow, not instant, unless the whole tree is starved."
+          }
+        ],
+        "ok_title": "Leaf-root link",
+        "ok_line": "Lost leaves starve the roots.",
+        "ko_title": "Root response error",
+        "ko_line": "No leaves means no sugar.",
+        "exp_title": "Leaf dependence of roots",
+        "exp_text": "Roots cannot photosynthesize; they rely entirely on sugars sent down from the leaves. If the canopy is damaged, the sugar supply drops, and the root system gradually starves, weakening the whole tree."
+      }
+    ]
+  }
+]

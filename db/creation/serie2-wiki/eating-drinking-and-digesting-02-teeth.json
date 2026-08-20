@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 250,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are teeth made of?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Bone",
+            "feedback": "Teeth are not bone. They are made of several tissues with different hardness, and they form from the same outer layer of the embryo that makes skin."
+          },
+          {
+            "label": "Several hard tissues, not bone",
+            "feedback": "Correct. Teeth are built from multiple tissues of varying density and hardness, and they are not made of bone."
+          },
+          {
+            "label": "Cartilage",
+            "feedback": "Cartilage is the flexible tissue found in joints and some fish skeletons. Teeth are hard and calcified, not cartilage."
+          },
+          {
+            "label": "Keratin",
+            "feedback": "Keratin makes up hair, nails, and the tooth-like structures on a lamprey's tongue, but real teeth are made of dentine and enamel, not keratin."
+          }
+        ],
+        "ok_title": "Teeth are not bone",
+        "ok_line": "Teeth are made of several hard tissues, not bone.",
+        "ko_title": "Wrong material",
+        "ko_line": "Teeth are made of hard tissues, not bone, cartilage, or keratin.",
+        "exp_title": "Tooth composition",
+        "exp_text": "A tooth is a hard, calcified structure made of several tissues of different density and hardness. It is not bone. These tissues come from the ectoderm, the outermost layer of the embryo."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What covers the roots of teeth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Enamel",
+            "feedback": "Enamel covers the crown, the part of the tooth above the gum. The roots are covered by gums, not enamel."
+          },
+          {
+            "label": "Dentin",
+            "feedback": "Dentin is a tissue inside the tooth, under the enamel. It does not cover the roots on the outside."
+          },
+          {
+            "label": "Gums",
+            "feedback": "Correct. The roots of teeth are covered by gums, which are the soft tissue of the mouth."
+          },
+          {
+            "label": "Cementum",
+            "feedback": "Cementum is a tissue found on tooth roots in some animals, but the gums are the soft covering that surrounds the roots in the mouth."
+          }
+        ],
+        "ok_title": "Roots under gums",
+        "ok_line": "Gums cover the roots of teeth.",
+        "ko_title": "Wrong covering",
+        "ko_line": "The roots are covered by gums, not enamel or dentin.",
+        "exp_title": "Tooth root covering",
+        "exp_text": "The roots of teeth are covered by gums. The gums are the soft tissue that surrounds the base of the tooth and holds it in place."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which animals grow many sets of teeth throughout their lives?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sharks",
+            "feedback": "Correct. Sharks are polyphyodonts – they grow many sets of teeth, replacing worn ones regularly, sometimes every two weeks."
+          },
+          {
+            "label": "Humans",
+            "feedback": "Humans are diphyodonts, meaning they grow two sets: baby teeth and permanent teeth. They do not grow many sets."
+          },
+          {
+            "label": "Rabbits",
+            "feedback": "Rabbits are lagomorphs and have continuously growing teeth, but they are not described as growing many separate sets like sharks do."
+          },
+          {
+            "label": "Crocodiles",
+            "feedback": "Crocodiles are not mentioned as polyphyodonts in the reference. Sharks are the example given for animals that grow many sets."
+          }
+        ],
+        "ok_title": "Many tooth sets",
+        "ok_line": "Sharks grow many sets of teeth over their lives.",
+        "ko_title": "Not many sets",
+        "ko_line": "Sharks, not humans or rabbits, grow many sets of teeth.",
+        "exp_title": "Polyphyodont animals",
+        "exp_text": "Polyphyodonts are animals that grow many sets of teeth. Sharks are a classic example – they grow a new set every couple of weeks to replace worn teeth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a rodent's incisors through gnawing?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They fall out and are replaced",
+            "feedback": "Rodent incisors do not fall out in sets; instead they keep growing and wearing away continuously."
+          },
+          {
+            "label": "They stop growing after adulthood",
+            "feedback": "Rodent incisors grow throughout life, not just until adulthood. They keep growing and wearing to stay about the same length."
+          },
+          {
+            "label": "They grow longer and longer",
+            "feedback": "They do not just grow longer – they also wear away through gnawing. The balance keeps their length fairly constant."
+          },
+          {
+            "label": "They grow and wear away continually",
+            "feedback": "Correct. Rodent incisors grow and wear away continuously through gnawing, which keeps their length relatively constant."
+          }
+        ],
+        "ok_title": "Constant-length incisors",
+        "ok_line": "Rodent incisors grow and wear away all the time.",
+        "ko_title": "Incisor growth",
+        "ko_line": "Rodent incisors grow and wear away, keeping a constant length.",
+        "exp_title": "Rodent tooth growth",
+        "exp_text": "Rodent incisors grow and wear away continually through gnawing. This balance helps maintain a relatively constant length, which is why they don't get too long or too short."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the shape of typical reptile teeth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Simple and conical",
+            "feedback": "Correct. Reptile teeth are generally simple and conical, though snakes have specialized venom-injecting fangs."
+          },
+          {
+            "label": "Flat with ridges",
+            "feedback": "Flat, ridged teeth are typical of molars in herbivorous mammals. Reptile teeth are usually simple cones."
+          },
+          {
+            "label": "Pointed and curved like hooks",
+            "feedback": "Some animals have hooked teeth, but the general description for reptiles is simple and conical, not curved hooks."
+          },
+          {
+            "label": "Broad and flat for grinding",
+            "feedback": "Broad flat teeth are for grinding plant matter, seen in herbivores like horses. Reptile teeth are usually simple cones."
+          }
+        ],
+        "ok_title": "Conical reptile teeth",
+        "ok_line": "Most reptile teeth are simple and conical.",
+        "ko_title": "Wrong tooth shape",
+        "ko_line": "Reptile teeth are simple and conical, not flat or hooked.",
+        "exp_title": "Reptile tooth form",
+        "exp_text": "In reptiles, teeth are generally simple and conical in shape. There is some variation between species, most notably the venom-injecting fangs of snakes, but the basic shape is a simple cone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which tooth types are found only in mammals?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Fangs",
+            "feedback": "Fangs are a specialized tooth form in some snakes, not a general tooth type found in all mammals. The pattern of incisors, canines, premolars, and molars is unique to mammals."
+          },
+          {
+            "label": "Tusks",
+            "feedback": "Tusks are elongated teeth in some mammals like elephants and narwhals, but they are not one of the four standard types. Incisors, canines, premolars, and molars are."
+          },
+          {
+            "label": "Incisors, canines, premolars, and molars",
+            "feedback": "Correct. This four-type pattern is found only in mammals, and to some extent in their evolutionary ancestors."
+          },
+          {
+            "label": "Conical teeth",
+            "feedback": "Conical teeth are common in reptiles and other animals, not unique to mammals. The four-type pattern is mammal-specific."
+          }
+        ],
+        "ok_title": "Mammal-only teeth",
+        "ok_line": "Incisors, canines, premolars, and molars are mammal-only.",
+        "ko_title": "Not unique to mammals",
+        "ko_line": "The four tooth types are unique to mammals, not fangs or tusks.",
+        "exp_title": "Mammalian tooth pattern",
+        "exp_text": "The pattern of incisors, canines, premolars, and molars is found only in mammals, and to varying extents in their evolutionary ancestors. Other animals have different tooth arrangements."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many primary teeth do humans usually have?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "32",
+            "feedback": "32 is the number of permanent teeth an adult human has. Primary teeth are the first set, and there are usually 20 of them."
+          },
+          {
+            "label": "24",
+            "feedback": "There are not usually 24 primary teeth. Humans typically have 20 primary teeth, and later up to 32 permanent teeth."
+          },
+          {
+            "label": "28",
+            "feedback": "28 is not the usual count for primary teeth. The typical number is 20, with 10 in the upper jaw and 10 in the lower jaw."
+          },
+          {
+            "label": "20",
+            "feedback": "Correct. Humans usually have 20 primary (baby or milk) teeth, with 10 in the upper jaw and 10 in the lower jaw."
+          }
+        ],
+        "ok_title": "Twenty baby teeth",
+        "ok_line": "Humans usually have 20 primary teeth.",
+        "ko_title": "Wrong tooth count",
+        "ko_line": "Primary teeth are usually 20, not 32 or 24.",
+        "exp_title": "Primary tooth count",
+        "exp_text": "In humans, the primary set of teeth – also called baby or milk teeth – usually numbers 20. Ten are in the upper jaw, and ten in the lower jaw."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is unusual about kangaroos, elephants, and manatees compared to most mammals?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They have no teeth at all",
+            "feedback": "They do have teeth. What's unusual is that they are polyphyodonts, meaning they grow many sets of teeth, unlike most mammals which grow two."
+          },
+          {
+            "label": "They grow many sets of teeth",
+            "feedback": "Correct. Kangaroos, elephants, and manatees are polyphyodonts, unlike most mammals which are diphyodonts with two sets."
+          },
+          {
+            "label": "Their teeth never grow",
+            "feedback": "Their teeth do grow, and they grow multiple sets. They are not like rodents whose incisors grow continuously; they replace whole sets."
+          },
+          {
+            "label": "They only have molars",
+            "feedback": "They have more than just molars. The key difference is that they keep growing new sets of teeth throughout life."
+          }
+        ],
+        "ok_title": "Polyphyodont mammals",
+        "ok_line": "Kangaroos, elephants, and manatees grow many tooth sets.",
+        "ko_title": "Not typical mammals",
+        "ko_line": "These animals are unusual because they grow many sets of teeth.",
+        "exp_title": "Unusual mammal teeth",
+        "exp_text": "Most mammals, including humans, are diphyodonts – they grow two sets of teeth. Kangaroos, elephants, and manatees are exceptions because they are polyphyodonts, growing many sets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the narwhal's tusk?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A tooth with many sensory pathways",
+            "feedback": "Correct. The narwhal's tusk is a giant tooth containing millions of sensory pathways, used for sensing during feeding, navigation, and mating."
+          },
+          {
+            "label": "A horn made of keratin",
+            "feedback": "A horn made of keratin is like a cow's horn, not a tusk. The narwhal's tusk is a tooth, and it contains sensory pathways."
+          },
+          {
+            "label": "A bone growth from the skull",
+            "feedback": "The tusk is not bone. It is a tooth, specifically a modified tooth that grows long and has sensory function."
+          },
+          {
+            "label": "A hard scale like a shark's denticle",
+            "feedback": "Shark denticles are skin scales, not tusks. The narwhal's tusk is a tooth with nerves inside."
+          }
+        ],
+        "ok_title": "Narwhal tusk is a tooth",
+        "ok_line": "The narwhal's tusk is a sensory tooth.",
+        "ko_title": "Not a horn or bone",
+        "ko_line": "The narwhal tusk is a tooth with sensory pathways.",
+        "exp_title": "Narwhal tusk",
+        "exp_text": "The narwhal has a giant tusk that is actually a tooth. It contains millions of sensory pathways and is used for sensing during feeding, navigation, and mating."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are teeth primarily used for in most vertebrates?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To break down food",
+            "feedback": "Correct. Teeth are hard, calcified structures used to break down food."
+          },
+          {
+            "label": "To produce saliva",
+            "feedback": "Saliva is made by glands in the mouth, not by teeth."
+          },
+          {
+            "label": "To store nutrients",
+            "feedback": "Teeth do not store nutrients; they are for mechanical breakdown of food."
+          },
+          {
+            "label": "To filter air",
+            "feedback": "Air filtering is done by nasal passages, not teeth."
+          }
+        ],
+        "ok_title": "Teeth break food",
+        "ok_line": "Teeth are for breaking down food.",
+        "ko_title": "Teeth not for saliva",
+        "ko_line": "Saliva comes from glands, not teeth.",
+        "exp_title": "Tooth function",
+        "exp_text": "The main role of teeth in vertebrates is to break down food into smaller pieces, which helps with swallowing and digestion."
+      }
+    ]
+  }
+]

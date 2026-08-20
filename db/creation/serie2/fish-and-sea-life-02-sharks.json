@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the group of fish that includes sharks and rays?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Bony fish",
+            "feedback": "Bony fish have skeletons made of bone, but sharks and rays have skeletons made of cartilage, so they belong to a different group."
+          },
+          {
+            "label": "Cartilaginous fish",
+            "feedback": "Correct. Sharks and rays are called cartilaginous fish because their skeletons are made of cartilage, the same flexible material in your ears and nose."
+          },
+          {
+            "label": "Jawless fish",
+            "feedback": "Jawless fish like lampreys have no jaws, but sharks have strong jaws with teeth, so they are not in that group."
+          },
+          {
+            "label": "Lobe-finned fish",
+            "feedback": "Lobe-finned fish have fleshy fins supported by bones, which is not a feature of sharks, so they do not belong to that group."
+          }
+        ],
+        "ok_title": "Cartilaginous group",
+        "ok_line": "Sharks and rays share a skeleton made of cartilage.",
+        "ko_title": "Not bony fish",
+        "ko_line": "Bony fish have bone skeletons, unlike sharks.",
+        "exp_title": "Cartilage skeleton",
+        "exp_text": "Sharks are cartilaginous fish, meaning their skeletons are made of cartilage rather than bone. Cartilage is lighter and more flexible than bone, which helps sharks move efficiently in water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the fin on a shark's back that stands upright?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Pectoral fin",
+            "feedback": "The pectoral fins are the paired fins on the sides of the shark near its head, used for steering, not the upright fin on its back."
+          },
+          {
+            "label": "Pelvic fin",
+            "feedback": "The pelvic fins are paired fins on the underside of the shark, closer to the tail, not the single upright fin on the back."
+          },
+          {
+            "label": "Dorsal fin",
+            "feedback": "Correct. The dorsal fin is the fin on top of a shark's back, and many sharks have more than one of them."
+          },
+          {
+            "label": "Caudal fin",
+            "feedback": "The caudal fin is the tail fin at the end of the body, which provides forward thrust, not the fin on the back."
+          }
+        ],
+        "ok_title": "Dorsal fin",
+        "ok_line": "The upright back fin is called the dorsal fin.",
+        "ko_title": "Fins different",
+        "ko_line": "Each fin has a specific name and position.",
+        "exp_title": "Shark fins",
+        "exp_text": "The dorsal fin is the fin that sticks up from a shark's back. It helps stabilise the shark as it swims, preventing it from rolling side to side."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What covers a shark's gill slits?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A bony flap called the operculum",
+            "feedback": "The operculum is a bony flap found on bony fish, but sharks do not have it; they have exposed gill slits."
+          },
+          {
+            "label": "A tough layer of skin",
+            "feedback": "Sharks do have tough skin, but their gill slits are open to the water, not covered by a layer of skin."
+          },
+          {
+            "label": "A special membrane",
+            "feedback": "There is no membrane covering shark gill slits; they are simply openings on the sides of the head."
+          },
+          {
+            "label": "Nothing",
+            "feedback": "Correct. Sharks have exposed gill slits with no covering, so you can see the gills through the slits."
+          }
+        ],
+        "ok_title": "Exposed gill slits",
+        "ok_line": "Shark gill slits have no covering flap.",
+        "ko_title": "No operculum",
+        "ko_line": "Bony fish have an operculum, sharks do not.",
+        "exp_title": null,
+        "exp_text": "Unlike bony fish, sharks have uncovered gill slits on the sides of their heads. Water flows through these slits directly over the gills, allowing the shark to extract oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the small tooth-like scales covering a shark's skin?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Placoid scales",
+            "feedback": "Correct. Placoid scales, also called dermal denticles, are tiny tooth-like structures that make shark skin rough and reduce drag in water."
+          },
+          {
+            "label": "Cycloid scales",
+            "feedback": "Cycloid scales are smooth, round scales found on bony fish, not on sharks."
+          },
+          {
+            "label": "Ctenoid scales",
+            "feedback": "Ctenoid scales have tiny teeth on their edges and are found on bony fish, not on sharks."
+          },
+          {
+            "label": "Ganoid scales",
+            "feedback": "Ganoid scales are thick, diamond-shaped scales found on some primitive bony fish, not on sharks."
+          }
+        ],
+        "ok_title": "Placoid scales",
+        "ok_line": "Shark skin has tiny tooth-like placoid scales.",
+        "ko_title": "Other scale types",
+        "ko_line": "Bony fish have different kinds of scales.",
+        "exp_title": null,
+        "exp_text": "Placoid scales are small, pointed, and resemble teeth, with a hard outer layer and a pulp cavity inside. They cover a shark's body, giving it a rough texture and helping it swim faster by reducing friction."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does a shark's liver sit in its body?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Around the heart",
+            "feedback": "The liver is not around the heart; it is a large organ that takes up much of the body cavity."
+          },
+          {
+            "label": "Inside the skull",
+            "feedback": "The skull holds the brain and jaws, not the liver, which is in the main body cavity."
+          },
+          {
+            "label": "Inside the body cavity, near the stomach",
+            "feedback": "Correct. The liver is a large, oily organ located in the shark's body cavity, near the stomach."
+          },
+          {
+            "label": "At the tip of the tail",
+            "feedback": "The tail contains the caudal fin and muscles, not the liver, which is placed centrally in the body."
+          }
+        ],
+        "ok_title": "Body cavity liver",
+        "ok_line": "The liver sits in the main body cavity.",
+        "ko_title": "Liver location",
+        "ko_line": "It is not near the heart or in the tail.",
+        "exp_title": null,
+        "exp_text": "A shark's liver is a huge, oily organ that occupies a large portion of its body cavity. The oil in the liver, called squalene, is less dense than water, helping the shark maintain buoyancy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the purpose of the spiracle, a small opening found behind a shark's eye?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To let out waste",
+            "feedback": "The spiracle is not for waste; waste exits through the cloaca, a separate opening."
+          },
+          {
+            "label": "To draw water in for breathing",
+            "feedback": "Correct. The spiracle is a small opening that allows water to enter and flow over the gills, helping some sharks breathe while resting on the seafloor."
+          },
+          {
+            "label": "To detect vibrations",
+            "feedback": "Vibrations are detected by the lateral line system, not the spiracle, which is for breathing."
+          },
+          {
+            "label": "To release eggs",
+            "feedback": "Eggs are released through a separate reproductive opening, not through the spiracle."
+          }
+        ],
+        "ok_title": "Breathing aid",
+        "ok_line": "The spiracle brings water to the gills.",
+        "ko_title": "Not waste or sense",
+        "ko_line": "It is not for excretion or sensing vibrations.",
+        "exp_title": null,
+        "exp_text": "The spiracle is a small opening behind the eye that lets water flow into the gill chamber. Bottom-dwelling sharks use it to breathe while lying on the seafloor, where their mouths may be blocked."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many gill slits are typically visible on each side of a shark's head?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Five",
+            "feedback": "Correct. Most sharks have five gill slits on each side of their head, though some species have six or seven."
+          },
+          {
+            "label": "Two",
+            "feedback": "Two gill slits per side is not common; most sharks have five, so this number is too low."
+          },
+          {
+            "label": "Ten",
+            "feedback": "Ten gill slits per side would be far more than any shark has; five is the usual number."
+          },
+          {
+            "label": "Three",
+            "feedback": "Three gill slits per side is not typical; most sharks have five, so this count is incorrect."
+          }
+        ],
+        "ok_title": "Five gill slits",
+        "ok_line": "Most sharks have five slits per side.",
+        "ko_title": "Gill slit count",
+        "ko_line": "The typical number is five, not two or ten.",
+        "exp_title": null,
+        "exp_text": "Most shark species have five gill slits on each side of their head. These slits are the external openings where water exits after passing over the gills."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the organ that detects the electric fields of other animals, located in a shark's head?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Lateral line",
+            "feedback": "The lateral line detects vibrations and pressure changes in water, but it is not specifically for electric fields."
+          },
+          {
+            "label": "Nostril",
+            "feedback": "Nostrils are for smell, not for detecting electric fields, which are sensed by a different organ."
+          },
+          {
+            "label": "Ampullae of Lorenzini",
+            "feedback": "These are the correct organs that detect electric fields, but they are not located only in the head; they are found there in clusters."
+          },
+          {
+            "label": "Ampullae of Lorenzini, found in the snout",
+            "feedback": "Correct. Ampullae of Lorenzini are gel-filled pores in a shark's snout that sense the tiny electric fields produced by all living animals."
+          }
+        ],
+        "ok_title": "Electric sensing",
+        "ok_line": "Ampullae of Lorenzini detect electric fields.",
+        "ko_title": "Different senses",
+        "ko_line": "The lateral line is for vibrations, not electricity.",
+        "exp_title": null,
+        "exp_text": "Ampullae of Lorenzini are small, jelly-filled pores concentrated around a shark's snout. They detect the faint electric fields generated by muscle contractions of other animals, helping a shark find hidden prey even in murky water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do sharks use to sense pressure changes and vibrations in the water around them?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Their eyes",
+            "feedback": "Eyes detect light, not pressure changes or vibrations, which are sensed by a different system."
+          },
+          {
+            "label": "Their tongue",
+            "feedback": "The tongue is not used for sensing vibrations in an aquatic environment; that role belongs to the lateral line."
+          },
+          {
+            "label": "Their lateral line",
+            "feedback": "Correct. The lateral line is a series of sensors along a shark's body that detects vibrations and pressure changes in the water."
+          },
+          {
+            "label": "Their ears",
+            "feedback": "Sharks do have inner ears for hearing, but the lateral line is the primary organ for sensing pressure changes and vibrations in water."
+          }
+        ],
+        "ok_title": "Lateral line sensing",
+        "ok_line": "The lateral line detects vibrations and pressure.",
+        "ko_title": "Not eyes or tongue",
+        "ko_line": "The lateral line is a unique pressure sensor.",
+        "exp_title": null,
+        "exp_text": "The lateral line runs along the side of a shark's body, made up of tiny sensory pores. It picks up water movements, small vibrations, and pressure changes caused by nearby animals, allowing the shark to sense its surroundings even in darkness or murky water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a shark's eye protect itself from damage while biting prey?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It closes completely",
+            "feedback": "Sharks do not have eyelids that close completely; they have a different protective mechanism."
+          },
+          {
+            "label": "A transparent membrane slides over the eye",
+            "feedback": "Correct. A nictitating membrane slides across the eye to protect it when a shark bites down on prey."
+          },
+          {
+            "label": "The eye moves to the top of the head",
+            "feedback": "The eye does not move to a different position; instead, a membrane covers it for protection."
+          },
+          {
+            "label": "The eye thickens its outer layer",
+            "feedback": "The eye's outer layer is not thickened at the moment of biting; the protective membrane is what covers it."
+          }
+        ],
+        "ok_title": "Nictitating membrane",
+        "ok_line": "A clear membrane shields the eye during bites.",
+        "ko_title": "Eye protection",
+        "ko_line": "Sharks do not close their eyes like we do.",
+        "exp_title": null,
+        "exp_text": "Many sharks have a nictitating membrane, a translucent eyelid that moves from the lower part of the eye upward to cover it. This shields the eye from scratches or damage when the shark bites into prey."
+      }
+    ]
+  }
+]

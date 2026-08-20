@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a rainbow?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A continuous spectrum of light seen in the sky",
+            "feedback": "Correct. A rainbow is an optical phenomenon showing a continuous spectrum of light in the sky."
+          },
+          {
+            "label": "A pattern of colours on the surface of a water droplet",
+            "feedback": "That is not right. The colours appear in the sky, not on the droplet itself."
+          },
+          {
+            "label": "A single band of one colour in the air",
+            "feedback": "Wrong. It is a continuous spectrum, meaning many colours appear together, not just one."
+          },
+          {
+            "label": "A reflection of the Sun's disc on water",
+            "feedback": "No. That is a reflection, not a rainbow, which involves refraction, internal reflection, and dispersion."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "A rainbow is a spectrum of colours in the sky.",
+        "ko_title": "Wrong definition",
+        "ko_line": "Think about what appears in the sky.",
+        "exp_title": "What a rainbow is",
+        "exp_text": "A rainbow is an optical phenomenon caused by refraction, internal reflection, and dispersion of light in water droplets. It appears in the sky as a continuous spectrum of colours. It is not a single colour or a reflection; it is a full display of many colours together."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of the sky does a rainbow caused by sunlight appear?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "In the section of sky directly above the Sun",
+            "feedback": "That is not right. A rainbow is never above the Sun; it is on the opposite side of the sky."
+          },
+          {
+            "label": "In the section of sky beside the Sun",
+            "feedback": "No. The rainbow is not beside the Sun; it is directly opposite to it."
+          },
+          {
+            "label": "In the section of sky directly opposite the Sun",
+            "feedback": "Correct. Sunlit rainbows always appear in the sky opposite to the Sun."
+          },
+          {
+            "label": "In the section of sky directly below the Sun",
+            "feedback": "That is wrong. Below the Sun would be the ground, not where a rainbow appears."
+          }
+        ],
+        "ok_title": "Opposite side",
+        "ok_line": "The rainbow is always across from the Sun.",
+        "ko_title": "Wrong side",
+        "ko_line": "Think of the Sun and the rainbow facing each other.",
+        "exp_title": "Position of the rainbow",
+        "exp_text": "Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. That is why you look away from the Sun to see one. It is not above, beside, or below the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When seen from the ground, what shape does a rainbow typically have?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A full circle",
+            "feedback": "That is wrong. From the ground, a rainbow appears as an arc, not a full circle."
+          },
+          {
+            "label": "An illuminated arc",
+            "feedback": "Correct. From the ground, rainbows are seen as an arc, not a complete circle."
+          },
+          {
+            "label": "A straight line",
+            "feedback": "No. A rainbow curves; it is not straight."
+          },
+          {
+            "label": "A half-circle only in the morning",
+            "feedback": "Wrong. The arc shape is typical regardless of the time of day."
+          }
+        ],
+        "ok_title": "Ground view",
+        "ok_line": "You see an arc from the ground.",
+        "ko_title": "Wrong shape",
+        "ko_line": "Think of a partial circle.",
+        "exp_title": "Shape from the ground",
+        "exp_text": "When viewed from the ground, a rainbow typically appears as an illuminated arc. It is not a full circle from there. In fact, it is only when flying that you might see a full circle, provided there is enough mist."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a primary rainbow, which colour is on the outer part?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Correct. In a primary rainbow, red is on the outer part of the arc."
+          },
+          {
+            "label": "Violet",
+            "feedback": "That is wrong. Violet is on the inner side, not the outer."
+          },
+          {
+            "label": "Blue",
+            "feedback": "No. Blue appears inside the rainbow, not on the outer edge."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "That is not right. Yellow is in the middle range, not the outer edge."
+          }
+        ],
+        "ok_title": "Outer colour",
+        "ok_line": "Red is the outermost colour.",
+        "ko_title": "Wrong outer colour",
+        "ko_line": "Remember red comes first outside.",
+        "exp_title": "Colour order in primary rainbow",
+        "exp_text": "In a primary rainbow, the arc shows red on the outer part and violet on the inner side. This is because light of different wavelengths is bent by different amounts, and red emerges at the larger angle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the primary rainbow to form?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Light reflecting off the front surface of the droplet only",
+            "feedback": "Not right. Reflection at the front alone does not make the primary rainbow; there is more happening."
+          },
+          {
+            "label": "Light passing straight through the droplet without bending",
+            "feedback": "Wrong. Light is refracted and internally reflected, not just going straight through."
+          },
+          {
+            "label": "Light refracted entering a droplet, reflected inside on the back, then refracted again leaving",
+            "feedback": "Correct. This is exactly how the primary rainbow is formed."
+          },
+          {
+            "label": "Light bouncing inside the droplet many times before leaving",
+            "feedback": "No. For the primary rainbow, there is only one internal reflection, not multiple bounces."
+          }
+        ],
+        "ok_title": "Formation steps",
+        "ok_line": "Refraction, reflection, then refraction again.",
+        "ko_title": "Wrong formation",
+        "ko_line": "Think of the path inside the droplet.",
+        "exp_title": "How a primary rainbow forms",
+        "exp_text": "The primary rainbow is caused by light being refracted when it enters a droplet of water, then reflected inside on the back of the droplet, and refracted again when it leaves. That is the path that produces the primary bow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a double rainbow, what is the order of colours in the second arc?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The same order as the primary rainbow",
+            "feedback": "Wrong. The second arc has its colours reversed compared to the primary."
+          },
+          {
+            "label": "It has no colours, just white light",
+            "feedback": "That is not true. The second arc does show colours, but in reverse order."
+          },
+          {
+            "label": "Red on the upper side",
+            "feedback": "No. In the second arc, red is on the lower side, not the upper."
+          },
+          {
+            "label": "Red on the lower side, with the order reversed",
+            "feedback": "Correct. The second arc shows colours in reverse order, with red on the lower side."
+          }
+        ],
+        "ok_title": "Reversed colours",
+        "ok_line": "The second bow is reversed.",
+        "ko_title": "Wrong order",
+        "ko_line": "Look at which side is red.",
+        "exp_title": "Order in the second rainbow",
+        "exp_text": "In a double rainbow, a second arc appears about 10° outside the primary arc. Its colours are perceived to be in reverse order, with red on the lower side of the arc. So the sequence runs from violet at the top to red at the bottom."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When can a moonbow be seen?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only during a solar eclipse",
+            "feedback": "That is wrong. A moonbow has nothing to do with an eclipse."
+          },
+          {
+            "label": "On strongly moonlit nights",
+            "feedback": "Correct. Moonbows are rarely seen on strongly moonlit nights."
+          },
+          {
+            "label": "Whenever it rains at sunset",
+            "feedback": "No. That would be a sunlit rainbow, not a moonbow."
+          },
+          {
+            "label": "Only in winter when the air is very cold",
+            "feedback": "Not right. Cold air is not the condition for a moonbow; strong moonlight is needed."
+          }
+        ],
+        "ok_title": "Moonbow conditions",
+        "ok_line": "Strong moonlight is needed.",
+        "ko_title": "Wrong conditions",
+        "ko_line": "Think about what lights up the drops.",
+        "exp_title": "When moonbows appear",
+        "exp_text": "A moonbow, also called a lunar rainbow or nighttime rainbow, can be seen on strongly moonlit nights. Because human colour vision is poor in low light, moonbows are often perceived as white."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the sky like inside a primary rainbow compared to outside?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is brighter inside",
+            "feedback": "Correct. The sky inside a primary rainbow is brighter than outside the bow."
+          },
+          {
+            "label": "It is darker inside",
+            "feedback": "Wrong. It is actually brighter inside the primary rainbow."
+          },
+          {
+            "label": "It is the same brightness",
+            "feedback": "Not right. There is a difference in brightness between inside and outside."
+          },
+          {
+            "label": "It is completely black inside",
+            "feedback": "No. The sky inside is not black; it is brighter."
+          }
+        ],
+        "ok_title": "Brightness inside",
+        "ok_line": "Inside is brighter than outside.",
+        "ko_title": "Wrong brightness",
+        "ko_line": "Think of the light scattered by drops.",
+        "exp_title": "Sky brightness in a rainbow",
+        "exp_text": "The sky inside a primary rainbow is brighter than the sky outside the bow. This is because each raindrop scatters light over a circular disc, and over most of that disc the scattered light overlaps to produce white light that brightens the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colours are commonly listed for the rainbow according to Newton?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red, yellow, blue, green, white",
+            "feedback": "Wrong. White is not one of Newton's seven colours, and this list has only five colours."
+          },
+          {
+            "label": "Red, orange, yellow, green, blue, brown, violet",
+            "feedback": "No. Brown is not in the rainbow's list; it is indigo that appears between blue and violet."
+          },
+          {
+            "label": "Red, orange, yellow, green, blue, indigo, violet",
+            "feedback": "Correct. These are the seven colours Newton listed."
+          },
+          {
+            "label": "Red, orange, yellow, cyan, blue, indigo, white",
+            "feedback": "Not right. White is not a rainbow colour, and cyan replaces one of Newton's colours in a different list."
+          }
+        ],
+        "ok_title": "Newton's list",
+        "ok_line": "Seven colours, ending with violet.",
+        "ko_title": "Wrong list",
+        "ko_line": "Remember indigo is in there.",
+        "exp_title": "Newton's seven colours",
+        "exp_text": "Newton's commonly cited list of rainbow colours is red, orange, yellow, green, blue, indigo, and violet. This is remembered with mnemonics like Richard Of York Gave Battle In Vain or Roy G. Biv."
+      }
+    ]
+  }
+]

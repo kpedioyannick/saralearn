@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 235,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main body of a moss plant, the part that is green and lives on the ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The capsule",
+            "feedback": "The capsule is the spore-producing tip on a stalk, not the main green body. The main green body is what you see when you look at a moss mat."
+          },
+          {
+            "label": "The gametophyte",
+            "feedback": "Correct. The green, leafy part of a moss is called the gametophyte because it carries the sex organs, and it is the everyday plant you see."
+          },
+          {
+            "label": "The sporophyte",
+            "feedback": "The sporophyte is the stalk and capsule that grows out of the gametophyte to make spores; it does not live alone as the green body."
+          },
+          {
+            "label": "The rhizoid",
+            "feedback": "Rhizoids are the thin, root-like threads that anchor the moss to the ground, not the main green body itself."
+          }
+        ],
+        "ok_title": "Moss body",
+        "ok_line": "The green mass you see is the gametophyte, the main plant.",
+        "ko_title": "Not the capsule",
+        "ko_line": "The capsule is only a small spore tip, not the whole plant.",
+        "exp_title": "Moss gametophyte",
+        "exp_text": "The gametophyte is the dominant, green, leafy part of a moss. It lives independently, performs photosynthesis, and is the form that most people call a moss. The sporophyte grows from it only to make and release spores."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What part of a moss plant is responsible for anchoring it to the soil or rock it grows on?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The leaves",
+            "feedback": "Leaves in mosses are small, green flaps that catch light; they do not anchor the plant."
+          },
+          {
+            "label": "The stem",
+            "feedback": "The stem holds the leaves up but does not attach the plant to the ground; that job belongs to the root-like threads."
+          },
+          {
+            "label": "The capsule",
+            "feedback": "The capsule is the spore-producing tip at the top of the stalk, not an anchor."
+          },
+          {
+            "label": "The rhizoids",
+            "feedback": "Correct. Rhizoids are thin, hair-like threads that grow from the base of the moss and cling to the surface, anchoring the plant firmly."
+          }
+        ],
+        "ok_title": "Anchoring rhizoids",
+        "ok_line": "Rhizoids hold the moss down, like roots do for bigger plants.",
+        "ko_title": "Not leaves or stem",
+        "ko_line": "Leaves and stem are for light and support, not attachment.",
+        "exp_title": "Moss rhizoids",
+        "exp_text": "Rhizoids are simple, multicellular threads that emerge from the lower part of the gametophyte. They do not absorb much water—they mainly serve to anchor the moss to its substrate, whether that is soil, rock, or tree bark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do mosses use to reproduce without flowers or seeds?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Pollen",
+            "feedback": "Pollen is used by flowering plants to carry sperm between flowers; mosses never produce pollen."
+          },
+          {
+            "label": "Seeds",
+            "feedback": "Seeds are a structure of seed plants; mosses do not make them at any stage of their life."
+          },
+          {
+            "label": "Spores",
+            "feedback": "Correct. Mosses release countless spores from their capsules, and each spore can grow into a new moss plant under damp conditions."
+          },
+          {
+            "label": "Fruits",
+            "feedback": "Fruits are seed-bearing structures of flowering plants; mosses have no fruits whatsoever."
+          }
+        ],
+        "ok_title": "Spore reproduction",
+        "ok_line": "Mosses spread by releasing spores, not seeds or pollen.",
+        "ko_title": "No seeds or flowers",
+        "ko_line": "Mosses are spore plants, so pollen and seeds do not apply.",
+        "exp_title": "Moss dispersal",
+        "exp_text": "Mosses belong to a group of plants that reproduce by spores. A capsule at the top of a stalk releases thousands of tiny spores into the air, and each spore can germinate into a new moss if it lands in a moist, suitable spot."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the thin, stalk-like structure that lifts a moss capsule above the green plant?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The seta",
+            "feedback": "Correct. The seta is the stalk that grows up from the gametophyte and holds the capsule high, helping spores spread in the wind."
+          },
+          {
+            "label": "The rhizoid",
+            "feedback": "Rhizoids are thin threads that anchor the moss down; they never lift anything up."
+          },
+          {
+            "label": "The leaf",
+            "feedback": "Leaves are flat and green, attached to the stem; they do not hold up a capsule."
+          },
+          {
+            "label": "The protonema",
+            "feedback": "A protonema is the early, thread-like stage that grows from a spore before the leafy plant appears, not a stalk."
+          }
+        ],
+        "ok_title": "The seta stalk",
+        "ok_line": "The seta is the stalk that raises the capsule into the air.",
+        "ko_title": "Not a rhizoid",
+        "ko_line": "Rhizoids anchor; the seta lifts the capsule upward.",
+        "exp_title": "Moss seta",
+        "exp_text": "The seta is a slender, erect stalk that connects the gametophyte to the capsule. By lifting the capsule above the moss mat, it allows wind to catch the spores and carry them away more effectively."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the early, thread-like growth that appears when a moss spore first germinates?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A capsule",
+            "feedback": "A capsule forms only later, after the gametophyte has grown; it is not the first stage from a spore."
+          },
+          {
+            "label": "A seta",
+            "feedback": "A seta appears only when the sporophyte grows, which is much later; it is not the first growth."
+          },
+          {
+            "label": "A rhizoid",
+            "feedback": "Rhizoids are anchors that form on the gametophyte, not the initial growth from a spore."
+          },
+          {
+            "label": "A protonema",
+            "feedback": "Correct. A protonema is a branching, thread-like filament that develops first, and then buds to form leafy gametophytes."
+          }
+        ],
+        "ok_title": "Protonema stage",
+        "ok_line": "A spore first grows into a thread-like protonema.",
+        "ko_title": "Not a capsule",
+        "ko_line": "The capsule is a late sporophyte part, not the first growth.",
+        "exp_title": "Moss protonema",
+        "exp_text": "When a moss spore lands on moist ground, it germinates into a branched, filamentous protonema. This stage looks like green threads and eventually produces buds that develop into the familiar leafy gametophytes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the structure inside a moss capsule that actually contains the spores?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The seta",
+            "feedback": "The seta is the stalk below the capsule; it does not hold spores."
+          },
+          {
+            "label": "The sporangium",
+            "feedback": "Correct. The sporangium is the sac-like structure within the capsule where spores are produced and stored until release."
+          },
+          {
+            "label": "The rhizoid",
+            "feedback": "Rhizoids are anchoring threads at the base, not spore holders."
+          },
+          {
+            "label": "The leaf",
+            "feedback": "Leaves are photosynthetic organs; they have nothing to do with spore storage."
+          }
+        ],
+        "ok_title": "Spore sac",
+        "ok_line": "The sporangium is the spore-bearing sac inside the capsule.",
+        "ko_title": "Not the seta",
+        "ko_line": "The seta is the stalk, not the spore container.",
+        "exp_title": "Moss sporangium",
+        "exp_text": "Inside the moss capsule lies the sporangium—a spherical or cylindrical cavity filled with spores. When the capsule opens, these spores are released to the outside world, ready to start new moss plants."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do mosses rely on, instead of true roots, to absorb water and minerals?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Their leaves",
+            "feedback": "Leaves do not absorb water directly; they are thin but the main uptake happens over the whole plant surface."
+          },
+          {
+            "label": "Their stems",
+            "feedback": "Stems provide support but are not the main absorptive organs in mosses."
+          },
+          {
+            "label": "Their entire surface",
+            "feedback": "Correct. Mosses have no roots; they take in water and dissolved minerals directly through their leaves and stem, aided by capillary action between tightly packed shoots."
+          },
+          {
+            "label": "Their capsules",
+            "feedback": "Capsules are for spores, not for water absorption."
+          }
+        ],
+        "ok_title": "Surface absorption",
+        "ok_line": "Mosses absorb water and minerals over their whole body.",
+        "ko_title": "No true roots",
+        "ko_line": "Mosses lack roots, so they soak up moisture everywhere.",
+        "exp_title": "Moss water uptake",
+        "exp_text": "Mosses are non-vascular plants, meaning they have no roots or internal pipes. Instead, every cell of the gametophyte can absorb water directly from the environment, which is why they thrive in damp places and can swell quickly when wet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the relationship between the two partners in a lichen, such as a fungus and an alga?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Symbiotic",
+            "feedback": "Correct. A lichen is a mutualistic symbiosis: the fungus provides structure and absorbs water, while the alga makes food via photosynthesis, and both benefit."
+          },
+          {
+            "label": "Parasitic",
+            "feedback": "In a parasite-host relationship, one partner is harmed; here both partners benefit, so it is not parasitic."
+          },
+          {
+            "label": "Competitive",
+            "feedback": "Competition means both are struggling for the same resource; in a lichen they cooperate instead of competing."
+          },
+          {
+            "label": "Predatory",
+            "feedback": "Predation is one organism eating another; the fungus and alga do not consume each other."
+          }
+        ],
+        "ok_title": "Lichen symbiosis",
+        "ok_line": "A lichen is a symbiotic partnership, not one-sided.",
+        "ko_title": "Not parasitic",
+        "ko_line": "Both partners gain, so it is mutualism, not parasitism.",
+        "exp_title": "Lichen partners",
+        "exp_text": "In a lichen, a fungus (usually an ascomycete) forms a body that shelters an alga or a cyanobacterium. The fungus collects water and minerals, while the alga makes sugars through photosynthesis, and both share the benefits."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the flat, leaf-like part of a lichen called that helps it absorb water and light?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The rhizoid",
+            "feedback": "Rhizoids are found in mosses, not lichens; lichens use different anchoring structures."
+          },
+          {
+            "label": "The capsule",
+            "feedback": "Capsules are spore-containing structures in mosses; lichens do not have them."
+          },
+          {
+            "label": "The seta",
+            "feedback": "A seta is a moss stalk; lichens have no such stalk."
+          },
+          {
+            "label": "The thallus",
+            "feedback": "Correct. The thallus is the body of the lichen, which can be flat (crustose or foliose) or branched, and it performs absorption and photosynthesis."
+          }
+        ],
+        "ok_title": "Lichen thallus",
+        "ok_line": "The thallus is the body of a lichen.",
+        "ko_title": "Not a moss part",
+        "ko_line": "Rhizoids, capsules, and setae belong to mosses, not lichens.",
+        "exp_title": "Lichen body",
+        "exp_text": "The lichen's visible body is called the thallus. It is made of fungal filaments intertwined with algal cells, and its shape varies from flat crusts to leafy lobes or upright stalks, all designed to catch light and water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which partner in a lichen is responsible for making food through photosynthesis?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The fungus",
+            "feedback": "Fungi do not have chlorophyll and cannot photosynthesize; they receive food instead."
+          },
+          {
+            "label": "Both equally",
+            "feedback": "Only the photobiont (alga or cyanobacterium) can photosynthesize; the fungus cannot."
+          },
+          {
+            "label": "The alga",
+            "feedback": "Correct. The algal (or cyanobacterial) partner contains chlorophyll and produces sugars, which the fungus uses as a food source."
+          },
+          {
+            "label": "The thallus",
+            "feedback": "The thallus is the whole body, but only the alga inside it performs photosynthesis."
+          }
+        ],
+        "ok_title": "Algal food maker",
+        "ok_line": "The alga makes food; the fungus absorbs water.",
+        "ko_title": "Fungi cannot photosynthesize",
+        "ko_line": "Fungi lack chlorophyll, so they rely on the alga for food.",
+        "exp_title": "Lichen photobiont",
+        "exp_text": "The photobiont, usually a green alga or cyanobacterium, is the green partner that uses sunlight to make carbohydrates. The fungus, which has no chlorophyll, lives off these sugars while providing a protective habitat."
+      }
+    ]
+  }
+]

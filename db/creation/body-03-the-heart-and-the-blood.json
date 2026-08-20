@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 240,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the heart have four separate chambers instead of one big pumping space?",
+        "body": null,
+        "options": [
+          {
+            "label": "So each side of the body can be served by its own chamber",
+            "feedback": "Blood from either side of the heart travels to both sides of the body; the chambers are not assigned to a left or right half of the body."
+          },
+          {
+            "label": "So the heart can beat faster than a single chamber could",
+            "feedback": "Beat speed is set by the heart's own pacemaker, not by how many chambers happen to divide the space inside it."
+          },
+          {
+            "label": "So there is room to store a reserve of blood for emergencies",
+            "feedback": "The heart is not a storage tank; blood keeps moving through it continuously rather than sitting in reserve."
+          },
+          {
+            "label": "So blood low in oxygen never mixes with blood full of it",
+            "feedback": "Splitting the heart into four chambers keeps the two kinds of blood on separate sides throughout the whole trip through the heart."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Two loops, kept apart",
+        "ok_line": "One side handles oxygen-poor blood, the other oxygen-rich, and they never touch.",
+        "ko_title": "Not the reason for four",
+        "ko_line": "Think about what would happen if the blood coming back from the body mixed with the blood about to be sent out again.",
+        "exp_title": "Two pumps sharing one shell",
+        "exp_text": "Blood returning from the body is low in oxygen, and blood about to be sent out again has just picked up a fresh supply from the lungs, so letting the two mix would send half-used blood back out to the body. The heart is really two pumps built side by side, each with its own receiving chamber and pumping chamber, one side handling the oxygen-poor loop and the other the oxygen-rich loop. A wall runs straight down the middle of the heart keeping the two sides from ever meeting."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is actually making the thumping sound of a heartbeat?",
+        "body": null,
+        "options": [
+          {
+            "label": "Blood rushing through the arteries",
+            "feedback": "Blood moving smoothly through open vessels makes no thumping sound of its own; the sound comes from inside the heart itself."
+          },
+          {
+            "label": "Valves inside the heart snapping shut",
+            "feedback": "Each beat's sound comes from a set of valves slamming shut to stop blood flowing backward."
+          },
+          {
+            "label": "The heart's outer muscle wall slapping against the ribs",
+            "feedback": "The heart sits cushioned inside the chest and does not strike the ribs as it beats; the sound is produced inside the heart, not against bone."
+          },
+          {
+            "label": "Air being pushed out of the lungs at the same moment",
+            "feedback": "Breathing and heartbeats run on independent rhythms; the thump is not timed to air leaving the lungs."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A closing door, twice over",
+        "ok_line": "Each beat, a set of valves snaps shut to stop blood sliding backward.",
+        "ko_title": "Not the source",
+        "ko_line": "The sound is made inside the heart, at the moment blood is stopped from going the wrong way.",
+        "exp_title": "The sound of a door closing",
+        "exp_text": "As each chamber of the heart squeezes and pushes blood onward, one set of valves is forced shut behind it to stop the blood sliding back where it came from. That sudden closing is what produces the thump, and a beat has two such closings happening in quick succession, giving the familiar two-part sound. What you hear with an ear against someone's chest is valves shutting, not the muscle itself."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a pulse, felt by pressing two fingers against the inside of a wrist?",
+        "body": null,
+        "options": [
+          {
+            "label": "A wave of pressure pushed along the artery wall by each heartbeat",
+            "feedback": "Each heartbeat forces a fresh surge of pressure into the arteries, and that surge is what a finger presses on and feels as a pulse."
+          },
+          {
+            "label": "Blood cells physically bumping against the fingertip",
+            "feedback": "The vessel wall sits between a finger and the blood inside it; no blood cell touches the fingertip directly."
+          },
+          {
+            "label": "Nerve signals travelling under the skin",
+            "feedback": "A pulse is a mechanical push against the vessel wall, not a nerve signal passing beneath the skin at that spot."
+          },
+          {
+            "label": "Muscles in the wrist twitching in time with the heart",
+            "feedback": "The muscles of the wrist do not contract in time with the heartbeat; what moves under the skin there is the artery wall itself."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A wave you can feel",
+        "ok_line": "Each beat sends a pulse of pressure down the artery, and it reaches the wrist an instant later.",
+        "ko_title": "Not what is moving",
+        "ko_line": "It is the artery wall being pushed outward that a finger feels, not anything crossing the skin itself.",
+        "exp_title": "A pressure wave, not a delivery",
+        "exp_text": "Every time the heart contracts, it forces a surge of blood into the arteries, and that surge briefly stretches the elastic wall of the vessel outward before it settles back. Where an artery runs close under the skin, such as at the wrist, that brief stretch and release can be felt as a beat under the fingertips. What is felt is the traveling pressure wave itself, arriving well ahead of the actual blood that caused it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does blood look red?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because red blood cells are naturally shaped to scatter red light",
+            "feedback": "Shape has nothing to do with the colour; a red blood cell's shape helps it carry oxygen, not scatter particular wavelengths of light."
+          },
+          {
+            "label": "Because blood absorbs light from the surrounding skin",
+            "feedback": "Blood's colour comes from what is inside it, not from anything it absorbs from the skin around a vessel."
+          },
+          {
+            "label": "Because the iron-carrying protein in red blood cells changes colour when it holds oxygen",
+            "feedback": "Iron sitting inside that protein turns red once oxygen binds to it, which is what gives oxygen-carrying blood its colour."
+          },
+          {
+            "label": "Because plasma itself has a reddish tint",
+            "feedback": "Plasma, the liquid part of blood, is closer to a pale straw colour on its own; the red comes from the cells suspended within it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Iron doing the colouring",
+        "ok_line": "The same protein that carries oxygen is what turns blood red.",
+        "ko_title": "Not the source of the colour",
+        "ko_line": "The colour is chemical, tied to what is carrying the oxygen inside each red cell.",
+        "exp_title": "A colour that comes from carrying oxygen",
+        "exp_text": "Packed inside every red blood cell is a protein built around an iron atom, and that protein is what actually grabs onto oxygen and carries it through the body. When the iron is holding oxygen, it reflects light in a way that looks red to the eye, and blood loaded with oxygen takes on a bright red colour because of it. Blood that has already given up its oxygen to the tissues carries the same protein but reflects light differently, looking a duller shade instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does the liquid part of blood, called plasma, actually do?",
+        "body": null,
+        "options": [
+          {
+            "label": "It carries blood cells, nutrients and dissolved substances around the body",
+            "feedback": "Plasma is the fluid that everything else in blood travels through, from blood cells to the nutrients and other substances dissolved in it."
+          },
+          {
+            "label": "It contracts to help push blood through the vessels",
+            "feedback": "Plasma is a fluid, not a tissue capable of contracting; pushing blood along is the job of the heart and the vessel walls, not the plasma itself."
+          },
+          {
+            "label": "It filters waste out of the blood before it reaches the kidneys",
+            "feedback": "Filtering waste out of the blood is done by the kidneys themselves; plasma is what carries that waste to them, not what removes it."
+          },
+          {
+            "label": "It hardens on contact with air to seal a wound",
+            "feedback": "Sealing a cut is a job for clotting factors and platelets carried within the plasma, not something plasma does simply by touching air."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "The river, not the cargo",
+        "ok_line": "Plasma is what everything else in the blood travels through.",
+        "ko_title": "Not plasma's role",
+        "ko_line": "Plasma is a fluid — think about what a fluid can and cannot do on its own.",
+        "exp_title": "The river the cargo travels in",
+        "exp_text": "Blood is not a single substance but a mix of cells, proteins and dissolved nutrients all suspended in a watery fluid, and that fluid is the plasma. Every red and white blood cell drifts through the vessels carried by this fluid, and sugars, salts and other substances the body needs to move around dissolve directly into it. Strip the cells and dissolved matter out of blood and what remains, the plasma, is simply the medium that carried them."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are red blood cells shaped like a disc pinched in at the middle, rather than a plain sphere?",
+        "body": null,
+        "options": [
+          {
+            "label": "The shape lets them lock together into chains",
+            "feedback": "Red blood cells travel through vessels as separate cells rather than fixed together into chains; the shape does not exist to link them up."
+          },
+          {
+            "label": "The shape gives them more surface for oxygen to cross in and out",
+            "feedback": "Flattening the cell into a pinched disc increases the surface pressed close to its centre, which is exactly where oxygen has to travel across for the cell to load or unload it."
+          },
+          {
+            "label": "The shape helps them steer around corners in narrow vessels",
+            "feedback": "A red blood cell has no way to steer itself; it is simply carried along wherever the blood flow takes it."
+          },
+          {
+            "label": "The shape lets them store extra oxygen inside a hollow centre",
+            "feedback": "The pinched centre is not a hollow storage space; the whole cell is packed with the protein that holds oxygen, not a reserve tank at its middle."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Shaped for exchange",
+        "ok_line": "A flattened, pinched disc puts more of the cell close to the surface.",
+        "ko_title": "Not what the shape is for",
+        "ko_line": "Think about what has to travel in and out of a red blood cell wherever it goes.",
+        "exp_title": "A shape built to trade oxygen",
+        "exp_text": "A red blood cell has to pick up oxygen in the lungs and then release it again out in the body's tissues, and both of those exchanges happen across its outer surface. Flattening the cell into a disc and pinching its centre thinner than its rim increases how much of the cell's interior sits close to that surface, compared with a plain round ball of the same volume. The odd shape exists so that oxygen has as short a distance as possible to travel in either direction."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do arteries have thick, elastic walls while other vessels do not need them?",
+        "body": null,
+        "options": [
+          {
+            "label": "They need to be visible through the skin for a pulse to be checked",
+            "feedback": "Being felt at the wrist is incidental to where an artery happens to run close to the skin; it is not the reason arteries are built with thick walls."
+          },
+          {
+            "label": "They carry blood forced out under high pressure from the heart",
+            "feedback": "Blood leaving the heart arrives in a strong surge, and thick elastic walls let an artery stretch to absorb that surge instead of bursting under it."
+          },
+          {
+            "label": "They carry more blood cells than other vessels do",
+            "feedback": "The number of blood cells passing through is not what differs between vessel types; the difference is in the force and pressure of the blood moving through them."
+          },
+          {
+            "label": "They need to keep blood warm as it travels to the extremities",
+            "feedback": "Thick walls do not exist to insulate blood; their job is to withstand the pressure of blood being pumped, not to hold in warmth."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Built to take the surge",
+        "ok_line": "A thick, stretchy wall can absorb a surge that a thin one would burst under.",
+        "ko_title": "Not the reason for the thickness",
+        "ko_line": "Ask what an artery has to withstand the instant the heart contracts.",
+        "exp_title": "Walls built to take a surge",
+        "exp_text": "Every time the heart contracts, it forces blood out under a strong surge of pressure, and the vessels closest to the heart are the ones that feel it first. An artery's wall is thick and layered with elastic fibres so it can stretch to absorb that surge and then spring back rather than tearing under it. By the time blood reaches the smaller, calmer vessels further from the heart, the pressure has smoothed out and such thick walls are no longer needed."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do veins have valves along their length when arteries do not?",
+        "body": null,
+        "options": [
+          {
+            "label": "To split the returning blood between the two sides of the heart",
+            "feedback": "A valve only opens one way to control direction of flow; it does not sort or divide blood between different destinations."
+          },
+          {
+            "label": "To filter waste products out of the blood before it returns to the heart",
+            "feedback": "Filtering blood is a job for organs such as the kidneys; the valves inside a vein only control the direction blood is allowed to flow, not what stays in it."
+          },
+          {
+            "label": "To stop blood, moving under low pressure, from sliding backward",
+            "feedback": "Blood in a vein moves under far less pressure than in an artery, so one-way valves are needed to keep it from slipping backward, especially against gravity."
+          },
+          {
+            "label": "To add extra pressure to blood as it nears the heart",
+            "feedback": "Valves do not push blood forward themselves; they only stop it from sliding back once something else, such as surrounding muscle, has pushed it along."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "One-way doors on a low-pressure line",
+        "ok_line": "Without the surge an artery gets, a vein needs valves to stop blood sliding back.",
+        "ko_title": "Not what the valve is for",
+        "ko_line": "A vein's blood moves under far less force than an artery's; ask what that weaker push leaves it vulnerable to.",
+        "exp_title": "Doors that only open one way",
+        "exp_text": "By the time blood reaches the veins, the surge of pressure from the heart has largely faded, and the blood is moving slowly, often working its way back upward against gravity. Without something to stop it, that slow-moving blood could easily slip backward instead of continuing on its way. Small flaps of tissue set along the inside of a vein open to let blood pass toward the heart and snap shut the instant it tries to fall back."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the heart, though it is constantly full of blood, have its own separate set of blood vessels feeding it?",
+        "body": null,
+        "options": [
+          {
+            "label": "The extra vessels exist only to carry nerve signals to the heart",
+            "feedback": "These vessels carry blood, not nerve signals; the nerves controlling the heart's rate run along separate fibres entirely."
+          },
+          {
+            "label": "The blood inside the chambers is not real blood yet",
+            "feedback": "The blood moving through the heart's chambers is fully formed blood; it is simply passing through on its way to the lungs or the rest of the body, not sitting there to nourish the heart wall."
+          },
+          {
+            "label": "The heart's muscle does not need oxygen the way other muscles do",
+            "feedback": "Heart muscle is working constantly and needs oxygen delivered to it just as urgently as any other muscle in the body, if not more so."
+          },
+          {
+            "label": "The blood passing through its chambers does not actually feed the heart's own muscle",
+            "feedback": "Blood inside the heart's chambers is on its way elsewhere and does not soak directly into the thick muscle wall around it, so that muscle needs its own vessels to be fed."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Full of blood, still hungry",
+        "ok_line": "Blood passing through the chambers is cargo in transit, not a meal for the wall around it.",
+        "ko_title": "Not the reason",
+        "ko_line": "The heart's own muscle wall is thick, and blood inside the chambers does not soak through it to feed it.",
+        "exp_title": "Fed from the outside, not the inside",
+        "exp_text": "The blood filling the heart's chambers is simply passing through on its way to the lungs or out to the body, and the thick muscular wall of the heart is too solid for that passing blood to seep into and feed it directly. Instead, a set of vessels branches off right at the base of the heart and wraps around its outer surface, delivering oxygen and fuel to the muscle from outside. A heart that is never empty can still be starved if those particular vessels become blocked."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the heart keep beating on its own, without needing a nerve signal to start each individual beat?",
+        "body": null,
+        "options": [
+          {
+            "label": "A small patch of its own tissue generates the electrical signal itself",
+            "feedback": "A small cluster of cells inside the heart generates its own regular electrical pulse and spreads it through the muscle, setting off each beat from within."
+          },
+          {
+            "label": "The blood filling the chambers triggers each contraction by stretching them",
+            "feedback": "Stretching alone does not set off a full, coordinated beat; the timing is set by the heart's own electrical pacemaker, not by how full a chamber happens to be."
+          },
+          {
+            "label": "Muscles in the chest wall squeeze the heart from outside",
+            "feedback": "The heart contracts from its own muscle tissue; nothing about the surrounding chest wall squeezes it into beating."
+          },
+          {
+            "label": "The lungs send a signal with every breath that triggers a beat",
+            "feedback": "Breathing and heartbeat run on separate, independent rhythms; a breath does not trigger a heartbeat to follow it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A pacemaker built in",
+        "ok_line": "A patch of the heart's own tissue sets the rhythm from the inside.",
+        "ko_title": "Not the source of the rhythm",
+        "ko_line": "The signal that starts a beat comes from inside the heart itself, not from a full chamber or a nearby muscle.",
+        "exp_title": "A rhythm generated from within",
+        "exp_text": "Tucked in the wall of one of the heart's upper chambers is a small patch of cells whose job is different from the muscle around it: instead of contracting, it generates a small electrical pulse on a steady, repeating rhythm all by itself. That pulse spreads out through the heart's muscle tissue, triggering the wave of contraction that becomes a single beat. A heart removed entirely from the body and kept supplied with the right conditions will keep this rhythm going for a while, because the signal starting each beat comes from inside it, not from outside."
+      }
+    ]
+  }
+]

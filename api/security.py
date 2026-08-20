@@ -113,5 +113,49 @@ def optional_user(
     return _user_from_header(authorization, conn)
 
 
+def registered_user(user: Annotated[dict, Depends(current_user)]) -> dict:
+    """Exige un vrai compte : email et mot de passe.
+
+    L'app se joue sans compte, et ça ne change pas — répondre, s'abonner,
+    voter, commenter restent ouverts à une session anonyme. Créer une
+    connaissance, non : elle porte un auteur, elle passe en relecture, et
+    elle reste attachée à quelqu'un après publication. Une session
+    anonyme meurt avec le `localStorage` de son appareil ; l'y adosser,
+    c'est fabriquer des contenus orphelins qu'aucun humain ne peut plus
+    corriger ni retirer.
+
+    Le contrôle est ici et pas dans l'interface : l'API est publique, et
+    un bouton grisé n'a jamais empêché un POST.
+    """
+    if user["email"] is None:
+        raise HTTPException(
+            status.HTTP_403_FORBIDDEN,
+            "Il faut un compte pour créer une connaissance.",
+        )
+    return user
+
+
+def author(user: Annotated[dict, Depends(current_user)]) -> dict:
+    """Qui a le droit de déposer une connaissance : l'administration, et
+    elle seule, le temps de la remise à niveau.
+
+    Le pipeline de création parle le schéma d'avant la reconstruction du
+    catalogue — `category`, `theme.owner_id`, `chapter.generated_prompt`
+    ont disparu — et ses sept routes rendent 500. Un 500 ne dit rien à
+    celui qui le reçoit ; ce 403 dit ce qui se passe.
+
+    Le contrôle est ici et pas seulement dans l'interface : l'API est
+    publique, et un écran fermé n'a jamais empêché un POST.
+    """
+    if not user["is_admin"]:
+        raise HTTPException(
+            status.HTTP_403_FORBIDDEN,
+            "Déposer une connaissance est réservé à l'administration.",
+        )
+    return user
+
+
 CurrentUser = Annotated[dict, Depends(current_user)]
 OptionalUser = Annotated[dict | None, Depends(optional_user)]
+RegisteredUser = Annotated[dict, Depends(registered_user)]
+Author = Annotated[dict, Depends(author)]

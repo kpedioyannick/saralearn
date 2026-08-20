@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 240,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the celestial sphere, as it appears to an observer on Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A physical sphere of glass surrounding the Earth",
+            "feedback": "The celestial sphere is not a real object; it is an imaginary sphere, so no glass or solid shell exists."
+          },
+          {
+            "label": "An imaginary sphere of very large radius, centered on Earth, onto which all stars appear to be fixed",
+            "feedback": "Correct: the celestial sphere is a mental construct. Because stars are so far away, they seem to lie on a single distant sphere, and we use it to describe their positions."
+          },
+          {
+            "label": "A real sphere of gas that contains all the stars and galaxies",
+            "feedback": "A sphere of gas would be a physical structure in space, but the celestial sphere is purely a visual projection, not a physical environment."
+          },
+          {
+            "label": "A flat circular disk that holds the stars in place",
+            "feedback": "The night sky is not a flat disk; it appears as a sphere around the observer, and the stars are not fastened onto any flat surface."
+          }
+        ],
+        "ok_title": "Imaginary sphere",
+        "ok_line": "The celestial sphere is a mental map of the sky, not a real thing.",
+        "ko_title": "Not a real shell",
+        "ko_line": "Treat it as a tool for locating stars, not as an actual object.",
+        "exp_title": "The sky as a sphere",
+        "exp_text": "The celestial sphere is an imaginary, very large sphere centered on Earth, with all stars painted on its inside. It lets astronomers describe where a star appears in the sky using simple angles, without worrying about each star's true distance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the point on the celestial sphere directly above an observer's head?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Zenith",
+            "feedback": "Correct: the zenith is the point straight up from the observer, 90 degrees from the horizon."
+          },
+          {
+            "label": "Nadir",
+            "feedback": "The nadir is the point directly below the observer, opposite the zenith, not the one above the head."
+          },
+          {
+            "label": "North celestial pole",
+            "feedback": "The north celestial pole is a fixed point in the sky near Polaris, not the spot overhead for most observers."
+          },
+          {
+            "label": "Celestial equator",
+            "feedback": "The celestial equator is an imaginary line around the sky above Earth's equator, not the point overhead."
+          }
+        ],
+        "ok_title": "Straight overhead",
+        "ok_line": "The zenith is the point directly above your head.",
+        "ko_title": "Not below or fixed",
+        "ko_line": "Remember the zenith is local and opposite to the nadir.",
+        "exp_title": "The sky's top point",
+        "exp_text": "The zenith is the point on the celestial sphere that sits exactly overhead for a given observer. It changes location as the observer moves on Earth, so it is a local reference point, not a fixed star."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the apparent daily motion of the stars across the night sky, as if the entire sky is rotating?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The stars are physically moving around Earth each night",
+            "feedback": "Stars are not orbiting Earth; they are incredibly far away and largely stationary relative to each other on human timescales."
+          },
+          {
+            "label": "Earth's orbit around the Sun makes the stars shift positions",
+            "feedback": "Orbiting the Sun changes which constellations are visible over months, not the nightly sweep of the whole sky."
+          },
+          {
+            "label": "Earth rotates on its own axis once every 24 hours",
+            "feedback": "Correct: as Earth spins eastward, the sky appears to rotate westward around the celestial poles, completing one full turn each day."
+          },
+          {
+            "label": "The Moon's gravitational pull drags the stars along",
+            "feedback": "The Moon's gravity affects tides, not the motion of distant stars, which are far outside its influence."
+          }
+        ],
+        "ok_title": "Earth's spin",
+        "ok_line": "The daily star motion comes from Earth rotating, not stars moving.",
+        "ko_title": "Not star motion",
+        "ko_line": "Think of a spinning observer, not a moving sky.",
+        "exp_title": "Daily rotation",
+        "exp_text": "The apparent rotation of the star field is a consequence of Earth's rotation about its axis. As you stand on a spinning globe, the fixed stars appear to circle around the celestial poles once every sidereal day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the ecliptic, as seen from Earth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The path of the Moon across the sky",
+            "feedback": "The Moon follows a path close to the ecliptic but not exactly on it; the ecliptic is specifically the Sun's path."
+          },
+          {
+            "label": "The line marking the horizon where the sun sets",
+            "feedback": "The horizon is a local circle, not a path of any celestial body; the ecliptic is a great circle on the celestial sphere."
+          },
+          {
+            "label": "The circle traced by the north celestial pole over a year",
+            "feedback": "The north celestial pole is nearly fixed; it does not trace a yearly circle, so this is not the ecliptic."
+          },
+          {
+            "label": "The apparent yearly path of the Sun through the background stars",
+            "feedback": "Correct: because Earth orbits the Sun, the Sun appears to move against the fixed stars along a circle called the ecliptic."
+          }
+        ],
+        "ok_title": "Sun's yearly path",
+        "ok_line": "The ecliptic is where the Sun travels among the stars.",
+        "ko_title": "Not Moon or horizon",
+        "ko_line": "Remember it's the Sun's orbit projected onto the sky.",
+        "exp_title": "Sun's apparent route",
+        "exp_text": "The ecliptic is the apparent annual path of the Sun on the celestial sphere, caused by Earth's orbit around the Sun. It is tilted about 23.5 degrees to the celestial equator, which explains the seasons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the zodiac constellations?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A group of constellations that never set below the horizon from any location",
+            "feedback": "Constellations that never set are called circumpolar, not zodiac; the zodiac constellations rise and set."
+          },
+          {
+            "label": "The constellations that lie along the ecliptic, through which the Sun, Moon, and planets appear to move",
+            "feedback": "Correct: the zodiac is a band of 13 or so constellations straddling the ecliptic, so the Sun and planets travel through them."
+          },
+          {
+            "label": "The constellations that are always visible in the southern hemisphere",
+            "feedback": "The zodiac is not tied to any hemisphere; it is defined by the Sun's path, not by visibility region."
+          },
+          {
+            "label": "The constellations that are brightest in the night sky",
+            "feedback": "Brightness does not define the zodiac; many bright stars lie outside it, and some zodiac constellations are faint."
+          }
+        ],
+        "ok_title": "Path of the wanderers",
+        "ok_line": "The zodiac marks the Sun, Moon, and planets' track across the sky.",
+        "ko_title": "Not brightness or pole",
+        "ko_line": "It's about position along the ecliptic, not visibility or size.",
+        "exp_title": "The zodiac band",
+        "exp_text": "The zodiac constellations are those that intersect or lie near the ecliptic. Because the Sun, Moon, and planets travel close to this line, they appear to pass through these constellations over time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do the planets appear to wander among the stars, unlike the fixed stars?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because they orbit the Sun at different speeds, so their positions relative to the background stars change from night to night",
+            "feedback": "Correct: as each planet moves along its orbit, its projection onto the celestial sphere shifts, causing a slow drift through the zodiac."
+          },
+          {
+            "label": "Because they are much closer to Earth, so they twinkle more",
+            "feedback": "Twinkling is an atmospheric effect, not a cause of motion; planets do not change position from twinkling."
+          },
+          {
+            "label": "Because they are actually stars that have broken loose from their constellations",
+            "feedback": "Planets are not stars; they are bodies orbiting the Sun, and they do not leave constellations."
+          },
+          {
+            "label": "Because they are influenced by Earth's rotation, which makes them shift noticeably",
+            "feedback": "Earth's rotation affects all celestial objects equally, causing daily motion, but not the slow nightly wandering of planets."
+          }
+        ],
+        "ok_title": "Moving worlds",
+        "ok_line": "Planets shift because they orbit the Sun, unlike the distant fixed stars.",
+        "ko_title": "Not twinkling",
+        "ko_line": "Twinkling doesn't move a planet; its orbit does.",
+        "exp_title": "Planetary motion",
+        "exp_text": "Planets are relatively close to us and orbit the Sun independently. Over nights or weeks, they move noticeably against the background of distant stars, which is why the ancient Greeks called them 'wanderers'."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the apparent magnitude of a star a measure of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The star's true physical size",
+            "feedback": "Magnitude does not directly measure size; a small nearby star can appear bright while a huge distant star looks dim."
+          },
+          {
+            "label": "The star's distance from Earth",
+            "feedback": "Distance affects brightness but is not what magnitude measures; magnitude is a brightness scale, not a distance unit."
+          },
+          {
+            "label": "How bright the star appears to an observer on Earth",
+            "feedback": "Correct: apparent magnitude is a numerical scale of how bright a celestial object looks from Earth, with lower numbers meaning brighter."
+          },
+          {
+            "label": "The star's surface temperature",
+            "feedback": "Temperature influences color and luminosity, but magnitude does not directly measure temperature."
+          }
+        ],
+        "ok_title": "Seen brightness",
+        "ok_line": "Apparent magnitude tells how bright something looks from here.",
+        "ko_title": "Not size or distance",
+        "ko_line": "It's a brightness scale, not a physical property.",
+        "exp_title": "Brightness scale",
+        "exp_text": "Apparent magnitude is a logarithmic scale that ranks how bright a star appears in the sky. A lower number means a brighter star; for example, a star of magnitude 1 is much brighter than one of magnitude 6, which is near the limit of naked-eye visibility."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the difference between apparent magnitude and absolute magnitude of a star?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Apparent magnitude is measured in kilometers, absolute in light-years",
+            "feedback": "Neither magnitude is a distance unit; both are brightness scales. Only their reference distance differs."
+          },
+          {
+            "label": "Apparent magnitude is for stars, absolute magnitude is for galaxies",
+            "feedback": "Both can apply to any celestial object; the difference is the reference point, not the object type."
+          },
+          {
+            "label": "Apparent magnitude uses only red light, absolute magnitude uses all colors",
+            "feedback": "Both magnitudes can be defined for specific wavelengths; the key difference is the distance at which the brightness is evaluated."
+          },
+          {
+            "label": "Apparent magnitude is how bright a star appears from Earth, while absolute magnitude is how bright it would appear from a standard distance of 10 parsecs",
+            "feedback": "Correct: absolute magnitude removes the effect of distance by placing the star at a fixed distance, revealing its intrinsic luminosity."
+          }
+        ],
+        "ok_title": "With and without distance",
+        "ok_line": "Apparent is seen brightness, absolute is intrinsic brightness.",
+        "ko_title": "Not units or colors",
+        "ko_line": "The only change is the distance reference, not the object or color.",
+        "exp_title": "Two brightness measures",
+        "exp_text": "Apparent magnitude depends on both a star's true luminosity and its distance from us. Absolute magnitude standardizes that by imagining the star placed exactly 10 parsecs away, so it measures only how luminous the star actually is."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the color of a star tell an astronomer about the star?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The star's age in billions of years",
+            "feedback": "Color alone does not directly reveal age; a star's color is tied to its temperature and mass, not its age directly."
+          },
+          {
+            "label": "The star's surface temperature",
+            "feedback": "Correct: hotter stars appear bluer or whiter, while cooler stars appear redder, following a well-known relationship."
+          },
+          {
+            "label": "The star's distance from Earth",
+            "feedback": "Distance does not change the intrinsic color of a star; interstellar dust can redden it, but that is an effect, not a direct measure."
+          },
+          {
+            "label": "The star's chemical composition only",
+            "feedback": "Chemical composition affects spectra but not primarily the overall color; color is mainly set by temperature."
+          }
+        ],
+        "ok_title": "Color equals heat",
+        "ok_line": "A star's color points to its surface temperature.",
+        "ko_title": "Not age or distance",
+        "ko_line": "Color is a temperature thermometer, not a clock or ruler.",
+        "exp_title": "Temperature indicator",
+        "exp_text": "Stars emit light across a range of wavelengths, and the peak of that emission shifts with temperature. Hot, massive stars glow blue-white, moderate stars like our Sun appear yellow, and cool stars shine with a red hue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a constellation in modern astronomy?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A defined region of the celestial sphere, with boundaries, containing a group of stars",
+            "feedback": "Correct: since the 1930s, the sky is divided into 88 official constellations, each with precise borders, so every star lies within exactly one constellation."
+          },
+          {
+            "label": "A random cluster of stars that happen to be near each other in space",
+            "feedback": "Stars in a constellation are usually not close in space; they just lie in the same line of sight. Also, constellations are not defined by physical proximity."
+          },
+          {
+            "label": "A group of stars that all orbit a common center",
+            "feedback": "That describes a star cluster, not a constellation; constellations are simply patterns on the sky, not gravitationally bound groups."
+          },
+          {
+            "label": "A pattern of stars that changes shape every night",
+            "feedback": "Constellations appear fixed relative to each other over human lifetimes; they do not change shape nightly."
+          }
+        ],
+        "ok_title": "Sky regions",
+        "ok_line": "A constellation is a defined patch of sky, not a physical group.",
+        "ko_title": "Not a cluster",
+        "ko_line": "It's a map division, not a real grouping in space.",
+        "exp_title": "Official sky sections",
+        "exp_text": "Modern constellations are 88 official regions covering the entire celestial sphere, each with fixed boundaries. Stars within a region may be at very different distances, but they all share that name on the sky map."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does your body's temperature normally stay close to when you are healthy?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "32°C",
+            "feedback": "That is too low for a healthy body; normal body temperature is around 37°C, not 32°C."
+          },
+          {
+            "label": "37°C",
+            "feedback": "Yes, the body keeps its internal temperature near 37°C, and a fever raises it above that set point."
+          },
+          {
+            "label": "40°C",
+            "feedback": "That value is already a high fever, not the normal resting temperature of a healthy body."
+          },
+          {
+            "label": "35°C",
+            "feedback": "That is slightly below the normal range; the healthy set point is about 37°C."
+          }
+        ],
+        "ok_title": "Normal body heat",
+        "ok_line": "Your body's usual temperature is about 37°C.",
+        "ko_title": "Temperature check",
+        "ko_line": "Pick the number that matches a healthy resting body.",
+        "exp_title": "The body's thermostat",
+        "exp_text": "The body keeps its core temperature close to 37°C under normal conditions. A fever raises this set point upward, which is why a temperature of 38°C or higher signals an infection."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain acts as the body's thermostat, setting the target temperature?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum helps coordinate movement and balance, not temperature control."
+          },
+          {
+            "label": "The cerebrum",
+            "feedback": "The cerebrum handles thinking and sensing, not the regulation of body temperature."
+          },
+          {
+            "label": "The hypothalamus",
+            "feedback": "Yes, the hypothalamus reads the blood's temperature and sets the target, raising it during a fever."
+          },
+          {
+            "label": "The brainstem",
+            "feedback": "The brainstem controls basic functions like breathing and heartbeat, not the body's thermostat."
+          }
+        ],
+        "ok_title": "The brain's thermostat",
+        "ok_line": "The hypothalamus sets your body's temperature target.",
+        "ko_title": "Brain parts mixed up",
+        "ko_line": "Think about which region manages internal balance.",
+        "exp_title": "Hypothalamus role",
+        "exp_text": "The hypothalamus is a small region at the base of the brain that monitors blood temperature and decides when to warm or cool the body. During an infection, it raises the set point, causing a fever."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the cells that fight off microbes as part of the immune system?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "White blood cells",
+            "feedback": "Yes, white blood cells are the main defenders, attacking and destroying microbes and cleaning up debris."
+          },
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells carry oxygen around the body; they do not fight infections."
+          },
+          {
+            "label": "Platelets",
+            "feedback": "Platelets help blood clot and seal wounds, but they are not the cells that kill microbes."
+          },
+          {
+            "label": "Skin cells",
+            "feedback": "Skin cells form a barrier, but they are not the immune cells that circulate and attack microbes."
+          }
+        ],
+        "ok_title": "The defence cells",
+        "ok_line": "White blood cells are the immune system's soldiers.",
+        "ko_title": "Cell mix-up",
+        "ko_line": "Remember which blood cells fight versus carry oxygen or clot.",
+        "exp_title": "White blood cell function",
+        "exp_text": "White blood cells patrol the blood and tissues, engulfing or destroying microbes and producing antibodies. They are the active defenders once a microbe gets past the skin."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does your body raise its temperature during an infection?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To make the microbes multiply faster",
+            "feedback": "That is the opposite; a higher temperature actually slows many microbes and speeds up your immune cells."
+          },
+          {
+            "label": "To cool down the infected area",
+            "feedback": "A fever warms the body, not cools it; cooling would lower the immune response."
+          },
+          {
+            "label": "To help white blood cells work better and slow the microbes",
+            "feedback": "Yes, a mild fever improves immune cell activity and makes it harder for many microbes to thrive."
+          },
+          {
+            "label": "To destroy all the red blood cells",
+            "feedback": "A fever does not destroy red blood cells; it is aimed at helping fight the infection."
+          }
+        ],
+        "ok_title": "Why a fever helps",
+        "ok_line": "A fever boosts your immune cells and hinders microbes.",
+        "ko_title": "False ideas about fever",
+        "ko_line": "A fever is a defence, not a mistake.",
+        "exp_title": "Fever's purpose",
+        "exp_text": "When the hypothalamus raises the set point, the body warms up. Many microbes reproduce more slowly at higher temperatures, while white blood cells become faster and more effective, so the infection is fought off sooner."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the body do to generate heat when it is trying to raise its temperature toward a new fever set point?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It sweats",
+            "feedback": "Sweating cools the body down, which is what happens when the fever breaks, not when it is rising."
+          },
+          {
+            "label": "It dilates blood vessels near the skin",
+            "feedback": "Dilating surface vessels releases heat; the body does the opposite to warm up—it constricts them."
+          },
+          {
+            "label": "It slows down the heart",
+            "feedback": "A slower heart would not generate extra heat; the body actually increases muscle activity to warm up."
+          },
+          {
+            "label": "It shivers",
+            "feedback": "Yes, shivering uses rapid muscle contractions to produce heat and raise body temperature."
+          }
+        ],
+        "ok_title": "Heat-making shiver",
+        "ok_line": "Shivering generates heat to reach the fever set point.",
+        "ko_title": "Warming vs. cooling",
+        "ko_line": "Know which actions raise heat and which release it.",
+        "exp_title": "Shivering mechanism",
+        "exp_text": "Shivering is rapid, tiny muscle contractions that burn energy and release heat. This is how the body warms itself when the hypothalamus has set a higher target during a fever."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the sensation called that warns you of possible damage, such as when you touch something too hot?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Itch",
+            "feedback": "Itch is a different sensation, often from irritants or allergies, not a warning of tissue damage."
+          },
+          {
+            "label": "Pain",
+            "feedback": "Yes, pain is the body's alarm system, signaling that tissue is being harmed and prompting you to react."
+          },
+          {
+            "label": "Tickle",
+            "feedback": "Tickle is a light, playful sensation, not a signal of danger or damage."
+          },
+          {
+            "label": "Numbness",
+            "feedback": "Numbness is a loss of feeling, the opposite of a warning signal—it means you can't detect damage."
+          }
+        ],
+        "ok_title": "The pain alarm",
+        "ok_line": "Pain warns you of possible harm.",
+        "ko_title": "Sensation confusion",
+        "ko_line": "Pain is specifically a danger signal.",
+        "exp_title": "Pain as a guard",
+        "exp_text": "Pain receptors in the skin and tissues send signals to the brain when they detect harmful heat, pressure, or chemicals. This triggers a quick withdrawal and teaches you to avoid the cause."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which chemical released by damaged cells triggers pain and makes the area feel sore?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Prostaglandins",
+            "feedback": "Yes, prostaglandins are made at the injury site, sensitizing pain nerves and causing soreness and redness."
+          },
+          {
+            "label": "Hemoglobin",
+            "feedback": "Hemoglobin is the oxygen-carrying protein in red blood cells; it does not trigger pain."
+          },
+          {
+            "label": "Insulin",
+            "feedback": "Insulin regulates blood sugar, not pain signaling."
+          },
+          {
+            "label": "Saliva",
+            "feedback": "Saliva is produced in the mouth for digestion, not released by damaged tissue to cause pain."
+          }
+        ],
+        "ok_title": "Pain chemical",
+        "ok_line": "Prostaglandins make the injured area hurt.",
+        "ko_title": "Wrong chemical named",
+        "ko_line": "The pain signal comes from a local messenger, not blood or hormones.",
+        "exp_title": "Prostaglandin action",
+        "exp_text": "When cells are damaged, they release prostaglandins, which bind to pain receptors and make them more sensitive. This is why an inflamed area hurts even with light pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the redness and swelling that occurs around an injury or infection site?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Fever",
+            "feedback": "Fever is a whole-body temperature rise, not the local redness and swelling at a wound."
+          },
+          {
+            "label": "Immunity",
+            "feedback": "Immunity is the long-term protection against a specific microbe, not the immediate local reaction."
+          },
+          {
+            "label": "Inflammation",
+            "feedback": "Yes, inflammation is the local response with redness, heat, swelling, and pain that helps fight infection and start healing."
+          },
+          {
+            "label": "Scarring",
+            "feedback": "Scarring is the permanent fibrous tissue that forms later during repair, not the immediate swelling."
+          }
+        ],
+        "ok_title": "Local reaction",
+        "ok_line": "Inflammation is redness, heat, swelling, and pain.",
+        "ko_title": "Term mix-up",
+        "ko_line": "Know the name for the immediate injury response.",
+        "exp_title": "Inflammation signs",
+        "exp_text": "Inflammation is the body's local alarm and repair response. Blood vessels widen to bring in white blood cells, causing redness and warmth, while fluid leaks out causing swelling, and chemicals cause pain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a fever that climbs too high become dangerous?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because it stops all white blood cells from working",
+            "feedback": "A very high fever can impair proteins, but it does not completely stop white blood cells; the main danger is protein damage."
+          },
+          {
+            "label": "Because it can damage essential proteins in the body",
+            "feedback": "Yes, above about 40-41°C, the body's own proteins start to unfold and lose function, which can be life-threatening."
+          },
+          {
+            "label": "Because it makes the body too cold afterwards",
+            "feedback": "A high fever does not cause dangerous cooling; the risk is from the heat itself."
+          },
+          {
+            "label": "Because it makes you sleep too much",
+            "feedback": "Sleepiness is normal during fever, but it is not the reason a high fever is dangerous."
+          }
+        ],
+        "ok_title": "Fever danger",
+        "ok_line": "Very high fever damages your own proteins.",
+        "ko_title": "Mild vs. severe",
+        "ko_line": "Not all fevers are safe—extreme heat harms the body.",
+        "exp_title": "Protein damage risk",
+        "exp_text": "Proteins in your body work only within a narrow temperature range. If a fever goes too high, heat can cause these proteins to unfold and stop working, which damages organs and can be fatal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does pain do for the body in the days after an injury, such as a sprained ankle?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It makes the injury heal faster",
+            "feedback": "Pain itself does not speed healing; it actually slows you down so you avoid further damage, but the healing comes from the repair process."
+          },
+          {
+            "label": "It cleans the wound",
+            "feedback": "Cleaning is done by white blood cells, not by the pain sensation."
+          },
+          {
+            "label": "It increases blood flow to the whole body",
+            "feedback": "Pain causes local changes, not a whole-body increase in blood flow."
+          },
+          {
+            "label": "It reminds you to rest and protect the injured area",
+            "feedback": "Yes, ongoing pain discourages you from using the hurt part, which allows healing to proceed without re-injury."
+          }
+        ],
+        "ok_title": "Pain protects healing",
+        "ok_line": "Pain makes you rest the injured part.",
+        "ko_title": "Pain's purpose",
+        "ko_line": "Pain isn't just annoying—it guides your behaviour.",
+        "exp_title": "Pain as a reminder",
+        "exp_text": "After an injury, pain continues to signal that the tissue is still fragile. By making movement uncomfortable, it forces you to favour the area, giving the repair process time to work."
+      }
+    ]
+  }
+]

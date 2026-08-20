@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a pole star?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A visible star that lies approximately along the rotation axis of a planet, so it appears near one of the celestial poles.",
+            "feedback": "Correct. A pole star is a star whose apparent position is close to the celestial pole, which is the point in the sky directly above a planet's pole of rotation."
+          },
+          {
+            "label": "The brightest star in any constellation.",
+            "feedback": "Brightness is not what defines a pole star. A pole star is defined by its alignment with the axis of rotation, not by how bright it is."
+          },
+          {
+            "label": "A star that never sets from any location on Earth.",
+            "feedback": "A circumpolar star never sets for some observers, but not all stars that never set are pole stars. The pole star is specifically the one near the celestial pole."
+          },
+          {
+            "label": "The star closest to Earth in the sky.",
+            "feedback": "Distance does not define a pole star. The Sun is the closest star, but it is not a pole star; the definition is about alignment with the rotation axis."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "A pole star sits near the celestial pole.",
+        "ko_title": "Not that",
+        "ko_line": "A pole star is about position, not brightness or distance.",
+        "exp_title": "Pole star definition",
+        "exp_text": "A pole star is any visible star that happens to lie close to the line of a planet's rotation axis extended into space. On Earth, this means a star near the north or south celestial pole, appearing almost stationary while other stars wheel around it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which star is currently Earth's northern pole star?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Vega",
+            "feedback": "Vega will be a pole star around the year 14,500 AD, but it is not the current one. The present northern pole star is Polaris."
+          },
+          {
+            "label": "Thuban",
+            "feedback": "Thuban was the pole star around 3000 BC, but it is not now. The current one is Polaris."
+          },
+          {
+            "label": "Kochab",
+            "feedback": "Kochab was a pole star in earlier times, but it is not the current one. Polaris is the present northern pole star."
+          },
+          {
+            "label": "Polaris",
+            "feedback": "Correct. Polaris, also called Alpha Ursae Minoris, is the bright star that currently marks the north celestial pole."
+          }
+        ],
+        "ok_title": "Current north star",
+        "ok_line": "Polaris is the north star today.",
+        "ko_title": "Wrong star",
+        "ko_line": "The current pole star is Polaris, not a past or future one.",
+        "exp_title": "Polaris as pole star",
+        "exp_text": "Polaris, in the constellation Ursa Minor, is the star that currently sits close to Earth's north celestial pole. It is a relatively bright star, visible to the naked eye, and is the one used for finding north."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the star that currently serves as the southern pole star?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Canopus",
+            "feedback": "Canopus is a bright star, but it is not the current southern pole star. The closest star to the south celestial pole now is Sigma Octantis."
+          },
+          {
+            "label": "Polaris Australis",
+            "feedback": "Correct. Polaris Australis, also known as Sigma Octantis, is the star closest to the south celestial pole, though it is quite faint."
+          },
+          {
+            "label": "Achernar",
+            "feedback": "Achernar was near the south pole around 2800 BC, but it is not the current one. The present southern pole star is Sigma Octantis."
+          },
+          {
+            "label": "Beta Hydri",
+            "feedback": "Beta Hydri was the nearest bright star to the south pole around 200 BC, but it is not the current one. Sigma Octantis holds that position now."
+          }
+        ],
+        "ok_title": "Southern pole star",
+        "ok_line": "Sigma Octantis is the south star.",
+        "ko_title": "Not the current one",
+        "ko_line": "Other stars were near the south pole in the past, but today it is Sigma Octantis.",
+        "exp_title": "Polaris Australis",
+        "exp_text": "The closest star to the south celestial pole is a faint star called Polaris Australis, or Sigma Octantis. It is so dim that it is barely visible on a clear night, which makes it less useful for navigation than Polaris is for the north."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Around what year will Polaris be closest to the north celestial pole?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Around 2000 AD",
+            "feedback": "In 2022 Polaris was still about a degree away, so it is not the closest now. The closest approach is predicted for the year 2100."
+          },
+          {
+            "label": "Around 2500 AD",
+            "feedback": "The closest approach is earlier than that. It will happen around 2100 AD, not 2500."
+          },
+          {
+            "label": "Around 2100 AD",
+            "feedback": "Correct. The celestial pole will be nearest to Polaris in the year 2100, after which it will start to move away again."
+          },
+          {
+            "label": "Around 3000 AD",
+            "feedback": "By 3000 AD the pole will have moved away from Polaris, so that is too late. The closest approach is in 2100."
+          }
+        ],
+        "ok_title": "Closest approach",
+        "ok_line": "Polaris is closest to the pole in 2100.",
+        "ko_title": "Not that year",
+        "ko_line": "The closest approach is around 2100, not earlier or later.",
+        "exp_title": "Polaris closest in 2100",
+        "exp_text": "Because of the slow wobble of Earth's axis, called precession, the north celestial pole slowly moves among the stars. Right now it is drifting toward Polaris, and it will be closest in the year 2100, after which it will start to pull away."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which star was the northern pole star around 3000 BC?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Thuban",
+            "feedback": "Correct. Thuban, a faint star in the constellation Draco, was the pole star around 3000 BC, coming within 0.1° of the celestial pole."
+          },
+          {
+            "label": "Kochab",
+            "feedback": "Kochab was a pole star later, during the 1st millennium BC, but not around 3000 BC. That was Thuban."
+          },
+          {
+            "label": "Polaris",
+            "feedback": "Polaris is the current pole star, not the one from 3000 BC. The pole was near Thuban back then."
+          },
+          {
+            "label": "Pherkad",
+            "feedback": "Pherkad was a pole star together with Kochab much later, but around 3000 BC the pole star was Thuban."
+          }
+        ],
+        "ok_title": "Ancient pole star",
+        "ok_line": "Thuban was the pole star in 3000 BC.",
+        "ko_title": "Wrong ancient star",
+        "ko_line": "The pole star then was Thuban, not any other star.",
+        "exp_title": "Thuban as pole star",
+        "exp_text": "Due to precession, the north celestial pole has moved among different stars over thousands of years. Around 3000 BC, the faint star Thuban in Draco was the pole star, sitting closer to the pole than any other visible pole star has ever been."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the current southern pole star less useful for navigation than Polaris?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is not a real star.",
+            "feedback": "It is a real star, a yellow giant, but it is not a false star. Its problem is that it is very faint, not that it is unreal."
+          },
+          {
+            "label": "It is too far from the south pole.",
+            "feedback": "It is actually about 1° from the south celestial pole, which is close. The issue is its faintness, not its distance from the pole."
+          },
+          {
+            "label": "It moves too fast in the sky.",
+            "feedback": "It does not move fast; all stars move together across the sky. The real problem is that it is too dim to see easily."
+          },
+          {
+            "label": "It is too faint to see easily.",
+            "feedback": "Correct. Sigma Octantis has a magnitude of about 5.5, so it is barely visible even on a clear night, making it a poor guide for finding south."
+          }
+        ],
+        "ok_title": "Faint south star",
+        "ok_line": "The south star is too dim for easy use.",
+        "ko_title": "Not the reason",
+        "ko_line": "The problem is faintness, not distance or reality.",
+        "exp_title": "Dimness of southern pole star",
+        "exp_text": "Sigma Octantis is the closest star to the south celestial pole, but at magnitude 5.5 it is near the limit of naked-eye visibility. Polaris, by comparison, is much brighter, which is why it is far more useful for navigation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which constellation is used as an approximate guide to the south celestial pole?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Ursa Minor",
+            "feedback": "Ursa Minor contains Polaris and is a northern constellation. The southern guide is the Southern Cross."
+          },
+          {
+            "label": "Draco",
+            "feedback": "Draco contains Thuban, a past northern pole star, not a southern guide. The Southern Cross is the southern pointer."
+          },
+          {
+            "label": "The Southern Cross",
+            "feedback": "Correct. The Southern Cross points toward where a southern pole star would be, serving as an approximate guide to the south celestial pole."
+          },
+          {
+            "label": "Cepheus",
+            "feedback": "Cepheus is a northern constellation that will contain future pole stars. The southern guide is the Southern Cross."
+          }
+        ],
+        "ok_title": "Southern cross guide",
+        "ok_line": "The Southern Cross points south.",
+        "ko_title": "Wrong constellation",
+        "ko_line": "The Southern Cross, not those northern ones, marks the south.",
+        "exp_title": "Southern Cross as pointer",
+        "exp_text": "Because there is no bright star at the south celestial pole, navigators use the Southern Cross constellation. Its long axis points toward where a southern pole star would be, making it a practical guide for finding south."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the role of pole star to pass from one star to another over thousands of years?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The stars move rapidly across the sky each night.",
+            "feedback": "Stars' nightly motion is due to Earth's rotation; it does not change which star is the pole star. The shift is caused by a slow drift of Earth's axis."
+          },
+          {
+            "label": "The precession of Earth's axis.",
+            "feedback": "Correct. Earth's axis slowly wobbles in a cycle of about 25,770 years, which causes the celestial poles to move among the stars, so different stars become pole stars over time."
+          },
+          {
+            "label": "The stars themselves travel quickly through space.",
+            "feedback": "Stars do have proper motion, but it is very slow, not the main cause of pole star changes over thousands of years. Precession dominates."
+          },
+          {
+            "label": "The Moon's gravity pulls the pole star away.",
+            "feedback": "The Moon's gravity causes tides and some wobble, but it is not what moves the pole among the stars. Precession is the cause."
+          }
+        ],
+        "ok_title": "Why pole stars change",
+        "ok_line": "Precession shifts the pole among stars.",
+        "ko_title": "Not the cause",
+        "ko_line": "It is the slow wobble of Earth's axis, not nightly motion.",
+        "exp_title": "Precession of the equinoxes",
+        "exp_text": "Earth's rotation axis is not fixed; it slowly traces a circle among the stars over about 26,000 years. This precession makes the celestial poles drift, so one star after another comes close to the pole and later gives way to the next."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which star will become the northern pole star around the year 14,500 AD?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Deneb",
+            "feedback": "Deneb will be a bright star near the pole in the 10th millennium, but it will be about 7° away, not the pole star. The one for 14,500 is Vega."
+          },
+          {
+            "label": "Errai",
+            "feedback": "Errai will be closest around 4200 AD, not 14,500. The later pole star is Vega."
+          },
+          {
+            "label": "Alderamin",
+            "feedback": "Alderamin will be near the pole around 7500 AD, but not in 14,500. Vega takes over much later."
+          },
+          {
+            "label": "Vega",
+            "feedback": "Correct. Vega, a bright star in Lyra, will be the northern pole star around 14,500 AD, though it will be about 5° from the pole."
+          }
+        ],
+        "ok_title": "Future north star",
+        "ok_line": "Vega will be the pole star in 14,500.",
+        "ko_title": "Not that star",
+        "ko_line": "Vega, not those others, is the pole star for 14,500 AD.",
+        "exp_title": "Vega as future pole star",
+        "exp_text": "As precession continues, the north celestial pole will move toward the constellation Lyra. Around the year 14,500, the bright star Vega will become the pole star, though it will be about 5° away from the exact pole, making it a less precise marker than Polaris is now."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the angular distance of Polaris from the north celestial pole as of the year 2022?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About one degree",
+            "feedback": "Correct. In 2022, Polaris had a mean declination of 89.35° north, which puts it within about 0.65° of the north celestial pole."
+          },
+          {
+            "label": "About five degrees",
+            "feedback": "Five degrees is much too far; that is the distance of some future pole stars like Vega. Polaris is within about one degree."
+          },
+          {
+            "label": "About eight degrees",
+            "feedback": "Eight degrees was the distance of Polaris from the pole in the 5th century, not in 2022. Today it is within about one degree."
+          },
+          {
+            "label": "Exactly zero degrees",
+            "feedback": "It is not exactly on the pole; it is about one degree away. The closest it gets is in 2100, still not exactly zero."
+          }
+        ],
+        "ok_title": "Polaris distance",
+        "ok_line": "Polaris is about a degree from the pole.",
+        "ko_title": "Wrong distance",
+        "ko_line": "It is close, about a degree, not far or exact.",
+        "exp_title": "Polaris offset",
+        "exp_text": "Polaris is not exactly at the north celestial pole; in 2022 it was about 0.65° away, meaning it traces a very small circle in the sky each night. This is close enough that it appears almost fixed and works well for finding north."
+      }
+    ]
+  }
+]

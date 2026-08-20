@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is rain made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Droplets of water",
+            "feedback": "Rain is composed of water droplets that have condensed from water vapor."
+          },
+          {
+            "label": "Ice crystals",
+            "feedback": "Ice crystals form in colder clouds, but rain itself is liquid water droplets."
+          },
+          {
+            "label": "Dust particles",
+            "feedback": "Dust can serve as nuclei for condensation, but rain is the water droplets themselves."
+          },
+          {
+            "label": "Air bubbles",
+            "feedback": "Air bubbles are not what rain is made of; rain is liquid water."
+          }
+        ],
+        "ok_title": "Rain's makeup",
+        "ok_line": "Rain is liquid water droplets falling from clouds.",
+        "ko_title": "Rain's makeup",
+        "ko_line": "Rain is not solid or dusty; it is liquid water.",
+        "exp_title": "Composition of rain",
+        "exp_text": "Rain is a form of precipitation made of droplets of water that condensed from atmospheric water vapor and fall by gravity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do we call very light, sporadic rainfall?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Drizzle",
+            "feedback": "Drizzle is the correct term for very light, sporadic rain."
+          },
+          {
+            "label": "Shower",
+            "feedback": "A shower is brief and moderate, not very light."
+          },
+          {
+            "label": "Cloudburst",
+            "feedback": "A cloudburst is brief and heavy, not light."
+          },
+          {
+            "label": "Downpour",
+            "feedback": "A downpour is prolonged and heavy, not light."
+          }
+        ],
+        "ok_title": "Light rain name",
+        "ok_line": "Very light rain is called drizzle.",
+        "ko_title": "Rain intensity terms",
+        "ko_line": "Each intensity has its own name; drizzle is the lightest.",
+        "exp_title": "Rain intensity classification",
+        "exp_text": "Based on intensity, rain can be named drizzle for very light and sporadic falls, shower for brief and moderate, cloudburst for brief heavy, and downpour for prolonged heavy rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the major cause of rain production?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Strong winds",
+            "feedback": "Winds can accompany rain, but they are not the main cause."
+          },
+          {
+            "label": "Moisture moving along weather fronts",
+            "feedback": "Moisture moving along three-dimensional zones of temperature and moisture contrasts, called weather fronts, is the major cause."
+          },
+          {
+            "label": "Cold temperatures alone",
+            "feedback": "Cold is involved in condensation, but without fronts and moisture, rain would not occur."
+          },
+          {
+            "label": "Thunder and lightning",
+            "feedback": "Lightning is a separate phenomenon that sometimes accompanies rain but does not cause it."
+          }
+        ],
+        "ok_title": "Cause of rain",
+        "ok_line": "Weather fronts drive most rain production.",
+        "ko_title": "Cause of rain",
+        "ko_line": "Rain needs fronts, not just wind or cold.",
+        "exp_title": "Role of weather fronts",
+        "exp_text": "Rain is mainly produced when moisture moves along weather fronts, which are zones where temperature and moisture contrasts exist, causing upward air motion and condensation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to air as it rises over a mountain?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It warms and dries",
+            "feedback": "That happens on the leeward side after descending, not while rising."
+          },
+          {
+            "label": "It stays the same",
+            "feedback": "Rising air changes; it expands and cools."
+          },
+          {
+            "label": "It cools and condenses",
+            "feedback": "Rising air expands and cools adiabatically, leading to condensation and rain."
+          },
+          {
+            "label": "It becomes heavier",
+            "feedback": "Rising air does not become heavier; it expands."
+          }
+        ],
+        "ok_title": "Mountain air effect",
+        "ok_line": "Rising air cools and condenses.",
+        "ko_title": "Mountain air effect",
+        "ko_line": "Going up cools air, not warms it.",
+        "exp_title": "Orographic lifting",
+        "exp_text": "When air is forced up a mountain, it rises, expands, and cools adiabatically; this cooling brings it to its dew point, causing condensation and often rain on the windward side."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is relative humidity a percentage of?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The amount of rain in the air",
+            "feedback": "Humidity measures water vapor, not liquid rain droplets."
+          },
+          {
+            "label": "The total air pressure",
+            "feedback": "Air pressure is a different measure; humidity is about water vapor."
+          },
+          {
+            "label": "The temperature of the air",
+            "feedback": "Temperature affects humidity but is not what humidity measures."
+          },
+          {
+            "label": "The total water vapor air can hold at that temperature",
+            "feedback": "Relative humidity is the percentage of water vapor the air currently holds compared to the maximum it can hold at that temperature."
+          }
+        ],
+        "ok_title": "Humidity meaning",
+        "ok_line": "It compares current vapor to maximum capacity.",
+        "ko_title": "Humidity meaning",
+        "ko_line": "It is about vapor, not rain or pressure.",
+        "exp_title": "Relative humidity definition",
+        "exp_text": "Relative humidity is the percentage of total water vapor the air can hold at a specific temperature that it currently contains. Reaching 100% means the air is saturated."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the dew point?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The temperature to which air must be cooled to become saturated",
+            "feedback": "That is exactly the definition of the dew point."
+          },
+          {
+            "label": "The temperature at which rain starts to freeze",
+            "feedback": "Freezing of rain is a different process; dew point is about saturation."
+          },
+          {
+            "label": "The highest temperature of the day",
+            "feedback": "The daily high is not related to dew point."
+          },
+          {
+            "label": "The temperature of a cloud",
+            "feedback": "Cloud temperature is not the same as the dew point of an air parcel."
+          }
+        ],
+        "ok_title": "Dew point meaning",
+        "ok_line": "It is the cooling target for saturation.",
+        "ko_title": "Dew point meaning",
+        "ko_line": "It concerns moisture, not freezing or daily weather.",
+        "exp_title": "Dew point definition",
+        "exp_text": "The dew point is the temperature to which a parcel of air must be cooled for it to become saturated (reach 100% relative humidity). Cooling to this point leads to condensation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a mechanism for cooling air to its dew point?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Heating the air",
+            "feedback": "Heating would raise the temperature, not cool it to the dew point."
+          },
+          {
+            "label": "Adiabatic cooling",
+            "feedback": "Adiabatic cooling occurs when air rises and expands, cooling it toward the dew point."
+          },
+          {
+            "label": "Adding heat from the sun",
+            "feedback": "Sunlight warms air, which is the opposite of cooling."
+          },
+          {
+            "label": "Increasing air pressure",
+            "feedback": "Increasing pressure warms air, not cools it."
+          }
+        ],
+        "ok_title": "Cooling mechanisms",
+        "ok_line": "Rising air cools adiabatically.",
+        "ko_title": "Cooling mechanisms",
+        "ko_line": "Cooling, not heating, brings air to saturation.",
+        "exp_title": "Cooling methods to saturation",
+        "exp_text": "There are four main mechanisms to cool air to its dew point: adiabatic cooling from rising and expanding, conductive cooling from contact with colder surfaces, radiational cooling from emitting infrared radiation, and evaporative cooling from adding moisture."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do water droplets need to condense onto in order to form clouds?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Nothing at all",
+            "feedback": "Water vapor needs a surface or particle to condense onto."
+          },
+          {
+            "label": "Other water droplets",
+            "feedback": "Droplets need nuclei first; they can't form from nothing."
+          },
+          {
+            "label": "Condensation nuclei such as dust, ice, or salt",
+            "feedback": "Water vapor condenses on tiny particles like dust, ice, or salt to form cloud droplets."
+          },
+          {
+            "label": "Air molecules",
+            "feedback": "Air molecules are not enough; condensation requires larger particles."
+          }
+        ],
+        "ok_title": "Cloud formation nuclei",
+        "ok_line": "Dust, ice, and salt serve as bases.",
+        "ko_title": "Cloud formation nuclei",
+        "ko_line": "Vapor needs a seed particle to condense.",
+        "exp_title": "Condensation nuclei",
+        "exp_text": "Water vapor condenses onto tiny particles in the atmosphere, such as dust, ice, or salt, which are called condensation nuclei. These serve as surfaces for droplets to form, creating clouds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the process called when water droplets collide and fuse to form larger droplets?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Evaporation",
+            "feedback": "Evaporation is the opposite; it turns liquid into vapor."
+          },
+          {
+            "label": "Condensation",
+            "feedback": "Condensation turns vapor into liquid, but this process is about droplets merging."
+          },
+          {
+            "label": "Freezing",
+            "feedback": "Freezing turns liquid into ice, not merging droplets."
+          },
+          {
+            "label": "Coalescence",
+            "feedback": "Coalescence is when water droplets fuse to create larger droplets."
+          }
+        ],
+        "ok_title": "Droplet merging",
+        "ok_line": "Fusion of droplets is coalescence.",
+        "ko_title": "Droplet merging",
+        "ko_line": "It is not about phase change but about combining drops.",
+        "exp_title": "Coalescence process",
+        "exp_text": "Coalescence occurs when water droplets collide and fuse, producing larger droplets. This process helps drops become heavy enough to fall as rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape do small cloud droplets have?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Spherical",
+            "feedback": "Small droplets are spherical due to surface tension."
+          },
+          {
+            "label": "Oblate like a hamburger bun",
+            "feedback": "That shape appears as drops grow larger, not for small ones."
+          },
+          {
+            "label": "Teardrop",
+            "feedback": "The teardrop shape is a common misconception; small drops are round."
+          },
+          {
+            "label": "Parachute-like",
+            "feedback": "Very large drops may be parachute-shaped, but not small ones."
+          }
+        ],
+        "ok_title": "Cloud droplet shape",
+        "ok_line": "Small droplets are round spheres.",
+        "ko_title": "Cloud droplet shape",
+        "ko_line": "Shape changes with size, but small means spherical.",
+        "exp_title": "Droplet shapes by size",
+        "exp_text": "Small cloud droplets are spherical. As raindrops grow larger, they become more oblate, flattened on the bottom like hamburger buns, and very large ones resemble parachutes; they never look like teardrops."
+      }
+    ]
+  }
+]

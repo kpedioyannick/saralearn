@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does darkness result from?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A lack of illumination or an absence of visible light",
+            "feedback": "Correct. Darkness is defined as the condition that comes from having little or no visible light."
+          },
+          {
+            "label": "Too much illumination",
+            "feedback": "That would make things bright, not dark. Darkness needs the opposite—little or no light."
+          },
+          {
+            "label": "The presence of shadows only",
+            "feedback": "Shadows are caused by blocked light, but darkness in general is simply the absence of visible light."
+          },
+          {
+            "label": "The absence of color",
+            "feedback": "Color can disappear in low light, but the lack of color alone does not create darkness; you need little or no light."
+          }
+        ],
+        "ok_title": "Lack of light",
+        "ok_line": "Darkness comes from having no visible light around.",
+        "ko_title": "Not enough light",
+        "ko_line": "Darkness is the result of too little light, not too much.",
+        "exp_title": "Condition of darkness",
+        "exp_text": "Darkness is simply the condition that occurs when there is a lack of illumination or an absence of visible light. Without light, the surroundings appear dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a dark object appear dark?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it reflects all light",
+            "feedback": "Reflecting all light would make it appear bright, not dark. Dark objects absorb light."
+          },
+          {
+            "label": "Because it emits no light of its own",
+            "feedback": "Many bright objects also emit no light of their own and still appear bright because they reflect light. The key is that a dark object absorbs light."
+          },
+          {
+            "label": "Because it absorbs photons",
+            "feedback": "Correct. An object that absorbs photons reflects little light, so it appears dim compared to others."
+          },
+          {
+            "label": "Because it scatters light in all directions",
+            "feedback": "Scattering light would send light back to your eyes, making the object visible and bright. Dark objects absorb light instead."
+          }
+        ],
+        "ok_title": "Absorbs photons",
+        "ok_line": "A dark object is one that soaks up light.",
+        "ko_title": "Light is absorbed",
+        "ko_line": "Darkness of an object comes from absorbing light.",
+        "exp_title": "Why objects look dark",
+        "exp_text": "In physics, an object appears dark when it absorbs photons, so it reflects only a little light and looks dim compared to other objects. For instance, matte black paint absorbs most visible light and appears dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a person's pupils when they enter a dark area?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They shrink",
+            "feedback": "Shrinking would let in less light, which is the opposite of what is needed in darkness. Pupils open wider to gather more light."
+          },
+          {
+            "label": "They dilate",
+            "feedback": "Correct. The pupils widen to let more light enter the eye, improving night vision."
+          },
+          {
+            "label": "They stay the same size",
+            "feedback": "They change size in response to light levels. In darkness they expand to catch more light."
+          },
+          {
+            "label": "They close completely",
+            "feedback": "If they closed completely, no light could enter and you would see nothing at all. They actually open wider."
+          }
+        ],
+        "ok_title": "Pupils widen",
+        "ok_line": "In darkness, pupils open up to let in more light.",
+        "ko_title": "More light inside",
+        "ko_line": "Pupils dilate to improve night vision.",
+        "exp_title": "Adapting to darkness",
+        "exp_text": "When a vertebrate like a human enters a dark area, the pupils dilate, allowing more light to enter the eye. This helps improve night vision."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the eye is responsible for color perception?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The lens",
+            "feedback": "The lens focuses light onto the retina; it does not detect color. Color is sensed by specific cells in the retina."
+          },
+          {
+            "label": "The iris",
+            "feedback": "The iris controls the size of the pupil; it does not sense light or color."
+          },
+          {
+            "label": "The rods",
+            "feedback": "Rods are very sensitive to light but they do not perceive color. They help you see in dim light without color."
+          },
+          {
+            "label": "The cone cells",
+            "feedback": "Correct. Cone cells are the photoreceptor cells on the retina that perceive color."
+          }
+        ],
+        "ok_title": "Cone cells",
+        "ok_line": "Color vision comes from cone cells.",
+        "ko_title": "Color in the retina",
+        "ko_line": "Cone cells give you color vision.",
+        "exp_title": "Photoreceptors for color",
+        "exp_text": "Cone cells are the type of photoreceptor cell on the retina that is responsible for the perception of color. They are less sensitive to light than rods, so in very dim light they become inactive and colors fade."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of vision do humans have under low light conditions?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Scotopic vision",
+            "feedback": "Correct. In low light, vision becomes monochrome, known as scotopic vision."
+          },
+          {
+            "label": "Photopic vision",
+            "feedback": "That is vision under normal lighting conditions, with colors seen clearly. Low light uses a different mode."
+          },
+          {
+            "label": "Mesopic vision",
+            "feedback": "That is vision under intermediate lighting, not low light. Low light is scotopic."
+          },
+          {
+            "label": "Monocular vision",
+            "feedback": "That refers to using one eye, not to low-light vision. The term for low light is scotopic."
+          }
+        ],
+        "ok_title": "Scotopic vision",
+        "ok_line": "Low light gives scotopic vision.",
+        "ko_title": "Vision in dim light",
+        "ko_line": "Low light means scotopic vision, not other types.",
+        "exp_title": "Monochrome in darkness",
+        "exp_text": "Under low light conditions, human vision becomes monochrome, a phenomenon called scotopic vision. This happens because cone cells, which perceive color, are inactive at such low light levels."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the material called that absorbs up to 99.965% of visible light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Matte black paint",
+            "feedback": "Matte black paint absorbs much light but not that much; it does not absorb nearly all visible light like the mentioned material."
+          },
+          {
+            "label": "White paint",
+            "feedback": "White paint reflects most visible light, so it appears bright, not dark. The material in question is extremely dark."
+          },
+          {
+            "label": "Vantablack",
+            "feedback": "Correct. Vantablack is one of the darkest substances known, absorbing up to 99.965% of visible light."
+          },
+          {
+            "label": "Rhodopsin",
+            "feedback": "Rhodopsin is a light-detecting molecule in the eye, not a dark material. The question asks for a substance that absorbs light."
+          }
+        ],
+        "ok_title": "Vantablack",
+        "ok_line": "Vantablack absorbs almost all visible light.",
+        "ko_title": "Ultra-dark material",
+        "ko_line": "Vantablack is the darkest known substance.",
+        "exp_title": "Extreme darkness material",
+        "exp_text": "Vantablack is a material that absorbs up to 99.965% of visible light, making it one of the darkest substances known. Its name comes from 'vertically aligned nanotube arrays' plus the word black."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "On a standard display, what does a pixel look like when all three color components are unilluminated?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "White",
+            "feedback": "White appears when all components are fully illuminated (255,255,255), not when they are unilluminated."
+          },
+          {
+            "label": "Black",
+            "feedback": "Correct. When red, green, and blue components are all at 0, the pixel appears black."
+          },
+          {
+            "label": "Gray",
+            "feedback": "Gray would have equal but non-zero values. Unilluminated means zero for all, which gives black."
+          },
+          {
+            "label": "Invisible",
+            "feedback": "The pixel still appears as black, not invisible. Unilluminated means no color, resulting in black."
+          }
+        ],
+        "ok_title": "Black pixel",
+        "ok_line": "No color means black on a screen.",
+        "ko_title": "Zero values",
+        "ko_line": "All zero RGB gives black.",
+        "exp_title": "RGB display colors",
+        "exp_text": "On a standard 24-bit display, a pixel's color is set by three RGB values each from 0 to 255. When all three are unilluminated (0,0,0), the pixel appears black."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the Bortle scale measure?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The depth of the ocean",
+            "feedback": "The ocean's depth is not measured by this scale. The Bortle scale is about night sky brightness."
+          },
+          {
+            "label": "The color of darkness",
+            "feedback": "Darkness does not have color; the scale measures how bright the night sky and stars appear."
+          },
+          {
+            "label": "The darkness of an object",
+            "feedback": "That is about how much light an object absorbs, not what the Bortle scale does. It rates the night sky."
+          },
+          {
+            "label": "The brightness of the night sky and stars at a location",
+            "feedback": "Correct. The Bortle scale indicates how bright the night sky and stars appear at a given place."
+          }
+        ],
+        "ok_title": "Night sky brightness",
+        "ok_line": "Bortle scale rates the night sky's brightness.",
+        "ko_title": "Sky darkness",
+        "ko_line": "The Bortle scale tells how bright the night sky is.",
+        "exp_title": "Measuring darkness of sky",
+        "exp_text": "The Bortle scale is a scientific measure of darkness that indicates the night sky's and stars' brightness at a particular location, and how well celestial objects can be seen there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which religious tradition is darkness described as the 'outer realm' with weeping and gnashing of teeth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Judeo-Christian",
+            "feedback": "Correct. In the New Testament, darkness is the 'outer realm' where there is weeping and gnashing of teeth, symbolizing separation from God."
+          },
+          {
+            "label": "Islam",
+            "feedback": "In Islam, darkness is often a metaphor for misguidance, but the phrase 'outer realm' with weeping and gnashing is from the New Testament."
+          },
+          {
+            "label": "Ancient Greek mythology",
+            "feedback": "Greek mythology has Erebus as darkness, but the specific 'outer realm' phrase is not from that tradition."
+          },
+          {
+            "label": "Chinese philosophy",
+            "feedback": "In Chinese philosophy, yin is the dark lobe, but there is no mention of weeping and gnashing of teeth."
+          }
+        ],
+        "ok_title": "Judeo-Christian",
+        "ok_line": "Darkness as outer realm is from the New Testament.",
+        "ko_title": "Darkness in religion",
+        "ko_line": "The 'outer realm' phrase belongs to Judeo-Christian writings.",
+        "exp_title": "Darkness in religion",
+        "exp_text": "In the Judeo-Christian tradition, darkness is the 'outer realm' where there is weeping and gnashing of teeth, symbolizing eternal separation from God. This is from the New Testament."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the primordial deity in Greek mythology that represents darkness?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Hades",
+            "feedback": "Hades is the god of the underworld, not the personification of darkness itself. The deity of darkness is Erebus."
+          },
+          {
+            "label": "Zeus",
+            "feedback": "Zeus is the god of the sky and thunder, not darkness. The primordial deity for darkness is Erebus."
+          },
+          {
+            "label": "Erebus",
+            "feedback": "Correct. Erebus was a primordial deity representing the personification of darkness, associated with the underworld."
+          },
+          {
+            "label": "Apollo",
+            "feedback": "Apollo is a god of light and the sun, not darkness. Erebus is the one representing darkness."
+          }
+        ],
+        "ok_title": "Erebus",
+        "ok_line": "Erebus is the Greek god of darkness.",
+        "ko_title": "Greek deity of darkness",
+        "ko_line": "Erebus personifies darkness in Greek mythology.",
+        "exp_title": "Darkness in mythology",
+        "exp_text": "In ancient Greek mythology, Erebus was a primordial deity representing the personification of darkness, particularly linked to the shadowy realm of death and the underworld."
+      }
+    ]
+  }
+]

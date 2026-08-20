@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 145,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lake form in some spots rather than the water simply draining away downhill?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The rock beneath a lake is always waterproof and new",
+            "feedback": "Rock under a lake bed is not usually different in age from rock elsewhere; what matters is the shape of the ground, not how new the rock is."
+          },
+          {
+            "label": "The land forms a basin lower than the ground around it",
+            "feedback": "Water flowing downhill from every direction ends up in the lowest point it can reach, and if that low point is enclosed rather than open on one side, the water simply collects there instead of continuing on."
+          },
+          {
+            "label": "Lakes form only where a river suddenly stops flowing",
+            "feedback": "Rivers keep flowing through many lakes rather than stopping at them; a lake is a shape the land makes, not a place where a river gives up."
+          },
+          {
+            "label": "Underground pressure pushes water up to fill a lake",
+            "feedback": "Most lakes are filled from above, by rain and streams, rather than pushed up from below; the water in a lake sits in a hollow, it is not forced there."
+          }
+        ],
+        "ok_title": "A hollow in the land",
+        "ok_line": "Water is only doing what it always does: heading for the lowest point around.",
+        "ko_title": "Wrong shape",
+        "ko_line": "A lake is defined by the shape of the ground beneath it, before anything about the water is considered.",
+        "exp_title": "Where downhill runs out of down",
+        "exp_text": "Water flowing across a landscape keeps moving toward whatever point is lowest, and across most of the land that point eventually connects onward to a stream, then a river, then the sea. Where the ground instead forms an enclosed dip with no lower outlet nearby, incoming water has nowhere further to go and simply accumulates there. That standing accumulation, fed continually by rain and streams draining into the same basin, is what a lake is."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the water near the bottom of a deep lake often much colder than the water at the surface on a hot summer day?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sunlight only warms a shallow layer near the surface",
+            "feedback": "Warmth from the sun is absorbed within the first stretch of water it reaches, so only that top layer heats up, while the water far below is left untouched by it."
+          },
+          {
+            "label": "Cold springs constantly refill the bottom of the lake",
+            "feedback": "Most lakes are not fed by springs at the bottom at all; the temperature difference exists even in lakes with no spring feeding them from below."
+          },
+          {
+            "label": "Fish stir the surface water, which speeds its cooling",
+            "feedback": "Fish movement is far too small and localised to noticeably cool or mix a whole lake's surface layer."
+          },
+          {
+            "label": "The deepest water is closer to underground ice",
+            "feedback": "Underground ice near a lake bed is extremely rare, and most lakes with this cold-bottom pattern have no ice anywhere nearby."
+          }
+        ],
+        "ok_title": "Warmed from the top down",
+        "ok_line": "The heat never made it past the surface layer.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about how far sunlight actually travels into water before it's absorbed.",
+        "exp_title": "Heat that never reaches the bottom",
+        "exp_text": "Sunlight loses its energy quickly once it enters water, being absorbed and scattered within a layer near the surface rather than passing all the way through. That absorbed heat warms only the water it reaches, and warm water is lighter than cold water, so it floats on top instead of sinking down to mix with the rest. The deep water below stays close to the temperature it was before summer began, cut off from the warmth by the layer floating above it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many lakes mix their warm surface water and cold deep water together during autumn?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Autumn winds are strong enough to reach the lake bottom directly",
+            "feedback": "Wind can only stir the surface of a lake on its own; it has no way to push all the way down to the bottom of a deep lake by force alone."
+          },
+          {
+            "label": "Fish migrate downward and carry warm water with them",
+            "feedback": "Fish are far too small in number and size to physically carry meaningful amounts of water anywhere in a lake."
+          },
+          {
+            "label": "Rain in autumn is colder and sinks straight to the bottom",
+            "feedback": "Rain does cool a lake's surface, but a single rain shower adds far too little water to fully mix a whole lake by itself."
+          },
+          {
+            "label": "The surface cools until it matches the temperature of the deep water",
+            "feedback": "Once the surface loses its extra warmth, it is no longer lighter than the water below it, and with that difference gone, wind can finally stir the whole lake from top to bottom."
+          }
+        ],
+        "ok_title": "The barrier disappears",
+        "ok_line": "It isn't that the water gets pushed down, it's that nothing keeps it apart anymore.",
+        "ko_title": "Not quite the trigger",
+        "ko_line": "Ask what was keeping the layers apart all summer, and what removes that difference in autumn.",
+        "exp_title": "Mixing once the difference is gone",
+        "exp_text": "Through summer, a lake stays layered because its warm, light surface water floats on top of colder, denser water below, and that difference in density keeps wind from stirring the two together. As air temperatures drop in autumn, the surface loses its heat and cools until it matches the temperature, and so the density, of the water underneath it. With no floating layer left to resist it, even ordinary wind is now enough to mix the lake from top to bottom."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a lake such as the Dead Sea or the Great Salt Lake so much saltier than most lakes, which stay fresh?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Salt naturally rises up from deep inside the earth beneath it",
+            "feedback": "Salt does not seep upward through solid rock into a lake from below; the salt already present arrives dissolved in the water flowing into the lake from rivers and streams."
+          },
+          {
+            "label": "Water leaves only by evaporating, and evaporation leaves the salt behind",
+            "feedback": "With no outlet river carrying water away, the only way water leaves is by evaporating into the air, and evaporation takes only the water itself, leaving every trace of dissolved mineral behind to build up over time."
+          },
+          {
+            "label": "Sea water seeps in underground from a nearby coastline",
+            "feedback": "Most salt lakes like these sit far from any ocean, with no underground connection to seawater at all; their salt comes from a different, slower process."
+          },
+          {
+            "label": "Fish and plants in the lake release salt as they die",
+            "feedback": "Very little life survives in water this salty in the first place, and what little there is releases far too little salt to account for water this concentrated."
+          }
+        ],
+        "ok_title": "Salt with no way out",
+        "ok_line": "Every river brings a little salt in; only water, never salt, leaves again.",
+        "ko_title": "Not the source",
+        "ko_line": "The salt was never added directly. Ask what happens to it once it's already inside.",
+        "exp_title": "A lake that only loses water, never salt",
+        "exp_text": "Rivers flowing into any lake carry a small amount of dissolved mineral picked up from the rock and soil they crossed, and most lakes pass that mineral straight along through an outlet river of their own. A lake with no outlet keeps everything that flows in, and its only way of losing water is evaporation, which lifts pure water vapour into the air and leaves every dissolved mineral behind in what remains. Over centuries of rivers arriving and only water ever leaving, the salt that keeps arriving has nowhere to go but to keep concentrating."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a deep lake stay liquid at the bottom even after its surface has frozen solid?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The lake bed generates its own heat",
+            "feedback": "Ordinary lake beds produce no meaningful heat of their own; whatever warmth exists in the deep water was already there before winter began."
+          },
+          {
+            "label": "Ice is a good conductor of heat and keeps the water below warm",
+            "feedback": "Ice is a poor conductor of heat, which is part of the story, but a poor conductor blocks heat from escaping rather than actively keeping anything warm."
+          },
+          {
+            "label": "Water is densest, and sinks furthest, at a temperature just above freezing",
+            "feedback": "As water cools toward freezing it gets denser and sinks, but only down to a certain point; past that point it becomes lighter again, so the coldest water of all floats up while slightly warmer water stays pooled at the bottom."
+          },
+          {
+            "label": "Fish generate enough body heat to keep the depths from freezing",
+            "feedback": "Fish produce far too little body heat, spread through far too much water, to have any noticeable effect on a whole lake's temperature."
+          }
+        ],
+        "ok_title": "An unusual quirk of water",
+        "ok_line": "Water at its densest is not water at its coldest.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Something about how water's density changes with temperature is doing the protecting here.",
+        "exp_title": "Water that protects its own bottom layer",
+        "exp_text": "Unlike most substances, water does not simply keep getting denser the colder it gets; it reaches its greatest density a few degrees above freezing, and below that point it actually becomes lighter again as it approaches ice. That means the coldest water in a lake, the water closest to freezing, rises to the top rather than sinking, while the slightly warmer, denser water settles at the bottom. The surface can freeze into a solid sheet while the deep water beneath it, protected by that layer of ice and never displaced by anything colder, stays liquid all winter."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a lake's water level shift noticeably from one year to the next, even when no obvious river feeds it?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The balance between rainfall, evaporation and seepage shifts year to year",
+            "feedback": "A lake without a visible inflow is still gaining water from rain falling directly on it and groundwater seeping in, and losing it to evaporation and outflow, so any shift in that ongoing balance shows up as a change in level."
+          },
+          {
+            "label": "The lake basin itself grows and shrinks physically",
+            "feedback": "The rock and soil forming a lake basin do not expand or contract meaningfully from one year to the next; the level changes because of the water in it, not the container holding it."
+          },
+          {
+            "label": "Water is added directly by ocean tides reaching inland",
+            "feedback": "Tidal reach is limited to coastal areas connected to the sea; a lake far inland, with no such connection, is entirely unaffected by tides."
+          },
+          {
+            "label": "The moon's gravity pulls more strongly on inland lakes some years",
+            "feedback": "The moon's pull on any single lake is far too small and far too constant from year to year to explain a noticeable rise or fall in its level."
+          }
+        ],
+        "ok_title": "A quiet balance, tipping either way",
+        "ok_line": "No visible river doesn't mean no water moving in and out.",
+        "ko_title": "Look for hidden inflow and outflow",
+        "ko_line": "A lake without a river still has water arriving and leaving; ask what those quieter routes are.",
+        "exp_title": "A balance kept without a river in sight",
+        "exp_text": "Even a lake with no obvious stream feeding it still receives water directly from rain falling on its surface and from groundwater seeping in through its bed, while it loses water to evaporation and to any seepage flowing back out. None of those routes has to stay constant from one year to the next; a wetter year adds more than it removes, and a hot, dry year removes more than it adds. The level rises or falls simply by tracking whichever side of that quiet balance won out that year."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the water near the shore of a lake often noticeably warmer than the water out in the middle?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Shore water is closer to the sun",
+            "feedback": "The distance from any point on a lake to the sun is enormous compared with a lake's width; being closer to shore does not meaningfully change that distance."
+          },
+          {
+            "label": "People swimming near the shore warm the water",
+            "feedback": "Swimmers add negligible heat compared to the sun, and shallow water is warmer even along shorelines nobody swims at."
+          },
+          {
+            "label": "Waves near the shore generate friction that heats the water",
+            "feedback": "Wave friction produces far too little heat to noticeably warm a whole stretch of shoreline water."
+          },
+          {
+            "label": "There is far less water near the shore for the same sunlight to warm",
+            "feedback": "The same sunlight falling on a small, shallow volume of water raises its temperature far more than it would raise the temperature of the much larger volume sitting further out."
+          }
+        ],
+        "ok_title": "Less water, same sun",
+        "ok_line": "The heat wasn't stronger near the shore, there was simply less water to spread it through.",
+        "ko_title": "Wrong source of heat",
+        "ko_line": "The sun reaches the whole lake equally; ask what differs about the water itself near the shore.",
+        "exp_title": "The same warmth, spread through less water",
+        "exp_text": "Sunlight falls on the whole surface of a lake at roughly the same intensity, whether the water below is a few feet deep near the shore or many times deeper out in the middle. That same amount of heat, absorbed into a shallow volume of water near the shore, raises its temperature by far more than the identical heat spreads through the much larger volume sitting out in open water. The shallows warm quickly because there is simply less water there to share the same sunlight with."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some lakes stay crystal clear while others nearby turn murky and green?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Clear lakes have less rain falling into them",
+            "feedback": "The amount of rain falling on a lake has little to do with its clarity; lakes in very rainy regions can still stay perfectly clear."
+          },
+          {
+            "label": "Murky lakes have more nutrients feeding algae that cloud the water",
+            "feedback": "Extra nutrients washing in, often from farmland or waste nearby, feed dense growths of tiny floating algae, and it is those countless small organisms suspended in the water that block light and turn it green."
+          },
+          {
+            "label": "Clear lakes sit at a higher altitude than murky ones",
+            "feedback": "Altitude on its own does not determine clarity; clear and murky lakes exist at both high and low elevations, depending instead on what is feeding them."
+          },
+          {
+            "label": "Murky lakes have rockier lake beds that stir up sediment",
+            "feedback": "A rocky bed generally stays put rather than clouding water above it; loose fine sediment causes murkiness, and that is a different problem from what colours water green."
+          }
+        ],
+        "ok_title": "Fed differently, coloured differently",
+        "ok_line": "The green isn't the water itself, it's everything living in it.",
+        "ko_title": "Not the deciding factor",
+        "ko_line": "The clarity of a lake tracks what is feeding it, not where it sits or what its bed is made of.",
+        "exp_title": "Clarity decided by what a lake is fed",
+        "exp_text": "A lake with little nutrient washing in from its surroundings can only support a small amount of floating algae, so light passes through largely unobstructed and the water looks clear. A lake receiving a heavier load of nutrients, often carried in by runoff from farmland or towns nearby, can support vastly more of that same algae, and each tiny organism blocks a little of the light passing through. Multiplied across the whole lake, that dense floating growth is what turns the water cloudy and green rather than clear."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lake's water stay fresh, rather than gradually turning salty, even though the rivers feeding it carry dissolved minerals the same way rivers feeding the sea do?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Fresh lakes are fed only by rain, never by rivers",
+            "feedback": "Most fresh lakes are fed by rivers as well as rain; the difference is not in what feeds them, since salty lakes are often fed by rivers too."
+          },
+          {
+            "label": "Plants in the lake absorb all the incoming salt",
+            "feedback": "Plants take up only small amounts of specific minerals for their own growth, nowhere near enough to remove all the dissolved mineral a river continually brings in."
+          },
+          {
+            "label": "The lake has an outlet river that carries dissolved minerals back out",
+            "feedback": "Whatever mineral arrives with the water flowing in also leaves again with the water flowing out through the outlet, so nothing is left behind to build up over time."
+          },
+          {
+            "label": "The rock under a fresh lake does not release any minerals",
+            "feedback": "The rock beneath most fresh lakes releases the same small amounts of mineral as rock anywhere else; what differs is whether that mineral is ever carried back out again."
+          }
+        ],
+        "ok_title": "In one side, out the other",
+        "ok_line": "The minerals arrive just as they do everywhere else, they simply don't stay.",
+        "ko_title": "Not what's missing, what's exiting",
+        "ko_line": "A lake with an outlet is losing more than just water when that river flows out.",
+        "exp_title": "A lake that passes its minerals along",
+        "exp_text": "Rivers everywhere carry a small amount of dissolved mineral picked up from the land they cross, and a lake fed by such a river receives that mineral along with the water. Where that lake also has an outlet, the water leaving through it carries the same dissolved mineral back out again, roughly balancing what arrived. With incoming and outgoing mineral staying roughly matched year after year, nothing accumulates the way it does in a basin where the water can only leave by evaporating."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a very deep lake take far longer to freeze over than a shallow lake nearby, even in the same cold spell?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A larger volume of water has to lose far more heat before it cools to freezing",
+            "feedback": "Every part of that huge volume has to be brought down close to freezing before ice can form on top, and cooling that much water simply takes far more time than cooling a shallow lake's small volume."
+          },
+          {
+            "label": "Deep lakes are naturally saltier and resist freezing",
+            "feedback": "Depth by itself has no effect on how salty a lake is; most deep freshwater lakes have no more salt in them than shallow ones nearby."
+          },
+          {
+            "label": "Wind cannot reach the surface of a deep lake as easily",
+            "feedback": "Wind blows across the surface of a lake regardless of how deep the water beneath it happens to be; depth does not shield the surface from wind."
+          },
+          {
+            "label": "Deep lakes are warmed by heat rising from the lake bed",
+            "feedback": "Ordinary lake beds are not a meaningful source of heat; the slow freezing has to do with the huge volume of water above the bed, not warmth coming from below it."
+          }
+        ],
+        "ok_title": "More water to cool",
+        "ok_line": "The delay isn't about the lake's chemistry, it's about how much water there is to chill.",
+        "ko_title": "Wrong explanation",
+        "ko_line": "Think about what a cold spell actually has to do before ice can start forming.",
+        "exp_title": "Ice waits on the whole lake, not just the top",
+        "exp_text": "Before a sheet of ice can form and hold on a lake's surface, wind and mixing tend to stir that surface layer together with the water just beneath it, spreading the cold down rather than letting a thin skin freeze right away. In a deep lake, that means an enormous volume of water has to be cooled down toward freezing before the surface can stay cold enough for ice to take hold. A shallow lake nearby, with only a small volume to cool in the first place, reaches that same point far sooner, even under an identical cold spell."
+      }
+    ]
+  }
+]

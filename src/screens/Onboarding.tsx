@@ -1,149 +1,228 @@
-import { useState } from 'react'
-import { Checkbox, Dot, TileCheck } from '../components/ui'
+import { useMemo, useState } from 'react'
+import { Shelf, useShelves } from '../components/Catalogue'
+import { Icon } from '../components/Icon'
+import { LangSwitch } from '../components/LangSwitch'
 import { Wordmark } from '../components/Wordmark'
+import { Checkbox } from '../components/ui'
+import type { ApiTheme } from '../lib/api'
 import { useStore } from '../state/store'
 
-/** Écran 1 — l'app ouvre sur un exercice ; ceci n'est qu'une porte. */
+/**
+ * L'inscription, en deux étapes — planche 1e.
+ *
+ * Elle en comptait trois : une promesse, une grille de catégories, puis
+ * les apprentissages de ces catégories. La grille du milieu ne faisait
+ * que filtrer l'écran suivant ; elle demandait un choix qui n'était pas
+ * un abonnement, et qu'il fallait ensuite refaire.
+ *
+ * La planche 2c la remplace par le même écran que « Ajouter » : une
+ * recherche, des rayons, on prend ce qu'on veut. Reste une relecture —
+ * « on affine » — où l'on retire ce qui ne parle pas.
+ */
+
+/**
+ * Écran 1 — l'app ouvre sur un exercice ; ceci n'est qu'une porte.
+ *
+ * La marque et la bascule de langue sont DANS l'écran : c'est la
+ * première page qu'un visiteur anglophone voit, et le feed n'a plus de
+ * barre du haut où poser FR / EN.
+ */
 export function Welcome() {
-  const { go, t } = useStore()
+  const { go, set, t } = useStore()
   return (
-    <div className="screen" style={{ justifyContent: 'center', gap: 28, padding: '0 30px' }}>
-      <Wordmark size={42} />
-      <p className="display" style={{ fontSize: 36 }}>
-        {t.tagline}
-      </p>
-      <p className="body">
-        {t.welcomeLine}
-      </p>
-      <div className="stack" style={{ gap: 14, marginTop: 8 }}>
+    <div className="screen onb-screen">
+      <div className="onb-top">
+        <Wordmark size={24} />
+        <LangSwitch compact />
+      </div>
+
+      <div className="onb-promise">
+        <p className="display onb-tagline">{t.tagline}</p>
+        <p className="onb-line">{t.welcomeLine}</p>
+      </div>
+
+      <div className="onb-actions">
         <button className="btn-primary" onClick={() => go('onb2')}>
           {t.start}
         </button>
-        <span style={{ fontSize: 14, color: 'var(--sc-text3)', textAlign: 'center' }}>
-          {t.noAccountNeeded}
-        </span>
+        {/* « Pas d'email, pas de mot de passe » était une mention inerte.
+            La planche y met la sortie de ceux qui ont déjà un compte —
+            eux n'ont rien à choisir. */}
+        <button
+          className="onb-have-account"
+          onClick={() => set({ screen: 'auth', authMode: 'login', sheet: null, authError: null })}
+        >
+          {t.haveAccount}
+        </button>
       </div>
     </div>
   )
 }
 
 /**
- * Écran 2 — catégories. Le choix ne filtre que l'écran suivant : c'est
- * l'abonnement au thème qui compte, pas la catégorie.
+ * Étape 1 / 2 — le catalogue en rayons, exactement celui de « Ajouter ».
+ *
+ * L'abonnement part dès le tap : il n'y a rien à valider, le pied ne
+ * fait qu'annoncer ce qu'on emporte.
  */
-export function PickCategories() {
-  const { categories, go, set, t } = useStore()
-  const [chosen, setChosen] = useState<Set<number>>(new Set())
+export function PickCatalogue() {
+  const { themes, go, enterFeed, t } = useStore()
+  const [query, setQuery] = useState('')
+  const { byCategory } = useShelves()
 
-  const toggle = (id: number) =>
-    setChosen((prev) => {
-      const next = new Set(prev)
-      if (next.has(id)) next.delete(id)
-      else next.add(id)
-      return next
-    })
+  const needle = query.trim().toLowerCase()
+  const results = useMemo(() => {
+    if (!needle) return []
+    return themes.filter(
+      (th) =>
+        th.title.toLowerCase().includes(needle) ||
+        (th.category_label ?? '').toLowerCase().includes(needle) ||
+        th.tags.some((tag) => tag.toLowerCase().includes(needle)),
+    )
+  }, [themes, needle])
+
+  const chosen = themes.filter((th) => th.subscribed)
+  const questionTotal = chosen.reduce((sum, th) => sum + th.exercise_count, 0)
 
   return (
     <div className="screen">
-      <div className="stack" style={{ padding: '60px 22px 14px', gap: 6, flex: 'none' }}>
-        <span className="eyebrow">{t.step2}</span>
-        <p className="display" style={{ fontSize: 32 }}>
-          {t.pickInterests}
-        </p>
+      <div className="learn-head is-onb">
+        <div className="onb-step">
+          <span className="mono">{t.stepOf(1, 2)}</span>
+          <button className="onb-step-act" onClick={enterFeed}>
+            {t.skip}
+          </button>
+        </div>
+
+        <div className="stack" style={{ gap: 8 }}>
+          <p className="display onb-step-title">{t.whatInterestsYou}</p>
+          <p className="onb-step-lead">{t.searchOrPick}</p>
+        </div>
+
+        <label className="learn-field">
+          <Icon name="search" size={18} color="var(--sc-text3)" />
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={t.whatToLearn}
+            aria-label={t.whatToLearn}
+          />
+        </label>
       </div>
 
-      <div className="screen-scroll grid-2" style={{ padding: '6px 22px 12px' }}>
-        {categories.map((cat) => {
-          const on = chosen.has(cat.id)
-          return (
-            <button
-              key={cat.id}
-              className="tile"
-              aria-pressed={on}
-              onClick={() => toggle(cat.id)}
-              style={{
-                background: on ? 'var(--sc-primary-soft)' : 'var(--sc-surface)',
-                borderColor: on ? 'var(--sc-primary)' : 'var(--sc-line)',
-              }}
-            >
-              <Dot color={cat.color} size={26} />
-              <span className="stack" style={{ gap: 2 }}>
-                <span style={{ fontSize: 15, fontWeight: 700, color: 'var(--sc-text)' }}>
-                  {cat.label}
+      <div className="learn-scroll">
+        {needle ? (
+          <Shelf spec={{ key: 'search', title: t.searchResults, items: results }} />
+        ) : (
+          <>
+            {/* L'inscription montre le MÊME catalogue que « Ajouter » :
+                les trois rayons éditoriaux y sont partis aussi, et pour
+                la même raison — voir `useShelves`. À l'inscription, ils
+                étaient même les plus faux des trois : on ne suit encore
+                rien, donc « parce que vous suivez » n'existait pas et
+                « les plus suivis » ne comptait que des zéros. */}
+            {byCategory.length > 0 && (
+              <div className="learn-rule">
+                <span className="mono">
+                  {t.byCategory} · {byCategory.length}
                 </span>
-                <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>
-                  {t.subThemes(cat.sub_categories.length)}
-                </span>
-              </span>
-              {on && <TileCheck />}
-            </button>
-          )
-        })}
+                <span className="learn-rule-line" />
+              </div>
+            )}
+
+            {byCategory.map((spec) => (
+              <Shelf key={spec.key} spec={spec} showCategory={false} />
+            ))}
+          </>
+        )}
       </div>
 
-      <div className="footer-bar">
-        <button
-          className="btn-primary"
-          onClick={() => {
-            set({ onbCategories: [...chosen] })
-            go('onb3')
-          }}
-        >
-          {t.continueWith(chosen.size)}
-        </button>
-        <button className="btn-quiet" onClick={() => go('exo', 'q')}>
-          {t.skip}
+      <div className="learn-foot">
+        <span className="stack" style={{ flex: 1, gap: 2, minWidth: 0 }}>
+          <span className="learn-foot-count">{t.addedCount(chosen.length)}</span>
+          <span className="learn-foot-meta">{t.approxQuestions(questionTotal)}</span>
+        </span>
+        <button className="learn-done" onClick={() => go('onb3')}>
+          {t.continueLabel}
         </button>
       </div>
     </div>
   )
 }
 
-/** Écran 3 — les thèmes eux-mêmes. C'est ici que naît l'abonnement. */
-export function PickSubcategories() {
-  const { themes, s, go, toggleSubscribe, t } = useStore()
-  const filter = s.onbCategories
-  const visible =
-    filter.length > 0 ? themes.filter((x) => filter.includes(x.category_id)) : themes
-  const count = visible.filter((x) => x.subscribed).length
+/**
+ * Étape 2 / 2 — on affine.
+ *
+ * Ce qu'on a pris à l'étape d'avant, groupé par catégorie, tout coché.
+ * On ne relit pas le catalogue entier : on relit sa propre sélection.
+ */
+export function Refine() {
+  const { themes, enterFeed, toggleSubscribe, t } = useStore()
+
+  // La liste est figée à l'arrivée sur l'écran : décocher ne doit pas
+  // faire disparaître la ligne sous le doigt, sinon on n'a plus de
+  // second avis à donner.
+  const [shown] = useState<ApiTheme[]>(() => themes.filter((th) => th.subscribed))
+
+  const groups = useMemo(() => {
+    const map = new Map<string, ApiTheme[]>()
+    for (const th of shown) {
+      const key = th.category_label ?? ''
+      const list = map.get(key) ?? []
+      list.push(th)
+      map.set(key, list)
+    }
+    return [...map.entries()]
+  }, [shown])
+
+  const live = new Set(themes.filter((th) => th.subscribed).map((th) => th.id))
+
+  const uncheckAll = () => {
+    for (const th of shown) if (live.has(th.id)) toggleSubscribe(th.id)
+  }
 
   return (
     <div className="screen">
-      <div className="stack" style={{ padding: '60px 22px 14px', gap: 6, flex: 'none' }}>
-        <span className="eyebrow">{t.step3}</span>
-        <p className="display" style={{ fontSize: 32 }}>
-          {t.uncheckWhatever}
-        </p>
-        <p style={{ margin: '4px 0 0', fontSize: 15, lineHeight: 1.6, color: 'var(--sc-text3)' }}>
-          {t.defaultAll}
-        </p>
+      <div className="learn-head is-onb">
+        <div className="onb-step">
+          <span className="mono">{t.stepOf(2, 2)}</span>
+          <button className="onb-step-act" onClick={uncheckAll} disabled={live.size === 0}>
+            {t.uncheckAll}
+          </button>
+        </div>
+
+        <div className="stack" style={{ gap: 8 }}>
+          <p className="display onb-step-title">{t.refine}</p>
+          <p className="onb-step-lead">{shown.length > 0 ? t.refineLead : t.noThemeFollowed}</p>
+        </div>
       </div>
 
-      <div className="screen-scroll stack" style={{ padding: '6px 22px 12px', gap: 8 }}>
-        {visible.map((t) => (
-          <button
-            key={t.id}
-            className="row-btn"
-            aria-pressed={t.subscribed}
-            onClick={() => toggleSubscribe(t.id)}
-            style={{ background: t.subscribed ? 'var(--sc-surface)' : 'transparent' }}
-          >
-            <Checkbox on={t.subscribed} />
-            <span className="stack">
-              <span style={{ fontSize: 16, fontWeight: 600, color: 'var(--sc-text)' }}>
-                {t.title}
-              </span>
-              <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>
-                {t.category_label}
-              </span>
-            </span>
-          </button>
+      <div className="learn-scroll">
+        {groups.map(([label, list]) => (
+          <div key={label} className="learn-group">
+            {label && <span className="mono learn-group-head">{label}</span>}
+            {list.map((th) => (
+              <button
+                key={th.id}
+                className={live.has(th.id) ? 'onb-pick is-on' : 'onb-pick'}
+                aria-pressed={live.has(th.id)}
+                onClick={() => toggleSubscribe(th.id)}
+              >
+                <Checkbox on={live.has(th.id)} />
+                <span className="onb-pick-name">{th.title}</span>
+              </button>
+            ))}
+          </div>
         ))}
       </div>
 
-      <div className="footer-bar">
-        <button className="btn-primary" onClick={() => go('exo', 'q')}>
-          {t.letsGo}{count > 0 ? ` · ${t.themesCount(count)}` : ''}
+      <div className="learn-foot">
+        <button
+          className="btn-primary"
+          style={{ flex: 1, minHeight: 58 }}
+          onClick={enterFeed}
+        >
+          {t.letsGo}
         </button>
       </div>
     </div>

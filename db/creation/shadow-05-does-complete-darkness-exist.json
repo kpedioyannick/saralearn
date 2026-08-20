@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 90,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is darkness?",
+        "body": null,
+        "options": [
+          {
+            "label": "The absence of light",
+            "feedback": "Nothing is present. Something is missing."
+          },
+          {
+            "label": "A substance that fills a room",
+            "feedback": "Nothing flows in when a lamp goes out."
+          },
+          {
+            "label": "Light of a colour we cannot see",
+            "feedback": "That is invisible light, which is not darkness."
+          },
+          {
+            "label": "The opposite force to light",
+            "feedback": "There is no opposing force. There is only less light."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Darkness has no substance of its own. It is what is left.",
+        "ko_title": "Not that.",
+        "ko_line": "Switch off a lamp. Did anything arrive, or did something stop?",
+        "exp_title": "Nothing is a thing here",
+        "exp_text": "Darkness is not emitted, does not travel and cannot be poured. It is simply the condition of a place where few or no photons arrive. This is why you can light a dark room but cannot darken a lit one by adding anything — you can only block or absorb. Cold works the same way: there is no coldness flowing in, only heat leaving."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where on Earth can a person experience total darkness?",
+        "body": null,
+        "options": [
+          {
+            "label": "Deep inside a cave",
+            "feedback": "Far from any entrance, no light arrives at all."
+          },
+          {
+            "label": "In a forest on a moonless night",
+            "feedback": "Starlight and skyglow still filter through."
+          },
+          {
+            "label": "At the bottom of the ocean",
+            "feedback": "Living things there make their own light."
+          },
+          {
+            "label": "In a room with the curtains drawn",
+            "feedback": "Light leaks around every edge."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Beyond the reach of the entrance, and nothing else glows.",
+        "ko_title": "Not quite.",
+        "ko_line": "Every other option has some source, however faint.",
+        "exp_title": "The one place light never reaches",
+        "exp_text": "Past the twilight zone of a cave, no sunlight penetrates and there is nothing living that glows, so the darkness is absolute — your eye will never adapt because there is nothing to adapt to. People kept there report seeing shapes and flashes within hours, invented by a visual system receiving no input. Cave animals lose their eyes entirely over generations, often growing skin across the sockets."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a moonless country night never truly black?",
+        "body": null,
+        "options": [
+          {
+            "label": "Starlight and airglow light the sky",
+            "feedback": "Faint sources, but enough to see a horizon by."
+          },
+          {
+            "label": "The ground releases stored daylight",
+            "feedback": "Soil and rock store no visible light."
+          },
+          {
+            "label": "The eye manufactures a faint glow",
+            "feedback": "It amplifies what arrives; it invents nothing here."
+          },
+          {
+            "label": "Distant city lights always reach it",
+            "feedback": "It holds true far from any city."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Stars, and a glow the air makes itself.",
+        "ko_title": "Not it.",
+        "ko_line": "Look up on a dark night. Something is there, however faint.",
+        "exp_title": "The sky glows on its own",
+        "exp_text": "Even with no Moon and no towns, the night sky is not black. Starlight contributes, and so does airglow — a faint permanent shine from atoms high in the atmosphere releasing energy they absorbed during the day. Zodiacal light, sunlight scattered off dust in the solar system, adds more. Together they are enough for a dark-adapted eye to walk by and to make out a horizon."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How deep does sunlight reach into the ocean?",
+        "body": null,
+        "options": [
+          {
+            "label": "About 200 metres for useful light",
+            "feedback": "A faint trace goes further, to around a kilometre."
+          },
+          {
+            "label": "About 20 metres",
+            "feedback": "Divers still have good light well below that."
+          },
+          {
+            "label": "About 5 kilometres",
+            "feedback": "The sea is pitch black long before that depth."
+          },
+          {
+            "label": "All the way to the seabed",
+            "feedback": "Most of the ocean floor has never seen daylight."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Two hundred metres of usable light, in an ocean kilometres deep.",
+        "ko_title": "Not quite.",
+        "ko_line": "Plants can grow only in the upper layer. How thick is that layer?",
+        "exp_title": "A thin lit skin on a dark ocean",
+        "exp_text": "The sunlit zone reaches about 200 metres, and it is where nearly all photosynthesis in the sea occurs. Below that a twilight zone extends to roughly 1,000 metres, where there is too little light to grow by but just enough for large eyes to hunt. Past that lies permanent night. Since the average ocean depth is about 3,700 metres, most of the living space on this planet has never seen the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do creatures of the deep sea find one another in the dark?",
+        "body": null,
+        "options": [
+          {
+            "label": "They make their own light",
+            "feedback": "Most deep-sea animals glow, and use it to signal."
+          },
+          {
+            "label": "They follow sunlight from above",
+            "feedback": "No sunlight reaches those depths."
+          },
+          {
+            "label": "They rely on echoes alone",
+            "feedback": "Some do, but light is the commoner answer down there."
+          },
+          {
+            "label": "They feel vibrations in the seabed",
+            "feedback": "Most live in open water, far above the floor."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "In the darkest place on Earth, nearly everything glows.",
+        "ko_title": "Not it.",
+        "ko_line": "If there is no light to be had, the obvious move is to make some.",
+        "exp_title": "The dark ocean is full of lamps",
+        "exp_text": "Estimates suggest three quarters of animals in the deep sea produce their own light. They use it to lure prey, to signal to mates, to startle attackers, and to hide — many glow faintly on their undersides so their silhouette vanishes against the dim light above. Most of it is blue, because blue travels furthest in water, and many deep-sea eyes can see nothing else."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to an animal's eyes over generations in permanent darkness?",
+        "body": null,
+        "options": [
+          {
+            "label": "They shrink and are eventually lost",
+            "feedback": "An unused organ is an expensive one to keep."
+          },
+          {
+            "label": "They grow larger to catch faint light",
+            "feedback": "That happens in dim places, not in total dark."
+          },
+          {
+            "label": "They stay exactly as they were",
+            "feedback": "Cave species show clear change within generations."
+          },
+          {
+            "label": "They change colour but keep working",
+            "feedback": "The eye stops working altogether."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Where there is nothing to see, eyes stop being worth the cost.",
+        "ko_title": "Not that.",
+        "ko_line": "Bigger eyes help in dim light. What if there is no light at all?",
+        "exp_title": "An organ nobody is paying for",
+        "exp_text": "Eyes are expensive to build, run and protect, and in absolute darkness they return nothing. Cave fish, salamanders and insects across the world have independently lost them — the Mexican tetra has cave populations with skin grown over the sockets while its river relatives see perfectly, and the two can still interbreed. What they gain instead is touch: longer feelers, more taste buds, sharper pressure sensing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the inside of a black hole described as dark?",
+        "body": null,
+        "options": [
+          {
+            "label": "No light can escape its gravity",
+            "feedback": "Light that falls in never comes back out."
+          },
+          {
+            "label": "It absorbs the colour of light",
+            "feedback": "It captures all light equally, colour aside."
+          },
+          {
+            "label": "It contains no matter at all",
+            "feedback": "It contains enormous amounts of matter."
+          },
+          {
+            "label": "It is too far away to see",
+            "feedback": "Distance is not the reason. Nearby ones are dark too."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Not that light is absent — that it cannot get out.",
+        "ko_title": "Not it.",
+        "ko_line": "The darkness is not about what is inside but about what can leave.",
+        "exp_title": "Dark because nothing leaves",
+        "exp_text": "A black hole is dark in a different sense from a cave. Its gravity is strong enough that within a boundary called the event horizon, no path leads outward — not even for light. So no information about the inside can reach us, and the region appears perfectly black against whatever lies behind it. Matter falling in often blazes brilliantly just outside, which is how most are detected."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a shadow never be perfectly dark in open air?",
+        "body": null,
+        "options": [
+          {
+            "label": "The sky lights it from every side",
+            "feedback": "Scattered blue light fills the shade."
+          },
+          {
+            "label": "Shadows always leak a little light",
+            "feedback": "A shadow is empty. Nothing passes through it."
+          },
+          {
+            "label": "The Sun bends around the object",
+            "feedback": "Light bends far too little to matter here."
+          },
+          {
+            "label": "The ground reflects its own heat",
+            "feedback": "That is infrared, invisible to the eye."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The whole sky is a lamp, and it shines into every shadow.",
+        "ko_title": "Not it.",
+        "ko_line": "Stand in a shadow and look up. What surrounds you?",
+        "exp_title": "A shadow with the sky above it",
+        "exp_text": "Blocking the Sun does not block the sky. Air scatters sunlight in all directions, so the whole dome acts as a soft blue lamp filling every shadow, with more light bouncing in off walls and ground. That is why you can read in the shade of a building. On the Moon there is no air, so shadows are genuinely black and astronauts could not see their own feet when standing in one."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How much light can a fully dark-adapted eye detect?",
+        "body": null,
+        "options": [
+          {
+            "label": "A handful of photons",
+            "feedback": "Close to the smallest quantity that exists."
+          },
+          {
+            "label": "About the light of a candle nearby",
+            "feedback": "That is enormously more than the limit."
+          },
+          {
+            "label": "Roughly a millionth of daylight",
+            "feedback": "The eye reaches far below that."
+          },
+          {
+            "label": "Only what a screen produces",
+            "feedback": "A screen is bright compared with the limit."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Within a few photons of the smallest amount there is.",
+        "ko_title": "Not quite.",
+        "ko_line": "Light comes in indivisible pieces. How close to one piece can the eye get?",
+        "exp_title": "Almost at the physical limit",
+        "exp_text": "Careful experiments show a dark-adapted eye registers a flash of somewhere between five and ten photons, and single rod cells respond to one. The limit is not the eye's design but the graininess of light itself — you cannot detect less than one photon because there is no less. On a clear night the eye can pick out a candle flame from several kilometres away."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do fewer stars appear over a large town?",
+        "body": null,
+        "options": [
+          {
+            "label": "Scattered light brightens the sky",
+            "feedback": "Faint stars are lost against a glowing background."
+          },
+          {
+            "label": "Town air blocks starlight",
+            "feedback": "The air is much the same overhead."
+          },
+          {
+            "label": "Stars avoid shining over cities",
+            "feedback": "Stars shine equally on everything below."
+          },
+          {
+            "label": "The heat of a town bends starlight",
+            "feedback": "It blurs the image slightly, but hides nothing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The stars are unchanged. The background has been lifted.",
+        "ko_title": "Not it.",
+        "ko_line": "Nothing is blocking them. Something is competing with them.",
+        "exp_title": "Drowned, not blocked",
+        "exp_text": "Light directed upward or reflected off the ground is scattered by air and dust into a glow across the whole sky, and a star is only visible when it stands out against its background. From a city perhaps a hundred stars can be picked out; from a genuinely dark site, several thousand, with the Milky Way casting a faint shadow. About a third of humanity now lives where the Milky Way cannot be seen at all."
+      }
+    ]
+  }
+]

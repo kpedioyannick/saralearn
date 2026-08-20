@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the first thing that happens when a blood vessel is cut and bleeding starts?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Platelets stick to the injured site and form a clot",
+            "feedback": "Correct. Within the first few minutes, platelets stick to the wound, change shape, and release signals that activate fibrin, which forms a mesh and plugs the break."
+          },
+          {
+            "label": "White blood cells arrive and eat the damaged cells",
+            "feedback": "That happens later in the inflammation phase, not immediately at the moment of clotting."
+          },
+          {
+            "label": "New skin cells start growing across the wound",
+            "feedback": "That belongs to the proliferation phase, which comes after bleeding has been stopped."
+          },
+          {
+            "label": "The wound contracts and pulls its edges together",
+            "feedback": "That is part of the later stages, specifically wound contraction during proliferation, not the first response."
+          }
+        ],
+        "ok_title": "Clotting starts",
+        "ok_line": "Platelets quickly plug the break to stop bleeding.",
+        "ko_title": "Not the first step",
+        "ko_line": "The other events happen later in healing.",
+        "exp_title": "Hemostasis",
+        "exp_text": "Hemostasis is the blood-clotting stage, beginning within minutes of injury. Platelets stick to the wound, change shape, and release chemicals that activate fibrin, which forms a mesh and acts like glue, making a clot that plugs the broken vessel and reduces further bleeding."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which stage of wound healing follows blood clotting?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Maturation",
+            "feedback": "Maturation is the final stage, when collagen realigns and unneeded cells are removed—it comes much later."
+          },
+          {
+            "label": "Inflammation",
+            "feedback": "Correct. After clotting, the inflammation stage clears out dead cells, bacteria, and debris through phagocytosis."
+          },
+          {
+            "label": "Proliferation",
+            "feedback": "Proliferation (growth of new tissue) comes after inflammation, not right after clotting."
+          },
+          {
+            "label": "Epithelialization",
+            "feedback": "Epithelialization is part of the proliferation stage, not the immediate next stage after clotting."
+          }
+        ],
+        "ok_title": "Inflammation follows",
+        "ok_line": "The body cleans the wound next.",
+        "ko_title": "Wrong order",
+        "ko_line": "Proliferation and maturation are later stages.",
+        "exp_title": "Stages in order",
+        "exp_text": "The predictable order is hemostasis (clotting), then inflammation, then proliferation (new tissue growth), and finally maturation (remodeling). Inflammation removes dead cells and pathogens, preparing the wound for new growth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do polymorphonuclear neutrophils (PMNs) do at a wound site?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They form the blood clot",
+            "feedback": "Platelets form the clot, not neutrophils. Neutrophils arrive about an hour later."
+          },
+          {
+            "label": "They produce collagen to rebuild tissue",
+            "feedback": "Fibroblasts make collagen during proliferation. Neutrophils are white blood cells that clean up."
+          },
+          {
+            "label": "They phagocytise debris and kill bacteria",
+            "feedback": "Correct. Neutrophils engulf debris and destroy bacteria by releasing free radicals, and they also secrete proteases to break down damaged tissue."
+          },
+          {
+            "label": "They contract the wound edges",
+            "feedback": "Myofibroblasts do wound contraction in the proliferation stage, not neutrophils."
+          }
+        ],
+        "ok_title": "Neutrophils clean",
+        "ok_line": "These white blood cells eat debris and kill bacteria.",
+        "ko_title": "Different cells",
+        "ko_line": "Clotting, collagen-making, and contraction are done by other cells.",
+        "exp_title": "PMN role",
+        "exp_text": "Within an hour of wounding, polymorphonuclear neutrophils arrive and become the most numerous cells for the first two days. They phagocytise debris, kill bacteria using free radicals, and secrete proteases that break down damaged tissue, cleaning the wound."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cells form new blood vessels during the proliferation stage?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Fibroblasts",
+            "feedback": "Fibroblasts produce collagen and form granulation tissue, but they do not create blood vessels."
+          },
+          {
+            "label": "Platelets",
+            "feedback": "Platelets are involved in clotting and signaling, not in forming new vessels."
+          },
+          {
+            "label": "Myofibroblasts",
+            "feedback": "Myofibroblasts contract the wound, they do not form blood vessels."
+          },
+          {
+            "label": "Vascular endothelial cells",
+            "feedback": "Correct. These cells line blood vessel walls and grow new vessels in a process called angiogenesis."
+          }
+        ],
+        "ok_title": "Endothelial cells",
+        "ok_line": "They build the new blood vessels.",
+        "ko_title": "Not vessel-builders",
+        "ko_line": "Fibroblasts, platelets, and myofibroblasts have other jobs.",
+        "exp_title": "Angiogenesis",
+        "exp_text": "In the proliferation phase, vascular endothelial cells form new blood vessels, a process called angiogenesis. These new vessels carry nutrients and oxygen to the healing tissue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the wound during the maturation or remodeling stage?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Collagen realigns along tension lines and unneeded cells are removed",
+            "feedback": "Correct. In maturation, collagen is realigned, and extra cells die off through apoptosis to leave a stronger, cleaner repair."
+          },
+          {
+            "label": "The wound is filled with a blood clot",
+            "feedback": "Blood clotting happens in hemostasis, at the very start, not in the final stage."
+          },
+          {
+            "label": "White blood cells engulf bacteria",
+            "feedback": "That is the inflammation stage, when cells clear out debris and pathogens."
+          },
+          {
+            "label": "New skin cells crawl across the wound",
+            "feedback": "That is re-epithelialization during proliferation, before maturation."
+          }
+        ],
+        "ok_title": "Remodeling finishes",
+        "ok_line": "Tissue is reorganised and cleaned of extra cells.",
+        "ko_title": "Different stage",
+        "ko_line": "Clotting, inflammation, and epithelialization are earlier processes.",
+        "exp_title": "Maturation",
+        "exp_text": "During maturation and remodeling, collagen is realigned along tension lines, making the repaired tissue stronger. Cells that are no longer needed are removed by programmed cell death, called apoptosis, leaving a cleaner, more organised structure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What role does histamine play in wound healing?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It forms the blood clot",
+            "feedback": "Fibrin forms the clot, not histamine. Histamine acts on blood vessels, not on clotting."
+          },
+          {
+            "label": "It causes blood vessels to widen and become porous",
+            "feedback": "Correct. Histamine is the main vasodilator; it makes vessels widen and porous, letting proteins leak out and inflammatory cells enter."
+          },
+          {
+            "label": "It kills bacteria at the wound",
+            "feedback": "Neutrophils kill bacteria with free radicals; histamine's job is on the blood vessels."
+          },
+          {
+            "label": "It makes new collagen fibers",
+            "feedback": "Fibroblasts make collagen; histamine does not produce tissue proteins."
+          }
+        ],
+        "ok_title": "Histamine widens vessels",
+        "ok_line": "It opens up blood vessels to bring in help.",
+        "ko_title": "Not histamine's job",
+        "ko_line": "Clotting, bacteria-killing, and collagen-making are done by other molecules and cells.",
+        "exp_title": "Vasodilation",
+        "exp_text": "Histamine is the main factor that causes vasodilation, the widening of blood vessels after the initial constriction. It also makes vessel walls more porous, allowing proteins to leak out, which draws water into the area (swelling) and lets white blood cells pass into the wound."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens first after a blood vessel is breached, even before platelets stick?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "New blood vessels grow",
+            "feedback": "That occurs in the proliferation stage, days later, not immediately after injury."
+          },
+          {
+            "label": "The wound contracts",
+            "feedback": "Wound contraction is a later event in proliferation, not the immediate response."
+          },
+          {
+            "label": "The vessel spasms to reduce blood loss",
+            "feedback": "Correct. Ruptured membranes release factors that cause vasoconstriction, a spasm lasting five to ten minutes, to limit bleeding."
+          },
+          {
+            "label": "Collagen fibers realign",
+            "feedback": "Collagen realignment happens in the maturation stage, much later."
+          }
+        ],
+        "ok_title": "Vessel spasms",
+        "ok_line": "The blood vessel narrows to slow bleeding.",
+        "ko_title": "Too late or too early",
+        "ko_line": "Growth and contraction are later stages; realignment is the final stage.",
+        "exp_title": "Vasoconstriction",
+        "exp_text": "Immediately after a vessel is cut, ruptured cell membranes release inflammatory factors like thromboxanes and prostaglandins that make the vessel spasm, narrowing it. This vasoconstriction lasts five to ten minutes and helps prevent blood loss while the clotting process gets underway."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cells release growth factors that speed up cell division during healing?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Platelets",
+            "feedback": "Correct. Platelets, present in the highest numbers right after injury, release growth factors that stimulate cells to divide faster."
+          },
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells carry oxygen; they do not release growth factors in wound healing."
+          },
+          {
+            "label": "Epithelial cells",
+            "feedback": "Epithelial cells divide to cover the wound, but they are not the source of the growth signals."
+          },
+          {
+            "label": "Myofibroblasts",
+            "feedback": "Myofibroblasts contract the wound; growth signal release is a platelet job."
+          }
+        ],
+        "ok_title": "Platelets signal",
+        "ok_line": "Platelets tell cells to multiply.",
+        "ko_title": "Signal senders",
+        "ko_line": "Other cells receive or act, but platelets send the growth messages.",
+        "exp_title": "Growth factors",
+        "exp_text": "Platelets, which are the most numerous cells right after a wound, release mediators including growth factors into the blood. These growth factors stimulate cells to speed up their rate of division, helping to rebuild the injured tissue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is phagocytosis?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The formation of new blood vessels",
+            "feedback": "That is angiogenesis, a different process in the proliferation phase."
+          },
+          {
+            "label": "The programmed death of unneeded cells",
+            "feedback": "That is apoptosis, which removes extra cells during maturation."
+          },
+          {
+            "label": "The contraction of the wound edges",
+            "feedback": "Myofibroblasts do contraction, not phagocytosis."
+          },
+          {
+            "label": "White blood cells engulf and destroy debris and bacteria",
+            "feedback": "Correct. In phagocytosis, white blood cells swallow up dead cells, bacteria, and other debris to clean the wound."
+          }
+        ],
+        "ok_title": "Cells eat debris",
+        "ok_line": "White blood cells clean up by swallowing.",
+        "ko_title": "Not phagocytosis",
+        "ko_line": "Angiogenesis, apoptosis, and contraction are different healing events.",
+        "exp_title": "Phagocytosis",
+        "exp_text": "Phagocytosis is the process where white blood cells engulf particles such as dead cells, bacteria, and debris, then destroy them. It is the main way the body clears the wound during the inflammation phase."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of myofibroblasts in wound healing?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They make new blood vessels",
+            "feedback": "Vascular endothelial cells make new vessels, not myofibroblasts."
+          },
+          {
+            "label": "They contract the wound by gripping the edges",
+            "feedback": "Correct. Myofibroblasts shrink the wound size by pulling the edges together, like smooth muscle contraction."
+          },
+          {
+            "label": "They kill bacteria",
+            "feedback": "Neutrophils kill bacteria; myofibroblasts are for closing the wound, not for defence."
+          },
+          {
+            "label": "They form the blood clot",
+            "feedback": "Platelets and fibrin form the clot; myofibroblasts appear later in proliferation."
+          }
+        ],
+        "ok_title": "Myofibroblasts contract",
+        "ok_line": "They pull the wound closed.",
+        "ko_title": "Not their role",
+        "ko_line": "Other cells build vessels, kill bacteria, and clot blood.",
+        "exp_title": "Wound contraction",
+        "exp_text": "Myofibroblasts decrease the size of the wound by gripping the wound edges and contracting using a mechanism similar to that in smooth muscle cells. This pulls the sides together, making the repair area smaller."
+      }
+    ]
+  }
+]

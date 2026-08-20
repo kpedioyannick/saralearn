@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 114,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does dew often appear on grass overnight even though there has been no rain?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Underground water seeps upward through the grass overnight",
+            "feedback": "Grass doesn't sweat groundwater onto its own surface overnight; the water appearing there comes from the air, not from below."
+          },
+          {
+            "label": "Dew is left behind by fog that quietly passed through during the night",
+            "feedback": "Dew forms even on clear nights with no fog anywhere nearby; it doesn't need a passing fog to leave it behind."
+          },
+          {
+            "label": "The grass absorbs moisture from the soil and sweats it out",
+            "feedback": "Plants do lose some water this way during the day, but the process that produces dew happens on the outside of the leaf, from the air, not from within the plant."
+          },
+          {
+            "label": "The grass cools below the air's dew point overnight, and water vapour condenses directly onto it",
+            "feedback": "Once the leaf's surface is colder than that threshold, vapour in the air right next to it turns to liquid on contact."
+          }
+        ],
+        "ok_title": "Cooled below the threshold",
+        "ok_line": "The grass didn't gain water from below; the air gave it up from above.",
+        "ko_title": "Not groundwater, not leftover fog",
+        "ko_line": "Ask what happens to the temperature of a blade of grass overnight, and what that temperature has to drop below.",
+        "exp_title": "A cold surface meets moist air",
+        "exp_text": "Overnight, grass loses heat by radiating it away into the sky, and with nothing to replace that heat once the sun is down, its surface can grow noticeably colder than the air just above it. Once that surface drops below the air's dew point, the water vapour in contact with it can no longer stay as gas and condenses directly onto the grass as liquid droplets. No rain is needed at all; the moisture was already present in the air the whole time, simply invisible until the blade of grass grew cold enough to pull it out."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is dew far more likely to form on a clear, calm night than on a cloudy or windy one?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A clear sky lets the ground radiate its heat away freely, cooling it faster",
+            "feedback": "With no cloud layer overhead to send some of that heat straight back down, the ground cools further and faster, more easily reaching the dew point."
+          },
+          {
+            "label": "Clouds absorb all the moisture that would otherwise become dew",
+            "feedback": "Clouds and the moisture that becomes dew are essentially independent; a cloudy sky doesn't strip water vapour away from the air near the ground."
+          },
+          {
+            "label": "Wind carries extra moisture in that settles as dew",
+            "feedback": "Wind generally mixes air around rather than depositing extra moisture; a calm night, if anything, favours dew by letting the coldest air stay put near the ground."
+          },
+          {
+            "label": "Clear nights are always colder in general, regardless of the ground",
+            "feedback": "It isn't simply that the air itself is colder on a clear night; it's specifically that the ground can cool far more than it could under cloud cover."
+          }
+        ],
+        "ok_title": "An open sky loses heat fastest",
+        "ok_line": "No cloud blanket overhead means nothing sends that escaping heat back down.",
+        "ko_title": "Not moisture from clouds, not wind, not just 'colder air'",
+        "ko_line": "Ask what a layer of cloud normally does to heat radiating up from the ground at night, and what happens when that layer is missing.",
+        "exp_title": "Nothing to send the heat back",
+        "exp_text": "Every night, the ground radiates some of its stored heat away into the sky, and on a cloudy night much of that heat is absorbed by the cloud layer and radiated straight back down again, keeping the ground comparatively warm. On a clear night there is no such layer to intercept it, so the heat escapes freely and the ground cools much further before dawn. A calm night helps too, since still air lets that chilled layer sit undisturbed right at the surface rather than being stirred and mixed with warmer air above."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does dew often fail to form on the grass directly beneath a tree, even when the open lawn nearby is soaked with it?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Tree roots pull the moisture away before it can condense",
+            "feedback": "Roots draw water up from the soil, not water vapour down out of the air above; that isn't what's keeping the grass under the tree dry."
+          },
+          {
+            "label": "The canopy overhead radiates warmth back down, keeping the ground beneath it from cooling as much",
+            "feedback": "With something over it intercepting and returning some of that escaping heat, the sheltered grass never drops as far below the dew point as the open lawn does."
+          },
+          {
+            "label": "Tree leaves absorb all the water vapour in their shade",
+            "feedback": "Leaves don't strip vapour from the air around them in this way; the sheltered grass still has just as much moisture in the air near it as the open lawn."
+          },
+          {
+            "label": "The soil under a tree is naturally drier, so there's less moisture available",
+            "feedback": "Soil dryness affects how much water a plant can draw up, not how much water vapour condenses onto grass from the air above it overnight."
+          }
+        ],
+        "ok_title": "Sheltered from its own heat loss",
+        "ok_line": "The canopy plays the same role a cloud layer does overhead -- sending heat back down instead of letting it escape.",
+        "ko_title": "Not roots, not absorbed vapour, not dry soil",
+        "ko_line": "Ask what a clear night needs in order to cool the ground enough for dew, and what the tree overhead is blocking.",
+        "exp_title": "A canopy that acts like a cloud",
+        "exp_text": "Dew depends on the ground losing enough heat overnight to cool below the dew point, and that loss happens by radiating heat straight up into open sky. A tree's canopy sits directly overhead of the grass beneath it, intercepting much of that escaping heat and radiating a share of it straight back down, in much the same way a layer of cloud would. With less heat actually lost, the sheltered ground under the tree stays noticeably warmer through the night than the open lawn just beyond its shade, and often never reaches the dew point at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is fog, in essential terms, compared with an ordinary cloud in the sky?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Fog is smoke mixed with a small amount of moisture",
+            "feedback": "Ordinary fog has no connection to smoke at all; it's made of the same water droplets as any other cloud, just at ground level."
+          },
+          {
+            "label": "Fog is a cloud that has lost most of its water content",
+            "feedback": "Fog can be every bit as dense with droplets as a cloud higher up; what sets it apart is simply where it is, not how much water it holds."
+          },
+          {
+            "label": "Fog is a cloud that has formed at ground level rather than higher in the sky",
+            "feedback": "Same droplets, same process of condensation -- just occurring low enough to be standing in it rather than looking up at it."
+          },
+          {
+            "label": "Fog only forms over water and never over dry land",
+            "feedback": "Fog forms over dry fields and roads just as readily as over lakes or rivers, wherever the ground-level air cools enough to condense."
+          }
+        ],
+        "ok_title": "Same cloud, lower down",
+        "ok_line": "You're standing inside it instead of looking up at it.",
+        "ko_title": "Not smoke, not a weaker cloud, not water-only",
+        "ko_line": "Ask what actually distinguishes fog from a cloud overhead, other than where each one happens to be.",
+        "exp_title": "A cloud you can stand in",
+        "exp_text": "Fog forms by precisely the same process as a cloud higher in the sky: air cools until it reaches its dew point, and water vapour condenses out as a mass of tiny droplets. The only real difference is where that cooling happens -- at or very near the ground, rather than hundreds or thousands of metres up. Because you're standing inside it rather than looking up at it from a distance, fog feels like a completely different phenomenon, though structurally it is simply a low cloud."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does fog often collect in valleys and other low-lying ground on clear, calm nights?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Warm air always drains downhill after sunset",
+            "feedback": "It's the cooled, dense air that drains downhill, not warm air; warm air tends to rise rather than sink into valleys."
+          },
+          {
+            "label": "Valleys naturally hold more moisture in their soil than hillsides",
+            "feedback": "Soil moisture in a valley isn't meaningfully different from a nearby hillside; what matters here is what the air above the ground is doing, not the ground itself."
+          },
+          {
+            "label": "Fog forms first on the hilltops and then rolls downhill under its own weight",
+            "feedback": "Fog doesn't form on the hilltops and slide down; it forms directly in the cold air that has already collected in the low ground."
+          },
+          {
+            "label": "Air cooled by the ground grows denser and drains downhill, pooling in the lowest ground",
+            "feedback": "Once that cold, heavy air collects in a valley, it's especially likely to reach its dew point there and produce fog."
+          }
+        ],
+        "ok_title": "Cold air behaves like a liquid",
+        "ok_line": "It sinks and pools in the lowest ground, exactly where it's most likely to fog.",
+        "ko_title": "Not warm air, not valley soil, not fog rolling downhill",
+        "ko_line": "Ask what happens to air once the ground beneath it has cooled it, and where cold, dense air naturally ends up.",
+        "exp_title": "Cold air pools like water",
+        "exp_text": "On a clear, calm night, the ground cools rapidly and chills the layer of air resting directly on it, and that cooled air becomes denser than the air around it. Denser air behaves much like water, sliding downhill under gravity and draining off higher ground into the lowest points nearby, where it collects and deepens. Because that pooled air is also the coldest air around, it is the air most likely to reach its dew point, so fog tends to form and linger precisely in the valleys and hollows where the cold air has gathered."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does morning fog usually clear away as the day goes on, rather than lasting all day?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The sun warms the ground, and the warmed ground raises the air's temperature past the dew point",
+            "feedback": "Once the air is warmer than its dew point, its droplets can no longer stay condensed and evaporate back into invisible vapour."
+          },
+          {
+            "label": "Wind always picks up in the morning and blows the fog somewhere else",
+            "feedback": "Fog often clears on genuinely calm mornings too, with no noticeable wind at all; the clearing comes from warming, not from being blown away."
+          },
+          {
+            "label": "The fog droplets sink into the ground and disappear",
+            "feedback": "Fog droplets are far too light to sink meaningfully; they don't settle into the ground the way heavier rain does."
+          },
+          {
+            "label": "The moisture in fog is used up by plants during the day",
+            "feedback": "Plants draw only a small amount of water from the air compared with how much a whole layer of fog holds; that isn't what clears a morning fog."
+          }
+        ],
+        "ok_title": "Warmed back past the threshold",
+        "ok_line": "The same dew point works in both directions -- cross it going up, and the droplets vanish again.",
+        "ko_title": "Not wind, not sinking, not plants drinking it",
+        "ko_line": "Ask what the sun is doing to the ground once it rises, and what that does to the air's temperature relative to its dew point.",
+        "exp_title": "Warmed back above the threshold",
+        "exp_text": "Fog exists because the air near the ground has cooled below its dew point, condensing its vapour into visible droplets. Once the sun rises, it heats the ground directly, and the warmed ground in turn warms the air resting on it, pushing that air's temperature back up past the dew point it had dropped below overnight. With the air no longer saturated, the droplets that made up the fog evaporate back into invisible vapour, and the fog appears to lift and vanish as the morning goes on."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does fog sometimes rise off the surface of a lake or river like steam on a cool morning?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The water is boiling gently from stored summer heat",
+            "feedback": "Boiling requires far higher temperatures than any lake or river reaches naturally; this steam-like fog forms through ordinary evaporation and condensation, not boiling."
+          },
+          {
+            "label": "Relatively warm, moist air just above the water meets much colder air and condenses instantly",
+            "feedback": "That sudden meeting of warm, humid air with cold air pushes the mixture straight past saturation, and it condenses almost as fast as it forms."
+          },
+          {
+            "label": "The cold air itself is what's rising off the water",
+            "feedback": "It's the warm, moist air just above the water's surface that's involved, not cold air; cold air over water tends to sink rather than rise off it."
+          },
+          {
+            "label": "The water is releasing gas bubbles that look like fog from a distance",
+            "feedback": "This kind of fog is made of the same water droplets as any other, not gas bubbles; it forms in the air just above the surface, not as anything escaping from within the water."
+          }
+        ],
+        "ok_title": "Warm meets cold, right at the surface",
+        "ok_line": "Two different air temperatures collide within a thin layer, and moisture there has nowhere to go but condense.",
+        "ko_title": "Not boiling, not rising cold air, not bubbles",
+        "ko_line": "Ask what temperature the water's own surface is compared with the air sitting just above it, and what happens where the two meet.",
+        "exp_title": "Warm, moist air meeting a cold ceiling",
+        "exp_text": "Water that has stored heat through a warmer season stays noticeably warmer than the air above it on a cool morning, and evaporation from its surface loads the thin layer of air right against the water with a great deal of moisture. That warm, humid layer sits directly beneath much colder air, and where the two mix, the blend cools rapidly enough to reach saturation almost immediately. The result condenses as visible wisps rising just above the surface, in a very thin layer where warm and cold happen to meet."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does frost sometimes appear on a cold, clear morning in a spot where you might otherwise have expected dew?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Frost is simply dew that has been blown around by wind",
+            "feedback": "Frost isn't dew that has been moved or disturbed; it forms by an entirely different route once temperatures fall low enough."
+          },
+          {
+            "label": "Frost only forms where the ground is unusually dry",
+            "feedback": "Frost needs moisture in the air just as dew does; dryness isn't what decides between the two, temperature is."
+          },
+          {
+            "label": "The surface has dropped below freezing, so water vapour turns directly into ice instead of liquid first",
+            "feedback": "Below that point, condensation skips the liquid stage entirely and deposits straight onto the surface as ice crystals."
+          },
+          {
+            "label": "Frost forms only when there has already been dew that then hardened",
+            "feedback": "Frost most often forms directly from vapour without ever passing through a liquid stage at all; it doesn't require dew to already be present."
+          }
+        ],
+        "ok_title": "Cold enough to skip the liquid step",
+        "ok_line": "Below freezing, vapour goes straight to ice on contact.",
+        "ko_title": "Not wind-blown dew, not dryness, not hardened dew",
+        "ko_line": "Ask what temperature the surface itself has to reach, and what that does to the usual condensation-then-freezing order.",
+        "exp_title": "Straight from vapour to ice",
+        "exp_text": "Dew forms whenever a surface cools below the air's dew point while that surface still stays above freezing, letting vapour condense as liquid. If the same surface instead cools below freezing itself, any water vapour reaching it no longer has the option of briefly becoming liquid first -- it deposits directly as solid ice crystals. That single difference in surface temperature is what decides whether a cold, clear morning leaves grass beaded with dew or coated in a crust of frost."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you often spot a spider's web clearly on a dewy morning, when it's normally almost invisible?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Spiders rebuild their webs with thicker silk overnight",
+            "feedback": "Spiders don't change the thickness of their silk overnight for weather reasons; the web itself is exactly the same as always."
+          },
+          {
+            "label": "Dew makes the silk strands glow faintly in low light",
+            "feedback": "The strands don't produce or emit any light of their own; what you're seeing is ordinary daylight being scattered by droplets sitting on them."
+          },
+          {
+            "label": "The web catches insects overnight, and it's the insects you're seeing",
+            "feedback": "What you're noticing outlines the whole shape of the web evenly along every strand, not scattered points where insects happen to be caught."
+          },
+          {
+            "label": "Fine strands cool quickly and collect many tiny droplets along their length, which scatter light",
+            "feedback": "Those beaded droplets, strung out along every strand, catch and scatter light in a way the bare silk never could on its own."
+          }
+        ],
+        "ok_title": "Beaded, not glowing",
+        "ok_line": "Every strand outlined in tiny droplets, each one scattering light back to your eye.",
+        "ko_title": "Not thicker silk, not a glow, not insects",
+        "ko_line": "Ask why a thin strand of silk would cool especially fast overnight, and what tends to collect on any surface that does.",
+        "exp_title": "Outlined by its own droplets",
+        "exp_text": "A strand of spider silk has very little mass for how much surface it exposes to the sky, so it radiates away what little heat it holds and cools very quickly on a clear night, often faster than broader surfaces nearby. That rapid cooling brings it below the dew point sooner, and water vapour condenses along its whole length as a string of tiny droplets. Ordinarily nearly invisible, the web becomes outlined by many small droplets, each one catching and scattering light back toward your eye."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does thick ground-level fog block your view so much more severely than a thin, high cloud like cirrus would if you could somehow stand right inside it?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Fog packs far more, closely spaced droplets into the short distance right around your eyes",
+            "feedback": "With that many droplets scattering light in every direction over such a short stretch, very little of what's beyond can reach you clearly."
+          },
+          {
+            "label": "Fog droplets are simply much larger than the ice crystals in a cirrus cloud",
+            "feedback": "Ordinary fog droplets are actually very small, similar in size to the droplets found in many other clouds; it's how densely packed and close to you they are that matters here, not their individual size."
+          },
+          {
+            "label": "Cirrus clouds are always moving too fast to block your view",
+            "feedback": "Speed of movement has nothing to do with how much a cloud blocks your view; a fast-moving cirrus streak and a stationary one would look equally faint from within, given how sparse either one is."
+          },
+          {
+            "label": "Fog only blocks light from directly overhead, not from the sides",
+            "feedback": "Fog scatters light coming from every direction around you, not only from overhead; that's exactly why it obscures things off to the side as thoroughly as it does things straight ahead."
+          }
+        ],
+        "ok_title": "Density, not distance",
+        "ok_line": "So many droplets crowded into such a short stretch that almost nothing gets through clearly.",
+        "ko_title": "Not size, not speed, not direction",
+        "ko_line": "Ask how much cloud material actually sits between your eyes and something just a short way off, in each case.",
+        "exp_title": "So much material in so little space",
+        "exp_text": "Fog is a cloud you are standing inside, and even a modest patch of it packs a great many droplets into the short distance between your eyes and anything nearby, each droplet scattering some of the light on its way to you. A thin, high cloud like cirrus, if you could stand inside it, holds far fewer crystals spread through a much greater depth, so light from any nearby point has relatively little to pass through before reaching your eye. It's that crowding of droplets into a short stretch, not any difference in the water itself, that makes fog so much harder to see through."
+      }
+    ]
+  }
+]

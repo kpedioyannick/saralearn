@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 229,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the opening at the top of a volcano through which lava and gases escape?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Crater",
+            "feedback": "Correct. The crater is the bowl-shaped opening at the volcano's summit where volcanic material is ejected."
+          },
+          {
+            "label": "Vent",
+            "feedback": "A vent is the pipe-like passage inside the volcano that carries magma upward, but the opening at the top is the crater."
+          },
+          {
+            "label": "Fissure",
+            "feedback": "A fissure is a long crack in the ground that can also let lava out, but it is not the named opening at the top of a volcano."
+          },
+          {
+            "label": "Caldera",
+            "feedback": "A caldera is a large, usually circular depression that forms when a volcano collapses after a big eruption, not the ordinary opening at the top."
+          }
+        ],
+        "ok_title": "Crater confirmed",
+        "ok_line": "The crater is the top opening where lava and gases escape.",
+        "ko_title": "Name the opening",
+        "ko_line": "The top opening is the crater, not a vent or fissure.",
+        "exp_title": "Volcano's top opening",
+        "exp_text": "A volcano's crater is the bowl-shaped opening at its summit. Magma rising from deep inside moves through a vent—a pipe-like channel—and finally emerges at the crater. When the volcano is active, lava, ash, and gases pour out through this opening."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between lava and magma?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Magma is hotter than lava",
+            "feedback": "Temperature is not the difference; both are molten rock. The key is location, not heat."
+          },
+          {
+            "label": "Lava is thick, magma is thin",
+            "feedback": "Thickness depends on silica content and gas, not on whether it is called lava or magma. Both can be thick or thin."
+          },
+          {
+            "label": "Magma is underground, lava is on the surface",
+            "feedback": "Correct. Magma is molten rock beneath the Earth's surface; once it erupts and flows out, it is called lava."
+          },
+          {
+            "label": "Lava is older than magma",
+            "feedback": "Age has nothing to do with it. The name changes only when the molten rock reaches the surface."
+          }
+        ],
+        "ok_title": "Magma vs lava",
+        "ok_line": "Magma is underground; lava is what erupts to the surface.",
+        "ko_title": "What changes?",
+        "ko_line": "Only the location changes the name, not heat or thickness.",
+        "exp_title": "Location of molten rock",
+        "exp_text": "Magma is molten rock still beneath the Earth's surface, stored in magma chambers and moving through vents. When magma erupts through a volcano or crack and flows onto the surface, it becomes lava. The material is the same; the name changes with its position."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a volcano's magma chamber?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The opening at the volcano's summit",
+            "feedback": "That is the crater, not the magma chamber. The chamber is deep inside the volcano."
+          },
+          {
+            "label": "A large underground pool of molten rock that feeds the volcano",
+            "feedback": "Correct. The magma chamber is a reservoir of molten rock beneath the volcano, from which magma rises through the vent."
+          },
+          {
+            "label": "The hardened lava that forms the cone",
+            "feedback": "The cone is built from cooled lava and rock fragments; it is not a chamber of molten rock."
+          },
+          {
+            "label": "The long crack where two plates meet",
+            "feedback": "That describes a fault or fissure at plate boundaries, not the volcano's internal reservoir."
+          }
+        ],
+        "ok_title": "Magma chamber defined",
+        "ok_line": "It is the underground reservoir that supplies the volcano.",
+        "ko_title": "Where is it?",
+        "ko_line": "The chamber sits deep below, not at the crater.",
+        "exp_title": "Feeding the volcano",
+        "exp_text": "A magma chamber is a large underground pool of molten rock, usually several kilometers below the volcano's summit. It collects magma from deeper sources, and when pressure builds, the magma pushes up through the vent to erupt at the crater."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a stratovolcano?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A volcano that erupts only once and then dies",
+            "feedback": "That is a monogenetic volcano, not a stratovolcano. Stratovolcanoes erupt many times over long periods."
+          },
+          {
+            "label": "A flat, wide volcano formed by thin lava flows",
+            "feedback": "That describes a shield volcano, built by gentle, runny lava. Stratovolcanoes are tall and layered."
+          },
+          {
+            "label": "A volcano that releases only gas and no lava",
+            "feedback": "That is not a typical volcano type; even gas-rich volcanoes erupt lava or ash at times. Stratovolcanoes alternate between lava and ash."
+          },
+          {
+            "label": "A tall, cone-shaped volcano built from layers of lava and ash",
+            "feedback": "Correct. Stratovolcanoes form from alternating eruptions of lava flows and volcanic ash, building steep, layered cones."
+          }
+        ],
+        "ok_title": "Stratovolcano shape",
+        "ok_line": "It is a tall, layered cone of lava and ash.",
+        "ko_title": "What builds it?",
+        "ko_line": "Alternating lava and ash layers make it steep and tall.",
+        "exp_title": "Layered cone volcano",
+        "exp_text": "A stratovolcano, also called a composite volcano, is a tall, steep-sided cone built from many alternating layers of lava flows and volcanic ash or rock fragments. Each eruption adds a new layer, so over time the volcano grows into a prominent, symmetrical mountain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for molten rock that flows out of a volcano onto the surface?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Lava",
+            "feedback": "Correct. Molten rock that erupts onto the surface is called lava."
+          },
+          {
+            "label": "Magma",
+            "feedback": "Magma is the name for molten rock while it is still underground; once it flows out, it is lava."
+          },
+          {
+            "label": "Ash",
+            "feedback": "Ash is made of tiny pulverized rock and glass fragments, not molten liquid rock."
+          },
+          {
+            "label": "Tephra",
+            "feedback": "Tephra includes all solid material thrown out by a volcano, but flowing molten rock is specifically lava."
+          }
+        ],
+        "ok_title": "Lava on surface",
+        "ok_line": "Molten rock at the surface is lava.",
+        "ko_title": "Wrong material",
+        "ko_line": "Ash and tephra are solid fragments, not flowing liquid.",
+        "exp_title": "Surface molten rock",
+        "exp_text": "When magma reaches the surface and flows out of a volcano, it is called lava. It can be as hot as about 1,000°C and flows downhill until it cools and hardens into solid rock."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a volcanic bomb?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A type of dynamite used to break up lava",
+            "feedback": "Volcanic bombs are natural objects, not explosives used by people."
+          },
+          {
+            "label": "A small, round stone that forms inside a crater",
+            "feedback": "That is not a defined volcanic feature; bombs form from ejected lava that cools in flight."
+          },
+          {
+            "label": "A lump of lava thrown into the air that hardens before landing",
+            "feedback": "Correct. Volcanic bombs are large blobs of molten lava ejected during an eruption that cool and solidify while flying through the air."
+          },
+          {
+            "label": "A gas bubble that explodes inside the magma chamber",
+            "feedback": "Gas bubbles cause explosions, but they do not form solid lumps called bombs."
+          }
+        ],
+        "ok_title": "Volcanic bomb",
+        "ok_line": "It is a blob of lava that hardens in the air.",
+        "ko_title": "Natural object",
+        "ko_line": "It is not made by people nor a gas bubble.",
+        "exp_title": "Ejected lava clump",
+        "exp_text": "A volcanic bomb is a mass of molten lava that a volcano hurls into the air during an eruption. As it flies, it cools and often becomes rounded or twisted before falling back to the ground, sometimes still hot enough to flatten on impact."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a lahar?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A cloud of hot gas and ash that rushes down the slope",
+            "feedback": "That is a pyroclastic flow, which is hot and fast. A lahar is a mudflow, not a hot gas cloud."
+          },
+          {
+            "label": "A fast-moving mudflow made of volcanic ash and water",
+            "feedback": "Correct. A lahar is a slurry of volcanic debris and water that flows down a volcano, often triggered by heavy rain or melted snow."
+          },
+          {
+            "label": "A lava flow that moves very slowly across the ground",
+            "feedback": "Lava is molten rock, not mud. A lahar is a mudflow composed of loose ash and water."
+          },
+          {
+            "label": "A crack in the volcano where gas escapes",
+            "feedback": "That is a fumarole or vent, not a lahar."
+          }
+        ],
+        "ok_title": "Lahar definition",
+        "ok_line": "It is a muddy, fast flow of ash and water.",
+        "ko_title": "Not lava, not gas",
+        "ko_line": "A lahar is watery debris, not molten rock or a vent.",
+        "exp_title": "Volcanic mudflow",
+        "exp_text": "A lahar is a mixture of volcanic ash, rock fragments, and water that rushes down a volcano's slopes like wet concrete. It forms when heavy rain, melting snow, or a crater lake releases water that sweeps up loose volcanic debris, and it can travel far beyond the volcano."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a pyroclastic flow?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A slow-moving river of liquid lava",
+            "feedback": "Lava flows are molten rock; a pyroclastic flow is a fast mixture of hot gas and solid fragments."
+          },
+          {
+            "label": "A cloud of dust that settles quietly over the land",
+            "feedback": "That describes ash fall, which happens slowly. Pyroclastic flows surge down the slope at high speed."
+          },
+          {
+            "label": "A mudflow caused by heavy rain",
+            "feedback": "That is a lahar, made of mud and water, not a scorching gas-and-rock flow."
+          },
+          {
+            "label": "A fast, scorching avalanche of hot gas, ash, and rock",
+            "feedback": "Correct. Pyroclastic flows are extremely hot, fast-moving currents of gas and volcanic debris that hug the ground and destroy everything in their path."
+          }
+        ],
+        "ok_title": "Pyroclastic flow",
+        "ok_line": "It is a scorching, fast avalanche of gas and rock.",
+        "ko_title": "What it is not",
+        "ko_line": "It is not lava, ash fall, or a mudflow.",
+        "exp_title": "Hot gas avalanche",
+        "exp_text": "A pyroclastic flow is a mixture of extremely hot gas, ash, and rock fragments that rushes down a volcano at speeds up to hundreds of kilometers per hour. Because it is so hot and fast, it can flatten forests and buildings and is one of the most dangerous volcanic hazards."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a shield volcano?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A broad, gently sloping volcano built by runny lava flows",
+            "feedback": "Correct. Shield volcanoes have wide, low profiles because their thin, fluid lava spreads over large areas instead of building steep slopes."
+          },
+          {
+            "label": "A tall, steep volcano made of layered ash and rock",
+            "feedback": "That describes a stratovolcano, not a shield volcano."
+          },
+          {
+            "label": "A volcano that erupts only through a single crack",
+            "feedback": "That is a fissure eruption, not a shield volcano, which erupts from a central vent."
+          },
+          {
+            "label": "A volcano that is completely flat with no cone",
+            "feedback": "Shield volcanoes do have a slight dome shape, not a perfectly flat surface."
+          }
+        ],
+        "ok_title": "Shield volcano shape",
+        "ok_line": "It is broad and gently sloping from runny lava.",
+        "ko_title": "Built by lava type",
+        "ko_line": "Runny lava creates a wide shield, not a steep cone.",
+        "exp_title": "Broad lava volcano",
+        "exp_text": "A shield volcano is a wide, gently sloping volcano formed from many thin, fluid lava flows that travel far from the vent before cooling. The low viscosity of the lava lets it spread out, so the volcano builds a shape like a warrior's shield rather than a tall cone. Hawaii's volcanoes are classic examples."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is volcanic ash made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Tiny bits of burned wood and leaves",
+            "feedback": "Ash from volcanoes is not from burning plants; it is pulverized rock and glass."
+          },
+          {
+            "label": "Fine dust from the soil blown into the air",
+            "feedback": "Soil dust is different; volcanic ash comes from magma and rock shattered by eruptions."
+          },
+          {
+            "label": "Tiny fragments of pulverized rock and volcanic glass",
+            "feedback": "Correct. Volcanic ash consists of very small particles of rock, minerals, and volcanic glass formed when magma explodes into the air."
+          },
+          {
+            "label": "Liquid lava that cools into powder",
+            "feedback": "Ash is not cooled liquid lava; it forms from solid particles blasted out by gas expansion."
+          }
+        ],
+        "ok_title": "Ash composition",
+        "ok_line": "It is tiny rock and glass fragments.",
+        "ko_title": "Not plant or soil",
+        "ko_line": "It is pulverized volcanic rock, not burned matter.",
+        "exp_title": "Fragmented volcanic rock",
+        "exp_text": "Volcanic ash is made of tiny angular fragments of rock, mineral crystals, and volcanic glass. When gas expands rapidly in magma during an eruption, it shatters the molten rock into fine particles that are carried high into the atmosphere. Despite the name, it is not from burning anything."
+      }
+    ]
+  }
+]

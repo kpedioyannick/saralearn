@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 232,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between an ocean and a sea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An ocean is one of the largest named bodies of water, while a sea is a division of an ocean.",
+            "feedback": "Yes, oceans are the biggest named bodies, and seas are divisions of them, often set off by land or currents."
+          },
+          {
+            "label": "An ocean is always saltier than a sea.",
+            "feedback": "Saltiness is not the defining difference; both can have varying salt levels, and the distinction is about size and division."
+          },
+          {
+            "label": "A sea is always larger than an ocean.",
+            "feedback": "The opposite is true; oceans are the largest named bodies, and seas are their subdivisions."
+          },
+          {
+            "label": "An ocean is a type of sea, but larger.",
+            "feedback": "It's the reverse: seas are parts of oceans, not the other way around."
+          }
+        ],
+        "ok_title": "Ocean vs sea",
+        "ok_line": "Oceans are the largest named bodies; seas are their divisions.",
+        "ko_title": "Wrong distinction",
+        "ko_line": "Check the size and division relationship.",
+        "exp_title": "Basic definitions",
+        "exp_text": "In the World Ocean, the four to seven largest named bodies are called oceans. A sea is a division of an ocean, often set off by landforms, currents, or boundaries. So a sea is always smaller and part of an ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a marginal sea?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A sea that is completely surrounded by land on all sides.",
+            "feedback": "That would be an inland sea, not a marginal one; a marginal sea is open to the ocean at least partly."
+          },
+          {
+            "label": "A sea that has no connection to the ocean.",
+            "feedback": "A marginal sea is adjacent to or open to the open ocean, so it does connect."
+          },
+          {
+            "label": "A sea partially enclosed by islands, archipelagos, or peninsulas, open to the ocean.",
+            "feedback": "Correct: a marginal sea is a division of an ocean partially enclosed by landforms and usually open to the open ocean."
+          },
+          {
+            "label": "A sea that is always deeper than the open ocean.",
+            "feedback": "Depth is not part of the definition; marginal seas can be shallow or deep."
+          }
+        ],
+        "ok_title": "Marginal sea",
+        "ok_line": "It's a sea partially enclosed by land but open to the ocean.",
+        "ko_title": "Not marginal",
+        "ko_line": "Think about the partial enclosure and ocean connection.",
+        "exp_title": "Definition of marginal sea",
+        "exp_text": "A marginal sea is a division of an ocean partially enclosed by islands, archipelagos, or peninsulas, and it is adjacent to or widely open to the open ocean at the surface. It may also be bounded by submarine ridges on the sea floor."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a strait in the context of oceans and seas?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A wide area of open ocean.",
+            "feedback": "A strait is narrow, not wide; it's a narrow connection between two wider bodies."
+          },
+          {
+            "label": "A narrow area of water connecting two wider areas of water.",
+            "feedback": "Correct: a strait is a narrow passage that links two larger bodies, also called a passage sometimes."
+          },
+          {
+            "label": "A large bay with steep sides.",
+            "feedback": "That describes a fjord, not a strait."
+          },
+          {
+            "label": "A shallow part of a sea near the coast.",
+            "feedback": "That would be a bight or a sound, not a strait; a strait connects waters."
+          }
+        ],
+        "ok_title": "Strait definition",
+        "ok_line": "It's a narrow water passage connecting two wider areas.",
+        "ko_title": "Not a strait",
+        "ko_line": "Look for the narrow and connecting aspect.",
+        "exp_title": "What is a strait",
+        "exp_text": "A strait is a narrow area of water that connects two wider areas of water. It is sometimes called a passage. It plays a key role in linking seas and oceans."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the difference between a bay and a gulf?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A bay is always larger than a gulf.",
+            "feedback": "Since a gulf is a very large bay, a gulf is usually bigger, not the bay."
+          },
+          {
+            "label": "A gulf is always deeper than a bay.",
+            "feedback": "Depth is not part of the definition; both can be shallow or deep."
+          },
+          {
+            "label": "They are the same term with no difference.",
+            "feedback": "They overlap, but a gulf is specifically used for a very large bay."
+          },
+          {
+            "label": "A gulf is a very large bay, often a top-level division.",
+            "feedback": "Correct: a gulf is defined as a very large bay, often a top-level division of an ocean or sea."
+          }
+        ],
+        "ok_title": "Bay vs gulf",
+        "ok_line": "A gulf is just a very large bay.",
+        "ko_title": "Wrong size relation",
+        "ko_line": "Remember, gulf is bigger than typical bay.",
+        "exp_title": "Bay and gulf sizes",
+        "exp_text": "A bay is a generic term for a bulge of ocean indenting land, and most are small. A gulf is a very large bay, often a top-level division of an ocean or sea. So size is the main difference."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a fjord?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A long bay with steep sides, typically formed by a glacier.",
+            "feedback": "Correct: a fjord is a long bay with steep sides, usually created by glacial action."
+          },
+          {
+            "label": "A shallow bay that is wider than a sound.",
+            "feedback": "That describes a bight, not a fjord."
+          },
+          {
+            "label": "A narrow bay that is similar to a peninsula.",
+            "feedback": "That is an inlet; a fjord is steep-sided and glacial in origin."
+          },
+          {
+            "label": "A patch of water surrounded by ice.",
+            "feedback": "That is a polynya, not a fjord."
+          }
+        ],
+        "ok_title": "Fjord features",
+        "ok_line": "It's a steep-sided bay formed by glaciers.",
+        "ko_title": "Not a fjord",
+        "ko_line": "Check the steep sides and glacier origin.",
+        "exp_title": "Definition of fjord",
+        "exp_text": "A fjord is a long bay with steep sides, typically formed by a glacier. It's a type of bay, but its distinctive steep walls and glacial origin set it apart from others."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the difference between a bight and a sound?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A bight is always deeper than a sound.",
+            "feedback": "The opposite is true: a sound is deeper than a bight."
+          },
+          {
+            "label": "A sound is a type of bay that is shallower.",
+            "feedback": "A sound is deeper than a bight, not shallower."
+          },
+          {
+            "label": "A bight is shallower, and a sound is deeper.",
+            "feedback": "Correct: a bight is typically shallower than a sound, while a sound is a large, wide bay that is deeper."
+          },
+          {
+            "label": "They are the same, with no difference.",
+            "feedback": "They overlap but differ in depth and width; a sound is generally deeper."
+          }
+        ],
+        "ok_title": "Bight vs sound",
+        "ok_line": "Sound is deeper than bight.",
+        "ko_title": "Wrong depth order",
+        "ko_line": "Remember: sound is the deeper one.",
+        "exp_title": "Bight and sound depths",
+        "exp_text": "A bight is a bay that is typically shallower than a sound. A sound is a large, wide bay that is typically deeper than a bight or a strait. Depth is the key difference."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a cove?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A large, open area of ocean.",
+            "feedback": "A cove is small and sheltered, not large and open."
+          },
+          {
+            "label": "A narrow bay that is long like a peninsula.",
+            "feedback": "That is an inlet; a cove is small with a narrow entrance."
+          },
+          {
+            "label": "A patch of water surrounded by ice.",
+            "feedback": "That is a polynya, not a cove."
+          },
+          {
+            "label": "A small, sheltered bay with a relatively narrow entrance.",
+            "feedback": "Correct: a cove is a small bay that is typically sheltered and has a narrow entrance."
+          }
+        ],
+        "ok_title": "Cove definition",
+        "ok_line": "It's a small, sheltered bay with a narrow entrance.",
+        "ko_title": "Not a cove",
+        "ko_line": "Look for small size and shelter.",
+        "exp_title": "What is a cove",
+        "exp_text": "A cove is a small, typically sheltered bay with a relatively narrow entrance. Its size and shelter make it distinct from larger bays or gulfs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an inlet in relation to the sea?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A type of river that flows into the sea.",
+            "feedback": "That is an estuary; an inlet is a bay-like feature, not a river."
+          },
+          {
+            "label": "A narrow and long bay that adjoins the sea.",
+            "feedback": "Correct: an inlet is a narrow and long bay, similar to a land peninsula but adjoining the sea."
+          },
+          {
+            "label": "A large open bay with wide entrance.",
+            "feedback": "That describes a sound or bight, not an inlet."
+          },
+          {
+            "label": "A sea that is completely enclosed by land.",
+            "feedback": "That is an inland sea, not an inlet."
+          }
+        ],
+        "ok_title": "Inlet definition",
+        "ok_line": "It's a narrow, long bay adjoining the sea.",
+        "ko_title": "Wrong feature",
+        "ko_line": "Think of a narrow bay, not a river or lake.",
+        "exp_title": "What is an inlet",
+        "exp_text": "An inlet is a narrow and long bay that is similar to a land peninsula but adjoining the sea. It's a type of bay but specific in its shape and connection to the sea."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sargasso Sea unique for?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is defined only by ocean currents, not by land.",
+            "feedback": "Correct: the Sargasso Sea is the only sea defined solely by the four ocean currents that create the North Atlantic Gyre."
+          },
+          {
+            "label": "It is the largest sea by area.",
+            "feedback": "There is no evidence of that; it's unique for its definition, not size."
+          },
+          {
+            "label": "It is the saltiest sea in the world.",
+            "feedback": "Saltiness is not mentioned; its uniqueness is about currents."
+          },
+          {
+            "label": "It is the only sea that freezes.",
+            "feedback": "Freezing is not cited as a distinguishing feature."
+          }
+        ],
+        "ok_title": "Sargasso uniqueness",
+        "ok_line": "It's defined only by currents, not land.",
+        "ko_title": "Not unique for that",
+        "ko_line": "Think about how it's defined, not size or salt.",
+        "exp_title": "Sargasso Sea definition",
+        "exp_text": "The Sargasso Sea is the only sea in the world defined only by ocean currents, specifically the four currents that create the North Atlantic Gyre. Unlike all other seas, it has no land boundaries."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is NOT considered a sea and is excluded from the list?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A marginal sea like the Sargasso Sea.",
+            "feedback": "The Sargasso Sea is a sea and is included; it's defined by currents."
+          },
+          {
+            "label": "A bay like the Bay of Bengal.",
+            "feedback": "Bays are included in the list, so this is a sea-like feature."
+          },
+          {
+            "label": "The Dead Sea.",
+            "feedback": "Correct: the Dead Sea is a salt lake, not a division of the World Ocean, so it is excluded."
+          },
+          {
+            "label": "A gulf like the Persian Gulf.",
+            "feedback": "Gulfs are included as areas of water, so it's a sea-like feature."
+          }
+        ],
+        "ok_title": "Not a sea",
+        "ok_line": "Dead Sea is a lake, not a sea.",
+        "ko_title": "That is a sea",
+        "ko_line": "Check if it's a division of the ocean.",
+        "exp_title": "Excluded entities",
+        "exp_text": "Entities called 'seas' that are not divisions of the World Ocean are excluded. Lakes like the Dead Sea, Aral Sea, and Caspian Sea are salt lakes, so they are not seas."
+      }
+    ]
+  }
+]

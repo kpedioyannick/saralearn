@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 174,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a solar eclipse happen?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Earth passes directly between the Sun and the Moon",
+            "feedback": "That arrangement, Earth's shadow falling on the Moon, describes a lunar eclipse, not a solar one."
+          },
+          {
+            "label": "The Moon passes directly between the Sun and Earth, casting its shadow onto Earth's surface",
+            "feedback": "Anyone standing inside that shadow sees the Moon's disc blocking some or all of the Sun."
+          },
+          {
+            "label": "The Sun temporarily dims on its own",
+            "feedback": "The Sun's own brightness doesn't change during an eclipse; only how much of it we can see does."
+          },
+          {
+            "label": "Clouds gather to block sunlight in a fixed pattern",
+            "feedback": "An eclipse follows the Moon's shadow and happens on clear days just as on cloudy ones; clouds aren't the cause."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A shadow cast by the nearer, smaller body.",
+        "ko_title": "Not that",
+        "ko_line": "Ask which of the three bodies is doing the blocking, and which is being blocked.",
+        "exp_title": "A shadow cast by the nearer, smaller body",
+        "exp_text": "The Moon orbits between Earth and the Sun once each month, and on the occasions when it lines up exactly right, its shadow sweeps across part of Earth's surface. Anyone standing inside that shadow sees the Moon's disc blocking some or all of the Sun. The eclipse is simply that shadow passing over the ground; nothing about the Sun itself has changed."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't a solar eclipse happen every single month, given that the Moon circles Earth about once a month?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The Moon's orbit is tilted a few degrees from Earth's path around the Sun, so its shadow usually passes above or below Earth",
+            "feedback": "Only when the two tilted paths cross at the right moment does the shadow actually land on Earth."
+          },
+          {
+            "label": "The Moon is too small to ever cast a shadow that reaches Earth",
+            "feedback": "The Moon's shadow does reach Earth whenever the alignment is close enough, which is exactly what makes an eclipse happen at all."
+          },
+          {
+            "label": "The Sun only lines up with the Moon's orbit twice a year",
+            "feedback": "It isn't the Sun's position that varies here; it's the tilt of the Moon's own orbital path."
+          },
+          {
+            "label": "The Moon skips its orbit occasionally",
+            "feedback": "The Moon completes its orbit every month without skipping; the alignment, not the orbit itself, is what varies."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "An orbit that's slightly off the flat plane most months.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the Moon's path around Earth lies exactly in the same plane as Earth's path around the Sun.",
+        "exp_title": "An orbit that's slightly off-plane",
+        "exp_text": "Earth's path around the Sun defines one flat plane, but the Moon's path around Earth is tilted a few degrees away from that plane rather than lying exactly within it. Most months the Moon passes its new-moon point slightly above or below the Sun's position in the sky, so its shadow sails past Earth without touching it. Only when a new moon happens to fall right where the two tilted paths cross does the shadow actually land on Earth's surface."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can the Moon, so much smaller than the Sun, completely cover it during a total eclipse?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Moon briefly grows larger during an eclipse",
+            "feedback": "The Moon's actual size never changes; what matters is how large it appears from Earth."
+          },
+          {
+            "label": "The Sun shrinks temporarily as it is eclipsed",
+            "feedback": "Nothing about the Sun's size changes during an eclipse."
+          },
+          {
+            "label": "Special lighting conditions make the Moon look larger than it is",
+            "feedback": "This isn't a trick of lighting; it's a real match between two apparent sizes in the sky."
+          },
+          {
+            "label": "The Moon is far smaller than the Sun, but it also sits far closer, so both look almost the same size from Earth",
+            "feedback": "Two differences that very nearly cancel each other out, as seen from Earth."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A coincidence of size and distance.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what two facts about the Moon, its size and its distance, might work against each other.",
+        "exp_title": "A coincidence of size and distance",
+        "exp_text": "The Sun is enormously larger than the Moon, but it is also enormously farther away, and those two differences work out to almost cancel each other from Earth's point of view. Held up against each other in the sky, the two discs come out to very nearly the same apparent size. That near-match is what allows the closer, smaller Moon to fit almost exactly over the far larger, more distant Sun."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a total solar eclipse visible only along a narrow path on Earth, while a partial eclipse is visible across a much wider area?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only a narrow strip of Earth is ever in daylight during an eclipse",
+            "feedback": "Eclipses happen during the day everywhere they're visible; daylight isn't what's limited here."
+          },
+          {
+            "label": "The Moon deliberately narrows its shadow for a total eclipse",
+            "feedback": "The Moon casts a fixed shadow shape determined by geometry, not by any adjustment."
+          },
+          {
+            "label": "The Moon's full shadow, where the Sun is completely hidden, is a narrow cone, while its partial shadow spreads much wider",
+            "feedback": "Two shadows at once, one thin and complete, one broad and only partial."
+          },
+          {
+            "label": "Cloud patterns happen to be narrower during eclipses",
+            "feedback": "The width of visibility is set by the Moon's shadow geometry, not by weather."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Two shadows, one narrow and one wide.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the Moon casts just one kind of shadow, or more than one.",
+        "exp_title": "Two shadows, one narrow and one wide",
+        "exp_text": "The Moon's shadow actually has two parts: a narrow cone where it blocks the Sun's disc completely, and a much broader, fainter surrounding region where it blocks only part of the Sun. Only the narrow cone gives observers a total eclipse, and as Earth turns beneath it, that cone traces a thin path across the surface. Everyone within the wider surrounding shadow sees a partial eclipse instead, which is why so many more people ever witness one than the other."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does it suddenly grow dark and noticeably cooler during a total solar eclipse?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Moon actively pulls heat away from Earth's surface as it passes over",
+            "feedback": "The Moon has no such effect on Earth's heat; it simply blocks light."
+          },
+          {
+            "label": "The Sun's direct light and warmth are abruptly cut off, and the ground stops gaining new heat within minutes",
+            "feedback": "A steady supply of warmth suddenly interrupted, even if only briefly."
+          },
+          {
+            "label": "The air pressure changes sharply during an eclipse",
+            "feedback": "Atmospheric pressure isn't significantly altered by an eclipse."
+          },
+          {
+            "label": "Clouds always form suddenly as an eclipse begins",
+            "feedback": "Eclipses happen on clear days too, and the darkening and cooling occur regardless of cloud cover."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The heat source switched off, briefly.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what the ground and air were relying on, moment to moment, right before totality began.",
+        "exp_title": "The heat source switched off, briefly",
+        "exp_text": "Ground and air warm up because they are constantly gaining more heat from sunlight than they lose. During totality, that steady supply is abruptly cut off for a few minutes, and even though the day's earlier warming doesn't vanish, the sudden gap is enough for the temperature to noticeably dip and the sky to darken to a deep twilight. As soon as the Sun re-emerges from behind the Moon, the light and the warming resume immediately."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can the Sun's faint outer atmosphere, the corona, usually only be seen during a total solar eclipse?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The bright disc of the Sun normally overwhelms the far fainter corona, and only a total eclipse blocks that disc away",
+            "feedback": "Nothing hides the corona except the Sun's own overpowering glare."
+          },
+          {
+            "label": "The corona only exists for the brief duration of an eclipse",
+            "feedback": "The corona surrounds the Sun constantly; an eclipse doesn't create it, only reveals it."
+          },
+          {
+            "label": "Eclipses briefly make the corona glow brighter than usual",
+            "feedback": "Nothing about an eclipse changes how bright the corona itself is; it only removes what was hiding it."
+          },
+          {
+            "label": "Special equipment is required to make the corona visible at any other time",
+            "feedback": "Even with equipment, ordinary daylight from the Sun's disc still drowns it out to the naked eye; it's the disc's blocking that matters."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A faint glow, ordinarily drowned out.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the corona is actually absent the rest of the time, or simply outshone.",
+        "exp_title": "A faint glow, ordinarily drowned out",
+        "exp_text": "The corona is there around the Sun at all times, but it shines far more faintly than the blazing disc beneath it, so in ordinary daylight it is completely lost in that glare. A total eclipse blocks out exactly the bright disc and nothing else, leaving the much dimmer corona finally visible against the darkened sky. The moment any sliver of the disc reappears, its glare returns and swallows the corona again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the type of solar eclipse, a total eclipse versus an annular \"ring of fire\" eclipse, depend on the Moon's distance from Earth at that moment?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Sun changes size depending on the season",
+            "feedback": "The Sun's actual size doesn't change; what varies here is how large the Moon appears."
+          },
+          {
+            "label": "Annular eclipses only happen when the Moon disappears entirely",
+            "feedback": "An annular eclipse is defined by the Moon not fully covering the Sun, leaving a visible ring."
+          },
+          {
+            "label": "The Moon changes its own physical size over its orbit",
+            "feedback": "The Moon's actual size is constant; only its distance, and so its apparent size, changes."
+          },
+          {
+            "label": "The Moon's orbit is not a perfect circle, so its apparent size in the sky varies, sometimes too small to fully cover the Sun",
+            "feedback": "A ring left behind whenever the Moon happens to be too far off to close the gap."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A ring left behind by a Moon that's too far off.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the Moon's distance from Earth is always exactly the same.",
+        "exp_title": "A ring left behind by a Moon that's too far off",
+        "exp_text": "The Moon's path around Earth is a slight oval rather than a perfect circle, so its distance from Earth, and therefore how large it appears in the sky, changes somewhat over each orbit. When a new moon happens to fall while the Moon is near its farthest point, its disc looks a little smaller than the Sun's and cannot cover it completely, leaving a bright ring showing around the edge. Nearer points in the orbit make the Moon look just large enough for a full, total cover instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is it dangerous to look directly at a partial solar eclipse, when looking at a full moon is perfectly safe?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Moon's light during an eclipse is somehow amplified",
+            "feedback": "Nothing amplifies light during a partial eclipse; if anything, less of the Sun is visible than usual."
+          },
+          {
+            "label": "The eye's pupil widens dangerously only during an eclipse",
+            "feedback": "The pupil responds to the light level at the time, not specifically to the fact that an eclipse is occurring."
+          },
+          {
+            "label": "Even a sliver of the Sun's surface is intensely bright, and the retina has no pain receptors to warn of the damage as it happens",
+            "feedback": "Damage that can happen with no sensation to make someone look away in time."
+          },
+          {
+            "label": "Ultraviolet light only reaches Earth during an eclipse",
+            "feedback": "Ultraviolet light reaches Earth from the Sun at all times, eclipse or not."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Damage that gives no warning.",
+        "ko_title": "Careful",
+        "ko_line": "Ask what a sliver of the Sun's surface is still doing, brightness-wise, compared with the whole disc.",
+        "exp_title": "Damage that gives no warning",
+        "exp_text": "Even when most of the Sun's disc is covered by the Moon, the remaining crescent is still intensely bright and can focus enough light onto the retina to damage it. Unlike skin, the retina has no pain receptors, so that damage can happen with no sensation to make someone look away in time. A full moon, by contrast, is only reflecting a small share of ordinary sunlight and never approaches that intensity."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the shadow of a total eclipse race quickly across Earth's surface rather than sitting still over one spot?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Sun itself is moving rapidly through space",
+            "feedback": "This motion of a shadow across the ground has nothing to do with the Sun's own movement through the galaxy."
+          },
+          {
+            "label": "The Moon is orbiting Earth while Earth is also spinning beneath the shadow, and both motions carry the shadow's path along",
+            "feedback": "Two motions at once, neither of them standing still."
+          },
+          {
+            "label": "Wind currents in the upper atmosphere physically push the shadow along",
+            "feedback": "A shadow isn't a physical object that wind can push; its motion comes from the Moon and Earth's own movements."
+          },
+          {
+            "label": "Earth briefly speeds up its rotation during an eclipse",
+            "feedback": "Earth's rotation rate doesn't change because of an eclipse."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Two motions carrying one shadow.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what is moving during an eclipse besides the shadow itself: the Moon, and the ground beneath it.",
+        "exp_title": "Two motions carrying one shadow",
+        "exp_text": "The Moon is steadily moving along its orbit even as the eclipse happens, so the point where its shadow falls keeps shifting. At the same time, Earth is turning underneath that shadow, carrying the ground itself out from beneath it. Between the two, the path of totality sweeps rapidly across the surface rather than lingering over any single place."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are total solar eclipses expected to eventually stop happening altogether, in the very distant future?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The Moon is slowly drifting farther from Earth, so its apparent size in the sky keeps shrinking",
+            "feedback": "A Moon that will eventually look too small to cover the Sun from anywhere on Earth."
+          },
+          {
+            "label": "The Sun is expected to shrink dramatically very soon",
+            "feedback": "Any such change to the Sun lies on a far longer timescale, and it isn't shrinking now; the Moon's slow drift is the relevant process here."
+          },
+          {
+            "label": "Earth's rotation will eventually stop entirely",
+            "feedback": "While Earth's spin is very gradually slowing, this isn't what determines whether the Moon can still cover the Sun."
+          },
+          {
+            "label": "The Moon's orbit will eventually become a perfect circle",
+            "feedback": "Even a perfectly circular orbit wouldn't prevent eclipses; what matters is the Moon's growing distance, not the shape of its path."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A Moon slowly pulling away.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what is quietly changing about the distance between Earth and the Moon, orbit after orbit.",
+        "exp_title": "A Moon slowly pulling away",
+        "exp_text": "Tidal forces between Earth and the Moon are gradually pushing the Moon a little farther away with every orbit. As that distance grows, the Moon's disc will keep looking smaller in the sky, until eventually it can no longer fully cover the Sun's disc from anywhere on Earth. Long after that point, every solar eclipse will be of the ring-shaped kind, since none of the Moon's positions will ever look wide enough again."
+      }
+    ]
+  }
+]

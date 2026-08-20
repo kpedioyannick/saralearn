@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the most basic definition of wind?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The natural movement of air or other gases relative to a planet's surface",
+            "feedback": "Correct. Wind is simply moving air, or other gases, over the surface of a planet."
+          },
+          {
+            "label": "The movement of air caused only by the Earth's rotation",
+            "feedback": "Rotation is one factor that affects winds, but wind is defined as the movement of air in general, not just because of rotation."
+          },
+          {
+            "label": "The flow of air from the ocean to the land",
+            "feedback": "That is a specific type of wind, the sea breeze. Wind can come from anywhere and move in any direction."
+          },
+          {
+            "label": "The speed at which air travels in the upper atmosphere",
+            "feedback": "Wind occurs at all levels of the atmosphere, and its definition is not limited to high altitudes."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "Wind is just air on the move.",
+        "ko_title": "Not quite",
+        "ko_line": "Re-read the basic definition.",
+        "exp_title": "What wind is",
+        "exp_text": "Wind is the natural movement of air or other gases relative to a planet's surface. It happens whenever air flows from one place to another."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes differences in atmospheric pressure that lead to wind?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The rotation of the planet alone",
+            "feedback": "Rotation affects wind direction but does not create the pressure differences that start the air moving."
+          },
+          {
+            "label": "The presence of mountains and valleys",
+            "feedback": "Terrain can shape local winds, but the primary cause of pressure differences is temperature."
+          },
+          {
+            "label": "Temperature differences",
+            "feedback": "Correct. When air is heated or cooled differently in different places, the pressure changes, and air flows from high to low pressure."
+          },
+          {
+            "label": "The gravitational pull of the Moon",
+            "feedback": "Gravity acts on air, but it is not the cause of pressure differences that create winds."
+          }
+        ],
+        "ok_title": "Temperature drives it",
+        "ok_line": "Pressure differences come from temperature differences.",
+        "ko_title": "Wrong cause",
+        "ko_line": "Think about what heats the air.",
+        "exp_title": "Origin of pressure differences",
+        "exp_text": "Differences in atmospheric pressure are primarily due to temperature differences. Warmer air has lower pressure, cooler air has higher pressure, and air moves from high to low pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When air pressure is different in two places, which way does the air move?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "From lower pressure to higher pressure",
+            "feedback": "Air moves the other way, from higher to lower pressure."
+          },
+          {
+            "label": "From higher pressure to lower pressure",
+            "feedback": "Correct. Air naturally flows into the area of lower pressure, creating wind."
+          },
+          {
+            "label": "It stays still until the pressure equalizes",
+            "feedback": "Air does move to equalize pressure, but it moves from high to low, not just 'stays still'."
+          },
+          {
+            "label": "It moves randomly in all directions",
+            "feedback": "Air follows a clear rule: it flows from high pressure toward low pressure."
+          }
+        ],
+        "ok_title": "Downhill for air",
+        "ok_line": "Air flows from high to low pressure.",
+        "ko_title": "Flow direction",
+        "ko_line": "Remember which end is the starting point.",
+        "exp_title": "Air's natural flow",
+        "exp_text": "Air moves from the higher pressure area to the lower pressure area. This movement is what we feel as wind."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "On a rotating planet, what effect deflects moving air, except right at the equator?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The Coriolis effect",
+            "feedback": "Correct. This effect, caused by the planet's rotation, curves the path of moving air."
+          },
+          {
+            "label": "The gravitational effect",
+            "feedback": "Gravity pulls air downward but does not deflect it sideways."
+          },
+          {
+            "label": "The frictional effect",
+            "feedback": "Friction slows air near the surface but does not make it curve."
+          },
+          {
+            "label": "The thermal effect",
+            "feedback": "Heating creates pressure differences, but the deflection itself comes from rotation."
+          }
+        ],
+        "ok_title": "Coriolis deflection",
+        "ok_line": "Rotation curves the wind's path.",
+        "ko_title": "Not the cause",
+        "ko_line": "Think about what spinning does.",
+        "exp_title": "Why wind curves",
+        "exp_text": "On a rotating planet, moving air is deflected by the Coriolis effect, except exactly on the equator. This makes winds curve rather than go in straight lines."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the general term that describes the large-scale pattern of winds on Earth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Monsoon circulation",
+            "feedback": "Monsoons are regional wind patterns, not the global pattern."
+          },
+          {
+            "label": "Sea breeze cycle",
+            "feedback": "That is a local coastal wind, not the large-scale circulation."
+          },
+          {
+            "label": "Valley breeze",
+            "feedback": "That is a small-scale wind in mountainous terrain."
+          },
+          {
+            "label": "Atmospheric circulation",
+            "feedback": "Correct. The large-scale wind patterns are called atmospheric circulation."
+          }
+        ],
+        "ok_title": "Global air movement",
+        "ok_line": "The big pattern is atmospheric circulation.",
+        "ko_title": "Local vs global",
+        "ko_line": "Look for the term that covers the whole planet.",
+        "exp_title": "Large-scale winds",
+        "exp_text": "The overall pattern of winds that circles the globe is known as atmospheric circulation, driven by the difference in heating between the equator and the poles."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two factors are the main drivers of large-scale wind patterns on Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Ocean currents and mountain ranges",
+            "feedback": "These influence weather but are not the main drivers of global wind patterns."
+          },
+          {
+            "label": "The Moon's gravity and the Sun's light",
+            "feedback": "The Sun's light does play a role, but the Moon's gravity is not a factor for winds."
+          },
+          {
+            "label": "Differential heating between the equator and the poles, and the rotation of the planet",
+            "feedback": "Correct. The uneven heating and the spinning of Earth set the whole atmosphere in motion."
+          },
+          {
+            "label": "The melting of polar ice and the growth of deserts",
+            "feedback": "These are not direct causes of the large-scale wind patterns."
+          }
+        ],
+        "ok_title": "Two big drivers",
+        "ok_line": "Heat difference and rotation do it.",
+        "ko_title": "Check the drivers",
+        "ko_line": "What makes the air move on a global scale?",
+        "exp_title": "Causes of global winds",
+        "exp_text": "The two main drivers are the differential heating between the equator and the poles, and the planet's rotation, which creates the Coriolis effect."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In meteorology, how is wind direction usually described?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "By where it is going",
+            "feedback": "Meteorologists use the opposite convention."
+          },
+          {
+            "label": "By where it comes from",
+            "feedback": "Correct. A wind is named for the direction it blows from, so a westerly wind comes from the west."
+          },
+          {
+            "label": "By its speed only",
+            "feedback": "Speed is a separate measure; direction is described separately."
+          },
+          {
+            "label": "By the altitude it flows at",
+            "feedback": "Altitude is not part of the description of wind direction."
+          }
+        ],
+        "ok_title": "Direction naming",
+        "ok_line": "Winds are named by their source.",
+        "ko_title": "Wrong convention",
+        "ko_line": "Check which end gives the name.",
+        "exp_title": "How winds are named",
+        "exp_text": "Wind direction refers to where the wind comes from. So a westerly wind blows from the west toward the east."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a short burst of high speed wind called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A gust",
+            "feedback": "Correct. A gust is a brief, strong pulse of wind."
+          },
+          {
+            "label": "A squall",
+            "feedback": "A squall lasts about a minute, longer than a gust."
+          },
+          {
+            "label": "A breeze",
+            "feedback": "A breeze is a gentle, steady wind, not a short burst."
+          },
+          {
+            "label": "A gale",
+            "feedback": "A gale is a strong, but sustained, wind, not a short burst."
+          }
+        ],
+        "ok_title": "Brief burst",
+        "ok_line": "A gust is quick and strong.",
+        "ko_title": "Duration matters",
+        "ko_line": "Think about how long it lasts.",
+        "exp_title": "Types of wind bursts",
+        "exp_text": "Short bursts of high speed wind are called gusts. Squalls are stronger and last about a minute, while breezes and gales are more sustained."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the regional wind patterns called that occur in coastal areas, involving a cycle of breezes?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Mountain and valley breezes",
+            "feedback": "Those occur in mountainous terrain, not on coasts."
+          },
+          {
+            "label": "Monsoon circulations",
+            "feedback": "Monsoons affect large regions, not just coastlines, and are not described as a simple cycle of breezes."
+          },
+          {
+            "label": "Sea breeze and land breeze cycle",
+            "feedback": "Correct. Coastal areas experience a daily cycle where breezes blow from the sea and then from the land."
+          },
+          {
+            "label": "Trade winds",
+            "feedback": "Trade winds are global belts, not local coastal cycles."
+          }
+        ],
+        "ok_title": "Coastal breezes",
+        "ok_line": "Sea and land breezes cycle daily.",
+        "ko_title": "Wrong region",
+        "ko_line": "What happens near the shoreline?",
+        "exp_title": "Local coastal winds",
+        "exp_text": "In coastal areas, the sea breeze and land breeze cycle can define local winds. During the day, a sea breeze blows in; at night, a land breeze blows out."
+      }
+    ]
+  }
+]

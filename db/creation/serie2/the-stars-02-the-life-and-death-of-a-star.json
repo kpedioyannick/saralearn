@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the stage in a star's life when it has become a stable, long-lasting sphere of fusion?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Protostar",
+            "feedback": "A protostar is the earlier, still-forming stage before fusion has fully ignited and stabilised."
+          },
+          {
+            "label": "Main sequence",
+            "feedback": "Correct. A star spends most of its life on the main sequence, steadily fusing hydrogen in its core."
+          },
+          {
+            "label": "Red giant",
+            "feedback": "A red giant is a late stage, after the main sequence, when the star has swollen hugely."
+          },
+          {
+            "label": "White dwarf",
+            "feedback": "A white dwarf is the final leftover of a low-mass star, with no fusion happening."
+          }
+        ],
+        "ok_title": "Stable stage",
+        "ok_line": "The main sequence is where a star shines steadily for most of its life.",
+        "ko_title": "Earlier and later stages",
+        "ko_line": "Protostar, red giant, and white dwarf are all different points in a star's life.",
+        "exp_title": "Main sequence star",
+        "exp_text": "The main sequence is the long, stable phase when a star fuses hydrogen in its core and its gravity and internal pressure are balanced. This is the stage our Sun is in right now."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What directly determines which path a star's life and death will take?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Its colour",
+            "feedback": "Colour is a result of the star's temperature, not the root cause of its life path."
+          },
+          {
+            "label": "Its distance from Earth",
+            "feedback": "Distance from Earth has no effect on how a star evolves or dies."
+          },
+          {
+            "label": "Its mass",
+            "feedback": "Correct. A star's mass sets how hot it burns, how long it lives, and what it leaves behind."
+          },
+          {
+            "label": "Its age",
+            "feedback": "Age matters for where in the life it is, but the same age star can be on different paths based on its starting mass."
+          }
+        ],
+        "ok_title": "Mass decides",
+        "ok_line": "Mass is the key factor for a star's entire fate.",
+        "ko_title": "Other factors don't",
+        "ko_line": "Colour, distance, and age alone do not set a star's life path.",
+        "exp_title": "Mass and fate",
+        "exp_text": "A star's mass is set when it forms and never changes much. It controls the core temperature, the fusion rate, and everything that follows, from red giant stage to supernova or quiet cool-off."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of star is the Sun at the end of its life expected to become before it cools off?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "White dwarf",
+            "feedback": "Correct. The Sun will puff off its outer layers and leave behind a hot core that fades as a white dwarf."
+          },
+          {
+            "label": "Neutron star",
+            "feedback": "A neutron star forms only from stars much more massive than the Sun."
+          },
+          {
+            "label": "Black hole",
+            "feedback": "A black hole requires a dying star far more massive than the Sun."
+          },
+          {
+            "label": "Red dwarf",
+            "feedback": "A red dwarf is a small star on the main sequence, not an end stage for the Sun."
+          }
+        ],
+        "ok_title": "Sun's end",
+        "ok_line": "The Sun ends as a white dwarf.",
+        "ko_title": "Heavy remnants",
+        "ko_line": "Neutron stars and black holes are for far heavier stars.",
+        "exp_title": "White dwarf fate",
+        "exp_text": "When the Sun exhausts its fuel, it sheds its outer layers, and the core shrinks into a white dwarf that gradually fades over billions of years."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of a star does fusion primarily take place?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The surface",
+            "feedback": "The surface is the cool outer layer; fusion is not happening there."
+          },
+          {
+            "label": "The atmosphere",
+            "feedback": "The atmosphere is the thin outer gas, far too cool for fusion."
+          },
+          {
+            "label": "The outer shell",
+            "feedback": "The outer shell surrounds the core but does not have the heat and pressure for fusion during the main sequence."
+          },
+          {
+            "label": "The core",
+            "feedback": "Correct. The core is the hottest, densest centre where fusion occurs."
+          }
+        ],
+        "ok_title": "Fusion core",
+        "ok_line": "Fusion happens in the core.",
+        "ko_title": "Not outside",
+        "ko_line": "The surface, atmosphere, and outer shell are all too cool.",
+        "exp_title": "Stellar core",
+        "exp_text": "The core is the central region where gravity squeezes matter hardest, raising temperature enough for hydrogen nuclei to fuse."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When a star like the Sun swells into a red giant, what has happened to its core?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It has cooled and stopped all fusion",
+            "feedback": "The core is still extremely hot; only hydrogen fusion has stopped there. Helium fusion may start later."
+          },
+          {
+            "label": "It has contracted and grown hotter",
+            "feedback": "Correct. The core shrinks, heats up, and begins fusing helium while the outer layers expand."
+          },
+          {
+            "label": "It has expanded along with the outer layers",
+            "feedback": "The core contracts while the outer layers expand; the two do not swell together."
+          },
+          {
+            "label": "It has been thrown out into space",
+            "feedback": "The core stays in place; it is the outer layers that are shed."
+          }
+        ],
+        "ok_title": "Core changes",
+        "ok_line": "The core contracts and heats up.",
+        "ko_title": "Wrong core behaviour",
+        "ko_line": "The core does not cool, expand, or get ejected.",
+        "exp_title": "Red giant core",
+        "exp_text": "Once hydrogen in the core is spent, gravity crushes the core, raising its temperature until helium can fuse. This extra heat pushes the outer layers outward, making the red giant."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the remnant left behind after a supernova when the original star was extremely massive?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A white dwarf",
+            "feedback": "A white dwarf is only left by low-mass stars, which never explode as supernovae."
+          },
+          {
+            "label": "A red dwarf",
+            "feedback": "A red dwarf is a small main-sequence star, not a remnant of a supernova."
+          },
+          {
+            "label": "A neutron star or a black hole",
+            "feedback": "Correct. The crushed core of a very massive star becomes either a neutron star or, if massive enough, a black hole."
+          },
+          {
+            "label": "A red giant",
+            "feedback": "A red giant is a phase a star goes through before exploding; it is not what is left behind."
+          }
+        ],
+        "ok_title": "Supernova remnant",
+        "ok_line": "A neutron star or black hole remains.",
+        "ko_title": "Not low-mass leftovers",
+        "ko_line": "White dwarfs come from quieter deaths, not supernovae.",
+        "exp_title": "Massive star remnant",
+        "exp_text": "After a supernova, the core has collapsed so hard that it becomes either an ultra-dense neutron star or a black hole, depending on the original star's mass."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a low-mass star like a red dwarf do at the very end of its life, instead of exploding?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It becomes a neutron star",
+            "feedback": "Neutron stars require a supernova, which red dwarfs never undergo."
+          },
+          {
+            "label": "It becomes a black hole",
+            "feedback": "Black holes are only formed from the most massive stars."
+          },
+          {
+            "label": "It swells into a red giant first",
+            "feedback": "A red dwarf never leaves the main sequence; it does not have enough mass to become a red giant."
+          },
+          {
+            "label": "It just fades out gradually",
+            "feedback": "Correct. A red dwarf slowly dims over trillions of years until it stops shining, with no dramatic end."
+          }
+        ],
+        "ok_title": "Red dwarf end",
+        "ok_line": "Red dwarfs fade out quietly.",
+        "ko_title": "No dramatic death",
+        "ko_line": "They never explode or swell into giants.",
+        "exp_title": "Quiet ending",
+        "exp_text": "A red dwarf has so little mass that it never reaches the conditions for a red giant stage or a supernova; it simply uses its fuel slowly and fades away."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main source of the heavy elements, such as gold and uranium, found on Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Supernovae of massive stars",
+            "feedback": "Correct. The extreme conditions in supernovae forge the heaviest elements and scatter them into space."
+          },
+          {
+            "label": "Fusion in the Sun's core",
+            "feedback": "The Sun fuses light elements only, up to around iron, and never makes heavy ones like gold."
+          },
+          {
+            "label": "The early Earth's atmosphere",
+            "feedback": "The Earth itself formed from matter already infused with heavy elements; they were not created here."
+          },
+          {
+            "label": "Ordinary stars like red dwarfs",
+            "feedback": "Low-mass stars never reach the temperatures or pressures needed to create heavy elements."
+          }
+        ],
+        "ok_title": "Heavy element origin",
+        "ok_line": "Supernovae make the heaviest elements.",
+        "ko_title": "Not from Sun or Earth",
+        "ko_line": "Sun fusion is too light, and Earth only inherited them.",
+        "exp_title": "Supernova forges",
+        "exp_text": "When a very massive star explodes, its core and surroundings reach temperatures high enough to fuse nuclei into heavy elements, which then spread through space and later become part of planets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a supernova, what happens to the outer layers of the star?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They collapse into the core",
+            "feedback": "Only the core collapses; the outer layers are blasted away."
+          },
+          {
+            "label": "They are blown off into space",
+            "feedback": "Correct. The shockwave from the core collapse throws the outer layers outward."
+          },
+          {
+            "label": "They shrink into a white dwarf",
+            "feedback": "A white dwarf is formed from a quiet shedding, not from a supernova's explosion."
+          },
+          {
+            "label": "They stay in place around the core",
+            "feedback": "The outer layers are violently expelled, not left in place."
+          }
+        ],
+        "ok_title": "Outer layers blown",
+        "ok_line": "The explosion hurls the outer layers away.",
+        "ko_title": "Core collapses, outside flies",
+        "ko_line": "The core compresses while the outer parts fly off.",
+        "exp_title": "Supernova blast",
+        "exp_text": "A supernova is the catastrophic explosion at the end of a massive star's life; the core collapses inward while the outer layers are expelled at enormous speeds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical lifetime of a very massive star compared to that of a small star like a red dwarf?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It is much longer",
+            "feedback": "Massive stars burn fuel fast and live short lives, not long ones."
+          },
+          {
+            "label": "It is about the same",
+            "feedback": "Mass and lifetime are strongly linked; they are not the same at all."
+          },
+          {
+            "label": "It is much shorter",
+            "feedback": "Correct. Massive stars use up their fuel quickly and die in a few million years."
+          },
+          {
+            "label": "It depends only on its colour",
+            "feedback": "Colour reflects temperature, which is set by mass, but it is the mass itself that decides the lifetime."
+          }
+        ],
+        "ok_title": "Massive, short-lived",
+        "ok_line": "Massive stars die fast.",
+        "ko_title": "Small stars last",
+        "ko_line": "Red dwarfs burn slowly for trillions of years.",
+        "exp_title": "Lifetime by mass",
+        "exp_text": "A star's lifetime is set by how fast it burns fuel. Massive stars have very hot cores and fuse rapidly, exhausting their hydrogen in a few million years, while small red dwarfs can last for trillions of years."
+      }
+    ]
+  }
+]

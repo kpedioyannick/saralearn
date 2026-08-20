@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a prevailing wind in a region?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A wind that blows only during a storm",
+            "feedback": "Storms bring strong winds, but a prevailing wind is a steady pattern, not tied to stormy weather."
+          },
+          {
+            "label": "A wind that changes direction every hour",
+            "feedback": "A wind that shifts often is not prevailing; prevailing means it blows from one main direction most of the time."
+          },
+          {
+            "label": "A surface wind that blows predominantly from a particular direction",
+            "feedback": "Correct. A prevailing wind is the trend of wind direction over a region, blowing mostly from one general direction."
+          },
+          {
+            "label": "A wind that blows only at high altitudes",
+            "feedback": "Prevailing winds are surface winds, not high-altitude ones."
+          }
+        ],
+        "ok_title": "Prevailing wind defined",
+        "ok_line": "It is the surface wind that blows mostly from one direction.",
+        "ko_title": "Check wind meaning",
+        "ko_line": "Prevailing wind is a steady directional pattern, not a storm wind.",
+        "exp_title": "Prevailing winds",
+        "exp_text": "A prevailing wind is the surface wind in a region that blows predominantly from a particular direction. It results from global patterns of movement in the Earth's atmosphere. For example, trade winds are prevailing easterly winds in the tropics."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which latitudes are the westerlies the dominant winds?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Near the equator",
+            "feedback": "Near the equator, trade winds blow from the east, not westerlies."
+          },
+          {
+            "label": "The middle latitudes, between 35 and 65 degrees",
+            "feedback": "Correct. The westerlies are the prevailing winds found poleward of the subtropical ridge, in the mid-latitudes."
+          },
+          {
+            "label": "At the poles",
+            "feedback": "At the poles, polar easterlies blow, not westerlies."
+          },
+          {
+            "label": "In the horse latitudes around 30 degrees",
+            "feedback": "The horse latitudes mark the poleward edge of the trade winds, and the westerlies begin further poleward."
+          }
+        ],
+        "ok_title": "Westerlies' home",
+        "ok_line": "They dominate the middle latitudes between 35 and 65 degrees.",
+        "ko_title": "Wrong latitude band",
+        "ko_line": "Westerlies are not equatorial, polar, or at the horse latitudes.",
+        "exp_title": "Westerlies location",
+        "exp_text": "The prevailing westerlies blow in the middle latitudes, roughly between 35 and 65 degrees latitude, poleward of the subtropical ridge. They blow from the west to the east."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a wind rose show about wind at a particular location?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "How often wind blows from each direction and its speed ranges",
+            "feedback": "Correct. A wind rose plots the frequency of wind from each direction, with spokes whose length shows the proportion of time, and color bands for speed ranges."
+          },
+          {
+            "label": "The exact wind speed at one moment",
+            "feedback": "A wind rose summarizes typical patterns over time, not a single reading."
+          },
+          {
+            "label": "The temperature and humidity of the air",
+            "feedback": "A wind rose shows wind direction and speed, not temperature or humidity."
+          },
+          {
+            "label": "The path of the strongest storm",
+            "feedback": "A wind rose is about average wind behavior, not individual storm tracks."
+          }
+        ],
+        "ok_title": "Wind rose purpose",
+        "ok_line": "It shows typical wind directions and speeds.",
+        "ko_title": "Not a wind rose",
+        "ko_line": "A wind rose is a graphic of wind frequency and speed, not of temperature or storms.",
+        "exp_title": "Wind rose graphic",
+        "exp_text": "A wind rose is a graphic tool on a polar grid. Each spoke shows the frequency of wind from a direction, with length proportional to time, and color-coded bands show speed ranges."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "From which direction do the trade winds blow in the Northern Hemisphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "From the northwest",
+            "feedback": "Northwest winds blow from the northwest, but trade winds in the Northern Hemisphere come from the northeast."
+          },
+          {
+            "label": "From the south",
+            "feedback": "Trade winds in the Northern Hemisphere blow from the northeast, not from the south."
+          },
+          {
+            "label": "From the west",
+            "feedback": "Westerlies blow from the west, but trade winds are easterly winds."
+          },
+          {
+            "label": "From the northeast",
+            "feedback": "Correct. The trade winds in the Northern Hemisphere blow predominantly from the northeast."
+          }
+        ],
+        "ok_title": "Northern trades",
+        "ok_line": "They blow from the northeast.",
+        "ko_title": "Wrong trade direction",
+        "ko_line": "Northern trade winds are nor'easters, not westerlies or southerlies.",
+        "exp_title": "Trade wind direction",
+        "exp_text": "The trade winds are prevailing easterly surface winds found in the tropics. In the Northern Hemisphere, they blow from the northeast, while in the Southern Hemisphere they blow from the southeast."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What steering effect do the trade winds have on tropical cyclones?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They steer them toward the east",
+            "feedback": "Trade winds guide cyclones westward, not eastward."
+          },
+          {
+            "label": "They guide their path westward",
+            "feedback": "Correct. The trade winds act as the steering flow for tropical cyclones, guiding them westward across the oceans."
+          },
+          {
+            "label": "They make them move northward",
+            "feedback": "Trade winds push cyclones west, not north."
+          },
+          {
+            "label": "They stop them from moving",
+            "feedback": "Trade winds are a steering flow, so they move cyclones rather than stopping them."
+          }
+        ],
+        "ok_title": "Trade winds steer",
+        "ok_line": "They guide cyclones westward.",
+        "ko_title": "Wrong steering direction",
+        "ko_line": "Trade winds push storms west, not east or north.",
+        "exp_title": "Trade wind steering",
+        "exp_text": "The trade winds are the steering flow for tropical cyclones that form over the world's oceans. This flow guides the cyclones' path westward, which is why many tropical storms move from east to west."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In the Southern Hemisphere, the westerlies blow predominantly from which direction?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "From the southeast",
+            "feedback": "Southeast is the direction of trade winds in the Southern Hemisphere, not the westerlies."
+          },
+          {
+            "label": "From the southwest",
+            "feedback": "Southwest is the direction of westerlies in the Northern Hemisphere, not the Southern."
+          },
+          {
+            "label": "From the northwest",
+            "feedback": "Correct. In the Southern Hemisphere, the westerlies blow predominantly from the northwest."
+          },
+          {
+            "label": "From the east",
+            "feedback": "Westerlies blow from the west, not the east."
+          }
+        ],
+        "ok_title": "Southern westerlies",
+        "ok_line": "They blow from the northwest.",
+        "ko_title": "Wrong westerly direction",
+        "ko_line": "Southern westerlies come from the northwest, not the northeast or southwest.",
+        "exp_title": "Westerly directions",
+        "exp_text": "The westerlies are prevailing winds that blow from west to east. In the Northern Hemisphere they come from the southwest, and in the Southern Hemisphere they come from the northwest."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the polar easterlies?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dry, cold winds blowing from the poles toward lower latitudes",
+            "feedback": "Correct. Polar easterlies are dry and cold, blowing from polar highs toward the low-pressure areas of the westerlies."
+          },
+          {
+            "label": "Warm winds blowing from the equator toward the poles",
+            "feedback": "Warm winds from the equator are not polar easterlies; polar easterlies are cold and originate at the poles."
+          },
+          {
+            "label": "Winds that blow only during the summer",
+            "feedback": "Polar easterlies are a prevailing wind belt, not limited to summer."
+          },
+          {
+            "label": "Winds that blow from west to east near the poles",
+            "feedback": "Polar easterlies blow from east to west, not west to east."
+          }
+        ],
+        "ok_title": "Polar easterlies defined",
+        "ok_line": "They are cold, dry winds from the poles.",
+        "ko_title": "Wrong polar wind",
+        "ko_line": "Polar easterlies are cold and east-to-west, not warm or west-to-east.",
+        "exp_title": "Polar easterlies",
+        "exp_text": "Polar easterlies are the dry, cold prevailing winds that blow from the high-pressure areas at the North and South Poles toward the low-pressure areas within the westerlies. They blow from east to west and are often weak and irregular."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the sea breeze that blows toward the land during the day?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The land cools faster than the sea at night",
+            "feedback": "That causes a land breeze at night, not the daytime sea breeze."
+          },
+          {
+            "label": "The sea warms up faster than the land",
+            "feedback": "The sea warms more slowly than the land, so its air is cooler, not warmer."
+          },
+          {
+            "label": "The wind is always strong offshore",
+            "feedback": "A strong offshore wind prevents the sea breeze from developing."
+          },
+          {
+            "label": "Warm air over the land rises, drawing cooler air from the sea",
+            "feedback": "Correct. The land heats the air above it, warm air rises, lowering pressure, and cooler sea air flows in."
+          }
+        ],
+        "ok_title": "Sea breeze cause",
+        "ok_line": "Rising warm land air pulls in sea air.",
+        "ko_title": "Not a sea breeze",
+        "ko_line": "Night cooling and strong offshore winds are not daytime sea breeze causes.",
+        "exp_title": "Sea breeze mechanism",
+        "exp_text": "During the day, the land surface warms faster than the sea. The warm air over land rises, lowering pressure, and the cooler air over the sea flows toward the land, creating a sea breeze."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the wind when it is forced through a narrow mountain pass?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stops completely",
+            "feedback": "Wind does not stop; a pass accelerates the flow."
+          },
+          {
+            "label": "It rushes through with considerable speed",
+            "feedback": "Correct. The Bernoulli principle means that as air is squeezed through a pass, its speed increases."
+          },
+          {
+            "label": "It changes direction to blow from the south",
+            "feedback": "The pass speeds up the wind but does not change its compass direction."
+          },
+          {
+            "label": "It becomes calm and gentle",
+            "feedback": "A pass causes the wind to rush, not become calm."
+          }
+        ],
+        "ok_title": "Wind in pass",
+        "ok_line": "It rushes through faster.",
+        "ko_title": "Not a calm pass",
+        "ko_line": "Mountain passes accelerate wind, not calm it.",
+        "exp_title": "Mountain pass winds",
+        "exp_text": "In mountainous areas, if there is a pass in the range, winds rush through the pass with considerable speed. This is due to the Bernoulli principle, which relates lower pressure to higher speed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do sand dunes orient relative to the prevailing wind?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They always point directly into the wind",
+            "feedback": "Dunes orient perpendicular to the wind, not directly into it."
+          },
+          {
+            "label": "They stay parallel to the wind direction",
+            "feedback": "Perpendicular, not parallel, is the orientation."
+          },
+          {
+            "label": "They orient perpendicular to the prevailing wind direction",
+            "feedback": "Correct. Sand dunes in coastal and desert locations orient themselves perpendicular to the prevailing wind."
+          },
+          {
+            "label": "They have no relation to wind direction",
+            "feedback": "The prevailing wind is the key factor in dune orientation."
+          }
+        ],
+        "ok_title": "Dune orientation",
+        "ok_line": "Dunes lie across the wind.",
+        "ko_title": "Dune wrong alignment",
+        "ko_line": "Sand dunes are set perpendicular to the prevailing wind, not parallel or random.",
+        "exp_title": "Sand dune alignment",
+        "exp_text": "In coastal and desert locations, sand dunes orient themselves perpendicular to the prevailing wind direction. This happens because the wind shapes the sand into ridges that stretch across the wind's path."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 128,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a hot road ahead of you sometimes seem to shimmer with a puddle of water that is never actually there?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Heat haze reflects clouds directly off the road surface",
+            "feedback": "The road surface itself is not doing any reflecting. It is the air just above it that bends the light, not the asphalt."
+          },
+          {
+            "label": "Dust thrown up by traffic scatters light into a bright patch",
+            "feedback": "The shimmer appears on a still, empty road with no dust in the air at all. Dust is not what is needed for it."
+          },
+          {
+            "label": "A thin layer of very hot air near the surface bends light from the sky upward into your eye",
+            "feedback": "Light from the low sky curves gently upward through that hot layer and reaches your eye from below the horizon, exactly where a reflection would come from."
+          },
+          {
+            "label": "The eye is fooled by the road's dark colour",
+            "feedback": "Colour alone would give a dark patch, not a shimmering, sky-coloured one that moves and wavers as you watch it."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "You are seeing sky, bent upward off a cushion of hot air, not water.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what is different about the air right above a sun-baked road, and what that difference could do to a beam of light passing through it.",
+        "exp_title": "Sky bent up off hot air",
+        "exp_text": "Sunlight heats a dark road surface until the thin layer of air lying right against it becomes far hotter, and therefore far less dense, than the cooler air just above it. Light from the low sky, aimed almost level with the ground, curves gently as it crosses that dense-to-thin boundary and bends back up into your eye, arriving from the same low angle a reflection off water would. Your eye reads that bent sky-light exactly as it would read a real reflection, and a shimmering puddle appears where none exists."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the shimmering puddle on a hot road always seem to stay the same distance ahead of you, retreating as you drive or walk toward it?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The hot air layer physically moves away from you",
+            "feedback": "The heated air stays where the sun has warmed the road. It is not fleeing ahead of you as you approach."
+          },
+          {
+            "label": "Only a patch of road at the right distance and angle bends light up into your eye",
+            "feedback": "As you move, a new patch of road further on now sits at that same critical distance and angle, so the shimmer simply reappears there instead."
+          },
+          {
+            "label": "The illusion fades naturally after a fixed time",
+            "feedback": "The shimmer does not fade with time at all. It is your own changing position, not a clock, that makes it appear to move."
+          },
+          {
+            "label": "Your eyes grow tired and lose focus on it",
+            "feedback": "A fresh pair of eyes sees exactly the same retreating puddle. Tiredness has nothing to do with it."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The puddle never moves. A new patch of geometry simply takes its place each time you close in.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about exactly where, relative to you, the light has to bend upward at just the right angle to reach your eye.",
+        "exp_title": "A moving point of geometry",
+        "exp_text": "The upward bend only happens where the angle between your eye and the hot layer of air is shallow enough, which means only a strip of road at a particular distance ahead of you can send that bent light into your eye at any one moment. As you move forward, the strip that used to satisfy that angle is now too close and sends its bent light past your feet instead, while a new strip further on takes its place. What retreats is not a fixed puddle but the constantly shifting patch of road that happens to satisfy the geometry."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Sailors sometimes see a distant ship appear to float above the horizon, lifted clear of the sea, especially over cold water. What bends the light to produce that effect?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A layer of cold, dense air near the sea with warmer air above it curves light downward",
+            "feedback": "Light leaving the ship's hull is bent gently downward as it crosses into the warmer air above, and it arrives at your eye from a higher angle than usual — so the ship looks lifted."
+          },
+          {
+            "label": "The ship's own lights are reflected off low cloud",
+            "feedback": "The floating effect appears in broad daylight, with no lights or clouds needed at all."
+          },
+          {
+            "label": "The curvature of the Earth briefly reverses at sea level",
+            "feedback": "The Earth's shape is never actually changing. What curves here is the path of the light, not the shape of the planet."
+          },
+          {
+            "label": "Sea spray in the air magnifies the ship like a lens",
+            "feedback": "The effect appears over dead calm water with no spray in the air at all, and it depends on temperature layering, not moisture."
+          }
+        ],
+        "ok_title": "That is the cause",
+        "ok_line": "The reversed layering of warm over cold does the exact opposite of a hot road, lifting the image instead of dropping it.",
+        "ko_title": "Not the bend",
+        "ko_line": "This is the same trick as the shimmering road, but run with the temperature layers swapped. What layering would bend light downward instead of up?",
+        "exp_title": "The road mirage turned upside down",
+        "exp_text": "Over cold sea water, the air right at the surface can be markedly colder and denser than the air sitting above it, which is the reverse of a sun-baked road. Light leaving a distant ship's hull bends gently downward as it crosses from the cooler, denser air into the warmer air above, curving toward you along a path that arrives at a steeper angle than the ship's true position would allow. Your eye, assuming light always travels in a straight line, places the ship higher than it really is, seeming to lift it clear of the sea."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do both kinds of mirage only appear when you look nearly level across the ground or sea, and never when you look straight down at your feet?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Straight down, the light is too bright to bend",
+            "feedback": "Brightness has no bearing on whether light bends. The bending depends only on the angle the light crosses the layered air, not on how much light there is."
+          },
+          {
+            "label": "The ground directly beneath you has no temperature layering",
+            "feedback": "The same hot or cold layer sits beneath your feet just as it does further ahead. What differs is not the layering itself but how the light crosses it."
+          },
+          {
+            "label": "Looking down, your own shadow blocks the effect",
+            "feedback": "The mirage fails to appear at a steep angle even in full sunlight with no shadow anywhere nearby. Shadow is not the reason."
+          },
+          {
+            "label": "A grazing, nearly level path spends far longer inside the critical layer of air, letting the bend build up enough to notice",
+            "feedback": "A steep, near-vertical glance crosses that same thin layer almost instantly, with too little distance inside it for the light to curve by any noticeable amount."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "The bend is real at any angle — it only becomes visible once the light lingers long enough inside the layer to add up.",
+        "ko_title": "Not the reason",
+        "ko_line": "The critical layer of air is thin. Think about how much distance a beam of light actually spends travelling through a thin layer, depending on whether it crosses it steeply or at a shallow angle.",
+        "exp_title": "A bend that needs distance to show",
+        "exp_text": "The layer of unusually hot or cold air responsible for a mirage is often only a thin skin close to the ground or sea, and the amount any beam of light bends depends on how much of that layer it actually crosses. A glance sent nearly level skims through a long stretch of that thin layer at a grazing angle, giving the bend plenty of distance to accumulate into something the eye can register. A glance sent straight down passes through the very same layer almost instantly, with far too little distance inside it for any bend to build up."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What causes the pale ring of light — a halo — sometimes seen circling the Sun or Moon?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Water droplets in a low cloud scattering light evenly",
+            "feedback": "Evenly scattered light from droplets produces a soft, colourless glow around the light source, not a distinct ring at a fixed distance from it."
+          },
+          {
+            "label": "Sunlight or moonlight refracting through tiny hexagonal ice crystals high in the atmosphere",
+            "feedback": "Each crystal bends the light passing through it by close to the same angle, and millions of crystals doing this together concentrate light into a ring at that set angle."
+          },
+          {
+            "label": "The Sun or Moon reflecting off a layer of ice on the ground",
+            "feedback": "Halos appear even over open ocean with no ice anywhere on the ground below, and they circle the light source in the sky, not anything reflected from below."
+          },
+          {
+            "label": "Dust in the upper atmosphere absorbing all but one ring of light",
+            "feedback": "Dust particles are irregular in shape and simply scatter light in every direction rather than concentrating it into one clean, consistently sized ring."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ok_line": "Millions of tiny, identically shaped prisms, all bending light by the same angle at once.",
+        "ko_title": "Not the source",
+        "ko_line": "Something high in the atmosphere has to be bending the light by a consistent, repeatable angle to draw a clean ring. Think about what forms in the coldest, highest clouds.",
+        "exp_title": "Ice crystals acting as tiny prisms",
+        "exp_text": "High, cold cirrus clouds are made of countless small ice crystals shaped like six-sided prisms, tumbling and drifting freely through the air. Light entering one face of a crystal and leaving through another is bent by an angle that depends mainly on the crystal's shape, and because every crystal shares that same six-sided geometry, they all bend the light by very nearly the same amount. Seen from the ground, that consistent bending concentrates light into a ring at a fixed distance around the Sun or Moon, rather than smearing it evenly across the sky."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a halo sometimes show a faint tinge of red on its inner edge and blue on its outer edge?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red light travels faster through ice than blue light does",
+            "feedback": "Both colours travel at the same speed through open air on their way to your eye. What differs is how sharply each colour bends inside the crystal itself."
+          },
+          {
+            "label": "The Sun emits more red light near the horizon",
+            "feedback": "This tinting appears on halos seen with the Sun high overhead too, where its light is not reddened at all. The cause lies in the ice, not in the Sun's own colour."
+          },
+          {
+            "label": "Ice crystals bend blue light slightly more than red light",
+            "feedback": "Bent by a slightly larger angle, blue light lands a little further out from the Sun than red does, spreading the ring's edge into a faint rainbow order."
+          },
+          {
+            "label": "Blue sky behind the halo bleeds into its edge",
+            "feedback": "The tinting follows the ring itself and shifts with it, rather than staying fixed to whichever part of the sky happens to be behind it."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Each colour is bent by its own slightly different amount, and the ring spreads out along that difference.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about whether every colour of light is bent by exactly the same angle when it passes through a hexagonal ice crystal.",
+        "exp_title": "Colours peeling slightly apart",
+        "exp_text": "When light enters and leaves a hexagonal ice crystal, it is bent by an angle that depends very slightly on its colour, with blue light bent a little more sharply than red. Since the halo's ring sits at the angle where bent light piles up most densely, and that angle is a touch larger for blue than for red, the red edge of the ring falls slightly closer to the Sun and the blue edge falls slightly further out. The separation is far gentler than in a rainbow, so most of the ring still looks pale white, with only the faintest wash of colour at its edges."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a halo always form as a large ring at roughly the same fixed distance from the Sun or Moon, rather than hugging closely around it?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The hexagonal shape of the ice crystals sets a minimum angle of bend that light cannot fall below",
+            "feedback": "Below that minimum angle almost no light emerges, while right at it light from countless crystals piles up together, drawing a bright ring precisely at that distance and leaving the sky closer in comparatively dark."
+          },
+          {
+            "label": "Air currents carry the bent light outward before it reaches the ground",
+            "feedback": "Light travels far too fast for any wind to carry it sideways over the short trip down through the atmosphere. The ring's size has nothing to do with wind."
+          },
+          {
+            "label": "The Sun and Moon are simply too bright to look at up close",
+            "feedback": "Brightness would make the centre hard to view directly, but it would not draw a sharply defined ring at one particular distance out."
+          },
+          {
+            "label": "The ring marks the edge of the cloud producing it",
+            "feedback": "The ring's size stays the same no matter how large or small the cloud is, or how far away it lies. It is set by the crystal's shape, not by the cloud's outline."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "The ring sits exactly where the geometry of a six-sided prism forces the light to pile up.",
+        "ko_title": "Not the cause",
+        "ko_line": "Think back to how a hexagonal crystal bends light, and ask whether there is a smallest angle that bending can produce.",
+        "exp_title": "A ring drawn by geometry, not by the cloud",
+        "exp_text": "As light passes through a hexagonal ice crystal at different orientations, the angle it comes out bent by has a definite lower limit — no orientation of the crystal can bend the light by less than that. Light emerging near this minimum angle is far more common than light bent by any other amount, since a wide range of crystal orientations all happen to produce bends close to it. The result is that light from countless crystals concentrates into a bright ring at that one fixed angle, while the sky closer to the Sun receives comparatively little bent light and looks darker by contrast."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some ice-crystal displays show two bright spots on either side of the Sun, called sun dogs, rather than a complete ring?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only two clouds happen to be positioned correctly",
+            "feedback": "Sun dogs can appear from a single sheet of cloud stretching right across the sky, not from two separate, conveniently placed clouds."
+          },
+          {
+            "label": "Flat crystals fall with a preferred, nearly horizontal orientation, concentrating bent light at the Sun's own height",
+            "feedback": "Falling like tiny flat plates rather than tumbling randomly, these crystals bend light mostly sideways rather than up or down, piling the brightness into two spots level with the Sun instead of spreading it around a full ring."
+          },
+          {
+            "label": "The Sun's light is split into exactly two beams by the atmosphere",
+            "feedback": "Sunlight is not divided into a fixed number of beams anywhere in the atmosphere. Countless individual crystals are each doing their own small share of the bending."
+          },
+          {
+            "label": "Sun dogs are a reflection of the halo off nearby hills",
+            "feedback": "Sun dogs appear over flat, hill-free terrain and even over open water, with nothing nearby to reflect off."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "A crystal that falls flat, rather than tumbling every which way, bends its light sideways instead of all around.",
+        "ko_title": "Not the reason",
+        "ko_line": "A full halo needs crystals tumbling in every orientation. Ask what happens if the crystals instead all settle into roughly the same orientation as they fall.",
+        "exp_title": "Crystals that all fall the same way",
+        "exp_text": "A full halo forms when ice crystals tumble through the air in every possible orientation, scattering bent light equally all the way around the Sun. Many crystals, though, are flat and hexagonal like tiny plates, and air resistance makes them settle into falling with their broad face roughly horizontal rather than tumbling freely. Light passing through crystals oriented that way is bent mainly from side to side rather than up or down, so instead of a complete ring, the light concentrates into two bright patches level with the Sun, one on either side."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do halos need thin, high cirrus cloud specifically, rather than the thicker, lower clouds that bring rain?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Low clouds are too dark to let any light through",
+            "feedback": "Plenty of light passes through a low cloud, as anyone caught in a bright overcast can see. Darkness is not what rules them out for a halo."
+          },
+          {
+            "label": "High clouds are closer to the Sun",
+            "feedback": "The extra height of a cirrus cloud is negligible compared with the vast distance to the Sun, and makes no real difference to the angle of light reaching it."
+          },
+          {
+            "label": "Low clouds block too much wind for crystals to tumble",
+            "feedback": "Wind has nothing to do with why a halo needs a particular kind of cloud. What matters is the physical state of the water inside it."
+          },
+          {
+            "label": "High cirrus cloud is cold enough to be made of ice crystals, while lower clouds are usually liquid droplets",
+            "feedback": "Liquid droplets in a low cloud simply scatter light in every direction without any of the sharp, repeatable bending a hexagonal ice crystal provides."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "It takes ice, specifically, to bend light the sharp, consistent way a halo needs.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about the physical state of the water inside a cloud at very different altitudes, and what that state does to a beam of light passing through it.",
+        "exp_title": "It takes ice, not water",
+        "exp_text": "High cirrus clouds sit at altitudes cold enough that their water exists only as small, well-formed ice crystals, each one shaped as a hexagonal prism capable of bending light by that consistent, repeatable angle a halo depends on. Lower clouds, being warmer, are usually made of liquid water droplets instead, and a droplet simply scatters light broadly in every direction rather than bending it along the sharp geometric paths a crystal provides. A halo therefore only forms where the cloud is cold enough, and high enough, to be built from ice."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "In a true Fata Morgana, a distant object can appear stacked into several stretched or upside-down copies of itself. What produces those multiple layers?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The object is physically vibrating in the heat",
+            "feedback": "Nothing about the object itself is moving. What changes is only the path the light takes on its way from the object to your eye."
+          },
+          {
+            "label": "Several separate mirages happen to occur one after another",
+            "feedback": "All the layers appear together, at the same instant, rather than one after another in sequence."
+          },
+          {
+            "label": "Several stacked layers of air at different temperatures each bend light differently, so it can reach your eye by several paths at once",
+            "feedback": "Light leaving the same object can travel several different bent routes through the stacked layers simultaneously, and each route delivers its own distorted copy to your eye at the same time."
+          },
+          {
+            "label": "The object's own reflection in water is duplicated by waves",
+            "feedback": "This effect appears over dry land and frozen ice just as often as over water, so a watery reflection cannot be what is being duplicated."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "One object, several bent paths of light, all arriving at your eye together.",
+        "ko_title": "Not the cause",
+        "ko_line": "An ordinary mirage needs one layer of unusually warm or cold air. Think about what happens if several such layers are stacked on top of each other at once.",
+        "exp_title": "Several bent paths at once",
+        "exp_text": "An ordinary mirage relies on a single layer of air noticeably warmer or colder than the air around it, bending light along one particular curved path. Under the right conditions several such layers can form stacked on top of each other, each with its own temperature and its own bend, and light leaving the same distant object can travel down more than one of these paths at the same time before reaching your eye. Each path delivers its own slightly different, distorted copy of the object, and seen together they stack into the towering, layered illusion of a true Fata Morgana."
+      }
+    ]
+  }
+]

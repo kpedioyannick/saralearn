@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 245,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many body sections does a spider have?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Three",
+            "feedback": "Three sections belong to an insect, never a spider. A spider's body has just two parts."
+          },
+          {
+            "label": "Four",
+            "feedback": "No spider has four body sections. A spider's body is plainly divided into two distinct parts."
+          },
+          {
+            "label": "Two",
+            "feedback": "Right: the front part is the cephalothorax, and the rear part is the abdomen."
+          },
+          {
+            "label": "One",
+            "feedback": "A spider's body is not one solid piece; you can see a clear separation into two sections."
+          }
+        ],
+        "ok_title": "Two body sections",
+        "ok_line": "A spider has two parts, not three like an insect.",
+        "ko_title": "Not three parts",
+        "ko_line": "Remember: insects have three sections, spiders have two.",
+        "exp_title": "Spider body plan",
+        "exp_text": "A spider's body is made of two sections: the cephalothorax at the front, which carries the legs, eyes, and mouthparts, and the abdomen at the rear, which holds the silk glands and most internal organs. Insects have three sections, which is why spiders are not insects."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many legs does a spider have?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Eight",
+            "feedback": "Yes: all spiders have eight legs, which is twice as many as an insect's six."
+          },
+          {
+            "label": "Six",
+            "feedback": "Six legs describe an insect, not a spider. Spiders always have eight."
+          },
+          {
+            "label": "Ten",
+            "feedback": "Ten legs are not found on any spider; they always have exactly eight."
+          },
+          {
+            "label": "Four",
+            "feedback": "Four legs would be far too few for a spider; they have eight."
+          }
+        ],
+        "ok_title": "Eight legs",
+        "ok_line": "Every spider has eight legs.",
+        "ko_title": "Not six",
+        "ko_line": "Six legs belong to insects, spiders have eight.",
+        "exp_title": "Leg count",
+        "exp_text": "A spider's eight legs all attach to the front section, the cephalothorax. This is a fixed, basic feature of all spiders, just as six legs are a fixed feature of insects."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What body part does a spider use to make silk?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Its mouth",
+            "feedback": "A spider does not produce silk from its mouth. Its mouth is for feeding; silk comes from a different rear part."
+          },
+          {
+            "label": "Its legs",
+            "feedback": "Legs are used to pull and shape silk, never to make it. The silk comes from glands in the abdomen."
+          },
+          {
+            "label": "Its cephalothorax",
+            "feedback": "The cephalothorax carries the eyes and legs, not the silk-making glands. Those glands sit in the rear section."
+          },
+          {
+            "label": "Its abdomen",
+            "feedback": "Yes: silk glands lie inside the abdomen, and the silk leaves through spinnerets at the tail end."
+          }
+        ],
+        "ok_title": "Abdomen makes silk",
+        "ok_line": "A spider's silk comes from its abdomen.",
+        "ko_title": "Not the mouth",
+        "ko_line": "Silk is produced in the abdomen, not in the head area.",
+        "exp_title": "Silk glands and spinnerets",
+        "exp_text": "Inside a spider's abdomen are silk glands that produce a liquid protein. That liquid is squeezed out through tiny spigots called spinnerets, where it hardens into a solid thread. The abdomen is therefore the part that actually makes the silk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which pair of body parts on a spider's head are used to stab and inject venom?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The pedipalps",
+            "feedback": "Pedipalps look like short extra legs near the mouth, but they are used for sensing and holding prey, not for injecting venom."
+          },
+          {
+            "label": "The chelicerae",
+            "feedback": "Correct: chelicerae are the fang-like jaws that bite into prey and deliver venom."
+          },
+          {
+            "label": "The spinnerets",
+            "feedback": "Spinnerets are at the rear end and release silk, not venom. They never bite."
+          },
+          {
+            "label": "The eyes",
+            "feedback": "Eyes are for seeing, not for attack. A spider bites with its chelicerae, not its eyes."
+          }
+        ],
+        "ok_title": "Chelicerae bite",
+        "ok_line": "Chelicerae are the venom-injecting jaws.",
+        "ko_title": "Not pedipalps",
+        "ko_line": "Pedipalps feel and hold; chelicerae bite.",
+        "exp_title": "Venom delivery",
+        "exp_text": "Each spider has a pair of chelicerae, located just in front of the mouth. They are hollow or grooved and act as fangs: the spider stabs them into prey and then pumps venom through them. The pedipalps, in contrast, are shorter leg-like appendages used for touching and catching."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the tiny claws and hairs on a spider's feet help it do?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Chew its food",
+            "feedback": "Claws and hairs are on the feet, not near the mouth. Chewing is done by the chelicerae."
+          },
+          {
+            "label": "See in the dark",
+            "feedback": "Sight comes from the eyes on the head, not from foot structures. These claws and hairs are for gripping."
+          },
+          {
+            "label": "Grip surfaces and walk on silk",
+            "feedback": "Yes: the claws hook onto rough surfaces, and the hairs spread the spider's weight so it can tread on its own web."
+          },
+          {
+            "label": "Make the web sticky",
+            "feedback": "Stickiness comes from glue droplets on the web threads, not from the spider's feet. These feet are for movement."
+          }
+        ],
+        "ok_title": "Grip and walk",
+        "ok_line": "Claws and hairs help a spider grip and walk.",
+        "ko_title": "Not for chewing",
+        "ko_line": "Feet gripping is their job, not food handling.",
+        "exp_title": "Spider feet",
+        "exp_text": "At the tips of a spider's legs are small claws that catch onto fibers and rough surfaces, plus dense tufts of hairs. The hairs let the spider distribute its weight so it can walk over its own silk threads without falling. The claws dig in when the surface is too smooth to grip by foot alone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the single frame of silk threads that an orb-weaver first attaches to outline its web?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The bridge line",
+            "feedback": "Correct: the first threads are the bridge and frame lines that span the space where the web will be built."
+          },
+          {
+            "label": "The hub",
+            "feedback": "The hub is the central point of the finished web, not the first outline. The web's edge comes first."
+          },
+          {
+            "label": "The spiral",
+            "feedback": "The spiral is the sticky thread laid later, after the outer frame is already in place."
+          },
+          {
+            "label": "The radius",
+            "feedback": "Radii are the spokes that run from the hub toward the edge. They come after the frame, not before it."
+          }
+        ],
+        "ok_title": "Bridge line first",
+        "ok_line": "The bridge line frames the web area.",
+        "ko_title": "Not the hub",
+        "ko_line": "The hub is built later, in the middle.",
+        "exp_title": "Web building steps",
+        "exp_text": "An orb-weaver starts by releasing a long thread that the wind carries across a gap; that thread is the bridge line, anchored at both ends. Then it adds more frame threads and spokes, and only later fills in the sticky spiral. So the first outline is the bridge, not any of the inner parts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of an orb-web is sticky and is used to catch insects?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The frame threads",
+            "feedback": "Frame threads are the dry outer skeleton of the web, not sticky. They give the web its shape."
+          },
+          {
+            "label": "The radii",
+            "feedback": "Radii are the dry spokes that run from the center; they are not sticky, and the spider walks on them."
+          },
+          {
+            "label": "The hub",
+            "feedback": "The hub is the central dry area where the spider waits. It is not sticky and does not trap prey."
+          },
+          {
+            "label": "The spiral threads",
+            "feedback": "Yes: the spiral is the inner part of the web, coated with glue droplets that snag flying insects."
+          }
+        ],
+        "ok_title": "Sticky spiral",
+        "ok_line": "The spiral threads catch the prey.",
+        "ko_title": "Dry frame",
+        "ko_line": "The frame is dry; the spiral is sticky.",
+        "exp_title": "Web's catching surface",
+        "exp_text": "An orb-web has a dry outer frame and dry radial spokes, but the spiral that winds inward from the edge is covered with sticky glue. When an insect flies into the web, it sticks to these spiral threads. The spider itself avoids the sticky spiral by using the dry radii and its special foot hairs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a spider do after wrapping a caught insect in silk?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It swallows it whole",
+            "feedback": "Spiders cannot swallow solid insects; they have to turn the prey into a liquid first."
+          },
+          {
+            "label": "It bites it and sucks out its liquefied insides",
+            "feedback": "Yes: after wrapping, the spider bites, injects venom and digestive juices, then drinks the dissolved meal."
+          },
+          {
+            "label": "It stores it in a jar for winter",
+            "feedback": "Spiders do not store food for later; they feed immediately on the wrapped prey."
+          },
+          {
+            "label": "It lets it go after a nap",
+            "feedback": "A wrapped prey is not released; it is already secured for feeding."
+          }
+        ],
+        "ok_title": "Bite and suck",
+        "ok_line": "The spider liquefies and drinks its prey.",
+        "ko_title": "No swallowing whole",
+        "ko_line": "Solid prey must be liquefied first.",
+        "exp_title": "Spider feeding",
+        "exp_text": "After wrapping the insect to keep it still, the spider pierces its body with its chelicerae, injects venom and digestive enzymes, and the prey's insides turn into a liquid soup. The spider then sucks up this liquid. The empty husk is discarded. That is why a spider never chews or swallows solid food."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a spider that builds no web know prey is nearby?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It listens with ears",
+            "feedback": "Spiders have no ears at all; they cannot hear sounds in the air like we do."
+          },
+          {
+            "label": "It tastes the ground with its tongue",
+            "feedback": "Spiders have no tongue; taste and touch are sensed through hairs on their legs and body."
+          },
+          {
+            "label": "It feels vibrations through its legs and sensitive hairs",
+            "feedback": "Yes: tiny hairs and leg receptors pick up shaking in the ground or in the air, telling the spider something moved."
+          },
+          {
+            "label": "It sees the prey with its eight eyes",
+            "feedback": "Many hunters have poor eyesight; vibrations are the real cue, though jumping spiders use eyes well."
+          }
+        ],
+        "ok_title": "Feel vibrations",
+        "ok_line": "Spiders sense prey by vibrations.",
+        "ko_title": "No ears",
+        "ko_line": "Spiders hear by feeling, not by listening.",
+        "exp_title": "Sensory hairs",
+        "exp_text": "A spider's legs and body are covered with fine sensory hairs that bend when the air or ground shakes. Any small movement, like an insect walking nearby, sends vibrations the spider can detect even without seeing it. Some spiders, like jumping spiders, also have excellent eyes, but the main warning system is the sense of vibration."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the purpose of the small silk threads that some spiders release into the air when they balloon?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To catch the wind and lift the spider upward",
+            "feedback": "Correct: the silk strands act like a sail, and even a gentle breeze carries the spider away."
+          },
+          {
+            "label": "To trap food while floating",
+            "feedback": "Ballooning threads are not for catching prey; they are for transport only."
+          },
+          {
+            "label": "To make a landing net below the spider",
+            "feedback": "No net is spread; the silk is above and behind the spider, not under it."
+          },
+          {
+            "label": "To signal other spiders",
+            "feedback": "Ballooning is a solo dispersal method; the threads signal nothing to others."
+          }
+        ],
+        "ok_title": "Sail on the wind",
+        "ok_line": "Ballooning silk lifts the spider into the air.",
+        "ko_title": "Not a net",
+        "ko_line": "Those threads are for flying, not catching.",
+        "exp_title": "Spider ballooning",
+        "exp_text": "A young spider climbs to a high spot, lifts its abdomen, and releases several long silk threads. The wind catches these threads and drags the spider upward and away. This is how spiderlings travel to new areas, sometimes many kilometers away. No food is trapped by those threads; they are purely for riding the breeze."
+      }
+    ]
+  }
+]

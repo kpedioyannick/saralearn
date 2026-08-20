@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 249,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the thin membrane at the end of the ear canal that vibrates when sound reaches it?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The eardrum",
+            "feedback": "Correct. The eardrum is the thin, stretched membrane that sits at the end of the ear canal and vibrates when sound waves strike it."
+          },
+          {
+            "label": "The cochlea",
+            "feedback": "That is the coiled, fluid-filled structure deep inside the inner ear where sound vibrations are turned into nerve signals, not the membrane at the end of the ear canal."
+          },
+          {
+            "label": "The ossicle",
+            "feedback": "Ossicles are the three tiny bones in the middle ear, not the membrane itself. The eardrum is the membrane."
+          },
+          {
+            "label": "The oval window",
+            "feedback": "The oval window is the membrane-covered opening between the middle ear and the inner ear, not the one at the end of the ear canal."
+          }
+        ],
+        "ok_title": "Eardrum identified",
+        "ok_line": "The eardrum is the membrane that vibrates at the end of the ear canal.",
+        "ko_title": "Membrane mix-up",
+        "ko_line": "The eardrum is the membrane at the end of the ear canal, not a deeper structure.",
+        "exp_title": "The eardrum's location",
+        "exp_text": "The eardrum is a thin, cone-shaped membrane stretched tightly across the end of the ear canal. It separates the outer ear from the middle ear and is the first structure that actually moves in response to sound waves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of the three tiny bones in the middle ear?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They produce the fluid that fills the inner ear",
+            "feedback": "The inner ear's fluid is not made by the middle ear bones. Those bones are the malleus, incus, and stapes, and they transmit vibrations from the eardrum to the oval window."
+          },
+          {
+            "label": "They amplify sound by making the eardrum vibrate more",
+            "feedback": "The bones do not act on the eardrum; they pick up its vibrations and pass them on. Their amplifying effect comes from converting the eardrum's large, low-force motion into a small, high-force motion at the oval window."
+          },
+          {
+            "label": "They transmit vibrations from the eardrum to the oval window",
+            "feedback": "Correct. The malleus, incus, and stapes form a chain that carries the eardrum's vibrations across the air-filled middle ear cavity to the oval window, which leads into the inner ear."
+          },
+          {
+            "label": "They keep the ear canal open and free of debris",
+            "feedback": "That is not their job. The ear canal is kept open by its bony and cartilaginous walls. The middle ear bones are deep inside, behind the eardrum."
+          }
+        ],
+        "ok_title": "Bones relay sound",
+        "ok_line": "The three ossicles carry vibrations from the eardrum to the oval window.",
+        "ko_title": "Bones' true role",
+        "ko_line": "The middle ear bones transmit vibrations, not produce fluid or clean the canal.",
+        "exp_title": "The ossicular chain",
+        "exp_text": "Attached to the eardrum is the malleus, then the incus, then the stapes, which presses against the oval window. When the eardrum vibrates, these bones rock and push, transferring the motion into the fluid-filled inner ear at the oval window."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the ear is the fluid that moves when you hear a sound?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "In the ear canal",
+            "feedback": "The ear canal is an air-filled tube. No fluid sits there; sound travels through the air in it to reach the eardrum."
+          },
+          {
+            "label": "In the middle ear cavity",
+            "feedback": "The middle ear is normally filled with air, not fluid. Fluid there is a sign of infection. The hearing fluid is deeper, in the inner ear."
+          },
+          {
+            "label": "In the semicircular canals",
+            "feedback": "Semicircular canals do contain fluid, but they are for balance, not for hearing. The hearing fluid is in the cochlea, the snail-shaped structure nearby."
+          },
+          {
+            "label": "In the cochlea",
+            "feedback": "Correct. The cochlea is a coiled, fluid-filled tube in the inner ear. When the stapes pushes on the oval window, the fluid inside the cochlea ripples, and that movement stimulates the hair cells."
+          }
+        ],
+        "ok_title": "Cochlear fluid",
+        "ok_line": "The hearing fluid is inside the cochlea.",
+        "ko_title": "Fluid's true home",
+        "ko_line": "Hearing fluid is in the cochlea, not in the canal or middle ear.",
+        "exp_title": "Where hearing happens",
+        "exp_text": "The cochlea is a spiral-shaped chamber filled with fluid. Vibrations from the oval window create pressure waves in this fluid, bending tiny hair cells that line the inner walls and trigger nerve signals."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What structure moves back and forth in the cochlea when a sound wave arrives?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The eardrum",
+            "feedback": "The eardrum is at the outer end of the ear, not inside the cochlea. The cochlea contains a flexible membrane and fluid, not the eardrum."
+          },
+          {
+            "label": "The basilar membrane",
+            "feedback": "Correct. The basilar membrane runs along the inside of the coiled cochlea and vibrates in response to pressure waves in the fluid. Hair cells sitting on it bend as it moves, opening ion channels."
+          },
+          {
+            "label": "The ossicles",
+            "feedback": "The ossicles are the three bones in the middle ear, not inside the cochlea. They end at the oval window, and the basilar membrane takes over from there."
+          },
+          {
+            "label": "The pinna",
+            "feedback": "The pinna is the visible outer part of the ear, made of cartilage. It has nothing to do with the cochlea."
+          }
+        ],
+        "ok_title": "Basilar membrane motion",
+        "ok_line": "The basilar membrane vibrates inside the cochlea.",
+        "ko_title": "Wrong vibrating part",
+        "ko_line": "Inside the cochlea, it is the basilar membrane that moves, not the eardrum or bones.",
+        "exp_title": "The basilar membrane's role",
+        "exp_text": "The basilar membrane is a flexible sheet that splits the cochlea into two fluid-filled chambers. Sound-induced pressure waves make it ripple, and the hair cells on top of it get bent as it flexes, which leads to nerve impulses."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the sensory cells in the cochlea that turn fluid movement into nerve signals?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Hair cells",
+            "feedback": "Correct. These cells have microscopic hair-like projections on their tops that bend when the basilar membrane moves, opening channels and creating an electrical signal that travels to the brain."
+          },
+          {
+            "label": "Rods and cones",
+            "feedback": "Rods and cones are photoreceptor cells in the retina of the eye, not in the ear. The ear's sensory cells are hair cells."
+          },
+          {
+            "label": "Olfactory neurons",
+            "feedback": "Olfactory neurons are the nerve cells in the nose that detect smells. The cochlea uses hair cells, not olfactory neurons."
+          },
+          {
+            "label": "Ganglion cells",
+            "feedback": "Ganglion cells are nerve cells that carry visual information from the retina. They are not the sensory detectors in the cochlea; hair cells are."
+          }
+        ],
+        "ok_title": "Hair cells named",
+        "ok_line": "Hair cells are the sensory cells of the cochlea.",
+        "ko_title": "Wrong detector cells",
+        "ko_line": "The cochlea uses hair cells, not the eye's photoreceptors or nose's neurons.",
+        "exp_title": "Hair cells and hearing",
+        "exp_text": "Hair cells line the basilar membrane. When the membrane ripples, the tiny stereocilia on their tops brush against an overlying membrane, bend, and open ion channels. That triggers the release of neurotransmitter, firing the auditory nerve."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What physical property of a sound wave does the ear use to determine pitch?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Its amplitude, or height",
+            "feedback": "Amplitude is how tall the wave is, and the ear uses it to judge loudness, not pitch. Pitch comes from how often the wave cycles per second."
+          },
+          {
+            "label": "Its speed through air",
+            "feedback": "All sound in the same air travels at the same speed regardless of pitch. Pitch depends on the frequency of the vibration, not its speed."
+          },
+          {
+            "label": "Its frequency, or number of cycles per second",
+            "feedback": "Correct. A higher frequency means more vibrations per second and is perceived as a higher pitch. Low-frequency waves vibrate slowly and sound low."
+          },
+          {
+            "label": "Its wavelength in the ear canal",
+            "feedback": "Wavelength is related to frequency, but the ear doesn't directly measure wavelength. The basilar membrane responds to the frequency of the vibration, and that's what you perceive as pitch."
+          }
+        ],
+        "ok_title": "Pitch from frequency",
+        "ok_line": "Pitch depends on the frequency of sound waves.",
+        "ko_title": "Pitch–amplitude mix",
+        "ko_line": "Amplitude governs loudness, not pitch; frequency governs pitch.",
+        "exp_title": "Frequency determines pitch",
+        "exp_text": "Sound waves arrive at the ear with a certain number of compressions per second, called frequency, measured in hertz. High-frequency waves make the basilar membrane vibrate most near its base, and low-frequency waves near its tip, and those places are wired to the brain as different pitches."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the ear's loudness perception depend on?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The frequency of the sound wave",
+            "feedback": "Frequency sets the pitch, not the loudness. A high-frequency tone can be quiet or loud; loudness is tied to the wave's amplitude."
+          },
+          {
+            "label": "The amplitude of the sound wave",
+            "feedback": "Correct. Larger amplitude means the air molecules push more forcefully, the eardrum moves more, and the brain perceives a louder sound. Smaller amplitude is quieter."
+          },
+          {
+            "label": "The speed at which the wave travels",
+            "feedback": "Sound speed in air is roughly constant; it doesn't affect loudness. What matters is how big the pressure changes are, not how fast they move."
+          },
+          {
+            "label": "The number of hair cells in the cochlea",
+            "feedback": "All healthy cochleas have a similar set of hair cells. Loudness is not about counting cells; it's about how much the basilar membrane moves, which depends on amplitude."
+          }
+        ],
+        "ok_title": "Loudness from amplitude",
+        "ok_line": "Loudness is set by the sound wave's amplitude.",
+        "ko_title": "Amplitude vs. frequency",
+        "ko_line": "Amplitude is loudness; frequency is pitch.",
+        "exp_title": "Amplitude and loudness",
+        "exp_text": "A sound wave is a series of pressure changes in the air. The bigger those pressure swings, the larger the eardrum's displacement and the more strongly the hair cells are bent, which the brain translates as a louder sound."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the structure in the inner ear that helps you sense which direction a sound comes from?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The cochlea",
+            "feedback": "The cochlea is for hearing pitch and loudness, not for locating where a sound originates. Direction is determined by comparing the inputs from both ears, using time and level differences."
+          },
+          {
+            "label": "The semicircular canals",
+            "feedback": "Semicircular canals are balance organs that detect head rotation. They do not analyze sound direction; that job uses both ears' signals."
+          },
+          {
+            "label": "The tympanic membrane",
+            "feedback": "The tympanic membrane, the eardrum, vibrates but does not carry any directional information by itself. Direction is computed in the brain from the two ears' difference."
+          },
+          {
+            "label": "No single structure does this; it uses both ears together",
+            "feedback": "Correct. Sound direction is worked out by comparing how loud a sound is and how much later it arrives at each ear. The brain uses those tiny differences to place the source."
+          }
+        ],
+        "ok_title": "Direction via two ears",
+        "ok_line": "Sound direction comes from comparing both ears' signals.",
+        "ko_title": "No directional organ",
+        "ko_line": "No single ear structure finds direction; the brain compares two ears.",
+        "exp_title": "Binaural sound localization",
+        "exp_text": "For a sound coming from your side, it reaches the nearer ear slightly earlier and a bit louder because the head casts a sound shadow. The brain measures these interaural time and level differences to figure out the direction."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the function of the Eustachian tube that connects the middle ear to the throat?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It carries sound vibrations to the inner ear",
+            "feedback": "Sound reaches the inner ear through the ossicles and oval window, not through the Eustachian tube. That tube is for pressure equalization, not sound transmission."
+          },
+          {
+            "label": "It produces the fluid in the cochlea",
+            "feedback": "The cochlear fluid is produced within the inner ear itself. The Eustachian tube only ventilates the middle ear cavity."
+          },
+          {
+            "label": "It keeps the air pressure equal on both sides of the eardrum",
+            "feedback": "Correct. The tube opens briefly when you swallow or yawn, letting air in or out of the middle ear so pressure matches the outside, which keeps the eardrum free to vibrate properly."
+          },
+          {
+            "label": "It drains excess earwax from the ear canal",
+            "feedback": "Earwax is produced in the ear canal and normally works its way outward. The Eustachian tube is in the middle ear, far from the ear canal."
+          }
+        ],
+        "ok_title": "Eustachian tube's job",
+        "ok_line": "It equalizes air pressure across the eardrum.",
+        "ko_title": "Tube's true role",
+        "ko_line": "The Eustachian tube balances pressure, not transmits sound or produce fluid.",
+        "exp_title": "Pressure equalization",
+        "exp_text": "The middle ear is a closed air pocket. When outside pressure changes, like in an airplane, the eardrum gets pushed in or pulled out. The Eustachian tube opens to let air move, equalizing pressure and stopping the feeling of fullness."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the ear is responsible for detecting balance and head rotation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The vestibular system",
+            "feedback": "Correct. The vestibular system includes the semicircular canals and the otolith organs (utricle and saccule) in the inner ear. These detect rotation and linear acceleration, keeping you balanced."
+          },
+          {
+            "label": "The cochlea",
+            "feedback": "The cochlea is purely for hearing. Balance is handled by the vestibular structures that sit beside it, not by the cochlea itself."
+          },
+          {
+            "label": "The eardrum",
+            "feedback": "The eardrum's only role is to vibrate with sound. Balance is not detected in the outer or middle ear; it's deep in the inner ear's vestibular system."
+          },
+          {
+            "label": "The ossicles",
+            "feedback": "The ossicles transmit sound vibrations; they do not sense head movement. Balance comes from the semicircular canals and otolith organs."
+          }
+        ],
+        "ok_title": "Vestibular system for balance",
+        "ok_line": "The vestibular system detects balance and rotation.",
+        "ko_title": "Balance vs. hearing",
+        "ko_line": "Balance is the vestibular system's job, not the cochlea's.",
+        "exp_title": "The inner ear's balance organs",
+        "exp_text": "The semicircular canals are three fluid-filled loops that sense spinning; the utricle and saccule contain tiny crystals on a gel that shift with head tilt and linear motion. Together they send constant signals to the brain about your head's position and movement."
+      }
+    ]
+  }
+]

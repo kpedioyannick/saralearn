@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a gait?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The pattern of movement of the limbs during locomotion on a solid surface",
+            "feedback": "Correct. A gait is the limb movement pattern an animal uses to move over a solid ground."
+          },
+          {
+            "label": "The speed at which an animal moves from one place to another",
+            "feedback": "Speed is a separate factor that influences which gait an animal selects, but gait itself refers to the limb movement pattern, not the speed."
+          },
+          {
+            "label": "The way an animal breathes while moving",
+            "feedback": "Breathing during movement is a separate physiological effect of some gaits, not what the term 'gait' names."
+          },
+          {
+            "label": "The shape of an animal's footprint left on the ground",
+            "feedback": "Footprints were once used to study gaits, but the gait is the movement of the limbs themselves, not the print they leave."
+          }
+        ],
+        "ok_title": "Correct: gait defined",
+        "ok_line": "A gait is the limb movement pattern over solid ground.",
+        "ko_title": "Incorrect: gait meaning",
+        "ko_line": "Gait refers to limb movement, not speed, breathing, or footprints.",
+        "exp_title": "What a gait is",
+        "exp_text": "Gait is the pattern of movement of the limbs of an animal while it moves across a solid surface, such as walking or running on the ground. It is about how the legs move in a coordinated sequence, not about how fast the animal goes or how it breathes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a symmetrical gait, what do the left and right limbs of a pair do?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They move at the same time, together",
+            "feedback": "Moving together is the definition of an asymmetrical gait, not a symmetrical one. In a symmetrical gait, they alternate."
+          },
+          {
+            "label": "They remain still while the other pair moves",
+            "feedback": "All limbs move during a gait; the distinction is about the timing between the left and right ones, not about stillness."
+          },
+          {
+            "label": "They alternate, one after the other",
+            "feedback": "Correct. In a symmetrical gait, the left and right limbs of a pair take turns, moving one after the other."
+          },
+          {
+            "label": "They move in a random sequence",
+            "feedback": "A gait requires a steady, repeating pattern, not random movement, even in symmetrical gaits."
+          }
+        ],
+        "ok_title": "Correct: symmetrical gait",
+        "ok_line": "Left and right limbs alternate in a symmetrical gait.",
+        "ko_title": "Incorrect: limb timing",
+        "ko_line": "Symmetrical means alternating, not moving together or randomly.",
+        "exp_title": "Symmetrical vs. asymmetrical gaits",
+        "exp_text": "In a symmetrical gait, the left and right limbs of a pair move alternately, one after the other. In an asymmetrical gait, they move together instead. The term 'symmetrical' here refers to this timing pattern, not to any left-right mirror symmetry of the body."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the duty factor of a limb?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The length of time the limb is off the ground",
+            "feedback": "That is the swing phase, the part when the foot is lifted, not the duty factor. Duty factor is about the stance phase."
+          },
+          {
+            "label": "The speed at which the limb swings forward",
+            "feedback": "Speed of movement is not what duty factor measures; it measures the proportion of the cycle the foot is on the ground."
+          },
+          {
+            "label": "The number of steps taken in one minute",
+            "feedback": "Step count is unrelated to duty factor. Duty factor is a percentage of the gait cycle, not a count."
+          },
+          {
+            "label": "The percentage of the gait cycle during which the foot is on the ground",
+            "feedback": "Correct. Duty factor is the percent of the total cycle that a given foot stays in contact with the ground."
+          }
+        ],
+        "ok_title": "Correct: duty factor",
+        "ok_line": "Duty factor is the percent of the cycle the foot is down.",
+        "ko_title": "Incorrect: duty factor",
+        "ko_line": "Duty factor is about ground contact time, not swing, speed, or steps.",
+        "exp_title": "Duty factor explained",
+        "exp_text": "Duty factor is the percentage of the total gait cycle during which a particular foot is in contact with the ground, also called the stance phase. A duty factor above 50% is considered a walk, and below 50% is a run."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When is a gait considered a run rather than a walk?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "When the duty factor is greater than 50%",
+            "feedback": "Greater than 50% means the foot is on the ground more than half the cycle, which is a walk, not a run."
+          },
+          {
+            "label": "When the duty factor is less than 50%",
+            "feedback": "Correct. A run has a duty factor under 50%, meaning each foot spends less than half the cycle on the ground."
+          },
+          {
+            "label": "When the animal moves at high speed",
+            "feedback": "Speed alone does not define a run; an animal can walk slowly or run slowly. The classification is based on duty factor."
+          },
+          {
+            "label": "When the left and right limbs move together",
+            "feedback": "Moving together describes an asymmetrical gait, which is not the same as the walk/run distinction. Walk and run are defined by duty factor."
+          }
+        ],
+        "ok_title": "Correct: run defined",
+        "ok_line": "A run has a duty factor below 50%.",
+        "ko_title": "Incorrect: run vs. walk",
+        "ko_line": "Run vs. walk is about ground contact time, not speed or limb timing.",
+        "exp_title": "Duty factor and walk vs. run",
+        "exp_text": "A gait is classified as a walk when the duty factor is above 50%, meaning each foot stays on the ground for more than half the cycle. It is classified as a run when the duty factor is below 50%, so each foot is in the air for more than half the cycle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the forelimb-hindlimb phase describe?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The timing relationship between when the forelimb and hindlimb on the same side touch the ground",
+            "feedback": "Correct. It describes how the forelimb and hindlimb of the same side are timed relative to each other in the gait cycle."
+          },
+          {
+            "label": "The number of forelimb steps compared to hindlimb steps",
+            "feedback": "The phase is not about counting steps; it is about the temporal relationship of their ground contacts."
+          },
+          {
+            "label": "The difference in speed between the front and back legs",
+            "feedback": "Speed differences are not what this phase measures; it measures when each limb starts its stance phase."
+          },
+          {
+            "label": "The angle between the forelimb and the body",
+            "feedback": "That is a postural angle, not a timing relationship. The phase is about time, not geometry."
+          }
+        ],
+        "ok_title": "Correct: phase relationship",
+        "ok_line": "Forelimb-hindlimb phase is the timing between same-side limbs.",
+        "ko_title": "Incorrect: phase meaning",
+        "ko_line": "Phase is about timing of ground contact, not counts, speeds, or angles.",
+        "exp_title": "Forelimb-hindlimb phase",
+        "exp_text": "The forelimb-hindlimb phase is the temporal relationship between the forelimb and hindlimb of the same side. If they touch the ground at the same moment, the phase is 0% (or 100%); if the forelimb lands half a cycle later, the phase is 50%."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which animals are most capable of using asymmetrical gaits?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Salamanders and lizards",
+            "feedback": "Sprawling tetrapods like salamanders and lizards mostly use diagonal sequence walks and trots, which are symmetrical, not asymmetrical gaits."
+          },
+          {
+            "label": "Insects such as flies",
+            "feedback": "Insects are hexapods and use gaits like the tripod, but asymmetrical gaits are largely confined to mammals."
+          },
+          {
+            "label": "Mammals",
+            "feedback": "Correct. Asymmetrical gaits are mostly seen in mammals, which have enough spinal flexibility to lengthen their stride."
+          },
+          {
+            "label": "Bipeds like humans",
+            "feedback": "Bipeds naturally use walking, running, and hopping, which are symmetrical gaits, not asymmetrical ones."
+          }
+        ],
+        "ok_title": "Correct: asymmetrical gaits",
+        "ok_line": "Mammals are the main users of asymmetrical gaits.",
+        "ko_title": "Incorrect: asymmetrical gait users",
+        "ko_line": "Asymmetrical gaits are largely a mammal feature, not for other groups.",
+        "exp_title": null,
+        "exp_text": "Asymmetrical gaits, also called leaping gaits, involve the limbs moving together and have a suspended phase. They are largely confined to mammals because mammals have enough spinal flexion to increase their stride length, which these gaits depend on."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the tripod gait used by fruit flies?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "All six legs swing forward at once",
+            "feedback": "That would leave no legs on the ground, which is not a stable gait. In a tripod, three legs swing while three stay down."
+          },
+          {
+            "label": "Three legs swing together while three legs stay on the ground",
+            "feedback": "Correct. In the tripod gait, three legs are lifted and swung at the same time while the other three remain planted."
+          },
+          {
+            "label": "Only one leg moves at a time in a wave from back to front",
+            "feedback": "That describes a metachronal wave, not a tripod gait. In a tripod, three legs move together."
+          },
+          {
+            "label": "Two diagonally opposite legs swing together",
+            "feedback": "That is a tetrapod coordination, where four legs are on the ground. A tripod has only three legs down."
+          }
+        ],
+        "ok_title": "Correct: fly tripod",
+        "ok_line": "Flies swing three legs while three stay down.",
+        "ko_title": "Incorrect: tripod gait",
+        "ko_line": "Tripod means three swing and three stay, not other patterns.",
+        "exp_title": null,
+        "exp_text": "Fruit flies (Drosophila) use a tripod gait, where three legs swing forward together while the other three legs remain on the ground in stance. This is more likely at higher speeds; at lower speeds, flies more often have four or five legs on the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a metachronal wave gait, how many legs are in swing at one time?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Three",
+            "feedback": "Three legs swinging is the tripod gait, not a metachronal wave. A wave moves only one leg at a time."
+          },
+          {
+            "label": "Two",
+            "feedback": "Two legs swinging describes a tetrapod coordination, not a metachronal wave. A wave has just one leg in swing."
+          },
+          {
+            "label": "Four",
+            "feedback": "Four legs in swing would leave only two on the ground, which is not the wave pattern. A wave moves one leg at a time."
+          },
+          {
+            "label": "One",
+            "feedback": "Correct. In a metachronal wave, only one leg enters the swing phase at a time, with the movement progressing from back to front on one side and then the other."
+          }
+        ],
+        "ok_title": "Correct: wave gait",
+        "ok_line": "A metachronal wave moves just one leg at a time.",
+        "ko_title": "Incorrect: wave gait",
+        "ko_line": "A wave is one leg at a time, not three, two, or four.",
+        "exp_title": null,
+        "exp_text": "A metachronal wave is a walking pattern where only one leg swings at a time, moving from the back to the front on one side of the body and then on the other. Adult stick insects commonly use this gait at low speeds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the spring-mass model describe?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The way a foot rolls from heel to toe",
+            "feedback": "Foot rolling is not what the spring-mass model describes; that model is about running mechanics and energy storage."
+          },
+          {
+            "label": "The way an animal breathes while galloping",
+            "feedback": "Breathing during galloping involves the viscera as a piston, not the spring-mass model. This model is about limb mechanics."
+          },
+          {
+            "label": "The bouncing movement of running, where muscles and tendons act as springs",
+            "feedback": "Correct. In running, kinetic and potential energy fluctuate in phase, and the energy is stored and returned by muscles, bones, tendons, and ligaments acting as springs."
+          },
+          {
+            "label": "The pattern of footfall in a walking cycle",
+            "feedback": "Footfall patterns are a different classification scheme; the spring-mass model is about the mechanical energy of running."
+          }
+        ],
+        "ok_title": "Correct: spring-mass model",
+        "ok_line": "Running bounces with muscles and tendons as springs.",
+        "ko_title": "Incorrect: spring-mass model",
+        "ko_line": "Spring-mass describes running's bounce, not footroll, breathing, or footfall.",
+        "exp_title": null,
+        "exp_text": "The spring-mass model describes running, where the kinetic and potential energy fluctuate in phase, and the energy is transferred to muscles, bones, tendons, and ligaments that act like springs. This creates a bouncing movement, unlike the inverted pendulum of walking."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the duty factor of a foot?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The speed at which the foot moves during swing",
+            "feedback": "Incorrect. Duty factor is not about speed; it's about time on the ground."
+          },
+          {
+            "label": "The distance the foot travels in one cycle",
+            "feedback": "Incorrect. That is a stride length, not the duty factor."
+          },
+          {
+            "label": "The force the foot applies to the ground",
+            "feedback": "Incorrect. That is not what duty factor measures; it measures time."
+          },
+          {
+            "label": "The percentage of the total cycle that the foot is on the ground",
+            "feedback": "Correct. Duty factor is the percent of the cycle a foot spends in stance."
+          }
+        ],
+        "ok_title": "Duty factor defined",
+        "ok_line": "Duty factor is the percent of cycle on the ground.",
+        "ko_title": "Remember the definition",
+        "ko_line": "Duty factor is about time, not speed or force.",
+        "exp_title": "What duty factor means",
+        "exp_text": "The duty factor is the percentage of the entire gait cycle during which a given foot is in contact with the ground. It is typically the same for forelimbs and hindlimbs unless the animal is accelerating, decelerating, or using a trained gait."
+      }
+    ]
+  }
+]

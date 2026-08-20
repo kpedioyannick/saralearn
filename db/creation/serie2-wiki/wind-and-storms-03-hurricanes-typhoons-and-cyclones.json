@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the generic term for a storm system that is called a hurricane, typhoon, or cyclone depending on where it forms?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A monsoon",
+            "feedback": "A monsoon is a seasonal reversal of wind direction, not the name of the rotating storm itself."
+          },
+          {
+            "label": "A tropical cyclone",
+            "feedback": "Correct. Tropical cyclone is the umbrella term; the specific names like hurricane or typhoon depend on the ocean region."
+          },
+          {
+            "label": "A tornado",
+            "feedback": "A tornado is a much smaller, short-lived funnel cloud, not the broad rotating storm system described here."
+          },
+          {
+            "label": "A squall line",
+            "feedback": "A squall line is a line of thunderstorms, not the full low-pressure system with closed circulation."
+          }
+        ],
+        "ok_title": "Correct term",
+        "ok_line": "Tropical cyclone is the right name.",
+        "ko_title": "Not that name",
+        "ko_line": "Check the definition of storm types.",
+        "exp_title": "The umbrella name",
+        "exp_text": "A tropical cyclone is the generic name for a warm-cored, non-frontal low-pressure system over tropical or subtropical waters, with a well-defined center and closed wind circulation at the surface. Region-specific terms like hurricane or typhoon refer to the same type of storm in different oceans."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which ocean does a strong tropical cyclone get called a typhoon?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Atlantic Ocean",
+            "feedback": "In the Atlantic Ocean, the same storm is called a hurricane, not a typhoon."
+          },
+          {
+            "label": "Indian Ocean",
+            "feedback": "In the Indian Ocean, the storm is commonly referred to as a tropical cyclone or severe cyclonic storm, not a typhoon."
+          },
+          {
+            "label": "South Pacific Ocean",
+            "feedback": "In the South Pacific, comparable storms are called tropical cyclones, not typhoons."
+          },
+          {
+            "label": "Northwestern Pacific Ocean",
+            "feedback": "Correct. Typhoon is the name used for strong tropical cyclones in the northwestern Pacific Ocean."
+          }
+        ],
+        "ok_title": "Typhoon region",
+        "ok_line": "The northwestern Pacific uses typhoon.",
+        "ko_title": "Wrong ocean",
+        "ko_line": "Each ocean has its own name.",
+        "exp_title": "Regional names",
+        "exp_text": "The same type of storm goes by different names: hurricane in the Atlantic and northeastern Pacific, typhoon in the northwestern Pacific, and tropical cyclone in the Indian Ocean and South Pacific. The name depends only on the location."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Over what kind of surface do tropical cyclones typically form?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Cold ocean water",
+            "feedback": "Cold water does not provide enough heat energy; the storms need warm water to form and grow."
+          },
+          {
+            "label": "Warm land",
+            "feedback": "Land does not supply the moisture and heat from evaporation that drives these storms; they need the ocean."
+          },
+          {
+            "label": "Large bodies of relatively warm water",
+            "feedback": "Correct. Tropical cyclones form over warm ocean water, which provides the heat and moisture they need to develop."
+          },
+          {
+            "label": "Any large lake",
+            "feedback": "Lakes are too small and generally not warm enough to sustain the large-scale circulation of a tropical cyclone."
+          }
+        ],
+        "ok_title": "Warm ocean source",
+        "ok_line": "Warm water is the starting point.",
+        "ko_title": "Not that surface",
+        "ko_line": "Think about what heats the storm.",
+        "exp_title": "Formation requirement",
+        "exp_text": "Tropical cyclones typically form over large bodies of relatively warm water. They draw their energy from the evaporation of ocean water, which later condenses into clouds and rain as the air rises and cools."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many named tropical cyclones form around the world each year, on average?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Around 80 to 90",
+            "feedback": "Correct. On average, about 80 to 90 named tropical cyclones form each year worldwide, and over half of them reach hurricane-force winds."
+          },
+          {
+            "label": "Around 20 to 30",
+            "feedback": "That is far too few; the annual worldwide total is much higher, around 80 to 90."
+          },
+          {
+            "label": "Around 150 to 200",
+            "feedback": "That is too many; the actual yearly average is about 80 to 90 named storms."
+          },
+          {
+            "label": "Around 300 to 400",
+            "feedback": "The number of named tropical cyclones each year is much lower, around 80 to 90."
+          }
+        ],
+        "ok_title": "Yearly count",
+        "ok_line": "The average is 80 to 90.",
+        "ko_title": "Wrong number",
+        "ko_line": "Compare with the real figure.",
+        "exp_title": "Global frequency",
+        "exp_text": "In modern times, an average of 80 to 90 named tropical cyclones form globally each year. More than half of these develop winds of at least 120 km/h (about 75 mph)."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical diameter range of a tropical cyclone?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "10 to 50 km",
+            "feedback": "That is far too small; even a small tropical cyclone is much wider than that."
+          },
+          {
+            "label": "50 to 100 km",
+            "feedback": "The lower end of the range is about 100 km, but the full typical range goes much higher."
+          },
+          {
+            "label": "2,000 to 5,000 km",
+            "feedback": "That exceeds the usual maximum; the typical upper bound is about 2,000 km."
+          },
+          {
+            "label": "100 to 2,000 km",
+            "feedback": "Correct. Tropical cyclones are typically between 100 and 2,000 km in diameter."
+          }
+        ],
+        "ok_title": "Storm size",
+        "ok_line": "Typical diameter: 100–2,000 km.",
+        "ko_title": "Too small or too big",
+        "ko_line": "Check the range of typical sizes.",
+        "exp_title": "Physical extent",
+        "exp_text": "A tropical cyclone typically spans from about 100 km to 2,000 km in diameter. This is much larger than a tornado, but smaller than the major mid-latitude storm systems."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which direction do a tropical cyclone's surface winds blow in the Northern Hemisphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Clockwise",
+            "feedback": "Clockwise is the direction in the Southern Hemisphere, not the Northern."
+          },
+          {
+            "label": "Counterclockwise",
+            "feedback": "Correct. Due to the Coriolis effect, surface winds around a cyclone rotate counterclockwise in the Northern Hemisphere."
+          },
+          {
+            "label": "Straight toward the center",
+            "feedback": "The winds spiral inward but they do not blow in straight lines; they curve because of the Earth's rotation."
+          },
+          {
+            "label": "Straight outward from the center",
+            "feedback": "Winds flow inward toward the low-pressure center, not outward."
+          }
+        ],
+        "ok_title": "Northern rotation",
+        "ok_line": "Counterclockwise in the north.",
+        "ko_title": "Wrong spin",
+        "ko_line": "The direction reverses by hemisphere.",
+        "exp_title": "Coriolis effect",
+        "exp_text": "In the Northern Hemisphere, the surface winds of a tropical cyclone blow counterclockwise, whirling around the central eye. This is caused by the Coriolis effect. In the Southern Hemisphere, they blow clockwise instead."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the calm, nearly cloudless circle at the very center of a mature tropical cyclone?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The wall",
+            "feedback": "The eyewall is the ring of intense storms around the eye, not the calm center itself."
+          },
+          {
+            "label": "The vortex",
+            "feedback": "Vortex is a general term for any swirling motion, not the specific calm center."
+          },
+          {
+            "label": "The eye",
+            "feedback": "Correct. The eye is the central, nearly cloudless area with light winds, surrounded by the eyewall."
+          },
+          {
+            "label": "The core",
+            "feedback": "Core might refer to the central region, but the specific name for the calm center is the eye."
+          }
+        ],
+        "ok_title": "Calm center",
+        "ok_line": "It is called the eye.",
+        "ko_title": "Not that term",
+        "ko_line": "Use the right name for the center.",
+        "exp_title": "The eye",
+        "exp_text": "A mature tropical cyclone has a well-defined central eye, where winds are light and skies are often clear. The strongest winds and heaviest rain are found in the eyewall surrounding the eye."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do tropical cyclones rarely form within 5 degrees of the equator?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "There is not enough Coriolis force",
+            "feedback": "Correct. Near the equator, the Coriolis effect is too weak to make the winds rotate, so the low-pressure center cannot develop."
+          },
+          {
+            "label": "The ocean there is too cold",
+            "feedback": "The equatorial ocean is warm, so this is not the reason; the issue is the weak Coriolis force."
+          },
+          {
+            "label": "The air is too dry",
+            "feedback": "Equatorial air is usually very humid, not dry. The limiting factor is the lack of Coriolis force."
+          },
+          {
+            "label": "The winds are too calm",
+            "feedback": "Calm winds alone do not prevent formation; the absence of Coriolis force is what stops the rotation."
+          }
+        ],
+        "ok_title": "No spin near equator",
+        "ok_line": "Weak Coriolis prevents formation.",
+        "ko_title": "Wrong cause",
+        "ko_line": "The problem is rotation, not temperature.",
+        "exp_title": "Coriolis limit",
+        "exp_text": "Tropical cyclones need enough Coriolis force to develop a low-pressure center and start their rotation. Within about 5 degrees of the equator, this force is too weak, so storms almost never form there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main source of energy for a tropical cyclone?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The wind",
+            "feedback": "Wind is a result of the storm, not its energy source; the storm itself creates the wind."
+          },
+          {
+            "label": "The earth's rotation",
+            "feedback": "The Earth's rotation affects the direction of the winds, but it does not provide the heat energy that powers the storm."
+          },
+          {
+            "label": "Vertical temperature contrasts",
+            "feedback": "Mid-latitude storms are powered by horizontal temperature contrasts, but tropical cyclones use a different source."
+          },
+          {
+            "label": "Heat from the warm ocean water",
+            "feedback": "Correct. Tropical cyclones derive energy from the evaporation of warm ocean water, which then condenses into clouds and rain."
+          }
+        ],
+        "ok_title": "Energy source",
+        "ok_line": "Warm ocean heat drives the storm.",
+        "ko_title": "Not the right fuel",
+        "ko_line": "Think about what heats the air.",
+        "exp_title": "Ocean heat engine",
+        "exp_text": "Tropical cyclones are powered by heat from the ocean. The warm water evaporates, and when that moist air rises and cools, the water vapor condenses, releasing heat that fuels the storm. This is different from mid-latitude storms that rely on temperature contrast."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a tropical cyclone's intensity as it moves over land?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stays the same",
+            "feedback": "Moving over land removes the storm's warm ocean heat source, so it does not stay the same."
+          },
+          {
+            "label": "It weakens quickly",
+            "feedback": "Correct. Once a tropical cyclone moves over land, it loses the warm ocean water that fuels it, so it weakens rapidly."
+          },
+          {
+            "label": "It strengthens",
+            "feedback": "Land does not provide the heat and moisture needed; the storm cannot strengthen over land."
+          },
+          {
+            "label": "It only changes direction",
+            "feedback": "The storm's direction is separate; its strength falls sharply when cut off from the ocean."
+          }
+        ],
+        "ok_title": "Over land",
+        "ok_line": "The storm quickly weakens.",
+        "ko_title": "Wrong effect",
+        "ko_line": "Losing the ocean cuts the fuel.",
+        "exp_title": "Loss of energy",
+        "exp_text": "When a tropical cyclone moves over land, it is cut off from the warm ocean water that provides its energy. Without that heat source, the storm's winds and rain quickly diminish."
+      }
+    ]
+  }
+]

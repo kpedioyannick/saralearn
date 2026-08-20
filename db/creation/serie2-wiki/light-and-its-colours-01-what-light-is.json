@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is visible light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A type of sound wave",
+            "feedback": "Sound waves are mechanical vibrations that need a medium to travel; visible light is electromagnetic radiation that can travel through a vacuum."
+          },
+          {
+            "label": "A form of heat energy",
+            "feedback": "Heat can be transferred by radiation, but visible light is specifically electromagnetic radiation that the human eye can perceive; heat is not the same thing."
+          },
+          {
+            "label": "Electromagnetic radiation that the human eye can perceive",
+            "feedback": "That is exactly what visible light is—a part of the electromagnetic spectrum, with wavelengths roughly from 400 to 700 nanometers, that our eyes can detect."
+          },
+          {
+            "label": "A stream of tiny solid particles",
+            "feedback": "Light behaves as both particles and waves, but these particles are massless photons, not solid matter."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "Visible light is the electromagnetic radiation our eyes can see.",
+        "ko_title": "Check your definition",
+        "ko_line": "Think about what our eyes can detect.",
+        "exp_title": "Light's nature",
+        "exp_text": "Visible light is electromagnetic radiation that can be perceived by the human eye. It lies in the range of wavelengths from about 400 to 700 nanometers, sitting between infrared and ultraviolet on the electromagnetic spectrum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is NOT part of the visible spectrum?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Radio waves",
+            "feedback": "Radio waves have much longer wavelengths and lower frequencies than visible light; they are a different part of the electromagnetic spectrum."
+          },
+          {
+            "label": "Red light",
+            "feedback": "Red light is at the long-wavelength end of the visible spectrum, so it is part of what we see."
+          },
+          {
+            "label": "Violet light",
+            "feedback": "Violet is at the short-wavelength end of the visible range, so it is definitely visible."
+          },
+          {
+            "label": "Green light",
+            "feedback": "Green light sits in the middle of the visible spectrum, so it is part of what the human eye can perceive."
+          }
+        ],
+        "ok_title": "Not visible",
+        "ok_line": "Radio waves are invisible to the human eye.",
+        "ko_title": "Visible range",
+        "ko_line": "The visible spectrum includes colours from red to violet.",
+        "exp_title": "Electromagnetic spectrum",
+        "exp_text": "The visible spectrum is the range of wavelengths the human eye can see. Radio waves have far longer wavelengths, so they are not visible light; they belong to another part of the electromagnetic spectrum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main source of natural light on Earth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Moon",
+            "feedback": "The Moon only reflects sunlight; it does not produce its own visible light."
+          },
+          {
+            "label": "Fire",
+            "feedback": "Fire is a source of light for humans, but it is not the main natural source on Earth."
+          },
+          {
+            "label": "Electric lamps",
+            "feedback": "Electric lamps are artificial sources, not natural ones."
+          },
+          {
+            "label": "The Sun",
+            "feedback": "The Sun is indeed the main natural source of light for our planet."
+          }
+        ],
+        "ok_title": "Natural light source",
+        "ok_line": "The Sun is the main natural light source.",
+        "ko_title": "Think of the largest source",
+        "ko_line": "What shines all day and lights the whole Earth?",
+        "exp_title": "Sun's role",
+        "exp_text": "The Sun is the main source of natural light on Earth. It emits visible light that reaches us, and without it our world would be dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a photon?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A wave of the electromagnetic field",
+            "feedback": "Waves are part of light's behaviour, but a photon is the particle-like quantum of light, not the wave itself."
+          },
+          {
+            "label": "A single quantum of light",
+            "feedback": "A photon is a single, massless elementary particle, a quantum of light."
+          },
+          {
+            "label": "A charged particle found in atoms",
+            "feedback": "That describes electrons or protons; photons have no charge and are not parts of atoms."
+          },
+          {
+            "label": "A tiny mirror that reflects light",
+            "feedback": "Mirrors are objects that reflect light; they are not what light is made of."
+          }
+        ],
+        "ok_title": "Quantum of light",
+        "ok_line": "A photon is one quantum of light.",
+        "ko_title": "Particle or wave?",
+        "ko_line": "Light has both wave and particle aspects.",
+        "exp_title": "Photon basics",
+        "exp_text": "A photon is a single, massless elementary particle of light. Light behaves as a wave in many situations, but when it interacts with matter as a particle, the particles are photons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is listed as a primary property of light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Temperature",
+            "feedback": "Temperature is a property of matter, not of light itself."
+          },
+          {
+            "label": "Colour",
+            "feedback": "Colour results from the wavelength of light, but it is not listed as a primary property—wavelength or frequency is."
+          },
+          {
+            "label": "Intensity",
+            "feedback": "Intensity is indeed one of the primary properties of light."
+          },
+          {
+            "label": "Hardness",
+            "feedback": "Hardness describes materials; light is not a material."
+          }
+        ],
+        "ok_title": "Primary property",
+        "ok_line": "Intensity is a primary property of light.",
+        "ko_title": "Properties of light",
+        "ko_line": "Look for the fundamental characteristics of light.",
+        "exp_title": "Light's key features",
+        "exp_text": "The primary properties of light are intensity, propagation direction, frequency or wavelength spectrum, and polarization."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the speed of light when it travels in water compared to in a vacuum?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is slower in water",
+            "feedback": "In water the speed is about 3/4 of its speed in a vacuum, so yes, it is slower."
+          },
+          {
+            "label": "It is faster in water",
+            "feedback": "Light moves fastest in a vacuum; no ordinary material can make it go faster."
+          },
+          {
+            "label": "It stays the same in both",
+            "feedback": "Light's speed changes when it enters a transparent substance like water."
+          },
+          {
+            "label": "It stops completely in water",
+            "feedback": "Light does not stop; it slows down but continues travelling."
+          }
+        ],
+        "ok_title": "Light in water",
+        "ok_line": "Light travels slower in water than in vacuum.",
+        "ko_title": "Speed change",
+        "ko_line": "Water makes light slow down.",
+        "exp_title": "Effective speed",
+        "exp_text": "In a vacuum, light travels at about 299,792,458 m/s, but in water its effective speed is only about three-quarters of that value."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'light' mean in physics in its broadest sense?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Only visible light from the Sun",
+            "feedback": "In physics, 'light' is not limited to sunlight or to what we can see."
+          },
+          {
+            "label": "Just the colours of the rainbow",
+            "feedback": "The rainbow is visible light, but physics uses a broader meaning for the word."
+          },
+          {
+            "label": "Anything that illuminates a room",
+            "feedback": "That is a practical meaning, not the broad physics definition."
+          },
+          {
+            "label": "Electromagnetic radiation of any wavelength",
+            "feedback": "That is the broad physics meaning: gamma rays, X-rays, microwaves and radio waves are all considered light in this sense."
+          }
+        ],
+        "ok_title": "Broad definition",
+        "ok_line": "In physics, light includes all electromagnetic radiation.",
+        "ko_title": "Physics term",
+        "ko_line": "Physics uses 'light' for more than just what you see.",
+        "exp_title": "Electromagnetic radiation",
+        "exp_text": "In physics, the term 'light' may refer to electromagnetic radiation of any wavelength, whether visible or not. So gamma rays, X-rays, microwaves and radio waves are also called light in this broad sense."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the electromagnetic spectrum lies just beyond the red end of visible light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Ultraviolet",
+            "feedback": "Ultraviolet has shorter wavelengths and higher frequencies, so it lies beyond the violet end, not the red end."
+          },
+          {
+            "label": "X-rays",
+            "feedback": "X-rays have even shorter wavelengths than ultraviolet, so they are far beyond the violet end."
+          },
+          {
+            "label": "Infrared",
+            "feedback": "Infrared has longer wavelengths and lower frequencies than visible light, so it sits right after the red end."
+          },
+          {
+            "label": "Radio waves",
+            "feedback": "Radio waves have very long wavelengths, but they are not the immediate neighbour; infrared lies between visible and radio in wavelength."
+          }
+        ],
+        "ok_title": "Beyond red",
+        "ok_line": "Infrared lies just past the red end.",
+        "ko_title": "Spectrum order",
+        "ko_line": "Remember the order from red to violet.",
+        "exp_title": "Adjacent to visible",
+        "exp_text": "The visible band is bordered on its red side by infrared, which has longer wavelengths and lower frequencies. On the violet side is ultraviolet, with shorter wavelengths and higher frequencies."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the study of light and its interaction with matter called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mechanics",
+            "feedback": "Mechanics is the study of motion and forces, not of light."
+          },
+          {
+            "label": "Optics",
+            "feedback": "Optics is exactly the field that studies light and how it interacts with matter."
+          },
+          {
+            "label": "Acoustics",
+            "feedback": "Acoustics is the study of sound, not light."
+          },
+          {
+            "label": "Thermodynamics",
+            "feedback": "Thermodynamics deals with heat and energy transfer, not the study of light."
+          }
+        ],
+        "ok_title": "Field of study",
+        "ok_line": "Optics is the study of light.",
+        "ko_title": "Which science?",
+        "ko_line": "What subject would a light expert study?",
+        "exp_title": "Optics defined",
+        "exp_text": "The study of light and the interaction of light and matter is termed optics, and it has different branches like geometrical, physical and quantum optics."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the speed of light in a vacuum?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "299,792,458 m/s",
+            "feedback": "Yes, that is the exact defined speed of light in vacuum."
+          },
+          {
+            "label": "300,000,000 m/s",
+            "feedback": "That is a close approximation, but the exact defined value is 299,792,458 m/s."
+          },
+          {
+            "label": "150,000,000 m/s",
+            "feedback": "That is about half the actual speed of light in vacuum."
+          },
+          {
+            "label": "1,000,000,000 m/s",
+            "feedback": "That is much faster than the true speed of light in vacuum."
+          }
+        ],
+        "ok_title": "Exact speed",
+        "ok_line": "Light travels at 299,792,458 m/s in vacuum.",
+        "ko_title": "Check the number",
+        "ko_line": "Remember the exact defined value.",
+        "exp_title": "Constant of nature",
+        "exp_text": "The speed of light in vacuum is defined to be exactly 299,792,458 metres per second, and all forms of electromagnetic radiation move at this same speed in vacuum."
+      }
+    ]
+  }
+]

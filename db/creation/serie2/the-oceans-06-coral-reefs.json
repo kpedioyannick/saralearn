@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 232,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the basic building block of a coral reef, the individual animal that secretes the limestone skeleton?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A sponge",
+            "feedback": "Sponges are animals that filter water, but they do not build the hard, stony skeletons that form reefs. That job belongs to coral polyps."
+          },
+          {
+            "label": "A coral polyp",
+            "feedback": "Correct. Each coral polyp is a tiny, soft-bodied animal that extracts calcium from seawater and builds a hard limestone cup around itself, and millions of these cups stack up to form a reef."
+          },
+          {
+            "label": "A sea anemone",
+            "feedback": "Sea anemones are related to corals, but they do not secrete a hard skeleton, so they cannot build reefs. Only corals that produce limestone do that."
+          },
+          {
+            "label": "A jellyfish",
+            "feedback": "Jellyfish are free-swimming and have no skeleton at all, let alone a hard one. They are not involved in reef building."
+          }
+        ],
+        "ok_title": "Reef builder",
+        "ok_line": "The coral polyp is the animal that makes the reef's limestone.",
+        "ko_title": "Not the builder",
+        "ko_line": "Remember, only coral polyps secrete hard skeletons.",
+        "exp_title": "Coral polyp's role",
+        "exp_text": "A coral reef is a huge structure made of countless tiny limestone cups, each secreted by one coral polyp. The polyp is a soft animal that lives inside its cup and extends tentacles to catch food, while the cup stays behind and accumulates over generations."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these conditions is absolutely essential for a coral reef to grow and thrive?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cold water",
+            "feedback": "Cold water slows or stops the growth of reef-building corals; they need warm water, typically above 20°C, to grow quickly. Most reefs are in the tropics."
+          },
+          {
+            "label": "Deep water",
+            "feedback": "Reef-building corals need sunlight for the algae living in their tissues, so they only grow in shallow water where light reaches the bottom. Deep water is too dark."
+          },
+          {
+            "label": "Murky, sediment-rich water",
+            "feedback": "Murky water blocks sunlight and sediment can smother the polyps. Clear water is necessary so that light can penetrate and the polyps can feed and build their skeletons."
+          },
+          {
+            "label": "Warm, shallow, clear water",
+            "feedback": "Correct. Reef-building corals need warm water for fast growth, shallow water for sunlight to reach their symbiotic algae, and clear water so sediment does not block light or smother them."
+          }
+        ],
+        "ok_title": "The right home",
+        "ok_line": "Reefs need warm, shallow, clear water to thrive.",
+        "ko_title": "Wrong conditions",
+        "ko_line": "Cold, deep, or murky water cannot support reef growth.",
+        "exp_title": "Reef growth requirements",
+        "exp_text": "Coral polyps live in a partnership with microscopic algae inside their tissue, and those algae need sunlight to photosynthesize. That is why reefs are found only in warm, clear, shallow tropical waters where light reaches the seabed and the polyps can build their limestone skeletons quickly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the tiny algae living inside a coral polyp provide to the polyp?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Food made by photosynthesis",
+            "feedback": "Correct. The algae, called zooxanthellae, use sunlight to make sugars, and they share these sugars with the coral polyp, supplying most of the energy the polyp needs to build its skeleton."
+          },
+          {
+            "label": "Protection from predators",
+            "feedback": "The algae do not defend the polyp; they provide nutrition. Protection comes from the polyp's stinging tentacles and its hard cup, not from the algae."
+          },
+          {
+            "label": "A hard outer shell",
+            "feedback": "The polyp makes its own limestone skeleton from calcium in seawater; the algae do not produce any shell. Their role is feeding, not building."
+          },
+          {
+            "label": "The ability to swim",
+            "feedback": "Corals are attached animals and do not swim; the algae do not give them any movement ability. Their partnership is about nutrition and growth, not locomotion."
+          }
+        ],
+        "ok_title": "Algal helpers",
+        "ok_line": "The algae feed the polyp through photosynthesis.",
+        "ko_title": "Not their job",
+        "ko_line": "Algae give food, not defense or shells.",
+        "exp_title": "Symbiotic partnership",
+        "exp_text": "Inside each coral polyp live microscopic algae called zooxanthellae. They capture sunlight and produce sugars, which they pass to the polyp as food. In return, the polyp gives them a safe home and nutrients. This food supply is what lets the polyp grow quickly enough to build a massive reef over time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When a coral 'bleaches' and turns white, what has actually happened to the coral?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The coral has died completely",
+            "feedback": "Bleaching is not immediate death. The coral loses its algae first and turns white, but if conditions improve quickly, it can recover. Death happens only if the stress lasts too long."
+          },
+          {
+            "label": "The coral has shed its hard skeleton",
+            "feedback": "The skeleton remains during bleaching; the polyp stays inside it. What is lost is the colored algae in the tissue, not the skeleton."
+          },
+          {
+            "label": "The coral has expelled its algae, leaving its white skeleton visible",
+            "feedback": "Correct. Under stress, especially from warm water, the polyp expels the algae that give it color and food. The tissue becomes transparent, so the white limestone skeleton shows through, making the coral look bleached."
+          },
+          {
+            "label": "The coral has turned into a different species",
+            "feedback": "Bleaching does not change the species; it is a stress response. The polyp remains the same animal, just temporarily without its algae."
+          }
+        ],
+        "ok_title": "Stress response",
+        "ok_line": "Bleaching is the loss of the coral's algae.",
+        "ko_title": "Not death yet",
+        "ko_line": "A bleached coral may recover if stress ends.",
+        "exp_title": "What bleaching means",
+        "exp_text": "When water gets too warm, the coral polyp expels its zooxanthellae. Without those algae, the coral loses its color and its main food source, so it turns white and starves. If the water cools soon, new algae can move back in and the coral can recover; if not, the coral eventually dies."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these correctly describes the difference between a fringing reef and a barrier reef?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A fringing reef is found far from land, while a barrier reef grows right against the shore",
+            "feedback": "That is reversed. A fringing reef grows directly attached to the coastline, while a barrier reef is separated from the shore by a wide lagoon."
+          },
+          {
+            "label": "A fringing reef grows directly against the shore, while a barrier reef is separated from the land by a lagoon",
+            "feedback": "Correct. A fringing reef hugs the coastline with no open water between it and the shore. A barrier reef runs parallel to the coast but lies farther out, with a calm lagoon lying between the reef and the land."
+          },
+          {
+            "label": "A barrier reef is made of sand, while a fringing reef is made of coral",
+            "feedback": "Both are made of limestone from coral skeletons. The material is the same; only the position relative to the coast differs."
+          },
+          {
+            "label": "A fringing reef is always a ring shape, while a barrier reef is always a straight line",
+            "feedback": "Shape varies with the coastline; both can curve or run straight. The defining difference is whether the reef touches the shore or is separated by a lagoon."
+          }
+        ],
+        "ok_title": "Two reef types",
+        "ok_line": "Fringing reefs touch land; barrier reefs don't.",
+        "ko_title": "Position matters",
+        "ko_line": "Check whether there's a lagoon between reef and shore.",
+        "exp_title": "Reef placement",
+        "exp_text": "A fringing reef grows directly out from the coastline, with no open water between it and the beach. A barrier reef lies farther offshore, with a broad, usually calm lagoon separating it from the land. Both are built by the same kind of coral polyp, but they sit at different distances from the shore."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a ring-shaped atoll, with a lagoon in the middle and no island showing, form over geological time?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A coral reef grows around the edge of an underwater canyon that later fills with sand",
+            "feedback": "Atolls do not form around canyons. They begin as reefs around a volcanic island, and the island subsides over millions of years, not because of canyon filling."
+          },
+          {
+            "label": "A coral reef grows outward from the shore of a continent into the open ocean",
+            "feedback": "Continental reefs can become barrier reefs, but an atoll requires a volcanic island that sinks beneath the sea, leaving only the reef ring. So this does not create an atoll."
+          },
+          {
+            "label": "A reef grows around a volcanic island, and the island slowly sinks while the coral keeps growing upward",
+            "feedback": "Correct. An atoll starts as a fringing reef around a volcanic island. As the volcano erodes and subsides, the coral keeps growing upward to stay near the surface; eventually, the island disappears below the sea, leaving only the ring of reef around a central lagoon."
+          },
+          {
+            "label": "A coral reef forms on the open seafloor and grows upward in a circle all by itself",
+            "feedback": "Reef-building corals need a foundation near the surface and sunlight to grow. They cannot start on the deep open seafloor; they need a shallow base, which is why they begin around an island."
+          }
+        ],
+        "ok_title": "Atoll formation",
+        "ok_line": "A sinking volcano leaves a ring of coral.",
+        "ko_title": "Not from scratch",
+        "ko_line": "Atolls need a volcanic base to start on.",
+        "exp_title": "From island to atoll",
+        "exp_text": "Charles Darwin proposed that atolls begin as fringing reefs around volcanic islands. As the volcano slowly subsides under its own weight, the corals keep building upward to remain in the sunlit shallows. When the island finally sinks below the waves, the reef remains as a ring, with a calm lagoon in the center and no land left visible."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a coral reef tend to grow mainly upward toward the surface rather than spreading broadly downward into deeper water?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Corals need sunlight, which only reaches shallow water",
+            "feedback": "Correct. The algae inside the polyps need light for photosynthesis, so the coral cannot grow deeper than where sunlight penetrates. Thus, as sea level rises or the foundation subsides, the reef grows upward to stay in the sunlit zone."
+          },
+          {
+            "label": "Deep water is too cold for any coral to survive",
+            "feedback": "Temperature matters, but the main limitation is light. Some deep-water corals exist in cold water, but they do not build the large tropical reefs; reef-building corals specifically need sunlight for their algae."
+          },
+          {
+            "label": "Coral polyps cannot build skeleton at depths below 10 meters",
+            "feedback": "They can build skeleton below 10 meters, but they stop growing well because light fades with depth. The limiting factor is light, not a hard depth cutoff."
+          },
+          {
+            "label": "Strong currents at depth prevent coral from anchoring",
+            "feedback": "Currents exist at all depths and are not the primary factor. The need for sunlight is what forces reefs to stay shallow."
+          }
+        ],
+        "ok_title": "Growing toward light",
+        "ok_line": "Sunlight is what keeps reefs shallow.",
+        "ko_title": "Light limits depth",
+        "ko_line": "Corals cannot live where light doesn't reach.",
+        "exp_title": "Why reefs stay shallow",
+        "exp_text": "A coral polyp's algae need sunlight to make food, and that food fuels the polyp's growth. Past a certain depth, light becomes too weak for photosynthesis, so the coral cannot survive. This is why reefs grow upward, following rising sea levels or sinking foundations, rather than spreading into deep, dark water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the water around a thriving coral reef often look strikingly clear and blue rather than murky and green?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Coral reefs produce a chemical that dyes the water blue",
+            "feedback": "The blue color is not a dye; it is the result of pure water absorbs red light and reflects blue. The coral does not color the water."
+          },
+          {
+            "label": "The reef absorbs all the sediment, leaving water transparent",
+            "feedback": "The reef does not absorb sediment; the clear water is a condition that allows the reef to grow, not something the reef creates. Sediment would actually harm corals."
+          },
+          {
+            "label": "Deep water over the reef reflects the sky's blue color",
+            "feedback": "The blue color comes from the water itself, not from reflection of the sky, though the sky's blue adds to it. The key is that the water is clear, so the blue of pure water shows through."
+          },
+          {
+            "label": "Clear water lets sunlight reach the coral, and the low nutrient level keeps plankton scarce",
+            "feedback": "Correct. Reefs thrive where water is clear because sunlight must reach the algae. Such waters are usually low in nutrients, which means few suspended particles and little plankton, so the water stays transparent and appears blue rather than green or murky."
+          }
+        ],
+        "ok_title": "Clear blue water",
+        "ok_line": "Low nutrients keep reef water crystal clear.",
+        "ko_title": "Not a dye",
+        "ko_line": "The blue is from clean water, not chemicals.",
+        "exp_title": "Why reef waters are clear",
+        "exp_text": "Coral reefs grow best in nutrient-poor, clear water because sediment and plankton would block the sunlight their algae need. With few particles floating in it, the water lets light travel deep, and because pure water scatters blue light more than other colors, the sea looks strikingly blue and transparent."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why don't coral reefs generally grow near the mouths of large rivers, even where the temperature is warm enough?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "River water is too salty for coral polyps to survive",
+            "feedback": "River water is actually less salty than seawater, often much fresher. Corals need normal seawater salinity; the dilution near a river mouth is one problem, but not because it is too salty."
+          },
+          {
+            "label": "Rivers bring fresh water, sediment, and excess nutrients that harm corals",
+            "feedback": "Correct. River mouths deliver large amounts of fresh water, which lowers salinity beyond coral tolerance, silt that smothers polyps and blocks sunlight, and high nutrient levels that fuel plankton blooms that cloud the water. All of this prevents reef growth."
+          },
+          {
+            "label": "Rivers carry too much oxygen, which is toxic to coral",
+            "feedback": "Oxygen is not toxic to corals; they need it. The problem is sediment and nutrient overload, not excess oxygen."
+          },
+          {
+            "label": "The currents near rivers are too strong for coral larvae to settle",
+            "feedback": "Strong currents can be a factor, but the main reason is the combination of low salinity, high sediment, and high nutrients. Even where currents are gentle, the river's fresh, dirty water kills corals."
+          }
+        ],
+        "ok_title": "No reefs at river mouths",
+        "ok_line": "Freshwater and silt are deadly to corals.",
+        "ko_title": "Not just currents",
+        "ko_line": "The river's water itself blocks reef growth.",
+        "exp_title": "Why rivers stop reefs",
+        "exp_text": "Coral polyps are adapted to clear, salty, nutrient-poor seawater. A large river brings the opposite: fresh water that cuts salinity, fine sediment that smothers polyps and cuts off light, and nutrients that trigger algal blooms. Warmth alone is not enough; the water's quality must also be right, so reefs stay away from big river mouths."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the direct effect of extra carbon dioxide dissolving into seawater on coral reefs?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It makes the water more acidic, which slows the coral's ability to build its skeleton",
+            "feedback": "Correct. Carbon dioxide reacts with seawater to form carbonic acid, lowering pH. This acid reduces the availability of carbonate ions, which corals need to form limestone, so their skeletons grow more slowly and can even dissolve."
+          },
+          {
+            "label": "It makes the water warmer, which speeds up coral growth",
+            "feedback": "CO2 does trap heat globally, but the direct chemical effect on coral is acidification, not warming. Warmer water, in fact, stresses corals and causes bleaching, not faster growth."
+          },
+          {
+            "label": "It adds extra calcium to the water, helping corals build thicker skeletons",
+            "feedback": "Carbon dioxide does not add calcium; it adds carbonic acid. The acid reduces the building blocks for limestone, so it is harmful, not helpful."
+          },
+          {
+            "label": "It increases oxygen levels, allowing corals to grow faster",
+            "feedback": "Dissolved CO2 does not increase oxygen; it changes the carbonate chemistry. Oxygen is not the limiting factor for skeleton growth—carbonate ions are."
+          }
+        ],
+        "ok_title": "Ocean acidification",
+        "ok_line": "CO2 makes seawater acidic, harming coral growth.",
+        "ko_title": "Not a helper",
+        "ko_line": "The effect is harmful, not beneficial.",
+        "exp_title": "How CO2 hurts reefs",
+        "exp_text": "When carbon dioxide from the air dissolves in seawater, it forms carbonic acid, which lowers the water's pH. This acid reacts with carbonate ions, the same ions corals use to make calcium carbonate skeletons. With fewer carbonate ions available, corals grow more slowly, produce weaker skeletons, and reef structures may erode over time."
+      }
+    ]
+  }
+]

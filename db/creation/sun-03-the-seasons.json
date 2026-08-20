@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 173,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the four seasons happen at all?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Sun's own output rises and falls through the year",
+            "feedback": "The Sun's brightness doesn't cycle on a yearly rhythm; what changes is Earth's orientation to it."
+          },
+          {
+            "label": "Because Earth switches which side faces the Sun once a year",
+            "feedback": "That describes day and night flipping daily, not the far slower cycle of the seasons."
+          },
+          {
+            "label": "Because Earth's axis stays tilted as it orbits, so each hemisphere leans toward or away from the Sun at different points in the year",
+            "feedback": "One steady tilt, felt in opposite ways depending on where Earth sits in its orbit."
+          },
+          {
+            "label": "Because Earth's orbit brings it dramatically closer to the Sun twice a year",
+            "feedback": "Earth's distance from the Sun barely changes across the year."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A tilt that never straightens out as Earth goes around.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what stays constant about Earth's axis as it travels around the Sun.",
+        "exp_title": "A tilt that never straightens out",
+        "exp_text": "Earth's axis is set at a steady angle rather than standing straight up relative to its orbit, and that angle doesn't change as Earth travels around the Sun. For part of the orbit that tilt points a hemisphere toward the Sun, and for the opposite part it points that same hemisphere away. The seasons are simply which way the lean happens to be pointing at each stage of the year."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "If the seasons were caused by Earth moving closer to and farther from the Sun through the year, what problem would that run into?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Both hemispheres would experience the same season at once, and Earth's closest approach doesn't even fall in Northern Hemisphere summer",
+            "feedback": "A theory that doesn't fit the calendar or the fact that the two hemispheres disagree."
+          },
+          {
+            "label": "The days would stop changing length throughout the year",
+            "feedback": "Day length changes for its own reasons and isn't the flaw exposed by the distance idea."
+          },
+          {
+            "label": "Eclipses would happen far more often than they do",
+            "feedback": "Eclipses depend on the Moon's position, unrelated to Earth's distance from the Sun."
+          },
+          {
+            "label": "Sunrise would stop moving along the horizon",
+            "feedback": "That movement is tied to the tilt, not to the distance idea being tested here."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The whole planet would have to warm and cool together.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what distance alone would predict for the two hemispheres at the same moment.",
+        "exp_title": "A theory that doesn't fit the calendar",
+        "exp_text": "If distance alone drove the seasons, the whole planet would warm together when Earth was nearest the Sun and cool together when it was farthest, with no difference between hemispheres. That isn't what happens: the two hemispheres have opposite seasons at the same time, and Earth is actually at its closest to the Sun in early January, in the middle of the Northern Hemisphere's winter. Distance changes far too little across the year, and points the wrong way besides, to be the explanation."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does sunlight arriving at a steep angle warm the ground more than the same sunlight arriving at a shallow slant?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Steep sunlight travels faster than slanted sunlight",
+            "feedback": "Light travels at the same speed regardless of the angle it strikes a surface."
+          },
+          {
+            "label": "The same amount of light is spread over a much smaller patch of ground when it lands steeply, concentrating its energy",
+            "feedback": "A fixed amount of energy, packed tight or smeared thin depending on the angle."
+          },
+          {
+            "label": "Slanted sunlight loses its colour before reaching the ground",
+            "feedback": "Colour isn't what's lost; what changes is how spread out the energy becomes."
+          },
+          {
+            "label": "Steep sunlight contains more heat-carrying particles",
+            "feedback": "Sunlight isn't made of separate heat particles distinct from the light itself."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The same beam, spread thin or spread thick.",
+        "ko_title": "Not that",
+        "ko_line": "Ask how wide a patch of ground the same bundle of light ends up covering at each angle.",
+        "exp_title": "The same beam, spread thin or spread thick",
+        "exp_text": "A bundle of sunlight carries a fixed amount of energy, and where it lands squarely on the ground it covers a small patch, packing that energy densely. Tilt the same bundle to a shallow slant and it smears across a much wider stretch of ground, so each patch within it receives a thinner share. Steeper sunlight, not stronger sunlight, is what concentrates the warming."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are the Northern and Southern Hemispheres always in opposite seasons?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they receive light from two different sides of the Sun",
+            "feedback": "There is only one Sun, and both hemispheres are lit by the very same source at once."
+          },
+          {
+            "label": "Because ocean currents swap warmth between them twice a year",
+            "feedback": "Currents move heat around but don't create the season-driving tilt itself."
+          },
+          {
+            "label": "Because the equator physically shifts back and forth through the year",
+            "feedback": "The equator's location on Earth is fixed; what shifts is which hemisphere leans toward the Sun."
+          },
+          {
+            "label": "Because Earth's fixed tilt points one hemisphere toward the Sun while the other leans away, and that arrangement flips over the year",
+            "feedback": "One tilt, felt as opposite leans depending on where Earth sits in its orbit."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "One tilt, felt in opposite ways.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what a single fixed tilt does to two hemispheres on opposite sides of the planet.",
+        "exp_title": "One tilt, felt in opposite ways",
+        "exp_text": "Earth's axis leans the same way throughout the year, but Earth's position around the Sun changes, so at one point in the orbit that lean points the Northern Hemisphere toward the Sun and the Southern Hemisphere away from it. Half an orbit later the arrangement has reversed, with the south now leaning in and the north leaning out. Every hemisphere's summer is the direct mirror of the other hemisphere's winter, because both come from the very same tilt."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the hottest stretch of summer usually arrive weeks after the day with the most direct sunlight, the summer solstice?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ground and oceans keep absorbing more heat than they release for weeks after that peak, so warmth keeps piling up",
+            "feedback": "The warmest days trail behind the longest days for a very familiar reason."
+          },
+          {
+            "label": "The solstice is miscalculated and actually falls later than believed",
+            "feedback": "The solstice date is fixed and well established; nothing about it is wrong or delayed."
+          },
+          {
+            "label": "Cloud cover always increases sharply right after the solstice",
+            "feedback": "No general seasonal pattern makes clouds suddenly thicken right at that point every year."
+          },
+          {
+            "label": "The Sun's output briefly rises again after the solstice",
+            "feedback": "The Sun's actual brightness isn't what varies with the seasons at all."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The same lag that runs through a whole season.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the land and sea stop gaining heat the moment the solstice passes.",
+        "exp_title": "The same lag, stretched over a season",
+        "exp_text": "At the solstice, incoming sunlight is at its yearly strongest, but the land and sea are still gaining more heat overall than they are losing, so their temperatures keep climbing even as the days start slowly shortening again. Only several weeks later does that balance finally tip, once the weakening sunlight can no longer outpace the heat being lost. The season's warmest days trail behind its longest days for the very same reason the afternoon runs hotter than noon."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Earth's tilt keep pointing in the same direction in space as it travels all the way around the Sun, rather than drifting to follow the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Sun's gravity locks the axis in place",
+            "feedback": "The Sun's gravity pulls Earth along its orbit; it doesn't fix the direction Earth's spin axis points."
+          },
+          {
+            "label": "Because the Moon constantly resets the tilt each month",
+            "feedback": "The Moon has only a very slow, steadying influence, not a monthly resetting effect."
+          },
+          {
+            "label": "Because a fast-spinning body resists having its axis pushed around, the same way a spinning top holds its lean",
+            "feedback": "A stubbornness built into the spin itself, keeping the tilt pointed the same way."
+          },
+          {
+            "label": "Because Earth's magnetic field anchors the axis to a fixed compass direction",
+            "feedback": "The magnetic field is generated by Earth's spin, not a separate force holding the axis steady."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A spin that resists being nudged.",
+        "ko_title": "Not that",
+        "ko_line": "Think of a spinning top: what keeps its lean pointed the same way as it moves across a table?",
+        "exp_title": "A spin that resists being nudged",
+        "exp_text": "A fast-spinning object has a kind of stiffness to its axis: pushing on it doesn't easily tip it over, much as a spinning top keeps leaning the same way while it whirls, even as it moves across a table. Earth's spin gives its axis that same stubbornness, so as it travels around the Sun the tilt keeps pointing toward the same distant stars rather than swinging around to track the Sun. That steadiness is exactly what lets each hemisphere take its turn leaning in and leaning away over the year, in a predictable and repeating order."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do places near the equator experience only mild seasonal change, while places near the poles swing between extremes?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the equator receives no sunlight at all in winter",
+            "feedback": "The equator receives substantial sunlight all year round, unlike the poles during their dark season."
+          },
+          {
+            "label": "Because Earth's tilt changes the sunlight's angle only slightly near the equator, but drastically near the poles",
+            "feedback": "One tilt, applied at different latitudes, produces barely a ripple in one place and an extreme in another."
+          },
+          {
+            "label": "Because equatorial regions are shielded by a thicker layer of atmosphere",
+            "feedback": "Atmospheric thickness above the equator isn't meaningfully different in a way that would cause this."
+          },
+          {
+            "label": "Because the poles are much farther from the Sun than the equator",
+            "feedback": "The distance to the Sun from any point on Earth's surface differs negligibly regardless of latitude."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The same tilt, felt unevenly across latitudes.",
+        "ko_title": "Not that",
+        "ko_line": "Ask how much the tilt actually changes the sun's angle at the equator compared with near a pole.",
+        "exp_title": "The same tilt, felt unevenly",
+        "exp_text": "Earth's tilt changes how directly sunlight strikes a given latitude as the year goes on, but that change is not the same everywhere. Near the equator the sunlight's angle stays close to overhead no matter the season, so the shift is small; near the poles the same tilt can swing the sunlight from constant daylight to none at all. One tilt, applied at different latitudes, produces barely a ripple at the equator and an extreme at the poles."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the point on the horizon where the Sun rises shift from month to month through the year?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because Earth's rotation speed changes slightly with the seasons",
+            "feedback": "Earth's rotation rate is essentially constant across the year."
+          },
+          {
+            "label": "Because the Sun itself physically moves sideways in space over the year",
+            "feedback": "This apparent drift comes from Earth's own motion and tilt, not from the Sun relocating."
+          },
+          {
+            "label": "Because clouds on the horizon make sunrise appear in different places",
+            "feedback": "The shift is a real, predictable change in position, not a cloud-driven illusion."
+          },
+          {
+            "label": "Because Earth's tilt changes which latitude directly faces the sunrise point as Earth orbits, moving the sunrise along the horizon",
+            "feedback": "A horizon marked out, month by month, by the tilt itself."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "You're watching the tilt at work.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what is steadily changing about Earth's orientation as it orbits, month after month.",
+        "exp_title": "A horizon marked out by the tilt",
+        "exp_text": "As Earth orbits with its axis leaning the same way, the point where sunlight first grazes a given location shifts steadily north or south along the horizon over the months. Around the solstices that drift briefly pauses and reverses, near the equinoxes it moves fastest, tracing out the same back-and-forth path every year. Watching where the Sun rises over months is, in effect, watching the tilt at work."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the Sun climb higher in the midday sky during summer than it does in winter, at the very same location?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Earth's tilt angles that location more directly toward the Sun in summer than in winter",
+            "feedback": "The height of the midday arc is really a read-out of the tilt at that point in the orbit."
+          },
+          {
+            "label": "The Sun physically moves closer to Earth during summer months",
+            "feedback": "Earth's distance from the Sun changes only slightly and doesn't line up with the seasons this way."
+          },
+          {
+            "label": "The atmosphere lifts the Sun higher in summer through extra bending of its light",
+            "feedback": "Atmospheric bending near the horizon is roughly the same year-round and isn't the seasonal driver here."
+          },
+          {
+            "label": "Earth spins faster in summer, carrying the Sun higher overhead",
+            "feedback": "Earth's rotation speed doesn't change with the seasons."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The tilt sets the ceiling the Sun can reach.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what actually changes about your location's angle toward the Sun between summer and winter.",
+        "exp_title": "The tilt sets the Sun's ceiling",
+        "exp_text": "How high the Sun appears at midday depends on how directly your location is angled toward it, and that angle is exactly what Earth's tilt changes through the year. In summer your hemisphere leans in, and the Sun tracks a high arc across the sky; in winter the same hemisphere leans away, and the Sun stays low even at its peak. The height of that midday arc is really a read-out of the tilt at that moment in the orbit."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a Southern Hemisphere winter typically milder than a Northern Hemisphere winter, even though both hemispheres lean away from the Sun by the same tilt?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Southern Hemisphere is slightly closer to the Sun during its winter",
+            "feedback": "Distance from the Sun doesn't depend on which hemisphere is asked about; both are essentially the same distance at any moment."
+          },
+          {
+            "label": "Because the Southern Hemisphere spins more slowly in winter",
+            "feedback": "Rotation speed doesn't vary by hemisphere or by season."
+          },
+          {
+            "label": "Because the Southern Hemisphere is covered mostly by ocean, which loses its stored heat far more slowly than land",
+            "feedback": "An ocean that won't let go of its warmth easily, even as the direct sunlight fades."
+          },
+          {
+            "label": "Because the Southern Hemisphere receives extra sunlight reflected from the Northern Hemisphere's snow",
+            "feedback": "Reflected sunlight bouncing between hemispheres in this way isn't a real, meaningful heat source."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "An ocean that won't let go of its warmth easily.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what lies beneath the thinning sunlight in each hemisphere, and how it behaves when heat fades.",
+        "exp_title": "An ocean that won't let go of its warmth easily",
+        "exp_text": "The same tilt swings both hemispheres away from direct sunlight in their turn, but what lies beneath that thinning sunlight differs sharply: the south is mostly ocean, the north has far more land. Ocean water gives up its stored heat only slowly, so it keeps the air above it milder even as the direct sunlight fades. Land cools much faster once the sunlight weakens, which is why the north's winters swing colder for the same tilt."
+      }
+    ]
+  }
+]

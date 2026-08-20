@@ -1,0 +1,255 @@
+[
+  {
+    "theme_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the medical term for shortness of breath?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Tachypnea",
+            "feedback": "Tachypnea means an abnormally rapid breathing rate, not the uncomfortable feeling of not breathing well enough. The term you're looking for is dyspnea."
+          },
+          {
+            "label": "Hyperventilation",
+            "feedback": "Hyperventilation is breathing faster or deeper than the body needs, which can lower carbon dioxide levels. The medical term for shortness of breath itself is dyspnea."
+          },
+          {
+            "label": "Dyspnea",
+            "feedback": "Correct. Dyspnea is the medical name for shortness of breath, defined as a subjective experience of breathing discomfort."
+          },
+          {
+            "label": "Orthopnea",
+            "feedback": "Orthopnea is specifically the shortness of breath that appears when lying flat and improves when sitting up. The general term for shortness of breath is dyspnea."
+          }
+        ],
+        "ok_title": "Dyspnea named",
+        "ok_line": "Dyspnea is the medical term for shortness of breath.",
+        "ko_title": "Term mismatch",
+        "ko_line": "The correct medical term is dyspnea, not one of the other breathing-related terms.",
+        "exp_title": "The medical name",
+        "exp_text": "Dyspnea is the medical word for the uncomfortable feeling of not being able to breathe well enough. It is a subjective experience, meaning the person feels it, and it can range in intensity and sensation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which sensation is listed as one of the distinct feelings a person can have during dyspnea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Air hunger",
+            "feedback": "Correct. Air hunger is one of the distinct sensations of dyspnea, described as the feeling of not getting enough oxygen."
+          },
+          {
+            "label": "Burning in the lungs",
+            "feedback": "A burning sensation in the lungs is not one of the distinct sensations listed for dyspnea. The listed ones include effort, chest tightness, and air hunger."
+          },
+          {
+            "label": "Dizziness",
+            "feedback": "Dizziness is not listed as one of the distinct sensations of dyspnea. The distinct sensations are effort, chest tightness, and air hunger."
+          },
+          {
+            "label": "Ringing in the ears",
+            "feedback": "Ringing in the ears is not mentioned as a sensation of dyspnea. The distinct sensations are effort/work to breathe, chest tightness, and air hunger."
+          }
+        ],
+        "ok_title": "Sensations listed",
+        "ok_line": "Air hunger is one of the distinct sensations of dyspnea.",
+        "ko_title": "Not a listed sensation",
+        "ko_line": "The distinct sensations are effort, chest tightness, and air hunger, not the options given.",
+        "exp_title": "What dyspnea feels like",
+        "exp_text": "Dyspnea is not a single uniform feeling. It can include distinct sensations like the effort or work needed to breathe, a feeling of chest tightness, and air hunger, which is the sense that you are not getting enough oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When is shortness of breath considered a normal symptom rather than a sign of disease?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "When it happens while resting",
+            "feedback": "Shortness of breath while resting is considered pathological, not normal. It becomes a normal symptom during heavy physical exertion."
+          },
+          {
+            "label": "When it happens during light exertion",
+            "feedback": "Shortness of breath during light exertion is considered pathological. It is a normal symptom only during heavy physical exertion."
+          },
+          {
+            "label": "When it occurs in unexpected situations",
+            "feedback": "Occurring in unexpected situations is a marker of pathological dyspnea. Normal dyspnea happens during heavy physical exertion, which is expected."
+          },
+          {
+            "label": "When it follows heavy physical exertion",
+            "feedback": "Correct. Shortness of breath is a normal response to heavy physical exertion. It becomes a concern only when it appears at rest, during light effort, or in unexpected situations."
+          }
+        ],
+        "ok_title": "Normal dyspnea",
+        "ok_line": "Heavy exertion normally causes shortness of breath.",
+        "ko_title": "Pathological situations",
+        "ko_line": "Rest, light exertion, and unexpected situations make dyspnea abnormal.",
+        "exp_title": "When dyspnea is normal",
+        "exp_text": "Shortness of breath is a normal symptom of heavy physical exertion. The body increases breathing to supply working muscles with oxygen, so feeling breathless after hard effort is expected and not a sign of illness."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What body position is often assumed by a person experiencing shortness of breath?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lying flat on the back",
+            "feedback": "Lying flat can actually worsen shortness of breath in many conditions; it is not the typical position. The tripod position is the one often assumed."
+          },
+          {
+            "label": "The tripod position",
+            "feedback": "Correct. The tripod position, where a person leans forward while supporting themselves on their arms or knees, is often assumed as a sign of shortness of breath."
+          },
+          {
+            "label": "The fetal position",
+            "feedback": "The fetal position, curling up on the side, is not the position associated with shortness of breath. The tripod position is the one often assumed."
+          },
+          {
+            "label": "Standing fully upright with arms at the sides",
+            "feedback": "Standing fully upright with arms at the sides is not the position associated with shortness of breath. The tripod position, leaning forward with support, is typical."
+          }
+        ],
+        "ok_title": "Tripod position",
+        "ok_line": "The tripod position is often a sign of dyspnea.",
+        "ko_title": "Not the typical posture",
+        "ko_line": "People with shortness of breath often lean forward in the tripod position.",
+        "exp_title": "A visible sign",
+        "exp_text": "A person struggling to breathe often assumes the tripod position: leaning forward with their hands or arms braced on their knees or another support. This posture helps the accessory muscles of the chest and neck work more effectively."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is listed as a common cause of shortness of breath?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Broken bone",
+            "feedback": "A broken bone is not listed as a common cause of shortness of breath. Asthma, pneumonia, heart failure, and other conditions are the common causes."
+          },
+          {
+            "label": "Skin rash",
+            "feedback": "A skin rash is not listed as a cause of shortness of breath. Common causes include asthma, pneumonia, and heart conditions."
+          },
+          {
+            "label": "Asthma",
+            "feedback": "Correct. Asthma is one of the most common causes of shortness of breath, frequently leading people to the emergency room."
+          },
+          {
+            "label": "Ear infection",
+            "feedback": "An ear infection is not listed as a cause of shortness of breath. Common causes are respiratory and cardiac conditions like asthma and heart failure."
+          }
+        ],
+        "ok_title": "A common cause",
+        "ok_line": "Asthma is a leading cause of shortness of breath.",
+        "ko_title": "Unrelated conditions",
+        "ko_line": "Asthma and other respiratory or cardiac conditions are common causes, not those options.",
+        "exp_title": "Sources of dyspnea",
+        "exp_text": "Shortness of breath often comes from disorders of the respiratory or cardiac systems. Asthma is a very common cause, along with pneumonia, heart failure, and chronic obstructive pulmonary disease."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the intensity or burden of dyspnea help healthcare providers evaluate?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The severity of the breathing discomfort",
+            "feedback": "Correct. The American Thoracic Society recommends evaluating dyspnea by assessing the intensity of its distinct sensations, the degree of distress, and its impact on daily activities."
+          },
+          {
+            "label": "The exact cause of the shortness of breath",
+            "feedback": "Evaluating intensity and burden helps assess the experience of dyspnea, not directly identify its cause. The cause is determined through other diagnostic means."
+          },
+          {
+            "label": "The patient's age",
+            "feedback": "Age is not what the intensity or burden of dyspnea evaluates. It assesses the severity of the breathing discomfort and its impact on daily life."
+          },
+          {
+            "label": "The patient's lung capacity",
+            "feedback": "Lung capacity is a measurement of breathing volume, not what the intensity or burden of dyspnea refers to. It evaluates the patient's subjective experience."
+          }
+        ],
+        "ok_title": "Evaluating dyspnea",
+        "ok_line": "Intensity and burden measure the patient's experience.",
+        "ko_title": "Not measuring the cause",
+        "ko_line": "The assessment focuses on the discomfort itself, not direct causation.",
+        "exp_title": "How dyspnea is assessed",
+        "exp_text": "Because dyspnea is subjective, its severity is assessed by asking about the intensity of the distinct sensations, how distressing the discomfort is, and how much it interferes with daily activities. This helps gauge the burden of the symptom."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a distinct sensation that can be part of dyspnea?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Nausea",
+            "feedback": "Nausea is not one of the distinct sensations of dyspnea. The sensations are effort/work, chest tightness, and air hunger."
+          },
+          {
+            "label": "Itching",
+            "feedback": "Itching is not listed as a sensation of dyspnea. Distinct sensations include effort, chest tightness, and air hunger."
+          },
+          {
+            "label": "Blurred vision",
+            "feedback": "Blurred vision is not listed as a distinct sensation of dyspnea. The sensations are effort, chest tightness, and air hunger."
+          },
+          {
+            "label": "Chest tightness",
+            "feedback": "Correct. Chest tightness or pain is one of the distinct sensations that can occur during dyspnea, along with the effort of breathing and air hunger."
+          }
+        ],
+        "ok_title": "Chest tightness",
+        "ok_line": "Chest tightness is a distinct sensation of dyspnea.",
+        "ko_title": "Not a dyspnea sensation",
+        "ko_line": "The distinct sensations are effort, chest tightness, and air hunger, not those options.",
+        "exp_title": "A symptom component",
+        "exp_text": "Dyspnea can be felt through different distinct sensations. Chest tightness is one of them, often described as a feeling of pressure or constriction in the chest, alongside the effort of breathing and air hunger."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the best treatment for shortness of breath typically based on?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The patient's age",
+            "feedback": "Age is not the primary factor determining treatment. The best treatment depends on the underlying cause of the shortness of breath."
+          },
+          {
+            "label": "The underlying cause",
+            "feedback": "Correct. The best treatment to relieve or even remove shortness of breath typically depends on the underlying cause, such as asthma, pneumonia, or heart failure."
+          },
+          {
+            "label": "The severity of the symptom alone",
+            "feedback": "While severity matters, treatment is directed at the condition causing the dyspnea, not just the symptom itself. Knowing the cause is essential."
+          },
+          {
+            "label": "The patient's weight",
+            "feedback": "Weight is not the determining factor. Treatment depends on the underlying cause of the shortness of breath."
+          }
+        ],
+        "ok_title": "Cause guides treatment",
+        "ok_line": "Treatment targets the underlying cause.",
+        "ko_title": "Not patient factors",
+        "ko_line": "The underlying condition decides the treatment, not age or weight.",
+        "exp_title": "Why cause matters",
+        "exp_text": "Shortness of breath is a symptom, not a disease itself. The best way to relieve it is to treat the condition that is causing it, whether that is asthma, pneumonia, heart failure, or another problem."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 248,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an exoskeleton?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "An internal frame of bones to which organs attach",
+            "feedback": "That is an endoskeleton, which lies inside the body. An exoskeleton covers the outside of the animal's body."
+          },
+          {
+            "label": "A rigid outer shell that covers and protects the body",
+            "feedback": "Correct. An exoskeleton is a hard outer covering, like the shell of an arthropod or a mollusc."
+          },
+          {
+            "label": "A flexible cavity filled with fluid that gives shape",
+            "feedback": "That is a hydrostatic skeleton, which uses pressurized fluid inside the body. It is not an outer shell."
+          },
+          {
+            "label": "A network of fibres inside individual cells",
+            "feedback": "That is the cytoskeleton, which works at the cellular level. The exoskeleton is a body-level structure."
+          }
+        ],
+        "ok_title": "Outer shell skeleton",
+        "ok_line": "An exoskeleton is the hard covering on the outside of an animal's body.",
+        "ko_title": "Not an outer shell",
+        "ko_line": "The other choices describe internal or cellular supports, not a body-covering shell.",
+        "exp_title": "Exoskeleton definition",
+        "exp_text": "An exoskeleton is a rigid outer shell that covers the body of an animal, serving as armor to protect it from predators. It also provides surfaces for muscle attachment and can have appendages for movement and defense."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a hydroskeleton made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A fluid-filled cavity under pressure",
+            "feedback": "Correct. A hydroskeleton is a flexible internal cavity where pressurized body fluids provide structure."
+          },
+          {
+            "label": "A hard external shell of calcium carbonate",
+            "feedback": "That describes the shell of a mollusc, which is a solid exoskeleton, not a fluid-based one."
+          },
+          {
+            "label": "A flexible but solid rod of cartilage",
+            "feedback": "Cartilage is a solid, pliant material. A hydroskeleton is not solid; it uses fluid pressure."
+          },
+          {
+            "label": "A network of protein fibres inside cells",
+            "feedback": "That is the cytoskeleton, which stabilizes cells. A hydroskeleton belongs to the whole body, not individual cells."
+          }
+        ],
+        "ok_title": "Fluid pressure support",
+        "ok_line": "A hydroskeleton uses pressurized fluid inside a flexible cavity.",
+        "ko_title": "Not solid or cellular",
+        "ko_line": "The other options describe solid skeletons or the cytoskeleton, none of which rely on fluid pressure.",
+        "exp_title": "Hydroskeleton structure",
+        "exp_text": "A hydroskeleton is a flexible cavity within an animal whose walls are made of muscle and connective tissue, and it provides structure through the pressure of the fluid inside. This lets animals like earthworms and jellyfish move by alternating muscle contractions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which animals have an endoskeleton?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Arthropods and most molluscs",
+            "feedback": "Those animals have an exoskeleton, not an internal one. Their skeleton is a hard outer shell."
+          },
+          {
+            "label": "Jellyfish, flatworms, and earthworms",
+            "feedback": "Those soft-bodied animals use a hydrostatic skeleton, which is a fluid-filled cavity, not an internal bony frame."
+          },
+          {
+            "label": "Sponges only",
+            "feedback": "Sponges do have a kind of internal support, but they are not the only ones. Chordates and echinoderms also have endoskeletons."
+          },
+          {
+            "label": "Vertebrates, echinoderms, and sponges",
+            "feedback": "Correct. These groups all have an internal skeleton, though in sponges it is simple support rather than a jointed frame."
+          }
+        ],
+        "ok_title": "Internal skeleton groups",
+        "ok_line": "Vertebrates, echinoderms, and sponges have an endoskeleton.",
+        "ko_title": "Wrong skeleton types",
+        "ko_line": "The other choices name animals with exoskeletons or hydrostatic skeletons.",
+        "exp_title": "Endoskeleton distribution",
+        "exp_text": "An endoskeleton is an internal support structure. It occurs in chordates (including vertebrates), echinoderms, and sponges. In vertebrates, the main component is bone, and the skeleton is centered on a vertebral column."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What material forms the pliant skeleton in some invertebrates like jellyfish?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Bone",
+            "feedback": "Bone is a rigid, mineralized material found in vertebrate endoskeletons, not in jellyfish."
+          },
+          {
+            "label": "Chitin",
+            "feedback": "Chitin forms the rigid exoskeleton of arthropods, not a pliant skeleton. Pliant skeletons are flexible."
+          },
+          {
+            "label": "A mixture of proteins, polysaccharides, and water",
+            "feedback": "Correct. Most pliant skeletons are made of this mixture, giving them flexibility that can deform and spring back."
+          },
+          {
+            "label": "Calcium carbonate",
+            "feedback": "Calcium carbonate is a rigid material used in shells of molluscs and stony corals, not in pliant skeletons."
+          }
+        ],
+        "ok_title": "Pliant skeleton material",
+        "ok_line": "Most pliant skeletons are made of proteins, polysaccharides, and water.",
+        "ko_title": "Rigid materials",
+        "ko_line": "Bone, chitin, and calcium carbonate are all rigid, not pliant.",
+        "exp_title": "Pliant skeleton composition",
+        "exp_text": "A pliant skeleton is flexible: when stressed, it deforms and then regains its original shape. Most such skeletons are built from a combination of proteins, polysaccharides, and water. Cartilage can also be a pliant material, but it is not the usual mix."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the cytoskeleton do inside a cell?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It forms a hard outer shell around the cell",
+            "feedback": "The cytoskeleton is inside the cell, not a shell. An outer hard layer would be an exoskeleton at the body level."
+          },
+          {
+            "label": "It maintains cell shape and enables movement and transport",
+            "feedback": "Correct. The cytoskeleton stabilizes the cell's form, aids cellular motion, and helps move vesicles and organelles inside the cell."
+          },
+          {
+            "label": "It stores calcium and phosphate for the cell",
+            "feedback": "That is a function of bone tissue, not of the cytoskeleton. The cytoskeleton is about shape and movement."
+          },
+          {
+            "label": "It produces red and white blood cells",
+            "feedback": "That is a role of bone marrow, not of the cytoskeleton. The cytoskeleton works within every cell."
+          }
+        ],
+        "ok_title": "Cell's internal scaffold",
+        "ok_line": "The cytoskeleton keeps the cell's shape and assists movement and transport.",
+        "ko_title": "Not body-level support",
+        "ko_line": "The other functions belong to bone or its marrow, not to the cell's inner framework.",
+        "exp_title": "Cytoskeleton function",
+        "exp_text": "The cytoskeleton is a dynamic structure inside cells. It stabilizes and preserves cell shape, protects the cell, enables motion through flagella, cilia, and lamellipodia, and helps transport vesicles and organelles, also playing a role in cell division."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the main components of a vertebrate skeleton?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Bone and cartilage",
+            "feedback": "Correct. In vertebrates, the skeleton is centered on a vertebral column and is typically composed of bone and cartilage."
+          },
+          {
+            "label": "Chitin and calcium carbonate",
+            "feedback": "Those make up rigid exoskeletons, like those of arthropods and molluscs, not vertebrate internal skeletons."
+          },
+          {
+            "label": "Fluid and connective tissue only",
+            "feedback": "That describes a hydroskeleton, which soft-bodied invertebrates have. Vertebrates have solid bone and cartilage."
+          },
+          {
+            "label": "Spicules and ossicles",
+            "feedback": "Spicules belong to sponges and ossicles to echinoderms; vertebrates have bone and cartilage instead."
+          }
+        ],
+        "ok_title": "Vertebrate skeleton materials",
+        "ok_line": "Bone and cartilage are the two main tissues of a vertebrate skeleton.",
+        "ko_title": "Other skeleton materials",
+        "ko_line": "The other options list materials from exoskeletons or non-vertebrate endoskeletons.",
+        "exp_title": "Vertebrate skeleton composition",
+        "exp_text": "Vertebrate skeletons are endoskeletons, meaning the main skeletal component is bone. Cartilage is another important component, found mainly in joint areas of mammals. In cartilaginous fishes like sharks, the skeleton is made entirely of cartilage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of ligaments in the skeleton?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They connect muscles to bones",
+            "feedback": "That is what tendons do. Ligaments connect bones to other bones, not muscles."
+          },
+          {
+            "label": "They produce blood cells",
+            "feedback": "Blood cell production happens in bone marrow, not in ligaments. Ligaments are elastic connective tissues."
+          },
+          {
+            "label": "They store calcium for the body",
+            "feedback": "Bone stores calcium, not ligaments. Ligaments are elastic tissues that hold bones together."
+          },
+          {
+            "label": "They connect bones to other bones",
+            "feedback": "Correct. Ligaments are elastic tissues that link bones together at joints, helping keep them stable."
+          }
+        ],
+        "ok_title": "Bone-to-bone connectors",
+        "ok_line": "Ligaments connect bones to other bones.",
+        "ko_title": "Confused with tendons",
+        "ko_line": "Tendons connect muscles to bones; ligaments are the ones between bones.",
+        "exp_title": "Ligament function",
+        "exp_text": "Ligaments are elastic tissues that connect bones to other bones. This allows joints to stay together while still permitting movement. Tendons, by contrast, connect muscles to bones."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three main types of cells found in bone?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Neurons, muscle fibres, and blood cells",
+            "feedback": "Those are not bone cells. Bone contains its own specialized cells, not neurons or muscle fibres."
+          },
+          {
+            "label": "Osteoblasts, osteoclasts, and osteocytes",
+            "feedback": "Correct. These are the three main cell types found in bones, each with specific roles in forming and maintaining bone tissue."
+          },
+          {
+            "label": "Chondrocytes, fibroblasts, and macrophages",
+            "feedback": "Those are other connective tissue cells, not the main cells of bone. Bone has osteoblasts, osteoclasts, and osteocytes."
+          },
+          {
+            "label": "Red blood cells, white blood cells, and platelets",
+            "feedback": "Those are blood cells produced in marrow, not the structural cells of bone itself."
+          }
+        ],
+        "ok_title": "Bone cell types",
+        "ok_line": "Osteoblasts, osteoclasts, and osteocytes are the main bone cells.",
+        "ko_title": "Other cell types",
+        "ko_line": "The other options list non-bone cells or cells from other tissues.",
+        "exp_title": "Cells in bone",
+        "exp_text": "Most cells in bones are osteoblasts, osteoclasts, or osteocytes. These are the specialized cells that build, break down, and maintain bone tissue. Blood cells are produced in bone marrow, not by the bone tissue itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a true endoskeleton derived from?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Ectodermal tissue only",
+            "feedback": "The ectoderm is one of the germ layers, but a true endoskeleton is not derived from it alone; it comes from mesoderm."
+          },
+          {
+            "label": "Mesodermal tissue",
+            "feedback": "Correct. A true endoskeleton develops from mesoderm, the middle germ layer, which also gives rise to muscles and other internal tissues."
+          },
+          {
+            "label": "Endodermal tissue",
+            "feedback": "The endoderm forms the gut lining and related organs, not the skeleton. The endoskeleton comes from mesoderm."
+          },
+          {
+            "label": "Cartilage tissue exclusively",
+            "feedback": "Cartilage is a component of some skeletons, but the origin of a true endoskeleton is the germ layer mesoderm, not just cartilage."
+          }
+        ],
+        "ok_title": "Origin of endoskeleton",
+        "ok_line": "A true endoskeleton comes from mesodermal tissue.",
+        "ko_title": "Wrong germ layer",
+        "ko_line": "Ectoderm and endoderm do not give rise to the endoskeleton; mesoderm does.",
+        "exp_title": "Endoskeleton development",
+        "exp_text": "A true endoskeleton is derived from mesodermal tissue. This is one of the three germ layers in developing embryos. That is why bones and cartilage are grouped with other internal connective tissues that also arise from mesoderm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of skeleton do turtles have?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They have an endoskeleton with a shell that formed from the ribcage",
+            "feedback": "Correct. Turtles have a regular internal skeleton, but their shell is an exoskeleton that evolved from the ribcage."
+          },
+          {
+            "label": "They have only an exoskeleton with no internal bones",
+            "feedback": "Turtles have bones inside, including a vertebral column. Their shell is an extra outer layer, not a replacement."
+          },
+          {
+            "label": "They have a hydrostatic skeleton",
+            "feedback": "A hydrostatic skeleton is a fluid-filled cavity, which turtles do not have. They have solid bones."
+          },
+          {
+            "label": "They have a skeleton made entirely of cartilage",
+            "feedback": "Cartilage-only skeletons are found in sharks, not turtles. Turtles have bony skeletons."
+          }
+        ],
+        "ok_title": "Turtle skeleton",
+        "ok_line": "Turtles have an internal skeleton plus a shell made from the ribcage.",
+        "ko_title": "Not a single skeleton type",
+        "ko_line": "The other options ignore either the internal bones or the shell's origin.",
+        "exp_title": "Turtle shell origin",
+        "exp_text": "The skeleton of turtles has evolved so that the shell forms from the ribcage, creating an exoskeleton on top of their internal endoskeleton. This is an unusual combination among vertebrates."
+      }
+    ]
+  }
+]

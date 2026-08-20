@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 147,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a marsh stay waterlogged all year instead of draining away like ordinary land?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Marshes are constantly refilled by underground springs",
+            "feedback": "Most marshes have no spring feeding them at all; what keeps them wet is that the water they already receive has nowhere to drain away to."
+          },
+          {
+            "label": "The land is so flat and poorly drained that water can't run off or sink away",
+            "feedback": "With almost no slope to send water flowing onward and soil already too saturated to absorb more, water arriving from rain and rivers has nowhere left to go and simply stays put."
+          },
+          {
+            "label": "Marsh soil is naturally waterproof, like plastic",
+            "feedback": "Marsh soil is not sealed off from water passing through it; the wetness comes from water having nowhere to drain to, not from a waterproof barrier underneath."
+          },
+          {
+            "label": "Marshes sit below sea level, so seawater constantly seeps in",
+            "feedback": "Plenty of marshes sit well above sea level and far from any coast, yet stay just as waterlogged; the cause here has to do with drainage, not elevation relative to the sea."
+          }
+        ],
+        "ok_title": "Nowhere for the water to go",
+        "ok_line": "It's not that water keeps arriving, it's that it never leaves.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what would normally carry water away from a piece of land, and whether that's available here.",
+        "exp_title": "Land with nowhere to drain",
+        "exp_text": "Ordinary land sheds much of its rainfall because a slope sends the water running off toward a stream, and any water that soaks in can keep sinking down through the soil below. A marsh typically sits on land so flat that there is barely any slope to carry water away, and its soil is already saturated close to the surface, leaving little room for more water to sink into. Rain and river water arriving with nowhere to run off to and nowhere left to soak into simply accumulates and stays on the surface."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do the roots of a marsh plant, buried in waterlogged mud, get the oxygen they need to survive?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Air travels down through channels inside the stem to the roots",
+            "feedback": "Hollow passages running the length of the stem carry air from the leaves and surface down to the buried roots, supplying them directly rather than relying on any oxygen dissolved in the mud around them."
+          },
+          {
+            "label": "The roots absorb oxygen dissolved in the surrounding water",
+            "feedback": "Waterlogged mud has almost no dissolved oxygen left in it; whatever oxygen was there is quickly used up by the mud itself, leaving too little for a root to rely on."
+          },
+          {
+            "label": "The plant switches entirely to a different kind of root system",
+            "feedback": "The roots themselves are not a different kind of tissue; what differs is how oxygen reaches them, carried down from above rather than drawn from the mud."
+          },
+          {
+            "label": "The plant survives without any oxygen at its roots at all",
+            "feedback": "A root cut off from oxygen entirely would die within a short time; marsh plants need oxygen reaching their roots just as much as any other plant does, only by a different route."
+          }
+        ],
+        "ok_title": "Piped down from above",
+        "ok_line": "The roots aren't finding oxygen in the mud, they're being sent it from the surface.",
+        "ko_title": "Wrong source",
+        "ko_line": "The mud itself has almost no oxygen left in it; the supply has to be coming from somewhere else.",
+        "exp_title": "Air delivered by an internal pipeline",
+        "exp_text": "Waterlogged mud loses its oxygen quickly, because whatever oxygen was in it is used up by bacteria and never replaced by any air mixing in from above. Marsh plants get around that by building a network of hollow, air-filled channels running the length of their stems and down into their roots, carrying air taken in above the waterline straight to the buried tissue that needs it. Rather than relying on the mud around them for oxygen, the roots are supplied through that internal pipeline the whole plant maintains."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do mangrove trees grow tall, arching roots that stand up above the waterline instead of staying buried?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The arching shape helps the tree float during storms",
+            "feedback": "A mangrove is rooted firmly in the mud and is not designed to float free; the arching roots serve the tree while it stays anchored, not to let it drift."
+          },
+          {
+            "label": "The roots grow upward to reach sunlight for photosynthesis",
+            "feedback": "A root is not built to carry out photosynthesis, and mangrove leaves already handle that job well above the roots; the roots are serving a different purpose entirely."
+          },
+          {
+            "label": "Saltwater pushes the roots upward out of the mud over time",
+            "feedback": "Water does not physically push roots upward; the roots grow into that raised shape themselves, as part of how the tree develops, not because anything is forcing them up."
+          },
+          {
+            "label": "They anchor the tree in soft mud and let the roots reach air",
+            "feedback": "Standing above the waterline, those roots both brace the tree firmly in mud too soft to hold ordinary buried roots and take in air directly, since almost none is available in the waterlogged mud below."
+          }
+        ],
+        "ok_title": "Two jobs at once",
+        "ok_line": "The roots do double duty: holding the tree up and breathing for it.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what a root buried in oxygen-starved mud is missing, and what standing above the water gives it back.",
+        "exp_title": "Roots built to breathe as well as hold on",
+        "exp_text": "Mangroves grow in soft, shifting mud that is often flooded by the tide and almost entirely without oxygen once buried, conditions an ordinary buried root system could barely survive in. By arching up above the mud and waterline, their roots gain a firm, wide-braced grip on the loose ground, spreading the tree's weight the way buried roots never could in mud that soft. Exposed to open air rather than sealed in oxygen-starved mud, those same roots also take in the air the rest of the root system further below cannot reach."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do mangrove trees survive standing in salty water that would kill most other trees?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They avoid taking in water altogether",
+            "feedback": "A tree cannot survive without taking in water; a mangrove takes up as much water as any other tree does, just while managing the salt that comes with it."
+          },
+          {
+            "label": "Their leaves turn salt into sugar for food",
+            "feedback": "Salt is a mineral, not something a plant can convert into sugar; whatever a mangrove does with salt, using it as food is not part of it."
+          },
+          {
+            "label": "Their roots filter out most of the salt, and excess is expelled through the leaves",
+            "feedback": "Fine filtering at the roots keeps most of the salt from ever entering the tree in the first place, and whatever small amount does get through is later pushed back out through glands in the leaves rather than allowed to build up."
+          },
+          {
+            "label": "They only take up fresh rainwater collected on their bark",
+            "feedback": "A mangrove standing in tidal mud draws its water from the ground around it like any other tree; rainwater collected on bark could not supply anywhere near enough water for a tree that size."
+          }
+        ],
+        "ok_title": "Filtered, then expelled",
+        "ok_line": "What little salt gets past the roots doesn't stay, it gets pushed straight back out.",
+        "ko_title": "Not quite",
+        "ko_line": "The tree does take in salty water; the trick is in what happens to the salt afterward.",
+        "exp_title": "Salt managed at both ends",
+        "exp_text": "At the roots, mangroves are able to filter the water they draw in far more finely than an ordinary tree can, so most of the dissolved salt in the surrounding water is kept out before it ever enters the tree's tissue. Whatever small amount of salt does slip through is not left to accumulate; the tree carries it out to its leaves and expels it through tiny glands, sometimes leaving visible salt crystals on the leaf surface. Managed at the roots first and again at the leaves, the salt never has the chance to build up to a level that would harm the tree."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the water in many marshes tinted brown, like weak tea, rather than clear?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Decaying plant matter releases tannins that dissolve into the water",
+            "feedback": "As dead leaves and other plant material break down slowly in the still water, they release tannin compounds that dissolve readily, tinting the whole marsh the same brownish colour tea gets from steeping leaves."
+          },
+          {
+            "label": "The mud on the marsh floor stains the water directly",
+            "feedback": "Mud settled on the marsh floor generally stays where it is rather than dissolving into the water above it; a suspended stain like that would also make the water cloudy, not just tinted."
+          },
+          {
+            "label": "Iron in the surrounding rock leaks a red dye into the water",
+            "feedback": "Iron can occasionally tint water with an orange sheen in specific places, but the widespread tea-brown colour common to marshes comes from something dissolving out of decaying plants, not rock."
+          },
+          {
+            "label": "Sunlight reacting with algae turns the water brown",
+            "feedback": "Algae blooms typically turn water green rather than brown, and plenty of marshes with this tea-coloured water have very little algae in them at all."
+          }
+        ],
+        "ok_title": "Steeped like tea",
+        "ok_line": "The colour comes from the same kind of process that colours a cup of tea.",
+        "ko_title": "Not the source",
+        "ko_line": "Think about what's slowly breaking down in all that still water, and what it releases as it does.",
+        "exp_title": "Water steeped by its own dead leaves",
+        "exp_text": "Marsh water moves very little, and the plant matter falling into it, fallen leaves, stems and roots, breaks down slowly rather than being carried away or fully decomposed. As that material decays, it releases tannin compounds into the surrounding water, the same kind of compound that gives tea its colour when leaves are steeped in hot water. Built up in still water with nowhere to drain away, those dissolved tannins tint the whole marsh the same brownish shade."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do marshes help protect areas downstream from flooding during heavy rain?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Marsh plants absorb floodwater directly into their roots",
+            "feedback": "Roots take up only a small share of the water passing through a marsh; nowhere near enough to account for the amount of water a marsh can hold back."
+          },
+          {
+            "label": "Spongy soil and dense plants slow the water and store it temporarily",
+            "feedback": "Thick vegetation slows the water down as it tries to pass through, while the waterlogged, spongy soil beneath soaks up and holds a share of it, both releasing the water gradually rather than letting all of it rush downstream at once."
+          },
+          {
+            "label": "Marshes redirect floodwater underground before it can flow onward",
+            "feedback": "Marsh soil is generally already saturated, leaving little extra room to redirect large volumes of new floodwater underground; the water is held on the surface and in the soil close to it, not routed away below ground."
+          },
+          {
+            "label": "Marsh plants evaporate floodwater within minutes",
+            "feedback": "Evaporation is a slow process that could never keep pace with the volume of water arriving during a heavy storm; the real effect happens by slowing and storing the water, not evaporating it quickly."
+          }
+        ],
+        "ok_title": "Slowed, not stopped",
+        "ok_line": "The marsh doesn't make the water disappear, it just makes it take its time.",
+        "ko_title": "Wrong mechanism",
+        "ko_line": "Think about what dense plants and soggy soil actually do to water trying to pass through them quickly.",
+        "exp_title": "A landscape that buys time",
+        "exp_text": "Water rushing across open, bare ground moves quickly and reaches a river almost as fast as it fell. Passing through a marsh, that same water is slowed by dense stands of plants standing in its way, and a share of it soaks into soil that is already spongy and can hold still more. Held back and released slowly rather than arriving all at once, the water reaches the river downstream spread out over a much longer stretch of time, easing the sudden surge a flood would otherwise cause."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a mangrove forest weaken the force of waves before they reach the shore behind it?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Mangrove leaves absorb the sound of the waves",
+            "feedback": "Sound and wave force are different things; absorbing sound would do nothing to reduce the physical push of water moving toward the shore."
+          },
+          {
+            "label": "The trees are tall enough to block wind before it forms waves",
+            "feedback": "Mangroves grow along the shoreline itself, well after the waves approaching them have already formed out at sea; their height has little to do with wind further offshore."
+          },
+          {
+            "label": "Mangrove roots release chemicals that calm the water",
+            "feedback": "No such calming chemical is released by mangrove roots; whatever effect the trees have on the waves comes from their physical shape, not any substance they add to the water."
+          },
+          {
+            "label": "The dense tangle of roots creates drag that dissipates wave energy",
+            "feedback": "A wave pushing through that thick mesh of roots has to force its way past countless obstacles, and the resistance created by all that contact strips away much of the wave's energy before it can reach open shore."
+          }
+        ],
+        "ok_title": "Friction does the work",
+        "ok_line": "The roots don't stop the wave, they just make it fight for every inch.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what a wave physically has to push through on its way past a mangrove forest.",
+        "exp_title": "A wave that has to fight its way through",
+        "exp_text": "A wave moving across open water carries its energy forward with very little to resist it. Forced through a dense tangle of mangrove roots and trunks instead, the same wave has to push past a mesh of obstacles, and every bit of contact with a root or trunk creates drag that pulls energy out of the moving water. By the time whatever is left of the wave reaches the shore behind the forest, most of the force it started with has already been spent fighting its way through the roots."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the mud in a marsh often black and smell strongly of rotten eggs?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Fish waste collects and rots in the mud",
+            "feedback": "Fish waste contributes a small amount of organic matter, but nowhere near enough on its own to account for mud that is black and strongly smelling throughout a whole marsh."
+          },
+          {
+            "label": "Iron in the soil rusts and darkens the mud",
+            "feedback": "Rusting iron produces reddish or orange tints, not the black colour and sulphurous smell characteristic of this kind of mud; a different process is responsible here."
+          },
+          {
+            "label": "Bacteria without oxygen break down matter and release hydrogen sulphide gas",
+            "feedback": "In mud with no oxygen at all, certain bacteria survive by breaking down organic matter through a different chemical process, one that produces hydrogen sulphide gas as a byproduct, and it is that gas that carries the sharp, rotten-egg smell."
+          },
+          {
+            "label": "The mud contains rotting eggs laid by marsh birds",
+            "feedback": "Bird eggs, even where nests exist nearby, are far too few to account for a smell present throughout marsh mud everywhere, including places with no birds nesting at all."
+          }
+        ],
+        "ok_title": "A smell with a chemical cause",
+        "ok_line": "That's not decay in the ordinary sense, it's bacteria running on a different fuel entirely.",
+        "ko_title": "Not the source",
+        "ko_line": "Think about what kind of life could survive in mud with no oxygen in it at all, and what it would produce as waste.",
+        "exp_title": "The smell of life without oxygen",
+        "exp_text": "Waterlogged marsh mud has almost no oxygen reaching more than a short distance below its surface, which rules out the ordinary decay process most organic matter relies on. Certain bacteria are adapted to survive there anyway, breaking down dead plant and animal matter through a different chemical pathway that does not need oxygen at all, and that pathway produces hydrogen sulphide as a waste product. Built up in mud sealed off from the air, that gas is what gives marsh mud both its dark colour and its sharp, rotten-egg smell."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a floating plant like duckweed, with no roots reaching into mud, get the nutrients it needs to grow?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It draws nutrients up from the mud through a long stem",
+            "feedback": "Duckweed has no stem reaching down to the mud at all; it floats entirely on the surface, disconnected from anything buried below."
+          },
+          {
+            "label": "It absorbs nutrients dissolved in the water directly through its underside",
+            "feedback": "Floating flush against the surface, the underside of each tiny leaf is in constant contact with the water itself and takes up dissolved nutrients straight from it, with no need to reach down into mud at all."
+          },
+          {
+            "label": "It captures nutrients from insects landing on its leaves",
+            "feedback": "Insects landing briefly on a leaf provide far too little nutrient, far too rarely, to sustain a plant that grows and spreads as quickly as duckweed does."
+          },
+          {
+            "label": "It survives on stored nutrient reserves from its seed alone",
+            "feedback": "A seed's stored reserves are used up quickly after germination; a plant that keeps growing and multiplying the way duckweed does needs an ongoing source of nutrients, not a one-time supply."
+          }
+        ],
+        "ok_title": "Fed straight from the surface",
+        "ok_line": "It doesn't need to reach the mud because the water itself is already carrying what it needs.",
+        "ko_title": "Wrong route",
+        "ko_line": "Duckweed has no roots reaching mud at all; ask what part of the plant is actually in contact with anything.",
+        "exp_title": "A plant that feeds through its underside",
+        "exp_text": "Marsh and pond water carries a share of dissolved nutrient, released as decaying plant matter and other organic material breaks down in it. Duckweed floats directly on that water with the underside of each small leaf in constant, close contact with it, and that surface takes up dissolved nutrient much the way a root normally would. Never needing to reach down into mud at all, the plant draws everything it needs from the water it is already floating on."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do marshes and mangrove forests so often form exactly where a river meets the sea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Fresh river water and tidal seawater mix and slow enough for sediment to settle",
+            "feedback": "Where the two currents meet, the river's flow loses much of its push against the incoming tide, and the sediment it has been carrying, no longer moving fast enough to stay suspended, settles out and builds up flat, wet ground repeatedly flooded by the tide."
+          },
+          {
+            "label": "Rivers always widen sharply the moment they reach salt water",
+            "feedback": "A river's mouth does often widen, but width by itself does not create a marsh; what matters here is the slowing of the current and the sediment settling out because of it."
+          },
+          {
+            "label": "Sea creatures build up the land with shells over time",
+            "feedback": "Shell deposits can contribute in a few coastal settings, but the flat, sediment-built land of most marshes and mangroves forms from river sediment settling, not from accumulated shells."
+          },
+          {
+            "label": "Storms regularly push sand inland at river mouths",
+            "feedback": "Occasional storms can add sand to a coastline, but marshes and mangroves form steadily over long stretches of ordinary weather, built by routine sediment settling rather than by storms."
+          }
+        ],
+        "ok_title": "Where two currents cancel each other out",
+        "ok_line": "The land builds up right where the river's push and the tide's push meet and neither wins.",
+        "ko_title": "Not quite the mechanism",
+        "ko_line": "Think about what happens to a river's speed, and everything it's carrying, the moment it meets the sea.",
+        "exp_title": "Land built where a river runs out of push",
+        "exp_text": "A river arriving at the coast is still carrying sediment picked up along its whole course, held in suspension by the steady push of its current. Meeting the sea and the rhythm of the tide sharply reduces that push, and the sediment, no longer moving fast enough to stay suspended, settles out and begins to build up as flat, low-lying ground. Regularly flooded by the tide and fed by fresh water from the river at the same time, that new ground is exactly the kind of setting where marsh plants and mangrove trees take hold and spread."
+      }
+    ]
+  }
+]

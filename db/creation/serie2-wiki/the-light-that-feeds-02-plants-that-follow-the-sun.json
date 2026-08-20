@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 223,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the movement of plant parts in response to the direction of the Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Heliotropism",
+            "feedback": "Correct. Heliotropism is the term for the diurnal or seasonal motion of plant parts, like flowers or leaves, in response to the Sun's direction."
+          },
+          {
+            "label": "Phototropism",
+            "feedback": "Phototropism means a response to light in general, but the specific response to the direction of the Sun is called heliotropism."
+          },
+          {
+            "label": "Geotropism",
+            "feedback": "Geotropism is a response to gravity, not to the Sun's direction."
+          },
+          {
+            "label": "Hydrotropism",
+            "feedback": "Hydrotropism is a response to moisture, not to the Sun's direction."
+          }
+        ],
+        "ok_title": "Name the motion",
+        "ok_line": "Heliotropism is the Sun-directed movement.",
+        "ko_title": "Wrong direction term",
+        "ko_line": "That term refers to a different stimulus.",
+        "exp_title": "Heliotropism defined",
+        "exp_text": "Heliotropism is the movement of plant parts—flowers or leaves—in response to the Sun's direction. It can happen daily or seasonally, and it is a type of tropism, which is a directional growth or movement."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a heliotropic flower moves to make the flower track the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The petals",
+            "feedback": "Petals open and close but they do not flex to track; the movement comes from a segment just below the flower."
+          },
+          {
+            "label": "The stem root",
+            "feedback": "The root is underground and does not move the flower; the flexible segment is above ground, below the flower."
+          },
+          {
+            "label": "The pulvinus",
+            "feedback": "Correct. The pulvinus is a flexible segment just below the flower, and its motor cells cause the bending that lets the flower follow the Sun."
+          },
+          {
+            "label": "The leaves",
+            "feedback": "Leaves can show heliotropism in some plants, but for the flower's tracking, the moving part is the pulvinus, not the leaves."
+          }
+        ],
+        "ok_title": "The moving segment",
+        "ok_line": "The pulvinus bends to track the Sun.",
+        "ko_title": "Wrong flower part",
+        "ko_line": "That part does not move the flower.",
+        "exp_title": "Pulvinus in flowers",
+        "exp_text": "In heliotropic flowers, the motion happens in the pulvinus, a flexible segment just below the flower. Motor cells in the pulvinus pump potassium ions, changing pressure and causing the segment to flex, so the flower turns."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do motor cells in the pulvinus cause the flower to bend?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They grow longer on the lit side",
+            "feedback": "The elongation happens on the shadow side, not the lit side; that is what makes the segment bend."
+          },
+          {
+            "label": "They pump potassium ions and change turgor pressure",
+            "feedback": "Correct. Motor cells pump potassium ions, which changes turgor pressure and makes the shadow side elongate, bending the segment."
+          },
+          {
+            "label": "They lose water and shrink on both sides",
+            "feedback": "If both sides shrank, there would be no bending; the change is unequal, with one side elongating."
+          },
+          {
+            "label": "They produce new cells rapidly",
+            "feedback": "New cell growth is a separate type of heliotropism, not how the pulvinus works; the pulvinus uses turgor changes."
+          }
+        ],
+        "ok_title": "How the bend happens",
+        "ok_line": "Potassium and turgor drive the bend.",
+        "ko_title": "Wrong mechanism",
+        "ko_line": "The bending is not from that cause.",
+        "exp_title": "Turgor-mediated motion",
+        "exp_text": "Motor cells in the pulvinus pump potassium ions into nearby tissues, changing turgor pressure. The shadow side's cells elongate due to a rise in turgor, which flexes the segment and turns the flower."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the type of heliotropism that uses irreversible cell expansion to produce growth patterns?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Turgor-mediated heliotropism",
+            "feedback": "Turgor-mediated heliotropism uses pressure changes, not irreversible expansion; this growth type is different."
+          },
+          {
+            "label": "Phototropism",
+            "feedback": "Phototropism is a response to light, not specifically the growth-mediated Sun tracking described here."
+          },
+          {
+            "label": "Diaheliotropism",
+            "feedback": "Diaheliotropism describes leaf orientation perpendicular to the Sun, not the growth mechanism."
+          },
+          {
+            "label": "Growth-mediated heliotropism",
+            "feedback": "Correct. This type uses irreversible cell expansion that produces particular growth patterns, unlike turgor-based movement."
+          }
+        ],
+        "ok_title": "Growth type named",
+        "ok_line": "That is growth-mediated heliotropism.",
+        "ko_title": "Wrong heliotropism type",
+        "ko_line": "That term names a different mechanism.",
+        "exp_title": "Two heliotropism types",
+        "exp_text": "When a plant lacks a pulvinus, heliotropism happens through irreversible cell expansion that creates growth patterns. That is called growth-mediated heliotropism, as opposed to turgor-mediated heliotropism."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a diaheliotropic leaf do in the morning?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It orients itself perpendicular to the Sun's rays",
+            "feedback": "Correct. A diaheliotropic leaf positions itself perpendicular to the Sun's rays, often in the morning."
+          },
+          {
+            "label": "It orients itself parallel to the Sun's rays at midday",
+            "feedback": "That describes paraheliotropism, not diaheliotropism; the two are different orientations."
+          },
+          {
+            "label": "It folds up tightly",
+            "feedback": "Folding is not what diaheliotropism means; it is about specific orientation relative to the Sun."
+          },
+          {
+            "label": "It faces east all day",
+            "feedback": "Facing east all day is not diaheliotropism; diaheliotropic leaves track the Sun's rays perpendicularly."
+          }
+        ],
+        "ok_title": "Morning leaf position",
+        "ok_line": "Diaheliotropic leaves stand perpendicular.",
+        "ko_title": "Wrong orientation",
+        "ko_line": "That orientation belongs to a different type.",
+        "exp_title": "Diaheliotropism explained",
+        "exp_text": "Diaheliotropism is the orientation of leaves perpendicular to the Sun's rays, which often happens in the morning. This lets the leaf face the Sun directly and gather maximum light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a paraheliotropic leaf do at midday?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It turns perpendicular to the Sun's rays",
+            "feedback": "Perpendicular orientation is diaheliotropism, not paraheliotropism; paraheliotropic leaves point parallel."
+          },
+          {
+            "label": "It closes its stomata",
+            "feedback": "Closing stomata is unrelated to leaf orientation; paraheliotropism is about the leaf's angle to the Sun."
+          },
+          {
+            "label": "It orients itself parallel to the Sun's rays",
+            "feedback": "Correct. A paraheliotropic leaf positions itself parallel to the Sun's rays at midday, which reduces heat load."
+          },
+          {
+            "label": "It droops downward",
+            "feedback": "Drooping is not the definition; paraheliotropism is a specific parallel alignment, not just drooping."
+          }
+        ],
+        "ok_title": "Midday leaf position",
+        "ok_line": "Paraheliotropic leaves lie parallel.",
+        "ko_title": "Wrong leaf behavior",
+        "ko_line": "That is not how paraheliotropism works.",
+        "exp_title": "Paraheliotropism explained",
+        "exp_text": "Paraheliotropism is the orientation of leaves parallel to the Sun's rays, typically at midday. This position reduces the leaf's exposure to direct sunlight and helps avoid overheating."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which hypothesis says that flower heliotropism helps pollination by providing warmth as a reward?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The growth promotion hypothesis",
+            "feedback": "That hypothesis focuses on pollen germination and seed production, not on rewarding pollinators with warmth."
+          },
+          {
+            "label": "The pollinator attraction hypothesis",
+            "feedback": "Correct. This hypothesis says the warmth from full sun exposure is a direct reward for pollinators, attracting them."
+          },
+          {
+            "label": "The cooling hypothesis",
+            "feedback": "The cooling hypothesis is about avoiding overheating, not about giving warmth to pollinators."
+          },
+          {
+            "label": "The circadian hypothesis",
+            "feedback": "The circadian hypothesis concerns innate motion, not pollinator rewards; that is not one of the three listed."
+          }
+        ],
+        "ok_title": "Pollinator warmth idea",
+        "ok_line": "Warmth rewards visits from pollinators.",
+        "ko_title": "Wrong hypothesis",
+        "ko_line": "That hypothesis has a different focus.",
+        "exp_title": "Pollinator attraction",
+        "exp_text": "The pollinator attraction hypothesis proposes that the warmth from full sun light on a flower is a direct benefit to pollinators. By tracking the Sun, the flower stays warm and becomes more attractive to them."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the growth promotion hypothesis say about the effect of warmer flowers?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It scares off pollinators",
+            "feedback": "That is not part of the hypothesis; it says warmth helps with reproduction, not scaring."
+          },
+          {
+            "label": "It makes petals fall off sooner",
+            "feedback": "No, the hypothesis concerns pollen and seeds, not petal falling."
+          },
+          {
+            "label": "It increases leaf area",
+            "feedback": "Leaf area is not what the growth promotion hypothesis addresses; it concerns reproductive parts."
+          },
+          {
+            "label": "It helps pollen germinate and seeds develop",
+            "feedback": "Correct. The hypothesis says absorbed solar energy and warmth improve pollen germination, pollen tube growth, and seed production."
+          }
+        ],
+        "ok_title": "Warmth aids reproduction",
+        "ok_line": "Warmth helps pollen and seeds develop.",
+        "ko_title": "Wrong growth claim",
+        "ko_line": "That is not what the hypothesis states.",
+        "exp_title": "Growth promotion hypothesis",
+        "exp_text": "The growth promotion hypothesis proposes that the plant's absorption of solar energy raises the flower's temperature. This warmth favors pollen germination, growth of the pollen tube, and seed production."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the cooling hypothesis about flower heliotropism?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It says flower position adjusts to avoid overheating",
+            "feedback": "Correct. The cooling hypothesis applies to hot climates and says the flower's position is changed to avoid getting too hot."
+          },
+          {
+            "label": "It says flowers track the Sun to stay warm at night",
+            "feedback": "Staying warm at night is not why they track; the cooling hypothesis is about avoiding heat, not gaining it."
+          },
+          {
+            "label": "It says flowers close to trap heat",
+            "feedback": "Trapping heat is the opposite of cooling; this hypothesis is about avoiding overheating."
+          },
+          {
+            "label": "It says flowers turn away from pollinators",
+            "feedback": "Turning away from pollinators is not part of the cooling hypothesis; it is purely about temperature."
+          }
+        ],
+        "ok_title": "Cooling by position",
+        "ok_line": "Position changes keep flowers from overheating.",
+        "ko_title": "Wrong cooling idea",
+        "ko_line": "That is not what the hypothesis says.",
+        "exp_title": "Cooling hypothesis",
+        "exp_text": "The cooling hypothesis states that in hot climates, flowers adjust their position to avoid overheating. By not facing the Sun directly, they keep their temperature from getting too high."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the apical bud of a sunflower do during the bud stage?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It stays facing east all the time",
+            "feedback": "Facing east is the final position, but during the bud stage it tracks the Sun across the sky."
+          },
+          {
+            "label": "It faces west until the flower opens",
+            "feedback": "No, it tracks from east to west during the day, then back east overnight."
+          },
+          {
+            "label": "It tracks the Sun from east to west during the day",
+            "feedback": "Correct. The apical bud follows the Sun across the sky, then moves back east overnight due to its internal clock."
+          },
+          {
+            "label": "It does not move at all",
+            "feedback": "Heliotropism is exactly what the bud does; it does move during the bud stage."
+          }
+        ],
+        "ok_title": "Sunflower bud tracking",
+        "ok_line": "The bud follows the Sun across the day.",
+        "ko_title": "Wrong bud movement",
+        "ko_line": "That is not what the bud does during growth.",
+        "exp_title": "Sunflower bud heliotropism",
+        "exp_text": "Before the flower head appears, the apical bud tracks the Sun from east to west during the day. At night it quickly moves back west to east, driven by the plant's circadian clock."
+      }
+    ]
+  }
+]

@@ -16,9 +16,8 @@ import { useStore } from '../state/store'
  * plus conséquente de la page, elle ne doit pas se perdre dans un coin.
  */
 export function Settings() {
-  const { s, go, set, toggleDark, toggleMute, setLang, themes, user, logout, t } = useStore()
+  const { s, go, set, toggleDark, toggleMute, setLang, user, logout, t } = useStore()
 
-  const mine = themes.filter((x) => x.subscribed)
   const signedIn = user !== null && !user.is_anonymous
 
   return (
@@ -35,39 +34,31 @@ export function Settings() {
           </header>
 
           <div className="page-grid">
-            {/* Le choix des thèmes a son propre écran : c'est ce qu'on vient
-                faire dans l'app, pas une option à régler. Il reste joignable
-                d'ici, mais il ne se règle plus ici. */}
+            {/* La langue ouvre la page, à la place des apprentissages, qui
+                se joignent par le rail et le menu — ils n'ont jamais été
+                un réglage. Elle vient en premier parce qu'elle décide de
+                tout ce qu'on lira ensuite : un thème est écrit dans une
+                langue et n'est jamais traduit, changer de langue change
+                donc le catalogue servi, pas seulement les libellés. */}
             <section className="page-card">
-              <span className="eyebrow">{t.themes}</span>
-              <button className="settings-row" onClick={() => go('themes')}>
-                <span style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                  <Icon name="sparkle" size={20} color="var(--sc-text)" />
-                  <span className="stack">
-                    <span style={{ fontSize: 16, fontWeight: 600, color: 'var(--sc-text)' }}>
-                      {t.myThemes}
-                    </span>
-                    <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>
-                      {mine.length > 0 ? t.themesCount(mine.length) : t.noThemeFollowed}
-                    </span>
-                  </span>
-                </span>
-                <Icon name="chevronRight" size={18} stroke={2} color="var(--sc-text3)" />
-              </button>
-            </section>
-
-            <section className="page-card">
-              <span className="eyebrow">{t.about}</span>
-              <button className="settings-row" onClick={() => go('about')}>
-                <span style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                  <Icon name="bulb" size={20} color="var(--sc-text)" />
-                  <span className="stack">
-                    <Wordmark size={17} />
-                    <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>{t.slogan}</span>
-                  </span>
-                </span>
-                <Icon name="chevronRight" size={18} stroke={2} color="var(--sc-text3)" />
-              </button>
+              <span className="eyebrow">{t.language}</span>
+              <div className="segmented" style={{ margin: 0 }}>
+                <button
+                  className={s.lang === 'fr' ? 'segment is-on' : 'segment'}
+                  onClick={() => setLang('fr')}
+                  aria-pressed={s.lang === 'fr'}
+                >
+                  Français
+                </button>
+                <button
+                  className={s.lang === 'en' ? 'segment is-on' : 'segment'}
+                  onClick={() => setLang('en')}
+                  aria-pressed={s.lang === 'en'}
+                >
+                  English
+                </button>
+              </div>
+              <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>{t.languageSub}</span>
             </section>
 
             <section className="page-card">
@@ -103,31 +94,72 @@ export function Settings() {
               </button>
             </section>
 
-            {/* Changer de langue change aussi le catalogue servi : un thème
-                est écrit dans une langue, il n'est jamais traduit. */}
             <section className="page-card">
-              <span className="eyebrow">{t.language}</span>
-              <div className="segmented" style={{ margin: 0 }}>
-                <button
-                  className={s.lang === 'fr' ? 'segment is-on' : 'segment'}
-                  onClick={() => setLang('fr')}
-                  aria-pressed={s.lang === 'fr'}
-                >
-                  Français
-                </button>
-                <button
-                  className={s.lang === 'en' ? 'segment is-on' : 'segment'}
-                  onClick={() => setLang('en')}
-                  aria-pressed={s.lang === 'en'}
-                >
-                  English
-                </button>
-              </div>
-              <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>{t.languageSub}</span>
+              <span className="eyebrow">{t.about}</span>
+              <button className="settings-row" onClick={() => go('about')}>
+                <span style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                  <Icon name="bulb" size={20} color="var(--sc-text)" />
+                  <span className="stack">
+                    <Wordmark size={17} />
+                    <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>{t.slogan}</span>
+                  </span>
+                </span>
+                <Icon name="chevronRight" size={18} stroke={2} color="var(--sc-text3)" />
+              </button>
+
+              {/* La page publique reste accessible depuis l'intérieur :
+                  c'est elle qu'on envoie à quelqu'un pour lui expliquer
+                  l'app, et sans cette entrée il fallait connaître l'URL. */}
+              <button className="settings-row" onClick={() => go('home')}>
+                <span style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                  <Icon name="home" size={20} color="var(--sc-text)" />
+                  <span className="stack">
+                    <span style={{ fontSize: 16, fontWeight: 600, color: 'var(--sc-text)' }}>
+                      {t.homeHow}
+                    </span>
+                    <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>{t.homeKicker}</span>
+                  </span>
+                </span>
+                <Icon name="chevronRight" size={18} stroke={2} color="var(--sc-text3)" />
+              </button>
+
+              {/* Nous écrire vit ici et non dans un pied de page : c'est
+                  d'ici qu'on part quand quelque chose ne va pas. */}
+              <button className="settings-row" onClick={() => go('contact')}>
+                <span style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                  <Icon name="mail" size={20} color="var(--sc-text)" />
+                  <span className="stack">
+                    <span style={{ fontSize: 16, fontWeight: 600, color: 'var(--sc-text)' }}>
+                      {t.writeToUs}
+                    </span>
+                    <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>{t.replyDelay}</span>
+                  </span>
+                </span>
+                <Icon name="chevronRight" size={18} stroke={2} color="var(--sc-text3)" />
+              </button>
             </section>
 
             <section className="page-card span-all">
               <span className="eyebrow">{t.account}</span>
+
+              {/* Le pseudo passe avant le compte : il vaut pour tout le
+                  monde, connecté ou non, alors que le bloc du dessous ne
+                  concerne que ceux qui ont un email. */}
+              <button className="settings-row" onClick={() => go('pseudo')}>
+                <span style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                  <Icon name="user" size={20} color="var(--sc-text)" />
+                  <span className="stack">
+                    <span style={{ fontSize: 16, fontWeight: 600, color: 'var(--sc-text)' }}>
+                      {t.pseudoLabel}
+                    </span>
+                    <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>
+                      {user?.display_name || t.pseudoNone}
+                    </span>
+                  </span>
+                </span>
+                <Icon name="chevronRight" size={18} stroke={2} color="var(--sc-text3)" />
+              </button>
+
               <div className="card">
                 {signedIn && user ? (
                   <>

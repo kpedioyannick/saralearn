@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 247,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a mammoth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A member of the extinct elephantid genus Mammuthus",
+            "feedback": "Correct. Mammoths belong to the genus Mammuthus, which is a group of elephant-like animals that are now extinct."
+          },
+          {
+            "label": "A type of ancient rhinoceros",
+            "feedback": "Incorrect. Mammoths are not rhinoceroses; they are members of the elephantid family, closely related to modern elephants."
+          },
+          {
+            "label": "A kind of giant ground sloth",
+            "feedback": "Incorrect. That is a different extinct animal. Mammoths are elephantids, not sloths."
+          },
+          {
+            "label": "A species of prehistoric horse",
+            "feedback": "Incorrect. Mammoths are not horses; they are proboscideans, related to elephants."
+          }
+        ],
+        "ok_title": "Mammoth defined",
+        "ok_line": "A mammoth is an extinct elephantid of the genus Mammuthus.",
+        "ko_title": "Not a mammoth",
+        "ko_line": "Mammoths are elephantids, not rhinos, sloths, or horses.",
+        "exp_title": "What a mammoth is",
+        "exp_text": "A mammoth is a member of the extinct elephantid genus Mammuthus. This means it belongs to the same family as modern elephants, but it is a separate genus that has completely died out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which living animal are mammoths most closely related to?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The African elephant",
+            "feedback": "Incorrect. Mammoths are more closely related to Asian elephants than to African elephants."
+          },
+          {
+            "label": "The Asian elephant",
+            "feedback": "Correct. Mammoths and Asian elephants share a closer common ancestor with each other than either does with African elephants."
+          },
+          {
+            "label": "The American mastodon",
+            "feedback": "Incorrect. The mastodon is only a distant relative of mammoths, belonging to a separate family that diverged long before mammoths evolved."
+          },
+          {
+            "label": "The hyrax",
+            "feedback": "Incorrect. Hyraxes are relatives of proboscideans as a whole, but mammoths are much more closely related to elephants."
+          }
+        ],
+        "ok_title": "Closest living kin",
+        "ok_line": "Mammoths are closest to Asian elephants.",
+        "ko_title": "Wrong relative",
+        "ko_line": "Mammoths are not most closely related to African elephants, mastodons, or hyraxes.",
+        "exp_title": "Mammoth family tree",
+        "exp_text": "Among living animals, mammoths are most closely related to Asian elephants. This is based on evidence from genetics and anatomy, showing that mammoths and Asian elephants share a more recent common ancestor than either shares with African elephants."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What feature distinguishes mammoths from living elephants?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They have no tusks",
+            "feedback": "Incorrect. Mammoths do have tusks; in fact, they are typically large and spirally twisted, unlike the straighter tusks of some modern elephants."
+          },
+          {
+            "label": "They have trunks that split into two",
+            "feedback": "Incorrect. Mammoths have a single trunk like elephants do; this is not a distinguishing feature."
+          },
+          {
+            "label": "They have spirally twisted tusks",
+            "feedback": "Correct. Mammoths are distinguished from living elephants by their typically large, spirally twisted tusks."
+          },
+          {
+            "label": "They have four legs instead of two",
+            "feedback": "Incorrect. Both mammoths and living elephants have four legs; this is not a distinguishing feature."
+          }
+        ],
+        "ok_title": "Mammoth vs elephant",
+        "ok_line": "Mammoths are known for their spirally twisted tusks.",
+        "ko_title": "Not the difference",
+        "ko_line": "The tusk shape, not trunk or leg count, sets mammoths apart.",
+        "exp_title": "Mammoth's signature feature",
+        "exp_text": "The most obvious feature that separates mammoths from living elephants is their typically large, spirally twisted tusks. Modern elephants generally have tusks that curve differently, so the twist helps identify mammoth remains."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammoth species evolved later and lived in cold environments, developing a thick fur coat?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Mammuthus subplanifrons",
+            "feedback": "Incorrect. This is the oldest known mammoth species, from Africa, and it did not have the cold adaptations like thick fur."
+          },
+          {
+            "label": "Mammuthus meridionalis",
+            "feedback": "Incorrect. This species was very large and lived in warmer periods; it did not have a thick fur coat."
+          },
+          {
+            "label": "Mammuthus columbi",
+            "feedback": "Incorrect. The Columbian mammoth lived in North America, but it did not evolve the thick fur seen in later cold-adapted species."
+          },
+          {
+            "label": "Mammuthus primigenius",
+            "feedback": "Correct. The woolly mammoth, Mammuthus primigenius, evolved later and developed thick fur and other adaptations for cold environments."
+          }
+        ],
+        "ok_title": "The woolly one",
+        "ok_line": "The woolly mammoth had a thick fur coat.",
+        "ko_title": "Not that mammoth",
+        "ko_line": "Early and warm-climate mammoths lacked thick fur.",
+        "exp_title": "Cold-adapted mammoth",
+        "exp_text": "The woolly mammoth, Mammuthus primigenius, is the species that evolved adaptations for living in cold environments, including a thick layer of fur. Other mammoth species from warmer regions did not have this feature."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where did the oldest known mammoth species live?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In North America",
+            "feedback": "Incorrect. Mammoths only reached North America much later, after evolving in Africa."
+          },
+          {
+            "label": "In Africa",
+            "feedback": "Correct. The oldest mammoth, Mammuthus subplanifrons, appeared in southern and eastern Africa."
+          },
+          {
+            "label": "In Europe",
+            "feedback": "Incorrect. Mammoths dispersed into Eurasia later, from Africa."
+          },
+          {
+            "label": "In Siberia",
+            "feedback": "Incorrect. The woolly mammoth evolved in Siberia much later, not the oldest species."
+          }
+        ],
+        "ok_title": "First mammoth home",
+        "ok_line": "The oldest mammoth lived in Africa.",
+        "ko_title": "Wrong location",
+        "ko_line": "Mammoths started in Africa, not in North America, Europe, or Siberia.",
+        "exp_title": "Origin of mammoths",
+        "exp_text": "The oldest known mammoth species, Mammuthus subplanifrons, lived in southern and eastern Africa. This is where the genus began, and from there mammoths later spread to other continents."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammoth species survived until around 4,000 years ago on Wrangel Island?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The woolly mammoth",
+            "feedback": "Correct. Woolly mammoths survived on Wrangel Island in the Arctic Ocean until about 4,000 years ago."
+          },
+          {
+            "label": "The steppe mammoth",
+            "feedback": "Incorrect. The steppe mammoth, Mammuthus trogontherii, lived much earlier and was not the one that survived on Wrangel Island."
+          },
+          {
+            "label": "The Columbian mammoth",
+            "feedback": "Incorrect. The Columbian mammoth lived in North America and did not survive on Wrangel Island."
+          },
+          {
+            "label": "The dwarf mammoth of Crete",
+            "feedback": "Incorrect. That species lived long before and on a different island, not Wrangel Island."
+          }
+        ],
+        "ok_title": "Last mammoth holdout",
+        "ok_line": "Woolly mammoths survived on Wrangel Island until recently.",
+        "ko_title": "Not the survivor",
+        "ko_line": "Woolly mammoths, not steppe or Columbian, were the last on Wrangel Island.",
+        "exp_title": null,
+        "exp_text": "The woolly mammoth is the species that survived until about 4,000 years ago on Wrangel Island in the Arctic Ocean. This was the last known population of mammoths, existing even during the time of early civilizations in Egypt and Mesopotamia."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the meaning behind the word 'mammoth', based on a Mansi word?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Great beast",
+            "feedback": "Incorrect. The word does not mean 'great beast' in the Mansi language; it refers to an earth horn."
+          },
+          {
+            "label": "Ice giant",
+            "feedback": "Incorrect. That is not the meaning from the Mansi language."
+          },
+          {
+            "label": "Earth horn",
+            "feedback": "Correct. The word likely comes from a Mansi word meaning 'earth horn', referring to mammoth tusks."
+          },
+          {
+            "label": "Frozen elephant",
+            "feedback": "Incorrect. The origin is not 'frozen elephant' but relates to tusks as horns found in the earth."
+          }
+        ],
+        "ok_title": "Mammoth's name origin",
+        "ok_line": "Mammoth may mean 'earth horn'.",
+        "ko_title": "Not that meaning",
+        "ko_line": "The word comes from 'earth horn', not 'great beast' or 'ice giant'.",
+        "exp_title": null,
+        "exp_text": "The word 'mammoth' likely comes from a Mansi word meaning 'earth horn'. This referred to the tusks of mammoths, which were sometimes found sticking out of the ground, like horns from the earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How did mammoth teeth change as new species evolved?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They gained more enamel ridges",
+            "feedback": "Correct. Later mammoth species had more enamel ridges on their molars compared to primitive species."
+          },
+          {
+            "label": "They became smaller and rounder",
+            "feedback": "Incorrect. Teeth became longer, not smaller, and the number of ridges increased."
+          },
+          {
+            "label": "They lost their roots",
+            "feedback": "Incorrect. The teeth evolved more ridges and longer crowns, not loss of roots."
+          },
+          {
+            "label": "They turned into tusks",
+            "feedback": "Incorrect. Teeth are molars used for chewing, while tusks are separate structures."
+          }
+        ],
+        "ok_title": "Mammoth tooth evolution",
+        "ok_line": "Mammoth molars gained more ridges over time.",
+        "ko_title": "Wrong tooth change",
+        "ko_line": "Mammoth teeth did not shrink or turn into tusks; they added ridges.",
+        "exp_title": null,
+        "exp_text": "Over evolutionary time, mammoth species developed more enamel ridges on their molars. Primitive species had few ridges, while later species had many more, along with longer crowns, which helped them chew their food."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why did some mammoth species become small in size?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they ate less food",
+            "feedback": "Incorrect. The reason is not about food availability, but about living on islands."
+          },
+          {
+            "label": "Because they were born that way",
+            "feedback": "Incorrect. Their small size was a result of insular dwarfism, not just birth variation."
+          },
+          {
+            "label": "Because they lived in cold climates",
+            "feedback": "Incorrect. Cold climates are linked to woolly mammoths with fur, not to dwarfism."
+          },
+          {
+            "label": "Because they lived on islands",
+            "feedback": "Correct. Dwarf mammoth species evolved on islands due to insular dwarfism."
+          }
+        ],
+        "ok_title": "Why dwarf mammoths",
+        "ok_line": "Island living made some mammoths small.",
+        "ko_title": "Not the cause",
+        "ko_line": "Island life, not diet or climate, led to dwarf mammoths.",
+        "exp_title": null,
+        "exp_text": "Several dwarf mammoth species evolved on islands, such as Sardinia, the Channel Islands of California, and Crete. This is called insular dwarfism, where animals on islands tend to shrink in size over generations."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What feature distinguished mammoths from living elephants?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They had no tusks at all",
+            "feedback": "Mammoths had tusks, often very large and spirally twisted, unlike living elephants which have simpler, less curved tusks."
+          },
+          {
+            "label": "Their tusks were usually spirally twisted",
+            "feedback": "Correct. Mammoth tusks were typically large and spirally twisted, a key difference from modern elephants."
+          },
+          {
+            "label": "They had long trunks that dragged on the ground",
+            "feedback": "Mammoth trunks were similar to those of living elephants, not dragging. The distinguishing feature is in the tusks."
+          },
+          {
+            "label": "They had four legs instead of two",
+            "feedback": "All elephants, including mammoths, have four legs. This is not a distinguishing feature."
+          }
+        ],
+        "ok_title": "Spirally twisted tusks",
+        "ok_line": "Mammoths are set apart by their spiral tusks.",
+        "ko_title": "Not missing tusks or longer trunks",
+        "ko_line": "It's the shape of the tusks that is special.",
+        "exp_title": "Mammoth tusk trait",
+        "exp_text": "Mammoths are distinguished from living elephants by their typically large, spirally twisted tusks. Some later species also adapted to cold environments with thick fur, but the twisted tusks are the main difference."
+      }
+    ]
+  }
+]

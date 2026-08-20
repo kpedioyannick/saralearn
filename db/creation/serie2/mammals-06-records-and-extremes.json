@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 241,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal is considered the largest of all, both on land and in the sea?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The African elephant",
+            "feedback": "The African elephant is the largest land mammal, but it is not the largest overall. The blue whale dwarfs it."
+          },
+          {
+            "label": "The blue whale",
+            "feedback": "Correct. The blue whale is the largest animal ever to have lived, far bigger than any elephant or dinosaur."
+          },
+          {
+            "label": "The sperm whale",
+            "feedback": "The sperm whale is the largest toothed whale, but it is much smaller than the blue whale, which has no teeth."
+          },
+          {
+            "label": "The polar bear",
+            "feedback": "The polar bear is the largest land carnivore, but it is not the largest mammal overall. Size comparisons across land and sea always put the blue whale first."
+          }
+        ],
+        "ok_title": "Blue whale is largest",
+        "ok_line": "The blue whale outweighs every other mammal, land or sea.",
+        "ko_title": "Largest mammal misidentified",
+        "ko_line": "Remember that the blue whale, not an elephant, holds the top spot.",
+        "exp_title": "Blue whale size record",
+        "exp_text": "The blue whale is the largest animal on Earth, reaching lengths over 30 meters and weights exceeding 150 tonnes. Its sheer size dwarfs even the biggest land mammal, the African elephant."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal is the fastest over short distances on land?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The pronghorn",
+            "feedback": "The pronghorn is extremely fast and can sustain high speeds for long distances, but the cheetah beats it in a short sprint."
+          },
+          {
+            "label": "The lion",
+            "feedback": "Lions are fast, but they only reach about 80 km/h in short bursts. The cheetah is notably quicker."
+          },
+          {
+            "label": "The cheetah",
+            "feedback": "Correct. The cheetah is the fastest land mammal, capable of reaching speeds over 100 km/h in short sprints."
+          },
+          {
+            "label": "The greyhound",
+            "feedback": "Greyhounds are fast dogs, but they do not match the cheetah's top speed. Cheetahs hold the land speed record."
+          }
+        ],
+        "ok_title": "Cheetah is fastest",
+        "ok_line": "No land mammal outruns a cheetah in a short sprint.",
+        "ko_title": "Speed champion mistaken",
+        "ko_line": "The cheetah, not the lion or dog, is the fastest land animal.",
+        "exp_title": "Cheetah sprint speed",
+        "exp_text": "The cheetah can accelerate from 0 to 100 km/h in a few seconds and reach a top speed of about 110 km/h, but only for short bursts of a few hundred meters. No other land mammal can match that."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal has the longest neck relative to its body size?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The camel",
+            "feedback": "Camels have long necks, but their necks are not exceptionally long relative to their body. They are shorter than a giraffe's neck in both absolute and relative terms."
+          },
+          {
+            "label": "The horse",
+            "feedback": "Horses have moderately long necks, but they are not the longest. The giraffe's neck is far longer proportionally."
+          },
+          {
+            "label": "The llama",
+            "feedback": "Llamas have long necks, but they are much shorter than a giraffe's when compared to body size. The record belongs to the giraffe."
+          },
+          {
+            "label": "The giraffe",
+            "feedback": "Correct. The giraffe's neck can be up to 2 meters long, and it has the same number of neck vertebrae as a human, but each one is greatly elongated."
+          }
+        ],
+        "ok_title": "Giraffe has longest neck",
+        "ok_line": "The giraffe's neck is the longest of any mammal, relative to its body.",
+        "ko_title": "Neck length champion",
+        "ko_line": "Remember the giraffe, not the camel or llama, for neck length.",
+        "exp_title": "Giraffe neck anatomy",
+        "exp_text": "The giraffe's neck can reach about 2 meters in length, making it the longest neck among mammals when compared to body size. It has seven neck vertebrae, just like humans, but each one is extremely elongated to support that reach."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal gives birth to the largest baby relative to its own body size?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The blue whale",
+            "feedback": "Correct. A newborn blue whale can be over 7 meters long and weigh about 2.5 tonnes, which is enormous compared to the mother's body."
+          },
+          {
+            "label": "The African elephant",
+            "feedback": "Elephant calves are large, but they are not as large relative to the mother's size as blue whale calves are. A blue whale calf is proportionally bigger."
+          },
+          {
+            "label": "The giraffe",
+            "feedback": "Giraffe calves are tall, but they are not as large relative to the mother as blue whale calves. The blue whale holds this record."
+          },
+          {
+            "label": "The kangaroo",
+            "feedback": "Kangaroo joeys are tiny at birth, so they are not the largest relative to the mother. They are actually among the smallest relative to adult size."
+          }
+        ],
+        "ok_title": "Blue whale calf largest",
+        "ok_line": "A blue whale calf is the biggest relative to its mother's size.",
+        "ko_title": "Largest newborn relative",
+        "ko_line": "The blue whale, not the elephant, produces the largest baby compared to its own body.",
+        "exp_title": "Blue whale calf size",
+        "exp_text": "A newborn blue whale is around 7 meters long and weighs about 2.5 tonnes, which is a significant fraction of its mother's mass. No other mammal gives birth to a baby so large relative to the adult's own size."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal is the smallest of all, weighing only a few grams?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The pygmy mouse",
+            "feedback": "Pygmy mice are small, but they are larger than the Etruscan shrew. The smallest mammal belongs to the shrew family."
+          },
+          {
+            "label": "The bumblebee bat",
+            "feedback": "The bumblebee bat is a tiny bat, but it is not the smallest mammal. The Etruscan shrew is even lighter."
+          },
+          {
+            "label": "The Etruscan shrew",
+            "feedback": "Correct. The Etruscan shrew weighs only about 1.8 grams on average, making it the smallest mammal by mass."
+          },
+          {
+            "label": "The harvest mouse",
+            "feedback": "Harvest mice are small rodents, but they weigh several grams, much more than the Etruscan shrew. The shrew is the true smallest."
+          }
+        ],
+        "ok_title": "Etruscan shrew is smallest",
+        "ok_line": "The Etruscan shrew weighs only about 1.8 grams.",
+        "ko_title": "Smallest mammal wrong",
+        "ko_line": "The Etruscan shrew, not a bat or mouse, is the lightest mammal.",
+        "exp_title": "Etruscan shrew size",
+        "exp_text": "The Etruscan shrew weighs just 1.8 grams on average, with some individuals under 1.5 grams. Its body is only about 4 centimeters long, making it the smallest mammal by mass."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal has the longest migration of any land mammal?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The wildebeest",
+            "feedback": "Wildebeest migrate long distances in Africa, but they do not travel as far as caribou. The caribou holds the land migration record."
+          },
+          {
+            "label": "The caribou",
+            "feedback": "Correct. Caribou herds in the Arctic travel up to 5,000 kilometers each year, the longest migration of any land mammal."
+          },
+          {
+            "label": "The zebra",
+            "feedback": "Zebras migrate, but their journeys are shorter than the caribou's. The caribou's annual trek is the longest on land."
+          },
+          {
+            "label": "The elephant",
+            "feedback": "Elephants move seasonally, but they do not cover as much distance as caribou. Their ranges are much smaller."
+          }
+        ],
+        "ok_title": "Caribou migrate farthest",
+        "ok_line": "Caribou travel up to 5,000 km each year on land.",
+        "ko_title": "Land migration record",
+        "ko_line": "The caribou, not the wildebeest or zebra, has the longest land migration.",
+        "exp_title": "Caribou migration",
+        "exp_text": "Caribou in North America and Greenland undertake annual migrations of up to 5,000 kilometers, moving from winter feeding grounds to summer calving areas. This is the longest known migration of any land mammal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal has the longest tongue relative to its body size?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The anteater",
+            "feedback": "Anteaters have long tongues, but their tongues are not the longest relative to body size. The record belongs to a bat."
+          },
+          {
+            "label": "The giraffe",
+            "feedback": "Giraffes have long tongues, but they are not the longest relative to body size. The tube-lipped nectar bat has a longer tongue proportionally."
+          },
+          {
+            "label": "The okapi",
+            "feedback": "Okapis have long tongues, but they do not beat the record. The tube-lipped nectar bat's tongue is far longer relative to its body."
+          },
+          {
+            "label": "The tube-lipped nectar bat",
+            "feedback": "Correct. This bat's tongue is up to 1.5 times its body length, making it the longest tongue relative to body size among mammals."
+          }
+        ],
+        "ok_title": "Bat has longest tongue",
+        "ok_line": "The tube-lipped nectar bat's tongue is 1.5 times its body length.",
+        "ko_title": "Longest tongue champion",
+        "ko_line": "The tube-lipped nectar bat, not the anteater or giraffe, has the longest tongue relative to size.",
+        "exp_title": "Tube-lipped bat tongue",
+        "exp_text": "The tube-lipped nectar bat has a tongue that can extend up to 1.5 times its body length, letting it reach nectar deep inside flowers. No other mammal has a tongue so long relative to its body."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal has the highest number of teeth, with more than 100 in its mouth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The long-snouted spinner dolphin",
+            "feedback": "Correct. This dolphin can have over 100 teeth, sometimes more than 200, more than any other mammal."
+          },
+          {
+            "label": "The great white shark",
+            "feedback": "Sharks are not mammals; they are fish. The mammal with the most teeth is the spinner dolphin."
+          },
+          {
+            "label": "The African elephant",
+            "feedback": "Elephants have only a few teeth at a time, just four molars. They are not known for high tooth counts."
+          },
+          {
+            "label": "The armadillo",
+            "feedback": "Armadillos have many teeth, but they do not exceed 100. The spinner dolphin holds the highest count."
+          }
+        ],
+        "ok_title": "Dolphin has most teeth",
+        "ok_line": "The spinner dolphin can have over 200 teeth.",
+        "ko_title": "Most teeth in mammals",
+        "ko_line": "The long-snouted spinner dolphin, not a shark or elephant, has the most teeth.",
+        "exp_title": "Spinner dolphin teeth",
+        "exp_text": "The long-snouted spinner dolphin has between 100 and 200 teeth, sometimes more, lining both jaws. This is the highest tooth count among mammals, though teeth are small and peg-like."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal has the thickest fur of any animal, with up to 1 million hairs per square inch?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The polar bear",
+            "feedback": "Polar bears have dense fur, but they do not have the highest hair density. The sea otter beats them by far."
+          },
+          {
+            "label": "The mink",
+            "feedback": "Minks have thick fur, but not as dense as the sea otter's. The sea otter has up to a million hairs per square inch."
+          },
+          {
+            "label": "The sea otter",
+            "feedback": "Correct. The sea otter's fur is the densest of any mammal, with up to 1 million hairs per square inch."
+          },
+          {
+            "label": "The chinchilla",
+            "feedback": "Chinchillas have very dense fur, but the sea otter's fur is even thicker. The sea otter holds the record."
+          }
+        ],
+        "ok_title": "Sea otter densest fur",
+        "ok_line": "Sea otters have up to 1 million hairs per square inch.",
+        "ko_title": "Thickest fur record",
+        "ko_line": "The sea otter, not the polar bear or chinchilla, has the densest fur.",
+        "exp_title": "Sea otter fur density",
+        "exp_text": "The sea otter has the densest fur of any mammal, with up to 1 million hairs per square inch. This dense coat traps a layer of air for insulation, since the otter lacks blubber."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mammal has the strongest bite force relative to its body size?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The lion",
+            "feedback": "Lions have strong bites, but relative to body size, the Tasmanian devil is much stronger. The devil's bite is among the strongest for its mass."
+          },
+          {
+            "label": "The Tasmanian devil",
+            "feedback": "Correct. The Tasmanian devil has a bite force of about 553 newtons, which is exceptionally strong for its small body size."
+          },
+          {
+            "label": "The hyena",
+            "feedback": "Hyenas have powerful bites, but they are large animals. Relative to body size, the Tasmanian devil exceeds them."
+          },
+          {
+            "label": "The wolf",
+            "feedback": "Wolves have strong bites, but relative to body size, the Tasmanian devil is stronger. The devil's bite is proportionally the most powerful."
+          }
+        ],
+        "ok_title": "Devil has strongest bite",
+        "ok_line": "The Tasmanian devil's bite is strongest relative to its size.",
+        "ko_title": "Bite force record",
+        "ko_line": "The Tasmanian devil, not the lion or hyena, has the strongest bite for its size.",
+        "exp_title": "Tasmanian devil bite",
+        "exp_text": "The Tasmanian devil's bite force has been measured at about 553 newtons, which is remarkably high for an animal weighing around 8 kg. This powerful bite lets it crush bones, making it the strongest bite relative to body size of any mammal."
+      }
+    ]
+  }
+]

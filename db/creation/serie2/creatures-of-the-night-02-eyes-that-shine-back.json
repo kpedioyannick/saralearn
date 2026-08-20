@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 221,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What part of the eye captures light and turns it into signals for the brain?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The pupil",
+            "feedback": "The pupil is just the opening that lets light in; it does not detect light itself."
+          },
+          {
+            "label": "The lens",
+            "feedback": "The lens focuses light onto the back of the eye, but it does not convert light into signals."
+          },
+          {
+            "label": "The retina",
+            "feedback": "The retina is the light-sensitive layer at the back of the eye; its cells turn light into nerve signals."
+          },
+          {
+            "label": "The cornea",
+            "feedback": "The cornea is the clear front cover that bends light, but it is not the part that senses it."
+          }
+        ],
+        "ok_title": "Retina captures light",
+        "ok_line": "The retina is where light is turned into signals.",
+        "ko_title": "Retina is the sensor",
+        "ko_line": "The other parts help light enter, but the retina senses it.",
+        "exp_title": "The retina's job",
+        "exp_text": "The retina lines the inside of the eye and is packed with light-sensitive cells. When light hits these cells, they send signals along the optic nerve to the brain, which then builds a picture. For night animals, the retina is often rich in rod cells that work well in dim light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the eye is the coloured ring that controls the size of the pupil?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The sclera",
+            "feedback": "The sclera is the tough white outer coat of the eye; it has no colour and does not control the pupil."
+          },
+          {
+            "label": "The iris",
+            "feedback": "The iris is the coloured muscle that opens and closes the pupil to adjust how much light enters."
+          },
+          {
+            "label": "The choroid",
+            "feedback": "The choroid is a layer of blood vessels that feeds the retina; it is not the coloured ring."
+          },
+          {
+            "label": "The optic nerve",
+            "feedback": "The optic nerve carries signals from the eye to the brain; it has nothing to do with the pupil's size."
+          }
+        ],
+        "ok_title": "Iris controls pupil",
+        "ok_line": "The iris is the coloured ring that adjusts the pupil.",
+        "ko_title": "Iris is the muscle",
+        "ko_line": "The iris is the visible coloured part that changes pupil size.",
+        "exp_title": "The iris's role",
+        "exp_text": "The iris sits between the cornea and the lens. It contains muscles that expand or shrink the pupil. In bright light the iris narrows the pupil; in darkness it widens it, which is why night animals often have large irises that can open widely."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the fovea?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The hole in the centre of the iris",
+            "feedback": "That hole is the pupil, not the fovea. The fovea sits in the retina."
+          },
+          {
+            "label": "The clear lens behind the iris",
+            "feedback": "That is the lens. The fovea is a tiny spot on the retina, not a separate structure."
+          },
+          {
+            "label": "The layer of blood vessels behind the retina",
+            "feedback": "That is the choroid. The fovea is part of the retina itself."
+          },
+          {
+            "label": "The tiny central area of the retina used for sharp daytime vision",
+            "feedback": "The fovea is a small depression in the middle of the retina packed with cone cells, giving crisp, colour-rich vision in good light. Night animals often have a small or absent fovea because they rely on rods instead."
+          }
+        ],
+        "ok_title": "Fovea sharp vision",
+        "ok_line": "The fovea is the retina's spot for sharp, bright-light vision.",
+        "ko_title": "Fovea is a retina spot",
+        "ko_line": "The fovea is not the pupil or lens but a small part of the retina.",
+        "exp_title": null,
+        "exp_text": "The fovea lies at the centre of the retina, directly behind the lens, and is packed with cone cells. When you look straight at something in daylight, you are using your fovea. Many nocturnal animals have very few cones there because their eyes are built for dim light, not sharp daytime detail."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the tapetum made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Tiny reflective crystals",
+            "feedback": "Yes — the tapetum is a layer of reflective crystals behind the retina. It bounces light back through the rods so they get a second chance to catch it."
+          },
+          {
+            "label": "A transparent gel",
+            "feedback": "A transparent gel sits in the eye's main chamber, but it does not reflect light. The tapetum is solid and shiny."
+          },
+          {
+            "label": "Soft bone tissue",
+            "feedback": "Bone forms the eye socket, not the tapetum. The tapetum is a reflective coat, not a bony layer."
+          },
+          {
+            "label": "A dark pigment",
+            "feedback": "Dark pigment absorbs light, but the tapetum does the opposite — it reflects light back to make night vision brighter."
+          }
+        ],
+        "ok_title": "Tapetum crystals",
+        "ok_line": "The tapetum is a reflective layer of tiny crystals.",
+        "ko_title": "Tapetum is reflective",
+        "ko_line": "The tapetum reflects light, not absorbs or stores it.",
+        "exp_title": null,
+        "exp_text": "The tapetum sits just behind the retina. It is made of many tiny crystals, often of guanine or other substances, arranged like mirrors. When light passes through the retina without being caught, the tapetum bounces it back, giving the rod cells a second chance. This reflection is what causes eyeshine at night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which eye cells are most sensitive to dim light?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Cone cells",
+            "feedback": "Cone cells work best in bright light and detect colour; they are not the ones that help in darkness."
+          },
+          {
+            "label": "Rod cells",
+            "feedback": "Rod cells are highly sensitive and can respond to very low levels of light. That is why night animals have many rods."
+          },
+          {
+            "label": "Ganglion cells",
+            "feedback": "Ganglion cells carry signals to the brain, but they do not directly sense light well enough for dim vision."
+          },
+          {
+            "label": "Bipolar cells",
+            "feedback": "Bipolar cells pass signals between rods or cones and ganglion cells; they are not the primary light sensors."
+          }
+        ],
+        "ok_title": "Rods for dim light",
+        "ok_line": "Rod cells are the ones that work best in low light.",
+        "ko_title": "Rods are night cells",
+        "ko_line": "Cones, not rods, are the bright-light colour cells.",
+        "exp_title": null,
+        "exp_text": "Rod cells contain a pigment that responds to even a single photon of light, making them excellent for night vision. They do not detect colour, which is why night animals that rely on rods often see the world in shades of grey. Animals active in daylight, like us, have more cones."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the pupil of a cat's eye normally shaped like during the day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A full circle",
+            "feedback": "A full circle is what human pupils look like, but a cat's pupil is a vertical slit even when it is fully open."
+          },
+          {
+            "label": "A horizontal oval",
+            "feedback": "Horizontal oval pupils are seen in grazing animals like goats, not in cats."
+          },
+          {
+            "label": "A vertical slit",
+            "feedback": "Cats have vertical slit pupils. In bright daylight the slit narrows to a thin line, and in darkness it opens into a round shape, but its resting form is still a slit."
+          },
+          {
+            "label": "A diamond shape",
+            "feedback": "A diamond shape is not the normal pupil shape for any common mammal; cats use slits, not diamonds."
+          }
+        ],
+        "ok_title": "Cat's slit pupil",
+        "ok_line": "A cat's pupil is a vertical slit in daylight.",
+        "ko_title": "Pupil shape differs",
+        "ko_line": "Cats have slits, not circles or ovals.",
+        "exp_title": null,
+        "exp_text": "A cat's pupil is normally a narrow vertical slit. Bright light makes the slit shrink to a thin line, while darkness lets it expand into a large circle. This shape gives cats fine control over the amount of light entering the eye, helping them see both in bright sun and near-total darkness."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the function of the cone cells in the eye?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "To detect faint light in darkness",
+            "feedback": "That is the job of rod cells, not cones. Cones need bright light."
+          },
+          {
+            "label": "To control the size of the pupil",
+            "feedback": "The iris controls the pupil, not the cone cells. Cones are sensory cells in the retina."
+          },
+          {
+            "label": "To produce tears to keep the eye moist",
+            "feedback": "Tears come from tear glands, not from cones. Cones are light-detecting cells."
+          },
+          {
+            "label": "To see colour in bright light",
+            "feedback": "Cone cells are responsible for colour vision and work best in well-lit conditions. They give sharp, detailed images during the day."
+          }
+        ],
+        "ok_title": "Cones see colour",
+        "ok_line": "Cone cells detect colour in bright light.",
+        "ko_title": "Cones are colour cells",
+        "ko_line": "Cones are not for dim light or tears or pupil control.",
+        "exp_title": null,
+        "exp_text": "Cone cells sit in the retina and contain pigments that respond to different wavelengths of light, allowing the brain to perceive colour. They need more light than rods to work. Because night animals mostly rely on rods, they often have few cones and therefore poor colour vision."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which animal's eye is specially adapted to see ultraviolet light?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A reindeer",
+            "feedback": "Reindeer have a tapetum that changes with the seasons and their eyes can detect ultraviolet, which helps them see lichen and predators in snowy, dim Arctic light."
+          },
+          {
+            "label": "A mole",
+            "feedback": "Moles have tiny, mostly useless eyes because they live underground in darkness; they do not see ultraviolet."
+          },
+          {
+            "label": "A bat",
+            "feedback": "Most bats do not use ultraviolet vision; they rely heavily on echolocation, though some fruit bats may see UV, it is not a standard bat adaptation."
+          },
+          {
+            "label": "A deer in a forest",
+            "feedback": "Deer generally see poorly in colour and do not detect ultraviolet, unlike the Arctic reindeer which has this special ability."
+          }
+        ],
+        "ok_title": "Reindeer see UV",
+        "ok_line": "Reindeer eyes can detect ultraviolet light.",
+        "ko_title": "UV vision is rare",
+        "ko_line": "Moles and bats do not typically see ultraviolet.",
+        "exp_title": null,
+        "exp_text": "Reindeer live in the Arctic where winter light is weak and much of the world is white. Their retinas have cone cells sensitive to ultraviolet, letting them spot things like urine trails or predators against the snow. Most other mammals do not have this ability because their lenses block UV."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the blind spot in the eye refer to?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The area where the tapetum is missing",
+            "feedback": "The tapetum covers most of the back of the eye, but the blind spot is not about the tapetum; it is where the optic nerve exits."
+          },
+          {
+            "label": "The point where the optic nerve leaves the eye, with no light-sensitive cells",
+            "feedback": "At this spot, there are no rods or cones, so any light that lands there produces no signal. The brain fills in the gap, so we usually do not notice it."
+          },
+          {
+            "label": "The centre of the fovea",
+            "feedback": "The fovea is packed with cones, so it is the opposite of a blind spot — it is the sharpest point of vision."
+          },
+          {
+            "label": "The pupil when it is fully closed",
+            "feedback": "A closed pupil blocks light, but that is not called a blind spot; the term refers to a specific location on the retina."
+          }
+        ],
+        "ok_title": "Optic nerve exit",
+        "ok_line": "The blind spot is where the optic nerve leaves the eye.",
+        "ko_title": "Blind spot is anatomical",
+        "ko_line": "It is not the fovea, pupil, or tapetum.",
+        "exp_title": null,
+        "exp_text": "The blind spot is a small region on the retina where the optic nerve fibres gather to form the nerve that goes to the brain. Because there are no light receptors there, that part of the image is lost, but the brain usually 'fills in' the missing area from surrounding information, so we rarely perceive it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do the eyes of a night animal point mostly forward?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To see more colours at night",
+            "feedback": "Forward-facing eyes do not help with colour; colour comes from cone cells, not eye position."
+          },
+          {
+            "label": "To detect movement from behind",
+            "feedback": "Eyes on the sides are better for seeing behind. Forward eyes are for depth perception, not all-around awareness."
+          },
+          {
+            "label": "To have good depth perception for judging distances in the dark",
+            "feedback": "With both eyes looking the same way, the brain can compare the two slightly different images to work out how far away something is. This is useful for a predator judging a jump or a strike in near-darkness."
+          },
+          {
+            "label": "To reflect more light backward out of the eye",
+            "feedback": "Light reflects off the tapetum, not because of eye position. Forward eyes have nothing to do with reflection."
+          }
+        ],
+        "ok_title": "Forward eyes depth",
+        "ok_line": "Forward-facing eyes give binocular vision for judging distance.",
+        "ko_title": "Eye position matters",
+        "ko_line": "It is about depth, not colour or reflection.",
+        "exp_title": null,
+        "exp_text": "Animals that hunt at night, like owls and cats, have eyes at the front of the head. This creates an overlap in the visual fields of both eyes, which the brain uses to compute distance through stereopsis. Good depth perception lets them judge exactly where to pounce or strike even when the light is low."
+      }
+    ]
+  }
+]

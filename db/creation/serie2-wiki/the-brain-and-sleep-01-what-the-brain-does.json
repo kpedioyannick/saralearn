@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 251,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three major modes of consciousness mentioned in the study of sleep?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "REM sleep, non-REM sleep, and waking",
+            "feedback": "Correct. These three are described as the major modes of consciousness, neural activity, and physiological regulation."
+          },
+          {
+            "label": "Light sleep, deep sleep, and dreaming",
+            "feedback": "Those are informal labels for some sleep stages, but the three major modes named in the study are REM, non-REM, and waking."
+          },
+          {
+            "label": "N1, N2, and N3 sleep",
+            "feedback": "N1, N2, and N3 are stages within non-REM sleep, not the three major modes of consciousness overall."
+          },
+          {
+            "label": "Slow wave sleep, REM sleep, and wakefulness",
+            "feedback": "Slow wave sleep is the deepest part of non-REM sleep, so this list misses the full non-REM category and is not the three major modes."
+          }
+        ],
+        "ok_title": "Three main states",
+        "ok_line": "REM, non-REM, and waking are the three major modes.",
+        "ko_title": "Wrong mode list",
+        "ko_line": "Check which states are called the major modes.",
+        "exp_title": "REM, non-REM, waking",
+        "exp_text": "The brain and body cycle through three major modes: REM sleep, non-REM sleep, and waking. Each has its own pattern of consciousness and neural activity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the usual order of sleep stages in a 90-minute cycle?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "REM → N1 → N2 → N3 → N2",
+            "feedback": "That sequence starts with REM, but the usual cycle begins with N1 and goes through N3 before returning to N2 and then REM."
+          },
+          {
+            "label": "N1 → N2 → REM → N3 → N2",
+            "feedback": "REM does not come directly after N2 early in the cycle; the deepest stage N3 comes before the return to N2 and then REM."
+          },
+          {
+            "label": "N1 → N2 → N3 → N2 → REM",
+            "feedback": "Correct. This is the normal progression, moving deeper into NREM and then back up to REM."
+          },
+          {
+            "label": "N3 → N2 → N1 → REM → N2",
+            "feedback": "The cycle does not start with the deepest NREM stage; it begins with light N1 and descends to N3."
+          }
+        ],
+        "ok_title": "Cycle order correct",
+        "ok_line": "N1 → N2 → N3 → N2 → REM is the usual cycle.",
+        "ko_title": "Wrong stage order",
+        "ko_line": "Remember the cycle starts light, goes deep, then rises to REM.",
+        "exp_title": "Typical sleep cycle",
+        "exp_text": "Sleep proceeds in 90-minute cycles, and the normal order is N1, then N2, then the deep N3, back to N2, and finally REM. This cycle repeats through the night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which sleep stage does the body show rapid eye movement and muscle atonia?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "REM sleep",
+            "feedback": "Correct. REM sleep is characterized by rapid eye movement and muscle atonia, meaning muscles are essentially paralyzed."
+          },
+          {
+            "label": "N1 sleep",
+            "feedback": "N1 is the lightest NREM stage and does not have rapid eye movement or muscle atonia."
+          },
+          {
+            "label": "N2 sleep",
+            "feedback": "N2 is a deeper NREM stage without the characteristic rapid eye movements or muscle paralysis of REM."
+          },
+          {
+            "label": "N3 slow wave sleep",
+            "feedback": "N3 is deep NREM sleep, which lacks prominent eye movement and is not defined by muscle atonia."
+          }
+        ],
+        "ok_title": "REM features correct",
+        "ok_line": "Rapid eye movement and muscle atonia define REM sleep.",
+        "ko_title": "Wrong stage for these signs",
+        "ko_line": "These signs belong to REM, not to any NREM stage.",
+        "exp_title": "REM sleep markers",
+        "exp_text": "REM sleep is the stage where the eyes move rapidly and muscles become atonic, essentially paralyzed. This is why it is considered closer to wakefulness in some ways."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'circadian' refer to in relation to the body's clock?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A clock that only works at night",
+            "feedback": "The term relates to a daily cycle, not just nighttime; 'circa' means around and 'diem' means day."
+          },
+          {
+            "label": "A clock that is set by the environment only",
+            "feedback": "Circadian rhythms are endogenous, meaning they are built-in, even though they can be entrained or adjusted."
+          },
+          {
+            "label": "A biological mechanism with an oscillation of about 24 hours",
+            "feedback": "Correct. Circadian comes from Latin for 'around a day' and refers to endogenous, approximately 24-hour rhythms."
+          },
+          {
+            "label": "A clock that controls only sleep timing",
+            "feedback": "The circadian clock governs multiple biological processes, not just sleep, though sleep is one of them."
+          }
+        ],
+        "ok_title": "Circadian meaning right",
+        "ok_line": "Circadian refers to about a 24-hour biological cycle.",
+        "ko_title": "Wrong clock definition",
+        "ko_line": "Circadian is about the day-long rhythm, not a night-only or purely external clock.",
+        "exp_title": "Circadian clock basics",
+        "exp_text": "The circadian clock is a biological mechanism that produces endogenous, entrainable oscillations of about 24 hours. The name comes from Latin for 'around a day'."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the characteristic features of stage 2 NREM sleep?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sleep spindles and K complexes",
+            "feedback": "Correct. Stage 2 is characterized by sleep spindles, which are intermittent clusters of waves at sigma frequency, and K complexes."
+          },
+          {
+            "label": "High amplitude delta waves",
+            "feedback": "High amplitude delta waves are characteristic of stage 3 slow wave sleep, not stage 2."
+          },
+          {
+            "label": "Low amplitude mixed frequency waves",
+            "feedback": "Low amplitude mixed frequency waves are typical of REM sleep, not stage 2 NREM."
+          },
+          {
+            "label": "Sawtooth wave patterns",
+            "feedback": "Sawtooth wave patterns are often present in REM sleep, not in stage 2."
+          }
+        ],
+        "ok_title": "Stage 2 signs correct",
+        "ok_line": "Sleep spindles and K complexes mark stage 2.",
+        "ko_title": "Wrong stage features",
+        "ko_line": "These features belong to other stages, not stage 2.",
+        "exp_title": "Stage 2 sleep waves",
+        "exp_text": "Stage 2 NREM sleep is identified by sleep spindles—clusters of waves at sigma frequency (12–14 Hz)—and K complexes, which are sharp upward then slower downward deflections."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of brain waves is stage 3 NREM sleep known for, giving it the name slow wave sleep?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Beta waves",
+            "feedback": "Beta waves are associated with waking, not with stage 3 slow wave sleep."
+          },
+          {
+            "label": "Alpha waves",
+            "feedback": "Alpha waves are linked to drowsiness before sleep, not to the deep stage 3."
+          },
+          {
+            "label": "Theta waves",
+            "feedback": "Theta waves appear in stage 1 NREM, not in stage 3 slow wave sleep."
+          },
+          {
+            "label": "Delta waves",
+            "feedback": "Correct. Stage 3 has very high amplitude delta waves (0–4 Hz) and is known as slow wave sleep."
+          }
+        ],
+        "ok_title": "Delta waves for stage 3",
+        "ok_line": "High amplitude delta waves define slow wave sleep.",
+        "ko_title": "Wrong wave type",
+        "ko_line": "Delta is the wave of deep stage 3, not beta, alpha, or theta.",
+        "exp_title": "Slow wave sleep waves",
+        "exp_text": "Stage 3 NREM sleep features very high amplitude delta waves, which are slow (0–4 Hz). This is why it is called slow wave sleep."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which species is mentioned as having only slow wave sleep (non-REM) in one study?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Humans",
+            "feedback": "Humans have both slow wave and REM sleep, so they are not the species with only slow wave sleep."
+          },
+          {
+            "label": "Echidnas",
+            "feedback": "Correct. One study showed that echidnas possess only slow wave sleep, though this has been contested."
+          },
+          {
+            "label": "Cyanobacteria",
+            "feedback": "Cyanobacteria are mentioned in the context of circadian rhythms, not as animals with only slow wave sleep."
+          },
+          {
+            "label": "Fungi",
+            "feedback": "Fungi are not discussed in relation to sleep stages; they are only listed among organisms with circadian rhythms."
+          }
+        ],
+        "ok_title": "Echidna sleep correct",
+        "ok_line": "Echidnas were found to have only slow wave sleep.",
+        "ko_title": "Wrong species",
+        "ko_line": "This study was about echidnas, not humans or other organisms.",
+        "exp_title": "Echidna slow wave sleep",
+        "exp_text": "A study recorded that echidnas possess only slow wave sleep, meaning non-REM. This finding has been disputed by later studies suggesting echidnas combine both modes into one state."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to body temperature, heart rate, breathing rate, and energy use as a person falls asleep?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They all increase",
+            "feedback": "This is the opposite of what happens. Body activity slows down during sleep, so these measures decrease, not increase."
+          },
+          {
+            "label": "They stay the same",
+            "feedback": "They do not stay the same. As a person falls asleep, these physiological measures slow down."
+          },
+          {
+            "label": "They all decrease",
+            "feedback": "Correct. As humans fall asleep, body temperature, heart rate, breathing rate, and energy use all decrease."
+          },
+          {
+            "label": "Only heart rate decreases, others increase",
+            "feedback": "This is incorrect. All four measures decrease together as the body slows down for sleep."
+          }
+        ],
+        "ok_title": "Body slows down",
+        "ok_line": "All four measures drop during sleep onset.",
+        "ko_title": "Sleep onset changes",
+        "ko_line": "Remember the body slows down.",
+        "exp_title": "Sleep onset physiology",
+        "exp_text": "When falling asleep, the body's activity slows down. Temperature, heart rate, breathing rate, and energy use all decrease."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which molecule does the brain restore its supply of during sleep, especially in areas with reduced activity?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Glucose",
+            "feedback": "Glucose is a sugar used for energy, but the brain specifically restores its supply of ATP during sleep."
+          },
+          {
+            "label": "ATP",
+            "feedback": "Correct. The brain restores its supply of adenosine triphosphate (ATP), the molecule used for short-term storage and transport of energy."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is needed for energy production, but it is not the molecule the brain restores during sleep."
+          },
+          {
+            "label": "Acetylcholine",
+            "feedback": "Acetylcholine is a neurotransmitter that becomes less available during sleep, but it is not the energy-storage molecule being restored."
+          }
+        ],
+        "ok_title": "ATP restored in sleep",
+        "ok_line": "The brain rebuilds its energy supply.",
+        "ko_title": "Energy molecule mix-up",
+        "ko_line": "ATP is the energy-storage molecule.",
+        "exp_title": "Energy restoration in sleep",
+        "exp_text": "During sleep, especially in areas of reduced brain activity, the brain restores its supply of ATP, the molecule that stores and transports energy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What characterizes REM sleep compared to NREM sleep?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Lack of eye movement",
+            "feedback": "This is the opposite. REM sleep is characterized by rapid eye movement, while NREM lacks prominent eye movement."
+          },
+          {
+            "label": "Muscle paralysis",
+            "feedback": "Muscle paralysis is a feature of NREM sleep, not REM. REM is characterized by muscle atonia, which is a different condition."
+          },
+          {
+            "label": "Deepest sleep stage",
+            "feedback": "The deepest part of NREM, called slow wave sleep, is not REM. REM is considered closer to wakefulness."
+          },
+          {
+            "label": "Rapid eye movement and muscle atonia",
+            "feedback": "Correct. REM sleep is characterized by rapid eye movement and muscle atonia."
+          }
+        ],
+        "ok_title": "REM features named",
+        "ok_line": "REM has rapid eye movement and atonia.",
+        "ko_title": "REM vs NREM confused",
+        "ko_line": "Know which features belong to REM.",
+        "exp_title": "REM sleep characteristics",
+        "exp_text": "REM sleep is considered closer to wakefulness and is characterized by rapid eye movement and muscle atonia."
+      }
+    ]
+  }
+]

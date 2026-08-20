@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the first step in the formation of a hailstone?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A raindrop freezes instantly in mid-air.",
+            "feedback": "Raindrops can freeze, but hail forms from ice particles already present in the cloud, not from liquid raindrops freezing suddenly."
+          },
+          {
+            "label": "A snowflake melts and refreezes many times.",
+            "feedback": "Melting and refreezing happens later during the growth of large hail, but the very start is simpler: a tiny ice crystal already exists."
+          },
+          {
+            "label": "A small ice crystal begins to grow as supercooled water freezes onto it.",
+            "feedback": "Correct. A tiny ice particle in a storm cloud collects freezing water droplets and grows from there."
+          },
+          {
+            "label": "Dust particles clump together and become ice.",
+            "feedback": "Dust can help ice form, but the hailstone begins as an ice crystal, not as a clump of dust."
+          }
+        ],
+        "ok_title": "Hail's origin",
+        "ok_line": "Hail starts as a tiny ice crystal in a storm cloud.",
+        "ko_title": "How hail begins",
+        "ko_line": "Think of the first piece of ice, not melting or dust.",
+        "exp_title": "Hail formation start",
+        "exp_text": "The first step is a small ice crystal in a thundercloud. Supercooled water droplets freeze onto it, making the hailstone grow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does frost form directly on a cold surface overnight?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Water vapour in the air changes straight into ice on the surface.",
+            "feedback": "Exactly. Frost is deposition: water vapour skips the liquid stage and becomes ice directly on a cold object."
+          },
+          {
+            "label": "Dew freezes into tiny ice crystals.",
+            "feedback": "Dew is liquid water that would need to freeze first; the usual frost forms from vapour, not from dew."
+          },
+          {
+            "label": "Small raindrops land and freeze on the surface.",
+            "feedback": "That would be freezing rain, not frost. Frost needs no falling liquid water."
+          },
+          {
+            "label": "Snow melts and then refreezes into a thin layer.",
+            "feedback": "Snow melting and refreezing makes ice, not the delicate crystals of frost."
+          }
+        ],
+        "ok_title": "Frost formation",
+        "ok_line": "Frost is water vapour turning straight to ice on a cold surface.",
+        "ko_title": "Frost, not dew",
+        "ko_line": "Vapour becomes ice without making liquid first.",
+        "exp_title": "Deposition to frost",
+        "exp_text": "When a surface cools below freezing, water vapour in contact with it changes directly into ice crystals. That is frost, formed without any liquid water in between."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is black ice on a road so much harder to spot than ordinary snow or frost?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is black in colour and blends with the tar.",
+            "feedback": "Black ice is not actually black; it is transparent ice, and it is hard to see because it is clear, not because of its colour."
+          },
+          {
+            "label": "It forms only at night when there is no light.",
+            "feedback": "Black ice can form in daylight too; the difficulty in seeing it comes from its transparency, not from the time of day."
+          },
+          {
+            "label": "It lies under a layer of snow that hides it.",
+            "feedback": "Black ice is usually bare, shiny ice on the road surface, not buried under snow."
+          },
+          {
+            "label": "It is a thin, clear layer that lets the dark road show through.",
+            "feedback": "Correct. Because the ice is transparent, you see the dark asphalt beneath it, so the ice itself is nearly invisible."
+          }
+        ],
+        "ok_title": "Why black ice hides",
+        "ok_line": "Black ice is clear, so the dark road shows through and hides it.",
+        "ko_title": "Spotting black ice",
+        "ko_line": "Transparent ice, not black paint, makes it invisible.",
+        "exp_title": "Clear ice on road",
+        "exp_text": "Black ice is a thin sheet of clear ice. Since it is transparent, the dark road surface shows through, making the ice almost impossible to see until you step or drive on it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What usually has to happen just before a patch of black ice appears on a road?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A heavy snowfall covers the road completely.",
+            "feedback": "Snow cover gives you white, visible snow, not the hidden clear layer of black ice."
+          },
+          {
+            "label": "The road surface cools below freezing while still wet or damp.",
+            "feedback": "Correct. Black ice forms when moisture on the road freezes as the surface temperature drops below 0°C."
+          },
+          {
+            "label": "Rain falls and then evaporates quickly.",
+            "feedback": "Evaporation leaves the road dry, which would not create ice."
+          },
+          {
+            "label": "Fog condenses into large puddles on the asphalt.",
+            "feedback": "Fog can deposit moisture, but black ice comes from that moisture freezing, and puddles are not black ice."
+          }
+        ],
+        "ok_title": "Black ice trigger",
+        "ok_line": "A wet road freezes as its surface cools below zero.",
+        "ko_title": "Before black ice",
+        "ko_line": "Moisture plus freezing temperature makes the ice.",
+        "exp_title": "Road freezing",
+        "exp_text": "Black ice appears when a road surface that is wet or damp drops to freezing temperature. The thin film of water freezes into a clear, barely visible sheet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do bridges tend to ice over before the roads leading up to them, even at the exact same air temperature?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Bridges are painted a darker colour that absorbs heat.",
+            "feedback": "Colour affects heat absorption, but the main reason is that bridges lose heat through both their top and bottom surfaces."
+          },
+          {
+            "label": "Bridges are made of a colder material than regular roads.",
+            "feedback": "The material is similar; what matters is that bridges have cold air under them as well as above."
+          },
+          {
+            "label": "Cold air can reach the underside of a bridge, so it cools from both sides.",
+            "feedback": "Correct. A bridge is exposed to cold air underneath, so it loses heat faster and freezes sooner than a road sitting on warm ground."
+          },
+          {
+            "label": "Cars drive over bridges more often, cooling them further.",
+            "feedback": "Traffic does not cool a bridge; it adds heat from tyres and engines."
+          }
+        ],
+        "ok_title": "Bridges freeze first",
+        "ok_line": "Air under the bridge cools it from both sides.",
+        "ko_title": "Why bridges ice first",
+        "ko_line": "Both top and bottom lose heat, unlike a road on the ground.",
+        "exp_title": "Bridge cooling",
+        "exp_text": "A bridge is exposed to cold air on its top and its underside. Because it loses heat from both surfaces, it cools to freezing faster than a road that sits on the relatively warmer ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does rime ice build up as feathery growths on branches and wires during freezing fog?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Water vapour freezes directly onto the branch, layer by layer.",
+            "feedback": "That would be frost; rime ice comes from tiny liquid droplets, not directly from vapour."
+          },
+          {
+            "label": "Raindrops freeze as they hit the branch.",
+            "feedback": "Freezing rain makes a hard, clear coating, not the feathery growth of rime."
+          },
+          {
+            "label": "Snowflakes stick to the branch and pile up.",
+            "feedback": "Snow piling up forms snow on branches, but rime is built from fog droplets, not snowflakes."
+          },
+          {
+            "label": "Supercooled fog droplets freeze instantly when they touch the cold branch.",
+            "feedback": "Correct. The tiny droplets of fog are below freezing and freeze on contact, building up feathery ice."
+          }
+        ],
+        "ok_title": "Rime ice growth",
+        "ok_line": "Frozen fog droplets pile up on cold surfaces.",
+        "ko_title": "Rime, not frost",
+        "ko_line": "Liquid droplets freeze, not vapour directly.",
+        "exp_title": "Freezing fog on branches",
+        "exp_text": "In freezing fog, the air is full of tiny water droplets that are colder than 0°C. When they touch a frozen branch or wire, they freeze instantly and accumulate into the white, feathery growth called rime ice."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can large hail fall from a storm even on a hot summer afternoon, when the ground temperature is far above freezing?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Hail forms high in the cold part of the cloud and falls fast enough to stay frozen.",
+            "feedback": "Correct. The hailstone grows in freezing air aloft and falls quickly through the warm lower air, so it reaches the ground still icy."
+          },
+          {
+            "label": "The hailstone is made of a special ice that does not melt in heat.",
+            "feedback": "Hail is ordinary ice; it melts like any ice, it just falls too fast to melt completely."
+          },
+          {
+            "label": "The storm produces cold air that surrounds the hail as it falls.",
+            "feedback": "Hail may cool the air around it slightly, but it cannot carry a cold shield; it simply falls too quickly."
+          },
+          {
+            "label": "The hailstone is so large that its centre stays frozen even if the outside melts.",
+            "feedback": "Melting happens from the outside in, and large hail can survive because of its speed, not because its centre is protected."
+          }
+        ],
+        "ok_title": "Hail in warm weather",
+        "ok_line": "Hail falls fast from the cold cloud top.",
+        "ko_title": "Why hail survives heat",
+        "ko_line": "Speed beats melting, not special ice.",
+        "exp_title": "Hail falling through warm air",
+        "exp_text": "Hailstones form high in a thunderstorm where the air is below freezing. When they fall, they pass through warm air quickly, and their size and speed mean they melt only on the surface, reaching the ground as ice."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do hailstones often show layers, like the rings inside an onion, when cut open?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They are made by layers of different minerals deposited over time.",
+            "feedback": "Hail is pure ice; the layers come from freezing, not from minerals."
+          },
+          {
+            "label": "The hailstone is carried up and down through wet and dry regions of the cloud, adding ice each trip.",
+            "feedback": "Correct. Each time the hailstone passes through a wet region, a new layer of ice freezes on, creating rings."
+          },
+          {
+            "label": "They grow inside cracks in the cloud where ice forms in stripes.",
+            "feedback": "There are no cracks in a cloud; the layering is from repeated journeys within the storm."
+          },
+          {
+            "label": "The hailstone melts a little and refreezes, leaving a thin line each time.",
+            "feedback": "Melting and refreezing can happen, but the main layering comes from growing in different parts of the cloud."
+          }
+        ],
+        "ok_title": "Hail layers",
+        "ok_line": "Hail grows as it cycles through the storm.",
+        "ko_title": "Why hail has rings",
+        "ko_line": "Up and down trips add ice each time.",
+        "exp_title": "Hailstone structure",
+        "exp_text": "Inside a thunderstorm, strong updrafts carry a hailstone upward, and it falls back down. Each time it passes through a region of supercooled water, a new frozen layer builds up, creating the onion-like rings seen when cut open."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do only the most powerful storms produce large hailstones, while weaker storms produce only small ones or none at all?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Weak storms do not have enough water vapour to make ice.",
+            "feedback": "Weak storms may have less water, but the key limit is the strength of the updraft, not just water supply."
+          },
+          {
+            "label": "Large hail needs very cold air that only powerful storms can reach.",
+            "feedback": "All thunderstorms have cold tops; it is the strength of the rising air that keeps hail aloft to grow big."
+          },
+          {
+            "label": "Strong updrafts hold the hailstone up longer so it can grow before falling.",
+            "feedback": "Correct. Only a powerful updraft can keep a growing hailstone suspended for a long time, letting it add many layers."
+          },
+          {
+            "label": "Weak storms cannot form ice crystals at all.",
+            "feedback": "Weak storms can form small ice crystals; they just cannot grow them into big hail."
+          }
+        ],
+        "ok_title": "Powerful storms, big hail",
+        "ok_line": "Strong updrafts keep hail up so it grows.",
+        "ko_title": "What makes large hail",
+        "ko_line": "Updraft strength, not just cold, decides size.",
+        "exp_title": "Updraft and hail size",
+        "exp_text": "A hailstone grows while it is held up in the cloud. In a weak storm, the rising air is gentle, so small hailstones fall out quickly. In a powerful storm, the updraft is strong enough to keep a large hailstone aloft for a long time, allowing it to grow bigger before gravity wins."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does frost tend to form on clear, calm nights rather than cloudy or windy ones?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Clouds block the sunlight, so the ground cools faster.",
+            "feedback": "Clouds actually trap heat at night, keeping the ground warmer, not colder."
+          },
+          {
+            "label": "Wind brings in colder air from far away.",
+            "feedback": "Wind mixes the air and keeps surfaces warmer, so it works against frost formation."
+          },
+          {
+            "label": "Clear skies mean more rain, which cools the ground.",
+            "feedback": "Clear nights have no rain; frost needs dry, calm conditions, not rain."
+          },
+          {
+            "label": "With no clouds, the ground radiates heat away into space, and still air lets the surface cool.",
+            "feedback": "Correct. On a clear night, heat escapes upward, and without wind to mix the air, the surface can cool below freezing."
+          }
+        ],
+        "ok_title": "Frost on clear nights",
+        "ok_line": "No clouds, no wind lets the ground chill.",
+        "ko_title": "Frosty night conditions",
+        "ko_line": "Radiation cooling works best in still, clear air.",
+        "exp_title": "Night cooling for frost",
+        "exp_text": "On a clear night, the ground loses heat by radiating it into space. Without clouds to reflect heat back and without wind to mix warmer air down, the surface cools rapidly, and if it goes below freezing, frost forms."
+      }
+    ]
+  }
+]

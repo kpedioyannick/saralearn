@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 228,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main cause of the sky changing colour at sunrise and sunset?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Scattering of sunlight by air molecules and particles",
+            "feedback": "Correct. Air molecules and tiny particles scatter the shorter blue wavelengths more strongly, leaving the longer red and orange wavelengths to dominate the sky near the horizon."
+          },
+          {
+            "label": "The Sun changing its own colour as it moves",
+            "feedback": "The Sun's colour doesn't change on its own; it's the light's path through the atmosphere that alters what you see."
+          },
+          {
+            "label": "Reflection of light from the oceans and land",
+            "feedback": "Reflection off surfaces can add some brightness, but it doesn't redden the sky; scattering does that."
+          },
+          {
+            "label": "The atmosphere itself turning red temporarily",
+            "feedback": "The atmosphere doesn't change colour; the light passing through it is what gets filtered and scattered."
+          }
+        ],
+        "ok_title": "Sunrise and sunset colors",
+        "ok_line": "Blue light scatters away, leaving reds and oranges.",
+        "ko_title": "Wrong cause of colors",
+        "ko_line": "The Sun's own colour is constant; the sky's colour is from scattering.",
+        "exp_title": "Scattering explanation",
+        "exp_text": "At sunrise and sunset, sunlight travels through more atmosphere, so blue light is scattered out of the line of sight, and the remaining light appears red, orange, and pink."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the sky appear blue during the day rather than any other colour?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the Sun emits only blue light",
+            "feedback": "The Sun emits all colours; blue is just the one that gets scattered most by the atmosphere."
+          },
+          {
+            "label": "Because air molecules scatter blue light more than longer wavelengths",
+            "feedback": "Correct. Blue light has a shorter wavelength, so it's scattered in all directions by tiny air molecules, filling the sky with blue."
+          },
+          {
+            "label": "Because the sky reflects the colour of the oceans",
+            "feedback": "Oceans reflect blue, but that's not why the whole sky is blue; it's scattering of sunlight."
+          },
+          {
+            "label": "Because the atmosphere is made of blue gases",
+            "feedback": "Air is not blue; it's colourless. The blue comes from how light interacts with it."
+          }
+        ],
+        "ok_title": "Day sky blue",
+        "ok_line": "Blue scatters most, filling the sky.",
+        "ko_title": "Wrong reason for blue",
+        "ko_line": "The Sun is white; the sky's blueness is from scattering.",
+        "exp_title": "Blue sky cause",
+        "exp_text": "Air molecules are small, so they scatter short wavelengths like blue much more effectively than longer ones, making the whole sky look blue to your eye."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "After a volcanic eruption, why can the sky sometimes appear red or orange even during the middle of the day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the volcano emits red smoke that colours the sky",
+            "feedback": "Volcanic ash and gases can colour the sky, but it's not because the smoke itself is red; it's the way particles alter light scattering."
+          },
+          {
+            "label": "Because the Sun gives off more red light after an eruption",
+            "feedback": "The Sun's output doesn't change; the atmosphere just filters the light differently with added particles."
+          },
+          {
+            "label": "Because fine ash and aerosol particles in the air scatter and absorb blue light, leaving reds",
+            "feedback": "Correct. Tiny volcanic particles in the upper atmosphere scatter blue light away and let red light pass, making the sky appear reddish."
+          },
+          {
+            "label": "Because clouds form around the volcano and reflect red light",
+            "feedback": "Clouds don't reflect red light by themselves; the reddening is from particles high up, not clouds near the volcano."
+          }
+        ],
+        "ok_title": "Volcanic red sky",
+        "ok_line": "Particles scatter blue, leaving reds.",
+        "ko_title": "Not volcanic smoke colour",
+        "ko_line": "The sky's colour change is due to scattering, not the smoke's own hue.",
+        "exp_title": "Volcanic effect",
+        "exp_text": "After big eruptions, tiny sulfate droplets spread worldwide and scatter blue light, so the sky can look red or orange even in daylight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What colour does the sky often become just before a severe thunderstorm or tornado, due to the way sunlight passes through the storm's clouds?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Bright yellow",
+            "feedback": "A bright yellow sky is rare and usually not linked to severe storms; greenish tints are the typical warning sign."
+          },
+          {
+            "label": "Pure white",
+            "feedback": "A white sky is usually from thick cloud cover, not the specific green tint seen before severe storms."
+          },
+          {
+            "label": "Deep purple",
+            "feedback": "Purple skies can occur after eruptions, but before storms the notable colour is green."
+          },
+          {
+            "label": "Greenish",
+            "feedback": "Correct. The storm's clouds and hail scatter sunlight in a way that can make the sky appear greenish before severe weather."
+          }
+        ],
+        "ok_title": "Storm green sky",
+        "ok_line": "Green skies are a warning sign.",
+        "ko_title": "Wrong storm colour",
+        "ko_line": "Green, not yellow or purple, is the classic pre-storm tint.",
+        "exp_title": null,
+        "exp_text": "The greenish tint before severe storms is thought to come from the way large water droplets and hail scatter sunlight within the storm clouds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the sky at twilight sometimes glow with a pink or orange band along the horizon?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because sunlight just below the horizon still lights the upper atmosphere, and scattering leaves red tones",
+            "feedback": "Correct. Even after the Sun sets, it illuminates high layers of the atmosphere, and the scattered light appears pink or orange near the horizon."
+          },
+          {
+            "label": "Because the Earth's shadow is coloured pink",
+            "feedback": "The Earth's shadow is dark, not pink; the pink band is from scattered sunlight above the shadow."
+          },
+          {
+            "label": "Because the Moon reflects pink light onto the sky",
+            "feedback": "The Moon's light is too faint to colour the twilight sky pink; it's the Sun's light doing the work."
+          },
+          {
+            "label": "Because clouds near the horizon are made of pink ice crystals",
+            "feedback": "Clouds aren't pink; they reflect the pink light from scattering."
+          }
+        ],
+        "ok_title": "Twilight pink band",
+        "ok_line": "Scattered sunlight tints the upper air.",
+        "ko_title": "Not Earth shadow colour",
+        "ko_line": "The shadow is dark; the pink is from scattered light.",
+        "exp_title": null,
+        "exp_text": "During twilight, the Sun is just below the horizon, so its light travels through more atmosphere, scattering and leaving a pink or orange glow along the horizon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason that clouds often appear pink or orange during sunset, even though clouds are white in the daytime?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Clouds change colour as they cool down in the evening",
+            "feedback": "Clouds don't change colour with temperature; they reflect the colour of the light hitting them."
+          },
+          {
+            "label": "They reflect the reddened sunlight that reaches them at that time",
+            "feedback": "Correct. At sunset, the sunlight that strikes clouds has already lost its blue component, so clouds reflect those red and orange colours."
+          },
+          {
+            "label": "They mix with the sunset's orange air and become dyed",
+            "feedback": "Clouds aren't dyed; they just reflect the coloured light around them."
+          },
+          {
+            "label": "They form specifically during sunsets and are born coloured",
+            "feedback": "Clouds form whenever conditions are right, not only at sunset, and they aren't born coloured."
+          }
+        ],
+        "ok_title": "Sunset cloud colours",
+        "ok_line": "Clouds reflect filtered light.",
+        "ko_title": "Clouds not dyed",
+        "ko_line": "Clouds reflect light; they don't make their own colour.",
+        "exp_title": null,
+        "exp_text": "Clouds are made of tiny water droplets that scatter light, so they take on the colour of the sunlight that's shining on them — at sunset, that light is red and orange."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a wildfire, why can the whole sky turn deep orange or red even in the middle of the afternoon?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The fire itself emits red light that fills the sky",
+            "feedback": "Fire emits light, but its glow is local; the widespread reddening comes from smoke particles scattering sunlight."
+          },
+          {
+            "label": "The smoke blocks out all other colours, leaving only red",
+            "feedback": "Smoke doesn't block all colours; it selectively scatters blue, letting red through, similar to sunset."
+          },
+          {
+            "label": "Smoke particles in the air scatter blue light away, leaving the red wavelengths to dominate",
+            "feedback": "Correct. Large smoke particles in the atmosphere scatter the shorter blue and green wavelengths, so the sky appears red or orange."
+          },
+          {
+            "label": "The Sun becomes hotter and emits redder light",
+            "feedback": "The Sun's emission doesn't change; the filtering by smoke is what changes the sky's colour."
+          }
+        ],
+        "ok_title": "Wildfire red sky",
+        "ok_line": "Smoke scatters blue, leaving reds.",
+        "ko_title": "Not fire emission",
+        "ko_line": "The reddening comes from scattering, not the fire's own light.",
+        "exp_title": null,
+        "exp_text": "In wildfire smoke, numerous large particles scatter away the blue light, so the sky takes on a deep orange or red hue even during the day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the sky to glow faintly even on a clear night far from any city, so it is never perfectly black?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Airglow, a faint emission from the atmosphere itself",
+            "feedback": "Correct. The atmosphere emits a very weak light, called airglow, due to chemical reactions and solar radiation exciting atoms and molecules."
+          },
+          {
+            "label": "Starlight reflecting off the Moon",
+            "feedback": "Starlight contributes a little, but airglow is the main source of the faint night sky glow."
+          },
+          {
+            "label": "The Sun's light leaking around the Earth's edge",
+            "feedback": "That would only happen very near the horizon during twilight; the general glow is from airglow."
+          },
+          {
+            "label": "Light pollution from remote cities",
+            "feedback": "This question specifies being far from any city, so light pollution isn't the cause."
+          }
+        ],
+        "ok_title": "Night sky airglow",
+        "ok_line": "Airglow keeps the night sky lit.",
+        "ko_title": "Not starlight or Moon",
+        "ko_line": "Airglow, not stars, gives the faint glow.",
+        "exp_title": null,
+        "exp_text": "Airglow is a weak light emitted by the atmosphere when atoms and molecules are excited by sunlight during the day and release that energy slowly at night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do the colours of the sky change gradually from blue during the day to red at sunset rather than switching suddenly?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the Sun's colour changes slowly as it moves",
+            "feedback": "The Sun's colour doesn't change; the path length of light through the atmosphere changes gradually."
+          },
+          {
+            "label": "Because the atmosphere thickens as the day goes on",
+            "feedback": "The atmosphere's thickness doesn't change; the angle of the Sun does."
+          },
+          {
+            "label": "Because clouds form as the day progresses and slowly alter colours",
+            "feedback": "Clouds can add colour, but the gradual blue-to-red shift happens even on clear days due to scattering."
+          },
+          {
+            "label": "Because the Sun's light passes through progressively more atmosphere as it drops toward the horizon",
+            "feedback": "Correct. As the Sun sets, sunlight travels a longer path through the air, giving blue light more chance to scatter away, leaving reds."
+          }
+        ],
+        "ok_title": "Gradual colour shift",
+        "ok_line": "Longer air path removes blue slowly.",
+        "ko_title": "Not Sun colour change",
+        "ko_line": "The Sun's colour is steady; the air path changes.",
+        "exp_title": null,
+        "exp_text": "The longer the path sunlight takes through the atmosphere, the more blue light is scattered out, so the sky shifts from blue to red as the Sun approaches the horizon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Earth's shadow, and what colour is the band of sky that lies just above it during twilight?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A dark shadow cast by the Moon, with a blue band above it",
+            "feedback": "The Moon doesn't cast a shadow on the sky; the Earth's own shadow is what you see, and the band above is pinkish."
+          },
+          {
+            "label": "The darkening of the sky opposite the Sun, with a pink band above it",
+            "feedback": "Correct. The Earth's shadow is the Earth blocking sunlight in the sky, and just above it sits a pink band called the Belt of Venus."
+          },
+          {
+            "label": "A shadow from clouds, with a white band above it",
+            "feedback": "Clouds don't cast sky-wide shadows; the Earth's shadow is a planet-scale effect."
+          },
+          {
+            "label": "A permanent dark spot in the sky, with no band above",
+            "feedback": "The Earth's shadow is only visible during twilight, and it always has a pink band above it."
+          }
+        ],
+        "ok_title": "Earth's shadow",
+        "ok_line": "A pink band sits above it.",
+        "ko_title": "Not Moon's shadow",
+        "ko_line": "The Earth itself casts the twilight shadow.",
+        "exp_title": null,
+        "exp_text": "Just after sunset or before sunrise, the Earth casts its own shadow into the sky, and above it the pinkish Belt of Venus appears from scattered sunlight."
+      }
+    ]
+  }
+]

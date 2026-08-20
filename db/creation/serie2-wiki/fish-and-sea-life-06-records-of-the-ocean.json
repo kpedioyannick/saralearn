@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the ocean?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A large lake of fresh water",
+            "feedback": "The ocean is not fresh water; it is the body of salt water covering most of Earth."
+          },
+          {
+            "label": "The body of salt water that covers most of Earth",
+            "feedback": "Correct. The ocean is the vast body of salt water covering about 70.8% of Earth's surface."
+          },
+          {
+            "label": "A single sea surrounded by land",
+            "feedback": "The ocean is the entire interconnected body of salt water, not one landlocked sea."
+          },
+          {
+            "label": "A layer of ice at the poles",
+            "feedback": "Ice at the poles forms from ocean water, but the ocean itself is liquid salt water, not ice."
+          }
+        ],
+        "ok_title": "Ocean defined",
+        "ok_line": "The ocean is Earth's body of salt water.",
+        "ko_title": "Ocean misidentified",
+        "ko_line": "The ocean is salt water, not fresh, not a single sea.",
+        "exp_title": "What the ocean is",
+        "exp_text": "The ocean is the body of salt water that covers about 70.8% of Earth. It contains 97% of Earth's water and is the main part of Earth's hydrosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a large division of the ocean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Mediterranean",
+            "feedback": "The Mediterranean is a sea, a smaller body partly enclosed by land, not one of the five main ocean divisions."
+          },
+          {
+            "label": "The Red Sea",
+            "feedback": "The Red Sea is a sea, not one of the five large oceans listed as divisions of the ocean."
+          },
+          {
+            "label": "The Pacific Ocean",
+            "feedback": "Correct. The Pacific Ocean is one of the five large divisions of the ocean, along with the Atlantic, Indian, Southern, and Arctic."
+          },
+          {
+            "label": "The North Sea",
+            "feedback": "The North Sea is a specific, smaller body of seawater, not a main ocean division."
+          }
+        ],
+        "ok_title": "Ocean divisions",
+        "ok_line": "The Pacific is one of the five main oceans.",
+        "ko_title": "Sea vs ocean",
+        "ko_line": "Seas like the Mediterranean are smaller than oceans.",
+        "exp_title": "Five main oceans",
+        "exp_text": "The ocean is divided into five large bodies: the Pacific, Atlantic, Indian, Antarctic/Southern, and Arctic Oceans. Seas like the Mediterranean or Red Sea are smaller divisions of the ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the photic zone?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The upper layer of the ocean where light allows photosynthesis",
+            "feedback": "Correct. The photic zone is the surface layer down to where light intensity is 1% of the surface value, and photosynthesis can occur there."
+          },
+          {
+            "label": "The deep, dark part of the ocean below 200 meters",
+            "feedback": "That describes the mesopelagic and aphotic zones, not the photic zone which is the lit surface layer."
+          },
+          {
+            "label": "The zone near the ocean floor",
+            "feedback": "The floor area is not the photic zone; light does not reach there in the deep ocean."
+          },
+          {
+            "label": "The zone where sea ice forms",
+            "feedback": "Sea ice forms at the surface near the poles, but that is not what defines the photic zone."
+          }
+        ],
+        "ok_title": "Photic zone defined",
+        "ok_line": "It is the sunlit surface layer where photosynthesis happens.",
+        "ko_title": "Photic zone confused",
+        "ko_line": "The photic zone is lit, not dark or at the floor.",
+        "exp_title": "Sunlit upper ocean",
+        "exp_text": "The photic zone starts at the surface and extends down to where light is only 1% of the surface value, about 200 meters in the open ocean. Photosynthesis by plants and algae occurs here, making it the most biodiverse zone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the pelagic zone?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The shallow water near the coast",
+            "feedback": "Shallow coastal water over the continental shelf is not the pelagic zone; that term is specifically for the open ocean's water column."
+          },
+          {
+            "label": "The ocean floor",
+            "feedback": "The ocean floor is the seabed, not the pelagic zone which is the water column above it."
+          },
+          {
+            "label": "The icy water at the poles",
+            "feedback": "The pelagic zone refers to all open ocean water, not just polar regions."
+          },
+          {
+            "label": "The open ocean's water column from surface to floor",
+            "feedback": "Correct. The pelagic zone is the water column of the open ocean, extending from the surface down to the ocean floor."
+          }
+        ],
+        "ok_title": "Pelagic zone",
+        "ok_line": "It is the open ocean water column.",
+        "ko_title": "Pelagic misnamed",
+        "ko_line": "Pelagic means open water, not coast or floor.",
+        "exp_title": "Open ocean waters",
+        "exp_text": "The pelagic zone is the open ocean's water column, from the surface down to the ocean floor. It is divided into depth zones based on light and depth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes ocean currents?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only the pull of the Moon",
+            "feedback": "The Moon's gravity causes tides, but currents are also driven by temperature, salinity, wind, and the Coriolis effect."
+          },
+          {
+            "label": "Forces like temperature, salinity, wind, and the Coriolis effect",
+            "feedback": "Correct. Currents come from temperature and salinity differences, atmospheric circulation (wind), and the Coriolis effect acting on the water."
+          },
+          {
+            "label": "The movement of fish and other animals",
+            "feedback": "Animal movement does not drive ocean currents; those are caused by physical forces on the water."
+          },
+          {
+            "label": "The rotation of Earth alone",
+            "feedback": "The Coriolis effect from Earth's rotation is one factor, but temperature, salinity, and wind are also essential causes."
+          }
+        ],
+        "ok_title": "Current causes",
+        "ok_line": "Temperature, salinity, wind, and Coriolis drive currents.",
+        "ko_title": "Current origins",
+        "ko_line": "Currents come from water and air forces, not animals or Moon alone.",
+        "exp_title": "Why water moves",
+        "exp_text": "Ocean currents are caused by forces operating on the water: temperature and salinity differences, wind from atmospheric circulation, and the Coriolis effect. Tides also create tidal currents."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the temperature of deep ocean water in most parts of the ocean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Over 30 °C (86 °F)",
+            "feedback": "That high temperature is found at the surface in the tropics, not in deep water."
+          },
+          {
+            "label": "About 20 °C (68 °F)",
+            "feedback": "Deep water is much colder than 20 °C; it ranges between −2 °C and 5 °C."
+          },
+          {
+            "label": "Between −2 °C (28 °F) and 5 °C (41 °F)",
+            "feedback": "Correct. Deep ocean temperatures range from about −2 °C to 5 °C throughout the ocean."
+          },
+          {
+            "label": "Always at 0 °C (32 °F)",
+            "feedback": "Deep water can be as cold as −2 °C or as warm as 5 °C, not fixed at freezing point."
+          }
+        ],
+        "ok_title": "Deep ocean cold",
+        "ok_line": "Deep water stays between −2 °C and 5 °C.",
+        "ko_title": "Temperature mismatch",
+        "ko_line": "Deep water is cold, not warm like the tropics.",
+        "exp_title": "Deep sea temperature",
+        "exp_text": "In all parts of the ocean, deep water temperatures range between −2 °C and 5 °C. Surface temperatures vary much more, from over 30 °C in the tropics to about −2 °C near the poles."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What gases are dissolved in ocean water?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Oxygen, carbon dioxide, and nitrogen",
+            "feedback": "Correct. Ocean water contains dissolved oxygen, carbon dioxide, and nitrogen, which exchange with the atmosphere at the surface."
+          },
+          {
+            "label": "Only oxygen",
+            "feedback": "Oxygen is one dissolved gas, but ocean water also contains carbon dioxide and nitrogen."
+          },
+          {
+            "label": "Only carbon dioxide",
+            "feedback": "Carbon dioxide is present, but oxygen and nitrogen are also dissolved in ocean water."
+          },
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Hydrogen and helium are not the main dissolved gases in ocean water; oxygen, carbon dioxide, and nitrogen are."
+          }
+        ],
+        "ok_title": "Dissolved gases",
+        "ok_line": "Ocean water holds oxygen, carbon dioxide, and nitrogen.",
+        "ko_title": "Gas mix wrong",
+        "ko_line": "Ocean water has more than one or two gases.",
+        "exp_title": "Gases in seawater",
+        "exp_text": "Ocean water contains dissolved gases, including oxygen, carbon dioxide, and nitrogen. These gases exchange across the ocean's surface with the atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens when the ocean absorbs more carbon dioxide from the atmosphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The ocean becomes warmer",
+            "feedback": "Absorbing carbon dioxide does not directly warm the ocean; it changes the water's chemistry by lowering pH."
+          },
+          {
+            "label": "The ocean becomes saltier",
+            "feedback": "Carbon dioxide absorption does not change salinity; it causes acidification."
+          },
+          {
+            "label": "The ocean becomes clearer",
+            "feedback": "Carbon dioxide does not affect water clarity; it lowers the pH."
+          },
+          {
+            "label": "The ocean becomes more acidic",
+            "feedback": "Correct. Higher carbon dioxide absorption leads to ocean acidification, a drop in pH value."
+          }
+        ],
+        "ok_title": "Ocean acidification",
+        "ok_line": "More CO2 makes the ocean more acidic.",
+        "ko_title": "CO2 effect",
+        "ko_line": "Absorbing CO2 lowers pH, not warmth or salt.",
+        "exp_title": null,
+        "exp_text": "When the ocean absorbs more carbon dioxide from the atmosphere, the concentration increases, leading to ocean acidification, which is a drop in pH value."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the shallow underwater area where the ocean meets dry land called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The abyssal plain",
+            "feedback": "The abyssal plain is a deep ocean floor, not the shallow area near land."
+          },
+          {
+            "label": "The continental shelf",
+            "feedback": "Correct. Where the ocean meets dry land, it covers relatively shallow continental shelves, which are part of Earth's continental crust."
+          },
+          {
+            "label": "The pelagic zone",
+            "feedback": "The pelagic zone is the open ocean's water column, not the shallow shelf near land."
+          },
+          {
+            "label": "The photic zone",
+            "feedback": "The photic zone is a depth zone based on light, not a specific shallow area near land."
+          }
+        ],
+        "ok_title": "Continental shelf",
+        "ok_line": "It is the shallow underwater edge of continents.",
+        "ko_title": "Shelf misnamed",
+        "ko_line": "The shallow area near land is the shelf, not deep zones.",
+        "exp_title": "Shallow coastal water",
+        "exp_text": "The continental shelf is the relatively shallow area of the ocean that covers the edge of Earth's continental crust where the ocean meets dry land. Human activity is mostly concentrated here."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the interconnected body of salt water covering most of Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The World Ocean",
+            "feedback": "Correct. The global, interconnected body of salt water is called the World Ocean, also known as the global ocean or great ocean."
+          },
+          {
+            "label": "The continental shelf",
+            "feedback": "The continental shelf is a shallow underwater area, not the entire interconnected ocean."
+          },
+          {
+            "label": "The Gulf Stream",
+            "feedback": "The Gulf Stream is a major ocean current, not the whole ocean."
+          },
+          {
+            "label": "The pelagic zone",
+            "feedback": "The pelagic zone is a part of the open ocean's water column, not the entire ocean."
+          }
+        ],
+        "ok_title": "World Ocean",
+        "ok_line": "The whole connected salt water is the World Ocean.",
+        "ko_title": "Global ocean term",
+        "ko_line": "The entire ocean is the World Ocean, not a part.",
+        "exp_title": "The whole ocean",
+        "exp_text": "The World Ocean is the continuous, interconnected body of salt water that covers and encircles most of Earth. It includes the Pacific, Atlantic, Indian, Southern, and Arctic oceans."
+      }
+    ]
+  }
+]

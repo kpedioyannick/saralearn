@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a hot desert and a cold desert?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The main form of precipitation",
+            "feedback": "Correct. In cold deserts, the main precipitation is snow, while in hot deserts it is rain."
+          },
+          {
+            "label": "The amount of sunlight received",
+            "feedback": "Not exactly. While temperature differs, the key distinction given is the type of precipitation, not the sunlight."
+          },
+          {
+            "label": "The presence of sand dunes",
+            "feedback": "Incorrect. Both hot and cold deserts can have similar features; the defining difference is precipitation form."
+          },
+          {
+            "label": "The number of plants",
+            "feedback": "No. Both deserts have little vegetation; the difference is in how they receive moisture."
+          }
+        ],
+        "ok_title": "Correct distinction",
+        "ok_line": "You identified the key difference between hot and cold deserts.",
+        "ko_title": "Check the details",
+        "ko_line": "The difference is not about temperature alone.",
+        "exp_title": "Precipitation type",
+        "exp_text": "Hot deserts receive rain, while cold deserts receive snow as their main precipitation. This affects the landscape and life forms present."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a well-known cold desert?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sahara Desert",
+            "feedback": "No, the Sahara is a hot desert, not a cold one."
+          },
+          {
+            "label": "Grand Australian Desert",
+            "feedback": "Incorrect. This is a hot desert, not a cold one."
+          },
+          {
+            "label": "Antarctica",
+            "feedback": "Correct. Antarctica is classified as a cold desert because it receives very little precipitation, mostly as snow."
+          },
+          {
+            "label": "Great Basin Desert",
+            "feedback": "This is a hot desert, not a cold one. The Great Basin is not a cold desert."
+          }
+        ],
+        "ok_title": "Cold desert identified",
+        "ok_line": "Antarctica is the largest cold desert.",
+        "ko_title": "Check the list",
+        "ko_line": "The others are hot deserts.",
+        "exp_title": "Cold desert example",
+        "exp_text": "Antarctica is a cold desert because it gets very little precipitation, and what falls is snow. The Sahara, Grand Australian, and Great Basin are hot deserts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to rocks in a desert due to large temperature differences between day and night?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They become smooth and shiny",
+            "feedback": "Incorrect. Smoothing happens from wind abrasion, not from temperature changes."
+          },
+          {
+            "label": "They break into pieces",
+            "feedback": "Correct. The strain from temperature variations causes rocks to crack and break apart."
+          },
+          {
+            "label": "They melt into liquid",
+            "feedback": "No, rocks do not melt from temperature changes in deserts."
+          },
+          {
+            "label": "They grow larger",
+            "feedback": "Wrong. Temperature changes cause breaking, not growth."
+          }
+        ],
+        "ok_title": "Weathering by temperature",
+        "ok_line": "Rocks break from day-night temperature stress.",
+        "ko_title": "Not that process",
+        "ko_line": "This is not about smoothing or melting.",
+        "exp_title": "Thermal weathering",
+        "exp_text": "In deserts, large temperature swings between day and night strain rocks, causing them to crack and break into fragments. This is a basic weathering process."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What can form when rain falls on hot rocks in a desert?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Smooth pebbles",
+            "feedback": "Incorrect. Smoothing is from wind, not from rain on hot rocks."
+          },
+          {
+            "label": "Salt pans",
+            "feedback": "No, salt pans form from evaporation of water, not from rain on hot rocks."
+          },
+          {
+            "label": "Oases",
+            "feedback": "Wrong. Oases come from underground water sources, not from rain on hot rocks."
+          },
+          {
+            "label": "The rocks shatter",
+            "feedback": "Correct. Rain falling on hot rocks can cause them to shatter."
+          }
+        ],
+        "ok_title": "Rain on hot rocks",
+        "ok_line": "Hot rocks shatter when rain hits them.",
+        "ko_title": "Not that result",
+        "ko_line": "This is a physical breaking process.",
+        "exp_title": "Thermal shock",
+        "exp_text": "When rain falls on hot rocks in a desert, the sudden cooling can cause the rocks to shatter into fragments. This is a common desert weathering process."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the flat, stony plains in some deserts called, where fine material has been blown away?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Desert pavements",
+            "feedback": "Correct. These are surfaces covered with a mosaic of smooth stones, with all fine material removed by wind."
+          },
+          {
+            "label": "Sand dunes",
+            "feedback": "No, dunes are piles of sand, not flat stony plains."
+          },
+          {
+            "label": "Salt flats",
+            "feedback": "Incorrect. Salt flats are left by evaporating water, not by wind removing fine material."
+          },
+          {
+            "label": "Rock outcrops",
+            "feedback": "Wrong. Outcrops are exposed bedrock, not the flat pebble-covered surfaces."
+          }
+        ],
+        "ok_title": "Desert pavement named",
+        "ok_line": "You know the term for flat stone surfaces.",
+        "ko_title": "Different feature",
+        "ko_line": "This is not about dunes or salt.",
+        "exp_title": "Desert pavement",
+        "exp_text": "Desert pavements are flat stony plains covered with a mosaic of smooth stones. Wind has blown away all the fine sand and dust, leaving only the larger pebbles."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to wind-blown sand grains when they strike solid objects?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They stick to the object",
+            "feedback": "No, they do not stick; they cause abrasion."
+          },
+          {
+            "label": "They disappear",
+            "feedback": "Incorrect. They do not vanish; they wear the surface."
+          },
+          {
+            "label": "They abrade the surface",
+            "feedback": "Correct. Wind-blown sand grains can smooth and wear down rocks by abrasion."
+          },
+          {
+            "label": "They form sand dunes",
+            "feedback": "Wrong. Dunes form when sand accumulates, not when grains strike objects."
+          }
+        ],
+        "ok_title": "Abrasion process",
+        "ok_line": "Sand grains wear down surfaces.",
+        "ko_title": "Not that effect",
+        "ko_line": "This is about erosion, not accumulation.",
+        "exp_title": "Wind abrasion",
+        "exp_text": "Wind-blown sand grains hitting solid objects can abrade or wear away the surface. This smoothes rocks over time and is a key erosive force in deserts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a temporary lake that forms in a desert basin and then leaves salt behind?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Oasis",
+            "feedback": "No, an oasis is supported by underground water, not by temporary surface water."
+          },
+          {
+            "label": "Salt pan",
+            "feedback": "Correct. When temporary lakes evaporate, they leave behind salt pans."
+          },
+          {
+            "label": "Wadi",
+            "feedback": "No, a wadi is a dry stream channel, not a lake."
+          },
+          {
+            "label": "Dune",
+            "feedback": "Wrong, dunes are sand formations, not water features."
+          }
+        ],
+        "ok_title": "Salt pan identified",
+        "ok_line": "Salt pans form from evaporated lakes.",
+        "ko_title": "Not that feature",
+        "ko_line": "This is not about underground water or sand.",
+        "exp_title": "Evaporation remnants",
+        "exp_text": "In deserts, temporary lakes can form after rain. When they evaporate, they leave behind salt pans, which are flat areas covered with salt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do desert plants often have to protect themselves from being eaten?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Large leaves",
+            "feedback": "No, desert plants typically have small or no leaves, not large ones."
+          },
+          {
+            "label": "Deep roots",
+            "feedback": "Deep roots help get water, but they do not deter herbivores."
+          },
+          {
+            "label": "Sweet nectar",
+            "feedback": "Incorrect, nectar is not a defense against being eaten."
+          },
+          {
+            "label": "Spines",
+            "feedback": "Correct. Many desert plants have spines to deter herbivory."
+          }
+        ],
+        "ok_title": "Plant defense",
+        "ok_line": "Spines protect desert plants.",
+        "ko_title": "Not that adaptation",
+        "ko_line": "This is about defense, not water storage.",
+        "exp_title": "Spines for protection",
+        "exp_text": "Desert plants often have spines to deter herbivory, meaning to stop animals from eating them. They also have tough, wiry structures and water-resistant cuticles."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do many desert animals avoid the heat of the day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They migrate to cooler areas",
+            "feedback": "No, most desert animals do not migrate; they stay and adapt."
+          },
+          {
+            "label": "They drink more water",
+            "feedback": "Incorrect, water is scarce, so they conserve it instead."
+          },
+          {
+            "label": "They become nocturnal",
+            "feedback": "Correct. Many desert animals are nocturnal, staying in shade or underground during the day and active at night."
+          },
+          {
+            "label": "They grow thicker fur",
+            "feedback": "Wrong, thicker fur would trap heat, not help them avoid it."
+          }
+        ],
+        "ok_title": "Nocturnal behavior",
+        "ok_line": "Desert animals are active at night.",
+        "ko_title": "Not that strategy",
+        "ko_line": "This is about avoiding heat, not other adaptations.",
+        "exp_title": "Night activity",
+        "exp_text": "Many desert animals are nocturnal, meaning they are active at night. During the day, they stay in the shade or underground to keep cool."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to some desert animals during long dry periods?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They enter a state of dormancy",
+            "feedback": "Correct. Some animals remain dormant for long periods and become active again during rare rainfall."
+          },
+          {
+            "label": "They grow larger",
+            "feedback": "No, they do not grow larger; they conserve energy."
+          },
+          {
+            "label": "They migrate to the poles",
+            "feedback": "Incorrect, they do not migrate; they wait for rain."
+          },
+          {
+            "label": "They store water in humps",
+            "feedback": "Wrong, only camels have humps, and this is not a general behavior."
+          }
+        ],
+        "ok_title": "Dormancy in deserts",
+        "ok_line": "Animals wait out dry periods in dormancy.",
+        "ko_title": "Not that adaptation",
+        "ko_line": "This is about survival without water, not growth.",
+        "exp_title": "Surviving drought",
+        "exp_text": "Some desert animals remain in a state of dormancy for long periods, ready to become active again during the rare rainfall. After rain, they reproduce rapidly before returning to dormancy."
+      }
+    ]
+  }
+]

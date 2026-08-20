@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 231,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a lake and an inland sea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An inland sea is much larger and often saltier.",
+            "feedback": "Correct. Inland seas are huge bodies of water, like the Caspian Sea, and they often have saltier water than most freshwater lakes."
+          },
+          {
+            "label": "An inland sea is always connected to the ocean.",
+            "feedback": "Inland seas are actually enclosed by land and not connected to the ocean, which is what makes them 'inland'."
+          },
+          {
+            "label": "A lake is always smaller than a pond.",
+            "feedback": "Lakes are larger than ponds, but that doesn't define the difference between a lake and an inland sea."
+          },
+          {
+            "label": "An inland sea has no rivers feeding it.",
+            "feedback": "Inland seas, like lakes, usually have rivers flowing into them. The key difference is size and often salinity."
+          }
+        ],
+        "ok_title": "Lake vs inland sea",
+        "ok_line": "Inland seas are bigger and often saltier.",
+        "ko_title": "Not quite",
+        "ko_line": "Check the size and saltiness difference.",
+        "exp_title": "Inland seas",
+        "exp_text": "An inland sea is a very large lake-like body of water, usually much bigger than a typical lake, and it often has salty water because it has no outlet to the ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the water in a lake stay in place instead of flowing away downhill?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the water is too heavy to move.",
+            "feedback": "Water always moves downhill if it can; weight doesn't stop it. The reason is the ground shape, not weight."
+          },
+          {
+            "label": "Because there is no slope anywhere around a lake.",
+            "feedback": "There is usually a slope, but the lake sits in a low spot where the basin holds water. Water can't flow out unless it overflows the rim."
+          },
+          {
+            "label": "Because the lake sits in a natural basin with raised edges all around.",
+            "feedback": "Correct. A lake forms in a depression, and the surrounding higher ground keeps the water trapped."
+          },
+          {
+            "label": "Because the ground under a lake is frozen solid.",
+            "feedback": "Frozen ground is not needed for a lake. Many lakes sit on unfrozen soil or rock."
+          }
+        ],
+        "ok_title": "Lake basin holds water",
+        "ok_line": "The basin's rim traps the water.",
+        "ko_title": "Think basin shape",
+        "ko_line": "A lake needs a closed low spot.",
+        "exp_title": "Why lakes persist",
+        "exp_text": "A lake forms where the ground dips into a basin with higher ground on all sides. The water collects there and cannot flow away unless it rises above the rim."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the water level of a lake that has an outlet river flowing out?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It keeps rising forever.",
+            "feedback": "If the lake had no outlet, it could keep rising, but an outlet lets excess water drain, so the level stays roughly steady."
+          },
+          {
+            "label": "It stays roughly stable because inflow and outflow balance.",
+            "feedback": "Correct. With an outlet, water comes in from rivers and rain, and goes out through the outlet, so the level doesn't build up."
+          },
+          {
+            "label": "It slowly dries up completely.",
+            "feedback": "An outlet doesn't dry the lake; it just carries away extra water. Without the outlet the lake could flood, not dry."
+          },
+          {
+            "label": "It only changes when it snows.",
+            "feedback": "Many factors affect the level, not just snow. The outlet helps keep a steady balance regardless."
+          }
+        ],
+        "ok_title": "Balance of inflow and outflow",
+        "ok_line": "An outlet keeps the level steady.",
+        "ko_title": "Not draining dry",
+        "ko_line": "The outlet takes only the excess.",
+        "exp_title": "Lake water balance",
+        "exp_text": "A lake with an outlet river keeps a roughly constant level because the water that flows in is matched by the water that flows out. If inflow increases, outflow increases too."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for the large area of land that drains into a particular lake?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The lake's bottom",
+            "feedback": "That's the floor of the lake, not the land around it that feeds water in."
+          },
+          {
+            "label": "The lake's shore",
+            "feedback": "The shore is just the edge where land meets water, not the whole drainage area."
+          },
+          {
+            "label": "The lake's basin",
+            "feedback": "The basin is the depression that holds the water, not the surrounding land that drains into it."
+          },
+          {
+            "label": "The lake's watershed",
+            "feedback": "Correct. The watershed is the entire region where rain and snowmelt flow downhill toward the lake."
+          }
+        ],
+        "ok_title": "Watershed definition",
+        "ok_line": "The watershed feeds the lake.",
+        "ko_title": "Not the basin",
+        "ko_line": "The watershed is larger than the basin.",
+        "exp_title": "What a watershed is",
+        "exp_text": "A watershed, also called a drainage basin, is all the land whose rainwater flows into a single lake or river. It can cover thousands of square kilometers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the water in a shallow lake warm up faster in spring than the water in a deep lake?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because there is less water to heat, so the sun's warmth spreads through it quickly.",
+            "feedback": "Correct. A shallow lake has far less water volume, so the same sunlight raises its temperature faster."
+          },
+          {
+            "label": "Because shallow water is always saltier than deep water.",
+            "feedback": "Saltiness is not related to depth in this way, and it doesn't affect heating speed."
+          },
+          {
+            "label": "Because shallow lakes get more direct sunlight.",
+            "feedback": "Both lakes get similar sunlight; the difference is the amount of water to heat."
+          },
+          {
+            "label": "Because deep lakes have no sunlight reaching them at all.",
+            "feedback": "Sunlight does penetrate the surface of deep lakes, but the large volume spreads the heat thinly."
+          }
+        ],
+        "ok_title": "Shallow lakes heat up fast",
+        "ok_line": "Less water means quicker warming.",
+        "ko_title": "Not about salt",
+        "ko_line": "Salt doesn't control heating speed.",
+        "exp_title": "Volume and warming",
+        "exp_text": "A shallow lake has a smaller volume of water, so the energy from the sun raises its temperature more quickly than in a deep lake with much more water to absorb the same heat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During autumn, why do many deep lakes mix their surface water with the deeper water?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the wind blows the water sideways.",
+            "feedback": "Wind can stir the surface, but the main reason is temperature and density change, not just sideways movement."
+          },
+          {
+            "label": "Because the surface cools and becomes denser, so it sinks and stirs the lake.",
+            "feedback": "Correct. As surface water cools in autumn, it gets denser than the warmer water below, so it sinks and causes mixing."
+          },
+          {
+            "label": "Because the lake bottom gets warmer in autumn.",
+            "feedback": "The bottom doesn't warm in autumn; it stays cold. The surface cooling drives the mixing."
+          },
+          {
+            "label": "Because all lakes freeze in autumn.",
+            "feedback": "Most lakes don't freeze in autumn; that happens later in winter."
+          }
+        ],
+        "ok_title": "Autumn mixing",
+        "ok_line": "Cooling surface water sinks and mixes.",
+        "ko_title": "Not wind alone",
+        "ko_line": "Density changes drive the mixing.",
+        "exp_title": "Why lakes turn over",
+        "exp_text": "In autumn, the top layer of the lake cools down. Cool water is denser than warm water, so it sinks, forcing the deeper water up. This circulates the whole lake."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the deepest layer of a lake called, where the water is coldest and darkest?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The shoreline",
+            "feedback": "The shoreline is the edge of the lake where land meets water, not the deep layer."
+          },
+          {
+            "label": "The surface zone",
+            "feedback": "That's the top layer where sunlight and warmth are, not the deepest."
+          },
+          {
+            "label": "The hypolimnion",
+            "feedback": "Correct. The hypolimnion is the bottom layer, cold and with little light."
+          },
+          {
+            "label": "The littoral zone",
+            "feedback": "The littoral zone is the shallow area near the shore, not the deepest part."
+          }
+        ],
+        "ok_title": "Deep layer name",
+        "ok_line": "The hypolimnion is the bottom.",
+        "ko_title": "Not the surface",
+        "ko_line": "The hypolimnion is deep, not top.",
+        "exp_title": "Lake layers",
+        "exp_text": "A deep lake has layers. The top is the epilimnion, but the deepest, coldest layer is the hypolimnion. It stays cold because sun's warmth never reaches it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a lake with no outlet river often turn salty, while a lake with an outlet stays fresh?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because salts carried in by rivers have no way to escape and accumulate over time.",
+            "feedback": "Correct. In a closed basin, water leaves only by evaporation, leaving the dissolved salts behind, so salinity rises."
+          },
+          {
+            "label": "Because outlet rivers add extra salt to the lake.",
+            "feedback": "Outlets carry water away, not salt in. They actually remove salts, keeping the lake fresh."
+          },
+          {
+            "label": "Because lakes with outlets get less rain.",
+            "feedback": "Rain amount is unrelated to having an outlet; the problem is salt buildup, not rain."
+          },
+          {
+            "label": "Because evaporation removes salt from lakes without outlets.",
+            "feedback": "Evaporation removes water, not salt. Salt stays in the lake, making it saltier."
+          }
+        ],
+        "ok_title": "Salty lakes explained",
+        "ok_line": "No outlet means salts build up.",
+        "ko_title": "Outlet keeps fresh",
+        "ko_line": "Outlets flush salts away.",
+        "exp_title": "Why some lakes are salty",
+        "exp_text": "Rivers carry dissolved minerals into a lake. If the lake has an outlet, those minerals flow out. If not, evaporation removes only water, leaving the minerals behind, concentrating them over time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an endorheic lake?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A lake that has two outlet rivers",
+            "feedback": "A lake with two outlets would drain freely; endorheic means no outlet at all."
+          },
+          {
+            "label": "A lake that is completely underground",
+            "feedback": "Endorheic lakes are on the surface, not underground."
+          },
+          {
+            "label": "A lake that freezes over every winter",
+            "feedback": "Freezing is unrelated to the drainage type; many lakes freeze."
+          },
+          {
+            "label": "A lake that has no river flowing out of it",
+            "feedback": "Correct. An endorheic lake is one where water leaves only by evaporation, so it often becomes salty."
+          }
+        ],
+        "ok_title": "Endorheic lake",
+        "ok_line": "No outlet means endorheic.",
+        "ko_title": "Not about freezing",
+        "ko_line": "Endorheic is about drainage.",
+        "exp_title": "Closed basin lakes",
+        "exp_text": "An endorheic lake, also called a closed lake, has no outlet to the ocean. Water only leaves by evaporation, so dissolved salts remain and concentrate, forming saline lakes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which lake is the largest inland sea on Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Lake Superior",
+            "feedback": "Lake Superior is a large freshwater lake, but the largest inland sea is much bigger and saltier."
+          },
+          {
+            "label": "Lake Baikal",
+            "feedback": "Lake Baikal is the deepest and most voluminous freshwater lake, but not the largest by area."
+          },
+          {
+            "label": "The Caspian Sea",
+            "feedback": "Correct. The Caspian Sea is the largest inland sea, covering over 370,000 square kilometers."
+          },
+          {
+            "label": "The Dead Sea",
+            "feedback": "The Dead Sea is extremely salty, but it is small compared to the Caspian Sea."
+          }
+        ],
+        "ok_title": "Largest inland sea",
+        "ok_line": "The Caspian Sea is the biggest.",
+        "ko_title": "Not Baikal",
+        "ko_line": "Baikal is deeper, but smaller in area.",
+        "exp_title": "The Caspian Sea",
+        "exp_text": "The Caspian Sea, located between Asia and Europe, is the largest enclosed inland body of water on Earth. It is technically a lake, but its huge size gives it the name 'sea'."
+      }
+    ]
+  }
+]

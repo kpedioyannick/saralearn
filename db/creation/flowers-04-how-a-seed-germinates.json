@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 163,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why must a dry seed absorb water before anything else in germination can happen?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Water washes away the seed coat entirely before growth starts",
+            "feedback": "The coat softens and may crack, but it is not dissolved away. Its main job at this stage is still to protect what is inside it."
+          },
+          {
+            "label": "Water swells the seed's tissues, softens the coat, and switches on enzymes that had been sitting inactive while dry",
+            "feedback": "A dry seed's chemistry is essentially paused, and taking up water restarts it, waking dormant enzymes and letting internal structures begin working again."
+          },
+          {
+            "label": "Water supplies the sugar the embryo will use for its first growth",
+            "feedback": "Sugar for early growth comes from reserves already stored inside the seed, not from anything carried in by the water itself."
+          },
+          {
+            "label": "Water tells the seed which direction is down",
+            "feedback": "Sensing which way is down depends on gravity, not on water. That sense only becomes relevant once growth has already begun."
+          }
+        ],
+        "ok_title": "Waking up a paused seed",
+        "ok_line": "Nothing inside a dry seed is running until water gets in.",
+        "ko_title": "Not what water is doing here",
+        "ko_line": "A dry seed's internal chemistry is essentially switched off. What has to change before any of it can restart?",
+        "exp_title": "Restarting a paused chemistry",
+        "exp_text": "A dry seed's internal enzymes and structures sit inactive, unable to do anything without water to work in. Taking up water swells the seed's tissues, softening and sometimes cracking the coat, and lets those dormant enzymes begin working again. Every later step of germination depends on that first restart, so nothing further can happen until it does."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the first structure to emerge from a germinating seed almost always a tiny root, rather than a shoot?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A root is smaller and easier to push out first",
+            "feedback": "Size is not what decides the order. A young shoot emerging from many seeds is no larger than the root that comes out first."
+          },
+          {
+            "label": "Sending out a root first hides the seedling from being eaten",
+            "feedback": "A root growing downward into soil is no more hidden from a below-ground threat than a shoot would be, so concealment is not the reason for the order."
+          },
+          {
+            "label": "The root anchors the seedling and starts drawing in water before anything else is risked",
+            "feedback": "Without water and a firm anchor in the soil, a shoot pushing upward would have nothing to draw on and nothing holding it steady, so the root has to establish both first."
+          },
+          {
+            "label": "The shoot needs sunlight to form first, so it waits underground until the root has found light for it",
+            "feedback": "A root growing in soil has no way to detect or search for light on the shoot's behalf. The order is set by what needs securing first, not by light."
+          }
+        ],
+        "ok_title": "Foundations before growth",
+        "ok_line": "Nothing above ground can be risked until water and anchorage exist below it.",
+        "ko_title": "Not the priority",
+        "ko_line": "A shoot pushing upward would need a steady supply of something to keep growing. What has to be secured first for that to be possible?",
+        "exp_title": "Water and anchorage before height",
+        "exp_text": "A seedling that pushed a shoot upward before securing any water supply would risk drying out and collapsing almost immediately. Sending out the root first anchors the seedling in the soil and lets it begin drawing in water right away. Only once that supply is running does the seed commit its remaining reserves to pushing a shoot up toward the surface."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a buried seed always send its root downward and its shoot upward, no matter which way the seed itself happens to be lying?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Tiny particles inside the seed's cells settle in the direction gravity pulls, and that settling steers the root down and the shoot up",
+            "feedback": "Those particles shift position however the seed is oriented, and the cells use that shift as a constant reference to gravity, growing the root toward it and the shoot away from it."
+          },
+          {
+            "label": "The root always grows toward the nearest source of moisture, whichever direction that happens to be",
+            "feedback": "Even in evenly moist soil with no direction to seek out, the root still grows straight down, so moisture alone cannot explain the fixed direction."
+          },
+          {
+            "label": "The shoot grows toward whichever direction feels warmest",
+            "feedback": "A shoot buried in soil with an even temperature all around it still grows reliably upward, so warmth cannot be what is steering it."
+          },
+          {
+            "label": "The seed coat splits in a way that only allows growth in one fixed direction, regardless of orientation",
+            "feedback": "The coat splits open near the embryo, but that split does not force a fixed compass direction. The root and shoot still find down and up correctly however the seed is turned."
+          }
+        ],
+        "ok_title": "A built-in sense of down",
+        "ok_line": "The seedling does not need to be planted the right way up to find its way.",
+        "ko_title": "Not the sense being used",
+        "ko_line": "The root and shoot get the direction right even in soil with no light, no obvious moisture gradient, and no fixed temperature difference. What single force is always present and always points the same way?",
+        "exp_title": "Sensing gravity from the inside",
+        "exp_text": "Inside certain cells of the root and shoot, small dense particles settle toward whichever direction gravity is pulling, exactly like sand settling in a shaken jar. Wherever those particles come to rest tells the cell which way is down, and the root then grows toward that direction while the shoot grows away from it. Because gravity always points the same way regardless of how the seed itself was lying, the root and shoot get their directions right every time."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a seedling's shoot often come up out of the soil bent into a hook shape, rather than growing straight upward from the start?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The hook shape helps the shoot absorb more sunlight once it reaches the surface",
+            "feedback": "The hook forms while the shoot is still underground in total darkness, well before it could be catching any sunlight at all."
+          },
+          {
+            "label": "The bend is caused by damage from stones in the soil",
+            "feedback": "The hook forms in soft, stone-free soil just as reliably as in rocky ground, so it is not a response to obstacles being struck along the way."
+          },
+          {
+            "label": "The hook is left over from how the seed itself was bent inside its coat",
+            "feedback": "The shoot forms this bend fresh as it grows, after already leaving the seed coat behind, rather than inheriting its shape from how it was folded before germinating."
+          },
+          {
+            "label": "The hook shields the delicate growing tip and folded young leaves as they are pushed up through the soil, then straightens once clear of it",
+            "feedback": "Leading with a curved bend rather than the fragile tip itself lets the tougher stem take the abrasion of pushing through soil, protecting what is growing at the point until it reaches open air."
+          }
+        ],
+        "ok_title": "Leading with the tough part",
+        "ok_line": "The fragile tip travels safely tucked behind the bend, not out in front of it.",
+        "ko_title": "Not the purpose of the bend",
+        "ko_line": "The shoot has to force its way up through packed soil. What part of it would be most easily damaged if it went first, tip-forward?",
+        "exp_title": "A curve that takes the damage first",
+        "exp_text": "Underground, a shoot has to force its way up through packed, abrasive soil, and its growing tip along with the tightly folded young leaves inside it are the most fragile parts of the whole seedling. By bending into a hook, the shoot leads with a tougher stretch of stem instead, dragging the delicate tip and leaves along safely behind the curve. Once the hook senses it has broken through into open air and light, it straightens out and growth continues upward as normal."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a young seedling rely on food stored inside its seed leaves before it can make food of its own?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The seed leaves are poisonous until the true leaves take over feeding the plant",
+            "feedback": "Seed leaves are not toxic; they are a genuine food store the seedling draws on directly, and many kinds are even edible."
+          },
+          {
+            "label": "Making food through photosynthesis needs green leaves exposed to light, which the seedling does not have yet",
+            "feedback": "Until the true leaves unfurl and turn green in the light, the seedling has no working way to make its own food, so it has to run on stored reserves in the meantime."
+          },
+          {
+            "label": "The roots are not yet developed enough to support any leaf at all",
+            "feedback": "The root system is usually already functioning by this stage, drawing in water. What is still missing is a leaf that is unfurled, green and exposed to light."
+          },
+          {
+            "label": "The seed leaves need to be used up before the true leaves are allowed to open",
+            "feedback": "The true leaves unfurl and begin working as soon as they are ready, independent of how much of the stored reserve happens to remain at that point."
+          }
+        ],
+        "ok_title": "Running on savings first",
+        "ok_line": "Photosynthesis needs a working green leaf in the light, and that takes time to grow.",
+        "ko_title": "Not the constraint",
+        "ko_line": "Photosynthesis is not available on day one. What has to exist and be exposed to light before a seedling can make any food of its own?",
+        "exp_title": "A store that bridges the gap",
+        "exp_text": "Making food through photosynthesis requires a leaf that has unfurled, turned green, and been exposed to light, and none of that exists in the first moments after a seed sprouts. Until the true leaves reach that stage, the seedling survives entirely on the reserve of food packed into its seed leaves before it ever left the parent plant. Only once real, working leaves are open and catching light does the seedling stop drawing on that stored supply."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the seeds of some plants refuse to germinate until they have been through a long stretch of cold, such as a winter?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A required period of cold acts as an internal signal that a full winter has actually passed, so the seed is not fooled by a brief warm spell in autumn",
+            "feedback": "Without this requirement, a warm patch of days in autumn could trick a seed into sprouting right before a hard frost kills the young seedling, so demanding sustained cold first protects it from that mistake."
+          },
+          {
+            "label": "Cold physically freezes the seed coat until it shatters open",
+            "feedback": "The seed coat generally stays intact through the cold period rather than being shattered by it. The cold is acting as a signal being sensed, not a force breaking the coat apart."
+          },
+          {
+            "label": "Cold kills off competing seeds nearby, clearing space before this one sprouts",
+            "feedback": "The requirement for cold applies to the seed itself and what it senses internally, regardless of whether any other seeds happen to be nearby at all."
+          },
+          {
+            "label": "Cold seals moisture inside the seed so it cannot dry out later",
+            "feedback": "Sealing moisture in is not the role cold is playing. The seed still needs to take up water for germination afterward, exactly as any other seed does."
+          }
+        ],
+        "ok_title": "Timed to skip a fatal season",
+        "ok_line": "The cold itself is the message: winter is over.",
+        "ko_title": "Not the function of the cold",
+        "ko_line": "A seed that sprouted the moment it got slightly warm in autumn would face a hard frost soon after. What would sensing an entire cold season, rather than one mild spell, protect it from?",
+        "exp_title": "A safeguard against sprouting too soon",
+        "exp_text": "A brief warm spell can occur even in the middle of autumn, and a seed that responded to warmth alone could be tricked into sprouting right before a killing frost arrived. Requiring a long, sustained period of cold first means the seed only reads a true, completed winter as the signal, not a passing mild patch. Only once that whole cold stretch has been sensed does the seed treat it as safe to begin germinating."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some tough-coated seeds only germinate after passing through an animal's digestive system, which wears their coat down along the way?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Digestion adds nutrients from the animal directly into the seed",
+            "feedback": "The seed's own stored reserves are what feed its early growth. Digestion is not depositing anything new inside the coat, only affecting the coat from outside."
+          },
+          {
+            "label": "Digestion resets the seed's internal clock back to zero",
+            "feedback": "A seed does not carry a running clock to be reset. What changes during digestion is purely physical, to the coat itself, not to any internal timer."
+          },
+          {
+            "label": "Stomach acid and grinding thin the hard coat enough to finally let water in, which an intact coat would otherwise keep out indefinitely",
+            "feedback": "A fully intact, hard coat can block water from reaching the embryo for a very long time, and only once acid and grinding have worn it down enough does water finally get through to start germination."
+          },
+          {
+            "label": "Being swallowed teaches the seed which season it is in",
+            "feedback": "A seed has no way to sense or learn the season through being swallowed. What digestion actually changes is the physical state of the coat around it."
+          }
+        ],
+        "ok_title": "A coat worn thin enough to let water through",
+        "ok_line": "The seed was never waiting for the animal — it was waiting for its own armour to be worn down.",
+        "ko_title": "Not what digestion changes",
+        "ko_line": "A hard coat can block water from reaching the embryo indefinitely. What does passing through a digestive system physically do to that coat?",
+        "exp_title": "A barrier ground down from outside",
+        "exp_text": "Some seed coats are hard and thick enough to keep water out almost indefinitely on their own, leaving the embryo inside unable to germinate no matter how favourable the soil is. Passing through an animal's gut exposes that coat to stomach acid and the mechanical grinding of digestion, wearing it thin in places it would otherwise never be worn. Once the coat has been weakened enough, water can finally reach the embryo inside, and germination can begin."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some very small seeds, like certain lettuce varieties, only germinate if they land right at the soil surface, refusing to sprout if buried deep?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Deep soil is always too cold for a small seed to survive in",
+            "feedback": "Soil just a little below the surface is often barely cooler than the surface itself, so temperature alone does not explain such a strict requirement."
+          },
+          {
+            "label": "A pigment inside the seed detects light itself, and the seed only germinates when enough light reaches it to signal that the surface is close",
+            "feedback": "A tiny seed carries only a small store of food, and if it sprouted while buried too deep it would exhaust that store trying to reach the surface. Sensing light directly lets it only commit to germinating when it is already close enough to succeed."
+          },
+          {
+            "label": "Deep soil contains too much water for the seed to handle",
+            "feedback": "Excess water is not the barrier here — many small seeds germinate perfectly well in consistently moist soil, so long as they are close enough to the surface."
+          },
+          {
+            "label": "Buried seeds are eaten by soil insects before they can sprout",
+            "feedback": "This requirement holds even in soil free of any insects, so being eaten cannot be the reason such a strict surface requirement exists."
+          }
+        ],
+        "ok_title": "Waiting for a light it can actually detect",
+        "ok_line": "A tiny reserve of food only stretches far enough if the surface is already close.",
+        "ko_title": "Not the trigger",
+        "ko_line": "A very small seed carries only a very small store of food to fuel its first growth. What would happen if it sprouted too far below the surface to ever reach the light?",
+        "exp_title": "A light-sensitive gamble worth taking only up close",
+        "exp_text": "A small seed carries only a tiny store of food, barely enough to push a shoot a short distance before it must start making its own food in the light. If it germinated while buried too deep, it would use up that store before ever reaching the surface and die underground. A pigment inside the seed detects light directly, so the seed only germinates once enough light is reaching it to confirm the surface is within its reach."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a hard, sealed seed coat sometimes stop a seed from germinating even in perfectly warm, damp soil?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The coat can physically block water or oxygen from reaching the embryo, or hold chemical inhibitors that must be worn down or washed out first",
+            "feedback": "A seed with a coat this effective simply cannot start germinating no matter how favourable the soil is, because the water, oxygen or chemical signal it needs never actually gets through to the embryo inside."
+          },
+          {
+            "label": "Warm, damp soil actually destroys the embryo before it can sprout",
+            "feedback": "Warm, damp soil is the exact condition that normally lets germination proceed once a seed's coat allows it. It is not a threat to the embryo in itself."
+          },
+          {
+            "label": "The coat needs to be exposed to darkness for a full year before it will allow germination",
+            "feedback": "There is no fixed waiting period built into the coat like a timer. What blocks germination is the coat's physical or chemical barrier, not the simple passage of time in darkness."
+          },
+          {
+            "label": "A sealed coat means the seed inside has already died",
+            "feedback": "A dormant seed with a sealed coat is very much alive, simply prevented from starting to grow until the barrier around it is broken down."
+          }
+        ],
+        "ok_title": "A barrier, not a lack of conditions",
+        "ok_line": "Perfect soil means nothing if the coat never lets the seed sense it.",
+        "ko_title": "Not the obstacle",
+        "ko_line": "The soil itself is already ideal in this question. So what, specifically, is standing between the embryo and that ideal soil?",
+        "exp_title": "A coat that keeps good conditions from reaching the embryo",
+        "exp_text": "A seed's coat can be built to physically stop water or oxygen from ever reaching the embryo inside, or it can hold chemical compounds that actively suppress germination until they are broken down or washed away. In either case, the surrounding soil can be as warm and damp as it likes without that changing anything, because the embryo never actually senses those good conditions through the barrier. Only once the coat's block is worn down, cracked, or leached out can germination finally proceed, regardless of how long the seed sat waiting in favourable soil."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the seeds of some fire-adapted plants only germinate after their coat has been exposed to the intense heat of a fire?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Fire adds nutrients from smoke directly into the seed's stored reserves",
+            "feedback": "What changes here is the physical state of the coat itself, not the food already stored inside the seed from before the fire ever happened."
+          },
+          {
+            "label": "Fire kills competing insects that would otherwise eat the seed before it can sprout",
+            "feedback": "This germination trigger depends on heat reaching the coat itself, and holds even where no seed-eating insects were ever present to begin with."
+          },
+          {
+            "label": "Fire simply speeds up a countdown the seed had already started before the fire arrived",
+            "feedback": "The seed is not counting down on its own; it stays fully dormant and unresponsive until the heat itself physically acts on the sealed coat."
+          },
+          {
+            "label": "Intense heat melts or cracks a resin or wax sealing the coat, finally letting water reach the embryo just as competition is cleared and the soil is enriched with ash",
+            "feedback": "The seed's coat is sealed by a resin or wax that ordinary warmth cannot break down, and only the heat of a real fire is strong enough to melt or crack it open, timing germination to exactly the moment competing plants are gone and the ash has enriched the soil."
+          }
+        ],
+        "ok_title": "A seal built for one specific key",
+        "ok_line": "Ordinary warmth cannot open it. Only real fire can.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "This seed's coat resists ordinary warm, damp conditions entirely. What is different about a fire that ordinary weather could never provide?",
+        "exp_title": "A coat sealed against everything but fire",
+        "exp_text": "In these seeds, the coat is sealed with a resin or wax tough enough to resist ordinary warmth and moisture indefinitely, keeping the embryo fully dormant through years of otherwise favourable conditions. Only the intense heat of an actual fire is strong enough to melt or crack that seal, finally letting water reach the embryo inside. That timing works in the plant's favour, since a recent fire also clears away competing growth and leaves the soil enriched with ash, right when the seed is finally free to germinate into it."
+      }
+    ]
+  }
+]

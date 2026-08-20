@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 222,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What substance is responsible for producing light in a bioluminescent organism?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Chlorophyll",
+            "feedback": "Chlorophyll is the green pigment used in photosynthesis, not in making light. The light comes from a molecule called luciferin."
+          },
+          {
+            "label": "Hemoglobin",
+            "feedback": "Hemoglobin carries oxygen in blood, it has nothing to do with light production. The glow comes from luciferin."
+          },
+          {
+            "label": "Luciferin",
+            "feedback": "Correct — luciferin is the molecule that emits light when it reacts with oxygen, often with the help of an enzyme."
+          },
+          {
+            "label": "Melanin",
+            "feedback": "Melanin is a pigment that gives color to skin and hair, not light. Light is made by luciferin."
+          }
+        ],
+        "ok_title": "Light maker",
+        "ok_line": "Luciferin is the molecule that glows.",
+        "ko_title": "Wrong molecule",
+        "ko_line": "That molecule doesn't make light.",
+        "exp_title": "Luciferin's role",
+        "exp_text": "Luciferin is the light-producing molecule in bioluminescence. When it combines with oxygen, it releases energy as light, usually with an enzyme called luciferase speeding up the reaction."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the enzyme that helps luciferin produce light?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Luciferase",
+            "feedback": "Correct — luciferase is the enzyme that catalyzes the reaction, making the light flash quickly."
+          },
+          {
+            "label": "Amylase",
+            "feedback": "Amylase breaks down starch, not light. The enzyme that works with luciferin is luciferase."
+          },
+          {
+            "label": "Catalase",
+            "feedback": "Catalase breaks down hydrogen peroxide, it's not involved in bioluminescence. The enzyme is luciferase."
+          },
+          {
+            "label": "Pepsin",
+            "feedback": "Pepsin digests proteins in the stomach. The enzyme for light is luciferase."
+          }
+        ],
+        "ok_title": "Speedy helper",
+        "ok_line": "Luciferase makes the glow happen fast.",
+        "ko_title": "Not that enzyme",
+        "ko_line": "That enzyme does a different job.",
+        "exp_title": "Luciferase's job",
+        "exp_text": "Luciferase is the enzyme that speeds up the reaction between luciferin and oxygen, allowing the organism to produce light quickly and efficiently."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of a firefly's body is the light produced?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Head",
+            "feedback": "The head holds the eyes and antennae, not the light organ. The glow comes from the lower abdomen."
+          },
+          {
+            "label": "Thorax",
+            "feedback": "The thorax is the middle section where legs and wings attach, but the light organ is in the abdomen."
+          },
+          {
+            "label": "Wings",
+            "feedback": "Wings are for flying, they don't produce light. The light organ sits in the abdomen near the tail."
+          },
+          {
+            "label": "Abdomen",
+            "feedback": "Correct — fireflies have a special light organ in their abdomen, near the rear end, that contains luciferin and luciferase."
+          }
+        ],
+        "ok_title": "Glowing rear",
+        "ok_line": "Fireflies glow from their abdomen.",
+        "ko_title": "Wrong body part",
+        "ko_line": "That part doesn't glow in fireflies.",
+        "exp_title": "Firefly's light organ",
+        "exp_text": "The light organ in a firefly is located in the abdomen, on the underside. It is filled with tiny cells that make light when oxygen reaches them, producing the familiar flash."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What color is the light produced by nearly all ocean bioluminescent animals?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red light is rare in the ocean and is used by a few fish like the dragonfish, not by most. Nearly all ocean light is blue."
+          },
+          {
+            "label": "Blue",
+            "feedback": "Correct — blue light travels farthest in water, so most marine creatures glow blue to be seen or to see."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green appears in some coastal glows, but in the deep open ocean blue is the rule because water absorbs other colors."
+          },
+          {
+            "label": "White",
+            "feedback": "White light would be a mix of colors, but ocean bioluminescence is almost always blue, not white."
+          }
+        ],
+        "ok_title": "Ocean blue",
+        "ok_line": "Blue light is the ocean's favorite color.",
+        "ko_title": "Not that color",
+        "ko_line": "Ocean light is usually blue, not that.",
+        "exp_title": "Why blue in the sea",
+        "exp_text": "Blue light is the color that passes through seawater best, so blue bioluminescence lets animals communicate and see without being lost. Most ocean glows are therefore blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do firefly larvae and eggs use their glow for?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To attract mates",
+            "feedback": "Adult fireflies use light to find mates, but eggs and larvae cannot reproduce yet — they glow for a different reason."
+          },
+          {
+            "label": "To scare predators",
+            "feedback": "Scaring predators is not the main role; the glow in larvae and eggs warns predators that they taste bad, which is a form of defense."
+          },
+          {
+            "label": "To warn predators that they are poisonous",
+            "feedback": "Correct — the glow acts as a warning signal, telling predators that the firefly is unpalatable or toxic, so they avoid eating it."
+          },
+          {
+            "label": "To light up the dark",
+            "feedback": "Larvae don't need light to see; their glow is a warning signal to predators, not a flashlight."
+          }
+        ],
+        "ok_title": "Warning glow",
+        "ok_line": "Larvae glow to warn predators.",
+        "ko_title": "Not that purpose",
+        "ko_line": "That's not why larvae glow.",
+        "exp_title": "Defensive glow",
+        "exp_text": "Firefly larvae and eggs produce light as a warning that they contain toxic chemicals, so predators learn to leave them alone. This is called aposematic signaling."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the deep sea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ocean below about 200 meters, where sunlight does not reach",
+            "feedback": "Correct — the deep sea starts around 200 meters deep, where sunlight fades out completely, leaving total darkness."
+          },
+          {
+            "label": "The ocean below 1000 meters, where it is very cold",
+            "feedback": "Below 1000 meters is certainly deep, but the deep sea already begins at about 200 meters, not 1000."
+          },
+          {
+            "label": "Any ocean water deeper than 50 meters",
+            "feedback": "At 50 meters there is still sunlight, so that's not the deep sea. It starts much deeper, around 200 meters."
+          },
+          {
+            "label": "The ocean floor, regardless of depth",
+            "feedback": "The ocean floor can be shallow as well; the deep sea is defined by depth, not by the bottom."
+          }
+        ],
+        "ok_title": "Dark waters",
+        "ok_line": "Deep sea starts at 200 meters.",
+        "ko_title": "Wrong boundary",
+        "ko_line": "That's not where the deep sea begins.",
+        "exp_title": "Where deep sea begins",
+        "exp_text": "The deep sea is the part of the ocean below about 200 meters, where sunlight no longer penetrates. It is permanently dark, cold, and under high pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do many deep-sea animals do every night?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They sleep on the ocean floor",
+            "feedback": "Sleeping on the floor is not the nightly habit; many travel upward instead."
+          },
+          {
+            "label": "They bury themselves in sediment",
+            "feedback": "Burying is not a nightly routine; the key behavior is moving up in the water column."
+          },
+          {
+            "label": "They turn off their lights to hide",
+            "feedback": "Turning off lights isn't a nightly action; they move to different depths to find food."
+          },
+          {
+            "label": "They swim up toward the surface to feed",
+            "feedback": "Correct — many deep-sea animals migrate upward at night to feed in the richer surface waters, then return down at dawn."
+          }
+        ],
+        "ok_title": "Nightly journey",
+        "ok_line": "Deep-sea animals rise to feed at night.",
+        "ko_title": "Not that behavior",
+        "ko_line": "That's not their nightly habit.",
+        "exp_title": "Vertical migration",
+        "exp_text": "Many deep-sea creatures make a nightly vertical migration, swimming up hundreds of meters to feed under the cover of darkness and then sinking back down before sunrise."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the light produced by certain fungi in a dark wood called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Fluorescence",
+            "feedback": "Fluorescence is a different process where a material absorbs light and re-emits it. Fungal glow is bioluminescence, made by the fungus itself."
+          },
+          {
+            "label": "Bioluminescence",
+            "feedback": "Correct — glowing fungi produce their own light through a chemical reaction, which is bioluminescence."
+          },
+          {
+            "label": "Phosphorescence",
+            "feedback": "Phosphorescence stores light energy and releases it slowly, but fungi produce light chemically, not from stored sunlight."
+          },
+          {
+            "label": "Reflection",
+            "feedback": "Reflection bounces existing light; glowing fungi make their own light, so it's not reflection."
+          }
+        ],
+        "ok_title": "Fungal glow",
+        "ok_line": "Fungi glow through bioluminescence.",
+        "ko_title": "Not that term",
+        "ko_line": "That term doesn't fit fungal glow.",
+        "exp_title": "Glowing fungi",
+        "exp_text": "The soft light from fungi in a wood is bioluminescence, produced by a chemical reaction inside the fungus, usually from the gills or the mycelium."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does glowing wood give off no heat?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the light is very dim",
+            "feedback": "Dimness doesn't mean no heat; the reason is that the chemical reaction releases almost all energy as light, not heat."
+          },
+          {
+            "label": "Because the wood is wet",
+            "feedback": "Wetness affects burning, but bioluminescence is a different reaction that produces little heat regardless."
+          },
+          {
+            "label": "Because bioluminescence is a cold light",
+            "feedback": "Correct — bioluminescence produces light without significant heat, so the wood stays cool to the touch."
+          },
+          {
+            "label": "Because the glow only lasts a short time",
+            "feedback": "Duration doesn't determine heat; the reaction itself is efficient at making light without heat."
+          }
+        ],
+        "ok_title": "Cold light",
+        "ok_line": "Bioluminescence makes light without heat.",
+        "ko_title": "Not the reason",
+        "ko_line": "That doesn't explain the lack of heat.",
+        "exp_title": "Why it's cold",
+        "exp_text": "In bioluminescence, nearly all the chemical energy is converted directly into light, so almost no heat is produced. This is why glowing wood feels cool, unlike a burning log."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How is it possible to make a plant glow using fungal genes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "By inserting the genes for luciferin and luciferase into the plant",
+            "feedback": "Correct — scientists transfer the genes that produce luciferin and the enzyme luciferase, so the plant makes its own light."
+          },
+          {
+            "label": "By spraying the plant with a chemical that glows",
+            "feedback": "Spraying would only coat the outside and wouldn't last; the genes must be inside the plant's cells to produce light continuously."
+          },
+          {
+            "label": "By growing the plant in a special soil",
+            "feedback": "Soil can't add genes; the plant's DNA must be changed to include the glowing genes."
+          },
+          {
+            "label": "By shining a light on it at night",
+            "feedback": "Shining a light is not bioluminescence; the plant itself must make light through genes, not by reflecting."
+          }
+        ],
+        "ok_title": "Plant glow",
+        "ok_line": "Genes from fungi can make plants glow.",
+        "ko_title": "Not that method",
+        "ko_line": "That method wouldn't work.",
+        "exp_title": "Genetic engineering",
+        "exp_text": "Scientists can insert the genes that code for luciferin and luciferase from glowing fungi into a plant's DNA. The plant then produces both components and emits light on its own."
+      }
+    ]
+  }
+]

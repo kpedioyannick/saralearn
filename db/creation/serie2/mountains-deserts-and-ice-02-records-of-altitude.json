@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for the height of a mountain summit above sea level?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Elevation",
+            "feedback": "Correct. Elevation is the standard measure of how high a point sits above mean sea level, and it is what summit heights like 8,849 metres refer to."
+          },
+          {
+            "label": "Relief",
+            "feedback": "Relief describes the difference in height between the highest and lowest points in a landscape, not the fixed height of a summit above sea level."
+          },
+          {
+            "label": "Prominence",
+            "feedback": "Prominence measures how much a summit rises above the lowest saddle connecting it to higher terrain, not its height above sea level."
+          },
+          {
+            "label": "Altitude gain",
+            "feedback": "Altitude gain is a term for how much you climb from a starting point, not the standard measurement of a summit's height above sea level."
+          }
+        ],
+        "ok_title": "Elevation confirmed",
+        "ok_line": "Summit height above sea level is called elevation.",
+        "ko_title": "Measurement mix-up",
+        "ko_line": "Elevation, not relief, is the height above sea level.",
+        "exp_title": "Summit elevation",
+        "exp_text": "Elevation is the vertical distance of a point above mean sea level. For mountains, this is the number printed on maps and in records, such as Everest's 8,849 metres. Relief and prominence are other ways to describe terrain, but they are not the same as the simple summit height."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which unit is most commonly used to state the height of a mountain summit in international records?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Miles",
+            "feedback": "Miles are used in a few English-speaking countries for everyday distances, but international mountain heights are officially recorded in metres."
+          },
+          {
+            "label": "Feet",
+            "feedback": "Feet are used in some places for aviation and old maps, but the standard for global mountain records is the metre."
+          },
+          {
+            "label": "Metres",
+            "feedback": "Correct. The metre is the internationally accepted unit for elevations, so summit heights like 8,849 metres are quoted in metres."
+          },
+          {
+            "label": "Kilometres",
+            "feedback": "Kilometres are used for large distances like mountain range lengths, but summit heights are given in metres for precision."
+          }
+        ],
+        "ok_title": "Metres standard",
+        "ok_line": "Mountain heights are recorded in metres.",
+        "ko_title": "Unit confusion",
+        "ko_line": "Metres are the global standard for summit heights.",
+        "exp_title": "Standard height unit",
+        "exp_text": "The metre is the base unit for measuring elevation in the international system. Summits are almost always quoted in metres, sometimes with decimals for precision, so a height like 8,849 metres is clear and consistent worldwide. Kilometres are too coarse for such measurements."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a mountain's 'true base' refer to when measuring its height from bottom to top?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The sea level line",
+            "feedback": "Sea level is the reference for elevation, but the true base of a mountain can be far above or below sea level, such as on the ocean floor."
+          },
+          {
+            "label": "The lowest pass nearby",
+            "feedback": "The lowest pass is used for prominence calculations, not for finding where a mountain's own base sits."
+          },
+          {
+            "label": "The valley floor right beside it",
+            "feedback": "The valley floor is often near a mountain's visible base, but for underwater or plateau-based mountains, the true base is the actual start of the rise, which may be deep underwater or on a high plain."
+          },
+          {
+            "label": "The point where the mountain's own slopes begin to rise from the surrounding terrain",
+            "feedback": "Correct. The true base is the lowest point on the mountain itself, which for an oceanic volcano is the seafloor, and for a plateau peak is the plateau surface."
+          }
+        ],
+        "ok_title": "Base found",
+        "ok_line": "True base is where the mountain's rise starts.",
+        "ko_title": "Base misread",
+        "ko_line": "True base is not sea level or a pass.",
+        "exp_title": "Defining mountain base",
+        "exp_text": "A mountain's true base is the lowest point where its own slopes leave the general terrain around it. This matters when comparing heights because one peak may start from the ocean floor and another from a high plateau. Sea level only gives elevation, not the full rise of the mountain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mountain is often cited as having the greatest height from its true base to its summit on Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mount Everest",
+            "feedback": "Everest is highest above sea level, but its base sits on the Tibetan Plateau, which is already over 5,000 metres up, so its total rise is less than that of Mauna Kea."
+          },
+          {
+            "label": "Mauna Kea",
+            "feedback": "Correct. Mauna Kea in Hawaii rises about 10,210 metres from the Pacific seafloor to its summit, exceeding Everest's rise from its own base."
+          },
+          {
+            "label": "Denali",
+            "feedback": "Denali is a tall peak from its base in Alaska, but its total rise is around 5,500 metres, far less than Mauna Kea's underwater start."
+          },
+          {
+            "label": "Mount Kilimanjaro",
+            "feedback": "Kilimanjaro rises from the African plains about 5,895 metres, which is substantial but not the greatest base-to-summit height."
+          }
+        ],
+        "ok_title": "Mauna Kea wins",
+        "ok_line": "Mauna Kea is tallest from its true base.",
+        "ko_title": "Everest mistaken",
+        "ko_line": "Everest is highest above sea level, not from base.",
+        "exp_title": "Base-to-summit record",
+        "exp_text": "Mauna Kea's base rests on the ocean floor, so its full height from base to summit is about 10,210 metres, more than Everest's 8,849 metres above sea level. Everest's base is already high on a plateau, so its rise is only about 3,700 metres from the plateau's surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'prominence' of a mountain measure?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "How high a summit rises above the lowest saddle connecting it to higher ground",
+            "feedback": "Correct. Prominence is the vertical drop from a summit to the highest saddle that leads to any higher peak, measuring independence."
+          },
+          {
+            "label": "The steepness of the mountain's slopes",
+            "feedback": "Steepness is a slope angle, not a vertical height measurement, and it has its own term like gradient."
+          },
+          {
+            "label": "The distance along the mountain's surface from base to top",
+            "feedback": "Surface distance along slopes is a path length, not a vertical difference, and it is not called prominence."
+          },
+          {
+            "label": "The total height from the ocean floor to the summit",
+            "feedback": "That is the base-to-summit height, which is not the same as prominence because it ignores saddles and higher terrain."
+          }
+        ],
+        "ok_title": "Prominence defined",
+        "ok_line": "Prominence measures a summit's independence.",
+        "ko_title": "Misdefined term",
+        "ko_line": "Prominence is not steepness or total height.",
+        "exp_title": "Mountain prominence",
+        "exp_text": "Prominence is the minimum vertical drop needed to walk from a summit to any higher point. It uses the highest saddle (or 'key col') that connects to a taller peak. A high prominence means the summit stands out clearly from its surroundings, whereas a low prominence means it is just a bump on a larger ridge."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is considered the highest mountain peak on Earth above sea level?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "K2",
+            "feedback": "K2 is the second highest above sea level at 8,611 metres, but it is not the highest."
+          },
+          {
+            "label": "Kangchenjunga",
+            "feedback": "Kangchenjunga is the third highest at 8,586 metres, so it remains below Everest."
+          },
+          {
+            "label": "Lhotse",
+            "feedback": "Lhotse is the fourth highest at 8,516 metres, and it is connected to Everest, but not as tall."
+          },
+          {
+            "label": "Mount Everest",
+            "feedback": "Correct. Mount Everest's summit is 8,849 metres above sea level, the highest on Earth."
+          }
+        ],
+        "ok_title": "Everest confirmed",
+        "ok_line": "Everest is highest above sea level.",
+        "ko_title": "Peak mix-up",
+        "ko_line": "K2, Kangchenjunga, Lhotse are all lower.",
+        "exp_title": "Highest summit",
+        "exp_text": "Mount Everest, at 8,849 metres above sea level, holds the record for the highest summit on Earth. The other peaks listed are all giants in the Himalayas, but none reach that height. This elevation is measured from mean sea level, not from the mountain's own base."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which mountain summit is farthest from the centre of the Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Mount Everest",
+            "feedback": "Everest is highest above sea level, but because the Earth bulges at the equator, it is not the farthest from the centre."
+          },
+          {
+            "label": "Mauna Kea",
+            "feedback": "Mauna Kea is tall from its base, but its summit sits at about 4,205 metres above sea level, which is lower than Chimborazo's position."
+          },
+          {
+            "label": "Chimborazo",
+            "feedback": "Correct. Chimborazo's summit sits near the equator, where the Earth's bulge makes it about 6,384 kilometres from the centre, farther than Everest."
+          },
+          {
+            "label": "Denali",
+            "feedback": "Denali is far north, where the Earth is flatter, so its summit is not as far from the centre as an equatorial mountain."
+          }
+        ],
+        "ok_title": "Chimborazo farthest",
+        "ok_line": "Equatorial bulge makes Chimborazo farthest.",
+        "ko_title": "Everest assumption",
+        "ko_line": "Highest above sea level is not farthest from centre.",
+        "exp_title": "Distance from Earth's centre",
+        "exp_text": "Because the Earth is not a perfect sphere but bulges at the equator, points near the equator are farther from the centre. Chimborazo in Ecuador is almost on the equator, so its summit is about 6,384 kilometres from the centre, while Everest, though higher above sea level, is closer due to its latitude."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the lowest point on Earth's land surface, at the shore of the Dead Sea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 430 metres below sea level",
+            "feedback": "Correct. The Dead Sea shore is about 430 metres below sea level, making it the lowest dry land on Earth."
+          },
+          {
+            "label": "About 100 metres above sea level",
+            "feedback": "That would be above sea level, but the Dead Sea is actually well below it."
+          },
+          {
+            "label": "About 800 metres below sea level",
+            "feedback": "That is too low; the Dead Sea shore is not that deep. The ocean floor is much lower than that."
+          },
+          {
+            "label": "At exactly sea level",
+            "feedback": "The Dead Sea is far below sea level, so its shore cannot be at sea level."
+          }
+        ],
+        "ok_title": "Dead Sea low",
+        "ok_line": "Dead Sea shore is 430 m below sea level.",
+        "ko_title": "Elevation error",
+        "ko_line": "Dead Sea is not above or at sea level.",
+        "exp_title": "Lowest land point",
+        "exp_text": "The shore of the Dead Sea, between Israel and Jordan, sits about 430 metres below mean sea level. Water flows in but cannot escape, so it evaporates, leaving the area as the lowest dry land on the planet. This depth is measured from sea level, not from any base."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the ocean holds the deepest known point on Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Atlantic's mid-ocean ridge",
+            "feedback": "Mid-ocean ridges are where new crust forms, and they rise high above the abyssal plain, not the deepest points."
+          },
+          {
+            "label": "The Mariana Trench",
+            "feedback": "Correct. The Mariana Trench in the western Pacific contains the Challenger Deep, about 10,994 metres below sea level."
+          },
+          {
+            "label": "The Mediterranean Sea",
+            "feedback": "The Mediterranean is a relatively shallow sea, far from having the greatest depths."
+          },
+          {
+            "label": "The Arctic Ocean",
+            "feedback": "The Arctic Ocean has deep basins, but its deepest point, around 5,500 metres, is far less than the Mariana Trench."
+          }
+        ],
+        "ok_title": "Mariana Trench",
+        "ok_line": "Deepest point is in the Mariana Trench.",
+        "ko_title": "Ocean mix-up",
+        "ko_line": "Mid-ocean ridges rise, not sink deepest.",
+        "exp_title": "Ocean's deepest point",
+        "exp_text": "The Mariana Trench is a subduction zone where the Pacific plate dives beneath the Mariana plate, creating a deep cleft. Its floor, the Challenger Deep, lies about 10,994 metres below sea level, making it the deepest known point in the world's oceans. Other oceans have deep trenches but none as deep."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which continent has the highest average elevation of all seven?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Asia",
+            "feedback": "Asia has the highest mountains, but its overall average elevation is about 960 metres, less than Antarctica's."
+          },
+          {
+            "label": "Africa",
+            "feedback": "Africa's average elevation is around 600 metres, with many plateaus, but not the highest average."
+          },
+          {
+            "label": "North America",
+            "feedback": "North America averages about 760 metres, with mountain ranges, but still below Antarctica."
+          },
+          {
+            "label": "Antarctica",
+            "feedback": "Correct. Antarctica has an average elevation of about 2,300 metres, mainly because of its thick ice sheet covering the continent."
+          }
+        ],
+        "ok_title": "Antarctica highest",
+        "ok_line": "Antarctica has the highest average elevation.",
+        "ko_title": "Continent confusion",
+        "ko_line": "Asia has peaks, but Antarctica averages higher.",
+        "exp_title": "Average elevation by continent",
+        "exp_text": "Antarctica's average elevation is about 2,300 metres, far above any other continent, because the ice sheet that covers it is thousands of metres thick. Even the underlying rock is low-lying, but the ice raises the surface. Asia, with the Himalayas, still has a much lower average because much of its land is lowlands."
+      }
+    ]
+  }
+]

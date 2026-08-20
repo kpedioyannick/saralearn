@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the four terrestrial planets in the Solar System?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mercury, Venus, Earth, and Jupiter",
+            "feedback": "Jupiter is not a terrestrial planet; it is a gas giant. The four rocky planets are the inner ones: Mercury, Venus, Earth, and Mars."
+          },
+          {
+            "label": "Mercury, Venus, Earth, and Mars",
+            "feedback": "Correct. These are the four inner planets, closest to the Sun, and they are made mostly of rock and metal."
+          },
+          {
+            "label": "Earth, Mars, Jupiter, and Saturn",
+            "feedback": "Jupiter and Saturn are gas giants, not rocky planets. The terrestrial planets are only the four inner ones."
+          },
+          {
+            "label": "Venus, Earth, Mars, and Neptune",
+            "feedback": "Neptune is a gas giant, far from the Sun. The rocky planets are Mercury, Venus, Earth, and Mars."
+          }
+        ],
+        "ok_title": "Four rocky worlds",
+        "ok_line": "These are the inner planets closest to the Sun.",
+        "ko_title": "Check the inner four",
+        "ko_line": "The rocky planets are the ones nearest the Sun.",
+        "exp_title": "The rocky planets",
+        "exp_text": "The four terrestrial planets are Mercury, Venus, Earth, and Mars. They are called terrestrial because they are Earth-like in structure, with solid surfaces made of rock and metal, unlike the gas giants farther out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main material that makes up the core of a terrestrial planet?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Silicate rock",
+            "feedback": "Silicate is the main material of the mantle, not the core. The core is made of metal, mostly iron."
+          },
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "That is what gas giants are mostly made of, not the rocky planets. The core of a terrestrial planet is metallic."
+          },
+          {
+            "label": "Iron",
+            "feedback": "Correct. The central metallic core of a terrestrial planet is mostly iron, with a silicate mantle around it."
+          },
+          {
+            "label": "Ice",
+            "feedback": "Ice is not a major component of terrestrial planets; they are rock and metal. Some icy moons have ice, but not the rocky planets."
+          }
+        ],
+        "ok_title": "Metal core",
+        "ok_line": "Iron is the main metal in the center.",
+        "ko_title": "Not rock, not gas",
+        "ko_line": "The core is metallic, mostly iron.",
+        "exp_title": "Core composition",
+        "exp_text": "All terrestrial planets have a central metallic core, mostly iron. Around that core sits a mantle made of silicate rock."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is NOT a surface feature that a terrestrial planet can have?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Bands of swirling gas",
+            "feedback": "Correct. Bands of swirling gas are found on gas giants like Jupiter, not on rocky planets. Terrestrial surfaces have canyons, craters, mountains, and volcanoes."
+          },
+          {
+            "label": "Canyons and craters",
+            "feedback": "These are real surface features on rocky planets, shaped by impacts and erosion. The question asks for something they do not have, so this is not the right answer."
+          },
+          {
+            "label": "Mountains and volcanoes",
+            "feedback": "These are common on terrestrial planets, built by tectonics and volcanism. The question asks for a feature they lack, so this is wrong."
+          },
+          {
+            "label": "Volcanoes and craters",
+            "feedback": "Both are typical rocky-planet features. The question asks for what is not possible, so this is not correct."
+          }
+        ],
+        "ok_title": "No gas bands",
+        "ok_line": "Rocky planets have solid surfaces, not gas bands.",
+        "ko_title": "Think solid ground",
+        "ko_line": "Those are real rocky-planet features.",
+        "exp_title": "Surface features",
+        "exp_text": "Terrestrial planets have solid surfaces that can show canyons, craters, mountains, and volcanoes. Bands of swirling gas are a feature of gas giants, not of rocky planets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of atmosphere do terrestrial planets have?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Primary atmosphere",
+            "feedback": "Primary atmospheres are captured directly from the solar nebula, which is what gas giants have. Terrestrial planets have secondary atmospheres."
+          },
+          {
+            "label": "No atmosphere at all",
+            "feedback": "Some terrestrial planets like Venus and Earth have thick atmospheres. Even Mercury has a very thin one, so this is not correct."
+          },
+          {
+            "label": "An atmosphere made of hydrogen and helium",
+            "feedback": "That is typical of gas giants, not rocky planets. Terrestrial atmospheres are secondary, generated later."
+          },
+          {
+            "label": "Secondary atmosphere",
+            "feedback": "Correct. Terrestrial planets get their atmospheres from volcanic out-gassing and comet impact debris, not from the original solar nebula."
+          }
+        ],
+        "ok_title": "Secondary air",
+        "ok_line": "Rocky planets make their own atmospheres.",
+        "ko_title": "Not from the nebula",
+        "ko_line": "Gas giants capture primary atmospheres; rocky ones don't.",
+        "exp_title": "Atmosphere origin",
+        "exp_text": "Terrestrial planets have secondary atmospheres, formed by volcanic out-gassing and material from comet impacts. This is different from gas giants, whose atmospheres are primary, captured directly from the solar nebula."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these bodies is NOT considered a terrestrial planet even under the geophysical definition?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Earth's Moon",
+            "feedback": "The Moon is geophysically considered a terrestrial planet because it has a rocky structure similar to Earth's, though with a smaller iron core. So this is not the right answer."
+          },
+          {
+            "label": "Jupiter's moon Io",
+            "feedback": "Io has a structure like a terrestrial planet, with a metallic core and silicate mantle, so it counts geophysically. This is not the correct answer."
+          },
+          {
+            "label": "Saturn's moon Titan",
+            "feedback": "Correct. Titan is an icy planet, composed mostly of ice and rock, so it is not terrestrial even under the geophysical definition. It is an icy world."
+          },
+          {
+            "label": "Jupiter's moon Europa",
+            "feedback": "Europa sometimes counts as terrestrial because of its rocky interior, though it has an ice layer on top. So it can be included, making this not the right answer."
+          }
+        ],
+        "ok_title": "Icy world excluded",
+        "ok_line": "Titan is not rocky, so it isn't terrestrial.",
+        "ko_title": "Rocky ones count",
+        "ko_line": "Some moons are terrestrial, but Titan isn't one.",
+        "exp_title": "Geophysical terrestrials",
+        "exp_text": "Under the geophysical definition, Earth's Moon, Io, and sometimes Europa count as terrestrial planets because they have rocky structures. Titan, however, is an icy planet, made mostly of ice and rock, so it does not qualify."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the basic structure of all terrestrial planets in the Solar System?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A central metallic core surrounded by a silicate mantle",
+            "feedback": "Correct. This is the common structure: a metal core, mostly iron, and then a rock mantle around it."
+          },
+          {
+            "label": "A central ice core surrounded by a rocky mantle",
+            "feedback": "Ice cores are not typical of terrestrial planets; they are rocky and metallic. Icy worlds have different structures, but not these planets."
+          },
+          {
+            "label": "A solid rock sphere with no core or mantle",
+            "feedback": "Terrestrial planets are not uniform; they have distinct layers. The core and mantle are always present in these planets."
+          },
+          {
+            "label": "A gas envelope with a small rocky center",
+            "feedback": "That describes gas giants, not terrestrial planets. These planets are solid through and through, with a metal core and rock mantle."
+          }
+        ],
+        "ok_title": "Metal in, rock out",
+        "ok_line": "Every rocky planet has an iron core and a rock mantle.",
+        "ko_title": "Not uniform, not icy",
+        "ko_line": "They are layered, with a metal center.",
+        "exp_title": "Planet structure",
+        "exp_text": "All terrestrial planets share the same basic internal structure: a central metallic core, mostly iron, surrounded by a mantle of silicate rock. This is true for Mercury, Venus, Earth, and Mars."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following bodies has a significant ice layer on its surface, making it sometimes called an icy planet?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Earth",
+            "feedback": "Earth has a hydrosphere of liquid water, not an ice layer like what is described. The body with a significant surface ice layer is Europa."
+          },
+          {
+            "label": "Europa",
+            "feedback": "Correct. Europa has a similar density to terrestrial planets but has a thick ice layer on its surface, so it is sometimes classified as an icy planet."
+          },
+          {
+            "label": "Mercury",
+            "feedback": "Mercury has no ice layer on its surface; it is a rocky planet with no such ice coverage. The icy one is Europa."
+          },
+          {
+            "label": "Io",
+            "feedback": "Io is rocky and volcanic, with no surface ice layer. It is similar to terrestrial planets but without the ice."
+          }
+        ],
+        "ok_title": "Icy Europa",
+        "ok_line": "Europa's surface is covered with ice.",
+        "ko_title": "Not the rocky ones",
+        "ko_line": "Rocky planets don't have surface ice layers like that.",
+        "exp_title": "Europa's ice",
+        "exp_text": "Europa has a density similar to terrestrial planets but is covered with a significant ice layer on its surface. Because of this, it is sometimes considered an icy planet rather than a purely terrestrial one."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do terrestrial planets have secondary atmospheres rather than primary ones?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they are too small to hold any gas",
+            "feedback": "They do hold gas, but it comes from later sources, not from being too small. The reason is about where the gas comes from, not size."
+          },
+          {
+            "label": "Because they captured gas from the solar nebula",
+            "feedback": "That is what makes a primary atmosphere, which is what gas giants have. Terrestrial planets did not capture from the nebula; they made their own later."
+          },
+          {
+            "label": "Because they have no volcanic activity",
+            "feedback": "Volcanic out-gassing is actually one source of secondary atmospheres, so this is the opposite of the truth."
+          },
+          {
+            "label": "Because their atmospheres formed from volcanic out-gassing and comet impacts",
+            "feedback": "Correct. Secondary atmospheres are generated by volcanic activity and material from comet impacts, not captured directly from the original solar nebula."
+          }
+        ],
+        "ok_title": "Made later",
+        "ok_line": "Their air comes from volcanoes and comets.",
+        "ko_title": "Not captured early",
+        "ko_line": "Primary atmospheres come from the nebula, but not these.",
+        "exp_title": "Source of air",
+        "exp_text": "Terrestrial planets have secondary atmospheres, created by volcanic out-gassing and debris from comet impacts. This is distinct from the primary atmospheres of gas giants, which were captured directly from the original solar nebula."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is true about the density trend of terrestrial planets in the Solar System?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Uncompressed density increases with distance from the Sun",
+            "feedback": "The trend is the opposite: uncompressed density gets lower as you go farther from the Sun, not higher."
+          },
+          {
+            "label": "All terrestrial planets have the same uncompressed density",
+            "feedback": "They do not; the uncompressed density varies, and it trends downward with more distance from the Sun."
+          },
+          {
+            "label": "Uncompressed density decreases with distance from the Sun",
+            "feedback": "Correct. The uncompressed densities of the rocky planets get lower the farther they are from the Sun, matching the temperature gradient in the early nebula."
+          },
+          {
+            "label": "Uncompressed density is random and shows no pattern",
+            "feedback": "There is a clear trend: it decreases with distance from the Sun, so this is not correct."
+          }
+        ],
+        "ok_title": "Density drops outward",
+        "ok_line": "Farther from the Sun, the rock is less dense.",
+        "ko_title": "Not random or flat",
+        "ko_line": "There is a steady trend with distance.",
+        "exp_title": "Density trend",
+        "exp_text": "The uncompressed densities of the terrestrial planets decrease as their distance from the Sun increases. This matches the temperature gradient that existed in the early solar nebula, where heat affected what materials condensed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between terrestrial planets and icy planets?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Terrestrial planets have no atmosphere, icy planets do",
+            "feedback": "Atmosphere presence is not the defining difference; it is about composition. Icy planets are made of ice and rock, not gas, and some terrestrial planets have thick atmospheres."
+          },
+          {
+            "label": "Terrestrial planets are made of rock and metal, icy planets of ice and rock",
+            "feedback": "Correct. Both have solid surfaces, but terrestrial planets are rock and metal, while icy planets are ice and rock."
+          },
+          {
+            "label": "Terrestrial planets are larger than icy planets",
+            "feedback": "Size is not the defining factor; composition is. Some icy planets like Ganymede are large, but that doesn't make them terrestrial."
+          },
+          {
+            "label": "Terrestrial planets have liquid water, icy planets have ice",
+            "feedback": "The presence of liquid water on Earth is not the key distinction. The composition difference is rock-and-metal versus ice-and-rock."
+          }
+        ],
+        "ok_title": "Rock vs. ice",
+        "ok_line": "Rocky planets are metal and rock, icy ones are ice and rock.",
+        "ko_title": "Composition matters",
+        "ko_line": "It's not size or atmosphere that sets them apart.",
+        "exp_title": "Terrestrial vs. icy",
+        "exp_text": "Both terrestrial and icy planets have solid surfaces, but they differ in composition. Terrestrial planets are made of rock and metal, while icy planets are made of ice and rock. Examples of icy planets include the dwarf planets like Pluto and most round moons."
+      }
+    ]
+  }
+]

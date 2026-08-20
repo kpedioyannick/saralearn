@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 118,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a snowflake almost always grow with six-fold symmetry rather than five or seven arms?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The angle water molecules naturally lock into when they freeze is built around six sides",
+            "feedback": "Each water molecule bonds to its neighbours at fixed angles that tile perfectly into a six-sided lattice, and every crystal that grows keeps that same underlying pattern."
+          },
+          {
+            "label": "Six is simply the most common number counted in nature",
+            "feedback": "This isn't a coincidence of counting; the number comes directly from the shape water molecules form when they bond together as ice."
+          },
+          {
+            "label": "Falling through six layers of cloud shapes it that way",
+            "feedback": "A snowflake does not need to pass through any particular number of layers; the six-sided shape is set the moment freezing begins, not built up floor by floor."
+          },
+          {
+            "label": "Wind bends a simple round crystal into six points",
+            "feedback": "Wind can knock a snowflake off course or break it, but it has no ability to reshape a round crystal into six precise points."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the reason",
+        "ok_line": "Six sides were decided the moment freezing started.",
+        "ko_line": "Look at how the water molecules themselves lock together, not at what happens to the crystal afterward.",
+        "exp_title": "Set by the molecule itself",
+        "exp_text": "A single water molecule is bent, with its two hydrogen atoms sitting at a fixed angle from each other, and when molecules freeze they bond to their neighbours along directions set by that angle. Those bonds naturally tile into a six-sided honeycomb pattern rather than any other shape, and every ice crystal that forms builds outward following that same underlying lattice. A snowflake's six arms are simply the six directions in which that lattice has room to keep growing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do scientists say no two snowflakes are ever exactly alike?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Each one is built from a different kind of water molecule",
+            "feedback": "Every water molecule is identical to every other; nothing about the molecules themselves varies from flake to flake."
+          },
+          {
+            "label": "Each flake's six arms grow in response to the exact conditions along its own path through the air",
+            "feedback": "Tiny shifts in temperature and moisture change how fast and in what shape a crystal's arms grow, and no two flakes fall along exactly the same path."
+          },
+          {
+            "label": "Snowflakes are shaped randomly with no cause at all",
+            "feedback": "The differences are not random and causeless; they come directly from the changing conditions each flake passes through as it falls."
+          },
+          {
+            "label": "Every flake starts from a differently shaped piece of dust",
+            "feedback": "The starting speck barely affects the final shape; what shapes a flake is everything that happens to it afterward, as it grows."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not quite",
+        "ok_line": "Same rules, different journey, different flake.",
+        "ko_line": "The building rule is the same for every flake; what differs is the trip down.",
+        "exp_title": "A different path, a different flake",
+        "exp_text": "A snowflake's six arms all grow following the same basic rule, but exactly how each arm branches depends on the precise temperature and humidity it is growing in at that moment. As a crystal falls, it drifts through a constantly shifting mix of conditions, and its arms record every tiny change along the way. Since no two crystals ever fall along the exact same path through the air, no two end up recording quite the same shape."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can water vapour in a cloud stay unfrozen even when the air around it is well below freezing?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Vapour is naturally immune to freezing",
+            "feedback": "Vapour freezes readily once conditions are right; it is not immune, only sometimes lacking what it needs to start."
+          },
+          {
+            "label": "The surrounding cloud droplets keep it warm",
+            "feedback": "Cloud droplets are just as cold as the air around them; nothing about them adds warmth to nearby vapour."
+          },
+          {
+            "label": "It needs a tiny particle, like dust or pollen, to begin freezing around",
+            "feedback": "Without a surface to start building an ice lattice on, water can stay liquid or vapour far below its freezing point."
+          },
+          {
+            "label": "Freezing only happens once the vapour touches the ground",
+            "feedback": "Snow crystals clearly form and grow while still high in the air, long before anything reaches the ground."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the reason",
+        "ok_line": "Ice needs a starting point, not just cold.",
+        "ko_line": "Cold alone is not enough; freezing needs somewhere to begin.",
+        "exp_title": "Cold is not enough on its own",
+        "exp_text": "Ice crystals grow by molecules locking onto an existing surface, one by one, extending a lattice that is already there. Without some tiny particle floating in the air, like a speck of dust or pollen, to act as that first surface, water molecules have nothing to lock onto and can stay unfrozen at temperatures far below freezing. Only once vapour finds such a particle can the first few molecules click into place and the ice crystal actually begin to grow."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does snow look white, given that it is made entirely of clear ice?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Snow contains tiny amounts of white pigment",
+            "feedback": "Ice has no pigment of any colour in it; the whiteness comes from what happens to light passing through, not from a dye."
+          },
+          {
+            "label": "Cold temperatures bleach the colour out of ice",
+            "feedback": "Temperature does not remove colour from anything; ice at any temperature is equally clear on its own."
+          },
+          {
+            "label": "Snow reflects only white light and absorbs every other colour",
+            "feedback": "Snow does not sort light by colour and reject the rest; nearly all colours of light are reflected back out roughly equally."
+          },
+          {
+            "label": "Light bounces between countless tiny ice surfaces and scatters back out in all colours evenly",
+            "feedback": "A snowflake is full of tiny faces and air gaps, and light entering it bounces around so many times that every colour ends up scattered back out in roughly equal amounts."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the mechanism",
+        "ok_line": "Every colour bounced back at once looks white.",
+        "ko_line": "A single piece of ice is clear; ask what changes once thousands of tiny pieces are packed together.",
+        "exp_title": "Every colour scattered back at once",
+        "exp_text": "A single crystal of ice is as clear as glass, letting light pass straight through with barely any colour lost. But snow is made of countless tiny crystals and air pockets packed together, and light entering it bounces from face to face many times before finding a way back out. Since every colour of light bounces around and escapes about equally, the mix that reaches your eye looks white rather than showing the clearness of the ice underneath."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a layer of fresh snow help protect the ground underneath it from extreme cold?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It traps still air between its crystals, and still air resists carrying heat away",
+            "feedback": "Fresh snow is mostly trapped air held in place by a loose lattice of crystals, and still air is a poor conductor, so heat escapes from the ground far more slowly."
+          },
+          {
+            "label": "It reflects the cold back up into the sky",
+            "feedback": "Cold is simply an absence of heat, not something that can be reflected; the protection comes from slowing heat loss, not bouncing cold away."
+          },
+          {
+            "label": "It melts slightly and forms a warm liquid layer",
+            "feedback": "Melting would remove the insulation rather than provide it; snow protects the ground precisely by staying as solid, air-filled crystals."
+          },
+          {
+            "label": "It generates a small amount of its own heat",
+            "feedback": "Snow has no heat source of its own; it can only slow down heat that is already trying to escape from the ground."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the mechanism",
+        "ok_line": "Trapped air, not the ice itself, does the protecting.",
+        "ko_line": "Think about what fills the spaces between the ice crystals.",
+        "exp_title": "Protected by trapped air",
+        "exp_text": "Loosely packed snow crystals leave a great many tiny air pockets between them, and that trapped air barely moves once it is sealed in. Still air conducts heat very poorly compared to solid ground or ice, so heat trying to escape upward from the soil is slowed at every gap it has to cross. A thick enough blanket of snow can keep the ground beneath it far milder than the bitter air sitting just above the surface."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually causes the crunching sound when you walk across fresh, cold snow?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Air being forced out from between the snowflakes",
+            "feedback": "Air escaping does happen, but on its own it makes no sound loud enough to explain the crunch."
+          },
+          {
+            "label": "Your weight snapping thousands of tiny ice crystal bonds at once",
+            "feedback": "Each footstep crushes a mass of fragile crystal structure, and every snapped bond releases a tiny burst of sound, all blending into one crunch."
+          },
+          {
+            "label": "Ice grinding directly against the sole of your boot",
+            "feedback": "The sound continues even with a perfectly smooth sole; the noise comes from inside the snow itself breaking apart, not from friction against your boot."
+          },
+          {
+            "label": "Water refreezing instantly under the pressure of your foot",
+            "feedback": "There is no liquid water present in cold, dry snow for pressure to refreeze; the sound happens even when nothing melts at all."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not quite",
+        "ok_line": "A footstep breaks a whole structure at once.",
+        "ko_line": "The sound is coming from something breaking, not from movement or pressure alone.",
+        "exp_title": "The sound of a structure collapsing",
+        "exp_text": "Cold, dry snow is a fragile lattice of ice crystals loosely bonded together with a lot of air between them. Stepping down puts sudden weight on that structure, and the bonds holding the crystals to each other snap under the strain far faster than the structure can bend to absorb it. Each snapping bond releases a tiny burst of sound, and enough of them breaking together in an instant is what you hear as a single crunch."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a snow crystal turn into a soft, round pellet known as graupel?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It melts partway and refreezes into a rounder shape",
+            "feedback": "Melting would smooth a crystal into water, not build up the bumpy, rounded coating that graupel actually has."
+          },
+          {
+            "label": "Strong wind wears its sharp arms down to a rounded shape",
+            "feedback": "Wind can break a fragile arm off entirely, but it does not sand a crystal smooth or round; something is added, not worn away."
+          },
+          {
+            "label": "It falls through a cloud of tiny supercooled droplets that freeze onto it on contact",
+            "feedback": "Each droplet freezes the instant it touches the crystal, gradually burying the original shape under layer after layer of frozen coating."
+          },
+          {
+            "label": "Several ordinary snowflakes stick together into one clump",
+            "feedback": "Clumped-together flakes stay light and loosely joined; graupel is instead a single dense, rounded pellet built by coating, not clumping."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the process",
+        "ok_line": "Buried under its own frozen coating.",
+        "ko_line": "Something is being added onto the crystal's surface, not removed or reshaped from outside.",
+        "exp_title": "Coated until the original shape disappears",
+        "exp_text": "Some clouds are filled with tiny water droplets cold enough to freeze on contact but not yet frozen on their own, a state called supercooling. As a snow crystal falls through such a cloud, these droplets strike its surface and freeze instantly, one after another, called riming. Enough layers of riming eventually bury the crystal's original branching shape completely, leaving behind a small, soft, rounded pellet instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do ice crystals grow as flat, plate-like shapes at some temperatures and as long, thin columns at others?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Plates form near the ground, columns form higher up",
+            "feedback": "Height alone does not decide the shape; it is the exact temperature a crystal is growing in, wherever that happens to be, that matters."
+          },
+          {
+            "label": "Columns form only around especially large dust particles",
+            "feedback": "The size of the starting particle barely influences the final shape; the surrounding temperature is what steers it."
+          },
+          {
+            "label": "Plates form from old crystals, columns from new ones",
+            "feedback": "Age is not the deciding factor; a young crystal and an old one growing at the same temperature take on the same kind of shape."
+          },
+          {
+            "label": "The exact temperature a crystal is growing in favours growth outward into plates or lengthwise into columns",
+            "feedback": "Very precise bands of temperature switch a growing crystal between building flat, wide faces and building narrow, elongated ones."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the deciding factor",
+        "ok_line": "Temperature alone decides plate or column.",
+        "ko_line": "Two crystals forming at the same time and height can still grow completely differently if their surroundings differ.",
+        "exp_title": "A shape set by temperature alone",
+        "exp_text": "As an ice crystal grows, water vapour molecules add themselves fastest to whichever face currently offers them the easiest place to attach, and which face that is changes sharply with temperature. In some narrow temperature bands the flat top and bottom faces grow fastest, spreading the crystal outward into a thin plate. In other bands the side faces grow fastest instead, stretching the crystal lengthwise into a slender column."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a given amount of water produce a much bulkier layer when it falls as snow than when it falls as rain?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Snow crystals lock together loosely, trapping a lot of air between their branching arms",
+            "feedback": "The branching shape of ice crystals leaves large open gaps wherever they touch, so the same water ends up taking up far more space than it would as liquid."
+          },
+          {
+            "label": "Snow is made of a different, lighter kind of water",
+            "feedback": "Snow is made of exactly the same water as rain; only its physical arrangement, not its makeup, is different."
+          },
+          {
+            "label": "Falling slowly lets snow spread out further sideways",
+            "feedback": "Falling speed changes where a flake lands, not how much air ends up trapped within the pile it becomes part of."
+          },
+          {
+            "label": "Cold air pushes snow crystals further apart as they land",
+            "feedback": "Cold air does not push crystals apart from outside; the empty space is built into the shape of the crystals themselves before they even land."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the reason",
+        "ok_line": "Mostly air, held together by a little ice.",
+        "ko_line": "The water itself is unchanged; ask what shape the ice takes as it piles up.",
+        "exp_title": "Mostly trapped air",
+        "exp_text": "Liquid water packs its molecules together tightly, with almost no empty space between them. Ice crystals, especially branching, feathery ones, lock together at only a few points as they pile up, leaving large open gaps of trapped air throughout the drift. The same amount of water that would form a thin puddle as rain can build into a far bulkier layer as snow, simply because so much of that layer is air."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do snow crystals grow elaborate branching arms rather than staying as plain, solid hexagons?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Wind constantly breaks pieces off a solid hexagon",
+            "feedback": "Broken pieces would leave a jagged, irregular shape, not the neat, repeating branch pattern snowflakes actually show."
+          },
+          {
+            "label": "The corners stick out further into moisture-rich air and so grow fastest, building longer and longer points",
+            "feedback": "A corner reaches slightly further into fresh, moisture-rich air than a flat face does, so it grows a bit faster, and that head start only gets bigger as the point stretches further out."
+          },
+          {
+            "label": "Warm air near the ground reshapes the crystal on the way down",
+            "feedback": "The elaborate branching is usually already well developed high in the cold cloud, long before the crystal nears any warmer air."
+          },
+          {
+            "label": "Each crystal absorbs a neighbouring crystal's arm as it falls",
+            "feedback": "A snowflake's arms grow outward from its own centre; there is no merging of one crystal's arm with another's during the fall."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the mechanism",
+        "ok_line": "A small head start that keeps growing itself.",
+        "ko_line": "Nothing needs to break the hexagon apart from outside; ask what makes some parts of it grow faster than others.",
+        "exp_title": "A head start that keeps compounding",
+        "exp_text": "A flat-faced hexagon growing evenly would stay a plain hexagon, but any small corner that pokes out even slightly reaches fresher, more moisture-rich air than the flat faces around it. That slightly richer supply lets the corner grow a little faster than its neighbours, and being a little further out lets it reach into even richer air next, growing faster still. Each corner runs away with this advantage in the same way, and the result is a set of branching arms stretching outward from what began as six plain points."
+      }
+    ]
+  }
+]

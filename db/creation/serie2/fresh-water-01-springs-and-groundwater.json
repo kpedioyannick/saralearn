@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 231,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does groundwater come from?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Rain and snowmelt that soaks into the ground",
+            "feedback": "That's right. Precipitation that falls on land and soaks down through soil and rock becomes groundwater."
+          },
+          {
+            "label": "Water that condenses on the surface of rocks at night",
+            "feedback": "Dew forms on surfaces, but it does not become a major source of groundwater—rain and melting snow are the main sources."
+          },
+          {
+            "label": "Water that seeps out of riverbeds into the surrounding earth",
+            "feedback": "Rivers can lose water to the ground in some places, but groundwater is primarily fed by rain and snowmelt across the land, not from rivers."
+          },
+          {
+            "label": "Water produced by the breakdown of minerals underground",
+            "feedback": "Mineral reactions can release small amounts of water, but the vast bulk of groundwater comes from precipitation soaking into the ground."
+          }
+        ],
+        "ok_title": "Groundwater source",
+        "ok_line": "Rain and melted snow soak into the ground to become groundwater.",
+        "ko_title": "Wrong water source",
+        "ko_line": "Groundwater is not made by condensation or mineral breakdown—it comes from precipitation.",
+        "exp_title": "Replenishing the underground reservoir",
+        "exp_text": "When rain falls or snow melts, some of that water seeps down through soil and cracks in rock until it reaches layers that hold it. This water is groundwater. It keeps moving slowly underground and can eventually emerge at springs or be drawn from wells."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the upper surface of the zone where all the pore spaces in the ground are filled with water?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The capillary fringe",
+            "feedback": "That thin layer just above the water table holds water by capillary action, but it is not the upper surface of the fully saturated zone."
+          },
+          {
+            "label": "The water table",
+            "feedback": "Correct. The water table is the boundary between unsaturated ground above and fully saturated ground below."
+          },
+          {
+            "label": "The aquifer recharge zone",
+            "feedback": "That is an area where water enters an aquifer, not a boundary within the ground."
+          },
+          {
+            "label": "The zone of aeration",
+            "feedback": "That is the zone above the water table where air and water share the pore spaces, so it is not the saturated boundary."
+          }
+        ],
+        "ok_title": "Water table boundary",
+        "ok_line": "The water table marks where the ground becomes fully saturated.",
+        "ko_title": "Boundary mix-up",
+        "ko_line": "The water table is the top of the saturated zone, not a separate zone itself.",
+        "exp_title": "Reading the ground's water level",
+        "exp_text": "Below the water table, every crack and gap in the soil or rock is filled with water. Above it, air occupies some of those spaces. The water table rises and falls with the seasons, responding to rain and drought."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an aquifer?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A layer of impermeable clay that stops water from moving downward",
+            "feedback": "That is a confining layer, not an aquifer. An aquifer must be able to store and transmit water."
+          },
+          {
+            "label": "A natural pool of water trapped on the surface of the ground",
+            "feedback": "That is a lake or pond, not an underground layer. Aquifers are found beneath the surface."
+          },
+          {
+            "label": "A layer of rock or sediment that can hold and yield usable amounts of groundwater",
+            "feedback": "Exactly. Aquifers are geologic layers that store water in their pore spaces and allow it to flow to wells and springs."
+          },
+          {
+            "label": "A tube drilled into the ground to draw water up",
+            "feedback": "That is a well, not the underground layer that supplies it."
+          }
+        ],
+        "ok_title": "Aquifer defined",
+        "ok_line": "An aquifer is a rock or sediment layer that holds and releases groundwater.",
+        "ko_title": "Confusing the container",
+        "ko_line": "An aquifer is the underground layer itself, not the well that taps it or the clay that blocks it.",
+        "exp_title": "Underground water storage",
+        "exp_text": "Aquifers are made of materials like sand, gravel, or porous limestone that have open spaces between their particles. Water fills these spaces and can move through the layer, making it a useful source for springs and wells."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a spring?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A well drilled by humans to reach groundwater",
+            "feedback": "Springs occur naturally, without drilling. Wells are made by people to reach groundwater intentionally."
+          },
+          {
+            "label": "A large underground lake of still water",
+            "feedback": "Groundwater usually moves through pore spaces rather than standing in a big open lake, and a spring is where it emerges, not where it stays."
+          },
+          {
+            "label": "A device used to pump water out of the ground",
+            "feedback": "That is a pump or a well pump, not a natural feature of the landscape."
+          },
+          {
+            "label": "A place where groundwater naturally flows out onto the surface",
+            "feedback": "That's right. Earth's surface dips to meet the water table, or the water is under pressure, and it flows out on its own."
+          }
+        ],
+        "ok_title": "Spring defined",
+        "ok_line": "A spring is a natural outlet where groundwater reaches the surface.",
+        "ko_title": "Not a human device",
+        "ko_line": "Springs are natural, not drilled or pumped; the water comes out by gravity or pressure.",
+        "exp_title": "Water's natural exit",
+        "exp_text": "When the land surface cuts into the water table, or when pressure pushes water up through cracks, groundwater emerges at a spring. The flow can be small and steady or large enough to start a stream."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the zone of saturation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The underground zone where all open spaces are completely filled with water",
+            "feedback": "Correct. In this zone, there is no air left in the pores; water occupies every gap."
+          },
+          {
+            "label": "The layer of soil at the surface where water evaporates quickly",
+            "feedback": "That is the surface, not underground. The zone of saturation lies beneath the water table."
+          },
+          {
+            "label": "A layer of permafrost that stays frozen all year",
+            "feedback": "Permafrost is frozen ground, not a water-filled zone. It can hold ice, but it is not the same as the saturated zone."
+          },
+          {
+            "label": "An area where rainwater collects in puddles after a storm",
+            "feedback": "That is surface water, not the underground zone that is always full of water."
+          }
+        ],
+        "ok_title": "Saturated zone",
+        "ok_line": "The zone of saturation is where all underground pore spaces are water-filled.",
+        "ko_title": "Mixing surface and underground",
+        "ko_line": "The saturated zone is below the water table, not on the surface.",
+        "exp_title": "Fully water-filled ground",
+        "exp_text": "Below the water table lies the zone of saturation. Every crack between grains of sand or in fractured rock is filled with water. Wells must be drilled deep enough to reach this zone to draw water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an impermeable layer in the ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A layer that allows water to pass through easily",
+            "feedback": "That is a permeable layer, the opposite of impermeable. Impermeable layers block water flow."
+          },
+          {
+            "label": "A layer that water cannot pass through, such as clay or solid rock",
+            "feedback": "Exactly. Impermeable layers, like dense clay or unfractured rock, stop water from moving deeper."
+          },
+          {
+            "label": "A layer that is always completely filled with groundwater",
+            "feedback": "That describes a saturated zone, not a barrier. Impermeable layers may hold some water, but they do not let it flow through."
+          },
+          {
+            "label": "A layer that produces springs at its top",
+            "feedback": "Springs can form where an impermeable layer forces water sideways, but the layer itself is defined by blocking flow, not producing springs."
+          }
+        ],
+        "ok_title": "Impermeable layer",
+        "ok_line": "An impermeable layer stops water from soaking deeper into the ground.",
+        "ko_title": "Permeability mix-up",
+        "ko_line": "Impermeable means water cannot pass through, the opposite of a permeable layer.",
+        "exp_title": "Water's underground roadblock",
+        "exp_text": "Clay layers, dense shale, or unfractured granite are impermeable. They trap water above them, which can create perched water tables or force groundwater to flow sideways until it emerges at a spring."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is groundwater?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Water that flows only in rivers and lakes on the surface",
+            "feedback": "That is surface water, not groundwater. Groundwater is found beneath the soil surface."
+          },
+          {
+            "label": "Water trapped in the ice of glaciers",
+            "feedback": "Glacier ice is a form of frozen freshwater, but it is not groundwater, which exists as liquid in underground voids."
+          },
+          {
+            "label": "Water that exists beneath the ground in the spaces between soil particles and in rock cracks",
+            "feedback": "That's correct. Groundwater fills pore spaces and fractures in underground materials."
+          },
+          {
+            "label": "Water that condenses as dew on grass in the early morning",
+            "feedback": "Dew forms on the surface, not underground. It is not part of the groundwater system."
+          }
+        ],
+        "ok_title": "Groundwater defined",
+        "ok_line": "Groundwater is water stored beneath the ground in soil and rock voids.",
+        "ko_title": "Surface vs. underground",
+        "ko_line": "Groundwater is not on the surface, nor in glaciers; it lives between particles and in cracks underground.",
+        "exp_title": "The hidden water reservoir",
+        "exp_text": "When rain soaks into the ground, it moves down until it fills the gaps between sand grains, in gravel, or in cracks of rock. This underground water, called groundwater, slowly moves through these spaces and can emerge at springs or be pumped from wells."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the zone of aeration?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The underground zone completely filled with groundwater",
+            "feedback": "That is the zone of saturation, not aeration. In the aeration zone, air is present."
+          },
+          {
+            "label": "The layer of atmosphere just above the ground",
+            "feedback": "That is the air we breathe, not a zone inside the earth. The zone of aeration is in the soil and rock."
+          },
+          {
+            "label": "A layer of impermeable rock that prevents water from moving downward",
+            "feedback": "That is an impermeable layer, not a zone defined by air in its pores."
+          },
+          {
+            "label": "The zone above the water table where pores contain both air and water",
+            "feedback": "That's, right. In the zone of aeration, open spaces hold some water but also air."
+          }
+        ],
+        "ok_title": "Aeration zone",
+        "ok_line": "The zone of aeration is the unsaturated ground above the water table.",
+        "ko_title": "Wrong zone label",
+        "ko_line": "Aeration means air fills some pores, so it cannot be the fully saturated zone or a solid rock layer.",
+        "exp_title": "Air and water mix underground",
+        "exp_text": "Just below the surface, in the zone of aeration, soil and rock pores are partly filled with water and partly with air. This is the zone plants' roots draw water from. Below it, the water table marks where pores are completely water-filled."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a well?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A natural spring where groundwater flows out by itself",
+            "feedback": "Springs are natural outlets; wells are human-made holes, not natural outlets."
+          },
+          {
+            "label": "A hole dug or drilled into the ground to reach groundwater",
+            "feedback": "Correct. Wells are constructed to draw water from underground, either by a bucket, a pump, or natural pressure."
+          },
+          {
+            "label": "A pipe that carries water from a river to a city",
+            "feedback": "That is a water pipeline, not a well. Wells tap underground aquifers, not surface rivers."
+          },
+          {
+            "label": "A pond formed in a depression that fills with rainwater",
+            "feedback": "That is a rain-fed pond, not a well, which is a drilled or dug shaft into the ground."
+          }
+        ],
+        "ok_title": "Well defined",
+        "ok_line": "A well is a human-made hole that reaches groundwater.",
+        "ko_title": "Natural vs. made",
+        "ko_line": "Wells are built by people, unlike springs, and they tap underground water, not surface ponds or rivers.",
+        "exp_title": "Reaching the underground supply",
+        "exp_text": "To get water from the saturated zone, people dig or drill a well down until it intersects the water table or an aquifer. Water then fills the bottom of the well and can be lifted out by hand, bucket, or a pump."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is recharge of groundwater?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The process of water entering the ground to add to the groundwater supply",
+            "feedback": "That's correct. Recharge happens mainly through rain and snowmelt soaking into the ground."
+          },
+          {
+            "label": "The process of water leaving the ground through springs",
+            "feedback": "That is discharge, not recharge. Recharge adds water; discharge removes it."
+          },
+          {
+            "label": "The process of water evaporating from the ground surface",
+            "feedback": "Evaporation is a loss of water from the surface, not an addition to groundwater."
+          },
+          {
+            "label": "The process of pumping water out of a well for irrigation",
+            "feedback": "Pumping is extraction, not recharge. Recharge is the natural refilling of the underground store."
+          }
+        ],
+        "ok_title": "Groundwater recharge",
+        "ok_line": "Recharge is water soaking down into the ground to refill aquifers.",
+        "ko_title": "Direction of flow",
+        "ko_line": "Recharge is water going in, while discharge, evaporation, and pumping are ways water leaves.",
+        "exp_title": "How aquifers refill",
+        "exp_text": "When precipitation falls on permeable ground, some of it infiltrates downward past the roots of plants until it reaches the water table. This addition of new water is called recharge. The rate of recharge depends on rainfall, soil type, and vegetation."
+      }
+    ]
+  }
+]

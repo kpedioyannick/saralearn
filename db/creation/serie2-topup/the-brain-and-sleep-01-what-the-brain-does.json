@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 251,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three major modes of consciousness mentioned in the study of sleep?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "REM sleep, NREM sleep, and waking",
+            "feedback": "Correct. These three states are the major modes of consciousness, neural activity, and physiological regulation."
+          },
+          {
+            "label": "Deep sleep, light sleep, and dreaming",
+            "feedback": "These are informal descriptions of sleep stages, not the three major modes of consciousness. The recognized modes are REM, NREM, and wakefulness."
+          },
+          {
+            "label": "N1, N2, and N3",
+            "feedback": "N1, N2, and N3 are stages within NREM sleep, not the three major modes of consciousness."
+          },
+          {
+            "label": "Sleep, wakefulness, and coma",
+            "feedback": "Coma is a state of unconsciousness, not one of the three major modes of consciousness in sleep research. The three are REM, NREM, and waking."
+          }
+        ],
+        "ok_title": "Three modes confirmed",
+        "ok_line": "Sleep and waking are the three main states.",
+        "ko_title": "Modes misidentified",
+        "ko_line": "Remember the three major modes of consciousness.",
+        "exp_title": "Major consciousness modes",
+        "exp_text": "The three major modes of consciousness are rapid eye movement sleep, non-rapid eye movement sleep, and waking. They differ in brain activity and physiological regulation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to body temperature, heart rate, breathing rate, and energy use as a person falls asleep?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They all increase",
+            "feedback": "This is the opposite of what happens. Body activity slows down during sleep, so these measures decrease, not increase."
+          },
+          {
+            "label": "They stay the same",
+            "feedback": "They do not stay the same. As a person falls asleep, these physiological measures slow down."
+          },
+          {
+            "label": "They all decrease",
+            "feedback": "Correct. As humans fall asleep, body temperature, heart rate, breathing rate, and energy use all decrease."
+          },
+          {
+            "label": "Only heart rate decreases, others increase",
+            "feedback": "This is incorrect. All four measures decrease together as the body slows down for sleep."
+          }
+        ],
+        "ok_title": "Body slows down",
+        "ok_line": "All four measures drop during sleep onset.",
+        "ko_title": "Sleep onset changes",
+        "ko_line": "Remember the body slows down.",
+        "exp_title": "Sleep onset physiology",
+        "exp_text": "When falling asleep, the body's activity slows down. Temperature, heart rate, breathing rate, and energy use all decrease."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which molecule does the brain restore its supply of during sleep, especially in areas with reduced activity?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Glucose",
+            "feedback": "Glucose is a sugar used for energy, but the brain specifically restores its supply of ATP during sleep."
+          },
+          {
+            "label": "ATP",
+            "feedback": "Correct. The brain restores its supply of adenosine triphosphate (ATP), the molecule used for short-term storage and transport of energy."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is needed for energy production, but it is not the molecule the brain restores during sleep."
+          },
+          {
+            "label": "Acetylcholine",
+            "feedback": "Acetylcholine is a neurotransmitter that becomes less available during sleep, but it is not the energy-storage molecule being restored."
+          }
+        ],
+        "ok_title": "ATP restored in sleep",
+        "ok_line": "The brain rebuilds its energy supply.",
+        "ko_title": "Energy molecule mix-up",
+        "ko_line": "ATP is the energy-storage molecule.",
+        "exp_title": "Energy restoration in sleep",
+        "exp_text": "During sleep, especially in areas of reduced brain activity, the brain restores its supply of ATP, the molecule that stores and transports energy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What characterizes REM sleep compared to NREM sleep?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Lack of eye movement",
+            "feedback": "This is the opposite. REM sleep is characterized by rapid eye movement, while NREM lacks prominent eye movement."
+          },
+          {
+            "label": "Muscle paralysis",
+            "feedback": "Muscle paralysis is a feature of NREM sleep, not REM. REM is characterized by muscle atonia, which is a different condition."
+          },
+          {
+            "label": "Deepest sleep stage",
+            "feedback": "The deepest part of NREM, called slow wave sleep, is not REM. REM is considered closer to wakefulness."
+          },
+          {
+            "label": "Rapid eye movement and muscle atonia",
+            "feedback": "Correct. REM sleep is characterized by rapid eye movement and muscle atonia."
+          }
+        ],
+        "ok_title": "REM features named",
+        "ok_line": "REM has rapid eye movement and atonia.",
+        "ko_title": "REM vs NREM confused",
+        "ko_line": "Know which features belong to REM.",
+        "exp_title": "REM sleep characteristics",
+        "exp_text": "REM sleep is considered closer to wakefulness and is characterized by rapid eye movement and muscle atonia."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which sleep stage do humans secrete bursts of growth hormone?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "REM sleep",
+            "feedback": "Growth hormone bursts occur during slow-wave sleep, which is part of NREM, not REM."
+          },
+          {
+            "label": "Stage 1 NREM sleep",
+            "feedback": "Stage 1 is light sleep. Growth hormone bursts occur during slow-wave sleep, the deepest part of NREM."
+          },
+          {
+            "label": "Slow-wave sleep",
+            "feedback": "Correct. During slow-wave sleep, humans secrete bursts of growth hormone."
+          },
+          {
+            "label": "Waking",
+            "feedback": "Growth hormone bursts are associated with sleep, specifically slow-wave sleep, not with waking."
+          }
+        ],
+        "ok_title": "Growth hormone in deep sleep",
+        "ok_line": "Slow-wave sleep triggers growth hormone.",
+        "ko_title": "Sleep stage for hormone",
+        "ko_line": "Growth hormone belongs to deep sleep.",
+        "exp_title": "Growth hormone secretion",
+        "exp_text": "During slow-wave sleep, which is the deepest part of NREM sleep, humans secrete bursts of growth hormone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate period of the circadian rhythm?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 24 hours",
+            "feedback": "Correct. The circadian clock produces an endogenous, entrainable oscillation of about 24 hours, matching the day-night cycle."
+          },
+          {
+            "label": "About 12 hours",
+            "feedback": "12 hours would be half a day. The circadian rhythm is about 24 hours, not 12."
+          },
+          {
+            "label": "About 48 hours",
+            "feedback": "48 hours would be two days. The circadian rhythm is about 24 hours, not 48."
+          },
+          {
+            "label": "About 90 minutes",
+            "feedback": "90 minutes is the length of a sleep cycle, not the circadian rhythm. The circadian rhythm is about 24 hours."
+          }
+        ],
+        "ok_title": "24-hour rhythm",
+        "ok_line": "The circadian cycle lasts about one day.",
+        "ko_title": "Rhythm period wrong",
+        "ko_line": "The circadian rhythm is about 24 hours.",
+        "exp_title": "Circadian period",
+        "exp_text": "The circadian clock governs biological processes that oscillate with a period of about 24 hours, matching the Earth's day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'circadian' mean, based on its Latin roots?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Around the year",
+            "feedback": "The roots mean 'around the day', not 'around the year'. Circadian refers to daily cycles."
+          },
+          {
+            "label": "Around the day",
+            "feedback": "Correct. 'Circa' means around or approximately, and 'diem' or 'dies' means day, so circadian means around the day."
+          },
+          {
+            "label": "About the night",
+            "feedback": "The root 'dies' means day, not night. The term refers to the whole day."
+          },
+          {
+            "label": "During the moon",
+            "feedback": "This is unrelated to the Latin roots. The term circadian is about the day, not the moon."
+          }
+        ],
+        "ok_title": "Meaning of circadian",
+        "ok_line": "It means around the day.",
+        "ko_title": "Latin root misunderstood",
+        "ko_line": "Circadian is about the day.",
+        "exp_title": "Origin of 'circadian'",
+        "exp_text": "The word circadian comes from Latin: 'circa' meaning around or approximately, and 'diem' meaning day, so it means around the day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain was once proposed to be deactivated during sleep, but was later found to be active in some sleep phases?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum was not proposed as deactivated during sleep. The proposal was about the cerebral cortex and the thalamus."
+          },
+          {
+            "label": "The brainstem",
+            "feedback": "The brainstem was not the focus of this proposal. The deactivation idea concerned the cerebral cortex and the thalamus."
+          },
+          {
+            "label": "The cerebral cortex and the thalamus",
+            "feedback": "Correct. It was proposed that sleep is the deactivation of the cerebral cortex and the thalamus, but this was invalidated because both are active in some sleep phases."
+          },
+          {
+            "label": "The hippocampus",
+            "feedback": "The hippocampus was not part of the deactivation proposal. The proposal involved the cerebral cortex and the thalamus."
+          }
+        ],
+        "ok_title": "Deactivation proposal",
+        "ok_line": "Cortex and thalamus were once proposed.",
+        "ko_title": "Brain regions confused",
+        "ko_line": "The deactivation idea involved cortex and thalamus.",
+        "exp_title": "Early sleep definition",
+        "exp_text": "One early proposal defined sleep as the deactivation of the cerebral cortex and the thalamus, but this was invalidated because both are active in some sleep phases."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What brain wave frequency is characteristic of wakefulness during peaceful activity?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Beta waves (12–30 Hz)",
+            "feedback": "Correct. Waking is usually characterized by beta waves, which are in the 12–30 Hz range."
+          },
+          {
+            "label": "Alpha waves (8–12 Hz)",
+            "feedback": "Alpha waves are associated with drowsiness, not peaceful waking. Peaceful waking is beta."
+          },
+          {
+            "label": "Theta waves (4–10 Hz)",
+            "feedback": "Theta waves are seen in Stage 1 NREM sleep, not in peaceful waking."
+          },
+          {
+            "label": "Delta waves (0–4 Hz)",
+            "feedback": "Delta waves are seen in slow wave sleep, not in waking."
+          }
+        ],
+        "ok_title": "Beta during waking",
+        "ok_line": "Peaceful waking shows beta waves.",
+        "ko_title": "Wave type wrong",
+        "ko_line": "Beta is the waking brain wave.",
+        "exp_title": "Waking brain waves",
+        "exp_text": "Waking is usually characterized by beta waves, which range from 12 to 30 Hz, with gamma waves also present depending on the activity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are sleep spindles and K complexes associated with?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Stage 1 NREM sleep",
+            "feedback": "Stage 1 is light sleep characterized by theta waves, not sleep spindles and K complexes."
+          },
+          {
+            "label": "REM sleep",
+            "feedback": "REM sleep is characterized by low amplitude, mixed frequency waves, not sleep spindles and K complexes."
+          },
+          {
+            "label": "Wakefulness",
+            "feedback": "Wakefulness is characterized by beta and gamma waves, not sleep spindles and K complexes."
+          },
+          {
+            "label": "Stage 2 NREM sleep",
+            "feedback": "Correct. Stage 2 NREM sleep is characterized by sleep spindles and K complexes."
+          }
+        ],
+        "ok_title": "Stage 2 markers",
+        "ok_line": "Spindles and K complexes mark Stage 2.",
+        "ko_title": "Sleep stage misassigned",
+        "ko_line": "These features belong to Stage 2 NREM.",
+        "exp_title": "Stage 2 sleep features",
+        "exp_text": "Stage 2 NREM sleep is characterized by sleep spindles, which are intermittent clusters of waves at sigma frequency, and K complexes, which are sharp upward deflections followed by slower downward deflections."
+      }
+    ]
+  }
+]

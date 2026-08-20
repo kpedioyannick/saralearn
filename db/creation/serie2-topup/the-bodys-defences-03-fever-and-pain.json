@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is one of the five cardinal signs of inflammation?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Itching",
+            "feedback": "Itching is not one of the five cardinal signs. The five are heat, pain, redness, swelling, and loss of function."
+          },
+          {
+            "label": "Coldness",
+            "feedback": "Coldness is not a sign of inflammation; inflammation brings increased heat to the area."
+          },
+          {
+            "label": "Redness",
+            "feedback": "Correct. Redness, called rubor, is one of the five cardinal signs of inflammation."
+          },
+          {
+            "label": "Numbness",
+            "feedback": "Numbness is not one of the five cardinal signs. Pain is the sign, not numbness."
+          }
+        ],
+        "ok_title": "Cardinal sign named",
+        "ok_line": "Redness is one of the five classic signs of inflammation.",
+        "ko_title": "Wrong sign picked",
+        "ko_line": "Review which signs belong to the list of five.",
+        "exp_title": "Five cardinal signs",
+        "exp_text": "The five cardinal signs of inflammation are heat, pain, redness, swelling, and loss of function. These come from Latin names: calor, dolor, rubor, tumor, and functio laesa."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the swelling (tumor) seen during acute inflammation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The growth of new muscle cells",
+            "feedback": "New muscle cells are not part of inflammation. Swelling comes from fluid collecting in the tissue."
+          },
+          {
+            "label": "The multiplication of bacteria in the area",
+            "feedback": "Bacteria may trigger inflammation, but the swelling itself is not caused by bacteria multiplying."
+          },
+          {
+            "label": "The production of extra bone tissue",
+            "feedback": "Bone tissue is not involved in the swelling of inflamed soft tissue."
+          },
+          {
+            "label": "Accumulation of fluid leaking from blood vessels",
+            "feedback": "Correct. Increased blood vessel permeability lets plasma and fluid leak into the tissue, causing it to swell."
+          }
+        ],
+        "ok_title": "Swelling from fluid",
+        "ok_line": "Fluid leaking out of blood vessels builds up and makes the tissue swell.",
+        "ko_title": "Wrong cause of swelling",
+        "ko_line": "Swelling is not from tissue growth or microbes, but from fluid.",
+        "exp_title": "Cause of tumor",
+        "exp_text": "During acute inflammation, blood vessels become more permeable, allowing plasma and fluid to exude into the tissue. This accumulation of fluid is what produces the swelling called tumor."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of immune response is inflammation considered a part of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Innate immunity",
+            "feedback": "Correct. Inflammation is a generic response and is part of innate immunity, not the adaptive immunity that learns specific threats."
+          },
+          {
+            "label": "Adaptive immunity",
+            "feedback": "Adaptive immunity involves learning specific microbes. Inflammation is a general response, so it is innate, not adaptive."
+          },
+          {
+            "label": "Humoral immunity",
+            "feedback": "Humoral immunity refers to antibodies in body fluids, which is a branch of adaptive immunity. Inflammation is innate."
+          },
+          {
+            "label": "Cell-mediated immunity",
+            "feedback": "Cell-mediated immunity is part of adaptive immunity. Inflammation is a broader, non-specific response."
+          }
+        ],
+        "ok_title": "Innate immunity link",
+        "ok_line": "Inflammation is a generic response, part of innate immunity.",
+        "ko_title": "Wrong immunity type",
+        "ko_line": "Inflammation does not depend on prior learning, so it is innate.",
+        "exp_title": "Inflammation's immune class",
+        "exp_text": "Inflammation is a generic response that works the same way for many different threats, so it belongs to innate immunity rather than adaptive immunity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of cell is most common at the site of acute inflammation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lymphocytes",
+            "feedback": "Lymphocytes are more common in chronic inflammation, not in the acute phase."
+          },
+          {
+            "label": "Neutrophils",
+            "feedback": "Correct. Neutrophils, a type of granulocyte, are the main white blood cells that gather quickly during acute inflammation."
+          },
+          {
+            "label": "Plasma cells",
+            "feedback": "Plasma cells are more associated with chronic inflammation and antibody production, not acute inflammation."
+          },
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells carry oxygen and are not the main immune cells involved in acute inflammation."
+          }
+        ],
+        "ok_title": "Acute cell type",
+        "ok_line": "Neutrophils predominate during acute inflammation.",
+        "ko_title": "Wrong predominant cell",
+        "ko_line": "Acute inflammation draws neutrophils, not lymphocytes or plasma cells.",
+        "exp_title": "Neutrophils in acute inflammation",
+        "exp_text": "During acute inflammation, granulocytes, especially neutrophils, migrate from the blood into the injured tissue. They are the dominant cells in this early phase."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How long does chronic inflammation typically last?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A few minutes",
+            "feedback": "A few minutes is too short; that would be part of an acute response, not chronic inflammation."
+          },
+          {
+            "label": "A few hours",
+            "feedback": "A few hours fits acute inflammation, which lasts only days, not chronic inflammation."
+          },
+          {
+            "label": "Months or years",
+            "feedback": "Correct. Chronic inflammation is prolonged and can last for months or even years."
+          },
+          {
+            "label": "Two to six weeks",
+            "feedback": "Two to six weeks is called subacute inflammation, not chronic. Chronic lasts much longer."
+          }
+        ],
+        "ok_title": "Chronic duration",
+        "ok_line": "Chronic inflammation persists for months or years.",
+        "ko_title": "Duration confusion",
+        "ko_line": "Chronic means long-lasting, far beyond weeks.",
+        "exp_title": "Chronic inflammation timeline",
+        "exp_text": "Chronic inflammation is defined as inflammation that continues for months or years, in contrast to acute inflammation which is short-term."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which sign of inflammation is caused by increased blood flow to the affected area?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Heat and redness",
+            "feedback": "Correct. Vasodilation increases blood flow at body core temperature, making the area feel hot and look red."
+          },
+          {
+            "label": "Swelling",
+            "feedback": "Swelling is due to fluid buildup, not increased blood flow itself."
+          },
+          {
+            "label": "Pain",
+            "feedback": "Pain comes from chemicals like bradykinin stimulating nerve endings, not from increased blood flow."
+          },
+          {
+            "label": "Loss of function",
+            "feedback": "Loss of function is likely a neurological reflex in response to pain, not directly from blood flow."
+          }
+        ],
+        "ok_title": "Heat and redness cause",
+        "ok_line": "Increased blood flow brings heat and redness to inflamed tissue.",
+        "ko_title": "Wrong sign linked to blood flow",
+        "ko_line": "Only heat and redness are directly due to increased blood flow.",
+        "exp_title": "Vasodilation and signs",
+        "exp_text": "When blood vessels widen, more blood flows in, carrying body-core warmth and making the skin appear red. That is why heat and redness appear together."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of cells predominate in chronic inflammation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Neutrophils",
+            "feedback": "Neutrophils dominate acute inflammation, not chronic. Chronic inflammation has a different cell mix."
+          },
+          {
+            "label": "Macrophages and lymphocytes",
+            "feedback": "Correct. Macrophages, lymphocytes, and plasma cells are the main cells in chronic inflammation."
+          },
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells are not immune cells and are not predominant in chronic inflammation."
+          },
+          {
+            "label": "Granulocytes",
+            "feedback": "Granulocytes, like neutrophils, are prominent in acute inflammation, not chronic."
+          }
+        ],
+        "ok_title": "Chronic cell types",
+        "ok_line": "Macrophages and lymphocytes dominate chronic inflammation.",
+        "ko_title": "Acute vs chronic cells",
+        "ko_line": "Chronic inflammation uses macrophages and lymphocytes, not neutrophils.",
+        "exp_title": "Cells of chronic inflammation",
+        "exp_text": "In chronic inflammation, the site has more mononuclear cells, such as macrophages and lymphocytes, along with plasma cells. This differs from the neutrophil-heavy acute response."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of resident immune cells like macrophages at the start of acute inflammation?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To produce antibodies",
+            "feedback": "Antibody production is a job for plasma cells, not resident macrophages at the start of acute inflammation."
+          },
+          {
+            "label": "To clot the blood",
+            "feedback": "Clotting is done by platelets and coagulation factors, not the resident immune cells."
+          },
+          {
+            "label": "To release inflammatory mediators",
+            "feedback": "Correct. When they recognize danger signals, resident macrophages and mast cells release mediators that trigger the signs of inflammation."
+          },
+          {
+            "label": "To contract muscles",
+            "feedback": "Muscle contraction is not related to the role of resident immune cells in inflammation."
+          }
+        ],
+        "ok_title": "Resident cells act",
+        "ok_line": "Resident immune cells release mediators to start inflammation.",
+        "ko_title": "Wrong role assigned",
+        "ko_line": "They do not make antibodies, clot, or contract muscles.",
+        "exp_title": "Initiation by resident cells",
+        "exp_text": "Tissue has resident immune cells like macrophages and mast cells. When they bind to patterns from pathogens or damage, they become activated and release inflammatory mediators that produce the classic signs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to acute inflammation once the harmful stimulus is removed?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It begins to cease",
+            "feedback": "Correct. The inflammatory mediators are short-lived, so once the stimulus is gone, the inflammation stops."
+          },
+          {
+            "label": "It turns immediately into chronic inflammation",
+            "feedback": "Chronic inflammation is a separate, prolonged condition; removing the stimulus ends the acute response rather than turning it chronic."
+          },
+          {
+            "label": "It stays the same forever",
+            "feedback": "Inflammation does not stay forever; it stops when the cause is removed."
+          },
+          {
+            "label": "It gets stronger",
+            "feedback": "Without the stimulus, the response winds down, not up."
+          }
+        ],
+        "ok_title": "Inflammation ends",
+        "ok_line": "Acute inflammation ceases once the stimulus is gone.",
+        "ko_title": "Wrong outcome",
+        "ko_line": "Removing the trigger lets acute inflammation stop.",
+        "exp_title": "Resolution of acute inflammation",
+        "exp_text": "Acute inflammation is a short-term process that depends on constant stimulation. Because the mediators are quickly degraded, when the harmful stimulus is removed, the inflammation clears and the repair process begins."
+      }
+    ]
+  }
+]

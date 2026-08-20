@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 266,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you not see the microbes living on your skin right now?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are too small for your eye to resolve",
+            "feedback": "Correct — their edges are too close together for your eye to tell apart."
+          },
+          {
+            "label": "They only appear once you are sick",
+            "feedback": "They are there whether you are well or ill. Illness changes nothing about whether you can see them."
+          },
+          {
+            "label": "They hide inside your skin cells",
+            "feedback": "Most of the microbes on your skin sit on its surface, not tucked away inside your own cells."
+          },
+          {
+            "label": "They have no colour to catch the light",
+            "feedback": "Many microbes do reflect light and would show colour under a microscope; the problem is their size, not their shade."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Too small, not too well hidden.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about size rather than location.",
+        "exp_title": "Smaller than light can resolve",
+        "exp_text": "Your eye can only tell two points apart when the light bouncing off each one lands far enough apart on your retina to be sorted into separate signals. A single microbe is so small that light from one edge of it and light from the other edge arrive at your eye as if from a single point, so no outline ever forms. It simply dissolves into the general surface of your skin, the way a grain of sand vanishes against a beach."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a virus need to get inside one of your cells before it can make more of itself?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because it needs oxygen from your blood",
+            "feedback": "That is why your own cells need oxygen. A virus outside a cell is not breathing at all — it is simply inert."
+          },
+          {
+            "label": "Because it lacks the machinery to copy itself alone",
+            "feedback": "Correct — it has to borrow that machinery from a living cell."
+          },
+          {
+            "label": "Because it is too heavy to move on its own",
+            "feedback": "Size has nothing to do with it; plenty of bacteria are the same size and reproduce perfectly well without entering a cell."
+          },
+          {
+            "label": "Because it needs warmth from your skin",
+            "feedback": "Warmth can help a virus survive, but it is not what stops it from copying itself outside a cell."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "A virus is a set of instructions with no factory of its own.",
+        "ko_title": "Missing piece",
+        "ko_line": "Ask what a virus does not carry with it.",
+        "exp_title": "Borrowed machinery",
+        "exp_text": "A bacterium is a complete cell: it has its own machinery for reading its instructions and building the parts to divide in two. A virus carries instructions but none of that machinery, so alone it can do nothing at all. Once it gets inside a living cell, it takes over the cell's own copying tools and turns them to making more virus instead of whatever that cell was meant to build."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are the bacteria living inside your gut usually helpful rather than harmful?",
+        "body": null,
+        "options": [
+          {
+            "label": "They multiply inside the bloodstream",
+            "feedback": "Gut bacteria live in the digestive tract. Bacteria turning up in the blood is a sign of trouble, not their normal home."
+          },
+          {
+            "label": "They build a hard coating over your teeth",
+            "feedback": "That coating is plaque, made by different bacteria living in the mouth, and it is not something helpful."
+          },
+          {
+            "label": "They break down parts of food your gut cannot digest alone",
+            "feedback": "Correct — they finish a job your own cells cannot do."
+          },
+          {
+            "label": "They take over jobs done by skin cells",
+            "feedback": "Gut bacteria and skin cells live in completely different places and do not exchange jobs."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "A helper finishing a meal your own cells cannot chew through.",
+        "ko_title": "Wrong address",
+        "ko_line": "Ask where these particular bacteria actually live.",
+        "exp_title": "Digesting what you cannot",
+        "exp_text": "Your own gut produces enzymes that can break apart many foods, but some plant fibres pass through unchanged because none of your enzymes can split them. The bacteria living in your gut carry different tools that can break those fibres apart, releasing pieces your gut lining can then absorb. In return they get a steady supply of food and a warm place to live."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a sneeze spread microbes to the people standing nearby?",
+        "body": null,
+        "options": [
+          {
+            "label": "It releases a warm gas that carries disease",
+            "feedback": "There is no such gas. What travels is not warmth but a spray of liquid droplets."
+          },
+          {
+            "label": "It weakens the immune system of everyone nearby",
+            "feedback": "A sneeze does nothing to another person's body directly; it only launches droplets."
+          },
+          {
+            "label": "It only spreads microbes through direct touch",
+            "feedback": "A sneeze reaches people without any touching at all — that is exactly what makes it such an effective way to spread microbes."
+          },
+          {
+            "label": "It shoots out a spray of tiny droplets carrying microbes",
+            "feedback": "Correct — those droplets can travel through the air and land on another person."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "A spray, not a smell.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what physically leaves the nose at speed.",
+        "exp_title": "A burst of droplets",
+        "exp_text": "A sneeze forces air out of the nose and mouth suddenly and fast, and that rushing air tears the thin layer of mucus lining the airway into a fine mist of droplets. Each droplet can carry along whatever microbes were sitting in that mucus, and the force of the sneeze flings them well beyond arm's reach. Anyone who breathes in that mist, or who later touches a surface the droplets landed on, can pick up what was riding inside them."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does mould appear on bread that is left out in a warm, damp place?",
+        "body": null,
+        "options": [
+          {
+            "label": "The bread turns into mould by itself as it goes stale",
+            "feedback": "Staleness is just the bread drying out and its starch changing; nothing about that process turns bread into a living fungus."
+          },
+          {
+            "label": "Spores drifting in the air land on it and find conditions to grow",
+            "feedback": "Correct — the mould was not created by the bread; it arrived on it."
+          },
+          {
+            "label": "It only grows if the bread already contains bacteria",
+            "feedback": "Fungal spores need no bacteria to get started — moisture and warmth are what they are waiting for."
+          },
+          {
+            "label": "Sealing it in a bag creates the mould",
+            "feedback": "A bag traps moisture that helps mould already present to grow faster, but it is not what puts the mould there in the first place."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "The mould arrived through the air; the bread just fed it.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask where the mould came from before it ever touched the bread.",
+        "exp_title": "Spores waiting for warmth and damp",
+        "exp_text": "The air around us constantly carries fungal spores, tough little cells drifting until they settle on a surface. Most land somewhere too dry or too cold to do anything, but a slice of bread left warm and moist gives a spore exactly the water and heat it needs to begin growing threads that spread across the surface. Those threads are what you eventually see as a fuzzy patch."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does still water sitting in a puddle usually carry more microbes than water running in a stream?",
+        "body": null,
+        "options": [
+          {
+            "label": "Puddles contain more oxygen than streams",
+            "feedback": "Flowing water is churned by its motion and usually holds more oxygen than a still puddle, not less."
+          },
+          {
+            "label": "Streams are too cold for microbes to survive",
+            "feedback": "Many microbes grow perfectly well in cold water; temperature alone does not explain the difference."
+          },
+          {
+            "label": "Puddles are exposed to more sunlight",
+            "feedback": "Sunlight can harm some microbes rather than help them, and plenty of puddles sit in shade anyway."
+          },
+          {
+            "label": "Running water washes microbes away as fast as they multiply",
+            "feedback": "Correct — motion keeps clearing them out before a large population can build up."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "Nutrients settle where the water stops moving.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what movement does to a growing population, not about temperature or light.",
+        "exp_title": "Stillness lets a population build",
+        "exp_text": "Microbes multiply wherever nutrients gather and are not disturbed, and a puddle traps whatever falls into it, letting food and waste build up in one place. A stream carries the same nutrients along and sweeps away microbes before their numbers can grow very large, over and over as new water replaces the old. The difference is not what lives in each place but whether anything is left in place long enough to multiply."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a single bacterium become a large colony overnight?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each cell splits in two, and each of those splits again",
+            "feedback": "Correct — repeated splitting is what turns one cell into a colony."
+          },
+          {
+            "label": "It grows steadily bigger without ever dividing",
+            "feedback": "A bacterium stays roughly the same size and instead makes copies of itself; it does not swell into a giant cell."
+          },
+          {
+            "label": "It must first find another bacterium to mate with",
+            "feedback": "Most bacteria need no partner at all — a single cell alone is enough to start a colony."
+          },
+          {
+            "label": "It converts nearby food directly into new bacteria",
+            "feedback": "Food supplies the raw material and energy, but a new bacterium is built by an existing cell copying itself, not by food changing into one."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "One cell in half becomes two, and two becomes four.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask what a single bacterium physically does to become more than one.",
+        "exp_title": "Splitting in two, again and again",
+        "exp_text": "A bacterium grows a little, copies its genetic material, and then pinches itself in the middle until it separates into two complete cells, each carrying a full copy of the instructions. Each of those two cells is a working bacterium in its own right, so once conditions are warm and food is available, both of them repeat the same splitting a short while later. Left undisturbed with enough food, that repeated splitting is what turns a single arrival into a visible colony."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a damp cloth left in a warm kitchen usually carry more microbes than a dry one?",
+        "body": null,
+        "options": [
+          {
+            "label": "Dampness attracts more dust for them to feed on",
+            "feedback": "Dust can land on either a wet or a dry cloth equally; moisture itself is the deciding factor here, not dust."
+          },
+          {
+            "label": "Wet cloths trap more light than dry ones",
+            "feedback": "Light matters far less to most microbes than moisture does, and a folded cloth blocks light either way."
+          },
+          {
+            "label": "Microbes need moisture to grow, and a dry surface dehydrates them",
+            "feedback": "Correct — without water, most microbes cannot keep functioning."
+          },
+          {
+            "label": "A damp cloth is always warmer than a dry one",
+            "feedback": "A wet cloth actually cools as its water evaporates; warmth is not what sets it apart from a dry one."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "Water is what a microbe cannot do without.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what a microbe's own body is mostly made of.",
+        "exp_title": "No water, no growth",
+        "exp_text": "A microbe's cell is mostly water, and every chemical reaction that keeps it alive and lets it divide happens dissolved in that water. A dry surface pulls moisture away from any microbe sitting on it, leaving too little water for those reactions to continue, so growth slows and many microbes simply stop functioning. A damp cloth keeps that water available, which is exactly why it can turn a handful of arriving microbes into a thriving colony within a day."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does food kept in a cold place stay fresh for longer than the same food left out in a warm room?",
+        "body": null,
+        "options": [
+          {
+            "label": "Cold kills every microbe already on the food",
+            "feedback": "Most microbes survive cold perfectly well; they simply become far less active rather than dying."
+          },
+          {
+            "label": "Cold seals the surface of the food shut",
+            "feedback": "Cooling does not change the food's surface in that way; nothing gets sealed."
+          },
+          {
+            "label": "Cold removes the moisture microbes need",
+            "feedback": "That is what drying does, not cooling. A cold fridge still leaves food just as moist."
+          },
+          {
+            "label": "Cold slows down how fast microbes on it can grow and multiply",
+            "feedback": "Correct — their chemical processes run more slowly at low temperature."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "The microbes are still there — just working far more slowly.",
+        "ko_title": "Not quite",
+        "ko_line": "Cold does not remove microbes or moisture; think about what it does to their speed.",
+        "exp_title": "Slower chemistry, slower growth",
+        "exp_text": "The chemical reactions inside a microbe's cell, the ones it needs to build new parts and divide, run faster when it is warm and slower when it is cold, just like most chemical reactions do. In a cold place those reactions crawl along so slowly that the microbe barely grows at all, so it takes far longer to build up the numbers needed to spoil the food. Warmth speeds those same reactions back up, which is why food left out in a warm room turns long before food kept cold."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a doorknob touched by many hands often covered in microbes from several different people?",
+        "body": null,
+        "options": [
+          {
+            "label": "The metal itself produces its own microbes",
+            "feedback": "Metal is not alive and cannot produce microbes on its own; every microbe on it arrived from somewhere else."
+          },
+          {
+            "label": "Each hand leaves behind some of the microbes living on its skin",
+            "feedback": "Correct — touch is what carries them from one person's skin to the shared surface."
+          },
+          {
+            "label": "Microbes only reach it by drifting through the air",
+            "feedback": "Some do settle from the air, but a doorknob gathers far more from the many hands closing around it than from the air alone."
+          },
+          {
+            "label": "It only happens on doorknobs made of wood",
+            "feedback": "Wood, metal or plastic all pick up microbes the same way, through contact with skin."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Every hand that grips it makes a small deposit.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what happens each time skin presses against the surface.",
+        "exp_title": "A shared surface, one touch at a time",
+        "exp_text": "Every hand carries its own community of microbes living on its skin, and pressing that skin against a hard surface leaves some of them behind, the same way a damp hand leaves a faint mark. A doorknob is gripped over and over by different people through the day, so each grip adds another small deposit on top of the last. Over time the surface ends up carrying a mix drawn from everyone who has passed through, rather than from any single person."
+      }
+    ]
+  }
+]

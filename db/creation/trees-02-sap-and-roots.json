@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 155,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How does water get from the roots all the way to the leaves at the top of a tall tree?",
+        "body": null,
+        "options": [
+          {
+            "label": "The roots pump it upward under pressure",
+            "feedback": "Roots can build a small push in certain conditions, but that alone is nowhere near enough to lift water to the top of a tall tree."
+          },
+          {
+            "label": "Gravity draws water upward through the trunk",
+            "feedback": "Gravity pulls everything downward, water included; it can never be the force lifting water up a trunk."
+          },
+          {
+            "label": "The trunk's living cells pass the water hand to hand upward",
+            "feedback": "Water travels through narrow dead tubes, not by living cells actively relaying it upward one by one."
+          },
+          {
+            "label": "Evaporation from the leaves pulls a continuous thread of water up behind it",
+            "feedback": "As water leaves the leaves, it drags the next bit of the column up after it, all the way down to the roots."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Pulled, not pushed",
+        "ok_line": "The top of the tree does the pulling; the roots just supply the water.",
+        "ko_title": "Wrong end of the tree",
+        "ko_line": "The force driving this starts at the leaves, not at the roots or the trunk.",
+        "exp_title": "A pull that starts at the top",
+        "exp_text": "Water evaporating out of a leaf's pores leaves a gap, and because water molecules cling tightly to one another, the molecules behind it get tugged along to fill that gap. That tug passes down through the narrow water-carrying tubes of the trunk, link by link, all the way to the roots. So the whole column of water inside a tree is essentially being pulled upward from above, not pushed upward from below."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are the tips of young roots covered in fine hair-like threads?",
+        "body": null,
+        "options": [
+          {
+            "label": "They multiply the surface area in contact with the soil, so more water and minerals can be absorbed",
+            "feedback": "A root packed with these fine threads touches vastly more soil than the same root left bare."
+          },
+          {
+            "label": "They anchor the root firmly against being pulled out",
+            "feedback": "Something this thin and delicate breaks far too easily to be doing any anchoring; the thicker roots behind them handle that job."
+          },
+          {
+            "label": "They filter out harmful particles before water enters the root",
+            "feedback": "There's no filtering structure here; water simply moves in through the thin walls of each thread wherever it touches damp soil."
+          },
+          {
+            "label": "They release oxygen into the surrounding soil",
+            "feedback": "These threads are absorbing, not releasing; a root cell needs oxygen from the soil itself, it doesn't supply any."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "More surface, more absorption",
+        "ok_line": "Each thread is a tiny extra patch of contact with damp soil.",
+        "ko_title": "Not anchoring, not filtering",
+        "ko_line": "These threads are too fine and short-lived for a structural or protective job — think about what touching more soil buys a root.",
+        "exp_title": "Thousands of extra points of contact",
+        "exp_text": "A bare root can only absorb water and minerals across the small patch of soil it directly touches. Root hairs are slender outgrowths of single cells just behind the root tip, and by pushing out in every direction they multiply that area of contact many times over. More surface touching damp soil means more water and dissolved minerals crossing into the root at any moment."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does stripping a complete ring of bark off around a trunk eventually kill the tree, even though the wood underneath is untouched?",
+        "body": null,
+        "options": [
+          {
+            "label": "It exposes the wood to the air and dries it out completely",
+            "feedback": "Drying does happen at the exposed surface, but a tree girdled and then resealed with wax, kept from drying, still dies on the same schedule."
+          },
+          {
+            "label": "It stops water reaching the leaves from the roots",
+            "feedback": "The tubes carrying water up run deeper in the wood itself, and a ring of bark removed doesn't touch them; the leaves keep receiving water for a long while after girdling."
+          },
+          {
+            "label": "It cuts off the tube that carries sugar down from the leaves to the roots",
+            "feedback": "With that supply gone, the roots slowly starve even while the leaves above keep making sugar as normal."
+          },
+          {
+            "label": "It removes the tree's only source of oxygen",
+            "feedback": "Bark isn't where a tree takes in oxygen from; gas exchange happens through the leaves and through small pores scattered over the bark's surface, not through the bark tissue as a whole."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "The roots go hungry",
+        "ok_line": "The leaves keep feeding the tree; the delivery route to the roots is what's broken.",
+        "ko_title": "Water still gets up",
+        "ko_line": "For a while after this cut, the leaves stay green and the tree still drinks normally — so what's actually missing?",
+        "exp_title": "A one-way delivery route, severed",
+        "exp_text": "Sugar made in the leaves travels down to the roots through the phloem, a layer of tubes sitting just inside the bark, near the cambium. Cutting a full ring through the bark removes that layer all the way around, so no sugar can pass the gap in either direction along the trunk. The roots below the cut keep drawing water up as normal for a while, but with no incoming sugar to fuel them, they gradually run out of energy and die."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Inside a tree trunk, what travels in the opposite direction to the water rising from the roots?",
+        "body": null,
+        "options": [
+          {
+            "label": "Oxygen, moving down from the leaves",
+            "feedback": "Oxygen made in the leaves mostly diffuses straight back out through the same pores it would have entered by, rather than travelling down through the trunk."
+          },
+          {
+            "label": "Sugar made in the leaves, moving down through the phloem",
+            "feedback": "Water rises through one set of tubes while sugar flows the other way through a separate set, just inside the bark."
+          },
+          {
+            "label": "More water, moving back down to the roots",
+            "feedback": "Water rising through the trunk is being pulled upward and lost from the leaves; almost none of it turns around and heads back down."
+          },
+          {
+            "label": "Carbon dioxide, moving down to the roots",
+            "feedback": "Carbon dioxide is taken in through the leaves themselves and used there; it isn't shipped down through the trunk to the roots."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Two lanes, two directions",
+        "ok_line": "Water climbs through one set of tubes while food descends through another.",
+        "ko_title": "Only one thing runs the other way",
+        "ko_line": "Think about what the leaves have made that the roots actually need delivered to them.",
+        "exp_title": "Two separate one-way streets",
+        "exp_text": "The trunk carries two distinct traffic streams side by side: the xylem, deeper in the wood, pulls water upward from the roots to the leaves, while the phloem, just inside the bark, carries sugar made in the leaves back down to feed the roots and every growing part in between. Because these are two separate sets of tubes rather than one shared channel, water can flow up while sugar flows down at the very same time without the two ever mixing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do root tips tend to grow toward patches of moist soil rather than in a straight line regardless of moisture?",
+        "body": null,
+        "options": [
+          {
+            "label": "The root tip senses uneven moisture and steers its own growth toward the wetter side",
+            "feedback": "Growth slows on the moister side of the tip and continues faster on the drier side, which bends the tip toward the water."
+          },
+          {
+            "label": "Water physically drags the root tip toward it as it flows through soil",
+            "feedback": "Water moving through soil doesn't exert anywhere near enough force to drag a growing root tip along with it."
+          },
+          {
+            "label": "The whole root system relocates itself once a season toward the nearest water source",
+            "feedback": "A root can't uproot itself and relocate; steering happens continuously at each growing tip, not as an occasional whole-system move."
+          },
+          {
+            "label": "Roots grow in every direction at the same rate and moisture makes no difference",
+            "feedback": "If direction truly made no difference, root systems would spread as an even sphere regardless of where the wet soil sat, which isn't what's observed."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Steering by uneven growth",
+        "ok_line": "The tip curves because one side of it is growing slower than the other.",
+        "ko_title": "Not dragged, not relocated",
+        "ko_line": "The steering happens right at the growing tip, continuously, not as a sudden pull or a whole-system move.",
+        "exp_title": "Bending by growing unevenly",
+        "exp_text": "Cells just behind a root tip sense the difference in moisture on either side of it, and cell growth slows more on the wetter side than on the drier side. Because one side of the tip elongates faster than the other, the tip itself curves as it grows, steering toward the moister soil rather than moving in a fixed straight line. This steering, called hydrotropism, repeats constantly as conditions around the tip keep changing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What do many tree roots gain from teaming up with thread-like fungi living in the surrounding soil?",
+        "body": null,
+        "options": [
+          {
+            "label": "Protection from being eaten by soil insects",
+            "feedback": "These fungal threads don't act as armour or repellent; their role is about moving substances, not fending off insects."
+          },
+          {
+            "label": "A signal that warns the tree when the soil is about to freeze",
+            "feedback": "There's no warning signal exchanged here; the relationship is about the two partners physically sharing resources, not passing information about future weather."
+          },
+          {
+            "label": "Extra oxygen pumped directly into the root",
+            "feedback": "Fungi don't generate or deliver oxygen to a root; the benefit runs the other way, in water and minerals, not gas."
+          },
+          {
+            "label": "A much wider reach for absorbing water and scarce minerals, in exchange for some of the tree's sugar",
+            "feedback": "The fungal threads extend far beyond what the roots alone could reach, in a trade that benefits both partners."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "A trade, not a gift",
+        "ok_line": "Fungal threads reach further into the soil than the roots ever could alone.",
+        "ko_title": "Not protection, not a warning",
+        "ko_line": "This partnership is about physically sharing resources between two organisms, not signalling or defence.",
+        "exp_title": "An underground trade",
+        "exp_text": "Thin fungal threads called mycorrhizae grow in and around a tree's fine roots and spread through the soil far beyond where the roots themselves reach. Those threads absorb water and scarce minerals like phosphorus from soil the roots alone could never touch, and pass a share of it into the root. In return, the tree pays the fungus with some of the sugar its leaves have made, since the fungus cannot make its own food."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do most of a tree's roots typically spread wide near the surface rather than growing straight down toward deep groundwater?",
+        "body": null,
+        "options": [
+          {
+            "label": "Deep soil usually lacks the oxygen that root cells need to survive",
+            "feedback": "Root cells are alive and burn sugar for energy just like any other living cell, which means they need a steady supply of oxygen, and oxygen is far scarcer deep in most soils than near the surface."
+          },
+          {
+            "label": "Deep soil is always too rocky for roots to penetrate",
+            "feedback": "Plenty of ground is soft and diggable at depth; hard rock isn't the general reason for shallow spreading, since even trees on deep soft soil still root mostly near the surface."
+          },
+          {
+            "label": "Gravity makes it easier for roots to grow sideways than downward",
+            "feedback": "A growing root tip isn't meaningfully slowed by gravity in any direction; the pull of gravity is far too weak compared to the forces pushing the tip forward through soil."
+          },
+          {
+            "label": "Nutrients are heavier than water and always settle deeper in the soil",
+            "feedback": "Minerals don't sink to the bottom of soil the way sediment settles in water; if anything, decaying leaves and organic matter keep nutrients concentrated near the surface, not deep below."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Oxygen runs out with depth",
+        "ok_line": "Roots need to breathe too, and the surface is where the air reaches.",
+        "ko_title": "Not rock, not gravity, not weight",
+        "ko_line": "Root cells are living cells with a need that has nothing to do with mechanical resistance or the pull of gravity.",
+        "exp_title": "Roots need air, not just water",
+        "exp_text": "A root cell is alive, and like any living cell it burns sugar for energy, a process that constantly consumes oxygen. Soil near the surface has air mixed through its gaps, but that air thins out fast with depth, especially in dense or waterlogged ground. Spreading wide through the oxygen-rich upper layers lets a root system keep breathing, even at the cost of leaving deeper water largely untapped."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "In some trees, why does pressure build up inside the trunk during a stretch of freezing nights followed by warm days in late winter, before any leaves have opened?",
+        "body": null,
+        "options": [
+          {
+            "label": "Wind blowing through the bare branches forces air into the trunk",
+            "feedback": "Wind acting on bare branches has no route into the sealed interior of a trunk; this pressure is generated inside the tree, not pushed in from outside."
+          },
+          {
+            "label": "Freezing and thawing repeatedly shift pressure inside the trunk, pumping sap upward even with no leaves pulling it",
+            "feedback": "Ice forming at night and thawing by day changes the pressure of gas dissolved in the sap, and that repeated squeeze pumps sap upward on its own."
+          },
+          {
+            "label": "Melting snow around the base seeps directly into the roots",
+            "feedback": "Snowmelt does add water to the soil, but soaking wet soil around the roots isn't what generates pressure inside the trunk itself during this particular freeze-thaw cycle."
+          },
+          {
+            "label": "The tree is already pulling water upward for leaves that have just started growing",
+            "feedback": "This pressure builds before any leaf has opened and any evaporation-driven pull has begun; the mechanism here works even on a tree with bare branches."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A pump made of ice and thaw",
+        "ok_line": "Freezing and thawing alone can shove sap upward, no leaves required.",
+        "ko_title": "No wind, no snowmelt, no leaves yet",
+        "ko_line": "This happens on bare branches, before any pulling from above has started — the pressure has to come from inside the trunk.",
+        "exp_title": "Pumped by freezing and thawing",
+        "exp_text": "During a cold night, ice crystals forming inside the trunk squeeze gas bubbles dissolved in the sap into a smaller space, raising the pressure around them. When the day warms and the ice melts, that pressure drives sap outward and upward through the trunk before settling again. Repeated over several freeze-thaw cycles, this alone is enough to pump sap some distance up the tree, entirely without any pull from open leaves."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a tree that loses a large section of its roots in a storm sometimes die slowly over the following year, even though its crown looks undamaged at first?",
+        "body": null,
+        "options": [
+          {
+            "label": "The remaining roots become too heavy for the trunk to support",
+            "feedback": "Root weight isn't the issue here; the trunk is built to bear far more weight than a reduced root mass would ever add."
+          },
+          {
+            "label": "The tree can no longer produce enough sugar without those roots",
+            "feedback": "Sugar-making happens in the leaves, not the roots; the crown looking healthy at first is exactly why the leaves are still doing that job normally for a while."
+          },
+          {
+            "label": "The surviving roots can no longer supply enough water for the whole crown above",
+            "feedback": "A reduced root system keeps drawing what water it can, but a full crown of leaves may demand more than that smaller supply can deliver, especially once conditions turn dry."
+          },
+          {
+            "label": "The exposed root wounds let the tree run out of oxygen",
+            "feedback": "A wounded root can become an entry point for disease, but the slow decline here plays out even in wounds that heal over cleanly and never become infected."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A mismatch that takes time to show",
+        "ok_line": "Fewer roots eventually can't keep up with a crown built for the old supply.",
+        "ko_title": "Not weight, not sugar-making, not the wound itself",
+        "ko_line": "The crown still looks fine at first because the leaves are doing their usual job — the shortage is on the other end of the transport system.",
+        "exp_title": "A supply the roots can no longer meet",
+        "exp_text": "Roots serve two jobs at once, anchoring the tree and drawing up the water its leaves constantly lose to the air. A storm that tears away a large share of the root system leaves the full crown of leaves still demanding the same amount of water as before, but with far fewer roots left to supply it. For a while stored reserves and the remaining roots can just about cover the gap, but the shortfall widens whenever conditions turn dry, and the crown declines long after the storm that caused it has passed."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does soil that stays waterlogged for weeks often kill a tree's roots, even though roots clearly need water to survive?",
+        "body": null,
+        "options": [
+          {
+            "label": "The extra weight of the water compresses and crushes the roots",
+            "feedback": "Water saturating soil doesn't add crushing pressure on roots; soft wet soil is, if anything, easier for a root to sit in than hard dry ground."
+          },
+          {
+            "label": "Standing water fills the gaps in the soil that air would normally occupy, so the roots suffocate",
+            "feedback": "Root cells need oxygen from air pockets in the soil, and when every gap is flooded, that air supply disappears."
+          },
+          {
+            "label": "Waterlogged soil is always too cold for roots to function",
+            "feedback": "Temperature isn't the deciding factor here; roots can suffer in waterlogged soil even during a warm spell, so cold isn't the underlying cause."
+          },
+          {
+            "label": "Too much water washes all the minerals out of reach of the roots",
+            "feedback": "Some minerals can indeed leach away in heavy waterlogging, but roots die from this well before mineral shortage alone would explain it."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Drowned, not drenched",
+        "ok_line": "It isn't the water itself, it's the air the water has pushed out.",
+        "ko_title": "Not weight, not cold, not minerals",
+        "ko_line": "Think about what a root cell needs from the soil besides the water itself.",
+        "exp_title": "Roots drown when the air runs out",
+        "exp_text": "Ordinary soil is full of tiny air-filled gaps between particles, and root cells draw oxygen from that trapped air to burn sugar for energy, just as any living cell must. When soil stays fully saturated, water fills every one of those gaps and pushes the air out, cutting the roots off from oxygen even though they are sitting in plenty of water. Deprived of oxygen for long enough, the root cells suffocate and die, which is why too much water can starve a root of the one thing it also needs from dry ground."
+      }
+    ]
+  }
+]

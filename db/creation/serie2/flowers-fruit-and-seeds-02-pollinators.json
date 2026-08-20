@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 234,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main job of a pollinator, such as a bee or a butterfly?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To eat the flower's petals",
+            "feedback": "Pollinators do visit flowers for food, but their main role is not eating petals. They carry pollen from one flower to another, which fertilizes the ovules."
+          },
+          {
+            "label": "To carry pollen from one flower to another",
+            "feedback": "Correct. A pollinator moves pollen grains from the stamen of one flower to the stigma of another, enabling fertilization."
+          },
+          {
+            "label": "To make nectar for the flower",
+            "feedback": "The flower makes nectar itself, not the pollinator. The pollinator collects nectar as a reward while transferring pollen."
+          },
+          {
+            "label": "To scatter seeds away from the parent plant",
+            "feedback": "Scattering seeds is a different job, often done by animals eating fruits or by wind. Pollinators work with pollen, not seeds."
+          }
+        ],
+        "ok_title": "Pollen carrier",
+        "ok_line": "Pollinators transfer pollen between flowers, enabling seed formation.",
+        "ko_title": "Wrong job",
+        "ko_line": "Pollinators don't eat petals, make nectar, or scatter seeds.",
+        "exp_title": "Pollinator's role",
+        "exp_text": "A pollinator's main job is to pick up pollen from one flower and deposit it on another flower's stigma. This fertilization is what allows the flower to develop seeds and fruits."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a flower produces the pollen grains?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The stigma",
+            "feedback": "The stigma is the part that receives pollen, not the part that makes it. Pollen comes from the anther, which sits on the stamen."
+          },
+          {
+            "label": "The ovary",
+            "feedback": "The ovary holds ovules and later becomes the fruit. It does not produce pollen; that job belongs to the stamen."
+          },
+          {
+            "label": "The anther",
+            "feedback": "Correct. The anther is the pollen-producing part of the stamen, located at the tip of the filament."
+          },
+          {
+            "label": "The nectar",
+            "feedback": "Nectar is a sugary liquid made to attract pollinators, not pollen grains. Pollen is produced in the anther."
+          }
+        ],
+        "ok_title": "Pollen maker",
+        "ok_line": "The anther makes and releases pollen grains.",
+        "ko_title": "Not that part",
+        "ko_line": "The stigma receives pollen, the ovary holds ovules, and nectar is a sugary reward.",
+        "exp_title": "Where pollen forms",
+        "exp_text": "The anther, which forms the top of the stamen, is the part that produces pollen grains. When mature, the anther opens to release the pollen for pollinators to carry away."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a flower produce nectar?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To attract pollinators with a sweet reward",
+            "feedback": "Correct. Nectar is a sugary liquid that pollinators drink, and in exchange they pick up and carry pollen to other flowers."
+          },
+          {
+            "label": "To feed the flower's own roots",
+            "feedback": "Roots take up water and minerals from the soil; they don't feed on nectar. Nectar is made for visitors, not for the plant's own nutrition."
+          },
+          {
+            "label": "To protect the flower from cold weather",
+            "feedback": "Nectar has no role in temperature protection. Its purpose is to attract pollinators like bees and butterflies."
+          },
+          {
+            "label": "To push pollen out of the anther",
+            "feedback": "Pollen is released by the anther opening, not by nectar. Nectar's function is to reward and lure pollinators."
+          }
+        ],
+        "ok_title": "Sweet reward",
+        "ok_line": "Nectar attracts pollinators, who then move pollen.",
+        "ko_title": "Not for other jobs",
+        "ko_line": "Nectar is for attracting pollinators, not for feeding roots or pushing pollen out.",
+        "exp_title": "Role of nectar",
+        "exp_text": "Nectar is a sweet, energy-rich liquid produced deep inside the flower. By drinking it, pollinators get food, and as they move from flower to flower, they carry pollen along, helping the plant reproduce."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the sticky part at the top of a flower's pistil that receives pollen?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The anther",
+            "feedback": "The anther is on the stamen and produces pollen; it does not receive it. The sticky receiver is the stigma."
+          },
+          {
+            "label": "The filament",
+            "feedback": "The filament is the stalk that holds up the anther. It is not the part that catches pollen; that is the stigma."
+          },
+          {
+            "label": "The ovary",
+            "feedback": "The ovary contains ovules and later becomes fruit. Pollen lands on the stigma, not on the ovary."
+          },
+          {
+            "label": "The stigma",
+            "feedback": "Correct. The stigma is the sticky top of the pistil, designed to catch and hold pollen grains that arrive."
+          }
+        ],
+        "ok_title": "Pollen catcher",
+        "ok_line": "The stigma is the sticky receptor for pollen.",
+        "ko_title": "Different part",
+        "ko_line": "The anther makes pollen, the filament holds it, and the ovary holds ovules.",
+        "exp_title": "Stigma's function",
+        "exp_text": "The stigma sits at the upper end of the pistil and has a sticky surface that captures pollen grains. Once pollen sticks there, it can germinate and grow down to fertilize the ovules in the ovary."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which kind of flower is most likely to be pollinated by the wind?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A large, bright red flower with a strong scent",
+            "feedback": "Large, bright, and scented flowers attract animals like birds and bees. Wind-pollinated flowers are small and dull because they don't need to attract visitors."
+          },
+          {
+            "label": "A flower with sticky nectar deep in a long tube",
+            "feedback": "Long tubes with nectar are made for animals with long tongues, not for wind. Wind-pollinated flowers don't produce nectar or scent."
+          },
+          {
+            "label": "A small, greenish flower with no petals and lots of exposed stamens",
+            "feedback": "Correct. Wind-pollinated flowers are usually small, plain, and have long, feathery stamens that let the breeze shake pollen loose."
+          },
+          {
+            "label": "A flower that opens only at night and smells sweet",
+            "feedback": "Night-blooming, sweet-scented flowers attract nocturnal animals like moths. Wind-pollinated flowers have no scent at all."
+          }
+        ],
+        "ok_title": "Wind flowers",
+        "ok_line": "Small, dull flowers with exposed stamens are wind-pollinated.",
+        "ko_title": "Animal flowers",
+        "ko_line": "Bright, scented, or tubular flowers attract animals, not wind.",
+        "exp_title": "Wind-pollinated traits",
+        "exp_text": "Wind-pollinated flowers, like those on grasses and many trees, are small, usually greenish, and lack bright petals or scent. They rely on the breeze to carry lightweight pollen from one flower to another."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the function of the bright, colorful petals on a flower?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To make seeds directly",
+            "feedback": "Seeds form from ovules after fertilization; petals do not make seeds. Petals serve to attract pollinators."
+          },
+          {
+            "label": "To attract pollinators from a distance",
+            "feedback": "Correct. Bright petals catch the eye of animals like bees and butterflies, guiding them to the flower's nectar and pollen."
+          },
+          {
+            "label": "To hold the pollen in place",
+            "feedback": "Pollen is held by the anther, not by petals. Petals are for attraction, not for holding pollen."
+          },
+          {
+            "label": "To protect the flower from rain",
+            "feedback": "Petals don't protect against rain; they attract pollinators. The sepals are the parts that protect the bud before it opens."
+          }
+        ],
+        "ok_title": "Attractive petals",
+        "ok_line": "Bright petals draw in pollinators from far away.",
+        "ko_title": "Not for those jobs",
+        "ko_line": "Petals don't make seeds, hold pollen, or shield from rain.",
+        "exp_title": "Role of petals",
+        "exp_text": "Petals are the colorful, often showy leaves that surround the flower's reproductive parts. Their bright colors and patterns act as visual signals that attract pollinators, helping the plant get its pollen carried to other flowers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "After a bee lands on a flower and drinks nectar, what does it carry away on its body?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Pollen grains",
+            "feedback": "Correct. As the bee brushes against the anthers, pollen sticks to its fuzzy body, ready to be dropped on the next flower's stigma."
+          },
+          {
+            "label": "Nectar",
+            "feedback": "The bee drinks nectar and stores it in its stomach; it doesn't carry it on its body for pollination. The pollen is what sticks to its body."
+          },
+          {
+            "label": "Seeds",
+            "feedback": "Seeds are not produced yet; they form after pollination and fertilization. The bee carries pollen, not seeds."
+          },
+          {
+            "label": "Water",
+            "feedback": "Bees don't carry water from flowers. They pick up pollen on their bodies as they collect nectar."
+          }
+        ],
+        "ok_title": "Pollen on bee",
+        "ok_line": "Bees carry pollen on their bodies from flower to flower.",
+        "ko_title": "Not that",
+        "ko_line": "Bees carry pollen, not nectar, seeds, or water from the flower.",
+        "exp_title": "Pollination by bees",
+        "exp_text": "When a bee visits a flower, its hairy body rubs against the anthers, and pollen grains cling to it. When the bee moves to another flower, some of that pollen rubs off onto the stigma, completing pollination."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the function of a flower's scent?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "To keep rain off the pollen",
+            "feedback": "Scent has nothing to do with rain protection. It's a chemical signal that attracts pollinators, especially in the dark or at night."
+          },
+          {
+            "label": "To make the flower taste sweet",
+            "feedback": "Scent doesn't affect taste. It's a volatile chemical that animals detect with their noses, guiding them to the flower."
+          },
+          {
+            "label": "To repel harmful insects",
+            "feedback": "Some scents might deter pests, but the main role of floral scent is to attract pollinators, not repel them."
+          },
+          {
+            "label": "To attract pollinators, especially in low light or at night",
+            "feedback": "Correct. Scent carries through the air and helps animals find flowers even when colors are hard to see, like at dusk or in forests."
+          }
+        ],
+        "ok_title": "Aromatic guide",
+        "ok_line": "Scent helps pollinators locate flowers, even in dim light.",
+        "ko_title": "Not for that",
+        "ko_line": "Scent attracts pollinators; it doesn't block rain or affect taste.",
+        "exp_title": "Purpose of floral scent",
+        "exp_text": "Flowers release volatile chemicals that travel through the air. These scents are detected by pollinators' sensitive noses, guiding them to the flower, especially when visual cues are less useful, such as at night or in dense vegetation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the process where pollen lands on the stigma of a flower of the same species?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Germination",
+            "feedback": "Germination is when a seed starts to grow after landing in soil. The process of pollen landing on a stigma is called pollination."
+          },
+          {
+            "label": "Photosynthesis",
+            "feedback": "Photosynthesis is how plants make food from sunlight. Pollination is the transfer of pollen, not food-making."
+          },
+          {
+            "label": "Pollination",
+            "feedback": "Correct. Pollination is the transfer of pollen from a stamen to a stigma, allowing fertilization to happen."
+          },
+          {
+            "label": "Fertilization",
+            "feedback": "Fertilization is the fusion of sperm and egg cells after pollination. Pollination is the earlier step of pollen delivery."
+          }
+        ],
+        "ok_title": "Pollen delivery",
+        "ok_line": "The arrival of pollen on a stigma is called pollination.",
+        "ko_title": "Different term",
+        "ko_line": "Pollination is the pollen transfer; germination, photosynthesis, and fertilization are other processes.",
+        "exp_title": "Definition of pollination",
+        "exp_text": "Pollination is the step in which pollen grains land on a flower's stigma. This is how the male pollen meets the female part, setting the stage for fertilization and seed development. It can happen by wind, water, or animals."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a flower need to be pollinated before it can produce seeds?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "So the pollen can reach the ovules and fertilize them",
+            "feedback": "Correct. Pollination brings pollen to the stigma, from which a tube grows down to the ovary to fertilize the ovules, forming seeds."
+          },
+          {
+            "label": "So the petals can change color",
+            "feedback": "Color changes happen after pollination in some flowers, but that's not why seeds form. Seeds come from fertilized ovules."
+          },
+          {
+            "label": "So the flower can open up",
+            "feedback": "Flowers open as part of blooming, not because of pollination. Pollination is about delivering pollen to the stigma."
+          },
+          {
+            "label": "So the roots can grow deeper",
+            "feedback": "Root growth is unrelated to pollination. Seeds form only after ovules are fertilized by pollen."
+          }
+        ],
+        "ok_title": "Seeds need pollen",
+        "ok_line": "Pollination delivers pollen to fertilize ovules into seeds.",
+        "ko_title": "Not why",
+        "ko_line": "Seeds form from fertilization; they don't need color changes or root growth.",
+        "exp_title": "Why pollination matters",
+        "exp_text": "Pollination is essential because it brings the male pollen grain to the female stigma. From there, a pollen tube grows down to the ovary, where sperm cells fertilize the ovules. Without this step, the ovules can't develop into seeds."
+      }
+    ]
+  }
+]

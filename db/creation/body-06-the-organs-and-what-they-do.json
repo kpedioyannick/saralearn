@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What actually makes a body part count as an organ rather than just a lump of tissue?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is built from several different tissues working together for a specific job",
+            "feedback": "An organ combines different kinds of tissue, such as muscle, blood vessels and lining tissue, all cooperating toward one particular task."
+          },
+          {
+            "label": "It is any part of the body that can be felt from outside",
+            "feedback": "Whether something can be felt through the skin has nothing to do with whether it counts as an organ; many organs sit too deep to feel at all."
+          },
+          {
+            "label": "It is any part of the body containing blood",
+            "feedback": "Blood reaches almost every tissue in the body, organ or not, so simply containing blood is not what sets an organ apart."
+          },
+          {
+            "label": "It is a part of the body made from a single type of cell repeated many times",
+            "feedback": "A structure built from just one repeated cell type is closer to a simple tissue; an organ is defined by different tissues combining to do a job."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Tissues, teamed up",
+        "ok_line": "An organ is several different tissues cooperating on one task.",
+        "ko_title": "Not the definition",
+        "ko_line": "Think about what several different kinds of tissue working together achieves that one kind alone could not.",
+        "exp_title": "Several tissues, one task",
+        "exp_text": "A single tissue, such as plain muscle or a simple lining, can only do one narrow kind of work on its own. An organ is formed when several different tissues, such as muscle, blood vessels, nerves and a specialised lining, are arranged together and coordinated toward one overall job. That combination is what lets an organ carry out a task, such as filtering blood or storing a fluid, that no single tissue by itself could manage."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the liver's main job as blood passes through it?",
+        "body": null,
+        "options": [
+          {
+            "label": "It filters the blood, breaking down or neutralising harmful substances in it",
+            "feedback": "Blood passing through the liver is chemically processed there, with harmful or unwanted substances broken down or altered so they are less dangerous."
+          },
+          {
+            "label": "It pumps blood onward to the rest of the body",
+            "feedback": "Pumping blood around the body is the heart's job; the liver processes blood chemically as it passes through, rather than pushing it along."
+          },
+          {
+            "label": "It adds oxygen to the blood before it continues on",
+            "feedback": "Oxygen is added to the blood in the lungs; the liver's role is to process and filter the blood chemically, not to supply it with oxygen."
+          },
+          {
+            "label": "It stores the blood until it is needed elsewhere",
+            "feedback": "Blood keeps moving through the liver rather than being held there in storage; the liver's role is to process it as it passes through."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A chemical filter",
+        "ok_line": "Blood is processed and cleaned as it passes through, not pumped or stored.",
+        "ko_title": "Not the liver's role",
+        "ko_line": "The liver processes blood chemically as it flows through — it neither pumps it nor adds anything to carry oxygen.",
+        "exp_title": "A processing plant for the blood",
+        "exp_text": "Nearly all of the blood leaving the digestive system passes through the liver before it continues on to the rest of the body. As it flows through, the liver's cells break down or alter a wide range of substances carried in that blood, from natural waste products to anything foreign that should not stay in circulation. By the time blood leaves the liver, it has been chemically processed in a way no other organ performs."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What do the kidneys actually do to the blood that flows through them?",
+        "body": null,
+        "options": [
+          {
+            "label": "They warm the blood before it circulates further",
+            "feedback": "Warming the blood is not a function of the kidneys; their role is filtering waste out of the blood that passes through them."
+          },
+          {
+            "label": "They add extra oxygen picked up from the surrounding tissue",
+            "feedback": "The kidneys are not where blood gets its oxygen; that happens in the lungs, while the kidneys focus on filtering out waste."
+          },
+          {
+            "label": "They store a reserve supply of blood for emergencies",
+            "feedback": "The kidneys are not a blood storage site; blood flows through them continuously to be filtered rather than held in reserve."
+          },
+          {
+            "label": "They filter it continuously, removing waste to be passed out as urine",
+            "feedback": "Blood passing through the kidneys is filtered constantly, with waste products pulled out and sent onward to be excreted as urine."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "A constant filter",
+        "ok_line": "Blood is filtered continuously, and what is filtered out becomes urine.",
+        "ko_title": "Not the kidneys' job",
+        "ko_line": "The kidneys' whole purpose is removing waste from the blood, not adding anything to it or storing it.",
+        "exp_title": "Filtering that never stops",
+        "exp_text": "Blood flows through the kidneys again and again, and each time it passes through, tiny filtering units inside pull waste products and excess substances out of it while letting what the body still needs flow back into circulation. The material filtered out is carried away as urine, destined to leave the body. This filtering runs continuously rather than in occasional bursts, since waste keeps building up in the blood as long as the body's cells keep working."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is urine produced all the time rather than only when the body happens to need to get rid of something?",
+        "body": null,
+        "options": [
+          {
+            "label": "Urine is only made after eating a meal",
+            "feedback": "Filtering continues whether or not a meal has recently been eaten, since blood needs to be cleaned continuously, not just after food arrives."
+          },
+          {
+            "label": "The bladder signals the kidneys to start producing urine whenever it is empty",
+            "feedback": "The kidneys do not wait for a signal from the bladder before filtering; they filter blood constantly regardless of how full or empty the bladder happens to be."
+          },
+          {
+            "label": "The kidneys filter blood nonstop, since blood must stay clean at every moment",
+            "feedback": "Since waste keeps accumulating in the blood continuously as cells work, the kidneys have to keep filtering continuously as well, producing urine the whole time rather than only occasionally."
+          },
+          {
+            "label": "Urine production depends entirely on how much water was drunk that day",
+            "feedback": "The amount drunk affects how much urine is produced, but filtering itself continues at all times regardless of recent drinking."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Continuous filtering, continuous output",
+        "ok_line": "Blood needs cleaning at every moment, so the filtering, and the urine it produces, never really stops.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about how often the blood actually needs to be kept clean.",
+        "exp_title": "Because the need never pauses",
+        "exp_text": "Every cell in the body produces waste as it works, and that waste is constantly entering the bloodstream, not just at certain times of day. Because the kidneys' job is to keep the blood clean, they filter it continuously to keep pace with that constant trickle of waste. Urine is simply the ongoing product of that ongoing filtering, made steadily rather than switched on now and then."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does the bladder actually do?",
+        "body": null,
+        "options": [
+          {
+            "label": "It regulates how much water the body drinks",
+            "feedback": "Deciding how much to drink is unrelated to the bladder's function; the bladder simply stores urine that has already been produced elsewhere."
+          },
+          {
+            "label": "It filters waste directly out of the blood",
+            "feedback": "Filtering waste out of the blood is done by the kidneys; the bladder's job is only to store what the kidneys have already filtered out."
+          },
+          {
+            "label": "It produces the urine that it then stores",
+            "feedback": "Urine is produced by the kidneys before it ever reaches the bladder; the bladder's role is purely to hold it, not to make it."
+          },
+          {
+            "label": "It stretches to store urine until it is convenient to release it",
+            "feedback": "The bladder is a muscular, expandable bag that fills gradually with urine and holds it until its muscular wall contracts to release it."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "A stretchy storage bag",
+        "ok_line": "It holds what the kidneys have already filtered, until releasing it is convenient.",
+        "ko_title": "Not the bladder's role",
+        "ko_line": "The filtering and producing happen elsewhere; the bladder's whole job is storage.",
+        "exp_title": "A bag built to stretch",
+        "exp_text": "Urine produced by the kidneys travels down to the bladder, a muscular bag with walls that can stretch considerably as it gradually fills. Rather than being released the moment it arrives, the urine is held there, with the bladder's wall relaxing to make room as more collects. The bladder's muscular wall contracts when the moment is chosen, releasing what it has been storing on a schedule that suits the body rather than the moment each drop arrives."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does the spleen do as blood passes through it?",
+        "body": null,
+        "options": [
+          {
+            "label": "It pumps blood back to the heart under extra pressure",
+            "feedback": "Pumping blood is the heart's job; the spleen filters blood as it passes through rather than adding any pressure to push it along."
+          },
+          {
+            "label": "It filters blood and clears out red blood cells that are too worn to keep working",
+            "feedback": "As blood passes through the spleen, red blood cells that have become too old or damaged to function properly are recognised and removed from circulation there."
+          },
+          {
+            "label": "It produces the fluid part of blood, the plasma",
+            "feedback": "Plasma is not manufactured in the spleen; the spleen's role is filtering blood and clearing out cells that are no longer working properly."
+          },
+          {
+            "label": "It adds oxygen to blood before sending it onward",
+            "feedback": "Oxygen is picked up by blood in the lungs, not in the spleen, whose role instead is filtering out worn-out cells as blood passes through."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A checkpoint for worn-out cells",
+        "ok_line": "Cells too old to keep working are filtered out here as blood passes through.",
+        "ko_title": "Not the spleen's role",
+        "ko_line": "The spleen is a filter for the blood's own cells, not a pump or an oxygen supplier.",
+        "exp_title": "A checkpoint for tired blood cells",
+        "exp_text": "Red blood cells wear out after circulating for a long stretch of time, becoming stiffer and less able to squeeze through the body's narrowest vessels. As blood flows through the spleen, cells that have reached this worn-out state are recognised and removed from circulation, clearing the way for younger, more flexible cells to keep doing the work. This steady removal keeps the blood supplied mainly with cells still capable of doing their job well."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What role does the pancreas play in keeping blood sugar under control?",
+        "body": null,
+        "options": [
+          {
+            "label": "It filters sugar directly out of the blood as it passes through",
+            "feedback": "The pancreas does not filter sugar out of the blood directly; instead it releases a hormone that tells other cells throughout the body to take sugar in."
+          },
+          {
+            "label": "It releases a hormone that signals cells to take up sugar from the blood",
+            "feedback": "When blood sugar rises, the pancreas releases a hormone that travels through the blood and signals cells throughout the body to draw sugar in, bringing the level back down."
+          },
+          {
+            "label": "It stores excess blood sugar inside itself for later use",
+            "feedback": "Excess sugar is stored elsewhere in the body, not inside the pancreas itself; the pancreas works by releasing a signal, not by storing sugar."
+          },
+          {
+            "label": "It burns off excess blood sugar directly for its own energy",
+            "feedback": "The pancreas does not consume the excess sugar itself; it releases a hormone that prompts other cells around the body to take it up instead."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A signal, not a filter",
+        "ok_line": "A hormone released into the blood tells cells elsewhere to pull sugar in.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "The pancreas sends a chemical signal through the blood rather than acting on the sugar directly itself.",
+        "exp_title": "A messenger for the whole body",
+        "exp_text": "After a meal, sugar entering the bloodstream causes blood sugar levels to rise, and the pancreas detects that rise. In response, it releases a hormone into the blood that travels throughout the body, signalling cells in muscle and other tissue to open up and draw sugar in from the bloodstream for energy or storage. Blood sugar falls back down not because the pancreas removes the sugar itself, but because its hormone gets the rest of the body's cells to absorb it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the body have two kidneys rather than relying on a single one?",
+        "body": null,
+        "options": [
+          {
+            "label": "Having a matching pair gives the body a working backup if one is damaged",
+            "feedback": "With two kidneys sharing the filtering workload, the remaining kidney can take over and keep filtering blood adequately if the other one is damaged or lost."
+          },
+          {
+            "label": "One kidney filters the blood while the other stores the filtered waste",
+            "feedback": "Both kidneys perform the same filtering job independently; neither one is specialised into a storage role for the other's waste."
+          },
+          {
+            "label": "Each kidney filters blood coming from only one side of the body",
+            "feedback": "Blood does not split neatly by side of the body between the two kidneys; both kidneys filter blood arriving from the whole circulatory system."
+          },
+          {
+            "label": "Two kidneys are needed because one alone would be too small to fit properly",
+            "feedback": "A single kidney of a larger size could physically fit within the body; having two is not a matter of available space."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A built-in backup",
+        "ok_line": "Two identical kidneys mean the body is not left without filtering if one fails.",
+        "ko_title": "Not the reason for the pair",
+        "ko_line": "Both kidneys do the exact same job independently — think about what having two of something identical actually buys you.",
+        "exp_title": "Redundancy built into the body",
+        "exp_text": "Each kidney is fully capable of filtering blood on its own, and under normal conditions the two simply share the workload between them. Because the two are duplicates of each other rather than specialised for different tasks, losing one to injury or disease still leaves a functioning kidney behind to keep filtering blood, even if at a reduced capacity. Pairing up organs this way is one of the body's strategies for surviving damage to a single vital part."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does every organ in the body need its own blood supply running through it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Blood carries the nerve signals that tell the organ how to move",
+            "feedback": "Nerve signals travel along nerve fibres, not through the blood; blood delivers oxygen and fuel, not the instructions an organ acts on."
+          },
+          {
+            "label": "Its cells are living tissue that constantly needs oxygen and fuel delivered to them",
+            "feedback": "An organ is made of living cells, and like any living cells, they need oxygen and fuel delivered continuously through the blood to keep working."
+          },
+          {
+            "label": "Blood physically holds the organ's tissue together",
+            "feedback": "An organ's structure is held together by its own tissue, such as connective fibres, not by the blood flowing through it."
+          },
+          {
+            "label": "Blood is needed only by organs that move, not by ones that stay still",
+            "feedback": "Even organs that do not move at all, such as the liver, depend on a constant blood supply, because the need comes from being made of living cells, not from moving."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Living tissue, constant needs",
+        "ok_line": "Every organ is made of living cells, and living cells need a steady supply delivered to them.",
+        "ko_title": "Not the reason",
+        "ko_line": "The need for blood comes from being alive, not from moving or from carrying signals.",
+        "exp_title": "Every organ is living tissue",
+        "exp_text": "An organ is not a fixed, unchanging object but a collection of living cells that are constantly using energy to do their job, whether that job is filtering, pumping or processing. Like any living cells anywhere in the body, those cells need oxygen and fuel delivered to them without interruption, and blood vessels branching through the organ are what carry that supply in. Cut an organ's blood supply off and its cells begin to fail quickly, regardless of how important or well protected that organ otherwise is."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does the gallbladder actually do?",
+        "body": null,
+        "options": [
+          {
+            "label": "It filters the blood before sending it on to the liver",
+            "feedback": "Filtering blood is not the gallbladder's role at all; it stores and releases bile, a fluid the liver makes, rather than filtering blood."
+          },
+          {
+            "label": "It produces the bile that the liver later stores",
+            "feedback": "Bile is made in the liver, not in the gallbladder; the gallbladder's job is to store what the liver has already produced, not to produce it itself."
+          },
+          {
+            "label": "It stores bile made by the liver and releases it when needed",
+            "feedback": "Bile is produced continuously by the liver, and the gallbladder stores it, concentrating it and holding it ready to be released at the right moment."
+          },
+          {
+            "label": "It breaks bile down into simpler substances for the body to absorb",
+            "feedback": "The gallbladder does not break bile down; it stores the bile the liver produces, largely unchanged, until it is time to release it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A storage tank for the liver's output",
+        "ok_line": "The liver makes the bile; the gallbladder holds it ready.",
+        "ko_title": "Not the gallbladder's role",
+        "ko_line": "The gallbladder stores what another organ produces — it does not make, filter, or break anything down itself.",
+        "exp_title": "A holding tank tucked beside the liver",
+        "exp_text": "The liver produces bile continuously, but the body does not always need it flowing at that same steady rate, so the gallbladder sits nearby to store the surplus. Bile collects there and is concentrated as it waits, ready to be released in a stronger dose exactly when it is needed rather than trickling in continuously. Squeezed out at the right moment, that stored bile joins the digestive process downstream from where the gallbladder itself sits."
+      }
+    ]
+  }
+]

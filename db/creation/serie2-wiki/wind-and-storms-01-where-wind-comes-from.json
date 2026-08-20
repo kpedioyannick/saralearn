@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the simplest definition of wind?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The movement of clouds across the sky",
+            "feedback": "Clouds are carried along by the air, but wind itself is the air that moves, not the clouds. The clouds only appear to move because the air around them flows."
+          },
+          {
+            "label": "The change in temperature between day and night",
+            "feedback": "Temperature changes can cause wind, but they are not what wind is. Wind is the actual movement of air, not the reason it moves."
+          },
+          {
+            "label": "The natural movement of air or other gases relative to a planet's surface",
+            "feedback": "Correct. Wind is simply air (or other gases) in motion over the surface of a planet. This covers everything from a gentle breeze to a hurricane."
+          },
+          {
+            "label": "The pressure that air exerts on the ground",
+            "feedback": "Air pressure is what pushes air around, but wind is the result of that push — the flowing movement of air. Pressure itself is not wind."
+          }
+        ],
+        "ok_title": "Wind is moving air",
+        "ok_line": "Wind is just air or other gases moving across a planet's surface.",
+        "ko_title": "Wind is not pressure or clouds",
+        "ko_line": "Wind is the movement of air, not the pressure behind it or the clouds it pushes.",
+        "exp_title": "Wind as moving air",
+        "exp_text": "Wind is the natural movement of air, or of other gases, relative to the surface of a planet. When air flows from one place to another, that flow is what we call wind. It happens on many scales, from a brief gust to world-spanning air currents."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main causes of large-scale wind patterns on Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The different heating of the equator and the poles, and the rotation of the planet",
+            "feedback": "Correct. The equator gets more solar energy than the poles, setting air in motion, and the planet's rotation then bends that motion. Together these drive the global winds."
+          },
+          {
+            "label": "The pull of the Moon and the Sun's gravity",
+            "feedback": "Gravity from the Moon and Sun creates tides in the oceans and atmosphere, but it is not what drives the main wind belts. That job belongs to heating differences and rotation."
+          },
+          {
+            "label": "The spin of the Earth and the pull of the oceans",
+            "feedback": "The planet's rotation is one of the two causes, but the oceans do not drive large-scale winds. The other cause is the heating difference between equator and poles, not ocean pull."
+          },
+          {
+            "label": "The heat from volcanoes and the tilt of the Earth's axis",
+            "feedback": "Volcanic heat is local and short-lived, and the axis tilt influences seasons, but neither is listed as a main driver of large-scale circulation. The two main drivers are differential heating and rotation."
+          }
+        ],
+        "ok_title": "Two main drives",
+        "ok_line": "Unequal heating and the planet's spin create the big wind patterns.",
+        "ko_title": "Not gravity or volcanoes",
+        "ko_line": "The main causes are heating differences and rotation, not other forces.",
+        "exp_title": "Main causes of global winds",
+        "exp_text": "The large-scale movement of air around the planet comes from two things working together. First, the equator absorbs more solar energy than the poles, so warm air near the equator rises and cooler air moves in to replace it. Second, the rotation of the Earth deflects that moving air, curving it into the great wind belts we see. Without either one, the global pattern of winds would look very different."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a gust of wind?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A wind that blows steadily for an hour or more",
+            "feedback": "That description fits a long-lasting wind, like a breeze or a gale. A gust is the opposite: a short, sharp burst of faster wind."
+          },
+          {
+            "label": "A short burst of high-speed wind",
+            "feedback": "Correct. A gust is a brief, sudden increase in wind speed that lasts only seconds, not minutes or hours."
+          },
+          {
+            "label": "A wind that changes direction slowly over a day",
+            "feedback": "Changing direction gradually is a separate feature of wind, not what a gust is. A gust is a quick, strong surge in speed."
+          },
+          {
+            "label": "A wind strong enough to knock over trees",
+            "feedback": "A gust can be that strong, but not all gusts are damaging, and damage is not what makes it a gust. The defining feature is its short duration and high speed."
+          }
+        ],
+        "ok_title": "A quick burst",
+        "ok_line": "A gust is a short, fast increase in wind speed.",
+        "ko_title": "Not a long steady wind",
+        "ko_line": "Gusts are brief and strong, unlike longer-lasting winds.",
+        "exp_title": "What a gust is",
+        "exp_text": "A gust is a short, sudden burst of high-speed wind. It lasts only seconds, in contrast to winds that blow for minutes or hours. You feel a gust as a quick push of stronger air, then the wind eases back."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'westerly wind' mean?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A wind that blows from the east toward the west",
+            "feedback": "That is an easterly wind, not a westerly one. The name of the wind tells you where it comes from, not where it is going."
+          },
+          {
+            "label": "A wind that blows only in the western part of the world",
+            "feedback": "The word 'westerly' refers to the wind's direction of origin, not to a location. A westerly wind can occur anywhere on the planet."
+          },
+          {
+            "label": "A wind that blows from the north to the south",
+            "feedback": "That would be a northerly wind, because it comes from the north. A westerly wind comes from the west instead."
+          },
+          {
+            "label": "A wind that blows from the west toward the east",
+            "feedback": "Correct. Winds are named for the direction they come from, so a westerly wind starts in the west and moves eastward. This is why a 'northern' wind blows south."
+          }
+        ],
+        "ok_title": "Naming the source",
+        "ok_line": "A westerly wind comes from the west and blows east.",
+        "ko_title": "Name tells origin",
+        "ko_line": "Wind names say where the wind starts, not where it goes.",
+        "exp_title": "Wind direction convention",
+        "exp_text": "Wind direction is always given by the direction the wind is coming from. So a westerly wind flows from west to east. This can feel backward, because we often think of where something is going, but meteorology uses the origin."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the solar wind?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The movement of gases or charged particles from the Sun through space",
+            "feedback": "Correct. The Sun constantly sends out a flow of gas and charged particles, and that outward stream is called the solar wind."
+          },
+          {
+            "label": "Wind that blows only during a solar eclipse",
+            "feedback": "A solar eclipse darkens the sky briefly, but it does not create a special wind. Solar wind comes from the Sun itself, not from an eclipse."
+          },
+          {
+            "label": "Wind that is powered by solar panels",
+            "feedback": "Solar panels convert sunlight into electricity, and that electricity can run machines, but it is not what solar wind is. Solar wind is a natural flow from the Sun."
+          },
+          {
+            "label": "Wind that blows on the surface of the Sun",
+            "feedback": "The Sun has no solid surface like Earth, and the solar wind is the material that streams away from it into space, not wind blowing along a surface."
+          }
+        ],
+        "ok_title": "Sun's outbound flow",
+        "ok_line": "Solar wind is the stream of gas and particles leaving the Sun.",
+        "ko_title": "Not Earth's wind",
+        "ko_line": "Solar wind is about the Sun, not the breeze on Earth.",
+        "exp_title": "Solar wind explained",
+        "exp_text": "The solar wind is the steady outward movement of gases and charged particles from the Sun into space. It travels far beyond the planets, carrying solar material with it. It is not the same as wind on a planet's surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary cause of wind on Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The pull of the Moon's gravity",
+            "feedback": "The Moon's gravity pulls on the oceans and even the atmosphere, but it is not the main driver of wind. Wind comes from differences in air pressure."
+          },
+          {
+            "label": "The spinning of the Earth's core",
+            "feedback": "The Earth's core produces the magnetic field, not the winds. The rotation of the whole planet does affect wind, but it is not the cause; it only bends moving air."
+          },
+          {
+            "label": "Differences in atmospheric pressure",
+            "feedback": "Correct. Wind arises because air moves from areas of higher pressure to areas of lower pressure. Those pressure differences are mostly set up by temperature differences."
+          },
+          {
+            "label": "The movement of ocean currents",
+            "feedback": "Ocean currents can influence local weather, but they are not the direct cause of wind. Wind is caused by air pressure differences in the atmosphere."
+          }
+        ],
+        "ok_title": "Pressure drives wind",
+        "ok_line": "Wind comes from air moving from high to low pressure.",
+        "ko_title": "Not gravity or currents",
+        "ko_line": "Wind is caused by pressure differences, not by the Moon or the oceans.",
+        "exp_title": "Cause of wind",
+        "exp_text": "Wind exists because air pressure is not the same everywhere. When one place has higher pressure and another has lower pressure, air starts to flow from the high-pressure area toward the low-pressure area. That flowing air is wind. Temperature differences create most of these pressure differences."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the Coriolis effect do to moving air?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It speeds the air up as it moves",
+            "feedback": "The Coriolis effect does not change wind speed; it changes wind direction. Speed is controlled by pressure differences and friction."
+          },
+          {
+            "label": "It deflects the air sideways as the planet rotates",
+            "feedback": "Correct. Because the Earth rotates, air moving in a straight line appears to curve. This deflection is the Coriolis effect, and it shapes the direction of winds."
+          },
+          {
+            "label": "It pushes air straight down toward the ground",
+            "feedback": "The Coriolis effect acts horizontally, not vertically. It bends winds to the side, not downward."
+          },
+          {
+            "label": "It stops the air from moving at the equator",
+            "feedback": "At the equator the Coriolis effect is zero, so air there is not deflected, but it does not stop moving. The effect is about curving, not blocking."
+          }
+        ],
+        "ok_title": "Spinning bends winds",
+        "ok_line": "The Coriolis effect curves moving air sideways.",
+        "ko_title": "Not speed or stopping",
+        "ko_line": "The Coriolis effect changes direction, not speed or presence of wind.",
+        "exp_title": "Coriolis effect",
+        "exp_text": "The Coriolis effect is the sideways deflection that moving air experiences because the planet below it is rotating. Instead of flowing in a perfectly straight line from high to low pressure, the air curves. This deflection is strongest away from the equator and zero right at the equator."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a name for a long-lasting wind of intermediate strength?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Breeze",
+            "feedback": "Correct. A breeze is a wind of moderate strength that lasts for a long while, unlike a gust or a squall, which are short."
+          },
+          {
+            "label": "Gust",
+            "feedback": "A gust is a short burst of high-speed wind, lasting only seconds. It is not a long-lasting wind."
+          },
+          {
+            "label": "Squall",
+            "feedback": "A squall is a strong wind that lasts about a minute — longer than a gust but still not a long-duration wind. A breeze lasts much longer."
+          },
+          {
+            "label": "Monsoon",
+            "feedback": "A monsoon is a seasonal wind pattern that reverses direction, not just a name for a long-lasting breeze. It is a special large-scale circulation."
+          }
+        ],
+        "ok_title": "Long-lasting moderate wind",
+        "ok_line": "A breeze is a steady wind of medium strength that lasts.",
+        "ko_title": "Not short bursts",
+        "ko_line": "Gusts and squalls are short; a breeze is long-lasting.",
+        "exp_title": "Types of winds by duration",
+        "exp_text": "Winds are named partly by how long they last. A gust is a quick burst, a squall lasts around a minute, and longer-lasting winds have names like breeze, gale, storm, or hurricane, based on their strength."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a squall?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A wind that blows for several hours",
+            "feedback": "Winds that blow for hours are called by names like breeze or gale. A squall is much shorter, lasting only about a minute."
+          },
+          {
+            "label": "A gentle, steady wind",
+            "feedback": "A gentle steady wind is a breeze, not a squall. A squall is strong, not gentle."
+          },
+          {
+            "label": "A wind that changes direction every few seconds",
+            "feedback": "Changing direction is not what defines a squall. A squall is defined by its strong speed and its intermediate duration, around one minute."
+          },
+          {
+            "label": "A strong wind that lasts about a minute",
+            "feedback": "Correct. A squall is stronger than a breeze and lasts longer than a gust, roughly one minute. It is a short but powerful burst of wind."
+          }
+        ],
+        "ok_title": "Minute-long strong wind",
+        "ok_line": "A squall is a strong wind that lasts about a minute.",
+        "ko_title": "Not hours or gentle",
+        "ko_line": "A squall is strong and short, not gentle or long-lasting.",
+        "exp_title": "What a squall is",
+        "exp_text": "A squall is a strong wind that lasts for an intermediate time, roughly one minute. It sits between a gust, which lasts only seconds, and a long-duration wind like a breeze or gale, which can last much longer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the most basic definition of wind?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The natural movement of air or other gases relative to a planet's surface",
+            "feedback": "Correct. Wind is simply moving air, or other gases, over the surface of a planet."
+          },
+          {
+            "label": "The movement of air caused only by the Earth's rotation",
+            "feedback": "Rotation is one factor that affects winds, but wind is defined as the movement of air in general, not just because of rotation."
+          },
+          {
+            "label": "The flow of air from the ocean to the land",
+            "feedback": "That is a specific type of wind, the sea breeze. Wind can come from anywhere and move in any direction."
+          },
+          {
+            "label": "The speed at which air travels in the upper atmosphere",
+            "feedback": "Wind occurs at all levels of the atmosphere, and its definition is not limited to high altitudes."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "Wind is just air on the move.",
+        "ko_title": "Not quite",
+        "ko_line": "Re-read the basic definition.",
+        "exp_title": "What wind is",
+        "exp_text": "Wind is the natural movement of air or other gases relative to a planet's surface. It happens whenever air flows from one place to another."
+      }
+    ]
+  }
+]

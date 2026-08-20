@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three phases of water that the water cycle moves through?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Solid, liquid, and plasma",
+            "feedback": "Plasma is not a phase of water in the water cycle. The cycle moves water through solid (ice), liquid, and vapor."
+          },
+          {
+            "label": "Ice, steam, and mist",
+            "feedback": "Steam and mist are not formal phases. The three phases are solid (ice), liquid, and vapor."
+          },
+          {
+            "label": "Solid, liquid, and vapor",
+            "feedback": "Correct. Water in the cycle exists as ice, liquid water, and water vapor."
+          },
+          {
+            "label": "Frozen, wet, and gaseous",
+            "feedback": "These are descriptive words, not the formal phase names. The phases are solid, liquid, and vapor."
+          }
+        ],
+        "ok_title": "Three phases",
+        "ok_line": "Water moves as ice, liquid, and vapor.",
+        "ko_title": "Not that phase",
+        "ko_line": "Check the list of phases.",
+        "exp_title": "Water phases",
+        "exp_text": "The water cycle moves water through three phases: solid (ice), liquid, and vapor. Each phase change, like melting or evaporation, involves absorbing or releasing heat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which reservoir is the source of most of the evaporation in the water cycle?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lakes and rivers",
+            "feedback": "Lakes and rivers do evaporate, but they hold only a tiny share of Earth's water. The ocean dominates evaporation."
+          },
+          {
+            "label": "The ocean",
+            "feedback": "Correct. The ocean supplies 86% of global evaporation because it covers most of the planet's surface."
+          },
+          {
+            "label": "Soil moisture",
+            "feedback": "Soil moisture evaporates, but it is a small source compared to the ocean. Most evaporation comes from the sea."
+          },
+          {
+            "label": "Ice caps and glaciers",
+            "feedback": "Ice sublimes directly to vapor, but that is not the main source. Evaporation from the ocean far exceeds it."
+          }
+        ],
+        "ok_title": "Ocean's role",
+        "ok_line": "The ocean drives most evaporation.",
+        "ko_title": "Smaller source",
+        "ko_line": "Other reservoirs contribute far less.",
+        "exp_title": "Main evaporation source",
+        "exp_text": "The ocean is the key reservoir in the cycle because it is the source of 86% of global evaporation. Its vast surface area provides most of the water vapor that enters the atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the process by which water vapor turns into liquid water droplets in the air?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Evaporation",
+            "feedback": "Evaporation is the opposite: liquid water turning into vapor. The process you are asked about is the reverse."
+          },
+          {
+            "label": "Sublimation",
+            "feedback": "Sublimation is ice turning directly into vapor, skipping the liquid phase. Here the vapor becomes liquid."
+          },
+          {
+            "label": "Precipitation",
+            "feedback": "Precipitation is the falling of condensed water to the ground. The change to liquid droplets happens before that."
+          },
+          {
+            "label": "Condensation",
+            "feedback": "Correct. Condensation is the transformation of water vapor into liquid water droplets, forming clouds and fog."
+          }
+        ],
+        "ok_title": "Vapor to liquid",
+        "ok_line": "Condensation creates the droplets.",
+        "ko_title": "Reverse or later",
+        "ko_line": "Match the direction of change.",
+        "exp_title": "Condensation explained",
+        "exp_text": "Condensation is the phase change from vapor to liquid. When air cools, vapor turns into tiny droplets, which gather as clouds or, near the ground, as fog."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which process moves water through the atmosphere from one place to another?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Advection",
+            "feedback": "Correct. Advection is the movement of water through the atmosphere, carrying vapor across distances."
+          },
+          {
+            "label": "Infiltration",
+            "feedback": "Infiltration is water soaking into the ground, not moving through air. It is a land-surface process."
+          },
+          {
+            "label": "Percolation",
+            "feedback": "Percolation is water flowing downward through soil and rocks under gravity, not atmospheric movement."
+          },
+          {
+            "label": "Runoff",
+            "feedback": "Runoff is water flowing across the land surface, not through the atmosphere. Advection is the air-borne movement."
+          }
+        ],
+        "ok_title": "Atmospheric travel",
+        "ok_line": "Advection carries vapor around.",
+        "ko_title": "Ground or flow",
+        "ko_line": "These happen on land, not in air.",
+        "exp_title": "Advection in the cycle",
+        "exp_text": "Advection moves water vapor through the atmosphere. Without it, vapor that evaporated over oceans could not travel to land and precipitate there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for water vapor released into the air from plants?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Evaporation",
+            "feedback": "Evaporation is from open water or ground, not specifically from plants. The plant process has its own name."
+          },
+          {
+            "label": "Condensation",
+            "feedback": "Condensation is vapor turning to liquid, the opposite direction. Plants release vapor, they do not condense it."
+          },
+          {
+            "label": "Transpiration",
+            "feedback": "Correct. Transpiration is the release of water vapor from plants into the air."
+          },
+          {
+            "label": "Sublimation",
+            "feedback": "Sublimation is ice turning directly to vapor. Plants release liquid water that becomes vapor, not ice."
+          }
+        ],
+        "ok_title": "Plant water loss",
+        "ok_line": "Plants release vapor by transpiration.",
+        "ko_title": "Not the plant path",
+        "ko_line": "These are other phase changes.",
+        "exp_title": "Transpiration defined",
+        "exp_text": "Transpiration is the release of water vapor from plants. Together with evaporation from soil, it is called evapotranspiration."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which form of precipitation falls as frozen water from the sky?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Rain",
+            "feedback": "Rain is liquid water. Frozen precipitation includes snow, hail, and sleet."
+          },
+          {
+            "label": "Snow",
+            "feedback": "Correct. Snow is precipitation that falls as ice crystals, a solid form of water."
+          },
+          {
+            "label": "Fog drip",
+            "feedback": "Fog drip is liquid water condensing from fog, not frozen. Snow is the frozen form."
+          },
+          {
+            "label": "Mist",
+            "feedback": "Mist is tiny liquid droplets, not frozen. Snow is solid ice."
+          }
+        ],
+        "ok_title": "Frozen fall",
+        "ok_line": "Snow is solid precipitation.",
+        "ko_title": "Liquid instead",
+        "ko_line": "These are not frozen water.",
+        "exp_title": "Snow as precipitation",
+        "exp_text": "Snow is condensed water vapor that falls as ice crystals. Other frozen forms include hail and sleet, while rain stays liquid."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for water that flows over the ground surface toward rivers or oceans?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Infiltration",
+            "feedback": "Infiltration is water soaking into the ground, not flowing over it. The surface flow has a different name."
+          },
+          {
+            "label": "Percolation",
+            "feedback": "Percolation is downward movement through soil. The question asks about flow across the land."
+          },
+          {
+            "label": "Subsurface flow",
+            "feedback": "Subsurface flow is underground. Surface runoff happens on top of the ground."
+          },
+          {
+            "label": "Surface runoff",
+            "feedback": "Correct. Surface runoff is water flowing over the ground, eventually reaching rivers or oceans."
+          }
+        ],
+        "ok_title": "Overland flow",
+        "ok_line": "Runoff moves across the ground.",
+        "ko_title": "Underground or soak",
+        "ko_line": "Those are different pathways.",
+        "exp_title": "Surface runoff defined",
+        "exp_text": "Surface runoff is water that flows across the land instead of soaking in. It can enter rivers and carry minerals while reshaping landscapes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does most precipitation on Earth fall?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Over the ocean",
+            "feedback": "Correct. 78% of global precipitation falls over the ocean, since the ocean also supplies most evaporation."
+          },
+          {
+            "label": "Over the land",
+            "feedback": "Land receives only a minority share. The ocean gets the larger portion because it covers most of the planet."
+          },
+          {
+            "label": "Over ice caps",
+            "feedback": "Ice caps are small areas compared to the ocean. They receive snow, but not the bulk of global precipitation."
+          },
+          {
+            "label": "Over rivers and lakes",
+            "feedback": "Rivers and lakes cover a tiny fraction of the surface. The ocean dominates precipitation totals."
+          }
+        ],
+        "ok_title": "Ocean gets rain",
+        "ok_line": "Most rain falls at sea.",
+        "ko_title": "Minor surfaces",
+        "ko_line": "These hold only a small share.",
+        "exp_title": "Where precipitation lands",
+        "exp_text": "78% of global precipitation occurs over the ocean. This matches the ocean being the main source of evaporation, keeping the cycle balanced."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the average time a water molecule spends in the atmosphere before falling as precipitation?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A few hours",
+            "feedback": "Hours is too short. Water vapor stays in the air long enough to move across regions, which takes days."
+          },
+          {
+            "label": "A few weeks",
+            "feedback": "Weeks is too long. The atmosphere holds water briefly before it condenses and falls."
+          },
+          {
+            "label": "About 9 days",
+            "feedback": "Correct. After evaporating, water stays in the atmosphere about 9 days before condensing and falling."
+          },
+          {
+            "label": "About a year",
+            "feedback": "A year is far too long. The atmosphere cycles water quickly, on the order of days."
+          }
+        ],
+        "ok_title": "Short sky stay",
+        "ok_line": "Water lingers ~9 days in air.",
+        "ko_title": "Too long or short",
+        "ko_line": "Compare to actual cycle time.",
+        "exp_title": "Atmospheric residence time",
+        "exp_text": "The residence time of water in the atmosphere is about 9 days. This is brief compared to groundwater, which can stay underground for thousands of years."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which process involves water flowing vertically downward through soil and rocks under gravity?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Advection",
+            "feedback": "Advection is horizontal movement through the atmosphere, not downward through soil. Percolation fits the description."
+          },
+          {
+            "label": "Percolation",
+            "feedback": "Correct. Percolation is the gravity-driven vertical flow of water through soil and rocks."
+          },
+          {
+            "label": "Transpiration",
+            "feedback": "Transpiration moves water upward from plants into the air, not downward through soil."
+          },
+          {
+            "label": "Condensation",
+            "feedback": "Condensation is a phase change in the air, not a flow through ground material."
+          }
+        ],
+        "ok_title": "Downward flow",
+        "ok_line": "Percolation pulls water down.",
+        "ko_title": "Wrong direction",
+        "ko_line": "These move elsewhere or change phase.",
+        "exp_title": "Percolation explained",
+        "exp_text": "Percolation is the vertical movement of water through soil and rocks, driven by gravity. It feeds soil moisture and deeper groundwater."
+      }
+    ]
+  }
+]

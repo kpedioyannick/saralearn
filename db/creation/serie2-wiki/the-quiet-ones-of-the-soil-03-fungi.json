@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 235,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main structural molecule that gives the fungus cell wall its strength?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Cellulose, the same as in plant cell walls",
+            "feedback": "Cellulose is found in plants, but not in fungi. The fungal cell wall uses chitin, which is the same material that makes up the hard outer shell of insects and crabs."
+          },
+          {
+            "label": "Silica, the same as in glass",
+            "feedback": "Silica is found in some algae, like diatoms, but it is not part of a fungus. Fungal walls rely on chitin, a sturdy, organic molecule."
+          },
+          {
+            "label": "Chitin, a tough substance also found in arthropod shells",
+            "feedback": "Correct. Chitin is the key structural polymer in fungal cell walls, and its presence is one of the traits that separates fungi from plants."
+          },
+          {
+            "label": "Pectin, a common jelly-like filler in fruits",
+            "feedback": "Pectin appears in plant cell walls, not in fungi. The unique combination in fungi is chitin combined with glucans."
+          }
+        ],
+        "ok_title": "Chitin in walls",
+        "ok_line": "Fungal cell walls are built with chitin, giving them firmness.",
+        "ko_title": "Wall material mix-up",
+        "ko_line": "Fungi do not use cellulose, silica, or pectin in their walls.",
+        "exp_title": "Fungal cell wall",
+        "exp_text": "Fungal cells are enclosed in a wall made of a chitin-glucan complex. Chitin is a strong, nitrogen-containing sugar that also forms the exoskeletons of arthropods. This combination is unique to fungi among major organism groups."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do fungi obtain their food?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They absorb dissolved organic molecules after secreting digestive enzymes",
+            "feedback": "Correct. Fungi release enzymes into their surroundings to break down organic matter, then absorb the resulting dissolved nutrients through their cell walls."
+          },
+          {
+            "label": "They eat solid food with a mouth and a stomach",
+            "feedback": "Fungi have no mouth or stomach. They feed externally by secreting enzymes and then absorbing the liquefied nutrients."
+          },
+          {
+            "label": "They make their own food from sunlight, like plants",
+            "feedback": "Fungi do not photosynthesize. They are heterotrophs that depend on preformed organic compounds from their environment."
+          },
+          {
+            "label": "They hunt and capture small animals",
+            "feedback": "Fungi do not hunt. Their nutrition comes from absorbing dissolved molecules, not from capturing prey."
+          }
+        ],
+        "ok_title": "Absorptive feeding",
+        "ok_line": "Fungi digest food outside their bodies and absorb the nutrients.",
+        "ko_title": "No ingestion",
+        "ko_line": "Fungi have no mouth or stomach and never make food from sunlight.",
+        "exp_title": "Heterotrophic nutrition",
+        "exp_text": "Fungi are heterotrophs: they secrete digestive enzymes into their environment to break down organic matter, then absorb the small dissolved molecules. This is why they are effective decomposers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the branching, thread-like structure that makes up the body of most fungi?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A leaf",
+            "feedback": "Fungi do not have leaves. Their body is made of hyphae, which are long, tubular threads that grow at their tips."
+          },
+          {
+            "label": "A hypha",
+            "feedback": "Correct. Most fungi grow as microscopic, thread-like filaments called hyphae, which can form a network called a mycelium."
+          },
+          {
+            "label": "A root",
+            "feedback": "Fungi do not have roots. The thread-like structures are hyphae, not true roots."
+          },
+          {
+            "label": "A stem",
+            "feedback": "Fungi do not have stems. Their vegetative body is composed of hyphae, which lack the internal organization of plant stems."
+          }
+        ],
+        "ok_title": "Hyphal threads",
+        "ok_line": "Most fungi grow as branching threads named hyphae.",
+        "ko_title": "Not a plant part",
+        "ko_line": "Fungal bodies are hyphae, not leaves, roots, or stems.",
+        "exp_title": "Fungal body",
+        "exp_text": "Most fungi are built from hyphae: tubular, often branching filaments that grow at their tips. Together, a mass of hyphae makes up the main body of the fungus, which usually lies hidden in soil or dead matter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which statement about the cell wall is true for fungi?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is identical in composition to a plant's cell wall",
+            "feedback": "Plant cell walls use cellulose, while fungal walls use a chitin-glucan complex. They are not identical."
+          },
+          {
+            "label": "It is made entirely of chitin, with nothing else",
+            "feedback": "Fungal walls also contain glucans, not just chitin. It is the combination of chitin and glucan that is characteristic."
+          },
+          {
+            "label": "It is soft and easily dissolved by water",
+            "feedback": "Fungal walls are firm and strong because of chitin. They do not dissolve in water."
+          },
+          {
+            "label": "It contains chitin and glucans together",
+            "feedback": "Correct. The fungal cell wall is a chitin-glucan complex, a combination not found in plants or animals."
+          }
+        ],
+        "ok_title": "Chitin-glucan wall",
+        "ok_line": "Fungal walls combine chitin with glucans.",
+        "ko_title": "Wall composition",
+        "ko_line": "Fungal walls are not like plant walls, and they mix chitin with glucan.",
+        "exp_title": "Unique wall structure",
+        "exp_text": "Fungal cells are enclosed by a cell wall made of chitin and glucans. Chitin provides toughness, while glucans are sugar polymers that help hold the wall together. This combination is exclusive to fungi."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of nutrition do fungi display, along with animals?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Autotrophic, making their own food",
+            "feedback": "Autotrophs, like plants, make their own food. Fungi are heterotrophs, like animals, so they must absorb ready-made organic molecules."
+          },
+          {
+            "label": "Phototrophic, using sunlight for energy",
+            "feedback": "Fungi do not use sunlight for energy. They consume organic matter from their surroundings."
+          },
+          {
+            "label": "Heterotrophic, absorbing organic compounds",
+            "feedback": "Correct. Both fungi and animals are heterotrophs, which means they obtain carbon compounds from other organisms, but fungi do so by absorption."
+          },
+          {
+            "label": "Chemotrophic, getting energy from minerals",
+            "feedback": "Fungi do not get energy from minerals. They depend on preformed organic compounds."
+          }
+        ],
+        "ok_title": "Heterotrophs like us",
+        "ok_line": "Fungi and animals both rely on organic food from outside.",
+        "ko_title": "Nutrition type",
+        "ko_line": "Fungi do not photosynthesize; they are heterotrophs.",
+        "exp_title": "Shared trait with animals",
+        "exp_text": "Fungi, like animals, cannot make their own food. They absorb organic molecules from their environment, which they first break down with digestive enzymes. That makes them heterotrophs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the network of hyphae that forms the main body of a fungus called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A spore",
+            "feedback": "A spore is a reproductive cell, not the main body. The network of hyphae is the mycelium."
+          },
+          {
+            "label": "A mycelium",
+            "feedback": "Correct. The collective mass of branching hyphae is called a mycelium, which is the vegetative body of the fungus."
+          },
+          {
+            "label": "A fruiting body",
+            "feedback": "A fruiting body, like a mushroom, is a reproductive structure that grows out of the mycelium, not the main body itself."
+          },
+          {
+            "label": "A root system",
+            "feedback": "Fungi do not have roots. The hyphal network is a mycelium, not a root system."
+          }
+        ],
+        "ok_title": "The mycelium",
+        "ok_line": "A fungus's body is a web of hyphae called a mycelium.",
+        "ko_title": "Body structure",
+        "ko_line": "The main fungal body is the mycelium, not a spore or a root.",
+        "exp_title": "Fungal network",
+        "exp_text": "Hyphae branch and fuse to form a dense network called a mycelium. This mycelium is the true body of the fungus, often hidden in soil or inside rotting wood, and it can spread widely."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these organisms is a fungus?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A green algae",
+            "feedback": "Green algae are plants or plant-like protists that photosynthesize. They are not fungi."
+          },
+          {
+            "label": "A slime mold",
+            "feedback": "Slime molds look like fungi but are a separate group called myxomycetes. They are not classified in the fungus kingdom."
+          },
+          {
+            "label": "A yeast",
+            "feedback": "Correct. Yeasts are unicellular fungi that reproduce by budding or fission."
+          },
+          {
+            "label": "A water mold",
+            "feedback": "Water molds, or oomycetes, resemble fungi but belong to a different lineage. They are not part of the fungal kingdom."
+          }
+        ],
+        "ok_title": "Yeast is a fungus",
+        "ok_line": "Yeasts are single-celled members of the fungus kingdom.",
+        "ko_title": "Fungus identity",
+        "ko_line": "Yeasts are fungi; algae, slime molds, and water molds are not.",
+        "exp_title": "Fungal diversity",
+        "exp_text": "The fungus kingdom includes yeasts, molds, and mushrooms. Yeasts grow as single cells, while molds and mushrooms are built from hyphae. Slime molds and water molds look similar but are not fungi."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the function of the mushroom's gills?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To produce and release spores",
+            "feedback": "Correct. The gills are lined with spore-producing cells, and the spores are shed from the gill surfaces into the air."
+          },
+          {
+            "label": "To absorb water from the soil",
+            "feedback": "Mushrooms do not absorb water through their gills. They are reproductive structures, not roots."
+          },
+          {
+            "label": "To photosynthesize food for the fungus",
+            "feedback": "Fungi do not photosynthesize. The gills have no role in feeding."
+          },
+          {
+            "label": "To anchor the mushroom to the ground",
+            "feedback": "The mushroom is anchored by its stalk and the mycelium below, not by its gills. The gills are for spore release."
+          }
+        ],
+        "ok_title": "Spore-bearing gills",
+        "ok_line": "Mushroom gills are where spores are made and released.",
+        "ko_title": "Gill function",
+        "ko_line": "Gills produce spores; they do not feed or anchor the mushroom.",
+        "exp_title": "Mushroom reproduction",
+        "exp_text": "Under the mushroom cap, thin vertical gills carry spore-producing cells. As the mushroom matures, millions of spores are released from the gill surfaces and carried away by the air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a mushroom in the life of a fungus?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The main feeding body",
+            "feedback": "The main feeding body is the mycelium, which stays underground or inside wood. A mushroom is not the feeding body."
+          },
+          {
+            "label": "A root system",
+            "feedback": "Mushrooms are not roots. They are temporary reproductive structures that emerge from the mycelium."
+          },
+          {
+            "label": "A storage organ for water",
+            "feedback": "Mushrooms do not store water for the fungus. Their purpose is reproduction, not water storage."
+          },
+          {
+            "label": "A fruiting body that releases spores",
+            "feedback": "Correct. A mushroom is a fruiting body, a reproductive structure that appears above ground to spread spores."
+          }
+        ],
+        "ok_title": "Fruiting body role",
+        "ok_line": "A mushroom is a reproductive structure, not a feeding organ.",
+        "ko_title": "Mushroom purpose",
+        "ko_line": "Mushrooms exist to release spores, not to feed or store water.",
+        "exp_title": "Fungal reproduction",
+        "exp_text": "A mushroom is the fruiting body of a fungus. It grows out of the mycelium and its only job is to produce and release spores, which can travel through the air to start new fungi elsewhere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group of organisms are fungi most closely related to, according to genetics?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Plants",
+            "feedback": "Although fungi were once grouped with plants, genetic studies show they are not closely related to plants."
+          },
+          {
+            "label": "Animals",
+            "feedback": "Correct. Molecular evidence places fungi closer to animals than to plants."
+          },
+          {
+            "label": "Bacteria",
+            "feedback": "Bacteria are prokaryotes, far apart from eukaryotic fungi. They are not the closest relatives."
+          },
+          {
+            "label": "Slime molds",
+            "feedback": "Slime molds look similar to fungi but are a separately evolving group, not the closest relatives."
+          }
+        ],
+        "ok_title": "Fungi near animals",
+        "ok_line": "Genetic data link fungi more closely to animals than to plants.",
+        "ko_title": "Evolutionary kinship",
+        "ko_line": "Fungi are related to animals, not plants or bacteria.",
+        "exp_title": "Molecular relation",
+        "exp_text": "Modern genetic analysis shows that fungi share a more recent common ancestor with animals than with plants. This is why fungi are classified in their own kingdom, separate from both."
+      }
+    ]
+  }
+]

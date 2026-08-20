@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 209,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What organ does a fish use to take oxygen from water?",
+        "body": null,
+        "options": [
+          {
+            "label": "Gills",
+            "feedback": "Thin folds packed with blood vessels, bathed by a steady flow of water."
+          },
+          {
+            "label": "Lungs",
+            "feedback": "Lungs work by filling with air. A fish that tried to fill them with water would have nothing to breathe."
+          },
+          {
+            "label": "Skin alone",
+            "feedback": "A little oxygen does cross the skin of some fish, but far too little to keep them alive on its own."
+          },
+          {
+            "label": "Swim bladder",
+            "feedback": "That organ holds gas for buoyancy. It has no blood supply built for exchanging oxygen with water."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Thin folds, a rich blood supply, and water flowing over them.",
+        "ko_title": "Not quite",
+        "ko_line": "Think of the reddish fringes just behind a fish's head.",
+        "exp_title": "Thin folds bathed in water",
+        "exp_text": "A fish's gills are stacks of thin folds packed with tiny blood vessels, and water runs over them each time the fish opens and closes its mouth. Oxygen dissolved in the water sits at a higher concentration there than in the blood, so it slips across the thin membrane and into the bloodstream. The blood that leaves the gills carries that oxygen on to the rest of the body."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which way does water travel through a fish's gills?",
+        "body": null,
+        "options": [
+          {
+            "label": "In through the mouth, out past the gill cover",
+            "feedback": "A one-way route: mouth first, gills next, then out under the flap on each side."
+          },
+          {
+            "label": "In and out through the mouth only",
+            "feedback": "That back-and-forth pattern belongs to breathing with lungs, not gills."
+          },
+          {
+            "label": "In through the gill cover, out through the mouth",
+            "feedback": "The flow runs the opposite way: the mouth is the entrance, the gill cover the exit."
+          },
+          {
+            "label": "In through the skin, out through the mouth",
+            "feedback": "Water does not cross the skin to reach the gills; it is drawn straight in at the mouth."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Mouth in, gills across, gill cover out.",
+        "ko_title": "Wrong direction",
+        "ko_line": "Watch a fish's mouth and the flap behind it: one opens as the other closes.",
+        "exp_title": "A one-way current, not a breath in and out",
+        "exp_text": "A fish opens its mouth and closes the bony flap over its gills, drawing water in; then it closes its mouth and opens the flap, pushing that water out past the gills. Timed together, the two movements keep water moving over the gills in a single steady direction rather than sloshing back and forth. That steady one-way current is what lets fresh, oxygen-rich water reach the gills almost continuously."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a fish's gills take oxygen from water but not from air?",
+        "body": null,
+        "options": [
+          {
+            "label": "Air has too little oxygen in it",
+            "feedback": "Air actually holds far more oxygen than water does. The problem lies elsewhere."
+          },
+          {
+            "label": "The gill filaments collapse without water around them",
+            "feedback": "Water holds the delicate filaments apart; out of it, they sag together and lose almost all their surface."
+          },
+          {
+            "label": "Air is too cold for the gills",
+            "feedback": "Temperature is not what shuts the gills down out of water."
+          },
+          {
+            "label": "Gills can only work underwater by law of biology, for no physical reason",
+            "feedback": "There is a physical reason, not an arbitrary rule: it has to do with what holds the filaments apart."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's it",
+        "ok_line": "Water is what keeps the filaments spread apart in the first place.",
+        "ko_title": "Look at the structure, not the air",
+        "ko_line": "Ask what happens to the shape of the gills once the water is gone.",
+        "exp_title": "Held apart by water, not by themselves",
+        "exp_text": "Each gill is made of many thin filaments, and their surface only works if water keeps them spread apart so air, or rather water, can reach every one. Underwater, the surrounding water buoys the filaments up and holds them separated. Pulled into air, the filaments have nothing to hold them apart, so they clump together and stick, and most of that surface is lost."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "In a fish's gills, which direction does blood flow compared to the water passing over them?",
+        "body": null,
+        "options": [
+          {
+            "label": "The opposite direction to the water",
+            "feedback": "Blood and water pass each other moving opposite ways, each meeting fresher fluid the whole length of the gill."
+          },
+          {
+            "label": "The same direction as the water",
+            "feedback": "If both moved the same way, the blood would quickly match the water's oxygen level and exchange would stall partway along."
+          },
+          {
+            "label": "Blood does not flow through the gills at all",
+            "feedback": "Gills are threaded with fine blood vessels; blood flows through them constantly while the fish breathes."
+          },
+          {
+            "label": "Straight up and down, crossing the water at a right angle",
+            "feedback": "The two streams run past each other lengthwise along the filament, not crossing at an angle."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "Opposite streams keep a difference in oxygen along the whole gill.",
+        "ko_title": "Reconsider",
+        "ko_line": "Ask what would happen to the oxygen difference if both streams moved the same way.",
+        "exp_title": "Meeting the water head-on",
+        "exp_text": "Inside each gill filament, blood is carried through in the direction opposite to the water flowing past outside it. Because the two streams move against each other, blood that has already picked up some oxygen still meets water that is even richer in it, all along the filament's length. That steady difference between the two streams is what lets the blood keep absorbing oxygen from start to finish rather than only near the entrance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why must some fish, such as tuna, swim constantly or they cannot breathe?",
+        "body": null,
+        "options": [
+          {
+            "label": "Their gills only work while their tails are moving",
+            "feedback": "Movement of the tail drives the fish forward; it does not itself pump water over the gills."
+          },
+          {
+            "label": "They rely on forward motion to force water over the gills",
+            "feedback": "Swimming forward with the mouth open pushes a steady stream of water over the gills without any pumping."
+          },
+          {
+            "label": "Swimming shakes food into their mouths",
+            "feedback": "Feeding is a separate matter from breathing, and stopping to feed does not stop these fish taking in water."
+          },
+          {
+            "label": "Stillness makes water too warm to hold oxygen",
+            "feedback": "The water around a resting fish does not warm up meaningfully in the short time it pauses."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Forward motion does the pumping that other fish do with their mouths.",
+        "ko_title": "Think about what pushes the water",
+        "ko_line": "Some fish pump water with their mouths; these fish have largely lost that pump.",
+        "exp_title": "Breathing by swimming forward",
+        "exp_text": "Most fish pump water over their gills by opening and closing their mouth and gill covers, even while resting. A few fast, open-water fish have gill covers too weak or too fixed to pump enough water on their own, so they instead swim forward with the mouth held open, letting their motion force a current across the gills. If such a fish is kept from swimming, that current stops and it cannot get enough oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the bony flap that covers and protects a fish's gills called?",
+        "body": null,
+        "options": [
+          {
+            "label": "The operculum",
+            "feedback": "A hinged plate over each gill chamber, opening and closing to help pump water and to shield the delicate filaments beneath."
+          },
+          {
+            "label": "The dorsal fin",
+            "feedback": "That fin sits on the fish's back and helps it stay upright; it has no part in breathing."
+          },
+          {
+            "label": "The lateral line",
+            "feedback": "That is a row of sensors along the flank that detects movement in the water, not a covering for the gills."
+          },
+          {
+            "label": "The swim bladder",
+            "feedback": "An internal gas-filled organ for buoyancy, tucked inside the body, not a flap over the gills."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "The flap you see flick open just behind a fish's head.",
+        "ko_title": "Not that one",
+        "ko_line": "Look for the hinged plate right behind the mouth, over the gill slits.",
+        "exp_title": "A hinged shield with a pumping job",
+        "exp_text": "The operculum is a bony plate that grows over each set of gills, hinged so it can swing outward. As it opens, it lets water that has already crossed the gills escape, and its movement, timed against the mouth, helps draw the next mouthful of water through. It also shields the soft gill filaments underneath from being scraped or bitten."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Besides breathing, what other job do a fish's gill rakers often do?",
+        "body": null,
+        "options": [
+          {
+            "label": "They filter or guard against food passing over the gills",
+            "feedback": "Bony spines on the gill arch that either strain food from the water or stop it from damaging the delicate filaments."
+          },
+          {
+            "label": "They sense light for the fish's eyes",
+            "feedback": "Sensing light is a job for the eyes; gill rakers sit deep inside the gill chamber, away from any light-sensing task."
+          },
+          {
+            "label": "They pump blood around the body",
+            "feedback": "The heart pumps blood; gill rakers are bony projections with no muscle built for pumping."
+          },
+          {
+            "label": "They help the fish balance in the water",
+            "feedback": "Balance comes from the fins and the swim bladder, not from structures tucked inside the gill chamber."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "A second use for the same structure that carries the gills.",
+        "ko_title": "Think about what sits alongside the filaments",
+        "ko_line": "Rakers are bony spines on the same arch that holds the gill filaments.",
+        "exp_title": "Comb and shield in one",
+        "exp_text": "Gill rakers are bony, comb-like spines that grow on the same arch as the gill filaments, just in front of them. As water carrying food and debris passes through, the rakers either trap edible particles and pass them toward the throat, or simply keep sharp or bulky matter from scraping against the delicate filaments behind them. Their shape varies a great deal between fish, matching the kind of food and debris each one filters."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Can a fish suffocate while still fully underwater?",
+        "body": null,
+        "options": [
+          {
+            "label": "No, being surrounded by water is always enough",
+            "feedback": "Being wet is not the same as having enough oxygen; water itself can run short of it."
+          },
+          {
+            "label": "Yes, if the water around it holds too little dissolved oxygen",
+            "feedback": "Warm, still, or crowded water can hold so little oxygen that gills cannot pull out enough, and the fish suffocates."
+          },
+          {
+            "label": "No, fish store enough oxygen in their swim bladder to last for days",
+            "feedback": "The swim bladder is filled mostly with other gases for buoyancy, not a private oxygen reserve to breathe from."
+          },
+          {
+            "label": "Yes, but only if the water is completely still",
+            "feedback": "Still water makes the problem worse, but even moving water can carry too little dissolved oxygen to support a fish."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "It is not water itself the gills need, but oxygen dissolved inside it.",
+        "ko_title": "Reconsider",
+        "ko_line": "Ask what gills are actually pulling out of the water, not whether the fish is wet.",
+        "exp_title": "It is the oxygen in the water, not the water itself",
+        "exp_text": "A fish's gills work by pulling dissolved oxygen out of the surrounding water, and that oxygen level can fall for several reasons: warm water holds less of it, still water is not refreshed, and many crowded animals or decaying matter can use it up. When the level drops low enough, the gills can no longer pull out enough to meet the fish's needs, no matter how much water flows past them. A fish in that situation is fully submerged and still starved of oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do fish such as bettas and some catfish sometimes gulp air at the water's surface?",
+        "body": null,
+        "options": [
+          {
+            "label": "To cool themselves down in warm water",
+            "feedback": "Gulping air does nothing to lower the fish's temperature; that is not what the behaviour is for."
+          },
+          {
+            "label": "To back up their gills when the water is short of oxygen",
+            "feedback": "A specialised structure lets them pull oxygen straight from swallowed air, a backup for when the water cannot supply enough."
+          },
+          {
+            "label": "To fill their swim bladder for extra buoyancy",
+            "feedback": "Some fish do gulp air to adjust their swim bladder, but that is a separate habit from the gulping used to get extra oxygen."
+          },
+          {
+            "label": "To wash food down more easily",
+            "feedback": "Swallowing air has no role in moving food along; that job belongs to the throat and gut alone."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "A second way to get oxygen, kept in reserve for poor water.",
+        "ko_title": "Think about what the gills might be missing",
+        "ko_line": "Ask what could be scarce in the water that air could supply instead.",
+        "exp_title": "A backup for water too poor in oxygen",
+        "exp_text": "Some fish that often live in warm, still, or crowded water have grown a folded organ near the gills that is rich in blood vessels and can absorb oxygen from swallowed air, much as a gill absorbs it from water. When the water around them holds too little dissolved oxygen for the gills alone, these fish rise to the surface and gulp air to draw on that backup supply. Fish without this organ cannot use air this way and depend on their gills alone."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a fish open and close its mouth in a steady rhythm even while resting?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is pumping water across its gills",
+            "feedback": "Working together with the gill covers, the mouth acts as a pump, drawing water in and pushing it out over the gills."
+          },
+          {
+            "label": "It is constantly tasting the water",
+            "feedback": "Taste in fish is mostly handled by sensors on the lips, barbels, and skin, not by opening and closing the mouth."
+          },
+          {
+            "label": "It is cooling its brain",
+            "feedback": "Fish have no need to cool the brain this way; their body temperature simply follows that of the surrounding water."
+          },
+          {
+            "label": "It is signalling to other fish nearby",
+            "feedback": "Mouth movement of this steady kind is not used as a signal between fish; it continues even when a fish is entirely alone."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "A quiet, steady pump that never really stops.",
+        "ko_title": "Look at what the movement is paired with",
+        "ko_line": "Watch the flap just behind the mouth open exactly as the mouth closes.",
+        "exp_title": "A living pump behind the mouth",
+        "exp_text": "As a fish's mouth opens, its throat cavity widens and draws water in; as the mouth closes, the gill covers swing open and squeeze that water out across the gills. Timed against each other, the two movements form a small, continuous pump that keeps water moving even when the fish is not swimming. That steady rhythm is what lets a resting fish go on breathing without needing to move at all."
+      }
+    ]
+  }
+]

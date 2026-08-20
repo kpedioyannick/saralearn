@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 89,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is twilight?",
+        "body": null,
+        "options": [
+          {
+            "label": "Light from a Sun below the horizon",
+            "feedback": "High air is still lit and scatters it down to you."
+          },
+          {
+            "label": "Light stored by the air during the day",
+            "feedback": "Air stores no light. Cut the source and it goes dark."
+          },
+          {
+            "label": "The glow of the ground cooling",
+            "feedback": "Warm ground emits infrared, which the eye cannot see."
+          },
+          {
+            "label": "Light reflected off the Moon",
+            "feedback": "Twilight happens on moonless evenings too."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The Sun has set for you, not for the air ten kilometres up.",
+        "ko_title": "Not that.",
+        "ko_line": "Something above you is still in sunlight. What?",
+        "exp_title": "Sunlit air over dark ground",
+        "exp_text": "The Sun sets for your patch of ground long before it sets for the atmosphere far above you, and that high air keeps scattering sunlight downward. As the Earth turns, the lit layer climbs and the glow fades from the western sky. Nothing is stored and nothing lingers: the moment the last sunlit air passes out of view, twilight ends."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How far below the horizon must the Sun be for full darkness?",
+        "body": null,
+        "options": [
+          {
+            "label": "About 18 degrees",
+            "feedback": "Below that, no sunlit air remains in view."
+          },
+          {
+            "label": "About 5 degrees",
+            "feedback": "The sky is still clearly bright at that point."
+          },
+          {
+            "label": "About 45 degrees",
+            "feedback": "Full night arrives long before then."
+          },
+          {
+            "label": "Any amount at all",
+            "feedback": "Then twilight would not exist."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Eighteen degrees down, and the last lit air drops out of sight.",
+        "ko_title": "Not it.",
+        "ko_line": "Twilight lasts well over an hour in most places. Work back from that.",
+        "exp_title": "Three twilights, one after another",
+        "exp_text": "Astronomers count three stages. Civil twilight runs to 6 degrees below the horizon, and you can still read outdoors. Nautical twilight runs to 12, where the horizon is still visible at sea — the point of the name, since sailors needed both horizon and stars to take a sighting. Astronomical twilight ends at 18 degrees, and only then is the sky truly dark."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does twilight last so long in northern countries in summer?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Sun sets at a shallow angle",
+            "feedback": "It slides along under the horizon instead of dropping."
+          },
+          {
+            "label": "The air is clearer at high latitudes",
+            "feedback": "Clarity does not lengthen the glow."
+          },
+          {
+            "label": "The Sun is closer in summer",
+            "feedback": "Earth is furthest from the Sun in July."
+          },
+          {
+            "label": "There is more dust to catch light",
+            "feedback": "Dust affects colour, not duration."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "It sinks slowly and sideways, so it takes hours to get deep enough.",
+        "ko_title": "Not it.",
+        "ko_line": "Watch how steeply the Sun goes down in the tropics against how it goes down in Scotland.",
+        "exp_title": "The angle of the descent",
+        "exp_text": "Near the equator the Sun drops almost straight down and passes 18 degrees below the horizon within about an hour. At high latitudes it sets at a shallow slant and slides along beneath the horizon, taking far longer to get deep enough. Above about 60 degrees in midsummer it never manages it at all, and twilight simply runs from dusk into dawn — the white nights of Saint Petersburg and Scandinavia."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the sky often pink opposite the setting Sun?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is reddened light crossing the sky",
+            "feedback": "Sunset light lands on air on the far side."
+          },
+          {
+            "label": "The eye tires and adds colour",
+            "feedback": "A camera records the same pink band."
+          },
+          {
+            "label": "It is the Moon rising behind it",
+            "feedback": "The band appears whether the Moon is up or not."
+          },
+          {
+            "label": "Cold air turns pink at dusk",
+            "feedback": "Temperature does not colour the air."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The Sun's reddened light, arriving on the far side of the sky.",
+        "ko_title": "Not that.",
+        "ko_line": "Sunset light is red by the time it reaches you. Where else does it land?",
+        "exp_title": "The Belt of Venus",
+        "exp_text": "Light that has crossed a great thickness of air is red by the time it arrives, and some of it lands on the air opposite the Sun and scatters back to you as a pink band above the eastern horizon. Below it sits a dusky blue-grey strip — the Earth's own shadow, rising as the Sun sinks. The pink band above is called the Belt of Venus, and both are easiest to see over a flat horizon."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What are crepuscular rays?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sunbeams picked out by gaps in cloud",
+            "feedback": "Dust and haze reveal the lit air between shadows."
+          },
+          {
+            "label": "Light bent by the Earth's magnetism",
+            "feedback": "Magnetism does not deflect light."
+          },
+          {
+            "label": "Reflections off the sea at dusk",
+            "feedback": "They appear over dry land as readily."
+          },
+          {
+            "label": "The first light of the aurora",
+            "feedback": "Auroras are a different phenomenon entirely."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "You are seeing the shadows of clouds, drawn in the air itself.",
+        "ko_title": "Not it.",
+        "ko_line": "The beams are only visible because something in the air is catching the light.",
+        "exp_title": "Cloud shadows made visible",
+        "exp_text": "Sunlight streaming through gaps in cloud lights the dust and water droplets in its path, while the shadowed air between stays dark — so the beams are really the shadows made visible. They look as if they fan out from the Sun, but that is perspective: the rays are very nearly parallel, and they appear to converge for the same reason railway tracks do."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do colours fade as evening comes on?",
+        "body": null,
+        "options": [
+          {
+            "label": "The eye switches to its dim-light cells",
+            "feedback": "Those cells register brightness but not colour."
+          },
+          {
+            "label": "Objects lose their colour in the dark",
+            "feedback": "A camera still records colour at dusk."
+          },
+          {
+            "label": "Twilight contains no coloured light",
+            "feedback": "Twilight is strongly blue, and quite colourful."
+          },
+          {
+            "label": "The air filters out colour at night",
+            "feedback": "Air does not remove colour after sunset."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The colour is still there. Your eye has stopped reading it.",
+        "ko_title": "Not it.",
+        "ko_line": "Photograph a garden at dusk and the colours come out. So what changed?",
+        "exp_title": "Handing over to the rods",
+        "exp_text": "Your retina holds two kinds of cell. Cones see colour but need decent light; rods are far more sensitive but report only brightness. As the light drops, the cones fall silent and the rods take over, so the world turns grey. Rods are also more sensitive to blue than cones are, which is why blue flowers still stand out at dusk while red ones go black first."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How long does the eye take to reach full sensitivity in the dark?",
+        "body": null,
+        "options": [
+          {
+            "label": "About half an hour",
+            "feedback": "The pupil opens in seconds; the chemistry takes far longer."
+          },
+          {
+            "label": "About one second",
+            "feedback": "That is only the pupil, which is the small part."
+          },
+          {
+            "label": "About five minutes",
+            "feedback": "Useful vision by then, but far from the maximum."
+          },
+          {
+            "label": "About four hours",
+            "feedback": "Sensitivity has plateaued long before that."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Thirty minutes to full sensitivity, and one bright light to undo it.",
+        "ko_title": "Not quite.",
+        "ko_line": "Astronomers sit in the dark before observing. How long do they wait?",
+        "exp_title": "Half an hour to build, one flash to lose",
+        "exp_text": "The pupil widens within seconds, but the real gain is chemical: the rods rebuild a pigment called rhodopsin, and the process takes twenty to thirty minutes to complete. By the end the eye is around a hundred thousand times more sensitive. A single bright white light destroys it instantly. Red light does far less damage, which is why observatories, ships' bridges and darkrooms all use it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many animals become active at dawn and dusk?",
+        "body": null,
+        "options": [
+          {
+            "label": "Enough light to see, enough dark to hide",
+            "feedback": "Prey and hunters both gain in the half-light."
+          },
+          {
+            "label": "The air is warmest at those hours",
+            "feedback": "Dawn is usually the coldest hour of all."
+          },
+          {
+            "label": "They cannot see at any other time",
+            "feedback": "Most see perfectly well by day or night."
+          },
+          {
+            "label": "Their food only appears then",
+            "feedback": "The food is present at other hours too."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Half-light suits whoever reads it best.",
+        "ko_title": "Not it.",
+        "ko_line": "Ask what the half-light offers that full day and full night do not.",
+        "exp_title": "The advantage of half-light",
+        "exp_text": "Animals active at dawn and dusk are called crepuscular, and the strategy pays twice: there is enough light to hunt or feed, and enough gloom to avoid being seen by daytime hunters. Deer, rabbits and many cats work these hours. It also avoids the heat of midday in hot country, which is why so many desert animals keep to the same schedule."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the dawn chorus of birds happen when it does?",
+        "body": null,
+        "options": [
+          {
+            "label": "Song carries furthest in the still air",
+            "feedback": "Cool calm air scatters sound far less."
+          },
+          {
+            "label": "Birds are hungriest at first light",
+            "feedback": "Hunger sends a bird to feed, not to sing."
+          },
+          {
+            "label": "Their voices work better when cold",
+            "feedback": "Cold does not improve a bird's voice."
+          },
+          {
+            "label": "They must sing before they can fly",
+            "feedback": "Flight does not depend on singing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The same effort buys far more ground before the air warms.",
+        "ko_title": "Not that.",
+        "ko_line": "Ask what is different about the air itself before sunrise.",
+        "exp_title": "The hour when a voice carries",
+        "exp_text": "Before the Sun stirs the air there is little wind and no rising turbulence to scatter sound, so a song can carry many times further than at midday. The light is also still too poor for catching insects, making the time cheap to spend. Each species has its place in the queue — the birds with the largest eyes start earliest — so the chorus arrives in a fairly fixed order night after night."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you sometimes see satellites shortly after sunset?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are still in sunlight up there",
+            "feedback": "High above a dark ground, they catch the Sun."
+          },
+          {
+            "label": "They carry very bright lamps",
+            "feedback": "Their lights are far too weak to see."
+          },
+          {
+            "label": "They glow from the heat of orbit",
+            "feedback": "They are not hot enough to glow visibly."
+          },
+          {
+            "label": "They reflect light from cities",
+            "feedback": "City light is far too faint at that height."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Sunset came for you hours before it comes for them.",
+        "ko_title": "Not it.",
+        "ko_line": "The Sun has set at ground level. Has it set 400 km up?",
+        "exp_title": "Still in daylight, 400 km up",
+        "exp_text": "A satellite a few hundred kilometres high stays in sunlight for a while after the ground below has gone dark, so it shines against a night sky as a steady point drifting across in a few minutes. Later in the night it enters the Earth's shadow and simply vanishes mid-track. The same reason makes the hour after dusk and the hour before dawn the best times to look."
+      }
+    ]
+  }
+]

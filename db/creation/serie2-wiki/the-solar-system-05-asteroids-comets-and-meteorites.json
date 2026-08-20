@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an asteroid?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A minor planet larger than a meteoroid that is neither a planet nor a comet and orbits within the inner Solar System or with Jupiter",
+            "feedback": "Correct. An asteroid is a minor planet, at least one meter across, that is not a planet or a comet, and it orbits in the inner Solar System or as a Trojan with Jupiter."
+          },
+          {
+            "label": "A small icy body that shows a coma when warmed by the Sun",
+            "feedback": "That is a comet, not an asteroid. An asteroid does not show a tail — a coma appears on comets when solar radiation warms their ices."
+          },
+          {
+            "label": "Any object larger than a planet that orbits the Sun",
+            "feedback": "No, asteroids are smaller than planets. They are minor planets, which means they are not big enough or massive enough to be full planets."
+          },
+          {
+            "label": "A natural satellite that orbits a planet",
+            "feedback": "That is a moon, not an asteroid. Asteroids orbit the Sun directly, not a planet."
+          }
+        ],
+        "ok_title": "Asteroid defined",
+        "ok_line": "An asteroid is a minor planet that orbits the Sun, not a planet or comet.",
+        "ko_title": "Not a comet",
+        "ko_line": "A comet's coma is what tells it apart from an asteroid.",
+        "exp_title": "Minor planet meaning",
+        "exp_text": "An asteroid is a minor planet — an object at least a meter across that is neither a planet nor a comet. Most asteroids orbit in the inner Solar System, and some share Jupiter's orbit as Trojans. Unlike comets, they do not develop a coma when warmed by the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Into which three broad types are asteroids classified?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Icy, rocky, and gaseous",
+            "feedback": "This mix describes planets, not asteroids. Asteroids are classified by their composition as C-type, M-type, or S-type."
+          },
+          {
+            "label": "C-type, M-type, and S-type",
+            "feedback": "Correct. These are the carbonaceous, metallic, and silicaceous types — the three broad classes of asteroids."
+          },
+          {
+            "label": "Inner, main-belt, and Trojan",
+            "feedback": "Those are locations, not types. The classification of asteroids is about what they are made of, not where they orbit."
+          },
+          {
+            "label": "Small, medium, and large",
+            "feedback": "Size is not the classification. Asteroids vary hugely in size, but the types are based on their composition."
+          }
+        ],
+        "ok_title": "Three asteroid types",
+        "ok_line": "Asteroids come as C-type, M-type, and S-type.",
+        "ko_title": "Location is not type",
+        "ko_line": "Orbit place does not decide an asteroid's kind.",
+        "exp_title": "Composition classes",
+        "exp_text": "Asteroids are broadly split into C-type (carbonaceous), M-type (metallic), and S-type (silicaceous). These names come from the materials they contain. Location in the belt or near Jupiter is separate from this classification."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the Solar System is the main asteroid belt located?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Between Earth and Mars",
+            "feedback": "No, that gap has no asteroid belt. The main belt sits farther out, between Mars and Jupiter."
+          },
+          {
+            "label": "Beyond the orbit of Neptune",
+            "feedback": "That region holds Kuiper-belt objects and trans-Neptunian objects, not the main asteroid belt. The main belt is much closer to the Sun."
+          },
+          {
+            "label": "Between Mars and Jupiter",
+            "feedback": "Correct. The greatest number of asteroids orbit there, roughly 2 to 4 astronomical units from the Sun."
+          },
+          {
+            "label": "Around Jupiter as Trojans",
+            "feedback": "Trojans share Jupiter's orbit, but the main belt is a separate region — the one between Mars and Jupiter."
+          }
+        ],
+        "ok_title": "Main belt location",
+        "ok_line": "The main asteroid belt sits between Mars and Jupiter.",
+        "ko_title": "Not the outer reaches",
+        "ko_line": "The main belt is well inside Neptune's orbit.",
+        "exp_title": "Belt region",
+        "exp_text": "The main asteroid belt lies between the orbits of Mars and Jupiter, about 2 to 4 astronomical units from the Sun. Most known asteroids are found there. It is not the zone beyond Neptune, which holds different small bodies."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the size range of asteroids?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They are all about the same size, around 1 meter across",
+            "feedback": "No, that is the lower bound. Asteroids range from tiny rubble piles under a kilometer wide up to Ceres at nearly 1000 kilometers."
+          },
+          {
+            "label": "They are always larger than 100 kilometers across",
+            "feedback": "Many asteroids are much smaller — some are under a kilometer across. Only a few reach 100 kilometers."
+          },
+          {
+            "label": "They are always smaller than 10 kilometers across",
+            "feedback": "That misses the large ones. Ceres is almost 1000 kilometers across, so asteroids do reach huge sizes."
+          },
+          {
+            "label": "They vary from small rubble piles under a kilometer across to Ceres at almost 1000 kilometers across",
+            "feedback": "Correct. Asteroids span a huge range, from tiny fragments to the dwarf planet Ceres."
+          }
+        ],
+        "ok_title": "Asteroid sizes",
+        "ok_line": "Asteroids range from under a kilometer to nearly 1000 km.",
+        "ko_title": "Only one size?",
+        "ko_line": "Asteroids come in many sizes, not just one.",
+        "exp_title": "Size variation",
+        "exp_text": "Asteroids differ greatly in size. The smallest are rubble piles under a kilometer across, while the largest, Ceres, is a dwarf planet almost 1000 kilometers in diameter. Most are far smaller than planets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between an asteroid and a comet?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A comet shows a coma (tail) when warmed by solar radiation, while an asteroid does not",
+            "feedback": "Correct. The coma forms when a comet's ices sublimate near the Sun; asteroids, lacking such an active tail, are distinguished by that absence."
+          },
+          {
+            "label": "A comet is always larger than an asteroid",
+            "feedback": "Size is not the difference. Some comets are small, and asteroids can be huge; the key is the coma."
+          },
+          {
+            "label": "An asteroid always has a moon, while a comet never does",
+            "feedback": "That is not correct. Moons around asteroids are a rare curiosity, and comets do not have them as a rule."
+          },
+          {
+            "label": "A comet orbits the Sun, while an asteroid does not",
+            "feedback": "Both orbit the Sun. The difference is in behaviour, especially the coma."
+          }
+        ],
+        "ok_title": "Coma vs no coma",
+        "ok_line": "Comets show a coma; asteroids usually do not.",
+        "ko_title": "Not size or orbit",
+        "ko_line": "Both orbit the Sun; the coma is what tells them apart.",
+        "exp_title": "Defining difference",
+        "exp_text": "The main difference is that a comet develops a coma, or tail, when solar radiation warms its ices and they sublimate. An asteroid typically has no such coma. This is the primary dividing line between the two types of bodies."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How long does a typical main-belt asteroid take to complete one orbit around the Sun?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "About one Earth year",
+            "feedback": "That is the Earth's orbital period, not the average for main-belt asteroids. Their orbits take much longer."
+          },
+          {
+            "label": "Three to six years",
+            "feedback": "Correct. Most main-belt asteroids follow slightly elliptical, stable orbits and take from three to six years to circle the Sun."
+          },
+          {
+            "label": "Ten to twenty years",
+            "feedback": "Too long for most main-belt asteroids. Those with longer periods are rarer, like some comets."
+          },
+          {
+            "label": "Over a century",
+            "feedback": "That is far too long. Main-belt asteroids orbit in a few years, not a hundred."
+          }
+        ],
+        "ok_title": "Orbit time",
+        "ok_line": "Main-belt asteroids orbit in 3 to 6 years.",
+        "ko_title": "Not a century",
+        "ko_line": "Such long periods belong to distant comets, not belt asteroids.",
+        "exp_title": "Asteroid year",
+        "exp_text": "Main-belt asteroids have slightly elliptical, stable orbits and revolve in the same direction as Earth. Their orbital periods range from three to six years, because they sit at 2 to 4 AU — farther than Earth, so their years are longer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of regions do the term 'small Solar System body' cover?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only asteroids and comets in the inner Solar System",
+            "feedback": "No, the term is much broader. It also includes centaurs, trojans, and trans-Neptunian objects."
+          },
+          {
+            "label": "Only dwarf planets and natural satellites",
+            "feedback": "That is the opposite — dwarf planets and natural satellites are explicitly not small Solar System bodies."
+          },
+          {
+            "label": "Any object that is not a planet, a dwarf planet, or a natural satellite",
+            "feedback": "Correct. The IAU defines a small Solar System body as any object in the Solar System that is none of those three things, covering asteroids, comets, centaurs, trojans, and trans-Neptunian objects."
+          },
+          {
+            "label": "Only objects larger than a meter that orbit the Sun",
+            "feedback": "That is a definition of asteroid, not the broader small Solar System body category. Comets and other bodies can be smaller."
+          }
+        ],
+        "ok_title": "Broad category",
+        "ok_line": "Small Solar System body excludes planets, dwarf planets, and moons.",
+        "ko_title": "Not just asteroids",
+        "ko_line": "Comets and other objects also belong here.",
+        "exp_title": "IAU definition",
+        "exp_text": "The IAU says a small Solar System body is any object in the Solar System that is not a planet, a dwarf planet, or a natural satellite. This broad term includes asteroids, comets, centaurs, trojans, and trans-Neptunian objects."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the total mass of all the asteroids in the main belt compared to Earth's Moon?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is about the same as the Moon's mass",
+            "feedback": "No, it is far less. The combined mass of all asteroids is only a small fraction of the Moon's."
+          },
+          {
+            "label": "It is about half the Moon's mass",
+            "feedback": "That is still too high. The actual figure is only 3% of the Moon's mass."
+          },
+          {
+            "label": "It is about ten times the Moon's mass",
+            "feedback": "That is the opposite — asteroids are far lighter, not heavier. The total is 3% of the Moon."
+          },
+          {
+            "label": "It is only 3% of the Moon's mass",
+            "feedback": "Correct. Despite their huge numbers, all asteroids together weigh just 3% of Earth's Moon."
+          }
+        ],
+        "ok_title": "Total mass",
+        "ok_line": "All asteroids together are only 3% of the Moon's mass.",
+        "ko_title": "Not massive",
+        "ko_line": "Their combined mass is tiny compared to the Moon.",
+        "exp_title": "Mass comparison",
+        "exp_text": "The total mass of all known asteroids combined is only 3% that of Earth's Moon. Even though there are about a million known asteroids, they are spread thinly and mostly small, so they do not add up to much mass."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is Ceres, the largest object in the asteroid belt?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A dwarf planet",
+            "feedback": "Correct. Ceres is so large that it is classified as a dwarf planet, the only one in the asteroid belt."
+          },
+          {
+            "label": "A large comet",
+            "feedback": "No, Ceres is an asteroid — it has no coma. It is not a comet."
+          },
+          {
+            "label": "A planet like Mars",
+            "feedback": "Ceres is far too small to be a planet. It is a dwarf planet."
+          },
+          {
+            "label": "A natural satellite of Jupiter",
+            "feedback": "That is a moon, and Ceres orbits the Sun, not a planet."
+          }
+        ],
+        "ok_title": "Ceres identity",
+        "ok_line": "Ceres is a dwarf planet, the largest in the belt.",
+        "ko_title": "Not a planet or comet",
+        "ko_line": "Ceres is too small for a planet, and has no coma.",
+        "exp_title": "Largest asteroid",
+        "exp_text": "Ceres is the largest object in the asteroid belt, with a diameter of about 975 km. Because it is massive enough to have become ellipsoidal under its own gravity, the IAU classifies it as a dwarf planet — the only one in the asteroid belt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens if a centaur or a trans-Neptunian object comes close to the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It remains icy and shows no activity",
+            "feedback": "No, when they get close to the Sun, their ices warm up and sublimate, producing cometary activity."
+          },
+          {
+            "label": "It turns into an asteroid permanently",
+            "feedback": "Not right. They develop a coma and would be classified as comets by traditional approaches, not turn into asteroids."
+          },
+          {
+            "label": "Its volatile ices sublimate, and it would traditionally be classified as a comet",
+            "feedback": "Correct. Their ices are solid in the cold outer reaches, but near the Sun they sublimate, creating a coma that marks them as comets."
+          },
+          {
+            "label": "It stops orbiting and falls into the Sun",
+            "feedback": "No, they continue to orbit. Only their appearance changes, not their orbit."
+          }
+        ],
+        "ok_title": "Comet-like behaviour",
+        "ok_line": "Warmed, their ices sublimate and they become comet-like.",
+        "ko_title": "Ices stay solid far out",
+        "ko_line": "Only near the Sun do they turn active.",
+        "exp_title": "Outer bodies near Sun",
+        "exp_text": "Centaurs and trans-Neptunian objects live in the cold outer Solar System where ices stay solid. If they venture close to the Sun, their volatile ices sublimate, and traditional classification would call them comets because of the coma."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 186,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a star shine?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fusion joins hydrogen into helium in its core, releasing energy",
+            "feedback": "That release of energy is what works its way outward and leaves the star as light and heat."
+          },
+          {
+            "label": "Gravity crushes the star and the crushing itself glows",
+            "feedback": "Squeezing does heat matter, but on its own it would settle and fade. It is the fusion that this squeezing triggers which keeps supplying fresh energy."
+          },
+          {
+            "label": "The star is burning like a giant campfire",
+            "feedback": "Ordinary burning combines fuel with oxygen, and there is essentially none in a star's core. It could never release enough energy to keep a star lit this long."
+          },
+          {
+            "label": "Light left over from its formation is still leaking out",
+            "feedback": "Any warmth left over from formation would fade within its first few years. A star's glow is fed continuously, not spent from a single starting reserve."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly right",
+        "ok_line": "A star is a furnace, not an ember.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask what keeps renewing the light, rather than what could merely have started it.",
+        "exp_title": "A furnace with no flame",
+        "exp_text": "Deep in a star's core, the heat and pressure are extreme enough to force hydrogen nuclei together, fusing them into helium. Each fusion produces a result with slightly less mass than the nuclei that went into it, and that missing mass reappears as a burst of energy, which then works its way outward and leaves the surface as light and heat."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What stops a star from collapsing in on itself under its own gravity?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its outer layers are frozen solid",
+            "feedback": "A star's outer layers are gas, not solid. Rigidity is not what is holding anything up here."
+          },
+          {
+            "label": "It spins fast enough to fling material outward",
+            "feedback": "Spin does play a role in a star's shape, but most stars spin far too slowly for that to be what keeps them from caving in."
+          },
+          {
+            "label": "The outward push of fusion energy balances gravity's inward pull",
+            "feedback": "Every second, energy pouring out from the core presses outward exactly hard enough to match gravity pulling inward."
+          },
+          {
+            "label": "The core is too hot for gravity to reach",
+            "feedback": "Gravity does not weaken with heat. It pulls just as hard on hot matter as on cold matter."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Balanced",
+        "ok_line": "A star holds its shape by fighting itself to a standstill.",
+        "ko_title": "Not the balance",
+        "ko_line": "Something has to be pushing outward with exactly as much force as gravity pulls inward, or the star would not have a stable size at all.",
+        "exp_title": "A tug of war with no winner",
+        "exp_text": "Gravity is constantly pulling every part of a star toward its centre, and left alone it would crush the star down to a point. What stops that is the energy pouring outward from fusion in the core, which presses back on the layers above it. As long as fusion keeps supplying that outward push, the two forces stay matched and the star holds a steady size."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a star mostly made of?",
+        "body": null,
+        "options": [
+          {
+            "label": "Rock and metal, like a planet",
+            "feedback": "Solid rock and metal would sink into a dense core rather than staying spread through a star; a star has no solid surface at all."
+          },
+          {
+            "label": "Hydrogen and helium gas",
+            "feedback": "These two lightest elements make up nearly all of a star's mass, hydrogen especially."
+          },
+          {
+            "label": "Ice and frozen gases",
+            "feedback": "A star's own heat would boil ice away instantly. Ice survives only in the cold, far from a star's furnace."
+          },
+          {
+            "label": "Carbon compounds, like the fuel it burns",
+            "feedback": "A star's energy comes from fusing hydrogen nuclei, not from carbon-based fuel reacting with anything."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's the mix",
+        "ko_title": "Wrong ingredients",
+        "ok_line": "The two simplest elements, in a ball vast enough to matter.",
+        "ko_line": "Think about what a collapsing cloud of gas is made of before it becomes a star.",
+        "exp_title": "Built from the simplest stuff around",
+        "exp_text": "A star forms from a cloud made almost entirely of hydrogen, the lightest and simplest element, with a smaller share of helium mixed in. That same ratio carries through into the finished star, so hydrogen and helium together account for nearly all of its mass, with every heavier element combined making up only a sliver of the rest."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the matter inside a star a plasma rather than an ordinary gas?",
+        "body": null,
+        "options": [
+          {
+            "label": "The pressure squeezes the atoms into a liquid",
+            "feedback": "Pressure alone does not change what plasma is; the defining change here is to the atoms themselves, not to how tightly packed they are."
+          },
+          {
+            "label": "The atoms have been replaced by pure energy",
+            "feedback": "Matter is not converted to energy in bulk like this — only a tiny fraction is, through fusion. The atoms are still there, just altered."
+          },
+          {
+            "label": "The heat is too extreme for atoms to hold onto their electrons",
+            "feedback": "Stripped of their electrons, what remains is a churning mix of bare nuclei and loose electrons rather than intact atoms."
+          },
+          {
+            "label": "Magnetism pulls the electrons out of every atom",
+            "feedback": "A star does carry magnetic fields, but they are far too weak on their own to tear electrons away from atoms; heat is doing that job."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right cause",
+        "ok_line": "Too hot for atoms to stay whole.",
+        "ko_title": "Look at the heat",
+        "ko_line": "One property of a star's interior is extreme beyond anything on Earth, and it is the one that tears atoms apart rather than just heating them.",
+        "exp_title": "Too hot to be atoms",
+        "exp_text": "An ordinary gas is made of whole atoms, each with its electrons still attached to its nucleus. Inside a star the heat is so extreme that collisions constantly knock those electrons loose, leaving bare nuclei and free electrons mixed together rather than intact atoms. That loose, charged mixture is what a plasma is."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a star roughly a sphere rather than some other shape?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fusion pressure pushes it into a round shape",
+            "feedback": "Fusion's outward push matters for a star's size, but shape is decided by which direction gravity pulls from, not by the pressure resisting it."
+          },
+          {
+            "label": "Gravity pulls its matter equally toward the centre from every side",
+            "feedback": "Pulling every bit of matter toward one point from every direction is exactly what settles a large, free-floating mass into a ball."
+          },
+          {
+            "label": "Spinning flings the star's gas into a round ball",
+            "feedback": "Spinning actually works against roundness, flattening a star slightly at its poles. It cannot be the reason for the round shape itself."
+          },
+          {
+            "label": "It cools from a round cloud and keeps that shape",
+            "feedback": "The cloud a star forms from is usually flattened and irregular, not round. The star's roundness is settled fresh by its own gravity, not inherited."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's the geometry",
+        "ok_line": "Pulled toward one point from every side, a large loose mass has nowhere to go but round.",
+        "ko_title": "Think about the pull",
+        "ko_line": "Only one force in a star acts toward its very centre from every direction at once.",
+        "exp_title": "Pulled into a ball",
+        "exp_text": "Gravity pulls every part of a star's gas toward the centre of the whole mass, with equal strength no matter which side it acts from. A shape with any bumps or flat sides would have some matter farther from the centre than the rest, and gravity keeps dragging that extra distance inward until it is gone. The only shape left where every point sits the same distance from the centre is a sphere."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a star form?",
+        "body": null,
+        "options": [
+          {
+            "label": "A cloud of gas and dust collapses under its own gravity",
+            "feedback": "As the cloud falls in on itself, it grows denser and hotter until its core is fierce enough to ignite fusion."
+          },
+          {
+            "label": "A planet slowly heats up over billions of years",
+            "feedback": "A planet and a star form from the same kind of cloud, but a planet's mass is far too small to ever ignite fusion, no matter how long it waits."
+          },
+          {
+            "label": "Two smaller stars merge together",
+            "feedback": "Mergers between stars do happen, but they are not how a star is first made — both stars already had to form from a cloud beforehand."
+          },
+          {
+            "label": "Light from older stars gathers into a new one",
+            "feedback": "Light carries energy, not matter that could clump together. A new star needs actual gas and dust to build itself from."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right start",
+        "ok_line": "A star begins as a cloud falling in on itself.",
+        "ko_title": "Start further back",
+        "ko_line": "Every star, however it later changes, first had to be built out of some raw material.",
+        "exp_title": "A cloud that falls inward",
+        "exp_text": "Scattered through space are vast clouds of gas and dust, and gravity is always pulling each cloud's own matter toward its densest patches. Once a clump grows dense enough, its gravity dominates and drags the surrounding gas inward faster and faster, and the collapse squeezes and heats the core until it is hot enough for fusion to switch on."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why must a collapsing cloud's core reach an extremely high temperature before it can become a star?",
+        "body": null,
+        "options": [
+          {
+            "label": "Cold hydrogen nuclei repel each other too strongly to fuse",
+            "feedback": "Only enough speed, which comes from enough heat, lets colliding nuclei push past that repulsion and get close enough to fuse."
+          },
+          {
+            "label": "Cold gas is too heavy for gravity to move",
+            "feedback": "Gravity pulls on cold gas just as strongly as on hot gas; temperature has nothing to do with how much a cloud weighs."
+          },
+          {
+            "label": "Light cannot escape a cold cloud",
+            "feedback": "A cold cloud simply has little light to give off in the first place. Escaping is not the obstacle here."
+          },
+          {
+            "label": "Cold hydrogen turns to ice and stops reacting",
+            "feedback": "Hydrogen only freezes near absolute zero, far colder than any collapsing star-forming cloud actually gets."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That's the barrier",
+        "ok_line": "Heat is what lets nuclei get close enough to fuse at all.",
+        "ko_title": "Think about the nuclei",
+        "ko_line": "Every hydrogen nucleus carries the same electric charge as every other. What does that mean for two of them trying to meet?",
+        "exp_title": "Fast enough to get close",
+        "exp_text": "Every hydrogen nucleus carries a positive charge, and like charges push each other apart, so two nuclei drifting slowly past one another simply veer away. Only when the core's temperature climbs high enough are the nuclei moving fast enough that some of their collisions overpower that push and bring them close enough for fusion to take over."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a forming star fuse hydrogen first, rather than a heavier element?",
+        "body": null,
+        "options": [
+          {
+            "label": "Heavier elements do not exist yet at that stage",
+            "feedback": "Small amounts of heavier elements are already present in the cloud from earlier stars. They are simply a tiny fraction next to the hydrogen."
+          },
+          {
+            "label": "Hydrogen nuclei carry the smallest charge, so they are easiest to force together, and there is far more of it",
+            "feedback": "Both point the same way: hydrogen resists fusing the least, and it is what the cloud is overwhelmingly made of."
+          },
+          {
+            "label": "Hydrogen is the coldest part of the cloud",
+            "feedback": "Every part of the collapsing core reaches similar extreme temperatures; hydrogen is not somehow cooler than the rest."
+          },
+          {
+            "label": "Hydrogen fusion needs no heat at all",
+            "feedback": "Hydrogen fusion still needs the core to reach an extreme temperature. It simply needs the least of any element to get started."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Both reasons",
+        "ok_line": "The easiest nucleus to fuse also happens to be the most abundant one.",
+        "ko_title": "Two things line up here",
+        "ko_line": "Think about how much charge a hydrogen nucleus carries compared to a heavier one, and about what the cloud is mostly made of.",
+        "exp_title": "The easiest fuel, and the most of it",
+        "exp_text": "A heavier nucleus carries a larger positive charge than a single hydrogen nucleus, so it repels other nuclei more strongly and needs a hotter, more crushing environment before it will fuse. Hydrogen, carrying the smallest charge of all, is the first fuel a newly forming core becomes hot enough to fuse, and since the cloud is mostly hydrogen to begin with, that is also the fuel there is by far the most of."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the basic difference between a star and a planet?",
+        "body": null,
+        "options": [
+          {
+            "label": "A star produces its own light through fusion; a planet only reflects light",
+            "feedback": "A star runs a furnace of its own; a planet has nothing lit inside it and only bounces back the light that reaches it."
+          },
+          {
+            "label": "A star is solid and a planet is gas",
+            "feedback": "This runs backwards for much of the case: many planets are largely gas, while a star has no solid surface at all."
+          },
+          {
+            "label": "A star orbits and a planet does not",
+            "feedback": "Orbiting is not what separates them — plenty of stars orbit other stars, and every planet orbits something too."
+          },
+          {
+            "label": "A star is simply an especially large planet",
+            "feedback": "Size is not the dividing line. A star fuses hydrogen in its core, and no planet, however large, does that."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "The real divide",
+        "ok_line": "One makes its own light; the other only returns what falls on it.",
+        "ko_title": "Not size or state",
+        "ko_line": "Ask where each object's light actually comes from.",
+        "exp_title": "Light made, and light borrowed",
+        "exp_text": "A star's light comes from fusion running in its own core, so it shines on its own even in total darkness. A planet has no such furnace inside it; whatever light leaves its surface is light it first received from a star and simply bounced back outward."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a star's fusion a fundamentally different process from an ordinary fire?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fusion joins nuclei together; fire is a chemical reaction with oxygen",
+            "feedback": "Joining nuclei releases vastly more energy from the same amount of matter, and needs no oxygen at all — useful, since space around a star's core has none."
+          },
+          {
+            "label": "Fire needs light to start and fusion does not",
+            "feedback": "Neither process is started by outside light. Fire needs enough heat to ignite; fusion needs enough heat and pressure to force nuclei together."
+          },
+          {
+            "label": "Fusion only happens on the surface of a star",
+            "feedback": "Fusion runs in the core, where the heat and pressure are greatest, not at the surface where conditions are far milder."
+          },
+          {
+            "label": "Fire releases more energy per second than fusion",
+            "feedback": "A star's fusion releases energy on a scale no ordinary fire can approach, sustained continuously for as long as fuel remains."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "The real contrast",
+        "ok_line": "One rearranges atoms; the other rebuilds their nuclei.",
+        "ko_title": "Different levels entirely",
+        "ko_line": "One process works on whole atoms combining with oxygen; the other works down inside the nucleus itself.",
+        "exp_title": "Rearranging atoms versus rebuilding nuclei",
+        "exp_text": "An ordinary fire is a chemical reaction: fuel atoms combine with oxygen atoms, their outer electrons rearranging while the atoms themselves stay whole. Fusion works far deeper, forcing the nuclei of hydrogen atoms to merge into a new nucleus altogether, and that reshaping of the nucleus releases energy on a scale no rearrangement of electrons could ever match, all without needing any oxygen nearby."
+      }
+    ]
+  }
+]

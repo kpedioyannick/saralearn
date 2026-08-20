@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the range of wavelengths that the human eye can perceive?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Infrared",
+            "feedback": "Infrared has wavelengths longer than visible light, so the eye cannot see it; it lies beyond the red end of the visible range."
+          },
+          {
+            "label": "Visible spectrum",
+            "feedback": "Correct. The visible spectrum is the band of wavelengths, roughly 400–700 nm, that the human eye perceives as light."
+          },
+          {
+            "label": "Ultraviolet",
+            "feedback": "Ultraviolet has wavelengths shorter than visible light, so it sits beyond the violet end and is not seen by the eye."
+          },
+          {
+            "label": "Optical radiation",
+            "feedback": "Optical radiation is the broader group that includes infrared, visible light, and ultraviolet; it is not just the visible part."
+          }
+        ],
+        "ok_title": "Visible spectrum",
+        "ok_line": "The eye sees only the visible spectrum.",
+        "ko_title": "Not the invisible bands",
+        "ko_line": "Infrared and ultraviolet are both invisible.",
+        "exp_title": "The visible range",
+        "exp_text": "Visible light is the part of electromagnetic radiation that the human eye can perceive, with wavelengths from about 400 to 700 nanometers. Infrared sits just beyond the red end with longer wavelengths, and ultraviolet sits beyond the violet end with shorter wavelengths."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour of visible light has the highest frequency?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red has the longest wavelength and therefore the lowest frequency among visible colours."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow sits in the middle of the visible spectrum, so its frequency is higher than red but lower than violet."
+          },
+          {
+            "label": "Violet",
+            "feedback": "Correct. Violet has the shortest wavelength, which means it has the highest frequency in the visible range."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green lies between yellow and violet, so its frequency is higher than red but not the highest."
+          }
+        ],
+        "ok_title": "Violet is fastest",
+        "ok_line": "Shorter wavelength means higher frequency.",
+        "ko_title": "Frequency order",
+        "ko_line": "Red is lowest, violet is highest.",
+        "exp_title": "Frequency and colour",
+        "exp_text": "Frequency and wavelength are linked: higher frequencies have shorter wavelengths. In the visible spectrum, violet has the shortest wavelength and therefore the highest frequency, while red has the longest wavelength and the lowest frequency."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of radiation lies just beyond the red end of the visible spectrum?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Infrared",
+            "feedback": "Correct. Infrared has longer wavelengths and lower frequencies than visible red light, so it sits just beyond the red end."
+          },
+          {
+            "label": "Ultraviolet",
+            "feedback": "Ultraviolet lies beyond the violet end, not the red end, because it has shorter wavelengths."
+          },
+          {
+            "label": "X-rays",
+            "feedback": "X-rays have much shorter wavelengths than visible light and lie far beyond the ultraviolet, not next to red."
+          },
+          {
+            "label": "Radio waves",
+            "feedback": "Radio waves have much longer wavelengths and lie far beyond infrared, not immediately next to red."
+          }
+        ],
+        "ok_title": "Infrared neighbour",
+        "ok_line": "Red's next neighbour is infrared.",
+        "ko_title": "Wrong neighbour",
+        "ko_line": "Ultraviolet and X-rays are on the other side.",
+        "exp_title": "Just past red",
+        "exp_text": "The visible spectrum is bordered by infrared on the long-wavelength side. Infrared radiation has photons that are too weak to trigger vision in humans, so we do not see it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is ultraviolet light not visible to human eyes?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is too faint",
+            "feedback": "Faintness is about intensity, not about invisibility; ultraviolet is invisible because the eye cannot detect those wavelengths at all."
+          },
+          {
+            "label": "It is absorbed by the retina",
+            "feedback": "The retina does contain cells that would react, but ultraviolet is mostly absorbed by the cornea and lens before it even reaches the retina."
+          },
+          {
+            "label": "It has too low an energy",
+            "feedback": "Ultraviolet has higher energy per photon, not lower; the problem is the opposite—it has too much energy."
+          },
+          {
+            "label": "The front of the eye absorbs it",
+            "feedback": "Correct. The cornea and the internal lens absorb ultraviolet before it can reach the retina, so no vision signal is created."
+          }
+        ],
+        "ok_title": "Cornea and lens",
+        "ok_line": "The eye's front parts block ultraviolet.",
+        "ko_title": "Not energy or retina",
+        "ko_line": "The barrier is the cornea and lens.",
+        "exp_title": "Why UV is unseen",
+        "exp_text": "Human eyes do not see ultraviolet mainly because the cornea absorbs wavelengths shorter than 360 nm and the internal lens absorbs those shorter than 400 nm. Even if some passes, the retina's cells cannot detect very short wavelengths and can be damaged by them."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do some snakes sense infrared radiation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "By seeing it with their eyes",
+            "feedback": "Snakes do not see infrared through their eyes; they detect it through a different, heat-based mechanism."
+          },
+          {
+            "label": "By feeling the warmth it creates",
+            "feedback": "Correct. Snakes sense infrared through thermal imaging: the radiation warms tiny packets of water in their cells, and they detect that temperature rise."
+          },
+          {
+            "label": "By absorbing it with their skin",
+            "feedback": "While skin absorbs radiation, snakes have special pit organs that detect the heat, not the whole skin."
+          },
+          {
+            "label": "By hearing it as sound",
+            "feedback": "Infrared is electromagnetic radiation, not sound; snakes detect it through heat, not hearing."
+          }
+        ],
+        "ok_title": "Heat sensing",
+        "ok_line": "Snakes detect infrared as warmth.",
+        "ko_title": "Not vision",
+        "ko_line": "Infrared is felt as heat, not seen.",
+        "exp_title": "Infrared by warmth",
+        "exp_text": "Infrared radiation causes molecular vibration and heating. Snakes have a natural thermal-imaging ability: the radiation raises the temperature of tiny water packets in their cells, and that temperature change is what the animal detects."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of animals can detect ultraviolet light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "All mammals",
+            "feedback": "Mammals generally have lenses that absorb ultraviolet, so they cannot detect it; insects and shrimp are better examples."
+          },
+          {
+            "label": "Only humans",
+            "feedback": "Humans cannot detect ultraviolet because the cornea and lens absorb it; many other animals can."
+          },
+          {
+            "label": "Insects and shrimp",
+            "feedback": "Correct. Insects and shrimp have eyes that do not need lenses in the same way, so they can detect ultraviolet through the same photon-absorption mechanism humans use for visible light."
+          },
+          {
+            "label": "No animals",
+            "feedback": "Some animals do detect ultraviolet; humans cannot, but insects and shrimp can."
+          }
+        ],
+        "ok_title": "UV-seeing animals",
+        "ok_line": "Insects and shrimp see ultraviolet.",
+        "ko_title": "Not humans or all mammals",
+        "ko_line": "Many mammals and humans cannot see UV.",
+        "exp_title": "Who sees UV",
+        "exp_text": "Many animals with eyes that do not require lenses, such as insects and shrimp, detect ultraviolet light. They use the same quantum photon-absorption process that humans use for visible light, but their eyes are not blocked by absorbing structures."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the speed of light when it travels through water?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It slows down",
+            "feedback": "Correct. In water, light travels at about three-quarters of its vacuum speed, because the water's molecules interact with the light."
+          },
+          {
+            "label": "It speeds up",
+            "feedback": "Light cannot travel faster than it does in vacuum; water slows it down, not speeds it up."
+          },
+          {
+            "label": "It stays the same",
+            "feedback": "The speed is exactly the same only in a vacuum; any transparent substance like water changes it, generally slowing it."
+          },
+          {
+            "label": "It stops completely",
+            "feedback": "Light does not stop in water; it continues but at a reduced speed, unlike special experiments that store it in atoms."
+          }
+        ],
+        "ok_title": "Slower in water",
+        "ok_line": "Water slows light to three-quarters speed.",
+        "ko_title": "Not unchanged or stopped",
+        "ko_line": "Only vacuum gives full speed.",
+        "exp_title": "Light through water",
+        "exp_text": "In a vacuum, light travels at its maximum speed. When light passes through a transparent substance like water, its effective velocity is less—about three-quarters of the vacuum speed—because the material's molecules affect the light's progress."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does an opaque object do to light that reaches it?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Lets it pass through",
+            "feedback": "That is what a transparent object does; an opaque object does not let light transmit through."
+          },
+          {
+            "label": "Bends it",
+            "feedback": "Bending is refraction, which happens at surfaces between transparent materials, not the main effect of an opaque object."
+          },
+          {
+            "label": "Scatters it only",
+            "feedback": "Scattering is one possibility, but an opaque object can also reflect or absorb; the key is it blocks transmission."
+          },
+          {
+            "label": "Reflects or absorbs it",
+            "feedback": "Correct. An opaque object does not allow light to transmit; instead it reflects or absorbs the light it receives."
+          }
+        ],
+        "ok_title": "Opaque blocks",
+        "ok_line": "It reflects or absorbs light.",
+        "ko_title": "Not transmission",
+        "ko_line": "Transparent objects let light through.",
+        "exp_title": "Opaque behaviour",
+        "exp_text": "An opaque object does not let light travel through it. When light reaches an opaque object, the object either reflects it back or absorbs it, which is why you cannot see through such an object."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is refraction?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The bouncing of light off a surface",
+            "feedback": "Bouncing off is reflection; refraction is a different phenomenon involving bending when light moves between materials."
+          },
+          {
+            "label": "The bending of light when it moves between materials",
+            "feedback": "Correct. Refraction is the change in direction of light rays as they pass from one transparent material into another."
+          },
+          {
+            "label": "The spreading of light into colours",
+            "feedback": "Spreading into colours is dispersion, which results from refraction but is not the definition of refraction itself."
+          },
+          {
+            "label": "The absorption of light by a surface",
+            "feedback": "Absorption is when a material takes in light and converts it to heat; that is not refraction."
+          }
+        ],
+        "ok_title": "Bending light",
+        "ok_line": "Light bends when changing materials.",
+        "ko_title": "Not reflection or absorption",
+        "ko_line": "Those are different interactions.",
+        "exp_title": "Definition of refraction",
+        "exp_text": "Refraction is the bending of light rays when they pass through a surface between one transparent material and another. The amount of bending depends on the materials and the angle at which the light hits the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the study of light and its interaction with matter called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Mechanics",
+            "feedback": "Mechanics deals with forces and motion of objects, not with light itself."
+          },
+          {
+            "label": "Thermodynamics",
+            "feedback": "Thermodynamics deals with heat and energy transfer, not the interaction of light with matter."
+          },
+          {
+            "label": "Optics",
+            "feedback": "Correct. Optics is the branch of science that studies light and how it interacts with matter."
+          },
+          {
+            "label": "Acoustics",
+            "feedback": "Acoustics is the study of sound, not light."
+          }
+        ],
+        "ok_title": "The science of light",
+        "ok_line": "Optics studies light and matter.",
+        "ko_title": "Other sciences",
+        "ko_line": "Mechanics, thermodynamics, acoustics are different.",
+        "exp_title": "What optics is",
+        "exp_text": "Optics is the study of light and the interaction of light with matter. It has different branches, like geometrical optics for everyday situations, physical optics for wave effects like diffraction, and quantum optics for individual photons."
+      }
+    ]
+  }
+]

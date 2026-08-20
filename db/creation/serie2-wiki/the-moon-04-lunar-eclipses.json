@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the common name given to a lunar eclipse because of the Moon's reddish appearance?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Blood moon",
+            "feedback": "Correct. A lunar eclipse is often called a blood moon because the Moon can look orange or red during the event."
+          },
+          {
+            "label": "Harvest moon",
+            "feedback": "That is the name for the full moon near the autumn equinox, not for a lunar eclipse."
+          },
+          {
+            "label": "Blue moon",
+            "feedback": "A blue moon refers to an extra full moon within a period, not to the color during an eclipse."
+          },
+          {
+            "label": "Dark moon",
+            "feedback": "That term is not used for lunar eclipses; the Moon does not go completely dark, and 'dark moon' is not a standard name."
+          }
+        ],
+        "ok_title": "Blood moon",
+        "ok_line": "A lunar eclipse is also called a blood moon.",
+        "ko_title": "Wrong name",
+        "ko_line": "The reddish Moon during an eclipse is the blood moon, not another kind of moon.",
+        "exp_title": "Why it is called blood moon",
+        "exp_text": "A lunar eclipse is often called a blood moon because the Moon can turn orange or red when it passes through Earth's shadow. That color comes from sunlight passing through Earth's atmosphere before reaching the Moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a lunar eclipse, what must the Moon pass through to cause the reddish color?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The penumbra only",
+            "feedback": "The penumbra is the lighter part of the shadow, and passing only through it gives a subtle dimming, not the red color. The red comes from the umbra."
+          },
+          {
+            "label": "The Sun's corona",
+            "feedback": "The corona is part of the Sun's outer atmosphere, not Earth's shadow. The Moon does not pass through the Sun."
+          },
+          {
+            "label": "Earth's umbra",
+            "feedback": "Correct. When the Moon is inside the umbra, the deep part of Earth's shadow, sunlight bending through our atmosphere makes the Moon look red."
+          },
+          {
+            "label": "The lunar node",
+            "feedback": "The lunar node is a point in the Moon's orbit, not a shadow. It is where the Moon's path crosses the ecliptic, but it does not cause color."
+          }
+        ],
+        "ok_title": "Umbra gives red",
+        "ok_line": "The red Moon appears when it is inside the umbra.",
+        "ko_title": "Wrong shadow part",
+        "ko_line": "The red color requires the umbra, not the penumbra or anything else.",
+        "exp_title": "Umbra and red Moon",
+        "exp_text": "The Moon looks red when it lies inside Earth's umbra, the deep central part of the shadow. Sunlight that reaches the Moon has to pass through Earth's atmosphere, which scatters away the shorter wavelengths and leaves the longer red ones."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes the Moon appear orange or red during a total lunar eclipse?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Moon's own glow",
+            "feedback": "The Moon has no light of its own; it only reflects sunlight, so that cannot cause the color."
+          },
+          {
+            "label": "Sunlight filtering through Earth's atmosphere",
+            "feedback": "Correct. The sunlight reaching the Moon first passes through Earth's atmosphere, which scatters away blue and violet light and leaves the reddish tones."
+          },
+          {
+            "label": "Dust from the Moon's surface",
+            "feedback": "Dust on the Moon does not color the eclipse; the red shade comes from light passing through Earth's air."
+          },
+          {
+            "label": "Light from other stars",
+            "feedback": "Starlight is far too faint to color the Moon during an eclipse; the red comes from our own Sun's light."
+          }
+        ],
+        "ok_title": "Atmosphere colors it",
+        "ok_line": "Earth's atmosphere tints the sunlight red before it reaches the Moon.",
+        "ko_title": "Wrong light source",
+        "ko_line": "The red comes from sunlight passing through air, not from the Moon or stars.",
+        "exp_title": "Why the Moon turns red",
+        "exp_text": "During a total lunar eclipse, sunlight must travel through Earth's atmosphere to reach the Moon. The air scatters the shorter blue and violet wavelengths, so the longer red wavelengths dominate, and the Moon looks orange or red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a penumbral lunar eclipse?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "When the Moon is fully inside the umbra",
+            "feedback": "That is a total lunar eclipse, not a penumbral one. In a penumbral eclipse, the Moon is only in the lighter penumbra."
+          },
+          {
+            "label": "When the Moon is half inside the umbra, half outside",
+            "feedback": "That describes a partial lunar eclipse, where part of the Moon is in the umbra. A penumbral eclipse keeps the Moon out of the umbra."
+          },
+          {
+            "label": "When the Moon passes through the Sun's shadow",
+            "feedback": "That would be a solar eclipse, not a lunar one. A penumbral lunar eclipse involves Earth's shadow."
+          },
+          {
+            "label": "When the Moon lies partially inside the penumbra",
+            "feedback": "Correct. In a penumbral eclipse, the Moon enters the penumbra, the lighter part of Earth's shadow, and only a dimming is seen."
+          }
+        ],
+        "ok_title": "Penumbral eclipse",
+        "ok_line": "The Moon lies in the penumbra, not the umbra.",
+        "ko_title": "Mistaken for umbra",
+        "ko_line": "A penumbral eclipse is about the penumbra, not the umbra or the Sun.",
+        "exp_title": "Penumbral eclipse basics",
+        "exp_text": "A penumbral lunar eclipse happens when the Moon is partially inside the penumbra, the faint outer part of Earth's shadow. Some sunlight still reaches the Moon directly, so from Earth it looks like a subtle dimming rather than a dark red glow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the penumbra of Earth's shadow?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The lighter outer part of the shadow",
+            "feedback": "Correct. The penumbra is the region where the Sun is only partially blocked, so it is fainter than the umbra."
+          },
+          {
+            "label": "The darkest central part of the shadow",
+            "feedback": "That is the umbra, not the penumbra. The penumbra is lighter and surrounds the umbra."
+          },
+          {
+            "label": "The area where the Moon's shadow falls",
+            "feedback": "That would be about a solar eclipse, where the Moon casts a shadow on Earth, not Earth's shadow."
+          },
+          {
+            "label": "The bright halo around the Moon",
+            "feedback": "That is not a shadow; the penumbra is a shadow region, not a glow around the Moon."
+          }
+        ],
+        "ok_title": "Penumbra defined",
+        "ok_line": "The penumbra is the lighter, outer part of a shadow.",
+        "ko_title": "Mixed up with umbra",
+        "ko_line": "The penumbra is the lighter part, not the darkest, and not related to the Moon's own shadow.",
+        "exp_title": "Penumbra meaning",
+        "exp_text": "The penumbra is the lighter outer region of Earth's shadow, where the Sun is only partially hidden. During a penumbral eclipse, the Moon passes through this region and appears slightly dimmed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the umbra of Earth's shadow?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The faint outer part of the shadow",
+            "feedback": "That is the penumbra, not the umbra. The umbra is the darker central part."
+          },
+          {
+            "label": "The region where the Sun is fully visible",
+            "feedback": "That is outside the shadow altogether; the umbra is where the Sun is completely hidden."
+          },
+          {
+            "label": "The dark central part where the Sun is fully blocked",
+            "feedback": "Correct. The umbra is the deepest part of the shadow, where Earth completely blocks the Sun's disk."
+          },
+          {
+            "label": "The area around the Moon's orbit",
+            "feedback": "That is not a shadow; the umbra is specifically part of Earth's shadow, not a region of the Moon's path."
+          }
+        ],
+        "ok_title": "Umbra defined",
+        "ok_line": "The umbra is the dark heart of the shadow.",
+        "ko_title": "Umbra or penumbra",
+        "ko_line": "The umbra is the dark center, not the faint edge, and not an orbital region.",
+        "exp_title": "Umbra meaning",
+        "exp_text": "The umbra is the darkest, central part of Earth's shadow, where the Sun is completely hidden. When the Moon enters the umbra, we see a partial or total lunar eclipse."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens during a partial lunar eclipse?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Moon completely leaves Earth's shadow",
+            "feedback": "That would be the end of any eclipse, not a partial one. In a partial eclipse, part of the Moon is still in the umbra."
+          },
+          {
+            "label": "Only part of the Moon enters the umbra",
+            "feedback": "Correct. In a partial lunar eclipse, the Moon lies partially inside the umbra, so only a portion is darkened."
+          },
+          {
+            "label": "The Moon passes through the penumbra only",
+            "feedback": "That describes a penumbral eclipse, not a partial one. A partial eclipse involves the umbra."
+          },
+          {
+            "label": "The Moon turns completely red",
+            "feedback": "A complete red Moon happens in a total eclipse; in a partial eclipse, only part is in the umbra."
+          }
+        ],
+        "ok_title": "Partial eclipse",
+        "ok_line": "Part of the Moon is in the umbra.",
+        "ko_title": "Not total or penumbral",
+        "ko_line": "A partial eclipse means umbra covers only part of the Moon, not all of it, and not just the penumbra.",
+        "exp_title": "Partial lunar eclipse",
+        "exp_text": "In a partial lunar eclipse, the Moon is only partly inside Earth's umbra, so a portion of the lunar disk looks dark while the rest stays bright. The dark part in the umbra appears much more distinct than the faint penumbral dimming."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a total lunar eclipse?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "When the Moon passes through the penumbra only",
+            "feedback": "That is a penumbral eclipse, not total. A total eclipse requires the whole Moon in the umbra."
+          },
+          {
+            "label": "When the Sun is between Earth and the Moon",
+            "feedback": "The Sun is not between Earth and the Moon during a lunar eclipse; Earth is between the Sun and the Moon."
+          },
+          {
+            "label": "When the Moon covers the Sun completely",
+            "feedback": "That would be a total solar eclipse, not a lunar one. In a lunar eclipse, Earth blocks the Sun."
+          },
+          {
+            "label": "When the entire Moon is inside the umbra",
+            "feedback": "Correct. A total lunar eclipse occurs when the Moon's near side fully enters Earth's umbral shadow."
+          }
+        ],
+        "ok_title": "Total eclipse",
+        "ok_line": "The whole Moon sits inside the umbra.",
+        "ko_title": "Wrong eclipse type",
+        "ko_line": "Total lunar means the full Moon in the umbra, not a penumbral or solar event.",
+        "exp_title": "Total lunar eclipse",
+        "exp_text": "A total lunar eclipse happens when the Moon's near side completely passes into Earth's umbra. The entire surface becomes more or less uniformly bright and often takes on a reddish hue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the Moon not go completely dark even during a total lunar eclipse?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sunlight is bent around Earth by its atmosphere",
+            "feedback": "Correct. Earth's atmosphere refracts some sunlight into the shadow, so the Moon still gets faint reddish light."
+          },
+          {
+            "label": "The Moon glows on its own",
+            "feedback": "The Moon has no internal light source; it only reflects sunlight, so that cannot keep it visible."
+          },
+          {
+            "label": "Earth's shadow is never fully dark",
+            "feedback": "The umbra would be fully dark without an atmosphere, but it is the atmosphere that lets light in, not that the shadow is inherently bright."
+          },
+          {
+            "label": "Light from stars illuminates the Moon",
+            "feedback": "Starlight is far too weak to light the Moon; the light comes from the Sun passing through our air."
+          }
+        ],
+        "ok_title": "Atmosphere bends light",
+        "ok_line": "Refraction through air keeps the Moon faintly lit.",
+        "ko_title": "Wrong light source",
+        "ko_line": "It is sunlight refracted by Earth's atmosphere, not the Moon's own glow or starlight.",
+        "exp_title": "Why Moon stays visible",
+        "exp_text": "During totality, the Moon does not vanish because Earth's atmosphere refracts some sunlight into the umbra. Without an atmosphere, the Moon would be completely dark, but with it, a reddish glow reaches the lunar surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a central lunar eclipse?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "When the Moon only touches the penumbra",
+            "feedback": "That is a penumbral eclipse, not central. A central eclipse involves the Moon passing through the middle of the umbra."
+          },
+          {
+            "label": "When the Moon is farthest from Earth",
+            "feedback": "That distance affects how long an eclipse lasts, but it does not define a central eclipse."
+          },
+          {
+            "label": "When the Moon passes near the center of Earth's shadow",
+            "feedback": "Correct. A central lunar eclipse occurs when the Moon goes through the middle of the umbra, near the antisolar point."
+          },
+          {
+            "label": "When the Moon is exactly at the lunar node",
+            "feedback": "Being at the node helps cause an eclipse, but a central eclipse specifically refers to the Moon's path through the shadow's center."
+          }
+        ],
+        "ok_title": "Central eclipse",
+        "ok_line": "The Moon goes through the shadow's middle.",
+        "ko_title": "Not about penumbra or distance",
+        "ko_line": "A central eclipse means the Moon crosses the center of the umbra, not the penumbra or a distant orbit.",
+        "exp_title": "Central lunar eclipse",
+        "exp_text": "A central lunar eclipse is a type of total lunar eclipse where the Moon passes close to the center of Earth's umbra, touching the antisolar point. This makes it more frequent among total eclipses, happening in about 60% of them."
+      }
+    ]
+  }
+]

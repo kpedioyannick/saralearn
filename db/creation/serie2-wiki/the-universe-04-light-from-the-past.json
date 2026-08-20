@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 240,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the speed of light in a vacuum?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "299,792,458 metres per second",
+            "feedback": "Correct. That is the exact speed of light in a vacuum, and it is the fastest speed anything can travel."
+          },
+          {
+            "label": "300,000 kilometres per hour",
+            "feedback": "That is far too slow. The speed of light in a vacuum is about 299,792,458 metres per second, which is roughly 1 billion kilometres per hour."
+          },
+          {
+            "label": "1,000,000 metres per second",
+            "feedback": "That is much too slow. Light in a vacuum covers nearly 300,000 kilometres in a single second."
+          },
+          {
+            "label": "186,282 miles per hour",
+            "feedback": "That is a speed in miles per second, not per hour. The speed of light is about 186,282 miles per second, which is far faster."
+          }
+        ],
+        "ok_title": "Light's top speed",
+        "ok_line": "Light in a vacuum moves at 299,792,458 metres per second.",
+        "ko_title": "Check your units",
+        "ko_line": "That number does not match light's speed in a vacuum.",
+        "exp_title": "The constant speed",
+        "exp_text": "Light travels fastest when there is nothing in its way, so its highest speed is in a vacuum. That speed is exactly 299,792,458 metres per second, a value that is the same for every observer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When light enters a transparent material like glass, what happens to its speed?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stays the same as in a vacuum",
+            "feedback": "That is not right. In glass, light slows down compared to its speed in a vacuum."
+          },
+          {
+            "label": "It becomes slower than in a vacuum",
+            "feedback": "Correct. Light travels at less than its vacuum speed inside transparent materials, so it slows down."
+          },
+          {
+            "label": "It becomes faster than in a vacuum",
+            "feedback": "No, nothing travels faster than light in a vacuum. Inside glass, light is slower."
+          },
+          {
+            "label": "It stops completely",
+            "feedback": "Light does not stop in glass; it continues moving, just at a slower speed."
+          }
+        ],
+        "ok_title": "Slower in matter",
+        "ok_line": "Inside glass, light moves slower than it does in a vacuum.",
+        "ko_title": "Speed change",
+        "ko_line": "Light's speed in a material is never higher than its vacuum speed.",
+        "exp_title": "Slowing down",
+        "exp_text": "When light travels through a material such as glass or water, it interacts with the material and moves at a speed less than its vacuum speed. The ratio of the vacuum speed to the material speed is called the refractive index."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the symbol commonly used for the speed of light in vacuum?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "v",
+            "feedback": "The letter v is often used for general speed, but not specifically for the speed of light in vacuum."
+          },
+          {
+            "label": "a",
+            "feedback": "The letter a is not used for the speed of light. It usually stands for acceleration."
+          },
+          {
+            "label": "c",
+            "feedback": "Correct. The speed of light in vacuum is usually denoted by the lowercase letter c."
+          },
+          {
+            "label": "E",
+            "feedback": "The letter E commonly stands for energy, not speed. The speed of light uses c."
+          }
+        ],
+        "ok_title": "The letter c",
+        "ok_line": "The speed of light in vacuum is usually written as c.",
+        "ko_title": "Wrong symbol",
+        "ko_line": "That letter is not the standard symbol for the speed of light.",
+        "exp_title": "Standard notation",
+        "exp_text": "Physicists usually write the speed of light in vacuum as the lowercase letter c. This symbol is used throughout relativity and many other parts of physics."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following travels at the speed of light in a vacuum?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sound waves",
+            "feedback": "Sound waves are not electromagnetic and have mass, so they travel much slower than light and need a material to move through."
+          },
+          {
+            "label": "Water waves",
+            "feedback": "Water waves are mechanical waves on a surface, not massless electromagnetic waves, so they cannot reach light's speed."
+          },
+          {
+            "label": "Heavy particles like atoms",
+            "feedback": "Atoms have mass, so they can never reach the speed of light in vacuum, no matter how much energy they get."
+          },
+          {
+            "label": "Gravitational waves",
+            "feedback": "Correct. Gravitational waves, like all massless waves, travel at the speed of light in vacuum."
+          }
+        ],
+        "ok_title": "At light speed",
+        "ok_line": "Gravitational waves move at the same speed as light in a vacuum.",
+        "ko_title": "Mass matters",
+        "ko_line": "Anything with mass cannot reach the speed of light.",
+        "exp_title": "Massless speed",
+        "exp_text": "Only things with no mass, such as light and other electromagnetic waves, along with gravitational waves, travel at the speed of light in vacuum. Anything that has mass can approach that speed but never reach it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the relationship between the speed of light in a vacuum and the speed of light in a material like air?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The vacuum speed is higher",
+            "feedback": "Correct. Light travels faster in a vacuum than it does in any material, including air."
+          },
+          {
+            "label": "The material speed is higher",
+            "feedback": "No, materials slow light down, so the speed in air is always less than in a vacuum."
+          },
+          {
+            "label": "They are exactly equal",
+            "feedback": "They are not equal. Air slows light slightly, so the speed is a little less than the vacuum speed."
+          },
+          {
+            "label": "They have no fixed relation",
+            "feedback": "There is a fixed relation: light in a material is always slower than in a vacuum."
+          }
+        ],
+        "ok_title": "Vacuum wins",
+        "ok_line": "Light is fastest in a vacuum, faster than in air or glass.",
+        "ko_title": "Speed comparison",
+        "ko_line": "Light's highest speed is only in a vacuum.",
+        "exp_title": "Fastest in empty space",
+        "exp_text": "The speed of light in vacuum is the maximum possible speed. When light travels through air or any other transparent material, it moves slower because the material's atoms interact with the light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can the speed of light in a vacuum be considered an upper limit?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it is the speed of sound in air",
+            "feedback": "The speed of sound is much slower than light and is not a universal limit."
+          },
+          {
+            "label": "Because it is the speed of Earth's rotation",
+            "feedback": "Earth's rotation is far slower and not related to a fundamental limit for all matter and energy."
+          },
+          {
+            "label": "Because nothing with mass can go faster",
+            "feedback": "Correct. No information, matter, or energy can travel faster than light in a vacuum, and objects with mass cannot even reach it."
+          },
+          {
+            "label": "Because it is a random number chosen by scientists",
+            "feedback": "It is not random; it is a fundamental constant of nature that sets the maximum speed."
+          }
+        ],
+        "ok_title": "Universal limit",
+        "ok_line": "Nothing can move faster than light in a vacuum.",
+        "ko_title": "Not just a number",
+        "ko_line": "This speed is a fundamental rule of the universe.",
+        "exp_title": "The fastest possible",
+        "exp_text": "The speed of light in vacuum is the fastest that anything—information, matter, or energy—can travel. Particles with mass can get very close to it but can never quite reach it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the refractive index of a material compare?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The color of light to its brightness",
+            "feedback": "Refractive index does not measure color or brightness; it measures speed."
+          },
+          {
+            "label": "The speed of light in vacuum to its speed in the material",
+            "feedback": "Correct. The refractive index is the ratio of the vacuum speed of light to the speed of light in the material."
+          },
+          {
+            "label": "The density of the material to its temperature",
+            "feedback": "That is not what refractive index is about. It relates to light's speed, not density or temperature."
+          },
+          {
+            "label": "The distance light travels to the time it takes",
+            "feedback": "That would be a speed calculation, not a refractive index."
+          }
+        ],
+        "ok_title": "Speed ratio",
+        "ok_line": "Refractive index is the vacuum speed divided by the material speed.",
+        "ko_title": "Not that comparison",
+        "ko_line": "Refractive index specifically deals with light speeds.",
+        "exp_title": "What n tells us",
+        "exp_text": "The refractive index n of a material is defined as c divided by the speed of light in that material. For glass, n is about 1.5, meaning light travels 1.5 times slower in glass than in vacuum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do we say that looking at a distant galaxy means looking back in time?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the galaxy rotates slowly",
+            "feedback": "Rotation does not affect how we see the galaxy; it is about light travel time."
+          },
+          {
+            "label": "Because the galaxy is moving away from us",
+            "feedback": "Motion affects color shifts, but the time delay comes from the finite speed of light."
+          },
+          {
+            "label": "Because the galaxy is very bright",
+            "feedback": "Brightness is unrelated to looking back in time; it is about distance and light speed."
+          },
+          {
+            "label": "Because its light takes time to reach us",
+            "feedback": "Correct. Light travels at a finite speed, so light from a distant galaxy left it long ago and has been traveling toward us ever since."
+          }
+        ],
+        "ok_title": "Time travel by light",
+        "ok_line": "Distant light shows the past because it takes time to arrive.",
+        "ko_title": "Not that reason",
+        "ko_line": "The time delay comes from light's finite speed.",
+        "exp_title": "Light from the past",
+        "exp_text": "Since light only moves at about 300,000 kilometres per second, it takes time to cross great distances. When we see a galaxy far away, we are seeing the light that left it many years ago, so we see that galaxy as it was in the past."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is true about the speed of light in a vacuum for different observers?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is the same for all observers",
+            "feedback": "Correct. The speed of light in vacuum is the same for every observer, no matter how fast they are moving."
+          },
+          {
+            "label": "It depends on the observer's speed",
+            "feedback": "No, that is a common misconception. The speed of light does not depend on the observer's motion."
+          },
+          {
+            "label": "It depends on the light source's speed",
+            "feedback": "The source's motion does not change the speed of light in vacuum; it is always constant."
+          },
+          {
+            "label": "It varies with direction",
+            "feedback": "Light travels at the same speed in every direction in a vacuum."
+          }
+        ],
+        "ok_title": "Constant for everyone",
+        "ok_line": "Every observer measures the same vacuum speed of light.",
+        "ko_title": "Not variable",
+        "ko_line": "The speed of light does not change with observer motion.",
+        "exp_title": "An absolute constant",
+        "exp_text": "A key fact is that the speed of light in vacuum is the same for all observers, regardless of their relative velocity. This is independent of how fast the source or the observer moves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is light from many stars seen on Earth considered to be from the distant past?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the stars are very hot",
+            "feedback": "Temperature does not delay the light; it is about the distance and light speed."
+          },
+          {
+            "label": "Because the stars are very large",
+            "feedback": "Size is not the reason. The light's travel time depends on how far away the star is."
+          },
+          {
+            "label": "Because the distances are so huge",
+            "feedback": "Correct. The stars are so far away that even at light's speed, the journey takes a very long time, so we see them as they were long ago."
+          },
+          {
+            "label": "Because the stars are very bright",
+            "feedback": "Brightness does not affect how long light takes to reach us."
+          }
+        ],
+        "ok_title": "Far means past",
+        "ok_line": "Huge distances mean starlight we see is very old.",
+        "ko_title": "Not that property",
+        "ko_line": "It is the distance that makes the light ancient.",
+        "exp_title": "Starlight's long journey",
+        "exp_text": "Light from stars travels across enormous distances at a finite speed. Because the distances between stars are so great, the light we see today left those stars many years ago, allowing us to study the past."
+      }
+    ]
+  }
+]

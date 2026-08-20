@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 165,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a Venus flytrap need more than one of its trigger hairs to be touched before it snaps shut?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A single touch is not strong enough to move the trap's leaves at all",
+            "feedback": "The leaves are perfectly capable of moving from a single touch; the trap simply does not act on it, holding still until a second touch confirms something worth closing on."
+          },
+          {
+            "label": "Requiring a second touch within a short time filters out a false alarm, such as a raindrop or falling debris, and confirms movement consistent with real prey",
+            "feedback": "A single brush against one hair could easily come from something harmless landing on the leaf, but only something moving around inside, like an insect, is likely to trigger a second hair shortly after the first."
+          },
+          {
+            "label": "The second touch tells the plant what kind of insect has landed on it",
+            "feedback": "The trap has no way to sense what kind of insect is touching it. All it registers is whether a second hair was touched soon after the first."
+          },
+          {
+            "label": "One touch closes the trap only partway, and a second touch is needed to finish closing it",
+            "feedback": "The trap stays fully open after a single touch and only begins closing once a second touch is registered — it does not close in two separate stages."
+          }
+        ],
+        "ok_title": "A safeguard against false alarms",
+        "ok_line": "Snapping shut costs the plant real energy, so it waits for real confirmation.",
+        "ko_title": "Not the reason",
+        "ko_line": "Snapping shut and reopening costs the plant a real amount of stored energy. What would requiring a second touch, soon after the first, help the plant avoid wasting that energy on?",
+        "exp_title": "Waiting for a second signal",
+        "exp_text": "Closing and later reopening is a real cost for the plant, so triggering on every single touch would waste energy on harmless events like a raindrop or a falling leaf landing on one hair. Requiring a second hair to be touched within a short window afterward is a simple way to filter those false alarms out, since only something moving around on the leaf, such as a struggling insect, is likely to brush a second hair so soon after the first. Only once that second signal arrives does the trap actually snap shut."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do pitcher plants have such slippery inner walls just below the rim of their trap?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The slick, waxy surface makes it impossible for an insect's feet to grip once it lands there, so it slides down into the fluid below with no way to climb back out",
+            "feedback": "An insect that lands on the rim and steps onto that waxy inner surface finds nothing for its feet to hold on to, and slides helplessly down toward the fluid pooled at the bottom."
+          },
+          {
+            "label": "The slippery surface helps rainwater drain out of the pitcher quickly",
+            "feedback": "The pitcher is built to hold liquid at its base rather than drain it away, since that pooled fluid is exactly where digestion of trapped prey takes place."
+          },
+          {
+            "label": "The slippery walls keep the pitcher's own tissue from drying out",
+            "feedback": "A waxy surface can help limit water loss in some plants, but that alone would not need to be slippery enough to make an insect's feet lose their grip entirely."
+          },
+          {
+            "label": "The slippery texture attracts insects looking for a smooth surface to rest on",
+            "feedback": "Insects are drawn to the pitcher by scent or colour at the rim, not by any preference for a smooth surface, which in fact works against them once they step onto it."
+          }
+        ],
+        "ok_title": "No footing at all",
+        "ok_line": "Once an insect steps past the rim, there is nothing left to hold on to.",
+        "ko_title": "Not what the surface does",
+        "ko_line": "Think about what happens to an insect's feet the moment they touch a surface with essentially no grip.",
+        "exp_title": "A surface built to offer no grip",
+        "exp_text": "The inner wall of a pitcher plant just below the rim is coated in a wax so smooth that an insect's feet, which normally rely on tiny claws or sticky pads to grip a surface, find nothing to hold on to there. Once an insect steps past the rim onto that section, it slides rather than walks, and gravity carries it straight down toward the fluid pooled at the base of the pitcher. There is no ledge or rough patch along the way to stop the slide or offer a route back out."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "An insect that slides into the fluid pooled at the bottom of a pitcher plant does not simply rot there uselessly. What actually happens to it?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The insect is slowly pushed back up and out through the same slippery walls it fell down",
+            "feedback": "The slippery walls that let the insect slide down offer no way to climb back up them, and the pitcher does nothing to actively push anything back out."
+          },
+          {
+            "label": "The fluid simply drowns the insect and nothing further happens to it",
+            "feedback": "Drowning is only the first step. What follows afterward, breaking the insect's body down, is exactly what makes the whole trap worthwhile for the plant."
+          },
+          {
+            "label": "The fluid contains digestive enzymes that break the insect's body down into nutrients the plant absorbs through the pitcher's inner wall",
+            "feedback": "Once the insect has drowned, enzymes in the fluid gradually dissolve its softer tissues, and the plant absorbs the nutrients released directly through the surface lining the pitcher."
+          },
+          {
+            "label": "The insect's body is used only to weigh the fluid down so wind cannot spill it out",
+            "feedback": "A pitcher's fluid stays in place because of the pitcher's own shape holding it, not because of the added weight of whatever insects happen to have fallen in."
+          }
+        ],
+        "ok_title": "Digestion, not just drowning",
+        "ok_line": "The fluid finishes what the fall started.",
+        "ko_title": "Not the full sequence",
+        "ko_line": "Drowning alone would leave a pool full of undigested insects. What does the pitcher plant actually gain from all of that trapped prey?",
+        "exp_title": "A pool that dissolves what falls into it",
+        "exp_text": "An insect that slides down into the pitcher's fluid drowns fairly quickly, but drowning alone would give the plant nothing beyond a pool full of intact bodies. The fluid also contains digestive enzymes that gradually break down the insect's softer tissues into simpler nutrients over time. Those released nutrients are then absorbed directly through the inner lining of the pitcher, which is what actually makes the whole trap useful to the plant rather than just a hazard for insects."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "A sundew's leaf is covered in sticky droplets that do more than just hold an insect in place — they also move. What do the sticky tentacles do once an insect is caught?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They release the insect once it stops struggling, to save the sticky fluid for a fresh catch",
+            "feedback": "Once an insect is caught, the tentacles work to hold onto it and draw it in further, not to release it and free up the sticky fluid for later."
+          },
+          {
+            "label": "They dry out completely to seal the insect in place like a cast",
+            "feedback": "The tentacles stay moist and sticky throughout, since that stickiness and the fluid it carries are exactly what continues holding the insect and later digesting it."
+          },
+          {
+            "label": "They snap shut all at once, closing the whole leaf over the insect in an instant",
+            "feedback": "A sundew's response is a slow bending of individual tentacles over time, not a sudden, whole-leaf snap the way a Venus flytrap closes."
+          },
+          {
+            "label": "The tentacles bend and curl inward toward the struggling insect, pressing it against more sticky glands and slowing its escape while digestion begins",
+            "feedback": "As an insect struggles against the sticky fluid, nearby tentacles gradually curl inward toward it, bringing more sticky glands into contact and making escape progressively harder while the plant begins digesting it."
+          }
+        ],
+        "ok_title": "Glue that reaches back",
+        "ok_line": "The struggle itself draws more tentacles in.",
+        "ko_title": "Not what the tentacles do",
+        "ko_line": "An insect stuck in the sticky fluid keeps struggling. What would nearby tentacles bending slowly toward that struggle actually achieve?",
+        "exp_title": "Stickiness that closes in gradually",
+        "exp_text": "The sticky droplets on a sundew's leaf are the first line of capture, holding an insect in place the moment it touches down and struggles. Sensing that struggle, the tentacle carrying the droplet and the tentacles nearby begin slowly bending inward, drawing the insect into contact with even more sticky glands as they move. That gradual curling makes escape progressively harder over the following time, while the fluid coating the tentacles also carries the enzymes that begin digesting the insect."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a bladderwort's underwater trap create a sudden inrush of water the instant it opens?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The trap's walls pump water out ahead of time, so when the trapdoor snaps open the pressure difference sucks water and prey in before the door reseals",
+            "feedback": "By pumping water out beforehand, the collapsed trap holds far lower pressure inside than the water surrounding it, so the instant the trigger opens the door, that pressure difference pulls water and anything nearby rushing in."
+          },
+          {
+            "label": "The trap is simply squeezed by the plant's stem at the moment prey swims past",
+            "feedback": "The trap opens on its own through a stored pressure difference built up beforehand, not because the surrounding stem squeezes it at the moment prey happens to pass by."
+          },
+          {
+            "label": "The inrush is caused by the prey itself pushing water into the trap as it swims toward it",
+            "feedback": "A tiny swimming creature pushes far too little water to explain a sudden inrush strong enough to pull it inside; the force instead comes from pressure the trap itself had already built up."
+          },
+          {
+            "label": "The trap fills with air first, then draws water in once the air escapes",
+            "feedback": "The trap is already filled with water rather than air before it triggers; what changes at the moment of opening is pressure, not a switch from air to water."
+          }
+        ],
+        "ok_title": "A vacuum sprung open",
+        "ok_line": "The pulling power was stored in advance, waiting for the door to open.",
+        "ko_title": "Not the source of the pull",
+        "ko_line": "The trap does work before anything swims near it, not at the moment prey arrives. What is it doing in that earlier, preparatory stage?",
+        "exp_title": "Pressure stored, then released",
+        "exp_text": "Before any prey comes near, the bladderwort actively pumps water back out of its trap, collapsing the trap's walls slightly inward and leaving the pressure inside noticeably lower than the water pressure just outside it. When trigger hairs near the trapdoor are brushed by something swimming past, the door springs open almost instantly, and the pressure difference that had been building this whole time pulls the surrounding water, along with whatever is in it, rushing inside. The door then reseals and the pumping starts again, resetting the trap for its next catch."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do carnivorous plants tend to grow in nutrient-poor, boggy soil rather than in ordinary rich soil?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Boggy soil is easier for their roots to physically anchor into",
+            "feedback": "Boggy, waterlogged soil is often loose and unstable to root into, which makes anchoring there harder rather than easier for most plants."
+          },
+          {
+            "label": "Rich soil contains chemicals that are toxic specifically to carnivorous plants",
+            "feedback": "Ordinary rich soil is not toxic to these plants; many can even survive in it. The real limitation is what that soil fails to provide them, not something harmful it contains."
+          },
+          {
+            "label": "Their roots cannot draw enough nitrogen and other nutrients from such poor soil, so trapping and digesting insects supplies what the soil is missing",
+            "feedback": "In soil this poor, ordinary plants struggle to get enough nitrogen and similar nutrients through their roots alone, and a carnivorous plant makes up that shortfall directly by digesting insects instead."
+          },
+          {
+            "label": "Boggy soil keeps competing plants from growing nearby at all",
+            "feedback": "Many other plants do grow in boggy soil alongside carnivorous ones. What sets carnivorous plants apart there is not an empty field to themselves, but a way to get nutrients that poor soil cannot supply."
+          }
+        ],
+        "ok_title": "Making up for poor soil",
+        "ok_line": "What the roots cannot pull from the ground, the traps supply instead.",
+        "ko_title": "Not the advantage",
+        "ko_line": "Think about what a normal plant's roots need from soil, and what boggy, nutrient-poor soil specifically fails to provide.",
+        "exp_title": "Nutrients found another way",
+        "exp_text": "Nutrient-poor, boggy soil leaves most plants short on nitrogen and other minerals their roots would normally draw up from the ground. A carnivorous plant's roots face that same shortage, but its traps let it make up the difference by digesting insects and absorbing the nutrients released from their bodies instead. That extra route to nutrients gives it a real advantage in exactly the kind of poor soil where an ordinary plant would struggle to survive."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "If a carnivorous plant gets nutrients from trapped insects, why does it still bother making chlorophyll and carrying out photosynthesis?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Chlorophyll is only needed to attract insects toward the trap",
+            "feedback": "Chlorophyll gives leaves their green colour, but the parts of a trap that actually lure insects, like scent or a bright rim, work independently of it and are often a different colour entirely."
+          },
+          {
+            "label": "Trapped insects supply minerals like nitrogen but not the energy the plant needs, so it still has to make its own food through photosynthesis exactly like any other plant",
+            "feedback": "Digesting an insect provides useful minerals the plant's roots are struggling to find in poor soil, but it supplies no meaningful energy on its own, so the plant still needs sunlight and chlorophyll to produce the sugar it runs on."
+          },
+          {
+            "label": "Photosynthesis breaks down the insect's body faster than the trap's fluid alone could",
+            "feedback": "Digesting a trapped insect is carried out by enzymes in the trap's fluid, a separate process entirely from photosynthesis, which happens in the plant's green tissue and has no role in digestion."
+          },
+          {
+            "label": "Chlorophyll protects the plant's traps from being damaged by digestive fluid",
+            "feedback": "A trap's own tissue is naturally resistant to the fluid it produces, and that resistance has nothing to do with chlorophyll, which is involved in capturing light, not in protecting tissue from digestive fluid."
+          }
+        ],
+        "ok_title": "Two separate needs, two separate sources",
+        "ok_line": "Insects fill in the minerals. Sunlight still has to supply the fuel.",
+        "ko_title": "Not the split",
+        "ko_line": "A trapped insect can supply certain minerals, but ask whether it can supply anything close to the energy an entire plant needs to grow.",
+        "exp_title": "A supplement, not a replacement for sunlight",
+        "exp_text": "Digesting a trapped insect gives a carnivorous plant nutrients such as nitrogen that its roots struggle to find in the poor soil it grows in, but it supplies almost none of the energy the plant actually needs to grow. That energy still has to come from photosynthesis, exactly as it does for any other plant, which is why the leaves keep their chlorophyll and keep working in sunlight even while also functioning as traps. Insects fill a mineral gap; they do not replace the plant's need to make its own food."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many carnivorous plants hold their flowers up on a tall stalk, well above the traps lower down on the plant?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Raising the flowers away from the traps keeps the plant from accidentally catching and killing the very pollinators it needs to visit those flowers",
+            "feedback": "A pollinator visiting the flower stays well clear of the traps positioned lower down and elsewhere on the plant, so the plant avoids destroying the pollinators it depends on for its own reproduction."
+          },
+          {
+            "label": "Flowers held higher up catch more sunlight for photosynthesis",
+            "feedback": "A flower is not a major site of photosynthesis for the plant; that work is mostly carried out by leaves and traps lower down, so height would offer little benefit here."
+          },
+          {
+            "label": "The height keeps the flower's scent from attracting insects that the plant would rather trap instead",
+            "feedback": "The flower's scent is specifically meant to draw pollinators in, not to be hidden from them, and the height serves to physically separate that visit from the traps, not to mute the scent."
+          },
+          {
+            "label": "Taller flowers are easier for the plant's roots to supply with water",
+            "feedback": "Water reaching a flower depends on the plant's internal transport system rather than on how tall the flower stalk happens to be, so this is not what the extra height is achieving."
+          }
+        ],
+        "ok_title": "Keeping pollination and predation apart",
+        "ok_line": "A pollinator that never comes near a trap can safely keep visiting the flowers.",
+        "ko_title": "Not the reason for the height",
+        "ko_line": "The same kind of insect that pollinates the flower could just as easily become prey if it strayed too close to a trap. What would separating the two physically prevent?",
+        "exp_title": "Separating two very different visitors",
+        "exp_text": "A carnivorous plant needs insects for two very different reasons: some are meant to be caught and digested by its traps, while others are meant to visit its flowers and carry pollen between plants. If the flowers sat right next to the traps, the plant would risk killing the pollinators it depends on for reproduction. Holding the flowers up on a tall stalk, physically apart from the traps lower down, keeps that pollinating visit safe from the very structures built to catch other insects."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "A pitcher plant's trap has no moving parts and needs no trigger to sense a touch. Why can it work this way, unlike a Venus flytrap?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A pitcher plant's trap is not actually catching insects at all, only rainwater",
+            "feedback": "The pitcher's fluid does regularly include rainwater, but insects are drawn in by scent and colour and do become trapped and digested there, which is exactly why the plant bothers producing digestive enzymes in that fluid."
+          },
+          {
+            "label": "A pitcher plant senses movement just as a flytrap does, but reacts too slowly to notice",
+            "feedback": "A pitcher plant is not sensing movement at all in the way a flytrap does; its trap is built to work through structure alone, requiring no sensing or reaction of any kind."
+          },
+          {
+            "label": "The pitcher's trap only works on insects that are already dead when they arrive",
+            "feedback": "A pitcher plant's slippery walls are exactly what causes a living, walking insect to lose its footing and fall in; the trap does not depend on the insect already being dead beforehand."
+          },
+          {
+            "label": "The pitcher's trap is a passive pitfall: an insect that lands on the slippery rim falls in on its own through gravity, with no need for the plant to sense anything or react at all",
+            "feedback": "Because the shape and slippery surface alone are enough to make a landing insect slide down and fall into the fluid below, the plant does not need trigger hairs or any way of sensing touch — the structure itself does all the work."
+          }
+        ],
+        "ok_title": "A trap that works by shape alone",
+        "ok_line": "Gravity and a slippery surface do the catching; nothing needs to be sensed.",
+        "ko_title": "Not the distinction",
+        "ko_line": "A Venus flytrap has to sense touch and react. Does a pitcher plant's trap need to sense anything at all to do its job?",
+        "exp_title": "Two very different kinds of trap",
+        "exp_text": "A Venus flytrap is an active trap: it has to sense a touch through its trigger hairs and then physically react by snapping shut. A pitcher plant's trap works completely differently, relying only on its shape and a slippery inner surface to make a landing insect slide down and fall into the fluid pooled at the bottom, purely through gravity. Because no reaction is needed at all, the pitcher's trap can stay permanently open and ready without any moving parts or sensing mechanism whatsoever."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a pitcher plant's trap, or a sundew's sticky leaf, be considered a modified leaf rather than an entirely separate kind of organ?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The trap is built from root tissue that has grown upward instead of underground",
+            "feedback": "A trap develops from the same tissue and position on the plant where an ordinary leaf would grow, not from root tissue redirected upward out of the soil."
+          },
+          {
+            "label": "Every carnivorous plant grows both an ordinary leaf and a completely separate trap side by side",
+            "feedback": "In most carnivorous plants a single structure serves as both the leaf and the trap at once, rather than two separate organs growing independently next to each other."
+          },
+          {
+            "label": "The same tissue that would normally flatten into an ordinary leaf has instead folded, cupped or grown glands and hairs to also catch prey, while in most species it still carries out photosynthesis as well",
+            "feedback": "What forms the trap is the very same leaf tissue found on any ordinary plant, simply reshaped over many generations into a cup, a snapping pair of lobes, or a sticky pad, while still doing a leaf's usual job of catching light."
+          },
+          {
+            "label": "The trap only appears after the plant's true leaves have already died back",
+            "feedback": "The trap functions as a living, working part of the plant alongside its other growth, not as something that only appears once ordinary leaves have already died off."
+          }
+        ],
+        "ok_title": "One structure doing two jobs",
+        "ok_line": "The trap is a leaf that never stopped being a leaf.",
+        "ko_title": "Not what makes it a leaf",
+        "ko_line": "Trace the trap back to what part of the plant it grows from, and what job, besides trapping, it is often still doing at the same time.",
+        "exp_title": "A leaf reshaped, not replaced",
+        "exp_text": "A trap in a plant like a pitcher plant or a sundew grows from exactly the same tissue and the same position on the stem where an ordinary flat leaf would otherwise form. Over many generations that tissue has folded into a cup, snapped into closing lobes, or grown covered in sticky glands, taking on the extra job of catching prey. In most of these plants the trap still carries out photosynthesis at the same time, which is why it is best understood as a leaf doing double duty rather than a brand new kind of organ."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What name is given to the phase when the Moon appears completely dark from Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Full moon",
+            "feedback": "A full moon is the opposite phase, when the entire near side is lit by the Sun, not dark."
+          },
+          {
+            "label": "First quarter",
+            "feedback": "First quarter shows half of the near side lit, not the whole disk dark."
+          },
+          {
+            "label": "New moon",
+            "feedback": "That's right. At new moon, the near side faces away from the Sun, so the whole disk is dark."
+          },
+          {
+            "label": "Crescent",
+            "feedback": "A crescent shows a thin sliver of light; the new moon shows none at all."
+          }
+        ],
+        "ok_title": "Dark phase",
+        "ok_line": "The new moon is the phase with the shadowed face.",
+        "ko_title": "Not dark",
+        "ko_line": "Pick the phase that shows no lit surface.",
+        "exp_title": "The new moon phase",
+        "exp_text": "New moon is the phase when the Moon lies between Earth and the Sun, so the side facing us receives no sunlight. The entire near side is in shadow, making the Moon invisible except during a solar eclipse."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What phase comes immediately after the first quarter moon?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Full moon",
+            "feedback": "Full moon comes later, after the waxing gibbous phase, not right after first quarter."
+          },
+          {
+            "label": "Waxing gibbous",
+            "feedback": "Correct. After first quarter, the lit portion continues to grow, so the next phase is waxing gibbous."
+          },
+          {
+            "label": "Last quarter",
+            "feedback": "Last quarter appears later in the cycle, after the full moon and the waning phases."
+          },
+          {
+            "label": "Waning crescent",
+            "feedback": "Waning crescent comes near the end, just before the new moon, not early in the cycle."
+          }
+        ],
+        "ok_title": "Growing after quarter",
+        "ok_line": "First quarter is followed by a more lit phase.",
+        "ko_title": "Order mix-up",
+        "ko_line": "Remember the sequence: new, waxing crescent, first quarter, waxing gibbous, full.",
+        "exp_title": "Waxing gibbous phase",
+        "exp_text": "After the first quarter, more than half of the near side becomes lit, so the Moon is waxing (growing) and gibbous (more than half lit). This continues until the full moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'waxing' mean in relation to the Moon?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Moon is getting smaller in the sky",
+            "feedback": "That describes waning, not waxing. Waxing means the lit part is increasing."
+          },
+          {
+            "label": "The Moon is moving away from Earth",
+            "feedback": "That is about orbital distance, not phase. Waxing refers to the changing appearance of the lit side."
+          },
+          {
+            "label": "The Moon is turning darker",
+            "feedback": "Turning darker is waning. Waxing means the lit portion grows larger."
+          },
+          {
+            "label": "The lit part of the Moon is increasing",
+            "feedback": "Yes. Waxing phases come between new and full moon, when the bright edge expands night after night."
+          }
+        ],
+        "ok_title": "Growing light",
+        "ok_line": "Waxing means the bright part grows.",
+        "ko_title": "Shrinking mix-up",
+        "ko_line": "Don't confuse waxing with waning—they are opposites.",
+        "exp_title": "Waxing definition",
+        "exp_text": "In astronomy, waxing means the visible sunlit portion of the Moon is enlarging. The Moon is waxing from new to full, and waning from full back to new."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What phase is the Moon in when it is exactly half-lit on the right side as seen from the Northern Hemisphere?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "First quarter",
+            "feedback": "Correct. In the Northern Hemisphere, the first quarter has the right half lit, and it occurs about a week after new moon."
+          },
+          {
+            "label": "Last quarter",
+            "feedback": "Last quarter has the left half lit in the Northern Hemisphere, not the right."
+          },
+          {
+            "label": "Full moon",
+            "feedback": "Full moon shows the entire disk lit, not just half."
+          },
+          {
+            "label": "Waxing crescent",
+            "feedback": "A crescent shows less than half lit, not exactly half."
+          }
+        ],
+        "ok_title": "Right half lit",
+        "ok_line": "First quarter shows the right side bright.",
+        "ko_title": "Half-lit mix-up",
+        "ko_line": "The side lit depends on the phase—remember first quarter is right, last quarter is left.",
+        "exp_title": "First quarter phase",
+        "exp_text": "At first quarter, the Moon has completed one quarter of its orbit since new moon, so half of the near side is lit. In the Northern Hemisphere, that is the right side. It rises around noon and sets around midnight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the phase when the Moon appears as a thin sliver of light just after the new moon?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Waning crescent",
+            "feedback": "Waning crescent occurs just before new moon, not after it. This is the growing crescent after new moon."
+          },
+          {
+            "label": "First quarter",
+            "feedback": "First quarter is half-lit, not a thin sliver."
+          },
+          {
+            "label": "Waxing crescent",
+            "feedback": "Correct. Right after new moon, a thin sliver appears on the right side (Northern Hemisphere), and it is waxing because it will grow."
+          },
+          {
+            "label": "Full moon",
+            "feedback": "Full moon is completely lit, not a thin sliver."
+          }
+        ],
+        "ok_title": "Sliver after new",
+        "ok_line": "Waxing crescent follows the new moon.",
+        "ko_title": "After vs. before",
+        "ko_line": "The sliver after new moon is waxing; the one before new moon is waning.",
+        "exp_title": "Waxing crescent phase",
+        "exp_text": "Just after new moon, the Moon moves eastward in its orbit, and a sliver of the sunlit side becomes visible. This is the waxing crescent, and it appears in the western sky after sunset."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How long does it take for the Moon to complete one full cycle of phases, from new moon to the next new moon?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "About 24 hours",
+            "feedback": "That is one day, far too short. The phase cycle lasts about a month."
+          },
+          {
+            "label": "About 7 days",
+            "feedback": "Seven days brings you from new moon to first quarter, not the full cycle."
+          },
+          {
+            "label": "About 15 days",
+            "feedback": "Fifteen days gets you from new moon to full moon, but the cycle continues until the next new moon."
+          },
+          {
+            "label": "About 29.5 days",
+            "feedback": "Correct. This period is the synodic month, which is why the Moon's phases repeat roughly every month."
+          }
+        ],
+        "ok_title": "Full cycle time",
+        "ok_line": "The phase cycle takes about 29.5 days.",
+        "ko_title": "Month length",
+        "ko_line": "Don't confuse the phase cycle with the Moon's orbital period around Earth.",
+        "exp_title": "The synodic month",
+        "exp_text": "The cycle from one new moon to the next takes about 29.5 days. This is longer than the 27.3 days the Moon takes to orbit Earth once, because Earth also moves along its orbit, so the Moon has to catch up to line up with the Sun again."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the phase called when the Moon is more than half lit but not yet full?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Crescent",
+            "feedback": "A crescent is less than half lit, not more."
+          },
+          {
+            "label": "Waxing gibbous",
+            "feedback": "Correct. Gibbous means more than half but less than full, and waxing means it is growing toward full."
+          },
+          {
+            "label": "Waning gibbous",
+            "feedback": "Waning gibbous is also more than half lit, but it is shrinking after full, not growing."
+          },
+          {
+            "label": "First quarter",
+            "feedback": "First quarter is exactly half lit, not more than half."
+          }
+        ],
+        "ok_title": "More than half",
+        "ok_line": "Waxing gibbous is between first quarter and full.",
+        "ko_title": "Half vs. more",
+        "ko_line": "Don't mix up crescent and gibbous—crescent is thin, gibbous is big.",
+        "exp_title": "Waxing gibbous phase",
+        "exp_text": "Between first quarter and full moon, the lit portion exceeds half. This is the waxing gibbous phase, appearing high in the sky in the late afternoon and evening."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the phase called when the Moon is exactly half-lit on the left side as seen from the Northern Hemisphere?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Last quarter",
+            "feedback": "Correct. In the Northern Hemisphere, the last quarter shows the left half lit, about a week before new moon."
+          },
+          {
+            "label": "First quarter",
+            "feedback": "First quarter shows the right half lit, not the left."
+          },
+          {
+            "label": "Full moon",
+            "feedback": "Full moon shows the whole disk, not half."
+          },
+          {
+            "label": "Waxing crescent",
+            "feedback": "A crescent shows less than half, and it is on the right side after new moon."
+          }
+        ],
+        "ok_title": "Left half lit",
+        "ok_line": "Last quarter has the left side bright.",
+        "ko_title": "Quarter confusion",
+        "ko_line": "Remember: first quarter is right, last quarter is left in the Northern Hemisphere.",
+        "exp_title": "Last quarter phase",
+        "exp_text": "The last quarter occurs about three weeks after new moon. In the Northern Hemisphere, the left half is lit. This phase rises around midnight and sets around noon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What phase comes immediately before the full moon?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Last quarter",
+            "feedback": "Last quarter comes after the full moon, not before it."
+          },
+          {
+            "label": "Waxing crescent",
+            "feedback": "Waxing crescent comes early in the cycle, right after new moon, not just before full."
+          },
+          {
+            "label": "Waxing gibbous",
+            "feedback": "Correct. The waxing gibbous grows until the next phase is full moon."
+          },
+          {
+            "label": "Waning gibbous",
+            "feedback": "Waning gibbous comes immediately after full moon, not before."
+          }
+        ],
+        "ok_title": "Before full",
+        "ok_line": "Waxing gibbous precedes the full moon.",
+        "ko_title": "Order again",
+        "ko_line": "Remember: waxing before full, waning after full.",
+        "exp_title": "Sequence to full moon",
+        "exp_text": "The phases in order from new moon are: waxing crescent, first quarter, waxing gibbous, then full moon. So right before full, the Moon is waxing gibbous."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'waning' mean in relation to the Moon?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Moon is getting larger",
+            "feedback": "That is waxing. Waning means the lit part is shrinking."
+          },
+          {
+            "label": "The lit part of the Moon is decreasing",
+            "feedback": "Yes. Waning phases occur from full moon back to new moon, when the bright area shrinks each night."
+          },
+          {
+            "label": "The Moon is moving closer to Earth",
+            "feedback": "That is about distance, not phase. Waning refers to the visible lit portion."
+          },
+          {
+            "label": "The Moon is turning brighter",
+            "feedback": "Turning brighter is not what waning means. Waning phases generally look less bright as the lit area decreases."
+          }
+        ],
+        "ok_title": "Shrinking light",
+        "ok_line": "Waning means the bright part shrinks.",
+        "ko_title": "Opposite of waxing",
+        "ko_line": "Waning is the direct opposite of waxing.",
+        "exp_title": "Waning definition",
+        "exp_text": "Waning describes the Moon when the sunlit portion visible from Earth is decreasing. This happens after the full moon, through waning gibbous, last quarter, and waning crescent, until the next new moon."
+      }
+    ]
+  }
+]

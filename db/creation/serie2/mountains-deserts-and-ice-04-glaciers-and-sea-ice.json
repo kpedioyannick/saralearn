@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a glacier and sea ice?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Glaciers form on land from compressed snow; sea ice forms from frozen ocean water.",
+            "feedback": "Correct. A glacier is a land-based mass of ice built from snow that compresses over many years, while sea ice is frozen seawater floating on the ocean."
+          },
+          {
+            "label": "Glaciers are made of frozen freshwater; sea ice is made of frozen saltwater.",
+            "feedback": "That is partly true, but it misses the key point. The real distinction is location: glaciers form on land, sea ice forms on the ocean."
+          },
+          {
+            "label": "Glaciers are always moving; sea ice never moves.",
+            "feedback": "No, sea ice does move with winds and ocean currents. The essential difference is where each forms—land versus sea."
+          },
+          {
+            "label": "Glaciers are thicker than a kilometre; sea ice is always thinner than a metre.",
+            "feedback": "Thickness varies and is not the defining difference. The core difference is the source and location: land snow versus frozen seawater."
+          }
+        ],
+        "ok_title": "Land vs sea ice",
+        "ok_line": "Glaciers grow on land from snow; sea ice grows on the ocean from seawater.",
+        "ko_title": "Where ice forms",
+        "ko_line": "Think about where the ice is born: land for glaciers, ocean for sea ice.",
+        "exp_title": "The two ice worlds",
+        "exp_text": "A glacier is a thick mass of ice that forms on land when snow piles up year after year and compresses into ice. It flows slowly downhill. Sea ice, on the other hand, is simply ocean water that has frozen solid. It floats on the sea surface and grows and melts with the seasons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the salt in seawater when sea ice forms?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The salt freezes into the ice and stays trapped in it.",
+            "feedback": "No, salt does not freeze easily. When seawater freezes, most of the salt is left behind in the liquid water, which is why sea ice is less salty than the ocean."
+          },
+          {
+            "label": "Most of the salt is left behind in the water that has not frozen.",
+            "feedback": "Correct. When seawater freezes, the salt is mostly excluded from the ice crystals and remains in the surrounding liquid, making the ice relatively fresh compared to the ocean."
+          },
+          {
+            "label": "The salt evaporates into the air as the ice forms.",
+            "feedback": "No, evaporation plays no role here. The salt stays in the water; it does not disappear into the air."
+          },
+          {
+            "label": "The salt sinks to the bottom of the ocean before freezing begins.",
+            "feedback": "No, salt is already dissolved evenly in seawater. Freezing, not sinking, is what removes salt from the ice."
+          }
+        ],
+        "ok_title": "Salt stays out",
+        "ok_line": "Sea ice is less salty because salt is pushed out as water freezes.",
+        "ko_title": "Salt in freezing",
+        "ko_line": "Remember that freezing water leaves salt behind in the liquid.",
+        "exp_title": "Why sea ice is fresher",
+        "exp_text": "When seawater cools and freezes, the water molecules lock into a crystal structure that cannot easily include salt ions. So the salt is expelled into the unfrozen water nearby. That is why the ice you pull from the sea is much less salty than the ocean itself, though it is not entirely pure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a floating chunk of sea ice stay on the surface instead of sinking?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it is heavier than the same volume of liquid water.",
+            "feedback": "No, if it were heavier it would sink. Ice is less dense than water, which is why it floats."
+          },
+          {
+            "label": "Because the salt in the ice makes it buoyant.",
+            "feedback": "No, salt does not make ice float. In fact, salt makes water denser, but ice itself is less dense than water regardless."
+          },
+          {
+            "label": "Because ice is less dense than liquid water, so it floats.",
+            "feedback": "Correct. When water freezes, its molecules spread out a little, making ice less dense than the liquid around it. That is why ice floats."
+          },
+          {
+            "label": "Because the wind pushes it upward.",
+            "feedback": "No, wind only moves ice horizontally. Floating is caused by density, not by wind."
+          }
+        ],
+        "ok_title": "Ice floats on density",
+        "ok_line": "Ice is less dense than water, so it rides on top.",
+        "ko_title": "Heavy or light",
+        "ko_line": "Floating happens because ice is lighter than water, not heavier.",
+        "exp_title": "The density trick of ice",
+        "exp_text": "Most substances are denser as solids, but water is unusual. When it freezes into ice, the molecules arrange in a more open structure, making the ice less dense than liquid water. That is why a block of ice floats, with only a small part above the water surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does most new sea ice grow on an existing ice sheet?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "On top of the ice sheet, from falling snow.",
+            "feedback": "No, snow does add to some ice, but sea ice mainly grows from the water below, not from snow on top."
+          },
+          {
+            "label": "At the edges, where waves splash and freeze.",
+            "feedback": "No, splashing freezes only a thin fringe. The main growth happens underneath the floating sheet."
+          },
+          {
+            "label": "It grows equally all over its surface.",
+            "feedback": "No, growth is not uniform. The underside is where new ice forms because it touches the cold ocean water."
+          },
+          {
+            "label": "On the underside, touching the cold seawater.",
+            "feedback": "Correct. Sea ice grows downward as the ocean water in contact with the bottom of the ice freezes, adding new ice beneath the existing sheet."
+          }
+        ],
+        "ok_title": "Ice grows below",
+        "ok_line": "New sea ice forms on the underside, not on top.",
+        "ko_title": "Where ice thickens",
+        "ko_line": "Think of the ice as a lid—the water underneath freezes and thickens it.",
+        "exp_title": "Underside growth of sea ice",
+        "exp_text": "A floating ice sheet is in contact with seawater on its bottom. When the air is cold, that water loses heat and freezes onto the underside, gradually thickening the ice. Snowfall on top adds only a small layer, but the main growth is from below."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a crevasse in a glacier?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A layer of rock trapped inside the ice.",
+            "feedback": "No, rock debris can be inside, but a crevasse is a crack, not a layer."
+          },
+          {
+            "label": "A deep crack that opens in the glacier's surface.",
+            "feedback": "Correct. A crevasse is a fracture that forms because the glacier ice is pulled apart as it moves over uneven ground or changes speed."
+          },
+          {
+            "label": "A tunnel melted by water flowing through the glacier.",
+            "feedback": "No, that is a moulin or a subglacial stream, not a crevasse."
+          },
+          {
+            "label": "A rounded hollow where a boulder sat in the ice.",
+            "feedback": "No, that describes a kettle or a glacial pothole, not a crevasse."
+          }
+        ],
+        "ok_title": "Cracks in ice",
+        "ok_line": "Crevasses are open cracks in a glacier's surface.",
+        "ko_title": "Not a tunnel or hollow",
+        "ko_line": "A crevasse is a crack, not a meltwater tunnel or a rock hollow.",
+        "exp_title": "Why crevasses appear",
+        "exp_text": "Glaciers flow, but they do not flow at the same speed everywhere. Where the ice stretches or pulls apart, it tears open deep cracks called crevasses. These can be many metres wide and very deep, making them dangerous to cross."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What gives the deep ice inside a crevasse its striking blue colour?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ice is so dense that it absorbs red light and lets blue light pass through.",
+            "feedback": "Correct. Dense glacier ice has few air bubbles, so it absorbs longer-wavelength red light while scattering and transmitting blue light, which is why it looks blue."
+          },
+          {
+            "label": "The ice contains blue mineral particles from the rock below.",
+            "feedback": "No, the blue colour is not from minerals. It comes from the way light interacts with the ice itself."
+          },
+          {
+            "label": "The ice reflects the blue sky and the ocean.",
+            "feedback": "No, reflection of the sky can make snow look bluish, but the deep blue of glacier ice is due to absorption, not reflection."
+          },
+          {
+            "label": "The ice is frozen seawater that contains blue algae.",
+            "feedback": "No, glacier ice forms from snow on land, not from seawater, and algae are not the cause of the blue colour."
+          }
+        ],
+        "ok_title": "Blue from density",
+        "ok_line": "Dense ice absorbs red light and lets blue shine through.",
+        "ko_title": "Not paint or reflection",
+        "ko_line": "The blue comes from the ice's own optical property, not from what it reflects.",
+        "exp_title": "Why glacier ice looks blue",
+        "exp_text": "Fresh snow is white because it is full of air bubbles that scatter all light. But as snow compresses into glacier ice, the air bubbles are squeezed out. The dense ice then absorbs light at the red end of the spectrum, while blue light travels through and is scattered back to your eyes. That is why deep ice looks vivid blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a glacial erratic?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A boulder that fell from a cliff into a river.",
+            "feedback": "No, a river-carried boulder is not called an erratic. The term is specific to ice transport."
+          },
+          {
+            "label": "A piece of rock that melts out of sea ice and sinks.",
+            "feedback": "No, erratics are left on land by glaciers, not by floating sea ice sinking."
+          },
+          {
+            "label": "A large boulder transported by a glacier and left far from its original source.",
+            "feedback": "Correct. A glacial erratic is a rock that a glacier carried a long distance and deposited when the ice melted, often on rock of a different type."
+          },
+          {
+            "label": "A small stone that gets polished smooth by wind in a desert.",
+            "feedback": "No, wind-polished stones are called ventifacts, not erratics."
+          }
+        ],
+        "ok_title": "Rock on a journey",
+        "ok_line": "A glacial erratic is a boulder left by ice far from home.",
+        "ko_title": "Not river or wind stone",
+        "ko_line": "Erratics are glacier-carried, not river- or wind-transported.",
+        "exp_title": "Boulders dropped by ice",
+        "exp_text": "Glaciers are powerful movers of rock. They pick up boulders from one area, carry them inside the ice, and later drop them when the ice melts. If the boulder is made of rock that does not match the local bedrock, it shows it came from somewhere else—that is an erratic."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the long ridge of loose rock and rubble left at a glacier's edge called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A moraine.",
+            "feedback": "Correct. A moraine is a ridge of sediment and rock debris that a glacier pushes up or dumps along its front as it melts or retreats."
+          },
+          {
+            "label": "A drumlin.",
+            "feedback": "No, a drumlin is a streamlined hill of glacial sediment shaped by ice flow, not a ridge at the glacier's edge."
+          },
+          {
+            "label": "An esker.",
+            "feedback": "No, an esker is a winding ridge of sand and gravel deposited by a meltwater stream under or inside a glacier."
+          },
+          {
+            "label": "A kettle.",
+            "feedback": "No, a kettle is a depression left when a buried block of ice melts, not a ridge."
+          }
+        ],
+        "ok_title": "Glacier's dump",
+        "ok_line": "A moraine is the ridge of rubble at a glacier's edge.",
+        "ko_title": "More than one glacial landform",
+        "ko_line": "Moraine is the right word for the edge ridge; drumlins, eskers, and kettles are other glacial features.",
+        "exp_title": "Ridge of glacial debris",
+        "exp_text": "As a glacier moves, it carries rock and soil on its sides and front. When the ice melts faster than it advances, it drops this load in a line along its edge, forming a long, low ridge called a moraine. Moraines can mark where a glacier once stopped for a long time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do glaciers carve broad, U-shaped valleys while rivers carve narrow V-shaped ones?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Glaciers flow faster than rivers, so they cut deeper grooves.",
+            "feedback": "No, speed is not the main factor. The shape comes from how the ice erodes differently than water."
+          },
+          {
+            "label": "Glaciers scrape the entire valley floor and sides, widening it, while rivers cut only a narrow channel.",
+            "feedback": "Correct. A glacier acts like a giant moving file, grinding and plucking the whole valley cross-section, producing a wide U shape. A river cuts downward along a narrow line, leaving a V shape."
+          },
+          {
+            "label": "Glaciers melt the rock, while rivers gradually wash it away.",
+            "feedback": "No, glaciers do not melt rock; they erode by scraping and plucking. Rivers erode mainly by abrasion and hydraulic action."
+          },
+          {
+            "label": "Glaciers are always wider than rivers, regardless of valley shape.",
+            "feedback": "No, the width of the ice is a result of the erosion, not the cause of the shape difference."
+          }
+        ],
+        "ok_title": "U vs V valleys",
+        "ok_line": "Glaciers scrape wide U valleys; rivers cut narrow V channels.",
+        "ko_title": "Shaping the valley",
+        "ko_line": "Think wide scraping for ice, narrow cutting for water.",
+        "exp_title": "How ice shapes a valley",
+        "exp_text": "A river flows in a confined channel and erodes mainly downward, so its valley has steep sides meeting at a point—a V. A glacier fills the whole floor and rubs against both sides and the bottom, so it grinds away the valley walls, creating a wide, flat-bottomed U shape."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a glacier turn ordinary snow into solid glacier ice?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The snow melts and refreezes into a solid block.",
+            "feedback": "No, melting and refreezing can occur, but the main process is compaction and recrystallisation without complete melting."
+          },
+          {
+            "label": "The snow is squeezed by ocean pressure.",
+            "feedback": "No, glaciers form on land, not under the ocean."
+          },
+          {
+            "label": "Chemical reactions harden the snow into ice.",
+            "feedback": "No, there is no chemical change; it is a physical change due to pressure."
+          },
+          {
+            "label": "Layers of snow pile up, and the weight of the upper layers compresses the lower snow into ice.",
+            "feedback": "Correct. As new snow falls, it buries older snow, and the increasing pressure squeezes the air out and fuses the snow crystals into dense ice."
+          }
+        ],
+        "ok_title": "Snow becomes ice",
+        "ok_line": "Piling snow compresses the lower layers into glacier ice.",
+        "ko_title": "How ice forms",
+        "ko_line": "Pressure from above, not melting or chemicals, turns snow to ice.",
+        "exp_title": "From fluffy snow to dense ice",
+        "exp_text": "A glacier begins as snowfall that does not fully melt in summer. Each year a new layer buries the old one, and the weight of the snow above presses down. This compaction expels air and forces the ice crystals to grow and interlock, eventually turning the loose snow into solid, dense glacier ice."
+      }
+    ]
+  }
+]

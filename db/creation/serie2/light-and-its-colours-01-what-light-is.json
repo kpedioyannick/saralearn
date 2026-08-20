@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the fundamental nature of light?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A wave and a stream of particles at the same time",
+            "feedback": "Correct. Light behaves as both a wave and a stream of particles, a property called wave-particle duality."
+          },
+          {
+            "label": "Only a wave",
+            "feedback": "Light also behaves as particles called photons, so saying only a wave misses half of its nature."
+          },
+          {
+            "label": "Only a stream of particles",
+            "feedback": "Light also behaves as a wave, which explains interference and diffraction, so it is not only particles."
+          },
+          {
+            "label": "A continuous flow of tiny solid objects",
+            "feedback": "Light is not made of solid objects; its particles are quanta of energy with no mass."
+          }
+        ],
+        "ok_title": "Dual nature",
+        "ok_line": "Light is both a wave and a stream of particles.",
+        "ko_title": "One-sided view",
+        "ko_line": "Light is not just one of those, but both.",
+        "exp_title": "Wave-particle duality",
+        "exp_text": "Light has a dual nature: it travels as waves for some behaviours, like bending around edges, and behaves as particles (photons) for others, like knocking electrons off metals. This duality is fundamental to what light is."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a photon's rest mass?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The same as an electron's mass",
+            "feedback": "Electrons have mass, but photons have none. Photons always move at light speed."
+          },
+          {
+            "label": "A very small but nonzero value",
+            "feedback": "If photons had any mass, they could not travel at the speed of light, but they do travel at that speed."
+          },
+          {
+            "label": "The same as a proton's mass",
+            "feedback": "Protons are heavy particles; photons have no rest mass at all."
+          },
+          {
+            "label": "Zero",
+            "feedback": "Correct. Photons have zero rest mass, which is why they can travel at the speed of light in empty space."
+          }
+        ],
+        "ok_title": "Zero mass",
+        "ok_line": "A photon has no rest mass.",
+        "ko_title": "Mass confusion",
+        "ko_line": "Photons are massless, unlike electrons or protons.",
+        "exp_title": "Massless particle",
+        "exp_text": "A photon is a particle of light with zero rest mass. Because it has no mass, it can move at the maximum speed possible in the universe, the speed of light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When light passes through a glass window, what is it that actually travels from the Sun to your eye?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The glass itself",
+            "feedback": "Glass stays put; it does not travel. It is the light that moves through it."
+          },
+          {
+            "label": "Energy carried by the light wave",
+            "feedback": "Correct. Light carries energy from one place to another, and that energy travels through transparent materials like glass."
+          },
+          {
+            "label": "Small pieces of the Sun",
+            "feedback": "The Sun does not shed material pieces; it emits light, which is energy, not matter."
+          },
+          {
+            "label": "Heat that moves along the glass",
+            "feedback": "Heat is not light. Light is a form of electromagnetic radiation that carries energy independently of heat."
+          }
+        ],
+        "ok_title": "Energy transport",
+        "ok_line": "Light carries energy from source to eye.",
+        "ko_title": "Matter mistake",
+        "ko_line": "Light is energy, not material substance.",
+        "exp_title": "Light as energy",
+        "exp_text": "Light is a form of energy that travels through space and transparent materials. When you see a window, the light that started at the Sun carries its energy through the glass to reach your eye."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the colour of light depend on?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "How bright the light is",
+            "feedback": "Brightness affects how intense the light is, not its colour. Colour is about the wave itself."
+          },
+          {
+            "label": "How long the light has been travelling",
+            "feedback": "Time of travel does not change a light's colour; a photon keeps its colour until it is absorbed."
+          },
+          {
+            "label": "The length of its wave",
+            "feedback": "Correct. Each colour corresponds to a specific wavelength, so red has a longer wave and violet a shorter one."
+          },
+          {
+            "label": "How many photons are in the beam",
+            "feedback": "The number of photons determines brightness, not colour. Each photon has its own fixed wavelength."
+          }
+        ],
+        "ok_title": "Wavelength decides",
+        "ok_line": "Colour comes from the wave's length.",
+        "ko_title": "Colour confusion",
+        "ko_line": "Brightness and photon count do not set colour.",
+        "exp_title": "Colour and wavelength",
+        "exp_text": "The colour of light is determined by its wavelength: the distance between successive crests of the wave. Shorter waves appear violet, longer waves appear red, and all other colours lie in between."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does light interact with a transparent material like clear glass?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It passes through with only a slight bend",
+            "feedback": "Correct. Transparent materials let light travel through, but the light changes direction a little when it enters and leaves, which is called refraction."
+          },
+          {
+            "label": "It bounces back completely",
+            "feedback": "Complete bounce back happens with mirrors, not with clear glass. Glass transmits most light."
+          },
+          {
+            "label": "It is completely absorbed",
+            "feedback": "If glass absorbed all light, it would look black, not clear. It absorbs very little."
+          },
+          {
+            "label": "It turns into heat inside the glass",
+            "feedback": "Some light is absorbed as heat, but the main behaviour is transmission, not conversion to heat."
+          }
+        ],
+        "ok_title": "Light passes through",
+        "ok_line": "Clear glass lets light travel through it.",
+        "ko_title": "Wrong interaction",
+        "ko_line": "Glass transmits light, not reflects or absorbs it all.",
+        "exp_title": "Transparency and refraction",
+        "exp_text": "A transparent material like clear glass allows light to pass through. As light enters and leaves, it bends slightly because its speed changes in the material; that bending is called refraction."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the particle that carries light energy?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Electron",
+            "feedback": "An electron is a charged particle that orbits an atom's nucleus; it is not the carrier of light."
+          },
+          {
+            "label": "Photon",
+            "feedback": "Correct. A photon is the particle of light, carrying energy in discrete packets."
+          },
+          {
+            "label": "Proton",
+            "feedback": "A proton is a heavy particle in the nucleus, not related to light."
+          },
+          {
+            "label": "Neutron",
+            "feedback": "A neutron is a neutral particle in the nucleus, not involved in carrying light."
+          }
+        ],
+        "ok_title": "Light's particle",
+        "ok_line": "Photons carry light energy.",
+        "ko_title": "Particle mix-up",
+        "ko_line": "Electrons, protons, and neutrons are not light particles.",
+        "exp_title": "Photon definition",
+        "exp_text": "A photon is the fundamental particle of light. Each photon carries a specific amount of energy that depends on its colour, or wavelength."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a source of light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Moon",
+            "feedback": "The Moon does not make its own light; it reflects sunlight that falls on it."
+          },
+          {
+            "label": "A mirror",
+            "feedback": "A mirror only reflects light from other sources; it does not produce light itself."
+          },
+          {
+            "label": "The Sun",
+            "feedback": "Correct. The Sun produces its own light through nuclear reactions in its core."
+          },
+          {
+            "label": "A book",
+            "feedback": "A book reflects light but does not emit any light of its own."
+          }
+        ],
+        "ok_title": "True light source",
+        "ok_line": "The Sun is a source that emits light.",
+        "ko_title": "Reflector mistake",
+        "ko_line": "The Moon, mirror, and book only reflect light.",
+        "exp_title": "Sources vs reflectors",
+        "exp_text": "A light source produces its own light. The Sun is a prime example, generating light from energy released in its core. The Moon, mirrors, and books do not create light; they only reflect light that comes from elsewhere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to light when it strikes a black surface?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It passes straight through",
+            "feedback": "Black surfaces are opaque, so light cannot pass through them."
+          },
+          {
+            "label": "It bounces off unchanged",
+            "feedback": "Bouncing off unchanged is what a white surface does; black absorbs instead."
+          },
+          {
+            "label": "It bends sharply",
+            "feedback": "Bending is refraction, which happens in transparent materials, not on black surfaces."
+          },
+          {
+            "label": "It is absorbed and turned into heat",
+            "feedback": "Correct. Black surfaces absorb almost all light that hits them, and that absorbed energy becomes heat."
+          }
+        ],
+        "ok_title": "Absorption",
+        "ok_line": "Black surfaces absorb light and warm up.",
+        "ko_title": "Black behaviour",
+        "ko_line": "Black absorbs, not transmits, reflects, or bends.",
+        "exp_title": "Black surface absorption",
+        "exp_text": "When light hits a black surface, nearly all of it is absorbed. The energy from the light is converted into heat, which is why a black object left in the Sun gets warm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the relationship between a light wave's frequency and its wavelength?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They are the same thing",
+            "feedback": "Frequency and wavelength are two different measurements: frequency counts waves per second, wavelength measures the distance between waves."
+          },
+          {
+            "label": "As one increases, the other decreases",
+            "feedback": "Correct. For light, higher frequency means shorter wavelength, and lower frequency means longer wavelength."
+          },
+          {
+            "label": "They change together in the same direction",
+            "feedback": "If both increased together, the speed of light would change, but it stays constant in a given medium."
+          },
+          {
+            "label": "They are unrelated",
+            "feedback": "They are linked through the speed of light: speed equals frequency times wavelength."
+          }
+        ],
+        "ok_title": "Inverse link",
+        "ok_line": "Higher frequency means shorter wavelength.",
+        "ko_title": "Wrong relation",
+        "ko_line": "Frequency and wavelength move in opposite directions.",
+        "exp_title": "Frequency and wavelength",
+        "exp_text": "For a light wave, the product of frequency and wavelength always equals the speed of light. So if the frequency goes up, the wavelength must go down to keep the speed constant."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the speed of light in empty space?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "300,000 kilometres per second",
+            "feedback": "Correct. In a vacuum, light travels at about 300,000 km/s, the fastest speed possible."
+          },
+          {
+            "label": "300,000 metres per second",
+            "feedback": "That is a thousand times too slow. Light travels 300,000 kilometres, not metres, per second."
+          },
+          {
+            "label": "300,000 kilometres per hour",
+            "feedback": "That is far too slow; light would take over a year to reach the Sun's nearest neighbour at that speed."
+          },
+          {
+            "label": "It depends on the colour of the light",
+            "feedback": "All colours travel at the same speed in empty space; differences appear only inside materials."
+          }
+        ],
+        "ok_title": "Constant in vacuum",
+        "ok_line": "Light speed is 300,000 km/s in space.",
+        "ko_title": "Speed error",
+        "ko_line": "The correct value is kilometres per second, not metres or hours.",
+        "exp_title": "Speed of light",
+        "exp_text": "In empty space, every colour of light travels at the same speed: about 300,000 kilometres per second. This is the universal speed limit, denoted by the letter c."
+      }
+    ]
+  }
+]

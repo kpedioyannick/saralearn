@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 91,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many night animals have very large eyes?",
+        "body": null,
+        "options": [
+          {
+            "label": "A wider opening gathers more light",
+            "feedback": "More photons collected means more to work with."
+          },
+          {
+            "label": "Large eyes see sharper detail",
+            "feedback": "Sharpness is usually traded away for sensitivity."
+          },
+          {
+            "label": "They need to see further away",
+            "feedback": "Distance is not what a big eye buys."
+          },
+          {
+            "label": "It helps them judge speed",
+            "feedback": "Speed is judged by comparing views over time."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A bigger opening simply catches more of what little there is.",
+        "ko_title": "Not that.",
+        "ko_line": "At night the problem is not detail or distance. It is scarcity.",
+        "exp_title": "Collect more of what little arrives",
+        "exp_text": "In darkness the limit is how many photons reach the retina, so a wider pupil is the most direct answer. A tarsier's eye is as large as its brain, and an owl's are so big they cannot rotate in the socket — which is why the bird turns its whole head instead. The cost is sharpness and colour, both traded away for sensitivity."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What are the rod cells of the eye for?",
+        "body": null,
+        "options": [
+          {
+            "label": "Seeing in dim light",
+            "feedback": "Highly sensitive, but they report no colour."
+          },
+          {
+            "label": "Seeing colour clearly",
+            "feedback": "That is the job of the cones."
+          },
+          {
+            "label": "Focusing the image",
+            "feedback": "Focusing is done by the lens."
+          },
+          {
+            "label": "Judging distance",
+            "feedback": "Distance comes from comparing two eyes."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Sensitive, and colourblind. That is the bargain.",
+        "ko_title": "Not it.",
+        "ko_line": "Colour vanishes at dusk. Which cells are still working?",
+        "exp_title": "Sensitivity bought with colour",
+        "exp_text": "A human retina holds around 120 million rods against 6 million cones. Rods respond to a single photon but report only brightness, so night vision is grey. They are also absent from the very centre of the retina, which is why a faint star disappears when you look straight at it and reappears when you look slightly to one side — a trick astronomers call averted vision."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do a cat's eyes shine when a light catches them at night?",
+        "body": null,
+        "options": [
+          {
+            "label": "A mirror behind the retina reflects back",
+            "feedback": "Light gets a second pass at the sensing cells."
+          },
+          {
+            "label": "Cat eyes give off their own light",
+            "feedback": "In a truly dark room they show nothing."
+          },
+          {
+            "label": "Their tears reflect strongly",
+            "feedback": "Tears are no more reflective than ours."
+          },
+          {
+            "label": "The pupil acts as a lens",
+            "feedback": "The pupil is an opening and reflects nothing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A mirror at the back, giving every photon a second chance.",
+        "ko_title": "Not it.",
+        "ko_line": "Turn off every light and the eyes stop shining. So they are returning something.",
+        "exp_title": "A second pass at the light",
+        "exp_text": "Behind the retina of many night animals lies a reflective layer called the tapetum lucidum. Light that missed a sensing cell on the way in gets bounced back for another chance, roughly doubling sensitivity — and what escapes is the eyeshine you see. The cost is sharpness, since the reflection blurs the image slightly. Humans lack it entirely, which is why our eyes photograph red instead: that is blood in the retina."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does an owl catch a mouse it cannot see?",
+        "body": null,
+        "options": [
+          {
+            "label": "It locates the sound precisely",
+            "feedback": "Its ears are set at different heights on the skull."
+          },
+          {
+            "label": "It senses the mouse's body heat",
+            "feedback": "Owls have no heat-sensing organ."
+          },
+          {
+            "label": "It follows the scent trail",
+            "feedback": "An owl's sense of smell is poor."
+          },
+          {
+            "label": "It feels vibrations in the ground",
+            "feedback": "An owl in flight touches nothing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Hearing accurate enough to strike in total darkness.",
+        "ko_title": "Not that.",
+        "ko_line": "Barn owls have been shown to catch prey in a room with no light whatsoever.",
+        "exp_title": "Ears that map the ground",
+        "exp_text": "A barn owl's ear openings sit at different heights, so a sound reaches them at slightly different times and volumes — giving it both a left-right and an up-down fix. Its flat face works as a dish, funnelling sound inward. In laboratory tests in absolute darkness, barn owls strike accurately, and their fringed feathers make the approach silent so the hunt is not given away."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a bat find an insect in complete darkness?",
+        "body": null,
+        "options": [
+          {
+            "label": "It listens to its own echoes",
+            "feedback": "It calls, then reads what comes back."
+          },
+          {
+            "label": "It sees using very large eyes",
+            "feedback": "Most bats see poorly and do not rely on it."
+          },
+          {
+            "label": "It follows the insect's warmth",
+            "feedback": "An insect is too small and too cool to track."
+          },
+          {
+            "label": "It feels the air the insect stirs",
+            "feedback": "The disturbance is far too faint."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "It builds a picture out of returning sound.",
+        "ko_title": "Not it.",
+        "ko_line": "A bat is not silent. It is shouting, in a pitch you cannot hear.",
+        "exp_title": "A picture made of echoes",
+        "exp_text": "A hunting bat calls up to two hundred times a second at pitches far above human hearing, and times the returning echoes to place an object to within a millimetre. It can tell a moth from a leaf, and read the beat of the moth's wings. Some moths have answered back: they hear the calls and drop, and a few jam the bat's sonar with clicks of their own."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does a pit viper's heat-sensing organ detect?",
+        "body": null,
+        "options": [
+          {
+            "label": "Infrared from a warm body",
+            "feedback": "It builds a heat image of nearby prey."
+          },
+          {
+            "label": "The sound of a heartbeat",
+            "feedback": "Snakes have no external ears at all."
+          },
+          {
+            "label": "The scent of a warm animal",
+            "feedback": "Scent is read by the tongue, separately."
+          },
+          {
+            "label": "Vibrations through the ground",
+            "feedback": "Snakes do sense those, but by the jaw."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "A second kind of vision, running on heat.",
+        "ko_title": "Not that.",
+        "ko_line": "The organ is a pit on the face, and it responds to warmth.",
+        "exp_title": "Seeing warmth",
+        "exp_text": "Between eye and nostril, pit vipers carry a pair of hollows lined with a membrane sensitive to infrared, able to register differences of a few thousandths of a degree. Two pits give direction, so the snake builds a crude heat image and can strike accurately at a warm mouse in total darkness. The signals feed into the same part of the brain as sight, so it is close to a second kind of vision."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a cat's pupil open so wide at night?",
+        "body": null,
+        "options": [
+          {
+            "label": "To let in as much light as possible",
+            "feedback": "A wider opening admits far more."
+          },
+          {
+            "label": "To focus on nearby objects",
+            "feedback": "Focusing is the lens's work, not the pupil's."
+          },
+          {
+            "label": "To protect the eye from cold",
+            "feedback": "The pupil has no role in temperature."
+          },
+          {
+            "label": "To make the eyes look larger",
+            "feedback": "It is not a signal to anyone."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A wider hole, and far more light gets through.",
+        "ko_title": "Not it.",
+        "ko_line": "Ask what a hole is for, in an eye.",
+        "exp_title": "A hole that opens and closes",
+        "exp_text": "A cat's pupil can change area by a factor of over a hundred, far more than ours. In daylight it narrows to a vertical slit, which a round pupil cannot do as tightly; at night it opens almost to the full width of the eye. The vertical shape is common among ambush hunters close to the ground, while grazing animals such as goats have horizontal slits that stay level with the horizon even when the head tilts."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a moth find a mate on a night with no light at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "It follows scent carried on the air",
+            "feedback": "Its feathered antennae detect a few molecules."
+          },
+          {
+            "label": "It listens for the other's wingbeat",
+            "feedback": "The sound would not carry far enough."
+          },
+          {
+            "label": "It sees a faint glow from the mate",
+            "feedback": "Most moths do not glow at all."
+          },
+          {
+            "label": "It feels warmth from a distance",
+            "feedback": "A moth is far too small to radiate detectably."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "A few molecules of scent, tracked upwind for kilometres.",
+        "ko_title": "Not it.",
+        "ko_line": "Look at the male's antennae. They are shaped like feathers for a reason.",
+        "exp_title": "Antennae built to smell",
+        "exp_text": "A female silk moth releases a scent that the male detects with broad feathered antennae carrying tens of thousands of receptors — sensitive enough to respond to a handful of molecules. He flies upwind, correcting whenever the trail is lost, and can find her from several kilometres away. The chemical was the first insect pheromone ever identified, and it took half a million moths to isolate."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do so many night-active animals have poor colour vision?",
+        "body": null,
+        "options": [
+          {
+            "label": "The cells for colour need bright light",
+            "feedback": "In darkness they give nothing, so they are not worth keeping."
+          },
+          {
+            "label": "There is no colour present at night",
+            "feedback": "The colours are there. The light is not."
+          },
+          {
+            "label": "Colour would confuse their hunting",
+            "feedback": "Colour helps hunters wherever it works."
+          },
+          {
+            "label": "Their eyes are too large for colour",
+            "feedback": "Size does not prevent colour vision."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Colour cells need light, and at night there is none to spare.",
+        "ko_title": "Not that.",
+        "ko_line": "Two kinds of cell compete for space on the retina. Which one earns its keep at night?",
+        "exp_title": "Retina space goes to the sensitive cells",
+        "exp_text": "Colour vision depends on cones, which need far more light than rods to fire. Space on the retina is limited, so animals living in darkness fill it with rods instead and lose most of their colour sense. Cats and dogs see something close to a two-colour world. A few have gone the other way: some geckos and moths have such sensitive cones that they see colour by starlight."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a dung beetle steer a straight line on a moonless night?",
+        "body": null,
+        "options": [
+          {
+            "label": "It navigates by the Milky Way",
+            "feedback": "The band of light gives it a fixed reference."
+          },
+          {
+            "label": "It follows the slope of the ground",
+            "feedback": "It holds a straight line on flat ground too."
+          },
+          {
+            "label": "It retraces its own scent trail",
+            "feedback": "That would lead it back, not onward."
+          },
+          {
+            "label": "It counts its steps",
+            "feedback": "Counting gives distance, never direction."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A beetle steering by the galaxy. It was tested in a planetarium.",
+        "ko_title": "Not it.",
+        "ko_line": "It needs something fixed and far away. On a moonless night, what is up there?",
+        "exp_title": "Steering by the galaxy",
+        "exp_text": "A dung beetle rolls its ball away from the heap in a straight line, since any curve brings it back among rivals. On moonlit nights it uses the Moon. On moonless ones it was shown to use the Milky Way: fitted with tiny caps it lost its way, and in a planetarium showing only the galactic band it steered perfectly. It was the first animal proved to navigate by the galaxy."
+      }
+    ]
+  }
+]

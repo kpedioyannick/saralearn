@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 126,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How does a thundercloud build up the electric charge that a lightning bolt will later release?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sunlight charges the cloud from above",
+            "feedback": "A storm charges just as violently at night, with no sunlight falling on it at all."
+          },
+          {
+            "label": "Raindrops merge into bigger drops",
+            "feedback": "Merging changes a drop's size, not its charge. The charging happens higher up, among solid ice, not among falling raindrops."
+          },
+          {
+            "label": "Colliding ice crystals separate positive and negative charge",
+            "feedback": "Every collision knocks a little charge from one particle to another, and there are millions of collisions."
+          },
+          {
+            "label": "Wind rubs the cloud against clear air outside it",
+            "feedback": "There is no surface out there to rub against. The charging happens inside the cloud, among its own particles."
+          }
+        ],
+        "ok_title": "That is the engine",
+        "ok_line": "A storm cloud is a machine for splitting charge apart before it ever throws a bolt.",
+        "ko_title": "Not the source",
+        "ko_line": "The charge is not brought in from outside. It is made inside the cloud.",
+        "exp_title": "Ice striking ice",
+        "exp_text": "Inside a thundercloud, strong updrafts and downdrafts fling small ice crystals and heavier pellets of soft hail against each other over and over. Each collision knocks a trace of negative charge onto the heavier pellet and leaves the lighter crystal slightly positive, and gravity then sorts the two: light, positive crystals ride the updraft upward while heavy, negative pellets sink toward the base. The cloud ends up stacked into layers of opposite charge, straining against each other and against the ground beneath."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lightning bolt take a jagged, branching path instead of a straight line down to the ground?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It carves the easiest way through the air, step by step",
+            "feedback": "It advances a short burst at a time, and each burst turns toward whichever pocket of air resists it least."
+          },
+          {
+            "label": "Wind blows the channel sideways as it forms",
+            "feedback": "The whole strike happens in a fraction of a second — far too fast for wind to bend anything."
+          },
+          {
+            "label": "It is drawn toward pockets of water vapour",
+            "feedback": "Water vapour is spread evenly through the air the bolt crosses. There is no pocket for it to aim at."
+          },
+          {
+            "label": "The cloud's shape is copied onto the ground",
+            "feedback": "The path is decided in the air the bolt crosses, not by the outline of the cloud far above."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ok_line": "No two channels of air resist a spark equally, so no two bolts ever look alike.",
+        "ko_title": "Wrong steer",
+        "ko_line": "Ask what is guiding each short burst of the bolt as it feels its way down.",
+        "exp_title": "Feeling out the weakest air",
+        "exp_text": "A lightning strike begins as a faint, invisible channel called a stepped leader, which advances downward in short bursts of a few dozen metres at a time. At the end of each burst it forks toward whichever direction offers the least resistance, since air is never uniformly easy to break through, and where several directions are nearly equal it forks in more than one. The jagged, branching shape you see in the flash is simply the record of every one of those choices, made moments before the bright return stroke lit the finished channel."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "The bright flash you actually see travels upward from the ground toward the cloud. What sets off that upward flash?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A second bolt formed independently in the cloud",
+            "feedback": "There is only one channel. What you see is the same path completing itself, not a separate strike."
+          },
+          {
+            "label": "Heat rising from the ground meets the storm",
+            "feedback": "Rising warm air can help start a storm, but it carries no charge and plays no part in the flash itself."
+          },
+          {
+            "label": "The ground reflects the descending leader's light",
+            "feedback": "Nothing is reflected. A brand new pulse of current runs the length of the channel, brighter than the leader that carved it."
+          },
+          {
+            "label": "A faint leader from the ground meets the descending channel",
+            "feedback": "The instant the two connect, current surges up the finished path all the way to the cloud."
+          }
+        ],
+        "ok_title": "That is the trigger",
+        "ok_line": "The visible flash starts the moment the circuit closes.",
+        "ko_title": "Not quite",
+        "ko_line": "Something has to meet the leader coming down before any bright flash can begin.",
+        "exp_title": "A circuit closing",
+        "exp_text": "As the faint stepped leader nears the ground, the strong charge at its tip pulls a matching streamer up from a tree, a building, or the ground itself, and the two connect to complete a single continuous path between cloud and earth. The instant that path is closed, a much larger surge of current — the return stroke — races along it at a large fraction of the speed of light, and this surge is what produces the blinding flash. It runs from the ground up to the cloud, even though the whole event began with a leader creeping down."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does thunder from a single bolt often rumble on for several seconds instead of ending in one sharp crack?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The bolt strikes the ground more than once",
+            "feedback": "A rumble comes from one strike, not from several. Repeated strikes would sound like separate cracks, not a continuous roll."
+          },
+          {
+            "label": "Sound reaches you from different points along a long, bent channel",
+            "feedback": "The nearest part of the channel is heard first and the farthest part last, so the crack is smeared into a roll."
+          },
+          {
+            "label": "The sound echoes off the clouds above",
+            "feedback": "Some echo does happen, but a rumble is heard even over flat, cloudless country where there is little to echo off."
+          },
+          {
+            "label": "Your ears cannot process a sound that loud all at once",
+            "feedback": "Ears register a loud sound as loud, not as a rolling series. The rolling is really there in the air, not manufactured by hearing."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "One crack, heard as many, because it was never made in one place.",
+        "ko_title": "Not the reason",
+        "ko_line": "A lightning channel can stretch for kilometres. Think about where each part of that channel sits relative to you.",
+        "exp_title": "One crack from many distances",
+        "exp_text": "A lightning channel can stretch upward and sideways for kilometres, and every point along it cracks the air at essentially the same instant. Sound from the nearest section reaches your ears first, while sound from sections farther away — higher up, or off to the side — arrives moments later, since sound crawls along at a fixed, unhurried speed. Spread across all those different distances, one single crack reaches you smeared into a rolling rumble."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lightning channel glow blue-white rather than orange like a flame?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It is burning oxygen in the air",
+            "feedback": "Nothing is burning. There is no fuel and no slow chemical fire — the air is not consumed, only heated for an instant."
+          },
+          {
+            "label": "Water vapour in the channel reflects light that colour",
+            "feedback": "The channel is a source of light, not a mirror. Reflection cannot explain a glow this bright."
+          },
+          {
+            "label": "The air is heated so violently that it glows like any very hot gas",
+            "feedback": "The hotter a glowing gas gets, the whiter and bluer its light shifts, and a lightning channel gets far hotter than any flame."
+          },
+          {
+            "label": "Nitrogen in the air changes into a blue gas",
+            "feedback": "Nitrogen is unchanged once the flash has passed. It glows while heated, then cools back to being the same colourless gas it always was."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "The colour is a thermometer reading, not a pigment.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what an ordinary flame does as it gets hotter and hotter, and follow that trend further.",
+        "exp_title": "The colour of extreme heat",
+        "exp_text": "A lightning channel heats the air along its length to a temperature far beyond anything a flame reaches, hot enough to strip electrons from nitrogen and oxygen atoms and leave the gas glowing under its own heat. Any sufficiently hot glowing gas shifts its light toward blue and white as its temperature climbs, the same trend that turns the orange tip of a candle flame toward blue at its hottest point. A lightning channel simply reaches so much further along that same scale that its light lands in blue-white."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a lone tall tree in an open field more likely to be struck by lightning than the flat ground around it?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Its height lets an upward streamer form more easily from it",
+            "feedback": "Height concentrates the electric field at the tip, so a connecting streamer is more likely to launch from there than from the flat ground nearby."
+          },
+          {
+            "label": "Trees contain more water than the ground",
+            "feedback": "Damp soil conducts at least as well as a tree trunk. Water content is not what decides where the streamer starts."
+          },
+          {
+            "label": "Leaves attract the descending leader by their colour",
+            "feedback": "Colour has no effect on an electric field. A leafless tree of the same height is struck just as readily."
+          },
+          {
+            "label": "Birds resting in the tree draw the strike",
+            "feedback": "A tree is struck whether or not anything is resting in it. The shape of the tree decides the strike, not what happens to sit on it."
+          }
+        ],
+        "ok_title": "That is it",
+        "ok_line": "Shape decides the target before the strike ever begins.",
+        "ko_title": "Not the deciding factor",
+        "ko_line": "Ask what is different about a tall, narrow shape compared with the flat ground beside it, purely in terms of the electric field.",
+        "exp_title": "A field crowded onto one point",
+        "exp_text": "As a charged storm cloud looms overhead, it induces an opposite charge in whatever is beneath it, and that induced charge is far more concentrated at a tall, narrow point than it is spread across flat, open ground. The strong field at the tree's tip is what lets an upward streamer form there most easily, reaching up to meet the descending leader before any streamer from the level ground has a chance to form. The tallest sharp point nearby wins the connection almost every time."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually produces the deafening crack of thunder heard close to a lightning strike?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The air rushing in to fill a vacuum left by the bolt",
+            "feedback": "No vacuum is created. The channel is left holding compressed, superheated air, not emptiness."
+          },
+          {
+            "label": "Static electricity discharging in your ears",
+            "feedback": "Nothing electrical reaches your ears. What arrives there is sound, travelling through ordinary air."
+          },
+          {
+            "label": "The cloud itself vibrating",
+            "feedback": "The sound is made along the channel that reached the ground, not up inside the cloud."
+          },
+          {
+            "label": "Air along the channel expanding explosively as it is heated",
+            "feedback": "Heated that fast and that fiercely, the air has no time to expand gently — it detonates outward instead."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Thunder is the sound of air itself being turned into an explosion.",
+        "ko_title": "Not the source",
+        "ko_line": "Think about what happens to a gas the instant it is heated far faster than it can simply expand.",
+        "exp_title": "An explosion made of air",
+        "exp_text": "The current in a return stroke heats the air along the channel to an extreme temperature in a tiny fraction of a second, far too quickly for that air to expand out of the way in an orderly manner. It instead blasts outward as a shockwave, faster than ordinary sound travels, and only settles into an ordinary sound wave as it spreads and weakens with distance. Close to the strike that shockwave is still sharp and violent enough to feel as much as hear."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "During some storms, a cloud lights up from within without any distinct bolt ever reaching the ground. What causes that diffuse glow, sometimes called sheet lightning?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Moonlight scattering off the cloud's surface",
+            "feedback": "The glow appears on moonless nights too, and it flickers and pulses in a way reflected moonlight never does."
+          },
+          {
+            "label": "A discharge happening entirely within or between clouds",
+            "feedback": "The bright channel is hidden inside the cloud, and its light spreads and softens as it passes through the surrounding water droplets."
+          },
+          {
+            "label": "Heat from the ground rising into the cloud base",
+            "feedback": "Rising heat carries no light of its own. It can help build a storm, but it cannot make a cloud glow."
+          },
+          {
+            "label": "Sunlight trapped inside the cloud since daytime",
+            "feedback": "Light is not stored by a cloud. Whatever caused the glow happened at that moment, not hours earlier."
+          }
+        ],
+        "ok_title": "That is the cause",
+        "ok_line": "The bolt is real — you are simply seeing it through a wall of cloud rather than out in the open air.",
+        "ko_title": "Not the source",
+        "ko_line": "Something has to generate that light at the moment it appears. Ask what kind of event inside a storm can do that.",
+        "exp_title": "A bolt seen through a curtain",
+        "exp_text": "A charged storm can discharge between two regions within a single cloud, or between two separate clouds, without ever building a channel down to the ground. That discharge is every bit as bright as an ordinary bolt, but its light has to pass through the dense water droplets and ice of the cloud itself before it reaches your eye, and all that scattering blurs a sharp channel into a broad, soft flare. The result is a whole cloud that seems to flicker with light rather than a single visible streak."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "A single flash of lightning is often seen to flicker rather than glow with one steady pulse. What causes that flickering?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Several separate strokes reuse the same channel in quick succession",
+            "feedback": "The channel stays hot and conductive for a moment after the first stroke, and fresh charge draining down it fires stroke after stroke."
+          },
+          {
+            "label": "The eye briefly loses focus during a very bright flash",
+            "feedback": "A camera pointed at the same flash records the same series of separate pulses, so the flickering is not something the eye is inventing."
+          },
+          {
+            "label": "The wind blows the visible channel back and forth",
+            "feedback": "The whole event is over before wind could move anything. What flickers is the light itself, not the channel's position."
+          },
+          {
+            "label": "Raindrops passing through the channel briefly block it",
+            "feedback": "A raindrop crossing the channel would be vaporised instantly and could not survive long enough to blink the light."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "One channel, used again and again before it has time to cool.",
+        "ko_title": "Not the cause",
+        "ko_line": "The channel itself stays usable for a short while after the first stroke passes through it. Think about what else might travel down it in that time.",
+        "exp_title": "One path, several strokes",
+        "exp_text": "After the first return stroke, the ionised channel it left behind stays far more conductive than the surrounding air for a brief interval, so it remains the easiest path for any further charge still available in the cloud. A new leader can run quietly back down that same channel and trigger another bright return stroke, and this can repeat several times within a single flash. Each stroke is a fresh pulse of light along the same route, and it is that string of separate pulses that the eye reads as a flicker."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Seen through heavy rain, a distant lightning flash can look distinctly orange or red rather than its usual blue-white. What is happening to the light on its way to your eye?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The rain cools the flash before it can be seen",
+            "feedback": "Light has no temperature for rain to lower. Whatever changes here is happening to the colour of the light, not its heat."
+          },
+          {
+            "label": "Rain itself glows orange when lit up",
+            "feedback": "A raindrop glows only with whatever colour of light passes through it. It adds no colour of its own."
+          },
+          {
+            "label": "The flash is genuinely cooler and redder that far away",
+            "feedback": "Distance does not cool a lightning channel. The channel is exactly as hot, and exactly as blue-white, wherever it forms."
+          },
+          {
+            "label": "The falling rain scatters away the shorter, bluer wavelengths first",
+            "feedback": "The same scattering that reddens a low, distant sunset strips the blue out of light crossing a long curtain of rain."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "The bolt itself never changes colour — only the air and rain it must pass through do that.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "The lightning channel is unchanged. Ask what lies between it and your eye that could alter the colour of its light along the way.",
+        "exp_title": "Colour lost along the way",
+        "exp_text": "Blue light is scattered aside by droplets and particles in the air far more readily than red light is, so the longer a beam of light has to cross a curtain of falling rain, the more of its blue is knocked away before it arrives. A lightning flash seen through a heavy, distant downpour has already lost much of its blue-white by the time it reaches you, leaving the warmer red and orange wavelengths to dominate what is left. The bolt itself never stops being blue-white — only the light that survives the journey does."
+      }
+    ]
+  }
+]

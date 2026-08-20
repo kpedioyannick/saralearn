@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 222,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is bioluminescence?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The production of light by an organism through a chemical reaction",
+            "feedback": "Correct. Bioluminescence is the production of light by an organism as the result of a chemiluminescence reaction."
+          },
+          {
+            "label": "The reflection of sunlight by an organism",
+            "feedback": "That is not bioluminescence; it is simply reflecting light. Bioluminescence generates light from within the organism itself."
+          },
+          {
+            "label": "The absorption of light by an organism for energy",
+            "feedback": "Absorbing light is not bioluminescence; organisms that absorb light for energy use photosynthesis, not chemical light production."
+          },
+          {
+            "label": "The emission of heat by an organism",
+            "feedback": "Heat emission is different from bioluminescence; bioluminescence is visible light, not heat."
+          }
+        ],
+        "ok_title": "Definition Confirmed",
+        "ok_line": "Bioluminescence is light made by living things through chemistry.",
+        "ko_title": "Not Quite",
+        "ko_line": "Bioluminescence is not reflection or absorption—it is light made by the organism.",
+        "exp_title": "Bioluminescence Basics",
+        "exp_text": "Bioluminescence is the production of light by an organism as the result of a chemiluminescence reaction. This means the organism itself makes the light through a chemical reaction, not by reflecting or absorbing light from outside."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two main ingredients are most often involved in the chemical reaction that produces bioluminescence?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Oxygen and water",
+            "feedback": "Oxygen is sometimes involved, but water is not one of the main ingredients. The key pair is a substrate and an enzyme."
+          },
+          {
+            "label": "Luciferin and luciferase",
+            "feedback": "Correct. In most bioluminescent reactions, a substrate called luciferin reacts with an enzyme called luciferase to produce light."
+          },
+          {
+            "label": "Calcium and magnesium",
+            "feedback": "Calcium and magnesium can be cofactors that help the reaction, but they are not the principal ingredients that produce light."
+          },
+          {
+            "label": "ATP and oxygen",
+            "feedback": "ATP is sometimes needed as an energy carrier, but it is not the main substrate. The core pair is luciferin and luciferase."
+          }
+        ],
+        "ok_title": "Key Ingredients",
+        "ok_line": "Luciferin and luciferase are the main pair for making light.",
+        "ko_title": "Check Ingredients",
+        "ko_line": "The main reaction uses luciferin and luciferase, not just oxygen or ATP.",
+        "exp_title": "Light-Making Chemicals",
+        "exp_text": "In most cases, bioluminescence comes from a reaction between luciferin, a substrate, and luciferase, an enzyme. The enzyme helps oxidize the luciferin, which then gives off light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the molecule that acts as the enzyme in most bioluminescent reactions?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Luciferase",
+            "feedback": "Correct. The enzyme that catalyzes the oxidation of luciferin is called luciferase."
+          },
+          {
+            "label": "Luciferin",
+            "feedback": "Luciferin is the substrate, not the enzyme. The enzyme that works on it is luciferase."
+          },
+          {
+            "label": "Coelenterazine",
+            "feedback": "Coelenterazine is a type of luciferin, not an enzyme. Luciferase is the enzyme that acts on it."
+          },
+          {
+            "label": "ATP",
+            "feedback": "ATP is an energy-carrying molecule that may be a cofactor, not the enzyme itself. The enzyme is luciferase."
+          }
+        ],
+        "ok_title": "Enzyme Named",
+        "ok_line": "Luciferase is the enzyme that makes light happen.",
+        "ko_title": "Wrong Molecule",
+        "ko_line": "Luciferase is the enzyme; luciferin is the substrate it acts on.",
+        "exp_title": "The Enzyme Role",
+        "exp_text": "In bioluminescence, luciferase is the enzyme that facilitates the reaction. It helps oxidize luciferin, leading to the production of light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of luciferin in bioluminescence?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It is the enzyme that speeds up the reaction",
+            "feedback": "Luciferin is not an enzyme; it is the substrate that gets oxidized. The enzyme is luciferase."
+          },
+          {
+            "label": "It is the substrate that reacts to produce light",
+            "feedback": "Correct. Luciferin is the substrate that undergoes oxidation, and the excited state of its product emits light."
+          },
+          {
+            "label": "It is a cofactor that helps the enzyme work",
+            "feedback": "Cofactors like calcium or magnesium may help, but luciferin is the main substrate, not a cofactor."
+          },
+          {
+            "label": "It is the molecule that stores energy for the reaction",
+            "feedback": "ATP stores energy, not luciferin. Luciferin is the chemical that actually reacts to make light."
+          }
+        ],
+        "ok_title": "Substrate Role",
+        "ok_line": "Luciferin is the fuel that gets oxidized to make light.",
+        "ko_title": "Wrong Function",
+        "ko_line": "Luciferin is the substrate, not an enzyme or cofactor.",
+        "exp_title": "Luciferin's Job",
+        "exp_text": "Luciferin is the substrate in the bioluminescent reaction. When oxidized by luciferase, it produces an excited molecule that releases light as it returns to its ground state."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a common use of bioluminescence by animals?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To keep themselves warm",
+            "feedback": "Bioluminescence is light, not heat; it is not used for warmth by animals."
+          },
+          {
+            "label": "To digest food",
+            "feedback": "Digestion is not a use of bioluminescence; animals use light for communication, camouflage, and luring prey."
+          },
+          {
+            "label": "To attract mates",
+            "feedback": "Correct. Signaling to other individuals, such as attracting mates, is a use of bioluminescence."
+          },
+          {
+            "label": "To breathe underwater",
+            "feedback": "Breathing is not related to bioluminescence; light production does not help with respiration."
+          }
+        ],
+        "ok_title": "Glowing Uses",
+        "ok_line": "Animals use light to attract mates and other signals.",
+        "ko_title": "Not a Use",
+        "ko_line": "Bioluminescence is for signals, not for warmth, digestion, or breathing.",
+        "exp_title": "Why Animals Glow",
+        "exp_text": "Animals use bioluminescence for various purposes, including counterillumination camouflage, mimicry to lure prey, and signaling to others, such as attracting mates."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the light-emitting molecule that is found in many different animal groups?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Coelenterazine",
+            "feedback": "Correct. Coelenterazine is a luciferin found in 11 different animal phyla."
+          },
+          {
+            "label": "Luciferase",
+            "feedback": "Luciferase is an enzyme, not a light-emitting molecule. The molecule that emits light is a luciferin like coelenterazine."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is a reactant in the reaction, not the light emitter itself."
+          },
+          {
+            "label": "ATP",
+            "feedback": "ATP is an energy carrier, not the light-emitting molecule. Coelenterazine is the one that produces light."
+          }
+        ],
+        "ok_title": "Common Luciferin",
+        "ok_line": "Coelenterazine appears in many animal groups.",
+        "ko_title": "Wrong Molecule",
+        "ko_line": "Coelenterazine is the light-emitting substrate, not an enzyme or energy carrier.",
+        "exp_title": "Widespread Glow",
+        "exp_text": "Coelenterazine is a type of luciferin that is used by many different animals across 11 phyla. In some, it is obtained through diet rather than made by the animal itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to oxyluciferin that causes it to emit light?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It absorbs light from the sun",
+            "feedback": "Oxyluciferin does not absorb sunlight; it emits light as it transitions from an excited state to a lower state."
+          },
+          {
+            "label": "It is heated to a high temperature",
+            "feedback": "Bioluminescence is not heat-based; the light comes from a chemical reaction, not heat."
+          },
+          {
+            "label": "It combines with oxygen",
+            "feedback": "Oxygen is used in the reaction to oxidize luciferin, but the light emission happens when oxyluciferin returns to ground state."
+          },
+          {
+            "label": "It returns from an excited state to a ground state",
+            "feedback": "Correct. The excited oxyluciferin emits visible light as it decays to its ground state."
+          }
+        ],
+        "ok_title": "Light Emission",
+        "ok_line": "Oxyluciferin glows when it drops to ground state.",
+        "ko_title": "Wrong Mechanism",
+        "ko_line": "Light comes from the excited molecule relaxing, not from heat or absorption.",
+        "exp_title": "How Light Is Made",
+        "exp_text": "After luciferin is oxidized, oxyluciferin is in an excited state. When it returns to its ground state, it releases energy as visible light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the basic chemical reaction that produces light in a bioluminescent organism?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An enzyme speeds up the oxidation of a molecule called luciferin.",
+            "feedback": "Correct. The enzyme luciferase catalyzes the oxidation of luciferin, and the product gives off light as it settles."
+          },
+          {
+            "label": "The organism burns sugar with oxygen, like a slow fire.",
+            "feedback": "Burning sugar is ordinary respiration, not the light-making reaction. Bioluminescence uses luciferin and luciferase."
+          },
+          {
+            "label": "The organism absorbs sunlight and re-emits it later.",
+            "feedback": "That would be a stored glow, not a chemical reaction. Bioluminescence makes its own light from a chemical change."
+          },
+          {
+            "label": "A bacterium inside the body mixes two liquids to make light.",
+            "feedback": "No mixing of liquids is involved. The key is the oxidation of luciferin, helped by the enzyme luciferase."
+          }
+        ],
+        "ok_title": "Correct reaction",
+        "ok_line": "Luciferin + oxygen, sped up by luciferase, makes the light.",
+        "ko_title": "Not the reaction",
+        "ko_line": "Bioluminescence is a chemical oxidation, not burning, stored sunlight, or mixing.",
+        "exp_title": "The light-making reaction",
+        "exp_text": "In most bioluminescent organisms, light comes from a reaction between luciferin and oxygen, with the enzyme luciferase speeding it up. The reaction produces a glowing molecule that releases visible light as it returns to a calm state."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a real way that animals use bioluminescence?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To see in the dark, like a flashlight.",
+            "feedback": "Animals do not use their glow as a flashlight to see where they are going. They use it to hide, lure, or signal."
+          },
+          {
+            "label": "To melt ice in cold water.",
+            "feedback": "There is no such use. The glow has nothing to do with melting or heating the surroundings."
+          },
+          {
+            "label": "To attract a mate of the same species.",
+            "feedback": "Correct. Signaling to other individuals, such as attracting a mate, is a known use of bioluminescence."
+          },
+          {
+            "label": "To scare away predators by making a loud sound.",
+            "feedback": "That would be sound, not light. Bioluminescence is used for camouflage, mimicry, and signaling, not for noise."
+          }
+        ],
+        "ok_title": "A real use",
+        "ok_line": "Animals use light to signal others of their kind, like to find a mate.",
+        "ko_title": "Not a use",
+        "ko_line": "Glow is for camouflage, luring, and signaling, not for seeing, melting, or making noise.",
+        "exp_title": "Uses of animal light",
+        "exp_text": "Animals use bioluminescence for counterillumination camouflage, mimicry to lure prey, and signaling to others of the same species, such as attracting mates. These are the documented uses of light in the living world."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the light-emitting molecule that many deep-sea animals use?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Chlorophyll",
+            "feedback": "Chlorophyll is the green pigment plants use for photosynthesis, not for making light. The deep-sea molecule is different."
+          },
+          {
+            "label": "Hemoglobin",
+            "feedback": "Hemoglobin is the oxygen-carrying molecule in blood. It does not glow. The light-maker is luciferin."
+          },
+          {
+            "label": "Melanin",
+            "feedback": "Melanin is a dark pigment in skin and eyes, not a light producer. The glowing molecule is luciferin."
+          },
+          {
+            "label": "Coelenterazine",
+            "feedback": "Correct. Coelenterazine is a luciferin found in many different animal groups, including deep-sea animals."
+          }
+        ],
+        "ok_title": "The glowing molecule",
+        "ok_line": "Coelenterazine is the luciferin used by many marine animals.",
+        "ko_title": "Wrong molecule",
+        "ko_line": "The light-maker is coelenterazine, not chlorophyll, hemoglobin, or melanin.",
+        "exp_title": "A common deep-sea luciferin",
+        "exp_text": "Coelenterazine is a type of luciferin found in many animal groups. Some animals make it themselves, while others get it from their food, but it is the molecule that produces the glow."
+      }
+    ]
+  }
+]

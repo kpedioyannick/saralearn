@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the branch of biology that studies the immune system?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Epidemiology",
+            "feedback": "Epidemiology studies how diseases spread in populations, not the immune system itself."
+          },
+          {
+            "label": "Pathology",
+            "feedback": "Pathology studies diseases and their effects, but the branch that studies how the body defends itself is immunology."
+          },
+          {
+            "label": "Immunology",
+            "feedback": "Correct. Immunology is the field of biology that examines the immune system and its functions."
+          },
+          {
+            "label": "Pharmacology",
+            "feedback": "Pharmacology studies drugs and their effects, not the immune system."
+          }
+        ],
+        "ok_title": "Field named",
+        "ok_line": "Immunology is the study of the immune system.",
+        "ko_title": "Wrong field",
+        "ko_line": "Think about the word that sounds like 'immunity'.",
+        "exp_title": "Immunology basics",
+        "exp_text": "Immunology is a branch of biology and medicine that studies immune systems in all organisms. It looks at how the immune system works in health and disease, including how it defends the body against foreign things."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does an antigen do in the body?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It produces antibodies",
+            "feedback": "Antibodies are made by certain white blood cells, not by antigens themselves."
+          },
+          {
+            "label": "It triggers the immune response",
+            "feedback": "Correct. An antigen is a substance that ignites the immune response, prompting the body to react."
+          },
+          {
+            "label": "It destroys pathogens directly",
+            "feedback": "Antigens do not destroy anything; they are the markers that tell the immune system something foreign is present."
+          },
+          {
+            "label": "It repairs damaged tissue",
+            "feedback": "Repairing tissue is done by other immune cells, not by antigens."
+          }
+        ],
+        "ok_title": "Antigen's role",
+        "ok_line": "Antigens set off the immune response.",
+        "ko_title": "Antigen mix-up",
+        "ko_line": "Antigens are targets, not fighters.",
+        "exp_title": "What antigens are",
+        "exp_text": "An antigen is any substance that ignites the immune response. It is like a flag that tells the immune system 'this is foreign, react to it'. Antibodies are later produced to bind to these antigens."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cells are responsible for recognizing antigens?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Lymphocytes",
+            "feedback": "Correct. Lymphocytes are the cells that recognize antigens and then secrete antibodies."
+          },
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells carry oxygen and do not recognize antigens."
+          },
+          {
+            "label": "Phagocytes",
+            "feedback": "Phagocytes destroy pathogens, but it is lymphocytes that first recognize the antigens."
+          },
+          {
+            "label": "Skin cells",
+            "feedback": "Skin cells form a barrier but do not recognize antigens inside the body."
+          }
+        ],
+        "ok_title": "Recognizing cells",
+        "ok_line": "Lymphocytes spot the antigens.",
+        "ko_title": "Wrong cell type",
+        "ko_line": "Only lymphocytes do the recognizing.",
+        "exp_title": "Lymphocytes and antigens",
+        "exp_text": "Lymphocytes are the immune cells that recognize antigens. Once they identify an antigen, they release antibodies to mark it for destruction by other immune cells."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do antibodies do when they find a pathogen?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They eat the pathogen",
+            "feedback": "Eating pathogens is done by phagocytes, not antibodies. Antibodies only tag them."
+          },
+          {
+            "label": "They explode the pathogen",
+            "feedback": "Antibodies do not burst pathogens; they simply mark them for other cells to destroy."
+          },
+          {
+            "label": "They change into a pathogen",
+            "feedback": "Antibodies never turn into pathogens; they are proteins that recognize antigens."
+          },
+          {
+            "label": "They mark it for destruction",
+            "feedback": "Correct. Antibodies identify antigens as targets so other immune cells can destroy the pathogen."
+          }
+        ],
+        "ok_title": "Antibody action",
+        "ok_line": "Antibodies tag pathogens for destruction.",
+        "ko_title": "Antibody mistake",
+        "ko_line": "Antibodies do not kill—they label.",
+        "exp_title": "How antibodies work",
+        "exp_text": "Antibodies are proteins that do not directly kill pathogens. Instead, they stick to the antigens on the pathogen's surface, like a flag, so that phagocytes or natural killer cells know to destroy it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of cells release antibodies?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells transport oxygen and do not release antibodies."
+          },
+          {
+            "label": "Phagocytes",
+            "feedback": "Phagocytes destroy pathogens but do not produce antibodies."
+          },
+          {
+            "label": "B lymphocytes",
+            "feedback": "Correct. B lymphocytes are the immune cells that release antibodies."
+          },
+          {
+            "label": "Nerve cells",
+            "feedback": "Nerve cells send signals and have nothing to do with antibody production."
+          }
+        ],
+        "ok_title": "Antibody makers",
+        "ok_line": "B lymphocytes release antibodies.",
+        "ko_title": "Wrong producer",
+        "ko_line": "Only B lymphocytes make antibodies.",
+        "exp_title": "B cells and antibodies",
+        "exp_text": "Antibodies are specific proteins released by a class of immune cells called B lymphocytes. These antibodies are tailored to match the antigens they encounter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main parts of the immune system?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Skin and lungs",
+            "feedback": "Skin and lungs are organs that help block pathogens, but they are not the two main divisions of the immune system."
+          },
+          {
+            "label": "Innate and adaptive",
+            "feedback": "Correct. The immune system is split into the innate immune system and the adaptive immune system."
+          },
+          {
+            "label": "Blood and lymph",
+            "feedback": "Blood and lymph are fluids, not the main divisions of the immune system."
+          },
+          {
+            "label": "Cells and organs",
+            "feedback": "Cells and organs are parts, but the immune system is formally divided into innate and adaptive branches."
+          }
+        ],
+        "ok_title": "Immune divisions",
+        "ok_line": "Innate and adaptive are the two branches.",
+        "ko_title": "Wrong division",
+        "ko_line": "Look for the two-part split.",
+        "exp_title": "Innate vs adaptive",
+        "exp_text": "The immune system is divided into a more primitive innate immune system and, in vertebrates, an acquired or adaptive immune system. The adaptive one is further split into humoral and cell-mediated parts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main job of phagocytes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To destroy pathogens",
+            "feedback": "Correct. Phagocytes destroy disease-causing microorganisms after antibodies have marked them."
+          },
+          {
+            "label": "To produce antibodies",
+            "feedback": "Producing antibodies is the job of B lymphocytes, not phagocytes."
+          },
+          {
+            "label": "To recognize antigens",
+            "feedback": "Lymphocytes recognize antigens, while phagocytes act on them."
+          },
+          {
+            "label": "To carry oxygen",
+            "feedback": "Carrying oxygen is done by red blood cells, not phagocytes."
+          }
+        ],
+        "ok_title": "Phagocyte role",
+        "ok_line": "Phagocytes destroy marked pathogens.",
+        "ko_title": "Phagocyte function",
+        "ko_line": "Phagocytes eat, not make.",
+        "exp_title": "What phagocytes do",
+        "exp_text": "Phagocytes are immune cells that destroy pathogens. When antibodies identify a pathogen as a target, phagocytes engulf and break it down, cleaning up the threat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is immunotherapy used for?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Building muscles",
+            "feedback": "Building muscles is not related to immunotherapy; it uses immune components to treat diseases."
+          },
+          {
+            "label": "Improving eyesight",
+            "feedback": "Improving eyesight is unrelated to immunotherapy."
+          },
+          {
+            "label": "Curing broken bones",
+            "feedback": "Broken bones are healed by the body's repair process, not by immunotherapy."
+          },
+          {
+            "label": "Treating diseases",
+            "feedback": "Correct. Immunotherapy uses immune system components or antigens to treat diseases like allergies, autoimmune disorders, and some cancers."
+          }
+        ],
+        "ok_title": "Immunotherapy purpose",
+        "ok_line": "It treats diseases using immune parts.",
+        "ko_title": "Wrong use",
+        "ko_line": "Think of immune-related treatments.",
+        "exp_title": "Immunotherapy explained",
+        "exp_text": "Immunotherapy is the use of immune system components or antigens to treat a disease or disorder. It is commonly used for allergies, autoimmune diseases, and certain cancers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an autoimmune disease?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A disease caused by a virus",
+            "feedback": "Viral diseases are infections, not autoimmune disorders where the immune system attacks its own body."
+          },
+          {
+            "label": "A disease from eating bad food",
+            "feedback": "Food poisoning is not an autoimmune disease; it comes from harmful microbes in food."
+          },
+          {
+            "label": "A disease where the immune system attacks the body itself",
+            "feedback": "Correct. In autoimmunity, the immune system mistakenly attacks its own host's body."
+          },
+          {
+            "label": "A disease from a weak immune response",
+            "feedback": "A weak response is called immunodeficiency, not autoimmunity."
+          }
+        ],
+        "ok_title": "Autoimmunity defined",
+        "ok_line": "The immune system attacks its own body.",
+        "ko_title": "Not autoimmune",
+        "ko_line": "Auto means self, so it attacks self.",
+        "exp_title": "Autoimmune disorders",
+        "exp_text": "Autoimmunity is a category of immune system disorders where the immune system attacks its own host's body. Examples include rheumatoid arthritis and systemic lupus erythematosus."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the difference between immunodeficiency and autoimmunity?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They are the same thing",
+            "feedback": "They are opposite problems: one is too little response, the other is a wrong response."
+          },
+          {
+            "label": "Immunodeficiency is a weak response; autoimmunity is attacking the self",
+            "feedback": "Correct. Immunodeficiency means the immune system fails to respond enough, while autoimmunity is an attack on the body's own tissues."
+          },
+          {
+            "label": "Immunodeficiency attacks the self; autoimmunity is a weak response",
+            "feedback": "This is reversed. Immunodeficiency is underactive, autoimmunity is misdirected."
+          },
+          {
+            "label": "Immunodeficiency is cured by vaccines; autoimmunity is not",
+            "feedback": "Vaccines are not the main treatment for either, and this does not describe the difference."
+          }
+        ],
+        "ok_title": "Two disorder types",
+        "ok_line": "One is too weak, the other misdirected.",
+        "ko_title": "Confused pair",
+        "ko_line": "Remember: deficiency means lacking.",
+        "exp_title": "Immune failures",
+        "exp_text": "Immunodeficiency means parts of the immune system fail to produce an adequate response. Autoimmunity means the immune system attacks its own host's body. They are opposite kinds of malfunction."
+      }
+    ]
+  }
+]

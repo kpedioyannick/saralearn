@@ -95,7 +95,7 @@ GRAMMAIRE = [
 ]
 
 # Vocabulaire : présent dans la source, mais hors des trois
-# sous-catégories demandées. On le signale plutôt que de le noyer.
+# disciplines demandées. On le signale plutôt que de le noyer.
 VOCABULAIRE = [
     r"\bsynonymes?\b", r"\bantonymes?\b", r"\bhomonymes\b", r"\bpolysemie\b",
     r"\bchamp lexical\b", r"\bfamilles de mots\b", r"\bprefixes\b",

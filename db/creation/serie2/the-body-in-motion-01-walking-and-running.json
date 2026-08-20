@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of your leg bends the most when you take a normal walking step?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The hip",
+            "feedback": "The hip does bend during walking, but it's not the part that bends the most with each step. The knee has a much larger range of motion in a single stride."
+          },
+          {
+            "label": "The ankle",
+            "feedback": "The ankle does flex and extend with each step, especially as your foot rolls off the ground, but its bending range is smaller than the knee's during walking."
+          },
+          {
+            "label": "The toes",
+            "feedback": "Your toes do some bending, especially when you push off, but they don't have a large hinge-like range compared to the knee joint."
+          },
+          {
+            "label": "The knee",
+            "feedback": "Correct. The knee is the main hinge you bend and straighten with each step, letting your foot clear the ground and swing forward smoothly."
+          }
+        ],
+        "ok_title": "Knee bends most",
+        "ok_line": "The knee is the biggest hinge in each walking step.",
+        "ko_title": "Not the hip, ankle, or toes",
+        "ko_line": "Those joints move, but the knee swings through the largest range.",
+        "exp_title": "Walking's main hinge",
+        "exp_text": "The knee is the joint with the largest bending range during a normal walking stride. It folds as your leg swings forward and extends as you push off and land, which keeps your foot from dragging and keeps your step smooth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a running stride, when does the front leg bend the most at the knee?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "When your foot first touches the ground",
+            "feedback": "At touchdown, the knee is slightly bent to absorb the impact, but it isn't at its maximum bend. The deepest fold happens later in the swing when your leg is off the ground."
+          },
+          {
+            "label": "As your leg swings forward in the air",
+            "feedback": "Correct. The knee bends to its greatest angle during the swing phase, folding your heel up toward your buttocks to clear the ground and speed up the leg's forward motion."
+          },
+          {
+            "label": "As you push off the ground behind you",
+            "feedback": "At push-off, your knee is straightening to drive you forward, not bending. The deepest fold happens after that, when the leg is airborne."
+          },
+          {
+            "label": "As your foot is flat on the ground underneath you",
+            "feedback": "In the stance phase, your knee is mostly extended with a slight flex for cushioning, not bent at its maximum. The big fold comes during the swing."
+          }
+        ],
+        "ok_title": "Swing phase folds the knee",
+        "ok_line": "The knee bends most while your leg is in the air.",
+        "ko_title": "Not on the ground",
+        "ko_line": "Stance and push-off keep the knee mostly straight.",
+        "exp_title": "Running's knee fold",
+        "exp_text": "In running, the knee reaches its deepest bend when your leg swings forward in the air, pulling your heel up. This shortens the leg like a pendulum and lets it move faster, so you can run at a quicker pace."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which muscle group is primarily responsible for straightening your leg at the knee when you push off the ground while walking?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The quadriceps at the front of the thigh",
+            "feedback": "Correct. The quadriceps extend the knee, straightening your leg as you push off and begin the next step. They are the main force behind the knee's straightening action."
+          },
+          {
+            "label": "The hamstrings at the back of the thigh",
+            "feedback": "The hamstrings actually bend the knee, pulling your heel up, not straighten it. They work in opposition to the quadriceps during the swing phase."
+          },
+          {
+            "label": "The calf muscles at the back of the lower leg",
+            "feedback": "The calf muscles point your foot down and help push off, but they don't straighten the knee. Knee extension is done by the thigh muscles."
+          },
+          {
+            "label": "The gluteal muscles in the buttocks",
+            "feedback": "The glutes extend your hip, not your knee. They help drive your leg backward, but the straightening of the knee comes from the quadriceps."
+          }
+        ],
+        "ok_title": "Quadriceps extend the knee",
+        "ok_line": "The thigh's front muscles straighten your knee when you push off.",
+        "ko_title": "Not hamstrings, calves, or glutes",
+        "ko_line": "Those muscles bend the knee or move the hip, not straighten it.",
+        "exp_title": "Pushing off with the quads",
+        "exp_text": "The quadriceps, a group of four muscles along the front of your thigh, are the main knee extensors. When you push off the ground, they contract to straighten your leg, giving your stride its forward drive."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the calf muscle group do during the push-off phase of a walking step?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It bends your knee to lift your foot",
+            "feedback": "Bending the knee is done by the hamstrings, not the calf muscles. The calves act on the ankle, not the knee."
+          },
+          {
+            "label": "It stabilizes your hip as you lean forward",
+            "feedback": "Hip stabilization is done by muscles around the pelvis, not the calf group. The calves' main action is at the ankle."
+          },
+          {
+            "label": "It points your foot down and pushes you forward",
+            "feedback": "Correct. The calf muscles contract to point your toes downward, pressing against the ground and driving your body forward and upward during push-off."
+          },
+          {
+            "label": "It keeps your knee straight while your foot is in the air",
+            "feedback": "Keeping the knee straight is mainly the quadriceps' job, and it happens in the swing phase, not with calf action. The calves don't control the knee."
+          }
+        ],
+        "ok_title": "Calves point the foot down",
+        "ok_line": "The calf muscles push you forward by pressing your toes down.",
+        "ko_title": "Not knee, hip, or thigh control",
+        "ko_line": "Calves act on the ankle, bending your foot down.",
+        "exp_title": "The calf's push-off role",
+        "exp_text": "The calf muscles are the main ankle plantar flexors. At push-off, they contract to point your foot downward, which presses your toes into the ground and gives your body a forward shove that carries you into the next step."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a normal walking stride, which part of your foot touches the ground first?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The ball of the foot",
+            "feedback": "The ball of the foot touches down during running or sprinting, not in a normal walk. In walking, the heel lands first."
+          },
+          {
+            "label": "The toes",
+            "feedback": "The toes are the last part to touch and leave, not the first. In a heel-to-toe walk, the heel is the initial contact."
+          },
+          {
+            "label": "The outside edge of the midfoot",
+            "feedback": "The midfoot rolls down after the heel lands. It isn't the first point of contact in a normal walking step."
+          },
+          {
+            "label": "The heel",
+            "feedback": "Correct. In a typical walking stride, your heel lands first, then the foot rolls forward along its outside edge to the ball and toes before push-off."
+          }
+        ],
+        "ok_title": "Heel strikes first",
+        "ok_line": "The heel lands before the rest of your foot in walking.",
+        "ko_title": "Not ball, toes, or midfoot",
+        "ko_line": "Those parts touch down later in the rolling step.",
+        "exp_title": "How the foot lands",
+        "exp_text": "During walking, your heel is the first part to touch the ground. After that, your foot rolls forward along its outer side until the ball and toes make contact, setting up the push-off that moves you along."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which muscles work hardest when you slow down from a run to a stop?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The quadriceps in the front of your thigh",
+            "feedback": "The quads do work, but they mainly push you forward. Slowing down to stop is mostly done by the muscles at the back that pull your leg backward."
+          },
+          {
+            "label": "The hamstrings in the back of your thigh",
+            "feedback": "Correct. The hamstrings contract eccentrically to slow the forward swing of your leg and pull your body weight backward, gradually reducing your forward momentum until you stop."
+          },
+          {
+            "label": "The calf muscles in your lower leg",
+            "feedback": "The calves help balance you, but they aren't the primary muscles that brake your forward motion. That job belongs to the hamstrings."
+          },
+          {
+            "label": "The gluteal muscles in your buttocks",
+            "feedback": "The glutes extend your hip and help with posture, but they aren't the main muscles used to slow your legs down. The hamstrings take the lead in braking."
+          }
+        ],
+        "ok_title": "Hamstrings brake the run",
+        "ok_line": "The hamstrings pull your legs back to slow you down.",
+        "ko_title": "Not quads, calves, or glutes",
+        "ko_line": "Those muscles accelerate or stabilize; hamstrings brake.",
+        "exp_title": "Braking with the hamstrings",
+        "exp_text": "When you decide to stop running, your hamstrings contract to slow the forward swing of your legs and pull your body's weight backward. They act as a brake, gradually reducing your speed until you come to a halt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of your arms during a brisk walk?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They swing in opposition to your legs to balance your body",
+            "feedback": "Correct. Your arms swing opposite to your legs, which counteracts the rotation of your hips and keeps your upper body stable as you walk."
+          },
+          {
+            "label": "They generate the main force that propels you forward",
+            "feedback": "The propulsion for walking comes from your legs pushing off the ground, not from your arms. Arms mainly aid in balance and rhythm, not in forward drive."
+          },
+          {
+            "label": "They keep your shoulders perfectly still throughout the step",
+            "feedback": "Arms do swing, not stay still, and this swinging is what helps stabilize your shoulders. Keeping them still would make balance harder."
+          },
+          {
+            "label": "They increase your stride length by pulling on the ground",
+            "feedback": "Your arms don't touch the ground and don't directly lengthen your stride. Their swing is a passive response to your leg motion, not a pulling force."
+          }
+        ],
+        "ok_title": "Arms balance the walk",
+        "ok_line": "Swinging arms keep your upper body steady.",
+        "ko_title": "Not propulsion or still shoulders",
+        "ko_line": "Arms are for balance and rhythm, not forward force.",
+        "exp_title": "Why arms swing while walking",
+        "exp_text": "When you walk, your arms swing in time with your steps, opposite to the legs on the same side. This counter-swing cancels out the twisting force from your hips, so your upper body stays upright and balanced without extra effort."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is true about the stance phase during running?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Both feet stay in contact with the ground at the same time",
+            "feedback": "Both feet on the ground at once is a feature of walking, not running. In running, there is a moment when neither foot touches the ground."
+          },
+          {
+            "label": "It lasts about the same time as the swing phase",
+            "feedback": "In running, the stance phase is shorter than the swing phase because your foot is on the ground for less than half of the stride, unlike walking where they are more equal."
+          },
+          {
+            "label": "Your foot is in contact with the ground for a shorter time than during walking",
+            "feedback": "Correct. In running, your foot spends less time on the ground with each step than it does when you walk, which is why you get airborne between strides."
+          },
+          {
+            "label": "Your knee stays fully straight the entire time your foot is on the ground",
+            "feedback": "The knee bends and straightens during the stance phase to absorb impact and push off. It doesn't stay locked straight."
+          }
+        ],
+        "ok_title": "Stance is shorter in running",
+        "ok_line": "Running feet are on the ground less than in walking.",
+        "ko_title": "No double support or long stance",
+        "ko_line": "Running has a flight phase, so stance is brief.",
+        "exp_title": "Running's stance phase",
+        "exp_text": "In running, the stance phase is the brief moment when one foot is in contact with the ground. It is shorter than the stance phase in walking, and there's no point where both feet touch simultaneously, which lets you leave the ground between steps."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'flight phase' mean in the context of running?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The moment when you land and your foot touches the ground",
+            "feedback": "Landing is the start of the stance phase, not the flight phase. Flight is the period when you're in the air."
+          },
+          {
+            "label": "The brief period when both feet are on the ground simultaneously",
+            "feedback": "Both feet on the ground at once happens in walking, not in running. In running's flight phase, neither foot touches the ground."
+          },
+          {
+            "label": "The phase when you push off and your foot leaves the ground",
+            "feedback": "Push-off marks the end of stance and the beginning of flight, but flight itself is the whole airborne period after your foot leaves until the next foot lands."
+          },
+          {
+            "label": "The period when neither foot is touching the ground",
+            "feedback": "Correct. The flight phase is the part of a running stride when both feet are off the ground, which happens between push-off and the next landing."
+          }
+        ],
+        "ok_title": "Airborne between strides",
+        "ok_line": "Running includes a moment with no ground contact.",
+        "ko_title": "Not landing or double support",
+        "ko_line": "Flight is when you're entirely in the air.",
+        "exp_title": "The flight phase explained",
+        "exp_text": "The flight phase is the portion of a running stride when both feet are off the ground. In walking, there's always at least one foot on the ground, but in running, your forward speed lets you leave the surface briefly, which is what makes running feel more bouncy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following best describes the motion of your pelvis when you run?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It tilts side to side slightly with each step",
+            "feedback": "Correct. Your pelvis tilts a little from side to side as you transfer weight from one leg to the other, which helps keep your center of mass moving forward smoothly."
+          },
+          {
+            "label": "It stays perfectly level and motionless",
+            "feedback": "The pelvis doesn't stay perfectly still during running; it tilts and rotates slightly with each stride to accommodate leg movement and balance."
+          },
+          {
+            "label": "It moves up and down in a large bouncing motion",
+            "feedback": "There is some vertical bounce in running, but it's not a large bounce; it's a small rise and fall of your body, not a big movement of the pelvis alone."
+          },
+          {
+            "label": "It rotates forward and backward like a wheel",
+            "feedback": "The pelvis does rotate slightly, but not like a wheel. It tilts side to side and twists a little, but doesn't spin around."
+          }
+        ],
+        "ok_title": "Pelvis tilts side to side",
+        "ok_line": "Your pelvis tips a bit with each running step.",
+        "ko_title": "Not motionless or a big bounce",
+        "ko_line": "Pelvic movement is subtle and helps balance.",
+        "exp_title": "Pelvic motion in running",
+        "exp_text": "When you run, your pelvis tilts slightly to the side of the leg that's swinging forward. This small lateral tilt, along with a little rotation, keeps your torso balanced and your stride efficient, avoiding a large up-and-down bounce."
+      }
+    ]
+  }
+]

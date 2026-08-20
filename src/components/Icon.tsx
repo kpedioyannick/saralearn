@@ -21,6 +21,11 @@ export type IconName =
   | 'chevronDown'
   | 'chevronUp'
   | 'arrowDown'
+  | 'arrowUp'
+  | 'home'
+  | 'grid'
+  | 'share'
+  | 'search'
   | 'bulb'
   | 'moon'
   | 'volume'
@@ -32,6 +37,7 @@ export type IconName =
   | 'user'
   | 'dots'
   | 'file'
+  | 'question'
   | 'text'
   | 'mic'
   | 'pencil'
@@ -39,8 +45,12 @@ export type IconName =
   | 'alert'
   | 'close'
   | 'send'
+  | 'mail'
+  | 'upload'
   | 'signal'
   | 'battery'
+  | 'play'
+  | 'pause'
 
 const PATHS: Record<IconName, ReactNode> = {
   check: <path d="M20 6 9 17l-5-5" />,
@@ -91,6 +101,11 @@ const PATHS: Record<IconName, ReactNode> = {
   chevronDown: <path d="m6 9 6 6 6-6" />,
   chevronUp: <path d="m18 15-6-6-6 6" />,
   arrowDown: <path d="m5 12 7 7 7-7M12 5v14" />,
+  arrowUp: <path d="m5 12 7-7 7 7M12 19V5" />,
+  home: <path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z" />,
+  grid: <path d="M4 9h16M4 15h16M9 4v16M15 4v16" />,
+  share: <path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M12 15V3m0 0L8 7m4-4 4 4" />,
+  search: <path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM21 21l-4.35-4.35" />,
   bulb: (
     <>
       <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.8.8 1.3 1.5 1.5 2.5" />
@@ -140,6 +155,16 @@ const PATHS: Record<IconName, ReactNode> = {
       <path d="M14 2v6h6" />
     </>
   ),
+  // Le flux d'exercices. Le point est un trait de longueur nulle, pas un
+  // cercle plein : c'est ce qui lui donne le même bout arrondi et la même
+  // épaisseur que le reste du jeu, à tous les zooms.
+  question: (
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M9.5 9.4a2.5 2.5 0 1 1 3 2.7c-.5.2-.7.6-.7 1.1v.4" />
+      <path d="M12 16.8v.01" />
+    </>
+  ),
   text: <path d="M4 7V5h16v2M9 20h6M12 5v15" />,
   mic: (
     <>
@@ -157,7 +182,20 @@ const PATHS: Record<IconName, ReactNode> = {
   ),
   close: <path d="m18 6-12 12M6 6l12 12" />,
   send: <path d="M5 12h14M12 5l7 7-7 7" />,
+  mail: (
+    <>
+      <rect x="2.5" y="5" width="19" height="14" rx="2.5" />
+      <path d="m3.5 7 7.4 5.6a2 2 0 0 0 2.2 0L20.5 7" />
+    </>
+  ),
+  // Le trombone dit « pièce jointe » sans mot : la boucle ouverte vers
+  // le haut se lit à 18 px comme à 24.
+  upload: <path d="M20 12.5 12.2 20a4.5 4.5 0 0 1-6.4-6.4l8-7.9a3 3 0 0 1 4.2 4.3l-7.9 7.9a1.5 1.5 0 0 1-2.1-2.2l7-7" />,
   signal: <path d="M1 9v2M5 6.5V11M9 4v7M13 1.5V11" />,
+  // Le bandeau de lecture : deux glyphes pleins plutôt qu'au trait —
+  // à 16 px, un triangle creux se lit mal contre le voile du bouton.
+  play: <path d="M8 5.5v13l10.5-6.5Z" fill="currentColor" />,
+  pause: <path d="M9 5.5v13M15 5.5v13" />,
   battery: (
     <>
       <rect x="1" y="2" width="17" height="8" rx="2.4" />

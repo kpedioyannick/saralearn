@@ -2,25 +2,33 @@
 
 Les pourcentages ne vivent qu'ici : jamais pendant un exercice.
 Tout est dérivé des vues SQL, donc du seul journal des tentatives.
+
+**Un apprentissage est un CHAPITRE**, comme dans `routers/feed.py` et
+`routers/themes.py` : `theme_id` sur le fil porte un `chapter_id`. Le nom
+des champs est celui du client, qui n'a pas bougé ; ce qu'ils désignent a
+changé avec les migrations 016 à 022.
 """
 
 from __future__ import annotations
 
-from fastapi import APIRouter, HTTPException, Query, status
+from fastapi import APIRouter, BackgroundTasks, HTTPException, Query, status
 
+from ..config import FEED_TYPES
 from ..db import row, rows, transaction
 from ..schemas import ProgressOut, RankRowOut, SettingsIn, SettingsOut
 from ..security import CurrentUser, DbDep
+from ..topup import LOW_WATER, ecrire_et_traduire, unseen_count
+from ..traduction import traduire_chapitre
 
 router = APIRouter(tags=["progression"])
 
 
 @router.get("/progression", response_model=list[ProgressOut])
 def progression(conn: DbDep, user: CurrentUser) -> list[ProgressOut]:
-    """Les sous-catégories commencées, et rien d'autre."""
+    """Les apprentissages commencés, et rien d'autre."""
     return [
         ProgressOut(
-            theme_id=p["theme_id"],
+            theme_id=p["chapter_id"],
             name=p["title"],
             passed=p["passed"] or 0,
             total=p["total"] or 0,
@@ -28,10 +36,13 @@ def progression(conn: DbDep, user: CurrentUser) -> list[ProgressOut]:
         )
         for p in rows(
             conn,
-            "SELECT p.theme_id, p.passed, p.total, p.pct, t.title"
-            " FROM v_user_theme_progress p JOIN theme t ON t.id = p.theme_id"
-            " WHERE p.user_id = ? ORDER BY p.pct DESC, t.title",
-            (user["id"],),
+            "SELECT p.chapter_id, p.passed, p.total, p.pct,"
+            "       COALESCE(ct.title, ch.title) AS title"
+            " FROM v_user_chapter_progress p JOIN chapter ch ON ch.id = p.chapter_id"
+            " LEFT JOIN chapter_translation ct"
+            "        ON ct.chapter_id = ch.id AND ct.lang = ?"
+            " WHERE p.user_id = ? ORDER BY p.pct DESC, ch.title",
+            (user["lang"] if user["lang"] in ("fr", "en") else "en", user["id"]),
         )
     ]
 
@@ -39,8 +50,8 @@ def progression(conn: DbDep, user: CurrentUser) -> list[ProgressOut]:
 # La semaine court du lundi : `%w` donne 0 pour dimanche, d'où le +6 % 7.
 _WEEK_SQL = (
     "SELECT w.user_id, w.points, w.passed, u.display_name"
-    " FROM v_theme_week_rank w JOIN app_user u ON u.id = w.user_id"
-    " WHERE w.theme_id = ?"
+    " FROM v_chapter_week_rank w JOIN app_user u ON u.id = w.user_id"
+    " WHERE w.chapter_id = ?"
     "   AND w.week_start = date('now', '-' ||"
     "       ((CAST(strftime('%w','now') AS INTEGER) + 6) % 7) || ' days')"
     " ORDER BY w.points DESC, w.passed DESC"
@@ -94,8 +105,8 @@ def rank_theme(
     theme_id: int, conn: DbDep, user: CurrentUser, limit: int = Query(default=20, ge=1, le=100)
 ) -> list[RankRowOut]:
     """Classement de la semaine en cours — il repart chaque lundi."""
-    if row(conn, "SELECT id FROM theme WHERE id = ?", (theme_id,)) is None:
-        raise HTTPException(status.HTTP_404_NOT_FOUND, "Thème introuvable.")
+    if row(conn, "SELECT id FROM chapter WHERE id = ?", (theme_id,)) is None:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Apprentissage introuvable.")
     return _with_me(conn, rows(conn, _WEEK_SQL + " LIMIT ?", (theme_id, limit)),
                     user["id"], _WEEK_SQL, (theme_id,))
 
@@ -107,17 +118,41 @@ def get_settings(conn: DbDep, user: CurrentUser) -> SettingsOut:
         dark=None if user["dark"] is None else bool(user["dark"]),
         lang=user["lang"] if user["lang"] in ("fr", "en") else "fr",
         theme_ids=[
-            r["theme_id"]
+            r["chapter_id"]
             for r in rows(
-                conn, "SELECT theme_id FROM user_theme WHERE user_id = ?", (user["id"],)
+                conn, "SELECT chapter_id FROM user_chapter WHERE user_id = ?", (user["id"],)
             )
         ],
+        display_name=user["display_name"],
     )
 
 
 @router.put("/settings", response_model=SettingsOut)
-def put_settings(payload: SettingsIn, conn: DbDep, user: CurrentUser) -> SettingsOut:
+def put_settings(
+    payload: SettingsIn, conn: DbDep, user: CurrentUser, background: BackgroundTasks
+) -> SettingsOut:
     uid = user["id"]
+    # Choisir ses apprentissages ici, c'est le même geste que le bouton
+    # « suivre » de `routers/themes.py` : on lance l'écriture de ceux qui
+    # n'ont rien à servir, en fond, sans faire attendre le réglage. Les
+    # trois premiers seulement — la liste peut être longue, et le reste
+    # sera écrit à l'ouverture, par le feed.
+    if payload.theme_ids:
+        deja = {
+            r["chapter_id"]
+            for r in rows(
+                conn, "SELECT chapter_id FROM user_chapter WHERE user_id = ?", (uid,)
+            )
+        }
+        nouveaux = [tid for tid in payload.theme_ids if tid not in deja]
+        for tid in nouveaux[:3]:
+            # `ecrire_et_traduire` : l'écriture ne se sépare plus de sa
+            # traduction, sinon le lot part en anglais chez le premier
+            # lecteur français — voir `api/topup.py`.
+            if unseen_count(conn, tid, uid, FEED_TYPES) <= LOW_WATER:
+                background.add_task(ecrire_et_traduire, tid)
+            elif user["lang"] != "en":
+                background.add_task(traduire_chapitre, tid, user["lang"])
     with transaction(conn):
         if payload.muted is not None:
             conn.execute("UPDATE app_user SET muted = ? WHERE id = ?", (int(payload.muted), uid))
@@ -125,22 +160,31 @@ def put_settings(payload: SettingsIn, conn: DbDep, user: CurrentUser) -> Setting
             conn.execute("UPDATE app_user SET dark = ? WHERE id = ?", (int(payload.dark), uid))
         if payload.lang is not None:
             conn.execute("UPDATE app_user SET lang = ? WHERE id = ?", (payload.lang, uid))
+        # Le pseudo passe par ici et non par une route à lui : c'est un
+        # réglage, et il se pose aussi bien sur une session anonyme que
+        # sur un compte. Ce qui authentifie reste le jeton — le pseudo
+        # n'est qu'une étiquette, il n'ouvre rien.
+        if payload.display_name is not None:
+            conn.execute(
+                "UPDATE app_user SET display_name = ? WHERE id = ?",
+                (payload.display_name, uid),
+            )
         if payload.theme_ids is not None:
-            conn.execute("DELETE FROM user_theme WHERE user_id = ?", (uid,))
+            conn.execute("DELETE FROM user_chapter WHERE user_id = ?", (uid,))
             # OR IGNORE n'avale pas une violation de clé étrangère : un
-            # thème supprimé depuis que le client a chargé son catalogue
-            # faisait remonter une IntegrityError en 500. On écarte les
-            # identifiants inconnus plutôt que de casser l'appel — le
-            # client réenverra la liste qu'il connaît.
+            # apprentissage supprimé depuis que le client a chargé son
+            # catalogue faisait remonter une IntegrityError en 500. On
+            # écarte les identifiants inconnus plutôt que de casser
+            # l'appel — le client réenverra la liste qu'il connaît.
             for tid in payload.theme_ids:
                 conn.execute(
-                    "INSERT OR IGNORE INTO user_theme (user_id, theme_id)"
-                    " SELECT ?, id FROM theme WHERE id = ?",
+                    "INSERT OR IGNORE INTO user_chapter (user_id, chapter_id)"
+                    " SELECT ?, id FROM chapter WHERE id = ?",
                     (uid, tid),
                 )
             conn.execute(
-                "UPDATE theme SET subscriber_count ="
-                " (SELECT COUNT(*) FROM user_theme WHERE theme_id = theme.id)"
+                "UPDATE chapter SET subscriber_count ="
+                " (SELECT COUNT(*) FROM user_chapter WHERE chapter_id = chapter.id)"
             )
     fresh = row(conn, "SELECT * FROM app_user WHERE id = ?", (uid,))
     assert fresh is not None

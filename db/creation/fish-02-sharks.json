@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 210,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a shark's skin feel rough when you stroke it from tail to head?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is covered in tiny tooth-like scales",
+            "feedback": "Each scale has a hard, ridged point, all angled to lie flat one way and catch your hand the other."
+          },
+          {
+            "label": "It is covered in dried salt",
+            "feedback": "Salt does not build up on living skin; a swimming shark is constantly rinsed by the water around it."
+          },
+          {
+            "label": "Its scales are unusually large",
+            "feedback": "Shark scales are tiny, not large; the roughness comes from their shape and direction, not their size."
+          },
+          {
+            "label": "Parasites cling to its surface",
+            "feedback": "Some sharks do carry parasites, but the roughness is a property of the skin itself, felt on every part of the body."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Tiny teeth pointing one way, smooth one direction and rough the other.",
+        "ko_title": "Feel again",
+        "ko_line": "Think about what the scales are shaped like, not what might be stuck to them.",
+        "exp_title": "A skin made of tiny teeth",
+        "exp_text": "A shark's skin is covered in dermal denticles, small hard points built the same way as a tooth, each pointing back toward the tail. Stroked from head to tail they lie flat and feel smooth, and stroked the other way their edges catch your skin, which is what makes the surface feel rough. Their backward-pointing shape also breaks up the flow of water right at the skin, letting the shark slip through it with less drag."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens when a shark loses a tooth while feeding?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tooth is never replaced",
+            "feedback": "A shark's tooth supply is not fixed; new ones are always forming behind the ones in use."
+          },
+          {
+            "label": "A new tooth from the row behind moves forward to replace it",
+            "feedback": "Rows of teeth sit behind the working row, and a new one shifts forward to take an empty place."
+          },
+          {
+            "label": "The gum grows a scar in its place",
+            "feedback": "Nothing about the healing simply seals the gap; the loss is filled with a working tooth, not a scar."
+          },
+          {
+            "label": "The shark grows a single new tooth from scratch each time",
+            "feedback": "The new tooth is not built on the spot from nothing — it was already forming and waiting in a row behind."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Rows in reserve, always ready to move up.",
+        "ko_title": "Think about what is waiting behind",
+        "ko_line": "A shark's jaw does not hold only one row of teeth.",
+        "exp_title": "A conveyor of teeth",
+        "exp_text": "Behind a shark's working row of teeth sit several more rows, folded down against the jaw and already growing. When a tooth in front is lost or worn, the row directly behind it shifts forward on a band of tissue and takes its place, already sharp and ready to bite. This steady replacement means a shark's jaw is never left with an empty gap for long."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a shark sense the tiny electric fields given off by a hidden prey's muscles?",
+        "body": null,
+        "options": [
+          {
+            "label": "Jelly-filled pores on its snout called the ampullae of Lorenzini",
+            "feedback": "Each pore leads to a canal filled with a special jelly that carries the faint electric signal to a sensing cell."
+          },
+          {
+            "label": "Its teeth, which act like tiny antennae",
+            "feedback": "Teeth are used for biting, not sensing; they carry no nerve connection built for detecting electric fields."
+          },
+          {
+            "label": "Its dermal denticles across the whole body",
+            "feedback": "Those scales shape the flow of water over the skin; sensing electric fields is a separate, specialised job done elsewhere."
+          },
+          {
+            "label": "Its liver, through changes in buoyancy",
+            "feedback": "The liver stores oil for buoyancy. It has no nerve connection able to register an electric field."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Tiny pores on the snout, each one a channel to a sensing cell.",
+        "ko_title": "Look at the snout",
+        "ko_line": "The organ in question is a cluster of small pores, easiest to see near the nose.",
+        "exp_title": "Reading the twitch of a hidden muscle",
+        "exp_text": "A shark's snout is dotted with small pores, each opening into a jelly-filled canal that leads to a cell sensitive to electric fields. Every living muscle, even one buried under sand, gives off a tiny electric signal each time it twitches, and that jelly carries the signal down to the sensing cell at the canal's base. This lets a shark find prey it cannot see or smell, guided only by the electric trace of a heartbeat or a muscle contraction nearby."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a shark's skeleton mostly made of, unlike a bony fish's?",
+        "body": null,
+        "options": [
+          {
+            "label": "Cartilage",
+            "feedback": "Lighter and more flexible than bone, and it needs no marrow to keep it supplied."
+          },
+          {
+            "label": "Solid ivory",
+            "feedback": "Ivory forms the tusks of certain mammals; no shark's skeleton is built from it."
+          },
+          {
+            "label": "Muscle fibre",
+            "feedback": "Muscle powers movement by pulling on a skeleton; it cannot serve as the skeleton itself."
+          },
+          {
+            "label": "Hardened scale tissue",
+            "feedback": "Scales cover the outside of the body; the skeleton inside is a separate kind of tissue entirely."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "The same flexible material that shapes your own ears and nose.",
+        "ko_title": "Reconsider",
+        "ko_line": "Feel your own ear: it bends without breaking. A shark's whole skeleton is built from that kind of tissue.",
+        "exp_title": "A skeleton built to bend",
+        "exp_text": "Instead of bone, a shark's skeleton is built almost entirely from cartilage, the same springy tissue that shapes a human ear or the tip of a nose. Cartilage is considerably lighter than bone and flexes rather than snapping under sudden strain, which suits a body that twists hard while chasing prey. It costs the shark something in exchange: cartilage is more easily damaged by repeated wear than bone is, so it must be renewed throughout the shark's life."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "A shark has no swim bladder. How does it manage to stay off the seafloor without sinking?",
+        "body": null,
+        "options": [
+          {
+            "label": "A large liver full of low-density oil",
+            "feedback": "The oil-rich liver takes up a large share of the body and weighs less than the surrounding seawater."
+          },
+          {
+            "label": "Air gulped at the surface",
+            "feedback": "Sharks breathe through their gills underwater and do not gulp air at the surface to help them float."
+          },
+          {
+            "label": "Constant fast swimming alone",
+            "feedback": "Forward motion and its fins do help lift a swimming shark, but many sharks manage this even resting nearly still, thanks to another part of the body."
+          },
+          {
+            "label": "Hollow bones filled with air",
+            "feedback": "A shark's skeleton is cartilage, not bone, and it holds no air pockets at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "An oily liver doing the job a gas-filled bladder does in other fish.",
+        "ko_title": "Think about what replaces the missing organ",
+        "ko_line": "Look for another organ that could be unusually large and unusually light.",
+        "exp_title": "Buoyancy from an oily liver",
+        "exp_text": "A shark's liver is unusually large and packed with a low-density oil called squalene, and because that oil weighs less than seawater, the whole organ helps offset the weight of the rest of the body. Its cartilage skeleton is already lighter than bone, so together the two reduce how much the shark tends to sink. What buoyancy is still missing is made up by the lift of its pectoral fins and the push of forward swimming."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a shark's sense of smell help it find prey from far away?",
+        "body": null,
+        "options": [
+          {
+            "label": "It can detect an extremely faint trace of blood or scent carried in the current",
+            "feedback": "Water constantly flows through nostrils packed with sensing tissue that reacts to an exceedingly weak trace of scent."
+          },
+          {
+            "label": "It smells through its skin across its whole body",
+            "feedback": "Smell is gathered through the nostrils and their internal folds, not spread out over the skin."
+          },
+          {
+            "label": "It only smells prey it can already see",
+            "feedback": "Smell works precisely because it reaches beyond sight, guiding a shark toward prey hidden well out of view."
+          },
+          {
+            "label": "It relies on smell only in murky water",
+            "feedback": "A shark's nostrils keep working in clear water too; smell is not switched off simply because visibility is good."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "Water flowing constantly past folded tissue built to catch the faintest trace.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about what makes this sense useful over distance, not up close.",
+        "exp_title": "Nostrils built to catch a trace",
+        "exp_text": "Water flows continuously into a shark's nostrils and across deeply folded tissue lined with scent-sensing cells, without ever passing through the throat or being used for breathing. That folded surface can pick out an exceedingly weak trace of scent carried on a current, and by comparing what reaches each nostril slightly apart, the shark can tell which direction the trace is coming from. Following that direction, turn after turn, leads it steadily toward the source."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do many sharks protect their eyes at the moment they bite down on prey?",
+        "body": null,
+        "options": [
+          {
+            "label": "By rolling the eyes back or covering them with a membrane",
+            "feedback": "The vulnerable front of the eye is turned away or shielded right at the instant the jaws close."
+          },
+          {
+            "label": "By closing the mouth more slowly",
+            "feedback": "A slower bite would only make it harder to catch fast-moving prey; it does nothing to guard the eyes."
+          },
+          {
+            "label": "By producing extra tears",
+            "feedback": "Tears would rinse the eye's surface, not shield it from the thrashing of a struggling prey animal."
+          },
+          {
+            "label": "By relying on their skin's toughness around the eye",
+            "feedback": "The eye itself is a soft, delicate structure; the toughness of nearby skin does nothing to protect it directly."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "The eye is turned or covered at the exact moment it is most at risk.",
+        "ko_title": "Look at the timing",
+        "ko_line": "The protection happens right as the jaws close, not before or after.",
+        "exp_title": "Shielded at the moment of the bite",
+        "exp_text": "A struggling prey animal can easily scratch or gouge an eye pressed close against it, so many sharks protect their eyes right as they bite. Some roll their eyeballs backward into the socket so only the tougher rear surface faces outward, while others draw a tough, translucent third eyelid across the front of the eye like a shutter. Either way, the delicate front surface is out of harm's way for the instant the bite actually happens."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a hammerhead shark's unusually shaped head help it hunt?",
+        "body": null,
+        "options": [
+          {
+            "label": "It spreads the eyes, nostrils, and sensing pores wide apart",
+            "feedback": "Sensors set farther apart pick up a clearer difference between one side and the other, which sharpens the shark's sense of direction."
+          },
+          {
+            "label": "It works only as a battering ram against prey",
+            "feedback": "The head shape gives the shark information about its surroundings; ramming plays no role in how it actually finds prey."
+          },
+          {
+            "label": "It stores extra oxygen for long dives",
+            "feedback": "The head carries no gas-storing tissue; oxygen still comes from steady water flow over the gills."
+          },
+          {
+            "label": "It works as a rudder for turning underwater",
+            "feedback": "A shark's fins and tail steer its turns; the head shape is not what changes its direction in the water."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "Wide-set sensors that make direction easier to judge.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think about what having the eyes and nostrils set far apart would do for judging direction.",
+        "exp_title": "Wide-set sensors, a sharper sense of direction",
+        "exp_text": "A hammerhead's flattened, sideways-stretched head carries its eyes, nostrils, and electric-sensing pores much farther apart than on a rounder shark head. Comparing what each side detects, whether scent, electric signal, or the angle of light, becomes easier the farther apart the two sensors sit, in the same way that spacing your ears apart helps you tell where a sound is coming from. That wider spacing sharpens the shark's sense of exactly which direction a hidden prey animal lies in."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Do all sharks give birth to live young?",
+        "body": null,
+        "options": [
+          {
+            "label": "No, some lay eggs that develop and hatch outside the mother",
+            "feedback": "Sharks vary: some carry their young inside until birth, others release eggs to develop on their own."
+          },
+          {
+            "label": "Yes, live birth is the only way any shark reproduces",
+            "feedback": "Some shark species instead lay eggs, in tough leathery cases, that finish developing outside the mother's body."
+          },
+          {
+            "label": "No, every shark lays eggs",
+            "feedback": "Many shark species instead carry their young inside the body and give birth once they are fully formed."
+          },
+          {
+            "label": "It depends only on water temperature, not on species",
+            "feedback": "The pattern is fixed by species, passed down the same way in warm water or cold, not switched by temperature."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Two different routes to the same result: a hatched or born young shark.",
+        "ko_title": "Reconsider",
+        "ko_line": "Think of the leathery cases sometimes found washed up on a beach.",
+        "exp_title": "Two ways to start a life",
+        "exp_text": "Some shark species lay eggs enclosed in a tough, leathery case, often called a mermaid's purse, which is left attached to seaweed or rock while the embryo inside finishes developing entirely on its own. Others keep their eggs inside the body, where the young hatch internally and are born already free-swimming, sometimes nourished the whole time by a placenta-like connection to the mother. Species differ in which of these paths they follow, and the difference is fixed for each one rather than changing with circumstance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a shark need to keep water moving over its gills, much like a bony fish does?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its gills draw dissolved oxygen out of the passing water",
+            "feedback": "Just as in a bony fish, a shark's gills rely on a steady flow of water to keep pulling in fresh oxygen."
+          },
+          {
+            "label": "It breathes air stored inside its cartilage",
+            "feedback": "Cartilage holds no air reserve at all; a shark's oxygen still comes from the water passing over its gills."
+          },
+          {
+            "label": "Moving water helps it digest food faster",
+            "feedback": "Digestion happens in the gut, unrelated to whether water is currently flowing past the gills."
+          },
+          {
+            "label": "Moving water keeps its denticles clean",
+            "feedback": "Keeping the skin's scales free of debris is not the reason water needs to keep moving over the gills."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A shark's gills work the very same way a bony fish's do.",
+        "ko_title": "Reconsider",
+        "ko_line": "A shark's skeleton is different from a bony fish's, but its gills still need the same thing.",
+        "exp_title": "The same gill, a different skeleton",
+        "exp_text": "A shark's gills are built from thin, blood-rich filaments, and just as in any other fish, oxygen dissolved in the surrounding water crosses into the blood only while fresh water keeps flowing past them. Many sharks pump this flow with their mouth and gill slits at rest, while some fast-swimming, open-water species instead rely on forward motion to force water through, and must keep swimming to breathe. Either way, it is the movement of water past the gills, not the shark's cartilage skeleton, that keeps the oxygen supply going."
+      }
+    ]
+  }
+]

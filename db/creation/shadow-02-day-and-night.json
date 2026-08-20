@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 87,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What causes day and night?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Earth turning on its axis",
+            "feedback": "One turn carries you through light and dark."
+          },
+          {
+            "label": "The Earth circling the Sun",
+            "feedback": "That takes a year and gives the seasons."
+          },
+          {
+            "label": "The Sun switching off at night",
+            "feedback": "The Sun shines without pause."
+          },
+          {
+            "label": "The Moon blocking the Sun",
+            "feedback": "That is an eclipse, and it is rare and brief."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Night is simply your side of the planet facing away.",
+        "ko_title": "Not that.",
+        "ko_line": "One of these happens once a day. The others do not.",
+        "exp_title": "You are the one moving",
+        "exp_text": "The Earth turns once in about 24 hours, carrying every place through sunlight and then through its own shadow. Half the planet is always lit and half always dark; sunrise and sunset are simply you crossing the boundary between them. At the equator that boundary sweeps past at about 1,670 km/h, which is how fast you are travelling east while sitting still."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which way does the Earth turn?",
+        "body": null,
+        "options": [
+          {
+            "label": "Eastward",
+            "feedback": "Which is why the Sun appears to rise in the east."
+          },
+          {
+            "label": "Westward",
+            "feedback": "Then the Sun would rise in the west."
+          },
+          {
+            "label": "It changes with the seasons",
+            "feedback": "The direction has never changed."
+          },
+          {
+            "label": "Northward, along its axis",
+            "feedback": "A body cannot spin along its own axis."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "You turn east, so everything in the sky appears to rise there.",
+        "ko_title": "Not it.",
+        "ko_line": "Work backwards from where the Sun comes up.",
+        "exp_title": "Everything rises in the east because we turn east",
+        "exp_text": "The Earth spins eastward, so any fixed point is carried towards the Sun in the morning and away from it in the evening. Everything in the sky follows the same rule — the Moon, the planets and the stars all appear to rise in the east and set in the west, because none of them is really moving that way. On Venus the spin is reversed, and the Sun there rises in the west."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How long does the Earth take to turn once relative to the stars?",
+        "body": null,
+        "options": [
+          {
+            "label": "Just under 24 hours",
+            "feedback": "23 hours and 56 minutes, four minutes short of a day."
+          },
+          {
+            "label": "Exactly 24 hours",
+            "feedback": "That is the turn relative to the Sun, not the stars."
+          },
+          {
+            "label": "Just over 25 hours",
+            "feedback": "Nothing in the day runs that long."
+          },
+          {
+            "label": "12 hours",
+            "feedback": "That is roughly one half-turn."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Four minutes short, and those four minutes explain the whole year.",
+        "ko_title": "Not quite.",
+        "ko_line": "The Earth also moves along its orbit while turning. That costs a little extra.",
+        "exp_title": "Two kinds of day, four minutes apart",
+        "exp_text": "One full turn against the stars takes 23 h 56 min. But the Earth has also travelled a little along its orbit, so it must turn about a degree further to bring the Sun back overhead — hence the 24-hour solar day. Those four minutes accumulate: stars rise four minutes earlier each night, two hours earlier each month, and a whole cycle across the year, which is why the constellations change with the season."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is it not the same time everywhere on Earth at once?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Sun is overhead at different places",
+            "feedback": "Noon arrives westward as the planet turns."
+          },
+          {
+            "label": "Clocks run at different rates",
+            "feedback": "A second is the same length everywhere."
+          },
+          {
+            "label": "The Sun moves across the sky unevenly",
+            "feedback": "Its apparent motion is nearly constant."
+          },
+          {
+            "label": "Light takes time to cross the Earth",
+            "feedback": "It crosses the planet in a tenth of a second."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Noon is a place as much as a moment.",
+        "ko_title": "Not it.",
+        "ko_line": "Ask when the Sun is highest for you, and when it is highest for someone far east.",
+        "exp_title": "Noon travels westward",
+        "exp_text": "Noon is the moment the Sun stands highest, and that moment reaches each meridian in turn as the planet rotates, sweeping westward around the globe. Two towns a few hundred kilometres apart genuinely have noon at different instants. Every town once kept its own time by the Sun, and it worked perfectly well until railways made it impossible to write a timetable."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where does the Sun stay above the horizon for months at a time?",
+        "body": null,
+        "options": [
+          {
+            "label": "Inside the polar circles",
+            "feedback": "The tilt keeps those regions lit all summer."
+          },
+          {
+            "label": "At the equator",
+            "feedback": "There the day is close to twelve hours all year."
+          },
+          {
+            "label": "On the highest mountains",
+            "feedback": "Height buys minutes, not months."
+          },
+          {
+            "label": "In the middle of the oceans",
+            "feedback": "The sea follows the same rules as the land."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Far enough north or south, the Sun stops setting altogether.",
+        "ko_title": "Not that.",
+        "ko_line": "It depends on latitude, and on the tilt of the Earth's axis.",
+        "exp_title": "The Sun that will not set",
+        "exp_text": "The Earth's axis is tilted about 23.5 degrees, so in summer the pole leans towards the Sun and regions inside the polar circle stay lit as the planet turns — the Sun circles the sky without touching the horizon. At the pole itself this lasts about six months, followed by six months of night. The far north and south get the same total daylight per year as anywhere else, delivered in two enormous instalments."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the sky dark at night if there are billions of stars?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are unimaginably far away",
+            "feedback": "Brightness falls off steeply with distance."
+          },
+          {
+            "label": "Most stars are switched off at night",
+            "feedback": "Stars shine continuously."
+          },
+          {
+            "label": "The Earth's shadow blocks them",
+            "feedback": "That shadow is what makes night, and stars are outside it."
+          },
+          {
+            "label": "The Moon outshines them all",
+            "feedback": "The sky is still dark on a moonless night."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Distance, and a universe that has not been around forever.",
+        "ko_title": "Not it.",
+        "ko_line": "The stars are there. Ask why so little of their light arrives.",
+        "exp_title": "A very old question",
+        "exp_text": "If the universe were infinite, unchanging and eternally old, every line of sight would end on a star and the whole sky would blaze. That it does not is called Olbers' paradox, and the resolution is that the universe has a finite age — light from the most distant regions has not had time to arrive — and expansion has stretched much of what does arrive out of the visible range. The darkness of the night sky is evidence that the universe began."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the stars appear to wheel around one point in the sky?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Earth turns beneath them",
+            "feedback": "That point lies on the axis you are spinning around."
+          },
+          {
+            "label": "The stars orbit that point",
+            "feedback": "They are far too distant to circle anything nearby."
+          },
+          {
+            "label": "The sky rotates as a solid shell",
+            "feedback": "There is no shell. The stars lie at every distance."
+          },
+          {
+            "label": "The atmosphere drags them round",
+            "feedback": "Air cannot move objects light-years away."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "You are on a turning platform, and that point is your axle.",
+        "ko_title": "Not that.",
+        "ko_line": "Nothing up there is moving in a circle. Something down here is turning.",
+        "exp_title": "Looking straight up your own axis",
+        "exp_text": "The Earth's axis points at a fixed spot among the stars, and everything appears to circle it because you are the one rotating. In the north that spot happens to be marked by Polaris, which barely moves all night and stands at an altitude equal to your latitude — a fact that let sailors find their position for centuries. The southern sky has no bright equivalent."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the Moon show the same face to us at all times?",
+        "body": null,
+        "options": [
+          {
+            "label": "It turns once per orbit",
+            "feedback": "Its spin and its orbit take exactly the same time."
+          },
+          {
+            "label": "It does not turn at all",
+            "feedback": "Then we would see every side of it in turn."
+          },
+          {
+            "label": "The far side is always dark",
+            "feedback": "The far side gets as much sunlight as the near one."
+          },
+          {
+            "label": "Earth's shadow hides the far side",
+            "feedback": "The shadow reaches it only during an eclipse."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "It does turn — at exactly the rate that keeps one face towards us.",
+        "ko_title": "Not it.",
+        "ko_line": "Walk around a chair while always facing it. Did you turn?",
+        "exp_title": "Locked by the tides",
+        "exp_text": "The Moon rotates once every 27.3 days, exactly the time it takes to orbit, so the same hemisphere always faces us. This is not coincidence: Earth's gravity raised a bulge on the Moon and slowly braked its spin until the two periods matched, a state called tidal locking that is common among moons. The far side is not dark — it gets the same sunlight, just never while we are watching."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is happening when the Moon is visible in the daytime sky?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is simply above the horizon",
+            "feedback": "It rises and sets on its own schedule, day or night."
+          },
+          {
+            "label": "Something has gone wrong",
+            "feedback": "It is entirely ordinary, and happens most months."
+          },
+          {
+            "label": "It is closer than usual",
+            "feedback": "Distance has nothing to do with when it is up."
+          },
+          {
+            "label": "It is being eclipsed",
+            "feedback": "An eclipse is a different event altogether."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Nothing unusual. It was always going to be up at some point.",
+        "ko_title": "Not that.",
+        "ko_line": "The Moon keeps its own timetable, and it does not consult the Sun.",
+        "exp_title": "The Moon keeps its own hours",
+        "exp_text": "The Moon rises about fifty minutes later each day as it moves along its orbit, so it spends part of each month above the horizon during daylight. A first-quarter Moon rises around noon and is high in the afternoon sky. It looks pale because the daytime sky is bright, not because the Moon is faint. Only the full Moon is reliably a night-time object, since being opposite the Sun it rises as the Sun sets."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a day on Earth grow very slightly longer over time?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tides are braking the spin",
+            "feedback": "Friction from the ocean bulge slows the Earth."
+          },
+          {
+            "label": "The Earth is getting heavier",
+            "feedback": "Its mass is very nearly constant."
+          },
+          {
+            "label": "The Sun is pulling harder",
+            "feedback": "The Sun's pull is essentially unchanged."
+          },
+          {
+            "label": "The atmosphere is thickening",
+            "feedback": "Air has no grip on the planet's rotation."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The Moon is dragging on our oceans, and it costs us spin.",
+        "ko_title": "Not it.",
+        "ko_line": "Something raises a bulge of water that the turning Earth has to drag around.",
+        "exp_title": "The Moon is slowing us down",
+        "exp_text": "The Moon raises a tidal bulge in the oceans, and the turning Earth drags that bulge slightly ahead of it. The friction costs the Earth rotation — about 1.7 milliseconds per century — and the energy is handed to the Moon, which drifts some 3.8 cm further away each year. Fossil corals record daily growth bands showing that a year once held around 400 days. Both effects were measured directly with mirrors left on the lunar surface."
+      }
+    ]
+  }
+]

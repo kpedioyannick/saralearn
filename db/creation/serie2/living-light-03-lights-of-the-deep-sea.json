@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 222,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What organ on a deep-sea fish produces its own light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Gill",
+            "feedback": "The gill is for breathing, not for making light. The light comes from a special organ called a photophore."
+          },
+          {
+            "label": "Fin ray",
+            "feedback": "Fin rays support the fin, they do not glow. The light-producing organ is the photophore, which sits on the skin or on a lure."
+          },
+          {
+            "label": "Photophore",
+            "feedback": "Correct. A photophore is a light-producing organ found on many deep-sea animals, often containing glowing bacteria or light-making cells."
+          },
+          {
+            "label": "Lens",
+            "feedback": "A lens focuses light, but it does not create it. Deep-sea animals that make light use photophores instead."
+          }
+        ],
+        "ok_title": "Light organ named",
+        "ok_line": "A photophore is the organ that makes light.",
+        "ko_title": "Organ misidentified",
+        "ko_line": "The light organ is not a gill, fin, or lens.",
+        "exp_title": "Photophores",
+        "exp_text": "Photophores are the light-producing organs of deep-sea animals. They can be scattered on the body, line the belly, or sit on a lure. Inside, they either contain glowing bacteria or cells that make light themselves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In what state is the light-producing chemical inside most bioluminescent animals?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Gas",
+            "feedback": "Bioluminescent chemicals are not gases. They are stored as solids or liquids, and the light is produced when they react together."
+          },
+          {
+            "label": "Liquid or solid",
+            "feedback": "Correct. The glowing chemicals, like luciferin, are stored in a solid or liquid form inside the animal's body, ready to react."
+          },
+          {
+            "label": "Plasma",
+            "feedback": "Plasma is a very hot, ionized gas, not something found in a living cell. The glowing chemicals are ordinary solids or liquids."
+          },
+          {
+            "label": "Vapour",
+            "feedback": "Vapour is a gas form of a substance, but bioluminescent chemicals are not vapours. They stay as liquids or solids until they react."
+          }
+        ],
+        "ok_title": "Chemical state",
+        "ok_line": "Luciferin and luciferase are stored as solids or liquids.",
+        "ko_title": "Wrong state",
+        "ko_line": "The glowing chemicals are not gases or plasma.",
+        "exp_title": "Bioluminescent chemicals",
+        "exp_text": "Luciferin and luciferase are the two main chemicals in most bioluminescence. They are stored in cells as solids or liquids, and when they mix with oxygen, they react and give off light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour of light travels farthest through seawater?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Blue",
+            "feedback": "Correct. Blue light penetrates seawater the best, so deep-sea animals that glow use blue to be seen over the greatest distance."
+          },
+          {
+            "label": "Red",
+            "feedback": "Red light is absorbed quickly by water and does not travel far. That is why only a few animals, like the dragonfish, use red light."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green light travels reasonably well, but blue still goes farther in most ocean water. Blue is the standard deep-sea colour."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow light is absorbed faster than blue in seawater. Deep-sea glowing animals almost all use blue, not yellow."
+          }
+        ],
+        "ok_title": "Farthest colour",
+        "ok_line": "Blue light travels farthest in seawater.",
+        "ko_title": "Wrong colour",
+        "ko_line": "Blue penetrates water better than any other colour.",
+        "exp_title": "Blue penetration",
+        "exp_text": "Water absorbs light of different colours at different rates. Blue is absorbed the least, so it travels the farthest. That is why nearly all deep-sea bioluminescence is blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What part of the anglerfish actually produces the light in its lure?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Its eye",
+            "feedback": "The eye does not produce light. The glow comes from bacteria living in the lure, not from the fish's eyes."
+          },
+          {
+            "label": "Its skin",
+            "feedback": "The skin is not the light source. The light is made by glowing bacteria that live inside the lure itself."
+          },
+          {
+            "label": "Its teeth",
+            "feedback": "Teeth do not glow in an anglerfish. The light comes from bacteria in the fleshy lure that hangs in front of its mouth."
+          },
+          {
+            "label": "Bacteria inside the lure",
+            "feedback": "Correct. The anglerfish's lure contains glowing bacteria, which make the light that attracts prey."
+          }
+        ],
+        "ok_title": "Lure light source",
+        "ok_line": "Bacteria inside the lure make the glow.",
+        "ko_title": "Wrong source",
+        "ko_line": "The light is not from the eye, skin, or teeth.",
+        "exp_title": "Anglerfish lure",
+        "exp_text": "The anglerfish has a fleshy rod on its head with a glowing tip. The glow comes from bacteria living inside that tip. The fish waves the lure to attract smaller animals close enough to catch."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the most abundant fish in the deep sea?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Anglerfish",
+            "feedback": "Anglerfish are well known, but they are not the most numerous. The bristlemouth is far more abundant in the deep sea."
+          },
+          {
+            "label": "Dragonfish",
+            "feedback": "Dragonfish are predators with red light, but they are not the most abundant. Bristlemouths hold that record."
+          },
+          {
+            "label": "Bristlemouth",
+            "feedback": "Correct. Bristlemouths are tiny fish with rows of light organs, and they are the most abundant fish in the deep sea."
+          },
+          {
+            "label": "Hatchetfish",
+            "feedback": "Hatchetfish are common but not the most abundant. Bristlemouths outnumber them greatly."
+          }
+        ],
+        "ok_title": "Most abundant fish",
+        "ok_line": "Bristlemouths are the most abundant deep-sea fish.",
+        "ko_title": "Not the commonest",
+        "ko_line": "Other fish are more numerous than the one chosen.",
+        "exp_title": "Bristlemouth abundance",
+        "exp_text": "Bristlemouths are small, silvery fish with many photophores along their bellies. They occur in enormous numbers throughout the deep sea, making them the most abundant fish in that zone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What substance in a firefly's lantern reacts with oxygen to make light?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Melanin",
+            "feedback": "Melanin is a pigment that darkens skin, not a light-maker. The firefly uses luciferin instead."
+          },
+          {
+            "label": "Luciferin",
+            "feedback": "Correct. Luciferin is the chemical that, with oxygen and the enzyme luciferase, produces the firefly's light."
+          },
+          {
+            "label": "Chlorophyll",
+            "feedback": "Chlorophyll is the green pigment plants use for photosynthesis. It does not make light in fireflies."
+          },
+          {
+            "label": "Hemoglobin",
+            "feedback": "Hemoglobin carries oxygen in blood, but it does not glow. The light comes from luciferin."
+          }
+        ],
+        "ok_title": "Glowing chemical",
+        "ok_line": "Luciferin reacts with oxygen to produce light.",
+        "ko_title": "Wrong substance",
+        "ko_line": "The light-maker in a firefly is luciferin, not those.",
+        "exp_title": "Firefly luciferin",
+        "exp_text": "Luciferin is the light-producing molecule in fireflies. When it reacts with oxygen, helped by the enzyme luciferase, it gives off light without heat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a female firefly's flash pattern tell a male of her own species?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Her age",
+            "feedback": "The flash pattern does not tell the male her age. It tells him that she is of his species and ready to mate."
+          },
+          {
+            "label": "Her location only",
+            "feedback": "The flash does show where she is, but it mainly tells the male she is the right species. The pattern is a species signal."
+          },
+          {
+            "label": "Her size",
+            "feedback": "A female's flash does not signal her size. It signals her species and her willingness to mate."
+          },
+          {
+            "label": "That she is of his species and ready to mate",
+            "feedback": "Correct. Each firefly species has its own flash pattern, and a female's answering flash tells the male she is the same species and available."
+          }
+        ],
+        "ok_title": "Signal meaning",
+        "ok_line": "The flash says she is the same species and ready.",
+        "ko_title": "Wrong signal",
+        "ko_line": "The flash is about species and mating, not age or size.",
+        "exp_title": "Firefly courtship",
+        "exp_text": "Male fireflies fly and flash in search of females. A female of the same species answers with her own flash pattern, which tells the male she is of his species and ready to mate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a Photuris female lure in males of other firefly species?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "By mimicking their female's flash pattern",
+            "feedback": "Correct. A Photuris female copies the flash pattern of another species to attract its males, then eats them."
+          },
+          {
+            "label": "By shining a steady bright light",
+            "feedback": "A steady light is not how Photuris tricks other males. It copies specific flash patterns instead."
+          },
+          {
+            "label": "By producing a strong smell",
+            "feedback": "Smell plays no role in this trick. The deception is visual, using fake flash patterns."
+          },
+          {
+            "label": "By glowing from the ground continuously",
+            "feedback": "Continuous glow would not fool another species. The trick is reproducing their exact flashing rhythm."
+          }
+        ],
+        "ok_title": "Deceptive flashing",
+        "ok_line": "She copies the female flashes of other species.",
+        "ko_title": "Wrong trick",
+        "ko_line": "The lure is a copied flash pattern, not light or smell.",
+        "exp_title": "Photuris deception",
+        "exp_text": "Female Photuris fireflies are aggressive mimics. They watch the flashes of another species' female and copy them, so males of that species come close and are caught and eaten."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do New Zealand cave glow-worms use their glowing threads for?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To attract mates",
+            "feedback": "Cave glow-worms do not use light for mating. They use it to lure prey into their sticky threads."
+          },
+          {
+            "label": "To scare away predators",
+            "feedback": "The glow is not a defence. It serves to attract flying insects that get caught in the threads."
+          },
+          {
+            "label": "To lure prey into their sticky threads",
+            "feedback": "Correct. The glow attracts small flying insects, which become trapped in the hanging sticky threads and are then eaten."
+          },
+          {
+            "label": "To light their way in the cave",
+            "feedback": "The glow-worm does not need light to see. The glow is a hunting tool to catch prey."
+          }
+        ],
+        "ok_title": "Glow-worm purpose",
+        "ok_line": "The glow lures insects into sticky threads.",
+        "ko_title": "Wrong purpose",
+        "ko_line": "The light attracts prey, not mates or safety.",
+        "exp_title": "Cave glow-worm hunting",
+        "exp_text": "New Zealand cave glow-worms hang sticky threads from the cave ceiling. Their own glow attracts small flying insects, which fly toward the light and get stuck in the threads."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why are firefly populations decreasing in many areas?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because they glow too brightly",
+            "feedback": "Glowing brightly does not reduce their numbers. The real cause is human changes to their habitat."
+          },
+          {
+            "label": "Loss of habitat and artificial lights",
+            "feedback": "Correct. Fireflies lose their homes when land is built on, and artificial lights confuse their flashing signals, so they struggle to mate."
+          },
+          {
+            "label": "Because they are hunted by people",
+            "feedback": "People do not hunt fireflies in large numbers. Their decline comes from habitat loss and light pollution."
+          },
+          {
+            "label": "Because they run out of luciferin",
+            "feedback": "Fireflies make their own luciferin, so they do not run out. The problem is environmental, not chemical."
+          }
+        ],
+        "ok_title": "Firefly decline",
+        "ok_line": "Habitat loss and light pollution hurt them.",
+        "ko_title": "Wrong cause",
+        "ko_line": "Their decline is from environment changes, not brightness.",
+        "exp_title": "Firefly threats",
+        "exp_text": "Firefly numbers drop because their meadows and wetlands are drained or built over, and because streetlights and house lights drown out their flashing signals, making it hard for males and females to find each other."
+      }
+    ]
+  }
+]

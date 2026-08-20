@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the correct order of the eight planets starting from the one closest to the Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+            "feedback": "That's right. From closest to farthest: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+          },
+          {
+            "label": "Venus, Mercury, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+            "feedback": "Not quite. Mercury is closest to the Sun, not Venus. Venus is second."
+          },
+          {
+            "label": "Mercury, Venus, Earth, Mars, Saturn, Jupiter, Uranus, Neptune",
+            "feedback": "Almost, but the order of the gas giants is wrong. Jupiter comes before Saturn."
+          },
+          {
+            "label": "Neptune, Uranus, Saturn, Jupiter, Mars, Earth, Venus, Mercury",
+            "feedback": "That's reversed. You listed them from farthest to closest instead of closest to farthest."
+          }
+        ],
+        "ok_title": "Correct Order",
+        "ok_line": "The planets line up from Mercury to Neptune.",
+        "ko_title": "Check the order",
+        "ko_line": "Remember Mercury is first, Neptune is last.",
+        "exp_title": "Planetary Order",
+        "exp_text": "From the Sun outward, the eight planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. This is the standard sequence used in astronomy to describe the solar system's layout."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet is known for having the most prominent and easily visible rings?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Jupiter",
+            "feedback": "Jupiter does have faint rings, but they are not the most prominent. Saturn's rings are the ones that are large and bright."
+          },
+          {
+            "label": "Saturn",
+            "feedback": "Correct. Saturn's rings are made of countless icy chunks and are the largest and brightest in the solar system."
+          },
+          {
+            "label": "Uranus",
+            "feedback": "Uranus has rings too, but they are narrow and dim, not nearly as visible as Saturn's."
+          },
+          {
+            "label": "Neptune",
+            "feedback": "Neptune has faint rings, but they are not prominent. Saturn is the ringed planet you can see easily."
+          }
+        ],
+        "ok_title": "Saturn's Rings",
+        "ok_line": "Saturn's rings are the most striking.",
+        "ko_title": "Not the faint ones",
+        "ko_line": "Think of the big bright rings, not thin ones.",
+        "exp_title": "Ringed Planet",
+        "exp_text": "Saturn is famous for its extensive ring system, composed of billions of ice particles ranging in size from tiny grains to large boulders, making it the most visible ringed planet from Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet is called the Red Planet because of its surface color?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Venus",
+            "feedback": "Venus appears yellow-white due to its thick clouds, not red. The red surface belongs to Mars."
+          },
+          {
+            "label": "Jupiter",
+            "feedback": "Jupiter shows bands of browns and creams, not red overall. Mars is the one with the reddish surface."
+          },
+          {
+            "label": "Mars",
+            "feedback": "Correct. Mars is covered with iron-rich dust that gives it a reddish appearance, earning it the nickname the Red Planet."
+          },
+          {
+            "label": "Mercury",
+            "feedback": "Mercury is grayish, like the Moon, not red. The red surface is on Mars."
+          }
+        ],
+        "ok_title": "Red Planet",
+        "ok_line": "Mars gets its red color from iron oxide.",
+        "ko_title": "Not the gray or yellow",
+        "ko_line": "The reddish tint is unique to Mars.",
+        "exp_title": "Mars's Color",
+        "exp_text": "Mars's surface is rich in iron oxide, or rust, which reflects sunlight in a way that makes the planet appear red. This is why it is commonly called the Red Planet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the largest planet in the solar system?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Jupiter",
+            "feedback": "Correct. Jupiter is more than twice as massive as all the other planets combined and has the largest diameter."
+          },
+          {
+            "label": "Saturn",
+            "feedback": "Saturn is the second largest, but Jupiter is significantly bigger in both size and mass."
+          },
+          {
+            "label": "Neptune",
+            "feedback": "Neptune is the smallest of the gas giants, so it is not the largest. Jupiter holds that title."
+          },
+          {
+            "label": "Earth",
+            "feedback": "Earth is a rocky planet and tiny compared to the gas giants. Jupiter is the largest."
+          }
+        ],
+        "ok_title": "Largest Planet",
+        "ok_line": "Jupiter is the biggest of the eight.",
+        "ko_title": "Not the second biggest",
+        "ko_line": "Jupiter outranks all others in size.",
+        "exp_title": "Jupiter's Size",
+        "exp_text": "Jupiter is the largest planet in the solar system, with a diameter about 11 times that of Earth. Its mass is greater than all other planets combined, making it the dominant giant."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet has the shortest year, meaning it orbits the Sun faster than any other?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Venus",
+            "feedback": "Venus takes about 225 Earth days, which is longer than Mercury's 88 days. Mercury is faster."
+          },
+          {
+            "label": "Mercury",
+            "feedback": "Correct. Mercury is closest to the Sun and completes its orbit in about 88 Earth days, the shortest year of any planet."
+          },
+          {
+            "label": "Mars",
+            "feedback": "Mars takes about 687 Earth days, which is much longer than Mercury's year. Mercury is the fastest."
+          },
+          {
+            "label": "Earth",
+            "feedback": "Earth takes 365 days, far longer than Mercury. The closest planet goes around the Sun the quickest."
+          }
+        ],
+        "ok_title": "Fastest Orbit",
+        "ok_line": "Mercury circles the Sun in 88 days.",
+        "ko_title": "Check the distance",
+        "ko_line": "Closer to the Sun means a shorter year.",
+        "exp_title": "Mercury's Year",
+        "exp_text": "Mercury, being the closest planet to the Sun, travels the shortest orbital path and at high speed, completing a full revolution in about 88 Earth days—the shortest year among the eight planets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet is the hottest in the solar system?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mercury",
+            "feedback": "Mercury is close to the Sun and gets very hot, but it lacks a thick atmosphere to trap heat, so it is not the hottest."
+          },
+          {
+            "label": "Venus",
+            "feedback": "Correct. Venus has a thick carbon dioxide atmosphere that creates a runaway greenhouse effect, making it hotter than Mercury despite being farther from the Sun."
+          },
+          {
+            "label": "Mars",
+            "feedback": "Mars is cold, with average temperatures far below freezing. Venus is the hottest planet."
+          },
+          {
+            "label": "Jupiter",
+            "feedback": "Jupiter is far from the Sun and very cold. Venus is the hottest due to its greenhouse effect."
+          }
+        ],
+        "ok_title": "Hottest Planet",
+        "ok_line": "Venus's thick atmosphere traps heat.",
+        "ko_title": "Not the closest",
+        "ko_line": "Distance isn't the only factor; Venus wins.",
+        "exp_title": "Venus's Heat",
+        "exp_text": "Venus's surface temperature averages about 465°C due to a dense atmosphere of carbon dioxide that traps solar heat, making it the hottest planet even though it is not the closest to the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many planets have rings around them?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Four",
+            "feedback": "Correct. All four gas giants—Jupiter, Saturn, Uranus, and Neptune—have ring systems, though Saturn's are the most visible."
+          },
+          {
+            "label": "One",
+            "feedback": "Saturn is the most famous, but the other three gas giants also have rings, so it's more than one."
+          },
+          {
+            "label": "Two",
+            "feedback": "Only Saturn and Jupiter have confirmed rings, but Uranus and Neptune also have them, making it four."
+          },
+          {
+            "label": "Eight",
+            "feedback": "No planet has rings; only gas giants do. The rocky planets like Earth and Mars have no rings."
+          }
+        ],
+        "ok_title": "Ring Systems",
+        "ok_line": "All gas giants have rings.",
+        "ko_title": "Not just Saturn",
+        "ko_line": "Jupiter, Uranus, and Neptune have rings too.",
+        "exp_title": "Planets with Rings",
+        "exp_text": "The four gas giants—Jupiter, Saturn, Uranus, and Neptune—all possess ring systems composed of particles of various sizes. Saturn's rings are the brightest and easiest to see, but the others have fainter ones."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two planets are known as the ice giants?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Jupiter and Saturn",
+            "feedback": "Those are the gas giants, made mostly of hydrogen and helium. The ice giants are farther out."
+          },
+          {
+            "label": "Mars and Jupiter",
+            "feedback": "Mars is a rocky planet and Jupiter is a gas giant. The ice giants are Uranus and Neptune."
+          },
+          {
+            "label": "Uranus and Neptune",
+            "feedback": "Correct. Uranus and Neptune are called ice giants because they are composed largely of water, methane, and ammonia ices."
+          },
+          {
+            "label": "Venus and Earth",
+            "feedback": "Those are rocky planets, not giants at all. The ice giants are the farthest two planets."
+          }
+        ],
+        "ok_title": "Ice Giants",
+        "ok_line": "Uranus and Neptune are the ice giants.",
+        "ko_title": "Not the gas giants",
+        "ko_line": "Ice giants are farther out and different.",
+        "exp_title": "Ice Giants Defined",
+        "exp_text": "Uranus and Neptune are classified as ice giants because their interiors are mostly ices of water, methane, and ammonia, unlike the gas giants Jupiter and Saturn, which are predominantly hydrogen and helium."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main component of Jupiter's atmosphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide dominates Venus's atmosphere, not Jupiter's. Jupiter is mostly hydrogen."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is not the main gas on Jupiter. Hydrogen is by far the most abundant."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen is Earth's main atmospheric gas, not Jupiter's. Jupiter is hydrogen-rich."
+          },
+          {
+            "label": "Hydrogen",
+            "feedback": "Correct. Jupiter's atmosphere is about 90% hydrogen and 10% helium, making it the most abundant element."
+          }
+        ],
+        "ok_title": "Jupiter's Air",
+        "ok_line": "Hydrogen makes up most of Jupiter.",
+        "ko_title": "Wrong gas",
+        "ko_line": "Jupiter is not like Earth or Venus.",
+        "exp_title": "Jupiter's Composition",
+        "exp_text": "Jupiter's atmosphere is primarily hydrogen, with helium as the second most common gas, along with trace amounts of methane and ammonia. This composition reflects its origin from the solar nebula."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet has the most moons?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Saturn",
+            "feedback": "Correct. As of recent counts, Saturn has the most confirmed moons, surpassing Jupiter. It has over 140 confirmed moons."
+          },
+          {
+            "label": "Jupiter",
+            "feedback": "Jupiter has many moons, but Saturn now holds the record with more confirmed moons than Jupiter."
+          },
+          {
+            "label": "Uranus",
+            "feedback": "Uranus has about 27 moons, far fewer than Saturn's count."
+          },
+          {
+            "label": "Neptune",
+            "feedback": "Neptune has about 14 known moons, much less than Saturn's total."
+          }
+        ],
+        "ok_title": "Most Moons",
+        "ok_line": "Saturn leads in moon count.",
+        "ko_title": "Not Jupiter anymore",
+        "ko_line": "Saturn surpassed Jupiter in confirmed moons.",
+        "exp_title": "Moon Counts",
+        "exp_text": "Saturn currently has the highest number of confirmed moons, over 140, due to ongoing discoveries. Jupiter follows closely with around 95, but Saturn takes the lead in current tallies."
+      }
+    ]
+  }
+]

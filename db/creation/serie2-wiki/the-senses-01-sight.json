@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 249,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the first part of the eye that light enters through?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The cornea",
+            "feedback": "Correct. Light enters the eye through the clear cornea at the front."
+          },
+          {
+            "label": "The lens",
+            "feedback": "The lens is behind the cornea; light must pass through the cornea first before reaching the lens."
+          },
+          {
+            "label": "The retina",
+            "feedback": "The retina is at the back of the eye, where light lands after focusing, not where it enters."
+          },
+          {
+            "label": "The optic nerve",
+            "feedback": "The optic nerve carries signals from the retina to the brain; it is not an entry point for light."
+          }
+        ],
+        "ok_title": "Light entry point",
+        "ok_line": "The cornea is the clear front window of the eye.",
+        "ko_title": "Check eye anatomy",
+        "ko_line": "Light enters through the front, not the back or the nerve.",
+        "exp_title": "Cornea as entry",
+        "exp_text": "The cornea is the transparent front surface of the eye. Light passes through it first on its way to the lens and retina."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the eye focuses light onto the retina?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The cornea",
+            "feedback": "The cornea does help focus light, but it is the lens that does the main focusing onto the retina."
+          },
+          {
+            "label": "The lens",
+            "feedback": "Correct. The lens focuses light so it lands sharply on the retina."
+          },
+          {
+            "label": "The retina",
+            "feedback": "The retina is the light-sensitive surface where the focused image forms; it does not focus light itself."
+          },
+          {
+            "label": "The optic nerve",
+            "feedback": "The optic nerve transmits signals from the retina; it plays no role in focusing light."
+          }
+        ],
+        "ok_title": "Focusing part",
+        "ok_line": "The lens bends light to form a clear image on the retina.",
+        "ko_title": "Where light focuses",
+        "ko_line": "Focusing happens in the lens, not at the back or the nerve.",
+        "exp_title": "Lens function",
+        "exp_text": "The lens sits behind the cornea and changes shape to bend incoming light so that it converges on the retina, producing a clear image."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the retina mainly made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Muscle tissue",
+            "feedback": "Muscle tissue moves the eye or changes the lens shape, but the retina itself is not muscular."
+          },
+          {
+            "label": "Bone",
+            "feedback": "Bone forms the skull around the eye, not the retina inside it."
+          },
+          {
+            "label": "Light-sensitive cells",
+            "feedback": "Correct. The retina is a light-sensitive membrane containing photoreceptor cells that detect light."
+          },
+          {
+            "label": "Nerve fibers only",
+            "feedback": "Nerve fibers carry signals away, but the retina's key feature is its light-sensitive cells that start those signals."
+          }
+        ],
+        "ok_title": "Retina's nature",
+        "ok_line": "The retina detects light with its photoreceptor cells.",
+        "ko_title": "Retina composition",
+        "ko_line": "It is the light-sensitive layer, not muscle or bone.",
+        "exp_title": "Retina as sensor",
+        "exp_text": "The retina is a thin, light-sensitive membrane at the back of the eye. It contains specialized cells that convert incoming light into neural signals."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cells in the retina allow you to see in dim light?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cone cells",
+            "feedback": "Cone cells work best in bright light and give color vision, not in dim light."
+          },
+          {
+            "label": "Ganglion cells",
+            "feedback": "Ganglion cells are nerve cells that send signals from the retina; they do not detect light directly for dim vision."
+          },
+          {
+            "label": "Bipolar cells",
+            "feedback": "Bipolar cells pass signals between photoreceptors and ganglion cells; they are not the light detectors for dim conditions."
+          },
+          {
+            "label": "Rod cells",
+            "feedback": "Correct. Rod cells are photoreceptors that enable scotopic vision, which is night vision."
+          }
+        ],
+        "ok_title": "Dim light cells",
+        "ok_line": "Rods are the photoreceptors for night vision.",
+        "ko_title": "Rod vs cone",
+        "ko_line": "Rods handle dim light; cones handle bright light and color.",
+        "exp_title": "Rod cells for night",
+        "exp_text": "Rod cells are photoreceptors in the retina that are highly sensitive to low light levels. They allow scotopic, or night, vision, whereas cone cells support daytime vision."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do photoreceptor cells in the retina do with light?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They convert it into neural impulses",
+            "feedback": "Correct. Photoreceptors act as transducers, changing light energy into electrical nerve signals."
+          },
+          {
+            "label": "They reflect it back out of the eye",
+            "feedback": "Photoreceptors absorb light to detect it; they do not reflect it back outward."
+          },
+          {
+            "label": "They store it as chemical energy",
+            "feedback": "They do not store light; they transform it into signals for the brain."
+          },
+          {
+            "label": "They focus it onto the lens",
+            "feedback": "Focusing is done by the lens and cornea, not by the photoreceptors at the back."
+          }
+        ],
+        "ok_title": "Photoreceptor job",
+        "ok_line": "Photoreceptors turn light into nerve signals.",
+        "ko_title": "What they do",
+        "ko_line": "They transduce light, not reflect or store it.",
+        "exp_title": "Transduction role",
+        "exp_text": "Photoreceptor cells in the retina are transducers: they take incoming light and convert it into neural impulses that travel to the brain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which structure carries visual signals from the retina to the brain?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The lens",
+            "feedback": "The lens focuses light but does not carry signals; it is not a nerve pathway."
+          },
+          {
+            "label": "The optic nerve",
+            "feedback": "Correct. The optic nerve transmits signals from the retina to the brain."
+          },
+          {
+            "label": "The cornea",
+            "feedback": "The cornea is the front clear surface; it has no role in signal transmission."
+          },
+          {
+            "label": "The retina itself",
+            "feedback": "The retina contains photoreceptors and sends signals, but it is the optic nerve that carries them onward to the brain."
+          }
+        ],
+        "ok_title": "Signal pathway",
+        "ok_line": "The optic nerve sends visual information to the brain.",
+        "ko_title": "Which nerve",
+        "ko_line": "It's the optic nerve, not the lens or cornea.",
+        "exp_title": "Optic nerve role",
+        "exp_text": "After photoreceptors generate signals, the optic nerve collects them from the retina and transmits them to the brain for processing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain first receives signals from the lateral geniculate nucleus?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum coordinates movement; it is not the destination for visual signals from the geniculate nucleus."
+          },
+          {
+            "label": "The superior colliculus",
+            "feedback": "The superior colliculus receives signals directly from the retina, not from the lateral geniculate nucleus."
+          },
+          {
+            "label": "The primary visual cortex",
+            "feedback": "Correct. The lateral geniculate nucleus sends signals to the primary visual cortex, also called the striate cortex."
+          },
+          {
+            "label": "The spinal cord",
+            "feedback": "The spinal cord carries body signals, not visual processing from the geniculate nucleus."
+          }
+        ],
+        "ok_title": "Visual cortex entry",
+        "ok_line": "Signals go from the geniculate nucleus to the primary visual cortex.",
+        "ko_title": "Brain path",
+        "ko_line": "The next stop is the visual cortex, not other areas.",
+        "exp_title": "Lateral geniculate to cortex",
+        "exp_text": "The lateral geniculate nucleus is a relay station in the brain that forwards visual information to the primary visual cortex, where early visual processing begins."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the extrastriate cortex do with visual information?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It focuses light onto the retina",
+            "feedback": "Focusing light happens in the eye, not in the brain's cortex."
+          },
+          {
+            "label": "It creates the image on the retina",
+            "feedback": "The retinal image forms in the eye; the cortex processes that information afterward."
+          },
+          {
+            "label": "It sends signals back to the cornea",
+            "feedback": "The cortex does not send signals back to the eye's front structures."
+          },
+          {
+            "label": "It processes visual information further",
+            "feedback": "Correct. The extrastriate cortex receives information from the striate cortex and processes it further."
+          }
+        ],
+        "ok_title": "Extrastriate role",
+        "ok_line": "The extrastriate cortex handles advanced visual processing.",
+        "ko_title": "What it does",
+        "ko_line": "It processes, not focuses or reflects light.",
+        "exp_title": "Further processing",
+        "exp_text": "The extrastriate cortex, also called visual association cortex, receives input from the primary visual cortex and continues processing, helping interpret what is seen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two functional pathways proposed by the two streams hypothesis?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A ventral and a dorsal pathway",
+            "feedback": "Correct. The two streams hypothesis divides visual association cortex into ventral and dorsal pathways."
+          },
+          {
+            "label": "A left and a right pathway",
+            "feedback": "Left and right refer to brain hemispheres, not the two visual streams."
+          },
+          {
+            "label": "A cone and a rod pathway",
+            "feedback": "Cone and rod are retinal photoreceptors, not cortical pathways."
+          },
+          {
+            "label": "A near and a far pathway",
+            "feedback": "Near and far describe depth, not the functional divisions of visual association cortex."
+          }
+        ],
+        "ok_title": "Two streams",
+        "ok_line": "Ventral and dorsal pathways are the two visual streams.",
+        "ko_title": "Stream names",
+        "ko_line": "It's ventral and dorsal, not left/right or cone/rod.",
+        "exp_title": "Ventral and dorsal",
+        "exp_text": "The two streams hypothesis says visual association cortex splits into a ventral pathway and a dorsal pathway, each handling different aspects of visual processing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of vision do cone cells enable?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Scotopic vision",
+            "feedback": "Scotopic vision is night vision, which is enabled by rod cells, not cones."
+          },
+          {
+            "label": "Photopic vision",
+            "feedback": "Correct. Cone cells enable photopic vision, which is daytime vision."
+          },
+          {
+            "label": "Peripheral vision",
+            "feedback": "Peripheral vision is about the edge of the visual field, not a specific cell-enabled type."
+          },
+          {
+            "label": "Foveal vision",
+            "feedback": "Foveal vision uses cones, but the term for the daytime vision type is photopic, not foveal."
+          }
+        ],
+        "ok_title": "Cone vision type",
+        "ok_line": "Cones give photopic, or daytime, vision.",
+        "ko_title": "Cone vs rod",
+        "ko_line": "Cones are for bright light, rods are for dim light.",
+        "exp_title": "Photopic vision",
+        "exp_text": "Cone cells are photoreceptors that work best in bright conditions and enable photopic vision, which is the daytime vision most vertebrates use."
+      }
+    ]
+  }
+]

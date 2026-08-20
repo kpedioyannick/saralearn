@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 138,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Which mountain has the highest summit above sea level, at about 8,849 metres?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mont Blanc",
+            "feedback": "Mont Blanc tops out at under 4,810 metres, less than half of the record height."
+          },
+          {
+            "label": "Mount Everest",
+            "feedback": "Its summit stands higher above sea level than any other point on land."
+          },
+          {
+            "label": "Denali",
+            "feedback": "Denali reaches about 6,190 metres, tall for North America but well short of the record."
+          },
+          {
+            "label": "Kilimanjaro",
+            "feedback": "Kilimanjaro rises to about 5,895 metres, high enough to carry glaciers near the equator but far from the highest point on land."
+          }
+        ],
+        "ok_title": "The record height",
+        "ok_line": "The highest point above sea level on land.",
+        "ko_title": "Not quite",
+        "ko_line": "Several mountains feel enormous from below, but only one clears every other summit measured from sea level.",
+        "exp_title": "Still rising on a live collision",
+        "exp_text": "Everest sits along the boundary where the plate carrying India is still driven into the plate carrying Asia, a collision that has not stopped. Because that push keeps folding and lifting the crust, the summit keeps rising instead of settling into balance with erosion."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which mountain is taller than Everest when measured from its true base to its summit?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mauna Kea",
+            "feedback": "Measured from where it starts on the ocean floor, it stands taller than Everest, even though most of that height is hidden underwater."
+          },
+          {
+            "label": "K2",
+            "feedback": "K2 is the second-highest summit above sea level, but its base-to-peak height does not exceed Mauna Kea's."
+          },
+          {
+            "label": "Aconcagua",
+            "feedback": "Aconcagua rises from a high plateau already well above sea level, so its base-to-peak height is far short of a volcano that starts on the seafloor."
+          },
+          {
+            "label": "Mount Kenya",
+            "feedback": "Mount Kenya's base sits on land near sea level already, leaving nowhere near enough height in reserve to beat a mountain built up from the ocean floor."
+          }
+        ],
+        "ok_title": "Base to peak",
+        "ok_line": "Height measured from sea level is not the only way to measure a mountain.",
+        "ko_title": "Hidden underwater",
+        "ko_line": "Most of the tallest mountain by this measure is out of sight, below the surface of the ocean.",
+        "exp_title": "A volcano built from the seafloor up",
+        "exp_text": "Mauna Kea grew from repeated eruptions on the floor of the Pacific, each flow of lava adding a thin layer on top of the last until the pile finally broke the ocean surface. Measured only from sea level, its summit looks modest next to Everest, but measured from where the volcano actually starts on the seafloor, the greater part of its height is simply hidden underwater."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which mountain summit sits farthest from the centre of the Earth, even though it is not the highest above sea level?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "K2",
+            "feedback": "K2 stands high above sea level, but sitting far from the equator brings its summit closer to Earth's centre than a shorter equatorial peak."
+          },
+          {
+            "label": "Denali",
+            "feedback": "Denali's high latitude places it on a part of the Earth that bulges outward far less than the equator does."
+          },
+          {
+            "label": "Everest",
+            "feedback": "Everest reaches the greatest height above sea level, but its distance north of the equator keeps its summit closer to the planet's centre than this answer's peak."
+          },
+          {
+            "label": "Chimborazo",
+            "feedback": "Sitting almost exactly on the equator, this peak rides the widest part of a planet that is not a perfect sphere, pushing its summit farther out than any other."
+          }
+        ],
+        "ok_title": "The equatorial bulge",
+        "ok_line": "The planet itself is not a perfect sphere.",
+        "ko_title": "Height above sea level is not the whole story",
+        "ko_line": "Sea level itself is farther from Earth's centre at the equator than near the poles.",
+        "exp_title": "Riding the planet's widest point",
+        "exp_text": "Earth's own spin flattens it slightly at the poles and bulges it outward at the equator, so sea level itself sits farther from the planet's centre near the equator than farther north or south. Chimborazo, in Ecuador, sits close to that equatorial bulge, so its summit rides on the planet's outward bulge rather than on a narrower stretch of it closer to the poles."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where is the lowest point of dry land on Earth's surface, at the shore of the Dead Sea?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Death Valley",
+            "feedback": "Death Valley sits below sea level too, but not nearly as far down as the shore of the Dead Sea."
+          },
+          {
+            "label": "The Caspian depression",
+            "feedback": "This low basin sits well below sea level, but not as low as the record-holding shoreline elsewhere."
+          },
+          {
+            "label": "The Dead Sea shore",
+            "feedback": "This shoreline sits lower below sea level than any other exposed land on Earth."
+          },
+          {
+            "label": "The Qattara Depression",
+            "feedback": "This desert basin dips below sea level, but not nearly as deep as the true lowest point of dry land."
+          }
+        ],
+        "ok_title": "The deepest dry basin",
+        "ok_line": "Land can sit well below the level of the sea.",
+        "ko_title": "Other basins come close, but not this low",
+        "ko_line": "Several places on Earth dip below sea level. Only one goes this far down.",
+        "exp_title": "Land pulled apart and dropped",
+        "exp_text": "The Dead Sea sits in a rift, a stretch of crust being pulled apart by plates sliding past each other along a fault. As the crust stretches, a block of it drops down between the bounding faults, and over a long span of time that sunken block has settled into a deep basin below the surrounding land."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where is the deepest known point of the ocean, in the Mariana Trench?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Challenger Deep",
+            "feedback": "This point in the Mariana Trench descends farther below the ocean surface than anywhere else known on Earth."
+          },
+          {
+            "label": "The Puerto Rico Trench",
+            "feedback": "This trench is deep, but it does not reach as far down as the deepest point of the Mariana Trench."
+          },
+          {
+            "label": "The Java Trench",
+            "feedback": "This trench plunges far below the surface, yet not as deep as the record point in the western Pacific."
+          },
+          {
+            "label": "The Tonga Trench",
+            "feedback": "This is one of the deepest trenches on Earth, but its lowest point still sits above the record depth found farther north."
+          }
+        ],
+        "ok_title": "The deepest point on Earth",
+        "ok_line": "The ocean floor is not flat, and one trench goes deeper than any other.",
+        "ko_title": "Deep, but not the deepest",
+        "ko_line": "Several ocean trenches are extraordinarily deep. Only one holds the record.",
+        "exp_title": "Where a plate bends and dives",
+        "exp_text": "The Mariana Trench marks the place where one of the Pacific's oceanic plates bends sharply downward and slides beneath a neighbouring plate. That bend in the crust is what carves the trench, and because the plate here dives at an unusually steep angle, the trench cuts deep into the seafloor beneath it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which mountain is the tallest known in the entire Solar System, at about 21.9 kilometres high?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Maxwell Montes on Venus",
+            "feedback": "Maxwell Montes is the highest point on Venus, but it falls well short of the tallest mountain known anywhere in the Solar System."
+          },
+          {
+            "label": "Olympus Mons on Mars",
+            "feedback": "This shield volcano on Mars towers far above any mountain found on Earth or any other known world."
+          },
+          {
+            "label": "Everest",
+            "feedback": "Everest is the highest point on Earth above sea level, but Mars carries a far taller volcano."
+          },
+          {
+            "label": "Mauna Kea",
+            "feedback": "Even measured base to peak, this Hawaiian volcano falls far short of the largest volcano known in the Solar System."
+          }
+        ],
+        "ok_title": "A volcano with nowhere to go but up",
+        "ok_line": "The tallest mountain known belongs to another world.",
+        "ko_title": "Earth's tallest points are not the largest known",
+        "ko_line": "Something on another planet grew unchecked in a way nothing on Earth ever has.",
+        "exp_title": "A volcano that never had to move",
+        "exp_text": "On Earth a volcano sits on a plate that keeps drifting, so it eventually slides off the hot spot feeding it and stops growing while a new volcano starts elsewhere. Mars has no moving plates, so a volcano stays fixed over the same source of magma indefinitely, and eruption after eruption keeps piling onto the very same mountain instead of starting a new one nearby."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which continent has the highest average elevation of all seven?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Asia",
+            "feedback": "Asia carries the world's highest individual peaks, but averaged across its whole surface its elevation falls short of the continent buried under the thickest ice."
+          },
+          {
+            "label": "South America",
+            "feedback": "The Andes push parts of South America very high, but the continent's surface as a whole averages lower than one blanketed almost entirely in thick ice."
+          },
+          {
+            "label": "Africa",
+            "feedback": "Africa includes high plateaus and peaks, but averaged across the whole continent its elevation is lower than one carrying a continuous ice sheet kilometres thick."
+          },
+          {
+            "label": "Antarctica",
+            "feedback": "A continuous ice sheet kilometres thick sits on top of the land itself, and that added thickness raises the average surface height above every other continent."
+          }
+        ],
+        "ok_title": "Ice adds height",
+        "ok_line": "The surface you would stand on there is mostly ice, not rock.",
+        "ko_title": "Peaks are not the same as average height",
+        "ko_line": "Some continents have taller single mountains, but this question asks about the whole surface, averaged.",
+        "exp_title": "An ice sheet raising the whole surface",
+        "exp_text": "Antarctica's rock surface is not unusually high on its own, but snow has been falling and compacting there for a very long time without melting away, building an ice sheet that in places is several kilometres thick. Because that ice sits on top of the land and counts as the surface you would actually stand on, it lifts the continent's average elevation well beyond what its bare rock alone would give it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which region on Earth holds every one of the fourteen mountains taller than 8,000 metres?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Alps",
+            "feedback": "The Alps hold Europe's highest peaks, but none of them come close to the 8,000-metre mark."
+          },
+          {
+            "label": "The Andes",
+            "feedback": "The Andes hold the tallest peaks outside Asia, but even the highest of them falls short of 8,000 metres."
+          },
+          {
+            "label": "The Himalaya-Karakoram region",
+            "feedback": "Every peak on Earth above 8,000 metres stands somewhere along this stretch of the Indian plate's collision with Asia."
+          },
+          {
+            "label": "The Rocky Mountains",
+            "feedback": "The Rockies' tallest summits reach only a fraction of 8,000 metres."
+          }
+        ],
+        "ok_title": "One collision, fourteen giants",
+        "ok_line": "The tallest peaks on Earth all cluster along the same active boundary.",
+        "ko_title": "Not spread evenly",
+        "ko_line": "The very tallest mountains on Earth are not scattered across different ranges. They share one stretch of colliding crust.",
+        "exp_title": "Where the collision is most intense",
+        "exp_text": "The Himalaya and the neighbouring Karakoram range sit along the part of the Indian-Asian collision where the crust has been thickened and folded the most. Because that squeezing concentrates along this one stretch of boundary rather than spreading evenly across the whole collision zone, the crust there has folded and piled into the dense cluster of peaks found nowhere else along the same collision."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which gorge, cut between two Himalayan peaks each over 7,000 metres tall, is considered the deepest on Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Kali Gandaki Gorge",
+            "feedback": "Passing between two of the tallest peaks in the Himalaya, this river gorge cuts deeper than any other on Earth."
+          },
+          {
+            "label": "The Grand Canyon",
+            "feedback": "The Grand Canyon is immense in width and length, but its depth does not approach that of a gorge cut between two Himalayan giants."
+          },
+          {
+            "label": "Copper Canyon",
+            "feedback": "This Mexican canyon system is large, but no single gorge within it reaches the depth of the record-holding Himalayan gorge."
+          },
+          {
+            "label": "Fish River Canyon",
+            "feedback": "This African canyon is one of the largest by size, but its depth falls well short of the deepest gorge in the Himalaya."
+          }
+        ],
+        "ok_title": "Deeper than any canyon elsewhere",
+        "ok_line": "A river running between two giants cuts the deepest gorge on Earth.",
+        "ko_title": "Size is not depth",
+        "ko_line": "Some canyons are wider or longer. This question asks which one is cut the deepest.",
+        "exp_title": "A river that keeps pace with rising peaks",
+        "exp_text": "The river flowing through this gorge sits between two mountains still being pushed upward by the same collision, and its current has kept cutting downward through the rock about as fast as the land around it rises. Because neither the uplift nor the cutting has ever stopped long enough for the other to pull ahead, the river's channel has kept sinking in step with the mountains climbing around it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which Himalayan peak is rising unusually fast, at up to about 7 millimetres a year, among the fastest known rates on Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Annapurna",
+            "feedback": "Annapurna is famously steep and dangerous, but it is not the peak known for this particular record rate of uplift."
+          },
+          {
+            "label": "Nanga Parbat",
+            "feedback": "This peak sits where a sharp bend in the colliding plates concentrates the squeezing into one small area, driving it upward unusually fast."
+          },
+          {
+            "label": "Makalu",
+            "feedback": "Makalu is one of the tallest peaks on Earth, but it is not the one singled out for this exceptional rate of uplift."
+          },
+          {
+            "label": "Dhaulagiri",
+            "feedback": "Dhaulagiri rises from deep valleys to a great height, but the record rate of uplift belongs to a different peak in the range."
+          }
+        ],
+        "ok_title": "A squeeze concentrated in one spot",
+        "ok_line": "Not every part of a collision pushes up at the same speed.",
+        "ko_title": "Same range, different rate",
+        "ko_line": "Every peak in this range is rising because of the same collision. One of them is rising unusually fast because of where it sits within it.",
+        "exp_title": "A bend that concentrates the push",
+        "exp_text": "Nanga Parbat sits at a corner where the boundary between the colliding plates bends sharply, and that bend focuses the squeezing force of the whole collision onto a much smaller stretch of crust than elsewhere in the range. Because the same push that raises the rest of the Himalaya is concentrated into this one spot, the rock here absorbs a share of the collision's force that its neighbours never feel."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 247,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Are the little bumps you can see on your tongue's surface the taste buds themselves?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Yes, each bump is one single taste bud",
+            "feedback": "A single visible bump actually holds many taste buds tucked into its sides and folds."
+          },
+          {
+            "label": "No, the bumps are papillae, and the taste buds are hidden within and around them",
+            "feedback": "Papillae are built mainly to grip food; the taste buds are smaller clusters set into their sides, out of sight."
+          },
+          {
+            "label": "No, taste buds float freely in saliva across the tongue",
+            "feedback": "Taste buds are fixed structures embedded in the tongue's surface; they don't move around loose in saliva."
+          },
+          {
+            "label": "Yes, but only the bumps at the very tip work",
+            "feedback": "Taste buds are spread across the whole tongue's surface, not concentrated at just the tip."
+          }
+        ],
+        "ok_title": "Two different things",
+        "ok_line": "The bump you can see and the sensor doing the tasting are not the same structure.",
+        "ko_title": "Look closer than the visible surface",
+        "ko_line": "What you can see on the tongue's surface is built to grip food — the actual sensors are hidden within it.",
+        "exp_title": "Bumps that house, rather than taste",
+        "exp_text": "The visible bumps on the tongue's surface are papillae, small structures built mainly to grip food and give the tongue a rough, textured surface. Taste buds themselves are much smaller clusters of cells set into the sides and grooves of those papillae, out of sight, which is why the visible bump and the actual taste sensor are two different things."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to an individual taste bud cell over time?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It stays the same single cell for a person's entire life",
+            "feedback": "Taste bud cells wear out from constant contact with hot food, sharp textures and chewing, and get replaced."
+          },
+          {
+            "label": "It slowly turns into a papilla",
+            "feedback": "Papillae and taste bud cells are entirely different structures; one never converts into the other."
+          },
+          {
+            "label": "It stops working after the first taste it detects",
+            "feedback": "A single taste cell responds again and again to repeated contact with food; it isn't used up after one detection."
+          },
+          {
+            "label": "It gets replaced by a new cell every so often",
+            "feedback": "Nearby cells keep dividing and maturing to replace the ones worn out by constant use."
+          }
+        ],
+        "ok_title": "A cell built to be swapped",
+        "ok_line": "No single taste cell lasts a lifetime — the tongue keeps rebuilding them.",
+        "ko_title": "Not permanent, and not one-use",
+        "ko_line": "A taste cell keeps responding to food again and again, but it doesn't last forever doing it.",
+        "exp_title": "Cells built to be worn out and swapped",
+        "exp_text": "Sitting exposed at the surface of the tongue, in the direct path of hot food, sharp edges and constant chewing, taste cells take a battering that few other cells in the body would survive for long. Nearby cells keep dividing and maturing to replace the ones that wear out, so a working taste bud is really a steady turnover of cells rather than one cell lasting indefinitely."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a taste cell detect that something is salty?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sodium ions flow directly into the cell through open channels",
+            "feedback": "Dissolved sodium particles pass straight through channels shaped simply to let them in."
+          },
+          {
+            "label": "A protein on the cell's surface locks onto a whole salt crystal",
+            "feedback": "A lock-and-key protein matching a whole crystal is how some other tastes work, but salt is detected more directly than that."
+          },
+          {
+            "label": "Salt dissolves the cell's outer wall",
+            "feedback": "The taste cell survives contact with salt perfectly well; nothing about detecting saltiness involves damaging the cell."
+          },
+          {
+            "label": "Salt reflects light differently for the tongue to sense",
+            "feedback": "Taste has nothing to do with light or reflection; the tongue doesn't have anything that could sense it that way."
+          }
+        ],
+        "ok_title": "A direct route in",
+        "ok_line": "No lock, no key — just charged particles flowing straight through an open channel.",
+        "ko_title": "No damage, no light, no waiting for a match",
+        "ko_line": "Salt detection is simpler than most other tastes — think about what a dissolved salt particle actually is.",
+        "exp_title": "A direct route in, with no lock or key",
+        "exp_text": "Ordinary table salt dissolves in saliva into charged sodium particles, and the surface of a salt-detecting taste cell carries channels shaped simply to let those particles flow straight through into the cell. That direct inflow of charged particles changes the electrical state of the cell, and that change is what signals saltiness onward."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a taste cell actually detecting when something tastes sour?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The temperature of the food",
+            "feedback": "Sourness shows up in a cold drink or a warm one alike; temperature is a separate sensation from sourness."
+          },
+          {
+            "label": "How much sugar is dissolved in it",
+            "feedback": "Sugar content drives sweetness, an entirely separate taste with its own detection method."
+          },
+          {
+            "label": "The concentration of acid in it",
+            "feedback": "An acidic substance releases charged hydrogen particles, and the taste cell responds directly to those."
+          },
+          {
+            "label": "How thick or watery the liquid is",
+            "feedback": "Thickness is a texture, sensed differently from taste; a thin, watery liquid can taste just as sour as a thick one."
+          }
+        ],
+        "ok_title": "Reading acidity directly",
+        "ok_line": "Sourness is a straight readout of how much acid is actually present.",
+        "ko_title": "Not temperature, sugar, or thickness",
+        "ko_line": "A cold, thin, sugar-free liquid can still taste sharply sour — so what's left that it could be responding to?",
+        "exp_title": "Acid itself is the trigger",
+        "exp_text": "An acidic substance releases charged hydrogen particles when it dissolves, and a sour-detecting taste cell responds directly to those particles arriving at its surface. The more of them arrive, the stronger the signal the cell sends onward, which is why a sharper, more concentrated acid reads as more intensely sour."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a taste cell detect something sweet, bitter or savoury (umami), unlike the simpler way it detects salt?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "By a receptor protein on the cell's surface that a specific molecule fits into",
+            "feedback": "These molecules come in many shapes, so a matching receptor protein is needed to recognise them."
+          },
+          {
+            "label": "Through the same direct channels used for salt",
+            "feedback": "Those simple channels are specific to charged particles like sodium; these molecules aren't charged particles that could pass through them."
+          },
+          {
+            "label": "By measuring the food's temperature as it's chewed",
+            "feedback": "Temperature is picked up by separate sensors and plays no part in identifying sweetness, bitterness or umami."
+          },
+          {
+            "label": "By absorbing the molecule into the bloodstream first",
+            "feedback": "Tasting happens right at the tongue's surface, before food or drink ever reaches the bloodstream."
+          }
+        ],
+        "ok_title": "A shape that has to fit",
+        "ok_line": "Unlike salt's open channel, this detection needs a receptor built to recognise a particular shape.",
+        "ko_title": "Not the salt channel, not temperature",
+        "ko_line": "These molecules aren't simple charged particles — something has to recognise their specific shape.",
+        "exp_title": "A shape that has to fit before it registers",
+        "exp_text": "Unlike a charged particle that can simply flow through an open channel, the molecules responsible for sweetness, bitterness and umami come in many different shapes, so detecting them needs a receptor protein shaped to recognise a matching molecule. When a molecule of the right shape settles into that receptor, it sets off a chain of chemical steps inside the cell that ends in a signal being sent onward."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can't you taste a completely dry substance placed on a dry tongue?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Dry substances have no taste molecules at all",
+            "feedback": "The substance may be full of taste-triggering molecules; the problem is that nothing has helped them reach the taste cells."
+          },
+          {
+            "label": "Taste cells only work when moving air passes over them",
+            "feedback": "Taste doesn't rely on airflow at all; that's closer to how smell works, not taste."
+          },
+          {
+            "label": "The molecules need to dissolve in liquid before they can reach the taste cells",
+            "feedback": "Taste cells sit inside small pores that molecules must travel through in liquid, dissolved and moving."
+          },
+          {
+            "label": "A dry tongue has fewer working taste buds",
+            "feedback": "The number of taste buds present doesn't change from one moment to the next; what's missing is the liquid needed to carry molecules to them."
+          }
+        ],
+        "ok_title": "Nothing to carry the molecule",
+        "ok_line": "Without a liquid, a taste molecule has no way to travel the short distance to the cell.",
+        "ko_title": "The molecules are there, the buds are there",
+        "ko_line": "What's genuinely missing between a dry substance and a dry tongue?",
+        "exp_title": "Nothing to taste without something wet",
+        "exp_text": "Taste cells sit inside small pores that open onto the tongue's surface, and a substance's molecules have to travel through that pore in liquid, dissolved and moving, to make contact with the cell inside. Saliva is what usually provides that liquid, so a genuinely dry tongue and a genuinely dry substance leave no way for the molecules to travel that short final distance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Is it true that sweet is tasted only at the tip of the tongue and bitter only at the back?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Yes, each taste has one exclusive zone",
+            "feedback": "Careful testing finds every basic taste detectable across most areas of the tongue, not confined to one exclusive zone each."
+          },
+          {
+            "label": "Yes, but only in young children",
+            "feedback": "The zones described in that idea were never accurate at any age, including in children."
+          },
+          {
+            "label": "No, taste only happens at the very back of the tongue",
+            "feedback": "Taste buds are spread across the whole tongue's surface, including the front and sides, not clustered only at the back."
+          },
+          {
+            "label": "No, all the basic tastes can be detected across most of the tongue's surface",
+            "feedback": "Taste buds sensitive to every basic taste are scattered across most regions of the tongue."
+          }
+        ],
+        "ok_title": "A myth that outlived its own numbers",
+        "ok_line": "The tidy zone map never matched how taste buds are actually spread across the tongue.",
+        "ko_title": "Not exclusive zones, and not one edge only",
+        "ko_line": "A sweet taste can be picked up well beyond the very tip of the tongue.",
+        "exp_title": "A tidy map that doesn't match the tongue",
+        "exp_text": "An old diagram once assigned each basic taste to its own zone, sweet at the tip and bitter at the back, and the idea stuck even though the numbers behind it were misread from the start. Taste buds sensitive to every basic taste turn out to be scattered widely across the tongue, which softens the sharp, separate zones the old diagram suggested into much gentler differences from one area to the next."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Are taste buds found anywhere besides the tongue?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "No, the tongue is the only place they exist",
+            "feedback": "Taste buds also sit on the roof of the mouth and near the top of the throat, well away from the tongue."
+          },
+          {
+            "label": "Yes, some sit on the roof of the mouth and near the throat",
+            "feedback": "A smaller number of taste buds sit in the soft tissue of the roof of the mouth and near the upper throat."
+          },
+          {
+            "label": "Yes, but only in the lips",
+            "feedback": "The lips detect touch, pressure and temperature, not taste; taste buds are not found there."
+          },
+          {
+            "label": "No, taste only happens where saliva glands sit",
+            "feedback": "Saliva glands and taste buds are entirely separate structures, unrelated in location."
+          }
+        ],
+        "ok_title": "A few sensors off the tongue entirely",
+        "ok_line": "Food brushes past more than just the tongue on its way down.",
+        "ko_title": "Not just the tongue, and not the lips",
+        "ko_line": "A small number of taste buds sit further back than the tongue, past where food is chewed.",
+        "exp_title": "A few taste buds off the tongue entirely",
+        "exp_text": "Alongside the many taste buds set into the tongue's papillae, a smaller number sit in the soft tissue of the roof of the mouth and scattered near the upper part of the throat. Food and drink brush across those areas too on the way down, so a little tasting happens even off the tongue itself, right up until the moment of swallowing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a chilli pepper feel 'hot' on the tongue, when it isn't actually a taste at all?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Chilli releases a substance that activates the tongue's heat-sensing nerve endings",
+            "feedback": "The active compound in chilli fits onto the very same receptor that normally responds to genuinely hot temperatures."
+          },
+          {
+            "label": "Chilli triggers the same receptors as sweetness, at a higher intensity",
+            "feedback": "Sweetness and chilli 'heat' are picked up by completely different kinds of receptors, not the same one turned up."
+          },
+          {
+            "label": "Chilli actually raises the temperature of the tongue's surface",
+            "feedback": "The tongue's actual temperature barely changes from eating chilli; the heat sensation happens without any real rise in temperature."
+          },
+          {
+            "label": "Chilli numbs the taste buds, and numbness feels like heat",
+            "feedback": "Taste buds keep working normally after chilli; nothing about the sensation involves them going numb."
+          }
+        ],
+        "ok_title": "Borrowing a different sense entirely",
+        "ok_line": "Chilli 'heat' isn't a taste at all — it's a temperature receptor, tricked into firing.",
+        "ko_title": "Not sweetness, not real heat, not numbness",
+        "ko_line": "The tongue's own temperature barely moves — so what's actually being triggered?",
+        "exp_title": "Borrowing the sensor built for real heat",
+        "exp_text": "The compound in chilli that gives it its bite fits onto the very same nerve receptor that normally responds to genuinely hot temperatures, on skin as well as on the tongue. Triggering that receptor sends the same 'this is hot' signal the nervous system would send from actual heat, so the mouth reacts as though it were burning even though nothing there has warmed up."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does ice cream taste noticeably sweeter after it's been left to melt a little compared with eating it rock-hard and frozen?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Melting adds extra sugar to the mixture",
+            "feedback": "No sugar is created or added as ice cream melts; the total amount of sugar in it stays exactly the same."
+          },
+          {
+            "label": "A very cold temperature dulls how strongly taste cells respond",
+            "feedback": "The chemical steps inside a taste cell run more slowly the colder it gets, weakening the signal it sends."
+          },
+          {
+            "label": "Melted ice cream contains more air",
+            "feedback": "The amount of air folded into ice cream is set when it's made and doesn't change as it melts."
+          },
+          {
+            "label": "Warmer food releases more odour, which the tongue mistakes for sweetness",
+            "feedback": "Odour affects flavour through the nose, but this is a change in taste itself, on the tongue, not a matter of smell."
+          }
+        ],
+        "ok_title": "A colder cell, a quieter signal",
+        "ok_line": "The sugar hasn't changed — the cell reporting it has just slowed down.",
+        "ko_title": "No new sugar, no extra air",
+        "ko_line": "The amount of sugar and air in the ice cream stays fixed as it melts — the change is happening in the cell itself.",
+        "exp_title": "A cold tongue, a quieter signal",
+        "exp_text": "The chemical steps inside a taste cell that turn a detected molecule into a signal run more slowly the colder the cell gets, the same way most chemical processes slow down in the cold. A very cold taste cell in contact with sugar sends a weaker signal than the same cell would at a warmer temperature, so food fresh from the freezer tastes duller than the same food once it has warmed up a little."
+      }
+    ]
+  }
+]

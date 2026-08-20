@@ -98,8 +98,13 @@ def signup(payload: SignupIn, conn: DbDep, user: OptionalUser) -> TokenOut:
         # empêcher toute déconnexion, puisque rouvrir une session anonyme
         # sur cet appareil reconnecterait au compte.
         with transaction(conn):
+            # `COALESCE` et non une écriture sèche : le pseudo choisi en
+            # session anonyme est déjà sur cette ligne, et le formulaire
+            # d'inscription n'a pas de champ pour lui. Sans ça,
+            # s'inscrire effaçait le nom qu'on portait au classement.
             conn.execute(
-                "UPDATE app_user SET email = ?, password_hash = ?, display_name = ?,"
+                "UPDATE app_user SET email = ?, password_hash = ?,"
+                " display_name = COALESCE(?, display_name),"
                 " lang = ?, device_id = ? WHERE id = ?",
                 (
                     payload.email,
@@ -145,12 +150,16 @@ def _merge(conn: sqlite3.Connection, source_id: int, target_id: int) -> None:
         )
         conn.execute("DELETE FROM exercise_vote WHERE user_id = ?", (source_id,))
         conn.execute(
-            "INSERT OR IGNORE INTO user_theme (user_id, theme_id, created_at)"
-            " SELECT ?, theme_id, created_at FROM user_theme WHERE user_id = ?",
+            "INSERT OR IGNORE INTO user_chapter (user_id, chapter_id, created_at)"
+            " SELECT ?, chapter_id, created_at FROM user_chapter WHERE user_id = ?",
             (target_id, source_id),
         )
-        conn.execute("DELETE FROM user_theme WHERE user_id = ?", (source_id,))
-        conn.execute("UPDATE theme SET owner_id = ? WHERE owner_id = ?", (target_id, source_id))
+        conn.execute("DELETE FROM user_chapter WHERE user_id = ?", (source_id,))
+        # Plus de propriétaire à transférer : `theme.owner_id` est parti
+        # avec la reconstruction du catalogue, qui est semé par script et
+        # n'appartient à personne. La ligne qui le déplaçait faisait
+        # échouer toute connexion depuis une session anonyme — c'est-à-dire
+        # la seule façon normale de se connecter.
         conn.execute("DELETE FROM app_user WHERE id = ?", (source_id,))
 
 

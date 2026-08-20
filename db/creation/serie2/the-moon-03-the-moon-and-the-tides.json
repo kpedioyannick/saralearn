@@ -1,0 +1,193 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main cause of the ocean tides on Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Sun's heat warming the oceans",
+            "feedback": "Heat does affect water movement but it is not the main driver of tides. The primary cause is the Moon's gravitational pull."
+          },
+          {
+            "label": "The Moon's gravitational pull on Earth's oceans",
+            "feedback": "Correct. The Moon's gravity pulls on Earth's oceans, creating bulges of water that we experience as high and low tides."
+          },
+          {
+            "label": "Earth's rotation speeding up the water",
+            "feedback": "Rotation influences how tides move around the globe, but it is not what makes the water bulge. The pull of the Moon is the cause."
+          },
+          {
+            "label": "The wind pushing surface water",
+            "feedback": "Wind creates waves and currents, but it does not produce the regular daily pattern of tides. Tides come from the Moon's gravity."
+          }
+        ],
+        "ok_title": "Moon's pull",
+        "ok_line": "The Moon's gravity creates the tides.",
+        "ko_title": "Not the cause",
+        "ko_line": "Heat, rotation, or wind do not make tides.",
+        "exp_title": "Tides and gravity",
+        "exp_text": "The ocean bulges toward the Moon because the Moon's gravity pulls on the water. The bulge is the high tide."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the ocean bulge on the side of Earth opposite the Moon as well?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the Moon's gravity pushes the water away from Earth",
+            "feedback": "The Moon's gravity pulls, not pushes. The far-side bulge comes from a different effect, not a push."
+          },
+          {
+            "label": "Because the Sun's gravity pulls the water on that side",
+            "feedback": "The Sun's gravity is weaker in tidal effect and does not create a second bulge. The far-side bulge is from the Moon's pull, not the Sun's."
+          },
+          {
+            "label": "Because the Earth's gravity is weaker on that side",
+            "feedback": "Earth's gravity is roughly the same there. The bulge forms because the Moon pulls the solid Earth more than the water on the far side."
+          },
+          {
+            "label": "Because the Moon pulls Earth's center more than it pulls the far-side water",
+            "feedback": "Correct. The Moon's gravity is slightly stronger on Earth's center than on the far-side water, so the water gets left behind, forming a bulge away from the Moon."
+          }
+        ],
+        "ok_title": "Far-side bulge",
+        "ok_line": "The Moon's pull is weaker on the far side.",
+        "ko_title": "Not a push",
+        "ko_line": "The far bulge is from a difference in pull.",
+        "exp_title": "Two tidal bulges",
+        "exp_text": "The Moon pulls Earth's center toward it more strongly than it pulls the far-side ocean. That ocean lags behind, creating a second high tide on the side facing away from the Moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "About how much time passes between one high tide and the next high tide at the same coastline?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 12 hours and 25 minutes",
+            "feedback": "Correct. Earth rotates once in 24 hours, but the Moon is also moving in its orbit, so the same spot takes about 24 hours and 50 minutes to return to the same bulge, making each high tide about 12 hours 25 minutes apart."
+          },
+          {
+            "label": "About 24 hours exactly",
+            "feedback": "That is the time for one full Earth rotation, but a coastline sees two high tides per day, so high tides are about half a day apart, not a full day."
+          },
+          {
+            "label": "About 6 hours",
+            "feedback": "Six hours is roughly the gap between a high tide and a low tide, not between two high tides."
+          },
+          {
+            "label": "About 25 hours",
+            "feedback": "That is close to the full lunar day of 24 hours 50 minutes, but that is the return to the same phase of tide, not the next high tide, which happens about halfway through."
+          }
+        ],
+        "ok_title": "High tide gap",
+        "ok_line": "High tides come about 12 hours 25 minutes apart.",
+        "ko_title": "Half a day",
+        "ko_line": "Two high tides per day means about 12 hours apart.",
+        "exp_title": "Tidal period",
+        "exp_text": "Because the Moon moves ahead in its orbit, a given point on Earth takes 24 hours 50 minutes to face the Moon again. That gives two high tides, so each comes about 12 hours 25 minutes after the previous one."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason that high tide arrives about an hour later each day at a given coast?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Earth's rotation is slowing down gradually",
+            "feedback": "Earth's rotation is slowing, but that change is tiny over a day and does not add an hour per day. The main cause is the Moon's orbital motion."
+          },
+          {
+            "label": "The Moon's gravity gets stronger or weaker daily",
+            "feedback": "The strength of the Moon's pull does not change enough to shift tide times by an hour. The shift comes from the Moon's position moving each day."
+          },
+          {
+            "label": "The Moon moves ahead in its orbit while Earth rotates",
+            "feedback": "Correct. In one Earth day, the Moon travels about 13 degrees along its orbit, so Earth has to rotate a little extra to catch up to the same place under the Moon. That extra rotation takes about 50 minutes."
+          },
+          {
+            "label": "The ocean water gets warmer and expands",
+            "feedback": "Warming water expands slightly but does not change the timing of tides. The timing depends on where the Moon is, not the water's temperature."
+          }
+        ],
+        "ok_title": "Moon's daily move",
+        "ok_line": "The Moon moves, so Earth has to catch up.",
+        "ko_title": "Not a slow-down",
+        "ko_line": "The delay comes from the Moon's orbit, not Earth's spin change.",
+        "exp_title": "Lunar day",
+        "exp_text": "Each day, the Moon has moved forward in its orbit. A fixed point on Earth must rotate about 50 extra minutes to line up under the Moon again, which is why high tide shifts later by roughly an hour daily."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a 'spring tide'?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A tide that occurs only in the spring season",
+            "feedback": "Spring tides happen twice a month all year round, not only in spring. The name comes from the idea of 'springing forth', not the season."
+          },
+          {
+            "label": "A tide caused by the Moon being closest to Earth",
+            "feedback": "Distance does affect tide strength, but spring tides come from alignment of the Sun and Moon, not from the Moon's distance."
+          },
+          {
+            "label": "A tide that is unusually weak",
+            "feedback": "That is the opposite. Spring tides have the largest swing between high and low water. Weak tides are neap tides."
+          },
+          {
+            "label": "A tide with a larger than usual swing, happening when the Sun and Moon align",
+            "feedback": "Correct. When the Sun, Moon, and Earth line up, the Sun's and Moon's tidal bulges add together, producing especially high high-tides and especially low low-tides."
+          }
+        ],
+        "ok_title": "Large swing tide",
+        "ok_line": "Spring tides happen when Sun and Moon align.",
+        "ko_title": "Not about season",
+        "ko_line": "Spring tides occur twice a month, every month.",
+        "exp_title": "Spring tides",
+        "exp_text": "Twice a month, around new moon and full moon, the Sun and Moon pull in the same line, so their bulges combine. The result is a big difference between high and low water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When do 'neap tides' happen?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "At full moon and new moon",
+            "feedback": "Those alignments produce spring tides, not neap tides. Neap tides happen when the Sun and Moon are at right angles."
+          },
+          {
+            "label": "At first quarter and last quarter moon",
+            "feedback": "Correct. At these phases, the Sun and Moon pull in perpendicular directions. Their bulges partially cancel, giving a smaller tidal range."
+          },
+          {
+            "label": "When the Moon is closest to Earth",
+            "feedback": "Closest approach gives a stronger pull, which would enlarge the tides, not shrink them. Neap tides are about geometry, not distance."
+          },
+          {
+            "label": "When the Moon is farthest from Earth",
+            "feedback": "Farther distance weakens the Moon's pull overall, but neap tides specifically come from the Sun and Moon being at right angles, not from the Moon's distance."
+          }
+        ],
+        "ok_title": "Quarter moon tides",
+        "ok_line": "Neap tides occur at quarter phases.",
+        "ko_title": "Right angle",
+        "ko_line": "Sun and Moon pull sideways, so tides are small.",
+        "exp_title": "Neap tides",
+        "exp_text": "Around first and last quarter, the Sun and Moon are at 90 degrees to each other as seen from Earth. Their tidal bulges do not line up, so high tides are lower and low tides are higher, making a small swing."
+      }
+    ]
+  }
+]

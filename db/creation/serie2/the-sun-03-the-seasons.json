@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 236,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason Earth has seasons?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The tilt of Earth's axis as it orbits the Sun",
+            "feedback": "Correct. Earth's axis is tilted about 23.5 degrees, and this tilt stays pointing in the same direction in space as Earth travels around the Sun, so different parts of the planet lean toward or away from the Sun at different times of year."
+          },
+          {
+            "label": "The changing distance between Earth and the Sun",
+            "feedback": "Earth's orbit is slightly elliptical, but the distance change is small and does not cause the seasons. It is the tilt of the axis that matters."
+          },
+          {
+            "label": "The Sun's brightness changing through the year",
+            "feedback": "The Sun's output stays essentially constant. The seasons come from how sunlight strikes Earth, not from how much the Sun emits."
+          },
+          {
+            "label": "The Moon's gravity pulling on Earth's oceans",
+            "feedback": "The Moon's gravity causes tides, not seasonal temperature changes on land. Seasons are a solar effect tied to Earth's tilt."
+          }
+        ],
+        "ok_title": "Tilt drives seasons",
+        "ok_line": "Earth's tilted axis makes the seasons happen.",
+        "ko_title": "Not distance or Sun",
+        "ko_line": "Neither Earth's orbital distance nor the Sun's output causes the seasons.",
+        "exp_title": "Why seasons occur",
+        "exp_text": "Earth's axis is tilted, and it keeps pointing the same way as Earth circles the Sun. So for half the year the Northern Hemisphere leans toward the Sun and gets more direct sunlight, and for the other half it leans away. That lean, not distance, is the cause of the seasons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During summer in the Northern Hemisphere, which way is the North Pole tilted?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Away from the Sun",
+            "feedback": "That is what happens during Northern Hemisphere winter, not summer. In summer the North Pole leans toward the Sun."
+          },
+          {
+            "label": "Straight up, with no tilt at all",
+            "feedback": "Earth's axis is always tilted; it never straightens. During Northern Hemisphere summer the North Pole leans toward the Sun."
+          },
+          {
+            "label": "Toward the Sun",
+            "feedback": "Correct. In Northern Hemisphere summer, Earth's axis points the North Pole toward the Sun, so that hemisphere receives more direct sunlight and has longer days."
+          },
+          {
+            "label": "It depends on the day of the week",
+            "feedback": "The tilt direction is fixed in space; it does not change from day to day. The seasons come from Earth's position along its orbit, not from a wobbling tilt."
+          }
+        ],
+        "ok_title": "North leans in",
+        "ok_line": "In Northern summer the North Pole tilts toward the Sun.",
+        "ko_title": "Not away or straight",
+        "ko_line": "The tilt is constant; it points toward the Sun in summer and away in winter.",
+        "exp_title": "Tilt direction in summer",
+        "exp_text": "Earth's axis stays pointed in the same direction in space as it orbits. When the North Pole leans toward the Sun, the Northern Hemisphere gets more direct sunlight and longer days—that is summer there. When it leans away, that hemisphere gets winter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the Sun's path across the sky as you move from winter to summer in the Northern Hemisphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It stays exactly the same every day",
+            "feedback": "The Sun's path shifts gradually through the year; it rises and sets at different points on the horizon and reaches a different midday height."
+          },
+          {
+            "label": "It gets lower in the sky at midday",
+            "feedback": "That is what happens going from summer to winter. Going from winter to summer, the midday Sun climbs higher."
+          },
+          {
+            "label": "It rises more to the south and sets more to the north",
+            "feedback": "In the Northern Hemisphere, the Sun rises more to the northeast and sets more to the northwest in summer, not the reverse."
+          },
+          {
+            "label": "It rises farther north and climbs higher at midday",
+            "feedback": "Correct. As winter turns to summer, the sunrise point moves northward along the horizon and the midday Sun climbs higher in the sky, delivering more direct sunlight."
+          }
+        ],
+        "ok_title": "Sun climbs higher",
+        "ok_line": "From winter to summer the midday Sun gets higher.",
+        "ko_title": "Path changes with seasons",
+        "ko_line": "The Sun's daily path shifts because Earth's tilt changes the angle of sunlight.",
+        "exp_title": "Sun's seasonal path",
+        "exp_text": "Because Earth's axis stays tilted, the Sun's apparent path across the sky shifts through the year. In the Northern Hemisphere summer the Sun rises more to the northeast, sets more to the northwest, and reaches a higher point at midday than in winter. That higher path means more direct sunlight and warmer weather."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At the equator, how much do the seasons change through the year?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They change as much as near the poles",
+            "feedback": "The poles swing from full daylight to full darkness across the year. The equator stays nearly the same because the Sun is always high overhead there."
+          },
+          {
+            "label": "They change very little",
+            "feedback": "Correct. Because the equator always receives roughly the same direct sunlight, day length and heating stay nearly constant all year, so there is no real summer or winter there."
+          },
+          {
+            "label": "They are completely opposite to the Northern Hemisphere",
+            "feedback": "Being opposite means when it is summer in the north it is winter in the south, but at the equator itself the change is tiny, not opposite."
+          },
+          {
+            "label": "They disappear entirely, with no day and night",
+            "feedback": "The equator still has normal day and night, each about twelve hours long. What it lacks is strong seasonal temperature change."
+          }
+        ],
+        "ok_title": "Equator is steady",
+        "ok_line": "Near the equator seasons barely change.",
+        "ko_title": "Not polar swings",
+        "ko_line": "The poles have huge swings; the equator has almost none.",
+        "exp_title": "Why equator is stable",
+        "exp_text": "Earth's tilt makes the Sun climb high overhead at the equator all year long, so sunlight stays direct and days stay close to twelve hours. That is why the equator experiences only mild seasonal change, unlike places at higher latitudes where the Sun's angle and day length shift much more."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the summer solstice in the Northern Hemisphere?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The day with the most hours of daylight of the year",
+            "feedback": "Correct. On the summer solstice the North Pole leans most directly toward the Sun, giving the Northern Hemisphere its longest day and the Sun its highest midday position."
+          },
+          {
+            "label": "The day when the Sun is closest to Earth",
+            "feedback": "The solstice is about the tilt, not the distance. Earth is actually closest to the Sun around early January, which is winter in the Northern Hemisphere."
+          },
+          {
+            "label": "The coldest day of the year",
+            "feedback": "The coldest days come weeks after the solstice because the ground and oceans take time to warm up and cool down. The solstice is the start of summer, not its coldest point."
+          },
+          {
+            "label": "The day when the Sun rises due east and sets due west",
+            "feedback": "That happens at the equinoxes, not the solstice. On the solstice the Sun rises far to the northeast and sets far to the northwest."
+          }
+        ],
+        "ok_title": "Longest day",
+        "ok_line": "The summer solstice is the year's longest day.",
+        "ko_title": "Not distance or cold",
+        "ko_line": "It is about tilt and daylight, not Earth's distance or temperature lag.",
+        "exp_title": "Summer solstice meaning",
+        "exp_text": "Around June 21, Earth's North Pole leans fully toward the Sun. That makes the summer solstice the day with the most daylight in the Northern Hemisphere and the highest midday Sun of the year. It marks the official start of summer, even though the hottest days usually come later."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When it is winter in the Northern Hemisphere, what season is it in the Southern Hemisphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Winter, because the whole Earth is farther from the Sun",
+            "feedback": "Earth's distance from the Sun does not cause seasonal changes, and both hemispheres do not share the same season. The tilt makes them opposite."
+          },
+          {
+            "label": "Spring, because seasons lag by one season",
+            "feedback": "There is no one-season lag between hemispheres. They are directly opposite: when it is winter in the north, it is summer in the south."
+          },
+          {
+            "label": "Summer",
+            "feedback": "Correct. The two hemispheres are always in opposite seasons because when the North Pole leans away from the Sun, the South Pole leans toward it, so the south gets more direct sunlight."
+          },
+          {
+            "label": "Autumn, because the Sun is overhead at the equator",
+            "feedback": "The Sun being near the equator happens at the equinoxes, which mark the start of spring or autumn in both hemispheres, not winter in one."
+          }
+        ],
+        "ok_title": "Hemispheres are opposite",
+        "ok_line": "Northern winter means Southern summer.",
+        "ko_title": "Not the same season",
+        "ko_line": "The tilt makes the two hemispheres receive opposite amounts of sunlight.",
+        "exp_title": "Opposite seasons",
+        "exp_text": "Because Earth's axis stays tilted in the same direction, when the Northern Hemisphere leans away from the Sun and has winter, the Southern Hemisphere leans toward the Sun and has summer. The two hemispheres are always in opposite seasons at the same time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the vernal (spring) equinox?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The day when the North Pole points directly at the Sun",
+            "feedback": "That occurs at the summer solstice, not the equinox. At an equinox Earth's axis leans sideways, not toward or away from the Sun."
+          },
+          {
+            "label": "The day when the Sun is directly overhead at the North Pole",
+            "feedback": "The Sun is never overhead at the North Pole; it sits low on the horizon there. At the equinox the Sun is overhead at the equator."
+          },
+          {
+            "label": "The longest day of the year in the Southern Hemisphere",
+            "feedback": "The longest day in the south is the December solstice, which is the Northern Hemisphere's winter solstice, not the spring equinox."
+          },
+          {
+            "label": "The day when day and night are nearly equal in length worldwide",
+            "feedback": "Correct. At the equinox Earth's tilt is sideways to the Sun, so sunlight falls evenly on both hemispheres and everyone experiences roughly twelve hours of daylight and twelve of night."
+          }
+        ],
+        "ok_title": "Equal day and night",
+        "ok_line": "At the equinox, day and night are about the same length.",
+        "ko_title": "Not a solstice",
+        "ko_line": "Solstices are when the tilt is maximum; equinoxes are when it is sideways.",
+        "exp_title": "Spring equinox meaning",
+        "exp_text": "Around March 20, Earth reaches a point in its orbit where its axis is perpendicular to the Sun's rays. That makes sunlight strike both hemispheres evenly, so day and night are nearly equal everywhere. It marks the start of spring in the Northern Hemisphere and autumn in the Southern."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the Northern Hemisphere receive more direct sunlight during its summer?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the Sun is closer to that hemisphere during summer",
+            "feedback": "Earth's orbital distance changes only slightly and is not tied to the seasons. The directness comes from the tilt of the axis, not from distance."
+          },
+          {
+            "label": "Because the North Pole tilts toward the Sun, making sunlight strike at a steeper angle",
+            "feedback": "Correct. When the North Pole leans toward the Sun, the Sun climbs higher in the sky over the Northern Hemisphere, so sunlight hits the ground more directly rather than at a shallow slant. That concentrated energy is what warms summer."
+          },
+          {
+            "label": "Because the Sun rotates faster during that part of the year",
+            "feedback": "The Sun's rotation has nothing to do with Earth's seasons. The seasons are caused by Earth's tilt, not by any change in the Sun."
+          },
+          {
+            "label": "Because the atmosphere becomes thinner in summer",
+            "feedback": "The atmosphere's thickness does not change with the seasons. Higher sun angle, not thinner air, is what makes summer sunlight more intense."
+          }
+        ],
+        "ok_title": "Steeper sun angle",
+        "ok_line": "Summer sunlight hits more directly because of the tilt.",
+        "ko_title": "Not distance or rotation",
+        "ko_line": "Distance and the Sun's rotation do not drive the seasons.",
+        "exp_title": "Direct sunlight in summer",
+        "exp_text": "Earth's tilt points the North Pole toward the Sun in summer, so the Sun appears higher in the sky. When sunlight arrives at a steep angle, the same amount of energy spreads over a smaller area and warms the ground more effectively. That direct heating is why summer is warmer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the amount of daylight in the Northern Hemisphere as it moves from the summer solstice to the winter solstice?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Daylight gradually decreases",
+            "feedback": "Correct. After the summer solstice, the North Pole starts tilting away from the Sun, so days shorten little by little until the winter solstice, the shortest day of the year."
+          },
+          {
+            "label": "Daylight gradually increases",
+            "feedback": "That would happen moving from the winter solstice to the summer solstice. From summer to winter, daylight shrinks."
+          },
+          {
+            "label": "Daylight stays the same for six months",
+            "feedback": "Daylight changes continuously with the changing tilt, not staying constant. Only at the poles does the Sun remain above the horizon for months at a time."
+          },
+          {
+            "label": "Daylight switches between day and night every week",
+            "feedback": "That does not happen on Earth. The gradual shortening from summer to winter is smooth and takes many weeks."
+          }
+        ],
+        "ok_title": "Days getting shorter",
+        "ok_line": "After summer solstice, days shorten until winter.",
+        "ko_title": "Not lengthening or constant",
+        "ko_line": "Daylight decreases steadily from June to December in the north.",
+        "exp_title": "Daylight decrease after summer",
+        "exp_text": "The summer solstice marks the peak of daylight. After that, Earth's orbit carries the North Pole to lean progressively away from the Sun, so the days grow shorter each day until the winter solstice, which has the least daylight of the year. This gradual shortening is part of the seasonal rhythm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the tilt of Earth's axis compare to the plane of its orbit around the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It is exactly perpendicular, at 90 degrees",
+            "feedback": "A 90-degree tilt would make the axis point sideways, not at the 23.5-degree angle Earth actually has. That would cause extreme seasons unlike what we see."
+          },
+          {
+            "label": "It is completely parallel, with no tilt",
+            "feedback": "If there were no tilt, there would be no seasons at all. Earth's axis is tilted about 23.5 degrees from straight up."
+          },
+          {
+            "label": "It is tilted about 23.5 degrees from the perpendicular",
+            "feedback": "Correct. Earth's axis is tilted roughly 23.5 degrees away from the vertical line that would be perpendicular to its orbital plane, and that fixed tilt is what produces the seasons."
+          },
+          {
+            "label": "It changes constantly between 0 and 90 degrees",
+            "feedback": "The tilt stays nearly constant over a human lifetime; it does not swing wildly. Small slow changes exist over tens of thousands of years, but not seasonal swings."
+          }
+        ],
+        "ok_title": "23.5-degree tilt",
+        "ok_line": "Earth's axis leans about 23.5 degrees from vertical.",
+        "ko_title": "Not 90 or zero",
+        "ko_line": "The tilt is fixed at about 23.5 degrees, not perpendicular or parallel.",
+        "exp_title": "Earth's axial tilt",
+        "exp_text": "Earth's axis is not straight up relative to its orbit; it is tilted about 23.5 degrees. This tilt stays aimed at the same point in space as Earth circles the Sun, which is exactly what makes the Sun's angle and daylight change through the year. Without that tilt, every place would have roughly the same weather year-round."
+      }
+    ]
+  }
+]

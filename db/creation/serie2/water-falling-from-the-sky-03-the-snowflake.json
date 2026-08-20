@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the basic building block of a snowflake?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An ice crystal",
+            "feedback": "Correct. A snowflake is formed from a single ice crystal that grows as water vapour freezes directly onto it."
+          },
+          {
+            "label": "A raindrop",
+            "feedback": "Incorrect. Raindrops are liquid water; snowflakes begin as solid ice crystals, not frozen droplets."
+          },
+          {
+            "label": "A water molecule",
+            "feedback": "Incorrect. A water molecule is the tiniest unit of water, but many molecules arrange together to form an ice crystal, which is the actual building block of a snowflake."
+          },
+          {
+            "label": "A hailstone",
+            "feedback": "Incorrect. Hailstones form from layers of ice in thunderstorms; snowflakes are delicate ice crystals, not dense hailstones."
+          }
+        ],
+        "ok_title": "Ice Crystal Core",
+        "ok_line": "A snowflake starts as a single ice crystal.",
+        "ko_title": "Not a Drop",
+        "ko_line": "Snowflakes are solid ice, not frozen rain.",
+        "exp_title": "Snowflake's Start",
+        "exp_text": "Every snowflake begins as a tiny ice crystal that forms when water vapour in a cloud freezes directly into solid ice. This single crystal is the foundation; as more vapour freezes onto it, the crystal grows into the familiar six-armed shape we call a snowflake."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of the atmosphere does a snowflake form?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "On the ground",
+            "feedback": "Incorrect. Snowflakes form high in the sky inside clouds; they only reach the ground after falling."
+          },
+          {
+            "label": "Inside a cloud",
+            "feedback": "Correct. Snowflakes grow inside clouds where the air is cold enough for water vapour to freeze into ice crystals."
+          },
+          {
+            "label": "Near the ocean surface",
+            "feedback": "Incorrect. Snowflakes do not form over warm oceans; they need the cold conditions found high in clouds."
+          },
+          {
+            "label": "In the stratosphere",
+            "feedback": "Incorrect. Snow forms in the lower atmosphere, in clouds, not in the stratosphere far above weather systems."
+          }
+        ],
+        "ok_title": "Cloud-Born Ice",
+        "ok_line": "Snowflakes grow inside cold clouds.",
+        "ko_title": "High and Cold",
+        "ko_line": "Snow needs cloud-level cold to form.",
+        "exp_title": "Where Snow Is Born",
+        "exp_text": "Snowflakes form inside clouds, where temperatures are below freezing. Water vapour in the cloud turns directly into ice crystals, which grow as more vapour freezes onto them, then fall to the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical number of sides or arms on a snowflake?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Four",
+            "feedback": "Incorrect. Four-sided shapes come from a different crystal structure; snowflakes always grow with six sides due to the way water molecules bond."
+          },
+          {
+            "label": "Five",
+            "feedback": "Incorrect. Five-fold symmetry is not possible for snowflakes; the internal arrangement of water molecules forces six sides."
+          },
+          {
+            "label": "Six",
+            "feedback": "Correct. Snowflakes almost always have six sides or six arms because the water molecules arrange in a hexagonal lattice when freezing."
+          },
+          {
+            "label": "Eight",
+            "feedback": "Incorrect. Eight-sided shapes do not occur in snowflakes; the hexagonal pattern of ice gives them six-fold symmetry."
+          }
+        ],
+        "ok_title": "Six-Sided Snow",
+        "ok_line": "Snowflakes grow with six sides.",
+        "ko_title": "Hexagonal Habit",
+        "ko_line": "Ice's crystal structure dictates six arms.",
+        "exp_title": "Snowflake's Shape",
+        "exp_text": "Snowflakes are six-sided because of the hexagonal arrangement of water molecules in ice. As the crystal grows, this six-sided pattern repeats, producing the characteristic six arms or sides."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What phase change happens when water vapour turns into ice to form a snowflake?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Condensation",
+            "feedback": "Incorrect. Condensation is the change from gas to liquid, like dew forming; snowflakes skip the liquid phase and go straight from gas to solid."
+          },
+          {
+            "label": "Evaporation",
+            "feedback": "Incorrect. Evaporation is the change from liquid to gas; snowflake formation is the opposite direction, from gas to solid."
+          },
+          {
+            "label": "Melting",
+            "feedback": "Incorrect. Melting is the change from solid to liquid; snowflakes form by the reverse process, from gas to solid."
+          },
+          {
+            "label": "Deposition",
+            "feedback": "Correct. Deposition is the direct change from a gas to a solid, and that is exactly what happens when water vapour freezes into ice crystals without becoming liquid first."
+          }
+        ],
+        "ok_title": "Gas to Solid",
+        "ok_line": "Deposition builds snow from vapour.",
+        "ko_title": "No Liquid Step",
+        "ko_line": "Snow forms directly from gas, not via water.",
+        "exp_title": "Direct Freezing",
+        "exp_text": "Snowflakes form by deposition, where water vapour changes directly into solid ice without passing through the liquid phase. This is why snow can form even when the air is too cold for liquid water to exist."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a snowflake need in order to grow larger?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Liquid water",
+            "feedback": "Incorrect. Snowflakes grow by collecting water vapour from the air, not by absorbing liquid water; liquid water would melt or coat the crystal."
+          },
+          {
+            "label": "More water vapour",
+            "feedback": "Correct. A snowflake grows as more water vapour in the surrounding air freezes onto its surface, adding to the crystal."
+          },
+          {
+            "label": "Warmer air",
+            "feedback": "Incorrect. Warmer air would melt the snowflake; it needs cold air to keep the ice solid while it grows."
+          },
+          {
+            "label": "Wind",
+            "feedback": "Incorrect. Wind can break or reshape snowflakes, but it does not supply the material needed for growth."
+          }
+        ],
+        "ok_title": "Vapour Feeds Growth",
+        "ok_line": "Snowflakes grow by gathering water vapour.",
+        "ko_title": "Cold and Moist",
+        "ko_line": "Cold air with vapour lets crystals expand.",
+        "exp_title": "Growing a Snowflake",
+        "exp_text": "A snowflake grows when water vapour from the surrounding air freezes onto the ice crystal. The more vapour available in the cold cloud, the larger the snowflake can become as it falls."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At what temperature does water vapour typically start to freeze into snow crystals?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Below 0°C",
+            "feedback": "Correct. Water vapour freezes into ice crystals only when the temperature is below the freezing point of water, 0°C."
+          },
+          {
+            "label": "At 10°C",
+            "feedback": "Incorrect. 10°C is well above freezing; water stays liquid or vapour at such temperatures, so snow cannot form."
+          },
+          {
+            "label": "At 100°C",
+            "feedback": "Incorrect. 100°C is the boiling point of water; vapour at this temperature cannot freeze into ice."
+          },
+          {
+            "label": "Above 0°C",
+            "feedback": "Incorrect. Above 0°C, ice melts, so snow crystals cannot form; they need cold conditions below freezing."
+          }
+        ],
+        "ok_title": "Freezing Point",
+        "ok_line": "Snow requires temperatures below 0°C.",
+        "ko_title": "Cold Necessary",
+        "ko_line": "Ice forms only when the air is below freezing.",
+        "exp_title": "Temperature for Snow",
+        "exp_text": "Water vapour freezes into snow crystals only when the air temperature is below 0°C (32°F). At or above this temperature, ice would melt, so snow cannot exist."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape do most snowflakes display when they are simple and not fully branched?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Square",
+            "feedback": "Incorrect. Squares have four sides, but snowflakes are always six-sided due to ice's hexagonal crystal structure."
+          },
+          {
+            "label": "Circle",
+            "feedback": "Incorrect. A circle has no straight sides; simple snowflake shapes are flat hexagons with straight edges."
+          },
+          {
+            "label": "Hexagonal plate",
+            "feedback": "Correct. A simple snowflake is often a flat, six-sided plate, reflecting the hexagonal lattice of ice."
+          },
+          {
+            "label": "Triangular",
+            "feedback": "Incorrect. Triangles have three sides, but snowflakes grow with six sides, not three."
+          }
+        ],
+        "ok_title": "Hexagonal Plates",
+        "ok_line": "Simple snowflakes are six-sided plates.",
+        "ko_title": "Flat and Six-Sided",
+        "ko_line": "Ice's structure makes hexagons, not other shapes.",
+        "exp_title": "Basic Snowflake Form",
+        "exp_text": "When a snowflake forms in calm conditions without much branching, it appears as a thin, flat hexagonal plate. This shape comes from the arrangement of water molecules in the ice crystal lattice."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a common type of snowflake, besides the simple plate?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sphere",
+            "feedback": "Incorrect. Spheres are round and smooth, but snowflakes are angular, with flat faces and arms."
+          },
+          {
+            "label": "Cylinder",
+            "feedback": "Incorrect. Cylinders are tube-shaped; snowflakes are flat or branched, not cylindrical."
+          },
+          {
+            "label": "Cone",
+            "feedback": "Incorrect. Cones are pointed and round at the base; snowflakes never form this shape."
+          },
+          {
+            "label": "Stellar dendrite",
+            "feedback": "Correct. Stellar dendrites are the classic six-armed, branched snowflakes commonly seen in pictures."
+          }
+        ],
+        "ok_title": "Stellar Dendrite",
+        "ok_line": "Branched six-armed snowflakes are dendrites.",
+        "ko_title": "Armed and Branching",
+        "ko_line": "Dendrite arms grow as branched crystals.",
+        "exp_title": "Familiar Snowflake",
+        "exp_text": "Stellar dendrites are a common snowflake type that grows six long arms with branching side branches. They form when conditions allow the crystal to grow outward into elaborate, tree-like patterns."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a snowflake as it falls through air that is above freezing?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It melts into rain",
+            "feedback": "Correct. When a snowflake passes through air warmer than 0°C, it melts and becomes a raindrop before reaching the ground."
+          },
+          {
+            "label": "It grows larger",
+            "feedback": "Incorrect. Warm air cannot add ice; it melts the snowflake, so growth stops and melting begins."
+          },
+          {
+            "label": "It turns to hail",
+            "feedback": "Incorrect. Hail forms inside thunderstorms from freezing water droplets, not from melting snowflakes."
+          },
+          {
+            "label": "It stays unchanged",
+            "feedback": "Incorrect. Above-freezing air forces the ice to melt, so the snowflake cannot remain intact."
+          }
+        ],
+        "ok_title": "Melting on the Way",
+        "ok_line": "Warm air turns snowflakes into rain.",
+        "ko_title": "Lost in Warmth",
+        "ko_line": "Above 0°C, ice becomes liquid water.",
+        "exp_title": "Snow to Rain",
+        "exp_text": "If a snowflake falls through a layer of air warmer than freezing, it melts. By the time it reaches the ground, it is liquid rain, which is why warm weather brings rain instead of snow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What gives a snowflake its overall shape as it grows?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The wind direction",
+            "feedback": "Incorrect. Wind can damage or break arms, but it does not determine the crystal's symmetry or shape."
+          },
+          {
+            "label": "The color of the cloud",
+            "feedback": "Incorrect. Cloud color is just light scattering and has no effect on ice crystal formation."
+          },
+          {
+            "label": "The temperature and humidity",
+            "feedback": "Correct. Temperature and humidity control whether the crystal grows as a plate, column, or branched dendrite, shaping its final form."
+          },
+          {
+            "label": "The altitude of the sun",
+            "feedback": "Incorrect. Sun position affects light and warmth but does not directly shape the microscopic crystal growth."
+          }
+        ],
+        "ok_title": "Conditions Shape It",
+        "ok_line": "Temperature and moisture set the snowflake form.",
+        "ko_title": "Nature's Sculptor",
+        "ko_line": "Cold and humidity guide crystal growth.",
+        "exp_title": "What Shapes a Snowflake",
+        "exp_text": "The exact shape a snowflake takes depends on the temperature and humidity of the cloud where it grows. Different conditions produce plates, columns, or branched dendrites, and small changes lead to unique patterns."
+      }
+    ]
+  }
+]

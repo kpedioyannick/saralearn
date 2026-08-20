@@ -1,0 +1,255 @@
+[
+  {
+    "theme_id": 245,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is mimicry in living things?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A living thing changing color to match its background for warmth",
+            "feedback": "Changing color for warmth is not what mimicry means. Mimicry is about resembling another organism or object, not about temperature control."
+          },
+          {
+            "label": "A living thing evolving to resemble another organism or object",
+            "feedback": "Yes — mimicry is an evolved resemblance between a living thing and something else, often another species, which can help deceive a predator or other dupe."
+          },
+          {
+            "label": "A living thing growing extra body parts to scare off enemies",
+            "feedback": "Growing extra parts is not mimicry. Mimicry is about looking like something else, not about adding structures for display."
+          },
+          {
+            "label": "A living thing moving quickly to escape from a predator",
+            "feedback": "Moving quickly to escape is a behavior, not mimicry. Mimicry relies on resemblance, not on speed or movement."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "Mimicry is a resemblance that evolves because it helps the mimic survive.",
+        "ko_title": "Definition misread",
+        "ko_line": "Mimicry is about looks, not about color change for warmth.",
+        "exp_title": "Mimicry basics",
+        "exp_text": "Mimicry is an evolved resemblance between an organism and something else, often another organism of a different species. It works because a dupe, like a bird, mistakes the mimic for the model and behaves in a way that helps the mimic, such as leaving it alone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a simple mimicry system, what are the three roles called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Hunter, prey, and bystander",
+            "feedback": "Those are not the names used in mimicry. The three roles are mimic, model, and dupe, where the dupe is deceived by the resemblance."
+          },
+          {
+            "label": "Parent, child, and rival",
+            "feedback": "These are family roles, not mimicry roles. In mimicry, the mimic looks like the model, and the dupe is the one that is fooled."
+          },
+          {
+            "label": "Mimic, model, and dupe",
+            "feedback": "Correct — the mimic resembles the model, and the dupe (often a predator) is deceived by that resemblance, changing its behavior to the mimic's advantage."
+          },
+          {
+            "label": "Mimic, model, and observer",
+            "feedback": "An observer just watches, but the dupe is actively deceived and changes its behavior, like a bird avoiding a harmless hoverfly that looks like a wasp."
+          }
+        ],
+        "ok_title": "Three roles",
+        "ok_line": "Mimic, model, and dupe are the three roles.",
+        "ko_title": "Roles mixed",
+        "ko_line": "The dupe is fooled, not just an observer.",
+        "exp_title": "Basic roles",
+        "exp_text": "In a mimicry system, three roles exist: the mimic, which resembles another organism; the model, which the mimic looks like; and the dupe, which mistakes the mimic for the model. In the simplest case all three are different species."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a Batesian mimic like a hoverfly pretending to be?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A harmful wasp",
+            "feedback": "Yes — a hoverfly is harmless and mimics a harmful wasp, so birds avoid it, thinking it can sting."
+          },
+          {
+            "label": "A harmless butterfly",
+            "feedback": "A Batesian mimic copies a harmful model, not a harmless one. The whole point is to borrow the model's danger to scare off predators."
+          },
+          {
+            "label": "A juicy caterpillar",
+            "feedback": "Mimicking a caterpillar would attract predators, not deter them. Batesian mimics copy something dangerous, like a wasp."
+          },
+          {
+            "label": "A bird of prey",
+            "feedback": "Birds of prey are not the typical model for small insects. Hoverflies look like wasps, which are genuinely harmful to would-be attackers."
+          }
+        ],
+        "ok_title": "Hoverfly example",
+        "ok_line": "A harmless hoverfly looks like a wasp.",
+        "ko_title": "Model confused",
+        "ko_line": "The model must be harmful, not harmless.",
+        "exp_title": "Batesian mimicry",
+        "exp_text": "In Batesian mimicry, a harmless mimic resembles a harmful model. For instance, a hoverfly is harmless but has yellow and black stripes like a wasp, so insect-eating birds avoid it after learning that wasps sting."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In Müllerian mimicry, why do different harmful species resemble each other?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "To trick predators into eating them",
+            "feedback": "No — they are genuinely harmful, and they share warning colors so predators learn to avoid that pattern, which helps all of them survive."
+          },
+          {
+            "label": "To hide from predators by blending into the background",
+            "feedback": "Blending into the background is crypsis, not Müllerian mimicry. Here the species are brightly colored and share honest warning signals."
+          },
+          {
+            "label": "To imitate a harmless prey so predators come closer",
+            "feedback": "They are not imitating harmless prey. They are warning predators of their own real danger, and the resemblance is honest, not deceptive."
+          },
+          {
+            "label": "So predators learn to avoid the shared warning pattern",
+            "feedback": "Correct — when several harmful species look alike, a predator that gets a bad experience with one learns to avoid that pattern, which protects all the co-mimics."
+          }
+        ],
+        "ok_title": "Honest warning",
+        "ok_line": "Shared warning colors teach predators to stay away.",
+        "ko_title": "Not deceptive",
+        "ko_line": "Müllerian mimicry is honest, not a trick.",
+        "exp_title": "Müllerian mimicry",
+        "exp_text": "In Müllerian mimicry, different harmful species resemble each other because they all genuinely have warning coloration. A predator that tastes one bad species learns to avoid that color pattern, so all species sharing it benefit from the learned avoidance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a bipolar mimicry system?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A system with three species: mimic, model, and dupe",
+            "feedback": "That is a disjunct system. Bipolar means only two species are involved, so the model and dupe may be the same."
+          },
+          {
+            "label": "A system where only two species are involved",
+            "feedback": "Yes — in bipolar mimicry, roles are taken by just two species, such as when the model and the dupe are the same organism."
+          },
+          {
+            "label": "A system where the mimic copies two different models",
+            "feedback": "Having two models is not what bipolar means. Bipolar refers to the number of species in the system, not the number of models."
+          },
+          {
+            "label": "A system with two mimics and one model",
+            "feedback": "That is not a standard bipolar arrangement. Bipolar mimicry is about having only two species total."
+          }
+        ],
+        "ok_title": "Two-species system",
+        "ok_line": "Bipolar mimicry uses just two species.",
+        "ko_title": "Species count",
+        "ko_line": "Bipolar is about two species, not three.",
+        "exp_title": "Bipolar systems",
+        "exp_text": "When the three roles of mimic, model, and dupe are taken by just two species, the system is called bipolar. For example, in aggressive mimicry the predator mimics its own prey, so the model and the dupe are the same species."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In Batesian mimicry, which of the three roles does the harmless mimic play?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The model",
+            "feedback": "The model is the harmful organism that the mimic resembles. The harmless mimic is a different species, so it is not the model."
+          },
+          {
+            "label": "The mimic",
+            "feedback": "Correct. In Batesian mimicry, the harmless species is the mimic, and it copies the harmful model's appearance to fool the dupe."
+          },
+          {
+            "label": "The dupe",
+            "feedback": "The dupe is the predator that gets deceived by the resemblance. The harmless mimic is the one doing the deceiving, not the one being fooled."
+          },
+          {
+            "label": "The predator",
+            "feedback": "Predator is another way of saying the dupe in this system. The mimic is the harmless prey that imitates the model, not the predator itself."
+          }
+        ],
+        "ok_title": "Mimic's role",
+        "ok_line": "The harmless species is the mimic.",
+        "ko_title": "Role confusion",
+        "ko_line": "Check which role is the harmless one.",
+        "exp_title": "Batesian roles",
+        "exp_text": "A Batesian mimicry system has three roles: the mimic is harmless and resembles the harmful model, and the dupe is the predator that is deceived into avoiding the mimic. The harmless species is always the mimic."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In Müllerian mimicry, what is different about the species that resemble each other compared to Batesian mimicry?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "All the resembling species are genuinely harmful",
+            "feedback": "Correct. In Müllerian mimicry, all the co-mimics are actually harmful or distasteful, so their shared warning colors are honest signals."
+          },
+          {
+            "label": "Only one species is harmful and the others are harmless",
+            "feedback": "That describes Batesian mimicry, where a harmless mimic copies a harmful model. In Müllerian mimicry, every species sharing the pattern is genuinely defended."
+          },
+          {
+            "label": "None of the species are harmful, so they hide from predators",
+            "feedback": "Müllerian mimics do not hide; their bright warning colors advertise their real defenses. If none were harmful, there would be no honest warning to share."
+          },
+          {
+            "label": "The mimic is a plant and the model is a bee",
+            "feedback": "That describes Pouyannian mimicry, where a flower mimics a female bee. Müllerian mimicry is about harmful animals like wasps and bees sharing warning colors."
+          }
+        ],
+        "ok_title": "Honest mimicry",
+        "ok_line": "All are truly harmful.",
+        "ko_title": "Mixed up types",
+        "ko_line": "Batesian has one harmless; Müllerian has all harmful.",
+        "exp_title": "Müllerian honesty",
+        "exp_text": "In Müllerian mimicry, different harmful species, such as wasps and bees, come to resemble each other. Because all are genuinely defended, the shared warning coloration is an honest signal to predators."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three basic roles in any mimicry system?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Predator, prey, and plant",
+            "feedback": "Those are creature types, not the functional roles of mimicry. The roles are about who mimics, who is copied, and who is fooled."
+          },
+          {
+            "label": "Male, female, and offspring",
+            "feedback": "That is a reproductive set, not the structure of mimicry. The roles are the mimic, the model, and the dupe."
+          },
+          {
+            "label": "Egg, larva, and adult",
+            "feedback": "Those are life stages, not mimicry roles. Mimicry roles are defined by who resembles whom and who gets deceived."
+          },
+          {
+            "label": "Mimic, model, and dupe",
+            "feedback": "Correct. The mimic is the organism doing the resembling, the model is what it resembles, and the dupe is the one that is deceived."
+          }
+        ],
+        "ok_title": "Three roles",
+        "ok_line": "Mimic, model, dupe.",
+        "ko_title": "Wrong set",
+        "ko_line": "These are not the right three roles.",
+        "exp_title": "Basic mimicry system",
+        "exp_text": "Every mimicry system is built from three roles: the mimic resembles the model, and the dupe perceives the mimic as the model and changes its behavior. These roles can be spread across two or three species."
+      }
+    ]
+  }
+]

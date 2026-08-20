@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 234,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is germination?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The process of a flower producing pollen",
+            "feedback": "Pollination is a different process that happens before seeds form; germination is the growth of a new plant from a seed."
+          },
+          {
+            "label": "The process by which a plant grows from a seed or spore",
+            "feedback": "Correct. Germination is the sprouting of a seedling from a seed, or a sporeling from a spore."
+          },
+          {
+            "label": "The process of a fruit ripening and changing colour",
+            "feedback": "Fruit ripening is a separate stage; germination happens when the seed inside begins to grow into a new plant."
+          },
+          {
+            "label": "The process of a seedling producing its own food",
+            "feedback": "That is photosynthesis, which occurs after germination when leaves have formed; germination itself is the initial growth from seed."
+          }
+        ],
+        "ok_title": "Germination defined",
+        "ok_line": "Germination is the sprouting of a seedling from a seed.",
+        "ko_title": "Not germination",
+        "ko_line": "That describes a different plant process.",
+        "exp_title": "Germination basics",
+        "exp_text": "Germination is the growth of a plant from a seed, starting when the embryo inside resumes growth and ends with the emergence of the radicle and plumule. It is the seed's way of becoming a seedling."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the uptake of water by a seed during germination?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Respiration",
+            "feedback": "Respiration is the process where oxygen is used to release energy from food; the water uptake has a different name."
+          },
+          {
+            "label": "Photosynthesis",
+            "feedback": "Photosynthesis is how a plant makes its own food using light; water uptake by seeds is a different process."
+          },
+          {
+            "label": "Imbibition",
+            "feedback": "Correct. Imbibition is the absorption of water by a dry seed, causing it to swell and break its seed coat."
+          },
+          {
+            "label": "Transpiration",
+            "feedback": "Transpiration is the loss of water from a plant's leaves; seed water uptake is called imbibition."
+          }
+        ],
+        "ok_title": "Imbibition explained",
+        "ok_line": "Water absorption by seeds is imbibition.",
+        "ko_title": "Different process",
+        "ko_line": "That term refers to another plant activity.",
+        "exp_title": "Seed water uptake",
+        "exp_text": "Mature seeds are very dry, and before growth can resume they must take in water. This uptake is called imbibition, and it makes the seed swell and breaks open its coat, allowing the embryo to grow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do most seeds contain inside their seed coat?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An embryo and a food reserve",
+            "feedback": "Correct. All fully developed seeds have an embryo, and most also store food reserves like starch, proteins, or oils to nourish it."
+          },
+          {
+            "label": "Only a food reserve",
+            "feedback": "Seeds need an embryo to grow into a plant; a food reserve alone cannot become a seedling."
+          },
+          {
+            "label": "Only an embryo",
+            "feedback": "While an embryo is essential, most seeds also have stored food to feed the growing embryo until it can photosynthesize."
+          },
+          {
+            "label": "A flower and a fruit",
+            "feedback": "Flowers and fruits are separate structures; the seed is a package containing an embryo and food reserves."
+          }
+        ],
+        "ok_title": "Seed contents",
+        "ok_line": "Seeds hold an embryo and food reserves.",
+        "ko_title": "Incomplete list",
+        "ko_line": "Seeds contain both embryo and stored food.",
+        "exp_title": "Inside a seed",
+        "exp_text": "A seed is like a tiny package: it holds a dormant embryo and, in most species, a supply of food such as starch, proteins, or oils. The embryo uses this stored food to grow until it can produce its own energy through photosynthesis."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is NOT an external factor that seed germination depends on?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Temperature",
+            "feedback": "Temperature is important; different seeds germinate within specific temperature ranges, so it is a key external factor."
+          },
+          {
+            "label": "Water",
+            "feedback": "Water is essential—seeds need to imbibe water to start germination, so it is an external factor."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is needed for aerobic respiration during germination, making it a crucial external factor."
+          },
+          {
+            "label": "Chlorophyll",
+            "feedback": "Chlorophyll is a pigment inside leaves used for photosynthesis, not an external condition. Germination depends on water, oxygen, temperature, and sometimes light or darkness."
+          }
+        ],
+        "ok_title": "External triggers",
+        "ok_line": "Water, oxygen, and temperature are external factors.",
+        "ko_title": "Internal substance",
+        "ko_line": "Chlorophyll is not an external condition.",
+        "exp_title": null,
+        "exp_text": "Seed germination relies on external factors like the right temperature, water, oxygen, and sometimes light or darkness. Chlorophyll is a green pigment found in leaves, and it is not something a seed requires from its surroundings to germinate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the seed coat when a seed imbibes water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It becomes thicker",
+            "feedback": "Imbibition causes swelling, which breaks the coat rather than thickening it; a thicker coat would hinder germination."
+          },
+          {
+            "label": "It turns green",
+            "feedback": "The seed coat does not turn green; that colour comes from chlorophyll in leaves, not from water uptake."
+          },
+          {
+            "label": "It breaks open",
+            "feedback": "Correct. Water uptake makes the seed swell, and the pressure breaks the seed coat, allowing the embryo to emerge."
+          },
+          {
+            "label": "It falls off immediately",
+            "feedback": "The coat breaks open but does not simply fall off right away; the seedling emerges through it as it splits."
+          }
+        ],
+        "ok_title": "Seed coat breaks",
+        "ok_line": "Imbibition swells the seed and splits its coat.",
+        "ko_title": "No change",
+        "ko_line": "Imbibition causes the coat to break.",
+        "exp_title": null,
+        "exp_text": "When a dry seed takes in water during imbibition, it swells. This swelling puts pressure on the seed coat, causing it to break open so that the embryo's root and shoot can push out and begin growth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do hydrolytic enzymes do when a seed imbibes water?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They produce oxygen",
+            "feedback": "Oxygen is not produced by enzymes; oxygen comes from the air in soil pores and is used in respiration."
+          },
+          {
+            "label": "They break down stored food into usable chemicals",
+            "feedback": "Correct. These enzymes convert stored starch, proteins, and oils into forms the growing embryo can use for energy."
+          },
+          {
+            "label": "They repair the seed coat",
+            "feedback": "The seed coat is broken by swelling, not repaired; enzymes work on food reserves inside the seed."
+          },
+          {
+            "label": "They make the seed coat more waterproof",
+            "feedback": "Waterproofing is not what hydrolytic enzymes do; they are involved in breaking down food, not altering the coat."
+          }
+        ],
+        "ok_title": "Enzyme action",
+        "ok_line": "Enzymes unlock stored food for the embryo.",
+        "ko_title": "Wrong role",
+        "ko_line": "Enzymes break down food, not oxygen or the coat.",
+        "exp_title": null,
+        "exp_text": "Once a seed absorbs water, hydrolytic enzymes become active. Their job is to break down the seed's stored food reserves—like starch, proteins, and oils—into simpler molecules that the growing embryo can absorb and use for energy during germination."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main source of energy for a germinating seed before it grows leaves?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sunlight",
+            "feedback": "Sunlight is used later for photosynthesis once leaves exist; a germinating seed cannot use light because it has no leaves yet."
+          },
+          {
+            "label": "Minerals from the soil",
+            "feedback": "Minerals supply nutrients but not the main energy; the energy comes from respiratory breakdown of stored food."
+          },
+          {
+            "label": "Aerobic respiration using oxygen",
+            "feedback": "Correct. The seed uses oxygen in aerobic respiration to release energy from its stored food reserves until leaves form."
+          },
+          {
+            "label": "Water alone",
+            "feedback": "Water is needed for metabolism but provides no energy; energy comes from respiration of stored food."
+          }
+        ],
+        "ok_title": "Energy before leaves",
+        "ok_line": "Respiration powers the seedling until it has leaves.",
+        "ko_title": "Incorrect source",
+        "ko_line": "That is not how a seed gets its energy.",
+        "exp_title": null,
+        "exp_text": "Until a seedling grows leaves and can photosynthesize, it gets energy through aerobic respiration, which uses oxygen to break down the food stored in the seed. This is why oxygen is a crucial external factor for germination."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the food reserves in a seed once the seedling has grown leaves?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They double in amount",
+            "feedback": "The reserves are used up, not increased; once leaves form, the plant makes its own food."
+          },
+          {
+            "label": "They turn into chlorophyll",
+            "feedback": "Chlorophyll is made by the plant, but the food reserves are consumed for energy, not converted into pigment."
+          },
+          {
+            "label": "They stay intact forever",
+            "feedback": "Reserves are exhausted during seedling growth; they do not last forever."
+          },
+          {
+            "label": "They are typically exhausted",
+            "feedback": "Correct. By the time leaves appear, the stored food is used up, and photosynthesis takes over as the energy source."
+          }
+        ],
+        "ok_title": "Reserves used up",
+        "ok_line": "Stored food runs out as leaves appear.",
+        "ko_title": "Still present",
+        "ko_line": "Reserves are depleted, not kept.",
+        "exp_title": null,
+        "exp_text": "As the seedling emerges and grows roots and leaves, it uses up its stored food. Once leaves are functional, photosynthesis supplies the energy, and the seedling no longer depends on the seed's reserves, which are typically exhausted by then."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a dormant seed?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A viable seed that does not germinate until conditions are right",
+            "feedback": "Correct. Dormant seeds are alive but need specific internal or environmental triggers to resume growth and germinate."
+          },
+          {
+            "label": "A dead seed that will never grow",
+            "feedback": "Dormant seeds are alive, not dead; they are simply waiting for the right conditions to germinate."
+          },
+          {
+            "label": "A seed that has already sprouted",
+            "feedback": "A sprouted seed is germinating, not dormant; dormancy is the state before germination begins."
+          },
+          {
+            "label": "A seed that is too dry to absorb water",
+            "feedback": "All mature seeds are dry until they imbibe water; dormancy is about a lack of growth despite viability, not just dryness."
+          }
+        ],
+        "ok_title": "Dormancy defined",
+        "ok_line": "Dormant seeds wait for the right conditions.",
+        "ko_title": "Not dormant",
+        "ko_line": "That does not describe a dormant seed.",
+        "exp_title": null,
+        "exp_text": "A dormant seed is alive and viable, but it stays inactive because it requires certain internal or environmental stimuli—like cold, warmth, or light—to start germinating. This is a survival strategy to avoid sprouting when conditions are unfavourable."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which plant hormone inhibits germination?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Gibberellin",
+            "feedback": "Gibberellin actually ends seed dormancy and promotes germination; it is the opposite of an inhibitor."
+          },
+          {
+            "label": "Chlorophyll",
+            "feedback": "Chlorophyll is not a hormone; it is a pigment for photosynthesis and has no role in seed germination."
+          },
+          {
+            "label": "Abscisic acid",
+            "feedback": "Correct. Abscisic acid is a plant hormone that inhibits germination, helping keep seeds dormant until conditions improve."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is a gas needed for respiration, not a hormone; it does not inhibit germination."
+          }
+        ],
+        "ok_title": "Germination inhibitor",
+        "ok_line": "Abscisic acid keeps seeds dormant.",
+        "ko_title": "Wrong hormone",
+        "ko_line": "That substance does not stop germination.",
+        "exp_title": null,
+        "exp_text": "Seed dormancy is influenced by plant hormones: abscisic acid inhibits germination, while gibberellin ends dormancy and promotes growth. The balance between these hormones helps a seed decide when to sprout."
+      }
+    ]
+  }
+]

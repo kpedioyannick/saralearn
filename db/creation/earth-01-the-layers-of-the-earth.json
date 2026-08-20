@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 131,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Which layer holds most of Earth's mass?",
+        "body": null,
+        "options": [
+          {
+            "label": "The crust",
+            "feedback": "The crust is the thinnest layer by far, barely a sliver of Earth's bulk."
+          },
+          {
+            "label": "The mantle",
+            "feedback": "It reaches from just under the crust nearly to the core, filling most of Earth's volume with dense rock."
+          },
+          {
+            "label": "The outer core",
+            "feedback": "The outer core is a real reservoir of iron, but the rock layer wrapped around it is wider still."
+          },
+          {
+            "label": "The inner core",
+            "feedback": "The inner core is a small ball right at the center, the smallest of the four layers."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "The middle layer carries most of the weight.",
+        "ko_title": "Not the biggest shell",
+        "ko_line": "Picture the layers as shells wrapped around a center and ask which shell is thickest.",
+        "exp_title": "A thick shell of rock",
+        "exp_text": "Earth is built as a set of nested shells, and the shell of solid but slowly flowing rock sitting between the thin outer skin and the metal center is far thicker than the others. Because it wraps nearly the whole way around the planet at real depth, that single shell accounts for the bulk of everything the planet is made of."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Earth's inner core solid even though it is hotter than the outer core?",
+        "body": null,
+        "options": [
+          {
+            "label": "It formed from cooler material that never melted",
+            "feedback": "Every part of early Earth was once hot enough to melt, the center included; the inner core is not leftover cool material."
+          },
+          {
+            "label": "It is made of a metal that melts at a much higher temperature than the outer core's iron",
+            "feedback": "Both layers are close to the same iron-nickel mix; a different recipe is not what sets them apart."
+          },
+          {
+            "label": "The pressure there is high enough to force iron solid despite the heat",
+            "feedback": "The enormous weight pressing down from above raises the temperature iron needs to melt."
+          },
+          {
+            "label": "It lost its heat to the mantle above it",
+            "feedback": "The inner core is the hottest layer of all; it has not cooled below the layer sitting outside it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Exactly",
+        "ok_line": "Squeezed solid, not cooled solid.",
+        "ko_title": "Heat is not the whole story",
+        "ko_line": "Whether iron melts depends on more than how hot it is.",
+        "exp_title": "Squeezed rather than cooled",
+        "exp_text": "Whether iron is solid or liquid depends on both its temperature and the pressure pressing in on it, not on temperature alone, and pressure builds with the weight of everything stacked above a given depth. At the very center that weight is enormous, and it raises the temperature iron needs to melt higher than the temperature actually reached there, so the iron stays locked in place instead of flowing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What generates Earth's magnetic field?",
+        "body": null,
+        "options": [
+          {
+            "label": "Moving molten iron circulating in the outer core",
+            "feedback": "A flow of liquid metal carries electric current with it, and that current is what builds the field."
+          },
+          {
+            "label": "Iron in the inner core spinning in place",
+            "feedback": "The inner core is solid and largely still; the churning that builds a field happens in the liquid layer outside it."
+          },
+          {
+            "label": "Magnetic rock deep in the mantle",
+            "feedback": "Rock loses any magnetism it might carry once it gets that hot; the mantle is far too hot to hold it."
+          },
+          {
+            "label": "Sunlight interacting with the atmosphere",
+            "feedback": "Sunlight lights up the upper air where the field already reaches, but it is not what builds the field itself."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A churning river of metal, deep below your feet.",
+        "ko_title": "Wrong layer",
+        "ko_line": "The field comes from something that flows, not something that sits still.",
+        "exp_title": "A moving river of metal",
+        "exp_text": "Liquid iron in the outer core is constantly stirred by heat rising from below and by the planet's own spin, and a moving flow of metal carries electric current along with it. That current loops through the liquid layer and builds a magnetic field that reaches out around the whole planet."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can we tell that Earth is made of different layers, if no one has ever traveled to its center?",
+        "body": null,
+        "options": [
+          {
+            "label": "By analyzing samples brought back from the deepest layer",
+            "feedback": "No sample has ever come from anywhere near that deep; digging has barely scratched the outermost layer."
+          },
+          {
+            "label": "By calculating Earth's shape from its shadow during an eclipse",
+            "feedback": "A shadow only outlines the sphere's outer shape; it says nothing about what lies hidden inside it."
+          },
+          {
+            "label": "By comparing Earth's temperature at different times of year",
+            "feedback": "Surface temperature swings with sunlight and the seasons, not with anything happening far underground."
+          },
+          {
+            "label": "By tracking how shaking from large natural events bends and speeds up crossing hidden boundaries",
+            "feedback": "Shaking that passes through different materials changes speed and direction, and that pattern maps what it crossed."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "The shaking itself draws the map.",
+        "ko_title": "Nobody has ever gone down there",
+        "ko_line": "Think about what actually travels through the deep planet and comes back changed.",
+        "exp_title": "Waves that reveal what they cross",
+        "exp_text": "A large earthquake sends waves of shaking racing outward through the solid body of the planet in every direction, and each wave travels at a different speed depending on the kind of material it is crossing. When a wave passes from one material into another it bends, and part of it bounces back the way it came, so the pattern of bends and echoes carried by many such waves traces out where one layer ends and the next begins."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do continents stand higher than the ocean floor?",
+        "body": null,
+        "options": [
+          {
+            "label": "Wind and waves have worn the ocean floor down over time",
+            "feedback": "Erosion reshapes surface features, but it does not explain the deep difference in overall level between the two kinds of crust."
+          },
+          {
+            "label": "Continental crust is thicker and less dense, so it floats higher on the mantle beneath it",
+            "feedback": "A thicker, lighter slab settles less deeply into the mantle than a thin, denser one does."
+          },
+          {
+            "label": "The ocean floor is younger and simply hasn't finished rising yet",
+            "feedback": "Even old patches of ocean floor stay low; what keeps it low is what it is made of, not its age."
+          },
+          {
+            "label": "Water pushes down on the seafloor with its weight, sinking it",
+            "feedback": "Water presses on the seafloor, but that alone is nowhere near enough to sink an entire slab of crust."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly right",
+        "ok_line": "Lighter rock rides higher on the same dense mantle.",
+        "ko_title": "Not age or weather",
+        "ko_line": "Ask what the two kinds of crust are actually made of.",
+        "exp_title": "Different rock, different float",
+        "exp_text": "Both kinds of crust rest on the same dense mantle much the way a raft rests on water, and how high a slab of crust sits depends on how thick it is and how dense its rock is. Continental rock is lighter for its size than the darker, denser rock that makes up the ocean floor, so a thick raft of that lighter rock settles into the mantle less deeply than a thin slab of the denser kind."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Earth's center made of iron rather than a mix of everything the planet formed from?",
+        "body": null,
+        "options": [
+          {
+            "label": "Early Earth was hot enough to melt, and dense iron sank through the lighter melted rock",
+            "feedback": "Once everything could move freely as a liquid, the heaviest material worked its way to the middle."
+          },
+          {
+            "label": "Meteorites made only of iron arrived later and buried themselves at the center",
+            "feedback": "Later impacts add very little compared with the whole planet once being molten and sorting itself out."
+          },
+          {
+            "label": "Iron is attracted to Earth's spin axis more strongly than rock is",
+            "feedback": "Spinning does not sort materials by what they are made of; it does not pull iron toward an axis."
+          },
+          {
+            "label": "Gases escaping from the surface left iron behind as the only solid material",
+            "feedback": "Iron did not stay behind from a loss of gas; it moved from being spread through the whole body to gathering in the middle."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "The heavy material sank while everything could still move.",
+        "ko_title": "Think molten, not solid",
+        "ko_line": "Ask what state the whole planet was in when this sorting happened.",
+        "exp_title": "Sinking while everything was still fluid",
+        "exp_text": "Soon after Earth formed, the whole body was hot enough that rock and metal could move through one another almost like liquids of different weights. Iron is far denser than the rock around it, so it sank steadily toward the center while the lighter rock rose toward the surface, leaving the metal gathered in the middle once everything cooled and set."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Earth's interior still hot today, long after the planet formed?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sunlight reaches down into the ground and warms it from above",
+            "feedback": "Sunlight only warms a shallow surface layer; it never reaches anywhere near the depths in question."
+          },
+          {
+            "label": "Pressure from the crust squeezes the interior and this friction makes heat",
+            "feedback": "The crust's weight presses down steadily, but a steady, unmoving weight does not keep generating heat on its own."
+          },
+          {
+            "label": "Heat from its violent formation is still slowly leaking out through the insulating rock around it",
+            "feedback": "Solid rock lets heat escape only very slowly, so early warmth is still working its way out."
+          },
+          {
+            "label": "The core burns like a fire, slowly using up fuel",
+            "feedback": "Nothing there is burning; burning needs air, and no air reaches that depth."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "Old heat, trapped by rock that barely lets it through.",
+        "ko_title": "Not sunlight, not friction, not fire",
+        "ko_line": "The interior needs no fresh source of heat if the old heat simply cannot get out.",
+        "exp_title": "Heat with nowhere to go",
+        "exp_text": "When Earth formed, the collisions and compression that built it left the whole body extremely hot, and solid rock conducts heat only very slowly, acting like a blanket wrapped around that early warmth. Because so little heat can escape through such a poor conductor in any stretch of time, much of it is still working its way outward today."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can the mantle be solid rock and still flow?",
+        "body": null,
+        "options": [
+          {
+            "label": "The mantle is actually a thick liquid, not a solid at all",
+            "feedback": "It is solid rock: it lets shaking from earthquakes pass straight through it, something a true liquid could never do."
+          },
+          {
+            "label": "Cracks in the mantle let looser material slide through like sand",
+            "feedback": "The flow is not chunks sliding through cracks; whole solid rock gradually changes shape without breaking apart."
+          },
+          {
+            "label": "Water trapped inside turns the rock to mud",
+            "feedback": "Almost no water reaches that depth, and the rock never turns to mud; it stays solid rock throughout."
+          },
+          {
+            "label": "Under enough heat and pressure sustained over long stretches of time, solid rock deforms and creeps rather than staying rigid",
+            "feedback": "Given enough heat, pressure, and time, a solid can slowly change shape without ever melting."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Exactly",
+        "ok_line": "Solid rock that gives way, ever so slowly.",
+        "ko_title": "Not melted, not cracked",
+        "ko_line": "The rock never stops being solid; ask what solid rock can do given enough time.",
+        "exp_title": "Solid, yet slowly giving way",
+        "exp_text": "Rock kept under great heat and pressure for a very long time does not need to melt in order to change shape; its crystals can slowly rearrange themselves, letting the whole mass creep the way a solid can stretch when pulled far more gently than it would ever crack. Given enough time, that creeping adds up to a slow circulation carrying material around the interior."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the outer core still liquid, when the inner core right below it is solid iron?",
+        "body": null,
+        "options": [
+          {
+            "label": "The outer core is made of a completely different, easier-to-melt metal",
+            "feedback": "Outer and inner core share almost the same iron-nickel makeup; depth and pressure set them apart, not a different recipe."
+          },
+          {
+            "label": "At that shallower depth the pressure is lower, so the same iron melts at a temperature that is easily reached there",
+            "feedback": "Lighter pressure lowers the temperature iron needs to melt, and the outer core sits above that lower point."
+          },
+          {
+            "label": "The outer core has cooled less than the inner core over time",
+            "feedback": "The outer core actually sits at a lower temperature than the inner core; the difference lies in pressure, not extra heat."
+          },
+          {
+            "label": "Radioactive decay keeps only the outer core warm",
+            "feedback": "The elements that release heat this way are not confined to a single layer, and that is not what keeps this layer liquid."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Same metal, lighter squeeze, still liquid.",
+        "ko_title": "Same metal, different pressure",
+        "ko_line": "The two core layers are made of nearly the same thing; something else must set them apart.",
+        "exp_title": "A lighter squeeze, still flowing",
+        "exp_text": "Whether iron is liquid or solid at a given moment depends on both how hot it is and how hard it is being squeezed, and that squeezing eases the closer material sits to the surface. In the outer core the pressure is lower than it is deeper down, so the temperature there stays above the point at which iron under that lighter squeeze turns liquid, and the metal keeps flowing instead of locking into place."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Earth's outer crust such a thin layer compared to what lies beneath it?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is the solidified skin that formed once the outer part of a once fully molten planet finally cooled below rock's melting point",
+            "feedback": "Only the part of the planet exposed to cold space cooled far enough to lock into solid rock."
+          },
+          {
+            "label": "Erosion has worn nearly all of the original crust away",
+            "feedback": "Erosion reshapes the surface, but it has never eaten a whole layer down to the mantle beneath it."
+          },
+          {
+            "label": "The crust is compressed by the mantle underneath, squeezing it flat",
+            "feedback": "The crust is not a thick layer flattened by squeezing; it was thin from the way it first formed."
+          },
+          {
+            "label": "Living things absorbed most of the original rock into their bodies",
+            "feedback": "Life has never taken in planetary rock in any way that could thin an entire layer of it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A thin rind on a body that is still hot within.",
+        "ko_title": "Not weather, not squeezing",
+        "ko_line": "Ask what state the whole planet started in and which part of it cooled first.",
+        "exp_title": "A rind on a molten world",
+        "exp_text": "Early Earth was hot enough throughout to behave like a single ball of molten rock and metal, and it cooled from the outside inward because the surface was what touched the cold of space. Only that outer sliver dropped below the temperature where rock turns solid, while everything beneath stayed hot enough to remain part of the deep interior, so the solid part became one thin shell wrapped around a body that is still hot and slowly moving within."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the dark central part of Earth's shadow that causes a total lunar eclipse?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Penumbra",
+            "feedback": "The penumbra is the lighter outer part of the shadow, where only part of the Sun is blocked. The dark central shadow that fully blocks sunlight is the umbra."
+          },
+          {
+            "label": "Umbra",
+            "feedback": "Correct. The umbra is the cone-shaped region where Earth blocks all direct sunlight, and when the Moon passes through it, we see a total lunar eclipse."
+          },
+          {
+            "label": "Antumbra",
+            "feedback": "The antumbra is a region beyond the umbra where the shadow narrows, relevant for annular solar eclipses, not for Earth's shadow during a lunar eclipse."
+          },
+          {
+            "label": "Core shadow",
+            "feedback": "That is a descriptive term, but the standard technical name for the dark central part of a shadow is 'umbra'. 'Core shadow' is not the recognized term."
+          }
+        ],
+        "ok_title": "Correct: umbra",
+        "ok_line": "The umbra is the dark core of Earth's shadow.",
+        "ko_title": "Wrong shadow part",
+        "ko_line": "Check the name of the dark central shadow.",
+        "exp_title": "Earth's shadow zones",
+        "exp_text": "Earth casts a two-part shadow into space. The inner, darkest cone is the umbra, where no direct sunlight reaches. Around it lies the penumbra, a lighter region where sunlight is only partially blocked. A lunar eclipse happens when the Moon enters these shadow regions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a total lunar eclipse, what color does the Moon usually appear to an observer on Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Bright white",
+            "feedback": "Bright white is the normal full moon color. During totality, the Moon is not directly lit by the Sun, so it cannot appear white; it takes on a reddish tint."
+          },
+          {
+            "label": "Invisible black",
+            "feedback": "The Moon does not disappear entirely. Some sunlight bends through Earth's atmosphere and reaches it, so it glows faintly copper-red, not black."
+          },
+          {
+            "label": "Copper-red or orange",
+            "feedback": "Correct. Earth's atmosphere scatters blue light away and bends reddish light into the shadow, so the Moon's surface turns a dark red-orange, often called a 'blood moon'."
+          },
+          {
+            "label": "Gray like a crescent moon",
+            "feedback": "A crescent moon appears gray because it is lit from an angle. During totality, the Moon is fully within the umbra and shows a reddish color, not a gray sliver."
+          }
+        ],
+        "ok_title": "Reddish Moon",
+        "ok_line": "The Moon turns copper-red during totality.",
+        "ko_title": "Wrong eclipse color",
+        "ko_line": "Remember the atmospheric scattering effect.",
+        "exp_title": "Why the Moon looks red",
+        "exp_text": "During totality, the Moon is in Earth's umbra, but not in total darkness. Sunlight passes through Earth's atmosphere, which scatters away most blue light and lets red light bend into the shadow. That reddish light falls on the Moon, giving it a coppery glow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the lighter outer part of Earth's shadow that the Moon can pass through?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Penumbra",
+            "feedback": "Correct. The penumbra is the outer, lighter region of Earth's shadow, where the Sun is only partially blocked. When the Moon passes through it, a penumbral eclipse occurs."
+          },
+          {
+            "label": "Umbra",
+            "feedback": "The umbra is the dark central part, not the lighter outer part. The lighter fringe is called the penumbra."
+          },
+          {
+            "label": "Twilight zone",
+            "feedback": "That is a casual term for a transition area, but the specific astronomical name for the lighter shadow region is 'penumbra'."
+          },
+          {
+            "label": "Shadow cone",
+            "feedback": "That describes the overall shape of the shadow, not the outer lighter region. The outer region specifically is the penumbra."
+          }
+        ],
+        "ok_title": "Penumbra correct",
+        "ok_line": "The penumbra is the lighter outer shadow.",
+        "ko_title": "Not the umbra",
+        "ko_line": "Distinguish the outer from the inner shadow.",
+        "exp_title": "Shadow has two parts",
+        "exp_text": "Earth's shadow is not uniform. The central, darkest part is the umbra. Surrounding it is the penumbra, where some sunlight still leaks around the planet. A lunar eclipse that only touches the penumbra is called a penumbral eclipse."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a lunar eclipse last several hours, from start to finish?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the Moon moves very slowly in its orbit",
+            "feedback": "The Moon moves at about 1 km per second, which is not particularly slow. The key factor is the size of Earth's shadow compared to the Moon's diameter, not the Moon's speed alone."
+          },
+          {
+            "label": "Because the Sun is far away, so its shadow is narrow",
+            "feedback": "The Sun's distance would make the shadow narrower, not wider. In fact, Earth's umbra is wide enough that the Moon takes hours to cross it."
+          },
+          {
+            "label": "Because the Moon stops moving during the eclipse",
+            "feedback": "The Moon never stops orbiting Earth. It continues moving, but it has to travel across a shadow that is much larger than its own diameter."
+          },
+          {
+            "label": "Because Earth's shadow is much wider than the Moon's diameter",
+            "feedback": "Correct. The umbra is about 2.5 times the Moon's width, so the Moon spends a long time crossing through it, making the eclipse last hours."
+          }
+        ],
+        "ok_title": "Wide shadow",
+        "ok_line": "Earth's umbra is far wider than the Moon.",
+        "ko_title": "Wrong reason for duration",
+        "ko_line": "The shadow size, not the Moon's speed, sets the duration.",
+        "exp_title": "Why eclipses are long",
+        "exp_text": "A lunar eclipse lasts hours because the Moon must travel across Earth's umbra, which is much larger than the Moon itself. Since the Moon's orbital speed is about 1 km per second, crossing the shadow's width takes over an hour for totality, plus more for the partial phases."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the Moon's brightness during a penumbral lunar eclipse?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Moon turns completely black",
+            "feedback": "No. In a penumbral eclipse, the Moon stays outside the umbra, so it is still lit by direct sunlight. It never goes black."
+          },
+          {
+            "label": "The Moon gets only slightly dimmer",
+            "feedback": "Correct. The penumbra only blocks part of the Sun, so the Moon's surface dims a little, often so subtly that many people notice nothing."
+          },
+          {
+            "label": "The Moon appears red like in a total eclipse",
+            "feedback": "A red color happens only in the umbra. In the penumbra, the Moon is still white-lit, just slightly fainter."
+          },
+          {
+            "label": "The Moon becomes half-lit like a quarter phase",
+            "feedback": "That would be a phase change, not an eclipse. In a penumbral eclipse, the Moon remains full, but its brightness dips slightly."
+          }
+        ],
+        "ok_title": "Slight dimming",
+        "ok_line": "Penumbral eclipses barely dim the Moon.",
+        "ko_title": "Not dramatic",
+        "ko_line": "Penumbra only partly blocks sunlight.",
+        "exp_title": "Penumbral eclipse effect",
+        "exp_text": "When the Moon passes through the penumbra, only a portion of the Sun's light is blocked. The Moon's surface gets a bit darker, but it is not a dramatic change. Many skywatchers miss it entirely without a careful look."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a total lunar eclipse, is it safe to look directly at the Moon with your naked eyes?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "No, because the Moon emits harmful light during an eclipse",
+            "feedback": "The Moon emits no harmful light of its own. It only reflects sunlight, and during a lunar eclipse the reflected light is dim and reddish, safe to view."
+          },
+          {
+            "label": "Yes, but only with special eclipse glasses",
+            "feedback": "Special glasses are needed for solar eclipses, not lunar ones. The Moon during a lunar eclipse is safe to look at with the naked eye, no glasses required."
+          },
+          {
+            "label": "Yes, it is perfectly safe to look with the naked eye",
+            "feedback": "Correct. The Moon only reflects sunlight, and during a lunar eclipse that reflected light is reduced and not intense. Looking at it directly causes no eye damage."
+          },
+          {
+            "label": "No, because the Moon moves out of Earth's shadow quickly",
+            "feedback": "The speed of the eclipse is irrelevant to eye safety. The danger would come from bright light, but the Moon is dim during a lunar eclipse."
+          }
+        ],
+        "ok_title": "Safe to view",
+        "ok_line": "Lunar eclipses are safe for the eyes.",
+        "ko_title": "No danger here",
+        "ko_line": "The Moon is dim, not bright, during a lunar eclipse.",
+        "exp_title": "Eye safety in eclipses",
+        "exp_text": "Staring at a solar eclipse is dangerous because the Sun's bright surface remains visible. During a lunar eclipse, the Moon is in Earth's shadow and shines only with dim, reddish light. That light is far too weak to harm the retina, so you can watch with unaided eyes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a lunar eclipse be seen from an entire hemisphere of Earth at once?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the Moon is just one object, and Earth's rotation brings a whole half into view",
+            "feedback": "Correct. The Moon is far away and visible from any location on Earth where it is above the horizon. During a lunar eclipse, the whole night side of Earth can see it, since the Moon is up for everyone on that half."
+          },
+          {
+            "label": "Because the eclipse darkens the entire sky, not just the Moon",
+            "feedback": "No. The eclipse only affects the Moon's appearance; the sky is not darkened. The reason everyone can see it is that the Moon is above the horizon for half the planet."
+          },
+          {
+            "label": "Because the Moon moves into the center of Earth's shadow, which is visible everywhere",
+            "feedback": "The shadow's location isn't the key. What matters is that the Moon itself is a single, distant object, so any place on the night side can see it, regardless of the shadow's position."
+          },
+          {
+            "label": "Because the eclipse lasts for days, so all time zones catch it",
+            "feedback": "A lunar eclipse lasts only a few hours, not days. But because it is visible from an entire hemisphere, all time zones on that hemisphere see it at roughly the same clock time locally."
+          }
+        ],
+        "ok_title": "Whole hemisphere",
+        "ok_line": "The Moon is visible across the night side.",
+        "ko_title": "One object, wide view",
+        "ko_line": "Earth's night side all faces the Moon.",
+        "exp_title": "Why lunar eclipses are wide",
+        "exp_text": "The Moon is about 384,000 km away, so it appears essentially at the same point in the sky for all observers on Earth's night side. When it enters Earth's shadow, everyone who can see the Moon—that is, the entire hemisphere where it's night—sees the same eclipse simultaneously."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the largest possible number of lunar eclipses that can occur in a single calendar year?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "One",
+            "feedback": "Not correct. A single year can have more than one lunar eclipse. The minimum is zero, but the maximum is higher."
+          },
+          {
+            "label": "Two",
+            "feedback": "Two is common, but not the maximum. Some years see three or four lunar eclipses, though not all are total."
+          },
+          {
+            "label": "Three",
+            "feedback": "Three happens in some years, but the upper limit is actually four."
+          },
+          {
+            "label": "Four",
+            "feedback": "Correct. In a single year, up to four lunar eclipses can occur. This happens only rarely, and four total eclipses in a year are nearly impossible; usually they include penumbral or partial ones."
+          }
+        ],
+        "ok_title": "Four maximum",
+        "ok_line": "A year can hold up to four lunar eclipses.",
+        "ko_title": "Lower count wrong",
+        "ko_line": "The yearly maximum is four, not less.",
+        "exp_title": "Eclipse frequency limits",
+        "exp_text": "Orbital mechanics set a limit of four lunar eclipses per year. This happens when the Moon's orbit aligns such that eclipses occur at both eclipse seasons, each season possibly having two events. Most years have two, but some have none, and rarely there are four."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the eclipse that occurs when the Moon passes only through Earth's penumbra?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Total lunar eclipse",
+            "feedback": "A total lunar eclipse requires the Moon to enter the umbra fully. Passing only through the penumbra gives a different type."
+          },
+          {
+            "label": "Penumbral lunar eclipse",
+            "feedback": "Correct. When the Moon travels only through the penumbra, it is a penumbral eclipse. The Moon stays outside the umbra, so it only dims slightly."
+          },
+          {
+            "label": "Partial lunar eclipse",
+            "feedback": "A partial lunar eclipse happens when only part of the Moon enters the umbra. The penumbra alone does not count as partial in this sense."
+          },
+          {
+            "label": "Solar eclipse",
+            "feedback": "A solar eclipse happens when the Moon passes between Earth and the Sun. Penumbral passage involves Earth's shadow, so a lunar eclipse."
+          }
+        ],
+        "ok_title": "Penumbral eclipse",
+        "ok_line": "The penumbra alone gives a penumbral eclipse.",
+        "ko_title": "Not total or partial",
+        "ko_line": "Umbra contact defines total and partial.",
+        "exp_title": "Three types of lunar eclipses",
+        "exp_text": "Lunar eclipses come in three types. If the Moon only goes through the penumbra, it is penumbral. If part enters the umbra, it is partial. If the whole Moon enters the umbra, it is total. The type depends on which shadow region the Moon crosses."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason why a lunar eclipse does not occur at every full moon?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Moon's orbit is too fast",
+            "feedback": "The Moon's orbital speed doesn't prevent eclipses. Even though it moves quickly, the issue is the tilt of its orbit relative to Earth's orbit around the Sun."
+          },
+          {
+            "label": "Because the full moon is not exactly opposite the Sun",
+            "feedback": "A full moon always has the Moon opposite the Sun in the sky. The problem is that the Moon's orbit is tilted, so it usually passes above or below Earth's shadow."
+          },
+          {
+            "label": "Because the Moon's orbit is tilted about 5 degrees to Earth's orbit",
+            "feedback": "Correct. The Moon's orbit is inclined about 5° to the plane of Earth's orbit. As a result, at full moon, the Moon is often above or below the shadow, and only when it crosses the line of nodes does an eclipse occur."
+          },
+          {
+            "label": "Because the Earth's shadow constantly changes size",
+            "feedback": "Earth's shadow size varies a little with distance, but that is not why eclipses are rare. The tilt of the Moon's orbit is the main factor."
+          }
+        ],
+        "ok_title": "Orbital tilt",
+        "ok_line": "The Moon's 5° tilt prevents monthly eclipses.",
+        "ko_title": "Not speed or shadow size",
+        "ko_line": "The tilt is the key reason.",
+        "exp_title": "Why eclipses are not monthly",
+        "exp_text": "At full moon, the Moon is opposite the Sun, but its orbit is tilted about 5 degrees relative to Earth's orbit. So usually, the Moon passes above or below Earth's shadow. Only when the Moon is near one of its orbit's nodes—where it crosses the ecliptic plane—does it align with the shadow, allowing an eclipse."
+      }
+    ]
+  }
+]

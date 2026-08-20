@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why can water move easily in and out of the body's cells, when many other substances cannot cross the cell membrane at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "Water is chemically identical to the fluid inside cells",
+            "feedback": "Water inside and outside a cell isn't chemically different in itself; membranes are selective based on the size and nature of the molecule, and water simply happens to be one that passes through easily."
+          },
+          {
+            "label": "Water molecules are small enough to pass through channels in the membrane",
+            "feedback": "Membranes carry channels shaped to let water's small, simple molecules pass through freely."
+          },
+          {
+            "label": "Cells produce water internally, so none needs to cross from outside",
+            "feedback": "Cells do produce a small amount of water through their own chemical reactions, but that's nowhere near enough for their needs; most of a cell's water still has to cross the membrane from outside."
+          },
+          {
+            "label": "Water is pumped across using energy, the same way as most other molecules",
+            "feedback": "Many substances do need an active pump that spends energy to cross the membrane; water is unusual precisely because it doesn't need one."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "Small enough to slip through, no pump required.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what it is about a water molecule itself that lets it cross so freely.",
+        "exp_title": "Small enough to pass straight through",
+        "exp_text": "Cell membranes are dotted with channels, some of them shaped specifically to let water molecules pass through because they are so small and simple compared with most other dissolved substances. That free movement lets water flow toward wherever it is in shorter supply on one side of the membrane, balancing the concentration of everything dissolved in it on both sides."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does drinking seawater leave a shipwrecked sailor more dehydrated rather than less?",
+        "body": null,
+        "options": [
+          {
+            "label": "Seawater contains no water molecules the body can use",
+            "feedback": "Seawater is still mostly water; the problem isn't a lack of water molecules in it but what else is dissolved alongside them."
+          },
+          {
+            "label": "The salt in seawater is absorbed straight into the blood without any water",
+            "feedback": "Salt does get absorbed, but water is absorbed right along with it; the problem shows up later, at the kidneys, not during absorption."
+          },
+          {
+            "label": "The kidneys need to use more water to flush out the extra salt than the seawater provided",
+            "feedback": "Clearing that much salt out through urine takes more water than the seawater itself contained."
+          },
+          {
+            "label": "Seawater makes the stomach shut down all water absorption completely",
+            "feedback": "The stomach doesn't stop absorbing water because of salt; digestion and absorption of the fluid carry on largely as normal."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "Spending more water to clear the salt than was drunk.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what has to happen to the extra salt once it's in the blood, and what that costs.",
+        "exp_title": "Paying more water than it brings",
+        "exp_text": "Salt absorbed from seawater raises the concentration of the blood, and the kidneys respond by producing urine to carry that excess salt back out of the body. Because urine can only be made a certain amount concentrated, clearing that much salt takes more water than the seawater itself contained, leaving the body with a water deficit rather than a gain."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What do the kidneys constantly do to keep the body's water at the right level?",
+        "body": null,
+        "options": [
+          {
+            "label": "Filter the blood continuously, then reabsorb most of the water back into it",
+            "feedback": "Most of the water filtered out is reabsorbed before it can leave, so only the amount not needed becomes urine."
+          },
+          {
+            "label": "Store extra water in a reserve for later use",
+            "feedback": "The kidneys don't keep a stored reserve of water inside themselves; they work moment to moment, adjusting how much water leaves in urine."
+          },
+          {
+            "label": "Add water directly to the blood from outside",
+            "feedback": "The kidneys can't add water that isn't already somewhere in the body; all they do is decide how much of the water already in the blood gets kept or released."
+          },
+          {
+            "label": "Remove salt only, leaving water levels untouched",
+            "feedback": "The kidneys manage water and salt together, not salt on its own; how much water is reabsorbed is central to what they do."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Filter everything, then take most of the water back.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask what the kidneys actually do with the water in blood that passes through them, moment to moment.",
+        "exp_title": "Filtering, then taking most of it back",
+        "exp_text": "Blood passes through the kidneys continuously, and at each pass, water along with dissolved substances is filtered out of it into tiny tubes. Most of that filtered water, along with anything still useful, is then reabsorbed back into the blood before it can leave, so only the amount not needed continues onward and becomes urine."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does urine become darker and more concentrated when someone hasn't drunk enough water?",
+        "body": null,
+        "options": [
+          {
+            "label": "The bladder squeezes harder, packing waste more tightly",
+            "feedback": "The bladder simply stores urine as it arrives; it doesn't concentrate anything by squeezing, and its job starts after urine has already been made."
+          },
+          {
+            "label": "Waste products build up faster in the blood when water is short",
+            "feedback": "How much waste the body produces stays roughly the same regardless of how much water was drunk; it's how much water surrounds that waste in the urine that changes."
+          },
+          {
+            "label": "Less urine is made overall, so the colour looks stronger by comparison",
+            "feedback": "Less urine is indeed made, but the colour itself becomes genuinely more concentrated, not just apparently darker by comparison; the same amount of waste is dissolved in far less water."
+          },
+          {
+            "label": "The kidneys reabsorb more water back into the blood, leaving less to dilute the waste in urine",
+            "feedback": "Signals reach the kidneys to reabsorb a larger share of the filtered water, leaving less to dilute the waste still being removed."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "Less water spared for the urine, so the waste sits stronger in it.",
+        "ko_title": "Not the cause",
+        "ko_line": "Ask what changes about how much water the kidneys let go, when the body is short on it.",
+        "exp_title": "Holding on to water when it's scarce",
+        "exp_text": "When the body senses it is short on water, signals reach the kidneys to reabsorb a larger share of the water they filter, rather than letting it pass onward as usual. That leaves less water available to dilute the waste products still being removed, so the same amount of waste ends up dissolved in far less liquid, making the urine noticeably darker and more concentrated."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does sweating cool the body down?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sweat itself is cold when it reaches the skin",
+            "feedback": "Sweat leaves the skin at body temperature; it isn't cold to begin with, so being cold on arrival isn't what cools anything."
+          },
+          {
+            "label": "Sweat evaporating off the skin carries heat away with it",
+            "feedback": "Turning liquid sweat into vapour draws heat from the skin, and that heat leaves with the vapour as it evaporates."
+          },
+          {
+            "label": "Sweat blocks sunlight from warming the skin further",
+            "feedback": "Sweat is a thin, largely clear layer of fluid; it doesn't meaningfully block sunlight from reaching the skin beneath it."
+          },
+          {
+            "label": "Sweat washes heat-producing bacteria off the skin",
+            "feedback": "The heat being removed isn't coming from bacteria on the skin; it's the body's own internal heat, generated by its own activity."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "Heat leaves with the vapour, not the liquid.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what has to happen to sweat, not just where it sits, for cooling to actually occur.",
+        "exp_title": "Heat carried off as vapour",
+        "exp_text": "Turning liquid sweat into vapour takes energy, and that energy is drawn from the heat of the skin the sweat is sitting on. As sweat evaporates off the skin's surface, it carries that borrowed heat away with it into the air, leaving the skin, and the blood flowing just beneath it, cooler than before."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Besides drinking, where does the body get a meaningful amount of its water from?",
+        "body": null,
+        "options": [
+          {
+            "label": "From the air breathed in through the lungs",
+            "feedback": "Air breathed in does carry some moisture, but nowhere near enough to be a meaningful water source; most of what the body extracts from breathing is oxygen, not water."
+          },
+          {
+            "label": "From sunlight absorbed through the skin",
+            "feedback": "Sunlight delivers energy to the skin, not water; nothing about sunlight itself supplies the body with fluid."
+          },
+          {
+            "label": "From the food eaten, and small amounts made inside cells during their own chemical reactions",
+            "feedback": "Many foods are made up largely of water themselves, and the chemical reactions inside cells add a further, smaller contribution."
+          },
+          {
+            "label": "From salt dissolving in the bloodstream",
+            "feedback": "Dissolved salt doesn't create water; it's the water already present that salt dissolves into, not the other way round."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "Food carries water too, and cells make a little of their own.",
+        "ko_title": "Not a real source",
+        "ko_line": "Ask what actually contains liquid water, or produces it as a by-product, rather than just touching the body.",
+        "exp_title": "Water hidden in food, and made inside cells",
+        "exp_text": "Many foods, especially fruits and vegetables, are made up largely of water themselves, so eating them supplies a meaningful share of the body's daily water alongside drinking. On top of that, the chemical reactions that release energy inside cells produce a small amount of water as a by-product, adding a further, smaller contribution from within the body itself."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the kidneys let waste products pass out in urine while holding on to most of the water?",
+        "body": null,
+        "options": [
+          {
+            "label": "They filter everything out of the blood first, then selectively reabsorb the water and useful substances back",
+            "feedback": "Nothing is held back at the first filtering step; the kidneys then choose what to reabsorb afterward."
+          },
+          {
+            "label": "Waste products are too large to be reabsorbed, unlike water",
+            "feedback": "Reabsorption isn't simply about size; some fairly small waste substances are deliberately left in the urine while similarly small useful substances are reclaimed, so size alone doesn't explain the difference."
+          },
+          {
+            "label": "Water is repelled by the waste dissolved around it",
+            "feedback": "Water doesn't get physically repelled by whatever is dissolved in it; reabsorption happens through the kidney's own tubes, not through any repulsion between substances."
+          },
+          {
+            "label": "The kidneys only filter waste, never water, in the first place",
+            "feedback": "Water is filtered out of the blood right alongside everything else at first; what makes the kidneys effective is what they choose to take back afterward, not what they skip filtering."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Filter first, without exception, then choose what comes back.",
+        "ko_title": "Not the process",
+        "ko_line": "Ask what happens to water at the very first step, before any reabsorbing begins.",
+        "exp_title": "Filter first, choose afterward",
+        "exp_text": "As blood passes through the kidneys, water and dissolved substances, useful and waste alike, are filtered out together into tiny tubes, with nothing held back at that first step. Moving along those tubes, the kidneys then reabsorb most of the water and the useful substances back into the blood, leaving the waste behind to continue onward and leave the body as urine."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the body keep losing water even when someone isn't sweating or urinating?",
+        "body": null,
+        "options": [
+          {
+            "label": "Water leaks out through the fingernails and hair",
+            "feedback": "Fingernails and hair are not living, permeable tissue; water doesn't pass through them the way it does through moist, living surfaces."
+          },
+          {
+            "label": "The stomach releases water vapour whenever it is empty",
+            "feedback": "An empty stomach doesn't release water vapour; water loss that happens without sweating or urinating comes from elsewhere in the body."
+          },
+          {
+            "label": "Blood vessels near the skin's surface constantly release water directly into the air",
+            "feedback": "Blood stays inside its vessels; it doesn't release water straight into the air through the skin's surface without sweating being involved."
+          },
+          {
+            "label": "The moist lining of the lungs loses water vapour with every breath out",
+            "feedback": "That moist lining is necessary for gas exchange, and some of its moisture escapes as vapour with every exhale."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "Lost with every exhale, whether or not you notice it.",
+        "ko_title": "Not the source",
+        "ko_line": "Think about what moist surface, inside the body, is constantly exposed to the outside air, breath after breath.",
+        "exp_title": "Lost with every breath",
+        "exp_text": "The inside of the lungs is lined with a moist surface, which is necessary for the exchange of oxygen and carbon dioxide with the blood. Every time air is breathed out, it carries some of that moisture away with it as vapour, so the body keeps losing a small amount of water through ordinary breathing alone, with no sweating or urinating involved."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can fluid move out of tiny blood vessels called capillaries into the surrounding tissue, and then back in again?",
+        "body": null,
+        "options": [
+          {
+            "label": "Capillary walls dissolve and reform constantly, letting fluid pass at will",
+            "feedback": "Capillary walls stay intact as a structure; fluid moves across them without the wall itself dissolving or reforming."
+          },
+          {
+            "label": "Capillary walls are thin and slightly leaky, letting water and small molecules pass while blood cells stay inside",
+            "feedback": "Small gaps in the thin, single-cell wall let water and small dissolved substances pass while blood cells stay inside."
+          },
+          {
+            "label": "Capillaries pump fluid out on a fixed schedule, then pump it back in later",
+            "feedback": "There's no scheduled pumping cycle in and out of a capillary; movement of fluid depends on pressure and concentration differences at any given moment, not on timing."
+          },
+          {
+            "label": "The surrounding tissue actively sucks fluid out of the capillary using its own pump",
+            "feedback": "Surrounding tissue has no pump of its own drawing fluid out; whatever movement happens is driven by pressure and concentration differences across the capillary wall itself."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "Thin and slightly leaky, on purpose.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what kind of wall would let small things through while keeping blood cells inside.",
+        "exp_title": "A wall built to let just enough through",
+        "exp_text": "Capillary walls are only a single cell thick and have small gaps between those cells, thin and leaky enough for water and small dissolved substances to pass through while blood cells, which are much larger, stay inside. Differences in pressure and concentration push fluid out into the surrounding tissue at one point along the capillary and draw a similar amount back in further along, delivering fluid to the tissue without ever emptying the vessel."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does blood need to contain a certain amount of water to keep flowing properly around the body?",
+        "body": null,
+        "options": [
+          {
+            "label": "Water in the blood carries oxygen directly, more than red blood cells do",
+            "feedback": "Oxygen is carried mainly by red blood cells, not dissolved directly in the water of the blood; that isn't the role water plays here."
+          },
+          {
+            "label": "Without enough water, blood would freeze at normal body temperature",
+            "feedback": "Blood temperature and its water content aren't linked to freezing under normal circumstances; the problem with too little water in blood is a different one entirely."
+          },
+          {
+            "label": "Water makes up most of the blood's liquid portion, and too little of it lowers blood volume and makes it harder to pump around the body",
+            "feedback": "Water forms most of the plasma that carries blood cells, so too little of it drops the total volume the heart has to move."
+          },
+          {
+            "label": "Water in the blood dissolves bone minerals for transport",
+            "feedback": "Transporting minerals isn't why blood needs a baseline amount of water; the issue with too little water is about volume and flow, not about dissolving minerals from bone."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "Less water, less volume, more strain to move it.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what water actually makes up, by volume, inside blood, and what happens if there's less of it.",
+        "exp_title": "The volume behind the flow",
+        "exp_text": "Blood is mostly a watery fluid called plasma, in which blood cells and dissolved substances are carried, so the amount of water in the blood largely determines the blood's total volume. If that volume drops too low, there is simply less blood for the heart to push around, forcing it to work harder to keep circulation moving properly through the body."
+      }
+    ]
+  }
+]

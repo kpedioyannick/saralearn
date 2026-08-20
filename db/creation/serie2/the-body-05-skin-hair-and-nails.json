@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 248,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the outermost layer of the skin called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The epidermis",
+            "feedback": "Correct. The epidermis is the thin, outer layer of skin that you can see and touch."
+          },
+          {
+            "label": "The dermis",
+            "feedback": "The dermis is the thicker layer beneath the epidermis. The outermost layer is the epidermis."
+          },
+          {
+            "label": "The hypodermis",
+            "feedback": "The hypodermis is the deepest layer, mostly fat, not the outer surface. The outer layer is the epidermis."
+          },
+          {
+            "label": "The subcutaneous layer",
+            "feedback": "The subcutaneous layer is another name for the fatty layer under the skin. The outer surface is the epidermis."
+          }
+        ],
+        "ok_title": "Outer layer named",
+        "ok_line": "The epidermis is the skin's top layer.",
+        "ko_title": "Layer mix-up",
+        "ko_line": "The outer layer is the epidermis, not deeper ones.",
+        "exp_title": "Epidermis basics",
+        "exp_text": "The epidermis is the visible outer layer of skin. It is mostly made of dead, flattened cells that protect the living tissue underneath, and it also contains melanin, which gives skin its color."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which layer of the skin contains blood vessels and nerve endings?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The epidermis",
+            "feedback": "The epidermis is too thin and has no blood vessels of its own. Blood vessels and nerves are in the dermis below it."
+          },
+          {
+            "label": "The dermis",
+            "feedback": "Correct. The dermis is the middle layer, rich with blood vessels, nerves, sweat glands, and hair follicles."
+          },
+          {
+            "label": "The hypodermis",
+            "feedback": "The hypodermis is mostly fat and has fewer blood vessels and nerves than the dermis. Those structures live mainly in the dermis."
+          },
+          {
+            "label": "The stratum corneum",
+            "feedback": "The stratum corneum is just the outermost dead layer of the epidermis. Blood vessels and nerves are in the dermis."
+          }
+        ],
+        "ok_title": "Dermis is vascular",
+        "ok_line": "The dermis holds the blood supply and nerves.",
+        "ko_title": "Wrong skin layer",
+        "ko_line": "Blood vessels and nerves sit in the dermis.",
+        "exp_title": "Dermis role",
+        "exp_text": "The dermis is the thick middle layer of skin. It contains blood vessels that feed the skin, nerve endings that sense touch and temperature, and also the roots of hairs and glands that produce sweat and oil."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main pigment that gives skin its color?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Keratin",
+            "feedback": "Keratin is a tough protein that makes hair and nails, not a pigment. The color of skin comes from melanin."
+          },
+          {
+            "label": "Collagen",
+            "feedback": "Collagen is a structural protein that gives skin strength, not color. The pigment involved is melanin."
+          },
+          {
+            "label": "Melanin",
+            "feedback": "Correct. Melanin is the dark pigment produced by cells in the epidermis that gives skin its varying shades."
+          },
+          {
+            "label": "Hemoglobin",
+            "feedback": "Hemoglobin is in blood and gives it a red color; it is not the main skin pigment. Skin color comes mainly from melanin."
+          }
+        ],
+        "ok_title": "Melanin colors skin",
+        "ok_line": "Melanin is the pigment that darkens skin.",
+        "ko_title": "Pigment confusion",
+        "ko_line": "Melanin, not keratin or collagen, gives skin color.",
+        "exp_title": "Melanin function",
+        "exp_text": "Melanin is produced by cells called melanocytes in the epidermis. It absorbs harmful UV light and determines how light or dark a person's skin is; more melanin means darker skin."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the skin are sweat glands located?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "In the epidermis",
+            "feedback": "The epidermis is only a few cells thick and does not house glands. Sweat glands are in the dermis, deeper in."
+          },
+          {
+            "label": "In the hypodermis",
+            "feedback": "The hypodermis is mostly fat and not where sweat glands are found. Sweat glands sit in the dermis."
+          },
+          {
+            "label": "On the skin surface",
+            "feedback": "Sweat glands are internal structures; their ducts open at the surface, but the glands themselves are in the dermis."
+          },
+          {
+            "label": "In the dermis",
+            "feedback": "Correct. Sweat glands are coiled tubes tucked in the dermis, with ducts that run up to tiny openings on the skin surface."
+          }
+        ],
+        "ok_title": "Sweat glands in dermis",
+        "ok_line": "Sweat glands live in the dermis layer.",
+        "ko_title": "Gland location error",
+        "ko_line": "Sweat glands are deep in the dermis, not on top.",
+        "exp_title": "Sweat gland placement",
+        "exp_text": "Sweat glands are coiled in the dermis. Their ducts pass through the epidermis to open as pores on the surface, where sweat is released to cool the body by evaporation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the tough protein that makes up hair and nails?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Keratin",
+            "feedback": "Correct. Keratin is a strong, fibrous protein that forms the structure of hair, nails, and the outer skin layer."
+          },
+          {
+            "label": "Elastin",
+            "feedback": "Elastin is a protein that lets skin stretch and snap back, not what hair or nails are built from. That is keratin."
+          },
+          {
+            "label": "Collagen",
+            "feedback": "Collagen gives skin and tendons strength, but hair and nails are made of keratin, a different protein."
+          },
+          {
+            "label": "Melanin",
+            "feedback": "Melanin is a pigment for color, not a structural protein. Hair and nails rely on keratin."
+          }
+        ],
+        "ok_title": "Keratin builds hair",
+        "ok_line": "Keratin is the protein in hair and nails.",
+        "ko_title": "Protein mix-up",
+        "ko_line": "Hair and nails are keratin, not collagen or elastin.",
+        "exp_title": "Keratin's role",
+        "exp_text": "Keratin is a hard, waterproof protein produced by cells in the skin. It fills the shaft of hair and the plate of a nail, giving them strength and rigidity while remaining slightly flexible."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does cutting hair not cause pain?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because hair is made of dead cells",
+            "feedback": "That is part of the reason, but the key is that the shaft you cut has no nerves. The living root does have some sensation, but the visible hair is dead."
+          },
+          {
+            "label": "Because hair is not attached to the skin",
+            "feedback": "Hair is firmly rooted in the dermis, so it is attached. Pain is absent because the shaft has no nerve endings."
+          },
+          {
+            "label": "Because the visible part of hair has no nerve endings",
+            "feedback": "Correct. The long shaft above the skin is keratinized and has no nerves or blood vessels, so cutting it feels nothing."
+          },
+          {
+            "label": "Because hair is made of a different substance than skin",
+            "feedback": "Hair is made of keratin, which is also in the outer skin, but that alone doesn't explain painlessness. The real reason is the lack of nerves in the shaft."
+          }
+        ],
+        "ok_title": "Nerves absent in shaft",
+        "ok_line": "No nerves run through the visible hair.",
+        "ko_title": "Pain explanation off",
+        "ko_line": "The shaft has no nerves, so cutting is painless.",
+        "exp_title": "Hair shaft sensitivity",
+        "exp_text": "Only the root of a hair deep in the dermis has a nerve supply. The keratinized shaft above the skin is completely insensitive; trimming it cannot cause pain, but pulling on a root can."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the small muscle attached to each hair follicle that makes the hair stand up?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The cardiac muscle",
+            "feedback": "Cardiac muscle is only in the heart and not attached to hairs. The small muscle at a hair follicle is the arrector pili."
+          },
+          {
+            "label": "The arrector pili muscle",
+            "feedback": "Correct. The arrector pili is a tiny band of smooth muscle that contracts to pull the hair upright, causing goosebumps."
+          },
+          {
+            "label": "The skeletal muscle",
+            "feedback": "Skeletal muscles are large voluntary muscles like those in the arm. Hair follicles use the arrector pili, a smooth muscle."
+          },
+          {
+            "label": "The smooth muscle of blood vessels",
+            "feedback": "That muscle constricts vessels but does not attach to hair. The one for hairs is the arrector pili."
+          }
+        ],
+        "ok_title": "Arrector pili works",
+        "ok_line": "The arrector pili raises the hair.",
+        "ko_title": "Wrong muscle type",
+        "ko_line": "The arrector pili, not cardiac or skeletal, lifts hairs.",
+        "exp_title": "Goosebump mechanism",
+        "exp_text": "Each hair follicle has a tiny arrector pili muscle anchored to the dermis. When it contracts, it pulls the follicle, making the hair stand straight and raising a small bump of skin around it — a goosebump."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the visible part of a nail called?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The nail root",
+            "feedback": "The nail root is hidden under the skin at the base of the nail. The visible part is the nail body."
+          },
+          {
+            "label": "The lunula",
+            "feedback": "The lunula is the pale half-moon shape near the base, not the whole visible nail. That whole part is the nail body."
+          },
+          {
+            "label": "The cuticle",
+            "feedback": "The cuticle is the thin fold of skin over the base of the nail, not the nail itself. The visible part is the nail body."
+          },
+          {
+            "label": "The nail body",
+            "feedback": "Correct. The nail body is the hard, flat, visible part of the nail that sits on the nail bed."
+          }
+        ],
+        "ok_title": "Nail body visible",
+        "ok_line": "The nail body is what you see.",
+        "ko_title": "Part name wrong",
+        "ko_line": "The visible part is the nail body, not root or cuticle.",
+        "exp_title": "Nail anatomy",
+        "exp_text": "The nail body is the keratinized plate that grows out from the nail root and covers the nail bed. It is pink because of the blood in the dermis beneath it, and it feels no pain because it has no nerves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the function of sebaceous glands in the skin?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To produce oil that keeps skin and hair moist",
+            "feedback": "Correct. Sebaceous glands secrete sebum, an oily substance that lubricates and waterproofs skin and hair."
+          },
+          {
+            "label": "To produce sweat for cooling",
+            "feedback": "That is the job of sweat glands, not sebaceous glands. Sebaceous glands make oil."
+          },
+          {
+            "label": "To produce melanin for color",
+            "feedback": "Melanin comes from melanocytes in the epidermis, not from sebaceous glands. Those glands make oil."
+          },
+          {
+            "label": "To produce keratin for strength",
+            "feedback": "Keratin is made by cells in the epidermis and hair follicles, not by sebaceous glands. Sebaceous glands make oil."
+          }
+        ],
+        "ok_title": "Sebum keeps moist",
+        "ok_line": "Oil from sebaceous glands moisturizes skin.",
+        "ko_title": "Gland purpose wrong",
+        "ko_line": "Sebaceous glands make oil, not sweat or pigment.",
+        "exp_title": "Sebum's role",
+        "exp_text": "Sebaceous glands are tiny sacs attached to hair follicles. They release sebum, an oily mix that spreads over the skin surface, trapping moisture and preventing the skin and hair from drying out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do new skin cells reach the surface of the epidermis?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They are pushed up by blood flow",
+            "feedback": "Blood does not push cells; it carries nutrients. New cells are pushed by the division of cells beneath them."
+          },
+          {
+            "label": "They travel through tiny tubes",
+            "feedback": "There are no tubes carrying skin cells upward. They are displaced by new cells forming below."
+          },
+          {
+            "label": "They are pushed upward by new cells dividing beneath them",
+            "feedback": "Correct. Cells in the deepest epidermis divide, and each new cell pushes older ones upward toward the surface."
+          },
+          {
+            "label": "They are pulled up by muscles",
+            "feedback": "Muscles do not act on the epidermis. The movement is due to cell division in the basal layer pushing older cells outward."
+          }
+        ],
+        "ok_title": "Cell push upward",
+        "ok_line": "New cells push old ones to the surface.",
+        "ko_title": "Movement reason off",
+        "ko_line": "Cell division, not blood or tubes, moves skin cells.",
+        "exp_title": "Epidermal renewal",
+        "exp_text": "The deepest layer of the epidermis, the stratum basale, constantly divides. Each new cell pushes the one above it upward; as cells move away from the blood supply, they die and become the flat, dead flakes on the surface, which eventually shed."
+      }
+    ]
+  }
+]

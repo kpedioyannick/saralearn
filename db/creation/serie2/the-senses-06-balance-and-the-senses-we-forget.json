@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 249,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the vestibular system in the inner ear primarily detect?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only the position of the body's joints and muscles",
+            "feedback": "Joint and muscle position is detected by proprioceptors in the limbs, not by the vestibular system. The vestibular system is specifically devoted to head movement and orientation."
+          },
+          {
+            "label": "The position and movement of the head",
+            "feedback": "Correct. The vestibular system contains sensors that detect head rotation and linear movement, as well as the head's orientation relative to gravity."
+          },
+          {
+            "label": "Only sounds, since it sits next to the cochlea",
+            "feedback": "Sound is detected by the cochlea, which is a separate structure from the vestibular apparatus. Though they are close together, the vestibular system is not for hearing."
+          },
+          {
+            "label": "The stretching of the skin when it is pressed",
+            "feedback": "Stretching of the skin is detected by touch receptors in the skin, not by the inner ear. The vestibular system is entirely internal and responds to head movements."
+          }
+        ],
+        "ok_title": "Head position and motion",
+        "ok_line": "The vestibular system is your head's motion and orientation sensor.",
+        "ko_title": "Not for hearing",
+        "ko_line": "Vestibular sense is separate from hearing, even if they share the inner ear.",
+        "exp_title": "The vestibular system",
+        "exp_text": "The vestibular system is a set of fluid-filled chambers and canals in the inner ear that detect the tilt, rotation, and linear movement of the head. It sends that information to the brain to help with balance and coordinating eye movements. It has nothing to do with sound, which is handled by the adjacent cochlea."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the vestibular system detects rotational movement of the head, like turning it to one side?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The utricle",
+            "feedback": "The utricle detects linear movements and the tilt of the head relative to gravity, not rotation. Rotation is handled by the semicircular canals."
+          },
+          {
+            "label": "The saccule",
+            "feedback": "The saccule is also for linear acceleration and vertical tilt, not for rotation. The semicircular canals are the ones that sense spinning or turning of the head."
+          },
+          {
+            "label": "The semicircular canals",
+            "feedback": "Correct. The three semicircular canals are oriented in different planes and detect rotational movement of the head when fluid inside them moves and bends sensory hairs."
+          },
+          {
+            "label": "The cochlea",
+            "feedback": "The cochlea is the hearing organ, not part of the vestibular system. It converts sound waves into nerve signals, not head rotations."
+          }
+        ],
+        "ok_title": "Semicircular canals",
+        "ok_line": "The semicircular canals are the rotation detectors of the inner ear.",
+        "ko_title": "Not the utricle or saccule",
+        "ko_line": "Those handle linear motion, not turning.",
+        "exp_title": "Rotational sensing",
+        "exp_text": "The vestibular system has three semicircular canals, each filled with fluid and lined with sensory hairs. When you turn your head, the fluid lags behind and pushes against the hairs, which sends a signal that the head is rotating. The utricle and saccule, by contrast, detect straight-line movements and the head's tilt relative to gravity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the small calcium carbonate crystals in the utricle and saccule called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Otoliths",
+            "feedback": "Correct. Otoliths are tiny crystals that sit on a gel-like layer over the sensory hairs in the utricle and saccule. When the head tilts or accelerates, the crystals shift and bend the hairs, telling the brain about gravity and linear motion."
+          },
+          {
+            "label": "Cilia",
+            "feedback": "Cilia are the hair-like projections on the sensory cells, not the crystals. The otoliths are the heavy particles that move and bend those cilia."
+          },
+          {
+            "label": "Hair cells",
+            "feedback": "Hair cells are the actual sensory cells that detect movement. The crystals are separate structures that sit on top of them and cause them to bend."
+          },
+          {
+            "label": "Mucus",
+            "feedback": "Mucus is a slippery fluid found in the nose and elsewhere, not in the vestibular system. The utricle and saccule contain a gelatinous layer with embedded crystals."
+          }
+        ],
+        "ok_title": "Otoliths",
+        "ok_line": "Otoliths are the tiny stones that help detect tilt and acceleration.",
+        "ko_title": "Not hair cells",
+        "ko_line": "The crystals move the hair cells, but are not the hair cells themselves.",
+        "exp_title": "Otolith crystals",
+        "exp_text": "In the utricle and saccule, a gelatinous membrane is weighted with tiny crystals of calcium carbonate called otoliths. When your head tilts or you speed up in a straight line, the crystals shift due to inertia and gravity, bending the sensory hairs underneath. That bending is what signals the brain about the head's orientation and linear movement."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the function of the three semicircular canals, each oriented in a different plane?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "To detect the pitch of sounds",
+            "feedback": "Sound pitch is detected by the cochlea, not by the semicircular canals. The canals are part of the vestibular system for balance, not for hearing."
+          },
+          {
+            "label": "To help you hear loud sounds without damage",
+            "feedback": "Protecting the ear from loud sounds is done by muscles and the middle ear bones, not by the semicircular canals. The canals have no role in hearing at all."
+          },
+          {
+            "label": "To sense the position of your arms and legs",
+            "feedback": "Limb position is sensed by proprioceptors in muscles and joints, not by the inner ear. The semicircular canals only sense head rotation."
+          },
+          {
+            "label": "To detect rotation of the head in any direction",
+            "feedback": "Correct. Because the three canals lie in three different planes, each one responds best to rotation in its own plane, so together they cover all possible directions of head turning."
+          }
+        ],
+        "ok_title": "Rotation in 3D",
+        "ok_line": "Three canals cover all directions of head turning.",
+        "ko_title": "No hearing role",
+        "ko_line": "The semicircular canals are purely for balance, not for sound.",
+        "exp_title": "Three planes of rotation",
+        "exp_text": "The semicircular canals are arranged roughly at right angles to each other, like the three planes of a corner of a room. That way, no matter which way you turn your head, at least one canal is aligned to detect that rotation. The brain combines signals from all three to know exactly how the head is turning."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the vestibular system is responsible for detecting linear acceleration, such as when you step on the gas in a car?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The semicircular canals",
+            "feedback": "The semicircular canals detect rotation, not linear motion. Linear acceleration is sensed by the otolith organs, the utricle and saccule."
+          },
+          {
+            "label": "The utricle and saccule",
+            "feedback": "Correct. The utricle and saccule contain otoliths that shift when you accelerate in a straight line, bending hair cells and signaling linear movement."
+          },
+          {
+            "label": "The eardrum",
+            "feedback": "The eardrum is part of the hearing pathway, vibrating in response to sound waves. It has nothing to do with detecting acceleration of the head."
+          },
+          {
+            "label": "The cochlea",
+            "feedback": "The cochlea is for hearing, converting sound vibrations into nerve signals. It is not involved in balance or detecting linear acceleration."
+          }
+        ],
+        "ok_title": "Utricle and saccule",
+        "ok_line": "These otolith organs sense straight-line acceleration.",
+        "ko_title": "Not semicircular canals",
+        "ko_line": "Those are for rotation, not linear motion.",
+        "exp_title": "Linear acceleration sensing",
+        "exp_text": "The utricle and saccule are the two otolith organs that detect linear acceleration, meaning changes in speed or direction in a straight line, as well as the constant pull of gravity. When the head accelerates, the otoliths lag behind slightly, bending the hair cells and generating a signal. The semicircular canals, by contrast, only sense rotational movement."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What purpose does the vestibulo-ocular reflex serve?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It keeps your eyes stable on a target while your head moves",
+            "feedback": "Correct. The vestibulo-ocular reflex uses signals from the vestibular system to move your eyes in the opposite direction of your head movement, so your gaze stays fixed on what you are looking at."
+          },
+          {
+            "label": "It makes your eyes water when you are in bright light",
+            "feedback": "Tearing in bright light is a reflex involving the tear glands and the optic nerve, not the vestibular system. The vestibulo-ocular reflex is specifically about stabilizing the eyes during head movement."
+          },
+          {
+            "label": "It helps you focus on close objects",
+            "feedback": "Focusing on close objects is done by changing the shape of the lens in the eye. The vestibulo-ocular reflex has nothing to do with focusing, only with compensating for head motion."
+          },
+          {
+            "label": "It tells you when you are dizzy",
+            "feedback": "The feeling of dizziness arises from a mismatch in vestibular signals, but the vestibulo-ocular reflex is an automatic eye movement response, not a sensation. It works even when you are not conscious of it."
+          }
+        ],
+        "ok_title": "Stable gaze",
+        "ok_line": "The reflex moves your eyes opposite to your head.",
+        "ko_title": "Not focusing or tearing",
+        "ko_line": "It is about keeping the eyes still, not about adjusting focus.",
+        "exp_title": "Vestibulo-ocular reflex",
+        "exp_text": "When your head turns, the vestibular system detects the rotation and sends signals to the eye muscles to move the eyes in the opposite direction at the same speed. This keeps the image on the retina stable, so you can read a sign while shaking your head. Without this reflex, the world would appear to blur every time you moved your head."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the feeling of dizziness after you stop spinning around?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The fluid in the semicircular canals stops moving immediately",
+            "feedback": "Actually, the fluid does not stop immediately. Because of inertia, the fluid keeps moving for a while after you halt, which is exactly what causes the continued sensation of spinning."
+          },
+          {
+            "label": "The brain gets too much oxygen",
+            "feedback": "Dizziness is not caused by excess oxygen. It is caused by the vestibular system's fluid still moving after the head has stopped, sending false rotation signals to the brain."
+          },
+          {
+            "label": "The fluid in the semicircular canals keeps moving after your head stops",
+            "feedback": "Correct. When you stop, the fluid in the canals continues to slosh around due to inertia, bending the hair cells as if you were still spinning. The brain then interprets this as continued rotation."
+          },
+          {
+            "label": "The otoliths become dislodged and float freely",
+            "feedback": "Dislodged otoliths cause a condition called benign paroxysmal positional vertigo, but that is not what happens after normal spinning. The dizziness after spinning is from fluid momentum, not from loose crystals."
+          }
+        ],
+        "ok_title": "Fluid inertia",
+        "ok_line": "The inner ear fluid keeps moving after you stop.",
+        "ko_title": "Not dislodged crystals",
+        "ko_line": "That is a separate disorder, not the ordinary post-spin dizziness.",
+        "exp_title": "Post-spin dizziness",
+        "exp_text": "The semicircular canals are filled with fluid. When you spin and then stop, the fluid continues to move because of inertia, bending the sensory hairs just as if you were still turning. The brain receives these signals and thinks the head is still rotating, which is why you feel dizzy and the world seems to spin around you."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the vestibular system contribute to keeping you upright when you stand on one leg?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It makes your leg muscles contract automatically without any brain involvement",
+            "feedback": "The vestibular system sends signals to the brain, which then adjusts muscle activity. It does not directly contract muscles on its own; it provides sensory information that the brain uses."
+          },
+          {
+            "label": "It tells you the exact position of each joint in your leg",
+            "feedback": "Joint positions are sensed by proprioceptors in the joints and muscles, not by the vestibular system. The vestibular system only gives information about the head's position and movement."
+          },
+          {
+            "label": "It directly stiffens your ankle to prevent wobbling",
+            "feedback": "Ankle stiffness is controlled by reflexes and muscle activity, not directly by the vestibular system. The vestibular system provides head-orientation information that helps the brain maintain balance, but it does not act on the ankle by itself."
+          },
+          {
+            "label": "It reports the tilt of your head, which helps the brain adjust posture",
+            "feedback": "Correct. The vestibular system senses the head's tilt relative to gravity. That information is sent to the brain, which coordinates adjustments in the muscles of the legs and trunk to keep you balanced."
+          }
+        ],
+        "ok_title": "Head tilt cues",
+        "ok_line": "The vestibular system tells the brain which way is down.",
+        "ko_title": "Not joint positions",
+        "ko_line": "Those come from proprioceptors, not the inner ear.",
+        "exp_title": "Vestibular role in balance",
+        "exp_text": "The vestibular system continuously measures the orientation of your head relative to gravity and the motion of your head. This information is combined with signals from your eyes and proprioceptors in the muscles and joints to produce the adjustments needed to keep your body upright. When standing on one leg, the vestibular system helps your brain detect any tilt and correct it quickly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary role of proprioception, the sense of where your body parts are?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To detect pain from injuries",
+            "feedback": "Pain is detected by nociceptors, which are separate from proprioceptors. Proprioception is about position and movement of the body, not about harm."
+          },
+          {
+            "label": "To know the position and movement of your limbs without looking",
+            "feedback": "Correct. Proprioceptors in muscles, tendons, and joints send continuous signals to the brain about the angle and stretch of each part of the body, allowing you to touch your nose with your eyes closed."
+          },
+          {
+            "label": "To tell you when you are hungry or thirsty",
+            "feedback": "Hunger and thirst are detected by internal sensors in the stomach and brain, not by proprioceptors. Proprioception is exclusively about body position and motion."
+          },
+          {
+            "label": "To help you hear low-frequency sounds",
+            "feedback": "Low-frequency hearing is done by the cochlea, not by proprioceptors. Proprioceptors are located in the musculoskeletal system, not in the ear."
+          }
+        ],
+        "ok_title": "Body position sense",
+        "ok_line": "Proprioception lets you know where your limbs are without seeing them.",
+        "ko_title": "Not pain or hunger",
+        "ko_line": "Those are different senses with different receptors.",
+        "exp_title": "Proprioception",
+        "exp_text": "Proprioceptors are specialized nerve endings in muscles, tendons, and joints that respond to stretching and tension. They constantly report the length and angle of each body part, so your brain has a live map of your posture and movement. This is what allows you to reach behind your back or walk without looking at your feet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do you feel dizzy when you spin around and then stop, even though your head is no longer moving?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the brain stops sending signals to the eyes",
+            "feedback": "The brain does not stop sending signals to the eyes; rather, it continues to receive false rotation signals from the inner ear and adjusts eye movements as if you were still spinning. That is a normal response to the still-moving fluid."
+          },
+          {
+            "label": "Because the otoliths in the utricle shift and trigger a false sense of falling",
+            "feedback": "The otoliths detect linear motion and gravity, not rotation. After spinning, the false sensation is from the semicircular canals' fluid, not from the otoliths."
+          },
+          {
+            "label": "Because the fluid in the semicircular canals keeps moving for a short time after you stop",
+            "feedback": "Correct. The fluid in the canals lags behind due to inertia, so even after your head stops, the sensory hairs are still bent as if you were turning. The brain interprets that as ongoing rotation, causing dizziness."
+          },
+          {
+            "label": "Because the vestibular nerve is temporarily damaged",
+            "feedback": "Normal spinning does not damage the vestibular nerve. The effect is temporary and reversible, caused by fluid momentum, not injury."
+          }
+        ],
+        "ok_title": "Fluid keeps moving",
+        "ok_line": "Inertia keeps the inner ear fluid sloshing after you stop.",
+        "ko_title": "No nerve damage",
+        "ko_line": "The sensation is mechanical, not from injury.",
+        "exp_title": "Why the world spins",
+        "exp_text": "Inside each semicircular canal is a loop of fluid. While you spin, the fluid moves with you. When you stop, the fluid continues to move because of inertia, pushing against the sensory hairs exactly as if you were still turning. The brain trusts these signals, so it thinks your head is still rotating, which produces the feeling of dizziness and the visual illusion that the surroundings are spinning."
+      }
+    ]
+  }
+]

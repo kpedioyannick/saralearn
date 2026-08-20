@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 117,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is the true shape of a falling raindrop, rather than the pointed teardrop it is usually drawn as?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Rounded on top and flattened underneath, like a tiny bun",
+            "feedback": "Air pushing up against the falling drop presses its underside flat while surface tension keeps the top rounded."
+          },
+          {
+            "label": "A sharp point trailing upward, like a teardrop",
+            "feedback": "That pointed shape is an artist's convention; nothing about a falling drop pulls its top into a point."
+          },
+          {
+            "label": "A perfect sphere the whole way down",
+            "feedback": "Only a drop hanging still, with no air rushing past it, stays a perfect sphere; a falling one gets pushed out of shape."
+          },
+          {
+            "label": "A flat disc, like a coin",
+            "feedback": "A disc would have no rounded top at all; surface tension always pulls some curve back into the upper half."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Common mix-up",
+        "ok_line": "More bun than teardrop.",
+        "ko_line": "The teardrop shape is a drawing habit, not what actually happens in the air.",
+        "exp_title": "Not a teardrop at all",
+        "exp_text": "As a raindrop falls, the air rushing up against its underside presses that face flatter and flatter, while surface tension keeps pulling the rest of the drop back into a curve. The two forces settle into a shape with a rounded top and a flattened, slightly caved-in bottom, closer to a tiny bun than to a point. A very small drop stays close to spherical instead, since air resistance barely acts on something that light."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a cloud droplet too small to fall on its own eventually grow big enough to fall as rain?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It absorbs vapour directly out of the air around it",
+            "feedback": "Direct absorption of vapour does add a little size, but alone it is far too slow to build a drop big enough to fall as rain."
+          },
+          {
+            "label": "It collides and merges with other droplets as they drift past each other",
+            "feedback": "Each collision leaves one bigger droplet, and bigger droplets fall faster and sweep up even more on the way."
+          },
+          {
+            "label": "It freezes and expands into a larger shape",
+            "feedback": "Freezing does not add water to a droplet; whatever ice forms still contains only what was already there."
+          },
+          {
+            "label": "Wind currents squeeze several droplets into one",
+            "feedback": "Air currents move droplets around, but nothing about wind itself presses separate droplets together."
+          }
+        ],
+        "ok_title": "Right mechanism",
+        "ko_title": "Not that",
+        "ok_line": "Small drops become one big drop, over and over.",
+        "ko_line": "Think about what happens when two droplets bump into each other.",
+        "exp_title": "Growing by bumping into neighbours",
+        "exp_text": "Inside a cloud, droplets drift at slightly different speeds and constantly brush past one another. Every collision that sticks leaves behind one larger droplet, and a larger droplet falls a little faster than its smaller neighbours, letting it catch and absorb even more of them on the way down. Enough of these mergers turn a droplet far too light to fall into one heavy enough to break free of the cloud."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't a falling raindrop keep speeding up all the way to the ground?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Gravity weakens the closer a drop gets to the ground",
+            "feedback": "Gravity's pull barely changes over the short distance a raindrop falls; that is not what limits its speed."
+          },
+          {
+            "label": "The drop keeps losing mass to evaporation as it falls",
+            "feedback": "Evaporation can shrink a drop a little, but that alone would not stop its speed from climbing; something else caps it directly."
+          },
+          {
+            "label": "Air resistance grows with speed until it balances gravity's pull",
+            "feedback": "Once the upward push of the air matches the downward pull of gravity, the drop stops accelerating and falls at a steady speed."
+          },
+          {
+            "label": "The drop bounces slightly off rising air currents",
+            "feedback": "A raindrop doesn't bounce off air; it pushes through it continuously, and that push is what caps the speed, not a series of bounces."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Off track",
+        "ok_line": "A tug of war that settles into a draw.",
+        "ko_line": "Ask what force pushes back against gravity as the drop speeds up.",
+        "exp_title": "A speed limit set by the air itself",
+        "exp_text": "Gravity pulls every falling drop downward at a steady rate, but the air in its path pushes back, and that push grows stronger the faster the drop moves. Once the upward push from the air exactly matches gravity's downward pull, the drop stops gaining speed and falls at a constant rate the rest of the way. That balance point is different for every drop, since a bigger drop pushes through more air before the two forces even out."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is happening when streaks of rain are visible falling from a cloud but the ground below stays completely dry?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The rain is falling somewhere else and only looks close",
+            "feedback": "Distance can be deceiving, but this effect happens even directly beneath the visible streaks, not somewhere off to the side."
+          },
+          {
+            "label": "The cloud is holding the rain back with an invisible layer",
+            "feedback": "Clouds have no barrier that holds falling water back partway down; nothing about a cloud can pause a drop mid-fall."
+          },
+          {
+            "label": "The rain freezes into invisible ice before it lands",
+            "feedback": "Ice falling from a cloud would still be visible, and would reach the ground rather than vanish before it."
+          },
+          {
+            "label": "The rain evaporates completely in dry air before it reaches the surface",
+            "feedback": "Dry air beneath the cloud strips the falling drops of their water long before they ever land."
+          }
+        ],
+        "ok_title": "That's it",
+        "ko_title": "Not quite",
+        "ok_line": "Rain that never survives the trip down.",
+        "ko_line": "The ground stays dry, so ask what could remove the water mid-fall.",
+        "exp_title": "Rain that never lands",
+        "exp_text": "A cloud can release rain into air that is much drier lower down, and dry air constantly pulls moisture from anything wet passing through it. As the falling drops sink into that dry layer, they lose water to evaporation faster than gravity carries them down, shrinking the whole way. By the time the streak would reach the ground, every drop in it has evaporated away completely, leaving the visible trail hanging with nothing beneath it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do raindrops almost never keep growing without limit as they fall?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Past a certain size, the air rushing past tears a drop apart",
+            "feedback": "A large drop flattens and hollows out under the airflow until it splits into several smaller drops."
+          },
+          {
+            "label": "They stop absorbing other droplets once they leave the cloud",
+            "feedback": "Growth by merging does slow once a drop is falling in clearer air, but that alone would not explain drops actively breaking apart."
+          },
+          {
+            "label": "Gravity has a maximum pull it cannot exceed",
+            "feedback": "Gravity's pull on a drop grows steadily with its mass; nothing caps it directly."
+          },
+          {
+            "label": "Sunlight breaks the surface tension holding a drop together",
+            "feedback": "Sunlight adds a little heat, not a force capable of tearing a drop's surface apart."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the reason",
+        "ok_line": "A drop can outgrow what its own surface can hold together.",
+        "ko_line": "Something has to physically act on a drop that has grown too large.",
+        "exp_title": "Too big to survive the fall",
+        "exp_text": "Surface tension holds a raindrop together, but that grip only gets weaker relative to the drop's size as the drop grows larger. Air rushing past a large falling drop flattens its underside into a bowl, and once that bowl becomes an unstable bag of air and water it bursts apart into several smaller drops. Each of the pieces then falls on its own, too small this time for the same airflow to tear it apart again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What produces the earthy smell that often rises after rain falls on dry ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Rainwater reacting chemically with dust in the air",
+            "feedback": "Rainwater and airborne dust do mix, but that reaction on its own produces no particular smell."
+          },
+          {
+            "label": "Raindrops trapping tiny air bubbles that burst and fling scent-carrying droplets upward",
+            "feedback": "Each impact launches a fine spray carrying oils and compounds that were sitting in the dry soil, straight into the air you breathe."
+          },
+          {
+            "label": "Underground water rising to the surface and evaporating",
+            "feedback": "Rain falling on the surface has nothing to do with water rising from below; the smell begins right where the drops land."
+          },
+          {
+            "label": "Soil bacteria releasing gas the moment it starts raining",
+            "feedback": "The compound bacteria make sits in the soil beforehand; rain does not trigger bacteria to suddenly produce it on contact."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the mechanism",
+        "ok_line": "Tiny bubbles doing the launching.",
+        "ko_line": "The smell has to physically travel from the ground into the air somehow.",
+        "exp_title": "Launched by a bursting bubble",
+        "exp_text": "When a raindrop lands on dry, porous ground, it traps a tiny bubble of air underneath it. That bubble shoots up through the drop and bursts at the top, flinging a fine spray of aerosol into the air, carrying with it plant oils and a compound made by soil bacteria that had been sitting there since the last rain. That rising spray is what your nose is actually catching after a dry spell finally breaks."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does one side of a mountain range often get far more rain than the other side, just a short distance away?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The wetter side simply faces the ocean more directly",
+            "feedback": "Facing water helps supply moisture, but facing alone does not explain why the rain falls exactly where the mountain begins to rise."
+          },
+          {
+            "label": "Mountains generate their own moisture from within",
+            "feedback": "A mountain is solid rock; nothing inside it produces water vapour of its own."
+          },
+          {
+            "label": "Moist air is forced upward by the mountain, cools, and drops its water before crossing",
+            "feedback": "Rising air cools as it climbs, and cooler air cannot hold as much moisture, so much of it falls as rain before ever reaching the far side."
+          },
+          {
+            "label": "The far side is simply too cold for rain to form",
+            "feedback": "The far side is often dry rather than cold; the air reaching it has already lost most of its moisture before temperature comes into play."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the cause",
+        "ok_line": "The mountain wrings the air out before it gets over the top.",
+        "ko_line": "Think about what a mountain physically does to air trying to cross it.",
+        "exp_title": "Wrung out on the way up",
+        "exp_text": "Moist air blowing toward a mountain range has nowhere to go but up, and rising air always cools as it expands into the thinner pressure higher up. Cooler air can hold less water vapour, so much of the moisture condenses out and falls as rain on the slope facing the wind. By the time that air spills over the summit and down the other side, it has little water left to give, leaving that far slope dry."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a rain shower make the surrounding air feel noticeably colder as it falls?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The raindrops carry cold air down with them from the cloud",
+            "feedback": "Air near the cloud is not necessarily colder than air near the ground; the cooling happens on the way down, not as cargo carried from above."
+          },
+          {
+            "label": "Rain blocks sunlight from reaching the ground",
+            "feedback": "Blocked sunlight would matter over time, but the sudden chill of a passing shower happens far too quickly for that alone to explain."
+          },
+          {
+            "label": "Falling water pulls heat down out of the upper air",
+            "feedback": "Heat does not travel attached to a falling drop; the cooling instead happens to the air the drop is currently passing through."
+          },
+          {
+            "label": "Some of the falling water evaporates, and evaporation pulls heat out of the surrounding air",
+            "feedback": "Turning liquid into vapour takes energy, and that energy is drawn from the warmth of the air right around each drop."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the mechanism",
+        "ok_line": "Evaporating water borrows its energy from the air nearby.",
+        "ko_line": "Some of the rain never reaches the ground as liquid at all: ask what happens to it instead.",
+        "exp_title": "Cooled by disappearing water",
+        "exp_text": "As raindrops fall through air that is not fully saturated with moisture, part of each drop evaporates along the way. Turning that liquid into vapour takes energy, and the only place nearby for that energy to come from is the heat of the surrounding air itself. Enough drops evaporating at once draws down the temperature of the whole layer of air the rain is falling through."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is even the cleanest, most natural rainwater slightly acidic rather than perfectly neutral?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Falling raindrops absorb carbon dioxide from the air, forming a weak acid",
+            "feedback": "Carbon dioxide dissolves into the drop as it falls and reacts with the water to form a mild acid, long before any human activity gets involved."
+          },
+          {
+            "label": "Rain picks up acid directly from clouds",
+            "feedback": "Clouds are made of the same water as rain; nothing inside a cloud manufactures acid to hand off to a falling drop."
+          },
+          {
+            "label": "Sunlight turns pure water slightly acidic",
+            "feedback": "Sunlight adds energy to water, not acidity; light alone changes nothing about how acidic or neutral it is."
+          },
+          {
+            "label": "Rain becomes acidic only after touching soil",
+            "feedback": "The mild acidity is already present in the drop before it ever lands; the ground is not where it comes from."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the source",
+        "ok_line": "The air itself makes rain a little sour.",
+        "ko_line": "The acidity is already there before the drop ever touches the ground.",
+        "exp_title": "Sour before it even lands",
+        "exp_text": "Air always contains a small amount of carbon dioxide, and as a raindrop falls it dissolves some of that gas into itself. Once dissolved, the carbon dioxide reacts with the water to form a weak carbonic acid, the same mild acid found in a fizzy drink. This happens to rain everywhere, entirely from gas that was already floating in ordinary air."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can raindrops stay liquid while falling through air that is already below freezing, only to turn to ice the instant they land?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The drops are moving too fast to freeze in time",
+            "feedback": "Speed has nothing to do with it; a drop could fall slowly through the same layer and still stay liquid until it lands."
+          },
+          {
+            "label": "The drops have no particle inside them to freeze around, so they stay liquid until they touch a surface",
+            "feedback": "Without a tiny nucleus to start ice forming around, water can stay liquid well below its freezing point, and any contact is enough to trigger it."
+          },
+          {
+            "label": "Friction with the air keeps the drops slightly warmer than their surroundings",
+            "feedback": "Falling through air generates only a negligible amount of friction, nowhere near enough to keep a drop from freezing."
+          },
+          {
+            "label": "The ground is always warmer than the air the drops fell through",
+            "feedback": "This happens on ground that is itself below freezing; a warmer surface would simply melt any ice rather than cause it to form."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the reason",
+        "ok_line": "Liquid until something finally gives it a reason to freeze.",
+        "ko_line": "Ask what a drop of water actually needs in order to start freezing.",
+        "exp_title": "Waiting for a reason to freeze",
+        "exp_text": "Water does not have to freeze the instant its temperature drops below freezing; without a tiny particle inside it to start ice crystals growing around, it can stay liquid at colder and colder temperatures, a state called supercooling. A falling raindrop that formed without such a particle can pass straight through a freezing layer of air still liquid, unable to freeze on its own. The moment it strikes a branch, wire or road, that contact finally gives it the trigger it was missing, and it freezes almost instantly into a coating of clear ice."
+      }
+    ]
+  }
+]

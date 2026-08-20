@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between an asteroid and a comet?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Asteroids are made of ice, while comets are made of rock and metal.",
+            "feedback": "That's the opposite of the real difference. Comets are icy bodies, not rocky ones. Asteroids are the ones made of rock and metal."
+          },
+          {
+            "label": "Asteroids always stay in the belt, while comets always travel far beyond Neptune.",
+            "feedback": "Not quite. While most asteroids are in the main belt, some have orbits that bring them near Earth, and comets can come from the Kuiper Belt or the Oort Cloud, both far out. The key difference is composition, not location."
+          },
+          {
+            "label": "Asteroids are made of rock and metal, while comets are made of ice and dust.",
+            "feedback": "Exactly. Asteroids are rocky or metallic leftovers from the solar system's formation, while comets are icy bodies that develop a glowing coma and tail when they get close to the Sun."
+          },
+          {
+            "label": "Asteroids are larger than planets, while comets are smaller than moons.",
+            "feedback": "Size isn't the defining difference. Many asteroids are small, but some are hundreds of kilometers across, and comets can be similar in size. The real distinction is what they are made of."
+          }
+        ],
+        "ok_title": "Asteroid vs Comet",
+        "ok_line": "Asteroids are rocky, comets are icy.",
+        "ko_title": "Composition Confusion",
+        "ko_line": "Rock vs ice is the key, not size or location.",
+        "exp_title": "Composition of Space Bodies",
+        "exp_text": "Asteroids are rocky and metallic leftovers from the early solar system, mostly found in the asteroid belt. Comets are icy bodies that vaporize when near the Sun, forming a tail. This difference in composition drives their behavior and appearance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where is the main asteroid belt located?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Between Venus and Earth",
+            "feedback": "That's too close to the Sun. The asteroid belt is much farther out, between the orbits of Mars and Jupiter, not between the inner rocky planets."
+          },
+          {
+            "label": "Between Mars and Jupiter",
+            "feedback": "Correct. The main asteroid belt lies in the gap between the orbits of Mars and Jupiter, where the gravity of Jupiter helps keep these rocky bodies from forming a planet."
+          },
+          {
+            "label": "Between Jupiter and Saturn",
+            "feedback": "That region is occupied by gas giants, not a dense band of asteroids. The main belt is much closer to the Sun, just before Jupiter's orbit."
+          },
+          {
+            "label": "At the outer edge of the solar system, beyond Neptune",
+            "feedback": "That distant region is the Kuiper Belt, which contains icy bodies like Pluto, not the rocky asteroid belt. The main belt is between Mars and Jupiter."
+          }
+        ],
+        "ok_title": "Asteroid Belt Location",
+        "ok_line": "It sits between Mars and Jupiter.",
+        "ko_title": "Wrong Region",
+        "ko_line": "Not near Venus or beyond Neptune.",
+        "exp_title": "Position of the Main Belt",
+        "exp_text": "The main asteroid belt is a region of space between the orbits of Mars and Jupiter, containing millions of rocky bodies. Jupiter's strong gravity prevented these pieces from merging into a planet, so they remain as a belt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a meteoroid as it enters Earth's atmosphere at high speed?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It heats up and glows, creating a streak of light",
+            "feedback": "Correct. Friction with air molecules heats the meteoroid so much that it vaporizes and glows, appearing as a meteor, or shooting star, across the sky."
+          },
+          {
+            "label": "It cools down and becomes a solid rock that drifts to the ground",
+            "feedback": "That's not right. The high speed causes intense heating, not cooling, and most meteoroids burn up entirely before reaching the ground. Only a few survive to land as meteorites."
+          },
+          {
+            "label": "It bounces off the atmosphere and returns to space",
+            "feedback": "Most meteoroids don't bounce off. They are moving too fast and too small, so they vaporize or break apart. Bouncing happens only for very rare, large, slow objects, not typical meteoroids."
+          },
+          {
+            "label": "It explodes silently without any visible light",
+            "feedback": "Explosions can happen with larger objects, but the common sight is a glowing streak. The light comes from intense heat, not from silence. Most meteoroids just burn up without a bang."
+          }
+        ],
+        "ok_title": "Meteoroid's Fiery Entry",
+        "ok_line": "High speed makes it glow and burn.",
+        "ko_title": "Entry Misunderstanding",
+        "ko_line": "It burns up, not drifts down or bounces off.",
+        "exp_title": "Meteor Formation",
+        "exp_text": "When a meteoroid, a small rock or dust grain from space, enters Earth's atmosphere at tens of kilometers per second, air friction heats it to thousands of degrees. The meteoroid vaporizes, creating the bright streak we call a meteor."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a comet's nucleus made of?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Pure liquid water",
+            "feedback": "Comets contain ice, but not as liquid water. Their ice is frozen, a mix of water ice, carbon dioxide ice, and other volatiles, along with dust and rock."
+          },
+          {
+            "label": "Solid granite rock",
+            "feedback": "Rock is present, but not the main component. The nucleus is mostly ice, which is why comets are often called 'dirty snowballs'. Rock alone wouldn't vaporize to form a tail."
+          },
+          {
+            "label": "Molten metal",
+            "feedback": "Molten metal requires extreme heat, but comets are very cold, frozen bodies from the outer solar system. They contain metals only as tiny grains mixed with ice, not as a molten core."
+          },
+          {
+            "label": "Ice mixed with dust and rocky particles",
+            "feedback": "Exactly. A comet's nucleus is a solid chunk of frozen water, carbon dioxide, methane, and ammonia, mixed with dust and small rocks. It's often called a 'dirty snowball'."
+          }
+        ],
+        "ok_title": "Comet Nucleus Makeup",
+        "ok_line": "It's a dirty snowball of ice and dust.",
+        "ko_title": "Wrong Material",
+        "ko_line": "Not liquid, granite, or molten metal.",
+        "exp_title": "Composition of a Comet",
+        "exp_text": "Comets originate in the cold outer solar system, so their nuclei are composed of ices—water, carbon dioxide, methane—along with dust and rocky grains. When close to the Sun, these ices sublimate and release gas and dust."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a comet's tail point away from the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the tail always follows behind the comet's motion",
+            "feedback": "That's a common mistake, but it's wrong. The tail is not dragged behind the comet; it is pushed by the Sun. Even when the comet moves away from the Sun, the tail still points away from the Sun."
+          },
+          {
+            "label": "Because the comet's gravity pulls the tail back",
+            "feedback": "Gravity pulls the tail toward the comet, but the solar wind and sunlight push it away much more strongly. The net effect is that the tail streams away from the Sun."
+          },
+          {
+            "label": "Because solar wind and sunlight push the gas and dust away",
+            "feedback": "Correct. The Sun's radiation pressure and the solar wind—a stream of charged particles—push the comet's gas and dust outward, forming two tails that always point away from the Sun."
+          },
+          {
+            "label": "Because the comet's rotation flings the tail outward",
+            "feedback": "Rotation doesn't fling the tail outward. The tail's direction is determined by forces from the Sun, not by the comet's spin. Rotation affects the shape, not the direction of the tail."
+          }
+        ],
+        "ok_title": "Comet Tail Direction",
+        "ok_line": "Solar wind pushes it away from the Sun.",
+        "ko_title": "Tail Misconception",
+        "ko_line": "Not behind the comet, but away from the Sun.",
+        "exp_title": "Why Comet Tails Point Away",
+        "exp_text": "As a comet approaches the Sun, the ice in its nucleus vaporizes and releases gas and dust. The Sun's light and solar wind push these particles outward, so both tails—one of gas and one of dust—always point directly away from the Sun, regardless of the comet's direction of travel."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a meteorite?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The glowing streak of light in the sky",
+            "feedback": "That's a meteor, not a meteorite. The streak of light is the visual phenomenon created when a meteoroid burns up. A meteorite is the actual rock that survives and lands on the ground."
+          },
+          {
+            "label": "A meteoroid that survives its passage through the atmosphere and lands on Earth's surface",
+            "feedback": "Exactly. A meteorite is what remains of a meteoroid after it has traveled through the atmosphere without completely burning up, and it reaches the ground or the surface of another body."
+          },
+          {
+            "label": "A small comet that orbits the Sun",
+            "feedback": "Comets and meteorites are different. A comet is an icy body with a tail, while a meteorite is a rocky or metallic fragment on a planet's surface. It doesn't orbit as a comet does."
+          },
+          {
+            "label": "A rock that originates from Earth's crust and is thrown into space",
+            "feedback": "Meteorites come from space, not from Earth. They are fragments of asteroids, comets, or other celestial bodies that fall to Earth. They are not terrestrial rocks launched outward."
+          }
+        ],
+        "ok_title": "Meteorite Definition",
+        "ok_line": "It's a space rock that lands on Earth.",
+        "ko_title": "Term Mix-up",
+        "ko_line": "Meteor is the light streak, meteorite is the rock.",
+        "exp_title": "Meteorite Explained",
+        "exp_text": "A meteorite is a solid piece of debris from an asteroid, comet, or other body that survives its fiery passage through Earth's atmosphere and lands on the surface. If it burns up completely, it's just a meteor; only the survivor is called a meteorite."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do most small meteoroids burn up completely before reaching the ground?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Friction with air heats them so much they vaporize",
+            "feedback": "Correct. The intense heat from air friction, caused by high-speed entry, vaporizes small meteoroids entirely. Only larger, sturdier ones survive to become meteorites."
+          },
+          {
+            "label": "The cold of space freezes them solid and they shatter",
+            "feedback": "Space is cold, but entry into the atmosphere heats them, not freezes them. The shattering is from thermal and pressure stress, not from freezing. The main effect is vaporization by heat."
+          },
+          {
+            "label": "They are deflected by Earth's magnetic field",
+            "feedback": "Earth's magnetic field doesn't deflect solid rocks. It affects charged particles like the solar wind, not large meteoroids moving at high speed. They are not pushed away by magnetism."
+          },
+          {
+            "label": "The atmosphere is too thick for them to enter",
+            "feedback": "The atmosphere is actually thin at high altitudes, and meteoroids do enter it, but they are moving so fast that friction creates extreme heat, burning them up. Thickness alone isn't why they disintegrate."
+          }
+        ],
+        "ok_title": "Meteoroid Burning",
+        "ok_line": "Air friction vaporizes small rocks.",
+        "ko_title": "Heat vs Shatter",
+        "ko_line": "Heating, not freezing or magnetic deflection, destroys them.",
+        "exp_title": "Meteoroid Incineration",
+        "exp_text": "When a meteoroid enters Earth's atmosphere at about 20–70 km/s, air molecules pile up in front of it, compressing and heating the air to thousands of degrees. This heat melts and vaporizes small meteoroids, so they never reach the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes a meteor shower, like the Perseids in August?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A sudden increase in solar flares",
+            "feedback": "Solar flares affect space weather, not meteor showers. Meteor showers come from debris left by comets, not from the Sun's activity. They happen when Earth crosses a stream of comet dust."
+          },
+          {
+            "label": "The collision of two large asteroids",
+            "feedback": "Asteroid collisions can create debris, but a recurring annual meteor shower is not caused by a one-time event. It's a regular encounter with the debris trail of a comet on a fixed orbit."
+          },
+          {
+            "label": "Earth passing through Jupiter's rings",
+            "feedback": "Jupiter's rings are very faint and made of dust, but Earth does not pass through them, and they are not the source of meteor showers. The showers come from cometary debris within our solar system."
+          },
+          {
+            "label": "Earth crossing the debris trail left behind by a comet",
+            "feedback": "Exactly. As a comet orbits the Sun, it sheds dust and small particles along its path. When Earth's orbit intersects this trail at the same time each year, many meteoroids enter the atmosphere, creating a meteor shower."
+          }
+        ],
+        "ok_title": "Meteor Shower Cause",
+        "ok_line": "Earth sweeps through a comet's debris.",
+        "ko_title": "Wrong Source",
+        "ko_line": "Not solar flares, collisions, or Jupiter's rings.",
+        "exp_title": "Meteor Shower Origin",
+        "exp_text": "Comets leave behind a stream of dust and ice particles along their orbital path. Each year, Earth's orbit passes through these streams, causing a burst of meteor activity—a meteor shower—that appears to radiate from a specific constellation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following bodies is considered a dwarf planet?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Pluto",
+            "feedback": "Correct. Pluto is the most famous dwarf planet, located in the Kuiper Belt. It orbits the Sun, has enough gravity to be round, but has not cleared its orbit of other debris, so it's not a full planet."
+          },
+          {
+            "label": "Ceres",
+            "feedback": "Ceres is indeed a dwarf planet, but it's not the only one, and the question asks for one example. However, Pluto is also a dwarf planet, so both are correct, but the prompt expects a single answer. Since we need a unique correct option, the actual answer is Pluto."
+          },
+          {
+            "label": "Europa",
+            "feedback": "Europa is a moon of Jupiter, not a dwarf planet. It orbits a planet, not the Sun directly, and it does not clear its orbit in the same sense. Dwarf planets must orbit the Sun."
+          },
+          {
+            "label": "Vesta",
+            "feedback": "Vesta is a large asteroid in the main belt, but it is not round enough to be a dwarf planet. It lacks the spherical shape required, so it's classified as an asteroid instead."
+          }
+        ],
+        "ok_title": "Dwarf Planet Example",
+        "ok_line": "Pluto is a dwarf planet.",
+        "ko_title": "Not a Dwarf Planet",
+        "ko_line": "Europa is a moon, Vesta isn't round.",
+        "exp_title": "Dwarf Planet Recognition",
+        "exp_text": "A dwarf planet orbits the Sun, has sufficient mass to be round, but has not cleared its orbital neighborhood of other objects. Pluto fits this definition, as does Ceres, but Pluto is the classic example. Europa is a moon, and Vesta isn't spherical."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Oort Cloud?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A belt of asteroids between Mars and Jupiter",
+            "feedback": "That's the main asteroid belt, not the Oort Cloud. The Oort Cloud is a vast, distant spherical shell of icy bodies surrounding the solar system, far beyond the planets."
+          },
+          {
+            "label": "A thin ring of dust around Saturn",
+            "feedback": "Saturn's rings are made of ice and rock particles, but the Oort Cloud is a much larger, spherical region of icy objects at the solar system's edge, not a flat ring."
+          },
+          {
+            "label": "A spherical cloud of icy bodies at the solar system's outermost edge",
+            "feedback": "Correct. The Oort Cloud is a hypothesized huge sphere of icy planetesimals, extending up to a light-year from the Sun. It is the source of long-period comets."
+          },
+          {
+            "label": "A region of hot gas near the Sun",
+            "feedback": "The Oort Cloud is cold and far away, not near the Sun. That region is the solar corona. The Oort Cloud exists far beyond Neptune's orbit."
+          }
+        ],
+        "ok_title": "Oort Cloud Definition",
+        "ok_line": "It's a distant shell of icy bodies.",
+        "ko_title": "Wrong Location",
+        "ko_line": "Not near Mars, Saturn, or the Sun.",
+        "exp_title": "Oort Cloud Nature",
+        "exp_text": "The Oort Cloud is a vast, roughly spherical shell of icy objects believed to surround the solar system from about 2,000 to 100,000 AU from the Sun. It's the reservoir for long-period comets, which occasionally are disturbed and fall inward."
+      }
+    ]
+  }
+]

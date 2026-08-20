@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 175,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is a sunspot?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A hole torn through the Sun's surface into empty space",
+            "feedback": "Nothing punches through the surface; it stays intact, just cooler in that patch."
+          },
+          {
+            "label": "A cloud of space dust that has landed on the Sun",
+            "feedback": "Nothing solid can land on or survive at the Sun's temperatures."
+          },
+          {
+            "label": "A patch of the Sun's surface that looks dark because it is cooler than its surroundings",
+            "feedback": "Still glowing, just less brightly than the blazing surface around it."
+          },
+          {
+            "label": "A shadow cast onto the Sun by one of its own planets",
+            "feedback": "Planets are far too small and distant to cast any visible shadow on the Sun."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A cooler patch, not a hole.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the surface there is actually missing, or just dimmer.",
+        "exp_title": "A cooler patch, not a hole",
+        "exp_text": "A sunspot is a region of the Sun's visible surface that is noticeably cooler than the blazing surface around it, which is exactly why it looks dark by contrast. The surface there is still intact and still glowing, simply less brightly than its surroundings. What causes that patch to run cooler in the first place is a concentrated bundle of magnetic field pushing through the surface."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a sunspot look dark, even though it is itself still extremely hot?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because it emits no light of its own at all",
+            "feedback": "A sunspot still glows brightly on its own; it simply glows less than its blazing surroundings."
+          },
+          {
+            "label": "Because it sits at a noticeably lower temperature than the blazing surface surrounding it, so it appears dark only by contrast",
+            "feedback": "Lifted away from its surroundings, that same patch would outshine a full moon."
+          },
+          {
+            "label": "Because a layer of ash covers it",
+            "feedback": "Nothing solid like ash exists or survives on the Sun's surface."
+          },
+          {
+            "label": "Because it sits much farther from the Sun's core than the surrounding surface",
+            "feedback": "A sunspot sits at the same surface level as everything around it, not deeper or farther out."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Dark only next to something brighter.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what would happen to that same patch if it were lifted away from the surface next to it.",
+        "exp_title": "Dark only next to something brighter",
+        "exp_text": "A sunspot is cooler than the surface around it, and a cooler patch of glowing plasma simply gives off less light than a hotter one nearby. Seen on its own, lifted away from the blinding surface beside it, that same patch would actually shine brighter than a full moon. Its darkness is entirely a matter of contrast, not of the patch itself failing to glow."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a strong, bundled magnetic field make a patch of the Sun's surface run cooler?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The field lines choke off the rising currents of hot plasma that normally carry fresh heat up to that patch from below",
+            "feedback": "Starved of its usual resupply of heat, the patch cools relative to its surroundings."
+          },
+          {
+            "label": "The magnetic field actively cools the plasma by pulling heat away from it",
+            "feedback": "A magnetic field doesn't extract heat directly; it interferes with the normal flow that delivers heat."
+          },
+          {
+            "label": "The magnetic field reflects incoming sunlight away from that patch",
+            "feedback": "A sunspot's own light comes from within the Sun, not from reflecting outside sunlight."
+          },
+          {
+            "label": "The magnetic field slows the Sun's rotation at that exact spot",
+            "feedback": "Rotation speed isn't what determines a sunspot's temperature."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A traffic jam in the rising heat.",
+        "ko_title": "Not that",
+        "ko_line": "Ask how heat normally reaches the surface at all, and what a bundled field might do to that flow.",
+        "exp_title": "A traffic jam in the rising heat",
+        "exp_text": "Heat normally reaches the visible surface by hot plasma constantly rising up from below, spreading out, and sinking again. A bundled, concentrated magnetic field acts like a barrier to that churning motion, suppressing the rise of fresh hot plasma through that particular patch. Starved of its usual resupply of heat from below, that patch cools relative to its surroundings and darkens into a sunspot."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do sunspots often appear in pairs or groups with opposite magnetic polarity?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "One spot in the pair is always older than the other",
+            "feedback": "Age isn't what distinguishes the two poles of a pair; their opposite magnetic polarity is."
+          },
+          {
+            "label": "Sunspots naturally repel each other into matching pairs",
+            "feedback": "They don't pair up through repulsion; the pairing comes from a shared underlying magnetic structure."
+          },
+          {
+            "label": "Each pair marks two completely unrelated magnetic events happening close together",
+            "feedback": "The two spots in a pair are directly linked, not independent events that happen to sit nearby."
+          },
+          {
+            "label": "They mark the two places where a single loop of magnetic field breaks through the surface, one an entry and one an exit",
+            "feedback": "Two footprints belonging to a single underlying loop."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Two doorways for one loop.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what shape a magnetic field takes underneath the surface, and where a loop would break through.",
+        "exp_title": "Two doorways for one loop",
+        "exp_text": "A twisted bundle of magnetic field beneath the surface often forms a loop, arcing up out of the Sun and back down again some distance away. Where that loop first breaks through the surface it creates one sunspot, and where it dives back in it creates a second, and the two ends of a single loop always carry opposite magnetic polarity. Seeing a matched pair of sunspots is really seeing both footprints of the very same underlying loop."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the number of visible sunspots rise and fall in a rough eleven-year cycle?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun physically shrinks and swells on that same cycle",
+            "feedback": "The Sun's overall size doesn't visibly pulse on this cycle; what changes is its magnetic activity."
+          },
+          {
+            "label": "Sunspots are seasonal, following Earth's own yearly cycle",
+            "feedback": "The cycle runs on the Sun's own clock, unrelated to Earth's yearly orbit."
+          },
+          {
+            "label": "The Sun's internal magnetic field steadily builds up and tangles, then periodically releases and resets",
+            "feedback": "A field that winds itself up, then lets go, over and over."
+          },
+          {
+            "label": "Passing comets periodically trigger bursts of sunspot activity",
+            "feedback": "Comets are far too small and distant to influence the Sun's internal magnetic behaviour."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A field that winds up, then lets go.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what is quietly building up inside the Sun between one quiet period and the next.",
+        "exp_title": "A field that winds up, then lets go",
+        "exp_text": "Deep inside the Sun, flows of hot conducting plasma steadily wind the Sun's magnetic field up, making it more tangled and more concentrated as time passes. As that field grows stronger and more twisted, more of it breaks through the surface as sunspot pairs, so sunspot numbers climb. Eventually the tangled field reorganises and resets, activity falls back to a quiet minimum, and the whole slow winding process begins again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a solar flare?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A slow, gradual brightening of the Sun's entire surface",
+            "feedback": "A flare is a sudden, localized burst, not a gradual whole-surface change."
+          },
+          {
+            "label": "A sudden burst of energy released when tangled magnetic field lines near a sunspot snap and reconnect",
+            "feedback": "Stored magnetic energy, let go almost instantly."
+          },
+          {
+            "label": "A stream of sunlight bent by the Moon's gravity",
+            "feedback": "The Moon plays no role in producing a flare; it is entirely a solar phenomenon."
+          },
+          {
+            "label": "A patch of the surface that has simply cooled faster than usual",
+            "feedback": "That describes a sunspot itself, not the sudden burst of energy that is a flare."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Stored magnetic energy, let go all at once.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what happens when a stretched, twisted magnetic field line suddenly snaps.",
+        "exp_title": "Stored magnetic energy, let go all at once",
+        "exp_text": "Around active sunspots, magnetic field lines can become stretched and twisted as the surface below them shifts and churns. When those strained lines suddenly snap and reconnect into a simpler shape, the energy that was stored in the twisting is released almost instantly, as a burst of light, heat, and accelerated particles. That sudden release is what is seen from Earth as a solar flare."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do solar flares happen especially near sunspots?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sunspots mark where the surface's magnetic field is most twisted and energy-loaded, exactly the conditions needed for a snap",
+            "feedback": "The place where the magnetic tension has quietly been building."
+          },
+          {
+            "label": "Sunspots are simply the coolest, calmest places on the Sun, and cool areas trigger flares",
+            "feedback": "Flares are driven by strained, tangled magnetic fields, not by an area being calm or cool."
+          },
+          {
+            "label": "Flares are triggered by the extra darkness of a sunspot",
+            "feedback": "A flare's cause is the magnetic energy stored nearby, not the darkness itself."
+          },
+          {
+            "label": "Sunspots emit a chemical trigger that sets off nearby flares",
+            "feedback": "No chemical reaction is involved; the mechanism is entirely magnetic."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Where the tension has been building.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what a sunspot actually marks underneath the surface, magnetically speaking.",
+        "exp_title": "Where the tension has been building",
+        "exp_text": "A sunspot marks a place where a strong, concentrated bundle of magnetic field is pushing through the surface, and that same field tends to be stretched and twisted by the shifting plasma around it. The more twisted and stressed the field becomes, the more energy it has stored up, ready to be released if the lines snap and reconnect. Flares cluster near sunspots simply because that is where the magnetic tension has been quietly building."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a single solar flare event affect Earth in two separate waves arriving at very different times?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the flare itself pauses partway through and restarts later",
+            "feedback": "The delay isn't a pause in the flare, but two different things being emitted that travel at different speeds."
+          },
+          {
+            "label": "Because Earth's atmosphere delays part of the effect on its own",
+            "feedback": "The gap in arrival time is set before anything reaches Earth's atmosphere, by how each part of the flare travels through space."
+          },
+          {
+            "label": "Because the Sun sends out a second, unrelated flare shortly afterward",
+            "feedback": "It can be one single event, not two separate flares, producing the two effects."
+          },
+          {
+            "label": "Because light from the flare arrives almost immediately, while a separate, much slower cloud of charged particles follows well behind it",
+            "feedback": "A fast messenger and a slow one, launched by the very same event."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A fast messenger, and a slow one.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what two different things a flare can throw outward, and whether they travel at the same speed.",
+        "exp_title": "A fast messenger, and a slow one",
+        "exp_text": "A flare releases its light instantly, and that light crosses the distance to Earth at the same swift pace as ordinary sunlight always does. Alongside it, a much slower-moving cloud of charged particles, called a coronal mass ejection, can be flung outward from the same event, but it travels through space at only a fraction of that speed. The light arrives first as a barely noticed flash, and the particle cloud follows well behind it, as the part that actually disturbs things on Earth."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the charged particles from a solar flare or coronal mass ejection create auroras when they reach Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They burn up on contact with Earth's oceans, releasing a glow",
+            "feedback": "The particles interact with the upper atmosphere, not with the oceans."
+          },
+          {
+            "label": "Earth's magnetic field funnels the particles toward the poles, where they collide with atmospheric gases and make them glow",
+            "feedback": "Particles steered to the poles, and set aglow the moment they arrive."
+          },
+          {
+            "label": "They reflect sunlight back down toward the ground near the poles",
+            "feedback": "An aurora is its own glow produced by collisions, not reflected sunlight."
+          },
+          {
+            "label": "They melt part of the polar ice, which then glows from the heat",
+            "feedback": "An aurora is a light phenomenon in the upper atmosphere, unrelated to the ice below."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Steered to the poles, then set aglow.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what Earth's magnetic field does to charged particles arriving from space.",
+        "exp_title": "Steered to the poles, then set aglow",
+        "exp_text": "Incoming charged particles are deflected by Earth's magnetic field rather than raining down evenly everywhere, and that field channels most of them down along its lines toward the regions near the poles. There, the particles collide with gases high in the atmosphere, and those collisions kick the gas atoms into a brighter state that then releases the extra energy as light. The result is a shifting curtain of glow concentrated near the poles, precisely where the field has steered the particles."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the Sun's surface rotate faster at its equator than near its poles, and why does that matter for sunspots and flares?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun is a solid body like Earth, so all of it should rotate together, but a manufacturing flaw makes the poles lag",
+            "feedback": "The Sun is fluid plasma throughout, not a solid body, so its layers are free to rotate at different rates."
+          },
+          {
+            "label": "The poles are farther from the Sun's centre, so they naturally spin slower",
+            "feedback": "Distance from the centre doesn't by itself force a different rotation period; the real reason is that the Sun is a fluid, not a rigid solid."
+          },
+          {
+            "label": "Being a fluid rather than a solid body, the Sun's equator and poles are free to rotate at different rates, and that mismatch stretches and twists the magnetic field into the tangled bundles that surface as sunspots and flares",
+            "feedback": "Tension built up by a star that doesn't turn all in one piece."
+          },
+          {
+            "label": "Sunspots themselves push the poles into rotating more slowly over time",
+            "feedback": "The difference in rotation is a cause of sunspot activity, not something sunspots create."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A star that doesn't turn all in one piece.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the Sun is actually a rigid solid, and what that means for how its layers can move.",
+        "exp_title": "A star that doesn't turn all in one piece",
+        "exp_text": "Because the Sun is made of fluid plasma rather than rigid rock, different parts of it are free to rotate at their own pace, and its equator completes a turn well ahead of its poles. Over time, that mismatch drags and stretches the magnetic field lines threading through the Sun, winding them tighter the way twisting a bundle of elastic bands builds up tension. The tangled, wound-up field that results is exactly the raw material that surfaces as sunspots and eventually snaps loose as flares."
+      }
+    ]
+  }
+]

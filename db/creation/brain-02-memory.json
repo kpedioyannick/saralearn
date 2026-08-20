@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 256,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How does your brain hold onto a phone number for the few seconds between hearing it and dialling it?",
+        "body": null,
+        "options": [
+          {
+            "label": "By keeping a group of neurons firing in an active loop",
+            "feedback": "The information is held by ongoing activity, not by a permanent change."
+          },
+          {
+            "label": "By writing it into a permanent physical trace at once",
+            "feedback": "A lasting physical trace takes repetition to build. A number held for a few seconds hasn't earned one yet."
+          },
+          {
+            "label": "By storing it in the muscles of the hand that will dial it",
+            "feedback": "Muscles carry out the dialling; they don't hold the number itself."
+          },
+          {
+            "label": "By sending it to be stored outside the brain until needed",
+            "feedback": "There's no outside store for this. Whatever holds the number has to be inside the brain itself."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Held aloft by activity that hasn't stopped yet.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask what keeps information alive for only a few seconds, with nothing written down.",
+        "exp_title": "Held up by activity, not by a trace",
+        "exp_text": "A short-lived memory like a phone number isn't written into any lasting structure. Instead, a small circuit of neurons keeps passing the signal to each other in a loop, refiring it again and again to keep it available. The moment attention moves elsewhere and that loop stops firing, the number is gone unless something else has already caught it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does repeating something over and over help turn it into a lasting memory?",
+        "body": null,
+        "options": [
+          {
+            "label": "Repetition strengthens the connections between the neurons involved",
+            "feedback": "Each time the same circuit fires together, the synapses linking those neurons respond more strongly to each other."
+          },
+          {
+            "label": "Repetition tires the neurons so they stop forgetting",
+            "feedback": "Tired neurons fire less well, not more reliably. Fatigue isn't what builds a lasting memory."
+          },
+          {
+            "label": "Repetition moves the memory physically closer to the front of the brain",
+            "feedback": "Nothing physically relocates during repetition. What changes is the strength of the connections, not their position."
+          },
+          {
+            "label": "Repetition erases older memories to make room",
+            "feedback": "Building a new memory doesn't require deleting old ones. Storage isn't a fixed space that has to be cleared."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Fire together often enough, and the link holds.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what happens to the connection between neurons that keep firing together.",
+        "exp_title": "A connection that gets easier to use",
+        "exp_text": "When a group of neurons fires together repeatedly, the synapses connecting them become more efficient at passing the signal along, needing less to trigger the same response next time. That change in the connection itself is what a memory physically is once it has taken hold. A fact repeated once fades quickly, while one rehearsed many times leaves a connection strong enough to survive on its own."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a poor night's sleep make it harder to remember things learned the day before?",
+        "body": null,
+        "options": [
+          {
+            "label": "The brain replays and strengthens the day's new connections during sleep",
+            "feedback": "Circuits active during learning fire again during sleep, and that replay strengthens the connections that were built."
+          },
+          {
+            "label": "Sleep washes away memories that were formed too recently",
+            "feedback": "Sleep doesn't wash memories away; it's the opposite process, one that helps recent memories stick."
+          },
+          {
+            "label": "Sleep has no effect on memory either way",
+            "feedback": "Skipping this step of consolidation is exactly what leaves the previous day's learning weaker."
+          },
+          {
+            "label": "The brain stops making new connections entirely during sleep",
+            "feedback": "New connections keep changing during sleep; they aren't frozen. It's an active period for memory, not a paused one."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "The day's new circuits, replayed and reinforced overnight.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what the brain does with a day's new connections while you're asleep.",
+        "exp_title": "Rehearsing the day while asleep",
+        "exp_text": "During sleep, the same circuits that were active while something was being learned switch on again in short bursts, replaying that pattern of activity without any outside input to trigger it. Each replay strengthens the connections involved a little further, the same way rehearsing something while awake would. Cut that replay short by cutting sleep short, and the connections from the day before never get the extra reinforcement they needed."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What role does a small structure deep in the brain play in forming a brand-new memory?",
+        "body": null,
+        "options": [
+          {
+            "label": "It acts as a temporary assembler that links pieces of an experience before they're filed elsewhere",
+            "feedback": "It binds the sights, sounds and context of an experience together while a longer-lasting version is built elsewhere."
+          },
+          {
+            "label": "It is where every memory is stored for life",
+            "feedback": "This structure doesn't hold memories permanently; its job is temporary, near the start of the process."
+          },
+          {
+            "label": "It controls the muscles used to write a memory down",
+            "feedback": "Writing something down uses the movement pathways, not this memory-related structure."
+          },
+          {
+            "label": "It deletes memories that are no longer useful",
+            "feedback": "Forgetting happens through weakened connections over time, not through a dedicated deleting structure."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "A temporary assembler, not a permanent shelf.",
+        "ko_title": "Not quite",
+        "ko_line": "This structure's role is early and temporary, not a lifelong storage job.",
+        "exp_title": "An assembler, not a warehouse",
+        "exp_text": "When a new experience happens, its sights, sounds and setting are first processed in separate parts of the brain, and this structure's job is to bind those separate pieces into one linked memory. It holds that binding actively for a while, replaying it so a sturdier version can gradually take shape in the outer layers of the brain. Once that sturdier version is established, the memory can survive even if this assembling structure is later damaged."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why isn't there one single place in the brain where all long-term memories are stored?",
+        "body": null,
+        "options": [
+          {
+            "label": "A memory is stored as a pattern spread across the same regions that first processed it",
+            "feedback": "The sight of something is stored near vision circuits, its sound near hearing circuits, and so on, linked together as one pattern."
+          },
+          {
+            "label": "Long-term memories aren't actually kept anywhere in the brain",
+            "feedback": "Long-term memories are physically stored; they just aren't gathered in a single location."
+          },
+          {
+            "label": "Every memory is duplicated identically in every brain region",
+            "feedback": "Storage isn't duplicated everywhere. Each piece of a memory lives mainly in the region that originally processed that piece."
+          },
+          {
+            "label": "Memories are stored in the order they happened, like pages in a book",
+            "feedback": "There's no chronological shelf like that. Storage is organised by what kind of information it is, not by when it occurred."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Spread across the regions that first sensed it.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about which regions handled each piece of the experience in the first place.",
+        "exp_title": "Storage scattered by kind, not gathered in one place",
+        "exp_text": "Different regions of the brain specialise in different kinds of information: sights, sounds, smells, meaning. When a memory becomes long-lasting, each piece of it strengthens connections mainly within the region that first handled that piece, rather than being copied off to a central archive. Recalling the whole memory means reactivating all of those scattered regions together, in something like the same pattern that first processing switched on."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can retelling a memory over the years change small details of the memory itself?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each time a memory is recalled, it is rebuilt from its pieces and then re-stored, open to small changes",
+            "feedback": "Recall isn't playback; it's reconstruction, and whatever shape it takes on that pass gets saved again."
+          },
+          {
+            "label": "The original memory stays perfectly fixed and only the retelling changes",
+            "feedback": "It's not the words alone that shift. The stored memory itself can change each time it's brought back to mind."
+          },
+          {
+            "label": "Memories are copied identically every time they are recalled, like a photograph",
+            "feedback": "Recall doesn't work like a photograph being handed over unchanged. It's assembled fresh each time."
+          },
+          {
+            "label": "Only memories formed in early childhood are able to change over time",
+            "feedback": "Memories from any age can shift with recall. This isn't limited to memories from early in life."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Rebuilt on the way out, then filed away again.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask what actually happens to a memory in the moment it's recalled.",
+        "exp_title": "Rebuilt each time it's brought back",
+        "exp_text": "Bringing a memory to mind isn't like replaying a fixed recording; the brain reassembles it from scattered pieces each time it's recalled. Whatever new context or detail is present during that reassembly can slip into the reconstruction, and the connections are then restrengthened in that slightly altered form. A memory told many times over the years has been rebuilt many times over, and each rebuild is a chance for it to shift a little."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do frightening or intensely emotional moments tend to be remembered especially vividly?",
+        "body": null,
+        "options": [
+          {
+            "label": "A structure that reacts to emotional intensity signals other regions to strengthen the encoding of that moment",
+            "feedback": "That structure flags the moment as significant and boosts how strongly the memory-forming circuits engage with it."
+          },
+          {
+            "label": "Frightening moments are simply longer than ordinary ones",
+            "feedback": "Duration isn't what marks these moments out. It's how strongly they're tagged as significant while they happen."
+          },
+          {
+            "label": "The eyes record more detail automatically when a person is afraid",
+            "feedback": "The eyes take in information the same way regardless of fear. What changes is how strongly that information gets encoded afterward."
+          },
+          {
+            "label": "Fear shuts down memory formation entirely",
+            "feedback": "The opposite tends to happen: memory formation is heightened during an intensely emotional moment, not switched off."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Tagged as important, and encoded harder because of it.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what an emotional reaction does to how strongly a moment gets encoded.",
+        "exp_title": "A tag that boosts encoding",
+        "exp_text": "A small structure near the middle of the brain responds strongly to fear and other intense emotions, and when it activates, it sends signals to nearby memory-forming circuits that make them lay down a stronger trace of whatever is happening at that instant. The moment gets encoded more thoroughly than an ordinary one would, wired into more connections from the start. That extra strength at the moment of encoding is why the memory stands out so clearly afterward."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do skills and facts you never use tend to fade from memory over the years?",
+        "body": null,
+        "options": [
+          {
+            "label": "Connections that go unused weaken gradually while active ones stay strong",
+            "feedback": "A connection needs continued use to stay efficient; without it, the synapse involved gradually weakens."
+          },
+          {
+            "label": "Unused memories are deleted all at once after a fixed waiting period",
+            "feedback": "There's no scheduled wipe. Fading happens gradually, through weakening connections rather than a single deletion."
+          },
+          {
+            "label": "The brain runs out of space and has to clear old memories",
+            "feedback": "Forgetting isn't caused by running out of room. It happens because unused connections weaken over time, not because storage fills up."
+          },
+          {
+            "label": "Memory fades only because the person consciously chooses to stop thinking about it",
+            "feedback": "Fading happens whether or not a person tries to stop thinking about something. It's a property of unused connections, not a choice."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Unused connections lose their strength gradually.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what happens to a connection that never gets refired.",
+        "exp_title": "A connection that fades without use",
+        "exp_text": "The strengthened connection that makes up a memory needs occasional refiring to stay at that strength; without it, the synapse gradually reverts toward its earlier, weaker state. A skill practised often keeps its connections in constant use and stays sharp, while one left untouched slowly loses the extra strength it once had. Nothing erases the memory in one stroke; the connection simply drifts back toward where it started."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is it easier to recognise a face you've met before than to recall that person's name unprompted?",
+        "body": null,
+        "options": [
+          {
+            "label": "Seeing the face supplies a rich cue that matches an existing trace directly",
+            "feedback": "The face itself provides most of the information needed to trigger the match; recall without that cue has to rebuild everything from a much thinner starting point."
+          },
+          {
+            "label": "Names are never stored as memories at all",
+            "feedback": "Names are stored just like other memories; the difference is how much of a cue is available when trying to bring one back."
+          },
+          {
+            "label": "Faces are processed by a completely different brain from names",
+            "feedback": "Both are handled by the same brain; what differs is the amount of matching information available at the moment of retrieval."
+          },
+          {
+            "label": "Recognising and recalling use the exact same process with no difference",
+            "feedback": "They place very different demands on retrieval. One is handed a strong cue; the other has almost nothing to start from."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "A rich cue does most of the work for you.",
+        "ko_title": "Not quite",
+        "ko_line": "Compare how much information you're given in each case before you have to answer.",
+        "exp_title": "A strong cue versus almost none",
+        "exp_text": "Recognising a face means comparing what's in front of you against stored traces and finding a match, and the face itself supplies most of the detailed information needed to trigger that match. Recalling a name from scratch has to work the other way around, starting from almost no cue at all and searching for the right trace among many. A rich cue does most of the work in one case, and its absence is what makes the other so much harder."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do most people remember almost nothing from before roughly the age of three?",
+        "body": null,
+        "options": [
+          {
+            "label": "The memory-assembling structure and the language needed to encode a lasting narrative are both still maturing",
+            "feedback": "Binding an experience into a lasting, retrievable story depends on structures and skills that finish developing only after infancy."
+          },
+          {
+            "label": "Nothing important enough happens before that age to be worth remembering",
+            "feedback": "Plenty happens in early life; the limit isn't about importance but about whether the brain can encode it into a lasting narrative yet."
+          },
+          {
+            "label": "Early memories are stored perfectly but the brain refuses to release them",
+            "feedback": "It isn't that the memories exist but are withheld. The structures needed to encode them that way weren't finished growing yet."
+          },
+          {
+            "label": "Babies don't yet have the structure that helps form new memories at all",
+            "feedback": "That structure is present from birth; it's still maturing in early life rather than missing entirely."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "The equipment for a lasting story isn't finished yet.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what an infant's brain is still missing, not what happened during those years.",
+        "exp_title": "A story-building system still under construction",
+        "exp_text": "Turning an experience into a memory that can be retrieved years later depends on a structure that binds the pieces together, and on enough language and sense of self to organise those pieces into a coherent, findable story. In infancy both of those are still developing, so experiences from that period leave little that later recall can latch onto. The equipment for building a lasting, tellable memory simply isn't finished at that stage of growth."
+      }
+    ]
+  }
+]

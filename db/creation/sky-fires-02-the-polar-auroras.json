@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 127,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What actually makes the sky glow during an aurora?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Sunlight bouncing off high, thin polar clouds",
+            "feedback": "The night side of Earth faces away from the Sun entirely. There is no sunlight there to bounce off anything."
+          },
+          {
+            "label": "Charged particles from the Sun striking gas atoms high in the atmosphere",
+            "feedback": "Each collision pumps energy into an atom, and the atom lets that energy go again as a burst of light."
+          },
+          {
+            "label": "Ice crystals refracting starlight into a broad glow",
+            "feedback": "Refraction bends light passing through ice; it cannot manufacture a whole new burst of light out of a dim star."
+          },
+          {
+            "label": "Friction as the upper atmosphere spins with the Earth",
+            "feedback": "The atmosphere has spun with the Earth every night for billions of years without glowing like this. Friction with itself is not the trigger."
+          }
+        ],
+        "ok_title": "That is the source",
+        "ok_line": "An aurora is atoms giving back energy they were just handed.",
+        "ko_title": "Not the cause",
+        "ko_line": "Something has to arrive from outside the atmosphere to set this off. Think about what the Sun is constantly throwing outward.",
+        "exp_title": "Atoms lit up from within",
+        "exp_text": "The Sun constantly streams out charged particles, and near the poles Earth's magnetic field guides a share of them down into the upper atmosphere. There they collide with oxygen and nitrogen atoms, knocking their electrons briefly into a higher, more energetic state, and when each electron settles back down it releases that extra energy as a tiny flash of light. Multiply that across a vast sheet of atoms doing the same thing at once, and the sky itself appears to glow."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do auroras appear mainly in rings around the north and south poles, rather than spreading evenly across the whole sky worldwide?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The atmosphere is thinner over the poles",
+            "feedback": "The atmosphere's thickness barely changes from pole to equator. Whatever confines the aurora to a ring is not a difference in air."
+          },
+          {
+            "label": "Solar particles simply travel fastest toward the poles",
+            "feedback": "The particles arrive from every direction at once, at similar speed. Nothing about their journey singles out the poles."
+          },
+          {
+            "label": "Earth's magnetic field funnels charged particles down along field lines that converge there",
+            "feedback": "Field lines from all across near-Earth space bunch together as they dive into the atmosphere near each magnetic pole, carrying their particles down with them."
+          },
+          {
+            "label": "Cold polar air holds a charge better than warm air",
+            "feedback": "Temperature has no bearing on where charged particles are steered. The steering is done entirely by the magnetic field, not by the air's warmth."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ok_line": "The particles are herded to the poles long before they ever reach the air.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Charged particles do not travel in straight lines near a planet with a magnetic field. Think about where that field's lines actually lead.",
+        "exp_title": "Herded by the magnetic field",
+        "exp_text": "A charged particle cannot cross magnetic field lines freely — it is forced to spiral along them, the way a bead is forced to follow a wire it is threaded onto. Earth's field lines fan out around the whole planet but bunch tightly together as they dive down near each magnetic pole, so particles gathered from a huge volume of space around Earth are all funnelled into two comparatively narrow rings. That is why the glow forms in bands circling the poles instead of spreading evenly over the whole globe."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the auroral glow so often green?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Oxygen atoms at that altitude release light in that colour when they settle back down",
+            "feedback": "At that height and density, an excited oxygen atom happens to give up its energy as green light more often than any other colour."
+          },
+          {
+            "label": "Green light travels furthest through the atmosphere",
+            "feedback": "The colour is decided by what the atom releases, not by which colour best survives the trip down. Any colour released at that height reaches the ground about equally well."
+          },
+          {
+            "label": "The particles arriving from the Sun are green",
+            "feedback": "The particles themselves carry no colour at all — they are simply charged, and colour only appears once they strike an atom and hand over their energy."
+          },
+          {
+            "label": "Green is the only colour the human eye can see at night",
+            "feedback": "Night vision is dim, not colour-blind to everything but green. Cameras with far better colour sensitivity record the same green as the dominant shade."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "The colour is a signature of which atom is emitting it.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what specific gas is doing the glowing at the altitude where most auroras form, and what colour that gas happens to release.",
+        "exp_title": "A colour that belongs to oxygen",
+        "exp_text": "Most auroral light comes from oxygen atoms roughly a hundred kilometres up, and when an oxygen atom excited by a collision finally releases its extra energy, it very often does so as green light — a signature of that particular atom relaxing in that particular way. Nitrogen contributes other colours too, but at the altitude where the glow is usually brightest, green from oxygen dominates. Change the gas or the altitude, and the colour that comes back changes with it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the topmost fringe of a bright aurora sometimes glow red instead of the usual green?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It is a different gas entirely at that height",
+            "feedback": "It is still oxygen doing the glowing. What changes with height is not the gas, but how it behaves once excited."
+          },
+          {
+            "label": "The air is thinner there, so an excited oxygen atom has time to release red light instead",
+            "feedback": "Lower down, a crowded atom is usually bumped again before it can finish releasing red light. Higher up, with far fewer neighbours, it is left undisturbed long enough to complete that slower release."
+          },
+          {
+            "label": "Reflected city lights tint the upper fringe",
+            "feedback": "The reddest auroras occur far from any city, and the tint is just as strong over open ocean and empty tundra."
+          },
+          {
+            "label": "Red particles arrive from the Sun at a higher altitude",
+            "feedback": "The particles carry no colour of their own at any altitude. The colour only appears once an atom absorbs their energy and gives it back."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Same gas, same trick, just given more time to finish the slower version of it.",
+        "ko_title": "Not quite",
+        "ko_line": "It is still the same gas doing the glowing up there. What is different about the air itself at that greater height?",
+        "exp_title": "Given time to glow red",
+        "exp_text": "An excited oxygen atom can release its energy in two different ways: a quick release that produces green light, or a much slower release that produces red light. Lower in the atmosphere the air is crowded, and a collision almost always jostles the atom again before the slow red release can finish, so green wins out. Higher up, where the air thins out and collisions become rare, an excited atom is left alone long enough to complete the slower path, and the fringe glows red instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do auroras ripple and shift instead of hanging in the sky as one still, fixed glow?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The particles arriving from the Sun keep changing colour",
+            "feedback": "Colour is set by which atom is struck, not by any property of the incoming particles. Colour change is not what makes the display move."
+          },
+          {
+            "label": "Wind in the upper atmosphere blows the glow sideways",
+            "feedback": "The glow forms far above where ordinary wind reaches, in air too thin for wind to have any grip on it."
+          },
+          {
+            "label": "Clouds drifting underneath alternately hide and reveal it",
+            "feedback": "Auroras form well above ordinary weather clouds, and the same rippling motion is seen from a clear, cloudless sky."
+          },
+          {
+            "label": "The magnetic field lines guiding the particles constantly flex and shift",
+            "feedback": "As the field lines bend and sway under the changing push of the solar wind, the particles streaming down them trace out that same moving shape."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "The light dances because the invisible lines it is following are dancing too.",
+        "ko_title": "Not the cause",
+        "ko_line": "The particles are not moving freely — they are threaded onto something. Ask what that something is doing.",
+        "exp_title": "Following a moving thread",
+        "exp_text": "Charged particles cannot wander sideways through the atmosphere; they are locked onto the magnetic field lines they travel down, tracing out whatever shape those lines currently hold. The solar wind constantly pushes and jostles Earth's magnetic field, so the field lines themselves are never perfectly still, but flex, sway, and snap into new shapes from one moment to the next. As the lines move, the curtain of light following them moves too, which is why an aurora seems to ripple and dance rather than sit fixed in the sky."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does an aurora often look like folded curtains or ribbons of light rather than one flat, even glow?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Particles stream down along individual bundled field lines, each lighting a narrow sheet of air",
+            "feedback": "Each bundle of field lines lights its own thin curving sheet, and stacking many such sheets side by side, seen from below, looks exactly like a folded curtain."
+          },
+          {
+            "label": "The ozone layer scatters the light into visible folds",
+            "feedback": "Ozone plays no part here at all, and the folded shape is present in auroras that form well above the ozone layer."
+          },
+          {
+            "label": "Sound waves from distant storms ripple the glow",
+            "feedback": "Sound cannot travel far enough up to reach these altitudes, and this shape appears in the total silence of clear polar nights."
+          },
+          {
+            "label": "Moisture in the upper air freezes into folded sheets of ice",
+            "feedback": "The air at auroral altitudes is far too thin for any ice to form. The folded shape is made of light, not of any physical sheet."
+          }
+        ],
+        "ok_title": "That is it",
+        "ok_line": "Each fold is simply a different bundle of field lines caught glowing at once.",
+        "ko_title": "Not the shape's cause",
+        "ko_line": "Think about how the particles are travelling down — not as a single flat sheet, but along many separate, curving strands.",
+        "exp_title": "Light hung on separate strands",
+        "exp_text": "Magnetic field lines near the pole run down in separate curving bundles rather than as one flat wall, and particles streaming along each bundle light up their own narrow vertical sheet of atmosphere. Seen from the ground, many of these thin glowing sheets lined up side by side, each one gently curved and twisted, produce exactly the look of a curtain hanging in loose folds. What appears to be fabric is really many separate strands of light, standing shoulder to shoulder."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the brightest, most widespread auroras often appear a day or two after a strong eruption on the surface of the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun's light takes that long to reach Earth",
+            "feedback": "Ordinary sunlight reaches Earth in a few minutes, not days. Whatever is arriving late here is something else entirely."
+          },
+          {
+            "label": "The aurora needs that long to build up inside the atmosphere",
+            "feedback": "Once the trigger arrives, the glow appears almost immediately. The delay happens before that trigger ever reaches Earth."
+          },
+          {
+            "label": "A dense cloud of charged particles thrown out by the eruption takes that long to cross the distance to Earth",
+            "feedback": "That ejected cloud travels far slower than light and needs real time to cross the gap between the Sun and Earth."
+          },
+          {
+            "label": "Earth's magnetic field takes that long to notice the eruption",
+            "feedback": "The field does not sense the eruption itself. It only responds once the physical cloud of particles the eruption threw out actually arrives and strikes it."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "It is a traveller from the Sun, not a message, and travellers take time to arrive.",
+        "ko_title": "Not the delay",
+        "ko_line": "Light from the eruption reaches Earth almost instantly. Something slower, and much more massive, is what actually sets off the aurora.",
+        "exp_title": "A slower traveller than light",
+        "exp_text": "A solar eruption can hurl a vast cloud of charged particles outward into space, and unlike light, that cloud moves at only a small fraction of the speed of light. It has to cross the whole distance between the Sun and Earth before Earth's magnetic field can catch and funnel any of it toward the poles. Once that cloud finally arrives and strikes the field, the extra particles pouring down brighten and widen the aurora well beyond its ordinary glow."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a strong aurora make a compass needle wander away from true north for a while?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The bright light confuses the compass needle",
+            "feedback": "A compass needle responds only to magnetic force, never to light. It would wander in total darkness just as readily."
+          },
+          {
+            "label": "The electric currents driving the aurora distort Earth's local magnetic field",
+            "feedback": "A compass needle simply points along whatever magnetic field surrounds it at that moment, so when the field itself shifts, the needle follows."
+          },
+          {
+            "label": "Static electricity from the aurora charges the compass",
+            "feedback": "The compass needle is affected by magnetism, not by an electric charge sitting on it. No charge reaches the ground from an aurora far overhead."
+          },
+          {
+            "label": "The needle is simply reacting to the cold polar air",
+            "feedback": "Temperature has no effect on which way a magnetised needle points. The same wandering shows up on a compass kept at room temperature indoors, watching the same storm."
+          }
+        ],
+        "ok_title": "That is the link",
+        "ok_line": "The aurora and the wandering needle are two symptoms of the very same disturbed field.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "A compass responds to only one thing: the magnetic field around it. Ask what the aurora is doing to that field.",
+        "exp_title": "One field, felt two ways",
+        "exp_text": "The particles pouring down during a strong aurora drive powerful electric currents through the upper atmosphere, and those currents generate their own magnetic disturbance layered on top of Earth's steady field. A compass needle simply aligns with whatever magnetic field actually surrounds it, so as that disturbance grows and shifts overhead, the local field tilts slightly away from true north and the needle tilts with it. The glowing sky and the wandering needle are two effects of the very same disturbance in the field."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "During a strong geomagnetic storm, why does the ring of auroral light spread toward lower latitudes, sometimes becoming visible far from its usual polar range?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The poles themselves shift position during a storm",
+            "feedback": "Earth's magnetic poles do not move noticeably in the course of a single storm. What shifts is the size of the ring of light, not the pole it circles."
+          },
+          {
+            "label": "The air becomes more transparent everywhere at once",
+            "feedback": "Transparency of the air has no bearing on where the glowing particles are being funnelled. It is the funnel that widens, not the sky's clarity."
+          },
+          {
+            "label": "Cold weather at lower latitudes creates the right conditions",
+            "feedback": "The spread happens in every season, including summer, and has nothing to do with ground-level temperature."
+          },
+          {
+            "label": "A stronger surge of particles pushes the funnel of incoming particles over a wider area",
+            "feedback": "A bigger disturbance forces particles down over a broader stretch of field lines than usual, so the familiar polar ring swells outward."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ok_line": "The ring does not move to a new place. It grows to cover a much larger one.",
+        "ko_title": "Not the reason",
+        "ko_line": "The ring itself is fixed to the shape of the funnelling field. Ask what could make that funnel wider than usual.",
+        "exp_title": "A wider funnel, not a moved one",
+        "exp_text": "The size of the auroral ring depends on how large an area of magnetic field lines is actively funnelling particles down into the atmosphere, and that area is not fixed. A strong burst of particles from the Sun compresses and disturbs Earth's magnetic field far more than usual, opening up a wider swath of field lines to the downward flow. With more of the field carrying particles inward, the familiar ring of light swells and can be seen well beyond its ordinary polar range."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do faint auroras often look pale grey to the naked eye, even though the same display shows vivid green or red in a photograph?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dim light triggers only the eye's brightness-sensing cells, not its colour-sensing ones",
+            "feedback": "The eye's colour-sensing cells need brighter light to work well, so a faint glow registers as brightness with almost no colour attached."
+          },
+          {
+            "label": "A camera adds colour that was never really there",
+            "feedback": "The colour is genuinely present in the light itself, produced by the same atoms in the same way whether or not a camera happens to be pointed at it."
+          },
+          {
+            "label": "Faint auroras are a physically different, colourless kind of light",
+            "feedback": "It is the very same process, oxygen and nitrogen atoms releasing coloured light, only fainter. Fainter light is not a different kind of light."
+          },
+          {
+            "label": "The eye adjusts to night and starts seeing everything as grey",
+            "feedback": "The same eye reads a bright aurora as vividly green without any trouble. The trouble appears specifically when the light is faint, not simply because it is night."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "The colour was there all along — the eye just was not bright enough to catch it.",
+        "ko_title": "Not the reason",
+        "ko_line": "The light itself has not changed. Ask what part of the eye is doing the seeing, and what that part needs in order to register colour.",
+        "exp_title": "Too dim for colour vision",
+        "exp_text": "The retina relies on two different kinds of cell: one that senses brightness even in very dim light but registers no colour at all, and another that senses colour but only works well once the light is bright enough. A faint aurora often falls right in the range where only the brightness-sensing cells respond properly, so it reaches the eye as a pale, colourless glow. A camera has no such limit — given a long enough exposure, it gathers plenty of light and records the true green or red that was there the whole time."
+      }
+    ]
+  }
+]

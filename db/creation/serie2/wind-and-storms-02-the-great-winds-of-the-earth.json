@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the narrow ribbon of very fast wind that flows high above the westerlies?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The trade wind stream",
+            "feedback": "Trade winds are the steady surface winds near the equator, not the high-altitude fast current; the fast current is the jet stream."
+          },
+          {
+            "label": "The polar vortex",
+            "feedback": "The polar vortex is a large area of low pressure and cold air that sits near the poles in the upper atmosphere; the fast ribbon flowing within the westerlies is the jet stream."
+          },
+          {
+            "label": "The jet stream",
+            "feedback": "Correct. The jet stream is a narrow, fast-moving ribbon of air high in the atmosphere, found near the boundary between warmer and colder air masses within the westerlies."
+          },
+          {
+            "label": "The equatorial current",
+            "feedback": "The equatorial current is not a wind belt; winds near the equator are the trade winds, and the fast high-altitude ribbon is the jet stream."
+          }
+        ],
+        "ok_title": "Jet stream named",
+        "ok_line": "The jet stream is the fast wind ribbon high above the westerlies.",
+        "ko_title": "Name confusion",
+        "ko_line": "The fast high-altitude wind is the jet stream, not a trade or polar wind.",
+        "exp_title": "The jet stream",
+        "exp_text": "The jet stream is a narrow band of very fast wind in the upper atmosphere, typically found where the westerlies meet colder polar air. It flows from west to east and can reach speeds much higher than surface winds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the atmosphere does the wind blow fastest?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Close to the ground",
+            "feedback": "Near the ground, friction with the surface slows the wind down, so it is actually fastest higher up."
+          },
+          {
+            "label": "High up, away from the ground",
+            "feedback": "Correct. Away from the ground, there is less friction with the surface, so the air moves faster and more freely."
+          },
+          {
+            "label": "At the very top of mountains",
+            "feedback": "Mountain peaks are still near the ground surface; the fastest winds are found high in the free atmosphere, well above mountains."
+          },
+          {
+            "label": "In the middle of the ocean, at sea level",
+            "feedback": "Even over the ocean, the water surface creates some friction, so speeds there are still slower than high above the surface."
+          }
+        ],
+        "ok_title": "Fastest high up",
+        "ok_line": "Wind is fastest away from the ground because there is less friction.",
+        "ko_title": "Surface slows wind",
+        "ko_line": "Wind speed grows with height, as the ground's roughness fades.",
+        "exp_title": "Wind speed with height",
+        "exp_text": "The ground, with its trees, hills and buildings, drags on the air and slows it down. Higher up, that drag disappears, so the wind can blow much faster."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the trade winds and the westerlies have in common that helps them circle the Earth in steady belts?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They both blow straight from north to south",
+            "feedback": "Neither blows straight north or south; both flow mostly east or west, with a smaller north-south component."
+          },
+          {
+            "label": "They both blow from the same direction in both hemispheres",
+            "feedback": "They do not; in the two hemispheres, trade winds blow from opposite directions (northeast vs southeast), and westerlies blow from the west in both."
+          },
+          {
+            "label": "They both form only over oceans",
+            "feedback": "They form over both land and ocean; the oceans help but are not required for the belts to exist."
+          },
+          {
+            "label": "They both blow from a consistent direction within each hemisphere",
+            "feedback": "Correct. The trade winds blow steadily from the east and the westerlies blow steadily from the west, keeping the belts as continuous rings around the globe."
+          }
+        ],
+        "ok_title": "Steady directions",
+        "ok_line": "Each wind belt blows from a steady direction, so the rings stay whole.",
+        "ko_title": "Direction confusion",
+        "ko_line": "Steady direction in each hemisphere is what makes the belts continuous.",
+        "exp_title": "Steady wind direction",
+        "exp_text": "The trade winds always blow from the east and the westerlies always blow from the west. This consistency, driven by the Earth's rotation and the temperature difference between equator and poles, is what keeps the belts unbroken."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the calm, almost windless zone that lies near the equator?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The doldrums",
+            "feedback": "Correct. The doldrums is the belt of light, variable winds near the equator, where warm air rises and surface winds are weak."
+          },
+          {
+            "label": "The horse latitudes",
+            "feedback": "The horse latitudes are the calm zone around 30 degrees latitude, not near the equator; the equatorial calm is the doldrums."
+          },
+          {
+            "label": "The roaring forties",
+            "feedback": "The roaring forties are the strong westerlies in the southern hemisphere, around 40 degrees latitude, not near the equator."
+          },
+          {
+            "label": "The polar calm",
+            "feedback": "The polar regions have their own winds (polar easterlies); the calm belt near the equator is specifically the doldrums."
+          }
+        ],
+        "ok_title": "Equatorial doldrums",
+        "ok_line": "The doldrums are the calm zone near the equator.",
+        "ko_title": "Calm belt mix-up",
+        "ko_line": "Equatorial calm is the doldrums, not the horse latitudes.",
+        "exp_title": "Doldrums",
+        "exp_text": "At the equator, warm air rises steadily, leaving the surface air calm and variable. Sailors called this belt the doldrums because their ships could sit becalmed for days."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following best describes the westerlies as a wind belt?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Winds that blow only in winter",
+            "feedback": "The westerlies blow all year round, not only in winter; they are a permanent belt between 30 and 60 degrees latitude."
+          },
+          {
+            "label": "Winds that blow from east to west",
+            "feedback": "That is the direction of the trade winds, not the westerlies; the westerlies blow from the west toward the east."
+          },
+          {
+            "label": "Winds that blow from west to east",
+            "feedback": "Correct. The westerlies blow from the west toward the east, dominating the mid-latitudes between about 30 and 60 degrees."
+          },
+          {
+            "label": "Winds that are strongest near the equator",
+            "feedback": "The westerlies are in the mid-latitudes, not near the equator; the equator has the trade winds and the doldrums."
+          }
+        ],
+        "ok_title": "Westerlies direction",
+        "ok_line": "The westerlies blow from west to east.",
+        "ko_title": "Direction error",
+        "ko_line": "Westerlies blow westward to eastward, not the reverse.",
+        "exp_title": "Westerlies",
+        "exp_text": "The westerlies are the surface winds between roughly 30 and 60 degrees latitude in both hemispheres, blowing from the west. They are caused by air moving poleward from the horse latitudes and being turned by the Earth's rotation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason that hurricanes, typhoons, and cyclones all need warm ocean water to form?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Warm water makes the wind blow faster over short distances",
+            "feedback": "Warm water does not directly speed up wind; its role is to heat the air above it, which drives the storm's circulation."
+          },
+          {
+            "label": "Warm water heats the air above it, providing energy for the storm",
+            "feedback": "Correct. Warm ocean water transfers heat to the air, causing it to rise and release energy as it cools, which powers the storm's spinning winds."
+          },
+          {
+            "label": "Warm water makes the air pressure at the surface drop naturally",
+            "feedback": "The air pressure drops because the warm air rises, but the water itself does not lower pressure; the heating of the air is what matters."
+          },
+          {
+            "label": "Warm water creates a steady wind from the ocean to the land",
+            "feedback": "That describes a sea breeze, not a hurricane; hurricanes need warm water to feed their internal energy, not to create a steady breeze."
+          }
+        ],
+        "ok_title": "Warm water energy",
+        "ok_line": "Warm water fuels the storm by heating the air above it.",
+        "ko_title": "Energy source error",
+        "ko_line": "Hurricanes run on heat from warm ocean water, not on surface winds.",
+        "exp_title": "The heat engine",
+        "exp_text": "A hurricane is powered by the heat it picks up from warm ocean water. The warm air rises, cools, and releases that heat as it condenses into clouds, driving the storm's intense winds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the calm, cloudless centre of a hurricane called?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The wall",
+            "feedback": "The wall refers to the ring of intense thunderstorms around the eye; the calm centre itself is called the eye."
+          },
+          {
+            "label": "The spiral",
+            "feedback": "The spiral describes the rainbands that wrap around the storm, not the calm central area."
+          },
+          {
+            "label": "The core",
+            "feedback": "The core is a general term for the central region of any storm; the specific calm centre of a hurricane is the eye."
+          },
+          {
+            "label": "The eye",
+            "feedback": "Correct. The eye is the calm, clear centre of a hurricane, where air sinks and clouds vanish."
+          }
+        ],
+        "ok_title": "The eye named",
+        "ok_line": "The calm centre of a hurricane is the eye.",
+        "ko_title": "Centre misnamed",
+        "ko_line": "The calm centre is the eye, not the wall or core.",
+        "exp_title": "Hurricane eye",
+        "exp_text": "In the centre of a mature hurricane, air slowly sinks. That sinking suppresses cloud formation, leaving a clear, calm region called the eye, surrounded by the storm's fiercest winds in the eyewall."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do tornadoes never form from ordinary rain clouds?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Ordinary rain clouds lack the powerful rotating updraft needed",
+            "feedback": "Correct. Tornadoes need a strong, rotating updraft, which only certain severe thunderstorms (supercells) can produce."
+          },
+          {
+            "label": "Ordinary rain clouds are too cold",
+            "feedback": "Temperature alone is not the issue; many tornadoes form from warm thunderstorms, and cold clouds can also be severe if they have the right rotation."
+          },
+          {
+            "label": "Ordinary rain clouds do not produce any wind",
+            "feedback": "They do produce wind, but not the organised, rotating, violent wind of a tornado; the key difference is the storm's internal rotation."
+          },
+          {
+            "label": "Ordinary rain clouds are too small",
+            "feedback": "Size helps but is not enough; some large rain clouds still do not rotate, and it is the rotation that creates a tornado."
+          }
+        ],
+        "ok_title": "Rotation needed",
+        "ok_line": "Tornadoes need a rotating updraft, which ordinary clouds lack.",
+        "ko_title": "Cloud type error",
+        "ko_line": "Only severe rotating thunderstorms can spawn tornadoes.",
+        "exp_title": "Supercell updraft",
+        "exp_text": "Tornadoes form from supercells—thunderstorms with a deep, rotating updraft. Ordinary rain clouds lack this organised rotation, so they cannot spin a funnel down to the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason that tornadoes last only a short time, often just minutes?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They run out of warm air to fuel them",
+            "feedback": "Tornadoes are not powered by warm air alone; the parent thunderstorm provides energy, and the tornado's short life is due to its own dynamics."
+          },
+          {
+            "label": "They collide with mountains and stop",
+            "feedback": "Most tornadoes occur on flat ground (like the Great Plains) and do not hit mountains; their short lives are not caused by terrain."
+          },
+          {
+            "label": "The rotating column loses its connection to the parent storm",
+            "feedback": "Correct. A tornado is a narrow, fragile vortex; any disruption to its connection with the storm's updraft quickly cuts off its energy and it dissipates."
+          },
+          {
+            "label": "They spin so fast that they tear themselves apart",
+            "feedback": "Spinning fast does not tear a tornado apart; what ends it is the loss of the updraft that keeps it attached to the storm."
+          }
+        ],
+        "ok_title": "Short tornado life",
+        "ok_line": "Tornadoes end when they lose their storm connection.",
+        "ko_title": "Lifespan confusion",
+        "ko_line": "Short life comes from losing the updraft, not from running out of air.",
+        "exp_title": "Tornado lifespan",
+        "exp_text": "A tornado is a small, intense vortex hanging from a large thunderstorm. It lasts as long as the storm's updraft keeps feeding it; when that updraft shifts or weakens, the tornado quickly weakens and disappears."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do sand dunes move slowly across the desert over time?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The sand is blown away completely, leaving bare ground",
+            "feedback": "Dunes do not disappear; they migrate because sand is moved from one side and deposited on the other, so the whole dune shifts."
+          },
+          {
+            "label": "Wind removes sand from one side and deposits it on the other",
+            "feedback": "Correct. Wind carries grains up the windward slope and drops them over the crest, so the dune gradually creeps forward."
+          },
+          {
+            "label": "The ground under the dune slowly tilts and slides",
+            "feedback": "The ground does not tilt; the movement is entirely due to wind lifting and dropping sand, not to the ground shifting."
+          },
+          {
+            "label": "Rain slowly carries the sand downhill",
+            "feedback": "Rain is rare in deserts and is not the main mover; wind is the force that shifts sand grains from one side of a dune to the other."
+          }
+        ],
+        "ok_title": "Dune movement",
+        "ok_line": "Wind shifts sand from one side of a dune to the other.",
+        "ko_title": "Movement cause error",
+        "ko_line": "Dunes move because wind carries sand across them, not because of the ground.",
+        "exp_title": "Dune migration",
+        "exp_text": "A dune is a pile of loose sand shaped by wind. The wind lifts grains from the windward face and drops them on the leeward slope, so the dune's position creeps forward in the wind's direction over months and years."
+      }
+    ]
+  }
+]

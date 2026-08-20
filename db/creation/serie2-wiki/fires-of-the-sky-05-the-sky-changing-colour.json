@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 228,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is diffuse sky radiation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Light from the sun that hits the ground directly",
+            "feedback": "Direct sunlight comes straight from the sun to the ground, but diffuse sky radiation is light that has bounced off molecules or particles in the air first."
+          },
+          {
+            "label": "Sunlight that has been scattered by the atmosphere before reaching the ground",
+            "feedback": "Correct. Diffuse sky radiation is solar radiation that has been scattered by molecules or particulates in the atmosphere, so it no longer travels in a straight line from the sun."
+          },
+          {
+            "label": "Light emitted by the sky itself",
+            "feedback": "The sky does not make its own light; it scatters sunlight that comes from the sun."
+          },
+          {
+            "label": "Sunlight reflected off the ground into the sky",
+            "feedback": "That would be reflection from the surface, not scattering in the atmosphere, which is what diffuse sky radiation is."
+          }
+        ],
+        "ok_title": "Diffuse sky radiation",
+        "ok_line": "It's sunlight scattered off course by the atmosphere.",
+        "ko_title": "Check your sunlight path",
+        "ko_line": "Remember, diffuse sky radiation comes from scattering, not direct or reflected light.",
+        "exp_title": "Scattered sunlight",
+        "exp_text": "Diffuse sky radiation is sunlight that has been scattered by molecules or particles in the air before it reaches the ground. Because the light has bounced around, it arrives from many directions rather than straight from the sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the wavelength of light during Rayleigh or Mie scattering?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It stays the same",
+            "feedback": "Correct. Both Rayleigh and Mie scattering are elastic, so the wavelength—and therefore the colour—of the light does not change; only its direction changes."
+          },
+          {
+            "label": "It becomes shorter",
+            "feedback": "The wavelength does not shrink during scattering; it remains unchanged in these elastic processes."
+          },
+          {
+            "label": "It becomes longer",
+            "feedback": "The wavelength does not grow during scattering; it remains unchanged in these elastic processes."
+          },
+          {
+            "label": "It depends on the particle size",
+            "feedback": "Particle size affects how much scattering happens, but the wavelength itself stays the same in Rayleigh or Mie scattering."
+          }
+        ],
+        "ok_title": "Wavelength unchanged",
+        "ok_line": "Scattering changes direction, not colour.",
+        "ko_title": "Elastic means same",
+        "ko_line": "Elastic scattering keeps the wavelength constant, so the colour stays the same.",
+        "exp_title": "Elastic scattering",
+        "exp_text": "Rayleigh and Mie scattering are elastic, meaning the photon is deviated from its path but not absorbed and its wavelength stays the same. That is why the colour of light does not change when it is scattered—only the path it takes does."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour of light is scattered most strongly by the Earth's atmosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red light has a longer wavelength and is scattered less; blue is the one that gets scattered most."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green light falls between blue and red, but it is blue, with its shorter wavelength, that is scattered the most."
+          },
+          {
+            "label": "Blue",
+            "feedback": "Correct. Blue light has a shorter wavelength, and the atmosphere scatters short-wavelength light more efficiently than longer wavelengths, so blue is scattered most."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow light has a longer wavelength than blue and is scattered less strongly."
+          }
+        ],
+        "ok_title": "Blue scattered most",
+        "ok_line": "Short wavelengths scatter more.",
+        "ko_title": "Wavelength matters",
+        "ko_line": "Blue's short wavelength makes it the most scattered colour.",
+        "exp_title": "Short wavelength scattering",
+        "exp_text": "The atmosphere scatters short-wavelength light more efficiently than longer wavelengths. Blue light has a shorter wavelength than red or green, so it is scattered more strongly, which is why the daytime sky looks blue when we look away from the sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the sky appear blue when you look away from the sun?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the sky reflects the blue of the oceans",
+            "feedback": "The ocean does not make the sky blue; the blue colour comes from the atmosphere scattering blue sunlight, not from reflection off water."
+          },
+          {
+            "label": "Because blue light is scattered by the atmosphere in all directions",
+            "feedback": "Correct. Blue light is scattered more strongly than other colours, so when you look away from the sun, the blue light reaching your eye makes the sky look blue."
+          },
+          {
+            "label": "Because blue light passes straight through the atmosphere",
+            "feedback": "If blue light passed straight through, it would not reach you from all directions; scattering is what spreads blue light across the sky."
+          },
+          {
+            "label": "Because the sun emits only blue light toward Earth",
+            "feedback": "The sun emits light of all colours, but the atmosphere scatters blue more, hiding it from the direct beam and spreading it around the sky."
+          }
+        ],
+        "ok_title": "Blue sky explained",
+        "ok_line": "Scattered blue light fills the sky.",
+        "ko_title": "Scattering, not reflection",
+        "ko_line": "The blue sky comes from scattered blue light, not from ocean reflection or filtered sunlight.",
+        "exp_title": "Rayleigh scattering and sky colour",
+        "exp_text": "When you look at the sky away from the sun's direct beam, you see light that has been scattered by the atmosphere. Blue light is scattered much more than red or green, so the light arriving from all directions is mostly blue, giving the sky its familiar colour."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At sunrise or sunset, why does sunlight appear orange or red?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the sun emits redder light at those times",
+            "feedback": "The sun's emitted light does not change; the apparent redness is due to the atmosphere removing blue light from the beam."
+          },
+          {
+            "label": "Because the atmosphere stops scattering light then",
+            "feedback": "Scattering still happens, but the longer path through the air makes the beam lose its blue light, leaving reds and oranges."
+          },
+          {
+            "label": "Because the sunlight passes through much more atmosphere",
+            "feedback": "Correct. At sunrise and sunset, sunlight travels nearly tangentially to the ground, passing through a long stretch of atmosphere; blue and green light get scattered away, leaving orange and red."
+          },
+          {
+            "label": "Because the clouds absorb the blue light",
+            "feedback": "Clouds do not absorb blue light in this case; the long path through the atmosphere is what scatters the blue out of the beam."
+          }
+        ],
+        "ok_title": "Red sunrise and sunset",
+        "ok_line": "A long sky path removes blue light.",
+        "ko_title": "Path length matters",
+        "ko_line": "The sun's colour changes on the way through the atmosphere, not at its source.",
+        "exp_title": "Sunset reddening",
+        "exp_text": "At sunrise or sunset, the sun's light arrives almost horizontally, so it travels through a much longer stretch of atmosphere. Along that path, most of the blue and green light is scattered away from the beam, leaving the orange and red colours that we see in the sun and the clouds it lights up."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Under an overcast sky, why is there no direct sunlight?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the cloud layer scatters all the sunlight",
+            "feedback": "Correct. Thick clouds scatter the sunlight, so the direct beam from the sun does not reach the ground; all the light that gets through is diffuse sky radiation."
+          },
+          {
+            "label": "Because the sun is behind the Earth",
+            "feedback": "The sun is not necessarily behind the Earth during the day; an overcast sky is about clouds blocking the light, not the Earth's position."
+          },
+          {
+            "label": "Because the atmosphere absorbs all the sunlight",
+            "feedback": "Absorption is not the main cause; scattering by cloud droplets is what removes the direct beam, and light still reaches the ground as diffuse light."
+          },
+          {
+            "label": "Because the clouds turn the sunlight into heat",
+            "feedback": "Clouds do not convert sunlight to heat directly; they scatter the light, which is why it becomes diffuse rather than disappearing."
+          }
+        ],
+        "ok_title": "No direct sun under clouds",
+        "ok_line": "Clouds scatter the sun's beam into diffuse light.",
+        "ko_title": "Clouds scatter, not hide",
+        "ko_line": "The cloud layer scatters the direct beam, so only scattered light reaches the ground.",
+        "exp_title": "Overcast diffuse light",
+        "exp_text": "When the sky is overcast, the cloud droplets are larger than the wavelengths of light, so they scatter all colours roughly equally. The sun's direct beam is broken up, and everything that reaches the ground is diffuse sky radiation—there is no direct sunlight left."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What determines whether Rayleigh scattering or Mie scattering occurs?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The colour of the incident light only",
+            "feedback": "Colour (wavelength) matters, but it is the ratio of particle size to wavelength that decides which scattering process happens."
+          },
+          {
+            "label": "The height of the cloud in the sky",
+            "feedback": "Height is not the deciding factor; it is the size of the particles compared to the light's wavelength that determines the type of scattering."
+          },
+          {
+            "label": "The temperature of the air",
+            "feedback": "Temperature does not determine which process occurs; the particle-to-wavelength ratio is what matters."
+          },
+          {
+            "label": "The ratio of particle diameter to wavelength",
+            "feedback": "Correct. When that ratio is less than about one-tenth, Rayleigh scattering occurs; at larger ratios, Mie scattering and other effects take over."
+          }
+        ],
+        "ok_title": "Particle size decides",
+        "ok_line": "Small particles scatter Rayleigh, larger ones Mie.",
+        "ko_title": "Check the ratio",
+        "ko_line": "The type of scattering depends on how big the particle is relative to the light's wavelength.",
+        "exp_title": "Rayleigh vs Mie",
+        "exp_text": "The atmosphere scatters light differently depending on particle size. When the particle's diameter is less than about one-tenth of the light's wavelength, Rayleigh scattering occurs. With larger particles, the scattering becomes more complex, as described by Mie theory."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do cloud droplets scatter all colours of light about equally?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because they are very small like air molecules",
+            "feedback": "Cloud droplets are larger than air molecules and larger than the light's wavelength, so they do not favour short wavelengths like Rayleigh scattering does."
+          },
+          {
+            "label": "Because they are larger than the wavelength of light",
+            "feedback": "Correct. Cloud droplets are bigger than the light's wavelength, so they scatter all colours approximately equally, which is why overcast skies look grey or white rather than blue."
+          },
+          {
+            "label": "Because they absorb all colours completely",
+            "feedback": "Cloud droplets scatter light rather than absorb it; equal scattering of all colours is what makes the light diffuse and colourless."
+          },
+          {
+            "label": "Because they are made of pure water that has no colour",
+            "feedback": "Water's transparency does not explain the equal scattering; the key is the droplet size relative to the wavelength."
+          }
+        ],
+        "ok_title": "Equal scattering by clouds",
+        "ok_line": "Large droplets scatter all colours the same.",
+        "ko_title": "Size matters again",
+        "ko_line": "Because cloud droplets are big, they don't scatter blue more than red.",
+        "exp_title": "Cloud droplet scattering",
+        "exp_text": "Cloud droplets are much larger than the wavelength of visible light. When scattering particles are this big, they deflect all colours about the same amount, so the light that passes through clouds does not get separated into colours—that is why an overcast sky looks grey or white."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of light is scattered most strongly by Earth's atmosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red light",
+            "feedback": "No. Red has a longer wavelength, so it is scattered less efficiently. Blue is scattered more."
+          },
+          {
+            "label": "Green light",
+            "feedback": "Incorrect. Green is scattered more than red but less than blue. Short wavelengths scatter most."
+          },
+          {
+            "label": "Blue light",
+            "feedback": "Correct. Blue light has a shorter wavelength, so the atmosphere scatters it more efficiently than red or green light."
+          },
+          {
+            "label": "All colors are scattered equally",
+            "feedback": "Wrong. The atmosphere scatters short-wavelength light more strongly; colors are not scattered equally."
+          }
+        ],
+        "ok_title": "Blue scatters most",
+        "ok_line": "Short-wavelength blue light is scattered more than longer wavelengths.",
+        "ko_title": "Not equal scattering",
+        "ko_line": "The atmosphere favors short wavelengths, not all colors alike.",
+        "exp_title": "Wavelength and scattering",
+        "exp_text": "Earth's atmosphere scatters short-wavelength light more efficiently. Because blue light has a shorter wavelength than red or green, it is scattered most, which is why the daytime sky appears blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the color of the Sun near sunset?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It turns blue because the sky is blue",
+            "feedback": "No. Near sunset, blue and green light are scattered away from the line of sight, leaving the reds."
+          },
+          {
+            "label": "It turns orange to red because blue light is scattered away",
+            "feedback": "Correct. At sunset, sunlight passes through much more atmosphere, so blue and green light are scattered out of view, leaving orange-red colors."
+          },
+          {
+            "label": "It stays the same white color all day",
+            "feedback": "Incorrect. The path through the atmosphere at sunset removes much of the blue and green light, changing the color."
+          },
+          {
+            "label": "It turns violet because of ozone absorption",
+            "feedback": "Wrong. Violet is not the dominant color; ozone absorption helps keep blue in the evening sky, not the Sun's color. The Sun appears orange to red."
+          }
+        ],
+        "ok_title": "Sunset reddening",
+        "ok_line": "At sunset, blue and green scatter away, leaving orange-red light.",
+        "ko_title": "Not blue or white",
+        "ko_line": "The longer path removes short wavelengths, reddening the Sun.",
+        "exp_title": "Sunset colors",
+        "exp_text": "Near sunrise or sunset, sunlight travels nearly tangentially through the atmosphere, so its path is elongated. Much blue and green light is scattered away from the line of sight, leaving the Sun's rays and illuminated clouds orange to red."
+      }
+    ]
+  }
+]

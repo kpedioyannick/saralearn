@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 225,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What force pulls a cloud's droplets downward toward the ground?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Gravity",
+            "feedback": "Correct. Gravity pulls every droplet downward, but the droplets are so tiny that gentle air currents can hold them up."
+          },
+          {
+            "label": "Air pressure",
+            "feedback": "Air pressure pushes in all directions, not specifically downward, and it doesn't pull droplets to the ground."
+          },
+          {
+            "label": "Buoyancy",
+            "feedback": "Buoyancy acts upward, not downward, and it is what helps air and droplets stay aloft rather than fall."
+          },
+          {
+            "label": "Wind",
+            "feedback": "Wind moves air sideways across the sky, not downward, so it doesn't pull droplets toward the ground."
+          }
+        ],
+        "ok_title": "Gravity pulls down",
+        "ok_line": "Gravity is the downward pull that affects everything, including cloud droplets.",
+        "ko_title": "Not those forces",
+        "ko_line": "Air pressure, buoyancy, and wind don't pull things down to the earth.",
+        "exp_title": "The downward pull on droplets",
+        "exp_text": "Gravity is the force that attracts the droplets toward the earth. It is the same pull that makes rain fall, but inside a cloud the droplets are so small and light that rising air can keep them suspended."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What keeps a typical cloud droplet from falling quickly to the ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Its large size",
+            "feedback": "Large droplets fall faster, not slower. Small size is what helps a droplet stay up."
+          },
+          {
+            "label": "Its tiny size and slow fall",
+            "feedback": "Correct. A typical droplet is so small that it falls only a few centimetres per second, and even weak updrafts can carry it upward."
+          },
+          {
+            "label": "Its heavy weight",
+            "feedback": "Heavy droplets would fall faster, not slower, because gravity has more to pull on."
+          },
+          {
+            "label": "Its smooth shape",
+            "feedback": "A smooth shape reduces air resistance a little, but it doesn't stop the droplet from falling; size matters far more."
+          }
+        ],
+        "ok_title": "Tiny droplets float",
+        "ok_line": "Being very small lets a droplet fall so slowly that air currents hold it up.",
+        "ko_title": "Size is the key",
+        "ko_line": "Big or heavy droplets fall, while tiny ones are easily kept aloft.",
+        "exp_title": "Why small droplets stay up",
+        "exp_text": "Cloud droplets are typically around 0.02 millimetres wide. At that size gravity pulls them down only a few centimetres per second, and the gentle upward movement of air inside a cloud easily overcomes that slow fall."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a cloud droplet's fall speed as it grows larger?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It stays the same",
+            "feedback": "Fall speed changes with size; a larger droplet meets more air resistance but is pulled harder by gravity, so it does not stay the same."
+          },
+          {
+            "label": "It slows down",
+            "feedback": "Larger droplets fall faster, not slower, because gravity pulls them more strongly relative to the air's resistance."
+          },
+          {
+            "label": "It speeds up",
+            "feedback": "Correct. A larger droplet weighs more and overcomes air resistance better, so it falls faster and can eventually become rain."
+          },
+          {
+            "label": "It becomes zero",
+            "feedback": "Fall speed never becomes zero for a droplet in air; even tiny ones fall slowly, and larger ones fall faster."
+          }
+        ],
+        "ok_title": "Bigger falls faster",
+        "ok_line": "As a droplet grows, gravity's pull wins more easily against air resistance.",
+        "ko_title": "Growth changes speed",
+        "ko_line": "Larger droplets don't float the same way tiny ones do.",
+        "exp_title": "Fall speed and droplet size",
+        "exp_text": "A small droplet falls so slowly that even a weak updraft can lift it. As it grows by collecting more moisture, its weight increases, so it falls faster, and eventually no ordinary updraft can hold it up."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main upward force that supports a cloud's droplets from below?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Magnetism",
+            "feedback": "Magnetism has no effect on water droplets in a cloud; it doesn't act on the air or the droplets in that way."
+          },
+          {
+            "label": "Static electricity",
+            "feedback": "Static electricity can influence charged particles, but it isn't what holds up ordinary cloud droplets."
+          },
+          {
+            "label": "Heat from the sun",
+            "feedback": "Heat causes air to rise, but the direct support is the moving air itself, not the heat energy."
+          },
+          {
+            "label": "Rising air currents",
+            "feedback": "Correct. Warm air near the ground rises, carrying droplets upward, and even gentle updrafts inside a cloud keep the droplets aloft."
+          }
+        ],
+        "ok_title": "Rising air holds cloud",
+        "ok_line": "Upward-moving air is what keeps droplets from falling.",
+        "ko_title": "Not those forces",
+        "ko_line": "Magnetism, static electricity, and heat itself don't hold droplets up.",
+        "exp_title": "The upward push on a cloud",
+        "exp_text": "A cloud floats because the air around it is moving upward. That rising air, called an updraft, pushes against the falling droplets and can carry them higher, so the cloud stays in the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a cloud droplet inside a cloud not simply fall out of the cloud immediately after it forms?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because it falls too slowly for the cloud's updrafts",
+            "feedback": "Correct. The droplet's fall speed is far smaller than the upward speed of the air inside the cloud, so it moves up overall."
+          },
+          {
+            "label": "Because it is lighter than the air around it",
+            "feedback": "A droplet is much denser than air, so it is heavier, not lighter, and would sink without updrafts."
+          },
+          {
+            "label": "Because it has no gravity acting on it",
+            "feedback": "Gravity acts on everything, including cloud droplets; it's just that the upward air current overpowers the slow fall."
+          },
+          {
+            "label": "Because it sticks to the cloud's outer edge",
+            "feedback": "There is no sticky surface at the edge of a cloud; the droplet is held by moving air, not by any barrier."
+          }
+        ],
+        "ok_title": "Updraft beats slow fall",
+        "ok_line": "A droplet's tiny fall is easily outrun by rising air.",
+        "ko_title": "Not lightness or stickiness",
+        "ko_line": "Droplets are heavy for their size, and clouds have no sticky walls.",
+        "exp_title": "Why droplets stay inside",
+        "exp_text": "Inside a cloud, air rises at speeds of a few metres per second, while a typical droplet falls only a few centimetres per second. The upward motion is so much faster that the droplet stays aloft and may even climb."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a cloud droplet when the rising air around it weakens or stops?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stays exactly where it is",
+            "feedback": "Without an updraft, there's nothing to counteract gravity, so the droplet doesn't just hang still."
+          },
+          {
+            "label": "It begins to fall slowly",
+            "feedback": "Correct. Once the upward air weakens, gravity takes over, and the droplet starts to sink at its own slow fall speed."
+          },
+          {
+            "label": "It evaporates immediately",
+            "feedback": "Evaporation depends on humidity and temperature, not directly on the strength of the updraft, so it doesn't vanish instantly."
+          },
+          {
+            "label": "It shrinks into nothing",
+            "feedback": "Shrinking would happen only if the air dried out, not merely because the updraft stopped; the droplet still exists as liquid water."
+          }
+        ],
+        "ok_title": "Updraft stops, droplet falls",
+        "ok_line": "Without rising air, gravity wins and the droplet sinks.",
+        "ko_title": "Not instant disappearance",
+        "ko_line": "The droplet falls, it doesn't vanish or stay put.",
+        "exp_title": "When the support weakens",
+        "exp_text": "A cloud droplet is always falling a little, but an updraft can lift it faster. If the updraft fades, the droplet's fall is no longer counteracted, so it slowly sinks; many droplets doing this together become rain or drizzle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical size of a cloud droplet compared with a raindrop?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "About the same size",
+            "feedback": "Cloud droplets are far smaller than raindrops; a raindrop is often a million times larger in volume."
+          },
+          {
+            "label": "Larger than a raindrop",
+            "feedback": "Cloud droplets are much smaller than raindrops, not larger."
+          },
+          {
+            "label": "Roughly one hundredth of a millimetre",
+            "feedback": "Correct. A typical cloud droplet is about 0.02 millimetres wide, while a raindrop is around 1 to 2 millimetres wide."
+          },
+          {
+            "label": "About one millimetre",
+            "feedback": "One millimetre is the size of a small raindrop, far larger than a single cloud droplet."
+          }
+        ],
+        "ok_title": "Tiny droplets, big raindrops",
+        "ok_line": "A cloud droplet is minuscule compared with a raindrop.",
+        "ko_title": "Size contrast matters",
+        "ko_line": "Cloud droplets are not the same size as raindrops at all.",
+        "exp_title": "Sizes of droplets and raindrops",
+        "exp_text": "A cloud droplet is about 0.02 millimetres across, so small that millions could fit on a pinhead. A raindrop is roughly 1 to 2 millimetres across, which is why it can fall despite gravity—it has grown too large for weak updrafts to hold."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why don't all cloud droplets simply fall out of the sky at once?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they are all exactly the same size",
+            "feedback": "Droplets vary widely in size, but even the smallest fall a little; uniformity wouldn't stop them all from falling."
+          },
+          {
+            "label": "Because clouds are weightless",
+            "feedback": "Clouds do have weight; a large cloud can weigh thousands of tonnes, but the droplets are spread out and carried by updrafts."
+          },
+          {
+            "label": "Because they are made of ice, not water",
+            "feedback": "Most clouds are made of tiny liquid droplets, not ice; ice crystals also fall but more slowly, and that's not why all droplets stay up."
+          },
+          {
+            "label": "Because the upward air is much faster than their fall",
+            "feedback": "Correct. The rising air inside a cloud moves faster than the droplets fall, so the droplets are lifted even as they try to sink."
+          }
+        ],
+        "ok_title": "Updrafts outrun falling",
+        "ok_line": "Rising air is quick enough to keep all the droplets aloft together.",
+        "ko_title": "Not sameness or weightlessness",
+        "ko_line": "Droplets vary, clouds have weight, and most are liquid water.",
+        "exp_title": "Why the whole cloud doesn't fall",
+        "exp_text": "Every droplet in a cloud is pulled downward by gravity, but the air around them is moving upward faster than any single droplet falls. So the cloud as a whole stays suspended until the upward motion weakens."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the upward air motion inside a cloud during a heavy rainstorm?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It weakens or is overcome by falling droplets",
+            "feedback": "Correct. As droplets grow large and heavy, they fall faster, and the downdraft from falling rain can overwhelm the updraft, causing the storm to die out."
+          },
+          {
+            "label": "It becomes stronger and stronger forever",
+            "feedback": "Updrafts cannot strengthen forever; they are limited by the supply of warm, moist air and eventually are overtaken by rain."
+          },
+          {
+            "label": "It reverses direction permanently",
+            "feedback": "A storm may develop downdrafts, but the overall cloud doesn't permanently reverse; updrafts still occur in parts of the storm."
+          },
+          {
+            "label": "It becomes perfectly calm",
+            "feedback": "Heavy rain is accompanied by strong downward air, not calm; calm doesn't cause the rain to fall hard."
+          }
+        ],
+        "ok_title": "Rain kills the updraft",
+        "ok_line": "Falling rain brings down air and ends the upward support.",
+        "ko_title": "Not endless strengthening",
+        "ko_line": "Updrafts fade as the storm matures and rains out.",
+        "exp_title": "Updrafts during heavy rain",
+        "exp_text": "In a growing storm, updrafts feed the cloud and hold droplets up. But once droplets become heavy and begin falling as rain, they drag air down with them, forming a downdraft that weakens the updraft and eventually the storm collapses."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What role does air resistance play in a cloud droplet's fall?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It makes the droplet fall faster",
+            "feedback": "Air resistance opposes motion, so it always slows a falling droplet, never speeds it up."
+          },
+          {
+            "label": "It slows the droplet as it falls",
+            "feedback": "Correct. When a droplet falls, it pushes against the air, and the air pushes back, reducing how quickly it can drop."
+          },
+          {
+            "label": "It lifts the droplet upward without any air motion",
+            "feedback": "Air resistance acts only against motion; it doesn't create an upward force on a still droplet."
+          },
+          {
+            "label": "It has no effect on a droplet",
+            "feedback": "Air resistance matters greatly for tiny droplets because their weight is small compared with the force the air exerts on them."
+          }
+        ],
+        "ok_title": "Air slows the fall",
+        "ok_line": "Air pushes back against a falling droplet, making it fall slower.",
+        "ko_title": "Resistance always opposes",
+        "ko_line": "Air resistance never speeds up or lifts a droplet on its own.",
+        "exp_title": "How air resistance affects falling",
+        "exp_text": "As a droplet begins to fall, it collides with air molecules, and those collisions push upward against it. For a tiny droplet, this upward push is nearly as strong as gravity's downward pull, so it falls very slowly."
+      }
+    ]
+  }
+]

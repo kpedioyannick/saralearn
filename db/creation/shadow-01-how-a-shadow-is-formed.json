@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 86,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is a shadow?",
+        "body": null,
+        "options": [
+          {
+            "label": "A place light could not reach",
+            "feedback": "Something stood in the way, so nothing arrives there."
+          },
+          {
+            "label": "A dark substance cast by objects",
+            "feedback": "Nothing is cast. Nothing travels to the ground."
+          },
+          {
+            "label": "The cold side of a lit object",
+            "feedback": "Temperature is a consequence, not the shadow itself."
+          },
+          {
+            "label": "Light bouncing off the far side",
+            "feedback": "Bouncing light makes brightness, not darkness."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A shadow is an absence. Nothing is added anywhere.",
+        "ko_title": "Not that.",
+        "ko_line": "Nothing leaves the object and lands on the ground. Think about what is missing instead.",
+        "exp_title": "Nothing there is the whole of it",
+        "exp_text": "A shadow is not a thing but a gap: the region behind an obstacle where light did not arrive. Nothing travels from the object to the ground, which is why a shadow can sweep across a field faster than light could carry it — the edge is only a boundary between lit and unlit, and boundaries obey no speed limit. Light in a vacuum travels in straight lines, and everything about shadows follows from that."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a shadow have blurred edges in daylight?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Sun is not a single point",
+            "feedback": "Its disc lights the edge from slightly different angles."
+          },
+          {
+            "label": "Air scatters the shadow's outline",
+            "feedback": "Air softens distant views, not a shadow at your feet."
+          },
+          {
+            "label": "The eye cannot focus on shadows",
+            "feedback": "A camera records the same soft edge."
+          },
+          {
+            "label": "Shadows spread out as they travel",
+            "feedback": "Nothing travels, so nothing spreads."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "A wide source makes a soft edge. A point source makes a hard one.",
+        "ko_title": "Not it.",
+        "ko_line": "Ask how big the light source is, seen from the ground.",
+        "exp_title": "The size of the lamp sets the softness",
+        "exp_text": "The Sun covers about half a degree of sky, so every point of your shadow's edge is lit by part of that disc and hidden from the rest. The result is a band of partial shade — the penumbra — that widens the further the object stands from the ground. Hold your hand near a wall and the edge is sharp; move it away and the outline dissolves. A single small lamp in a dark room gives knife-edged shadows."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is your shadow longest early and late in the day?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Sun is low in the sky",
+            "feedback": "Low light stretches the shadow far along the ground."
+          },
+          {
+            "label": "The air is cooler at those hours",
+            "feedback": "Temperature does not lengthen a shadow."
+          },
+          {
+            "label": "Light travels further to reach you",
+            "feedback": "The extra distance changes nothing about the angle."
+          },
+          {
+            "label": "You stand differently in the morning",
+            "feedback": "Your height is what it always was."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "A low Sun throws a long shadow. Nothing else changes.",
+        "ko_title": "Not that.",
+        "ko_line": "Hold a pencil upright and shine a torch on it from low down, then from above.",
+        "exp_title": "Length is a reading of the Sun's height",
+        "exp_text": "Shadow length depends only on the angle of the light. With the Sun 45 degrees up, your shadow equals your height; lower, it stretches without limit; higher, it shrinks. Sundials read the reverse — from the shadow, they recover the Sun's position and so the hour. Eratosthenes measured the Earth itself this way around 240 BC, comparing shadow lengths in two cities on the same day."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do you have two overlapping shadows under two lamps?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each lamp is blocked separately",
+            "feedback": "One shadow per source, and the darkest part is where both fall."
+          },
+          {
+            "label": "The lamps interfere with each other",
+            "feedback": "Ordinary lamps do not interfere in any visible way."
+          },
+          {
+            "label": "One shadow is a reflection",
+            "feedback": "Both are genuine gaps in the light."
+          },
+          {
+            "label": "Your body splits the light in two",
+            "feedback": "Your body only blocks. It splits nothing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Two sources, two shadows, and the overlap is the darkest.",
+        "ko_title": "Not it.",
+        "ko_line": "Cover one lamp and see which shadow disappears.",
+        "exp_title": "One shadow for each source",
+        "exp_text": "Every light source casts its own shadow, and they only coincide if the sources do. Where the two overlap, no light arrives at all and the shade is deepest; where only one is blocked, the other still lights the ground and the shade is partial. A football pitch under four floodlights gives every player four shadows, which is exactly why stadiums use so many — the fourth fills what the other three missed."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does a solar eclipse consist of?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Moon's shadow crossing the Earth",
+            "feedback": "A dark spot sweeping the surface at great speed."
+          },
+          {
+            "label": "The Earth's shadow falling on the Sun",
+            "feedback": "Nothing can shade the Sun. It is the source."
+          },
+          {
+            "label": "The Moon passing behind the Earth",
+            "feedback": "That is a lunar eclipse, and the opposite arrangement."
+          },
+          {
+            "label": "The Sun being hidden by cloud",
+            "feedback": "Cloud dims the day but casts no travelling shadow."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "A shadow the size of a town, running across the ground.",
+        "ko_title": "Not that.",
+        "ko_line": "Something is standing between the Sun and you. What is it?",
+        "exp_title": "A shadow you can stand inside",
+        "exp_text": "The Moon blocks the Sun and its shadow falls on the Earth. The dark core is rarely more than about 250 km across and sweeps eastward at over 1,700 km/h, so totality at any one spot lasts a few minutes at most. It works only through a coincidence: the Sun is about 400 times wider than the Moon and about 400 times further away, so the two appear almost exactly the same size in our sky."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the shadows of leaves make round spots of light on the ground?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each gap acts as a tiny opening",
+            "feedback": "It projects an image of the Sun, which is round."
+          },
+          {
+            "label": "The leaves have round holes",
+            "feedback": "The gaps are ragged, and the spots stay round."
+          },
+          {
+            "label": "Light spreads into circles naturally",
+            "feedback": "Light travels straight and spreads into no shape."
+          },
+          {
+            "label": "The ground rounds off the edges",
+            "feedback": "The same spots appear on a flat sheet of paper."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly.",
+        "ok_line": "Those are not gaps you are seeing. They are images of the Sun.",
+        "ko_title": "Not it.",
+        "ko_line": "The gaps between leaves are all sorts of shapes. Why is every spot the same?",
+        "exp_title": "A thousand images of the Sun",
+        "exp_text": "Each small gap in the canopy works like a pinhole, projecting an image of whatever shines through it. Since the source is the round Sun, every spot is round no matter the shape of the gap. The proof arrives during a partial eclipse: the spots all turn into crescents at once, and the ground beneath a tree fills with hundreds of little images of the bitten Sun."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a shadow on Earth never completely black?",
+        "body": null,
+        "options": [
+          {
+            "label": "Light arrives from the sky and around",
+            "feedback": "Scattered and reflected light fills the shade."
+          },
+          {
+            "label": "The ground gives off its own light",
+            "feedback": "It emits infrared, which the eye cannot see."
+          },
+          {
+            "label": "Shadows always leak a little light",
+            "feedback": "A shadow is empty. Nothing leaks through it."
+          },
+          {
+            "label": "The eye invents detail in the dark",
+            "feedback": "A camera records the same detail in shade."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The whole sky is a lamp, and it shines into every shadow.",
+        "ko_title": "Not it.",
+        "ko_line": "Stand in a shadow and look up. What is above you?",
+        "exp_title": "The sky lights the shade",
+        "exp_text": "Air scatters sunlight in all directions, so the whole sky acts as a soft blue lamp filling every shadow, helped by light bouncing off walls and ground. That is why you can read in the shade of a building, and why shadows on a clear day look faintly blue — sky light is what fills them. On the Moon there is no air, so shadows are pitch black and an object can be brilliantly lit on one side and invisible on the other."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What must be true for an object to cast no shadow at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "Light passes through it unhindered",
+            "feedback": "Clear glass and clean air block almost nothing."
+          },
+          {
+            "label": "It is perfectly smooth",
+            "feedback": "A polished ball still blocks light completely."
+          },
+          {
+            "label": "It is white in colour",
+            "feedback": "White reflects light. It still stops it."
+          },
+          {
+            "label": "It is very small",
+            "feedback": "Small objects cast small shadows, not none."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "No blocking, no shadow. Colour and size are beside the point.",
+        "ko_title": "Not that.",
+        "ko_line": "A shadow exists because something is stopped. What would stop nothing?",
+        "exp_title": "Only transparency escapes",
+        "exp_text": "Anything that absorbs or reflects light leaves a shadow, whatever its colour — a white sheet casts as clear a shadow as a black one. Only genuinely transparent material comes close to casting none, and even clear glass leaves a faint outline where its surfaces bend light aside. Some sea creatures have taken this to its conclusion: certain jellyfish and larval fish are nearly invisible in open water, which is their only defence."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lunar eclipse turn the Moon red rather than black?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's air bends red light onto it",
+            "feedback": "The only sunlight reaching it has crossed our atmosphere."
+          },
+          {
+            "label": "The Moon glows when unlit",
+            "feedback": "The Moon produces no light of its own."
+          },
+          {
+            "label": "Mars reflects light onto it",
+            "feedback": "Mars is far too distant and too faint."
+          },
+          {
+            "label": "Its dust turns red in shadow",
+            "feedback": "Lunar dust is grey and stays grey."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The red is every sunrise and sunset on Earth, projected at once.",
+        "ko_title": "Not it.",
+        "ko_line": "The Moon is inside Earth's shadow. So where could any light be coming from?",
+        "exp_title": "Every sunset on Earth, at once",
+        "exp_text": "Deep in Earth's shadow, the Moon should be dark. It is not, because our atmosphere bends a little sunlight around the edge of the planet — and that light has crossed a great thickness of air, which strips out the blue and leaves red, exactly as at sunset. The Moon is lit by the combined glow of every sunrise and sunset happening on Earth at that moment, which is why it is called a blood moon."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a shadow be used to tell the time?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its direction turns as the Sun moves",
+            "feedback": "The angle maps onto the hour of the day."
+          },
+          {
+            "label": "It grows steadily longer all day",
+            "feedback": "It shortens until noon and lengthens after."
+          },
+          {
+            "label": "It darkens as the day goes on",
+            "feedback": "The depth of shade barely changes."
+          },
+          {
+            "label": "It changes colour towards evening",
+            "feedback": "Shadows keep their colour throughout."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The direction is the reading. Length only gives the season.",
+        "ko_title": "Not quite.",
+        "ko_line": "Watch a shadow all morning. Does it only get longer?",
+        "exp_title": "The oldest clock there is",
+        "exp_text": "As the Earth turns, the Sun crosses the sky and a fixed rod's shadow sweeps steadily around, so its direction gives the hour. Length varies with the season and would make a poor clock, which is why sundials read the angle instead. The rod is tilted to match the latitude so the shadow moves at a constant rate through the year. Egyptian shadow clocks date back some 3,500 years."
+      }
+    ]
+  }
+]

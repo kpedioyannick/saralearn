@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 81,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How fast does light travel through empty space?",
+        "body": null,
+        "options": [
+          {
+            "label": "About 300,000 km every second",
+            "feedback": "Seven and a half times around the Earth in that second."
+          },
+          {
+            "label": "About 300,000 km every minute",
+            "feedback": "Sunlight would then take eight hours to reach us."
+          },
+          {
+            "label": "About 300,000 km every hour",
+            "feedback": "Slower than many spacecraft already travel."
+          },
+          {
+            "label": "About 300,000 km every day",
+            "feedback": "The Moon would be more than a day away."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Seven and a half laps of the Earth while you say the word.",
+        "ko_title": "Not that.",
+        "ko_line": "The number is right. The unit of time is not.",
+        "exp_title": "Seven laps of the planet each second",
+        "exp_text": "Light crosses a vacuum at 299,792,458 metres per second. Nothing carrying information goes faster, and nothing with mass reaches it at all. The figure is exact rather than measured, because the metre is now defined as the distance light covers in a fixed fraction of a second — the speed became the ruler, and measuring it more precisely simply sharpens the metre."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How long does sunlight take to reach the Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "About eight minutes",
+            "feedback": "150 million km at 300,000 km a second."
+          },
+          {
+            "label": "About eight seconds",
+            "feedback": "That is roughly the distance to the Moon and back."
+          },
+          {
+            "label": "About eight hours",
+            "feedback": "That would put the Sun out beyond Saturn."
+          },
+          {
+            "label": "It arrives instantly",
+            "feedback": "Nothing crosses that distance in no time at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "You always see the Sun as it was eight minutes ago.",
+        "ko_title": "No.",
+        "ko_line": "Divide 150 million kilometres by 300,000 a second and see what you get.",
+        "exp_title": "The Sun is always eight minutes out of date",
+        "exp_text": "At 150 million kilometres, sunlight needs 8 minutes and 20 seconds to arrive. Were the Sun to vanish, we would carry on in full daylight for eight minutes before anything changed — and the Earth would keep to its orbit for exactly as long, since gravity travels at the same speed. Everything you see in the sky is old news: the Moon by 1.3 seconds, Jupiter by about 40 minutes."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a light-year?",
+        "body": null,
+        "options": [
+          {
+            "label": "A distance",
+            "feedback": "How far light gets in a year, not how long anything takes."
+          },
+          {
+            "label": "A length of time",
+            "feedback": "The word year misleads. It measures space."
+          },
+          {
+            "label": "A measure of brightness",
+            "feedback": "Brightness has quite separate units."
+          },
+          {
+            "label": "The age of a star",
+            "feedback": "Stars are aged in ordinary years."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "It sounds like time and means distance.",
+        "ko_title": "Not it.",
+        "ko_line": "The word is a trap. Ask what light does over a year.",
+        "exp_title": "A distance wearing the name of a duration",
+        "exp_text": "A light-year is how far light travels in one year: about 9.46 trillion kilometres. It exists because kilometres become useless at these scales — the nearest star beyond the Sun is 40 trillion km away, or a manageable 4.2 light-years. The unit carries a bonus: an object 4.2 light-years off is also being seen as it was 4.2 years ago, so distance and delay are the same number."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which star is nearest to the Sun?",
+        "body": null,
+        "options": [
+          {
+            "label": "Proxima Centauri",
+            "feedback": "4.2 light-years away, and far too faint to see."
+          },
+          {
+            "label": "Sirius",
+            "feedback": "The brightest star in our sky, but 8.6 light-years off."
+          },
+          {
+            "label": "Polaris",
+            "feedback": "The pole star sits some 400 light-years away."
+          },
+          {
+            "label": "Betelgeuse",
+            "feedback": "A red giant, and hundreds of light-years distant."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The closest star to us, and invisible without a telescope.",
+        "ko_title": "Not that one.",
+        "ko_line": "The nearest star is not the brightest one. It is a faint red dwarf.",
+        "exp_title": "Four years away at the speed of light",
+        "exp_text": "Proxima Centauri lies 4.24 light-years off — around 40 trillion kilometres. It is a red dwarf so dim that no eye can find it, despite being our nearest neighbour. The fastest spacecraft ever launched would need over six thousand years to arrive. Light does it in a little over four, which is a fair measure of how empty the space between stars is."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to light's speed when it passes through glass?",
+        "body": null,
+        "options": [
+          {
+            "label": "It slows to about two thirds",
+            "feedback": "Then it resumes full speed on leaving."
+          },
+          {
+            "label": "It stays exactly the same",
+            "feedback": "Then nothing would bend, and lenses would not work."
+          },
+          {
+            "label": "It speeds up slightly",
+            "feedback": "Nothing makes light go faster than in a vacuum."
+          },
+          {
+            "label": "It stops and starts again",
+            "feedback": "It travels through continuously."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Slower inside, full speed the moment it leaves.",
+        "ko_title": "Not so.",
+        "ko_line": "If the speed never changed, a lens could not bend anything.",
+        "exp_title": "Slower in matter, and only in matter",
+        "exp_text": "Light moves at roughly two thirds of its vacuum speed through glass and three quarters through water. The slowdown comes from constant interaction with the atoms on the way, and it stops the instant the light emerges — it does not stay slowed. Every lens, every pair of spectacles and every rainbow depends on this, because light that slows at an angle also turns."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can nothing with mass reach the speed of light?",
+        "body": null,
+        "options": [
+          {
+            "label": "The energy needed grows without limit",
+            "feedback": "It rises towards infinity as the speed is approached."
+          },
+          {
+            "label": "Space itself blocks the way",
+            "feedback": "Empty space offers no resistance at all."
+          },
+          {
+            "label": "The object would become too hot",
+            "feedback": "Heat is not what stops it."
+          },
+          {
+            "label": "Nothing can push that hard",
+            "feedback": "No push would be enough, however strong."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly.",
+        "ok_line": "Not a barrier you hit, but a bill you cannot pay.",
+        "ko_title": "Not it.",
+        "ko_line": "It is not an obstacle. It is a cost that runs away from you.",
+        "exp_title": "A price that runs to infinity",
+        "exp_text": "The faster an object moves, the more energy each further increase demands, and the demand climbs towards infinity as the speed of light is approached. Particle accelerators push protons to 99.9999% of it and can never close the gap, whatever energy they add. Photons manage the speed because they have no mass at all — and having none, they have no choice: they travel at exactly that speed or not at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How long does moonlight take to reach the Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "Just over a second",
+            "feedback": "384,000 km, covered almost instantly."
+          },
+          {
+            "label": "Just over a minute",
+            "feedback": "That would place the Moon far beyond its orbit."
+          },
+          {
+            "label": "Just over an hour",
+            "feedback": "An hour of light reaches past Jupiter."
+          },
+          {
+            "label": "Less than a thousandth of a second",
+            "feedback": "Light covers only 300 km in that time."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The Moon you see is 1.3 seconds old.",
+        "ko_title": "Not quite.",
+        "ko_line": "The Moon is 384,000 km away. Light covers 300,000 in a second.",
+        "exp_title": "The nearest thing in the sky, and still delayed",
+        "exp_text": "Moonlight takes about 1.3 seconds to arrive. The delay was heard by everyone during the Apollo missions: a question from Earth reached the Moon and the answer came back, and the gap in every exchange was that journey made twice. The same delay is used to measure the distance — mirrors left on the surface return laser pulses, timed to the centimetre."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does thunder arrive after the lightning that caused it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sound is far slower than light",
+            "feedback": "About 340 m/s against 300,000 km/s."
+          },
+          {
+            "label": "The thunder is made a moment later",
+            "feedback": "Both begin at the same instant."
+          },
+          {
+            "label": "Sound bends around the clouds",
+            "feedback": "Some bending occurs, but that is not the delay."
+          },
+          {
+            "label": "The flash comes from higher up",
+            "feedback": "They come from the same stroke."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Same event, two messengers, wildly different speeds.",
+        "ko_title": "Not that.",
+        "ko_line": "The flash and the bang begin together. Only the journey differs.",
+        "exp_title": "One event, two speeds",
+        "exp_text": "A lightning stroke heats the air so violently that it explodes outward, making both the flash and the bang at the same moment. The light arrives effectively at once; the sound crawls at about 340 metres a second. Count the seconds between them and divide by three for the distance in kilometres. Beyond roughly 15 km the sound scatters and bends upward, and the storm goes silent — heat lightning is simply thunder too far off to hear."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "When you look at a distant galaxy, what are you seeing?",
+        "body": null,
+        "options": [
+          {
+            "label": "How it looked long ago",
+            "feedback": "The light left before there were people to look."
+          },
+          {
+            "label": "How it looks at this moment",
+            "feedback": "That light has not reached us and may never."
+          },
+          {
+            "label": "A reflection of our own galaxy",
+            "feedback": "Each galaxy shines with its own light."
+          },
+          {
+            "label": "Something that no longer exists",
+            "feedback": "Most are still there. The view is simply old."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Every telescope is pointed into the past.",
+        "ko_title": "Not it.",
+        "ko_line": "The light took millions of years to arrive. What does that make the picture?",
+        "exp_title": "A telescope looks backwards in time",
+        "exp_text": "Light takes time, so distance is delay. The Andromeda galaxy is 2.5 million light-years off, and its light left before our species existed. The furthest galaxies observed are seen as they were within the first few hundred million years of the universe. Astronomers exploit this deliberately: to study what the early universe looked like, they look further away, because there is no other way to see the past."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How was the speed of light first shown to be finite?",
+        "body": null,
+        "options": [
+          {
+            "label": "By timing a moon of Jupiter",
+            "feedback": "Its eclipses ran late when Jupiter was further off."
+          },
+          {
+            "label": "By racing two lanterns on hills",
+            "feedback": "Galileo tried exactly that, and light was far too fast."
+          },
+          {
+            "label": "By measuring sunlight at noon",
+            "feedback": "There is nothing in noon to time against."
+          },
+          {
+            "label": "By weighing a beam of light",
+            "feedback": "Light has no weight to measure."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The first measurement came from a moon 600 million km away.",
+        "ko_title": "Not that.",
+        "ko_line": "The answer needed a clock far larger than anything on Earth.",
+        "exp_title": "A moon that ran late",
+        "exp_text": "In 1676 Ole Rømer noticed that eclipses of Jupiter's moon Io fell behind schedule when Earth was on the far side of its orbit, and ran early when it was near — by up to about 17 minutes over the year. He saw that the difference was the extra time light needed to cross the width of Earth's orbit. It gave the first real figure, low by a quarter only because the size of the orbit was not yet well known."
+      }
+    ]
+  }
+]

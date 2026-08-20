@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 251,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What part of the brain is most directly involved in processing and responding to emotions like fear and anger?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum mainly coordinates movement and balance, not emotions. The structure you are thinking of is the amygdala, which sits deep in the brain and handles emotional responses."
+          },
+          {
+            "label": "The amygdala",
+            "feedback": "Correct. The amygdala is a small, almond-shaped cluster deep in the brain that processes emotions, especially fear and anger, and helps trigger the body's alarm response."
+          },
+          {
+            "label": "The brainstem",
+            "feedback": "The brainstem controls basic life functions like breathing and heart rate. It relays signals but does not itself generate or process emotions the way the amygdala does."
+          },
+          {
+            "label": "The occipital lobe",
+            "feedback": "The occipital lobe is the visual processing area at the back of the brain. Emotions are handled more by the amygdala and other limbic structures, not by vision areas."
+          }
+        ],
+        "ok_title": "Amygdala in emotions",
+        "ok_line": "The amygdala is the brain's emotional alarm center.",
+        "ko_title": "Emotion brain region",
+        "ko_line": "Not that area—emotion processing lives in the amygdala.",
+        "exp_title": "The amygdala's role",
+        "exp_text": "The amygdala is a small structure deep in the temporal lobe that processes emotions, especially fear and anger. It evaluates threats quickly and can trigger a fight-or-flight response before you even consciously think about it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain acts like a control center to dampen or override an emotional reaction once the danger is over?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The hippocampus",
+            "feedback": "The hippocampus is mainly involved in forming new memories, not in calming emotions. The prefrontal cortex is the region that helps regulate and control emotional responses."
+          },
+          {
+            "label": "The thalamus",
+            "feedback": "The thalamus relays sensory information to the cortex but does not specifically tamp down emotions. That job belongs to the prefrontal cortex, which sits at the front of the brain."
+          },
+          {
+            "label": "The prefrontal cortex",
+            "feedback": "Correct. The prefrontal cortex, behind the forehead, is the brain's 'brake' for emotions. It can assess a situation rationally and send signals to reduce the alarm raised by the amygdala."
+          },
+          {
+            "label": "The medulla oblongata",
+            "feedback": "The medulla oblongata controls automatic life functions like breathing and heart rate, not emotional regulation. The prefrontal cortex is the region that manages emotional control."
+          }
+        ],
+        "ok_title": "Prefrontal cortex brake",
+        "ok_line": "The prefrontal cortex calms the amygdala.",
+        "ko_title": "Emotion control center",
+        "ko_line": "That part doesn't calm emotions—the prefrontal cortex does.",
+        "exp_title": "Emotional regulation",
+        "exp_text": "The prefrontal cortex, at the very front of the brain, helps you think before acting on emotions. It can evaluate whether a threat is real and send signals to tone down the amygdala's alarm, letting you feel calm again."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens in the body when the amygdala triggers an alarm response because it detects a possible threat?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The heart beats faster, breathing quickens, and stress hormones are released",
+            "feedback": "Correct. The amygdala activates the sympathetic nervous system, which speeds up the heart, quickens breathing, and floods the blood with hormones like adrenaline to prepare for action."
+          },
+          {
+            "label": "The body slows down, digestion increases, and muscles relax",
+            "feedback": "That describes the 'rest and digest' state, not the alarm response. The alarm response speeds things up to prepare for fight or flight, not slow them down."
+          },
+          {
+            "label": "The brain enters deep sleep and reduces sensitivity to the outside world",
+            "feedback": "Sleep is a state of rest, not an alarm reaction. An alarm response wakes you up and makes you more alert, not less."
+          },
+          {
+            "label": "Body temperature drops sharply and blood flow to the skin increases",
+            "feedback": "That is more like cooling down after exercise, not an alarm. The alarm response raises heart rate and sends blood to muscles, not to the skin."
+          }
+        ],
+        "ok_title": "Fight-or-flight response",
+        "ok_line": "The body gears up for action.",
+        "ko_title": "Alarm body changes",
+        "ko_line": "Not that—the alarm speeds the body up.",
+        "exp_title": "The fear response",
+        "exp_text": "When the amygdala senses danger, it triggers the sympathetic nervous system. This makes the heart pump faster, breathing quicken, and stress hormones like adrenaline surge through the blood, all to get your body ready to fight or flee."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a person feel fear in their body—like a racing heart—before they even know what they are afraid of?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the brain always waits for conscious thought before acting",
+            "feedback": "That is the opposite of what happens. The amygdala can trigger the body's alarm before the conscious brain has fully processed the situation, which is why the body reacts first."
+          },
+          {
+            "label": "Because emotion is felt in the heart, not in the brain",
+            "feedback": "The heart beats faster, but the feeling of fear originates in the brain, specifically in the amygdala. The heart is just following the brain's signals."
+          },
+          {
+            "label": "Because the body is responding to a memory of a past fear, not the current moment",
+            "feedback": "It could be a memory, but the key point is that the amygdala acts quickly without waiting for conscious awareness. Even with a current threat, the body reacts before the mind catches up."
+          },
+          {
+            "label": "Because the amygdala can trigger a body response faster than the conscious brain can interpret the situation",
+            "feedback": "Correct. The amygdala has a fast pathway that bypasses the thinking part of the brain, so it can start the heart racing before you have consciously identified what is wrong."
+          }
+        ],
+        "ok_title": "Fast fear pathway",
+        "ok_line": "The amygdala reacts before you think.",
+        "ko_title": "Body fear timing",
+        "ko_line": "The body reacts before conscious thought.",
+        "exp_title": "Subconscious alarm",
+        "exp_text": "The amygdala has a quick route for sensory information that skips the slow conscious processing in the cortex. This allows it to set off the body's alarm—racing heart, sweaty palms—before you have fully realized what is happening."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a reflex action like pulling your hand off a hot stove and an emotional reaction like feeling afraid of a snake?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Reflexes happen in the brain, emotions happen in the spinal cord",
+            "feedback": "It is the opposite: reflexes are processed in the spinal cord, while emotions are processed in the brain, specifically in the amygdala and related structures."
+          },
+          {
+            "label": "Reflexes are learned, emotions are instinctive",
+            "feedback": "Reflexes are inborn and automatic, not learned. Emotions have both instinctive and learned components, but the key difference is where they are processed, not how they are acquired."
+          },
+          {
+            "label": "Reflexes do not involve conscious thought, but emotions can involve more brain processing",
+            "feedback": "Correct. A reflex is a simple, hardwired spinal cord response. An emotion, even if quick, involves the brain's limbic system and can be influenced by memories and thoughts."
+          },
+          {
+            "label": "Reflexes are voluntary, emotions are involuntary",
+            "feedback": "Reflexes are involuntary, not voluntary. Emotions are also largely involuntary, but they involve the brain, not the spinal cord. That is the key distinction."
+          }
+        ],
+        "ok_title": "Reflex vs emotion",
+        "ok_line": "Reflexes use the spinal cord, emotions use the brain.",
+        "ko_title": "Two response types",
+        "ko_line": "Not that—reflexes are spinal, emotions are brain-based.",
+        "exp_title": "Reflex and emotion",
+        "exp_text": "A reflex is a quick, automatic muscle response that happens in the spinal cord without reaching the brain. An emotion involves the brain's limbic system, which processes the meaning of a situation and can trigger both body reactions and feelings."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which brain structure is crucial for attaching emotional significance to a memory, so that a moment feels important or scary?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum handles movement coordination, not emotional memory. The amygdala is the one that tags memories with emotional weight, like making a scary event feel dangerous."
+          },
+          {
+            "label": "The amygdala",
+            "feedback": "Correct. The amygdala works with the hippocampus to stamp emotional importance onto memories. This is why you remember the day a dog bit you far more than a random Tuesday."
+          },
+          {
+            "label": "The corpus callosum",
+            "feedback": "The corpus callosum connects the two brain halves but does not assign emotional meaning. That job belongs to the amygdala."
+          },
+          {
+            "label": "The brainstem",
+            "feedback": "The brainstem keeps basic life functions running but does not give memories emotional significance. The amygdala is the structure that adds the 'feeling' to a memory."
+          }
+        ],
+        "ok_title": "Emotional memory tag",
+        "ok_line": "The amygdala makes memories feel significant.",
+        "ko_title": "Emotion in memory",
+        "ko_line": "Not that area—the amygdala adds emotion to memories.",
+        "exp_title": "Amygdala and memory",
+        "exp_text": "When an event happens, the amygdala evaluates its emotional value and works with the hippocampus to strengthen the memory. Emotions act like a highlighter, making emotionally charged events easier to recall later."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the same loud noise not always trigger the same level of fear, depending on whether you are alone at night or in a bright daytime park?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the brainstem changes how the ears process sound in different environments",
+            "feedback": "The ears process sound the same way; the difference is in how the brain interprets the context. The amygdala's response depends on what the situation suggests about danger, not on the ear itself."
+          },
+          {
+            "label": "Because the cerebellum adjusts hearing according to the time of day",
+            "feedback": "The cerebellum is for movement, not hearing or fear. The context—like being alone at night—signals more potential danger, so the amygdala responds more strongly."
+          },
+          {
+            "label": "Because the limbic system only works at night",
+            "feedback": "The limbic system is always active, not just at night. The difference is that your brain judges the situation as more threatening in a dark, quiet place, so the amygdala reacts more intensely."
+          },
+          {
+            "label": "Because the brain uses context to decide how threatening a sound is, and the amygdala responds accordingly",
+            "feedback": "Correct. The prefrontal cortex and other areas assess the situation—alone, dark, unfamiliar—and pass that information to the amygdala, which then adjusts the strength of the fear response."
+          }
+        ],
+        "ok_title": "Context shapes fear",
+        "ok_line": "The brain judges danger by surroundings.",
+        "ko_title": "Noise fear variability",
+        "ko_line": "The situation, not the sound, changes fear.",
+        "exp_title": "Context and fear",
+        "exp_text": "The brain uses past experience and current surroundings to evaluate threats. A loud bang in a safe, bright park is less alarming than the same sound alone at night, because the context signals different levels of danger, and the amygdala responds based on that estimate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the brain rely on to tell the difference between a genuine smile and a polite fake smile?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The movement of muscles around the eyes, which are hard to control voluntarily",
+            "feedback": "Correct. A real smile involves the orbicularis oculi, the muscles around the eyes, which contract during genuine joy but are difficult to flex on command. The brain picks up on this subtle cue."
+          },
+          {
+            "label": "The color of the lips, which change with true emotion",
+            "feedback": "Lip color does not change with emotion. The brain reads facial muscle movements, especially around the eyes, to tell if a smile is real."
+          },
+          {
+            "label": "The speed of the smile's appearance, which is always faster in fake smiles",
+            "feedback": "Speed is not a reliable clue. The key difference is the eye muscles, which are involuntarily engaged in a genuine smile but not in a fake one."
+          },
+          {
+            "label": "The number of teeth showing, since real smiles show more teeth",
+            "feedback": "Teeth exposure varies from person to person and is not a reliable indicator. The eye muscles are the telltale sign of a true smile."
+          }
+        ],
+        "ok_title": "Reading smiles",
+        "ok_line": "The eyes reveal a real smile.",
+        "ko_title": "Smile authenticity",
+        "ko_line": "Not that—the eye muscles give it away.",
+        "exp_title": "Genuine vs fake smile",
+        "exp_text": "A genuine smile, called a Duchenne smile, involves the muscles around the eyes that are hard to control voluntarily. A polite smile uses only the mouth muscles. The brain has specialized areas that notice these subtle differences to read others' true feelings."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can feeling sad or stressed for a long time make it harder to think clearly or remember things?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because sadness permanently damages the neurons in the cerebrum",
+            "feedback": "Sadness does not permanently damage neurons. Prolonged stress can affect the hippocampus and prefrontal cortex, but that is reversible with rest and recovery, not permanent destruction."
+          },
+          {
+            "label": "Because high stress hormones over time can impair the hippocampus and prefrontal cortex, which are key for memory and clear thinking",
+            "feedback": "Correct. Chronic stress floods the brain with cortisol, which, over time, can shrink or disrupt the hippocampus (memory) and the prefrontal cortex (decision-making), making it harder to think and remember."
+          },
+          {
+            "label": "Because the brain stops producing new neurons altogether when you are sad",
+            "feedback": "The brain can still make new neurons, even during sadness. The issue is that stress hormones interfere with existing circuits, not that neuron production stops completely."
+          },
+          {
+            "label": "Because the amygdala shrinks and loses its ability to process emotion",
+            "feedback": "The amygdala usually becomes overactive under stress, not shriveled. It is the hippocampus and prefrontal cortex that suffer the most from prolonged stress hormones."
+          }
+        ],
+        "ok_title": "Stress harms thinking",
+        "ok_line": "Cortisol disrupts memory and focus.",
+        "ko_title": "Sadness and cognition",
+        "ko_line": "Stress hormones affect memory, not by destroying neurons.",
+        "exp_title": "Chronic stress effects",
+        "exp_text": "When you are under stress for a long time, the body keeps releasing cortisol. High cortisol levels can interfere with the hippocampus's ability to form new memories and with the prefrontal cortex's ability to concentrate, so your thinking becomes foggy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does 'emotional regulation' refer to in terms of how the brain works?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The process by which the brain entirely stops feeling emotions",
+            "feedback": "Emotional regulation does not mean stopping emotions. It means managing their intensity and duration so they do not overwhelm you, not eliminating them."
+          },
+          {
+            "label": "The process by which the amygdala gets bigger as you age",
+            "feedback": "The amygdala does not grow with emotional regulation. Regulation is about the prefrontal cortex controlling the amygdala's responses, not about physical size changes."
+          },
+          {
+            "label": "The ability of the prefrontal cortex to adjust the strength and duration of an emotional response",
+            "feedback": "Correct. Emotional regulation is the prefrontal cortex's job of monitoring and tweaking emotional reactions, so you can calm down after anger or keep fear from spiraling."
+          },
+          {
+            "label": "The ability of the hippocampus to store emotional memories permanently",
+            "feedback": "Storing memories is different from regulating emotions. Regulation is about controlling the emotion in the moment, not about long-term memory storage."
+          }
+        ],
+        "ok_title": "Emotional regulation",
+        "ok_line": "The prefrontal cortex tunes emotions.",
+        "ko_title": "Managing feelings",
+        "ko_line": "Not that—regulation is about control, not elimination.",
+        "exp_title": "What emotional regulation is",
+        "exp_text": "Emotional regulation is the brain's ability to manage how strong an emotion gets and how long it lasts. The prefrontal cortex, especially the areas behind the forehead, sends signals to the amygdala to lower or raise the alarm, helping you stay in control."
+      }
+    ]
+  }
+]

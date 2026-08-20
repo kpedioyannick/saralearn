@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 222,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a honeybee colony contain three distinct kinds of bees rather than just one?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because each kind's body is built for one job: laying eggs, doing all the colony's work, or mating",
+            "feedback": "The queen, the workers and the drones are shaped from the start for these separate roles."
+          },
+          {
+            "label": "Because the queen changes shape with the seasons",
+            "feedback": "A queen keeps the same body all her life. What changes with the season is how much she lays, not what she looks like."
+          },
+          {
+            "label": "Because worker bees grow into drones as they get older",
+            "feedback": "A bee's caste is fixed while she is still a larva, from the food she was fed, and never switches later."
+          },
+          {
+            "label": "Because the colony counts its members and assigns roles as needed",
+            "feedback": "No counting happens. Which caste a bee becomes is decided long before she can do any job at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Three bodies for three jobs",
+        "ok_line": "Shape follows the work each bee is built to do.",
+        "ko_title": "Not a costume change",
+        "ko_line": "A bee's caste is set once, early, and stays fixed for life.",
+        "exp_title": "One colony, three bodies",
+        "exp_text": "A queen has a body built to lay eggs continuously, with ovaries that never stop developing. Workers, all sterile females, carry the wax glands, food glands and pollen baskets that let them do every task the colony needs. Drones, the males, have no sting and no tools for work at all — their only equipped purpose is finding and mating with a queen from another colony."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a returning forager tell her nestmates where a good patch of flowers is?",
+        "body": null,
+        "options": [
+          {
+            "label": "She runs a figure-eight dance whose angle and length encode direction and distance",
+            "feedback": "Nestmates read that pattern and fly the same line she flew."
+          },
+          {
+            "label": "She leads a group of bees back outside to the flowers herself",
+            "feedback": "She never leaves again to guide anyone. The information travels through her dance, not through a guided trip."
+          },
+          {
+            "label": "She marks the nest entrance with a scent that points the way",
+            "feedback": "A scent mark cannot carry a direction or a distance. It can only say a bee has been there."
+          },
+          {
+            "label": "She stops other bees from leaving until she has fed them all",
+            "feedback": "She does share a taste of the nectar, but that tells nestmates what to look for, not where to fly."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A dance that is a map",
+        "ok_line": "Angle for direction, length for distance.",
+        "ko_title": "The message is in the moves",
+        "ko_line": "Nothing is drawn, spoken or scented — the direction is danced.",
+        "exp_title": "A dance that is also a map",
+        "exp_text": "Inside the dark nest, a forager runs a figure-eight and vibrates her body during the straight middle run. The angle of that straight run away from straight up marks the direction to fly relative to the sun, and how long she spends waggling marks how far to go. Nestmates crowd close, follow the pattern with their antennae, and set off flying that same line."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where does the wax that a comb is built from actually come from?",
+        "body": null,
+        "options": [
+          {
+            "label": "Worker bees secrete it as liquid from glands on the underside of their abdomen",
+            "feedback": "It hardens into flakes the moment it meets the air."
+          },
+          {
+            "label": "Bees collect it ready-made from tree resin",
+            "feedback": "Resin is gathered too, but bees turn it into a separate sealant, not into wax."
+          },
+          {
+            "label": "It is spun from silk the way a spider builds a web",
+            "feedback": "Wax is not spun or threaded. It is produced as a liquid that solidifies into thin plates."
+          },
+          {
+            "label": "It forms naturally where nectar dries against the nest wall",
+            "feedback": "Dried nectar leaves sugar residue, not wax. Wax comes from inside a bee's own body."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Built from the builder",
+        "ok_line": "The comb is made of a substance a bee's own body produced.",
+        "ko_title": "Not gathered, made",
+        "ko_line": "Wax is not collected from anywhere outside the bee.",
+        "exp_title": "Wax made by the body that uses it",
+        "exp_text": "Young worker bees have small glands on the underside of the abdomen that turn sugar from honey into liquid wax, which hardens into thin flakes on contact with air. A bee scrapes off a flake with her legs, softens it by chewing, and presses it into place beside flakes from other workers, so the comb is built from a substance the colony's own bodies produced."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the cells in a comb come out as hexagons rather than circles or squares?",
+        "body": null,
+        "options": [
+          {
+            "label": "Hexagons fit together with no gaps and enclose the most space for the least wax",
+            "feedback": "Every wall is shared between two cells, so nothing is built twice."
+          },
+          {
+            "label": "Bees deliberately carve six sides because the shape is easier to count",
+            "feedback": "Cells are not counted or measured by eye. The shape comes from how the walls meet, not from a plan for six sides."
+          },
+          {
+            "label": "Round cells collapse under the weight of stored honey",
+            "feedback": "A round cell is not weaker. The reason bees avoid it is wasted wax and wasted space, not collapse."
+          },
+          {
+            "label": "Hexagons let air pass through the comb more freely than other shapes",
+            "feedback": "Cells are meant to hold food and brood snugly, not to ventilate. Airflow has nothing to do with the shape chosen."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "No gaps, no waste",
+        "ok_line": "Every wall a cell has is shared with its neighbour.",
+        "ko_title": "Efficiency, not decoration",
+        "ko_line": "The hexagon wins because nothing about it is wasted, not because of how it looks.",
+        "exp_title": "The shape that wastes nothing",
+        "exp_text": "A circle or an oval touches its neighbours at single points, leaving gaps that are wasted wax and wasted space. A hexagon is the shape with the most sides that still fits edge to edge against its neighbours with no gap between them, so every wall does double duty. Worker bees build each wall the same length and meet them at matching angles, and cells built that way settle into hexagons."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't the honey stored in a comb spoil the way the nectar it came from would?",
+        "body": null,
+        "options": [
+          {
+            "label": "Bees add an enzyme to the nectar and fan it dry, leaving too little water for microbes to grow",
+            "feedback": "Bacteria and mould need water, and ripened honey barely has any left."
+          },
+          {
+            "label": "Bees seal the honey in a coating of wax that keeps out all air",
+            "feedback": "Capping does come later, once honey is ripe, but it is not what stops spoiling — the low water content is."
+          },
+          {
+            "label": "Guard bees sting the honey to sterilise it",
+            "feedback": "A sting delivers venom to an attacker. It has no role in preparing food."
+          },
+          {
+            "label": "The nest stays cold enough that nothing can grow inside it",
+            "feedback": "A nest is kept warm, not cold, especially around the brood. Cold is not what protects the honey."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Too dry to spoil",
+        "ok_line": "Water is what mould and bacteria need, and ripened honey has almost none.",
+        "ko_title": "It's the water, not the wall",
+        "ko_line": "Whatever keeps honey from spoiling has to be true before any cell is ever capped.",
+        "exp_title": "Too dry for anything to grow",
+        "exp_text": "A bee swallows nectar and an enzyme in her stomach starts breaking its sugars into simpler forms nectar alone could not keep. Back at the nest, bees spread it thinly across open cells and fan their wings over it, driving off water until only a small fraction of the liquid remains. Mould and bacteria cannot grow without water, and honey ripened this dry has too little left for them to survive in."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a foraging bee end up carrying pollen from one flower to the next?",
+        "body": null,
+        "options": [
+          {
+            "label": "Pollen sticks to her hairy body by static charge, and she combs and packs it onto her hind legs",
+            "feedback": "Some grains are missed in the combing and stay caught in her fur."
+          },
+          {
+            "label": "She gathers pollen in her mouth to carry it like food for later",
+            "feedback": "Nectar is what she carries in her crop. Pollen is picked up on her body, not swallowed."
+          },
+          {
+            "label": "Flowers glue pollen directly onto a bee's wings as she lands",
+            "feedback": "Pollen lands on the whole furred body during a visit, not glued to the wings alone."
+          },
+          {
+            "label": "Pollen only reaches other flowers by blowing off a bee's body in the wind",
+            "feedback": "Wind plays no part here. The grains transfer when her body brushes directly against the next flower."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Caught without trying",
+        "ok_line": "The pollen that pollinates is the pollen she never manages to pack away.",
+        "ko_title": "On the body, not in it",
+        "ko_line": "Pollen rides on the outside of a bee, caught in her hair, not carried inside her.",
+        "exp_title": "A dusting she never meant to spread",
+        "exp_text": "A bee's body is covered in branched hairs, and flying builds up a static charge that pulls loose pollen grains onto that fur the moment she lands. She combs most of it off with her legs and packs it into baskets on her hind legs to carry home as food, but some grains stay caught in the fur she cannot reach. When she brushes against the next flower she visits, those leftover grains rub off onto it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a single queen keep thousands of workers acting as one colony instead of each going her own way?",
+        "body": null,
+        "options": [
+          {
+            "label": "She spreads chemical signals that workers pass mouth to mouth through the whole colony",
+            "feedback": "Grooming and feeding carry a trace of her scent outward to every worker within hours."
+          },
+          {
+            "label": "She patrols the nest constantly, signalling directly to each worker in turn",
+            "feedback": "A queen rarely moves far from the centre of the nest. She cannot reach every worker herself."
+          },
+          {
+            "label": "She stings any worker that stops working",
+            "feedback": "A queen's sting is used only against rival queens. Workers are never disciplined this way."
+          },
+          {
+            "label": "Workers simply copy whatever the bee nearest them is doing",
+            "feedback": "Copying a neighbour would spread confusion, not order. What spreads instead is a shared chemical signal."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "One scent, everywhere",
+        "ok_line": "The queen never has to reach a worker herself; the scent does it for her.",
+        "ko_title": "Not by patrol or force",
+        "ko_line": "A queen barely moves through the nest. Whatever holds the colony together has to travel on its own.",
+        "exp_title": "One scent, passed from mouth to mouth",
+        "exp_text": "The queen constantly produces a blend of chemical signals on her body, and workers surrounding her pick them up while grooming and feeding her. Those workers then pass food mouth to mouth to other workers, carrying a trace of her scent outward through the whole colony within hours. As long as that scent keeps arriving, workers' bodies stay set to feed larvae and store food rather than raise a rival queen."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to a colony when its nest becomes too crowded to hold everyone?",
+        "body": null,
+        "options": [
+          {
+            "label": "The old queen leaves with roughly half the workers to found a new nest, while the rest raise a new queen",
+            "feedback": "The colony splits itself in two rather than staying crammed into one nest."
+          },
+          {
+            "label": "Workers stop the queen from laying any more eggs until space opens up",
+            "feedback": "Egg-laying does not pause for crowding. The colony solves the problem by leaving, not by stopping."
+          },
+          {
+            "label": "The colony keeps building the same comb larger without limit",
+            "feedback": "A cavity has a fixed size, and comb cannot grow past its walls forever."
+          },
+          {
+            "label": "The weakest workers are forced out of the nest to make room",
+            "feedback": "No worker is expelled for being weak. The bees that leave go with the old queen, by choice, to start over."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "One colony becomes two",
+        "ok_line": "Splitting solves the crowding that building bigger cannot.",
+        "ko_title": "Leaving, not shrinking",
+        "ko_line": "The crowded colony does not stop growing or push anyone out — it divides itself.",
+        "exp_title": "A colony that splits itself in two",
+        "exp_text": "When a nest grows too full, workers begin raising several new queens in larger, hanging cells. Before any of those new queens hatches, the old queen leaves with a large cloud of workers, clustering nearby while scouts search for a hollow to call home. The workers left behind wait for the first new queen to emerge, and she takes over the original nest."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a worker bee find her way back to a nest she cannot yet see?",
+        "body": null,
+        "options": [
+          {
+            "label": "She reads the angle of the sun and the pattern of polarised light in the sky as a compass",
+            "feedback": "She uses that compass to track her own outbound path and reverse it on the way home."
+          },
+          {
+            "label": "She retraces the exact scent trail she left on the way out",
+            "feedback": "No scent trail is laid along a flight path. Bees fly, they do not follow a mark left on the ground."
+          },
+          {
+            "label": "She follows the direction the wind was blowing when she left",
+            "feedback": "Wind shifts constantly and cannot be relied on. Her compass is the sky, not moving air."
+          },
+          {
+            "label": "She counts the number of wingbeats it took to reach the flowers",
+            "feedback": "Wingbeats are far too fast and irregular to count. Distance is judged by the flow of scenery passing beneath her, not a tally."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A compass in the sky",
+        "ok_line": "Even a hidden sun leaves its light pattern behind for her to read.",
+        "ko_title": "Nothing left on the ground",
+        "ko_line": "A bee in flight has no trail or wind to rely on — only what she can see above her.",
+        "exp_title": "A sum she runs in reverse",
+        "exp_text": "A bee's eyes can detect the pattern of polarised light spread across the sky around the sun, even when clouds hide the sun itself, and she uses that pattern as a fixed compass. As she flies out, she keeps track of each turn and distance against that compass, adding up her own outbound path as she goes. To fly home she runs that same sum in reverse, then finishes the last stretch by recognising landmarks near the entrance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a honeybee colony survive through winter without any flowers to forage from?",
+        "body": null,
+        "options": [
+          {
+            "label": "Workers cluster tightly around the queen and shiver their flight muscles to make heat, feeding on stored honey",
+            "feedback": "The cluster slowly works through its honey stores to fuel that shivering until spring."
+          },
+          {
+            "label": "The whole colony falls into a deep sleep and uses almost no energy",
+            "feedback": "Bees inside the cluster stay active, moving and shivering. Nothing about winter is a sleep for them."
+          },
+          {
+            "label": "Most workers die off and only the queen survives underground alone",
+            "feedback": "A queen cannot warm herself or feed alone. A large cluster of workers survives together, around her."
+          },
+          {
+            "label": "The colony leaves the nest and travels to a warmer place for winter",
+            "feedback": "A colony does not migrate. It stays in the same nest and generates its own warmth from within."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A ball that heats itself",
+        "ok_line": "Warmth is made, not found, by shivering muscles and shared stores.",
+        "ko_title": "Neither asleep nor gone",
+        "ko_line": "The colony stays put and stays active — the muscles keep working through the cold.",
+        "exp_title": "A ball of bees that heats itself",
+        "exp_text": "When temperatures drop, workers pack themselves into a tight cluster around the queen, with bees on the outside forming an insulating shell and bees inside able to move toward the centre to warm up. Rather than resting, many of them contract their flight muscles without moving their wings, a kind of shivering that gives off heat. The whole cluster works steadily through the honey stored during warmer months to fuel that shivering until spring returns."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is needed for a shadow to be cast at all?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only a source of light",
+            "feedback": "A light source alone cannot make a shadow; something must block the light before it reaches a surface."
+          },
+          {
+            "label": "Only an object and a surface",
+            "feedback": "Without a light source, no shadow forms, because there is no light to be blocked in the first place."
+          },
+          {
+            "label": "A light source, an object, and a surface",
+            "feedback": "Correct. The light must shine on the object, and the object must block that light from reaching the surface behind it."
+          },
+          {
+            "label": "A light source and a surface, with no object between them",
+            "feedback": "If nothing blocks the light, the surface is fully lit and no shadow appears."
+          }
+        ],
+        "ok_title": "Shadow needs three",
+        "ok_line": "Without all three, no shadow appears.",
+        "ko_title": "Missing a piece",
+        "ko_line": "All three parts are required.",
+        "exp_title": "Shadow formation",
+        "exp_text": "A shadow forms when an object blocks light from a source, leaving a darker area on a surface behind the object. The three ingredients—light, object, and surface—must all be present, and the object must be between the light and the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape does a shadow have when a small ball is held in front of a small lamp?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A perfect circle exactly like the ball",
+            "feedback": "The shape is close to circular but never exactly like the ball because light spreads from a point; edges blur and size changes with distance."
+          },
+          {
+            "label": "A rectangle",
+            "feedback": "A rectangle would come from a flat barrier, not a round ball; the ball blocks light in a roughly round pattern."
+          },
+          {
+            "label": "A line with no width",
+            "feedback": "A shadow has width because the ball occupies space; it is not a one-dimensional line."
+          },
+          {
+            "label": "A dark circle with fuzzy edges",
+            "feedback": "Correct. A round object casts a roughly round shadow, but the edges are not sharp because light from a small lamp is not perfectly parallel."
+          }
+        ],
+        "ok_title": "Round shadow",
+        "ok_line": "Round object, round shadow.",
+        "ko_title": "Shape mismatch",
+        "ko_line": "Think of the object's shape.",
+        "exp_title": "Shadow shape",
+        "exp_text": "The shadow roughly copies the outline of the object that blocks the light, so a ball gives a circular shadow. The edges are soft because the lamp is not a single point; light comes from a small area, creating a penumbra."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to your shadow's direction when you turn around while the Sun is still in front of you?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It always points to your back",
+            "feedback": "The shadow points away from the Sun, so if the Sun is in front of you, it points behind you, but only if you keep the Sun in front; turning changes that relationship."
+          },
+          {
+            "label": "It always points away from the Sun",
+            "feedback": "Correct. The shadow is cast on the side opposite the Sun, so it always extends in the direction directly away from where the Sun is."
+          },
+          {
+            "label": "It always points toward the Sun",
+            "feedback": "That would put the shadow between you and the Sun, which cannot happen because the object blocks the light from behind it."
+          },
+          {
+            "label": "It points toward your left hand",
+            "feedback": "The direction depends on where the Sun is, not on your hand; turning changes your orientation but not the shadow's direction relative to the Sun."
+          }
+        ],
+        "ok_title": "Shadow direction",
+        "ok_line": "Opposite the Sun, always.",
+        "ko_title": "Wrong side",
+        "ko_line": "Shadow follows the light's path.",
+        "exp_title": "Shadow direction rule",
+        "exp_text": "A shadow always extends away from the light source, so with the Sun in front of you, your shadow falls behind you. If you turn, the shadow still points away from the Sun, not away from your body."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the dark central part of a shadow called when light comes from a large source like the Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The umbra",
+            "feedback": "Correct. The umbra is the region where the entire light source is blocked, so it is the darkest part of the shadow."
+          },
+          {
+            "label": "The penumbra",
+            "feedback": "The penumbra is the partially shaded outer region where only part of the light is blocked; it is not the central dark part."
+          },
+          {
+            "label": "The antumbra",
+            "feedback": "The antumbra is a region beyond the umbra where the object is smaller than the light source, but it is not the central dark core here."
+          },
+          {
+            "label": "The silhouette",
+            "feedback": "A silhouette is the outline of an object seen against light, not the name for a part of a shadow."
+          }
+        ],
+        "ok_title": "Dark core",
+        "ok_line": "Umbra is the heart of the shadow.",
+        "ko_title": "Shadow parts",
+        "ko_line": "Know umbra vs penumbra.",
+        "exp_title": "Shadow anatomy",
+        "exp_text": "When a light source is not a single point, the shadow splits into a central dark umbra where all light is blocked, and a surrounding penumbra where some light still gets through. The umbra is the darkest region."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a shadow become longer when the Sun is low in the sky?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Sun gives off less light",
+            "feedback": "The Sun's brightness does not change with its height; low Sun still shines fully, so it is not about light amount."
+          },
+          {
+            "label": "Because the object grows taller",
+            "feedback": "An object's height stays the same; only the angle of light changes, not the object itself."
+          },
+          {
+            "label": "Because light strikes the object at a shallow angle",
+            "feedback": "Correct. When the Sun is low, its rays hit the object almost horizontally, so the shadow stretches far across the ground."
+          },
+          {
+            "label": "Because the Earth spins faster in the evening",
+            "feedback": "The Earth's rotation speed does not change through the day, and it does not affect shadow length."
+          }
+        ],
+        "ok_title": "Long shadows",
+        "ok_line": "Low Sun, long shadow.",
+        "ko_title": "Angle matters",
+        "ko_line": "Not brightness, but tilt.",
+        "exp_title": "Shadow length and Sun angle",
+        "exp_text": "The length of a shadow depends on the angle of the light. When the Sun hangs low, rays hit the object at a grazing angle, so the shadow sweeps out a long path on the ground. When the Sun is overhead, rays come down steeply and the shadow shortens."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of surface is best for seeing a clear shadow?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A shiny mirror",
+            "feedback": "A mirror reflects light instead of showing a dark area; it can bounce light, but it does not display a shadow well."
+          },
+          {
+            "label": "A sheet of clear glass",
+            "feedback": "Glass lets light pass through, so most light reaches the surface behind it; a shadow on glass is faint or invisible."
+          },
+          {
+            "label": "A thick fog",
+            "feedback": "Fog scatters light in all directions, filling the shadow region with light from many angles and washing it out."
+          },
+          {
+            "label": "A flat, light-coloured wall",
+            "feedback": "Correct. A flat, pale surface reflects light evenly, so the contrast between the lit area and the blocked area is easy to see."
+          }
+        ],
+        "ok_title": "Best shadow surface",
+        "ok_line": "Flat and light shows shadows best.",
+        "ko_title": "Surface choice",
+        "ko_line": "Light surfaces make shadows visible.",
+        "exp_title": "Shadow visibility",
+        "exp_text": "A shadow is visible when the surface behind the object is not lit. A flat, light-coloured wall reflects the surrounding light well, so the dark shadow stands out. Transparent or reflecting surfaces either let light through or add light where the shadow is."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a shadow if the light source moves closer to the object?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The shadow disappears",
+            "feedback": "The shadow does not vanish; it only changes size. The object still blocks light, but the result is a larger shadow."
+          },
+          {
+            "label": "The shadow becomes larger",
+            "feedback": "Correct. When the light source comes closer, the rays spread out more as they pass the object, so the shadow on the surface grows."
+          },
+          {
+            "label": "The shadow becomes smaller",
+            "feedback": "Moving the light closer spreads the rays, making the shadow bigger, not smaller; moving it farther would shrink it."
+          },
+          {
+            "label": "The shadow changes its shape entirely",
+            "feedback": "The shape stays roughly the same as the object's outline; only the size and sharpness change with distance."
+          }
+        ],
+        "ok_title": "Closer light",
+        "ok_line": "Nearer lamp, larger shadow.",
+        "ko_title": "Size change",
+        "ko_line": "Proximity enlarges the shadow.",
+        "exp_title": "Light distance and shadow size",
+        "exp_text": "The size of a shadow depends on how far the light source is from the object. If the light moves closer, its rays diverge more, so the object casts a wider shadow on the surface behind it. If the light moves away, the rays become more parallel and the shadow shrinks."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When the Sun is directly overhead at noon, why is your shadow very short?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the light falls almost straight down",
+            "feedback": "Correct. At noon the Sun is high, so its rays strike the ground nearly vertically, leaving only a small shadow under you."
+          },
+          {
+            "label": "Because the Sun is hotter at noon",
+            "feedback": "Heat does not affect shadow length; the Sun's angle is what matters."
+          },
+          {
+            "label": "Because the Earth stops spinning briefly",
+            "feedback": "The Earth never stops spinning, and a pause would not change the Sun's position enough to shorten a shadow."
+          },
+          {
+            "label": "Because your body becomes shorter at noon",
+            "feedback": "Your height stays the same; only the angle of light changes."
+          }
+        ],
+        "ok_title": "Noon shadow",
+        "ok_line": "High Sun, tiny shadow.",
+        "ko_title": "Angle over heat",
+        "ko_line": "Steep rays make short shadows.",
+        "exp_title": "Noon shadow explanation",
+        "exp_text": "At solar noon, the Sun rides high in the sky, so its rays hit the ground from nearly directly above. Your body blocks light in a narrow column, producing a shadow that barely extends beyond your feet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the blurred edge of a shadow called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The umbra",
+            "feedback": "The umbra is the sharp, dark centre of the shadow, not the blurred edge."
+          },
+          {
+            "label": "The core",
+            "feedback": "The core is not a standard term for a shadow's edge; it refers to the central dark part."
+          },
+          {
+            "label": "The penumbra",
+            "feedback": "Correct. The penumbra is the partially lit fringe around a shadow, where the light source is only partly blocked."
+          },
+          {
+            "label": "The halo",
+            "feedback": "A halo is a ring of light, not a shadow feature; it does not describe the blur at a shadow's edge."
+          }
+        ],
+        "ok_title": "Soft edge",
+        "ok_line": "Penumbra is the fuzzy rim.",
+        "ko_title": "Edge name",
+        "ko_line": "Not umbra, but penumbra.",
+        "exp_title": "Penumbra definition",
+        "exp_text": "When light comes from a source with some size, the shadow's edge is not sharp. The outer region, where some rays are blocked and others pass, appears as a gradual fade from dark to light—this is the penumbra."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What must be between the light source and the surface for a shadow to exist?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A transparent material",
+            "feedback": "Transparent material lets light pass through, so it does not block light and cannot create a shadow."
+          },
+          {
+            "label": "A reflective surface",
+            "feedback": "Reflective surfaces bounce light, but they are not the object that blocks the light to form a shadow."
+          },
+          {
+            "label": "A vacuum",
+            "feedback": "A vacuum has no material to block light; light travels straight through it, so no shadow forms."
+          },
+          {
+            "label": "An opaque object",
+            "feedback": "Correct. An opaque object does not let light through, so it stops the rays from reaching the surface and leaves a dark area behind it."
+          }
+        ],
+        "ok_title": "Blocking object",
+        "ok_line": "Opaque things cast shadows.",
+        "ko_title": "Wrong medium",
+        "ko_line": "Only opaque blocks make shadows.",
+        "exp_title": "Shadow prerequisite",
+        "exp_text": "A shadow forms only when something absorbs or reflects light instead of letting it pass. That is exactly what an opaque object does—it stops the light, so the surface behind it stays dark."
+      }
+    ]
+  }
+]

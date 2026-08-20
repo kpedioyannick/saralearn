@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 130,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Just after sunset, a soft pink band sometimes appears low in the eastern sky, with a darker bluish band beneath it. What are you actually seeing?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The first stars beginning to appear",
+            "feedback": "This is a broad, low band of colour spanning a huge stretch of sky, quite unlike the tiny pinpoints of individual stars."
+          },
+          {
+            "label": "Light pollution reflecting off the atmosphere",
+            "feedback": "The same band appears just as clearly over remote, unlit countryside as it does near any city, so artificial light is not the source."
+          },
+          {
+            "label": "Sunlight still lighting the high air above the rising shadow of the Earth itself",
+            "feedback": "The dark band beneath is Earth's own shadow rising into the sky, and the pink glow above it is where sunlight can still reach and redden the air, right at the shadow's upper edge."
+          },
+          {
+            "label": "Moonlight scattering low on the horizon",
+            "feedback": "This band appears at sunset even with no Moon in the sky at all, and it is fixed to the direction opposite the Sun, not to wherever the Moon happens to be."
+          }
+        ],
+        "ok_title": "That is it",
+        "ok_line": "You are watching the Earth's own shadow climb into the sky, edged by the last sunlight still reaching above it.",
+        "ko_title": "Not quite",
+        "ko_line": "Look at exactly where this band sits: directly opposite the point where the Sun has just gone down.",
+        "exp_title": "The shadow of the world, rising",
+        "exp_text": "As the Sun sinks below the horizon, Earth casts its own shadow outward through the atmosphere on the side directly opposite the sunset, and that shadow appears as a dim, bluish-grey band that climbs higher as the Sun sinks further. Just above the shadow's edge, sunlight can still reach the higher air and reddens as it travels through such a long stretch of atmosphere, producing the pink glow — a strip often called the Belt of Venus. The two bands rise together, the shadow always climbing directly beneath the fading pink."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a mountain peak still glow bright orange or pink for a while after the valley below it has already fallen into cool shadow?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Its height keeps it in direct line of sight to the Sun after the Sun has dropped below the valley's horizon",
+            "feedback": "Standing taller than the surrounding land, the peak can still see the Sun sitting just above a lower, more distant horizon, even once the Sun has vanished from the valley floor's own view."
+          },
+          {
+            "label": "Rock holds heat and glows on its own after sunset",
+            "feedback": "Rock does not glow from stored heat at these temperatures. The colour comes from light still reaching the peak, not from the rock itself producing any."
+          },
+          {
+            "label": "Clouds above the peak are reflecting light from a different part of the sky",
+            "feedback": "The effect appears just as strongly on a completely clear, cloudless evening, so no cloud is needed to reflect anything onto the peak."
+          },
+          {
+            "label": "Snow on the summit changes colour as it cools",
+            "feedback": "The same glow appears on bare, snow-free rock in summer, so it cannot depend on snow or on the peak's temperature."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "The peak has simply not lost sight of the Sun yet, even though the valley already has.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about the different horizon a tall peak sees compared with the valley floor far below it, and which one loses sight of the Sun first.",
+        "exp_title": "Still visible to the Sun",
+        "exp_text": "Because the peak rises well above the surrounding land, its own local horizon sits lower down than the valley's does, so the Sun can still be shining directly on the summit even after it has already sunk out of view from the valley floor. That remaining sunlight has to travel a long, low path through the atmosphere to reach the peak, which reddens it the same way any low sun is reddened, so the glow on the summit is warm orange or pink rather than the ordinary white of midday light. Once the Sun finally drops low enough to lose sight of the peak too, that last colour fades and the whole mountain falls into shadow together."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the sky sometimes take on an eerie greenish tint just before a severe hailstorm or tornado?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Hail itself is faintly green and tints the light around it",
+            "feedback": "Hailstones are simply clear or white ice. They carry no colour of their own to tint anything."
+          },
+          {
+            "label": "Lightning inside the storm glows green at that stage",
+            "feedback": "This greenish tint is often visible in the minutes before any lightning strikes at all, so it cannot depend on the lightning itself."
+          },
+          {
+            "label": "Pollen released just before storms mixes into the air",
+            "feedback": "The tint appears in every season, including winter storms with no pollen anywhere in the air, so pollen plays no part in it."
+          },
+          {
+            "label": "Reddened late-day sunlight combines with blue light scattered by the storm's deep load of water and ice",
+            "feedback": "Warm, reddened sunlight lighting the storm from a low angle mixes with the blue tint that a towering wall of water and ice tends to scatter, and red and blue mixed together reads to the eye as green."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "Two colours of light, arriving together, blending into one you were not expecting.",
+        "ko_title": "Not the cause",
+        "ko_line": "Think about what colour the low, late-day sunlight already is by the time it reaches the storm, and what colour a towering mass of water and ice tends to scatter on its own.",
+        "exp_title": "Two colours mixing into one",
+        "exp_text": "A severe storm often forms late in the day, when the surrounding sunlight has already travelled a long, low path through the atmosphere and been reddened by it. That warm light illuminates the storm's massive, deep load of water droplets and ice, which on its own tends to scatter light with a bluish cast, much the way any sufficiently thick body of water or ice appears blue rather than clear. Red light and blue light arriving at the eye together are read as green, which is why the sky beneath such a storm can take on that unsettling tint."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "After some of the largest volcanic eruptions, twilight skies around the world have glowed a vivid, long-lasting violet for months afterward. What causes that unusually intense colour?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Ash falling directly through the twilight sky",
+            "feedback": "Heavy ash settles out of the air within days, while the vivid twilight colour can persist for months — something far finer and longer-lived is responsible."
+          },
+          {
+            "label": "A fine haze of tiny droplets, injected high into the atmosphere, scatters light in a way that adds extra red and violet at twilight",
+            "feedback": "A powerful eruption can loft fine droplets far above ordinary weather, into a layer where they linger for a long time and scatter twilight sunlight into unusually vivid extra colour."
+          },
+          {
+            "label": "The eruption heats the upper atmosphere and makes it glow",
+            "feedback": "The upper atmosphere is not heated enough by an eruption to glow on its own. The extra colour comes from sunlight being scattered differently, not from any glow of the air itself."
+          },
+          {
+            "label": "Volcanic lightning strikes repeatedly at dusk",
+            "feedback": "Volcanic lightning happens close to the eruption itself and fades within hours, while the worldwide violet twilights that follow a big eruption can linger for months, far from the volcano."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "A very fine haze, lofted unusually high, keeps colouring twilight for as long as it stays up there.",
+        "ko_title": "Not the reason",
+        "ko_line": "Something has to remain in the atmosphere for months to keep producing this colour night after night. Ask what a powerful eruption can loft high enough to linger that long.",
+        "exp_title": "A fine haze lofted far above the weather",
+        "exp_text": "A sufficiently powerful eruption can throw fine droplets high above the layer where ordinary weather and rain would normally wash them out within days, into a much higher layer where they can drift and linger for months or even years. Those tiny droplets scatter sunlight differently from ordinary clean air, adding extra red and violet light to the sky at the moment of twilight, when the Sun's low, grazing light already has the longest path through the atmosphere to travel. As that fine haze slowly settles and thins over time, the unusually vivid twilight colour it produces fades back toward normal."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Even on a clear, moonless night far from any city, the sky is never perfectly black — it carries a very faint glow of its own. What produces that glow?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Molecules high in the atmosphere slowly releasing energy they absorbed earlier",
+            "feedback": "Certain molecules high up are left in an excited state by chemical reactions and by sunlight absorbed during the day, and they release that stored energy as a faint, continuous glow long after dark."
+          },
+          {
+            "label": "Distant city lights scattered around the whole horizon",
+            "feedback": "This faint glow is measured just as strongly over empty ocean and remote wilderness, far beyond the reach of any city's light."
+          },
+          {
+            "label": "Starlight reflecting off dust between the stars",
+            "feedback": "That reflected light is real but far too faint and uneven to account for the smooth, steady glow measured across the whole sky. Something closer to Earth is responsible for most of it."
+          },
+          {
+            "label": "Faint aurora present even outside the polar regions",
+            "feedback": "This glow is measured at every latitude on every clear night, including nights with no aurora activity anywhere on Earth, so it is not the same phenomenon as an aurora."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "The upper air itself is quietly giving back energy it stored away, all night, every night.",
+        "ko_title": "Not the source",
+        "ko_line": "This glow is present everywhere, every clear night, whether or not any city or aurora is nearby. Ask what the upper atmosphere itself might be doing on its own.",
+        "exp_title": "The sky's own quiet glow",
+        "exp_text": "High in the atmosphere, certain molecules are left in an energised state, some by chemical reactions taking place naturally at that altitude and some by sunlight absorbed during the previous day, and this energy is not all released right away. Instead it leaks back out gradually as a very faint, continuous glow spread evenly across the whole sky, known as airglow, far too dim to notice by eye but easily measured by sensitive instruments. This glow continues steadily through the night, entirely independent of the Sun, the Moon, or any lights on the ground below."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Along the edge of a thin cloud near the Sun, shifting patches of colour sometimes appear — pink, green, and gold blending together — without forming a rainbow's neat arc. What produces this cloud iridescence?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sunlight refracting through raindrops, exactly as in a rainbow",
+            "feedback": "A rainbow needs falling raindrops and always forms a neat arc at a fixed angle from the Sun. This colour instead clings right to the cloud's own edge, close to the Sun, which points to a different cause."
+          },
+          {
+            "label": "Pollution particles trapped inside the cloud",
+            "feedback": "Iridescent clouds appear over the cleanest, most remote skies just as readily as anywhere else, so pollution is not required to produce them."
+          },
+          {
+            "label": "Diffraction of light around very small, similarly sized water droplets or ice crystals",
+            "feedback": "Where the droplets or crystals at a cloud's thin edge happen to be small and fairly uniform in size, light bending slightly around each one spreads into shifting colour that depends on droplet size and viewing angle."
+          },
+          {
+            "label": "The cloud reflecting a rainbow located elsewhere in the sky",
+            "feedback": "Iridescence appears with no rainbow anywhere else in the sky at the time, and its colours shift and change in a completely different pattern from any rainbow's fixed, ordered bands."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Light bending around tiny, similarly sized droplets, rather than passing straight through larger ones.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "This effect clings closely to the cloud's own edge, close to the Sun. Think about what happens to light as it just grazes past something very small, rather than passing straight through it.",
+        "exp_title": "Light bending around tiny droplets",
+        "exp_text": "Where a cloud thins out at its edge, the droplets or ice crystals there are often very small and close to the same size as one another, unlike the larger, more varied droplets found deeper inside a cloud or falling as rain. Light passing close by particles that small does not simply pass through and refract the way it would in a raindrop — it bends slightly around them in a process called diffraction, and the amount of bending depends closely on the particle's exact size. Because the droplet sizes vary subtly from one patch of the cloud's edge to another, the diffracted colour shifts and shimmers from patch to patch rather than settling into the ordered arc of a rainbow."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "During a major wildfire, the midday Sun and the whole sky can turn a deep orange or blood red, even hours before sunset. What causes that daytime reddening?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Heat from the fire itself changes the colour of sunlight",
+            "feedback": "Heat rising from the fire has no effect on the colour of sunlight arriving from ninety-odd million miles away. The change happens to light passing through the smoke, not to the Sun."
+          },
+          {
+            "label": "A thick layer of fine smoke particles scatters away far more blue light than clean air normally would",
+            "feedback": "Loaded with smoke particles larger and more numerous than ordinary air molecules, the sky strips out far more blue and green than usual, leaving mostly red and orange light to reach the ground, even at midday."
+          },
+          {
+            "label": "Ash falling from the sky directly stains the sunlight red",
+            "feedback": "Falling ash lands on the ground and everything below it rather than staying suspended in a way that could tint light passing overhead."
+          },
+          {
+            "label": "The fire's own flames are reflected off the clouds above",
+            "feedback": "The reddened sky appears just as strongly under a completely clear sky, with no cloud present to reflect anything at all."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The same trick that reddens an ordinary sunset, only produced by smoke instead of a low sun angle.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ordinary clean air already lets blue light travel while scattering it around. Think about what a heavy load of fine smoke particles would do differently to light passing through it.",
+        "exp_title": "Smoke doing a sunset's job at noon",
+        "exp_text": "Wildfire smoke fills the air with a dense load of very fine particles, far more numerous and often larger than the ordinary molecules that make up clean air. These particles scatter and block short, blue wavelengths of sunlight especially strongly, stripping much of the blue and green out of the light before it can reach the ground, no matter how high the Sun sits in the sky. With most of the blue removed, only the longer red and orange wavelengths get through in any strength, tinting the Sun and the whole sky the same deep, ominous colour usually reserved for sunset."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "In summer at high latitudes, thin, wispy clouds sometimes glow a delicate silvery blue deep into the night, long after the Sun should have made everything else dark. What lets these noctilucent clouds keep glowing?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They are made of a glowing gas rather than ordinary ice",
+            "feedback": "These clouds are made of ordinary ice crystals, not a self-glowing gas. What sets them apart is not what they are made of but where they sit."
+          },
+          {
+            "label": "They reflect city lights from far below",
+            "feedback": "These clouds are seen glowing over the most remote, unlit polar regions on Earth, so reflected city light cannot be the explanation."
+          },
+          {
+            "label": "Auroral particles strike them directly",
+            "feedback": "They glow on nights with no aurora activity at all, and their colour and shape are quite different from an aurora's own light."
+          },
+          {
+            "label": "Sitting at an extreme altitude, they can still catch direct sunlight even when the Sun is well below the horizon for the ground below",
+            "feedback": "Perched far higher than ordinary clouds, at the very edge of space, these ice clouds keep a clear line of sight to the Sun long after it has dropped out of view from anyone standing on the ground."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "They are simply high enough to still be standing in sunlight, long after the ground below has lost it.",
+        "ko_title": "Not the cause",
+        "ko_line": "This is the same basic idea as a mountain peak catching the last light after the valley falls dark, but taken to a far greater height. Think about what extreme altitude would let a cloud see.",
+        "exp_title": "Ice clouds perched at the edge of space",
+        "exp_text": "Noctilucent clouds form at an altitude far higher than any ordinary weather cloud, high enough that they sit almost at the boundary of space itself. From that great height, they keep a direct line of sight to the Sun long after it has sunk far enough below the horizon to leave the ground, and even ordinary high clouds, in complete darkness. Sunlight still reaching those extremely high, extremely fine ice crystals scatters into the pale, silvery-blue glow that seems to hang impossibly in an otherwise dark summer night sky."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does twilight linger far longer in the evening at high latitudes in summer than it does near the equator?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun is genuinely brighter near the poles in summer",
+            "feedback": "The Sun itself is no brighter at high latitudes than anywhere else. What changes with latitude is the angle at which it sets, not its own brightness."
+          },
+          {
+            "label": "Clouds near the poles reflect light for longer",
+            "feedback": "This lingering glow appears under completely clear polar skies just as strongly as near the equator, so cloud reflection is not what is responsible."
+          },
+          {
+            "label": "At high latitudes in summer the Sun sinks below the horizon at a very shallow angle, spending longer within reach of the atmosphere",
+            "feedback": "Slipping down nearly sideways rather than plunging straight down, the summer Sun at high latitude takes far longer to sink deep enough below the horizon for its scattered light to fully fade from the sky."
+          },
+          {
+            "label": "The air itself is thinner at high latitudes",
+            "feedback": "The thickness of the atmosphere overhead does not change meaningfully with latitude. What changes is the angle the Sun takes as it sets, not the air above any particular spot."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "A shallow, sideways slide below the horizon simply takes far longer than a steep, straight drop.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about the angle the setting Sun's path makes with the horizon at high latitude during summer, compared with how steeply it drops near the equator.",
+        "exp_title": "A shallow path below the horizon",
+        "exp_text": "Near the equator the Sun's path meets the horizon at a steep angle, so once it sets it plunges quickly to well below the horizon and its scattered light fades from the sky in a short time. At high latitudes in summer, Earth's tilt makes the Sun's path meet the horizon at a very shallow, grazing angle instead, so after sunset the Sun creeps only slowly downward rather than dropping away. Because it lingers so close to the horizon for so long, sunlight keeps being scattered into the upper atmosphere for hours, stretching twilight out far longer than it lasts near the equator."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Between a primary rainbow and a fainter secondary bow above it, the strip of sky is often noticeably darker than the sky on either side. What causes that dark gap, known as Alexander's dark band?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A cloud passes specifically through that part of the sky",
+            "feedback": "The dark strip appears in a completely clear stretch of sky and follows the arc of the rainbow precisely, rather than sitting wherever a cloud happens to drift."
+          },
+          {
+            "label": "Raindrops send light back to your eye only at the specific angles of the two bows, leaving the angle between them with almost no extra light at all",
+            "feedback": "Every raindrop sends refracted, reflected light back toward you at one of two particular angles, and almost none at any angle in between, so the strip of sky between those two angles receives far less of that extra light than the sky just inside or outside it."
+          },
+          {
+            "label": "The rainbow itself blocks sunlight from reaching that part of the sky",
+            "feedback": "A rainbow is made of light, not a solid object, and blocks nothing. The gap is dark because of what the raindrops are failing to send back, not because anything is being physically shaded."
+          },
+          {
+            "label": "Dust settles into a band between the two bows",
+            "feedback": "This dark band appears over open, dust-free ocean and after fresh rain has just washed the air clean, so settled dust cannot be the explanation."
+          }
+        ],
+        "ok_title": "Exactly right",
+        "ok_line": "Not darker because something is added there — darker because that is the one strip the raindrops send almost nothing back to.",
+        "ko_title": "Not the reason",
+        "ko_line": "A rainbow is made of countless raindrops, each sending light back to you at only one or two particular angles. Ask what that leaves for the angle sitting between them.",
+        "exp_title": "The one angle raindrops skip",
+        "exp_text": "Each raindrop reflects sunlight back toward you strongly at the specific angle that produces the primary bow, and more faintly at a second, wider angle that produces the secondary bow, but at almost every angle in between it sends back very little extra light at all. Since countless raindrops across the whole sky are all doing the same thing at the same two angles, light piles up brightly right at the primary bow and right at the secondary bow, while the strip of sky lying between the two receives comparatively little of that extra reflected light. Against the ordinary brightness of the sky on either side, that comparatively unlit strip simply looks darker by contrast."
+      }
+    ]
+  }
+]

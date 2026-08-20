@@ -1,0 +1,162 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these animals is a mollusc?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A shrimp",
+            "feedback": "Shrimp are crustaceans, not molluscs. Molluscs include groups like clams, octopuses, and snails."
+          },
+          {
+            "label": "An octopus",
+            "feedback": "Correct. Octopuses are cephalopods, which are a type of mollusc."
+          },
+          {
+            "label": "A lobster",
+            "feedback": "Lobsters are crustaceans, not molluscs. Molluscs include squids, clams, and whelks."
+          },
+          {
+            "label": "A crab",
+            "feedback": "Crabs are crustaceans, not molluscs. Molluscs include bivalves like oysters and gastropods like snails."
+          }
+        ],
+        "ok_title": "Mollusc example",
+        "ok_line": "An octopus is a cephalopod mollusc.",
+        "ko_title": "Not a mollusc",
+        "ko_line": "Shrimp, lobsters, and crabs are crustaceans.",
+        "exp_title": "Mollusc types",
+        "exp_text": "Molluscs include cephalopods (squids, octopuses, cuttlefish), bivalves (clams, oysters), and gastropods (whelks, winkles, snails). Crustaceans are a separate group that includes shrimp, lobsters, and crabs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of animals are crustaceans most closely related to?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Insects and arachnids",
+            "feedback": "Correct. Crustaceans are arthropods, and they are closely related to insects and arachnids."
+          },
+          {
+            "label": "Molluscs and echinoderms",
+            "feedback": "Molluscs and echinoderms are not closely related to crustaceans; crustaceans belong to the arthropod group with insects and arachnids."
+          },
+          {
+            "label": "Fish and reptiles",
+            "feedback": "Fish and reptiles are vertebrates, while crustaceans are invertebrates, so they are not close relatives."
+          },
+          {
+            "label": "Corals and jellyfish",
+            "feedback": "Corals and jellyfish are cnidarians, which are not close to crustaceans; the close relatives are insects and arachnids."
+          }
+        ],
+        "ok_title": "Crustacean relatives",
+        "ok_line": "Crustaceans are arthropods related to insects and arachnids.",
+        "ko_title": "Wrong relatives",
+        "ko_line": "Crustaceans are not close to molluscs or vertebrates.",
+        "exp_title": "Arthropod relationships",
+        "exp_text": "Crustaceans are a subphylum of the phylum Arthropoda, which also includes insects and arachnids, so they share a common ancestry with those groups."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is an example of a bivalve?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A squid",
+            "feedback": "Squid are cephalopods, not bivalves. Bivalves have two shells, like clams and oysters."
+          },
+          {
+            "label": "A snail",
+            "feedback": "Snails are gastropods, not bivalves. Bivalves have two hinged shells."
+          },
+          {
+            "label": "An oyster",
+            "feedback": "Correct. Oysters are bivalves, having two shells, as are clams and mussels."
+          },
+          {
+            "label": "A whelk",
+            "feedback": "Whelks are gastropods, not bivalves. Bivalves are filter feeders with two shells, like clams."
+          }
+        ],
+        "ok_title": "Bivalve example",
+        "ok_line": "Oysters are bivalves with two shells.",
+        "ko_title": "Not a bivalve",
+        "ko_line": "Squids, snails, and whelks are not bivalves.",
+        "exp_title": "Bivalve definition",
+        "exp_text": "Bivalves are molluscs with two shells, such as clams, oysters, mussels, and scallops. Other mollusc groups include cephalopods and gastropods."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these animals is an echinoderm?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A crab",
+            "feedback": "Crabs are crustaceans, not echinoderms. Echinoderms include sea urchins and starfish."
+          },
+          {
+            "label": "A sea urchin",
+            "feedback": "Correct. Sea urchins are echinoderms, and their gonads are eaten as a delicacy."
+          },
+          {
+            "label": "A barnacle",
+            "feedback": "Barnacles are crustaceans, not echinoderms. Echinoderms have radial symmetry."
+          },
+          {
+            "label": "An octopus",
+            "feedback": "Octopuses are molluscs, not echinoderms. Echinoderms are a separate group like sea urchins."
+          }
+        ],
+        "ok_title": "Echinoderm example",
+        "ok_line": "Sea urchins are echinoderms.",
+        "ko_title": "Not an echinoderm",
+        "ko_line": "Crabs, barnacles, and octopuses are not echinoderms.",
+        "exp_title": "Echinoderm group",
+        "exp_text": "Echinoderms are a group of marine invertebrates that includes sea urchins, although they are not harvested as often as molluscs or crustaceans. They differ from arthropods and molluscs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a type of mollusc that has a single shell?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A clam",
+            "feedback": "Clams are bivalves with two shells, not single-shelled molluscs."
+          },
+          {
+            "label": "An oyster",
+            "feedback": "Oysters are bivalves with two shells, not single-shelled molluscs."
+          },
+          {
+            "label": "A snail",
+            "feedback": "Correct. Snails are gastropods, which often have a single shell."
+          },
+          {
+            "label": "A scallop",
+            "feedback": "Scallops are bivalves with two shells, not single-shelled molluscs."
+          }
+        ],
+        "ok_title": "Single-shell mollusc",
+        "ok_line": "Snails are gastropods with a single shell.",
+        "ko_title": "Wrong single-shell",
+        "ko_line": "Clams, oysters, and scallops are bivalves with two shells.",
+        "exp_title": "Mollusc shells",
+        "exp_text": "Gastropods like snails have a single shell, while bivalves like clams and oysters have two shells. Cephalopods like octopuses often have no external shell."
+      }
+    ]
+  }
+]

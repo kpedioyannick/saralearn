@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a star?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A solid ball of rock that reflects light",
+            "feedback": "That describes a planet, not a star. A star is a luminous spheroid of plasma, not solid rock."
+          },
+          {
+            "label": "A luminous spheroid of plasma held together by its own gravity",
+            "feedback": "Correct. The gravity pulls the plasma inward, and the light comes from within the star itself."
+          },
+          {
+            "label": "A cloud of gas that only glows when lit by the Sun",
+            "feedback": "That is more like a nebula reflecting starlight. A star produces its own light from fusion."
+          },
+          {
+            "label": "A burning ball of gas that floats freely in space",
+            "feedback": "The word 'burning' suggests fire, but a star shines through nuclear fusion, not chemical burning. Also, it is held together by gravity."
+          }
+        ],
+        "ok_title": "A star defined",
+        "ok_line": "It is a glowing sphere of plasma held by its own gravity.",
+        "ko_title": "Check the definition",
+        "ko_line": "A star is a luminous plasma sphere, not a planet or a simple gas cloud.",
+        "exp_title": "What a star is",
+        "exp_text": "A star is a luminous spheroid of plasma held together by self-gravity. The plasma is a hot, ionised state of matter, and the star's own gravity keeps the whole ball from flying apart."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which star is the nearest one to Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Polaris",
+            "feedback": "Polaris is the pole star, but it is far away. The nearest star is the Sun, which is the star at the centre of our solar system."
+          },
+          {
+            "label": "Sirius",
+            "feedback": "Sirius is a bright nearby star, but it is much farther than the Sun. The Sun is the closest star to Earth."
+          },
+          {
+            "label": "The Sun",
+            "feedback": "Correct. The Sun is the nearest star to Earth, and it is the star around which our planet orbits."
+          },
+          {
+            "label": "Alpha Centauri",
+            "feedback": "Alpha Centauri is a nearby star system, but it is not the nearest. The Sun is the closest star of all."
+          }
+        ],
+        "ok_title": "Closest star",
+        "ok_line": "The Sun is the nearest star to Earth.",
+        "ko_title": "Not the nearest",
+        "ko_line": "The Sun is the closest star, not the bright ones seen at night.",
+        "exp_title": "The nearest star",
+        "exp_text": "The nearest star to Earth is the Sun. Other stars are at immense distances, which is why they appear only as tiny points of light in the night sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the visible shape of a star as seen from a great distance?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A point of light",
+            "feedback": "Correct. Because stars are so far away, they appear as fixed points of light, even though each is a large sphere."
+          },
+          {
+            "label": "A small disk with a glowing ring",
+            "feedback": "That describes a star with a visible disk, which only happens for very close stars like the Sun. Distant stars look like points."
+          },
+          {
+            "label": "A fuzzy patch",
+            "feedback": "A fuzzy patch describes a nebula or a galaxy seen without a telescope. A star appears as a sharp point."
+          },
+          {
+            "label": "A crescent like the Moon",
+            "feedback": "A crescent shape comes from a planet or the Moon. Stars do not show phases; they appear as points."
+          }
+        ],
+        "ok_title": "Distant view",
+        "ok_line": "Distant stars look like single points of light.",
+        "ko_title": "Think of distance",
+        "ko_line": "Faraway stars appear point-like, not as disks or patches.",
+        "exp_title": "Stars as points",
+        "exp_text": "Many stars are visible to the naked eye at night, but their immense distances from Earth make them appear as fixed points of light, not as large spheres."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the prominent groups into which the brightest stars are commonly divided?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Solar systems",
+            "feedback": "A solar system is a star with planets and other bodies orbiting it. It is not a grouping of stars in the sky."
+          },
+          {
+            "label": "Galaxies",
+            "feedback": "A galaxy is a huge collection of stars bound by gravity. The visible patterns of bright stars are called constellations or asterisms."
+          },
+          {
+            "label": "Nebulae",
+            "feedback": "A nebula is a cloud of gas and dust, not a group of bright stars. The bright stars are grouped into constellations."
+          },
+          {
+            "label": "Constellations and asterisms",
+            "feedback": "Correct. Prominent stars have been categorised into constellations and asterisms, which are patterns recognised from Earth."
+          }
+        ],
+        "ok_title": "Star patterns",
+        "ok_line": "The brightest stars are grouped into constellations and asterisms.",
+        "ko_title": "Patterns, not clusters",
+        "ko_line": "Constellations and asterisms are the recognised groupings of bright stars.",
+        "exp_title": "Constellations and asterisms",
+        "exp_text": "The most prominent stars have been categorised into constellations and asterisms. These are patterns that humans have recognised in the sky, and many of the brightest stars also have proper names."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many stars are estimated to exist in the observable universe?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "About a thousand",
+            "feedback": "That is roughly how many are visible to the naked eye, but the observable universe holds vastly more stars."
+          },
+          {
+            "label": "Between 10^22 and 10^24",
+            "feedback": "Correct. The observable universe contains an estimated 10^22 to 10^24 stars, an almost unimaginably large number."
+          },
+          {
+            "label": "About a million",
+            "feedback": "A million is far too small. Even the Milky Way alone contains many more stars than that."
+          },
+          {
+            "label": "About a billion",
+            "feedback": "A billion is still far too few. The universe is estimated to hold trillions of stars in many galaxies."
+          }
+        ],
+        "ok_title": "Huge star count",
+        "ok_line": "The universe holds between 10^22 and 10^24 stars.",
+        "ko_title": "That number is too small",
+        "ko_line": "Only a few thousand are visible, but the total is far larger.",
+        "exp_title": "How many stars",
+        "exp_text": "The observable universe contains an estimated 10^22 to 10^24 stars. Only about 4,000 of these are visible to the naked eye, and they all lie within our own Milky Way galaxy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the material from which a star begins to form?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A gaseous nebula",
+            "feedback": "Correct. A star's life begins with the gravitational collapse of a gaseous nebula, which is a cloud of gas and dust."
+          },
+          {
+            "label": "A solid rock",
+            "feedback": "Solid rock is what planets are made of, not the starting material for a star. Stars form from gas clouds."
+          },
+          {
+            "label": "A ball of liquid water",
+            "feedback": "Water is not the raw material of stars. Stars form from hydrogen and helium gas in a nebula."
+          },
+          {
+            "label": "A cluster of asteroids",
+            "feedback": "Asteroids are rocky bodies, not the material that collapses to form a star. A star forms from a gas cloud."
+          }
+        ],
+        "ok_title": "Star birth material",
+        "ok_line": "A star forms from a collapsing gaseous nebula.",
+        "ko_title": "Not rock or water",
+        "ko_line": "The starting point is a gas cloud, not solid or liquid matter.",
+        "exp_title": "Forming from a nebula",
+        "exp_text": "A star's life begins with the gravitational collapse of a gaseous nebula. That nebula is composed largely of hydrogen, helium, and traces of heavier elements."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three possible final remnants of a star when fusion ceases in its core?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A planet, a moon, and a comet",
+            "feedback": "Those are not stellar remnants. The remnants are a white dwarf, a neutron star, or a black hole."
+          },
+          {
+            "label": "A red giant, a white dwarf, and a nebula",
+            "feedback": "A red giant is a phase before the end, not a remnant. The final leftovers are white dwarfs, neutron stars, or black holes."
+          },
+          {
+            "label": "A white dwarf, a neutron star, or a black hole",
+            "feedback": "Correct. These are the three kinds of stellar remnants that remain after a star stops fusing elements."
+          },
+          {
+            "label": "A pulsar, a quasar, and a supernova",
+            "feedback": "A supernova is an explosion, not a remnant. Pulsars are a type of neutron star, but quasar is not a stellar remnant."
+          }
+        ],
+        "ok_title": "Stellar remnants",
+        "ok_line": "A star ends as a white dwarf, a neutron star, or a black hole.",
+        "ko_title": "Not planets or phases",
+        "ko_line": "The final objects are compact remnants, not planets or red giants.",
+        "exp_title": "What is left behind",
+        "exp_text": "At the end of a star's lifetime, fusion ceases and its core becomes a stellar remnant. That remnant is a white dwarf, a neutron star, or, if the star is sufficiently massive, a black hole."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What process produces the energy that makes a star shine for most of its active life?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Chemical burning of hydrogen gas",
+            "feedback": "Fire involves chemical reactions, but stars shine through nuclear fusion in their cores, not chemical burning."
+          },
+          {
+            "label": "Slow gravitational contraction",
+            "feedback": "Gravity can release heat, but it is not the main power source over a star's active life. Fusion of hydrogen is."
+          },
+          {
+            "label": "Radioactive decay of heavy elements",
+            "feedback": "Radioactive decay is important in some rocks, not in stars. A star's energy comes from fusing hydrogen into helium."
+          },
+          {
+            "label": "Thermonuclear fusion of hydrogen into helium",
+            "feedback": "Correct. This fusion in the core releases energy that travels through the star and radiates into space."
+          }
+        ],
+        "ok_title": "Star's energy source",
+        "ok_line": "Fusion of hydrogen into helium powers a star.",
+        "ko_title": "Not ordinary burning",
+        "ko_line": "It is nuclear fusion in the core, not chemical burning.",
+        "exp_title": "Hydrogen fusion",
+        "exp_text": "A star shines for most of its active life due to the thermonuclear fusion of hydrogen into helium in its core. This process releases energy that traverses the star's interior and radiates into outer space."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the total mass of a star mainly determine?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Its evolution and eventual fate",
+            "feedback": "Correct. A star's total mass is the key factor that decides how it changes over time and how it ends."
+          },
+          {
+            "label": "Its colour and nothing else",
+            "feedback": "Colour is linked to temperature, but mass determines much more, including the star's life story and final remnant."
+          },
+          {
+            "label": "Its distance from Earth",
+            "feedback": "Distance is not a property of the star itself. Mass affects how the star lives and dies."
+          },
+          {
+            "label": "The number of planets it has",
+            "feedback": "Planets can form around stars, but mass does not determine the count of planets. It governs the star's evolution."
+          }
+        ],
+        "ok_title": "Role of mass",
+        "ok_line": "Mass sets the star's evolution and final fate.",
+        "ko_title": "Mass is key",
+        "ko_line": "It is the total mass that drives a star's life and death.",
+        "exp_title": "Mass drives evolution",
+        "exp_text": "A star's total mass mainly determines its evolution and eventual fate. Heavier stars live differently and leave different remnants than lighter ones."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do stellar nucleosynthesis and supernova explosions return to the interstellar medium?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only hydrogen and helium",
+            "feedback": "Those are the original nebula gases, but stars also make heavier elements. The returned material is enriched with these."
+          },
+          {
+            "label": "Chemically enriched material",
+            "feedback": "Correct. The material returned is enriched with heavier elements, which are then recycled into new stars."
+          },
+          {
+            "label": "Pure energy with no matter",
+            "feedback": "Energy is released, but supernovae and stellar winds also eject matter. The returned material includes chemical elements."
+          },
+          {
+            "label": "A fresh nebula made only of rock",
+            "feedback": "A nebula is gas and dust, not solid rock. The returned material is gas enriched with heavy elements."
+          }
+        ],
+        "ok_title": "Recycled material",
+        "ok_line": "Stars return enriched gas to the space between stars.",
+        "ko_title": "Not just hydrogen",
+        "ko_line": "The material carries heavier elements made inside stars.",
+        "exp_title": "Feeding new stars",
+        "exp_text": "Stellar mass loss or supernova explosions return chemically enriched material to the interstellar medium. Those elements are then recycled into new stars, so each generation of stars contains more heavy elements."
+      }
+    ]
+  }
+]

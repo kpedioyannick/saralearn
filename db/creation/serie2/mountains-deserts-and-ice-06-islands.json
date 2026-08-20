@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main process by which a volcanic island forms in the open ocean?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Magma rises from deep in the Earth and erupts onto the seafloor, building up over time.",
+            "feedback": "Correct. The magma erupts, cools, and hardens, and repeated eruptions build the island above sea level."
+          },
+          {
+            "label": "A large piece of continental rock breaks off and floats into the ocean.",
+            "feedback": "Continents are made of lighter rock that does not split off into the open ocean; volcanic islands are built from magma."
+          },
+          {
+            "label": "Coral reefs grow up from a shallow underwater shelf until they reach the surface.",
+            "feedback": "Coral reefs can build on top of a volcanic seamount, but the volcanic eruption is what creates the core island first."
+          },
+          {
+            "label": "Tectonic plates push up the seafloor until it rises above water.",
+            "feedback": "That can build land along plate boundaries, but a volcanic island in the open ocean comes specifically from magma eruptions."
+          }
+        ],
+        "ok_title": "Volcanic island birth",
+        "ok_line": "Magma eruptions build the island.",
+        "ko_title": "Wrong origin",
+        "ko_line": "Not from floating continent or coral alone.",
+        "exp_title": "Volcanic island formation",
+        "exp_text": "A volcanic island forms when magma rises through the crust and erupts on the seafloor, cooling and stacking up layer after layer until the summit breaks the surface of the water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do island chains like Hawaii line up in a straight row with the islands getting older toward one end?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the islands all erupted from the same time from a single long underwater ridge.",
+            "feedback": "That would make them similar ages, but Hawaii shows a clear age progression, meaning the source moves relative to the plate."
+          },
+          {
+            "label": "Because the ocean current moves the islands slowly along the line over millions of years.",
+            "feedback": "Islands are fixed to the plate and do not drift; it is the plate that moves over the hot spot."
+          },
+          {
+            "label": "Because the oceanic plate slowly slides over a fixed volcanic hot spot beneath it, carrying each island away once built.",
+            "feedback": "Correct. The plate moves over the stationary hot spot, so a new island forms above it and the older ones get carried off and cool down."
+          },
+          {
+            "label": "Because earthquakes periodically shift the whole chain to the side, leaving older islands behind.",
+            "feedback": "Earthquakes do not move island chains along; the steady plate motion over a hot spot is the cause."
+          }
+        ],
+        "ok_title": "Hot spot trail",
+        "ok_line": "Plate slides over the hot spot.",
+        "ko_title": "Misplaced cause",
+        "ko_line": "Not from currents or quakes.",
+        "exp_title": "Hot spot island chains",
+        "exp_text": "A hot spot stays in one place while the oceanic plate drifts over it, so each island forms, then moves away as a new one is created, leaving a line with a clear age gradient."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a ring-shaped coral atoll come to exist around what was originally a volcanic island?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The coral ring forms first, and later a volcano rises up in the middle of the lagoon.",
+            "feedback": "The volcano comes first; the coral ring grows on its slopes after the eruption ends."
+          },
+          {
+            "label": "The volcano erupts in a circular shape, leaving an open centre filled with water.",
+            "feedback": "Volcanoes do not erupt in rings; the circular shape comes from coral growth on a sunken volcanic rim."
+          },
+          {
+            "label": "Coral polyps build a ring in shallow water, and then the sea floor between the ring and the volcano collapses.",
+            "feedback": "The coral grows on the volcanic slope; the volcano itself subsides rather than the lagoon collapsing."
+          },
+          {
+            "label": "A coral reef grows around the shore of a volcanic island, and as the island sinks, the reef keeps growing upward to become a ring.",
+            "feedback": "Correct. The volcano gradually subsides or erodes, while the coral stays near the surface, leaving a lagoon inside the ring."
+          }
+        ],
+        "ok_title": "Atoll evolution",
+        "ok_line": "Reef grows as the island sinks.",
+        "ko_title": "Wrong sequence",
+        "ko_line": "Volcano first, reef on top.",
+        "exp_title": "Coral atoll formation",
+        "exp_text": "A fringing reef grows around the coast of a volcanic island, and when the volcano slowly sinks or erodes away, the coral continues upward, leaving a ring of reef around a shallow lagoon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why are islands like Great Britain considered part of a continent rather than separate volcanic peaks?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because they were built from the same mid-ocean ridge that forms the continental shelves.",
+            "feedback": "Mid-ocean ridges form in the deep ocean, not under continents; Great Britain sits on the continental shelf."
+          },
+          {
+            "label": "Because they sit on the continental shelf, which is an underwater extension of the nearby continent.",
+            "feedback": "Correct. The sea around them is shallow because the land is still part of the continental crust, just covered by water."
+          },
+          {
+            "label": "Because they are made of the same type of rock as ocean floor rather than volcanic lava.",
+            "feedback": "Ocean floor is basaltic, but Great Britain is made of continental rocks like granite, which confirms it is part of the continent."
+          },
+          {
+            "label": "Because they were once connected by a land bridge that has since eroded away.",
+            "feedback": "Being on the shelf is the key; a former land bridge is just one effect of that, not the reason they are considered continental."
+          }
+        ],
+        "ok_title": "Continental shelf islands",
+        "ok_line": "They sit on the shelf.",
+        "ko_title": "Wrong reasoning",
+        "ko_line": "Rock type and shelf matter.",
+        "exp_title": "Continental islands",
+        "exp_text": "Islands on the continental shelf are simply high points of the continent that are now surrounded by shallow sea, so they share the same crust and geology as the nearby mainland."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a violent volcanic eruption sometimes leave behind an island shaped like a curved crescent rather than a simple cone?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because part of the volcano collapses or blows away, leaving a horseshoe-shaped crater open to the sea.",
+            "feedback": "Correct. A large eruption can remove a side of the cone, and the sea then fills the gap, making a crescent."
+          },
+          {
+            "label": "Because the eruption spreads lava evenly in a ring, erasing the central peak.",
+            "feedback": "Lava flows do not erase a peak into a crescent; a collapse or blast is what removes part of the cone."
+          },
+          {
+            "label": "Because the island drifts slowly into a curve as the plate moves.",
+            "feedback": "Plate motion moves the whole island, but does not reshape a single cone into a crescent."
+          },
+          {
+            "label": "Because coral grows only on the windward side, protecting that part of the volcano.",
+            "feedback": "Coral growth does not change the volcanic shape into a crescent; the volcanic collapse does."
+          }
+        ],
+        "ok_title": "Crescent from collapse",
+        "ok_line": "Part of the cone is destroyed.",
+        "ko_title": "Shape misread",
+        "ko_line": "Not from lava spreading or drifting.",
+        "exp_title": "Crescent-shaped volcanic islands",
+        "exp_text": "When a powerful eruption blasts away a flank of the volcano, the missing side opens to the ocean, and the remaining arc of land forms a crescent shape."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a newly formed volcanic island made of loose ash and cinder sometimes disappear beneath the waves again within a few decades?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the island is too light and floats away on the ocean current.",
+            "feedback": "Islands are anchored to the seafloor; they do not float away."
+          },
+          {
+            "label": "Because the sea level rises so quickly that even solid rock islands sink.",
+            "feedback": "Sea level rises slowly over centuries, and solid rock islands remain; loose ash erodes much faster."
+          },
+          {
+            "label": "Because the loose material is easily eroded by waves, and the island is not renewed by fresh lava.",
+            "feedback": "Correct. Ash and cinder are soft, so waves quickly wash them away unless more eruptions add new material."
+          },
+          {
+            "label": "Because the island cools and shrinks as it solidifies, dropping back below the surface.",
+            "feedback": "Cooling and shrinking are too gradual and minor; wave erosion is the main cause of quick disappearance."
+          }
+        ],
+        "ok_title": "Fragile new islands",
+        "ok_line": "Waves wash away loose ash.",
+        "ko_title": "Sinking myth",
+        "ko_line": "Not from cooling or floating.",
+        "exp_title": "Erosion of young volcanic islands",
+        "exp_text": "A cinder cone is made of loose, unconsolidated fragments that the ocean breaks down quickly, so without ongoing eruptions the island can be worn away and sink back below the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a sudden earthquake sometimes lift a stretch of seafloor above the water, creating new land?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the earthquake creates a tsunami that piles up sediment into a hill.",
+            "feedback": "Tsunamis wash over land but do not build permanent seafloor uplift; the uplift is a tectonic motion."
+          },
+          {
+            "label": "Because the shaking compacts the seafloor and forces it upward like a spring.",
+            "feedback": "Compaction pushes down, not up; uplift comes from crustal blocks moving along a fault."
+          },
+          {
+            "label": "Because lava rises through the cracks opened by the quake and fills the space below the lifted rock.",
+            "feedback": "Lava can add material, but the uplift here is the rock itself being raised along a fault plane."
+          },
+          {
+            "label": "Because the earthquake moves a block of the Earth's crust upward along a fault line.",
+            "feedback": "Correct. When one side of a fault slips upward relative to the other, seafloor that was submerged is raised into the air."
+          }
+        ],
+        "ok_title": "Tectonic uplift",
+        "ok_line": "Fault motion raises the seafloor.",
+        "ko_title": "Wrong mechanism",
+        "ko_line": "Not from tsunamis or lava.",
+        "exp_title": "Earthquake uplift of islands",
+        "exp_text": "Earthquakes occur when blocks of crust slide along faults, and if one block moves upward, parts of the seafloor can be lifted above sea level to form new land."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the lagoon inside a coral atoll typically much shallower than the open ocean surrounding it?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the lagoon is filled with volcanic ash from the original eruption.",
+            "feedback": "The original volcano has usually subsided, and the lagoon floor is simply the top of that sunken cone covered by sediment, not a thick ash layer."
+          },
+          {
+            "label": "Because the reef ring protects it from strong waves, so the lagoon is calm and slowly fills with sediment and coral rubble.",
+            "feedback": "Correct. The reef blocks open-ocean waves, allowing fine sediment and broken coral to settle and build up the lagoon floor."
+          },
+          {
+            "label": "Because the open ocean outside is deeper due to a deep trench along the reef edge.",
+            "feedback": "Trenches are not always present, and the depth difference is due to the lagoon being on the shallow volcanic summit, not a trench."
+          },
+          {
+            "label": "Because the coral in the lagoon grows upward faster than in the open ocean.",
+            "feedback": "Coral growth is similar, but the lagoon is shallow because it sits on the sunken volcano's top, not because coral grows faster there."
+          }
+        ],
+        "ok_title": "Shallow lagoon",
+        "ok_line": "Reef shelters it from waves.",
+        "ko_title": "Depth cause missed",
+        "ko_line": "Not from ash or faster coral.",
+        "exp_title": "Atoll lagoon shallowness",
+        "exp_text": "The reef acts as a barrier against ocean swell, so the lagoon is a calm area where sediment accumulates, and it sits atop the eroded and submerged volcanic cone, making it much shallower than the deep sea outside."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How can a thick ice sheet carve what was once solid mainland coastline into a scatter of separate islands?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "By melting and flooding the low valleys until they become lakes that connect to the sea.",
+            "feedback": "Melting alone does not carve the land; the ice itself must gouge out the valleys before the sea floods them."
+          },
+          {
+            "label": "By growing so heavy that the land splits into pieces along cracks.",
+            "feedback": "Ice sheets do not split the mainland into puzzle pieces; they erode surfaces, not break the crust."
+          },
+          {
+            "label": "By grinding deep valleys into the coast, which then fill with seawater as the ice retreats and sea level rises.",
+            "feedback": "Correct. The moving ice scours U-shaped valleys, and when it melts, the sea enters those valleys, leaving the higher ridges as islands."
+          },
+          {
+            "label": "By depositing mounds of rock that dam off bays from the mainland.",
+            "feedback": "Deposits can form spits, but the islands here come from valleys carved by ice, not from damming."
+          }
+        ],
+        "ok_title": "Glacial coastline",
+        "ok_line": "Ice gouges valleys that flood.",
+        "ko_title": "Wrong ice action",
+        "ko_line": "Not from splitting or depositing.",
+        "exp_title": "Glacial carving of archipelagos",
+        "exp_text": "A thick ice sheet moves over the coast and scours out deep, straight valleys; when the ice melts, sea water fills those valleys, submerging the low ground and isolating the ridges as islands."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How can a single volcanic event build an entirely new island out of open ocean within just a few days?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "By slowly lifting a block of seafloor over several days of earthquakes.",
+            "feedback": "That would be a tectonic uplift, not a single volcanic event; volcanic islands grow from eruptions."
+          },
+          {
+            "label": "By melting the ocean floor and pushing up a dome of rock.",
+            "feedback": "Melting does not build islands; eruptions deposit lava and ash on the seafloor."
+          },
+          {
+            "label": "By creating a tsunami that stacks coral rubble into a mound.",
+            "feedback": "A tsunami piles loose debris but does not create a stable volcanic island."
+          },
+          {
+            "label": "By an explosive eruption that throws out enormous amounts of ash and lava, piling up above the water's surface.",
+            "feedback": "Correct. A powerful eruption can eject huge volumes of material that accumulate rapidly, forming a new island in days."
+          }
+        ],
+        "ok_title": "Rapid island birth",
+        "ok_line": "Explosive eruption builds land fast.",
+        "ko_title": "Not an eruption",
+        "ko_line": "Not from uplift or tsunami.",
+        "exp_title": "Sudden volcanic island creation",
+        "exp_text": "A large explosive eruption sends out massive amounts of hot ash and lava, which quickly accumulate on the seafloor and rise above sea level, sometimes forming a visible island within days."
+      }
+    ]
+  }
+]

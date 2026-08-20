@@ -153,16 +153,22 @@ class AdminCommentOut(BaseModel):
 # Lectures
 # --------------------------------------------------------------------------
 
-_THEME_SELECT = """
-SELECT t.id, t.title, t.slug, t.description, t.lang, t.visibility, t.color,
-       t.subscriber_count, t.created_at, t.published_at, t.owner_id,
-       c.label AS category_label, c.color AS category_color,
-       u.display_name AS owner_name, u.email AS owner_email,
+# Ce que relit l'admin, ce sont des CHAPITRES — un apprentissage est un
+# chapitre depuis les migrations 016 à 022, et le vocabulaire de l'API
+# n'a pas suivi (voir `routers/feed.py`). Trois choses ont disparu avec
+# l'ancien modèle et valent désormais une constante :
+#   · la langue — anglais seul, décidé et non rouvert ;
+#   · le propriétaire — le catalogue est semé par script, personne ne
+#     possède rien, donc pas d'auteur à joindre ;
+#   · la catégorie — c'est le thème, l'un des jours de la création.
+_CHAPTER_SELECT = """
+SELECT ch.id, ch.title, ch.slug, ch.description, ch.visibility,
+       ch.subscriber_count, ch.created_at, ch.published_at,
+       th.title AS category_label, th.color AS category_color,
        (SELECT COUNT(*) FROM exercise e
-         WHERE e.theme_id = t.id AND e.state = 'validated') AS live_count
-FROM theme t
-JOIN category c ON c.id = t.category_id
-LEFT JOIN app_user u ON u.id = t.owner_id
+         WHERE e.chapter_id = ch.id AND e.state = 'validated') AS live_count
+FROM chapter ch
+JOIN theme th ON th.id = ch.theme_id
 """
 
 
@@ -172,15 +178,12 @@ def _to_theme_out(t: dict) -> AdminThemeOut:
         title=t["title"],
         slug=t["slug"],
         description=t["description"],
-        lang=t["lang"] if t["lang"] in ("fr", "en") else "fr",
+        lang="en",
         visibility=t["visibility"],
         category_label=t["category_label"],
-        color=t["color"] or t["category_color"] or "#0A5C2C",
-        owner_id=t["owner_id"],
-        # L'email n'est pas affiché : relire un thème ne demande pas de
-        # savoir qui l'a écrit, seulement de pouvoir le joindre — et ça,
-        # ça passe par la base, pas par un écran ouvert sur un jeton.
-        owner_name=t["owner_name"] or ("Anonyme" if t["owner_id"] else None),
+        color=t["category_color"] or "#0A5C2C",
+        owner_id=None,
+        owner_name=None,
         exercise_count=t["live_count"],
         subscriber_count=t["subscriber_count"],
         created_at=t["created_at"],
@@ -189,9 +192,9 @@ def _to_theme_out(t: dict) -> AdminThemeOut:
 
 
 def _load_theme(conn: sqlite3.Connection, theme_id: int) -> dict:
-    t = row(conn, _THEME_SELECT + " WHERE t.id = ?", (theme_id,))
+    t = row(conn, _CHAPTER_SELECT + " WHERE ch.id = ?", (theme_id,))
     if t is None:
-        raise HTTPException(status.HTTP_404_NOT_FOUND, "Thème introuvable.")
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Apprentissage introuvable.")
     return t
 
 
@@ -200,7 +203,7 @@ def summary(conn: DbDep, admin: AdminUser) -> AdminSummaryOut:
     """De quoi peindre les compteurs d'onglets en un aller-retour."""
     return AdminSummaryOut(
         pending_themes=scalar(
-            conn, "SELECT COUNT(*) FROM theme WHERE visibility = 'pending'"
+            conn, "SELECT COUNT(*) FROM chapter WHERE visibility = 'pending'"
         )
         or 0,
         quarantined=scalar(
@@ -227,9 +230,9 @@ def pending_themes(conn: DbDep, admin: AdminUser) -> list[AdminThemeOut]:
         _to_theme_out(t)
         for t in rows(
             conn,
-            _THEME_SELECT
-            + " WHERE t.visibility = 'pending'"
-            " ORDER BY COALESCE(t.published_at, t.created_at) ASC, t.id ASC",
+            _CHAPTER_SELECT
+            + " WHERE ch.visibility = 'pending'"
+            " ORDER BY COALESCE(ch.published_at, ch.created_at) ASC, ch.id ASC",
         )
     ]
 
@@ -249,9 +252,9 @@ def quarantined_exercises(
     return [
         AdminExerciseOut(
             id=e["id"],
-            theme_id=e["theme_id"],
-            theme_title=e["theme_title"],
-            color=e["theme_color"] or e["category_color"] or "#0A5C2C",
+            theme_id=e["chapter_id"],
+            theme_title=e["chapter_title"],
+            color=e["day_color"] or "#0A5C2C",
             type_question=e["type_question"],
             state=e["state"],
             prompt=e["prompt"],
@@ -263,16 +266,15 @@ def quarantined_exercises(
         )
         for e in rows(
             conn,
-            "SELECT e.id, e.theme_id, e.type_question, e.state, e.prompt,"
+            "SELECT e.id, e.chapter_id, e.type_question, e.state, e.prompt,"
             "       h.up_count, h.down_count, h.votes, h.down_pct,"
-            "       t.title AS theme_title, t.color AS theme_color,"
-            "       c.color AS category_color,"
+            "       ch.title AS chapter_title, th.color AS day_color,"
             "       (SELECT COUNT(*) FROM exercise_comment k"
             "         WHERE k.exercise_id = e.id) AS comment_count"
             " FROM v_exercise_health h"
-            " JOIN exercise e ON e.id = h.exercise_id"
-            " JOIN theme t    ON t.id = e.theme_id"
-            " JOIN category c ON c.id = t.category_id"
+            " JOIN exercise e  ON e.id = h.exercise_id"
+            " JOIN chapter ch  ON ch.id = e.chapter_id"
+            " JOIN theme th    ON th.id = ch.theme_id"
             " WHERE h.should_quarantine = 1 AND e.state != 'rejected'"
             " ORDER BY h.down_count DESC, e.id ASC LIMIT ?",
             (limit,),
@@ -298,17 +300,18 @@ def recent_comments(
             user_id=k["user_id"],
             exercise_id=k["exercise_id"],
             exercise_prompt=k["prompt"],
-            theme_id=k["theme_id"],
-            theme_title=k["theme_title"],
+            theme_id=k["chapter_id"],
+            theme_title=k["chapter_title"],
         )
         for k in rows(
             conn,
             "SELECT k.id, k.body, k.created_at, k.is_read, k.user_id, k.exercise_id,"
-            "       u.display_name, e.prompt, t.id AS theme_id, t.title AS theme_title"
+            "       u.display_name, e.prompt, ch.id AS chapter_id,"
+            "       ch.title AS chapter_title"
             " FROM exercise_comment k"
             " JOIN app_user u ON u.id = k.user_id"
             " JOIN exercise e ON e.id = k.exercise_id"
-            " JOIN theme t    ON t.id = e.theme_id"
+            " JOIN chapter ch ON ch.id = e.chapter_id"
             f" {where}"
             " ORDER BY k.created_at DESC, k.id DESC LIMIT ?",
             (limit,),
@@ -329,7 +332,7 @@ def approve_theme(theme_id: int, conn: DbDep, admin: AdminUser) -> AdminThemeOut
         return _to_theme_out(t)
     with transaction(conn):
         conn.execute(
-            "UPDATE theme SET visibility = 'public', published_at = datetime('now')"
+            "UPDATE chapter SET visibility = 'public', published_at = datetime('now')"
             " WHERE id = ?",
             (theme_id,),
         )
@@ -347,33 +350,33 @@ def reject_theme(theme_id: int, conn: DbDep, admin: AdminUser) -> AdminThemeOut:
     t = _load_theme(conn, theme_id)
     if t["visibility"] != "pending":
         raise HTTPException(
-            status.HTTP_409_CONFLICT, "Ce thème n'est pas en attente de relecture."
+            status.HTTP_409_CONFLICT, "Cet apprentissage n'est pas en attente de relecture."
         )
     with transaction(conn):
         conn.execute(
-            "UPDATE theme SET visibility = 'private', published_at = NULL WHERE id = ?",
+            "UPDATE chapter SET visibility = 'private', published_at = NULL WHERE id = ?",
             (theme_id,),
         )
     return _to_theme_out(_load_theme(conn, theme_id))
 
 
-def _recount(conn: sqlite3.Connection, theme_id: int) -> None:
-    """`theme.exercise_count` ne compte que le validé — comme partout ailleurs."""
+def _recount(conn: sqlite3.Connection, chapter_id: int) -> None:
+    """`chapter.exercise_count` ne compte que le validé — comme partout ailleurs."""
     conn.execute(
-        "UPDATE theme SET exercise_count ="
-        " (SELECT COUNT(*) FROM exercise WHERE theme_id = ? AND state = 'validated')"
+        "UPDATE chapter SET exercise_count ="
+        " (SELECT COUNT(*) FROM exercise WHERE chapter_id = ? AND state = 'validated')"
         " WHERE id = ?",
-        (theme_id, theme_id),
+        (chapter_id, chapter_id),
     )
 
 
 def _set_state(conn: sqlite3.Connection, exercise_id: int, state: str) -> dict:
-    e = row(conn, "SELECT id, theme_id FROM exercise WHERE id = ?", (exercise_id,))
+    e = row(conn, "SELECT id, chapter_id FROM exercise WHERE id = ?", (exercise_id,))
     if e is None:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Exercice introuvable.")
     with transaction(conn):
         conn.execute("UPDATE exercise SET state = ? WHERE id = ?", (state, exercise_id))
-        _recount(conn, e["theme_id"])
+        _recount(conn, e["chapter_id"])
     return e
 
 

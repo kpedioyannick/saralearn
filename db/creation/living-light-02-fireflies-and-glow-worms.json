@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 97,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What kind of animal is a firefly?",
+        "body": null,
+        "options": [
+          {
+            "label": "A beetle",
+            "feedback": "It has hard wing cases like any other beetle."
+          },
+          {
+            "label": "A fly",
+            "feedback": "The name misleads. It is not a fly at all."
+          },
+          {
+            "label": "A moth",
+            "feedback": "Moths have scaled wings and no wing cases."
+          },
+          {
+            "label": "A small wasp",
+            "feedback": "Wasps have a narrow waist and no wing cases."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A beetle, despite two misleading names.",
+        "ko_title": "Not that.",
+        "ko_line": "Look at the hard covers folded over its wings. Which group does that?",
+        "exp_title": "Neither a fly nor a worm",
+        "exp_text": "Fireflies are beetles of the family Lampyridae, with the hardened front wings that define the group. The other common name, glow-worm, is equally misleading: it usually refers to the wingless female or to the larva, both of which glow and neither of which is a worm. Around two thousand species are known, and not all of them light up as adults."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where on a firefly's body is the light produced?",
+        "body": null,
+        "options": [
+          {
+            "label": "In the last segments of the abdomen",
+            "feedback": "A pale patch of tissue at the rear."
+          },
+          {
+            "label": "In the eyes",
+            "feedback": "Its eyes are large but produce no light."
+          },
+          {
+            "label": "In the wing cases",
+            "feedback": "Those are hard and opaque."
+          },
+          {
+            "label": "In the antennae",
+            "feedback": "The antennae sense; they do not shine."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The tail end, and you can see the pale patch by day.",
+        "ko_title": "Not it.",
+        "ko_line": "Watch a firefly flash and note which end of the body lights up.",
+        "exp_title": "A lantern in the tail",
+        "exp_text": "The light organ occupies the last two or three abdominal segments, visible in daylight as a pale creamy patch. Behind the light-producing cells lies a reflective layer packed with crystals that throws the glow outward instead of letting it waste inside the body. The outer cuticle over the organ carries a microscopic pattern of scales that lets more light escape — an arrangement engineers copied to improve LED efficiency."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a firefly switch its light on and off so sharply?",
+        "body": null,
+        "options": [
+          {
+            "label": "By controlling the oxygen supply",
+            "feedback": "No oxygen, no reaction, no light."
+          },
+          {
+            "label": "By covering the organ with a flap",
+            "feedback": "There is no shutter of any kind."
+          },
+          {
+            "label": "By changing its body temperature",
+            "feedback": "Temperature is not what gates the reaction."
+          },
+          {
+            "label": "By squeezing out a fresh chemical",
+            "feedback": "The fuel is already in place and waiting."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Oxygen is the switch, and it can be cut in a fraction of a second.",
+        "ko_title": "Not it.",
+        "ko_line": "The reaction needs three things. Which of them could be turned on and off quickly?",
+        "exp_title": "Oxygen as the switch",
+        "exp_text": "The fuel and the enzyme sit ready in the light organ; what is rationed is oxygen, delivered through fine air tubes. Nitric oxide released by the insect's nerves briefly stops the surrounding cells from consuming oxygen, so a pulse floods through to the light cells and the lantern fires. Cut it off and the light stops within milliseconds — precise enough to send a coded pattern."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does a female firefly's answering flash tell the male?",
+        "body": null,
+        "options": [
+          {
+            "label": "That she is the right species",
+            "feedback": "The delay before her reply identifies her."
+          },
+          {
+            "label": "How far away she is",
+            "feedback": "He judges distance by brightness, not by timing."
+          },
+          {
+            "label": "How old she is",
+            "feedback": "Age is not carried in the signal."
+          },
+          {
+            "label": "That danger is nearby",
+            "feedback": "The exchange is courtship, not alarm."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The delay is the password, and it is measured in fractions of a second.",
+        "ko_title": "Not that.",
+        "ko_line": "She waits a precise interval before answering. Why would the interval matter?",
+        "exp_title": "A password made of timing",
+        "exp_text": "The male flies and flashes his species' pattern; a perched female answers after a delay that is specific to her species — often around two seconds, and accurate to a fraction of one. He reads the delay, not the brightness, and only approaches if it matches. Where several species share a meadow, the timing is what keeps them from courting the wrong partner."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a Photuris female trap males of other species?",
+        "body": null,
+        "options": [
+          {
+            "label": "She copies their answering flash",
+            "feedback": "The male approaches, and she eats him."
+          },
+          {
+            "label": "She builds a web to catch them",
+            "feedback": "Beetles do not spin webs."
+          },
+          {
+            "label": "She releases their species' scent",
+            "feedback": "The trap is visual, not chemical."
+          },
+          {
+            "label": "She waits at their nest sites",
+            "feedback": "Fireflies have no nests."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "She learns another species' reply and answers with it.",
+        "ko_title": "Not it.",
+        "ko_line": "The whole courtship runs on flash codes. What would a predator do with that?",
+        "exp_title": "Answering in a stolen code",
+        "exp_text": "Females of the genus Photuris mimic the reply timing of other firefly species, luring the males in and eating them. They can switch between several codes depending on who is flashing nearby. There is a second motive: their prey carry defensive chemicals called lucibufagins that Photuris cannot make itself, and eating a male supplies them — which she then passes to her own eggs."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a glow-worm, in most cases?",
+        "body": null,
+        "options": [
+          {
+            "label": "A wingless female firefly",
+            "feedback": "She glows steadily from the ground to attract a flying male."
+          },
+          {
+            "label": "A worm that has eaten fireflies",
+            "feedback": "Eating a glowing animal does not make you glow."
+          },
+          {
+            "label": "A separate species of earthworm",
+            "feedback": "No earthworm produces light."
+          },
+          {
+            "label": "A caterpillar that shines",
+            "feedback": "The glowing larva is a beetle grub, not a caterpillar."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The same beetle, in the form that never flies.",
+        "ko_title": "Not that.",
+        "ko_line": "It is not a worm, and it is closely related to something already discussed here.",
+        "exp_title": "The female who never flies",
+        "exp_text": "In many European species the female never develops wings. She climbs a grass stem at dusk and shines a steady green light upward, and males patrol overhead looking for her — the reverse of the flashing courtship of American fireflies. The larvae glow too, and hunt slugs and snails, paralysing prey many times their own size before eating it over several days."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is remarkable about the fireflies of some Southeast Asian rivers?",
+        "body": null,
+        "options": [
+          {
+            "label": "Whole trees flash in unison",
+            "feedback": "Thousands of insects on and off together."
+          },
+          {
+            "label": "They flash in every colour",
+            "feedback": "The colour range is narrow, mostly yellow-green."
+          },
+          {
+            "label": "They glow continuously all night",
+            "feedback": "The point is that they pulse rather than glow."
+          },
+          {
+            "label": "They fly only during the day",
+            "feedback": "A daytime flash would be invisible."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Thousands of beetles, one rhythm, whole trees pulsing together.",
+        "ko_title": "Not it.",
+        "ko_line": "The remarkable part is not the light itself but the coordination.",
+        "exp_title": "Thousands of insects on one beat",
+        "exp_text": "Along mangrove rivers in Malaysia and Thailand, males gather in particular trees and flash in unison, sometimes tens of thousands together, and whole riverbanks pulse two or three times a second for hours. Each insect adjusts its own rhythm slightly towards its neighbours, and synchrony emerges without any leader. It is the same mathematics that makes pendulum clocks on a shared wall fall into step."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What do New Zealand cave glow-worms use their light for?",
+        "body": null,
+        "options": [
+          {
+            "label": "To lure insects into hanging threads",
+            "feedback": "The prey flies at the light and sticks."
+          },
+          {
+            "label": "To attract a mate in the dark",
+            "feedback": "It is the larva that glows, and it does not mate."
+          },
+          {
+            "label": "To see the cave walls",
+            "feedback": "The light is far too weak to see by."
+          },
+          {
+            "label": "To warn bats away",
+            "feedback": "Bats are not the concern in those caves."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "A ceiling of false stars, over threads of glue.",
+        "ko_title": "Not that.",
+        "ko_line": "It hangs sticky threads below itself. What is the light for, then?",
+        "exp_title": "A false sky over a trap",
+        "exp_text": "The larva of a fungus gnat hangs from a cave ceiling and lowers dozens of silk threads beaded with mucus, then glows. Insects hatched in the cave fly towards what looks like open sky, hit the threads and are hauled up. A hungry larva shines brighter than a well-fed one. Caves at Waitomo hold enough of them to read by, and the effect is close to a starry night indoors."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do firefly eggs and larvae glow as well?",
+        "body": null,
+        "options": [
+          {
+            "label": "It warns predators they taste foul",
+            "feedback": "They carry defensive chemicals, and advertise it."
+          },
+          {
+            "label": "It helps the parents find them",
+            "feedback": "Adults do not tend their eggs."
+          },
+          {
+            "label": "It keeps the eggs warm",
+            "feedback": "The light gives off almost no heat."
+          },
+          {
+            "label": "It attracts food to the larvae",
+            "feedback": "The larvae hunt snails, which ignore light."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A label, not a lure: do not eat me.",
+        "ko_title": "Not it.",
+        "ko_line": "The egg cannot mate, cannot hunt and cannot flee. What is left for a signal to do?",
+        "exp_title": "The glow began as a warning",
+        "exp_text": "Fireflies at every stage — eggs, larvae, pupae and adults — carry bitter defensive chemicals, and the glow appears to have started as a warning label rather than a courtship signal. Larvae glow in all species, including those whose adults do not, which suggests the warning came first and the mating code was built on top of it much later."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are fireflies becoming harder to find in many places?",
+        "body": null,
+        "options": [
+          {
+            "label": "Artificial light drowns their signals",
+            "feedback": "They cannot see each other's flashes against it."
+          },
+          {
+            "label": "They are being eaten by birds",
+            "feedback": "Birds mostly avoid them; they taste foul."
+          },
+          {
+            "label": "The nights have become too cold",
+            "feedback": "Cold slows them but is not the main cause."
+          },
+          {
+            "label": "They have run out of food",
+            "feedback": "Snails and slugs remain plentiful."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Their whole language is written in flashes, and the page is no longer dark.",
+        "ko_title": "Not it.",
+        "ko_line": "Their courtship depends entirely on being able to see a small light. What ruins that?",
+        "exp_title": "A conversation drowned out",
+        "exp_text": "Firefly courtship depends on faint flashes being visible against darkness. Where streetlights and floodlights raise the background, males and females can no longer read each other and fail to pair. Studies find fewer flashes and fewer matings near lit areas, and the loss of damp grassland where larvae hunt snails compounds it. Turning lights off during the season measurably helps."
+      }
+    ]
+  }
+]

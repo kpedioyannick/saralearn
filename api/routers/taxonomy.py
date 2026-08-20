@@ -1,11 +1,11 @@
-"""Catégories, sous-catégories, tags — ce que l'écran Paramètres liste."""
+"""Catégories et tags — ce que l'écran Paramètres liste."""
 
 from __future__ import annotations
 
 from fastapi import APIRouter
 
 from ..db import rows
-from ..schemas import CategoryOut, SubCategoryOut
+from ..schemas import CategoryOut
 from ..security import DbDep, OptionalUser
 
 router = APIRouter(tags=["taxonomie"])
@@ -13,41 +13,37 @@ router = APIRouter(tags=["taxonomie"])
 
 @router.get("/categories", response_model=list[CategoryOut])
 def categories(conn: DbDep, user: OptionalUser) -> list[CategoryOut]:
-    # La taxonomie est traduite : on retombe sur le libellé français si
-    # la traduction manque, plutôt que d'afficher un trou.
-    en = user is not None and user["lang"] == "en"
-    label = "COALESCE(label_en, label)" if en else "label"
-    lang = "en" if en else "fr"
-    # Une catégorie sans lang vaut pour tout le monde ; « Français » et
-    # « English » enseignent une langue donnée et n'ont de sens que dans
-    # celle-ci. Sans ce filtre on proposait à la création une catégorie
-    # dont les thèmes seraient ensuite écartés du catalogue, qui filtre
-    # déjà sur la langue (voir /themes).
+    """Les catégories, ce sont les THÈMES — les six jours de la création.
+
+    La table `category` a disparu avec la reconstruction du catalogue, et
+    tout ce qui la joignait rendait 500 : l'écran affichait « 0 learning ·
+    0 category » parce qu'il ne recevait rien, pas parce qu'il n'avait
+    rien à montrer.
+
+    La base avait déjà bougé sans l'API : `attempt.chapter_id`,
+    `user_chapter`, `exercise.chapter_id` — tout est accroché au chapitre
+    depuis les migrations 016 à 022. Le vocabulaire suit enfin :
+
+        catégorie  ←  theme    (11 lignes, les jours de la création)
+        learning   ←  chapter  (l'arbre de connaissance, voir /themes)
+
+    Le titre suit la langue du lecteur quand il a été traduit. Les onze
+    jours sont nommés à la main dans la migration 025 : ce sont des noms
+    choisis, pas des traductions — « The Human Being » devient « L'Être
+    humain » parce que quelqu'un l'a décidé, pas parce qu'une machine
+    l'a rendu.
+    """
+    lang = user["lang"] if user and user["lang"] in ("fr", "en") else "en"
     cats = rows(
         conn,
-        f"SELECT id, slug, {label} AS label, color FROM category"
-        " WHERE lang IS NULL OR lang = ? ORDER BY position, label",
+        "SELECT th.id, th.slug, COALESCE(tt.title, th.title) AS label, th.color"
+        "  FROM theme th"
+        "  LEFT JOIN theme_translation tt ON tt.theme_id = th.id AND tt.lang = ?"
+        " WHERE th.status = 'active' ORDER BY th.position, th.title",
         (lang,),
     )
-    subs = rows(
-        conn,
-        f"SELECT id, category_id, slug, {label} AS label, color FROM sub_category"
-        " WHERE lang IS NULL OR lang = ? ORDER BY position, label",
-        (lang,),
-    )
-    by_cat: dict[int, list[SubCategoryOut]] = {}
-    for s in subs:
-        by_cat.setdefault(s["category_id"], []).append(
-            SubCategoryOut(id=s["id"], slug=s["slug"], label=s["label"], color=s["color"])
-        )
     return [
-        CategoryOut(
-            id=c["id"],
-            slug=c["slug"],
-            label=c["label"],
-            color=c["color"],
-            sub_categories=by_cat.get(c["id"], []),
-        )
+        CategoryOut(id=c["id"], slug=c["slug"], label=c["label"], color=c["color"])
         for c in cats
     ]
 
@@ -75,4 +71,12 @@ def credits(conn: DbDep) -> dict:
 
 @router.get("/tags", response_model=list[str])
 def tags(conn: DbDep) -> list[str]:
-    return [t["label"] for t in rows(conn, "SELECT label FROM tag ORDER BY label")]
+    """Plus de tags : les tables `tag` et `theme_tag` sont parties avec la
+    reconstruction du catalogue, et rien ne les a remplacées — un
+    apprentissage est rangé par son jour, ça suffit.
+
+    La route reste, et rend une liste vide plutôt qu'un 500 : le client
+    déployé la demande encore, et une erreur ici lui abîmait un écran
+    pour une donnée qui n'existe plus.
+    """
+    return []

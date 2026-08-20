@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is diffuse sky radiation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sunlight that reaches the ground after being scattered in the atmosphere",
+            "feedback": "Correct. Diffuse sky radiation is solar radiation that has been scattered from the direct beam by molecules or particles in the air."
+          },
+          {
+            "label": "Sunlight that travels straight from the Sun to the ground without change",
+            "feedback": "That describes direct sunlight, not the scattered light that makes the sky glow."
+          },
+          {
+            "label": "Light given off by the atmosphere itself at night",
+            "feedback": "That is a different phenomenon; diffuse sky radiation comes from the Sun's light being scattered."
+          },
+          {
+            "label": "Light reflected off the ground back into the sky",
+            "feedback": "Reflection from the ground is not what makes the sky blue; the sky's light is scattered sunlight."
+          }
+        ],
+        "ok_title": "Scattered sunlight",
+        "ok_line": "It is sunlight bent by the air.",
+        "ko_title": "Not direct or reflected",
+        "ko_line": "It is scattered, not direct or ground-reflected.",
+        "exp_title": "Definition of diffuse sky radiation",
+        "exp_text": "Diffuse sky radiation is solar radiation that reaches the Earth's surface after being scattered from the direct solar beam by molecules or particulates in the atmosphere. It is the light that fills the sky on a clear day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour does the atmosphere scatter most strongly?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red has a longer wavelength, so it is scattered less than blue, not more."
+          },
+          {
+            "label": "Blue",
+            "feedback": "Correct. Blue light has a shorter wavelength, so the atmosphere scatters it more efficiently than red or green."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green is in between; longer than blue, so it is scattered less than blue."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow has a longer wavelength than blue, so it is scattered less strongly."
+          }
+        ],
+        "ok_title": "Blue scatters most",
+        "ok_line": "Short wavelengths are scattered the most.",
+        "ko_title": "Longer waves scatter less",
+        "ko_line": "Red and green are longer waves, so they scatter less.",
+        "exp_title": "Wavelength and scattering",
+        "exp_text": "Because its wavelength is shorter, blue light is scattered more strongly than red or green light. That is why the sky looks blue when you look away from the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of scattering happens when the particles in the air are much smaller than the wavelength of the light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Mie scattering",
+            "feedback": "Mie scattering happens when the particles are larger, not much smaller than the wavelength."
+          },
+          {
+            "label": "Geometric optics scattering",
+            "feedback": "Geometric optics apply when the particles are much larger, not smaller, than the wavelength."
+          },
+          {
+            "label": "Rayleigh scattering",
+            "feedback": "Correct. When the particle diameter is less than about one-tenth of the light's wavelength, Rayleigh scattering occurs."
+          },
+          {
+            "label": "No scattering at all",
+            "feedback": "Scattering still happens; this is exactly the condition that produces Rayleigh scattering."
+          }
+        ],
+        "ok_title": "Rayleigh scattering",
+        "ok_line": "Small particles give Rayleigh scattering.",
+        "ko_title": "Other scattering types",
+        "ko_line": "Mie and geometric optics need larger particles.",
+        "exp_title": "Rayleigh scattering condition",
+        "exp_text": "When the ratio of particle diameter to wavelength is less than about one-tenth, Rayleigh scattering occurs. This is the process that makes the sky blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Under an overcast sky, what happens to direct sunlight?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "There is no direct sunlight; all light is diffuse",
+            "feedback": "Correct. Under an overcast sky, essentially no direct sunlight reaches the ground; all light is diffuse sky radiation."
+          },
+          {
+            "label": "Direct sunlight still reaches the ground but is weaker",
+            "feedback": "Clouds block the direct beam entirely; the light you see is scattered, not direct."
+          },
+          {
+            "label": "Direct sunlight becomes red because of the clouds",
+            "feedback": "The colour change to red happens at sunrise and sunset, not under an overcast sky."
+          },
+          {
+            "label": "Direct sunlight turns into blue light only",
+            "feedback": "Clouds scatter all colours roughly equally; they do not turn the light blue."
+          }
+        ],
+        "ok_title": "No direct beam",
+        "ok_line": "Clouds take away the direct sunlight.",
+        "ko_title": "Diffuse only",
+        "ko_line": "Only scattered light reaches the ground.",
+        "exp_title": "Overcast sky light",
+        "exp_text": "Under an overcast sky there is essentially no direct sunlight; all light results from diffused skylight radiation. The clouds scatter all colours about equally."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do clouds look white rather than blue?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they block all light",
+            "feedback": "Clouds let light through; they scatter it, not block it completely."
+          },
+          {
+            "label": "Because they scatter blue light more than other colours",
+            "feedback": "That is what the clear sky does, not what clouds do."
+          },
+          {
+            "label": "Because they absorb all colours equally",
+            "feedback": "Clouds are translucent, not absorbing; they scatter the light."
+          },
+          {
+            "label": "Because their droplets are large and scatter all colours equally",
+            "feedback": "Correct. Cloud droplets are larger than the light's wavelength, so they scatter all colours about equally, which we see as white."
+          }
+        ],
+        "ok_title": "Equal scattering",
+        "ok_line": "Big droplets scatter every colour alike.",
+        "ko_title": "Not like the sky",
+        "ko_line": "Clouds do not favour blue; they scatter all.",
+        "exp_title": "Why clouds are white",
+        "exp_text": "Cloud droplets are larger than the wavelength of light, so they scatter all colours approximately equally. The combined light appears white, not blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the path of sunlight at sunrise or sunset?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It travels straight down through the atmosphere",
+            "feedback": "That happens at midday, not near the horizon."
+          },
+          {
+            "label": "It travels nearly parallel to the ground, so it passes through more air",
+            "feedback": "Correct. At sunrise and sunset the sunlight arrives nearly tangentially to the Earth's surface, so its path through the atmosphere is much longer."
+          },
+          {
+            "label": "It is bent by the ground and comes from below",
+            "feedback": "The ground does not bend sunlight in this way; the path is through the air."
+          },
+          {
+            "label": "It stops moving and hangs in the air",
+            "feedback": "Light always moves; it does not stop at the horizon."
+          }
+        ],
+        "ok_title": "Longer path at horizon",
+        "ok_line": "Sunlight skims along the ground at dawn and dusk.",
+        "ko_title": "Not vertical",
+        "ko_line": "It is nearly sideways, not straight down.",
+        "exp_title": "Sunlight path at sunrise and sunset",
+        "exp_text": "At sunrise or sunset, the solar beam arrives nearly tangentially to the Earth's surface. This makes its path through the atmosphere longer than at midday."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colours are removed from the sunlight beam when it travels a long path through the atmosphere at sunset?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red and orange",
+            "feedback": "Those are the colours that remain in the beam, not the ones removed."
+          },
+          {
+            "label": "Yellow and white",
+            "feedback": "Yellow is not the main colour scattered away; blue and green are."
+          },
+          {
+            "label": "Blue and green",
+            "feedback": "Correct. Along the long path at sunset, much of the blue and green light is scattered away, leaving the red and orange."
+          },
+          {
+            "label": "All colours equally",
+            "feedback": "Scattering is not equal; it removes the shorter wavelengths more strongly."
+          }
+        ],
+        "ok_title": "Blue and green removed",
+        "ok_line": "Short waves scatter out of the beam.",
+        "ko_title": "Red survives",
+        "ko_line": "Red and orange are left in the beam.",
+        "exp_title": "Colours lost at sunset",
+        "exp_text": "At sunset, the sunlight travels a long path through the atmosphere, and much of the blue and green light is scattered away. The remaining light is orange to red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What colour do the clouds near the setting Sun take on?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Orange to red",
+            "feedback": "Correct. The clouds near the setting Sun are illuminated by the remaining light, which is orange to red."
+          },
+          {
+            "label": "Blue to green",
+            "feedback": "Blue and green have been scattered away by then, so they are not what you see there."
+          },
+          {
+            "label": "White as always",
+            "feedback": "Clouds normally look white under a blue sky, but near the setting Sun they take the colour of the remaining light."
+          },
+          {
+            "label": "Purple",
+            "feedback": "Purple is not the colour of the light left in the beam at sunset; it is orange to red."
+          }
+        ],
+        "ok_title": "Red clouds at sunset",
+        "ok_line": "Clouds show the colour of the light left.",
+        "ko_title": "Not blue or white",
+        "ko_line": "The scattered blue is gone; you see red-orange.",
+        "exp_title": "Cloud colour at sunset",
+        "exp_text": "Clouds near the setting Sun are lit by the remaining sunlight, which has lost its blue and green. They therefore appear orange to red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of molecules in the air are involved in making the sky blue in broad daylight?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Ozone molecules only",
+            "feedback": "Ozone contributes mainly near twilight, not in broad daylight for the blue sky."
+          },
+          {
+            "label": "Water vapour molecules",
+            "feedback": "Water vapour is not the main scatterer for the blue sky; the diatomic gases are."
+          },
+          {
+            "label": "Cloud droplets",
+            "feedback": "Cloud droplets are large and scatter all colours equally, so they do not make the sky blue."
+          },
+          {
+            "label": "Diatomic gases N2 and O2",
+            "feedback": "Correct. In broad daylight, the blue sky is due to Rayleigh scattering, which involves the diatomic gases nitrogen and oxygen."
+          }
+        ],
+        "ok_title": "Nitrogen and oxygen",
+        "ok_line": "These two gases scatter the blue light.",
+        "ko_title": "Other substances",
+        "ko_line": "Ozone and water vapour play different roles.",
+        "exp_title": "Gases behind the blue sky",
+        "exp_text": "In broad daylight, the blue sky comes from Rayleigh scattering, and the scattering is done by the diatomic gases N2 and O2 in the air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What helps keep the sky blue during twilight, near sunset?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The red light from the Sun",
+            "feedback": "Red light cannot make the sky blue; it is the remaining light of a different kind."
+          },
+          {
+            "label": "Absorption by ozone (O3)",
+            "feedback": "Correct. Near sunset and especially during twilight, absorption by ozone significantly contributes to maintaining the blue colour in the evening sky."
+          },
+          {
+            "label": "The clouds at the horizon",
+            "feedback": "Clouds scatter all colours equally; they do not keep the sky blue."
+          },
+          {
+            "label": "The dust particles in the air",
+            "feedback": "Dust is not what maintains the blue colour at twilight; it is ozone absorption."
+          }
+        ],
+        "ok_title": "Ozone keeps it blue",
+        "ok_line": "Ozone absorbs light and keeps the sky blue.",
+        "ko_title": "Not scattering alone",
+        "ko_line": "It is absorption by ozone, not dust or clouds.",
+        "exp_title": "Twilight blue from ozone",
+        "exp_text": "Near sunset and during twilight, absorption by ozone (O3) significantly helps to maintain the blue colour in the evening sky."
+      }
+    ]
+  }
+]

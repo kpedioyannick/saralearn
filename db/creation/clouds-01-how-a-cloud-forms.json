@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 111,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is a cloud actually made of, once it has formed?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Countless tiny droplets of water",
+            "feedback": "Vapour condenses onto specks in the air, and a cloud is the crowd of droplets that result."
+          },
+          {
+            "label": "Water vapour, the same as invisible steam",
+            "feedback": "Vapour is the gas a cloud is made from, but a cloud itself is no longer gas -- it has already condensed into something you can see."
+          },
+          {
+            "label": "Smoke drifting up from below",
+            "feedback": "Smoke rises from fires and settles as haze; nothing about a fire is needed for an ordinary cloud to form."
+          },
+          {
+            "label": "Compressed air, packed tightly together",
+            "feedback": "A cloud is air with something floating inside it, not air squeezed into a different form."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ok_line": "Vapour you cannot see; droplets you can.",
+        "ko_title": "Not the gas",
+        "ko_line": "Ask what changed between an invisible vapour and something you can look at.",
+        "exp_title": "Water made visible",
+        "exp_text": "Water vapour is a gas, spread thin and invisible between the other gases of the air. A cloud appears only once that vapour cools enough to condense, gathering onto tiny particles and turning into liquid water again -- now as droplets far too small to fall, but plainly visible because each one scatters light. What you are looking at is not the vapour itself but the crowd of droplets it left behind."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does air cool as it rises high into the sky?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It moves further from the warm ground below",
+            "feedback": "Distance from the ground plays some part on a still day, but a rising parcel of air cools far faster than that alone would explain."
+          },
+          {
+            "label": "It expands into the thinner air above, and expanding takes energy",
+            "feedback": "The pressure aloft is lower, so the parcel spreads out, and spreading out costs it some of its own heat."
+          },
+          {
+            "label": "Sunlight grows weaker higher up",
+            "feedback": "Sunlight barely changes over the height a cloud forms at; the sun is not the reason for this cooling."
+          },
+          {
+            "label": "It moves faster once it clears the ground's drag",
+            "feedback": "Speed of movement has nothing to do with a gas's temperature; friction with the ground was never what kept it warm."
+          }
+        ],
+        "ok_title": "That's the mechanism",
+        "ok_line": "Rising air pays for its own room to expand.",
+        "ko_title": "Not distance, not light",
+        "ko_line": "Ask what happens to a gas when the pressure squeezing it drops.",
+        "exp_title": "Cooling by expansion",
+        "exp_text": "Air pressure drops steadily with height, because there is less atmosphere left overhead to press down. A rising parcel of air moves into that lower pressure and expands to match it, and pushing its own surroundings outward as it expands uses up some of the energy stored in its molecules. That loss of energy is a loss of heat, so the parcel arrives higher up noticeably cooler than it left the ground."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a rising cloud often have a distinct, level bottom rather than fading gradually into clear sky?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Wind flattens the underside as the cloud drifts",
+            "feedback": "Wind can shear a cloud's edges, but it does not explain why the base sits at one exact height rather than another."
+          },
+          {
+            "label": "Water droplets are heaviest near the base and sink there first",
+            "feedback": "Droplets forming throughout the cloud are all much the same tiny size; none of them are heavy enough to sink and pool at a floor."
+          },
+          {
+            "label": "The rising air only cools enough to condense once it passes a particular height",
+            "feedback": "Below that line the air was still too warm to let go of its water."
+          },
+          {
+            "label": "Sunlight only reaches that height and no lower",
+            "feedback": "Light passes straight through clear air below a cloud; it is not blocked or absorbed there in any way that would mark a boundary."
+          }
+        ],
+        "ok_title": "Right height, right reason",
+        "ok_line": "Below that line the air was still too warm to let go of its water.",
+        "ko_title": "Not wind, not weight",
+        "ko_line": "Ask what has to happen to the air itself before any droplet can form at all.",
+        "exp_title": "One height, one threshold",
+        "exp_text": "As a bubble of moist air rises it keeps cooling, but nothing condenses until it cools all the way down to its dew point -- the temperature at which it can no longer hold its water as invisible vapour. Since nearby parcels of air share roughly the same temperature and moisture on a given day, they all cross that threshold at almost the same height, and the cloud only becomes visible above it. Below that line the air is just as moist, only still too warm to show it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you see your own breath as a small cloud on a cold day?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Breath is made of visible carbon dioxide",
+            "feedback": "Carbon dioxide is as invisible as the rest of the air around you; it is never what you are seeing."
+          },
+          {
+            "label": "Cold air always looks slightly misty",
+            "feedback": "Cold air by itself is perfectly clear; the mist appears only where your warm, moist breath meets it."
+          },
+          {
+            "label": "It's dust stirred up by the force of exhaling",
+            "feedback": "The puff appears just as clearly outdoors on the cleanest, dust-free morning, so dust is not what makes it visible."
+          },
+          {
+            "label": "Breath carries water vapour that condenses in the cold outside air",
+            "feedback": "Your breath is warm and loaded with moisture, and that moisture condenses the instant it meets the cold."
+          }
+        ],
+        "ok_title": "Same trick, small scale",
+        "ok_line": "Your own breath is a cloud you make on purpose.",
+        "ko_title": "Look at the air, not the breath",
+        "ko_line": "Ask what your breath is carrying that the cold outside air is not.",
+        "exp_title": "A pocket-sized cloud",
+        "exp_text": "Air inside your lungs is warm and loaded with water vapour picked up from the moisture lining your throat. The instant you breathe it out, it meets much colder air and cools far below its dew point almost at once, so the vapour condenses into a fine mist of droplets before it has time to spread out and vanish. The puff fades within a second only because those droplets evaporate again as they mix into the wider, drier air."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why might a bubble of rising air fail to form any cloud at all, even on a day when the sky elsewhere is clear and the air is clearly rising?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The air is rising, but it is too dry to reach its dew point",
+            "feedback": "Cooling alone was never the missing step; without enough vapour, the air never gets to saturation."
+          },
+          {
+            "label": "The air is rising too slowly for condensation to keep up",
+            "feedback": "Slow rising still cools a parcel just as surely as fast rising; speed changes how quickly a cloud grows, not whether it can form."
+          },
+          {
+            "label": "There are no clouds nearby to seed it",
+            "feedback": "One cloud does not need another nearby to form; each parcel of air condenses or not on its own moisture and temperature alone."
+          },
+          {
+            "label": "The ground below is too warm for a cloud to form",
+            "feedback": "A warm ground is exactly what starts air rising in the first place; it is not something that then prevents a cloud."
+          }
+        ],
+        "ok_title": "Dry air, no cloud",
+        "ok_line": "Cooling alone was never the missing step.",
+        "ko_title": "Cooling isn't enough on its own",
+        "ko_line": "The air was already doing the one thing every rising parcel does. What else does condensation require?",
+        "exp_title": "Cooling without enough to condense",
+        "exp_text": "Rising air always cools, whether it is damp or dry, because that cooling comes simply from expanding into lower pressure. But a cloud only appears once the vapour inside that air is concentrated enough to reach saturation at the temperature it has cooled to -- and a parcel that started out dry can go on cooling and rising without ever having enough vapour to spare. It keeps rising invisibly, carrying too little water to ever cross that threshold."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can't water vapour condense into a cloud droplet with nothing but cold, moist air around it?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It needs sunlight to trigger the change",
+            "feedback": "Condensation is driven by cooling, not light; clouds form just as readily overnight as during the day."
+          },
+          {
+            "label": "It needs a tiny particle of dust or salt to condense onto",
+            "feedback": "A cloud droplet almost always has a speck of something else at its centre for the vapour to gather on."
+          },
+          {
+            "label": "It needs the air to be completely still",
+            "feedback": "Clouds form in windy, turbulent air all the time; stillness is not a requirement for condensation."
+          },
+          {
+            "label": "It needs the temperature to reach freezing",
+            "feedback": "Most clouds are made of liquid droplets that form well above freezing; ice only appears in the coldest, highest clouds."
+          }
+        ],
+        "ok_title": "A speck to start from",
+        "ok_line": "Water gathers far more easily around something than around nothing.",
+        "ko_title": "Not light, not stillness, not frost",
+        "ko_line": "Even saturated, humid air needs something physical to begin condensing onto.",
+        "exp_title": "Nothing condenses onto nothing",
+        "exp_text": "Water molecules clinging directly to each other in mid-air, with no surface to gather on, keep breaking apart faster than they can build a stable droplet -- condensation that way needs air far more saturated than any real cloud ever gets. What every ordinary cloud relies on instead is the huge number of microscopic specks already drifting in the air -- flecks of sea salt, dust, and pollen -- each one giving the vapour a surface to condense onto at once. A cloud droplet, in other words, almost always has a speck of something else at its centre."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do clouds often sit against a mountainside even when the sky over the flat land nearby is completely clear?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The mountain is simply colder than the surrounding land",
+            "feedback": "A colder mountaintop alone would not make the air passing over it moist enough to condense; something has to lift and cool that air first."
+          },
+          {
+            "label": "Clouds are attracted to tall, solid objects",
+            "feedback": "Cloud droplets have no pull toward solid ground of any height; a cloud forms wherever the air itself cools past its dew point."
+          },
+          {
+            "label": "Wind is forced to rise up the mountain's slope and cools as it climbs",
+            "feedback": "The slope does the lifting that flat ground never would."
+          },
+          {
+            "label": "The mountain blocks clouds from moving past it",
+            "feedback": "A stationary-looking mountain cloud is not one trapped cloud but a constant stream of air being freshly lifted and freshly condensing in the same spot."
+          }
+        ],
+        "ok_title": "Forced upward, forced to cool",
+        "ok_line": "The slope does the lifting that flat ground never would.",
+        "ko_title": "The mountain isn't holding the cloud",
+        "ko_line": "Ask what the slope does to wind that has nowhere else to go but up.",
+        "exp_title": "A slope that lifts the wind",
+        "exp_text": "Wind meeting flat ground simply flows on, but wind meeting a mountainside has nowhere to go but up, and it is carried along the slope as it rises. Rising, that air cools exactly as any rising air does, and if it is moist enough it reaches its dew point at the height of the peak and condenses there. New air keeps arriving and lifting in the same place, so the cloud looks fixed to the mountainside even though it is really a constant changeover of air passing through."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where does the water that eventually becomes a cloud's droplets come from in the first place?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It condenses directly out of the empty air",
+            "feedback": "Air is never simply 'empty' where clouds form; every drop of cloud water started somewhere as liquid before it evaporated."
+          },
+          {
+            "label": "It is carried down from outer space",
+            "feedback": "The water in the atmosphere is entirely water that has already been on the surface before; nothing arrives from beyond it to feed a cloud."
+          },
+          {
+            "label": "It seeps up from underground water tables as gas",
+            "feedback": "Groundwater stays below the surface until it reaches a river, lake or spring; it does not turn to vapour while still underground."
+          },
+          {
+            "label": "It evaporates from oceans, lakes, and plants below",
+            "feedback": "Every cloud is borrowed water, on loan from somewhere below."
+          }
+        ],
+        "ok_title": "Traced to the surface",
+        "ok_line": "Every cloud is borrowed water, on loan from somewhere below.",
+        "ko_title": "It had to start as liquid",
+        "ko_line": "Vapour does not appear from nothing; ask what surface it left.",
+        "exp_title": "Borrowed from below",
+        "exp_text": "Heat from the sun constantly turns liquid water on oceans, lakes, and the leaves of plants into invisible vapour, which then mixes upward into the air above. That vapour travels, sometimes for great distances, until it finds air cool enough to condense it back into visible droplets. A cloud, seen this way, is simply that borrowed water paying a visit to the sky before it falls and returns to the surface again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do puffy clouds tend to appear and grow through a hot afternoon rather than first thing in the morning?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ground has had time to heat up and warm the air resting on it",
+            "feedback": "The ground needed hours of sun to get hot enough to start the lift."
+          },
+          {
+            "label": "There is more water vapour in the air by the afternoon",
+            "feedback": "The amount of moisture in the air changes little over a single day; what changes through the day is how strongly the ground heats the air above it."
+          },
+          {
+            "label": "The afternoon sky is naturally colder aloft",
+            "feedback": "The air high above does not cool through the day on this kind of schedule; it is the ground-level warming that changes hour by hour."
+          },
+          {
+            "label": "Wind always picks up in the afternoon",
+            "feedback": "Cloud-building thermals rise straight up through calm air just as readily as windy air; a breeze is not what starts them."
+          }
+        ],
+        "ok_title": "Heat builds through the day",
+        "ok_line": "The ground needed hours of sun to get hot enough to start the lift.",
+        "ko_title": "It's the ground, not the sky",
+        "ko_line": "Ask what changes about the ground itself between morning and afternoon.",
+        "exp_title": "The ground needs time to heat",
+        "exp_text": "Sunlight strikes the ground all morning, and the ground grows warmer and warmer as the hours pass, warming the layer of air resting directly on it in turn. Once that warmed air is buoyant enough, it breaks free as a rising bubble -- a thermal -- carrying its moisture upward until it cools to its dew point and a cloud appears at the top. Morning has not given the ground enough time yet to build that heat, which is why the same clear sky tends to sprout clouds only once the afternoon sun has done its work."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a cumulus cloud keep growing taller through an afternoon, instead of stopping at the height where it first became visible?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The cloud absorbs extra sunlight once it turns white",
+            "feedback": "Sunlight reflecting off a cloud's surface does not heat the rising air inside it; the lift comes from within the air itself."
+          },
+          {
+            "label": "Condensing droplets release heat that keeps the rising air buoyant",
+            "feedback": "Condensing is not a neutral act -- it gives heat back, keeping the air rising rather than levelling off."
+          },
+          {
+            "label": "More air is simply pushed in from the sides",
+            "feedback": "A growing cloud draws air upward from below, through its own base, not sideways in from its flanks."
+          },
+          {
+            "label": "The droplets inside expand and take up more room",
+            "feedback": "A droplet condensing out of vapour actually takes up far less space than the vapour did; that is not the source of any extra lift."
+          }
+        ],
+        "ok_title": "Fuelled from within",
+        "ok_line": "Condensing is not a neutral act -- it gives heat back.",
+        "ko_title": "The lift comes from the condensing itself",
+        "ko_line": "Ask what happens to the energy that first turned liquid water into vapour, once vapour turns back into liquid.",
+        "exp_title": "Condensation feeds its own updraft",
+        "exp_text": "Turning liquid water into vapour takes energy, and that same energy has to go somewhere when the vapour condenses back into a droplet -- it is released as heat into the surrounding air. That released heat makes the air inside the cloud slightly warmer, and therefore slightly more buoyant, than the air around it, so it keeps rising rather than levelling off. A cloud built this way can go on climbing for as long as fresh moist air keeps arriving at its base to condense and add its own share of heat."
+      }
+    ]
+  }
+]

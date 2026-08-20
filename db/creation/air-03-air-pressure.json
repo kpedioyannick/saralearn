@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 108,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What actually causes air pressure to push on everything around you all the time?",
+        "body": null,
+        "options": [
+          {
+            "label": "A magnetic pull from the ground beneath your feet",
+            "feedback": "Magnetism has nothing to do with air; the ground does not magnetically pull on gas molecules."
+          },
+          {
+            "label": "Countless air molecules constantly colliding with every surface",
+            "feedback": "Each molecule strikes with only a tiny force, but with countless collisions happening every moment, they add up to a steady push."
+          },
+          {
+            "label": "The sun's light physically shoving air molecules downward",
+            "feedback": "Light carries energy, not a downward shove strong enough to press air onto every surface it touches."
+          },
+          {
+            "label": "Wind blowing constantly from every direction at once",
+            "feedback": "Air presses on surfaces even on a perfectly still day with no wind at all, so wind cannot be the cause of pressure itself."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Countless tiny impacts",
+        "ok_line": "One collision is nothing; billions of them every second are pressure.",
+        "ko_title": "Not the cause",
+        "ko_line": "Air pressure exists even on a still, sunless, magnet-free day. Think smaller.",
+        "exp_title": "Countless collisions add up",
+        "exp_text": "Every gas is made of molecules in constant, rapid motion, ceaselessly striking whatever surface they meet. Each single collision pushes with a force too small to feel, but the sheer number of them happening every instant adds up to a steady, measurable push. Air pressure is caused by countless air molecules constantly colliding with every surface."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is air pressure greatest at sea level and weaker high on a mountain?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because mountains generate their own opposing pressure",
+            "feedback": "A mountain is solid rock; it does not generate any pressure of its own that pushes back against the air."
+          },
+          {
+            "label": "Because the air is colder on a mountain, and cold air presses less",
+            "feedback": "Temperature affects air pressure somewhat, but the main reason for the difference here is how much air lies above each point, not how cold it is."
+          },
+          {
+            "label": "Because at sea level there is a taller, heavier column of air pressing down from above",
+            "feedback": "At sea level, nearly the whole depth of the atmosphere sits above you, while on a mountain a large part of that depth is already below you."
+          },
+          {
+            "label": "Because sea water attracts extra air toward it",
+            "feedback": "Water does not pull air toward itself; the difference in pressure has to do with height above the ground, not what lies beneath it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Less air left above",
+        "ok_line": "Climb a mountain, and part of the atmosphere is now below you instead of above.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about how much air actually sits above each point.",
+        "exp_title": "Less air stacked above you",
+        "exp_text": "Air pressure at any point comes from the weight of all the air stacked above it. At sea level, nearly the full depth of the atmosphere sits overhead, while high on a mountain a large share of that depth is already beneath your feet. Air pressure is greatest at sea level because a taller, heavier column of air presses down from above."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Air presses on your body with real, constant force. Why don't you feel crushed by it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because your skin is too thick for the pressure to reach through",
+            "feedback": "Air pressure acts on the whole surface of the body, skin included; thickness of skin is not what balances it."
+          },
+          {
+            "label": "Because the fluids and gases inside your body push outward with matching pressure",
+            "feedback": "The pressure inside you rises and falls to match the pressure outside, so the two forces cancel each other out."
+          },
+          {
+            "label": "Because the pressure outside your body is actually very weak",
+            "feedback": "The pressure pressing on the body at sea level is real and substantial, not weak; it simply gets matched from within."
+          },
+          {
+            "label": "Because the body is immune to any outside force",
+            "feedback": "A body is not immune to outside force; a sudden strong push or a fall demonstrates that clearly enough."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Balanced from inside",
+        "ok_line": "An equal push from inside cancels the push from outside.",
+        "ko_title": "Not immunity",
+        "ko_line": "The body isn't shielded from air pressure. It matches it instead.",
+        "exp_title": "An equal and opposite push",
+        "exp_text": "Air presses inward on the body with real, constant force at every point on its surface. The fluids and gases inside the body press outward with a matching force, so the two cancel each other and neither is felt as a crush. You don't feel crushed because the fluids and gases inside your body push outward with matching pressure."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "High on a mountain, the percentage of oxygen in the air is about the same as at sea level, yet each breath feels far less satisfying. Why?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because oxygen turns into a different gas at that height",
+            "feedback": "Oxygen does not transform into another gas as altitude increases; its share of the mixture barely changes at all."
+          },
+          {
+            "label": "Because cold air blocks oxygen from being absorbed by the lungs",
+            "feedback": "Cold air does not block oxygen absorption; the shortage of oxygen at altitude comes from how thin the air is, not its temperature."
+          },
+          {
+            "label": "Because altitude makes people breathe more slowly",
+            "feedback": "People do not naturally breathe more slowly at altitude; if anything the body tends to breathe faster to compensate for thinner air."
+          },
+          {
+            "label": "Because the air itself becomes thinner, so each breath draws in fewer molecules of everything, oxygen included",
+            "feedback": "The proportion of oxygen stays roughly the same, but the air is spread more thinly, so a lungful simply contains fewer molecules overall."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Same ratio, fewer molecules",
+        "ok_line": "The mix hasn't changed. There's just less of everything in each breath.",
+        "ko_title": "Not the mixture",
+        "ko_line": "The ratio of oxygen stays almost the same at height. Something else about the air has changed.",
+        "exp_title": "Fewer molecules per breath",
+        "exp_text": "Oxygen still makes up roughly the same share of the air high on a mountain as it does at sea level. What changes is how densely packed the air is: with less air pressing down from a shorter column above, the molecules sit further apart, so a lungful contains fewer of them overall. Each breath feels less satisfying because the air itself becomes thinner, so each breath draws in fewer molecules of everything, oxygen included."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do your ears sometimes feel blocked, then suddenly \"pop\", during a quick change in altitude?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because sound waves get trapped inside the ear at altitude",
+            "feedback": "The blocked feeling has nothing to do with sound waves being trapped; it comes from a difference in air pressure."
+          },
+          {
+            "label": "Because the eardrum temporarily stops working at altitude",
+            "feedback": "The eardrum keeps working the whole time; the discomfort comes from pressure pushing on it unevenly, not from it failing."
+          },
+          {
+            "label": "Because a pocket of air trapped behind the eardrum is at a different pressure than the air outside, and it suddenly equalises",
+            "feedback": "Air trapped just behind the eardrum stays at the old pressure for a moment while the outside pressure changes, and the sudden equalising is felt as a pop."
+          },
+          {
+            "label": "Because cold air at altitude physically freezes tiny parts of the ear",
+            "feedback": "The ear does not freeze during an ordinary change in altitude; the sensation is caused by pressure, not by temperature."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Sudden equalising",
+        "ok_line": "A pop is just two pressures finally catching up with each other.",
+        "ko_title": "Not that",
+        "ko_line": "The ear isn't failing or freezing. A pocket of trapped air is simply behind on the pressure outside.",
+        "exp_title": "Two pressures catching up",
+        "exp_text": "A pocket of air sits just behind the eardrum, sealed off from the air outside. When outside pressure changes quickly, that trapped pocket lags behind at the old pressure until it finally equalises. The pop you feel is a pocket of trapped air behind the eardrum suddenly equalising with the different pressure outside."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does water boil at a lower temperature high on a mountain than it does at sea level?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because mountain water contains fewer impurities",
+            "feedback": "Purity of the water affects boiling point only slightly; the much larger effect at altitude comes from the air pressure above it."
+          },
+          {
+            "label": "Because mountain water is naturally colder to begin with",
+            "feedback": "Starting temperature does not change the temperature at which the water actually boils once heated."
+          },
+          {
+            "label": "Because gravity is weaker on a mountain, so water evaporates more easily",
+            "feedback": "Gravity changes only very slightly with the height of a mountain; that tiny change is not what lowers the boiling point."
+          },
+          {
+            "label": "Because the lower air pressure at altitude makes it easier for water molecules to escape as vapour",
+            "feedback": "Boiling happens once vapour can push its way out against the surrounding air pressure, and that pressure is weaker up there, so it takes less heat to reach that point."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Less resistance to overcome",
+        "ok_line": "Weaker pressure above the water means it takes less heat to boil.",
+        "ko_title": "Not the reason",
+        "ko_line": "The change in boiling point on a mountain comes from what's pressing down on the water, not from the water itself.",
+        "exp_title": "Boiling against a weaker resistance",
+        "exp_text": "Water boils once bubbles of vapour inside it become strong enough to push out against the pressure of the air above the surface. High on a mountain, that air pressure is weaker, so the vapour needs less heat to overcome it. Water boils at a lower temperature high on a mountain because the lower air pressure there makes it easier for water molecules to escape as vapour."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't Earth's air simply drift off and disperse into space?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because gravity's pull on the air molecules is stronger than their outward motion",
+            "feedback": "Air molecules move fast, but Earth's gravity pulls hard enough to keep the great majority of them bound to the planet."
+          },
+          {
+            "label": "Because there is a solid ceiling far above the ground holding it in",
+            "feedback": "There is no solid barrier surrounding the planet; the atmosphere simply thins out gradually with height."
+          },
+          {
+            "label": "Because space itself pushes air back down toward the ground",
+            "feedback": "Space is essentially empty, with nothing in it to push anything back toward the ground."
+          },
+          {
+            "label": "Because air molecules are too heavy to ever move upward at all",
+            "feedback": "Air molecules do move upward constantly, mixing and circulating; heaviness does not stop that movement."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Held by gravity",
+        "ok_line": "Nothing holds the sky in place but the steady pull of the planet beneath it.",
+        "ko_title": "No wall needed",
+        "ko_line": "Nothing physical holds the air in like a lid. Look instead at what pulls on it.",
+        "exp_title": "Bound by a steady pull",
+        "exp_text": "Air molecules are always moving, some fast enough that they could, in principle, escape outward. Earth's gravity pulls downward on every one of them, and for the great majority that pull is strong enough to keep them bound to the planet rather than drifting away. Earth's air stays in place because gravity's pull on the air molecules is stronger than their outward motion."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is there no air pressure at all in the emptiness of space?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because there is no gravity in space to create pressure",
+            "feedback": "Gravity exists throughout space, weakening with distance but never vanishing entirely; the absence of pressure has a different cause."
+          },
+          {
+            "label": "Because it is too cold out there for pressure to exist",
+            "feedback": "Temperature can raise or lower pressure, but it does not remove the possibility of pressure altogether; the real issue is what is missing out there."
+          },
+          {
+            "label": "Because there are essentially no molecules present to collide with anything",
+            "feedback": "Pressure comes from molecules colliding with a surface, and space contains almost none, so there is nothing left to create that push."
+          },
+          {
+            "label": "Because light cancels out any pressure that might otherwise exist",
+            "feedback": "Light does not cancel pressure; the true reason has to do with how little matter is present in space at all."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Nothing there to collide",
+        "ok_line": "No molecules, no collisions, no push.",
+        "ko_title": "Not that",
+        "ko_line": "Pressure needs something physical to create it. Ask what's actually missing out there.",
+        "exp_title": "Nothing left to push",
+        "exp_text": "Pressure exists wherever molecules are dense enough to constantly collide with a surface. Space contains almost no matter at all, so there is essentially nothing left to do any colliding. There is no air pressure in space because there are essentially no molecules present to collide with anything."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Air pressure comes from the weight of the air above pressing down. So why does it also push sideways and even upward on things, not only straight down?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because air molecules move rapidly in every direction, not just downward",
+            "feedback": "Each molecule travels in whatever direction it happens to be moving, striking surfaces from every angle, not only from above."
+          },
+          {
+            "label": "Because the ground reflects the downward push back upward",
+            "feedback": "The ground does not reflect pressure like a mirror; sideways and upward pressure comes from the motion of the molecules themselves."
+          },
+          {
+            "label": "Because pressure only pushes sideways, never downward at all",
+            "feedback": "Air does press downward too, from the weight of everything above; the question is why it also pushes in other directions."
+          },
+          {
+            "label": "Because warm air always pushes upward and cold air always pushes sideways",
+            "feedback": "Temperature can make air rise or sink as a whole, but that is a different effect from why pressure itself acts in every direction at a single point."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Motion in every direction",
+        "ok_line": "A molecule bouncing sideways presses sideways just as hard as one falling presses down.",
+        "ko_title": "Not quite",
+        "ko_line": "The push in every direction comes from how the molecules are moving, not from any reflection or rule about warm and cold air.",
+        "exp_title": "Molecules moving every which way",
+        "exp_text": "The weight of the air above is what keeps the whole mass of gas dense, but the pressure it creates is delivered by individual molecules in constant, random motion. Those molecules strike surfaces from above, from the side, and from below just as often as from directly overhead. Air pressure pushes sideways and even upward on things because air molecules move rapidly in every direction, not just downward."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does yawning or swallowing during a fast change in altitude often relieve the uncomfortable feeling in your ears?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because it briefly opens a narrow passage connecting the middle ear to the throat, letting pressure equalise",
+            "feedback": "That passage is normally closed, and opening it briefly lets air flow in or out of the middle ear until its pressure matches the pressure outside."
+          },
+          {
+            "label": "Because it distracts the brain from noticing the discomfort",
+            "feedback": "The relief is a real physical change in pressure inside the ear, not merely a mental distraction from noticing it."
+          },
+          {
+            "label": "Because it forces extra air directly into the eardrum itself",
+            "feedback": "The eardrum is a thin membrane, not a space that air is forced into; what changes is the air pressure just behind it."
+          },
+          {
+            "label": "Because it slows down the rate of the altitude change",
+            "feedback": "Yawning or swallowing has no effect on how quickly altitude itself changes; it only affects the pressure inside the ear."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A passage briefly opened",
+        "ok_line": "One small opening is all it takes to let two pressures meet.",
+        "ko_title": "Not quite",
+        "ko_line": "Something physical actually opens for a moment. Think about what connects the middle ear to the rest of the body.",
+        "exp_title": "A brief opening between ear and throat",
+        "exp_text": "A narrow passage normally connects the middle ear to the back of the throat, kept closed most of the time. Yawning or swallowing briefly opens that passage, letting air move in or out of the middle ear until its pressure matches the pressure outside. Yawning or swallowing relieves the discomfort because it briefly opens a narrow passage connecting the middle ear to the throat, letting pressure equalise."
+      }
+    ]
+  }
+]

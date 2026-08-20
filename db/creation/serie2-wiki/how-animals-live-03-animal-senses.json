@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 246,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the first thing a sense organ does when it detects a stimulus?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It sends a signal straight to the muscles.",
+            "feedback": "Sense organs gather information for the brain, not for muscles. Muscles act later, after the brain has processed the signal."
+          },
+          {
+            "label": "It transforms the stimulus into a form the brain can understand.",
+            "feedback": "Correct. This transformation is called transduction, and it happens in the sense organ before the signal travels to the brain."
+          },
+          {
+            "label": "It stores the stimulus as a memory.",
+            "feedback": "Storing memories is a job for the brain, not for the sense organ at the moment of detection. The sense organ only collects and converts the stimulus."
+          },
+          {
+            "label": "It compares the stimulus with past experiences.",
+            "feedback": "Comparing with past experiences is perception, done by the brain, not by the sense organ. The sense organ just detects and transduces."
+          }
+        ],
+        "ok_title": "First step of sensing",
+        "ok_line": "Yes, the sense organ transduces the stimulus so the brain can process it.",
+        "ko_title": "Not the first step",
+        "ko_line": "Remember, transduction happens at the sense organ before any brain processing.",
+        "exp_title": "Transduction in sense organs",
+        "exp_text": "A sense organ's job is to detect a stimulus and transduce it, meaning to change it into a form the brain can interpret. This happens before any perception or action."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is an example of an internal sense in humans?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sight",
+            "feedback": "Sight is an external sense, based on the eyes. Internal senses detect signals from inside the body, not from the outside world."
+          },
+          {
+            "label": "Hearing",
+            "feedback": "Hearing is an external sense, based on the ears. Internal senses like proprioception and hunger come from inside the body."
+          },
+          {
+            "label": "Smell",
+            "feedback": "Smell is an external sense, based on the nose. Internal senses detect things like body position and pain from inside."
+          },
+          {
+            "label": "Proprioception",
+            "feedback": "Correct. Proprioception is the internal sense of body position, detected from internal organs and tissues."
+          }
+        ],
+        "ok_title": "Internal sense example",
+        "ok_line": "Yes, proprioception is an internal sense that tells you where your body parts are.",
+        "ko_title": "External sense chosen",
+        "ko_line": "Those are external senses; internal senses come from inside the body.",
+        "exp_title": "Internal senses in humans",
+        "exp_text": "Internal senses, or interoception, detect stimuli from internal organs and tissues. Proprioception, the sense of body position, is one of them, along with pain and balance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do sensory receptors do during transduction?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They store the stimulus for later use.",
+            "feedback": "Receptors don't store stimuli; they convert them into signals. Storage is not part of transduction."
+          },
+          {
+            "label": "They send the stimulus unchanged to the brain.",
+            "feedback": "Transduction means changing the stimulus, not sending it unchanged. The stimulus is converted into an electrical signal."
+          },
+          {
+            "label": "They convert a physical stimulus into an action potential.",
+            "feedback": "Correct. During transduction, receptors change the physical stimulus into an action potential that travels to the nervous system."
+          },
+          {
+            "label": "They filter out all stimuli except light.",
+            "feedback": "Receptors are specific to different types of stimuli, not just light. They convert whatever stimulus they are designed for into an action potential."
+          }
+        ],
+        "ok_title": "Receptor's main job",
+        "ok_line": "Yes, receptors transduce the physical stimulus into an action potential.",
+        "ko_title": "Not what receptors do",
+        "ko_line": "Transduction is about converting, not storing or filtering.",
+        "exp_title": "Receptor transduction",
+        "exp_text": "Receptor cells detect a specific stimulus and convert it into an action potential, which is then transmitted towards the central nervous system for processing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which receptor type is responsible for detecting light?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Photoreceptor",
+            "feedback": "Correct. Photoreceptors convert visible light into signals, like the cells in the retina of the eye."
+          },
+          {
+            "label": "Mechanoreceptor",
+            "feedback": "Mechanoreceptors detect physical pressure and vibration, not light. They handle touch and sound."
+          },
+          {
+            "label": "Chemoreceptor",
+            "feedback": "Chemoreceptors respond to chemical stimuli, like taste and smell. Light is electromagnetic, not chemical."
+          },
+          {
+            "label": "Thermoreceptor",
+            "feedback": "Thermoreceptors detect temperature changes. Light is not about heat; it is detected by photoreceptors."
+          }
+        ],
+        "ok_title": "Light detector",
+        "ok_line": "Yes, photoreceptors are the cells that sense light.",
+        "ko_title": "Wrong receptor type",
+        "ko_line": "Each receptor type matches a specific stimulus; light belongs to photoreceptors.",
+        "exp_title": "Photoreceptors",
+        "exp_text": "Photoreceptors are specialized receptor cells that respond to light, converting visible electromagnetic radiation into signals that the brain can interpret."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do mechanoreceptors detect?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Light from the environment",
+            "feedback": "Light is detected by photoreceptors, not mechanoreceptors. Mechanoreceptors respond to physical pressure and movement."
+          },
+          {
+            "label": "Chemicals in food",
+            "feedback": "Chemicals are detected by chemoreceptors, like those for taste. Mechanoreceptors are for physical stimuli."
+          },
+          {
+            "label": "Changes in temperature",
+            "feedback": "Temperature changes are detected by thermoreceptors. Mechanoreceptors handle pressure, vibration, and sound."
+          },
+          {
+            "label": "Pressure and vibration",
+            "feedback": "Correct. Mechanoreceptors interpret physical stimuli such as pressure, vibration, sound, and body position."
+          }
+        ],
+        "ok_title": "Mechanoreceptor function",
+        "ok_line": "Yes, mechanoreceptors sense pressure and vibration.",
+        "ko_title": "Other stimulus type",
+        "ko_line": "Mechanoreceptors are for physical forces, not light, chemicals, or heat.",
+        "exp_title": "Mechanoreceptors",
+        "exp_text": "Mechanoreceptors are receptor cells that respond to physical stimuli like pressure and vibration. They also help with the sense of sound and body position."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which sense is based on the sensory organ of the ear?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Taste",
+            "feedback": "Taste is based on the mouth, not the ear. The ear is for hearing and balance."
+          },
+          {
+            "label": "Hearing",
+            "feedback": "Correct. The ear is the sensory organ for hearing, which is an external sense."
+          },
+          {
+            "label": "Smell",
+            "feedback": "Smell is based on the nose. The ear is for hearing and balance."
+          },
+          {
+            "label": "Sight",
+            "feedback": "Sight is based on the eye. The ear handles hearing and balance."
+          }
+        ],
+        "ok_title": "Ear's sense",
+        "ok_line": "Yes, the ear is the organ for hearing.",
+        "ko_title": "Wrong organ-sense match",
+        "ko_line": "Each external sense has its own organ; hearing comes from the ear.",
+        "exp_title": "Ear as sensory organ",
+        "exp_text": "The ear is one of the human external sensory organs. It corresponds to the auditory system, which is the sense of hearing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is an external sense in humans?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Proprioception",
+            "feedback": "Proprioception is internal, detecting body position from inside. External senses gather information from the outside world."
+          },
+          {
+            "label": "Nociception",
+            "feedback": "Nociception, the sense of pain, is internal. External senses include sight, hearing, touch, smell, and taste."
+          },
+          {
+            "label": "Touch",
+            "feedback": "Correct. Touch is an external sense, based on the skin, detecting stimuli from the surrounding environment."
+          },
+          {
+            "label": "Hunger",
+            "feedback": "Hunger is an internal signal, not an external sense. External senses are based on organs like the eyes and ears."
+          }
+        ],
+        "ok_title": "External sense identified",
+        "ok_line": "Yes, touch is an external sense using the skin.",
+        "ko_title": "Internal sense chosen",
+        "ko_line": "Those are internal senses; external senses come from the outside world.",
+        "exp_title": "External senses",
+        "exp_text": "External senses gather information from the environment through organs like the eyes, ears, skin, nose, and mouth. Touch is one of them."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a sensory modality?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The way sensory information is encoded",
+            "feedback": "Correct. A sensory modality describes how a specific type of stimulus is transduced and encoded."
+          },
+          {
+            "label": "The number of senses an animal has",
+            "feedback": "The number of senses is a count, not a modality. A modality is about how information is encoded, not how many there are."
+          },
+          {
+            "label": "The organ that detects a stimulus",
+            "feedback": "The organ is a physical structure. A modality is the way the information is encoded, not the organ itself."
+          },
+          {
+            "label": "The part of the brain that processes signals",
+            "feedback": "The brain processes signals, but a modality refers to how the information is encoded before and during processing."
+          }
+        ],
+        "ok_title": "Definition of modality",
+        "ok_line": "Yes, a sensory modality is how sensory information is encoded.",
+        "ko_title": "Not a modality",
+        "ko_line": "A modality is about encoding, not about counts or organs.",
+        "exp_title": "Sensory modalities",
+        "exp_text": "A sensory modality is the way that sensory information is encoded, similar to transduction. It describes how a specific type of stimulus is represented."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a submodality of the sense of taste?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Vibration",
+            "feedback": "Vibration is a submodality of touch, not taste. Taste submodalities are based on different chemicals binding to receptors."
+          },
+          {
+            "label": "Pressure",
+            "feedback": "Pressure is part of touch, not taste. Taste is about detecting chemicals in food."
+          },
+          {
+            "label": "Temperature",
+            "feedback": "Temperature is a submodality of touch, not taste. Taste detects sweet, salty, sour, bitter, spicy, and umami."
+          },
+          {
+            "label": "Sweet",
+            "feedback": "Correct. Sweet is one of the submodalities of taste, based on different chemicals binding to sensory neurons."
+          }
+        ],
+        "ok_title": "Taste submodality",
+        "ok_line": "Yes, sweet is a submodality of taste.",
+        "ko_title": "Touch submodality",
+        "ko_line": "Vibration, pressure, and temperature belong to touch, not taste.",
+        "exp_title": "Submodalities of taste",
+        "exp_text": "The sense of taste can be separated into submodalities like sweet, salty, sour, bitter, spicy, and umami, each based on different chemicals binding to sensory neurons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of a chemoreceptor?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Detecting physical pressure",
+            "feedback": "Pressure is detected by mechanoreceptors. Chemoreceptors respond to chemical stimuli, not physical forces."
+          },
+          {
+            "label": "Detecting chemicals",
+            "feedback": "Correct. Chemoreceptors respond to chemical stimuli, such as those involved in taste and smell."
+          },
+          {
+            "label": "Detecting light",
+            "feedback": "Light is detected by photoreceptors. Chemoreceptors are for chemical signals, not electromagnetic radiation."
+          },
+          {
+            "label": "Detecting temperature changes",
+            "feedback": "Temperature is detected by thermoreceptors. Chemoreceptors sense chemicals like those in food or air."
+          }
+        ],
+        "ok_title": "Chemoreceptor role",
+        "ok_line": "Yes, chemoreceptors detect chemicals.",
+        "ko_title": "Other receptor type",
+        "ko_line": "Chemoreceptors are for chemicals, not pressure, light, or heat.",
+        "exp_title": "Chemoreceptors",
+        "exp_text": "Chemoreceptors are receptor cells that respond to chemical stimuli. They are involved in senses like taste and smell, where molecules bind to the receptor."
+      }
+    ]
+  }
+]

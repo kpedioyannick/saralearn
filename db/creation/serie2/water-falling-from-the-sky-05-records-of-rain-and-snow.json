@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main source of water for rain that falls on land?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Water that has always been on land",
+            "feedback": "Most land water is recycled; the rain falling on land came from the ocean, not from water already on land."
+          },
+          {
+            "label": "Water from deep underground springs",
+            "feedback": "Springs are part of the cycle, but they don't provide the bulk of rain; the ocean's surface evaporation is the primary source."
+          },
+          {
+            "label": "Water evaporated from the oceans",
+            "feedback": "Yes, the ocean is the main reservoir; most rain that falls on land originally evaporated from the sea."
+          },
+          {
+            "label": "Water released by plants into the air",
+            "feedback": "Plants do release water, but that's a small part; the ocean is the dominant source for rainfall."
+          }
+        ],
+        "ok_title": "Ocean source",
+        "ok_line": "Most rain on land comes from ocean evaporation.",
+        "ko_title": "Misleading sources",
+        "ko_line": "Land water and plants add little compared to the ocean.",
+        "exp_title": "Rain's origin",
+        "exp_text": "The water that rains on land mostly started as ocean water. The sun heats the sea, turning surface water into vapour, which rises, forms clouds, and later falls as rain over land. This is why the ocean is called the main source of the water cycle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What instrument is used to measure the amount of rain that falls over a period of time?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Rain gauge",
+            "feedback": "Correct, a rain gauge collects and measures rainfall depth, usually in millimetres."
+          },
+          {
+            "label": "Barometer",
+            "feedback": "A barometer measures air pressure, not rainfall."
+          },
+          {
+            "label": "Thermometer",
+            "feedback": "A thermometer measures temperature, not the amount of rain."
+          },
+          {
+            "label": "Anemometer",
+            "feedback": "An anemometer measures wind speed, not rainfall."
+          }
+        ],
+        "ok_title": "Measuring rainfall",
+        "ok_line": "A rain gauge records how much rain fell.",
+        "ko_title": "Other instruments",
+        "ko_line": "Barometer, thermometer, and anemometer serve different purposes.",
+        "exp_title": "Rain gauge function",
+        "exp_text": "A rain gauge is a simple container with a funnel that collects rain. The collected water is measured to give the depth of rain that fell, usually in millimetres. This tells us how much precipitation occurred."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What common condition allows snow to accumulate on the ground rather than melting immediately?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "High humidity",
+            "feedback": "Humidity alone doesn't stop snow from melting; temperature is the key factor."
+          },
+          {
+            "label": "Air temperature at or below freezing",
+            "feedback": "Yes, if the air stays at or below 0°C (32°F), snow can't melt and piles up."
+          },
+          {
+            "label": "Strong winds",
+            "feedback": "Winds can drift snow but don't prevent melting; they might actually increase it."
+          },
+          {
+            "label": "Cloudy sky",
+            "feedback": "Clouds might keep temperatures cooler, but they don't guarantee freezing conditions needed for snow to stay."
+          }
+        ],
+        "ok_title": "Cold air needed",
+        "ok_line": "Snow stays when the air is at or below freezing.",
+        "ko_title": "Wrong factors",
+        "ko_line": "Humidity, wind, and clouds don't keep snow frozen.",
+        "exp_title": null,
+        "exp_text": "For snow to accumulate, the air temperature must stay at or below freezing. If the air is warmer, snowflakes melt as they fall or soon after landing, turning into slush or water. So the essential condition is cold air near the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate water content of a typical snowpack compared to the same volume of rain?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "About 100%",
+            "feedback": "That would mean snow is as dense as rain, which is not true; snow has air between crystals."
+          },
+          {
+            "label": "About 50%",
+            "feedback": "Snow is less dense, often only 10% water, not half."
+          },
+          {
+            "label": "About 10%",
+            "feedback": "Yes, typical snow has about 10% water content, meaning 10 cm of snow equals 1 cm of rain."
+          },
+          {
+            "label": "About 1%",
+            "feedback": "That's too low; snow has more water than that, usually around 10%."
+          }
+        ],
+        "ok_title": "Snow to water ratio",
+        "ok_line": "Snow is roughly 10% water, so 10 cm snow melts to 1 cm rain.",
+        "ko_title": "Density of snow",
+        "ko_line": "Snow is mostly air, but not as light as 1% water.",
+        "exp_title": null,
+        "exp_text": "Fresh snow is fluffy because it's made of ice crystals with lots of air spaces. On average, 10 centimetres of snow contains about the same water as 1 centimetre of rain, so the water content is around 10%. This ratio varies with temperature and wind, but 10:1 is a common rule."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a very heavy, sudden snowfall that reduces visibility and quickly covers the ground?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Blizzard",
+            "feedback": "Correct, a blizzard is a severe snowstorm with strong winds and low visibility that lasts for hours."
+          },
+          {
+            "label": "Sleet storm",
+            "feedback": "Sleet storms involve ice pellets, not heavy snow accumulation."
+          },
+          {
+            "label": "Snow squall",
+            "feedback": "A snow squall is brief and intense, but a blizzard lasts longer and is more severe."
+          },
+          {
+            "label": "Flurry",
+            "feedback": "Flurries are light, brief snowfalls, not heavy storms."
+          }
+        ],
+        "ok_title": "Blizzard definition",
+        "ok_line": "A blizzard is a long-lasting, windy, heavy snowstorm.",
+        "ko_title": "Other snow events",
+        "ko_line": "Sleet, squalls, and flurries differ from blizzards.",
+        "exp_title": null,
+        "exp_text": "A blizzard is a severe snowstorm with sustained winds of at least 56 km/h (35 mph), blowing snow, and visibility below 400 metres (0.25 miles) for at least three hours. It's intense and long-lasting, unlike a quick snow squall or light flurry."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of precipitation is made of small, round ice pellets that bounce when they hit the ground?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Snow",
+            "feedback": "Snow is made of flat ice crystals, not round pellets."
+          },
+          {
+            "label": "Hail",
+            "feedback": "Hail is larger and forms in thunderstorms, while these pellets are smaller and form in winter storms."
+          },
+          {
+            "label": "Freezing rain",
+            "feedback": "Freezing rain is liquid rain that freezes on contact, not solid pellets falling."
+          },
+          {
+            "label": "Sleet",
+            "feedback": "Correct, sleet consists of small, clear ice pellets that form when raindrops freeze before reaching the ground."
+          }
+        ],
+        "ok_title": "Sleet pellets",
+        "ok_line": "Sleet is small ice pellets that bounce on impact.",
+        "ko_title": "Precipitation types",
+        "ko_line": "Snow, hail, and freezing rain have different forms and origins.",
+        "exp_title": null,
+        "exp_text": "Sleet forms when snowflakes partly melt as they fall through a warm layer, then refreeze in a cold layer near the ground, turning into small, hard ice pellets. These pellets are usually smaller than 5 mm and bounce when they land, unlike snowflakes or freezing rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for the fine, powdery snow that is blown by the wind along the ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Graupel",
+            "feedback": "Graupel is soft, white pellets, not powdery snow blown by wind."
+          },
+          {
+            "label": "Drifting snow",
+            "feedback": "Correct, drifting snow is wind-blown snow near the ground that reduces visibility."
+          },
+          {
+            "label": "Snow flurry",
+            "feedback": "Flurries are light snowfall from clouds, not ground-level blown snow."
+          },
+          {
+            "label": "Rime",
+            "feedback": "Rime is ice that forms on objects, not powdery snow blown along the ground."
+          }
+        ],
+        "ok_title": "Drifting snow",
+        "ok_line": "Wind-blown snow near the ground is drifting snow.",
+        "ko_title": "Snow forms",
+        "ko_line": "Graupel, flurries, and rime are different snow or ice types.",
+        "exp_title": null,
+        "exp_text": "Drifting snow refers to snow that has already fallen and is then picked up by the wind and moved along the ground. It often happens even when it's not snowing, just with strong winds, and can reduce visibility and create snowdrifts. It's distinct from falling snow or flurries."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason that rain is measured in millimetres rather than in litres?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Litres are too large a unit",
+            "feedback": "Litres can measure any volume, but rainfall depth is more standard and comparable."
+          },
+          {
+            "label": "Rain gauges are too small for litres",
+            "feedback": "Rain gauges can collect litres, but the standard measure is depth for consistency."
+          },
+          {
+            "label": "Millimetres show depth across a wide area",
+            "feedback": "Yes, recording the depth of water that would cover the ground makes rainfall comparable regardless of container size."
+          },
+          {
+            "label": "Millimetres are easier to read than litres",
+            "feedback": "Both are easy to read, but depth is the internationally agreed measure because it's uniform."
+          }
+        ],
+        "ok_title": "Rain depth measure",
+        "ok_line": "Millimetres of rain indicate water depth over the ground.",
+        "ko_title": "Volume vs depth",
+        "ko_line": "Rainfall is compared by depth, not total volume.",
+        "exp_title": null,
+        "exp_text": "Rainfall is measured as the depth of water that would accumulate on a flat surface if none evaporated or ran off. This is usually in millimetres (or inches). Using depth allows comparison between different locations because it doesn't depend on the area of the rain gauge or container. A litre measure would vary with the size of the collector, so depth is the standard."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What term describes the sudden melting of heavy snowpack that can cause rivers to swell quickly?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Snowmelt runoff",
+            "feedback": "Correct, rapid snowmelt can create runoff that flows into rivers, causing floods."
+          },
+          {
+            "label": "Avalanche",
+            "feedback": "An avalanche is snow sliding downhill, not melting into water."
+          },
+          {
+            "label": "Rime",
+            "feedback": "Rime is ice deposited on objects, not melting snow."
+          },
+          {
+            "label": "Glacier",
+            "feedback": "A glacier is a large, slow-moving ice mass, not a melting event."
+          }
+        ],
+        "ok_title": "Snowmelt flooding",
+        "ok_line": "Rapid snowmelt can flood rivers through runoff.",
+        "ko_title": "Other snow terms",
+        "ko_line": "Avalanche, rime, and glacier do not describe melting water flow.",
+        "exp_title": null,
+        "exp_text": "When warm weather or rain quickly melts a deep snowpack, the liquid water runs off the land into streams and rivers. This sudden increase in flow is called snowmelt runoff, and it can cause rivers to rise rapidly, sometimes leading to floods. It's a natural part of the water cycle, but rapid melting is dangerous."
+      }
+    ]
+  }
+]

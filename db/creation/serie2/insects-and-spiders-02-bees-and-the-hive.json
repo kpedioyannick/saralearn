@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 245,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main role of the queen bee in a honeybee colony?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "She builds the comb and gathers nectar",
+            "feedback": "Building comb and gathering nectar are jobs of worker bees, not the queen. Her job is different—she is the only fertile female in the colony."
+          },
+          {
+            "label": "She lays the eggs that produce all the new bees",
+            "feedback": "Correct. The queen's primary job is to lay eggs, sometimes thousands per day, which develop into workers, drones, and future queens."
+          },
+          {
+            "label": "She fights off intruders and defends the hive",
+            "feedback": "Defending the hive is done by worker bees, especially guards at the entrance. The queen rarely leaves the nest after mating."
+          },
+          {
+            "label": "She decides where the hive will be built",
+            "feedback": "Choosing a nest site is done by swarming workers, not the queen. She follows them to the new location they have selected."
+          }
+        ],
+        "ok_title": "Queen lays eggs",
+        "ok_line": "The queen is the mother of the entire colony.",
+        "ko_title": "Other roles mistaken",
+        "ko_line": "Workers do the work; the queen's job is laying eggs.",
+        "exp_title": "Queen's egg-laying role",
+        "exp_text": "The queen bee is the only female in the hive that lays eggs. She produces all the workers, drones, and future queens, so her role is to keep the colony growing. She does not forage, build, or defend—those tasks belong to the workers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do worker bees collect from flowers to make honey?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Pollen only",
+            "feedback": "Pollen is collected, but it is used as food for larvae, not for making honey. Honey is made from a different flower product."
+          },
+          {
+            "label": "Water only",
+            "feedback": "Water is collected for cooling and diluting honey, but it is not the raw material for honey. The sweet source comes from flowers."
+          },
+          {
+            "label": "Nectar",
+            "feedback": "Correct. Nectar is a sugary liquid flowers produce. Bees suck it up, carry it back, and turn it into honey by evaporating water and adding enzymes."
+          },
+          {
+            "label": "Honeydew from leaves",
+            "feedback": "Some bees can gather honeydew from aphids, but that is not the normal flower source for honey. The main material bees use is flower nectar."
+          }
+        ],
+        "ok_title": "Nectar becomes honey",
+        "ok_line": "Nectar is the raw material for honey.",
+        "ko_title": "Wrong flower product",
+        "ko_line": "Pollen feeds larvae; nectar makes honey.",
+        "exp_title": "Nectar collection",
+        "exp_text": "Worker bees fly to flowers and drink nectar through their long tongues. They store it in a special stomach called the honey sac, then return to the hive, where other workers process it by reducing its water content until it becomes thick honey."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape are the cells in a honeybee comb?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Round",
+            "feedback": "Round cells would waste space and leave gaps between them. Bees build cells in a shape that fits tightly together with no wasted space."
+          },
+          {
+            "label": "Square",
+            "feedback": "Square cells would fit together, but they would not hold as much honey or larvae as efficiently. Bees use a six-sided shape for strength and economy."
+          },
+          {
+            "label": "Triangle",
+            "feedback": "Triangles can tile a surface, but they are not used by bees. The chosen shape is one with six sides."
+          },
+          {
+            "label": "Hexagonal",
+            "feedback": "Correct. Each cell is a six-sided hexagon. This shape lets bees pack many cells together tightly, sharing walls, using the least wax for the most storage space."
+          }
+        ],
+        "ok_title": "Hexagon cells",
+        "ok_line": "Comb cells are six-sided hexagons.",
+        "ko_title": "Other shapes ruled out",
+        "ko_line": "Bees use hexagons for tight packing and strength.",
+        "exp_title": "Why hexagons",
+        "exp_text": "Honeybees build their comb with hexagonal cells. The six-sided shape fits together perfectly, like a honeycomb pattern, so there are no gaps. This structure is strong and uses the minimum amount of wax, which bees have to produce themselves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does the wax for building the comb come from?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "From glands on the worker's abdomen",
+            "feedback": "Correct. Worker bees have special wax glands on the underside of their abdomen. They secrete tiny flakes of wax, which they chew and shape into cells."
+          },
+          {
+            "label": "From the queen's body",
+            "feedback": "The queen does not produce wax. Only certain worker bees, typically young ones, have active wax glands in the hive."
+          },
+          {
+            "label": "From the flowers they visit",
+            "feedback": "Flowers provide nectar and pollen, but no wax. Bees make wax themselves from sugars in their bodies, not from anything they collect."
+          },
+          {
+            "label": "From the tree sap they chew",
+            "feedback": "Tree sap is used by other insects like some wasps for nest material, but honeybees do not collect sap. Their wax is produced internally."
+          }
+        ],
+        "ok_title": "Wax from abdomen",
+        "ok_line": "Workers secrete wax flakes from their abdomen.",
+        "ko_title": "Wax source confused",
+        "ko_line": "Wax is made by bees, not gathered from flowers or trees.",
+        "exp_title": "Wax production by workers",
+        "exp_text": "Young worker bees have wax glands on the underside of their abdomen that produce small white flakes. They scrape these off with their legs, chew them, and use the softened wax to build the honeycomb. The wax comes from the bee itself, not from outside."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do worker bees feed to the young larvae in the hive?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only honey",
+            "feedback": "Honey is stored for adult bees, not the main food for larvae. Young larvae get a special food made by nurse bees."
+          },
+          {
+            "label": "Only nectar",
+            "feedback": "Nectar is brought in by foragers, but larvae need a richer food, especially in the first days of life."
+          },
+          {
+            "label": "Royal jelly and bee bread",
+            "feedback": "Correct. Nurse bees feed young larvae royal jelly (a protein-rich secretion) and later a mix of pollen and honey called bee bread. This helps the larvae grow into adult workers."
+          },
+          {
+            "label": "Pollen by itself",
+            "feedback": "Pollen is part of the diet, but larvae also need royal jelly early on. Feeding only pollen would not be complete."
+          }
+        ],
+        "ok_title": "Larvae food types",
+        "ok_line": "Larvae get royal jelly and bee bread.",
+        "ko_title": "Wrong food assumed",
+        "ko_line": "Larvae need both jelly and pollen mixture, not just honey or nectar.",
+        "exp_title": "Feeding growing larvae",
+        "exp_text": "Nurse bees take care of larvae by feeding them. In the first days, larvae receive royal jelly, a special gland secretion. Later they eat bee bread, a mix of pollen and honey. This diet provides proteins and sugars needed for their development into adult bees."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a honeybee communicate the location of a good flower patch to other foragers?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "By making loud buzzing sounds",
+            "feedback": "Buzzing is a sound made by wings during flight, but honeybees do not use sound to share directions. They use a different method involving movement."
+          },
+          {
+            "label": "By performing a waggle dance",
+            "feedback": "Correct. A returning forager performs a figure-eight dance with wiggling movements. The direction and duration of the waggle part tell other bees which way to fly and how far."
+          },
+          {
+            "label": "By leaving scent marks on the flowers",
+            "feedback": "Bees do leave some scents, but the main way they share location information with nestmates is through the dance, not by scent trails on flowers."
+          },
+          {
+            "label": "By pointing with their front legs",
+            "feedback": "Leg pointing is not how bees communicate. The waggle dance uses the whole body, especially the abdomen's shaking, to convey the direction relative to the sun."
+          }
+        ],
+        "ok_title": "Waggle dance",
+        "ok_line": "Bees dance to share flower locations.",
+        "ko_title": "Other signals mistaken",
+        "ko_line": "The waggle dance, not sound or scent, carries location info.",
+        "exp_title": "Dance language of bees",
+        "exp_text": "When a forager finds a rich patch of flowers, she returns to the hive and performs a waggle dance on the comb. The angle of the dance relative to vertical indicates the direction to the flowers, and the length of the waggle run indicates distance. Other bees follow the dance, then fly out to find the patch."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does honey stored in the comb not spoil easily?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because it is kept in a cold place",
+            "feedback": "The hive is warm, not cold, so temperature is not the reason. Honey resists spoiling because of its own properties."
+          },
+          {
+            "label": "Because it is sealed with wax and air cannot enter",
+            "feedback": "Sealing helps keep out moisture, but the main reason honey does not spoil is that it has very little water and is acidic, so microbes cannot grow."
+          },
+          {
+            "label": "Because bees add vinegar to it",
+            "feedback": "Bees do not add vinegar. They add an enzyme that helps change nectar into honey, but it is the low water content that prevents spoilage."
+          },
+          {
+            "label": "Because it has very little water and is acidic",
+            "feedback": "Correct. Honey is mostly sugar with under 18% water, which creates a dry environment where bacteria and fungi cannot survive. Its natural acidity also helps preserve it."
+          }
+        ],
+        "ok_title": "Honey's low water",
+        "ok_line": "Dry, acidic honey does not rot.",
+        "ko_title": "Preservation reason missed",
+        "ko_line": "Low water and acidity, not sealing or cold, keep honey safe.",
+        "exp_title": "Why honey keeps",
+        "exp_text": "Bees evaporate water from nectar until honey contains very little moisture. In such a concentrated sugar solution, any microbe would lose water and die. The bees also cap the cells with wax, but the chemical dryness is what truly prevents spoilage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary job of the drone bees in a honeybee colony?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To mate with a new queen",
+            "feedback": "Correct. Drones are male bees whose only purpose is to fertilize a virgin queen during her mating flight. They do not gather nectar, defend the hive, or build comb."
+          },
+          {
+            "label": "To guard the entrance of the hive",
+            "feedback": "Guarding is done by worker bees, not drones. Drones lack stingers and are not equipped for defense."
+          },
+          {
+            "label": "To feed the larvae and clean the cells",
+            "feedback": "These are nurse bee jobs done by young workers. Drones do not perform any hive work."
+          },
+          {
+            "label": "To store honey in their bodies",
+            "feedback": "Drones are not storage vessels. They do not collect or store honey; they only eat honey already stored in the hive."
+          }
+        ],
+        "ok_title": "Drones mate only",
+        "ok_line": "Drones exist to mate with a queen.",
+        "ko_title": "Worker jobs assigned",
+        "ko_line": "Drones do not guard, nurse, or build—those are worker tasks.",
+        "exp_title": "Role of male drones",
+        "exp_text": "Drones are the male bees in a colony. Their single task is to leave the hive and mate with a queen from another colony. After mating, a drone dies. During summer, when no queen needs mating, workers often evict drones from the hive because they consume resources."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do worker bees carry pollen back to the hive?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "In their mouths",
+            "feedback": "Bees do not hold pollen in their mouths for transport. They use a different part of their body."
+          },
+          {
+            "label": "Stuck to their wings",
+            "feedback": "Wings are used for flying and would not efficiently carry pollen. Pollen is packed on the legs instead."
+          },
+          {
+            "label": "In pollen baskets on their hind legs",
+            "feedback": "Correct. Worker bees have a special concave area on their hind legs, surrounded by bristles, where they pack pollen into a dry or slightly moist clump for transport."
+          },
+          {
+            "label": "In their honey stomach",
+            "feedback": "The honey stomach carries nectar, not pollen. Pollen is carried externally, not inside the body."
+          }
+        ],
+        "ok_title": "Pollen baskets",
+        "ok_line": "Bees pack pollen onto their hind legs.",
+        "ko_title": "Pollen transport confused",
+        "ko_line": "Pollen travels on legs, not in the mouth or stomach.",
+        "exp_title": "How pollen is carried",
+        "exp_text": "When a bee visits a flower, pollen grains stick to her hairy body. She brushes them off with her legs and presses them into the pollen baskets on each hind leg. These are smooth, slightly hollow areas edged with bristles that hold the compacted pollen pellet safely during flight home."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What triggers a colony of honeybees to swarm and leave their hive?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lack of water in the area",
+            "feedback": "Scarcity of water would make bees struggle, but it is not the main cause of swarming. They swarm for a different reason related to growth."
+          },
+          {
+            "label": "The hive becomes too crowded",
+            "feedback": "Correct. When a colony grows too large and the hive is full of bees and honey, the old queen leaves with a portion of the workers to start a new colony. This is called swarming."
+          },
+          {
+            "label": "A change in flower blooms",
+            "feedback": "Flower changes affect foraging, but they do not cause the colony to split. Swarming happens when population and space reach a limit."
+          },
+          {
+            "label": "The death of the queen",
+            "feedback": "If the queen dies, workers raise a new queen instead of swarming. Swarming is a response to crowding, not to queen loss."
+          }
+        ],
+        "ok_title": "Crowding causes swarm",
+        "ok_line": "Too full a hive makes bees split.",
+        "ko_title": "Swarm trigger wrong",
+        "ko_line": "Swarming is about space and size, not water, flowers, or queen death.",
+        "exp_title": "Why bees swarm",
+        "exp_text": "When a hive gets overcrowded, workers build queen cells to raise a new queen. Then the old queen leaves with a large group of workers to find a new nest site. This split is called swarming and is nature's way of letting the colony reproduce and spread."
+      }
+    ]
+  }
+]

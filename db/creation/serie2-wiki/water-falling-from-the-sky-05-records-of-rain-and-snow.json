@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is rain made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Droplets of liquid water",
+            "feedback": "Correct. Rain is a form of precipitation where liquid water droplets condense from water vapor and fall by gravity."
+          },
+          {
+            "label": "Ice crystals",
+            "feedback": "Not quite. Ice crystals are involved in snow or hail, but rain itself consists of liquid water droplets."
+          },
+          {
+            "label": "Water vapor",
+            "feedback": "Incorrect. Water vapor is an invisible gas that condenses to form droplets; rain is the liquid droplets themselves."
+          },
+          {
+            "label": "Dust particles",
+            "feedback": "That's not right. Dust can act as nuclei for condensation, but rain is made of water droplets, not dust."
+          }
+        ],
+        "ok_title": "Rain composition",
+        "ok_line": "Rain is liquid water droplets falling from clouds.",
+        "ko_title": "Misidentifying rain",
+        "ko_line": "Rain is liquid, not vapor or ice.",
+        "exp_title": "What rain is",
+        "exp_text": "Rain is a form of precipitation made of liquid water droplets that have condensed from water vapor in the atmosphere and then fall because of gravity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a very light, sporadic rainfall?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Shower",
+            "feedback": "No, a shower is brief and moderate, not light and sporadic."
+          },
+          {
+            "label": "Downpour",
+            "feedback": "Incorrect, a downpour is heavy and prolonged, not light."
+          },
+          {
+            "label": "Drizzle",
+            "feedback": "Correct. Drizzle refers to very light, sporadic rainfall."
+          },
+          {
+            "label": "Cloudburst",
+            "feedback": "Not right, a cloudburst is a brief but heavy rainfall."
+          }
+        ],
+        "ok_title": "Drizzle defined",
+        "ok_line": "Drizzle is the lightest kind of rain.",
+        "ko_title": "Rain intensity mix-up",
+        "ko_line": "Light rain is drizzle, not shower or downpour.",
+        "exp_title": "Types of rain intensity",
+        "exp_text": "Rain intensity has different names: drizzle for very light and sporadic, shower for brief and moderate, cloudburst for brief heavy, and downpour for prolonged heavy rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a weather front?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A line of thunderstorms",
+            "feedback": "That's not correct. Thunderstorms are a type of storm, not the zone of temperature and moisture contrast itself."
+          },
+          {
+            "label": "A zone where temperature and moisture contrast",
+            "feedback": "Correct. A weather front is a three-dimensional zone separating air masses with different temperature and moisture."
+          },
+          {
+            "label": "A high-pressure area",
+            "feedback": "Incorrect. High-pressure areas are different weather systems; fronts are boundaries between air masses."
+          },
+          {
+            "label": "A part of a cloud",
+            "feedback": "Not right. Clouds form within fronts, but fronts are larger atmospheric zones."
+          }
+        ],
+        "ok_title": "What is a front",
+        "ok_line": "Fronts are boundaries between different air masses.",
+        "ko_title": "Front confusion",
+        "ko_line": "A front is about air contrasts, not a storm itself.",
+        "exp_title": "Weather fronts",
+        "exp_text": "Weather fronts are three-dimensional zones where warm and cold, moist and dry air meet. These contrasts help produce rain by lifting air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does relative humidity measure?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "How much water vapor air holds as a percentage of its maximum",
+            "feedback": "Correct. Relative humidity is the percentage of total water vapor the air can hold at that temperature."
+          },
+          {
+            "label": "The actual amount of water in grams per kilogram of air",
+            "feedback": "That describes mixing ratio, not relative humidity."
+          },
+          {
+            "label": "The temperature at which air becomes saturated",
+            "feedback": "No, that is the dew point."
+          },
+          {
+            "label": "The speed of wind carrying moisture",
+            "feedback": "Wind speed is not what humidity measures."
+          }
+        ],
+        "ok_title": "Relative humidity",
+        "ok_line": "Relative humidity is a percentage of saturation.",
+        "ko_title": "Humidity vs other terms",
+        "ko_line": "Relative humidity is about saturation, not absolute amounts.",
+        "exp_title": "Meaning of relative humidity",
+        "exp_text": "Relative humidity tells how close air is to being saturated: 100% means it holds all the water vapor it can at that temperature."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to air when it rises?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It warms up",
+            "feedback": "No, rising air expands and cools, not warms."
+          },
+          {
+            "label": "It becomes more humid",
+            "feedback": "Actually, cooling can bring it to saturation, but rising itself does not add moisture."
+          },
+          {
+            "label": "It stays the same temperature",
+            "feedback": "Not correct; rising air cools adiabatically."
+          },
+          {
+            "label": "It cools adiabatically",
+            "feedback": "Correct. When air rises and expands, its temperature drops without heat exchange."
+          }
+        ],
+        "ok_title": "Rising air cools",
+        "ok_line": "Rising air expands and cools.",
+        "ko_title": "Air behavior wrong",
+        "ko_line": "Rising means cooling, not warming.",
+        "exp_title": "Adiabatic cooling",
+        "exp_text": "When a parcel of air rises, pressure decreases and it expands, which makes it cool—this is adiabatic cooling. Cooling helps it reach saturation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the dew point?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The temperature at which water boils",
+            "feedback": "No, that's boiling point."
+          },
+          {
+            "label": "The temperature at which rain starts",
+            "feedback": "Rain starts after many steps; dew point is about saturation."
+          },
+          {
+            "label": "The temperature to which air must cool to become saturated",
+            "feedback": "Correct. The dew point is the cooling temperature needed for saturation."
+          },
+          {
+            "label": "The temperature of dew on grass",
+            "feedback": "Dew forms at the dew point, but the term is about the air's saturation temperature."
+          }
+        ],
+        "ok_title": "Dew point",
+        "ok_line": "Dew point is the saturation temperature.",
+        "ko_title": "Dew point mistaken",
+        "ko_line": "Dew point is about air cooling to saturation.",
+        "exp_title": "Saturation temperature",
+        "exp_text": "The dew point is the specific temperature a parcel of air must cool to in order to reach 100% relative humidity, where condensation begins."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are condensation nuclei?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Tiny water droplets that form clouds",
+            "feedback": "That's what condenses, not the nuclei themselves."
+          },
+          {
+            "label": "Particles like dust, ice, and salt on which water vapor condenses",
+            "feedback": "Correct. Water vapor needs surfaces like dust or salt to condense into droplets."
+          },
+          {
+            "label": "Cores in hailstones",
+            "feedback": "Hailstones have embryos, but condensation nuclei are for cloud droplets."
+          },
+          {
+            "label": "Instruments that measure moisture",
+            "feedback": "Instruments are not natural particles."
+          }
+        ],
+        "ok_title": "Condensation nuclei",
+        "ok_line": "Dust and salt help vapor become droplets.",
+        "ko_title": "Nuclei misunderstood",
+        "ko_line": "Nuclei are tiny particles, not droplets or tools.",
+        "exp_title": "Starting points for clouds",
+        "exp_text": "Water vapor condenses onto tiny particles in the air, such as dust, ice, or salt—these are called condensation nuclei—to form cloud droplets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is coalescence in cloud physics?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Water droplets fusing to become larger droplets",
+            "feedback": "Correct. Coalescence is when droplets collide and merge into bigger droplets."
+          },
+          {
+            "label": "Water vapor turning directly into ice",
+            "feedback": "That's deposition, not coalescence."
+          },
+          {
+            "label": "Droplets breaking apart into smaller ones",
+            "feedback": "Breaking apart is fragmentation, the opposite of coalescence."
+          },
+          {
+            "label": "Air moving upward in a cloud",
+            "feedback": "Updrafts are part of cloud dynamics but not what coalescence means."
+          }
+        ],
+        "ok_title": "Coalescence process",
+        "ok_line": "Droplets merge to grow bigger.",
+        "ko_title": "Coalescence mixed up",
+        "ko_line": "Coalescence is merging, not breaking or freezing.",
+        "exp_title": "How droplets grow",
+        "exp_text": "Coalescence occurs when water droplets collide due to turbulence and fuse, making larger drops that can eventually fall as rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to ice crystals that form in a cloud below freezing when they fall toward warmer ground?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They stay as ice all the way down",
+            "feedback": "Not unless the ground is also below freezing; if it warms they melt."
+          },
+          {
+            "label": "They grow larger by absorbing more water",
+            "feedback": "They might grow, but the key change here is melting."
+          },
+          {
+            "label": "They evaporate completely",
+            "feedback": "That's not typical; they often reach the ground as rain."
+          },
+          {
+            "label": "They melt and become rain",
+            "feedback": "Correct. The temperature difference between cloud and ground can make ice crystals melt into raindrops before landing."
+          }
+        ],
+        "ok_title": "Melting ice to rain",
+        "ok_line": "Cold-cloud ice melts into rain on the way down.",
+        "ko_title": "Ice crystal fate wrong",
+        "ko_line": "Warm air turns them to liquid.",
+        "exp_title": "From ice to rain",
+        "exp_text": "In clouds below freezing, ice crystals form and gain mass. As they fall into warmer air near the ground, they melt, producing rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical shape of a small cloud droplet?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Oblate like a hamburger bun",
+            "feedback": "That shape applies to larger raindrops, not tiny cloud droplets."
+          },
+          {
+            "label": "Spherical",
+            "feedback": "Correct. Small droplets are spherical because surface tension dominates."
+          },
+          {
+            "label": "Teardrop-shaped",
+            "feedback": "Teardrop is a myth even for raindrops, and certainly not for cloud droplets."
+          },
+          {
+            "label": "Parachute-like",
+            "feedback": "Parachute shapes occur for very large raindrops, not small droplets."
+          }
+        ],
+        "ok_title": "Cloud droplet shape",
+        "ok_line": "Tiny droplets are round spheres.",
+        "ko_title": "Droplet shape error",
+        "ko_line": "Small drops are spherical, not flattened.",
+        "exp_title": "Droplet shapes by size",
+        "exp_text": "Cloud droplets are tiny and spherical. As drops grow larger, they become flattened on the bottom, like hamburger buns."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is soil erosion?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The wearing away of the upper layer of soil",
+            "feedback": "Correct. Soil erosion is the denudation or wearing away of the upper layer of soil."
+          },
+          {
+            "label": "The formation of new soil from rock",
+            "feedback": "That is soil formation, not erosion. Erosion is the removal of existing soil, not the creation of it."
+          },
+          {
+            "label": "The buildup of sediment in riverbeds",
+            "feedback": "That is deposition, which happens when eroded material settles, not the erosion itself."
+          },
+          {
+            "label": "The mixing of organic matter into topsoil",
+            "feedback": "That is a process of soil enrichment, not the wearing away of soil layers."
+          }
+        ],
+        "ok_title": "Soil erosion defined",
+        "ok_line": "It is the wearing away of the upper soil layer.",
+        "ko_title": "Soil erosion confused",
+        "ko_line": "Remember, erosion removes soil, it does not create it.",
+        "exp_title": "Meaning of soil erosion",
+        "exp_text": "Soil erosion is simply the denudation or wearing away of the upper layer of soil. It is a form of soil degradation caused by agents like water, ice, snow, air, plants, and animals."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the four main types of soil erosion caused by rainfall and surface runoff?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Splash, sheet, rill, and gully",
+            "feedback": "Correct. These are the four stages, from least to most severe: splash, sheet, rill, and gully erosion."
+          },
+          {
+            "label": "Wind, water, ice, and gravity",
+            "feedback": "Those are the agents, not the types. The four types are the stages of water erosion from rain."
+          },
+          {
+            "label": "Deflation, saltation, suspension, and creep",
+            "feedback": "Those are categories of wind erosion, not rainfall erosion."
+          },
+          {
+            "label": "Downcutting, lateral, headward, and bank",
+            "feedback": "Those describe stream erosion processes, not the four rainfall types."
+          }
+        ],
+        "ok_title": "Rain erosion types",
+        "ok_line": "Splash, sheet, rill, and gully are the four.",
+        "ko_title": "Rain erosion confused",
+        "ko_line": "Those wind terms belong to wind erosion, not rainfall runoff.",
+        "exp_title": null,
+        "exp_text": "Rainfall and surface runoff cause splash, sheet, rill, and gully erosion. Splash is the first and least severe, then sheet, then rill, and finally gully, which is the most severe."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is splash erosion?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The transport of soil by overland flow",
+            "feedback": "That is sheet erosion, not splash. Splash is the impact of a single raindrop."
+          },
+          {
+            "label": "The carving of small channels in the soil",
+            "feedback": "That is rill erosion. Splash happens at the point of raindrop impact, before channels form."
+          },
+          {
+            "label": "The deep cutting of gullies by running water",
+            "feedback": "That is gully erosion. Splash is the very first, least severe stage."
+          },
+          {
+            "label": "The impact of a falling raindrop that ejects soil particles",
+            "feedback": "Correct. Splash erosion is when a raindrop hits the soil, making a small crater and throwing out soil particles."
+          }
+        ],
+        "ok_title": "Splash erosion defined",
+        "ok_line": "It is the raindrop's impact ejecting soil.",
+        "ko_title": "Splash erosion confused",
+        "ko_line": "Remember, splash is the first step, not the later stages.",
+        "exp_title": null,
+        "exp_text": "Splash erosion is the impact of a falling raindrop that creates a small crater and ejects soil particles. It is the first and least severe stage in the erosion process."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the difference between rill erosion and gully erosion?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Rills are small, shallow channels; gullies are deep, wide channels",
+            "feedback": "Correct. Rills have flow depths of a few centimeters or less, while gullies remove soil to a considerable depth."
+          },
+          {
+            "label": "Rills are caused by wind, gullies by water",
+            "feedback": "Both are caused by water runoff. Wind does not create rills or gullies."
+          },
+          {
+            "label": "Rills occur only on flat land, gullies only on slopes",
+            "feedback": "Rills occur on hillslopes, and gullies also form in narrow channels, often on slopes."
+          },
+          {
+            "label": "Rills are permanent, gullies are temporary",
+            "feedback": "Rills are ephemeral (temporary), while gullies are more permanent features."
+          }
+        ],
+        "ok_title": "Rill vs gully",
+        "ok_line": "Rills are small, gullies are deep and wide.",
+        "ko_title": "Rill vs gully confused",
+        "ko_line": "Both are water erosion, but they differ in size and depth.",
+        "exp_title": null,
+        "exp_text": "Rill erosion involves small, ephemeral flow paths with shallow depths (a few centimeters), while gully erosion occurs when runoff rapidly flows in narrow channels, removing soil to a considerable depth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main force that drives mass movement?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Wind",
+            "feedback": "Wind causes wind erosion, but mass movement is driven by gravity, not wind."
+          },
+          {
+            "label": "Flowing water",
+            "feedback": "Water can trigger mass movement, but the primary force moving rock and sediments downslope is gravity."
+          },
+          {
+            "label": "Gravity",
+            "feedback": "Correct. Mass movement is the downward and outward movement of rock and sediments on a slope, mainly due to gravity."
+          },
+          {
+            "label": "Glacial ice",
+            "feedback": "Glaciers are a separate agent; mass movement is specifically driven by gravity."
+          }
+        ],
+        "ok_title": "Driver of mass movement",
+        "ok_line": "Gravity is the main force.",
+        "ko_title": "Mass movement driven by?",
+        "ko_line": "Gravity, not wind or water, is the primary force.",
+        "exp_title": null,
+        "exp_text": "Mass movement is the downslope movement of rock and sediments on a sloped surface, mainly due to the force of gravity. It is often the first stage in breaking down and transporting weathered materials in mountains."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two primary varieties of wind erosion?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Splash and sheet",
+            "feedback": "Those are types of water erosion, not wind erosion."
+          },
+          {
+            "label": "Deflation and abrasion",
+            "feedback": "Correct. Deflation picks up and carries away loose particles, while abrasion wears surfaces down as they are struck by airborne particles."
+          },
+          {
+            "label": "Rill and gully",
+            "feedback": "Those are types of water erosion from runoff, not wind erosion."
+          },
+          {
+            "label": "Thermal and glacial",
+            "feedback": "Thermal erosion involves melting permafrost, and glacial erosion involves ice, not wind."
+          }
+        ],
+        "ok_title": "Wind erosion types",
+        "ok_line": "Deflation and abrasion are the two.",
+        "ko_title": "Wind erosion confused",
+        "ko_line": "Those water and ice terms are not wind erosion types.",
+        "exp_title": null,
+        "exp_text": "Wind erosion has two primary varieties: deflation, where the wind picks up and carries away loose particles, and abrasion, where surfaces are worn down by airborne particles carried by the wind."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is one of the three categories of deflation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Saltation",
+            "feedback": "Correct. Saltation is when particles are lifted a short height and bounce across the soil."
+          },
+          {
+            "label": "Splash",
+            "feedback": "Splash erosion is from raindrops, not wind deflation."
+          },
+          {
+            "label": "Sheet",
+            "feedback": "Sheet erosion is from overland water flow, not wind deflation."
+          },
+          {
+            "label": "Gully",
+            "feedback": "Gully erosion is from concentrated water runoff, not wind."
+          }
+        ],
+        "ok_title": "Deflation category",
+        "ok_line": "Saltation is one of the three.",
+        "ko_title": "Deflation categories confused",
+        "ko_line": "Those are water erosion types, not wind deflation.",
+        "exp_title": null,
+        "exp_text": "Deflation is divided into three categories: surface creep (larger particles slide or roll), saltation (particles bounce short heights), and suspension (very small particles are carried long distances). Saltation is responsible for most wind erosion."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens during thermal erosion?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Wind blows away dry soil particles",
+            "feedback": "That is wind erosion, not thermal erosion."
+          },
+          {
+            "label": "Raindrops splash soil off the surface",
+            "feedback": "That is splash erosion, not thermal erosion."
+          },
+          {
+            "label": "Ice scrapes and polishes bedrock",
+            "feedback": "That is glacial erosion, not thermal erosion."
+          },
+          {
+            "label": "Moving water melts and weakens permafrost",
+            "feedback": "Correct. Thermal erosion occurs when moving water melts and weakens permafrost, causing bank failure along rivers and coasts."
+          }
+        ],
+        "ok_title": "Thermal erosion defined",
+        "ok_line": "Moving water melts permafrost.",
+        "ko_title": "Thermal erosion confused",
+        "ko_line": "Thermal erosion is about melting ice, not wind or raindrops.",
+        "exp_title": null,
+        "exp_text": "Thermal erosion is the result of melting and weakening permafrost due to moving water. It can happen along rivers and at coasts, where warmed water and wave action undercut permafrost bluffs, causing them to fail."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is bank erosion?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The wearing away of the stream bed",
+            "feedback": "That is scour, not bank erosion. Bank erosion is on the sides of the stream."
+          },
+          {
+            "label": "The removal of soil by wind from riverbanks",
+            "feedback": "Bank erosion is caused by water flow, not wind."
+          },
+          {
+            "label": "The wearing away of the banks of a stream or river",
+            "feedback": "Correct. Bank erosion is the wearing away of the banks of a stream or river, distinguished from scour on the bed."
+          },
+          {
+            "label": "The melting of permafrost along a river",
+            "feedback": "That is thermal erosion, which can affect banks but is a different process."
+          }
+        ],
+        "ok_title": "Bank erosion explained",
+        "ok_line": "It wears away stream or river banks.",
+        "ko_title": "Bank erosion confused",
+        "ko_line": "Bank erosion is on the sides, not the bed.",
+        "exp_title": null,
+        "exp_text": "Bank erosion is the wearing away of the banks of a stream or river, caused by flowing water. It is different from scour, which is the change in the bed of the watercourse."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the process called when the upper layer of soil is worn away?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Soil erosion",
+            "feedback": "Correct. Soil erosion is the wearing away of the upper layer of soil, and it is a form of soil degradation."
+          },
+          {
+            "label": "Soil compaction",
+            "feedback": "This is not erosion. Compaction is when soil particles are pressed together, often reducing the soil's ability to absorb water, which can actually lead to erosion but is not the wearing away itself."
+          },
+          {
+            "label": "Soil saturation",
+            "feedback": "Saturation is when the soil is full of water, which can lead to runoff and erosion, but saturation itself is not the wearing away of the soil layer."
+          },
+          {
+            "label": "Soil deposition",
+            "feedback": "Deposition is the opposite of erosion; it is when soil particles are dropped or laid down, not worn away from the upper layer."
+          }
+        ],
+        "ok_title": "Erosion defined",
+        "ok_line": "Soil erosion is the wearing away of the upper soil layer.",
+        "ko_title": "Not erosion",
+        "ko_line": "The correct term for wearing away is soil erosion.",
+        "exp_title": "Soil erosion basics",
+        "exp_text": "Soil erosion is the natural process where the top layer of soil is worn away. It happens due to agents like water, ice, snow, air, plants, and animals, and it is considered a form of soil degradation."
+      }
+    ]
+  }
+]

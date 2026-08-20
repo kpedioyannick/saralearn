@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 123,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why do hurricanes, typhoons and cyclones all form only over warm tropical oceans?",
+        "body": null,
+        "options": [
+          {
+            "label": "Warm ocean water evaporates rapidly and hands large amounts of heat energy to the air above it, which is what powers the storm",
+            "feedback": "As warm water evaporates, it carries huge amounts of heat into the air with it, and that heat is released again higher up, fuelling the storm's rising, spinning motion."
+          },
+          {
+            "label": "Salt in seawater reacts chemically with the air to release energy",
+            "feedback": "There is no meaningful chemical reaction between salt and air at ordinary temperatures. The energy driving these storms is heat carried by evaporating water, not any chemical process."
+          },
+          {
+            "label": "Warm water is simply lighter and floats higher, giving storms more room to form",
+            "feedback": "How high water sits has nothing to do with how a storm forms in the air above it. What matters is how much heat the warm water is able to give up to that air."
+          },
+          {
+            "label": "Tropical oceans reflect more sunlight back into developing storms",
+            "feedback": "Water actually reflects relatively little sunlight compared to ice or cloud tops, and reflected light carries far too little energy to power a storm like this anyway."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Evaporating warm water hands its heat to the air, and that heat becomes the storm's engine.",
+        "ko_title": "Look for the fuel",
+        "ko_line": "A storm this powerful needs an energy source. Ask what warm ocean water is constantly giving off into the air above it.",
+        "exp_title": "The ocean's heat, carried upward",
+        "exp_text": "Warm tropical water evaporates quickly, and every bit of water vapour rising off the surface carries with it the heat that was used to turn it from liquid into gas. Higher up, where that vapour condenses back into cloud, the same heat is released into the surrounding air, warming it and making it rise faster still, and it is this steady supply of heat from the ocean that keeps the whole system spinning and growing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is there a calm, nearly cloudless circle at the very centre of a mature hurricane, known as the eye?",
+        "body": null,
+        "options": [
+          {
+            "label": "The eye marks the one spot where no evaporation is happening below",
+            "feedback": "Evaporation still occurs under the eye. What is different there is not the water below but the air's motion above it."
+          },
+          {
+            "label": "Air spiralling inward toward the centre is flung outward again by its own spin before it can reach the middle, leaving a calm column in the very centre",
+            "feedback": "As the strongly rotating air converges toward the centre, its spin becomes so fast that air is thrown outward rather than pulled all the way in, leaving the innermost column relatively undisturbed and clear."
+          },
+          {
+            "label": "Lightning inside the storm burns away the clouds at the centre",
+            "feedback": "Lightning releases far too little and too brief a burst of heat to clear an area as large and lasting as the eye of a hurricane."
+          },
+          {
+            "label": "The centre of the storm is furthest from the warm ocean water feeding it",
+            "feedback": "The eye sits directly above the same warm ocean as the rest of the storm. Distance from the water is not what sets it apart."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "The spin itself flings inward-spiralling air back out before it reaches the centre.",
+        "ko_title": "Think about the spinning air, not the water below",
+        "ko_line": "Air spiralling toward the centre is moving very fast by the time it gets close. Ask what that speed does to its path.",
+        "exp_title": "Spun too fast to reach the middle",
+        "exp_text": "Air drawn in toward a hurricane's centre speeds up as it spirals inward, the same way a skater spins faster by pulling their arms in, and by the time it nears the middle it is rotating so quickly that the outward force of that spin balances the inward pull. Unable to converge any further, the air is deflected around rather than into the centre, leaving a relatively calm, clear column standing at the heart of the storm."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the wind spiral into a hurricane rather than blowing straight toward its low-pressure centre?",
+        "body": null,
+        "options": [
+          {
+            "label": "The eye actively pulls air sideways as well as inward",
+            "feedback": "The eye itself is calm and does no pulling. The spiral shape comes from what happens to air converging from every direction around the storm, not from any action of the eye."
+          },
+          {
+            "label": "Rain falling through the storm knocks the wind sideways as it descends",
+            "feedback": "Falling rain has far too little mass compared to the vast volume of moving air to redirect the wind's overall path."
+          },
+          {
+            "label": "Air converging toward the low pressure from every direction is deflected by the turning Earth, curving its path into a spiral rather than a straight line inward",
+            "feedback": "The same deflection that bends the great wind belts also bends air rushing toward this small, intense low-pressure centre, curving every inward path into the same spiral rotation."
+          },
+          {
+            "label": "The ocean current beneath the storm is itself spiralling",
+            "feedback": "Ocean currents move far too slowly to impose their shape on wind travelling many times faster in the air above."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "The same deflection that curves the great wind belts curves this inward rush too.",
+        "ko_title": "Recall the earlier deflection",
+        "ko_line": "Something bends every wind that tries to travel in a straight line across the turning Earth, and a hurricane's converging air is no exception.",
+        "exp_title": "A straight path bent into a spiral",
+        "exp_text": "Air rushing toward the storm's low-pressure centre from every direction would travel in straight lines if the Earth stood still, but the planet's rotation deflects each of those paths, curving them all the same way. Bent rather than straight, the converging streams of air wind around the centre instead of driving directly into it, and that shared curve is what gives the whole storm its spinning, spiral shape."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do hurricanes weaken quickly once they move over land or over colder water?",
+        "body": null,
+        "options": [
+          {
+            "label": "Land is simply too heavy for the storm to lift itself over",
+            "feedback": "A hurricane is a moving pattern of air and cloud, not something that needs to physically lift over ground. Weight of land plays no part in its weakening."
+          },
+          {
+            "label": "Trees and buildings on land absorb the storm's rain, drying it out",
+            "feedback": "Rain being absorbed by the ground is a result of the storm passing over land, not the reason its winds weaken. Its strength comes from heat and moisture supply, not from how much rain lands."
+          },
+          {
+            "label": "Compasses stop working correctly once a storm crosses onto land",
+            "feedback": "A compass answers to the Earth's magnetic field regardless of what storm is passing overhead, and nothing about a hurricane changes how a compass performs."
+          },
+          {
+            "label": "Land and cold water cannot supply the ocean's evaporating heat that the storm depends on to keep rising and spinning",
+            "feedback": "Without a steady stream of heat carried up by evaporating warm water, the storm's engine loses its fuel, and it begins to run down."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Exactly",
+        "ok_line": "Cut off from warm water, the storm loses the heat that was keeping it going.",
+        "ko_title": "Think about the fuel supply",
+        "ko_line": "The storm depends on a constant source of heat rising from below. Ask what happens once that source disappears.",
+        "exp_title": "Starved of its own fuel",
+        "exp_text": "A hurricane's strength comes from the steady stream of heat carried upward as warm ocean water evaporates beneath it, and neither dry land nor colder water can supply heat at anything close to that rate. Cut off from its source of energy, the rising and spinning motion that the heat was driving begins to slow, and the storm weakens rapidly once it loses contact with warm water."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do hurricanes never form right at the equator, even though the ocean there is often warm enough?",
+        "body": null,
+        "options": [
+          {
+            "label": "The deflection from the Earth's rotation, needed to set the storm spinning, is too weak right at the equator",
+            "feedback": "Directly on the equator, the deflection that curves moving air is essentially absent, so converging air rushes straight toward low pressure instead of being turned into the spiral a hurricane needs."
+          },
+          {
+            "label": "The equator receives too much direct sunlight for a storm to organise",
+            "feedback": "Strong sunlight is part of what warms the ocean in the first place, so it is not something working against the storm — the missing ingredient lies elsewhere."
+          },
+          {
+            "label": "Ships rarely cross the equator, so storms there go unrecorded",
+            "feedback": "Modern storms are tracked from above by satellite regardless of shipping traffic, and satellite records confirm that hurricanes genuinely do not form on the equator itself, not merely that they go unseen."
+          },
+          {
+            "label": "The ocean at the equator is too deep for a storm to draw heat from",
+            "feedback": "Storms draw their heat from the warm surface layer of the ocean, not from its depth, and that warm surface layer is no different at the equator than at latitudes just a few degrees away."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Without that deflection, converging air cannot be turned into a spin.",
+        "ko_title": "Recall what starts the spiral",
+        "ko_line": "The inward-rushing air needs to be bent into a spiral to become a hurricane, and that bending depends on the same deflection described earlier — which fades to almost nothing in one particular place.",
+        "exp_title": "No spin without the deflection",
+        "exp_text": "The spiral shape of a hurricane depends on the deflection caused by the Earth's rotation, curving air as it rushes toward a region of low pressure, but that deflection is strongest at the poles and fades to almost nothing directly on the equator. With too little deflection to bend the converging air into rotation, a storm forming there would simply rush straight into its own centre and collapse rather than spin up into a hurricane, so storms need to drift a few degrees away from the equator before they can properly organise."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the same kind of storm called a hurricane in the Atlantic, a typhoon in the western Pacific, and a cyclone in the Indian Ocean?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each ocean region produces a genuinely different kind of storm with its own separate cause",
+            "feedback": "The storms forming in each of these regions share the exact same cause — heat carried upward from warm ocean water — and the same spiralling structure. Nothing about their formation differs by ocean."
+          },
+          {
+            "label": "The names simply come from different regional languages and traditions for the same storm",
+            "feedback": "Warm, evaporating water spinning into a storm behaves identically wherever it happens on the globe, and the three names are separate regional labels attached afterward to that one same process."
+          },
+          {
+            "label": "Typhoons and cyclones spin in the opposite direction to hurricanes",
+            "feedback": "Direction of spin depends only on which side of the equator a storm forms, north or south, not on which ocean basin it is in or which name it is given."
+          },
+          {
+            "label": "Hurricanes form over warm water while typhoons and cyclones form over cold water",
+            "feedback": "All three kinds need warm ocean water to form. None of them can develop over cold water regardless of what they are called."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Same storm, same warm-water engine — three regional names for one process.",
+        "ko_title": "Ask what actually differs",
+        "ko_line": "Strip away the label and compare how each storm forms. Is anything about the mechanism itself different from one ocean to the next?",
+        "exp_title": "One storm, three names",
+        "exp_text": "In every one of these ocean basins the storm forms the same way, drawing its energy from heat carried upward by evaporating warm water and spun into a spiral by the same deflection from the Earth's rotation. What changes from place to place is only the word local communities settled on long before satellites could show that the different names described exactly the same kind of storm."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a hurricane's wind blow hardest not at its calm centre but in a ring some distance out from it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Rain is heaviest in that ring and adds extra weight to the wind",
+            "feedback": "Rain adds mass to falling water, not to the horizontal speed of moving air. Heavy rainfall does not by itself make wind blow faster."
+          },
+          {
+            "label": "The outer edge of the storm is closest to the warm ocean water",
+            "feedback": "The ocean beneath a hurricane is roughly the same warm water across the whole width of the storm. Proximity to it does not change enough between the outer edge and the ring closer to the centre."
+          },
+          {
+            "label": "That ring is where the wall of towering thunderstorm cloud circling the eye sits, and it is there that the strongest rising motion and the tightest spiralling wind are found together",
+            "feedback": "Just outside the calm eye, a dense ring of tall storm cloud, the eyewall, holds the fastest rising air and the tightest, most intense spiralling wind found anywhere in the storm."
+          },
+          {
+            "label": "Satellites measure wind speed less accurately near the storm's true centre",
+            "feedback": "Whether or not the ring of strongest wind is easy to measure has no bearing on why the wind is actually strongest there — the storm's structure sets that pattern, not the instrument reading it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "That is the eyewall",
+        "ok_line": "The ring of towering cloud just outside the calm eye holds the storm's fastest wind.",
+        "ko_title": "Look just outside the calm centre",
+        "ko_line": "The very centre is calm, but immediately around it sits a dense wall of cloud where the storm's rising motion is most concentrated.",
+        "exp_title": "The eyewall, where the storm is most intense",
+        "exp_text": "Surrounding the calm eye is a ring of towering thunderstorm cloud called the eyewall, where the greatest concentration of rising, spiralling air in the whole storm is packed into a comparatively narrow band. Because that rising motion and the spin driving it are strongest exactly there, the fastest sustained winds in the entire hurricane are found circling within the eyewall rather than at the storm's true centre or out at its wide, weaker outer edge."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a hurricane's wind field often reach out over a far wider area than the storm's small, intense central core?",
+        "body": null,
+        "options": [
+          {
+            "label": "Wind from the core is reflected outward by the surrounding ocean surface",
+            "feedback": "A flat ocean surface does not reflect wind the way a solid wall might. Wind spreads outward because of the pressure pattern pulling air toward the centre, not because of any reflection."
+          },
+          {
+            "label": "Every hurricane is exactly the same size regardless of its strength",
+            "feedback": "Hurricanes vary considerably in size from one storm to the next. Size is not fixed, and it is not the reason the wind field extends beyond the core."
+          },
+          {
+            "label": "Outer wind belongs to an entirely separate, unrelated weather system riding alongside the storm",
+            "feedback": "The wider wind field is part of the same single spiralling system, drawn together by the one low-pressure centre, not a second unrelated system happening to sit nearby."
+          },
+          {
+            "label": "Air is still being drawn inward toward the low-pressure centre from a broad surrounding region, well beyond where the storm's cloud and rain are heaviest",
+            "feedback": "The low pressure at the storm's centre pulls in air from a wide surrounding area, and that air is already spiralling and gaining speed long before it reaches the dense inner core."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "The low pressure at the centre reaches out and pulls in air from a wide area around it.",
+        "ko_title": "Think about how far a pressure difference can reach",
+        "ko_line": "The pull toward the storm's low-pressure centre is not confined to the small area where the heaviest cloud sits — ask how far out that pull can still draw air inward.",
+        "exp_title": "A pull that reaches further than the clouds do",
+        "exp_text": "The low pressure at a hurricane's centre draws air inward from a broad area around it, and that inward-spiralling motion, and the wind it produces, begins well before the air reaches the dense cloud of the core. Because the pressure difference driving the wind extends outward much further than the heaviest rain and cloud do, a hurricane's damaging wind can be felt across an area many times wider than its compact, visibly stormy centre."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a hurricane's wind speed on one side of the storm often differ noticeably from its wind speed on the opposite side, as the storm moves along its path?",
+        "body": null,
+        "options": [
+          {
+            "label": "The storm's own forward motion adds to its spiralling wind on one side and subtracts from it on the other",
+            "feedback": "Where the storm's spin and its forward travel point the same way, the two speeds add together, and where they point opposite ways, the storm's own motion is subtracted from the spinning wind, leaving one side faster and the other slower."
+          },
+          {
+            "label": "One side of the storm always faces the ocean and the other always faces land",
+            "feedback": "A hurricane travelling over open ocean has no land on either side at all, yet this same lopsided wind pattern still shows up, so facing land or sea is not the explanation."
+          },
+          {
+            "label": "Sunlight only heats one side of the storm at any given moment",
+            "feedback": "Whichever side faces the sun changes constantly as the Earth turns beneath the storm, so it cannot account for a lopsidedness that stays fixed relative to the storm's own direction of travel."
+          },
+          {
+            "label": "The eye is always positioned closer to one side than the other",
+            "feedback": "The eye sits at the storm's centre, roughly equidistant from every side of the surrounding wind field. Its position does not explain why the two sides differ in speed."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "The storm's own forward speed adds on one side and subtracts on the other.",
+        "ko_title": "Think about two motions combining",
+        "ko_line": "The storm is not just spinning in place — it is also travelling along a path. Ask what happens when those two motions line up versus when they oppose each other.",
+        "exp_title": "Two speeds, added or subtracted",
+        "exp_text": "A hurricane both spins around its own centre and travels forward along its overall path at the same time, and on the side where the spinning wind blows in the same direction the storm is moving, the two speeds combine to produce faster wind. On the opposite side, where the spinning wind blows against the storm's direction of travel, the forward motion is subtracted from the spin instead, leaving that side measurably calmer for as long as the storm holds its course."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do meteorologists say a hurricane is essentially a giant heat engine, moving energy from the warm ocean surface to the cooler upper atmosphere?",
+        "body": null,
+        "options": [
+          {
+            "label": "It literally burns fuel the way a mechanical engine does",
+            "feedback": "No burning or combustion takes place anywhere in a hurricane. The comparison to an engine is about how energy moves through the storm, not about anything catching fire."
+          },
+          {
+            "label": "It repeatedly evaporates heat from warm water near the surface, carries that heat upward as rising air, and releases it into the cold upper atmosphere, driving the whole circulation the way heat drives a mechanical engine's motion",
+            "feedback": "Just as a mechanical engine converts a difference in heat into continuous motion, a hurricane continuously draws heat from warm water below, carries it upward, and releases it into cold air above, and that constant flow of heat from warm to cold is what keeps the storm's whole circulation turning."
+          },
+          {
+            "label": "It is built from metal parts blown up from the ocean floor",
+            "feedback": "A hurricane is entirely made of moving air, water vapour and cloud. No solid material of any kind, metal or otherwise, forms any part of its structure."
+          },
+          {
+            "label": "It only resembles an engine because both are loud and dangerous",
+            "feedback": "Noise and danger are not what the comparison is describing. The comparison points specifically at how the storm moves heat energy from a warm source to a cold sink, the same underlying process that powers a mechanical engine."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Heat flows from warm water to cold sky, and that flow is what keeps the whole storm turning.",
+        "ko_title": "Think about what an engine actually does",
+        "ko_line": "An engine converts a difference in heat into continuous motion. Ask what plays the warm source and what plays the cold sink inside a hurricane.",
+        "exp_title": "Heat flowing from warm to cold, and motion falling out of it",
+        "exp_text": "A hurricane continually draws heat from the warm ocean surface as water evaporates, lifts that heat skyward inside rising, spiralling air, and releases it into the far colder air high above, where the water vapour condenses back into cloud. That steady one-way flow of heat from a warm source below to a cold sink above is exactly the kind of difference that drives any heat engine, mechanical or atmospheric, and in the storm's case the motion it produces is the wind circling around the centre."
+      }
+    ]
+  }
+]

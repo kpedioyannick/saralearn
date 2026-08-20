@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 250,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is thirst?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The craving for potable fluids, an instinct in animals to drink",
+            "feedback": "Correct. Thirst is the basic desire to drink fluids, driven by the body's need to maintain fluid balance."
+          },
+          {
+            "label": "A feeling of hunger in the stomach",
+            "feedback": "That is hunger, not thirst. Thirst specifically involves the craving for drinkable fluids, not food."
+          },
+          {
+            "label": "The need for salt in the body",
+            "feedback": "Salt craving is a separate response, often linked to low blood volume, but thirst itself is about the desire for fluids."
+          },
+          {
+            "label": "A dry sensation in the mouth only",
+            "feedback": "Dry mouth can accompany thirst, but thirst is a whole-body signal from the brain, not just a local mouth sensation."
+          }
+        ],
+        "ok_title": "Definition of thirst",
+        "ok_line": "Thirst is the instinctive craving to drink fluids.",
+        "ko_title": "Thirst misunderstood",
+        "ko_line": "Thirst is more than just a dry mouth or hunger.",
+        "exp_title": "What thirst is",
+        "exp_text": "Thirst is the craving for drinkable fluids, arising from a lack of water or too high a concentration of certain substances like sodium in the blood. It is an essential mechanism that helps animals keep their fluid balance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which conditions in the body can trigger the feeling of thirst?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "An excess of water in the blood",
+            "feedback": "Excess water would make the blood more dilute, not concentrated, so it would not trigger thirst. Thirst is triggered by a lack of water or too much solute."
+          },
+          {
+            "label": "A drop in blood sugar levels",
+            "feedback": "Low blood sugar triggers hunger, not thirst. Thirst relates to fluid balance, not glucose levels."
+          },
+          {
+            "label": "A decrease in body water volume or an increase in solute concentration",
+            "feedback": "Correct. When the body's water volume falls below a threshold, or the concentration of osmolites like sodium rises, the brain detects these changes and signals thirst."
+          },
+          {
+            "label": "An increase in blood pressure",
+            "feedback": "High blood pressure does not directly signal thirst. Thirst is triggered by low fluid volume or high solute concentration, not by blood pressure itself."
+          }
+        ],
+        "ok_title": "Thirst triggers",
+        "ok_line": "Low water or high solute concentration sets off thirst.",
+        "ko_title": "Wrong triggers for thirst",
+        "ko_line": "Thirst is not about sugar or excess water.",
+        "exp_title": "What causes thirst",
+        "exp_text": "Thirst arises when the water volume of the body falls below a certain level or when the concentration of osmolites such as sodium becomes too high. Structures in the brain detect these changes in blood and signal the need to drink."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for excessive thirst, which may indicate diabetes?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Polyuria",
+            "feedback": "Polyuria is excessive urination, not thirst. It can occur alongside excessive thirst but is a separate symptom."
+          },
+          {
+            "label": "Polydipsia",
+            "feedback": "Correct. Polydipsia is the term for excessive thirst, and along with polyuria (excessive urination) it may signal diabetes mellitus or diabetes insipidus."
+          },
+          {
+            "label": "Hypovolemia",
+            "feedback": "Hypovolemia is a decreased blood volume, which can cause thirst, but it is not the term for excessive thirst itself."
+          },
+          {
+            "label": "Hypertonia",
+            "feedback": "Hypertonia refers to a condition of higher solute concentration, not to excessive thirst. The term for excessive thirst is polydipsia."
+          }
+        ],
+        "ok_title": "Excessive thirst term",
+        "ok_line": "Polydipsia is the medical word for extreme thirst.",
+        "ko_title": "Confusing terms",
+        "ko_line": "Polyuria and hypovolemia are different conditions.",
+        "exp_title": null,
+        "exp_text": "Excessive thirst is called polydipsia. When it appears together with excessive urination (polyuria), it can be a clue that the person has diabetes mellitus or diabetes insipidus."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does isotonic mean in terms of fluids inside and outside a cell?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The fluid outside has more solutes than inside",
+            "feedback": "That describes hypertonic, not isotonic. In isotonic conditions, solute levels are equal on both sides."
+          },
+          {
+            "label": "The fluid inside has more solutes than outside",
+            "feedback": "That describes a hypotonic or hypertonic state depending on the direction, but not isotonic. Isotonic means equal solute concentrations."
+          },
+          {
+            "label": "Water moves out of the cell rapidly",
+            "feedback": "Water leaving the cell happens in a hypertonic environment, not an isotonic one. In isotonic conditions, net water movement is zero."
+          },
+          {
+            "label": "The solute concentration is the same on both sides, so net water movement is zero",
+            "feedback": "Correct. Isotonic means equal solute levels inside and outside, so water does not move in or out on net."
+          }
+        ],
+        "ok_title": "Isotonic definition",
+        "ok_line": "Isotonic means equal solute concentration across the membrane.",
+        "ko_title": "Isotonic mistaken",
+        "ko_line": "Isotonic is about balance, not water loss or gain.",
+        "exp_title": null,
+        "exp_text": "Isotonic is the condition where the interstitial fluid (outside the cell) has the same concentration of solutes as the intracellular fluid (inside the cell). As a result, there is no net movement of water across the cell membrane."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a cell when the surrounding interstitial fluid becomes hypertonic?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Water leaves the cell, causing it to shrink",
+            "feedback": "Correct. In a hypertonic environment, the outside has more solutes (or less water), so water is pulled out of the cell, reducing its volume."
+          },
+          {
+            "label": "Water enters the cell, causing it to swell",
+            "feedback": "Water entering the cell happens in a hypotonic environment, not hypertonic. Hypertonic pulls water out."
+          },
+          {
+            "label": "The cell stays the same size",
+            "feedback": "That would be isotonic, not hypertonic. In hypertonic conditions, water moves out and the cell shrinks."
+          },
+          {
+            "label": "The cell membrane dissolves",
+            "feedback": "The cell does not dissolve; it loses water and may shrink. Rupture happens in hypotonic conditions, not hypertonic."
+          }
+        ],
+        "ok_title": "Hypertonic effect",
+        "ok_line": "Hypertonic fluid pulls water out of cells.",
+        "ko_title": "Hypertonic misread",
+        "ko_line": "Hypertonic shrinks, hypotonic swells.",
+        "exp_title": null,
+        "exp_text": "When the interstitial fluid has a higher concentration of solutes than the intracellular fluid, it is hypertonic. This pulls water out of the cell, causing it to shrink, and if too much water is lost, the cell cannot perform its essential functions. The animal then feels thirsty."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of thirst results from a loss of blood volume without depleting the fluid inside cells?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Osmometric thirst",
+            "feedback": "Osmometric thirst is caused by increased solute concentration in the interstitial fluid, not by blood volume loss. This is a different type."
+          },
+          {
+            "label": "Salt craving",
+            "feedback": "Salt craving can accompany thirst from volume loss, but it is not the name of the thirst type. The type is called ext cellular thirst or decreased volume thirst."
+          },
+          {
+            "label": "Extracellular thirst",
+            "feedback": "Correct. Extracellular thirst is generated by decreased blood volume (hypovolemia) without depleting the intracellular fluid, and it comes from losses like blood loss, vomiting, or diarrhea."
+          },
+          {
+            "label": "Intracellular thirst",
+            "feedback": "Intracellular thirst is caused by increased osmolite concentration, not by blood volume loss. That is a different mechanism."
+          }
+        ],
+        "ok_title": "Extracellular thirst",
+        "ok_line": "Blood volume loss triggers extracellular thirst.",
+        "ko_title": "Thirst types mixed",
+        "ko_line": "Volume loss vs. concentration increase are separate.",
+        "exp_title": null,
+        "exp_text": "Extracellular thirst is one of two types of thirst, defined as thirst caused by a decrease in blood volume (hypovolemia) without depleting the fluid inside cells. It can be triggered by blood loss, vomiting, or diarrhea. The other type is intracellular thirst, caused by an increase in solute concentration."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which organ detects the loss of blood volume and starts the renin-angiotensin system?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The liver",
+            "feedback": "The liver produces angiotensinogen, but it is not the detector of blood volume loss. That role belongs to the kidneys."
+          },
+          {
+            "label": "The kidneys",
+            "feedback": "Correct. Cells in the kidneys detect decreased blood flow due to low volume and secrete renin, which triggers the renin-angiotensin system."
+          },
+          {
+            "label": "The brain",
+            "feedback": "The brain receives signals and initiates thirst, but the detection of blood volume loss specifically happens in the kidneys."
+          },
+          {
+            "label": "The heart",
+            "feedback": "The heart pumps blood, but it does not detect blood volume loss for the renin-angiotensin system. The kidneys do that."
+          }
+        ],
+        "ok_title": "Volume detection site",
+        "ok_line": "Kidney cells sense low blood volume and release renin.",
+        "ko_title": "Wrong organ for detection",
+        "ko_line": "It is the kidneys, not liver or brain, that sense volume loss.",
+        "exp_title": null,
+        "exp_text": "When blood volume drops, cells in the kidneys detect the decreased blood flow. They respond by secreting an enzyme called renin, which enters the blood and starts the renin-angiotensin system. This system ultimately helps the body retain water and sodium and triggers drinking behavior."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does angiotensin II do when it reaches the posterior pituitary gland and the adrenal cortex?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It directly makes the kidneys remove water from the body",
+            "feedback": "Angiotensin II does not directly remove water; it triggers a cascade that makes the kidneys retain water and sodium, not remove them."
+          },
+          {
+            "label": "It causes the heart to beat faster",
+            "feedback": "Angiotensin II is not about heart rate. It works on the pituitary and adrenal cortex to promote water and sodium retention."
+          },
+          {
+            "label": "It stops thirst immediately",
+            "feedback": "Angiotensin II actually initiates drinking behavior and salt appetite, not stop thirst."
+          },
+          {
+            "label": "It causes a cascade of hormones that make the kidneys retain water and sodium",
+            "feedback": "Correct. Angiotensin II triggers a hormonal cascade that leads the kidneys to hold onto water and sodium, increasing blood pressure, and also initiates drinking and salt craving."
+          }
+        ],
+        "ok_title": "Angiotensin II action",
+        "ok_line": "Angiotensin II prompts water and sodium retention.",
+        "ko_title": "Angiotensin II role confused",
+        "ko_line": "It promotes retention, not removal of water.",
+        "exp_title": null,
+        "exp_text": "Angiotensin II travels in the blood to the posterior pituitary gland and the adrenal cortex. There it causes a cascade of hormones that make the kidneys retain water and sodium, which raises blood pressure. It also triggers drinking behavior and a salt appetite via the subfornical organ."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is osmometric thirst triggered by?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An increase in solute concentration in the interstitial fluid",
+            "feedback": "Correct. Osmometric thirst occurs when the solute concentration outside cells rises, drawing water out of cells and causing them to shrink, which signals thirst."
+          },
+          {
+            "label": "A decrease in blood volume only",
+            "feedback": "Decreased blood volume causes extracellular thirst, not osmometric. Osmometric thirst is about solute concentration, not volume directly."
+          },
+          {
+            "label": "A drop in sodium levels in the blood",
+            "feedback": "A drop in sodium would lower solute concentration, not raise it. Osmometric thirst is triggered by increased solute concentration."
+          },
+          {
+            "label": "A signal from the kidneys",
+            "feedback": "The kidneys trigger the renin-angiotensin system for volume loss, but osmometric thirst is detected by osmoreceptors in the brain, not the kidneys."
+          }
+        ],
+        "ok_title": "Osmometric thirst cause",
+        "ok_line": "High solute concentration outside cells triggers osmometric thirst.",
+        "ko_title": "Osmometric thirst wrong trigger",
+        "ko_line": "It is about solute concentration, not blood volume.",
+        "exp_title": null,
+        "exp_text": "Osmometric thirst happens when the solute concentration of the interstitial fluid increases, pulling water out of cells and shrinking them. This can result from a high intake of sodium in the diet or from losing water through processes like perspiration, respiration, urination, and defecation, which concentrate the extracellular fluid."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain, when destroyed, leads to a loss of the desire to drink even with high salt levels?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum is involved in coordination, not thirst regulation. The area that controls drinking is in the hypothalamus."
+          },
+          {
+            "label": "The cerebral cortex",
+            "feedback": "The cortex receives thirst signals later, but the specific region whose destruction eliminates thirst is the median preoptic nucleus in the hypothalamus."
+          },
+          {
+            "label": "The median preoptic nucleus (part of the hypothalamus)",
+            "feedback": "Correct. Destruction of the median preoptic nucleus, part of the hypothalamus, results in partial or total loss of the desire to drink, even when salt levels are extremely high."
+          },
+          {
+            "label": "The medulla oblongata",
+            "feedback": "The medulla is involved in autonomic functions, but the thirst center is in the hypothalamus, specifically the median preoptic nucleus."
+          }
+        ],
+        "ok_title": "Thirst brain area",
+        "ok_line": "The median preoptic nucleus is vital for thirst.",
+        "ko_title": "Wrong brain region",
+        "ko_line": "It is the hypothalamus, not cortex or medulla.",
+        "exp_title": null,
+        "exp_text": "The median preoptic nucleus is part of the hypothalamus. If this region is destroyed, humans and animals lose the desire to drink, even when the salt concentration in extracellular fluids is very high. This shows it is essential for initiating drinking behavior."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 135,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why do igneous rocks that cooled slowly underground end up with large crystals, while those that cooled quickly at the surface end up with tiny or glassy crystals?",
+        "body": null,
+        "options": [
+          {
+            "label": "Crystals need time to grow; slow cooling gives atoms time to arrange into large crystals, while fast cooling leaves them almost no time at all",
+            "feedback": "Given enough time, atoms can settle into large, well-ordered crystals; without that time, they cannot."
+          },
+          {
+            "label": "Underground rock always contains more material to build crystals from",
+            "feedback": "The amount of material available is not what changes crystal size; the same magma can cool slowly in one place and quickly in another."
+          },
+          {
+            "label": "Crystals only grow where there is no pressure at all",
+            "feedback": "Underground rock cools under substantial pressure, and that is exactly where the largest crystals form; pressure is not what blocks crystal growth."
+          },
+          {
+            "label": "Fast cooling actually produces larger crystals because everything solidifies together at once",
+            "feedback": "Solidifying all at once is exactly what prevents individual crystals from growing large; that produces tiny or glassy grains, not big ones."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Time to arrange makes the difference.",
+        "ko_title": "Not material, not pressure, not speed working backward",
+        "ko_line": "Ask how much time the atoms had to settle into place before everything froze solid.",
+        "exp_title": "Time to arrange, or none at all",
+        "exp_text": "For a crystal to grow large, atoms in the cooling melt need time to find their way into an orderly, repeating arrangement before everything locks solid. Magma trapped underground loses its heat slowly, insulated by the rock around it, so atoms have that time and can build large, well-formed crystals, while magma that reaches the surface loses heat almost immediately and freezes before its atoms can arrange into anything more than tiny grains."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do sedimentary rocks actually form?",
+        "body": null,
+        "options": [
+          {
+            "label": "Molten rock cools slowly deep underground into a solid mass",
+            "feedback": "That describes how igneous rock forms; sedimentary rock never starts out molten."
+          },
+          {
+            "label": "Loose grains settle in layers and are compacted and cemented together over long spans of time",
+            "feedback": "The weight of piled-up layers presses the grains together, and minerals carried by water bind them into solid rock."
+          },
+          {
+            "label": "Existing rock is squeezed and heated until it recrystallizes without melting",
+            "feedback": "That describes how metamorphic rock forms, not sedimentary rock."
+          },
+          {
+            "label": "A single large crystal slowly grows outward from a fixed starting point",
+            "feedback": "Sedimentary rock is not a single grown crystal; it is countless separate grains bound together, not one continuously growing structure."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "Built up, grain by grain, layer by layer.",
+        "ko_title": "Not melted, not squeezed, not a single crystal",
+        "ko_line": "Ask what sand, mud, and shell fragments actually do once they settle out of moving water.",
+        "exp_title": "Built up, grain by grain",
+        "exp_text": "Loose material such as sand, mud, or fragments of shell settles out of moving water or air and comes to rest in layers, one on top of another. Over a long span of time, the weight of the layers above presses the grains together, and minerals carried by water fill the gaps between them and bind the whole mass into solid rock."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do sedimentary rocks sometimes preserve fossils, while igneous rocks essentially never do?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fossils are placed into igneous rock later, after it has already cooled",
+            "feedback": "Fossils are not inserted afterward into already-solid igneous rock; the difference lies in how each rock forms in the first place."
+          },
+          {
+            "label": "Only igneous rock forms slowly enough to trap remains",
+            "feedback": "Igneous rock that forms slowly still starts out as molten material, hot enough to destroy remains rather than preserve them."
+          },
+          {
+            "label": "Sedimentary rock forms as loose grains bury whatever settles among them, layer by layer, while igneous rock forms from molten material hot enough to destroy any remains it might touch",
+            "feedback": "Burial in settling grains preserves shape gently, while molten material leaves nothing organic intact."
+          },
+          {
+            "label": "Fossils dissolve completely in sedimentary rock but not in igneous rock",
+            "feedback": "A fossil that dissolves away leaves no trace at all; a preserved fossil is one that survived being buried, which is the opposite of dissolving."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "Buried gently in one case, destroyed by heat in the other.",
+        "ko_title": "Not placed later, not the slow one, not dissolving",
+        "ko_line": "Ask what temperature each kind of rock passed through on its way to becoming solid.",
+        "exp_title": "Buried gently, or destroyed by heat",
+        "exp_text": "Sedimentary rock forms as loose grains settle around whatever else happens to be there, including the remains of something that died and was covered before it could fully decay, preserving its shape layer by layer as more sediment piles on top. Igneous rock, by contrast, forms from material that was once hot enough to melt rock itself, a temperature nothing organic could ever survive."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to rock during metamorphism?",
+        "body": null,
+        "options": [
+          {
+            "label": "It melts completely and then cools back into a new rock",
+            "feedback": "Fully melting and recooling describes how igneous rock forms; metamorphic rock stays solid throughout its transformation."
+          },
+          {
+            "label": "It is worn down into loose grains and later cemented back together",
+            "feedback": "That describes how sedimentary rock forms from weathered fragments, not what happens during metamorphism."
+          },
+          {
+            "label": "It cools from a molten state for the very first time",
+            "feedback": "Metamorphism happens to rock that already existed as solid rock beforehand; it does not begin as a fresh melt."
+          },
+          {
+            "label": "Existing solid rock is transformed by heat and pressure without fully melting, its minerals recrystallizing into a new texture",
+            "feedback": "The rock stays solid throughout, even as its internal structure and appearance change."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "Changed inside, without ever fully melting.",
+        "ko_title": "Not melted, not worn down, not brand new",
+        "ko_line": "The rock being transformed here already existed as solid rock beforehand.",
+        "exp_title": "Changed while staying solid",
+        "exp_text": "Metamorphism acts on rock that is already solid, subjecting it to enough heat and pressure to force its minerals to recrystallize into new shapes and arrangements, often lining up into visible bands under the pressure. Because the rock never fully melts during this, it keeps its solid form throughout even as its internal structure and appearance change."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does the rock cycle actually describe?",
+        "body": null,
+        "options": [
+          {
+            "label": "An ongoing conversion between the three families of rock, where any one type can eventually become either of the others over time",
+            "feedback": "Weathering, burial, heat, pressure, and melting can each carry a rock from one family into another."
+          },
+          {
+            "label": "A one-way process where every rock eventually becomes sedimentary and stays that way",
+            "feedback": "Sedimentary rock is not a final, permanent stage; it can be transformed further by heat, pressure, or melting, just like the other two families."
+          },
+          {
+            "label": "A cycle that only affects rock sitting exposed at the surface",
+            "feedback": "The cycle includes rock buried and transformed deep underground, not only material exposed at the surface."
+          },
+          {
+            "label": "A fixed sequence that every single rock must pass through in the same order",
+            "feedback": "There is no single required order; a rock can move between the three families along different paths depending on what happens to it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "No family is the final stop.",
+        "ko_title": "Not one-way, not surface-only, not fixed order",
+        "ko_line": "Ask whether any one of the three rock families is ever truly a dead end.",
+        "exp_title": "No family is the final stop",
+        "exp_text": "Weathered fragments of any rock can settle and become sedimentary rock; buried rock of any origin can be transformed by heat and pressure into metamorphic rock; and rock of any kind can melt and later cool into igneous rock. Because each family can feed into either of the others depending on what happens to it next, no single type is ever a rock's final, permanent form."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually distinguishes a mineral from a rock?",
+        "body": null,
+        "options": [
+          {
+            "label": "A mineral is simply any rock that has been polished smooth",
+            "feedback": "Polishing changes only the surface of a rock; it does not turn a mixture of minerals into a single mineral with one fixed composition."
+          },
+          {
+            "label": "A mineral has one fixed chemical makeup and an orderly crystal structure, while a rock is a mixture of minerals",
+            "feedback": "That fixed makeup and orderly structure are exactly what separate a mineral from a mixed rock."
+          },
+          {
+            "label": "A mineral is any material found deep underground, while a rock is anything found at the surface",
+            "feedback": "Depth has nothing to do with the distinction; both minerals and rocks occur at the surface and underground alike."
+          },
+          {
+            "label": "A rock is simply a very large single mineral",
+            "feedback": "A rock is typically made of several different minerals mixed together, not one mineral grown to a larger size."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "One fixed recipe, or a mixture of them.",
+        "ko_title": "Not polish, not depth, not size",
+        "ko_line": "Ask whether the material has a single fixed composition, or several mixed together.",
+        "exp_title": "One recipe, or a mixture of them",
+        "exp_text": "A mineral is defined by having a single, consistent chemical makeup and atoms arranged in an orderly, repeating pattern, wherever a sample of it is found. A rock, on the other hand, is simply whatever mixture of different minerals, and sometimes other material, happens to be bound together in a given mass, so its makeup can vary considerably from one sample to the next."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a crystal grow into a shape with flat faces and consistent angles between them?",
+        "body": null,
+        "options": [
+          {
+            "label": "The surrounding rock physically presses the crystal into that shape from outside",
+            "feedback": "A well-formed crystal's shape comes from within, from how it grows, not from being pressed into shape by whatever surrounds it."
+          },
+          {
+            "label": "Flat faces form only because the crystal was cut afterward",
+            "feedback": "A crystal can display flat faces and consistent angles as it grows naturally, entirely without anything cutting or shaping it afterward."
+          },
+          {
+            "label": "The shape reflects how its atoms stack in a fixed, repeating pattern as the crystal grows",
+            "feedback": "That internal order carries straight through to the crystal's outer shape as it builds up."
+          },
+          {
+            "label": "The shape is random and just happens to look regular by chance",
+            "feedback": "The same mineral reliably grows the same characteristic angles again and again; that consistency rules out pure chance."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "A shape built from the inside out.",
+        "ko_title": "Not pressed, not cut, not chance",
+        "ko_line": "Ask what is happening at the atomic level as the crystal builds itself up.",
+        "exp_title": "A shape built from the inside out",
+        "exp_text": "As a mineral crystallizes, its atoms settle into a fixed, repeating pattern, each new atom taking its place according to the same underlying arrangement as the ones before it. That internal order carries straight through to the outside of the growing crystal, producing flat faces that meet at the same characteristic angles every time that mineral forms."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can one mineral scratch another?",
+        "body": null,
+        "options": [
+          {
+            "label": "The scratching mineral is always the heavier of the two",
+            "feedback": "Weight is not what lets one mineral scratch another; a light mineral with strongly bonded atoms can still scratch a heavier, more weakly bonded one."
+          },
+          {
+            "label": "The scratching mineral is always the more brightly colored one",
+            "feedback": "Color has no bearing on which mineral can scratch which; two minerals of similar color can differ enormously in this respect."
+          },
+          {
+            "label": "The mineral being scratched always contains more water within it",
+            "feedback": "Water content is not what makes a mineral easy or hard to scratch; the strength of the bonds holding its atoms together is."
+          },
+          {
+            "label": "The scratching mineral's atoms are more strongly and tightly bonded together, letting it resist deformation and score the weaker mineral's surface",
+            "feedback": "Stronger internal bonds let it keep its shape at the point of contact while the weaker surface gives way."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Correct",
+        "ok_line": "Stronger bonds win the scratch.",
+        "ko_title": "Not weight, not color, not water",
+        "ko_line": "Ask what is actually holding each mineral's atoms together.",
+        "exp_title": "Stronger bonds win the scratch",
+        "exp_text": "How easily a mineral's surface gives way under pressure depends on how strongly and tightly the atoms inside it are bonded to one another. When two minerals are pressed together, the one whose atoms resist being pulled apart or shifted keeps its shape at the point of contact, while the more weakly bonded mineral's surface gives way and is carved by it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a mineral's color sometimes be misleading about what it actually is?",
+        "body": null,
+        "options": [
+          {
+            "label": "Impurities can absorb light differently and change the visible color while leaving the mineral's underlying structure unchanged",
+            "feedback": "A trace impurity can shift the color reaching the eye without touching the mineral's true composition."
+          },
+          {
+            "label": "Color is assigned to a mineral entirely at random and has no cause at all",
+            "feedback": "Color does have a real physical cause tied to how light interacts with the mineral; it is not assigned without reason."
+          },
+          {
+            "label": "Every mineral gradually changes to the same single color as it ages",
+            "feedback": "Minerals do not drift toward one shared color over time; different samples of the very same mineral can show very different colors from the start, due to impurities."
+          },
+          {
+            "label": "Color only misleads when a mineral is viewed underwater",
+            "feedback": "The color a sample shows can already be misleading in open air, long before water is involved at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "The same mineral, wearing a different tint.",
+        "ko_title": "Not random, not aging, not water",
+        "ko_line": "Ask what a tiny amount of some other element mixed in could do to the light bouncing off it.",
+        "exp_title": "The same mineral, a different tint",
+        "exp_text": "A tiny trace of some other element mixed into a mineral's structure can absorb certain colors of light while letting others through or bounce back, shifting the color that reaches the eye. Because that trace impurity does not actually change the mineral's fixed chemical makeup or its crystal arrangement, two samples of the very same mineral can end up looking like entirely different colors."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a mineral's streak considered more reliable than its surface color for identifying it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Streak is simply the same color as the surface, only easier to see",
+            "feedback": "Streak color often differs noticeably from a mineral's surface color; that difference is exactly why it is useful."
+          },
+          {
+            "label": "Powdering the mineral removes the effect that a thin surface layer or optical quirk has on color, revealing a color more tied to its true composition",
+            "feedback": "Grinding away the surface strips out effects that had little to do with what the mineral actually is."
+          },
+          {
+            "label": "Streak changes depending on the surface it is rubbed against",
+            "feedback": "A mineral's streak stays consistent regardless of what surface produces it; that consistency is exactly what makes it useful for identification."
+          },
+          {
+            "label": "Streak is only visible under special lighting conditions",
+            "feedback": "Streak is an ordinary, visible trace of powdered mineral, not something that requires special lighting to see."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "The color underneath the surface effects.",
+        "ko_title": "Not the same as surface color, not surface-dependent, not special lighting",
+        "ko_line": "Ask what powdering a sample actually strips away.",
+        "exp_title": "The color underneath the surface",
+        "exp_text": "A mineral's surface color can be thrown off by a thin outer layer or by the way light happens to bounce off its particular crystal faces, effects that have little to do with what the mineral actually is. Grinding a small amount of it into powder strips away those surface effects, leaving behind a color that comes much more directly from the mineral's own fixed composition."
+      }
+    ]
+  }
+]

@@ -10,7 +10,9 @@ export function OptionButton({ label, index }: { label: string; index: number })
   const { s, exo, revealed, answer } = useStore()
   if (!exo) return null
 
-  let background = 'var(--sc-surface)'
+  // Au repos, la planche pose un voile sur le fond plutôt qu'une carte
+  // blanche : quatre cartes empilées en bas d'écran faisaient un mur.
+  let background = 'var(--sc-veil)'
   let borderColor = 'var(--sc-line)'
   let color = 'var(--sc-text)'
   let borderWidth = 1

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the process by which one tectonic plate is forced beneath another, often leading to mountain building?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Folding",
+            "feedback": "Folding bends rock layers, but subduction involves one plate sliding under another — that is the process that builds some mountain ranges."
+          },
+          {
+            "label": "Erosion",
+            "feedback": "Erosion wears mountains down; the process that pushes one plate under another is subduction, not erosion."
+          },
+          {
+            "label": "Subduction",
+            "feedback": "Correct — subduction is the sinking of one plate beneath another, and it builds volcanic mountain ranges."
+          },
+          {
+            "label": "Uplift",
+            "feedback": "Uplift is the rising of land, but it is often a result of subduction, not the name of the plate-against-plate process itself."
+          }
+        ],
+        "ok_title": "Correct plate process",
+        "ok_line": "Subduction is the key movement that builds some mountains.",
+        "ko_title": "Process confusion",
+        "ko_line": "Remember: subduction is the specific plate movement.",
+        "exp_title": "Subduction defined",
+        "exp_text": "Subduction is when one tectonic plate slides beneath another into the mantle. It happens at ocean trenches and builds volcanic mountain ranges along the coast."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three main rock types that mountains can be made of?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Igneous, sedimentary, and metamorphic",
+            "feedback": "Correct — these are the three rock types, and mountains can contain any or all of them."
+          },
+          {
+            "label": "Granite, basalt, and limestone",
+            "feedback": "Those are specific rocks, not the three broad categories; igneous, sedimentary, and metamorphic are the general types."
+          },
+          {
+            "label": "Volcanic, crustal, and mantle",
+            "feedback": "Those are sources of rock, not rock types; the three types are igneous, sedimentary, and metamorphic."
+          },
+          {
+            "label": "Old, young, and ancient",
+            "feedback": "Those describe age, not rock type; the types are igneous, sedimentary, and metamorphic."
+          }
+        ],
+        "ok_title": "Rock types named",
+        "ok_line": "The three rock types are igneous, sedimentary, and metamorphic.",
+        "ko_title": "Category error",
+        "ko_line": "Specific rocks are not the main types.",
+        "exp_title": "The three rock families",
+        "exp_text": "Mountains are made from igneous rock (cooled magma), sedimentary rock (layers of sediment), or metamorphic rock (changed by heat and pressure). Any mountain can contain all three."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the theory that explains how mountains are formed by the movement of large pieces of Earth's outer shell?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Plate tectonics",
+            "feedback": "Correct — plate tectonics is the theory that Earth's surface is divided into plates that move and collide, folding and lifting rock to build mountains."
+          },
+          {
+            "label": "Continental drift",
+            "feedback": "Continental drift is an older idea about continents moving, but plate tectonics is the full theory that includes the mechanism of plate movement."
+          },
+          {
+            "label": "Evolutionary geology",
+            "feedback": "That is not a standard theory for mountain formation; plate tectonics is the accepted explanation."
+          },
+          {
+            "label": "Erosion theory",
+            "feedback": "Erosion wears mountains down; it does not explain how they are built. Plate tectonics does."
+          }
+        ],
+        "ok_title": "Theory identified",
+        "ok_line": "Plate tectonics explains mountain building.",
+        "ko_title": "Wrong theory",
+        "ko_line": "Drift is not the full theory.",
+        "exp_title": "Plate tectonics basics",
+        "exp_text": "Plate tectonics is the theory that Earth's outer shell is broken into rigid plates that move on the softer mantle beneath. Where plates collide, mountains rise."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of mountain forms when molten rock pushes up from below and cools into solid rock, often creating a dome-shaped peak?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Folded mountain",
+            "feedback": "Folded mountains form when rock layers bend, not from molten rock pushing up; dome mountains come from magma rising."
+          },
+          {
+            "label": "Fault-block mountain",
+            "feedback": "Fault-block mountains form when blocks of crust tilt or slide along faults, not from magma pushing up."
+          },
+          {
+            "label": "Volcanic mountain",
+            "feedback": "Volcanic mountains are built from lava and ash erupting at the surface, but dome mountains are made by magma that cools beneath the ground and then gets exposed."
+          },
+          {
+            "label": "Dome mountain",
+            "feedback": "Correct — a dome mountain forms when magma pushes up the crust into a dome and then cools, often later exposed by erosion."
+          }
+        ],
+        "ok_title": "Dome mountain named",
+        "ok_line": "Dome mountains come from rising magma.",
+        "ko_title": "Mountain type mix-up",
+        "ko_line": "This is not folding or faulting.",
+        "exp_title": "Dome mountain formation",
+        "exp_text": "A dome mountain forms when a large body of magma pushes up the overlying rock into a rounded dome. After cooling, erosion can expose the hardened rock as a mountain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of mountain is built primarily from layers of lava and ash piling up from repeated eruptions?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Dome mountain",
+            "feedback": "Dome mountains come from magma cooling beneath the surface, not from lava and ash piling up; volcanic mountains are built by eruptions."
+          },
+          {
+            "label": "Volcanic mountain",
+            "feedback": "Correct — volcanic mountains grow as eruptions deposit layer upon layer of lava and ash."
+          },
+          {
+            "label": "Folded mountain",
+            "feedback": "Folded mountains form from rock layers bending, not from volcanic eruptions; volcanic mountains are built by lava and ash."
+          },
+          {
+            "label": "Fault-block mountain",
+            "feedback": "Fault-block mountains form from crust moving along faults, not from layered eruptions."
+          }
+        ],
+        "ok_title": "Volcanic mountain identified",
+        "ok_line": "Volcanoes build mountains from lava and ash.",
+        "ko_title": "Wrong formation type",
+        "ko_line": "This is not a dome or a fold.",
+        "exp_title": "Volcanic mountains",
+        "exp_text": "A volcanic mountain grows each time a volcano erupts, depositing lava and ash that harden into new layers. Over time, these layers pile up into a tall cone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the high, rugged part of a mountain range that has been shaped by erosion into sharp peaks and ridges?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mountain crest",
+            "feedback": "Correct — the crest is the topmost ridge of a mountain range, often sharp and rocky due to erosion."
+          },
+          {
+            "label": "Mountain base",
+            "feedback": "The base is the bottom of the mountain, not the high rugged part; the crest is the top."
+          },
+          {
+            "label": "Mountain valley",
+            "feedback": "A valley is a low area between mountains, not a high part."
+          },
+          {
+            "label": "Mountain slope",
+            "feedback": "A slope is the inclined side of the mountain, but the crest is the very top ridge."
+          }
+        ],
+        "ok_title": "Crest defined",
+        "ok_line": "The crest is the mountain's top ridge.",
+        "ko_title": "Wrong mountain part",
+        "ko_line": "It is not the base or valley.",
+        "exp_title": "Mountain crest",
+        "exp_text": "The crest of a mountain range is its highest continuous ridge. Erosion carves it into sharp peaks and jagged edges, especially in young mountains."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the deep, wide valley carved by a glacier moving through a mountain range?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "V-shaped valley",
+            "feedback": "A V-shaped valley is carved by a river, not a glacier; glaciers carve U-shaped valleys."
+          },
+          {
+            "label": "Canyon",
+            "feedback": "A canyon is typically carved by a river, often with steep sides; a glacier-carved valley is U-shaped."
+          },
+          {
+            "label": "U-shaped valley",
+            "feedback": "Correct — glaciers carve wide, U-shaped valleys, unlike the narrow V-shapes made by rivers."
+          },
+          {
+            "label": "Gorge",
+            "feedback": "A gorge is a narrow, steep-sided valley, not the broad shape formed by a glacier."
+          }
+        ],
+        "ok_title": "Glacial valley named",
+        "ok_line": "Glaciers carve U-shaped valleys.",
+        "ko_title": "Valley shape wrong",
+        "ko_line": "It is not V-shaped or a canyon.",
+        "exp_title": "Glacial U-shaped valleys",
+        "exp_text": "When a glacier flows down a mountain, it grinds the valley into a wide, flat-bottomed U shape. Rivers cut narrow V shapes, but ice cuts broad U shapes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a fracture in a mountain's rock along which movement has occurred, often creating steep cliffs?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Fold",
+            "feedback": "A fold is a bend in rock layers, not a fracture; a fault is a break with movement."
+          },
+          {
+            "label": "Crevice",
+            "feedback": "A crevice is a narrow crack, but it does not involve movement of the rock on either side; a fault does."
+          },
+          {
+            "label": "Erosion surface",
+            "feedback": "Erosion surfaces are worn flat areas, not fractures; a fault is a break."
+          },
+          {
+            "label": "Fault",
+            "feedback": "Correct — a fault is a fracture in rock where the two sides have moved past each other, and such movement can build mountains."
+          }
+        ],
+        "ok_title": "Fault defined",
+        "ok_line": "A fault is a fracture with movement.",
+        "ko_title": "Fracture vs. fold",
+        "ko_line": "It is not a fold or a simple crack.",
+        "exp_title": "Faults in mountains",
+        "exp_text": "A fault is a break in rock where blocks slide past each other. When they heave upward, fault-block mountains form, often with steep cliffs along the fault line."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the process by which heavy rock layers squeeze together and shorten, making mountains rise?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Extension",
+            "feedback": "Extension pulls rock apart, not together; compression squeezes it and builds mountains."
+          },
+          {
+            "label": "Compression",
+            "feedback": "Correct — compression is the squeezing of rock layers, which folds and lifts them into mountains."
+          },
+          {
+            "label": "Shearing",
+            "feedback": "Shearing pushes rock sideways past each other, not together; compression is the squeezing force."
+          },
+          {
+            "label": "Subduction",
+            "feedback": "Subduction is a plate process that can cause compression, but compression itself is the squeezing of rock layers."
+          }
+        ],
+        "ok_title": "Compression process",
+        "ok_line": "Compression squeezes rock to build mountains.",
+        "ko_title": "Force misidentified",
+        "ko_line": "It is not extension or shearing.",
+        "exp_title": "Compression forces",
+        "exp_text": "Compression pushes rock layers together, making them fold, break, and stack upward. This is how many mountain ranges, especially at colliding plate boundaries, gain height."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the highest point of a mountain?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Summit",
+            "feedback": "Correct — the summit is the very top peak of a mountain."
+          },
+          {
+            "label": "Base",
+            "feedback": "The base is the bottom of the mountain, not the top."
+          },
+          {
+            "label": "Slope",
+            "feedback": "A slope is the inclined side of the mountain, not its highest point."
+          },
+          {
+            "label": "Ridge",
+            "feedback": "A ridge is a long crest, but the summit is the single highest point."
+          }
+        ],
+        "ok_title": "Summit named",
+        "ok_line": "The summit is the mountain's top.",
+        "ko_title": "Mountain terminology",
+        "ko_line": "It is not the base or slope.",
+        "exp_title": "Mountain summit",
+        "exp_text": "The summit is the highest point of a mountain. Every mountain has exactly one summit, even if the ridge leading to it has many bumps."
+      }
+    ]
+  }
+]

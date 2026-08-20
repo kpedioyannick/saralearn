@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason day length changes through the year?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Earth moves closer to and farther from the Sun.",
+            "feedback": "The distance to the Sun changes slightly, but it does not change day length; the tilt is what matters."
+          },
+          {
+            "label": "The Sun's brightness varies with the seasons.",
+            "feedback": "The Sun's output stays basically the same all year; day length change is about geometry, not brightness."
+          },
+          {
+            "label": "The Earth's axis is tilted, so different parts face the Sun differently.",
+            "feedback": "Correct. The tilt makes one hemisphere lean toward the Sun in summer and away in winter, lengthening or shortening days."
+          },
+          {
+            "label": "The Earth spins faster in some months than others.",
+            "feedback": "The spin rate is steady; day length varies because of tilt, not because the rotation speeds up or slows down."
+          }
+        ],
+        "ok_title": "Tilt drives seasons",
+        "ok_line": "The tilted axis changes how long each hemisphere faces the Sun.",
+        "ko_title": "Not distance or speed",
+        "ko_line": "Day length shifts come from the fixed tilt, not from orbit distance or spin rate.",
+        "exp_title": "The tilt at work",
+        "exp_text": "The Earth's axis is tilted about 23.5 degrees. As the Earth orbits, each hemisphere leans toward the Sun for half the year and away for the other half. Leaning toward means longer days and shorter nights; leaning away means the opposite."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At the summer solstice in the northern hemisphere, what is true about the day?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It is the shortest day of the year.",
+            "feedback": "That is the winter solstice; the summer solstice gives the longest day, not the shortest."
+          },
+          {
+            "label": "It is the longest day of the year.",
+            "feedback": "Correct. The north pole leans most toward the Sun, so the daylight lasts longer than on any other day."
+          },
+          {
+            "label": "It has exactly twelve hours of daylight.",
+            "feedback": "Twelve hours happens at an equinox, not at a solstice; the summer solstice has more than twelve hours."
+          },
+          {
+            "label": "It has no daylight at all.",
+            "feedback": "No daylight all day is a winter phenomenon at the poles; the summer solstice has the most daylight."
+          }
+        ],
+        "ok_title": "Longest day",
+        "ok_line": "The summer solstice marks the year's maximum daylight in the north.",
+        "ko_title": "Not equinox or dark",
+        "ko_line": "Solstice means extreme length, not balance, and never darkness.",
+        "exp_title": "The peak of light",
+        "exp_text": "Around June 21, the north pole tilts most directly toward the Sun. Places in the northern hemisphere receive sunlight for the longest stretch, giving the year's longest day. After this, days slowly shorten."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens on the day of an equinox?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Day becomes shorter than night everywhere.",
+            "feedback": "That describes most days after an equinox in one hemisphere, but the equinox itself is balanced."
+          },
+          {
+            "label": "The Sun never rises at the poles.",
+            "feedback": "At the equinox, the Sun actually rises at both poles; it is a special moment of balance."
+          },
+          {
+            "label": "Night becomes longer than day everywhere.",
+            "feedback": "That is true for one hemisphere after the equinox, but at the equinox day and night are close to equal."
+          },
+          {
+            "label": "Day and night are nearly equal in length worldwide.",
+            "feedback": "Correct. The Earth's tilt points sideways to the Sun, so every place gets about twelve hours of each."
+          }
+        ],
+        "ok_title": "Balanced day and night",
+        "ok_line": "An equinox gives roughly equal daylight and darkness everywhere.",
+        "ko_title": "No extremes",
+        "ko_line": "Equinox means balance, not lengthening or shortening.",
+        "exp_title": null,
+        "exp_text": "Twice a year, around March 21 and September 23, the Earth's axis is side-on to the Sun. The dividing line between day and night passes through both poles, so every location on Earth gets about twelve hours of daylight and twelve of night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does day length change at the equator during the year?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It stays almost the same all year.",
+            "feedback": "Correct. The equator always faces the Sun at a similar angle, so days are about twelve hours every day."
+          },
+          {
+            "label": "It doubles in summer and halves in winter.",
+            "feedback": "That pattern happens far from the equator; the equator has no marked summer or winter."
+          },
+          {
+            "label": "It becomes longer in the northern summer.",
+            "feedback": "The equator is not tilted toward or away from the Sun; its daylight stays balanced."
+          },
+          {
+            "label": "It becomes longer in the southern summer.",
+            "feedback": "The equator itself never leans strongly toward either pole, so day length does not stretch."
+          }
+        ],
+        "ok_title": "Constant daylight",
+        "ok_line": "The equator gets about twelve hours of day every day of the year.",
+        "ko_title": "No seasonal swing",
+        "ko_line": "The tilt affects high latitudes, not the equatorial line.",
+        "exp_title": null,
+        "exp_text": "Because the equator is the circle halfway between the poles, the Sun's path stays nearly overhead all year. The day–night line cuts the equator almost evenly, so day length barely changes—always close to twelve hours."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At the poles, what happens to daylight around the equinox?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The poles stay dark all day.",
+            "feedback": "That is true during winter, not at the equinox, when the Sun actually appears."
+          },
+          {
+            "label": "The Sun stays above the horizon for months.",
+            "feedback": "That happens near the summer solstice, not at the equinox, which is a transition point."
+          },
+          {
+            "label": "The Sun rises (or sets) for the first time in months.",
+            "feedback": "Correct. At the equinox, the Sun crosses the horizon at each pole, ending or starting the long polar day or night."
+          },
+          {
+            "label": "Day and night are exactly twelve hours each at the pole.",
+            "feedback": "At the pole, day and night do not alternate; the Sun either stays up or stays down for months."
+          }
+        ],
+        "ok_title": "Polar transition",
+        "ok_line": "The equinox marks sunrise or sunset at the poles.",
+        "ko_title": "Not a normal day",
+        "ko_line": "The poles do not have daily cycles; they have seasonal cycles.",
+        "exp_title": null,
+        "exp_text": "At the North Pole, the Sun sets at the September equinox and doesn't rise until the March equinox. At the South Pole it is the reverse. The equinox is the exact moment the Sun touches the horizon, ending one long period and starting another."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason the hottest weather comes weeks after the longest day?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Sun becomes hotter in late summer.",
+            "feedback": "The Sun’s heat output does not change; the delay is about how the ground and air store heat."
+          },
+          {
+            "label": "The ground and air keep absorbing heat during long days, so warming builds up later.",
+            "feedback": "Correct. The long days add more heat than the short nights lose, so temperature keeps rising for a while."
+          },
+          {
+            "label": "The Earth moves closer to the Sun after the solstice.",
+            "feedback": "Orbit distance changes slowly and has little effect on weather; the delay is from heat storage."
+          },
+          {
+            "label": "The nights become shorter after the solstice.",
+            "feedback": "Nights actually grow longer after the solstice; the delay is because the ground retains warmth."
+          }
+        ],
+        "ok_title": "Heat lag",
+        "ok_line": "Stored heat pushes peak warmth later than the longest day.",
+        "ko_title": "Not solar change",
+        "ko_line": "The Sun stays the same; the land and air simply take time to warm up.",
+        "exp_title": null,
+        "exp_text": "After the summer solstice, days still have more daylight than darkness for a while. Each day adds a bit more heat than it loses, so temperature climbs. Peak warmth usually arrives in late July or August, weeks after the longest day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the Sun rise at a different point on the horizon through the year?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Sun changes its path across the sky.",
+            "feedback": "The Sun's apparent path changes, but that is because of the Earth's tilt, not because the Sun moves."
+          },
+          {
+            "label": "The Earth's spin axis wobbles daily.",
+            "feedback": "The axis tilt is fixed in direction through the year; it does not wobble from day to day."
+          },
+          {
+            "label": "The Earth moves closer to the Sun.",
+            "feedback": "Distance changes do not move the sunrise point; the tilt of the Earth does."
+          },
+          {
+            "label": "The Earth's tilt makes the Sun’s path shift north and south across the sky.",
+            "feedback": "Correct. As the Earth orbits, the tilt makes the Sun appear higher in summer and lower in winter, shifting where it rises and sets."
+          }
+        ],
+        "ok_title": "Sunrise shifts",
+        "ok_line": "The tilted axis moves the Sun's rising point across the horizon.",
+        "ko_title": "Fixed axis, moving Sun",
+        "ko_line": "The Sun's path changes because the Earth leans, not because the Sun moves.",
+        "exp_title": null,
+        "exp_text": "The Earth's axis stays pointed toward the same star all year. As the Earth goes around the Sun, different parts of the horizon face the Sun. In summer the Sun rises north of east; in winter it rises south of east. The exact spot changes gradually every day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What would happen to the length of days if the Earth's axis were perfectly upright?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Every day would have about twelve hours of daylight everywhere.",
+            "feedback": "Correct. Without tilt, the Sun would always cross the horizon at the same angle, giving equal day and night all year."
+          },
+          {
+            "label": "Days would be longer in summer and shorter in winter.",
+            "feedback": "That pattern comes from the tilt; without it, there would be no seasonal change in day length."
+          },
+          {
+            "label": "The poles would have daylight all year.",
+            "feedback": "Without tilt, the poles would be on the day–night boundary forever, so they would never have constant daylight."
+          },
+          {
+            "label": "Day length would vary with the Earth's distance from the Sun.",
+            "feedback": "Distance has little effect; the tilt is what creates varying day length, and with no tilt there is no variation."
+          }
+        ],
+        "ok_title": "No tilt, no change",
+        "ok_line": "An upright axis would give constant twelve-hour days.",
+        "ko_title": "Seasons disappear",
+        "ko_line": "The tilt is the source of all year-round day length variation.",
+        "exp_title": null,
+        "exp_text": "If the axis pointed straight up (perpendicular to the orbit), the Sun would always rise due east and set due west. The day–night line would divide every latitude evenly, so all places would get close to twelve hours of daylight every single day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does twilight last longer in northern countries in summer?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun moves faster across the sky in summer.",
+            "feedback": "The Sun's apparent speed is roughly the same; the twilight length comes from the shallow angle of its path."
+          },
+          {
+            "label": "The nights are warmer in summer.",
+            "feedback": "Temperature does not control twilight; it is about how far the Sun dips below the horizon."
+          },
+          {
+            "label": "The Sun sets at a shallow angle, so it takes longer to go below the horizon.",
+            "feedback": "Correct. In high latitudes, the Sun's path is low and slanted, so it lingers near the horizon, stretching twilight."
+          },
+          {
+            "label": "The Earth spins more slowly near the poles.",
+            "feedback": "The Earth's rotation rate is the same everywhere; the effect comes from the Sun's path angle, not spin speed."
+          }
+        ],
+        "ok_title": "Long lingering twilight",
+        "ok_line": "A shallow sunset angle stretches evening light in the north.",
+        "ko_title": "Not speed or warmth",
+        "ko_line": "The Sun's low slanted path, not rotation speed or heat, lengthens twilight.",
+        "exp_title": null,
+        "exp_text": "In summer near the poles, the Sun never rises high and never goes far below the horizon. It sets at a very shallow angle, so after the main sunset it continues to illuminate the upper sky for hours. This is why twilight can last until nearly midnight in places like Scotland or Norway."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the shortest day of the year called in the northern hemisphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The equinox",
+            "feedback": "An equinox gives equal day and night, not the shortest day."
+          },
+          {
+            "label": "The winter solstice",
+            "feedback": "Correct. Around December 21, the north pole tilts away from the Sun, giving the year's least daylight."
+          },
+          {
+            "label": "The summer solstice",
+            "feedback": "That is the longest day, not the shortest."
+          },
+          {
+            "label": "The vernal point",
+            "feedback": "That term refers to the spring equinox, which is a balanced day, not a short one."
+          }
+        ],
+        "ok_title": "Winter solstice",
+        "ok_line": "The winter solstice brings the year's fewest daylight hours.",
+        "ko_title": "Not equinox or summer",
+        "ko_line": "Solstice means extreme length, and winter gives the short end.",
+        "exp_title": null,
+        "exp_text": "Around December 21, the northern hemisphere leans farthest from the Sun. The Sun rises late, sets early, and stays low in the sky, giving the shortest day of the year. After this, days slowly begin to lengthen again."
+      }
+    ]
+  }
+]

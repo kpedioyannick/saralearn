@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 236,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A star at the center of the Solar System",
+            "feedback": "Correct. The Sun is the star located at the center of the Solar System, a massive sphere of hot plasma."
+          },
+          {
+            "label": "A planet orbiting Earth",
+            "feedback": "That's not right. A planet orbits a star; the Sun is itself a star, and it is at the center, not orbiting Earth."
+          },
+          {
+            "label": "A moon of the largest planet",
+            "feedback": "No. A moon orbits a planet, but the Sun is not a moon; it is the star of our system."
+          },
+          {
+            "label": "A cloud of gas in space",
+            "feedback": "That's incorrect. Although it is made of plasma, it is a star, not a loose cloud of gas."
+          }
+        ],
+        "ok_title": "Sun is a star",
+        "ok_line": "The Sun is indeed the star at our system's center.",
+        "ko_title": "Not a planet",
+        "ko_line": "The Sun is a star, not a planet or moon.",
+        "exp_title": "The Sun's nature",
+        "exp_text": "The Sun is a star, a massive sphere of hot plasma, placed at the center of the Solar System. That is its basic identity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the visible surface of the Sun called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The corona",
+            "feedback": "That's not it. The corona is the faint outer atmosphere, much thinner and hotter; the visible surface is called the photosphere."
+          },
+          {
+            "label": "The photosphere",
+            "feedback": "Correct. The photosphere is the apparent visible surface of the Sun, the layer from which its light escapes."
+          },
+          {
+            "label": "The core",
+            "feedback": "No. The core is deep inside, where fusion happens; the visible surface we see is the photosphere."
+          },
+          {
+            "label": "The chromosphere",
+            "feedback": "Not that. The chromosphere is a thin layer above the photosphere, not the visible surface itself."
+          }
+        ],
+        "ok_title": "Visible surface named",
+        "ok_line": "The Sun's visible surface is the photosphere.",
+        "ko_title": "Different layer",
+        "ko_line": "The photosphere is the visible surface, not the corona or core.",
+        "exp_title": "The photosphere",
+        "exp_text": "The photosphere is the apparent visible surface of the Sun, the layer we see as its bright face."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main elements that make up the Sun's photosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen and carbon",
+            "feedback": "That's not correct. Oxygen and carbon are present but only in small amounts; the main elements are hydrogen and helium."
+          },
+          {
+            "label": "Iron and neon",
+            "feedback": "No. Iron and neon are heavy elements found in tiny quantities; the bulk is hydrogen and helium."
+          },
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Correct. The Sun's photosphere is mostly hydrogen and helium, together making up about 99% of its mass there."
+          },
+          {
+            "label": "Nitrogen and oxygen",
+            "feedback": "That's wrong. Nitrogen and oxygen are not the main components; hydrogen and helium dominate the Sun's composition."
+          }
+        ],
+        "ok_title": "Main elements",
+        "ok_line": "Hydrogen and helium make up the photosphere's mass.",
+        "ko_title": "Minor elements",
+        "ko_line": "Oxygen and others are only trace; hydrogen and helium are main.",
+        "exp_title": "Sun's composition",
+        "exp_text": "The photosphere is composed mostly of hydrogen and helium, with all heavier elements together making up less than 2% of its mass."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What process produces the Sun's energy?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Burning of gas",
+            "feedback": "That's not accurate. The Sun does not burn like a fire; it produces energy through nuclear fusion in its core."
+          },
+          {
+            "label": "Friction of moving material",
+            "feedback": "No. Friction does not explain the Sun's energy; the source is nuclear fusion, not mechanical rubbing."
+          },
+          {
+            "label": "Gravitational collapse alone",
+            "feedback": "That's incorrect. Gravitational collapse helped form the Sun, but its ongoing energy comes from nuclear fusion in the core."
+          },
+          {
+            "label": "Nuclear fusion in its core",
+            "feedback": "Correct. The Sun's core fuses hydrogen into helium, releasing vast amounts of energy."
+          }
+        ],
+        "ok_title": "Energy source",
+        "ok_line": "Nuclear fusion in the core powers the Sun.",
+        "ko_title": "Not burning",
+        "ko_line": "It's fusion, not ordinary burning or friction.",
+        "exp_title": "Core fusion",
+        "exp_text": "Nuclear fusion reactions in the Sun's core convert hydrogen into helium, producing the energy that radiates from its surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the Sun's rotation speed change from its equator to its poles?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It rotates faster at the equator than at the poles",
+            "feedback": "Correct. The Sun's equator rotates faster, with a period of about 25.6 days, while the poles take about 33.5 days."
+          },
+          {
+            "label": "It rotates faster at the poles than at the equator",
+            "feedback": "That's the opposite of what happens. The equator spins faster than the poles, not slower."
+          },
+          {
+            "label": "It rotates at the same speed everywhere",
+            "feedback": "No. The rotation is differential, meaning different latitudes rotate at different speeds."
+          },
+          {
+            "label": "It does not rotate at all",
+            "feedback": "That's incorrect. The Sun clearly rotates, as seen in the movement of sunspots and other features."
+          }
+        ],
+        "ok_title": "Differential rotation",
+        "ok_line": "The Sun's equator spins faster than its poles.",
+        "ko_title": "Speed varies",
+        "ko_line": "Rotation is not uniform; the equator is quicker.",
+        "exp_title": "Sun's rotation",
+        "exp_text": "The Sun exhibits differential rotation, with its equator taking about 25.6 days per rotation and its poles about 33.5 days."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sun's shape described as?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A perfect cube",
+            "feedback": "That's not right. The Sun has no sharp edges; it is a sphere, nearly perfect, not a cube."
+          },
+          {
+            "label": "A flat disk",
+            "feedback": "No. A disk is flat, but the Sun is a three-dimensional sphere."
+          },
+          {
+            "label": "A nearly perfect sphere",
+            "feedback": "Correct. The Sun is so round that it is the natural object closest to a perfect sphere ever observed."
+          },
+          {
+            "label": "An elongated oval",
+            "feedback": "That's incorrect. The Sun's oblateness is extremely small, so it appears almost perfectly spherical, not oval."
+          }
+        ],
+        "ok_title": "Near-perfect sphere",
+        "ok_line": "The Sun is almost perfectly round.",
+        "ko_title": "Round, not flat",
+        "ko_line": "The Sun is a sphere, not a disk or cube.",
+        "exp_title": "Sun's shape",
+        "exp_text": "The Sun is a nearly perfect sphere, with only a tiny difference between its equatorial and polar radii, about 8 parts per million."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "From which side does the Sun's radiation mainly come?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only from its core",
+            "feedback": "That's not correct. While the core produces the energy, the light we see comes from the Sun's surface, the photosphere."
+          },
+          {
+            "label": "From its surface",
+            "feedback": "Correct. The Sun radiates energy from its surface, mainly as visible light and infrared radiation."
+          },
+          {
+            "label": "From its corona",
+            "feedback": "No. The corona is the outer atmosphere, but it is not the main source of the Sun's visible light; the photosphere is."
+          },
+          {
+            "label": "From its magnetic field",
+            "feedback": "That's wrong. The magnetic field influences activity, but the radiation comes from the Sun's hot surface."
+          }
+        ],
+        "ok_title": "Radiation source",
+        "ok_line": "Energy radiates from the Sun's surface.",
+        "ko_title": "Not just core",
+        "ko_line": "The photosphere emits the light we see.",
+        "exp_title": "Sun's radiation",
+        "exp_text": "The Sun's energy is radiated from its surface, mainly as visible light and infrared, with some ultraviolet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sun's core doing every second?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cooling down slowly",
+            "feedback": "No. The core is extremely hot and undergoing fusion; it is not cooling but releasing energy."
+          },
+          {
+            "label": "Expanding outward",
+            "feedback": "That's not correct. The core is stable, maintaining hydrostatic equilibrium, not expanding each second."
+          },
+          {
+            "label": "Producing heavy metals",
+            "feedback": "That's wrong. The core fuses hydrogen into helium, not heavy metals like iron or gold."
+          },
+          {
+            "label": "Fusing hydrogen into helium",
+            "feedback": "Correct. Every second, the Sun's core fuses about 600 billion kilograms of hydrogen into helium."
+          }
+        ],
+        "ok_title": "Core fusion rate",
+        "ok_line": "The core fuses hydrogen into helium each second.",
+        "ko_title": "Not heavy elements",
+        "ko_line": "The main reaction is hydrogen to helium.",
+        "exp_title": "Fusion in core",
+        "exp_text": "The Sun's core continuously fuses hydrogen into helium, releasing energy and converting some mass into light and heat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the Sun's apparent rotational period at its equator as seen from Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 28 days",
+            "feedback": "Correct. Viewed from Earth, the Sun's equator appears to rotate once every about 28 days."
+          },
+          {
+            "label": "About 25 days",
+            "feedback": "That's close but not exact. 25.6 days is the true rotation relative to the stars, not as seen from Earth."
+          },
+          {
+            "label": "About 33 days",
+            "feedback": "No. That's the rotation period at the poles, not at the equator as seen from Earth."
+          },
+          {
+            "label": "About 365 days",
+            "feedback": "That's incorrect. 365 days is Earth's orbit, not the Sun's rotation period."
+          }
+        ],
+        "ok_title": "Apparent rotation",
+        "ok_line": "The Sun's equator seems to rotate every ~28 days from Earth.",
+        "ko_title": "Different periods",
+        "ko_line": "From Earth it's 28 days, not 25 or 33.",
+        "exp_title": "Rotation from Earth",
+        "exp_text": "Because Earth also orbits, the apparent rotation of the Sun's equator as seen from Earth is about 28 days, longer than its true 25.6-day period."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the Sun's photosphere mostly consist of by mass?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Iron and nickel",
+            "feedback": "That's not right. Iron and nickel are heavy elements present only in tiny amounts; the photosphere is mostly light elements."
+          },
+          {
+            "label": "Oxygen and silicon",
+            "feedback": "No. Oxygen and silicon are minor; hydrogen and helium together dominate."
+          },
+          {
+            "label": "Hydrogen and helium",
+            "feedback": "Correct. About 74.9% hydrogen and 23.8% helium, making up nearly 99% of the photosphere's mass."
+          },
+          {
+            "label": "Carbon and nitrogen",
+            "feedback": "That's incorrect. Carbon and nitrogen are trace elements; the main components are hydrogen and helium."
+          }
+        ],
+        "ok_title": "Photosphere composition",
+        "ok_line": "Hydrogen and helium make up the Sun's visible surface.",
+        "ko_title": "Minor elements",
+        "ko_line": "Heavy elements are less than 2% of the mass.",
+        "exp_title": "Sun's surface makeup",
+        "exp_text": "The photosphere consists mainly of hydrogen and helium, with all heavier elements combined making up less than 2% of its mass."
+      }
+    ]
+  }
+]

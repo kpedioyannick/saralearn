@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 236,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a solar eclipse?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The Moon passing between Earth and the Sun, blocking sunlight from reaching part of Earth",
+            "feedback": "Correct. A solar eclipse happens when the Moon moves directly between the Sun and Earth, casting its shadow on Earth and blocking the Sun's light."
+          },
+          {
+            "label": "Earth passing between the Sun and the Moon, casting a shadow on the Moon",
+            "feedback": "That would be a lunar eclipse, not a solar one. In a solar eclipse, the Moon is the one in the middle, not Earth."
+          },
+          {
+            "label": "The Sun passing behind the Moon, making the Sun disappear from the sky",
+            "feedback": "The Sun does not move; it stays in place. It's the Moon that travels between the Sun and Earth during a solar eclipse."
+          },
+          {
+            "label": "The Moon's shadow falling on the far side of Earth, away from the Sun",
+            "feedback": "A solar eclipse involves the Moon's shadow hitting the side of Earth facing the Sun. The far side, in darkness already, is not where the eclipse is seen."
+          }
+        ],
+        "ok_title": "Solar eclipse defined",
+        "ok_line": "The Moon blocks the Sun's light from a part of Earth.",
+        "ko_title": "Not a lunar eclipse",
+        "ko_line": "The Moon, not Earth, stands in the middle.",
+        "exp_title": "What a solar eclipse is",
+        "exp_text": "A solar eclipse occurs when the Moon moves directly between the Sun and Earth. The Moon's shadow falls on a narrow strip of Earth's surface, and within that shadow the Sun appears darkened or completely covered. This can only happen at new moon, when the Moon is on the same side of Earth as the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What phase must the Moon be in for a solar eclipse to occur?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Full moon",
+            "feedback": "A full moon is when Earth is between the Sun and the Moon, which causes a lunar eclipse, not a solar one. For a solar eclipse, the Moon must be between the Sun and Earth, which happens at new moon."
+          },
+          {
+            "label": "New moon",
+            "feedback": "Correct. At new moon, the Moon lies between the Sun and Earth, so its shadow can fall on Earth's surface, creating a solar eclipse."
+          },
+          {
+            "label": "First quarter",
+            "feedback": "At first quarter, the Moon is at a right angle to the Sun as seen from Earth, so it is not in the line between the Sun and Earth. No solar eclipse can happen then."
+          },
+          {
+            "label": "Last quarter",
+            "feedback": "Like first quarter, the Moon is at a right angle, not in the direct line, so no solar eclipse occurs at last quarter."
+          }
+        ],
+        "ok_title": "New moon required",
+        "ok_line": "The Moon must sit between Sun and Earth.",
+        "ko_title": "Wrong moon phase",
+        "ko_line": "Full or quarter moons don't line up for an eclipse.",
+        "exp_title": "Moon phase for solar eclipse",
+        "exp_text": "A solar eclipse can only happen at new moon, because that's the only time the Moon is on the same side of Earth as the Sun, so it can cast its shadow onto Earth. At other phases, the Moon is positioned elsewhere in its orbit and cannot block the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a total solar eclipse, what do people in the path of totality see?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Moon turns red and fades away",
+            "feedback": "A red Moon is a feature of a lunar eclipse, when Earth's shadow falls on the Moon. During a total solar eclipse, the Moon covers the Sun, so the Moon itself is not visible as a red object."
+          },
+          {
+            "label": "The Sun turns dark, but its surface remains clearly visible",
+            "feedback": "The Sun's bright surface, called the photosphere, is completely hidden by the Moon during totality. Only the faint corona, the Sun's outer atmosphere, becomes visible around the dark disk of the Moon."
+          },
+          {
+            "label": "The Sun's bright disk is completely covered by the Moon, leaving only the faint corona visible",
+            "feedback": "Correct. In the path of totality, the Moon exactly covers the Sun's bright surface, and the much fainter corona shines around the dark silhouette of the Moon."
+          },
+          {
+            "label": "The sky stays bright, but the Sun appears as a thin ring of light",
+            "feedback": "A thin ring of light, called an annular eclipse, happens when the Moon is farther from Earth and appears smaller than the Sun, so it doesn't fully cover it. Totality means the Sun is fully hidden."
+          }
+        ],
+        "ok_title": "Totality view",
+        "ok_line": "The Sun is fully hidden, corona glows.",
+        "ko_title": "Not a lunar eclipse",
+        "ko_line": "A red Moon belongs to a lunar eclipse.",
+        "exp_title": "What totality looks like",
+        "exp_text": "During the brief period of totality in a total solar eclipse, the Moon completely covers the Sun's bright surface. The sky darkens, and the Sun's outer atmosphere, the corona, becomes visible as a faint white glow around the black disk of the Moon. This is the only time the corona can be seen without special instruments."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the faint outer atmosphere of the Sun that becomes visible during a total solar eclipse?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The photosphere",
+            "feedback": "The photosphere is the bright visible surface of the Sun that emits the light we normally see. It is completely hidden by the Moon during totality, not the faint glow you see then."
+          },
+          {
+            "label": "The chromosphere",
+            "feedback": "The chromosphere is a thin reddish layer just above the photosphere, but it is not the main faint glow seen during totality. The corona, which extends far beyond, is the prominent feature."
+          },
+          {
+            "label": "The core",
+            "feedback": "The core is the center of the Sun where nuclear fusion happens, not its outer atmosphere. The corona is the outermost part, extending millions of kilometers into space."
+          },
+          {
+            "label": "The corona",
+            "feedback": "Correct. The corona is the Sun's extremely hot, faint outer atmosphere. Normally it is washed out by the bright photosphere, but during a total solar eclipse it becomes visible as a pearly white halo."
+          }
+        ],
+        "ok_title": "Corona revealed",
+        "ok_line": "The corona is the Sun's outer glow.",
+        "ko_title": "Not the bright surface",
+        "ko_line": "The corona is far outside the Sun's disk.",
+        "exp_title": "The Sun's corona",
+        "exp_text": "The corona is the Sun's outermost atmosphere, made of extremely hot, thin gas. It is usually invisible because the much brighter photosphere overwhelms it. During a total solar eclipse, the Moon blocks the photosphere, allowing the corona to shine as a faint halo around the Moon's disk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a total solar eclipse appear as a ring of fire?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the Moon is too close to Earth, making it appear larger than the Sun",
+            "feedback": "When the Moon is closer, it appears larger and can fully cover the Sun, giving a total eclipse. A ring of fire happens when the Moon is farther away and appears smaller, so it cannot cover the entire Sun."
+          },
+          {
+            "label": "Because the Moon is too far from Earth, making it appear smaller than the Sun",
+            "feedback": "Correct. When the Moon is near its apogee, or farthest point from Earth, it appears slightly smaller than the Sun's disk, so it covers only the center, leaving a bright ring of sunlight around the edge. This is called an annular eclipse."
+          },
+          {
+            "label": "Because the Sun is too far away, making it appear smaller than the Moon",
+            "feedback": "The Sun's distance does not change noticeably; it is the Moon's changing distance that matters. The Sun always appears about the same size as the Moon from Earth, but the Moon's distance varies, not the Sun's."
+          },
+          {
+            "label": "Because the Moon passes only partially in front of the Sun",
+            "feedback": "A partial eclipse covers only part of the Sun, not a complete ring. The ring of fire is a specific type where the Moon is centered but too small to cover it all."
+          }
+        ],
+        "ok_title": "Annular eclipse cause",
+        "ok_line": "A distant Moon leaves a bright rim.",
+        "ko_title": "Not a total eclipse",
+        "ko_line": "The ring means the Moon is too small.",
+        "exp_title": "Ring of fire explanation",
+        "exp_text": "A ring of fire, or annular eclipse, occurs when the Moon is near its farthest point from Earth, so it appears slightly smaller than the Sun's disk. The Moon covers the center of the Sun, but the edges of the Sun remain visible as a bright ring around the dark Moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the air temperature during a total solar eclipse, and why?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It drops noticeably because the Sun's light is blocked from reaching the ground",
+            "feedback": "Correct. When the Moon blocks the Sun's light, the ground cools quickly because it stops receiving solar heating. The temperature can fall by several degrees during the few minutes of totality."
+          },
+          {
+            "label": "It rises because the corona adds extra heat to the atmosphere",
+            "feedback": "The corona is extremely hot but very thin, and its heat does not reach Earth's surface in any noticeable way. The temperature drop is due to the absence of direct sunlight, not any extra heating."
+          },
+          {
+            "label": "It stays the same because air temperature takes hours to change",
+            "feedback": "Air temperature can change quickly when the sun is blocked. The ground cools rapidly, and the air above it cools as well, causing a measurable temperature drop within minutes."
+          },
+          {
+            "label": "It rises because the Moon reflects extra sunlight toward Earth",
+            "feedback": "The Moon reflects very little sunlight, and during an eclipse it is directly between the Sun and Earth, so it blocks light rather than reflecting it. The temperature drops, not rises."
+          }
+        ],
+        "ok_title": "Cooling during totality",
+        "ok_line": "Blocked sunlight cools the ground.",
+        "ko_title": "No extra heat",
+        "ko_line": "The corona doesn't warm Earth's surface.",
+        "exp_title": "Temperature drop in totality",
+        "exp_text": "During a total solar eclipse, the Moon's shadow blocks the Sun's rays from reaching the ground. Without direct solar heating, the ground cools quickly, and the air near it cools too, causing a noticeable temperature drop that lasts as long as the totality."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where on Earth is a total solar eclipse visible?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Everywhere on the day side of Earth",
+            "feedback": "That would be the case if the Moon blocked the Sun for the entire hemisphere, but the Moon's shadow is small, only a few hundred kilometers wide, so only a narrow region sees totality."
+          },
+          {
+            "label": "Only at the equator, because the Sun is higher there",
+            "feedback": "The path of totality is determined by where the Moon's shadow falls on Earth's surface as it moves, not by the equator. Eclipses can be visible at any latitude where the shadow travels."
+          },
+          {
+            "label": "Only along a narrow path, typically a few hundred kilometers wide",
+            "feedback": "Correct. The Moon's umbral shadow, where the Sun is fully covered, is a small spot on Earth's surface. As the Moon moves, this shadow sweeps along a curved path, and only people within that narrow band see totality."
+          },
+          {
+            "label": "Only in the northern hemisphere, because the Moon is tilted",
+            "feedback": "The Moon's orbital tilt affects why eclipses are rare, but it does not restrict totality to one hemisphere. Eclipses can occur in both hemispheres, depending on the Moon's shadow track."
+          }
+        ],
+        "ok_title": "Path of totality",
+        "ok_line": "A narrow strip sees the total eclipse.",
+        "ko_title": "Not everywhere",
+        "ko_line": "The Moon's shadow is small, not global.",
+        "exp_title": "Where totality appears",
+        "exp_text": "A total solar eclipse is only visible from a narrow path on Earth's surface, typically a few hundred kilometers wide. This path is traced by the Moon's umbral shadow as it moves across Earth during the eclipse. Outside that path, observers see a partial eclipse, and beyond that, no eclipse at all."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a partial solar eclipse?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A solar eclipse that happens every month without fail",
+            "feedback": "A partial eclipse is not a monthly event; it is a specific type of eclipse where only part of the Sun is covered. Monthly eclipses do not happen because the Moon's orbit is tilted relative to Earth's orbit around the Sun."
+          },
+          {
+            "label": "A solar eclipse where the Moon covers the entire Sun, but only for a few seconds",
+            "feedback": "That describes a very brief total eclipse, not a partial one. In a partial eclipse, the Moon covers only a portion of the Sun's disk, never the whole thing."
+          },
+          {
+            "label": "A solar eclipse where the Moon appears as a black disk surrounded by a bright ring",
+            "feedback": "That is an annular eclipse, where the Moon is too small to cover the Sun. A partial eclipse leaves the Sun partially visible, not as a ring."
+          },
+          {
+            "label": "A solar eclipse where the Moon covers only a part of the Sun, leaving the rest visible",
+            "feedback": "Correct. In a partial solar eclipse, the Moon's penumbral shadow falls on Earth, and observers in that shadow see the Moon take a 'bite' out of the Sun, covering only part of its disk."
+          }
+        ],
+        "ok_title": "Partial eclipse defined",
+        "ok_line": "The Moon hides only a sliver of the Sun.",
+        "ko_title": "Not a total or annular",
+        "ko_line": "Partial means only part of the Sun is blocked.",
+        "exp_title": "Partial solar eclipse",
+        "exp_text": "A partial solar eclipse occurs when the Moon passes in front of the Sun but does not line up perfectly to cover it completely. Observers outside the path of totality see the Moon block only a portion of the Sun's disk, creating a crescent-shaped Sun. This is much more common than a total eclipse and is visible over a wide area."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is it dangerous to look directly at a solar eclipse without proper eye protection?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the Sun gives off harmful gases during an eclipse",
+            "feedback": "The Sun's gases are not released into space to affect Earth. The danger is from the intense light and ultraviolet radiation that the Sun always emits, which can damage the eyes even when the Sun is partially covered."
+          },
+          {
+            "label": "Because the Sun's bright light can burn the retina, causing permanent eye damage",
+            "feedback": "Correct. The Sun's intense light, even when partially blocked by the Moon, is strong enough to damage the light-sensitive cells in the retina. This can happen without any pain, and the damage can be permanent."
+          },
+          {
+            "label": "Because the Moon reflects harmful radiation onto Earth during an eclipse",
+            "feedback": "The Moon does not reflect harmful radiation; it blocks sunlight. The danger comes from looking at the Sun directly, not from any reflection."
+          },
+          {
+            "label": "Because the corona emits X-rays that can harm your eyes",
+            "feedback": "The corona does emit X-rays, but they are far too weak to cause eye damage from Earth's surface. The real danger is the visible light and UV radiation from the Sun's bright disk."
+          }
+        ],
+        "ok_title": "Eye damage risk",
+        "ok_line": "The bright Sun can burn your retina.",
+        "ko_title": "Not gas or X-rays",
+        "ko_line": "The danger is intense light, not radiation.",
+        "exp_title": "Why eclipse viewing is risky",
+        "exp_text": "Looking directly at the Sun, even during an eclipse, is dangerous because the Sun's intense light and ultraviolet radiation can burn the retina, the light-sensitive tissue at the back of the eye. This can happen without pain and may cause permanent vision loss. Special solar filters or eclipse glasses are needed to block the harmful light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the sky during a total solar eclipse?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It turns red, like a sunset, because of the Moon's shadow",
+            "feedback": "A red sky is typical of sunsets, caused by scattering of sunlight at low angles. During a total eclipse, the sky darkens to twilight, but it does not turn red. The corona appears white; the sky becomes dark blue or gray."
+          },
+          {
+            "label": "It stays bright blue, but the Sun disappears",
+            "feedback": "If the sky stayed bright, the corona would not be visible. During totality, the sky darkens significantly, allowing stars and the corona to be seen, which would not be possible in a bright blue sky."
+          },
+          {
+            "label": "It darkens to a twilight-like level, and stars and the corona become visible",
+            "feedback": "Correct. When the Moon fully covers the Sun, the sky darkens to a deep twilight. Bright stars and planets become visible, and the Sun's corona appears as a faint halo. This lasts for the few minutes of totality."
+          },
+          {
+            "label": "It turns green, because of the Moon's shadow passing over",
+            "feedback": "The sky does not turn green during an eclipse. The darkening is due to the removal of direct sunlight, not any color change. The sky takes on a twilight hue, not green."
+          }
+        ],
+        "ok_title": "Sky darkens",
+        "ok_line": "Totality brings twilight darkness.",
+        "ko_title": "Not a red sunset",
+        "ko_line": "The sky turns dark, not red.",
+        "exp_title": "Appearance of sky during totality",
+        "exp_text": "During a total solar eclipse, the sky darkens dramatically, resembling twilight even in the middle of the day. This darkness occurs because the Moon blocks the Sun's light from reaching the atmosphere. As a result, bright stars and planets appear, and the Sun's corona becomes visible around the Moon's dark disk."
+      }
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 import { Icon } from '../components/Icon'
-import { NavHead } from '../components/ui'
+import { NavHead, PageBack } from '../components/ui'
 import { useStore } from '../state/store'
 
 /** Privé par défaut. Le public passe par une relecture. */
@@ -45,39 +45,67 @@ export function Publish() {
 
   return (
     <div className="screen">
-      <NavHead onBack={() => goCreate(4)} title={t.publication} />
+      <div className="desk-hide">
+        <NavHead onBack={() => goCreate(4)} title={t.publication} />
+      </div>
 
-      <div className="screen-scroll stack" style={{ padding: '10px 22px 22px', gap: 18 }}>
-        <p className="display" style={{ fontSize: 30 }}>
-          {s.draftTitle || 'Nouveau thème'}
-        </p>
-        <p className="body" style={{ fontSize: 16 }}>
-          {s.validated} exercice{s.validated > 1 ? 's' : ''} validé{s.validated > 1 ? 's' : ''}
-          {s.draftTags.length > 0 ? ` · ${s.draftTags.join(' · ')}` : ''}
-        </p>
+      <div className="screen-scroll page">
+        <div className="page-inner">
+          {/* Retour à la relecture, pas au rail : on publie ce qu'on
+              vient de relire, et sortir par le rail perdrait l'étape. */}
+          <PageBack onClick={() => goCreate(4)} label={t.back} />
 
-        <div className="stack" style={{ gap: 10 }}>
-          <VisibilityCard
-            on={!s.pubPublic}
-            onClick={() => set({ pubPublic: false })}
-            icon="lock"
-            title={t.privateLabel}
-            badge={t.byDefault}
-            line={t.privateLine}
-          />
-          <VisibilityCard
-            on={s.pubPublic}
-            onClick={() => set({ pubPublic: true })}
-            icon="globe"
-            title={t.publicLabel}
-            line={t.publicLine}
-          />
-        </div>
+          <header className="page-head">
+            <h1 className="page-title">{t.publication}</h1>
+            <p className="page-lead">{s.draftTitle || t.newLearning}</p>
+          </header>
 
-        <div className="card-sunk">
-          <p className="serif-italic" style={{ fontSize: 16 }}>
-            {t.canSwitchLater}
-          </p>
+          {/* Choix à gauche, récapitulatif à droite : la maquette pose
+              1fr 380px, pour qu'on voie ce qu'on publie en décidant
+              comment on le publie. */}
+          <div className="split-380">
+            <div className="stack" style={{ gap: 10 }}>
+              <VisibilityCard
+                on={!s.pubPublic}
+                onClick={() => set({ pubPublic: false })}
+                icon="lock"
+                title={t.privateLabel}
+                badge={t.byDefault}
+                line={t.privateLine}
+              />
+              <VisibilityCard
+                on={s.pubPublic}
+                onClick={() => set({ pubPublic: true })}
+                icon="globe"
+                title={t.publicLabel}
+                line={t.publicLine}
+              />
+              <div className="card-sunk">
+                <p className="serif-italic" style={{ fontSize: 16 }}>
+                  {t.canSwitchLater}
+                </p>
+              </div>
+            </div>
+
+            <aside className="page-card">
+              <span className="eyebrow">{t.summary}</span>
+              <p className="display" style={{ fontSize: 22 }}>
+                {s.draftTitle || t.newLearning}
+              </p>
+              <p className="body" style={{ fontSize: 15 }}>
+                {t.validatedExercises(s.validated)}
+              </p>
+              {s.draftTags.length > 0 && (
+                <div className="wrap">
+                  {s.draftTags.map((tag) => (
+                    <span key={tag} className="chip" style={{ cursor: 'default' }}>
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </aside>
+          </div>
         </div>
       </div>
 

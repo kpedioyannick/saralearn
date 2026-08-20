@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 181,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why do all eight planets orbit the Sun in nearly the same flat plane instead of at every possible angle?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the Sun's light pushes them into line",
+            "feedback": "Light carries far too little force to line up whole planets; it can nudge dust and gas, not worlds."
+          },
+          {
+            "label": "Because their orbits were flattened by passing comets",
+            "feedback": "Comets are far too small and rare to have shaped the paths of every planet."
+          },
+          {
+            "label": "Because they formed from a single flat, spinning disk of gas and dust",
+            "feedback": "A cloud collapsing under its own gravity spins faster and flattens into a disk, and planets built from that disk inherit its shape."
+          },
+          {
+            "label": "Because Jupiter's gravity dragged the others into place afterward",
+            "feedback": "Jupiter formed inside that same disk rather than existing beforehand to rearrange it, so it can't be the cause."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "That's the shape",
+        "ok_line": "One disk, one plane, eight planets built from it.",
+        "ko_title": "Not from outside",
+        "ko_line": "Nothing pushed the planets flat afterward; they were born that way.",
+        "exp_title": "Born flat",
+        "exp_text": "The Sun formed at the centre of a slowly spinning cloud of gas and dust, and as the cloud collapsed inward it spun faster and flattened into a wide disk, the way spinning batter flattens on a turning plate. Every planet condensed out of material already sitting inside that thin disk, so their orbits trace out roughly the same plane the disk once occupied."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a planet close to the Sun, like Mercury, complete its orbit so much faster than a planet far away, like Neptune?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is pulled by much stronger gravity and moves faster to keep from falling in",
+            "feedback": "Stronger pull demands faster sideways motion to keep missing the Sun, which shortens the orbit twice over: less distance to cover and a swifter pace."
+          },
+          {
+            "label": "It has less mass than Neptune, so it needs less time",
+            "feedback": "A planet's own mass has no effect on the time it takes to circle the Sun; two objects of any mass in the same orbit move at the same rate."
+          },
+          {
+            "label": "Its orbit is a perfect circle while Neptune's is not",
+            "feedback": "Every planet's orbit is an ellipse close to a circle, Mercury's included, so shape isn't what sets it apart."
+          },
+          {
+            "label": "The Sun's light reaches it faster and speeds it along",
+            "feedback": "Light doesn't propel a planet forward; it's gravity, not light, that governs orbital speed."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Closer means quicker",
+        "ok_line": "Nearer to the Sun, stronger pull, faster orbit.",
+        "ko_title": "Not mass, not shape",
+        "ko_line": "What changes with distance is the strength of gravity's pull.",
+        "exp_title": "Gravity sets the pace",
+        "exp_text": "The Sun's gravity is far stronger close by than it is far away, and a planet has to move faster to keep from spiraling in under that stronger pull. Mercury is also covering a much shorter path than Neptune, and combining a short path with a quick pace lets it finish an orbit while Neptune is still partway through its own."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are planetary orbits ellipses rather than perfect circles?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because planets slow down every time they pass another planet",
+            "feedback": "Planets rarely pass close enough to noticeably slow each other; the shape of an orbit doesn't depend on such rare encounters."
+          },
+          {
+            "label": "Because a planet's fall toward the Sun combines with its sideways motion in a way that closes into an oval",
+            "feedback": "A planet endlessly falls toward the Sun while also moving sideways, and working out where those two motions add up shows they close into a loop only if that loop is an ellipse, with a circle as one special case of it."
+          },
+          {
+            "label": "Because the Sun is not perfectly round",
+            "feedback": "The Sun's shape barely differs from a sphere, far too small an irregularity to bend a planet's path into an oval."
+          },
+          {
+            "label": "Because comets stretch the paths of the planets over time",
+            "feedback": "Comets carry far too little mass to reshape a planet's orbit."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "The general shape",
+        "ok_line": "A circle is only the tidiest ellipse there is.",
+        "ko_title": "Not an outside nudge",
+        "ko_line": "The ellipse comes from the orbit's own geometry, not from anything bumping it.",
+        "exp_title": "Falling and moving sideways at once",
+        "exp_text": "A planet is always falling toward the Sun under gravity, and at the same time it carries sideways motion left over from the spinning disk it formed in. Combining a constant fall with steady sideways drift traces out a closed loop only when that loop is an ellipse, which is why ellipses are the ordinary outcome and a perfect circle is only their tidiest special case."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually decides whether a body counts as a planet rather than a dwarf planet?",
+        "body": null,
+        "options": [
+          {
+            "label": "Whether it is round",
+            "feedback": "Many dwarf planets, including Pluto, are round too, so roundness alone doesn't separate the two categories."
+          },
+          {
+            "label": "Whether it has a moon of its own",
+            "feedback": "Pluto has moons and Mercury has none, so having a moon sorts neither category correctly."
+          },
+          {
+            "label": "Whether it is made of rock rather than ice",
+            "feedback": "Composition varies enormously among the planets themselves, from icy Neptune to rocky Mercury, so material alone can't be the line."
+          },
+          {
+            "label": "Whether its gravity has cleared its orbital neighbourhood of other debris",
+            "feedback": "A true planet is massive enough that its gravity has swept its orbital path clear of comparable rivals over time, which is exactly what Pluto never managed among the icy bodies out beyond Neptune."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Cleared the way",
+        "ok_line": "A planet dominates its lane; a dwarf planet shares it.",
+        "ko_title": "Shape and material aren't the line",
+        "ko_line": "The distinction is about gravity's reach, not what the body looks like or is made of.",
+        "exp_title": "Dominating the neighbourhood",
+        "exp_text": "As a young planet grows, its gravity gradually pulls in or flings away the smaller bodies that share its orbital path, until nothing comparable in size is left crossing its lane. A body that never grew massive enough to finish that sweep, still sharing its orbit with a swarm of similar-sized neighbours, is classed as a dwarf planet instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the four inner planets cluster close to the Sun while all four giant planets sit much farther out?",
+        "body": null,
+        "options": [
+          {
+            "label": "Only rock and metal could condense in the hot inner disk, while ice needed the colder outer disk to survive",
+            "feedback": "Close to the young Sun's heat, only rock and metal stayed solid, so planets there could only be built from those materials and stayed small; farther out, cold enough for ice to freeze, planets had far more raw material to grow from."
+          },
+          {
+            "label": "The inner planets were pushed outward from the giants' old positions",
+            "feedback": "The planets formed close to where they orbit now; there was no wholesale swap of inner and outer positions."
+          },
+          {
+            "label": "Gravity from the Sun is too weak that far out to hold small planets",
+            "feedback": "Gravity would hold a small rocky planet just as well at Neptune's distance; nothing stops one from existing there."
+          },
+          {
+            "label": "The outer disk simply had more room, so any kind of planet could grow bigger there",
+            "feedback": "Room alone doesn't explain why the outer planets are gaseous rather than rocky like the inner ones; the difference is what kind of material could condense there, not how much room existed."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A line drawn by heat",
+        "ok_line": "Rock survives the heat near the Sun; ice does not.",
+        "ko_title": "Not position swapping, not room",
+        "ko_line": "What each planet could be built from depended on how hot its patch of the disk was.",
+        "exp_title": "The frost line",
+        "exp_text": "Close to the young Sun, temperatures were high enough that only rock and metal could condense into solid grains, so the inner planets built themselves from that limited material and stayed small and dense. Beyond a certain distance, cold enough for ice to freeze solid, far more material was available to clump together, and that extra bulk is what let the outer planets grow massive enough to pull in surrounding hydrogen and helium."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is there a wide gap of asteroids between Mars and Jupiter instead of a fifth rocky planet?",
+        "body": null,
+        "options": [
+          {
+            "label": "The material there was all pulled into Mars long ago",
+            "feedback": "Mars is far too small to have absorbed enough material to leave that whole region emptied."
+          },
+          {
+            "label": "Jupiter's gravity stirred the material into fast, collision-prone paths that shattered rather than merged it",
+            "feedback": "Massive, nearby Jupiter's gravity kept stirring the orbits of the rocky material in that region, so instead of gently drifting together, the pieces slammed into each other too fast to merge and stuck as debris rather than a planet."
+          },
+          {
+            "label": "The Sun's heat was too intense there for rock to form",
+            "feedback": "That region isn't especially close to the Sun; temperature there was mild enough for rock to condense perfectly well."
+          },
+          {
+            "label": "A planet did form there and later broke apart",
+            "feedback": "There has never been enough material in that belt to have made up a whole planet in the first place, even added all together."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Stirred, not settled",
+        "ok_line": "A neighbour too strong to let the pieces merge peacefully.",
+        "ko_title": "The material was never missing",
+        "ko_line": "The rock is still there — it just never got the calm conditions needed to merge.",
+        "exp_title": "Too much stirring to merge",
+        "exp_text": "Building a planet needs the small rocky pieces in a region to drift together gently and stick, but Jupiter's powerful gravity, sitting just beyond that region, kept tugging on the orbits of the material between Mars and itself, speeding some pieces up and slowing others. Collisions there happened too fast and at too many angles to merge into something bigger, leaving countless separate fragments as an asteroid belt rather than a fifth rocky planet."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do planets keep circling the Sun forever instead of flying off into space or falling into it?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Sun's magnetic field holds them on a leash",
+            "feedback": "The planets are held by gravity, not magnetism; most of them aren't even magnetic enough for the Sun's field to grip."
+          },
+          {
+            "label": "Empty space slowly pushes them back on course whenever they drift",
+            "feedback": "Empty space applies no force at all; there's nothing there to push anything back."
+          },
+          {
+            "label": "Gravity constantly pulls them inward while their sideways motion constantly carries them past, so the two never cancel out",
+            "feedback": "Sideways motion left over from the disk they formed in keeps carrying a planet forward, while gravity keeps bending that path inward; neither ever wins outright, so the result is an endless curve around the Sun."
+          },
+          {
+            "label": "They are too far away for the Sun's pull to matter",
+            "feedback": "The Sun's gravity reaches every planet strongly enough to hold it in orbit; if it didn't matter, nothing would keep the planets circling at all."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A permanent balance",
+        "ok_line": "Falling and moving sideways, forever, at the same time.",
+        "ko_title": "No leash, no push",
+        "ko_line": "Nothing needs to hold a planet on course; the balance of motion and gravity does that by itself.",
+        "exp_title": "An endless near-miss",
+        "exp_text": "A planet is always falling toward the Sun under gravity, but it is also always moving sideways fast enough that, by the time it would have fallen in, it has moved past instead. That combination repeats forever without needing anything to renew it, which is why an orbit needs no engine and no leash to keep going."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a planet's year get longer the farther out its orbit lies, by more than just the extra distance would suggest?",
+        "body": null,
+        "options": [
+          {
+            "label": "Far-out planets rotate more slowly, which drags out their year too",
+            "feedback": "A planet's spin on its axis and its trip around the Sun are separate motions; how fast a planet spins doesn't change how long its orbit takes."
+          },
+          {
+            "label": "Distant planets take detours around the asteroid belt and outer debris",
+            "feedback": "Planets orbit smoothly through their own lanes without needing to swerve around belts of debris."
+          },
+          {
+            "label": "Sunlight takes longer to reach them, so their year is measured as longer",
+            "feedback": "How long light takes to arrive has nothing to do with how long an orbit takes; a year is measured by the planet's own motion, not by when light gets there."
+          },
+          {
+            "label": "A farther planet has a longer path to travel and moves more slowly along it, and both effects stretch the year",
+            "feedback": "Distance adds length to the path itself, and weaker gravity that far out means the planet doesn't need to move as fast to keep from falling in, so it also travels more slowly; a longer road covered at a gentler pace stretches the year out far more than either change would alone."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Two effects, one direction",
+        "ok_line": "Longer road, slower pace — the year stretches twice over.",
+        "ko_title": "Not spin, not detours, not light",
+        "ko_line": "The year is set entirely by the planet's own path and speed around the Sun.",
+        "exp_title": "A longer road taken more slowly",
+        "exp_text": "A planet farther from the Sun has a bigger circle to complete, which alone would make its year longer, but it also feels a weaker pull from the Sun and so needs less sideways speed to stay in orbit, which slows it down as well. A bigger loop covered at a slower pace stretches the year out far more than the extra distance would explain by itself."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do only some planets generate a strong magnetic field while others, like Mars or Venus, barely have one?",
+        "body": null,
+        "options": [
+          {
+            "label": "Only planets with moons can generate a magnetic field",
+            "feedback": "Venus has no moon and Mars has two, yet neither generates anything like Earth's field; moons play no part in producing it."
+          },
+          {
+            "label": "It takes a molten, electrically conducting layer inside the planet that is also stirred by fast rotation",
+            "feedback": "Deep inside a planet, if a layer of molten metal that conducts electricity is churned by the planet's own rotation, the moving conductive fluid generates a magnetic field the way a spinning generator does."
+          },
+          {
+            "label": "It depends only on how big the planet is",
+            "feedback": "Size alone can't be the answer: Mars is smaller than Earth and has almost no field, but Mercury is smaller still and has a weak one anyway, so size doesn't line up cleanly with the presence of a field."
+          },
+          {
+            "label": "Planets closer to the Sun always have stronger fields",
+            "feedback": "Mercury sits closest of all and its field is weak, while distant Jupiter has by far the stronger one; distance from the Sun doesn't determine it."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A generator inside",
+        "ok_line": "Molten metal, stirred by spin, makes the field.",
+        "ko_title": "Not moons, not size, not distance",
+        "ko_line": "What matters is happening deep inside the planet, out of sight.",
+        "exp_title": "A dynamo hidden inside",
+        "exp_text": "A magnetic field this kind of strength needs a layer of molten, electrically conducting material deep in a planet's interior, moving because the planet spins fast enough to stir it. Mars's core has cooled and solidified until the churning stopped, while Venus spins far too slowly to stir its interior the same way, so neither planet keeps a dynamo running the way a fast-spinning planet with a molten core does."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why did the solar system end up with only eight planets instead of the far larger number of smaller bodies it started with?",
+        "body": null,
+        "options": [
+          {
+            "label": "Countless smaller bodies collided and merged over time, leaving a handful of survivors that had grown large enough to dominate",
+            "feedback": "Long ago the disk around the young Sun held countless small bodies called planetesimals, and gravity drew them together in repeated collisions; each merger produced a larger, more dominant body whose stronger gravity then swept up or flung aside its remaining smaller neighbours."
+          },
+          {
+            "label": "The Sun burned away every planet except the eight that were far enough to survive",
+            "feedback": "The Sun's heat thins out or strips atmospheres over great stretches of time, but it never destroyed whole planets; every early body was lost through collision or ejection, not burning."
+          },
+          {
+            "label": "Eight is simply how many planet-sized clumps the original cloud broke into at the very start",
+            "feedback": "The cloud began as vastly more numerous small clumps, not eight ready-made planets; the small number today is the result of a long process, not the starting point."
+          },
+          {
+            "label": "Gravity from nearby stars pulled the extra planets away",
+            "feedback": "Other stars are far too distant for their gravity to have meaningfully tugged at anything in the young solar system."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Merger after merger",
+        "ok_line": "A handful of winners left standing after countless collisions.",
+        "ko_title": "Not burned, not born whole, not pulled away",
+        "ko_line": "What thinned the crowd was collision and consolidation, not something acting from outside.",
+        "exp_title": "A demolition derby that built planets",
+        "exp_text": "The young disk around the Sun was crowded with small rocky and icy bodies called planetesimals, constantly crossing each other's paths and colliding. Each collision that merged two bodies rather than shattering them produced something bigger with stronger gravity, and a bigger body was better at pulling in the next one it met, so over a very long stretch of time the crowd thinned into the handful of large, dominant survivors now called planets."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason the sky appears blue during the day?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Air molecules scatter blue light more than other colours.",
+            "feedback": "Correct. Blue light has a shorter wave and is scattered more strongly by the tiny molecules in the air, so it fills the sky."
+          },
+          {
+            "label": "The sky reflects the blue colour of the oceans.",
+            "feedback": "The oceans are not the source of the sky's colour. The blue comes from scattering of sunlight by air, not from reflection off water."
+          },
+          {
+            "label": "Blue light is absorbed by the atmosphere and re-emitted.",
+            "feedback": "Absorption is not the cause; it is scattering. Blue light is bounced in many directions by air molecules, which makes the whole sky glow blue."
+          },
+          {
+            "label": "The Sun emits mainly blue light.",
+            "feedback": "The Sun emits all colours of visible light, not mainly blue. The blue we see is because that colour is scattered most."
+          }
+        ],
+        "ok_title": "Scattering wins",
+        "ok_line": "Blue is scattered most, so the sky glows blue.",
+        "ko_title": "Colour mix-up",
+        "ko_line": "The sky's blue is from scattering, not reflection or absorption.",
+        "exp_title": "Why the sky is blue",
+        "exp_text": "Sunlight travels through the atmosphere, and air molecules scatter light in all directions. Shorter waves like blue are scattered far more than longer waves like red, so when you look up, you see blue light coming from every part of the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At sunset, the Sun's light passes through more atmosphere than at noon. What happens to the blue light?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Blue light is barely affected and reaches you unchanged.",
+            "feedback": "Blue light is scattered so strongly that after a long path through the air, almost none of it reaches your eye directly from the Sun's direction."
+          },
+          {
+            "label": "Blue light is scattered away, leaving red and orange light.",
+            "feedback": "Correct. A longer path through air means blue light gets scattered sideways many times, so only the longer red and orange waves travel straight to you."
+          },
+          {
+            "label": "Blue light turns into red light because of the longer path.",
+            "feedback": "Light does not change colour by travelling. Red light was already in the sunlight; blue light is simply removed by scattering."
+          },
+          {
+            "label": "Blue light is absorbed by the atmosphere completely.",
+            "feedback": "Absorption is not the main process here. Scattering sends the blue light away from your line of sight, not absorption."
+          }
+        ],
+        "ok_title": "Longer path, redder Sun",
+        "ok_line": "Blue is scattered out, leaving red and orange.",
+        "ko_title": "No colour change",
+        "ko_line": "Light keeps its colour; scattering removes the blue.",
+        "exp_title": "Why sunsets look red",
+        "exp_text": "When the Sun is near the horizon, its light travels through a much thicker layer of air. Blue light is scattered again and again and is sent off in all directions, so the direct light that reaches you is mostly red and orange, which scatter far less."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the sky look black to an astronaut on the Moon?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Moon's surface is dark, so it blocks the light.",
+            "feedback": "The Moon's surface is not blocking the sky's colour. The blackness comes from the lack of air, not from the ground."
+          },
+          {
+            "label": "The Sun's light is weaker on the Moon.",
+            "feedback": "The Moon gets just as much sunlight as Earth does. The sky is black because there is no air to scatter the light."
+          },
+          {
+            "label": "The Moon's atmosphere absorbs all light.",
+            "feedback": "The Moon has almost no atmosphere, so there is nothing to absorb or scatter light. Blackness is simply the absence of scattered light."
+          },
+          {
+            "label": "There is no air to scatter the Sun's light.",
+            "feedback": "Correct. On the Moon there is no atmosphere, so no molecules can scatter blue light into the sky. You see the Sun and stars on a black background."
+          }
+        ],
+        "ok_title": "No air, no blue",
+        "ok_line": "Without air, there is nothing to scatter light.",
+        "ko_title": "Sky colour needs air",
+        "ko_line": "The black sky comes from missing atmosphere, not from the Moon's surface.",
+        "exp_title": "The black sky from space",
+        "exp_text": "The blue sky we see on Earth is scattered light from air molecules. On the Moon, which has no air, sunlight travels straight without being scattered, so the sky appears black, and the Sun looks like a bright disc surrounded by darkness."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do distant mountains look pale blue?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The mountains are covered with blue rocks.",
+            "feedback": "Rocks are not blue. The colour comes from the air between you and the mountain, not from the mountain itself."
+          },
+          {
+            "label": "The mountains reflect the blue sky.",
+            "feedback": "Mountains reflect sunlight, not the sky's blue. The blue tint is caused by light scattered in the air layer you look through."
+          },
+          {
+            "label": "You see the scattered blue light in the air between you and the mountain.",
+            "feedback": "Correct. The air in front of the mountain scatters blue light toward your eye, so the distant mountain is seen through a glowing blue haze."
+          },
+          {
+            "label": "Blue light travels faster than other colours through air.",
+            "feedback": "Speed does not change the colour you see. The blue tint is from scattering, not from speed differences."
+          }
+        ],
+        "ok_title": "Air acts like a haze",
+        "ok_line": "Blue scattered in the air colours distant objects.",
+        "ko_title": "Not the mountain's colour",
+        "ko_line": "The blue is in the air, not on the mountain.",
+        "exp_title": "Why far hills look blue",
+        "exp_text": "When you look at a distant mountain, the air between you and it scatters blue light in all directions, including toward your eyes. This blue glow overlays the mountain, so it looks paler and bluer than it really is."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do clouds look white rather than blue?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cloud droplets scatter all colours of light equally.",
+            "feedback": "Correct. Water droplets in clouds are much larger than air molecules, so they scatter red, green, blue and every other colour about the same. All colours mix to white."
+          },
+          {
+            "label": "Clouds absorb all light and reflect it back as white.",
+            "feedback": "Clouds do not absorb light and turn it white. They scatter the sunlight that passes through them, sending all colours together."
+          },
+          {
+            "label": "Clouds are made of white ice crystals.",
+            "feedback": "Clouds are made of water droplets or ice, which are clear, not white. The whiteness comes from scattering all colours, not from the material's colour."
+          },
+          {
+            "label": "The blue light is blocked by the cloud's thickness.",
+            "feedback": "The cloud does not block blue light more than red. It scatters all colours equally, so the light that reaches your eye is white."
+          }
+        ],
+        "ok_title": "Big droplets scatter all",
+        "ok_line": "Large droplets scatter every colour equally, so you see white.",
+        "ko_title": "Not a blue filter",
+        "ko_line": "Clouds do not remove blue light; they scatter all colours.",
+        "exp_title": "Why clouds are white",
+        "exp_text": "Clouds are made of tiny water droplets that are much larger than air molecules. These droplets scatter all wavelengths of visible light in roughly equal amounts. When all colours are scattered together, the combined light looks white, just like sunlight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the blue light when the Sun is low and its light travels through a long stretch of air?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It reaches your eye directly and overpowers other colours.",
+            "feedback": "Blue light does not survive the long path. It is scattered so much that very little travels straight to your eye from the Sun."
+          },
+          {
+            "label": "It is scattered in many directions, so little reaches your eye directly.",
+            "feedback": "Correct. The long air path gives blue light many chances to be scattered sideways, so the direct beam loses most of its blue."
+          },
+          {
+            "label": "It turns into red light as it travels.",
+            "feedback": "Light does not transform into another colour. The red you see was in the sunlight all along; the blue is just removed by scattering."
+          },
+          {
+            "label": "It is absorbed by water vapour in the air.",
+            "feedback": "Water vapour does not absorb blue light selectively. The effect is from scattering, not absorption."
+          }
+        ],
+        "ok_title": "Blue gets scattered out",
+        "ok_line": "Long path removes blue, leaving red.",
+        "ko_title": "No colour change",
+        "ko_line": "Blue is scattered away, not converted into red.",
+        "exp_title": "Scattering over a long path",
+        "exp_text": "When sunlight passes through a thick layer of air, blue light is scattered repeatedly and sent off in every direction. By the time the light reaches your eye, most of the blue is gone, and the remaining light is dominated by red and orange, which scatter less."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the Sun's disc orange near the horizon but yellow at midday?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Sun changes its colour depending on the time of day.",
+            "feedback": "The Sun itself does not change colour. The change comes from the thickness of air its light passes through."
+          },
+          {
+            "label": "The horizon adds orange dust to the Sun's light.",
+            "feedback": "Dust and pollution can add colour, but the main reason is scattering of blue light over a longer path, which removes blue and leaves red-orange."
+          },
+          {
+            "label": "The air filters out red light near the horizon.",
+            "feedback": "The air filters out blue light, not red. Red is scattered least, so it survives the long journey and reaches your eye."
+          },
+          {
+            "label": "More blue is scattered away from the long path near the horizon.",
+            "feedback": "Correct. Near the horizon the Sun's light passes through much more air, so more blue is scattered off. The remaining light looks orange because red and orange are left."
+          }
+        ],
+        "ok_title": "Path length changes colour",
+        "ok_line": "Longer path removes more blue, leaving orange.",
+        "ko_title": "Sun colour is fixed",
+        "ko_line": "The Sun doesn't change; the air changes the light you see.",
+        "exp_title": "Sun colour at different heights",
+        "exp_text": "At midday, sunlight travels through a relatively thin layer of air, so only a little blue is scattered, and the Sun looks yellow. Near the horizon, the path through air is much longer, so nearly all blue light is scattered away, and the remaining red and orange light reaches your eye, making the Sun look orange."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes the sky glow with red and orange light after the Sun has set?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Scattered red and orange light from below the horizon.",
+            "feedback": "Correct. Even after the Sun sets, its light passes through the lower atmosphere and scatters red and orange toward you, so the sky glows."
+          },
+          {
+            "label": "The Moon's light reflected off the clouds.",
+            "feedback": "Moonlight is too weak to create such a glow, and the red sky comes from sunlight, not moonlight."
+          },
+          {
+            "label": "The Sun's light is trapped in the atmosphere at night.",
+            "feedback": "Light is not trapped. What you see is sunlight scattering from air after the Sun has gone below the horizon."
+          },
+          {
+            "label": "The air itself emits red light at night.",
+            "feedback": "Air does not glow by itself. The red sky is scattered sunlight, not an emission from the air."
+          }
+        ],
+        "ok_title": "Sunlight still scatters",
+        "ok_line": "Even after sunset, sunlight scatters in the upper air.",
+        "ko_title": "Not moonlight or emission",
+        "ko_line": "The glow is sunlight, not moonlight or air's own light.",
+        "exp_title": "The glow after sunset",
+        "exp_text": "After the Sun disappears below the horizon, its light still travels through the upper atmosphere, where it is scattered. Because the path is very long, most blue is removed, and only red and orange light remains to reach your eyes, creating the warm glow in the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the setting Sun safe to look at directly when the midday Sun is not?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The setting Sun is much smaller in the sky.",
+            "feedback": "The size of the Sun's disc does not change; the danger is about light intensity, which depends on scattering."
+          },
+          {
+            "label": "The setting Sun emits less light than the midday Sun.",
+            "feedback": "The Sun's output is constant. The dimmer appearance comes from the atmosphere scattering and absorbing much of the light."
+          },
+          {
+            "label": "The atmosphere has scattered and absorbed most of its intense light.",
+            "feedback": "Correct. The long path through air removes a large portion of the sunlight, especially the blue and violet, leaving a much dimmer red-orange light that is less harmful to the eye."
+          },
+          {
+            "label": "The red light of the setting Sun is harmless to the eye.",
+            "feedback": "Red light is not inherently safe; it is the much lower intensity from atmospheric scattering that makes the setting Sun less dangerous."
+          }
+        ],
+        "ok_title": "Dimmed by the air",
+        "ok_line": "Long air path weakens the light, so it's safer.",
+        "ko_title": "Not a different Sun",
+        "ko_line": "The Sun is the same; the air makes it dimmer.",
+        "exp_title": "Sunset light is weaker",
+        "exp_text": "When the Sun is low, its light must pass through a thick layer of air, which scatters and absorbs a great deal of the visible light, especially the short wavelengths. The remaining red-orange light is far less intense than the full sunlight at noon, so looking at the setting Sun is much less harmful—though still not something to do for long."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What gives the white clouds their white colour when they are lit by the Sun?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The water droplets in clouds reflect only white light from the Sun.",
+            "feedback": "The Sun's light is white because it contains all colours. The droplets do not select white; they scatter all colours together."
+          },
+          {
+            "label": "Water droplets scatter all colours of sunlight together.",
+            "feedback": "Correct. The droplets are large compared to air molecules, so they scatter all visible colours equally. When these colours combine, they appear white."
+          },
+          {
+            "label": "Clouds absorb blue light and re-emit it as white.",
+            "feedback": "Clouds do not absorb and re-emit light. They scatter the sunlight that passes through them without changing its colour."
+          },
+          {
+            "label": "The ice crystals in cold clouds are naturally white.",
+            "feedback": "Ice crystals are clear, not white. The whiteness comes from scattering of all colours, not from the material's own colour."
+          }
+        ],
+        "ok_title": "All colours mixed",
+        "ok_line": "Large droplets scatter every colour, giving white.",
+        "ko_title": "Not a filter or emitter",
+        "ko_line": "Clouds scatter, they don't absorb or emit colour.",
+        "exp_title": "Why clouds are white",
+        "exp_text": "Cloud droplets are much larger than air molecules, so they scatter all wavelengths of light about equally. When the scattered red, green, blue and other colours mix together, the result is white light, which is why clouds look bright white against the blue sky."
+      }
+    ]
+  }
+]

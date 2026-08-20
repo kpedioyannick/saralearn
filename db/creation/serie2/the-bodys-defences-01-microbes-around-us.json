@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do microbes live in the human body?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only on the skin surface",
+            "feedback": "Microbes are found on the skin surface, but they also live inside the body, such as in the mouth, gut, and nose, so this answer is too limited."
+          },
+          {
+            "label": "Only inside the gut",
+            "feedback": "The gut does host many microbes, but they also live on the skin, in the mouth, and in other body sites, so this is not the full picture."
+          },
+          {
+            "label": "On the skin and inside the body",
+            "feedback": "Correct. Microbes cover the skin and also live in places like the mouth, nose, and intestines, forming the body's natural microbial community."
+          },
+          {
+            "label": "Nowhere unless you are sick",
+            "feedback": "Healthy bodies naturally carry many microbes at all times; sickness is not required for them to be present."
+          }
+        ],
+        "ok_title": "Microbes everywhere",
+        "ok_line": "Microbes live on your skin and inside your body all the time.",
+        "ko_title": "Wrong location",
+        "ko_line": "Microbes are not only on the skin or only in the gut.",
+        "exp_title": "The body's microbial community",
+        "exp_text": "The human body is home to billions of microbes, including bacteria, viruses, and fungi, which live on the skin and inside areas like the mouth, nose, and digestive tract. These are normal and usually harmless, and most are helpful, such as gut bacteria that aid digestion."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape do rod-shaped bacteria have?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Round like a ball",
+            "feedback": "Round bacteria are called cocci, not rods, so this shape is for a different group."
+          },
+          {
+            "label": "Spiral like a corkscrew",
+            "feedback": "Spiral bacteria are named spirilla, not rods, so this is not the correct term."
+          },
+          {
+            "label": "Flat like a plate",
+            "feedback": "Bacteria do not come in a flat plate shape; rods are cylindrical and elongated."
+          },
+          {
+            "label": "Long like a cylinder",
+            "feedback": "Correct. Rod-shaped bacteria are elongated, cylinder-like cells, and they are one of the common shapes bacteria take."
+          }
+        ],
+        "ok_title": "Rod-shaped bacteria",
+        "ok_line": "Rod-shaped bacteria look like small cylinders.",
+        "ko_title": "Different shapes",
+        "ko_line": "Cocci are round and spirilla are spiral, not rod-shaped.",
+        "exp_title": "Bacterial shapes",
+        "exp_text": "Bacteria come in a few basic shapes: round ones called cocci, spiral ones called spirilla, and rod-shaped ones. Rod-shaped bacteria, such as E. coli, are longer than they are wide, giving them a cylindrical appearance under a microscope."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main way that viruses reproduce?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Inside a host cell",
+            "feedback": "Correct. Viruses cannot make copies of themselves on their own; they must enter a living cell and use its machinery to produce new viruses."
+          },
+          {
+            "label": "On their own in the air",
+            "feedback": "Viruses cannot reproduce outside a host; they are not alive and need a cell to replicate."
+          },
+          {
+            "label": "By splitting in two",
+            "feedback": "Binary fission is how bacteria reproduce, not viruses, which use the host's cell machinery."
+          },
+          {
+            "label": "In water or soil",
+            "feedback": "Viruses do not reproduce in the environment; they only multiply once inside a suitable host cell."
+          }
+        ],
+        "ok_title": "Virus reproduction",
+        "ok_line": "A virus needs a host cell to make more viruses.",
+        "ko_title": "No self-replication",
+        "ko_line": "Viruses cannot copy themselves without a living cell.",
+        "exp_title": "How viruses multiply",
+        "exp_text": "A virus is a tiny infectious agent that cannot reproduce on its own. It attaches to a host cell, injects its genetic material, and hijacks the cell's machinery to produce many new viruses, which then leave to infect other cells."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which microbe is a type of fungus?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Bacteria",
+            "feedback": "Bacteria are single-celled organisms, not fungi; fungi include yeasts and molds, which have different cell structures."
+          },
+          {
+            "label": "Yeast",
+            "feedback": "Correct. Yeast is a single-celled fungus, used in baking and brewing, and is indeed a common microbe."
+          },
+          {
+            "label": "Virus",
+            "feedback": "Viruses are not fungi; they are tiny infectious agents that require host cells, unlike yeast which grows on its own."
+          },
+          {
+            "label": "Protozoa",
+            "feedback": "Protozoa are single-celled organisms with animal-like features, not fungi; they are a different group of microbes."
+          }
+        ],
+        "ok_title": "Fungal microbe",
+        "ok_line": "Yeast is a fungus.",
+        "ko_title": "Not a fungus",
+        "ko_line": "Bacteria, viruses, and protozoa are not fungi.",
+        "exp_title": "Fungi among microbes",
+        "exp_text": "Fungi include yeasts and molds, which are eukaryotic organisms. Yeast is a unicellular fungus used in bread and beer, while molds grow as multicellular filaments on surfaces like bread. They are distinct from bacteria and viruses."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the environment are microbes most commonly found?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only in dirty places",
+            "feedback": "Microbes are not limited to dirty areas; they live in soil, water, air, and even on clean surfaces, so this is incorrect."
+          },
+          {
+            "label": "Only in the air",
+            "feedback": "Microbes are present in the air, but they are far more abundant in soil and water, so this answer is incomplete."
+          },
+          {
+            "label": "In soil, water, and air",
+            "feedback": "Correct. Microbes are found nearly everywhere, including soil, water, air, and on every surface, forming part of the natural world."
+          },
+          {
+            "label": "Only in the human body",
+            "feedback": "While many microbes live in and on the body, they are also widespread in the environment, so this is not the only place."
+          }
+        ],
+        "ok_title": "Microbes in nature",
+        "ok_line": "Microbes live in soil, water, and air.",
+        "ko_title": "Narrow view",
+        "ko_line": "Microbes are not restricted to one place.",
+        "exp_title": "Ubiquitous microbes",
+        "exp_text": "Microbes are extremely adaptable and thrive in virtually every environment on Earth, from soil and freshwater to oceans and the atmosphere. They also live inside and on the surface of plants, animals, and humans, making them the most widespread organisms."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a microbe?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A flea",
+            "feedback": "A flea is an insect, which is visible to the naked eye and much larger than a microbe, so it is not a microbe."
+          },
+          {
+            "label": "A worm",
+            "feedback": "Worms are large multicellular animals, far bigger than microbes, which are microscopic in size."
+          },
+          {
+            "label": "A spider",
+            "feedback": "Spiders are arachnids, visible without a microscope, so they do not qualify as microbes."
+          },
+          {
+            "label": "A bacterium",
+            "feedback": "Correct. Bacteria are single-celled organisms that are typically only visible under a microscope, making them a classic example of microbes."
+          }
+        ],
+        "ok_title": "A true microbe",
+        "ok_line": "Bacteria are microbes.",
+        "ko_title": "Too big",
+        "ko_line": "Fleas, worms, and spiders are macroscopic animals.",
+        "exp_title": "Defining microbes",
+        "exp_text": "Microbes, or microorganisms, are living things that are too small to be seen with the naked eye. They include bacteria, viruses, fungi, and protozoa. In contrast, fleas, worms, and spiders are large enough to be seen easily, so they are not microbes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of most bacteria in the gut?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Helping digest food",
+            "feedback": "Correct. Many gut bacteria break down food components that the body cannot digest alone, producing nutrients and supporting health."
+          },
+          {
+            "label": "Making you sick",
+            "feedback": "Most gut bacteria are harmless or beneficial, not harmful; only a few types can cause illness when they overgrow."
+          },
+          {
+            "label": "Producing oxygen",
+            "feedback": "Gut bacteria do not produce oxygen; that is the role of photosynthetic organisms like plants and algae."
+          },
+          {
+            "label": "Creating vitamins",
+            "feedback": "While some gut bacteria do make certain vitamins, their main role is digesting food, so this is not the primary function."
+          }
+        ],
+        "ok_title": "Gut bacteria's job",
+        "ok_line": "Gut bacteria help with digestion.",
+        "ko_title": "Not harmful",
+        "ko_line": "Most gut bacteria are helpful, not disease-causing.",
+        "exp_title": "Beneficial gut flora",
+        "exp_text": "The human gut hosts trillions of bacteria that assist in breaking down food, especially fibers, and produce beneficial substances. They also compete with harmful microbes, helping keep the gut healthy, though a few can cause problems if they overgrow or enter other body parts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main way microbes spread from person to person?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Through the air only",
+            "feedback": "Airborne spread is one way, but microbes also spread through direct contact, water, and food, so this is not the only route."
+          },
+          {
+            "label": "Through contact and droplets",
+            "feedback": "Correct. Many microbes spread by direct skin-to-skin contact or through droplets from coughs and sneezes, which carry them to others."
+          },
+          {
+            "label": "Through the ground only",
+            "feedback": "Soil can contain microbes, but person-to-person spread usually involves contact or air, not just the ground."
+          },
+          {
+            "label": "Through food and water only",
+            "feedback": "Food and water can carry microbes, but they are not the only way; contact and air are also common routes."
+          }
+        ],
+        "ok_title": "Spreading microbes",
+        "ok_line": "Microbes spread through contact and droplets.",
+        "ko_title": "One route only",
+        "ko_line": "Microbes use several ways, not just air or food.",
+        "exp_title": "Transmission of microbes",
+        "exp_text": "Microbes move from one person to another through many paths: by touching contaminated surfaces or skin, by inhaling droplets from coughs and sneezes, or by ingesting spoiled food or water. These routes allow infections to spread through communities."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a colony of bacteria?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A single bacterium",
+            "feedback": "A colony is not one bacterium; it is a group that forms from one original cell dividing many times."
+          },
+          {
+            "label": "A group of different microbes mixed",
+            "feedback": "A colony is typically made of identical bacteria from one parent cell, not a mix of different types."
+          },
+          {
+            "label": "A visible clump of identical bacteria",
+            "feedback": "Correct. After a single bacterium divides repeatedly, it forms a visible colony of identical cells, often on a surface like agar."
+          },
+          {
+            "label": "A virus inside a cell",
+            "feedback": "A colony refers to bacteria growing outside cells, not to viruses, which reproduce inside host cells as a different process."
+          }
+        ],
+        "ok_title": "Bacterial colony",
+        "ok_line": "A colony is many identical bacteria together.",
+        "ko_title": "Not a single cell",
+        "ko_line": "A colony is a group, not one bacterium.",
+        "exp_title": "Colony formation",
+        "exp_text": "When a single bacterium lands on a suitable surface, such as nutrient-rich jelly in a lab, it divides rapidly. Overnight, millions of identical daughter cells pile up, forming a visible spot called a colony, which can be seen without a microscope."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are viruses made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Genetic material and a protein coat",
+            "feedback": "Correct. A virus consists of DNA or RNA surrounded by a protein shell, sometimes with an outer envelope, and no other cellular parts."
+          },
+          {
+            "label": "A cell wall and cytoplasm",
+            "feedback": "Viruses do not have cell walls or cytoplasm; those are features of bacteria and other cells, not viruses."
+          },
+          {
+            "label": "Water and minerals",
+            "feedback": "Water and minerals are not the building blocks of viruses; they are composed of nucleic acid and protein."
+          },
+          {
+            "label": "Lipids and carbohydrates only",
+            "feedback": "While some viruses have a lipid envelope, they are primarily made of protein and genetic material, not just lipids and sugars."
+          }
+        ],
+        "ok_title": "Virus composition",
+        "ok_line": "Viruses have genetic material and a protein coat.",
+        "ko_title": "Not cellular",
+        "ko_line": "Viruses lack cell walls and cytoplasm.",
+        "exp_title": "What a virus is",
+        "exp_text": "A virus is a tiny particle made of a core of genetic material, either DNA or RNA, wrapped in a protective protein coat called a capsid. Some viruses also have an outer lipid envelope, but they do not contain cytoplasm or organelles like true cells."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 187,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a star eventually run out of fuel?",
+        "body": null,
+        "options": [
+          {
+            "label": "It keeps converting hydrogen into helium, and the hydrogen supply is finite",
+            "feedback": "Every fusion in the core uses up a little more of the hydrogen that was there at the start, and nothing replaces it."
+          },
+          {
+            "label": "Its gravity weakens over time",
+            "feedback": "A star's gravity depends on its mass, and fusion changes that mass only very slightly. Gravity is not what fails here."
+          },
+          {
+            "label": "Fusion produces less energy each time it happens",
+            "feedback": "Each individual fusion releases about the same burst of energy as the last. What changes is how much fuel is left to fuse, not the energy per reaction."
+          },
+          {
+            "label": "The core cools down on its own over millions of years",
+            "feedback": "Fusion keeps the core hot for as long as fuel remains; it does not simply cool while fuel is still available to burn."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right cause",
+        "ok_line": "A store of hydrogen only lasts as long as it takes to spend it.",
+        "ko_title": "Not that reason",
+        "ko_line": "Fusion is steadily converting one substance into another. What happens once most of the first substance is gone?",
+        "exp_title": "Spending a store that never refills",
+        "exp_text": "A star is born with a fixed amount of hydrogen in its core, and every fusion reaction converts a little of it into helium instead. Helium cannot fuse the same way at the temperatures the core starts at, so as the hydrogen is used up, the fuel that the core's fusion actually depends on keeps shrinking until too little remains to keep the reaction going at its earlier pace."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens inside a star once the hydrogen in its core has mostly run out?",
+        "body": null,
+        "options": [
+          {
+            "label": "The core shrinks and heats up, while the outer layers swell outward",
+            "feedback": "With less outward push from the fading core, gravity pulls the core in on itself, and the heat this releases pushes the outer gas outward instead."
+          },
+          {
+            "label": "The whole star shrinks evenly",
+            "feedback": "The core and the outer layers actually move in opposite directions at this stage — the core contracts while the outside expands."
+          },
+          {
+            "label": "The star instantly goes dark",
+            "feedback": "The star keeps glowing brightly for a long stretch afterward; going dark for good only comes much later, and by a different route."
+          },
+          {
+            "label": "Fusion simply switches off and never starts again",
+            "feedback": "Fusion can restart on a different fuel once the core is squeezed and heated enough, rather than staying off for good at this stage."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That's the shift",
+        "ok_line": "The core caves in just as the outside puffs up.",
+        "ko_title": "Opposite directions",
+        "ko_line": "The core and the outer gas do not move the same way once the fuel runs low.",
+        "exp_title": "Caving in and puffing up at once",
+        "exp_text": "Once hydrogen fusion in the core weakens, it no longer pushes outward hard enough to balance gravity there, so the core contracts and this contraction heats it further. That extra heat radiates outward and pushes the star's outer layers, which are only loosely held, to expand and cool — swelling the star into a much larger, redder version of itself."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the most massive stars burn through their fuel faster than smaller stars, even though they start with more of it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Their stronger gravity crushes the core harder, driving fusion at a far faster rate",
+            "feedback": "The extra fuel a massive star starts with is nowhere near enough to make up for how much faster that fuel gets used."
+          },
+          {
+            "label": "They are made of a different, faster-burning kind of hydrogen",
+            "feedback": "Hydrogen is hydrogen everywhere; a massive star's core is not built from some other kind of fuel."
+          },
+          {
+            "label": "They have thinner outer layers, letting fuel escape unused",
+            "feedback": "Fuel does not leak out through a star's outer layers. The fuel that matters is the hydrogen fusing in the core."
+          },
+          {
+            "label": "They spend less energy holding their own shape",
+            "feedback": "Every star spends energy resisting its own gravity, and a more massive star's gravity demands more resistance, not less."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "The trade-off",
+        "ok_line": "More fuel to start with, but burned at a far greater rate.",
+        "ko_title": "Weigh the two effects",
+        "ko_line": "A massive star does start with more fuel. The question is what its stronger gravity does to the rate that fuel gets used.",
+        "exp_title": "More fuel, burned much faster",
+        "exp_text": "A more massive star's gravity squeezes its core harder than a lighter star's does, and that extra squeeze drives its core to a much higher temperature and pressure. Fusion runs far faster at those conditions, and that faster rate outpaces the larger fuel supply by so much that a massive star still exhausts its hydrogen sooner than a lighter one does."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does a star like the Sun eventually leave behind at the end of its life?",
+        "body": null,
+        "options": [
+          {
+            "label": "A black hole",
+            "feedback": "Forming a black hole needs a core far more massive than the Sun's ever collapses down to. The Sun's own core is nowhere near heavy enough for that outcome."
+          },
+          {
+            "label": "A dense, no-longer-fusing core called a white dwarf, after shedding its outer layers",
+            "feedback": "Once its outer layers drift away into space, what is left is a small, extremely dense leftover core with no fusion running inside it any more."
+          },
+          {
+            "label": "A neutron star",
+            "feedback": "A neutron star forms from the crushed core of a far more massive star. The Sun's mass never drives its core to that extreme."
+          },
+          {
+            "label": "Nothing at all; it disperses completely",
+            "feedback": "The outer layers do disperse into space, but the compact core they came from does not vanish with them — it stays behind."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's the ending",
+        "ok_line": "A shrunken, spent core left behind after the outer layers drift away.",
+        "ko_title": "Not that ending",
+        "ko_line": "The Sun's mass matters here — some endings need far more of it than the Sun has.",
+        "exp_title": "What is left once the outer layers go",
+        "exp_text": "After a star like the Sun swells and eventually casts its outer layers off into space, what remains is only the compact core underneath, no longer fusing anything, packed into a body roughly the size of a planet. That leftover, called a white dwarf, has nothing left to burn, so it can only glow from its own stored heat and grow dimmer as that heat slowly leaks away."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a white dwarf keep glowing even though it has no fusion left inside it?",
+        "body": null,
+        "options": [
+          {
+            "label": "It slowly radiates away the heat it was already carrying",
+            "feedback": "That stored heat still has to escape somehow, and radiating it outward as light is exactly how it leaves."
+          },
+          {
+            "label": "Leftover fusion still flickers occasionally in patches",
+            "feedback": "Fusion in a white dwarf's core has stopped entirely; nothing patchy is still burning inside it."
+          },
+          {
+            "label": "It is still absorbing light from nearby stars and re-releasing it",
+            "feedback": "A white dwarf's glow does not depend on light arriving from elsewhere; it is giving off warmth it already carries from before."
+          },
+          {
+            "label": "Friction from its own spinning keeps generating heat",
+            "feedback": "Spinning on its own does not generate meaningful heat. The heat a white dwarf glows with was already there before it stopped fusing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right idea",
+        "ok_line": "A glow with nothing left feeding it, slowly running down.",
+        "ko_title": "No new source",
+        "ko_line": "Nothing is generating fresh energy here any more. Ask where the glow it does have came from in the first place.",
+        "exp_title": "Coasting on stored heat",
+        "exp_text": "A white dwarf is the extremely hot, compact core a star leaves behind, and that heat does not vanish the moment fusion stops. With nothing left inside it to generate more, the white dwarf simply radiates that stored heat away as light over an immense stretch of time, growing fainter and cooler the longer it goes on."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens at the end of a much more massive star's life that never happens to a star like the Sun?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its outer layers drift away peacefully",
+            "feedback": "That gentle drifting away is closer to how a Sun-like star ends. A far more massive star's ending is anything but gentle."
+          },
+          {
+            "label": "Its core suddenly collapses and the star tears itself apart in a supernova",
+            "feedback": "Once fusion can no longer support the core, it collapses in an instant, and the shockwave from that collapse blasts the rest of the star outward violently."
+          },
+          {
+            "label": "It quietly cools into a white dwarf like any other star",
+            "feedback": "A star this massive never settles into a calm white dwarf; its core is too heavy for that ending to hold."
+          },
+          {
+            "label": "It slowly shrinks over billions of years with no sudden event",
+            "feedback": "The ending here is sudden rather than gradual — the collapse of the core happens in a matter of moments, not over ages."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's the violent ending",
+        "ok_line": "A sudden collapse, followed by an explosion that tears the rest of the star apart.",
+        "ko_title": "Too gentle",
+        "ko_line": "A star this massive does not fade out quietly. Something sudden and violent happens to its core.",
+        "exp_title": "A collapse that becomes an explosion",
+        "exp_text": "Once a very massive star's core runs out of fuel it can no longer fuse, nothing is left to hold up against its own crushing weight, and the core collapses in on itself in an instant. That sudden collapse sends a shockwave slamming into the layers still falling inward from above, and the collision blasts the rest of the star outward in a supernova."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What can be left behind after a very massive star explodes as a supernova?",
+        "body": null,
+        "options": [
+          {
+            "label": "A neutron star or, for the heaviest cores, a black hole",
+            "feedback": "How much the collapsing core weighed decides which of the two extreme objects it becomes."
+          },
+          {
+            "label": "A fresh cloud of hydrogen and nothing else",
+            "feedback": "A cloud of scattered gas is indeed thrown outward by the explosion, but the crushed core itself remains behind as something far denser."
+          },
+          {
+            "label": "A white dwarf, the same as a smaller star leaves",
+            "feedback": "A white dwarf is held up by a balance that a core this massive completely overwhelms; the core here collapses far past that point."
+          },
+          {
+            "label": "Nothing; the whole star is destroyed without a trace",
+            "feedback": "The explosion blasts the outer layers away, but the very centre of the star, its collapsed core, survives the blast as a compact leftover."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right leftovers",
+        "ok_line": "Two possible remnants, and the collapsing core's own weight decides between them.",
+        "ko_title": "Something does remain",
+        "ko_line": "The explosion blows the outer layers away, but the very centre of the star behaves quite differently from the rest.",
+        "exp_title": "Two possible remnants",
+        "exp_text": "While a supernova hurls most of a massive star's material outward, the core at its centre collapses instead of exploding away, crushed down by its own weight. If that leftover core is not too heavy, the crushing stops at an extremely dense ball called a neutron star; if it is heavier still, the collapse never stops at all and the core becomes a black hole."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a neutron star?",
+        "body": null,
+        "options": [
+          {
+            "label": "A star made only of hydrogen with no fusion",
+            "feedback": "A neutron star is not made of ordinary hydrogen at all; the crushing it has been through leaves nothing resembling intact atoms."
+          },
+          {
+            "label": "A collapsed core crushed so hard that its protons and electrons are forced together into neutrons",
+            "feedback": "That immense crushing merges particles that normally repel or stay separate, packing the whole core into almost pure neutrons."
+          },
+          {
+            "label": "A young star that has not yet started fusing",
+            "feedback": "A neutron star is the opposite of young — it is the leftover core of a star that has already lived out its whole life and exploded."
+          },
+          {
+            "label": "A cloud of gas left behind after an explosion",
+            "feedback": "The expanding cloud from an explosion is a separate, much less dense remnant. A neutron star is the tiny, incredibly dense core left at the centre."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly that",
+        "ok_line": "Crushed until protons and electrons stop being separate particles.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about how extreme a collapsing massive core's crushing actually gets, and what it would do to the particles inside its atoms.",
+        "exp_title": "Crushed past ordinary matter",
+        "exp_text": "When a massive star's core collapses, the crushing becomes so extreme that it overwhelms the normal structure of atoms entirely. Protons and electrons are forced together and merge into neutrons, packing what used to be a whole star's core into a ball made almost purely of those neutrons, pressed against one another with nothing left in between."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where do heavy elements, like the iron in blood or the calcium in bone, ultimately come from?",
+        "body": null,
+        "options": [
+          {
+            "label": "They were fused inside stars and scattered into space when those stars died",
+            "feedback": "Fusion inside a star's core builds heavier elements step by step, and a dying star's explosion is what scatters those elements outward to eventually become part of new material."
+          },
+          {
+            "label": "They were present in space from the very start, unchanged",
+            "feedback": "The earliest matter in the universe was overwhelmingly the simplest elements. Heavier elements had to be built afterward, not present from the outset."
+          },
+          {
+            "label": "They form only inside planets, from pressure alone",
+            "feedback": "A planet's own pressure and heat fall far short of what fusing heavier elements actually requires; that process needs a star's core."
+          },
+          {
+            "label": "They are created continuously here on Earth",
+            "feedback": "Building a heavier element by fusion needs conditions far more extreme than anything occurring on Earth today."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right origin",
+        "ok_line": "Built inside a star's core, then scattered by its death.",
+        "ko_title": "Trace it further back",
+        "ko_line": "Building a heavier element out of a lighter one takes the same extreme conditions found in only one kind of place.",
+        "exp_title": "Forged in a furnace, scattered by its end",
+        "exp_text": "As a star ages, fusion in its core can build progressively heavier elements out of lighter ones, layer by layer. When that star finally dies, especially in the violence of a supernova, those elements are flung outward into space rather than staying locked inside a leftover core, where they can later become part of new stars, new planets, and everything built on them."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't a small star, far less massive than the Sun, ever end its life in a supernova?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its core never reaches the crushing weight needed to collapse that violently",
+            "feedback": "A supernova's collapse and explosion depend on a core heavy enough to overwhelm the pressure holding it up. A small star's core simply never gets there."
+          },
+          {
+            "label": "It runs out of fuel too quickly to explode",
+            "feedback": "A small star actually burns through its fuel far more slowly than a massive one, not faster; running out quickly is not its problem."
+          },
+          {
+            "label": "It has too much hydrogen left over to explode",
+            "feedback": "Leftover fuel is not what prevents a supernova. What prevents it is the core never becoming heavy enough to collapse that way."
+          },
+          {
+            "label": "Its gravity is too strong for an explosion to escape",
+            "feedback": "A small star's gravity is comparatively weak, not overpoweringly strong; that is exactly why its ending stays calm rather than explosive."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right limit",
+        "ok_line": "A supernova needs a core heavy enough to collapse that violently, and a small star's core never gets there.",
+        "ko_title": "Think about the core's weight",
+        "ko_line": "A supernova happens because of how crushingly heavy a dying core is. Does a small star's core ever reach that?",
+        "exp_title": "Never heavy enough to collapse that far",
+        "exp_text": "A supernova happens when a dying core becomes so massive that no pressure can hold it up any longer, and it collapses all at once. A small star simply never builds a core anywhere near that heavy, so when its fusion finally fades, the core settles gently into a white dwarf instead of caving in and exploding."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 246,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a sleep schedule where an animal is most active during twilight?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Nocturnal",
+            "feedback": "A nocturnal animal is active during the night, not during twilight."
+          },
+          {
+            "label": "Diurnal",
+            "feedback": "A diurnal animal is active during the day, not during twilight."
+          },
+          {
+            "label": "Crepuscular",
+            "feedback": "Crepuscular animals are active during twilight, which is the time around dawn and dusk."
+          },
+          {
+            "label": "Unihemispheric",
+            "feedback": "Unihemispheric refers to sleeping with only one half of the brain at a time, not a schedule of waking activity."
+          }
+        ],
+        "ok_title": "Twilight activity",
+        "ok_line": "That is the crepuscular schedule.",
+        "ko_title": "Not that schedule",
+        "ko_line": "Check which part of the day that animal is awake.",
+        "exp_title": "Crepuscular schedule",
+        "exp_text": "The three categories of biological sleep schedules are diurnal, nocturnal, and crepuscular. Diurnal species are awake mostly during the day, nocturnal species during the night, and crepuscular species during twilight."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two simple animals show sleep-like states even though they do not have a brain?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cassiopea jellyfish and hydra",
+            "feedback": "Yes, both the Cassiopea jellyfish and the hydra are cnidarians that show sleep-like states without a brain."
+          },
+          {
+            "label": "Nematode and fruit fly",
+            "feedback": "These do sleep, but they do have a brain or nervous system, so they are not the brainless examples."
+          },
+          {
+            "label": "Sponge and jellyfish",
+            "feedback": "Sponges do not show sleep-like states; the observation is about jellyfish and hydra."
+          },
+          {
+            "label": "Octopus and cuttlefish",
+            "feedback": "These have complex brains, so they are not the brainless examples of sleep-like states."
+          }
+        ],
+        "ok_title": "Brainless sleepers",
+        "ok_line": "Those two show sleep without a brain.",
+        "ko_title": "Not those animals",
+        "ko_line": "Look for the ones without a central nervous system.",
+        "exp_title": "Sleep without a brain",
+        "exp_text": "Observing sleep-like states in the jellyfish Cassiopea and the hydra shows that sleep does not require a brain or central nervous system. These are among the most primitive organisms in which such states have been seen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the phase that occurs before each moult in the nematode C. elegans?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "REM sleep",
+            "feedback": "REM sleep is a phase with rapid eye movements described in vertebrates, not a phase before moulting in nematodes."
+          },
+          {
+            "label": "Lethargus",
+            "feedback": "The lethargus phase occurs in short periods before each moult in C. elegans, suggesting sleep is connected to development."
+          },
+          {
+            "label": "Hibernation",
+            "feedback": "Hibernation is a long-term state of reduced activity in some animals, not a brief pre-moult phase in nematodes."
+          },
+          {
+            "label": "Circadian rhythm",
+            "feedback": "Circadian rhythm is the daily cycle of activity, not a specific phase before moulting."
+          }
+        ],
+        "ok_title": "Pre-moult phase",
+        "ok_line": "That is the lethargus phase.",
+        "ko_title": "Not that phase",
+        "ko_line": "This phase is short and tied to moulting.",
+        "exp_title": "Lethargus phase",
+        "exp_text": "In the nematode C. elegans, a lethargus phase occurs in short periods before each moult. This suggests that sleep may be primitively connected to developmental processes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the antennae of a cockroach when it enters its rest period after being kept awake longer than usual?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They stand straight up",
+            "feedback": "That is not what happens; the rest period has the antennae folded down."
+          },
+          {
+            "label": "They twitch rapidly",
+            "feedback": "Rapid twitching is not described; the antennae are folded down instead."
+          },
+          {
+            "label": "They stay completely still",
+            "feedback": "They are not just still, they are specifically folded down during the rest period."
+          },
+          {
+            "label": "They fold down",
+            "feedback": "During the rest period, the cockroach's antennae are folded down and it is less sensitive to external stimuli."
+          }
+        ],
+        "ok_title": "Folded antennae",
+        "ok_line": "That is the rest position.",
+        "ko_title": "Wrong antenna position",
+        "ko_line": "Think about what posture the rest period brings.",
+        "exp_title": "Cockroach rest posture",
+        "exp_text": "When a cockroach is kept awake longer than usual, its coming rest period is prolonged. That rest period is characterized by the antennae being folded down and by a decreased sensitivity to external stimuli."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which fish are suspected never to sleep because they must keep swimming to move water over their gills?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Zebrafish and tilapia",
+            "feedback": "These fish become motionless and unresponsive at night, so they do sleep."
+          },
+          {
+            "label": "Spanish hogfish and blue-headed wrasse",
+            "feedback": "These fish can even be lifted by hand without responding, so they clearly sleep."
+          },
+          {
+            "label": "Great white sharks and hammerheads",
+            "feedback": "These sharks must remain in motion to keep oxygenated water flowing over their gills, so they are suspected never to sleep."
+          },
+          {
+            "label": "Swell shark and tench",
+            "feedback": "These fish become motionless and unresponsive, so they do sleep."
+          }
+        ],
+        "ok_title": "Always-swimming sharks",
+        "ok_line": "Those must keep moving for oxygen.",
+        "ko_title": "Those do sleep",
+        "ko_line": "Only the ones that must keep moving are suspected not to sleep.",
+        "exp_title": "Ram ventilation",
+        "exp_text": "Some sharks, such as great whites and hammerheads, must remain in motion at all times to move oxygenated water over their gills. Because of this need, they are suspected never to sleep, though they might sleep one brain hemisphere at a time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a bee use sleep for?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To shed its outer shell",
+            "feedback": "Shedding is related to moulting, not to what a bee uses sleep for."
+          },
+          {
+            "label": "To store long-term memories",
+            "feedback": "In honeybees, sleep is used to store long-term memories."
+          },
+          {
+            "label": "To keep its body warm",
+            "feedback": "Keeping warm is not what bee sleep is for; it is for memory storage."
+          },
+          {
+            "label": "To grow new antennae",
+            "feedback": "Growing new antennae is not a function of bee sleep."
+          }
+        ],
+        "ok_title": "Memory storage",
+        "ok_line": "Bees use sleep to store memories.",
+        "ko_title": "Not its purpose",
+        "ko_line": "Think about what sleep does for the bee's mind.",
+        "exp_title": "Bee sleep function",
+        "exp_text": "Honeybees have some of the most complex sleep states among insects. It has been shown that they use sleep to store long-term memories."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two animals show signs of REM-sleep-like behavior, such as regular retinal movements or color-flashes during sleep?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Jumping spider and octopus",
+            "feedback": "Yes, jumping spiders show retinal movements suggesting REM sleep, and octopuses show color-flashes during their active sleep stage."
+          },
+          {
+            "label": "Cockroach and crayfish",
+            "feedback": "These show rest with folded antennae or passivity, but no REM-like signs are mentioned for them."
+          },
+          {
+            "label": "Cuttlefish and honeybee",
+            "feedback": "Cuttlefish do show REM-sleep behaviors, but honeybees are not mentioned with such signs."
+          },
+          {
+            "label": "Hydra and jellyfish",
+            "feedback": "These simple animals show sleep-like states, but no REM-like signs are described for them."
+          }
+        ],
+        "ok_title": "REM-like signs",
+        "ok_line": "Those show REM-like sleep behaviors.",
+        "ko_title": "No REM signs there",
+        "ko_line": "Look for animals with eye or color movements during sleep.",
+        "exp_title": "REM-like sleep in invertebrates",
+        "exp_text": "Sleep-like states with regularly occurring bouts of retinal movements have been described in jumping spiders, suggesting an REM-sleep-like state. Sleeping cuttlefish and octopuses also show signs of REM-sleep behaviors, and the octopus displays color-flashes during its active sleep stage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two stages of sleep suggested for an octopus?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Light and deep",
+            "feedback": "Those are not the names given; the stages are quiet and active."
+          },
+          {
+            "label": "Day and night",
+            "feedback": "Those refer to times of day, not sleep stages."
+          },
+          {
+            "label": "REM and non-REM",
+            "feedback": "These are the general categories, but the octopus stages are specifically called quiet and active."
+          },
+          {
+            "label": "Quiet and active",
+            "feedback": "The octopus has a 'quiet sleep' stage that lasts about 60 minutes, followed by an 'active sleep' stage that lasts about 1 minute."
+          }
+        ],
+        "ok_title": "Two octopus stages",
+        "ok_line": "Quiet and active are the stages.",
+        "ko_title": "Wrong stage names",
+        "ko_line": "Recall the two named stages described for the octopus.",
+        "exp_title": "Octopus sleep stages",
+        "exp_text": "The octopus is suggested to have a two-staged sleep, similar to REM and NREM stages in vertebrates. The 'quiet sleep' stage involves eyes closing and a flat body posture, lasting about 60 minutes. The 'active sleep' stage lasts about 1 minute and has more eye and body movements."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does sleep homeostasis mean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sleep happens at the same time every day",
+            "feedback": "That is about a daily rhythm, not about the body making up for lost sleep."
+          },
+          {
+            "label": "Sleep is the same in all animals",
+            "feedback": "Sleep patterns vary widely, so that is not what homeostasis means."
+          },
+          {
+            "label": "The longer you stay awake, the more intense and long the following sleep will be",
+            "feedback": "Sleep homeostasis is exactly this: the longer the waking state, the greater the intensity and duration of the subsequent sleep."
+          },
+          {
+            "label": "Sleep only happens when the body is cold",
+            "feedback": "That is not related; homeostasis is about the need to make up for lost sleep."
+          }
+        ],
+        "ok_title": "Sleep catch-up rule",
+        "ok_line": "That is the definition of sleep homeostasis.",
+        "ko_title": "Not homeostasis",
+        "ko_line": "Think about what happens after a long waking period.",
+        "exp_title": "Sleep homeostasis",
+        "exp_text": "Sleep homeostasis is the compensatory increase in sleep that follows deprivation. The longer a waking state lasts, the greater the intensity and duration of the sleep state thereafter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to rats that do not get any sleep?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They die within a few weeks",
+            "feedback": "Yes, rats that get no sleep die in a few weeks, even with enough food, because their appetite decreases and they lose weight."
+          },
+          {
+            "label": "They sleep twice as long the next day",
+            "feedback": "That would be a normal recovery, but the actual outcome for rats with no sleep is death."
+          },
+          {
+            "label": "They become more active",
+            "feedback": "Lack of sleep does not make them more active; it eventually kills them."
+          },
+          {
+            "label": "They hibernate",
+            "feedback": "They do not hibernate; they die from the lack of sleep."
+          }
+        ],
+        "ok_title": "No sleep, no life",
+        "ok_line": "Rats die without sleep.",
+        "ko_title": "Not that outcome",
+        "ko_line": "Remember how serious sleep deprivation is for rats.",
+        "exp_title": "Sleep necessity in rats",
+        "exp_text": "Findings show that if rats do not get any sleep, they die within a few weeks. Despite having enough food, their appetite decreases, leading to weight loss and eventually death."
+      }
+    ]
+  }
+]

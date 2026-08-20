@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 189,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What determines the colour of a star?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its surface temperature",
+            "feedback": "A cooler surface glows reddish, a middling one glows yellowish-white, and a hotter one glows bluish-white, the same way a heated piece of metal changes colour as it gets hotter."
+          },
+          {
+            "label": "Its distance from Earth",
+            "feedback": "Distance can dim a star or make it fainter, but it does not shift what colour that light actually is."
+          },
+          {
+            "label": "Which gases are painted onto its surface",
+            "feedback": "A star has no painted surface layer; its light comes from how hot the glowing gas throughout it is, not from any coating."
+          },
+          {
+            "label": "How fast the star is spinning",
+            "feedback": "Spin can flatten a star's shape slightly, but it does not decide the colour of the light it gives off."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right cause",
+        "ok_line": "Temperature is doing the coloring, the same way it does in any hot glowing object.",
+        "ko_title": "Not that factor",
+        "ko_line": "Think of how a piece of metal changes colour as it is heated further and further.",
+        "exp_title": "Colour as a thermometer",
+        "exp_text": "Any object hot enough to glow gives off light whose colour shifts with its temperature: cooler glowing objects are reddish, hotter ones shift toward white and then blue. A star's surface follows exactly the same rule, so its colour is really a direct readout of how hot that surface is, running from cool and reddish through to blisteringly hot and blue-white."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are there no truly green stars, even though green sits right between blue and red on the range of visible colours?",
+        "body": null,
+        "options": [
+          {
+            "label": "A star gives off a whole spread of colours at once, and the mixture never lands on pure green to the eye",
+            "feedback": "Whatever colour is strongest, the eye is still receiving plenty of the other colours alongside it, and that blend tends to look white rather than a single pure colour."
+          },
+          {
+            "label": "Green light cannot travel through space",
+            "feedback": "Green light travels through space exactly as freely as any other colour of visible light; nothing about the journey filters it out."
+          },
+          {
+            "label": "No star has ever reached the exact temperature for green",
+            "feedback": "There is a temperature at which green would be the strongest single colour in a star's spread, but that is not why green stars don't appear — it's what happens to the rest of the spread at the same time."
+          },
+          {
+            "label": "Green stars exist but are too faint to see",
+            "feedback": "Faintness is not the obstacle here; even a very bright star at the relevant temperature still would not look green, for a reason that has nothing to do with brightness."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That's the reason",
+        "ok_line": "A star's light is always a blend, and that particular blend never comes out pure green.",
+        "ko_title": "Think about the whole spread",
+        "ko_line": "A star never gives off just one colour. Consider what mixing many colours together tends to look like.",
+        "exp_title": "A blend that skips over green",
+        "exp_text": "A glowing star does not give off a single colour but a whole spread of them at once, strongest at whichever colour matches its temperature and tapering off toward both ends. At the particular temperature where that spread peaks in the middle of the visible range, it still leaves plenty of red and blue light mixed in alongside it, and blending red and blue back in with green produces something closer to white rather than a pure green tint."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the same rule that colours a star also colour a heated piece of metal as it gets hotter?",
+        "body": null,
+        "options": [
+          {
+            "label": "Any object hot enough to glow follows the same relationship between heat and colour, whatever it is made of",
+            "feedback": "A star and a piece of heated metal are extremely different objects, but the glow both give off follows the same underlying rule linking temperature to colour."
+          },
+          {
+            "label": "Stars and metal share the same chemical elements",
+            "feedback": "A star is overwhelmingly hydrogen and helium, while metal is something else entirely; sharing elements is not what links their colours."
+          },
+          {
+            "label": "Metal only glows because starlight is shining on it",
+            "feedback": "Heated metal glows from its own heat, producing its own light, the same way a star does — it is not simply reflecting light from elsewhere."
+          },
+          {
+            "label": "It is only a coincidence with no shared explanation",
+            "feedback": "The match is not a coincidence; both follow the very same physical relationship between how hot a glowing object is and what colour it gives off."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right link",
+        "ok_line": "One rule for glowing hot things, whether the object is a star or a bar of metal.",
+        "ko_title": "Not chemistry",
+        "ko_line": "What links these two very different objects is not what they're made of, but simply how hot each one is glowing.",
+        "exp_title": "One rule for anything hot enough to glow",
+        "exp_text": "Heat a piece of metal further and further and it moves from a dull reddish glow toward a brighter yellow-white as its temperature climbs. That shift happens because any sufficiently hot object gives off light whose colour depends on its temperature, regardless of what the object is made of, and a star's glowing surface obeys that exact same relationship, just at temperatures far beyond anything reached on a forge."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a star's colour appear to flicker between red, blue, and other tints when it is low near the horizon, more than when it is high overhead?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its light passes through much more turbulent air near the horizon, which splits and scatters the colours unevenly",
+            "feedback": "Near the horizon, starlight cuts through a far thicker, more turbulent layer of atmosphere, and that extra air bends the different colours by slightly different amounts, splitting them apart moment to moment."
+          },
+          {
+            "label": "The star itself changes colour depending on the time of night",
+            "feedback": "A star's own true colour, set by its surface temperature, does not shift with the time of night; what changes here is happening in Earth's atmosphere, not at the star."
+          },
+          {
+            "label": "Stars near the horizon are cooler than stars overhead",
+            "feedback": "A star's height in the sky at a given moment has nothing to do with its temperature; the same star keeps the same temperature whether it is rising or high overhead."
+          },
+          {
+            "label": "Clouds near the horizon are reflecting nearby coloured lights",
+            "feedback": "This flickering happens even under a perfectly clear sky with no clouds involved; the cause lies in the air itself bending the starlight."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right mechanism",
+        "ok_line": "More air to cut through near the horizon means more splitting of the colours on the way in.",
+        "ko_title": "Look to the air, not the star",
+        "ko_line": "The star's own colour is not what's changing here. Think about how much atmosphere its light has to cross depending on how high it sits.",
+        "exp_title": "Starlight torn apart by turbulent air",
+        "exp_text": "Starlight low on the horizon has to travel through a much thicker slice of atmosphere than light coming from overhead, and that air bends each colour by a slightly different amount, the same way a prism spreads white light apart. Turbulence in that thick layer keeps shifting from moment to moment, so the different colours arrive unevenly and the star appears to flicker between them, an effect that fades once the star climbs higher and its light has far less air left to cross."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why might two stars that look the same colour still differ enormously in how much light they truly give off?",
+        "body": null,
+        "options": [
+          {
+            "label": "Colour depends only on surface temperature, while total light output also depends on how large the star is",
+            "feedback": "A small star and a much larger star can share the exact same surface temperature, and so the same colour, while the larger one still pours out far more total light simply because it has far more glowing surface."
+          },
+          {
+            "label": "Colour and light output are actually the same thing measured differently",
+            "feedback": "They describe two separate properties of a star — one is about the mix of wavelengths it gives off, the other is about the total amount of light — and they do not move together automatically."
+          },
+          {
+            "label": "One of the two stars must be lying about its true colour",
+            "feedback": "A star's colour is simply what its surface temperature produces; there is nothing deceptive happening, and two different stars can genuinely share it."
+          },
+          {
+            "label": "Distance changes a star's true output, not just how bright it looks",
+            "feedback": "Distance changes how much of a star's light reaches Earth, which affects how bright it looks from here, but it does not change how much light the star is truly producing at its surface."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right distinction",
+        "ok_line": "Same temperature, same colour — but only size decides how much of that light there is to give off.",
+        "ko_title": "Two separate properties",
+        "ko_line": "Colour and total light output are answering two different questions about a star, not the same one twice.",
+        "exp_title": "Colour is about temperature, not amount",
+        "exp_text": "A star's colour is set purely by how hot its surface is, so a small star and a much larger star at the very same surface temperature will glow with the very same colour. Total light output, though, depends on how much glowing surface there is to give that light off, so the larger of the two, despite matching colours, can radiate a vastly greater total amount of light simply by having far more surface doing the glowing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a star's colour tend to shift as it grows old and swells into a much larger star?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its outer layers expand and cool, lowering the surface temperature and shifting the colour toward red",
+            "feedback": "As the star's outer gas spreads out over a far larger surface, that surface ends up cooler than before, and cooler surfaces glow more reddish."
+          },
+          {
+            "label": "The core stops producing any energy at that stage",
+            "feedback": "The core is still generating a great deal of energy during this stage, often even more than before; it is the surface temperature, driven by the star's changed size, that shifts the colour."
+          },
+          {
+            "label": "Ageing dust settles on the star's surface",
+            "feedback": "No dust coating settles onto a star's surface; the colour change comes from how hot the star's own glowing gas is, not from anything landing on it."
+          },
+          {
+            "label": "The star's spin slows down as it ages",
+            "feedback": "A change in spin does not shift a star's colour; what actually shifts the colour here is the surface temperature changing as the star's size changes."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right mechanism",
+        "ok_line": "A bigger surface spreads the same heat thinner, and a cooler surface glows redder.",
+        "ko_title": "Think about the surface, not the core",
+        "ko_line": "The star's colour comes from its surface temperature specifically. What happens to that surface as the star swells?",
+        "exp_title": "Cooling by spreading out",
+        "exp_text": "Late in a star's life its outer layers can swell enormously, spreading roughly the same amount of energy over a far larger surface area. Spread that thin, the surface temperature drops even while the star as a whole may be radiating more total energy than before, and that cooler surface glows with a redder colour than the star showed earlier in its life."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do most ordinary stars look plain white or silvery to the naked eye at night, even though they technically have their own distinct colour?",
+        "body": null,
+        "options": [
+          {
+            "label": "In dim light the eye relies on colour-blind night vision, which struggles to register faint tints",
+            "feedback": "The parts of the eye that pick up colour need more light than the parts used for dim conditions, so a faint star's true tint often slips past unnoticed even though a camera would record it clearly."
+          },
+          {
+            "label": "Ordinary stars genuinely have no colour of their own",
+            "feedback": "Every star has a true colour set by its surface temperature; the issue here is with what the eye can register in dim light, not with the star itself lacking one."
+          },
+          {
+            "label": "Starlight turns white after travelling such a long distance",
+            "feedback": "Travelling through empty space does not change a star's colour at all; the light arrives essentially as it left."
+          },
+          {
+            "label": "Only the brightest stars in the sky actually have colour",
+            "feedback": "Brightness is exactly the missing piece for the fainter stars, since dim light is what limits the eye's colour vision, but it is not that faint stars lack colour altogether."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right explanation",
+        "ok_line": "The colour is really there — the eye in dim light is just the wrong tool to catch it.",
+        "ko_title": "Blame the eye, not the star",
+        "ko_line": "Every star does have a genuine colour. What might limit what the eye can actually pick up on a dark night?",
+        "exp_title": "Colour vision that needs more light than starlight gives",
+        "exp_text": "The eye uses one set of receptors for colour, which need a fair amount of light to work well, and a separate set for dim conditions, which register brightness but barely distinguish colour at all. Most stars are faint enough that mainly this dim-light vision is doing the seeing, so their true colour, whatever it is, tends to wash out into a plain whitish or silvery impression even though it would show clearly through a longer camera exposure."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does even the coolest class of star still glow reddish rather than simply appearing dark, given how much cooler it is than other stars?",
+        "body": null,
+        "options": [
+          {
+            "label": "Even the coolest stars are still thousands of degrees hot, far above the threshold needed to glow visibly",
+            "feedback": "\"Cool\" here is only relative to other stars; that surface is still glowing hot by any everyday standard, easily hot enough to radiate plenty of visible light."
+          },
+          {
+            "label": "It reflects light from brighter neighbouring stars",
+            "feedback": "A star's glow comes from its own fusion-powered heat, not from bouncing back light received from other stars nearby."
+          },
+          {
+            "label": "It glows only because of leftover light from its birth",
+            "feedback": "Any leftover light from formation would have faded away long before now; a star keeps glowing because fusion keeps supplying fresh energy, not because of a one-time leftover."
+          },
+          {
+            "label": "Its red colour is a trick of the atmosphere it sits inside",
+            "feedback": "A star's colour is set by its own surface temperature before its light ever reaches any atmosphere; nothing about the star's own environment is inventing that colour."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right point",
+        "ok_line": "\"Cool\" for a star is still blazing hot by any ordinary measure.",
+        "ko_title": "Relative, not literal",
+        "ko_line": "\"Coolest\" here only means coolest compared with other stars. How hot is that surface in absolute terms?",
+        "exp_title": "Cool for a star is still fiercely hot",
+        "exp_text": "Calling a star the coolest of its kind only means its surface temperature is the lowest among stars, and that temperature is still thousands of degrees, vastly hotter than anything glowing red-hot on Earth. Fusion in its core keeps supplying that heat continuously, and a surface at thousands of degrees comfortably clears the threshold needed to radiate plenty of visible light, so the star still glows, just with a redder tint than its hotter relatives."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can two stars born together as a close pair still show clearly different colours from each other?",
+        "body": null,
+        "options": [
+          {
+            "label": "If they formed with different masses, gravity drives each to a different core pressure and surface temperature",
+            "feedback": "Even born from the very same cloud at the very same time, the more massive of the pair ends up hotter and bluer, while its lighter companion settles at a cooler, redder temperature."
+          },
+          {
+            "label": "One of the pair must be much older than the other",
+            "feedback": "A close pair of stars typically forms together at essentially the same time; a difference in age is not what is producing the colour difference here."
+          },
+          {
+            "label": "Being close together, they exchange heat and settle into two colours by chance",
+            "feedback": "Stars in a pair are still separated by an enormous distance on any human scale, far too vast for anything like heat exchange between them to matter, and each one's colour is set by its own conditions."
+          },
+          {
+            "label": "Only one of the pair is actually fusing hydrogen",
+            "feedback": "Both stars in a genuine pair are ordinarily fusing hydrogen in their own cores; what differs between them is the temperature that fusion settles at, driven by each one's own mass."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right cause",
+        "ok_line": "Same birth, same cloud — but different masses still land on different temperatures, and different colours.",
+        "ko_title": "Think about mass",
+        "ko_line": "Being born together does not mean being born with the same mass. What does a difference in mass do to a star's core?",
+        "exp_title": "One birth, two different masses",
+        "exp_text": "Two stars can condense out of the very same collapsing cloud at essentially the same time and still end up with noticeably different masses. A more massive star's stronger gravity drives its core to a higher pressure and temperature, which shows up at the surface as a hotter, bluer glow, while its less massive companion, built from the very same cloud, settles at a cooler surface temperature and glows with a redder tint."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the hottest class of star glow blue-white rather than a single pure colour like violet, its shortest visible wavelength?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its spread of light still includes plenty of every visible colour blended together, not violet alone",
+            "feedback": "Shifting the peak of the spread toward the blue end still leaves a wide range of other colours mixed in, and that full blend reads to the eye as blue-white rather than as a single pure tint."
+          },
+          {
+            "label": "It only ever gives off blue and white light, no other colours at all",
+            "feedback": "A star at any temperature still radiates across essentially the whole range of visible colours at once; it never emits only two colours and nothing else."
+          },
+          {
+            "label": "Human eyes cannot perceive violet from a star",
+            "feedback": "The eye can perceive violet perfectly well from other sources; the reason a hot star doesn't look purely violet lies in what the star's light actually consists of, not in a limit of human eyesight."
+          },
+          {
+            "label": "Violet light is absorbed by the star's own outer atmosphere before it escapes",
+            "feedback": "A hot star's outer layers do not selectively swallow violet light on the way out; the blended appearance comes from the whole spread of colours the star gives off together, not from one colour being filtered away."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right reasoning",
+        "ok_line": "Even at the hottest end, it's still a broad blend rather than one pure tint.",
+        "ko_title": "Think about the whole spread again",
+        "ko_line": "A star never gives off just one colour, however hot it gets. What does blending its whole spread of colours actually look like?",
+        "exp_title": "Even the hottest glow is still a blend",
+        "exp_text": "A hotter star's spread of light shifts further toward the blue end, but it still includes a wide range of other colours at the same time, not violet on its own. Blending that whole spread together, with blue strongest but plenty of the rest still present, produces the blue-white glow these stars actually show rather than the single pure violet a much narrower beam of light might produce."
+      }
+    ]
+  }
+]

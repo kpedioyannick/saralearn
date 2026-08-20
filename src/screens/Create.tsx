@@ -1,47 +1,101 @@
-import { useState } from 'react'
 import { Icon } from '../components/Icon'
-import { Checkbox } from '../components/ui'
-import { EXERCISE_TYPES } from '../data/content'
+import { Meter } from '../components/ui'
 import { useStore } from '../state/store'
 
 /**
- * Création de thème : dépôt du Markdown → classement → types et volume
- * → rédaction → validation. Chaque proposition reste corrigeable, et
- * rien n'entre au feed sans avoir été relu.
+ * Création d'une connaissance, en cinq temps :
+ *
+ *   sujet → présentation → chapitres → rédaction → validation
+ *
+ * L'auteur n'écrit qu'une phrase. Le modèle en tire un titre, une
+ * description, une catégorie et un programme, puis prépare la façon dont
+ * chaque chapitre sera interrogé. Tout est écrit en base au fur et à
+ * mesure, en brouillon : une création interrompue se reprend, et rien
+ * n'entre au feed sans avoir été relu.
  */
 export function Create() {
-  const { s, go, goCreate, t } = useStore()
-  const back = () => (s.createStep > 1 ? goCreate(s.createStep - 1) : go('picker'))
+  const { s, t, user } = useStore()
+
+  // CONDAMNÉE. Le pipeline de création parle le schéma d'avant la
+  // reconstruction du catalogue — `category`, `theme.owner_id`,
+  // `chapter.generated_prompt` ont disparu, et ses sept routes rendent
+  // 500. Plutôt que de laisser l'auteur écrire un sujet pour se faire
+  // renvoyer « Internal Server Error », l'écran le dit d'entrée.
+  if (!user?.is_admin) return <ReserveeAdmin />
 
   return (
     <div className="screen">
-      <div className="nav-head" style={{ paddingBottom: 10 }}>
-        <button className="icon-btn" onClick={back} aria-label={t.back}>
-          <Icon name="chevronLeft" size={22} stroke={1.9} />
-        </button>
+      {/* Pas de flèche de retour ici : on sort par le rail ou la barre,
+          que cet écran garde. */}
+      <div className="nav-head create-head" style={{ paddingBottom: 10 }}>
         <span className="nav-title" style={{ flex: 1 }}>
-          {t.newTheme}
+          {t.newLearning}
         </span>
-        <span style={{ display: 'flex', gap: 5 }}>
-          {[1, 2, 3, 4].map((n) => (
-            <span
-              key={n}
-              style={{
-                width: 22,
-                height: 4,
-                borderRadius: 999,
-                background: n <= s.createStep ? 'var(--sc-primary)' : 'var(--sc-line)',
-              }}
-            />
-          ))}
-        </span>
+        {/* La planche compte les étapes en clair plutôt qu'en traits :
+            « 2 / 5 » dit aussi où l'on est, pas seulement ce qui reste. */}
+        <span className="create-count">{s.createStep} / 3</span>
       </div>
 
+      {/* L'attente de l'appel 1 prend tout l'écran : il n'y a rien à
+          montrer tant que la présentation n'existe pas. Celle de l'appel
+          2, en revanche, se peuple chapitre par chapitre — elle vit donc
+          dans l'étape 3 plutôt qu'à sa place. */}
+      {s.thinking && s.createStep === 1 ? <Thinking /> : null}
       {s.genLoading ? <Writing /> : null}
-      {!s.genLoading && s.createStep === 1 ? <StepDrop /> : null}
-      {!s.genLoading && s.createStep === 2 ? <StepClassify /> : null}
-      {!s.genLoading && s.createStep === 3 ? <StepTypes /> : null}
-      {!s.genLoading && s.createStep === 4 ? <StepValidate /> : null}
+      {!s.genLoading && !(s.thinking && s.createStep === 1) && (
+        <>
+          {s.createStep === 1 ? <StepSubject /> : null}
+          {s.createStep === 2 ? <StepPlan /> : null}
+          {s.createStep === 3 ? <StepValidate /> : null}
+        </>
+      )}
+    </div>
+  )
+}
+
+/**
+ * L'écran fermé.
+ *
+ * On garde la porte plutôt que de la murer : le bouton « + » est posé
+ * dans le rail, sur chaque carte et sur l'accueil, et le faire
+ * disparaître partout laisserait croire à une régression. On dit ce
+ * qu'il en est, et on rend la sortie.
+ */
+function ReserveeAdmin() {
+  const { t, go } = useStore()
+  return (
+    <div className="screen">
+      <div className="nav-head create-head" style={{ paddingBottom: 10 }}>
+        <span className="nav-title" style={{ flex: 1 }}>
+          {t.newLearning}
+        </span>
+      </div>
+      <div
+        className="stack"
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: 16,
+          padding: '0 32px',
+          textAlign: 'center',
+        }}
+      >
+        <Icon name="alert" size={30} color="var(--sc-text3)" />
+        <p className="display" style={{ fontSize: 24 }}>
+          {t.createClosedTitle}
+        </p>
+        <p className="body" style={{ fontSize: 15, maxWidth: '38ch' }}>
+          {t.createClosedLine}
+        </p>
+        <button
+          className="btn-primary"
+          style={{ width: 240, marginTop: 6 }}
+          onClick={() => go('exo', 'q')}
+        >
+          {t.createClosedBack}
+        </button>
+      </div>
     </div>
   )
 }
@@ -58,80 +112,44 @@ function ErrorNote({ message }: { message: string }) {
   )
 }
 
-function StepDrop() {
-  const { s, set, goCreate, createDraft, categories, t } = useStore()
-  const [busy, setBusy] = useState(false)
+/**
+ * Étape 1 — le sujet.
+ *
+ * Une phrase suffit, et c'est tout ce qu'on demande : ni titre, ni
+ * catégorie, ni cours. Les trois arrivaient avant l'analyse et
+ * l'utilisateur devait deviner sa propre taxonomie ; c'est maintenant
+ * le modèle qui propose et lui qui corrige.
+ */
+function StepSubject() {
+  const { s, set, goCreate, proposeKnowledge, t } = useStore()
+  const tooShort = s.subject.trim().length < 3
 
-  const analyse = async () => {
-    setBusy(true)
-    // La catégorie se choisit à l'étape suivante ; on prend la première
-    // par défaut pour que le thème existe côté serveur dès maintenant.
-    if (!s.draftCategoryId && categories[0]) set({ draftCategoryId: categories[0].id })
-    const ok = await createDraft()
-    setBusy(false)
-    if (ok) goCreate(2)
+  const go = async () => {
+    if (await proposeKnowledge()) goCreate(2)
   }
 
   return (
-    <div className="screen-scroll stack" style={{ padding: '10px 22px 30px', gap: 16 }}>
+    <div className="screen-scroll page create-flow stack" style={{ gap: 16 }}>
       <p className="display" style={{ fontSize: 28 }}>
-        {t.dropWhatYouHave}
+        {t.whatToLearn}
+      </p>
+      <p className="body" style={{ fontSize: 16 }}>
+        {t.subjectHint}
       </p>
 
-      <label
-        className="stack"
-        style={{
-          padding: '20px 18px',
-          borderRadius: 16,
-          border: '1.5px dashed var(--sc-line)',
-          background: 'var(--sc-surface)',
-          alignItems: 'center',
-          gap: 12,
-          textAlign: 'center',
-          cursor: 'text',
-        }}
-      >
-        <span style={{ display: 'flex', gap: 10 }}>
-          <DropIcon name="file" bg="var(--sky-50)" color="var(--sky-500)" />
-          <DropIcon name="text" bg="var(--violet-50)" color="var(--violet-500)" />
-          <DropIcon name="mic" bg="var(--rose-50)" color="var(--rose-500)" />
-        </span>
-        <span className="stack" style={{ gap: 4 }}>
-          <span style={{ fontSize: 16, fontWeight: 700, color: 'var(--sc-text)' }}>
-            {t.pasteMarkdown}
-          </span>
-          <span style={{ fontSize: 14, lineHeight: 1.5, color: 'var(--sc-text3)' }}>
-            {t.pasteMarkdownSub}
-          </span>
-        </span>
+      <label className="field">
         <textarea
           className="textarea"
-          rows={5}
-          style={{ width: '100%', marginTop: 4 }}
-          placeholder={'# Titre du cours\n\nUn accord majeur se compose de…'}
-          value={s.draftMarkdown}
-          onChange={(e) => set({ draftMarkdown: e.target.value })}
-        />
-      </label>
-
-      <label className="field">
-        <span className="eyebrow">{t.title}</span>
-        <input
-          className="input"
-          placeholder="Accords de guitare — bases"
-          value={s.draftTitle}
-          onChange={(e) => set({ draftTitle: e.target.value })}
-        />
-      </label>
-
-      <label className="field">
-        <span className="eyebrow">{t.description}</span>
-        <textarea
-          className="textarea"
-          rows={3}
-          placeholder="Les accords ouverts, leurs tierces, et les erreurs classiques de doigté."
-          value={s.draftDescription}
-          onChange={(e) => set({ draftDescription: e.target.value })}
+          rows={2}
+          placeholder={t.subjectPlaceholder}
+          value={s.subject}
+          onChange={(e) => set({ subject: e.target.value })}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' && !e.shiftKey && !tooShort) {
+              e.preventDefault()
+              void go()
+            }
+          }}
         />
       </label>
 
@@ -139,249 +157,314 @@ function StepDrop() {
 
       <button
         className="btn-primary"
-        onClick={() => void analyse()}
-        disabled={busy || s.draftMarkdown.trim().length < 40 || s.draftTitle.trim().length < 2}
-        style={{
-          opacity: busy || s.draftMarkdown.trim().length < 40 || s.draftTitle.trim().length < 2 ? 0.5 : 1,
-        }}
+        onClick={() => void go()}
+        disabled={tooShort}
+        style={{ opacity: tooShort ? 0.5 : 1 }}
       >
         <Icon name="sparkle" size={18} stroke={1.9} />
-        {busy ? t.oneMoment : t.analyse}
+        {t.propose}
       </button>
     </div>
   )
 }
 
-function StepClassify() {
-  const { s, set, goCreate, categories, t } = useStore()
-  const category = categories.find((c) => c.id === s.draftCategoryId) ?? categories[0]
-  const [tagDraft, setTagDraft] = useState('')
+/** L'attente de l'appel 1 : rien à montrer tant que rien n'existe. */
+function Thinking() {
+  const { t } = useStore()
+  return (
+    <div className="screen-scroll stack gen-wait" style={{ flex: 1, padding: '10px 22px 26px' }}>
+      <span className="gen-pulse">
+        <span className="gen-disc">
+          <Icon name="sparkle" size={30} stroke={1.8} />
+        </span>
+      </span>
+      <p className="display" style={{ fontSize: 26 }}>
+        {t.thinkingHead}
+      </p>
+      <p className="body" style={{ fontSize: 17, maxWidth: '30ch' }}>
+        {t.thinkingLine}
+      </p>
+    </div>
+  )
+}
+
+/**
+ * Étape 2 — la présentation proposée.
+ *
+ * La pastille « Proposé » dit vrai pour la première fois : le titre, la
+ * description, la catégorie et les mots-clés viennent du modèle, et sont
+ * déjà en base en brouillon. Tout reste corrigeable.
+ */
+/**
+ * La proposition : ce que le modèle a compris, et le programme.
+ *
+ * Cet écran portait la présentation, un second portait le plan — les
+ * mêmes chapitres, relistés. Ils n'en font plus qu'un.
+ */
+function StepPlan() {
+  const { s, set, startWriting, t } = useStore()
+  const k = s.knowledge
+  if (!k) return null
+
+  const vivants = k.chapters.filter((c) => c.status !== 'rejected')
+  const prets = vivants.filter((c) => c.type_question || c.error)
 
   return (
-    <div className="screen-scroll stack" style={{ padding: '10px 22px 30px', gap: 18 }}>
-      <div className="stack" style={{ gap: 8 }}>
-        <span
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 8,
-            alignSelf: 'flex-start',
-            height: 28,
-            padding: '0 12px',
-            borderRadius: 999,
-            background: 'var(--sc-primary-soft)',
-            color: 'var(--sc-primary)',
-            fontSize: 12,
-            fontWeight: 700,
-          }}
-        >
+    <div className="screen-scroll page create-flow stack" style={{ gap: 16 }}>
+      <div className="stack" style={{ gap: 10 }}>
+        <span className="chip-proposed">
           <Icon name="sparkle" size={14} stroke={2} />
           {t.proposed}
         </span>
         <p className="display" style={{ fontSize: 28 }}>
-          {t.hereIsClassing}
+          {t.yourKnowledge}
         </p>
+        <p className="create-lead">{t.presentLead}</p>
       </div>
 
-      <div className="stack" style={{ gap: 10 }}>
-        <span className="eyebrow">{t.category}</span>
-        <select
-          className="input"
-          value={s.draftCategoryId || ''}
-          onChange={(e) => set({ draftCategoryId: Number(e.target.value), draftSubCategoryId: null })}
-        >
-          {categories.map((c) => (
-            <option key={c.id} value={c.id}>
-              {c.label}
-            </option>
-          ))}
-        </select>
-
-        <span className="eyebrow" style={{ marginTop: 6 }}>
-          {t.subCategory}
-        </span>
-        <select
-          className="input"
-          value={s.draftSubCategoryId ?? ''}
-          onChange={(e) =>
-            set({ draftSubCategoryId: e.target.value ? Number(e.target.value) : null })
-          }
-        >
-          <option value="">{t.none}</option>
-          {category?.sub_categories.map((sc) => (
-            <option key={sc.id} value={sc.id}>
-              {sc.label}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <div className="stack" style={{ gap: 10 }}>
-        <span className="eyebrow">{t.tags}</span>
-        <div className="wrap">
-          {s.draftTags.map((tag) => (
-            <span key={tag} className="chip" style={{ height: 36, cursor: 'default', paddingRight: 8 }}>
-              {tag}
-              <button
-                className="hit-44"
-                onClick={() => set({ draftTags: s.draftTags.filter((t) => t !== tag) })}
-                aria-label={`${t.discard} ${tag}`}
-                style={{
-                  width: 20,
-                  height: 20,
-                  borderRadius: 999,
-                  border: 0,
-                  background: 'var(--sc-sunk)',
-                  display: 'grid',
-                  placeItems: 'center',
-                  cursor: 'pointer',
-                  color: 'var(--sc-text3)',
-                }}
-              >
-                <Icon name="minus" size={11} stroke={2.6} />
-              </button>
-            </span>
-          ))}
-        </div>
+      <label className="field">
+        <span className="field-label">{t.title}</span>
         <input
-          className="input"
-          placeholder={t.addTagHint}
-          value={tagDraft}
-          onChange={(e) => setTagDraft(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter' && tagDraft.trim()) {
-              set({ draftTags: [...new Set([...s.draftTags, tagDraft.trim()])] })
-              setTagDraft('')
-            }
-          }}
+          className="input-sunk"
+          value={s.draftTitle}
+          onChange={(e) => set({ draftTitle: e.target.value })}
         />
+      </label>
+
+      <label className="field">
+        <span className="field-label">{t.description}</span>
+        <textarea
+          className="textarea-sunk"
+          rows={4}
+          value={s.draftDescription}
+          onChange={(e) => set({ draftDescription: e.target.value })}
+        />
+      </label>
+
+      <div className="field">
+        <span className="field-label">{t.category}</span>
+        <span className="pick-row">{k.category_label}</span>
+        {/* Une catégorie inventée par le modèle n'entre pas au catalogue
+            sans être retenue : le dire ici évite qu'on la découvre plus
+            tard sans savoir d'où elle vient. */}
+        {k.category_is_new && <span className="field-note">{t.newCategoryNote(k.category_label)}</span>}
       </div>
 
-      <button className="btn-primary" onClick={() => goCreate(3)}>
-        {t.continue}
-      </button>
-    </div>
-  )
-}
-
-function StepTypes() {
-  const { s, set, toggleFlag, generate, t } = useStore()
-
-  return (
-    <div className="screen-scroll stack" style={{ padding: '10px 22px 30px', gap: 16 }}>
-      <p className="display" style={{ fontSize: 28 }}>
-        {t.whichTypes}
-      </p>
-
-      <div className="stack" style={{ gap: 9 }}>
-        {EXERCISE_TYPES.map((ty, i) => {
-          const on = Boolean(s.typesOn[i])
-          return (
-            <button
-              key={ty.name}
-              className="row-btn"
-              aria-pressed={on}
-              onClick={() => toggleFlag('typesOn', i)}
-              style={{
-                minHeight: 60,
-                borderWidth: 1.5,
-                background: on ? 'var(--sc-primary-soft)' : 'var(--sc-surface)',
-                borderColor: on ? 'var(--sc-primary)' : 'var(--sc-line)',
-              }}
-            >
-              <Checkbox on={on} />
-              <span className="stack" style={{ flex: 1, gap: 2 }}>
-                <span style={{ fontSize: 16, fontWeight: 700, color: 'var(--sc-text)' }}>
-                  {ty.name}
-                </span>
-                <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>{ty.desc}</span>
+      {k.tags.length > 0 && (
+        <div className="field">
+          <span className="field-label">{t.tagsDetected}</span>
+          <div className="wrap">
+            {k.tags.map((tag) => (
+              <span key={tag} className="chip chip-flat">
+                {tag}
               </span>
-              {ty.reco && (
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div className="field">
+        <span className="field-label">
+          {t.programme} · {t.chapterCount(k.chapters.length)}
+        </span>
+
+        {/* Le programme se lisait ici, puis se relisait à l'écran suivant
+            pour n'y gagner qu'un type de question et un exemple. Les deux
+            viennent désormais se poser DANS ces cartes, à mesure qu'ils
+            s'écrivent : un écran de moins, et le même contenu. */}
+        <div className="stack" style={{ gap: 10 }}>
+          {vivants.map((c) => (
+            <div key={c.id} className="card" style={{ gap: 8 }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                 <span
+                  className="dot"
                   style={{
-                    height: 24,
-                    padding: '0 10px',
-                    borderRadius: 999,
-                    background: 'var(--gold-100)',
-                    color: 'var(--gold-700)',
-                    fontSize: 11,
-                    fontWeight: 700,
-                    display: 'grid',
-                    placeItems: 'center',
+                    width: 8,
+                    height: 8,
                     flex: 'none',
+                    background: c.error
+                      ? 'var(--sc-miss-line)'
+                      : c.type_question
+                        ? 'var(--sc-primary)'
+                        : 'var(--sc-line)',
                   }}
-                >
-                  {t.recommended}
+                />
+                <span className="prog-title">
+                  {c.position}. {c.title}
+                </span>
+              </span>
+
+              {c.description && <span className="prog-line">{c.description}</span>}
+
+              {c.type_question && (
+                <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>
+                  {t.askedAs} <b>{t[TYPE_LABEL[c.type_question]] as string}</b>
                 </span>
               )}
-            </button>
-          )
-        })}
+
+              {c.example && (
+                <div className="card-sunk" style={{ gap: 8 }}>
+                  <span className="eyebrow">{t.exampleLabel}</span>
+                  <span style={{ fontSize: 15, lineHeight: 1.45, color: 'var(--sc-text)' }}>
+                    {c.example.prompt}
+                  </span>
+                  <span className="stack" style={{ gap: 5 }}>
+                    {c.example.options.map((o, i) => (
+                      <PreviewOption key={i} label={o} correct={i === c.example!.correct_index} />
+                    ))}
+                  </span>
+                </div>
+              )}
+
+              {c.error && (
+                <span style={{ fontSize: 13, color: 'var(--sc-text2)' }}>{t.chapterFailed}</span>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
 
-      <div className="card">
-        <span style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-          <span className="eyebrow">{t.howMany}</span>
-          <span className="display" style={{ fontSize: 26 }}>
-            {s.genCount}
+      {s.thinking && (
+        <div className="stack" style={{ width: '100%', gap: 8 }}>
+          <Meter pct={vivants.length ? Math.round((prets.length / vivants.length) * 100) : 0} />
+          <span style={{ fontSize: 14, color: 'var(--sc-text3)' }}>
+            {t.preparedCount(prets.length, vivants.length)}
           </span>
-        </span>
-        <input
-          type="range"
-          min={5}
-          max={40}
-          step={5}
-          value={s.genCount}
-          onChange={(e) => set({ genCount: Number(e.target.value) })}
-          aria-label="Nombre d'exercices à générer"
-          style={{ width: '100%', accentColor: 'var(--sc-primary)', height: 28 }}
-        />
-        <span style={{ fontSize: 13, color: 'var(--sc-text3)' }}>
-          {t.estimate(Math.max(1, Math.round(s.genCount / 10)), Math.max(2, Math.round(s.genCount / 5)))}
-        </span>
-      </div>
+        </div>
+      )}
 
       {s.genError && <ErrorNote message={s.genError} />}
 
-      <button className="btn-primary" onClick={generate}>
-        <Icon name="sparkle" size={18} stroke={1.9} />
-        {t.generateAction}
-      </button>
+      {/* Un seul bouton, et il est TOUJOURS là — y compris après une
+          préparation interrompue, où l'écran d'avant n'en montrait aucun
+          et laissait le brouillon sans issue. Le relancer est sans
+          danger : les chapitres déjà prêts sont sautés.
+
+          Collé au bas de la fenêtre : le programme fait cinq cartes, et
+          la seule action de l'écran ne doit pas se mériter au
+          défilement. */}
+      <div className="create-foot">
+        <button className="btn-primary" onClick={() => void startWriting()} disabled={s.thinking}>
+          <Icon name="sparkle" size={18} stroke={1.9} />
+          {s.thinking ? t.preparingHead : t.writeExercises}
+        </button>
+      </div>
     </div>
   )
 }
 
+const TYPE_LABEL: Record<string, keyof ReturnType<typeof useStore>['t']> = {
+  qcm: 'typeQcm',
+  complete: 'typeComplete',
+  find_error: 'typeFindError',
+  short_answer: 'typeShortAnswer',
+  cloze: 'typeCloze',
+}
+
+/**
+ * Étape 3 — comment chaque chapitre sera interrogé.
+ *
+ * Un chapitre est prêt quand il porte un type ; en échec quand il porte
+ * une erreur ; en cours sinon. Aucun compteur n'est deviné, et la
+ * relance ne reprend que ce qui manque — un chapitre déjà écrit, et
+ * peut-être corrigé à la main, n'est pas réécrit.
+ */
+/**
+ * L'attente de génération.
+ *
+ * Le suivi remonte les brouillons au fur et à mesure : la barre compte
+ * des exercices réellement écrits, pas un temps deviné. Dès qu'il y en
+ * a, on propose de passer à la validation sans attendre la fin — et de
+ * retourner s'entraîner, puisque la rédaction continue sans l'écran.
+ */
 function Writing() {
-  const { s, t } = useStore()
+  const { s, go, goCreate, draftExercises, t } = useStore()
+  const written = draftExercises.length
+  const pct = s.genCount > 0 ? Math.min(100, Math.round((written / s.genCount) * 100)) : 0
+
   return (
     <div
-      className="stack"
-      style={{ flex: 1, padding: '10px 22px 30px', justifyContent: 'center', gap: 22 }}
+      className="screen-scroll stack create-flow"
+      style={{ flex: 1, padding: '10px 22px 26px', gap: 18 }}
     >
-      <p className="display" style={{ fontSize: 30 }}>
-        {t.writing}
-      </p>
-      <p className="body" style={{ fontSize: 16 }}>
-        {t.writingLine}
-      </p>
-      <div className="stack" style={{ gap: 10 }}>
-        <span className="shimmer-bar" style={{ width: '92%' }} />
-        <span className="shimmer-bar" style={{ width: '74%', animationDelay: '120ms' }} />
-        <span className="shimmer-bar" style={{ width: '83%', animationDelay: '240ms' }} />
+      {written > 0 && (
+        <div className="contact-note">
+          <span style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+            <span
+              style={{
+                width: 34,
+                height: 34,
+                flex: 'none',
+                borderRadius: 999,
+                background: 'var(--sc-primary)',
+                color: 'var(--sc-on-primary)',
+                display: 'grid',
+                placeItems: 'center',
+              }}
+            >
+              <Icon name="check" size={17} stroke={2.6} />
+            </span>
+            <span style={{ fontSize: 16, fontWeight: 700, color: 'var(--sc-text)' }}>
+              {t.genReady(written)}
+            </span>
+          </span>
+          <span style={{ fontSize: 15, lineHeight: 1.55, color: 'var(--sc-text2)' }}>
+            {t.genReadyLine}
+          </span>
+          <button
+            className="btn-primary"
+            style={{ minHeight: 46, fontSize: 15 }}
+            onClick={() => goCreate(3)}
+          >
+            {t.goToValidation}
+          </button>
+        </div>
+      )}
+
+      <div className="stack gen-wait">
+        <span className="gen-pulse">
+          <span className="gen-disc">
+            <Icon name="sparkle" size={30} stroke={1.8} />
+          </span>
+        </span>
+        <p className="display" style={{ fontSize: 26 }}>
+          {t.writingHead}
+        </p>
+        <p className="body" style={{ fontSize: 17, maxWidth: '30ch' }}>
+          {t.writingSub}
+        </p>
+        <div className="stack" style={{ width: '100%', gap: 8 }}>
+          <Meter pct={pct} />
+          <span
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              fontSize: 14,
+              color: 'var(--sc-text3)',
+            }}
+          >
+            <span>{t.writtenCount(written)}</span>
+            <span>{s.genCount}</span>
+          </span>
+        </div>
       </div>
-      <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--sc-text3)' }}>
-        {t.writingProgress(s.genCount)}
-      </span>
+
+      <button className="btn-outline" onClick={() => go('exo', 'q')}>
+        {t.keepPracticing}
+      </button>
     </div>
   )
 }
 
 function StepValidate() {
-  const { s, go, generate, draftExercises, reviewExercise, t } = useStore()
+  const { s, go, generate, draftExercises, reviewExercise, validateAll, t } = useStore()
   const current = draftExercises[0]
 
   return (
-    <div className="stack" style={{ flex: 1, padding: '10px 22px 26px', gap: 14, minHeight: 0 }}>
+    <div
+      className="stack create-flow"
+      style={{ flex: 1, padding: '10px 22px 26px', gap: 14, minHeight: 0 }}
+    >
       <span style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
         <span className="eyebrow">{t.toReview}</span>
         <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--sc-text3)' }}>
@@ -450,6 +533,27 @@ function StepValidate() {
       </div>
 
       <div className="stack" style={{ gap: 9, flex: 'none' }}>
+        {/* Tout valider est l'action première : le critique a déjà écarté
+            ce qui ne tenait pas, et exiger un tap par exercice — quatorze
+            à la dernière création — faisait payer une relecture déjà
+            faite. Celle-ci reste offerte juste en dessous. */}
+        {draftExercises.length > 1 && (
+          <>
+            <span style={{ fontSize: 13, lineHeight: 1.5, color: 'var(--sc-text3)' }}>
+              {t.reviewedByCritic}
+            </span>
+            <button
+              className="btn-primary"
+              style={{ minHeight: 50, fontSize: 16 }}
+              onClick={validateAll}
+            >
+              <Icon name="check" size={17} stroke={2.4} />
+              {t.validateAll} · {draftExercises.length}
+            </button>
+            <span className="eyebrow">{t.validateOneByOne}</span>
+          </>
+        )}
+
         <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: 8 }}>
           <button
             className="btn-primary"
@@ -536,20 +640,3 @@ function PreviewOption({ label, correct }: { label: string; correct?: boolean })
   )
 }
 
-function DropIcon({ name, bg, color }: { name: 'file' | 'text' | 'mic'; bg: string; color: string }) {
-  return (
-    <span
-      style={{
-        width: 44,
-        height: 44,
-        borderRadius: 999,
-        background: bg,
-        display: 'grid',
-        placeItems: 'center',
-        color,
-      }}
-    >
-      <Icon name={name} size={21} />
-    </span>
-  )
-}

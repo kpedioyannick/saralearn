@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is ozone made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Two oxygen atoms bonded together",
+            "feedback": "Two oxygen atoms make the oxygen gas we breathe, not ozone."
+          },
+          {
+            "label": "One oxygen atom and one nitrogen atom",
+            "feedback": "That combination is not ozone; ozone is made only of oxygen atoms."
+          },
+          {
+            "label": "Three oxygen atoms bonded together",
+            "feedback": "Correct. Ozone's chemical formula is O₃, three oxygen atoms."
+          },
+          {
+            "label": "Four oxygen atoms in a chain",
+            "feedback": "Four oxygen atoms in a chain is not a stable molecule and is not found as ozone."
+          }
+        ],
+        "ok_title": "Ozone's make-up",
+        "ok_line": "Ozone is three oxygen atoms bound as one molecule.",
+        "ko_title": "Oxygen atom count",
+        "ko_line": "Check how many oxygen atoms ozone has compared to breathable oxygen.",
+        "exp_title": "Ozone molecule",
+        "exp_text": "Ozone is simply a molecule made of three oxygen atoms, written O₃. The air we breathe has two, O₂. The extra atom gives ozone its reactive character."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which layer of the atmosphere does the ozone layer sit?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Troposphere",
+            "feedback": "The troposphere is the lowest layer, where weather happens; ozone there is a pollutant, not the protective layer."
+          },
+          {
+            "label": "Stratosphere",
+            "feedback": "Correct. The ozone layer is in the stratosphere, roughly 15 to 35 kilometres up."
+          },
+          {
+            "label": "Mesosphere",
+            "feedback": "The mesosphere is above the stratosphere and has almost no ozone."
+          },
+          {
+            "label": "Thermosphere",
+            "feedback": "The thermosphere is the layer with auroras and high temperatures; it contains no significant ozone layer."
+          }
+        ],
+        "ok_title": "Where ozone lives",
+        "ok_line": "The ozone layer is a band within the stratosphere.",
+        "ko_title": "Layer confusion",
+        "ko_line": "Remember the stratosphere is the second layer up from the ground.",
+        "exp_title": "Stratospheric location",
+        "exp_text": "The ozone layer is a region in the stratosphere, above the troposphere. It is not a separate layer but a zone richer in ozone within that layer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of radiation from the Sun does the ozone layer mainly absorb?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Visible light",
+            "feedback": "Visible light passes through the ozone layer almost unchanged; it is not the main thing ozone absorbs."
+          },
+          {
+            "label": "Infrared radiation",
+            "feedback": "Infrared is absorbed mostly by greenhouse gases like carbon dioxide, not primarily by ozone."
+          },
+          {
+            "label": "Radio waves",
+            "feedback": "Radio waves travel through the atmosphere; ozone has little effect on them."
+          },
+          {
+            "label": "Ultraviolet radiation",
+            "feedback": "Correct. The ozone layer absorbs most of the Sun's harmful ultraviolet (UV) rays."
+          }
+        ],
+        "ok_title": "What ozone blocks",
+        "ok_line": "Ozone soaks up ultraviolet radiation from the Sun.",
+        "ko_title": "Radiation mix-up",
+        "ko_line": "Only ultraviolet is the type ozone targets.",
+        "exp_title": "Ultraviolet absorption",
+        "exp_text": "The ozone layer absorbs the majority of incoming ultraviolet radiation from the Sun. Without it, that UV would reach the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the ozone layer important for living things on the ground?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It shields them from harmful ultraviolet radiation",
+            "feedback": "Correct. The ozone layer prevents most UV rays from reaching the surface, protecting cells from damage."
+          },
+          {
+            "label": "It provides oxygen for breathing",
+            "feedback": "Oxygen for breathing comes from the air we breathe, not from the ozone layer high above."
+          },
+          {
+            "label": "It keeps the Earth warm by trapping heat",
+            "feedback": "Trapping heat is the job of greenhouse gases in the troposphere, not the ozone layer's main role."
+          },
+          {
+            "label": "It blocks all solar radiation",
+            "feedback": "The ozone layer only absorbs ultraviolet, not all solar radiation; visible light still gets through."
+          }
+        ],
+        "ok_title": "Protection role",
+        "ok_line": "The ozone layer guards life from UV radiation.",
+        "ko_title": "Wrong function",
+        "ko_line": "Heating and breathing are other processes, not ozone's purpose.",
+        "exp_title": "UV shield",
+        "exp_text": "The ozone layer absorbs most ultraviolet radiation from the Sun. This matters because UV can damage DNA and harm living cells; the layer keeps that damage from happening."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does ozone form in the stratosphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It is released by volcanoes",
+            "feedback": "Volcanoes release gases and ash, not ozone; ozone forms from oxygen and sunlight."
+          },
+          {
+            "label": "Sunlight splits oxygen molecules, and the freed atoms join with other oxygen molecules",
+            "feedback": "Correct. UV light breaks O₂ into single atoms, which then attach to other O₂ to make O₃."
+          },
+          {
+            "label": "It comes from the ground and rises up",
+            "feedback": "Ground-level ozone is a pollutant and does not rise to form the stratospheric layer."
+          },
+          {
+            "label": "It condenses from water vapour",
+            "feedback": "Water vapour makes clouds, not ozone; ozone is purely from oxygen."
+          }
+        ],
+        "ok_title": "Formation process",
+        "ok_line": "Sunlight splits O₂, and the atoms combine with O₂ to make O₃.",
+        "ko_title": "How ozone is made",
+        "ko_line": "Ozone requires oxygen and ultraviolet light, not ground sources.",
+        "exp_title": "Ozone creation",
+        "exp_text": "In the stratosphere, ultraviolet light from the Sun breaks an oxygen molecule (O₂) into two single oxygen atoms. Each free atom then binds to another O₂, forming ozone (O₃)."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Is the ozone in the ozone layer packed tightly like a solid wall?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Yes, it is as dense as a thick blanket",
+            "feedback": "If it were that dense, you would see it and it would block light; it is actually very sparse."
+          },
+          {
+            "label": "No, it is completely empty",
+            "feedback": "It is not empty; ozone molecules are present but diluted among many other air molecules."
+          },
+          {
+            "label": "No, ozone molecules are spread thinly among other gases",
+            "feedback": "Correct. Even at its densest, ozone is just a few molecules per million air molecules."
+          },
+          {
+            "label": "Yes, it is a solid layer like a shell",
+            "feedback": "Ozone is a gas, not a solid; it cannot form a solid shell."
+          }
+        ],
+        "ok_title": "Ozone density",
+        "ok_line": "Ozone is spread thin, not packed solid.",
+        "ko_title": "Thin, not thick",
+        "ko_line": "The ozone layer is dilute gas, not a solid barrier.",
+        "exp_title": "Sparse distribution",
+        "exp_text": "The ozone layer is not a dense shield. It is just a region in the stratosphere where ozone molecules are more common than in other layers, but still very scarce compared to the main gases."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does absorbing ultraviolet radiation warm the stratosphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because UV makes the air glow",
+            "feedback": "Glowing would be visible light, not heating; the warming comes from energy being absorbed and converted to heat."
+          },
+          {
+            "label": "Because UV pushes air molecules together",
+            "feedback": "UV does not compress air; the warming is from energy transfer during absorption."
+          },
+          {
+            "label": "Because UV reflects off ozone and heats it",
+            "feedback": "Reflection does not heat; it is the absorbed energy that increases molecular motion."
+          },
+          {
+            "label": "Because ozone absorbs the UV energy and the molecules move faster",
+            "feedback": "Correct. Absorption of UV energy excites ozone and other molecules, raising their kinetic energy and the temperature."
+          }
+        ],
+        "ok_title": "Why stratosphere warms",
+        "ok_line": "Absorbing UV energy speeds up molecules, raising temperature.",
+        "ko_title": "Heating mechanism",
+        "ko_line": "Warming comes from energy absorption, not reflection or glow.",
+        "exp_title": "UV to heat",
+        "exp_text": "When ozone absorbs ultraviolet radiation, that energy transfers to the molecules, making them move faster. Faster molecular motion is what we feel as higher temperature, so the stratosphere warms."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What naturally destroys ozone in the stratosphere, keeping its amount balanced?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Ozone is burned by the Sun's heat",
+            "feedback": "The Sun's heat does not burn ozone; destruction happens through chemical reactions, not burning."
+          },
+          {
+            "label": "Ultraviolet light splits it, and it also reacts with other gases",
+            "feedback": "Correct. UV breaks ozone back into O₂ and O, and other reactions also remove it."
+          },
+          {
+            "label": "Ozone falls to the ground and is absorbed",
+            "feedback": "Ozone does not fall; it stays aloft and is destroyed locally in the stratosphere."
+          },
+          {
+            "label": "Ozone combines with nitrogen into a new gas",
+            "feedback": "Ozone does not react with nitrogen to form a new gas; it is mostly split by UV."
+          }
+        ],
+        "ok_title": "Natural ozone loss",
+        "ok_line": "UV light splits ozone, and reactions with other atoms also remove it.",
+        "ko_title": "Destruction process",
+        "ko_line": "Destruction is by light and chemistry, not falling or burning.",
+        "exp_title": "Ozone balance",
+        "exp_text": "Ozone is constantly destroyed by ultraviolet light breaking it apart and by reactions with free atoms. At the same time, new ozone forms, so the total amount stays roughly steady unless human-made chemicals interfere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is ozone near the ground considered harmful even though it protects high up?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it blocks ultraviolet light from reaching crops",
+            "feedback": "Ground-level ozone does not block UV; it harms organisms through its chemical reactivity."
+          },
+          {
+            "label": "Because it makes the air smell bad",
+            "feedback": "Smell is not the main harm; the damaging effect is on living tissues."
+          },
+          {
+            "label": "Because it reacts with living tissues and damages them",
+            "feedback": "Correct. In the lower air, ozone acts as a strong oxidant that irritates and damages cells."
+          },
+          {
+            "label": "Because it traps heat and causes smog",
+            "feedback": "Smog contains ozone, but the harm is from its chemistry, not from heating."
+          }
+        ],
+        "ok_title": "Ground-level ozone harm",
+        "ok_line": "Ozone near the ground damages living tissues.",
+        "ko_title": "Location matters",
+        "ko_line": "Protective high up, ozone is toxic when breathed.",
+        "exp_title": "Why location changes effect",
+        "exp_text": "High in the stratosphere, ozone absorbs UV radiation, which is good for life. Near the ground, however, ozone is a reactive molecule that can irritate lungs and damage plants, so it is considered a pollutant."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the ozone layer contribute to the temperature structure of the stratosphere?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It warms the stratosphere by absorbing ultraviolet light",
+            "feedback": "Correct. This absorption raises the temperature with altitude in the stratosphere."
+          },
+          {
+            "label": "It cools the stratosphere by reflecting sunlight",
+            "feedback": "Reflection would cool, but ozone does not reflect significantly; it absorbs."
+          },
+          {
+            "label": "It keeps the stratosphere at a constant temperature",
+            "feedback": "The stratosphere actually warms with height because of ozone absorption."
+          },
+          {
+            "label": "It makes the stratosphere colder than the layers above and below",
+            "feedback": "The stratosphere gets warmer with altitude; the coldest layer is the mesosphere above it."
+          }
+        ],
+        "ok_title": "Stratospheric heating",
+        "ok_line": "Ozone's absorption of UV warms the stratosphere.",
+        "ko_title": "Temperature effect",
+        "ko_line": "Ozone heats, not cools, its layer.",
+        "exp_title": "Ozone and temperature",
+        "exp_text": "The ozone layer absorbs ultraviolet radiation from the Sun, converting that energy into heat. This is why temperature increases with altitude in the stratosphere, opposite to the troposphere below."
+      }
+    ]
+  }
+]

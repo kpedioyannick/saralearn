@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 144,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a river keep flowing downhill across a huge, seemingly flat plain?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The land still slopes very slightly toward the sea",
+            "feedback": "A drop far too small to notice by eye is still a real slope, and gravity responds to any slope at all, however gentle."
+          },
+          {
+            "label": "The river pushes itself along with its own current",
+            "feedback": "A current is the visible effect of water moving, not a force that could start the movement in the first place; something else has to set it going."
+          },
+          {
+            "label": "Wind blowing across the plain pushes the water forward",
+            "feedback": "Wind can ripple a river's surface, but it is far too weak and inconsistent to carry the whole mass of water for hundreds of miles in one direction."
+          },
+          {
+            "label": "The Earth's rotation drags the water toward the sea",
+            "feedback": "Rotation can gently curve a very large flow over a long distance, but it has no pull that would move water toward the sea rather than any other direction."
+          }
+        ],
+        "ok_title": "A slope you cannot see",
+        "ok_line": "Flat to your eye is not the same as flat to gravity.",
+        "ko_title": "Look for the real force",
+        "ko_line": "Something has to be pulling that water in one direction rather than another.",
+        "exp_title": "Flat is a matter of eyesight, not geography",
+        "exp_text": "Over a plain, land can drop only a small amount over a very long distance and still be sloping the entire way, a grade far too gentle for a person standing on it to notice. Gravity does not need a noticeable slope to act, only a real one, and it keeps pulling the water toward wherever the ground is lower. A river crossing land that looks perfectly flat is still, the whole way, running gently downhill toward the sea."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a river bend into loops instead of running in a straight line?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Rocks buried under the riverbed force it to swerve",
+            "feedback": "Meanders form even along rivers running through uniform sand or soil with nothing buried underneath; a hidden rock is not what starts the bending."
+          },
+          {
+            "label": "The river follows old paths carved by melting glaciers",
+            "feedback": "Most meandering rivers have nothing to do with glaciers at all; the bending is something the river's own current keeps doing on its own, everywhere, including places ice never reached."
+          },
+          {
+            "label": "Faster water erodes one bank while slower water deposits on the other",
+            "feedback": "The moment a river isn't perfectly straight, water on the outside of even the tiniest curve moves faster and eats into the bank, while water on the inside slows and drops sediment, and that difference makes the curve grow."
+          },
+          {
+            "label": "The riverbed tilts slightly from side to side along its length",
+            "feedback": "A sideways tilt would need some outside cause to keep shifting it back and forth; the river creates its own bending without any such tilt."
+          }
+        ],
+        "ok_title": "A curve that feeds itself",
+        "ok_line": "Once a river bends even slightly, the bend makes itself bigger.",
+        "ko_title": "Not an outside cause",
+        "ko_line": "The river doesn't need help from anything buried or tilted; it does this on its own.",
+        "exp_title": "A curve that grows on its own",
+        "exp_text": "The instant a river's path is even slightly uneven, the water on the outside of the curve is forced to travel faster, and fast water carries enough force to bite into the bank and widen the curve further. On the inside of the same curve the water slows down and can no longer carry all the sediment it was holding, so it drops that sediment and builds the bank outward there instead. Erosion on one side and deposit on the other keep reinforcing the same bend until a nearly straight stretch of river has folded itself into a wide loop."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a river often turn brown and carry visible mud after heavy rain?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Rain itself is naturally the colour of mud",
+            "feedback": "Rain falling straight from a clear sky lands perfectly clear; the colour is added afterward, once it is moving across and through the land."
+          },
+          {
+            "label": "Faster-moving water can pick up and carry more sediment",
+            "feedback": "Heavy rain speeds up the current, and faster water has more force behind it, enough to lift particles that a calmer flow would simply leave sitting on the riverbed."
+          },
+          {
+            "label": "Fish stir up the riverbed during storms",
+            "feedback": "Fish move away from turbulence rather than stirring it up further, and there are never enough of them in one stretch of river to cloud the whole current on their own."
+          },
+          {
+            "label": "Rain washes dye out of fallen leaves",
+            "feedback": "Leaves can tint water slightly over time in still, shallow pools, but that faint tea colour is nothing like the thick brown of sediment a storm brings up."
+          }
+        ],
+        "ok_title": "Speed does the lifting",
+        "ok_line": "The water didn't get dirtier, it just got strong enough to carry what was already there.",
+        "ko_title": "Not the source",
+        "ko_line": "Ask what changes about the water's speed, not its surroundings, right after a storm.",
+        "exp_title": "Speed decides what a river can carry",
+        "exp_text": "A river's current can only hold on to particles up to a certain size and weight, and that limit rises sharply as the water speeds up. Heavy rain swells a river and drives its current faster, and the faster water tears loose particles of soil and clay from the bed and banks that a calmer flow would have left undisturbed. Carried along in suspension rather than settling, those particles are what turn the whole river brown until the current slows again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a river drop its sediment and build new land where it meets the sea?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Salt in seawater dissolves the sediment away",
+            "feedback": "Salt does not dissolve solid particles of sand or silt; sediment reaching the sea stays just as solid as it was in the river."
+          },
+          {
+            "label": "The sea pushes sediment back upstream",
+            "feedback": "Tides can push seawater a short way up a river's mouth, but they do not carry sediment coming downstream back against the current in any lasting way."
+          },
+          {
+            "label": "Fish and plants near the coast trap the sediment",
+            "feedback": "Coastal life can help hold sediment in place once it has already settled, but it has no role in why the sediment stops moving there in the first place."
+          },
+          {
+            "label": "The river loses speed as it spreads into the still water of the sea",
+            "feedback": "A moving river entering a large, still body of water has nothing left to push it forward, so it spreads out and slows sharply, and slow water cannot go on carrying the load it managed while it was fast."
+          }
+        ],
+        "ok_title": "Out of momentum",
+        "ok_line": "The river simply ran out of the speed it needed to keep carrying its load.",
+        "ko_title": "Not the cause",
+        "ko_line": "Ask what happens to the river's speed the moment it stops being confined between banks.",
+        "exp_title": "Where a current has nowhere left to push",
+        "exp_text": "For its whole journey, a river is squeezed between banks that keep it moving in one direction at a steady pace, and that pace is what lets it carry sand and silt along in suspension. The moment it reaches the sea, it is no longer confined; it spreads out sideways into open water and its speed drops sharply within a short distance. Sediment that the current could carry easily a moment before is now too heavy for the slowed water to hold, so it sinks and begins to pile up exactly where the river loses its push."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do smaller streams merge into a river instead of each one reaching the sea on its own?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Water always follows the lowest path available to it",
+            "feedback": "Wherever two streams' downhill paths happen to cross the same low ground, they combine into one flow rather than staying apart, simply because gravity sends both of them there."
+          },
+          {
+            "label": "Streams merge to avoid drying up in the sun",
+            "feedback": "Water has no way to sense or avoid drying out in advance; a stream's course is set entirely by the shape of the land it crosses, not by anything it is trying to prevent."
+          },
+          {
+            "label": "Underground channels physically connect separate streams",
+            "feedback": "Most merging streams meet in the open, where their surface channels come together, with no hidden underground link required to explain it."
+          },
+          {
+            "label": "Larger rivers actively pull in smaller streams nearby",
+            "feedback": "A river has no pull reaching out sideways to draw in water from elsewhere; a smaller stream joins only because the ground itself slopes that way."
+          }
+        ],
+        "ok_title": "Down is down",
+        "ok_line": "Two streams heading for the same low ground end up as one.",
+        "ko_title": "No hidden cause needed",
+        "ko_line": "The explanation is simpler than a pull or a connection: it's just the shape of the land.",
+        "exp_title": "Every drop takes the lowest way down",
+        "exp_text": "Rain falling anywhere on a landscape trickles downhill along whatever path the ground's shape offers, and that path funnels naturally into the nearest low channel, which is already carrying water from everywhere uphill of it. Where the low ground carved out by one small stream crosses paths with another, their waters simply combine, because both are answering to the same slope. Followed far enough downhill, countless separate trickles end up joining into the single widening channel of a river."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the water at a river's source often clear while the same river runs muddy much further downstream?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The river picks up different minerals as it warms in the sun",
+            "feedback": "Warming water does not cause it to pick up minerals; the change in colour has to do with solid particles being carried along, not dissolved substances."
+          },
+          {
+            "label": "It gathers more eroded material with every mile and tributary",
+            "feedback": "Each stretch of bank the river wears away, and every tributary joining in with sediment of its own, adds a little more suspended material to what the water is already carrying."
+          },
+          {
+            "label": "Fish and plants multiply and darken the water further downstream",
+            "feedback": "Life in a river can occasionally colour water green with algae, but the brown, gritty look of a muddy lowland river comes from soil and rock particles, not living things."
+          },
+          {
+            "label": "The riverbed downstream is naturally a darker colour",
+            "feedback": "The colour of the material lining the bottom of a channel does not tint water that is simply flowing over it; the murkiness comes from what the water is actively carrying, not what it rests on."
+          }
+        ],
+        "ok_title": "Picked up along the way",
+        "ok_line": "A river doesn't start muddy, it becomes muddy.",
+        "ko_title": "Not what's underneath",
+        "ko_line": "The colour is carried in the water itself, added bit by bit as it travels.",
+        "exp_title": "A river collects its colour as it goes",
+        "exp_text": "A river near its source is often short and narrow, with little land yet worn into it and few other streams yet joined to it, so it carries very little sediment. Travelling on, it erodes more of its own banks, crosses more kinds of soil, and takes in tributary after tributary, each one adding a fresh supply of eroded material to the flow. By the time it nears the sea it may be carrying far more suspended sediment than it started with, and that accumulated load is what clouds the water brown."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a river's channel usually widen as it nears the sea?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The riverbed gets harder to erode near the coast",
+            "feedback": "Coastal rock and sediment tend to be softer and more easily reshaped, if anything, not harder; hardness would resist widening rather than cause it."
+          },
+          {
+            "label": "Sea creatures burrow into the banks and wear them away",
+            "feedback": "Burrowing animals can loosen small patches of bank, but nowhere near enough to widen an entire river mouth over its whole width."
+          },
+          {
+            "label": "Tides push seawater in and out, eroding a broader channel",
+            "feedback": "Twice a day the tide sends a fresh volume of moving water in and then draws it back out again, and that repeated back-and-forth current wears at the banks from both directions."
+          },
+          {
+            "label": "Boats travelling upriver wear down the banks over decades",
+            "feedback": "River mouths were already far wider than the water upstream long before boats existed there in any numbers; traffic did not create the shape."
+          }
+        ],
+        "ok_title": "Worn from both directions",
+        "ok_line": "Twice a day, the tide adds its own current to the river's.",
+        "ko_title": "Not quite",
+        "ko_line": "Something is eroding this stretch of bank that the river upstream never has to deal with.",
+        "exp_title": "A channel eroded by two currents instead of one",
+        "exp_text": "Upstream, a river's banks are shaped only by the current flowing one way, toward the sea. Near the coast, the rising and falling tide adds a second current running the opposite way twice a day, on top of the river's own flow, so the banks there are worn at from both directions instead of just one. That extra erosion, repeated with every tide, gradually carves the river's mouth into a channel far broader than the river needed to be further inland."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a river cut a deep canyon through solid rock over a long stretch of time?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sediment carried in the current scrapes against the rock",
+            "feedback": "Sand and pebbles swept along by the flow act like a moving file, grinding a little rock away with every pass, so the channel deepens grain by grain."
+          },
+          {
+            "label": "The river's water is naturally acidic enough to dissolve stone",
+            "feedback": "Ordinary river water is close to neutral and dissolves rock only extremely slowly, far too slowly on its own to explain a canyon as deep as this one."
+          },
+          {
+            "label": "Freezing temperatures in the water crack the rock apart each night",
+            "feedback": "A river's own water rarely freezes solid enough to crack surrounding rock, and canyons like this one form in warm regions with no freezing at all."
+          },
+          {
+            "label": "The weight of the water alone presses the rock apart",
+            "feedback": "The weight of moving water spreads out over a wide riverbed and is far too gentle, on its own, to break apart solid rock beneath it."
+          }
+        ],
+        "ok_title": "Ground down, not dissolved",
+        "ok_line": "The river's real tool is everything it's carrying, not the water itself.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what the moving water is actually pressing against the rock as it flows.",
+        "exp_title": "A canyon cut by what the river carries",
+        "exp_text": "Water alone is too soft to wear rock away quickly, but a river rarely flows without a cargo of sand, pebbles and stones swept along in its current. Every one of those particles scrapes against the riverbed as it is carried past, acting together like sandpaper dragged across the rock again and again. Repeated over an immense stretch of time, that constant grinding cuts down through even the hardest layers of rock, deepening the channel into a canyon."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a river's flooding often leave farmland nearby especially fertile?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Floodwater kills pests living in the soil",
+            "feedback": "A flood can drown some soil-dwelling creatures, but that alone would not explain soil becoming noticeably richer for growing crops afterward."
+          },
+          {
+            "label": "The flood washes away old, worn-out soil entirely",
+            "feedback": "A flood mostly adds material on top of the existing ground rather than stripping the old soil away completely."
+          },
+          {
+            "label": "Standing floodwater adds oxygen directly into the ground",
+            "feedback": "Standing water actually pushes air out of waterlogged soil rather than adding any into it; oxygen is not what a flood is contributing here."
+          },
+          {
+            "label": "Slowed floodwater drops fine silt carried from far upstream",
+            "feedback": "As the flood spreads out across the land, it loses the speed it needs to keep that silt suspended, so a fresh layer of nutrient-rich particles settles out and stays behind."
+          }
+        ],
+        "ok_title": "A gift dropped in passing",
+        "ok_line": "The floodwater didn't make the soil rich, it delivered what makes it rich.",
+        "ko_title": "Wrong ingredient",
+        "ko_line": "Ask what the floodwater is carrying with it, rather than what it removes or adds as a gas.",
+        "exp_title": "Fertility delivered from upstream",
+        "exp_text": "For its entire course before the flood, the river has been picking up fine particles of soil eroded from banks and fields far upstream and carrying them along in suspension. When the river overflows its banks, the water spreads out across flat land and slows down sharply, losing the speed it needs to keep that silt moving. The silt sinks and spreads across the fields as the water recedes, leaving behind a thin new layer of soil richer than what the flood found there."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a river's water level rise noticeably in summer even when it has not rained locally in weeks?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Rivers naturally swell during the hottest months of the year",
+            "feedback": "Heat on its own does not add water to a river; without a source feeding in that extra water, warm weather alone would leave the level unchanged."
+          },
+          {
+            "label": "Evaporation from the sea adds water back into the river mouth",
+            "feedback": "Evaporation removes water from the sea into the air; it does not push seawater back up into a river, and evaporated water falls as rain elsewhere, not straight back into this river."
+          },
+          {
+            "label": "Snow melting in distant mountains is feeding the river upstream",
+            "feedback": "Snow stored high in the mountains all winter melts through the warmer months and runs down into streams that eventually reach this same river, arriving as extra water long after the snow itself fell."
+          },
+          {
+            "label": "Underground pressure forces more water up through the riverbed",
+            "feedback": "A rise this large calls for a large, ongoing source of water; occasional seepage through a riverbed is nowhere near enough to swell a whole river."
+          }
+        ],
+        "ok_title": "Water from somewhere else entirely",
+        "ok_line": "The rain that's filling this river fell as snow, somewhere else, months ago.",
+        "ko_title": "Wrong source",
+        "ko_line": "The extra water has to be coming from somewhere; local rain has already been ruled out.",
+        "exp_title": "A river fed from far away",
+        "exp_text": "Many rivers begin high in mountains where winter snow piles up and stays frozen in place for months, well after the rain in the lowlands has stopped for the season. As the mountains warm through spring and summer, that stored snow melts steadily and runs down into streams that feed the river far below. The extra water reaching the lower river in summer fell as snow long before, and arrives only once the melt has had time to travel all the way down."
+      }
+    ]
+  }
+]

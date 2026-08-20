@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 109,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is ozone actually made of, compared with the oxygen we breathe?",
+        "body": null,
+        "options": [
+          {
+            "label": "The same two-atom oxygen molecule, just at a different temperature",
+            "feedback": "Ordinary oxygen stays a two-atom molecule at any temperature; ozone is a genuinely different arrangement of atoms, not a temperature effect."
+          },
+          {
+            "label": "Three oxygen atoms bonded together instead of two",
+            "feedback": "The oxygen we breathe pairs two atoms together; ozone joins three atoms of the very same element into one molecule."
+          },
+          {
+            "label": "A mixture of oxygen and nitrogen atoms",
+            "feedback": "Ozone contains no nitrogen at all; every atom in its molecule is oxygen."
+          },
+          {
+            "label": "A liquid form of ordinary oxygen gas",
+            "feedback": "Ozone is a gas at the temperatures found in the atmosphere, not a liquid version of oxygen."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "One atom more",
+        "ok_line": "Same element, one extra atom joined to the usual pair.",
+        "ko_title": "Not quite",
+        "ko_line": "Ozone and ordinary oxygen are built from the very same element, only in a different count.",
+        "exp_title": "The same element, one atom more",
+        "exp_text": "The oxygen we breathe is made of two oxygen atoms bonded together. Ozone is built from the same element, only with three oxygen atoms bonded together instead of two."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "In which layer of the atmosphere is the ozone layer actually found?",
+        "body": null,
+        "options": [
+          {
+            "label": "The troposphere, right where we breathe",
+            "feedback": "The concentration of ozone forming the ozone layer sits well above the layer we breathe in, not within it."
+          },
+          {
+            "label": "The mesosphere, above the ozone layer",
+            "feedback": "The mesosphere sits higher than the stratosphere, above where the ozone layer actually forms."
+          },
+          {
+            "label": "The stratosphere",
+            "feedback": "This is the layer where sunlight and oxygen interact to form and maintain a lasting concentration of ozone."
+          },
+          {
+            "label": "The exosphere, at the very edge of space",
+            "feedback": "The exosphere is far too high and far too thin to hold the concentration of ozone that forms the ozone layer."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "The middle layer",
+        "ok_line": "It sits in the layer warmed by the very gas it's made of.",
+        "ko_title": "Wrong altitude",
+        "ko_line": "The ozone layer sits in the layer directly above the one holding our breathable air.",
+        "exp_title": "A concentration high above the ground",
+        "exp_text": "Ozone forms where strong sunlight and oxygen meet in large enough amounts, well above the ground and the weather. That combination occurs in the layer directly above the one that holds our breathable air. The ozone layer is found in the stratosphere."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does ozone actually form high in the stratosphere?",
+        "body": null,
+        "options": [
+          {
+            "label": "Lightning strikes reach that high and forge it directly",
+            "feedback": "Lightning occurs far below, in the lower atmosphere; it plays no part in forming the ozone layer high in the stratosphere."
+          },
+          {
+            "label": "Volcanic ash drifts upward and reacts with oxygen there",
+            "feedback": "Volcanic ash rarely reaches that height, and ozone forms from oxygen and sunlight, not from ash reacting with anything."
+          },
+          {
+            "label": "Cold temperatures at that height freeze oxygen into a denser form",
+            "feedback": "Ozone is not frozen oxygen; it is a different molecule entirely, formed by a chemical reaction, not by cold alone."
+          },
+          {
+            "label": "Ultraviolet light splits some oxygen molecules into single atoms, which then attach to other oxygen molecules",
+            "feedback": "A freed single oxygen atom collides with an intact oxygen molecule and joins it, producing a three-atom ozone molecule."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Split, then rejoined",
+        "ok_line": "A stray atom, freed by sunlight, finds a new molecule to join.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "The formation of ozone starts with sunlight acting directly on ordinary oxygen molecules.",
+        "exp_title": "A stray atom finds a new partner",
+        "exp_text": "Ultraviolet light carries enough energy to break an ordinary two-atom oxygen molecule apart into single, loose atoms. Each of those loose atoms quickly collides with an intact oxygen molecule nearby and joins onto it. Ozone forms when ultraviolet light splits some oxygen molecules into single atoms, which then attach to other oxygen molecules."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does the ozone layer actually absorb from the sun's light?",
+        "body": null,
+        "options": [
+          {
+            "label": "Visible light, the part that lets us see colour",
+            "feedback": "Visible light passes through the ozone layer largely unaffected; that is why the layer itself is invisible from the ground."
+          },
+          {
+            "label": "Ultraviolet radiation",
+            "feedback": "Ozone molecules are especially good at absorbing this particular part of the sun's light, converting it into heat as they do."
+          },
+          {
+            "label": "Radio waves travelling from distant stars",
+            "feedback": "Radio waves are not the kind of energy that ozone molecules absorb; the ozone layer is built to intercept a different part of sunlight."
+          },
+          {
+            "label": "Heat radiating up from the ground below",
+            "feedback": "The ozone layer's main task involves sunlight arriving from above, not heat rising from the ground far beneath it."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "The invisible part",
+        "ok_line": "Ozone catches the part of sunlight you can't see at all.",
+        "ko_title": "Not that part of the light",
+        "ko_line": "The part of sunlight the ozone layer intercepts is invisible, arriving from above.",
+        "exp_title": "A filter for invisible light",
+        "exp_text": "Sunlight carries several kinds of energy beyond the colours visible to the eye. Ozone molecules are especially effective at capturing one particular kind as it passes through. What the ozone layer absorbs from the sun's light is ultraviolet radiation."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does it matter to living cells that the ozone layer absorbs ultraviolet radiation before it reaches the ground?",
+        "body": null,
+        "options": [
+          {
+            "label": "Ultraviolet radiation makes the air too warm to breathe",
+            "feedback": "The warming effect of absorbed ultraviolet radiation happens high in the stratosphere, not in the air near the ground where breathing occurs."
+          },
+          {
+            "label": "Ultraviolet radiation dissolves the oxygen molecules in the air we breathe",
+            "feedback": "Breathable oxygen near the ground is unaffected by ultraviolet radiation, since most of it never reaches that low."
+          },
+          {
+            "label": "Ultraviolet radiation can damage the DNA inside living cells",
+            "feedback": "Ultraviolet radiation carries enough energy to harm the delicate molecules that store a cell's genetic information."
+          },
+          {
+            "label": "Ultraviolet radiation would make the sky permanently dark",
+            "feedback": "Ultraviolet radiation is invisible to begin with; its presence or absence has no effect on how bright or dark the visible sky looks."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A threat to the cell's core",
+        "ok_line": "It's not warmth or brightness at stake, but the molecule that carries a cell's instructions.",
+        "ko_title": "Not the danger",
+        "ko_line": "The real risk of ultraviolet radiation is to something very small and very specific inside a living cell.",
+        "exp_title": "A risk to the cell's own instructions",
+        "exp_text": "Every living cell carries its instructions inside a delicate molecule, and that molecule can be damaged by radiation carrying enough energy. Ultraviolet radiation carries exactly that much energy, and the ozone layer intercepts most of it before it can reach the ground. It matters to living cells because ultraviolet radiation can damage the DNA inside them."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does absorbing ultraviolet radiation also warm the stratosphere, the layer where the ozone sits?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because ozone molecules constantly rub against each other and generate friction",
+            "feedback": "Molecules in a gas do not warm a layer through friction from rubbing; the warming here comes from absorbing radiation directly."
+          },
+          {
+            "label": "Because warm air always rises up from the troposphere below",
+            "feedback": "Warm air rising from the troposphere would eventually cool again on the way up; the stratosphere's warmth instead comes from what happens inside that layer itself."
+          },
+          {
+            "label": "Because the stratosphere reflects heat back from the layer above it",
+            "feedback": "The layer above the stratosphere is far colder, not a source of extra heat reflecting back down."
+          },
+          {
+            "label": "Because each absorbed ray of ultraviolet energy converts into heat within that layer",
+            "feedback": "When an ozone molecule absorbs a ray of ultraviolet light, the energy it takes in does not vanish; it is released as heat right there in that layer."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Absorbed energy becomes heat",
+        "ok_line": "The energy the ozone catches has to go somewhere; it becomes warmth.",
+        "ko_title": "Not the source",
+        "ko_line": "The warmth of the stratosphere comes directly from what happens when it absorbs incoming sunlight.",
+        "exp_title": "Absorbed energy turns to warmth",
+        "exp_text": "When a ray of ultraviolet light strikes an ozone molecule and is absorbed, the energy it carried does not simply disappear. That energy is released as heat right there within the layer, warming it as more and more absorption happens. The stratosphere warms because each absorbed ray of ultraviolet energy converts into heat within that layer."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "The ozone layer stretches over a wide band of the sky. Is the ozone within it packed densely, like a solid shield?",
+        "body": null,
+        "options": [
+          {
+            "label": "Yes, it forms a dense, solid wall of gas",
+            "feedback": "Ozone at that height remains a very thin, spread-out gas; nothing in the atmosphere at that altitude is dense or solid."
+          },
+          {
+            "label": "No, the ozone within it is actually spread quite thin",
+            "feedback": "Despite covering a wide band of sky, the ozone molecules that do the absorbing are spread thinly through that band rather than packed densely."
+          },
+          {
+            "label": "Yes, but only directly above the equator",
+            "feedback": "The ozone layer is not confined to directly above the equator; it extends in a band that circles the whole planet."
+          },
+          {
+            "label": "No, because there is barely any ozone anywhere in the atmosphere",
+            "feedback": "Ozone is genuinely concentrated within that band compared with the rest of the atmosphere; it is simply not densely packed even there."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Thin, but effective",
+        "ok_line": "Spread thin across a wide band is still enough to filter the sun's rays.",
+        "ko_title": "Not solid",
+        "ko_line": "Nothing at that height in the atmosphere is dense or solid, ozone included.",
+        "exp_title": "Effective while spread thin",
+        "exp_text": "The ozone layer stretches across a wide band of the stratosphere, circling the whole planet. Within that wide band, the ozone molecules doing the absorbing are not densely packed; they are spread thin through a large volume of already thin air. Even though it covers a wide band of sky, the ozone within it is actually spread quite thin."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is ozone constantly being destroyed and reformed in the stratosphere, rather than simply sitting there as a fixed stockpile?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because passing clouds sweep it away and it has to reform",
+            "feedback": "Clouds form far below in the troposphere and never reach the stratosphere, so they cannot sweep ozone away."
+          },
+          {
+            "label": "Because ozone evaporates completely overnight and reforms each morning",
+            "feedback": "Ozone does not simply vanish overnight; the ongoing back-and-forth between formation and breakdown happens continuously, day and night alike."
+          },
+          {
+            "label": "Because the same ultraviolet light that helps create it also breaks some of it apart again",
+            "feedback": "Ultraviolet light both splits oxygen to form new ozone and splits existing ozone molecules apart, so the layer is an ongoing balance rather than a fixed stock."
+          },
+          {
+            "label": "Because strong winds in the stratosphere blow it all away each day",
+            "feedback": "Winds can shift ozone around within the stratosphere, but the constant destroying and reforming described here comes from a chemical process, not wind."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A constant balance",
+        "ok_line": "The same light that builds it also takes some of it apart again.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "The layer isn't swept away by weather. Something chemical keeps both making and unmaking it.",
+        "exp_title": "A continuous back and forth",
+        "exp_text": "Ultraviolet light splits ordinary oxygen molecules apart, and the loose atoms that result go on to form new ozone. That same ultraviolet light also strikes existing ozone molecules and breaks some of them apart again. Ozone is constantly destroyed and reformed because the same ultraviolet light that helps create it also breaks some of it apart again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "You can sometimes smell a sharp odour in the air right after a lightning strike. Why?",
+        "body": null,
+        "options": [
+          {
+            "label": "The electrical energy of the strike splits nearby oxygen molecules, which recombine into ozone",
+            "feedback": "A lightning strike carries enough energy to break oxygen molecules apart in the air right around it, and the loose atoms then join other oxygen molecules to form ozone, the very gas whose sharp smell is being noticed."
+          },
+          {
+            "label": "Lightning pulls ozone down from the stratosphere to ground level",
+            "feedback": "Ozone from the stratosphere stays high in the atmosphere; the sharp smell after a strike is made freshly, right there near the ground."
+          },
+          {
+            "label": "The heat of the strike burns nearby plants and produces the smell",
+            "feedback": "The odour after a lightning strike is not smoke from burning plants; it is a distinct sharp smell produced through a different process entirely."
+          },
+          {
+            "label": "Rain droplets release a stored gas as they fall near the strike",
+            "feedback": "Raindrops do not release a stored gas; the sharp smell comes from a gas newly formed by the electrical energy of the strike itself."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Made fresh, right there",
+        "ok_line": "The same basic reaction that builds the ozone layer, just closer to the ground.",
+        "ko_title": "Not from up there",
+        "ko_line": "The smell isn't ozone arriving from the stratosphere. It's being made right where the strike occurs.",
+        "exp_title": "The same gas, made near the ground",
+        "exp_text": "A lightning strike releases a burst of electrical energy strong enough to split some of the oxygen molecules in the surrounding air. Those freed atoms then attach to other oxygen molecules nearby, forming ozone right there near the ground. The sharp smell after a lightning strike comes from the electrical energy of the strike splitting nearby oxygen molecules, which recombine into ozone."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Ozone forms both high in the stratosphere and occasionally near the ground. Why is it protective in one place but harmful to breathe in the other?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because high in the stratosphere it never touches any living creature, only incoming sunlight, while near the ground it is inhaled directly into living lungs",
+            "feedback": "High above, ozone only ever intercepts sunlight passing through; near the ground, the very same gas can be drawn straight into the delicate tissue of the lungs."
+          },
+          {
+            "label": "Because it is a completely different gas in each location",
+            "feedback": "The ozone molecule itself is identical in both places; what differs is where it ends up and what it comes into contact with."
+          },
+          {
+            "label": "Because it is far more concentrated near the ground than it ever is in the stratosphere",
+            "feedback": "The concentration found near the ground on occasion is generally lower than the concentration maintained in the stratosphere; concentration is not what makes the difference described here."
+          },
+          {
+            "label": "Because it only reacts with oxygen high in the stratosphere",
+            "feedback": "Ozone can react with the substances around it wherever it happens to be, whether high in the stratosphere or down near the ground."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Same gas, different exposure",
+        "ok_line": "One only ever meets sunlight. The other can be breathed straight in.",
+        "ko_title": "Not quite",
+        "ko_line": "The molecule is identical in both places. The difference lies in what it actually comes into contact with.",
+        "exp_title": "The same gas, met very differently",
+        "exp_text": "High in the stratosphere, ozone spends its existence intercepting incoming sunlight and never comes near a living creature at all. Near the ground, that same gas can be drawn directly into the lungs with every breath, where it irritates living tissue it was never encountered by up above. It is protective in one place and harmful in the other because high in the stratosphere it never touches any living creature, only incoming sunlight, while near the ground it is inhaled directly into living lungs."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 223,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a foraging trail of ants fade away once the food source runs out?",
+        "body": null,
+        "options": [
+          {
+            "label": "Worker ants scrape the trail away once the food is gone",
+            "feedback": "No ant patrols the trail to clean it. Nothing removes the scent on purpose."
+          },
+          {
+            "label": "The trail chemical is fixed to last a set time no matter what",
+            "feedback": "If that were true, a busy trail and an abandoned one would fade at the same rate, and they do not."
+          },
+          {
+            "label": "Each passing ant adds a fresh trace, and with nobody walking it the scent simply evaporates",
+            "feedback": "Correct — the trail is only as strong as its most recent footsteps."
+          },
+          {
+            "label": "The queen calls the workers back with a different scent",
+            "feedback": "The queen stays deep in the nest; she has no way to reach or overwrite a trail out in the open."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Exactly right",
+        "ok_line": "The path is rewritten by every ant that uses it.",
+        "ko_title": "Not erased, just not renewed",
+        "ko_line": "Ask what happens to a chemical that nobody keeps adding to.",
+        "exp_title": "A trail written by footsteps",
+        "exp_text": "An ant that finds food touches its abdomen to the ground on the way home, leaving a chemical trace called a pheromone. Every ant that follows the same path lays a bit more, so the trail grows stronger as long as the food lasts. Once nobody walks it, the pheromone simply evaporates within minutes, and the path fades along with the food that made it worth marking."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the queen ant's job inside the colony?",
+        "body": null,
+        "options": [
+          {
+            "label": "She commands the workers where to dig",
+            "feedback": "There is no central command. Workers act on scent trails and local cues, not on orders from the queen."
+          },
+          {
+            "label": "She lays the eggs that become every ant in the nest",
+            "feedback": "Correct — production, not direction, is her role."
+          },
+          {
+            "label": "She guards the nest entrance",
+            "feedback": "Guarding falls to workers built for it. The queen stays deep inside, rarely near an opening at all."
+          },
+          {
+            "label": "She forages for food once the workers are busy",
+            "feedback": "It runs the other way: once a colony is established, the queen almost never leaves, and foraging is left entirely to her daughters."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's her one job",
+        "ok_line": "Every worker in the nest is her daughter.",
+        "ko_title": "Wrong job",
+        "ko_line": "The queen's task is production, not the tasks that follow from it.",
+        "exp_title": "One egg-layer, many hands",
+        "exp_text": "A colony's workers are the queen's daughters, all sterile, and she is the only member able to produce fertilised eggs in large numbers. Fed and groomed by the workers around her, she spends her time laying, while every other task — digging, foraging, nursing the brood — is split among the daughters she keeps producing. The queen supplies the colony's growth; running the nest is left to everyone she made."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do leafcutter ants carry pieces of leaf into the nest instead of eating them?",
+        "body": null,
+        "options": [
+          {
+            "label": "The leaves are used to line the tunnel walls",
+            "feedback": "The tunnel walls are bare soil. The leaves are put to a very different use once they reach the nest."
+          },
+          {
+            "label": "The ants chew the leaves into a paste that feeds a fungus they eat",
+            "feedback": "Correct — the leaf is a farm input, not a meal."
+          },
+          {
+            "label": "The leaves attract insects the ants then hunt",
+            "feedback": "Nothing is being lured. The leaf fragments never leave the ants' own tunnels for that purpose."
+          },
+          {
+            "label": "The leaves are stacked as a dry-season food reserve",
+            "feedback": "The leaves themselves are indigestible to the ants; they are turned into compost for something else, not stored whole."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Farmers, not grazers",
+        "ok_line": "The ants eat what the fungus becomes, not the leaf itself.",
+        "ko_title": "Not the leaf's real use",
+        "ko_line": "Watch what happens to the leaf once it disappears underground.",
+        "exp_title": "Farmers, not grazers",
+        "exp_text": "Leafcutter ants cannot digest the leaves they cut. Back in the nest, workers chew the fragments into a pulp, spread it on a spongy mat, and plant it with threads of a fungus that grows nowhere else. The fungus breaks the plant matter down and grows swollen tips that the ants harvest as food, so the leaf feeds the fungus, and the fungus feeds the colony."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some ants stroke aphids gently with their antennae instead of eating them?",
+        "body": null,
+        "options": [
+          {
+            "label": "The stroking calms the aphids so they stop breeding",
+            "feedback": "It works the opposite way: the ants want the aphids to keep feeding and multiplying, not to slow down."
+          },
+          {
+            "label": "It signals the aphid to release a drop of sweet honeydew, which the ant drinks",
+            "feedback": "Correct — the tapping is a request for food, and the aphid pays it without harm."
+          },
+          {
+            "label": "It marks the aphid as prey for a later meal",
+            "feedback": "A marked aphid is protected, not hunted, for as long as it keeps producing."
+          },
+          {
+            "label": "It cleans parasites off the aphid's body",
+            "feedback": "The tapping targets the aphid's abdomen for a purpose tied to food, not hygiene."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Milking, not hunting",
+        "ok_line": "A tap of the antennae asks for a meal that costs the aphid nothing.",
+        "ko_title": "Not a hunt",
+        "ko_line": "An ant that wanted to eat the aphid would not keep tending it afterward.",
+        "exp_title": "Milking a herd of aphids",
+        "exp_text": "Aphids feed on plant sap and pass most of its sugar straight through as a sticky waste called honeydew. An ant taps an aphid's abdomen with its antennae, and the tapping triggers the aphid to release a droplet, which the ant drinks on the spot. In exchange the ants guard the aphids from predators and sometimes carry them to fresher shoots, tending the herd as a food supply worth protecting."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do nearly blind army ants stay together while marching in a single dense column?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each ant memorises the route from earlier trips",
+            "feedback": "Army ants never nest in one place long enough to learn a route; they move to a new site every so often."
+          },
+          {
+            "label": "Ants at the front signal the ones behind with a call",
+            "feedback": "Ants have no voice for this kind of signalling, so nothing is called back down the line."
+          },
+          {
+            "label": "Every ant follows the scent laid seconds earlier by the ants just ahead of it",
+            "feedback": "Correct — the trail is remade continuously by the marchers themselves."
+          },
+          {
+            "label": "The column lines up along a fixed beam of sunlight",
+            "feedback": "Columns move through leaf litter, under cover, and at night as well, so a beam of light cannot be steering them."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A trail with no memory",
+        "ok_line": "Every ant is following a scent laid moments before.",
+        "ko_title": "Not sight, not sound",
+        "ko_line": "Army ants march in the dark just as readily as in daylight.",
+        "exp_title": "Following a trail that is always fresh",
+        "exp_text": "Army ants have poor eyesight, so the column is not held together by sight. Each ant lays a thread of scent as it walks, and the ants immediately behind follow that scent rather than any fixed path, keeping the whole mass moving as one dense ribbon. Because the trail is remade every few seconds by the ants currently walking it, the column can bend around an obstacle and close back up without anyone losing the way."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a tall termite mound keep its underground nest supplied with fresh air?",
+        "body": null,
+        "options": [
+          {
+            "label": "Termites fan the tunnels with their wings",
+            "feedback": "Most termites inside the mound are wingless workers and soldiers; nothing beats air through by muscle."
+          },
+          {
+            "label": "The mound's chimney and porous walls set up a slow flow of air driven by temperature differences",
+            "feedback": "Correct — the mound works like a chimney, without a single moving part."
+          },
+          {
+            "label": "Rain seeping through the walls pushes stale air out",
+            "feedback": "Rain soaking the porous walls would clog them, not pump air through them."
+          },
+          {
+            "label": "The queen's breathing draws air down to her chamber",
+            "feedback": "The scale is far too small; one insect's breathing cannot move air through a structure that size."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A chimney with no fire",
+        "ok_line": "Warm air rises and pulls cool air in behind it.",
+        "ko_title": "No muscle involved",
+        "ko_line": "Nothing inside the mound is big enough to move that much air by force.",
+        "exp_title": "A mound that breathes without lungs",
+        "exp_text": "A termite mound is built with a central chimney and thin, porous outer walls. Warm, stale air produced by the colony rises up through the chimney, while cooler outside air sinks back down through the porous walls to replace it. No termite pumps this flow; it runs on the temperature difference between the mound's core and its surface, turning the whole structure into a working chimney."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a termite get nourishment from wood, which is almost pure cellulose?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its jaws grind the cellulose fine enough to become sugar",
+            "feedback": "Chewing only breaks wood into smaller pieces; it does not chemically split cellulose apart."
+          },
+          {
+            "label": "Microorganisms living in the termite's gut break the cellulose down for it",
+            "feedback": "Correct — the termite feeds a partnership it could not run alone."
+          },
+          {
+            "label": "Termites absorb sugar already dissolved in the wood",
+            "feedback": "Wood holds almost no free sugar; nearly all of its energy is locked inside cellulose that first has to be broken apart."
+          },
+          {
+            "label": "Termites do not digest the wood; it only fills their stomach",
+            "feedback": "Wood is genuinely eaten for energy, not carried as filler with no nutritional use."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A team effort",
+        "ok_line": "The termite supplies the wood; its gut guests supply the chemistry.",
+        "ko_title": "Not by chewing alone",
+        "ko_line": "Grinding wood into splinters is not the same as breaking its chemistry apart.",
+        "exp_title": "A gut that is not working alone",
+        "exp_text": "A termite's own body has no way to split the tough chains of cellulose that make up wood. Living inside its hindgut are protozoa and bacteria that do have the right chemistry, breaking the cellulose down into simple compounds the termite can absorb. In return the gut offers these microorganisms a warm, food-rich home, so the wood is digested by a partnership rather than by the termite on its own."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a single winged female ant start an entirely new colony after mating?",
+        "body": null,
+        "options": [
+          {
+            "label": "She carries a group of workers with her from the old nest",
+            "feedback": "A founding queen leaves alone; no escort of workers travels with her on the nuptial flight."
+          },
+          {
+            "label": "She waits for workers to hatch from the old queen's eggs",
+            "feedback": "Eggs laid by the old queen would only add to the old colony, not begin a separate one."
+          },
+          {
+            "label": "She keeps her wings in case she needs to fly back to the old nest",
+            "feedback": "The wings are shed right after mating and never regrown, so there is no way back."
+          },
+          {
+            "label": "She breaks off her own wings, digs a small chamber, and raises her first workers alone on reserves stored in her body",
+            "feedback": "Correct — she founds the colony single-handed before any worker exists to help her."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Alone from the start",
+        "ok_line": "One queen, sealed in, living off her own reserves.",
+        "ko_title": "No help arrives",
+        "ko_line": "A founding queen has nobody with her when she lands.",
+        "exp_title": "One founder, sealed in alone",
+        "exp_text": "On her nuptial flight, a young queen mates with a male in the air, then lands and snaps off her own wings, since she will never fly again. She digs a small chamber, seals the entrance, and lays her first eggs, feeding the hatching larvae on reserves stored in her now-unused flight muscles. Only once this first brood of workers matures does she stop living off her own body and start running a colony."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is one clear sign that a pale insect marching from a mound is a termite worker rather than an ant worker?",
+        "body": null,
+        "options": [
+          {
+            "label": "It has a narrow 'waist' pinching its body in two",
+            "feedback": "A pinched waist is the mark of an ant; a termite's body stays broad and unpinched from front to back."
+          },
+          {
+            "label": "It is pale and could be either a male or a female",
+            "feedback": "Correct — termite labour is not restricted to one sex the way it is in ants."
+          },
+          {
+            "label": "It has a hard, shiny black shell",
+            "feedback": "That describes many ants. Termite workers are typically soft-bodied and pale, not hard and dark."
+          },
+          {
+            "label": "It carries a sting at the tip of its abdomen",
+            "feedback": "Termites have no stinger at all; that trait belongs to certain ants and wasps instead."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Kinship tells the story",
+        "ok_line": "A cockroach ancestor explains the pale body and the missing pupa.",
+        "ko_title": "Look past the resemblance",
+        "ko_line": "Two insects can look alike and still not be close relatives.",
+        "exp_title": "A relative of the cockroach, not the wasp",
+        "exp_text": "Ants belong to the same insect group as bees and wasps, and their workers are always females with a pinched waist. Termites evolved from a cockroach-like ancestor and keep a cockroach trait ants lack: they grow through nymphs that gradually come to resemble the adult, without ever passing through a still, transformed pupa. Their pale, soft-bodied workers can also be either males or females, since termite duty is shared between the sexes rather than reserved for one."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a soldier termite defend a tunnel entrance against raiding ants?",
+        "body": null,
+        "options": [
+          {
+            "label": "It sprays a gas that travels far down the tunnel",
+            "feedback": "Termite soldier defence works at close range, by blocking or biting, not by a gas that reaches far ahead."
+          },
+          {
+            "label": "It blocks the tunnel with its own oversized, armoured head",
+            "feedback": "Correct — the soldier's body becomes the barrier itself."
+          },
+          {
+            "label": "It calls other soldiers with a loud chirp",
+            "feedback": "No sound travels far enough underground for this; recruitment relies on chemical and vibration signals instead."
+          },
+          {
+            "label": "It changes colour to warn the colony of danger",
+            "feedback": "A blind insect living in the dark cannot rely on a signal that has to be seen."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A living plug",
+        "ok_line": "The soldier's own head becomes the door.",
+        "ko_title": "No gas, no colour, no call",
+        "ko_line": "A blind insect underground has no way to use a signal that needs to be seen or heard from afar.",
+        "exp_title": "A living plug in a narrow door",
+        "exp_text": "Many termite soldiers have a head so wide and hard that it fits the tunnel like a plug, and when danger arrives that soldier turns to face outward and wedges its head into the opening, blocking the passage with its own armour. Ants attacking one at a time meet a wall of hard cuticle instead of an open door, and the soldier holds that position until the intruder is turned back or bitten by the mandibles guarding the gap behind it."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the five cardinal signs of inflammation?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Itch, redness, swelling, heat, and numbness",
+            "feedback": "Numbness is not a cardinal sign. The five are heat, pain, redness, swelling, and loss of function."
+          },
+          {
+            "label": "Fever, chills, fatigue, cough, and sore throat",
+            "feedback": "These are symptoms of many infections, but they are not the five classic signs of inflammation."
+          },
+          {
+            "label": "Heat, pain, redness, swelling, and loss of function",
+            "feedback": "Correct. These five signs—called dolor, calor, rubor, tumor, and functio laesa—are the classic markers of acute inflammation."
+          },
+          {
+            "label": "Pain, bleeding, bruising, stiffness, and weakness",
+            "feedback": "Bleeding and bruising are not among the five cardinal signs of inflammation."
+          }
+        ],
+        "ok_title": "Cardinal signs named",
+        "ok_line": "The five signs are heat, pain, redness, swelling, and loss of function.",
+        "ko_title": "Signs misidentified",
+        "ko_line": "Those symptoms do not match the five classic signs of inflammation.",
+        "exp_title": "The five signs of inflammation",
+        "exp_text": "Acute inflammation shows itself through heat, pain, redness, swelling, and loss of function. These come from increased blood flow, fluid leaking into tissues, and nerve stimulation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of inflammation lasts for months or years?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Acute inflammation",
+            "feedback": "Acute inflammation is short-term, lasting only a few days. Chronic inflammation is the long-lasting type."
+          },
+          {
+            "label": "Chronic inflammation",
+            "feedback": "Correct. Chronic inflammation is prolonged, lasting months or years, and involves a different mix of immune cells."
+          },
+          {
+            "label": "Subacute inflammation",
+            "feedback": "Subacute inflammation lasts 2 to 6 weeks, which is longer than acute but not months or years."
+          },
+          {
+            "label": "Type 1 inflammation",
+            "feedback": "Type 1 refers to a classification based on cytokines and T helper cells, not on how long inflammation lasts."
+          }
+        ],
+        "ok_title": "Chronic is long-lasting",
+        "ok_line": "Chronic inflammation persists for months or years.",
+        "ko_title": "Wrong duration type",
+        "ko_line": "That type does not match the long-lasting category.",
+        "exp_title": "Acute versus chronic",
+        "exp_text": "Chronic inflammation is the kind that drags on for months or years, with macrophages, lymphocytes, and plasma cells dominating. Acute inflammation is brief and dominated by neutrophils."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the redness and heat seen in an inflamed area?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Increased blood flow to the area",
+            "feedback": "Correct. Vasodilation widens blood vessels, letting more blood arrive, which makes the skin red and warm."
+          },
+          {
+            "label": "The build-up of dead cells",
+            "feedback": "Dead cells do not produce heat or redness by themselves; the redness and heat come from the extra blood flow."
+          },
+          {
+            "label": "The release of stomach acid",
+            "feedback": "Stomach acid is not involved in the redness and heat of inflammation."
+          },
+          {
+            "label": "The loss of function in the tissue",
+            "feedback": "Loss of function is a separate sign, not the cause of redness and heat."
+          }
+        ],
+        "ok_title": "Blood flow causes signs",
+        "ok_line": "Increased blood flow makes the area red and warm.",
+        "ko_title": "Cause missed",
+        "ko_line": "Redness and heat come from extra blood, not from those other things.",
+        "exp_title": "Why inflamed skin is red and hot",
+        "exp_text": "When tissue gets inflamed, blood vessels dilate. This increased blood flow brings more blood to the spot, which is why it looks red and feels warm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cells are the first to respond in acute inflammation, arriving in large numbers?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells carry oxygen but are not the immune cells that migrate to an inflamed site."
+          },
+          {
+            "label": "Lymphocytes",
+            "feedback": "Lymphocytes are more typical of chronic inflammation, not the first responders in acute inflammation."
+          },
+          {
+            "label": "Platelets",
+            "feedback": "Platelets help with clotting, but the main immune cells in acute inflammation are neutrophils and macrophages."
+          },
+          {
+            "label": "Neutrophils",
+            "feedback": "Correct. Neutrophils, a type of granulocyte, migrate quickly to the site of acute inflammation."
+          }
+        ],
+        "ok_title": "Neutrophils are first",
+        "ok_line": "Neutrophils rush to the inflamed site early.",
+        "ko_title": "Wrong cell type",
+        "ko_line": "That is not the cell that dominates the acute inflammatory response.",
+        "exp_title": null,
+        "exp_text": "In acute inflammation, neutrophils—a kind of white blood cell—are the main cells that leave the blood and move into the injured tissue. They are part of the granulocyte family."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of the pain felt during inflammation?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To turn off the immune response",
+            "feedback": "Pain does not switch off inflammation; it signals that something is wrong and often makes you protect the area."
+          },
+          {
+            "label": "To increase blood flow",
+            "feedback": "Blood flow increase causes heat and redness, not pain. Pain comes from chemicals like bradykinin and histamine."
+          },
+          {
+            "label": "To alert you and make you protect the area",
+            "feedback": "Correct. Pain, caused by chemicals that stimulate nerve endings, draws your attention and often makes you rest or guard the injured part."
+          },
+          {
+            "label": "To remove dead tissue",
+            "feedback": "Removing dead tissue is done by immune cells, not by pain itself."
+          }
+        ],
+        "ok_title": "Pain is a warning",
+        "ok_line": "Pain signals trouble and prompts you to protect the area.",
+        "ko_title": "Pain misunderstood",
+        "ko_line": "Pain is a signal, not a cause of other inflammatory signs.",
+        "exp_title": null,
+        "exp_text": "Pain in inflammation comes from chemicals like bradykinin and histamine that stimulate nerve endings. Its job is to make you aware of injury and to discourage use, which helps the area heal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the swelling (tumor) in inflammation mainly caused by?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The growth of new cells",
+            "feedback": "New cell growth happens during repair, but the immediate swelling comes from fluid leaking into the tissue."
+          },
+          {
+            "label": "Fluid leaking out of blood vessels into the tissue",
+            "feedback": "Correct. Increased blood vessel permeability lets plasma and fluid escape into the tissue, causing edema and swelling."
+          },
+          {
+            "label": "The arrival of red blood cells",
+            "feedback": "Red blood cells are not the main cause of swelling; fluid is."
+          },
+          {
+            "label": "The production of stomach acid",
+            "feedback": "Stomach acid is not present at sites of inflammation in the body."
+          }
+        ],
+        "ok_title": "Fluid causes swelling",
+        "ok_line": "Leaked fluid from vessels makes the tissue swell.",
+        "ko_title": "Swelling cause wrong",
+        "ko_line": "Swelling comes from fluid, not from those other factors.",
+        "exp_title": null,
+        "exp_text": "Inflammation makes blood vessels more permeable, so plasma proteins and fluid leak into the surrounding tissue. This accumulation of fluid is what produces the swelling."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a typical cause of acute inflammation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A burn",
+            "feedback": "Correct. Burns are listed as typical causes of acute inflammation, along with pathogens, allergens, and toxins."
+          },
+          {
+            "label": "A long-term disease like diabetes",
+            "feedback": "Diabetes is associated with chronic inflammation, not acute inflammation."
+          },
+          {
+            "label": "Aging",
+            "feedback": "Aging is not listed as a cause of acute inflammation."
+          },
+          {
+            "label": "Chronic fatigue",
+            "feedback": "Chronic fatigue is a symptom of chronic inflammation, not a cause of acute inflammation."
+          }
+        ],
+        "ok_title": "Burn causes acute inflammation",
+        "ok_line": "Burns trigger the short-term inflammatory response.",
+        "ko_title": "Wrong cause chosen",
+        "ko_line": "That is not listed as a typical trigger of acute inflammation.",
+        "exp_title": null,
+        "exp_text": "Acute inflammation is the immediate response to harmful stimuli. Burns, frostbite, pathogens, and toxins can all set it off, while long-term conditions like diabetes are linked to chronic inflammation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of cells are most common in chronic inflammation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Neutrophils",
+            "feedback": "Neutrophils dominate acute inflammation, not chronic. In chronic inflammation, other cells take over."
+          },
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells are not immune cells and are not typical of chronic inflammation."
+          },
+          {
+            "label": "Platelets",
+            "feedback": "Platelets are involved in clotting, not as the main cell type in chronic inflammation."
+          },
+          {
+            "label": "Macrophages, lymphocytes, and plasma cells",
+            "feedback": "Correct. These cells predominate in chronic inflammation, replacing the neutrophils seen in acute cases."
+          }
+        ],
+        "ok_title": "Chronic cells identified",
+        "ok_line": "Macrophages, lymphocytes, and plasma cells dominate chronic inflammation.",
+        "ko_title": "Wrong dominant cell",
+        "ko_line": "That cell type belongs to the acute phase, not the chronic one.",
+        "exp_title": null,
+        "exp_text": "Chronic inflammation features a different cell population than acute. Instead of neutrophils, you find macrophages, lymphocytes, and plasma cells at the site."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main function of inflammation in the body?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To produce red blood cells",
+            "feedback": "Red blood cell production is handled by bone marrow, not inflammation."
+          },
+          {
+            "label": "To lower body temperature",
+            "feedback": "Inflammation often raises temperature through increased blood flow, not lowers it."
+          },
+          {
+            "label": "To eliminate the cause of injury and begin tissue repair",
+            "feedback": "Correct. Inflammation works to remove the harmful stimulus, clear damaged cells, and start repairing the tissue."
+          },
+          {
+            "label": "To absorb nutrients from food",
+            "feedback": "Nutrient absorption happens in the digestive system, not through inflammation."
+          }
+        ],
+        "ok_title": "Inflammation's job",
+        "ok_line": "It clears the cause and starts repair.",
+        "ko_title": "Function misstated",
+        "ko_line": "Inflammation does not do those other jobs.",
+        "exp_title": null,
+        "exp_text": "Inflammation is the body's way of dealing with injury or infection. It eliminates the initial cause of cell damage, clears away dead cells, and sets the stage for healing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens when acute inflammation stops, after the harmful stimulus is removed?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It never stops and turns into chronic inflammation",
+            "feedback": "Acute inflammation normally stops once the stimulus is gone; it does not always become chronic."
+          },
+          {
+            "label": "It ceases because the mediators are short-lived and degrade quickly",
+            "feedback": "Correct. The inflammatory chemicals are quickly broken down in the tissue, so without continued stimulation the inflammation fades."
+          },
+          {
+            "label": "It turns into a fever",
+            "feedback": "Fever is a separate response; stopping acute inflammation does not cause a fever."
+          },
+          {
+            "label": "It produces more neutrophils",
+            "feedback": "Producing more neutrophils would keep inflammation going, not stop it."
+          }
+        ],
+        "ok_title": "Inflammation ceases naturally",
+        "ok_line": "Once the stimulus goes, the mediators fade and inflammation stops.",
+        "ko_title": "Stopping misunderstood",
+        "ko_line": "Acute inflammation does not continue unless the stimulus persists.",
+        "exp_title": null,
+        "exp_text": "Acute inflammation needs constant stimulation to continue. The mediators that drive it are short-lived and quickly degraded, so after the harmful stimulus is removed, the inflammation begins to subside."
+      }
+    ]
+  }
+]

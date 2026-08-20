@@ -1,15 +1,22 @@
 -- =====================================================================
 -- Sara — app d'exercices · schéma
 --
+-- ⚠ CE FICHIER NE REPRODUIT PLUS LA BASE. Il date du démarrage et n'a
+-- pas suivi les 19 migrations. Il lui manque `chapter` et `sign`, il
+-- déclare `exercise_like` là où la base a `exercise_vote`, et il garde
+-- des bornes de longueur retirées par la 015. La vérité est dans
+-- `data/sara.db (SQLite)` et dans `db/migrations/`. Ne pas s'en servir pour
+-- recréer la base.
+--
 -- On part de zéro : pas de H5P, pas de reprise de sara_learn.
--- La source d'un thème est du Markdown ; les exercices en sont dérivés
--- par un prompt choisi selon (type de question × niveau de Bloom).
+-- La source d'un thème est du Markdown, découpé en chapitres ; chaque
+-- chapitre commande un lancement, et un lancement écrit ses exercices.
 --
 --   category ─┬─ sub_category ─┐
 --             └────────────────┴─> theme ─< theme_tag >─ tag
 --                                    │
---                                    └─< exercise_prompt >── prompt
---                                             │
+--                                    └─< exercise_prompt >─┐ (parent_id)
+--                                             │  ^─────────┘
 --                                             └─< exercise
 --
 -- MySQL 8 · InnoDB · utf8mb4
@@ -120,37 +127,17 @@ CREATE TABLE theme_tag (
 ) ENGINE = InnoDB;
 
 -- ---------------------------------------------------------------------
--- Prompts — le gabarit, puis son instance rendue pour un thème
+-- Lancements — un texte envoyé au modèle, et ce qu'il en est sorti
 -- ---------------------------------------------------------------------
 
--- Un gabarit par couple (type de question × niveau de Bloom).
--- Versionné : améliorer un prompt ne doit pas effacer la trace de ce
--- qui a produit les exercices déjà en base.
-CREATE TABLE prompt (
-  id            INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  type_question ENUM('qcm','true_false','complete','find_error','reorder') NOT NULL,
-  type_bloom    ENUM('remember','understand','apply','analyze') NOT NULL,
-  version       SMALLINT UNSIGNED NOT NULL DEFAULT 1,
-  is_active     TINYINT(1)   NOT NULL DEFAULT 1,
-
-  label         VARCHAR(160) NOT NULL,
-  -- Gabarit avec substitutions : {{source}}, {{title}}, {{tags}}, {{count}}
-  template      MEDIUMTEXT   NOT NULL,
-  -- Forme attendue de la réponse du modèle, validée avant insertion.
-  output_schema JSON         NULL,
-
-  created_at    DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (id),
-  UNIQUE KEY uq_prompt_variant (type_question, type_bloom, version),
-  KEY ix_prompt_active (is_active, type_question, type_bloom)
-) ENGINE = InnoDB;
-
--- Une exécution : ce thème, ce gabarit, ce texte réellement envoyé.
+-- Une exécution : ce thème, ce texte réellement envoyé, ce qui en est né.
 -- Permet de remonter d'un exercice douteux au prompt exact qui l'a écrit.
+-- `parent_id` pointe vers un autre lancement : une recharge de feed
+-- rejoue la consigne d'un lancement antérieur et se déclare son enfant.
 CREATE TABLE exercise_prompt (
   id              INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  theme_id        INT UNSIGNED NOT NULL,
-  prompt_id       INT UNSIGNED NOT NULL,
+  chapter_id      INT UNSIGNED NOT NULL,
+  parent_id       INT UNSIGNED NULL,
 
   rendered_prompt MEDIUMTEXT   NOT NULL,
   model           VARCHAR(96)  NULL,
@@ -164,12 +151,15 @@ CREATE TABLE exercise_prompt (
   finished_at     DATETIME     NULL,
 
   PRIMARY KEY (id),
-  KEY ix_exercise_prompt_theme (theme_id, status),
-  KEY ix_exercise_prompt_prompt (prompt_id),
-  CONSTRAINT fk_exercise_prompt_theme
-    FOREIGN KEY (theme_id) REFERENCES theme (id) ON DELETE CASCADE,
-  CONSTRAINT fk_exercise_prompt_prompt
-    FOREIGN KEY (prompt_id) REFERENCES prompt (id)
+  KEY ix_exercise_prompt_chapter (chapter_id, status),
+  KEY ix_exercise_prompt_parent (parent_id),
+  -- Une ligne sa propre mère : interdit. MySQL vérifie les CHECK
+  -- depuis 8.0.16 ; en deçà, la clause est acceptée puis ignorée.
+  CONSTRAINT ck_exercise_prompt_parent CHECK (parent_id IS NULL OR parent_id <> id),
+  CONSTRAINT fk_exercise_prompt_chapter
+    FOREIGN KEY (chapter_id) REFERENCES chapter (id) ON DELETE CASCADE,
+  CONSTRAINT fk_exercise_prompt_parent
+    FOREIGN KEY (parent_id) REFERENCES exercise_prompt (id) ON DELETE CASCADE
 ) ENGINE = InnoDB;
 
 -- ---------------------------------------------------------------------
@@ -182,8 +172,6 @@ CREATE TABLE exercise (
   exercise_prompt_id INT UNSIGNED NULL,
 
   type_question ENUM('qcm','true_false','complete','find_error','reorder') NOT NULL,
-  type_bloom    ENUM('remember','understand','apply','analyze') NOT NULL,
-  difficulty    TINYINT UNSIGNED NOT NULL DEFAULT 2,
 
   -- Écran exercice. Limites de longueur imposées ici plutôt que dans
   -- l'UI : « un écran, pas de scroll » se tient à l'écriture.
@@ -201,7 +189,6 @@ CREATE TABLE exercise (
   ko_line       VARCHAR(200) NULL,
   exp_title     VARCHAR(160) NULL,
   exp_text      VARCHAR(600) NOT NULL,
-  exp_tip       VARCHAR(240) NULL,
 
   -- draft     : sorti du modèle, pas encore relu
   -- validated : relu, servi dans le feed
@@ -217,7 +204,7 @@ CREATE TABLE exercise (
 
   PRIMARY KEY (id),
   -- L'index qui porte le feed : thème abonné + validé.
-  KEY ix_exercise_feed (theme_id, state, type_bloom),
+  KEY ix_exercise_feed (theme_id, state),
   KEY ix_exercise_prompt_run (exercise_prompt_id),
   CONSTRAINT fk_exercise_theme
     FOREIGN KEY (theme_id) REFERENCES theme (id) ON DELETE CASCADE,

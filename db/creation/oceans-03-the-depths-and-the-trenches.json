@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 150,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the open ocean turn pitch dark below a certain depth, even where the water is perfectly clear?",
+        "body": null,
+        "options": [
+          {
+            "label": "The extreme pressure at that depth switches off any light that reaches it",
+            "feedback": "Pressure squeezes water and anything in it, but it has no effect on light passing through — the darkness comes from absorption, not from force."
+          },
+          {
+            "label": "Water itself steadily absorbs every wavelength of sunlight as it travels downward, and past a certain depth none is left",
+            "feedback": "Even in the clearest water, every colour of sunlight loses a little energy to absorption on every metre it travels, and past a certain depth so much has been absorbed that essentially none remains to see by."
+          },
+          {
+            "label": "Sediment stirred up from the ocean floor blocks the sunlight before it can travel that deep",
+            "feedback": "The water here is described as perfectly clear, with nothing suspended in it, so there is no sediment to block anything — the darkness happens even without any cloudiness."
+          },
+          {
+            "label": "The Earth's curve blocks direct sunlight from ever reaching such depths",
+            "feedback": "Sunlight strikes straight down into open water regardless of the Earth's curve; the darkness comes from the water absorbing the light on its way down, not from the light failing to arrive."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Absorbed, not blocked",
+        "ok_line": "Every metre of water takes a little more light with it.",
+        "ko_title": "Not the reason",
+        "ko_line": "The water is clear, so ask what clear water itself does to light passing through it.",
+        "exp_title": "Swallowed a little at a time",
+        "exp_text": "Water is not perfectly transparent: on every metre it travels through, sunlight loses some of its energy to absorption. Red light is soaked up within the first stretch of depth, and the remaining colours fade out one after another as the light goes deeper, until even blue, the colour water lets through farthest, has been absorbed away too. Past that point nothing the sun sent down is left, whether or not anything is floating in the water."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does water pressure keep increasing the deeper you go in the ocean?",
+        "body": null,
+        "options": [
+          {
+            "label": "The temperature keeps dropping, and colder water presses harder",
+            "feedback": "Cold water is somewhat denser than warm water, but temperature is not what builds up pressure with depth — the weight of the water above is."
+          },
+          {
+            "label": "Currents moving sideways compress the water beneath them",
+            "feedback": "Sideways currents shift water around but don't stack up the enormous weight that builds pressure with depth."
+          },
+          {
+            "label": "The weight of all the water sitting above a given point presses down on it, and that stacked weight grows with every metre added",
+            "feedback": "At any depth, every layer of water above is pressing its full weight down through the layers below it, so descending further simply adds more water — and more weight — on top."
+          },
+          {
+            "label": "The ocean floor pushes pressure upward the deeper the water gets",
+            "feedback": "The seabed supports the water resting on it; it doesn't generate extra pressure pushing upward into the water column."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Stacked weight",
+        "ok_line": "Every added metre of water adds its weight to what's below.",
+        "ko_title": "Not the cause",
+        "ko_line": "Think about what is physically sitting above any point in the ocean, and how much of it there is.",
+        "exp_title": "The weight of everything above",
+        "exp_text": "At the surface, only the air presses down. A metre below the surface, that same air presses down plus a metre's worth of water on top of it, and two metres down it is air plus two metres of water, and so on. Because each added layer of water adds its own weight to everything already pressing down from above, the total pressure keeps climbing the deeper you descend."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a deep ocean trench, like the ones that hold the lowest points on Earth's seafloor, actually form?",
+        "body": null,
+        "options": [
+          {
+            "label": "A meteor strikes the seabed and gouges out a long scar",
+            "feedback": "The deep trenches run for enormous distances along plate boundaries; a single impact could never carve a scar that shape or that long."
+          },
+          {
+            "label": "Ocean currents scour a channel into the seabed over time",
+            "feedback": "Currents can shift loose sediment, but they have nowhere near the force needed to carve a trench kilometres deep into solid rock."
+          },
+          {
+            "label": "A heavier, denser tectonic plate dives down beneath a neighbouring plate, bending the seafloor downward where the two meet",
+            "feedback": "Where a dense oceanic plate meets a lighter plate, it slides underneath and plunges into the mantle, and the seafloor at that boundary is dragged down into a long, deep bend before it disappears below."
+          },
+          {
+            "label": "Built-up gas pockets beneath the seabed collapse, leaving a hollow behind",
+            "feedback": "There is no large system of gas pockets beneath ordinary seafloor whose collapse could create a trench of this scale."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "One plate bending under another",
+        "ok_line": "The seafloor is dragged down as it's pulled beneath its neighbour.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what happens where two moving plates of seafloor meet, rather than what might strike or hollow it out.",
+        "exp_title": "The seafloor pulled downward",
+        "exp_text": "Earth's outer shell is broken into plates that are always slowly moving, and where one plate carrying dense oceanic crust runs into another, it is forced to slide underneath rather than push over the top. As that plate begins its long dive into the mantle, the seafloor right at the boundary is bent sharply downward before disappearing, and it is that bend that forms the trench."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the water sitting on the deep ocean floor stay near freezing even in the tropics, far below warm surface water?",
+        "body": null,
+        "options": [
+          {
+            "label": "The deep floor is fed by cold, dense water that sank at the poles and then spread slowly along the bottom, and it is cut off from the sun's warmth entirely",
+            "feedback": "Near the poles, seawater becomes cold and dense enough to sink all the way to the bottom, and it then creeps slowly across the seafloor toward the tropics, arriving still close to freezing because nothing down there receives any heat from the sun."
+          },
+          {
+            "label": "Deep water is compressed so tightly by pressure that it can't hold any heat",
+            "feedback": "Pressure changes water's density slightly, but it does not squeeze heat out of it; the cold comes from where that water originated, not from being compressed."
+          },
+          {
+            "label": "Underwater ice caps at the bottom of the ocean keep the deep water chilled",
+            "feedback": "There are no ice caps sitting on the ocean floor; deep water stays cold because of where it came from and its isolation from sunlight, not because ice is stored down there."
+          },
+          {
+            "label": "The seabed rock itself is naturally cold and chills the water resting on it",
+            "feedback": "Seabed rock doesn't generate cold; it simply sits at whatever temperature the surrounding water brings to it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Polar water, travelling far",
+        "ok_line": "Cold water sinks at the poles and creeps along the bottom everywhere else.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask where the deep water actually came from before it ever reached the tropics.",
+        "exp_title": "Cold from a very distant source",
+        "exp_text": "Near the poles, seawater cools and grows dense enough to sink all the way to the ocean floor, and once there it spreads outward across the entire globe in a slow bottom current that can take centuries to cross an ocean. By the time that water reaches the deep floor beneath the tropics, it is still close to the freezing temperature it had at the poles, because no sunlight ever reaches down to warm it along the way."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a mid-ocean ridge, and how does it come to form an underwater mountain chain thousands of kilometres long?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sediment carried by rivers piles up in a long line across the seafloor",
+            "feedback": "River sediment settles near coastlines and doesn't travel far enough out to sea to build a mountain chain running through the middle of an ocean."
+          },
+          {
+            "label": "Two plates are slowly pulling apart, and molten rock rises up through the gap and hardens into new seafloor, building a ridge along the split",
+            "feedback": "Where two plates are drifting away from each other, molten rock from below rises to fill the gap, cools, and hardens into fresh crust, and that steady process, repeated along the entire length of the split, builds up the long ridge."
+          },
+          {
+            "label": "Powerful currents push loose rock into a heap along a single line",
+            "feedback": "Currents move water and light sediment, not the enormous volume of solid rock needed to build a mountain range."
+          },
+          {
+            "label": "An old chain of volcanoes on land sank beneath the sea in one event",
+            "feedback": "A mid-ocean ridge is actively built by rising molten rock along a spreading boundary, not a sunken chain that existed on land beforehand."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Built where plates pull apart",
+        "ok_line": "New crust keeps rising to fill the gap, one stretch of ridge at a time.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what fills the gap left behind when two plates drift apart under the sea.",
+        "exp_title": "A seam that keeps refilling itself",
+        "exp_text": "Along certain boundaries, two tectonic plates are slowly drifting apart, leaving a narrow gap between them. Molten rock from deep below rises up to fill that gap, and as it meets the cold seawater it hardens into new solid crust before the process repeats a little further along the same seam. Over an immense stretch of time, that repeated filling builds a continuous underwater mountain chain running the length of the boundary."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the seafloor right next to a mid-ocean ridge much younger than the seafloor found close to a continent, thousands of kilometres away?",
+        "body": null,
+        "options": [
+          {
+            "label": "Storms erode the seafloor near continents, making it look artificially older",
+            "feedback": "Storms affect the surface of the ocean, not the age of solid rock sitting on the seafloor far below."
+          },
+          {
+            "label": "Seafloor near continents was there before the ocean itself existed",
+            "feedback": "All ocean seafloor was created by the same spreading process at some ridge; none of it predates the ocean it sits beneath."
+          },
+          {
+            "label": "Fishing and shipping wear down the crust near busy coastal routes",
+            "feedback": "Surface activity has no way of ageing solid rock on the seafloor far beneath it."
+          },
+          {
+            "label": "New crust is created right at the ridge and then carried gradually outward on both sides as more crust forms behind it",
+            "feedback": "Fresh crust hardens at the ridge itself, and as still more crust forms behind it, the older material is steadily pushed outward on both sides, so crust far from the ridge has been travelling — and ageing — the longest."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Youngest at the seam, oldest at the edge",
+        "ok_line": "Every new stretch of crust pushes the older crust further away.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask where new seafloor is actually being made, and what happens to the crust that was there before it.",
+        "exp_title": "A conveyor moving outward from the seam",
+        "exp_text": "At a mid-ocean ridge, molten rock keeps rising and hardening into brand-new crust right along the seam. That new crust pushes the crust made just before it a little further away, which in turn pushes the crust before that even further, so the seafloor spreads outward on both sides like a slow conveyor belt. The farther a stretch of seafloor sits from the ridge, the longer it has been travelling, and so the older it is."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do the mineral-rich hot vents found on parts of the deep seafloor come to exist?",
+        "body": null,
+        "options": [
+          {
+            "label": "Seawater seeps down into cracks near hot molten rock, gets heated and loaded with dissolved minerals, and then rushes back out through an opening",
+            "feedback": "Cold seawater trickles down through fissures in the crust toward hot rock below, dissolving minerals out of it as it heats, and that superheated, mineral-laden water then jets back out through a vent, cooling quickly and depositing the minerals it carried."
+          },
+          {
+            "label": "Underground rivers of fresh water break through the seabed and mix with the salt water above",
+            "feedback": "There is no network of fresh-water rivers running beneath the ocean floor feeding these vents; the water involved is ordinary seawater that has cycled down and back up."
+          },
+          {
+            "label": "Trapped air pockets from ancient volcanic eruptions slowly leak upward",
+            "feedback": "The vents release heated water carrying dissolved minerals, not old trapped air; the driving process is water circulating near hot rock, not gas escaping."
+          },
+          {
+            "label": "Waste dumped by ships settles on the seafloor and reacts with the rock",
+            "feedback": "These vents exist in remote, undisturbed parts of the seafloor and are driven by heat from within the Earth, not by anything dumped from the surface."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Water down, heat up, minerals out",
+        "ok_line": "Ordinary seawater does the whole trip and comes back transformed.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask where the water in these vents actually comes from before it ever gets hot.",
+        "exp_title": "A loop through the hot rock below",
+        "exp_text": "Near certain stretches of seafloor, cold seawater finds its way down through cracks toward rock heated by magma not far beneath. As it travels through that hot rock, the water dissolves minerals out of it and its own temperature climbs sharply, and the pressure eventually drives it back up and out through an opening in the crust. The moment it meets the cold ocean outside, the dissolved minerals fall out of the water again, often building tall chimney-like mounds around the vent."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do deep ocean trenches tend to form as long, curved arcs rather than running in a straight line?",
+        "body": null,
+        "options": [
+          {
+            "label": "Ocean currents sweep sediment sideways as the trench forms, curving it",
+            "feedback": "Currents do not have the force to physically bend the shape of a tectonic boundary kilometres beneath the surface."
+          },
+          {
+            "label": "Earthquakes along the trench randomly push sections of it out of line",
+            "feedback": "Earthquakes are a result of the plate movement, not the cause of the trench's overall curved shape."
+          },
+          {
+            "label": "Trenches are curved simply because they follow existing coastlines, which are curved",
+            "feedback": "Trenches form out at sea, often far from any coastline, and their shape comes from the geometry of the bending plate, not from tracing a nearby shore."
+          },
+          {
+            "label": "A rigid plate bending downward on the surface of a sphere naturally traces out a curve rather than a straight line",
+            "feedback": "A flat, rigid sheet forced to bend downward while sitting on a curved surface, like Earth's, cannot fold along a perfectly straight line — geometry forces the bend to trace an arc instead, the same way a flattened section of orange peel curls rather than staying flat."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Geometry, not chance",
+        "ok_line": "A flat sheet bending on a sphere has to curve.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what shape a rigid, flat sheet is forced into when it bends while resting on a curved surface.",
+        "exp_title": "Bending on a sphere",
+        "exp_text": "A tectonic plate is close to rigid, and where it dives downward into a trench, that bend has to happen on the surface of a sphere rather than on a flat plane. A rigid sheet simply cannot fold along a perfectly straight line on a curved surface without tearing, so the bend spreads out into a gentle arc instead, tracing the curve of a circle rather than a line."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Earth's single lowest point found inside a deep trench rather than somewhere in the middle of an open ocean basin?",
+        "body": null,
+        "options": [
+          {
+            "label": "Trenches happen to sit above unusually thin patches of crust everywhere they occur",
+            "feedback": "Crust thickness varies only gradually across an ocean basin; it is the active bending of a diving plate, not a patch of thin crust, that produces the extreme depth of a trench."
+          },
+          {
+            "label": "A trench is where one plate is actively bent and dragged downward as it slides beneath another, driving that stretch of seafloor lower than anywhere else",
+            "feedback": "Away from a trench, the seafloor simply sits at the ordinary depth set by its age and the rock beneath it, but right at a trench a plate is being actively bent and pulled down as it dives beneath its neighbour, and that active downward pull drags the seafloor there far lower than anywhere else."
+          },
+          {
+            "label": "Sediment is scooped out of trenches by strong currents, deepening them further",
+            "feedback": "Currents are far too weak to excavate a feature the size and depth of a trench; the depth comes from the plate itself being bent downward."
+          },
+          {
+            "label": "The middle of an ocean basin is naturally the shallowest part of the seafloor",
+            "feedback": "The middle of an ocean basin, near a mid-ocean ridge, is actually where the seafloor is at its shallowest and youngest — the deepest points lie at the far edges, in the trenches."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Actively pulled down",
+        "ok_line": "A trench is deep because a plate is being dragged downward there right now.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what is actively happening to the seafloor at a trench that isn't happening anywhere else in the basin.",
+        "exp_title": "Where the seafloor is being dragged under",
+        "exp_text": "Ordinary seafloor away from a trench simply sits at the depth its age and cooling have settled it to, growing gradually deeper the older and farther from the ridge it is. At a trench, though, an entire plate is being actively bent and dragged downward as it slides beneath a neighbouring plate, and that ongoing pull takes the seafloor there far below the depth reached by ageing alone."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a submarine canyon get carved into the slope leading down from a continental shelf to the deep seafloor?",
+        "body": null,
+        "options": [
+          {
+            "label": "Melting icebergs drill straight down through the slope as they sink",
+            "feedback": "Icebergs float and melt near the surface; they never reach down to the base of a continental slope to carve anything into it."
+          },
+          {
+            "label": "A dense, sediment-laden flow of water rushes downslope under gravity, scouring out a channel as it goes, much like a river cutting a canyon on land",
+            "feedback": "When loose sediment on the upper slope is disturbed, it mixes with the surrounding water to form a fast, dense flow that is heavier than the clear water around it, and gravity pulls that mixture rushing down the slope, cutting into the seabed the way a fast river cuts into rock."
+          },
+          {
+            "label": "Whales repeatedly diving along the same path wear a channel into the slope over time",
+            "feedback": "A diving animal's body has nowhere near the force needed to carve a channel into solid seabed, no matter how many times it repeats the dive."
+          },
+          {
+            "label": "Underwater earthquakes shake the slope until a crack randomly opens into a canyon shape",
+            "feedback": "An earthquake can trigger sediment to start moving, but the canyon itself is carved by the fast-moving sediment flow that follows, not by the shaking alone."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A river of sediment, not water",
+        "ok_line": "Heavy, sediment-laden water rushes downhill and cuts as it goes.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what could actually be dense and fast enough to scour a channel into solid seabed.",
+        "exp_title": "A landslide that keeps flowing",
+        "exp_text": "Loose sediment sitting on a continental slope can be disturbed by a storm, an earthquake, or simply its own build-up, and once stirred it mixes with the surrounding seawater into a cloudy mixture far denser than clear water. Gravity pulls that dense mixture rushing down the slope at speed, and as it travels it scours loose material out of the seabed beneath it, cutting a channel that deepens and lengthens with every such flow that follows the same path."
+      }
+    ]
+  }
+]

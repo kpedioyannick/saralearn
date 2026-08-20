@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 133,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does magma rise up through solid rock toward the surface?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is less dense than the solid rock around it, so it floats upward wherever a crack or weak path lets it move",
+            "feedback": "Being lighter than the rock around it is exactly what lets magma work its way upward through any opening it finds."
+          },
+          {
+            "label": "Gravity pulls it upward the same way it pulls everything else down",
+            "feedback": "Gravity pulls every mass toward the planet's center, never away from it; something else has to explain why magma moves the opposite way."
+          },
+          {
+            "label": "Trapped gas beneath it pushes it upward from underneath",
+            "feedback": "Gas dissolved within magma matters for how an eruption unfolds later, but it is not what starts magma moving upward through solid rock in the first place."
+          },
+          {
+            "label": "Heat radiating from the surface pulls it upward",
+            "feedback": "The surface is far cooler than the depths where magma forms, and heat does not travel from a cold place to pull something warmer toward it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Lighter material rising through what surrounds it.",
+        "ko_title": "Not gravity, not gas, not heat from above",
+        "ko_line": "Ask what property lets one material rise through another.",
+        "exp_title": "Lighter than what surrounds it",
+        "exp_text": "Molten rock takes up more space than the same material would as a solid, which makes it noticeably lighter for its size than the solid rock pressing in around it. Wherever a crack or a weakness offers a path, that lighter material works its way upward through the denser rock above it, the way anything less dense rises through something denser around it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can solid rock deep underground turn into magma without any extra heat being added to it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Cooling it further makes it easier to melt",
+            "feedback": "Cooling moves rock away from melting, not toward it; a cooler rock needs more heat to melt, not less."
+          },
+          {
+            "label": "Pressure on the rock drops, and rock under less pressure can melt at a lower temperature",
+            "feedback": "As pressure eases, the temperature the rock already sits at can become enough to melt it, without any extra heat added."
+          },
+          {
+            "label": "The rock is compressed harder until it liquefies",
+            "feedback": "Added pressure generally raises the temperature rock needs to melt rather than lowering it; squeezing harder pushes melting further away, not closer."
+          },
+          {
+            "label": "The rock naturally melts on its own after enough time has passed",
+            "feedback": "Time by itself changes nothing about a rock's temperature or the pressure on it; melting needs one of those conditions to actually shift."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "Melting by letting go of pressure, not by adding heat.",
+        "ko_title": "Not cooling, not squeezing, not waiting",
+        "ko_line": "Melting depends on pressure as well as heat; ask what happens when the pressure itself changes.",
+        "exp_title": "Melting by letting go, not by heating",
+        "exp_text": "The temperature at which rock melts is not fixed; it depends on the pressure squeezing the rock as well as on how hot the rock already is. If rock rises toward the surface, or the material above it thins, the pressure holding it together eases, and the temperature it was already at becomes enough to melt it even though nothing added any extra heat."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What else, besides losing pressure, can cause solid rock to melt without extra heat being supplied?",
+        "body": null,
+        "options": [
+          {
+            "label": "Losing dissolved water makes rock melt more easily",
+            "feedback": "It works the other way around: water mixed into rock lowers the temperature it needs to melt, so losing that water raises the temperature back up."
+          },
+          {
+            "label": "Adding more solid rock on top makes the rock beneath melt",
+            "feedback": "Piling more rock on top increases the pressure and squeeze, which raises the temperature rock needs to melt rather than lowering it."
+          },
+          {
+            "label": "Water carried into hot rock, for example water dragged down with a sinking plate, can lower the temperature the rock needs to melt",
+            "feedback": "Mixed-in water changes the rock enough that it can melt at a temperature that would never have melted it while dry."
+          },
+          {
+            "label": "Cooling the surrounding rock slightly speeds up melting",
+            "feedback": "Cooling moves rock further from its melting point, not closer, no matter how slight the change is."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "Water changes what it takes for rock to give way.",
+        "ko_title": "Not water lost, not weight added",
+        "ko_line": "Something can be mixed INTO rock that changes the temperature it needs to melt.",
+        "exp_title": "Water changes the recipe",
+        "exp_text": "Mixing even a small amount of water into hot rock changes the arrangement its minerals need in order to stay solid, lowering the temperature at which the rock gives way and turns liquid. Rock carried down at a boundary can bring water down with it, and once that water reaches hot rock nearby, the mixture melts at a temperature that dry rock in the same place never would."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What mainly determines whether an eruption is a violent explosion or a gentle outflow of lava?",
+        "body": null,
+        "options": [
+          {
+            "label": "How deep the volcano's roots reach into the ground",
+            "feedback": "The depth of the source does not decide how the eruption looks at the surface; the character of the magma itself does that."
+          },
+          {
+            "label": "How old the volcano is",
+            "feedback": "Age does not determine how an eruption behaves; the same volcano can erupt differently depending on the magma feeding it at the time."
+          },
+          {
+            "label": "How much ash has piled up from earlier eruptions",
+            "feedback": "Ash already sitting on the surface does not control how the next batch of magma behaves as it rises and erupts."
+          },
+          {
+            "label": "How thick the magma is and how much gas it holds: thick, gas-rich magma traps pressure until it bursts violently, while thin magma lets gas escape and flows out gently",
+            "feedback": "Thickness and trapped gas decide whether pressure builds toward a burst or leaks away calmly as the magma flows."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "Thick and trapped bursts; thin and loose flows.",
+        "ko_title": "Not depth, not age, not old ash",
+        "ko_line": "Ask what property of the magma itself decides how it lets its gas go.",
+        "exp_title": "Thickness decides how it lets go",
+        "exp_text": "Magma always carries some dissolved gas, and what happens to that gas as the magma nears the surface depends heavily on how thick and sticky the magma is. Thin, runny magma lets rising bubbles slip out easily as it flows, while thick, sticky magma traps those bubbles until the pressure they build up has nowhere left to go but out all at once."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a volcano's cone build up into a tall, sloped shape over time?",
+        "body": null,
+        "options": [
+          {
+            "label": "Repeated eruptions deposit layer after layer of lava and ash around the vent, each layer adding to what came before",
+            "feedback": "A cone grows the way anything grows by repeated additions stacked one on top of another."
+          },
+          {
+            "label": "The ground beneath it slowly rises on its own, pushing the cone upward",
+            "feedback": "The ground under a volcano is not what lifts the cone; its height comes from material piling up on top of it, eruption after eruption."
+          },
+          {
+            "label": "Wind carries dust from far away and deposits it around a single spot",
+            "feedback": "Distant windblown dust does not build a volcanic cone; the material comes from the volcano's own eruptions, not from elsewhere."
+          },
+          {
+            "label": "Rain washes rock down from higher ground and heaps it around the vent",
+            "feedback": "Rain moves material downhill, away from a peak, not up and around it into a growing cone."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Built up one eruption at a time.",
+        "ko_title": "Not lifted, not blown in, not washed down",
+        "ko_line": "Ask where the material making up the cone actually comes from.",
+        "exp_title": "Built one eruption at a time",
+        "exp_text": "Each time a volcano erupts, it adds a fresh layer of lava, ash, or both around its vent, draped over whatever was deposited by the eruption before it. Over many such events, those layers stack up around the same central point, and the pile they form grows steadily taller and takes on the sloped shape of a cone."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is volcanic ash actually made of?",
+        "body": null,
+        "options": [
+          {
+            "label": "Soot left behind after lava burns",
+            "feedback": "Nothing is burning in an eruption; ash is not a byproduct of combustion the way soot from a fire is."
+          },
+          {
+            "label": "Tiny fragments of rock and glass, shattered apart by rapidly expanding gas",
+            "feedback": "Violently expanding gas tears magma into countless small solid and glassy pieces as it erupts."
+          },
+          {
+            "label": "Fine dust blown in from the surrounding landscape",
+            "feedback": "The ash comes out of the volcano itself, made from its own erupting magma, not gathered up from the land around it."
+          },
+          {
+            "label": "Condensed smoke from gases cooling in the air",
+            "feedback": "Ash is made of solid rock and glass fragments, not a cloud formed from gas condensing after it cools."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Shattered rock and glass, not smoke.",
+        "ko_title": "Not soot, not dust, not smoke",
+        "ko_line": "Ask what force could tear solid magma into pieces small enough to drift on the wind.",
+        "exp_title": "Shattered rock, not smoke",
+        "exp_text": "As gas-charged magma nears the surface, the pressure holding its dissolved gas in solution drops suddenly, and that gas expands violently within the magma almost all at once. That expansion tears the magma apart into countless small fragments of rock and glass, and those fragments, once cooled, are what falls back down as ash."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can gas escape from a volcano even when no lava is erupting at the surface?",
+        "body": null,
+        "options": [
+          {
+            "label": "Rainwater seeping underground reacts with rock to produce fresh gas",
+            "feedback": "The gas escaping here is not newly made by rainwater reacting with rock; it was already dissolved within magma sitting below."
+          },
+          {
+            "label": "Old ash on the surface slowly releases gas trapped inside it",
+            "feedback": "Ash that has already cooled and settled does not hold onto gas the way still-molten magma does."
+          },
+          {
+            "label": "Magma sitting below the surface still holds dissolved gas, which works its way up and out through any open crack",
+            "feedback": "As long as a crack offers a path, gas dissolved in magma below can escape even while the magma itself stays underground."
+          },
+          {
+            "label": "Wind pulls gas up from deep underground through open cracks",
+            "feedback": "Wind at the surface has no reach down into cracks that lead to magma far below; it cannot pull gas up from that depth."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "Gas finds its own way out, with or without erupting lava.",
+        "ko_title": "Not rain, not old ash, not wind",
+        "ko_line": "The gas has to be coming from somewhere still holding it: think about what sits below the surface, still molten.",
+        "exp_title": "Gas finds its own way out",
+        "exp_text": "Even magma that never reaches the surface still holds gas dissolved within it, the way any liquid can hold more of a gas than seems obvious until it is released. Wherever a crack offers a path from that magma up to open air, some of that dissolved gas escapes along it on its own, whether or not any lava is erupting at that moment."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a volcano exist far from any boundary between plates?",
+        "body": null,
+        "options": [
+          {
+            "label": "Every volcano actually sits on a boundary, even if the boundary is hidden underground",
+            "feedback": "Some volcanoes truly sit in the middle of a plate, far from any boundary at all; there is no hidden boundary running beneath them."
+          },
+          {
+            "label": "Old boundaries never fully stop producing volcanoes even after plates stop moving there",
+            "feedback": "A boundary the plates have long since moved away from does not go on producing volcanoes by itself; something else explains volcanoes far from any boundary."
+          },
+          {
+            "label": "Cracks slowly spread underground from the nearest boundary until they reach the volcano",
+            "feedback": "Cracks do not creep gradually across a whole plate from a distant boundary all the way to an isolated volcano."
+          },
+          {
+            "label": "A fixed plume of unusually hot rising material melts through the crust from below regardless of where the boundary lies, and as the plate slowly moves over that fixed plume, it leaves behind a trail of volcanoes",
+            "feedback": "The plate is what moves, while the melting source underneath it stays in the same place."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "A fixed source below, a moving plate above.",
+        "ko_title": "Not a hidden boundary, not a creeping crack",
+        "ko_line": "The boundary is not the only thing that can melt through a plate from below.",
+        "exp_title": "A fixed source under a moving plate",
+        "exp_text": "In some places, unusually hot material rises steadily from deep within the planet at one fixed spot, staying in that same place regardless of what is happening at any plate boundary far away. Because the plate above keeps drifting while that rising source stays put, a volcano forms wherever the plate currently sits over it, and an older volcano is left behind, no longer above the source, as the plate continues on."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What separates a dormant volcano from one that is extinct?",
+        "body": null,
+        "options": [
+          {
+            "label": "A dormant volcano still has a magma supply that could erupt again; an extinct one has lost that supply for good",
+            "feedback": "Dormant means quiet for now but still connected to a source below; extinct means that connection is gone."
+          },
+          {
+            "label": "A dormant volcano is older than an extinct one",
+            "feedback": "Age alone does not separate the two; a very old volcano can still be dormant if it keeps a magma supply, and a young one can already be extinct if it has lost its own."
+          },
+          {
+            "label": "An extinct volcano is simply one that has never erupted",
+            "feedback": "An extinct volcano has typically erupted in the past; what makes it extinct is that it has since lost any supply that could feed a future eruption."
+          },
+          {
+            "label": "A dormant volcano is one that has collapsed into itself",
+            "feedback": "Collapse describes a shape a volcano's summit can take after certain eruptions, not whether it still has a magma supply able to erupt again."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Quiet with a source left, or quiet without one.",
+        "ko_title": "Not age, not a blank history, not shape",
+        "ko_line": "What matters is out of sight: whether a supply of magma still connects to the volcano at all.",
+        "exp_title": "Quiet with a source, or quiet without one",
+        "exp_text": "Both a dormant and an extinct volcano can look the same on the surface: neither is erupting, and neither has for some time. What separates them is out of sight, in whether a magma supply still connects to the volcano's plumbing: a dormant one keeps that connection and could erupt again, while an extinct one has lost it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does soil formed from volcanic material often support especially strong plant growth?",
+        "body": null,
+        "options": [
+          {
+            "label": "Ash blocks sunlight from reaching weeds, leaving only the strongest plants",
+            "feedback": "Blocking light for competing plants does not add anything to the soil itself; the fertility comes from what the material contributes, not from what it blocks."
+          },
+          {
+            "label": "Lava and ash break down over time, releasing minerals in a form that plant roots can take up",
+            "feedback": "Weathering slowly frees minerals locked inside volcanic rock and ash, making them available to growing roots."
+          },
+          {
+            "label": "Heat left in the ground keeps the soil warm enough for year-round growth",
+            "feedback": "Any residual heat fades long before a landscape becomes vegetated; warmth is not what makes this kind of soil fertile."
+          },
+          {
+            "label": "Gas released earlier by the volcano still feeds the soil today",
+            "feedback": "Gas that escaped during past eruptions is long gone from the area; it is not a lasting ingredient of the soil that formed afterward."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Minerals set free from the rock itself.",
+        "ko_title": "Not blocked light, not leftover heat or gas",
+        "ko_line": "Ask what the rock and ash themselves are made of, and what happens to that over time.",
+        "exp_title": "Minerals set free, slowly",
+        "exp_text": "Volcanic rock and ash are packed with minerals that plants can use, but locked inside a solid, unavailable form when they first settle. As rain and time work on that material, breaking it down bit by bit, those minerals are gradually freed into forms that roots can actually draw in and use for growth."
+      }
+    ]
+  }
+]

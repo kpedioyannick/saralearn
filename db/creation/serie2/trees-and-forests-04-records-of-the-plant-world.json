@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 233,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a tree trunk contains the newest wood?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The centre, called the heartwood",
+            "feedback": "The centre is the oldest wood, often darker because it is filled with resins and gums. Newest wood is added on the outside, just under the bark."
+          },
+          {
+            "label": "The rings in the middle of the trunk",
+            "feedback": "Those middle rings formed years ago. Each year adds a fresh ring at the outer edge, so the newest wood is always nearest the bark."
+          },
+          {
+            "label": "Just under the bark",
+            "feedback": "Correct. A thin layer called the cambium adds new wood each year around the whole trunk, so the newest ring is always the outermost one."
+          },
+          {
+            "label": "The bark itself",
+            "feedback": "Bark is protective outer tissue, not wood. Wood is the inner material, and its newest layer lies just beneath the bark, not in the bark."
+          }
+        ],
+        "ok_title": "New wood location",
+        "ok_line": "The newest ring forms right under the bark.",
+        "ko_title": "New wood location",
+        "ko_line": "New wood is added at the outer edge, not the center.",
+        "exp_title": "Newest wood",
+        "exp_text": "The cambium, a thin layer just under the bark, produces new wood each growing season. That new layer wraps around the entire trunk, so the newest wood is always the outermost ring, directly beneath the bark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the correct term for the layer of cells that divides to produce new wood and new bark each year?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Heartwood",
+            "feedback": "Heartwood is the dead, central part of the trunk that provides support but no longer conducts water. The dividing layer is the cambium, which sits between wood and bark."
+          },
+          {
+            "label": "Sapwood",
+            "feedback": "Sapwood is the outer, living part of the wood that carries water upward. It is produced by the dividing layer, not the dividing layer itself."
+          },
+          {
+            "label": "Pith",
+            "feedback": "Pith is the soft tissue at the very centre of a young stem or trunk. The growth layer that makes new wood and bark is the cambium."
+          },
+          {
+            "label": "Cambium",
+            "feedback": "Correct. The cambium is a thin, actively dividing layer that produces new wood on its inner side and new bark on its outer side, making the trunk thicker each year."
+          }
+        ],
+        "ok_title": "Growth layer name",
+        "ok_line": "The cambium makes new wood and bark.",
+        "ko_title": "Growth layer name",
+        "ko_line": "The cambium is the dividing layer, not the heartwood or pith.",
+        "exp_title": "Cambium",
+        "exp_text": "The cambium is a narrow ring of living cells between the wood and the bark. By dividing, it adds new wood inside and new bark outside, which is how a trunk thickens year after year."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cells carry water from the roots to the leaves inside a tree trunk?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Vessels and tracheids",
+            "feedback": "Correct. Both are hollow, tube-like cells that form the sapwood and conduct water upward. Vessels are found mainly in broadleaf trees, tracheids in conifers, but both do the same job."
+          },
+          {
+            "label": "Phloem cells",
+            "feedback": "Phloem carries sugars made in the leaves down to the rest of the tree. Water transport uses xylem, which contains vessels and tracheids."
+          },
+          {
+            "label": "Bark cells",
+            "feedback": "Bark is protective outer tissue, not a water-conducting layer. Water moves through the inner wood, specifically the sapwood with its vessels and tracheids."
+          },
+          {
+            "label": "Cambium cells",
+            "feedback": "The cambium makes new cells but does not itself carry water. The water-conducting cells are the vessels and tracheids that the cambium produces."
+          }
+        ],
+        "ok_title": "Water-conducting cells",
+        "ok_line": "Vessels and tracheids carry water upward.",
+        "ko_title": "Water-conducting cells",
+        "ko_line": "Water travels in xylem vessels and tracheids, not phloem or bark.",
+        "exp_title": "Xylem cells",
+        "exp_text": "The wood of a trunk contains two kinds of water-conducting cells: vessels, which are wide tubes mainly in broadleaf trees, and tracheids, which are long, narrow cells in conifers. Together they form the sapwood that carries water from roots to leaves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of tissue forms the hard, dead centre of an old tree trunk?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Sapwood",
+            "feedback": "Sapwood is the outer, living part of the wood that still carries water. The hard, dead centre is heartwood, formed when sapwood cells fill with gums and resins."
+          },
+          {
+            "label": "Heartwood",
+            "feedback": "Correct. As a tree ages, inner sapwood cells die and become filled with resins and tannins, turning darker and forming heartwood, which gives strength but no longer transports water."
+          },
+          {
+            "label": "Phloem",
+            "feedback": "Phloem is living bark tissue that carries sugars downward. The dead centre of the trunk is heartwood, not phloem."
+          },
+          {
+            "label": "Cork",
+            "feedback": "Cork is part of the outer bark, produced by a separate layer. The centre of the trunk consists of heartwood, the dead, reinforced xylem."
+          }
+        ],
+        "ok_title": "Heart of the trunk",
+        "ok_line": "Heartwood is the old, dead centre wood.",
+        "ko_title": "Heart of the trunk",
+        "ko_line": "The centre is heartwood, not sapwood or phloem.",
+        "exp_title": "Heartwood",
+        "exp_text": "When sapwood cells age and stop conducting water, they fill with chemical substances such as resins and tannins, which make them darker and more resistant to decay. This transformed wood is called heartwood, and it forms the strong central core of the trunk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a function of the bark of a tree trunk?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Carrying water from roots to leaves",
+            "feedback": "Water moves through the inner wood, the xylem. Bark is the outer protective layer and does not transport water upward."
+          },
+          {
+            "label": "Producing new wood each year",
+            "feedback": "New wood is produced by the cambium, a layer beneath the bark. The bark itself does not make wood; it protects the inside."
+          },
+          {
+            "label": "Protecting the inner tissues from damage and drying",
+            "feedback": "Correct. Bark is a tough outer covering made of cork and phloem that shields the living cambium and sapwood from injury, insects, and water loss."
+          },
+          {
+            "label": "Storing sugars made in the leaves",
+            "feedback": "Sugars are stored in various living cells, especially in the sapwood and roots, not primarily in the bark. The main bark function is protection."
+          }
+        ],
+        "ok_title": "Bark function",
+        "ok_line": "Bark protects the trunk's inner tissues.",
+        "ko_title": "Bark function",
+        "ko_line": "Bark is protective, not a water or sugar pathway.",
+        "exp_title": "Bark's role",
+        "exp_text": "Bark is the outer, waterproof layer of the trunk. It keeps out insects, fungi, and physical damage, and prevents the inner living tissues from drying out, while also containing the phloem that carries sugars downward."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a tree ring, the wide light-colored part is formed during which season?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Winter",
+            "feedback": "In winter, growth stops or slows greatly, so no new wood is formed. The light ring is made during the active growing season, not winter."
+          },
+          {
+            "label": "Autumn",
+            "feedback": "Autumn is when growth is slowing down, producing darker, denser wood. The wide, light part is from the spring and early summer when growth is fastest."
+          },
+          {
+            "label": "Summer's end",
+            "feedback": "Late summer growth is already slowing, giving the darker band. The pale, wide area is from the rapid growth of spring and early summer."
+          },
+          {
+            "label": "Spring and early summer",
+            "feedback": "Correct. In spring and early summer, the cambium produces many large, thin-walled cells, making a wide, light-colored ring. As the season ends, cells become smaller and darker."
+          }
+        ],
+        "ok_title": "Light ring season",
+        "ok_line": "Light rings form in spring and early summer.",
+        "ko_title": "Light ring season",
+        "ko_line": "Light wood comes from fast spring growth, not winter or autumn.",
+        "exp_title": "Light ring origin",
+        "exp_text": "At the start of the growing season, abundant water and warmth let the cambium produce many wide, pale cells. This fast growth makes the broad, light-colored part of each annual ring."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the bark of an old tree often appear cracked and rough rather than smooth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the trunk grows wider faster than the outer bark can stretch",
+            "feedback": "Correct. The living tissues inside expand each year, while the outer cork cells are dead and rigid, so they split and crack, forming the rough, plated surface."
+          },
+          {
+            "label": "Because the tree loses bark every year and replaces it completely",
+            "feedback": "Trees do not shed all their bark each year; they add new layers. Cracking comes from the inner growth stretching the outer dead layers, not from wholesale replacement."
+          },
+          {
+            "label": "Because insects and fungi carve grooves into the surface",
+            "feedback": "Insects and fungi may attack some trees, but the typical cracking appears even in healthy, undisturbed trees, purely from internal growth pressure."
+          },
+          {
+            "label": "Because the tree's bark cells expand outward on their own as they age",
+            "feedback": "Bark cells do not actively expand. The cracking is caused by the increase in trunk width beneath the bark, which the outer dead layers cannot match."
+          }
+        ],
+        "ok_title": "Bark cracking cause",
+        "ok_line": "The widening trunk splits the rigid outer bark.",
+        "ko_title": "Bark cracking cause",
+        "ko_line": "Cracking comes from growth pressure, not insects or cell expansion.",
+        "exp_title": "Old bark appearance",
+        "exp_text": "As a trunk thickens, the cambium adds new layers inside the bark, pushing outward. The outer cork cells are dead and inflexible, so they tear and split, producing the deep fissures and rough plates seen on old trees."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What role do the small pores called lenticels play on the bark of a tree trunk?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They let water enter the trunk from rain",
+            "feedback": "Lenticels are not water entry points; the trunk takes in water only through the roots. Their job is gas exchange."
+          },
+          {
+            "label": "They allow sugars to move out of the bark",
+            "feedback": "Sugars move through phloem cells inside the bark, not through the lenticels. Lenticels are for air exchange only."
+          },
+          {
+            "label": "They allow gases to enter and leave the living bark cells",
+            "feedback": "Correct. Lenticels are loose clusters of cells that open to the outside, letting oxygen in for respiration and carbon dioxide out, since the outer bark is impermeable to air."
+          },
+          {
+            "label": "They anchor the bark to the wood beneath",
+            "feedback": "Anchoring is done by the cambium and inner bark layers, not by lenticels. Lenticels are simple breathing pores on the surface."
+          }
+        ],
+        "ok_title": "Lenticel job",
+        "ok_line": "Lenticels allow gas exchange for living bark.",
+        "ko_title": "Lenticel job",
+        "ko_line": "Lenticels are breathing pores, not water or sugar routes.",
+        "exp_title": "Lenticels",
+        "exp_text": "The outer bark is made of dead, tightly packed cells that keep air out. Lenticels are small patches of loosely arranged cells that act as pores, letting oxygen reach the living cells beneath and allowing carbon dioxide to escape."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What gives fresh, newly formed wood its lighter color compared to the heartwood?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It contains more chlorophyll",
+            "feedback": "Chlorophyll is found in leaves and young green stems, not in the wood of a mature trunk. The lighter color of sapwood is due to living cells and high water content."
+          },
+          {
+            "label": "It is full of living cells carrying water",
+            "feedback": "Correct. Sapwood is composed of active, water-filled cells that remain light in color. With age, dead cells become dark with stored resins, forming heartwood."
+          },
+          {
+            "label": "It is covered by a thin layer of white bark",
+            "feedback": "The bark is on the outside and not part of the wood itself. The paleness of sapwood comes from its internal cellular composition, not from bark covering."
+          },
+          {
+            "label": "It contains more air spaces than older wood",
+            "feedback": "Sapwood is actually more water-filled and has fewer air pockets than heartwood, which becomes darker and more air-filled as it dies."
+          }
+        ],
+        "ok_title": "Sapwood color",
+        "ok_line": "Living, water-filled cells make sapwood light.",
+        "ko_title": "Sapwood color",
+        "ko_line": "The pale color comes from living watery wood, not chlorophyll or bark.",
+        "exp_title": "Sapwood lightness",
+        "exp_text": "Sapwood consists of living cells that transport water, making it appear pale and moist. As these cells die and fill with dark chemicals, they transform into heartwood, which is why the center of a trunk is darker."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the thin layer of cells that produces new bark on a tree?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cork cambium",
+            "feedback": "Correct. The cork cambium is a lateral meristem in the outer bark that divides to produce cork cells, which form the protective waterproof outer layer."
+          },
+          {
+            "label": "Vascular cambium",
+            "feedback": "The vascular cambium produces new wood and inner bark, but not the outer cork layer. The cork cambium is the layer that makes the actual bark surface."
+          },
+          {
+            "label": "Apical meristem",
+            "feedback": "The apical meristem is found at root and shoot tips, making the tree longer, not wider. Bark production happens in the cork cambium."
+          },
+          {
+            "label": "Phloem",
+            "feedback": "Phloem is living tissue that carries sugars, not a producing layer. New bark cells come from the cork cambium, which lies just outside the phloem."
+          }
+        ],
+        "ok_title": "Bark-making layer",
+        "ok_line": "The cork cambium makes new bark cells.",
+        "ko_title": "Bark-making layer",
+        "ko_line": "Cork cambium, not vascular cambium or phloem, makes outer bark.",
+        "exp_title": "Cork cambium",
+        "exp_text": "The cork cambium is a ring of dividing cells in the outer part of the bark. It produces cork cells outward, which die and become filled with suberin, making them waterproof and protective—this is what forms the visible bark surface."
+      }
+    ]
+  }
+]

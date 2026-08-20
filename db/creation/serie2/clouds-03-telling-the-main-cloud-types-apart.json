@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 225,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type is made up of ice crystals and appears high in the sky as thin, wispy streaks?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cirrus",
+            "feedback": "Correct. Cirrus clouds form high up where temperatures are freezing, so they are made of ice crystals and look wispy."
+          },
+          {
+            "label": "Cumulus",
+            "feedback": "Cumulus clouds are the puffy, cotton-like clouds that form lower in the sky and are made of water droplets, not ice crystals."
+          },
+          {
+            "label": "Stratus",
+            "feedback": "Stratus clouds form as a flat, grey sheet at low altitude and are made of water droplets, not the wispy ice crystals of cirrus."
+          },
+          {
+            "label": "Nimbostratus",
+            "feedback": "Nimbostratus is a thick, dark rain cloud spread out low, not the high, wispy ice-crystal cloud described here."
+          }
+        ],
+        "ok_title": "Cirrus is wispy ice",
+        "ok_line": "High, cold air makes ice crystals, not droplets.",
+        "ko_title": "Mistook low clouds",
+        "ko_line": "Those are water-droplet clouds of the lower sky.",
+        "exp_title": "Cirrus clouds",
+        "exp_text": "Cirrus clouds are the ones found at the very top of the sky, where the air is freezing. That cold turns water vapour straight into ice crystals, which is why cirrus looks thin, wispy, and streaky rather than puffy. The other main types—cumulus and stratus—sit lower and are built from liquid water droplets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type looks like a flat, featureless grey sheet covering a large part of the sky?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Cumulus",
+            "feedback": "Cumulus clouds are separate, puffy clumps with a flat base, not a continuous flat sheet."
+          },
+          {
+            "label": "Cirrus",
+            "feedback": "Cirrus is thin and wispy high up, not a flat grey sheet near the ground."
+          },
+          {
+            "label": "Stratus",
+            "feedback": "Correct. Stratus clouds form as a uniform, grey layer that spreads out horizontally, often covering the whole sky."
+          },
+          {
+            "label": "Cumulonimbus",
+            "feedback": "Cumulonimbus is a towering storm cloud, tall and bulging, not a flat sheet."
+          }
+        ],
+        "ok_title": "Stratus is the blanket",
+        "ok_line": "It spreads wide and low as one even layer.",
+        "ko_title": "Picked a puffy one",
+        "ko_line": "Those clouds grow upward as separate lumps, not as a sheet.",
+        "exp_title": "Stratus clouds",
+        "exp_text": "Stratus clouds are the low, uniform grey blankets that spread out across the sky. They form when moist air rises slowly and evenly over a broad area, so instead of clumping into puffs it condenses into a single, flat, featureless layer. They usually bring dull, overcast weather, and sometimes light drizzle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a cloud that forms at ground level and touches the earth's surface?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Cumulus",
+            "feedback": "Cumulus clouds form well above the ground, with their bases in the sky, not at the surface."
+          },
+          {
+            "label": "Fog",
+            "feedback": "Correct. Fog is simply a cloud that sits at ground level, made of the same tiny water droplets as an ordinary cloud in the sky."
+          },
+          {
+            "label": "Cirrus",
+            "feedback": "Cirrus clouds are high in the atmosphere, far above the ground, so they are not at the surface."
+          },
+          {
+            "label": "Stratus",
+            "feedback": "Stratus is a low cloud but its base still sits above the ground; fog is the one that actually touches the surface."
+          }
+        ],
+        "ok_title": "Fog is ground cloud",
+        "ok_line": "Same droplets, just sitting on the earth.",
+        "ko_title": "Named a sky cloud",
+        "ko_line": "Those clouds float above, not on, the ground.",
+        "exp_title": "Fog as ground-level cloud",
+        "exp_text": "Fog is the name given to a cloud that forms at ground level. It is made of the same kind of tiny water droplets as any low cloud, but instead of floating overhead, it sits directly on the earth's surface, often collecting in valleys or over cool ground. When the sun warms the ground, fog usually dissipates."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type is a towering, dark storm cloud that can produce heavy rain, thunder, and lightning?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Stratus",
+            "feedback": "Stratus is a flat, grey layer that brings light drizzle, not the towering storm cloud with thunder and lightning."
+          },
+          {
+            "label": "Cirrus",
+            "feedback": "Cirrus is a high, thin ice-crystal cloud that does not bring storms or heavy rain."
+          },
+          {
+            "label": "Altocumulus",
+            "feedback": "Altocumulus is a middle-level patchy cloud, far smaller and not a storm producer."
+          },
+          {
+            "label": "Cumulonimbus",
+            "feedback": "Correct. Cumulonimbus is the cloud that grows tall from a cumulus base into a massive storm tower, bringing heavy rain, thunder, and lightning."
+          }
+        ],
+        "ok_title": "Cumulonimbus is the storm",
+        "ok_line": "It towers high and darkens into a thunderstorm.",
+        "ko_title": "Chose a calm cloud",
+        "ko_line": "Those clouds are thin or flat, not storm makers.",
+        "exp_title": "Cumulonimbus clouds",
+        "exp_text": "Cumulonimbus is the tall, dense storm cloud. It begins as a puffy cumulus, then keeps growing upward as strong updrafts feed it, until it becomes a dark, towering mass that can span several kilometres high. Inside it, strong vertical currents and ice particles produce heavy rain, thunder, and lightning."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type forms in a thin, continuous layer and often produces a halo around the sun or moon?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cirrostratus",
+            "feedback": "Correct. Cirrostratus is a high, thin, veil-like layer of ice crystals that refracts light, creating a halo around the sun or moon."
+          },
+          {
+            "label": "Stratus",
+            "feedback": "Stratus is low and thick, blocking the sun fully rather than letting a halo show through."
+          },
+          {
+            "label": "Cumulus",
+            "feedback": "Cumulus is puffy and separate, not a continuous layer, so it does not make a halo."
+          },
+          {
+            "label": "Nimbostratus",
+            "feedback": "Nimbostratus is a dark, rain-heavy cloud that hides the sun completely, not a thin halo-forming layer."
+          }
+        ],
+        "ok_title": "Cirrostratus makes halos",
+        "ok_line": "Its ice crystals bend light into a ring.",
+        "ko_title": "Picked a thick or puffy one",
+        "ko_line": "Halos need a thin, high, uniform ice layer.",
+        "exp_title": "Cirrostratus and halos",
+        "exp_text": "Cirrostratus is a high, thin cloud that covers the sky like a transparent veil. Because it sits in freezing air, it is made of ice crystals, and those crystals bend sunlight or moonlight to form a ring, or halo, around the sun or moon. Unlike thicker low clouds, it does not block the light entirely."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type is made of small, rounded patches arranged in a regular pattern, often called a mackerel sky?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Stratus",
+            "feedback": "Stratus is a flat, featureless sheet, not the regular patchy pattern of a mackerel sky."
+          },
+          {
+            "label": "Cirrus",
+            "feedback": "Cirrus appears as long, wispy streaks, not as small rounded clumps arranged in rows."
+          },
+          {
+            "label": "Altocumulus",
+            "feedback": "Correct. Altocumulus is a middle-level cloud made of many small, white or grey patches in rows or waves, which looks like the scales of a mackerel."
+          },
+          {
+            "label": "Cumulonimbus",
+            "feedback": "Cumulonimbus is a single massive storm tower, not a pattern of small patches."
+          }
+        ],
+        "ok_title": "Altocumulus mackerel sky",
+        "ok_line": "Its small patches line up in fish-scale rows.",
+        "ko_title": "Confused with flat or wispy",
+        "ko_line": "Mackerel sky is patchy and mid-level, not a sheet or streaks.",
+        "exp_title": "Altocumulus clouds",
+        "exp_text": "Altocumulus clouds form at middle heights, between low and high clouds. They are made of many small, rounded cloudlets that often arrange themselves into regular rows or waves, giving the sky a rippled, scaly look that people compare to a mackerel's back. They are usually a sign of changing weather but do not themselves bring rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type forms as a smooth, lens-shaped cloud that often appears to hover near a mountain peak?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Cumulus",
+            "feedback": "Cumulus is a puffy, cauliflower-topped cloud, not smooth and lens-shaped."
+          },
+          {
+            "label": "Lenticular",
+            "feedback": "Correct. Lenticular clouds are smooth, lens-shaped discs that form when moist air is forced up and over a mountain, often appearing to stay still in strong wind."
+          },
+          {
+            "label": "Stratus",
+            "feedback": "Stratus is a flat, widespread sheet, not a single smooth lens near a peak."
+          },
+          {
+            "label": "Cirrus",
+            "feedback": "Cirrus is high and wispy, unrelated to mountain peaks and not lens-shaped."
+          }
+        ],
+        "ok_title": "Lenticular cloud near peak",
+        "ok_line": "It shapes like a lens and seems to stand still.",
+        "ko_title": "Picked a common puffy or flat",
+        "ko_line": "Lenticular is smooth and distinct, not those forms.",
+        "exp_title": "Lenticular clouds",
+        "exp_text": "Lenticular clouds are smooth, almond- or lens-shaped clouds that form when strong winds push moist air up and over a mountain range. As the air rises and falls in waves, the cloud forms in the crest of the wave and looks like a hovering saucer. Even if the wind is strong, the cloud seems to stay fixed because new air keeps condensing at the same spot."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type is a low, dark, rain-producing cloud with no distinct shape, often bringing steady precipitation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cirrus",
+            "feedback": "Cirrus is high and dry, with no rain, so it cannot be the rain-bearing cloud described."
+          },
+          {
+            "label": "Cumulus",
+            "feedback": "Fair-weather cumulus is puffy and generally does not produce rain; the one described is dark and shapeless."
+          },
+          {
+            "label": "Altocumulus",
+            "feedback": "Altocumulus is a middle-level patchy cloud without continuous rain."
+          },
+          {
+            "label": "Nimbostratus",
+            "feedback": "Correct. Nimbostratus is a thick, grey, shapeless layer low in the sky that produces steady, long-lasting rain or snow."
+          }
+        ],
+        "ok_title": "Nimbostratus brings rain",
+        "ok_line": "It is a dark, formless, rain-heavy sheet.",
+        "ko_title": "Chose a dry or puffy cloud",
+        "ko_line": "This one is low, dark, and continuously rainy.",
+        "exp_title": "Nimbostratus clouds",
+        "exp_text": "Nimbostratus is the cloud that brings long, steady rain or snow. It is a thick, uniform grey layer low in the sky, so thick that it hides the sun completely and has no sharp edges or puffy shape. The 'nimbo' part of its name means it carries precipitation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type is made entirely of ice crystals and forms a smooth, white veil that covers the sky without blocking the sun's shape?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cirrostratus",
+            "feedback": "Correct. Cirrostratus is a high, thin layer of ice crystals that lets sunlight through while covering the sky like a veil."
+          },
+          {
+            "label": "Stratus",
+            "feedback": "Stratus is low and made of water droplets, and it blocks the sun rather than letting its shape show through."
+          },
+          {
+            "label": "Cumulonimbus",
+            "feedback": "Cumulonimbus is a massive storm cloud of water and ice, far too thick to act as a transparent veil."
+          },
+          {
+            "label": "Altostratus",
+            "feedback": "Altostratus is a middle-level grey layer, usually thicker and less transparent than cirrostratus."
+          }
+        ],
+        "ok_title": "Cirrostratus as veil",
+        "ok_line": "High ice layer covers but stays see-through.",
+        "ko_title": "Chose a thick or low layer",
+        "ko_line": "Those clouds are denser and block the sun fully.",
+        "exp_title": "Cirrostratus clouds",
+        "exp_text": "Cirrostratus is a high, thin cloud layer that spreads across the sky like a smooth white veil. Because it is so high, the air is freezing and the cloud is made of ice crystals, which are spread thinly enough that the sun or moon still shows through as a bright disc. This is the cloud that typically produces a halo."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which cloud type is a mid-level cloud that appears as a grey or bluish sheet, often covering the sky but without the wispiness of high clouds?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Cirrus",
+            "feedback": "Cirrus is high and wispy, not a grey or bluish sheet at mid-level."
+          },
+          {
+            "label": "Stratus",
+            "feedback": "Stratus is low and often produces fog or drizzle, not the mid-level sheet described."
+          },
+          {
+            "label": "Altostratus",
+            "feedback": "Correct. Altostratus is a middle-level cloud that forms a grey or bluish, fairly uniform sheet, often appearing before rain."
+          },
+          {
+            "label": "Cumulonimbus",
+            "feedback": "Cumulonimbus is a towering storm cloud, not a flat mid-level sheet."
+          }
+        ],
+        "ok_title": "Altostratus mid-level sheet",
+        "ok_line": "Grey layer sits between low and high clouds.",
+        "ko_title": "Confused with high or low",
+        "ko_line": "Altostratus is neither wispy-cold nor surface-touching.",
+        "exp_title": "Altostratus clouds",
+        "exp_text": "Altostratus is a mid-level cloud that looks like a grey or bluish sheet covering much of the sky. It forms between about 2 and 6 kilometres up, so it is higher than stratus but lower than cirrus. It is often a sign that rain or snow is on the way, and it is thick enough to dim the sun but not completely hide it."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 223,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the green pigment inside a leaf that captures light energy?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Chlorophyll",
+            "feedback": "Chlorophyll is the pigment in chloroplasts that absorbs light, mainly red and blue, and uses that energy to make food."
+          },
+          {
+            "label": "Carotene",
+            "feedback": "Carotene is a different pigment that gives carrots and autumn leaves their orange colour, but it is not the main light-capturing pigment in green leaves."
+          },
+          {
+            "label": "Melanin",
+            "feedback": "Melanin is a pigment found in animal skin and hair, not in plant leaves, and it protects against UV light rather than capturing light for food-making."
+          },
+          {
+            "label": "Xanthophyll",
+            "feedback": "Xanthophyll is a yellow pigment in leaves, but it is not the green pigment that does the main work of photosynthesis."
+          }
+        ],
+        "ok_title": "Green pigment named",
+        "ok_line": "Chlorophyll is the pigment that makes leaves green.",
+        "ko_title": "Pigment mix-up",
+        "ko_line": "Remember chlorophyll, not other pigments.",
+        "exp_title": "Chlorophyll's job",
+        "exp_text": "Chlorophyll sits in the chloroplasts of leaf cells and captures light energy for photosynthesis. It reflects green light, which is why leaves look green to us."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of a plant cell does photosynthesis take place?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Nucleus",
+            "feedback": "The nucleus holds the plant's genetic material and controls the cell, but it does not carry out photosynthesis."
+          },
+          {
+            "label": "Chloroplast",
+            "feedback": "Chloroplasts are the organelles that contain chlorophyll and where photosynthesis happens, turning light, water, and carbon dioxide into sugar and oxygen."
+          },
+          {
+            "label": "Mitochondrion",
+            "feedback": "Mitochondria are the powerhouses that break down sugar to release energy for the cell, but they do not make sugar from light."
+          },
+          {
+            "label": "Vacuole",
+            "feedback": "The vacuole stores water and other substances and helps keep the cell firm, but it is not the site of photosynthesis."
+          }
+        ],
+        "ok_title": "Chloroplast site",
+        "ok_line": "Photosynthesis occurs inside chloroplasts.",
+        "ko_title": "Wrong organelle",
+        "ko_line": "Chloroplasts, not other parts, do the food-making.",
+        "exp_title": "Where food is made",
+        "exp_text": "Photosynthesis happens in chloroplasts, which are full of chlorophyll. These organelles are found mainly in the leaf cells of green plants."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two raw materials a plant needs for photosynthesis?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen and sugar",
+            "feedback": "Oxygen and sugar are products of photosynthesis, not the raw materials that go in. The plant makes sugar and releases oxygen."
+          },
+          {
+            "label": "Water and oxygen",
+            "feedback": "Water is a raw material, but oxygen is made and given off during photosynthesis, so it is not something the plant takes in for this process."
+          },
+          {
+            "label": "Carbon dioxide and water",
+            "feedback": "Carbon dioxide enters through leaf pores and water comes up from the roots. Together, with light energy, they make sugar and release oxygen."
+          },
+          {
+            "label": "Carbon dioxide and sugar",
+            "feedback": "Sugar is the final product made by the plant, not an input. The plant needs carbon dioxide and water, not already-made sugar."
+          }
+        ],
+        "ok_title": "Raw materials pair",
+        "ok_line": "Carbon dioxide and water are the two inputs.",
+        "ko_title": "Inputs vs outputs",
+        "ko_line": "Sugar and oxygen are made, not taken in.",
+        "exp_title": "What photosynthesis needs",
+        "exp_text": "Photosynthesis uses carbon dioxide from the air and water absorbed by the roots. Light provides the energy that combines these into sugar, with oxygen released as a by-product."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What simple sugar does a plant produce during photosynthesis?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Starch",
+            "feedback": "Starch is a store of many sugar units joined together, made later from the sugar, not the simple sugar made directly in photosynthesis."
+          },
+          {
+            "label": "Cellulose",
+            "feedback": "Cellulose is a structural material in plant cell walls, built from sugar, but it is not the sugar produced during photosynthesis itself."
+          },
+          {
+            "label": "Sucrose",
+            "feedback": "Sucrose is table sugar, made by joining two simple sugars, but the first product of photosynthesis is a smaller molecule."
+          },
+          {
+            "label": "Glucose",
+            "feedback": "Glucose is the six-carbon sugar formed directly from carbon dioxide and water using light energy. The plant then uses or stores it."
+          }
+        ],
+        "ok_title": "Simple sugar product",
+        "ok_line": "Glucose is the sugar made.",
+        "ko_title": "Different sugar",
+        "ko_line": "Glucose is the direct product, not starch.",
+        "exp_title": "Glucose from light",
+        "exp_text": "Photosynthesis produces glucose, the simplest sugar that plants use for energy and building materials. Starch is just a stored form of many glucose units."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of light in photosynthesis?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It provides the energy to build sugar",
+            "feedback": "Light energy is captured by chlorophyll and used to drive the chemical reactions that join carbon dioxide and water into glucose."
+          },
+          {
+            "label": "It supplies the carbon atoms",
+            "feedback": "Carbon atoms come from carbon dioxide, not from light. Light only supplies energy, not material."
+          },
+          {
+            "label": "It helps the roots take up water",
+            "feedback": "Water uptake is driven by evaporation from leaves and root pressure, not by light directly. Light's job is energy for sugar-making."
+          },
+          {
+            "label": "It turns oxygen into carbon dioxide",
+            "feedback": "Oxygen is a product of photosynthesis, not a raw material changed by light. Light does not convert oxygen into anything."
+          }
+        ],
+        "ok_title": "Light's energy role",
+        "ok_line": "Light supplies the energy for making sugar.",
+        "ko_title": "Light misread",
+        "ko_line": "Light is energy, not a material.",
+        "exp_title": "Energy provider",
+        "exp_text": "Light acts as the energy source that powers photosynthesis. Without it, the plant could not build glucose from carbon dioxide and water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does the water used in photosynthesis enter the plant from?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The leaves through the stomata",
+            "feedback": "Stomata in leaves let carbon dioxide in and oxygen out, but they are not how water enters. Water comes up from underground."
+          },
+          {
+            "label": "The stem through small openings",
+            "feedback": "Stems do not take up water from the air. The roots are the organs that absorb water from the soil."
+          },
+          {
+            "label": "The roots from the soil",
+            "feedback": "Root hairs absorb water from the soil, and it travels up through the stem to the leaves for photosynthesis."
+          },
+          {
+            "label": "The flowers from rain droplets",
+            "feedback": "Flowers do not absorb water for photosynthesis. The plant gets its water through the root system from the ground."
+          }
+        ],
+        "ok_title": "Water entry point",
+        "ok_line": "Roots take water from the soil.",
+        "ko_title": "Wrong entrance",
+        "ko_line": "Water comes via roots, not leaves or stems.",
+        "exp_title": "Root absorption",
+        "exp_text": "Water enters the plant through the roots, which are in contact with soil moisture. It moves up the xylem to where photosynthesis happens in the leaves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What gas do plants absorb from the air for photosynthesis?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is given off by plants during photosynthesis; it is not taken in for making food. Plants absorb oxygen only for respiration."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide enters through the stomata and provides the carbon needed to build glucose molecules during photosynthesis."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen is not used in photosynthesis. Plants get nitrogen from the soil in the form of nitrates, not from the air for making sugar."
+          },
+          {
+            "label": "Hydrogen",
+            "feedback": "Hydrogen in the air is not used by plants. The hydrogen atoms in glucose come from water, not from atmospheric hydrogen gas."
+          }
+        ],
+        "ok_title": "Gas absorbed",
+        "ok_line": "Plants take in carbon dioxide.",
+        "ko_title": "Gas mixed up",
+        "ko_line": "Carbon dioxide is the input, oxygen is the output.",
+        "exp_title": "Carbon source",
+        "exp_text": "Carbon dioxide is the gas that plants pull in through leaf pores. It supplies the carbon atoms that end up in the sugar they make."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During photosynthesis, what gas is released as a by-product?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is taken in, not given off, during photosynthesis. It is released only during respiration, not when making food in the light."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen is not produced by photosynthesis. Plants release oxygen as the by-product, not nitrogen gas."
+          },
+          {
+            "label": "Water vapour",
+            "feedback": "Water vapour is lost through transpiration, which is a separate process. The oxygen gas is the specific by-product of photosynthesis."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is produced when water molecules are split during photosynthesis, and the plant releases it into the air."
+          }
+        ],
+        "ok_title": "Oxygen released",
+        "ok_line": "Photosynthesis gives off oxygen gas.",
+        "ko_title": "Gas confusion",
+        "ko_line": "Oxygen goes out, not carbon dioxide.",
+        "exp_title": "By-product gas",
+        "exp_text": "When a plant splits water molecules to get hydrogen for sugar, oxygen is left over and released through the stomata into the atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do plants do with the glucose they make during photosynthesis?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Use it for energy and growth",
+            "feedback": "Glucose is broken down in respiration for energy or used to build cellulose and other molecules for growth, and any extra is stored as starch."
+          },
+          {
+            "label": "Store it only in the roots",
+            "feedback": "Plants store sugar in many places, including stems, leaves, and fruits, not only in roots. Also, they use it, not just store it."
+          },
+          {
+            "label": "Release it into the air",
+            "feedback": "Glucose is not released into the air. Plants keep it inside to use for their own processes; only oxygen and water vapour leave the plant."
+          },
+          {
+            "label": "Convert it to chlorophyll",
+            "feedback": "Chlorophyll is the pigment involved in making glucose, not a product made from it. Glucose is used for energy and building, not for pigment."
+          }
+        ],
+        "ok_title": "Glucose uses",
+        "ok_line": "Plants use glucose for energy and growth.",
+        "ko_title": "Wrong fate",
+        "ko_line": "Glucose is used, not just stored or emitted.",
+        "exp_title": "Sugar destiny",
+        "exp_text": "Glucose fuels the plant's metabolism through respiration, provides building blocks for cell walls, and any surplus is stored as starch for later use."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the tiny pores on a leaf surface through which carbon dioxide enters?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Xylem",
+            "feedback": "Xylem are tubes that carry water up the stem, not pores on the leaf surface for gas exchange."
+          },
+          {
+            "label": "Phloem",
+            "feedback": "Phloem are tubes that carry sugar around the plant, not the openings through which carbon dioxide enters a leaf."
+          },
+          {
+            "label": "Stomata",
+            "feedback": "Stomata are the small openings, mostly on the underside of leaves, that let carbon dioxide in and oxygen out, and also allow water loss."
+          },
+          {
+            "label": "Cuticle",
+            "feedback": "The cuticle is the waxy waterproof layer on the leaf surface; it does not let gases in, rather it prevents water loss."
+          }
+        ],
+        "ok_title": "Leaf pores named",
+        "ok_line": "Stomata are the leaf's gas entrances.",
+        "ko_title": "Tubes vs pores",
+        "ko_line": "Stomata, not xylem or phloem, are the pores.",
+        "exp_title": "Gas exchange openings",
+        "exp_text": "Stomata are the microscopic pores found on leaf surfaces. Each one is flanked by guard cells that open and close it to control gas exchange."
+      }
+    ]
+  }
+]

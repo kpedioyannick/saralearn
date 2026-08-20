@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 225,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the tiny particles in the air that water vapor condenses onto to form cloud droplets?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Ice crystals",
+            "feedback": "Ice crystals are frozen water, not the seed particles that condensation starts on."
+          },
+          {
+            "label": "Condensation nuclei",
+            "feedback": "Correct. These are dust, salt, or other small particles held aloft that water vapor attaches to."
+          },
+          {
+            "label": "Raindrops",
+            "feedback": "Raindrops are already grown water droplets, not the original seed particles."
+          },
+          {
+            "label": "Supercooled droplets",
+            "feedback": "Supercooled droplets are liquid water below freezing, not the condensation seeds."
+          }
+        ],
+        "ok_title": "Seed particles",
+        "ok_line": "Water vapor needs a tiny particle to condense onto.",
+        "ko_title": "Wrong particle type",
+        "ko_line": "That is not the seed that condensation begins on.",
+        "exp_title": "Condensation nuclei",
+        "exp_text": "In the air there are tiny dust and salt particles small enough to stay floating. Water vapor is attracted to these particles, and a cloud droplet forms around one of them. Without such a particle, vapor would have a harder time turning into a droplet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to air as it rises higher into the sky?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It expands and cools",
+            "feedback": "Correct. As air rises, pressure drops, so the air expands and this expansion uses energy, cooling the air."
+          },
+          {
+            "label": "It compresses and warms",
+            "feedback": "Compression happens when air sinks, not rises. Rising air expands, not compresses."
+          },
+          {
+            "label": "It stays the same temperature",
+            "feedback": "Rising air changes temperature because expansion cools it."
+          },
+          {
+            "label": "It warms up because it is closer to the sun",
+            "feedback": "The cooling is from expansion due to lower pressure, not from distance to the sun."
+          }
+        ],
+        "ok_title": "Rising air cools",
+        "ok_line": "Expansion as air rises makes it cooler.",
+        "ko_title": "Not the same",
+        "ko_line": "Rising air does not stay warm or warm up.",
+        "exp_title": "Adiabatic cooling",
+        "exp_text": "When a packet of moist air rises, the air pressure around it gets lower. The air expands, and that expansion takes energy from the air itself, so the air cools. This cooling is what lets the water vapor condense into cloud droplets."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the temperature at which air becomes saturated with water vapor called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Freezing point",
+            "feedback": "Freezing point is when water freezes, not when air is full of vapor."
+          },
+          {
+            "label": "Boiling point",
+            "feedback": "Boiling point is about liquid water turning to vapor rapidly, not saturation of air."
+          },
+          {
+            "label": "Dew point",
+            "feedback": "Correct. At the dew point, air holds all the water vapor it can, so condensation begins."
+          },
+          {
+            "label": "Melting point",
+            "feedback": "Melting point is for ice becoming liquid, not for air saturation."
+          }
+        ],
+        "ok_title": "Saturation temperature",
+        "ok_line": "At the dew point, air is full of vapor.",
+        "ko_title": "Wrong temperature",
+        "ko_line": "That temperature is about water states, not air saturation.",
+        "exp_title": "Dew point",
+        "exp_text": "The dew point is the specific temperature where air reaches full saturation with water vapor. At that point, any further cooling makes the vapor start to condense into liquid droplets, which is how a cloud begins."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is NOT one of the three lifting agents that push air upward to form clouds?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Frontal lift",
+            "feedback": "Frontal lift is indeed one of the three; it pushes air up at a weather front."
+          },
+          {
+            "label": "Convective lift",
+            "feedback": "Convective lift is one of the three; it comes from solar heating warming the ground."
+          },
+          {
+            "label": "Orographic lift",
+            "feedback": "Orographic lift is one of the three; it happens when air is forced up a mountain slope."
+          },
+          {
+            "label": "Gravitational lift",
+            "feedback": "Correct. Gravity pulls air down, not up. The three lifting agents are frontal, convective, and orographic."
+          }
+        ],
+        "ok_title": "Not a lifting agent",
+        "ok_line": "Gravity does not lift air upward.",
+        "ko_title": "That is a real one",
+        "ko_line": "That is actually one of the three lifting agents.",
+        "exp_title": "Three lifting agents",
+        "exp_text": "Clouds form when air rises because of one of three forces: an approaching front pushes it up (frontal), the sun-heated ground makes it bubble upward (convective), or a mountain slope forces it up (orographic). Gravity never lifts air; it pulls it downward."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical radius of a water droplet inside a normal cloud?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "About 0.1 millimeters",
+            "feedback": "That is roughly the size at which droplets become large enough to fall as rain, not the usual cloud droplet size."
+          },
+          {
+            "label": "About 0.002 millimeters",
+            "feedback": "Correct. Cloud droplets are extremely tiny, with a normal radius around 0.002 mm."
+          },
+          {
+            "label": "About 1 millimeter",
+            "feedback": "A millimeter is far too large; that would be a raindrop, not a suspended cloud droplet."
+          },
+          {
+            "label": "About 0.02 millimeters",
+            "feedback": "That is ten times larger than the typical cloud droplet radius, so it is not the normal size."
+          }
+        ],
+        "ok_title": "Tiny droplets",
+        "ok_line": "Cloud droplets are only about 0.002 mm in radius.",
+        "ko_title": "Too big",
+        "ko_line": "That size is for raindrops, not ordinary cloud droplets.",
+        "exp_title": "Cloud droplet size",
+        "exp_text": "A typical cloud droplet has a radius of about 0.002 millimeters. That is incredibly small, which is why so many billions of them can float in the air. Only when droplets grow much larger, past about 0.1 mm, do they become heavy enough to fall as rain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to water vapor when air cools to its dew point?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It turns directly into ice",
+            "feedback": "Ice forms only at much colder temperatures, not just at the dew point. At the dew point, vapor condenses into liquid."
+          },
+          {
+            "label": "It disappears into the air",
+            "feedback": "The vapor does not vanish; it changes state from gas to liquid droplets."
+          },
+          {
+            "label": "It condenses into tiny liquid droplets",
+            "feedback": "Correct. At the dew point, the air is full of vapor, so the extra vapor turns into liquid water droplets on condensation nuclei."
+          },
+          {
+            "label": "It turns back into water vapor gas",
+            "feedback": "The vapor is already a gas; cooling it at saturation makes it condense to liquid, not stay vapor."
+          }
+        ],
+        "ok_title": "Vapor becomes liquid",
+        "ok_line": "At dew point, vapor condenses into droplets.",
+        "ko_title": "Wrong change",
+        "ko_line": "Cooling to dew point does not make ice, vapor, or nothing.",
+        "exp_title": "Condensation at dew point",
+        "exp_text": "When rising air cools to its dew point, it becomes saturated. Water vapor can no longer remain as a gas, so it condenses onto tiny particles in the air, forming the liquid droplets that make up a cloud."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these can act as a condensation nucleus for cloud droplets?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A tiny salt particle",
+            "feedback": "Correct. Salt particles in the air are small enough to stay aloft and attract water vapor to condense on them."
+          },
+          {
+            "label": "A large hailstone",
+            "feedback": "Hailstones are already formed ice, far too heavy and not a seed for condensation."
+          },
+          {
+            "label": "A raindrop",
+            "feedback": "A raindrop is already a grown water droplet, not a seed particle for new condensation."
+          },
+          {
+            "label": "A snowflake",
+            "feedback": "A snowflake is already an ice particle, not a tiny seed that condensation starts on."
+          }
+        ],
+        "ok_title": "Condensation seeds",
+        "ok_line": "Tiny dust and salt particles serve as condensation nuclei.",
+        "ko_title": "Already grown",
+        "ko_line": "That is a finished water or ice particle, not a seed.",
+        "exp_title": "Condensation nuclei types",
+        "exp_text": "Condensation nuclei are microscopic particles like dust or salt that float in the air. Water vapor molecules stick to these particles, and that is how a cloud droplet begins. Hail, snow, and raindrops are already formed by the time condensation has happened, so they cannot be the original seed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the word 'adiabatic' refer to in cloud formation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cooling by mixing with cold air",
+            "feedback": "Adiabatic cooling does not involve mixing with outside air; the packet of air stays separate."
+          },
+          {
+            "label": "Warming from the sun's heat",
+            "feedback": "Adiabatic cooling is about expansion, not direct solar warming."
+          },
+          {
+            "label": "Cooling by contact with a cold surface",
+            "feedback": "Adiabatic cooling happens inside the rising air itself, not by touching a cold ground."
+          },
+          {
+            "label": "Cooling caused by expansion as air rises",
+            "feedback": "Correct. As air rises and pressure drops, it expands and cools without exchanging heat with surroundings."
+          }
+        ],
+        "ok_title": "Expansion cooling",
+        "ok_line": "Adiabatic means cooling from expansion, no mixing.",
+        "ko_title": "Not that cooling",
+        "ko_line": "Adiabatic cooling is not from mixing, sun, or surfaces.",
+        "exp_title": "Adiabatic cooling",
+        "exp_text": "Adiabatic cooling is the main way air cools to form clouds. A packet of air rises, pressure around it falls, so it expands. That expansion uses energy and cools the air. This happens without the air mixing with its surroundings, which is the special meaning of 'adiabatic'."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the altitude where condensation begins in a non-convective cloud?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Freezing level",
+            "feedback": "The freezing level is where temperature is 0°C, not where condensation starts."
+          },
+          {
+            "label": "Lifted condensation level (LCL)",
+            "feedback": "Correct. For non-convective clouds, the LCL marks the base of the cloud where condensation begins."
+          },
+          {
+            "label": "Convective condensation level (CCL)",
+            "feedback": "The CCL applies to free convective clouds, not to non-convective ones."
+          },
+          {
+            "label": "Cloud top",
+            "feedback": "The cloud top is the highest part, not where condensation begins."
+          }
+        ],
+        "ok_title": "Cloud base level",
+        "ok_line": "The LCL is where non-convective clouds begin.",
+        "ko_title": "Wrong level",
+        "ko_line": "That level is for freezing, convection, or the top, not the start.",
+        "exp_title": "Lifted condensation level",
+        "exp_text": "For clouds that form without convection, the altitude where the air reaches its dew point and condensation starts is called the lifted condensation level (LCL). This roughly tells you how high the cloud base will be. Free convective clouds instead use the convective condensation level (CCL)."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens when a cloud droplet gets large enough that its radius exceeds about 0.1 millimeters?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It evaporates completely",
+            "feedback": "Large droplets do not evaporate; they are more likely to fall, not vanish."
+          },
+          {
+            "label": "It freezes into an ice crystal",
+            "feedback": "Freezing depends on temperature, not just droplet size. A large droplet can stay liquid if warm enough."
+          },
+          {
+            "label": "It can start to fall as precipitation",
+            "feedback": "Correct. When a droplet grows beyond about 0.1 mm, it becomes heavy enough to fall as rain or another form of precipitation."
+          },
+          {
+            "label": "It splits into smaller droplets",
+            "feedback": "Droplets grow by collisions and coalescence; they do not split apart just from being large."
+          }
+        ],
+        "ok_title": "Falling as rain",
+        "ok_line": "Droplets past 0.1 mm become precipitation.",
+        "ko_title": "Not that outcome",
+        "ko_line": "Large droplets do not evaporate, freeze, or split just by growing.",
+        "exp_title": "Precipitation threshold",
+        "exp_text": "Cloud droplets grow by colliding and merging with each other. When a droplet becomes larger than about 0.1 millimeters in diameter, the rising air in the cloud can no longer hold it up, so it falls out as precipitation. That is the critical size for rain to begin."
+      }
+    ]
+  }
+]

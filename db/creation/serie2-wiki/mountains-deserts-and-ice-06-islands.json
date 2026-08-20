@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the basic definition of an island?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A piece of land completely surrounded by water, distinct from a continent",
+            "feedback": "Correct. An island is exactly that — land with water on every side, and it is not a continent."
+          },
+          {
+            "label": "A piece of land partially surrounded by water, attached to a mainland",
+            "feedback": "That would be a peninsula, not an island. An island has water on all sides."
+          },
+          {
+            "label": "Any land that is lower than the surrounding hills",
+            "feedback": "That is a valley or lowland, not an island. The defining feature is being surrounded by water."
+          },
+          {
+            "label": "A large landmass that sits on its own tectonic plate",
+            "feedback": "That is the definition of a continent, not an island. An island is smaller and not a continent."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "An island is land with water all around it, and it is not a continent.",
+        "ko_title": "Not quite",
+        "ko_line": "Islands are surrounded by water on every side, unlike peninsulas or continents.",
+        "exp_title": "Island basics",
+        "exp_text": "An island is a piece of land that has water on all sides and is distinct from a continent. There is no set size that separates an island from a continent — the distinction is geological, as continents are the largest landmasses of their own tectonic plates. Islands can be found in seas, lakes, or rivers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of island has never been part of a continent?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Continental island",
+            "feedback": "A continental island was split from a continent by plate tectonics, so it was once part of one."
+          },
+          {
+            "label": "Barrier island",
+            "feedback": "Barrier islands form from sediment along shorelines, but that does not mean they were never part of a continent. Oceanic islands are the ones that were never connected."
+          },
+          {
+            "label": "Oceanic island",
+            "feedback": "Correct. Oceanic islands have never been part of a continent — they form from volcanic activity, coral reefs, or sediment buildup far from continents."
+          },
+          {
+            "label": "Fluvial island",
+            "feedback": "Fluvial islands form in rivers from sediment and debris, but that does not tell us whether they were ever part of a continent. The key distinction is oceanic vs. continental."
+          }
+        ],
+        "ok_title": "Never part of a continent",
+        "ok_line": "Oceanic islands are born from the sea, not split off from a mainland.",
+        "ko_title": "Check the type",
+        "ko_line": "Continental islands split from continents; oceanic ones never touched one.",
+        "exp_title": "Two island families",
+        "exp_text": "Islands fall into two main groups. Continental islands were formed when plate tectonics split land away from a continent, so they share the continent's rock and life. Oceanic islands, on the other hand, have never been part of a continent — they rise from volcanic activity, grow as atolls from coral reefs, or form from sediment along shorelines. The ocean is their only parent."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a coral island that encircles a central lagoon?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Barrier island",
+            "feedback": "A barrier island is a long sandy bar formed by wave-deposited sediment along a shoreline, not a coral ring around a lagoon."
+          },
+          {
+            "label": "Atoll",
+            "feedback": "Correct. An atoll is a coral island that forms a ring around a central lagoon, often when coral reefs grow on a submerged volcanic island."
+          },
+          {
+            "label": "Fluvial island",
+            "feedback": "A fluvial island forms in a river from sediment and debris, not from coral reefs."
+          },
+          {
+            "label": "Continental island",
+            "feedback": "A continental island is a piece of a continent split off by plate tectonics, not a coral formation."
+          }
+        ],
+        "ok_title": "Ring of coral",
+        "ok_line": "An atoll is a coral island circling a lagoon.",
+        "ko_title": "Not that island",
+        "ko_line": "Atolls are coral rings, unlike sandy barrier bars or river islands.",
+        "exp_title": "Coral ring islands",
+        "exp_text": "An atoll forms when coral reefs grow on a volcanic island that has sunk beneath the surface. The coral continues to build upward, and when it encircles a central lagoon, the island is called an atoll. The lagoon is shallow compared to the open ocean. Atolls are a type of oceanic island, born from the sea itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are barrier islands made of, and where do they form?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Coral and shell fragments, along a coral reef",
+            "feedback": "Coral reefs build their own structures, but barrier islands are made of sediment deposited by waves along shorelines."
+          },
+          {
+            "label": "Volcanic lava and ash, around a hotspot",
+            "feedback": "Volcanic islands are built from lava and ash, not the sandy sediment of barrier islands."
+          },
+          {
+            "label": "Ice and compacted snow, along a polar coast",
+            "feedback": "Ice shelves and glaciers are not barrier islands; those are made of sand and sediment."
+          },
+          {
+            "label": "Sand and sediment, along a shoreline",
+            "feedback": "Correct. Barrier islands are long, sandy bars formed when waves deposit sediment along shorelines."
+          }
+        ],
+        "ok_title": "Sandy shores",
+        "ok_line": "Barrier islands are long sandbars made by wave-deposited sediment.",
+        "ko_title": "Wrong material",
+        "ko_line": "Barrier islands are sandy, not coral, volcanic, or icy.",
+        "exp_title": "Shoreline sandbars",
+        "exp_text": "Barrier islands are long, sandy bars that form along shorelines when waves deposit sediment. They grow and erode as wind and waves shift the sand. These islands also protect coastal areas by absorbing some of the energy of large waves before they hit the shore, acting as a natural buffer against severe weather."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a fluvial island?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An island that forms in a river from sediment and debris",
+            "feedback": "Correct. Fluvial islands are built by erosion and sedimentation of debris in rivers, and almost all rivers have some."
+          },
+          {
+            "label": "An island that forms from a coral reef in the ocean",
+            "feedback": "That is an atoll or a coral island, not a fluvial one. Fluvial means river-related."
+          },
+          {
+            "label": "An island that splits from a continent by plate tectonics",
+            "feedback": "That is a continental island. Fluvial islands form from river sediment, not from continental splitting."
+          },
+          {
+            "label": "An island made by humans out of rock and soil",
+            "feedback": "That is an artificial island. Fluvial islands form naturally from river processes."
+          }
+        ],
+        "ok_title": "River islands",
+        "ok_line": "A fluvial island is made of river sediment and debris.",
+        "ko_title": "Not a river island",
+        "ko_line": "Fluvial means from rivers, not from coral, continents, or humans.",
+        "exp_title": "Islands in rivers",
+        "exp_text": "A fluvial island forms from the erosion and sedimentation of debris in rivers. Almost all rivers have some of these islands. They are often only a few meters high and usually temporary, changing as the river's flow speed, water level, and sediment content change. Some permanent river islands exist too, like Bananal Island in Brazil."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to species that live on oceanic islands?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They stay identical to species on the nearest continent",
+            "feedback": "That is true of continental islands, which share life with their source continent. Oceanic islands isolate species, so they evolve differently."
+          },
+          {
+            "label": "They become more numerous in total number of species than on a mainland",
+            "feedback": "Islands actually have lower total species richness than mainlands, though they have high rates of endemism."
+          },
+          {
+            "label": "They evolve in isolation because the sea is a natural barrier",
+            "feedback": "Correct. The sea blocks new species from arriving, so the ones that do reach the island evolve on their own, often becoming unique to that island."
+          },
+          {
+            "label": "They are wiped out quickly because there is no food",
+            "feedback": "Islands can support life, and many species thrive there. The key point is isolation, not a lack of food."
+          }
+        ],
+        "ok_title": "Isolated evolution",
+        "ok_line": "Oceanic islands make species evolve alone.",
+        "ko_title": "Wrong idea",
+        "ko_line": "Oceanic islands cause isolation, not sameness or extinction.",
+        "exp_title": "Life in isolation",
+        "exp_text": "Oceanic islands are surrounded by sea, which acts as a natural barrier to new species. When a few individuals do reach the island — by flying, rafting on currents, or being carried by other animals — they evolve in isolation. Over time, this can produce species found nowhere else on Earth. This is why island ecosystems have the highest rates of endemism."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is endemism?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The total number of unique species in a region",
+            "feedback": "That is species richness, not endemism. Endemism is about species being found only in a specific area."
+          },
+          {
+            "label": "The phenomenon where a species or genus is only found in a certain geographical area",
+            "feedback": "Correct. Endemism means a species or genus lives nowhere else on Earth but a particular place, like an island."
+          },
+          {
+            "label": "The process by which species migrate from an island to a continent",
+            "feedback": "That is dispersal, not endemism. Endemism is about staying in one place, not moving."
+          },
+          {
+            "label": "The rate at which species go extinct on an island",
+            "feedback": "Extinction is a separate concept. Endemism is about geographical uniqueness, not dying out."
+          }
+        ],
+        "ok_title": "Unique to a place",
+        "ok_line": "Endemism means a species lives only in one area.",
+        "ko_title": "Different term",
+        "ko_line": "Endemism is about being unique to a region, not about abundance or movement.",
+        "exp_title": "Species uniqueness",
+        "exp_text": "Endemism is the biological phenomenon where a species or genus is found only in a certain geographical area. On islands, water isolates land organisms, and land isolates aquatic ones, so island ecosystems have the highest rates of endemism globally. This makes islands major contributors to global biodiversity, even though their total species richness is lower than mainlands."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an island?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A piece of land completely surrounded by water, distinct from a continent",
+            "feedback": "Correct. An island is land entirely surrounded by water and is not a continent."
+          },
+          {
+            "label": "A piece of land that is partially surrounded by water",
+            "feedback": "Not quite. An island must be completely surrounded by water, not just partially."
+          },
+          {
+            "label": "A piece of land that is smaller than a peninsula",
+            "feedback": "Incorrect. Size does not define an island; it is about being completely surrounded by water, not being smaller than something else."
+          },
+          {
+            "label": "A piece of land that is always above water at high tide",
+            "feedback": "Not correct. That would describe a low-tide elevation, which is generally not considered an island."
+          }
+        ],
+        "ok_title": "Island defined",
+        "ok_line": "An island is land fully surrounded by water, separate from a continent.",
+        "ko_title": "Island not partial",
+        "ko_line": "An island must be completely surrounded by water, not merely partly.",
+        "exp_title": "Island definition",
+        "exp_text": "An island is a piece of land that is completely surrounded by water and is distinct from a continent. There is no standard size that separates an island from a continent; the definition is based on being fully encircled by water, not on how large it is."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How are continental islands formed?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "By coral reefs growing on submerged volcanoes",
+            "feedback": "That describes oceanic islands that become atolls, not continental islands. Continental islands come from splitting a continent."
+          },
+          {
+            "label": "By being split from a continent by plate tectonics",
+            "feedback": "Correct. Continental islands form when plate tectonics separates a piece of a continent from the mainland."
+          },
+          {
+            "label": "By sediment piling up along a shoreline",
+            "feedback": "That forms barrier islands, which are oceanic, not continental. Continental islands originate from continental crust."
+          },
+          {
+            "label": "By volcanic activity in the middle of the ocean",
+            "feedback": "No. That creates oceanic islands, which have never been part of a continent. Continental islands are torn from continents."
+          }
+        ],
+        "ok_title": "Continental split",
+        "ok_line": "Continental islands are pieces of a continent broken off by plate tectonics.",
+        "ko_title": "Island origins differ",
+        "ko_line": "Continental islands come from splitting continents, not from coral or volcanoes.",
+        "exp_title": "Continental island birth",
+        "exp_text": "Continental islands are formed when plate tectonics splits a piece of land from a continent, leaving it surrounded by water. These islands share their underlying rock and often their life with the continent they came from."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a way an oceanic island can form?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "By being split from a continent by an earthquake",
+            "feedback": "That would make it a continental island, not an oceanic one. Oceanic islands have never been part of a continent."
+          },
+          {
+            "label": "By a river dropping sediment in its channel",
+            "feedback": "That creates a river island, which is not oceanic. Oceanic islands form in the open ocean, away from continents."
+          },
+          {
+            "label": "By volcanic activity",
+            "feedback": "Correct. Oceanic islands can form from volcanic activity, where lava builds up from the seafloor to the surface."
+          },
+          {
+            "label": "By a glacier carving out a bay",
+            "feedback": "That might separate land from a coast, but it would create a continental island, not an oceanic one. Oceanic islands rise from the ocean floor independently."
+          }
+        ],
+        "ok_title": "Oceanic volcano birth",
+        "ok_line": "Oceanic islands often form from volcanic eruptions on the seafloor.",
+        "ko_title": "Not from continents",
+        "ko_line": "Oceanic islands arise from volcanic or reef activity, never from splitting a continent.",
+        "exp_title": "Oceanic island formation",
+        "exp_text": "Oceanic islands have never been part of a continent. One way they form is through volcanic activity, where magma rises from beneath the ocean floor and builds up until it breaks the surface. Other oceanic islands grow from coral reefs or from sediment along shorelines, creating barrier islands."
+      }
+    ]
+  }
+]

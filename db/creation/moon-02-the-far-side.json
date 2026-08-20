@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 177,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why do we always see the same face of the Moon from Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the Moon is much smaller than Earth",
+            "feedback": "Size alone does not decide which face is shown. A small body can rotate freely and display every side, as countless small asteroids do."
+          },
+          {
+            "label": "Because Earth's gravity holds the far side in place",
+            "feedback": "Gravity pulls on the whole Moon at this scale, not more on one side than the other. It's the timing of the spin, not a directional grip, that keeps one face aimed at us."
+          },
+          {
+            "label": "Because the Moon orbits Earth much faster than it spins",
+            "feedback": "The two rates match exactly, once each, rather than one running faster than the other. If the spin were faster or slower than the orbit, every side would eventually come into view."
+          },
+          {
+            "label": "Because the Moon rotates on its axis in exactly the same time it takes to orbit Earth once",
+            "feedback": "That exact match between spin and orbit is what keeps one face permanently aimed at Earth."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "The right match",
+        "ok_line": "One turn on its axis, one turn around Earth — same clock, same rate.",
+        "ko_title": "Not size, not a grip",
+        "ko_line": "Ask what has to happen at exactly the same rate for one face to stay in view.",
+        "exp_title": "One spin, one orbit",
+        "exp_text": "A rotating body only ever shows one face towards a fixed point if it turns on its own axis exactly once during each full lap around that point. The Moon's spin and its orbit around Earth are locked to the very same length of time, so it completes one full turn just as it completes one full circuit. That exact match, not size, not gravity holding a side down, is what keeps a single face permanently aimed at Earth."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How did the Moon end up rotating at exactly the same rate it orbits Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's gravity raised a slight bulge in the Moon's rocky body, and friction from that bulge dragged against the Moon's early, faster spin until the two rates matched",
+            "feedback": "That steady drag, working over a huge stretch of time, is exactly what ground the Moon's spin down until it matched its orbit."
+          },
+          {
+            "label": "A collision billions of years ago stopped its spin outright",
+            "feedback": "A single impact could not produce this precise a match. Whatever spin remained afterwards still had to be slowed gradually until it lined up with the orbit."
+          },
+          {
+            "label": "Sunlight pressure gradually slowed the Moon's rotation",
+            "feedback": "The push from sunlight is far too weak on a body the size of the Moon to have shaped its rotation. The far stronger pull came from Earth's gravity."
+          },
+          {
+            "label": "The Moon has always rotated at that exact rate since it formed",
+            "feedback": "The Moon most likely spun much faster when it was young. The present, matched rate is the result of gradual slowing, not a starting condition."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Ground down, slowly",
+        "ok_line": "A bulge, a flex, and friction doing the same job for a very long time.",
+        "ko_title": "Not an impact, not sunlight",
+        "ko_line": "The slowing needed something acting steadily over a huge stretch of time, not a single event or a gentle push from light.",
+        "exp_title": "A brake made of rock and time",
+        "exp_text": "Early in its history the Moon spun faster than it orbited, and Earth's gravity pulled harder on the near part of the Moon than on the far part, stretching it very slightly out of round. As the Moon kept turning underneath that stretched shape, friction inside the flexing rock drained away rotational energy bit by bit. The slowing continued until the Moon's spin finally matched its orbit, and with the bulge no longer shifting underneath it, the friction had nothing left to grind against."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Is the Moon's far side really in permanent darkness, as the nickname 'dark side' suggests?",
+        "body": null,
+        "options": [
+          {
+            "label": "Yes — Earth's shadow permanently covers it",
+            "feedback": "Earth's shadow is a narrow cone that points away from the Sun. The far side of the Moon spends most of its time nowhere near it."
+          },
+          {
+            "label": "No — over the course of each lunar day and night, the far side receives just as much sunlight as the near side",
+            "feedback": "Facing away from Earth has nothing to do with facing away from the Sun, so both sides go through the same light and dark cycle."
+          },
+          {
+            "label": "Yes — its thicker crust blocks sunlight from reaching it",
+            "feedback": "Crust thickness affects what lies underground, not what lands on the exposed surface. Sunlight falls just as freely on the far side's rock."
+          },
+          {
+            "label": "No, but it gets far less sunlight than the near side",
+            "feedback": "Both sides go through the same length of lunar day and lunar night over a full cycle. 'Far side' only describes which half faces away from Earth, not which half faces away from the Sun."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Two different directions",
+        "ok_line": "Away from Earth is not the same thing as away from the Sun.",
+        "ko_title": "Wrong kind of shadow",
+        "ko_line": "Neither Earth's shadow nor the thickness of the crust has anything to do with whether sunlight reaches a spot on the surface.",
+        "exp_title": "The wrong kind of dark",
+        "exp_text": "'Far side' describes which half of the Moon faces away from Earth, and that has nothing to do with which half faces the Sun. As the Moon completes its slow spin, sunlight sweeps across the far side exactly as it sweeps across the near side, with the same length of day and the same length of night. Facing away from Earth is simply not the same thing as facing away from the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Since the Moon is tidally locked, why can observers on Earth still glimpse slightly more than half of its surface over time?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the Moon briefly reverses its spin every few years",
+            "feedback": "The spin never reverses. The small extra sliver of surface we glimpse comes from a wobble in viewing angle, not any change in which way the Moon turns."
+          },
+          {
+            "label": "Because Earth itself tilts enough to look around the edges",
+            "feedback": "Earth's own tilt shapes the seasons, not the angle at which the Moon's disc is viewed. The wobble responsible for the extra glimpse belongs to the Moon's own motion."
+          },
+          {
+            "label": "Because the Moon's orbital speed varies slightly while its spin stays steady, letting its edges rock a little into and out of view",
+            "feedback": "That mismatch between a steady spin and a slightly varying orbital speed is exactly what lets a little extra edge rock into view."
+          },
+          {
+            "label": "Because the Moon drifts sideways in its orbit every month",
+            "feedback": "The Moon's orbit stays close to the same path each month. The small rocking of its face towards us comes from its speed changing along that path, not from any sideways drift."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A rocking, not a reversal",
+        "ok_line": "Speed and spin fall very slightly out of step, and the edges sneak into view.",
+        "ko_title": "No reversal, no drift",
+        "ko_line": "The extra sliver comes from a small mismatch in the Moon's own motion, not from anything Earth is doing.",
+        "exp_title": "A wobble, not a spin change",
+        "exp_text": "The Moon's orbit is not a perfect circle, so it moves a little faster when closer to Earth and a little slower when farther away, while its own spin keeps turning at an unchanging, steady rate. That mismatch lets an edge that would otherwise stay just out of sight rock briefly into view, and a slight tilt in the Moon's axis adds a similar wobble from top to bottom. Over time, those small rocking motions let an observer piece together a little more of the surface than a perfectly still half would ever show."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the far side of the Moon show so many more craters than the smoother-looking near side?",
+        "body": null,
+        "options": [
+          {
+            "label": "The far side's crust is thicker, so ancient lava had a harder time reaching the surface there and filling in old impact craters the way it did on the near side",
+            "feedback": "That thicker crust is exactly why the far side's craters were left standing instead of being buried under smooth lava plains."
+          },
+          {
+            "label": "The far side is simply hit by more meteorites",
+            "feedback": "Both sides face a similar amount of traffic over long stretches of time as the Moon orbits. The difference lies in what happened to the craters afterwards, not in how many landed."
+          },
+          {
+            "label": "The near side's craters have worn away over time",
+            "feedback": "With no wind or flowing water on the Moon, craters do not erode away. The near side's smooth patches were flooded and buried by lava, not worn down."
+          },
+          {
+            "label": "The far side is older than the near side",
+            "feedback": "Both sides formed from the same body at the same time. What differs is how much of each surface was later resurfaced by lava, not their age."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Flooded versus untouched",
+        "ok_line": "The craters weren't avoided on the far side — the ones on the near side were paved over.",
+        "ko_title": "Not more impacts, not age",
+        "ko_line": "Both sides took a similar beating over time; what differs is what happened underneath afterwards.",
+        "exp_title": "Buried on one side, bare on the other",
+        "exp_text": "Both sides of the Moon were struck by impacts at similar rates over its history, leaving craters scattered fairly evenly across the whole surface. On the near side, a thinner crust let molten rock rise up from below and flood many of the largest craters, burying their rough edges under smooth, dark plains. The far side's thicker crust kept that same lava from breaking through, so its craters were left standing largely as they landed."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Since the Moon always shows Earth the same face, does that mean the Moon does not spin on its axis at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "That's correct — a truly still Moon is what keeps one face pointed at us",
+            "feedback": "A Moon that kept a fixed orientation while circling Earth would actually show every one of its sides in turn, the same way a non-spinning car driving around a roundabout eventually points every side of itself towards the centre."
+          },
+          {
+            "label": "It spins, but far slower than it orbits",
+            "feedback": "A spin slower than the orbit would still let Earth see around the edges and eventually glimpse the far side. Only a spin that exactly matches the orbit keeps the same face aimed at us."
+          },
+          {
+            "label": "It spins many times during each orbit",
+            "feedback": "Spinning several times per orbit would flash many different faces towards Earth within a single month. Only one turn per orbit, no more, keeps a single face in view."
+          },
+          {
+            "label": "No — the Moon does spin, completing exactly one full turn on its axis during each orbit around Earth",
+            "feedback": "That single, matching turn per orbit is exactly what a spinning-but-locked Moon looks like."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "It does turn",
+        "ok_line": "Once per orbit, no more and no less.",
+        "ko_title": "The roundabout test",
+        "ko_line": "Picture a car circling a roundabout without turning its wheel at all — it ends up facing every direction. That is what standing still would actually look like.",
+        "exp_title": "One turn, not zero",
+        "exp_text": "Picture a car driving all the way around a roundabout without ever turning its own steering wheel: because its body keeps pointing the same fixed direction the whole time, each of its sides faces the centre in turn as it goes around. The Moon does not do this — it turns on its own axis at the same time as it circles Earth, completing exactly one full turn for every full circuit. That one matching turn, not an absence of spinning, is what keeps the same face aimed at Earth throughout."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Roughly how long does sunlight last at a single spot on the Moon before night falls there, and how long does the night that follows last?",
+        "body": null,
+        "options": [
+          {
+            "label": "About twelve hours of each, just like an Earth day",
+            "feedback": "Earth's short day-night rhythm comes from spinning once every 24 hours. The Moon spins only once per month, so each stretch of light or dark runs vastly longer."
+          },
+          {
+            "label": "About two Earth weeks of sunlight, followed by about two Earth weeks of darkness",
+            "feedback": "A single slow turn stretched over roughly a month is exactly what produces stretches of light and dark that long."
+          },
+          {
+            "label": "A few minutes of each, over and over",
+            "feedback": "Such a rapid flicker would require the Moon to spin extremely fast. Instead it turns just once during each slow trip around Earth."
+          },
+          {
+            "label": "Sunlight and darkness each last about a year",
+            "feedback": "A year is how long Earth takes to circle the Sun. The length of a lunar day and night instead follows the Moon's own, much shorter, orbit around Earth."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Weeks, not hours",
+        "ok_line": "One slow turn stretches day and night out far beyond what a clock on Earth would show.",
+        "ko_title": "Not Earth's rhythm, not a flicker",
+        "ko_line": "The Moon's spin is far slower than Earth's, so its day-night rhythm is stretched out to match.",
+        "exp_title": "A day as long as the spin that makes it",
+        "exp_text": "How long daylight lasts at any one spot depends on how long the ground beneath it takes to turn away from the Sun, and the Moon turns on its axis only once during each of its slow trips around Earth. That single turn is stretched over a length of time close to a full month, so the sunlit half of that turn and the dark half of it each run for many days rather than hours. Each spot on the Moon experiences a single long day followed by an equally long night, rather than the quick rhythm Earth's fast spin produces."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "The tidal bulge that locked the Moon's rotation in place was raised in what?",
+        "body": null,
+        "options": [
+          {
+            "label": "A layer of liquid water once covering the Moon",
+            "feedback": "The Moon has never had bodies of liquid water on its surface. The flexing that mattered here happened in solid rock instead."
+          },
+          {
+            "label": "A thin lunar atmosphere pulled by Earth's gravity",
+            "feedback": "The Moon has next to no atmosphere for gravity to act on, far too thin a gas to create a meaningful bulge."
+          },
+          {
+            "label": "The Moon's own solid rock, stretched very slightly out of shape by Earth's gravity",
+            "feedback": "That slight stretching of solid rock, tiny as it was, is exactly what friction had to work against to slow the Moon's spin."
+          },
+          {
+            "label": "Loose dust sitting on the lunar surface",
+            "feedback": "Surface dust forms too thin a layer to store or transmit the kind of pull needed. The bulge that mattered reached deep into the Moon's solid body."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Solid, not liquid",
+        "ok_line": "No ocean was needed — solid rock flexes too, just far less obviously.",
+        "ko_title": "No water up there",
+        "ko_line": "The Moon has no water and barely any atmosphere; think about what solid material Earth's gravity could still act on.",
+        "exp_title": "Flexed rock, not moving water",
+        "exp_text": "Earth's oceans slosh into daily tides because water flows freely and responds quickly to a changing pull, but the Moon has no ocean and no water to slosh. What Earth's gravity acted on instead was the Moon's solid body itself, stretching it by a very small amount along the line pointing towards Earth. That stretch in solid rock, tiny as it was, was enough over enormous stretches of time to grind the Moon's spin down until it matched its orbit."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "The Moon is tidally locked to Earth. Why isn't Earth also tidally locked to the Moon, always showing the Moon the same face?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's gravity is too weak for the Moon to have any effect on it",
+            "feedback": "The Moon's pull on Earth is strong enough to raise ocean tides every day. It is not too weak to act, only too slow to finish the job so far."
+          },
+          {
+            "label": "Only smaller bodies can ever become tidally locked",
+            "feedback": "Size alone does not rule it out. Slowing a spin down always takes longer for a more massive, faster-spinning body, and Earth simply hasn't had enough time yet."
+          },
+          {
+            "label": "Earth is not affected by tidal forces at all",
+            "feedback": "Earth very much feels a tidal pull from the Moon — it's exactly what raises the daily tides in the ocean. It simply has much further to go before its own spin would match the Moon's orbit."
+          },
+          {
+            "label": "Earth is far more massive and spins with far more momentum to overcome, so the same slowing process is happening but needs vastly more time to finish",
+            "feedback": "That extra mass and momentum is exactly why the same process that locked the Moon is still nowhere near finished on Earth."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Still in progress",
+        "ok_line": "The same tug is at work — Earth is just a much bigger job.",
+        "ko_title": "Not weak, not immune",
+        "ko_line": "Earth clearly feels the Moon's pull every day at the shoreline; the question is only how long the same slowing would take on a much larger body.",
+        "exp_title": "The same process, running far behind",
+        "exp_text": "Slowing a spinning body's rotation down to match an orbit takes longer the more mass and momentum that body carries, and Earth is dramatically larger and heavier than the Moon. The Moon's gentle pull on Earth does raise tides and is very slowly dragging at Earth's rotation in exactly the same way Earth once dragged at the Moon's. That process is simply still running, nowhere near finished, on a body far bigger than the one it already finished slowing down."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Once the Moon's rotation locked into matching its orbit, why does it stay locked rather than drifting out of sync again?",
+        "body": null,
+        "options": [
+          {
+            "label": "Any tiny mismatch immediately creates a small pull back towards the matched rate, so the locked state holds itself in place",
+            "feedback": "That self-correcting pull is exactly why, once reached, the match doesn't need anything extra to keep it in place."
+          },
+          {
+            "label": "Because the Moon's spin was welded in place by the same impact that formed it",
+            "feedback": "No single event fixes a spin rate forever. What actually holds the match in place is an ongoing pull that corrects small drifts as they happen."
+          },
+          {
+            "label": "Because Earth's gravity turned off once the match was reached",
+            "feedback": "Earth's gravity never switches off. It is that same steady pull, still acting today, which keeps correcting any small mismatch back towards the locked rate."
+          },
+          {
+            "label": "Because the Moon has stopped moving entirely",
+            "feedback": "The Moon keeps orbiting and keeps spinning, once per orbit, exactly as before. Nothing about the locked state involves anything coming to a stop."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Self-correcting",
+        "ok_line": "Any drift creates its own pull back into place.",
+        "ko_title": "Not a single event, not switched off",
+        "ko_line": "No impact welded this in place, and Earth's gravity is still there, quietly doing the same job it always did.",
+        "exp_title": "A pull that corrects itself",
+        "exp_text": "Once the Moon's spin matches its orbit, its stretched shape stops shifting underneath it, so there is no more flexing left to slow it down further. If some small disturbance ever nudged the spin slightly out of that match, the very same gravity that created the lock would tug harder on whichever part of the bulge drifted out of line, pulling the rotation straight back to the matched rate. A locked spin does not need to be held in place by anything new — the pull that built it keeps correcting it."
+      }
+    ]
+  }
+]

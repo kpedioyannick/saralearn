@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main groups of animals that people commonly call shellfish?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Molluscs and crustaceans",
+            "feedback": "Correct. Molluscs include clams, oysters, and octopuses, while crustaceans include shrimp, lobsters, and crabs."
+          },
+          {
+            "label": "Fish and echinoderms",
+            "feedback": "That mixes the wrong groups. Fish are vertebrates with backbones, not shellfish, and echinoderms like sea urchins are a separate, less commonly eaten group."
+          },
+          {
+            "label": "Molluscs and echinoderms",
+            "feedback": "Echinoderms are not a main shellfish group for eating. The two main groups are molluscs and crustaceans."
+          },
+          {
+            "label": "Crustaceans and echinoderms",
+            "feedback": "Echinoderms are rarely eaten as shellfish. The two main groups are molluscs and crustaceans."
+          }
+        ],
+        "ok_title": "Main groups",
+        "ok_line": "Molluscs and crustaceans are the two chief shellfish groups.",
+        "ko_title": "Wrong groups",
+        "ko_line": "Echinoderms are not one of the two main shellfish groups.",
+        "exp_title": "Shellfish groups",
+        "exp_text": "People use \"shellfish\" for two large groups of water animals: molluscs, which have soft bodies often inside a shell, and crustaceans, which have jointed legs and a hard outer skeleton."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these animals is a mollusc?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lobster",
+            "feedback": "A lobster is a crustacean, not a mollusc. Crustaceans have jointed legs and a hard outer skeleton, unlike molluscs."
+          },
+          {
+            "label": "Octopus",
+            "feedback": "Correct. An octopus is a cephalopod, which belongs to the mollusc group."
+          },
+          {
+            "label": "Crab",
+            "feedback": "A crab is a crustacean, not a mollusc. It has a hard shell and jointed legs."
+          },
+          {
+            "label": "Shrimp",
+            "feedback": "Shrimp are crustaceans, not molluscs. They have a segmented body and jointed appendages."
+          }
+        ],
+        "ok_title": "A mollusc example",
+        "ok_line": "Octopuses are molluscs, along with squids and cuttlefish.",
+        "ko_title": "Crustacean mix-up",
+        "ko_line": "Lobsters, crabs, and shrimp are crustaceans, not molluscs.",
+        "exp_title": "Recognizing molluscs",
+        "exp_text": "Molluscs include cephalopods like octopuses, squids, and cuttlefish, as well as bivalves like clams and oysters, and gastropods like snails and slugs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a crustacean?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Clam",
+            "feedback": "A clam is a bivalve mollusc, not a crustacean. It has a hinged shell and no jointed legs."
+          },
+          {
+            "label": "Oyster",
+            "feedback": "An oyster is a bivalve mollusc, not a crustacean. It lives inside two shells and does not have jointed limbs."
+          },
+          {
+            "label": "Snail",
+            "feedback": "A snail is a gastropod mollusc, not a crustacean. It has a single shell and a muscular foot."
+          },
+          {
+            "label": "Crayfish",
+            "feedback": "Correct. Crayfish are crustaceans, along with shrimp, lobsters, crabs, and barnacles."
+          }
+        ],
+        "ok_title": "A crustacean example",
+        "ok_line": "Crayfish are crustaceans, like lobsters and crabs.",
+        "ko_title": "Mollusc mix-up",
+        "ko_line": "Clams, oysters, and snails are molluscs, not crustaceans.",
+        "exp_title": "Identifying crustaceans",
+        "exp_text": "Crustaceans form one of the main subphyla of the phylum Arthropoda, and they include crayfish, shrimp, lobsters, crabs, and barnacles."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the word \"shellfish\" mean as a singular or plural noun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is both singular and plural",
+            "feedback": "Correct. The word \"shellfish\" can refer to one animal or many, without changing form."
+          },
+          {
+            "label": "It is always plural",
+            "feedback": "That is not right. \"Shellfish\" is used for both one and many; you can say \"a shellfish\" or \"several shellfish.\""
+          },
+          {
+            "label": "It is always singular",
+            "feedback": "No. The same word serves for a single animal and for a group, so it is not only singular."
+          },
+          {
+            "label": "It ends with an 'es' in plural",
+            "feedback": "No, that form is \"shellfishes,\" which is rarely used. The usual word stays \"shellfish\" for both numbers."
+          }
+        ],
+        "ok_title": "Singular and plural",
+        "ok_line": "\"Shellfish\" works for one or many.",
+        "ko_title": "Number confusion",
+        "ko_line": "The word does not change to show singular or plural.",
+        "exp_title": "The word shellfish",
+        "exp_text": "In ordinary speech, \"shellfish\" is used unchanged for both a single animal and a group, though a rare \"shellfishes\" exists to distinguish different types."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where can edible shellfish be found?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only in saltwater oceans",
+            "feedback": "That is too narrow. Some shellfish live in freshwater, and a few land crabs are also eaten."
+          },
+          {
+            "label": "In saltwater, freshwater, and on land",
+            "feedback": "Correct. Most shellfish are marine, but some are freshwater, and certain land crabs are eaten too."
+          },
+          {
+            "label": "Only in freshwater rivers and lakes",
+            "feedback": "No. Most shellfish live in the sea, so this is far from complete."
+          },
+          {
+            "label": "Only in coastal waters near the shore",
+            "feedback": "That misses freshwater and land examples, so it is not the full answer."
+          }
+        ],
+        "ok_title": "Where shellfish live",
+        "ok_line": "Shellfish live in saltwater, freshwater, and even on land.",
+        "ko_title": "Habitat error",
+        "ko_line": "Shellfish are not limited to one water type or place.",
+        "exp_title": "Shellfish habitats",
+        "exp_text": "Most shellfish are harvested from saltwater, but some come from freshwater, like crayfish and river mussels, and a few land crabs, such as Cardisoma guanhumi, are eaten too."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do shellfish use to catch or eat their food?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Teeth and jaws like fish",
+            "feedback": "No. Shellfish do not have jaws and teeth like fish; they use different feeding structures."
+          },
+          {
+            "label": "A tongue and lips",
+            "feedback": "That is not correct. Shellfish do not have tongues and lips like mammals or birds."
+          },
+          {
+            "label": "A radula",
+            "feedback": "Correct. Many molluscs use a radula, a rough tongue-like organ, to scrape or cut food."
+          },
+          {
+            "label": "Claws and pincers",
+            "feedback": "Claws are found on some crustaceans, but the question asks about molluscs' feeding; the radula is the general answer for molluscs."
+          }
+        ],
+        "ok_title": "Feeding organ",
+        "ok_line": "Molluscs use a radula to eat.",
+        "ko_title": "Wrong feeder",
+        "ko_line": "Shellfish do not have jaws, lips, or teeth like fish.",
+        "exp_title": "The radula",
+        "exp_text": "A radula is a file-like tongue used by molluscs to scrape or tear food; it is a key feature of many of these animals."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the group of animals that includes squids, octopuses, and cuttlefish called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cephalopods",
+            "feedback": "Correct. Squids, octopuses, and cuttlefish are all cephalopods, a class of molluscs."
+          },
+          {
+            "label": "Bivalves",
+            "feedback": "Bivalves are clams, oysters, and mussels, not squids or octopuses."
+          },
+          {
+            "label": "Gastropods",
+            "feedback": "Gastropods are snails and slugs, not the group that includes octopuses and squids."
+          },
+          {
+            "label": "Crustaceans",
+            "feedback": "Crustaceans are shrimp, lobsters, and crabs, not cephalopods."
+          }
+        ],
+        "ok_title": "Cephalopod group",
+        "ok_line": "Squids, octopuses, and cuttlefish are cephalopods.",
+        "ko_title": "Mollusc mislabel",
+        "ko_line": "Those animals are not bivalves, gastropods, or crustaceans.",
+        "exp_title": "Naming cephalopods",
+        "exp_text": "Within molluscs, cephalopods are the group that includes squids, octopuses, and cuttlefish, along with other tentacled swimmers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the shell of a bivalve like?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A single spiral shell",
+            "feedback": "That describes a gastropod's shell, not a bivalve. Bivalves have two halves."
+          },
+          {
+            "label": "No shell at all",
+            "feedback": "Bivalves do have shells; that is part of their name, meaning two valves."
+          },
+          {
+            "label": "A long pointed shell",
+            "feedback": "That is not a bivalve shell. Bivalves have two roughly similar halves hinged together."
+          },
+          {
+            "label": "Two hinged halves",
+            "feedback": "Correct. A bivalve has a shell made of two parts that open and close, like a clam or oyster."
+          }
+        ],
+        "ok_title": "Bivalve shell",
+        "ok_line": "Bivalves have two hinged shell halves.",
+        "ko_title": "Wrong shell type",
+        "ko_line": "A spiral or single shell is not what a bivalve has.",
+        "exp_title": "Understanding bivalves",
+        "exp_text": "The name \"bivalve\" means two shells; clams, oysters, mussels, and scallops all have a shell split into two parts that can open and shut."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is one way that shellfish can be helpful to the environment?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They eat all the fish",
+            "feedback": "No. Shellfish do not eat all fish; that would harm the ecosystem, not help it."
+          },
+          {
+            "label": "They filter water",
+            "feedback": "Correct. Some shellfish, like clams and oysters, filter water, removing particles and contaminants, which improves water quality and clarity."
+          },
+          {
+            "label": "They produce carbon dioxide",
+            "feedback": "Producing carbon dioxide is not a helpful service; shellfish actually help bury carbon in reefs."
+          },
+          {
+            "label": "They attract sharks",
+            "feedback": "Attracting sharks is not a beneficial role described for shellfish. Their helpful roles include filtering and reef building."
+          }
+        ],
+        "ok_title": "Eco service",
+        "ok_line": "Shellfish filter and clean water.",
+        "ko_title": "Not helpful",
+        "ko_line": "Eating fish or producing CO2 is not what shellfish do for good.",
+        "exp_title": "Shellfish benefits",
+        "exp_text": "Shellfish contribute to reefs that shelter other species and protect shores, and they filter water by removing particles and contaminants, which helps keep the water clean and clear."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of animals are crustaceans most closely related to?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Insects and arachnids",
+            "feedback": "Correct. Crustaceans are arthropods, and they are closely related to insects and arachnids."
+          },
+          {
+            "label": "Molluscs and echinoderms",
+            "feedback": "Molluscs and echinoderms are not closely related to crustaceans; crustaceans belong to the arthropod group with insects and arachnids."
+          },
+          {
+            "label": "Fish and reptiles",
+            "feedback": "Fish and reptiles are vertebrates, while crustaceans are invertebrates, so they are not close relatives."
+          },
+          {
+            "label": "Corals and jellyfish",
+            "feedback": "Corals and jellyfish are cnidarians, which are not close to crustaceans; the close relatives are insects and arachnids."
+          }
+        ],
+        "ok_title": "Crustacean relatives",
+        "ok_line": "Crustaceans are arthropods related to insects and arachnids.",
+        "ko_title": "Wrong relatives",
+        "ko_line": "Crustaceans are not close to molluscs or vertebrates.",
+        "exp_title": "Arthropod relationships",
+        "exp_text": "Crustaceans are a subphylum of the phylum Arthropoda, which also includes insects and arachnids, so they share a common ancestry with those groups."
+      }
+    ]
+  }
+]

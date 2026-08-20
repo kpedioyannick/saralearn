@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 137,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How do two continents colliding build a mountain range?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The ocean floor between them sinks and drags the land down",
+            "feedback": "Sinking lowers land, and this question asks how land gets pushed up instead."
+          },
+          {
+            "label": "Volcanoes erupt along the crack between them",
+            "feedback": "A crack lets rock pull apart. Two continents meeting are pressing together, not tearing open."
+          },
+          {
+            "label": "Neither plate can sink, so the crust crumples upward",
+            "feedback": "With nowhere to go but up, the rock folds and piles into a range."
+          },
+          {
+            "label": "The heavier continent slides underneath the lighter one",
+            "feedback": "Continental crust is too light and thick to dive under another continent, which is exactly why the collision jams instead of sliding through."
+          }
+        ],
+        "ok_title": "Nowhere else to go",
+        "ok_line": "Two continents cannot pass through each other.",
+        "ko_title": "Not a slide",
+        "ko_line": "Ask what happens when neither side of a collision can give way.",
+        "exp_title": "A collision with no way out",
+        "exp_text": "Oceanic crust is dense enough to dive beneath another plate, but continental crust is too thick and buoyant to sink the same way. When two continents are driven together by the same plates that once carried an ocean between them, the rock between them has nowhere left to go, so it crumples and folds upward instead. The Himalayas are the crust of a vanished ocean and its bordering continents, squeezed and stacked into a wall."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do volcanic mountain ranges often rise along a coastline next to a deep ocean trench?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ocean plate dives under the coast and melts, feeding volcanoes above",
+            "feedback": "The sinking slab releases fluids that lower the melting point of the rock above it, and the magma that forms rises to build the range."
+          },
+          {
+            "label": "The trench fills with lava that hardens into mountains",
+            "feedback": "A trench is where crust is sinking away, not where lava is pooling. The volcanoes appear on land, well back from the trench itself."
+          },
+          {
+            "label": "Heavy rain along the coast piles up eroded rock into peaks",
+            "feedback": "Rain wears mountains down over time; it does not stack loose rock into a range in the first place."
+          },
+          {
+            "label": "The coastline is simply the highest part of a continent that never eroded",
+            "feedback": "This describes a range surviving by chance, not one being actively built by molten rock rising to the surface."
+          }
+        ],
+        "ok_title": "Exactly the link",
+        "ok_line": "A trench and a mountain range are two ends of the same process.",
+        "ko_title": "The trench is a clue",
+        "ko_line": "A deep trench right next to a mountain range is not a coincidence — one plate is going somewhere.",
+        "exp_title": "A sinking slab feeds the range above it",
+        "exp_text": "Where an oceanic plate meets a continent, it is dense enough to bend downward and slide beneath it, and the deep trench marks the bend. As the descending slab sinks into the hot mantle it releases water trapped in its rock, and that water lowers the melting point of the mantle above it enough to form magma. The magma rises through the continent and erupts again and again, building a chain of volcanic mountains along the coast."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a single volcano grow into a tall, cone-shaped mountain?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "One enormous eruption pushes the whole cone up at once",
+            "feedback": "A single eruption leaves a crater and a spread of debris, not a tall standing cone. Height comes from many eruptions, not one."
+          },
+          {
+            "label": "Repeated eruptions add layer after layer of lava and ash",
+            "feedback": "Each eruption drapes a new coat over the last, and the cone rises layer by layer."
+          },
+          {
+            "label": "The ground beneath it swells upward like a blister",
+            "feedback": "Some ground does dome slightly as magma gathers below, but that swelling alone is far too small to make a mountain — the height comes from what erupts, not what bulges."
+          },
+          {
+            "label": "Wind piles ash from nearby eruptions into a heap",
+            "feedback": "Ash blown in from elsewhere would spread thin and flat. A steep cone needs material erupting from its own summit, not drifting in sideways."
+          }
+        ],
+        "ok_title": "Layer by layer",
+        "ok_line": "A volcano is its own eruptions, stacked.",
+        "ko_title": "Not one event",
+        "ko_line": "A tall, layered cone is the signature of something repeated many times, not something sudden.",
+        "exp_title": "Built from its own eruptions",
+        "exp_text": "Each time a volcano erupts, lava or ash spreads from the summit and hardens into a new coat draped over the mountain's flanks. The next eruption adds another coat on top of that one, and over thousands of eruptions the coats stack into a steep, symmetrical cone. A mountain like Fuji is, layer for layer, a chronicle of every eruption that ever came out of it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a mountain range form from blocks of crust with no folding and no volcanoes at all?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Erosion wears away the softer rock around the block, leaving it standing tall",
+            "feedback": "Erosion can expose a shape that already exists, but it removes material rather than lifting a block above its neighbours."
+          },
+          {
+            "label": "A meteorite strike shoves a slab of crust upward",
+            "feedback": "An impact would leave a crater with debris around it, not a long, steady range — and no mountain range on Earth carries that signature."
+          },
+          {
+            "label": "Magma pools beneath the crust and lifts it like a raft",
+            "feedback": "Pooling magma can dome the ground gently, but a sharp-edged block standing above its surroundings needs a break in the rock, not a bulge under it."
+          },
+          {
+            "label": "The crust cracks and stretches, and a block between the cracks tilts upward",
+            "feedback": "Where the crust is pulled apart, blocks bounded by cracks can drop, rise, or tilt relative to their neighbours."
+          }
+        ],
+        "ok_title": "No folding needed",
+        "ok_line": "A crack and a tilt are enough.",
+        "ko_title": "Look for a break, not a bulge",
+        "ko_line": "A block standing above its surroundings points to a crack in the rock, not something pushing from below.",
+        "exp_title": "Cracked, not crumpled",
+        "exp_text": "Where the crust is being stretched rather than squeezed, it breaks along steep faults instead of folding. Blocks of rock bounded by these faults can drop down, and the blocks left standing beside them are tilted upward relative to the sunken ground next to them. The Sierra Nevada and the Tetons rise this way, as tilted blocks framed by cracks rather than folds pushed up by a collision."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a range like the Himalayas keep growing taller even today?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The plates that built it are still pushing together",
+            "feedback": "The collision that first raised the range has never stopped, so it keeps adding height faster than it is worn away."
+          },
+          {
+            "label": "Ice on its peaks adds weight that presses the range upward",
+            "feedback": "Added weight would press the crust down, not lift it. Ice does the opposite of raising a range."
+          },
+          {
+            "label": "The range is cooling and contracting into a taller shape",
+            "feedback": "Cooling rock contracts and settles; it does not stretch itself into a taller peak."
+          },
+          {
+            "label": "Erosion has stripped away enough rock to let it float higher",
+            "feedback": "Losing rock from the top can let the crust rise slightly underneath, but that effect is far smaller than the growth still driven by the collision itself, and it works by removing height, not by continuing to add it."
+          }
+        ],
+        "ok_title": "Still colliding",
+        "ok_line": "The push that built the range never stopped.",
+        "ko_title": "The engine is still on",
+        "ko_line": "A range only keeps growing if whatever built it in the first place is still happening.",
+        "exp_title": "A collision without a finish line",
+        "exp_text": "The Himalayas exist because the plate carrying India is driven into the plate carrying Asia, and that motion has not ended. Every year the two plates close the gap between them a little further, and the crust between them is squeezed and folded a little higher. Because the push continues faster than erosion can wear the peaks back down, the range as a whole keeps rising."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are older mountain ranges like the Appalachians lower and more rounded than young ranges like the Himalayas?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They were never pushed up as high in the first place",
+            "feedback": "The rock in old ranges shows they were once folded to Himalayan heights or beyond. The difference is what happened after, not how high they started."
+          },
+          {
+            "label": "Their rock is a softer type that never held a sharp shape",
+            "feedback": "The same kinds of rock make up both young and old ranges. The shape has changed, not the material."
+          },
+          {
+            "label": "The collision that raised them ended long ago, leaving only erosion at work",
+            "feedback": "With no further uplift to replace what is worn away, rain, frost and rivers have had far longer to grind the peaks down and round off their edges."
+          },
+          {
+            "label": "They sit on a part of the crust that is sinking back down",
+            "feedback": "Sinking would explain lower elevation, but it would not explain rounded rather than jagged peaks, which is a sign of long erosion, not subsidence."
+          }
+        ],
+        "ok_title": "Time has had its way",
+        "ok_line": "Nothing has replaced what erosion removes.",
+        "ko_title": "Old, not different",
+        "ko_line": "The Appalachians were built the same way the Himalayas are being built now. Ask what changed since.",
+        "exp_title": "Erosion wins once the uplift stops",
+        "exp_text": "The Appalachians were built by a continental collision hundreds of millions of years ago, and that collision ended long before humans existed. Since then nothing has pushed the range any higher, while rain, frost and rivers have gone on wearing it down every year without pause. With uplift gone and erosion still working, the sharp young peaks a collision first raises are gradually ground into the low, rounded hills left behind."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you find fossils of sea creatures embedded in rock near the summit of some very tall mountains?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Birds carried shells up to nest among the rocks",
+            "feedback": "A carried shell would lie loose on the surface. A fossil is sealed inside the rock layer itself, which no bird can arrange."
+          },
+          {
+            "label": "A flood once covered the whole mountain in seawater",
+            "feedback": "A single flood would leave a thin surface trace, not fossils sealed deep inside layered rock built up over a long span of time."
+          },
+          {
+            "label": "The fossils formed later, from minerals carried up by rain",
+            "feedback": "Minerals carried by rain cannot assemble themselves into the shape of a shell or a sea creature. A fossil records a body that was actually there."
+          },
+          {
+            "label": "The rock was once a seafloor, later folded and lifted by a collision",
+            "feedback": "Sediment that settled on an ancient seafloor hardened into rock, and the same collision that built the mountain lifted that rock, fossils included, to the summit."
+          }
+        ],
+        "ok_title": "The seafloor came with it",
+        "ok_line": "The mountain did not grow around the fossils; it lifted them.",
+        "ko_title": "Follow the rock, not the shell",
+        "ko_line": "Ask where a layer of rock full of shells could have formed in the first place.",
+        "exp_title": "A seafloor carried to the sky",
+        "exp_text": "Fine sediment settling on an ancient seafloor buries the shells and skeletons of the creatures living there, and over long spans of time that sediment hardens into layered rock. When a collision later folds and lifts that stretch of crust into a mountain range, the layer of rock rises with everything sealed inside it. The fossils near the summit are not evidence that the sea reached that high; they are evidence that the mountain rose from where the sea once was."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a mountain range sometimes rise a little higher even after erosion strips rock off its peaks?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The lost rock is replaced by fresh volcanic eruptions",
+            "feedback": "This describes a volcano rebuilding itself, not the widespread rise seen across a whole eroding range with no eruptions involved."
+          },
+          {
+            "label": "The lighter crust floats a little higher once weight is removed",
+            "feedback": "Crust rests on the denser mantle beneath it, and removing weight from the top lets it settle upward, the same way a lightened boat rides higher in water."
+          },
+          {
+            "label": "Erosion smooths the surface, which reduces friction with the mantle",
+            "feedback": "The mantle beneath the crust behaves like a slow-flowing fluid, not a surface that grips or slides against the rock above it, so friction has nothing to do with it."
+          },
+          {
+            "label": "Wind fills the gaps left by erosion with denser material",
+            "feedback": "Wind deposits loose, light sediment, not dense rock, and depositing extra weight on top would press the crust down rather than let it rise."
+          }
+        ],
+        "ok_title": "A raft riding higher",
+        "ok_line": "Take weight off the top, and the rest floats up.",
+        "ko_title": "Think buoyancy, not building",
+        "ko_line": "The crust is not being added to here. Something already there is adjusting.",
+        "exp_title": "The crust floats on the mantle",
+        "exp_text": "Continental crust is less dense than the mantle beneath it and rests on it the way a raft rests on water, low where it is loaded and higher where it is light. When erosion carries rock away from the top of a range, the crust there becomes lighter and settles upward to a new balance, in the same way a raft rises as cargo is unloaded from it. Part of the height erosion takes from the summit is given back by the crust adjusting beneath it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do rock layers exposed on a mountainside often appear bent into smooth curves rather than snapped straight across?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Under the heat and pressure of a collision, rock can bend instead of breaking",
+            "feedback": "Buried rock under great pressure and warmth behaves less like a rigid slab and more like a thick, slow-moving paste, so it bends smoothly rather than snapping."
+          },
+          {
+            "label": "The layers were poured in curved shapes when the rock first formed",
+            "feedback": "Sedimentary layers settle flat, spread evenly by gravity. The curves seen today formed after the rock existed, not while it was being laid down."
+          },
+          {
+            "label": "Rainwater slowly dissolves the rock into a curved surface",
+            "feedback": "Dissolving would smooth or pit a surface unevenly, not bend whole layers of rock into matching parallel curves that continue deep underground."
+          },
+          {
+            "label": "Ice sheets pressed down and squashed the layers into curves",
+            "feedback": "Ice presses straight down and would flatten layers, not fold them sideways into the rounded arches and troughs actually seen in mountain rock."
+          }
+        ],
+        "ok_title": "Bent, not broken",
+        "ok_line": "Deep rock under pressure behaves differently than rock at the surface.",
+        "ko_title": "The shape came after",
+        "ko_line": "The layers were flat once. Ask what could curve a whole stack of them together.",
+        "exp_title": "Rock that flows without breaking",
+        "exp_text": "Deep inside a collision zone, rock sits under enormous pressure and is warmed by the heat of the crust around it, and under those conditions it no longer behaves like the brittle stone you can snap in your hands. Squeezed sideways over long spans of time, it deforms slowly and smoothly instead of cracking, the way warm wax bends rather than shatters. When that folded rock is later lifted and exposed by erosion, the curves it bent into millions of years earlier are what you see in the mountainside."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do mountain ranges tend to form as long, narrow chains rather than as scattered, isolated peaks?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Wind erosion carves isolated peaks down into a connected line",
+            "feedback": "Erosion only removes rock; it cannot connect separate peaks into a continuous chain or explain why the uplift itself is long and narrow to begin with."
+          },
+          {
+            "label": "Mountains grow toward each other over time to save space",
+            "feedback": "Rock has no way to move itself sideways toward a neighbouring peak. Each mountain's position is fixed by where it was built."
+          },
+          {
+            "label": "The collision or sinking plate that builds them follows a long boundary",
+            "feedback": "Wherever two plates meet, that meeting runs along a line, and the folding or the volcanoes it produces follow that same line for as far as the boundary runs."
+          },
+          {
+            "label": "Rivers cut away the rock everywhere except along a narrow band",
+            "feedback": "Rivers remove rock unevenly across a landscape, but they do not concentrate a whole chain's worth of uplifted rock into one narrow strip; the uplift itself is already shaped that way."
+          }
+        ],
+        "ok_title": "It traces a boundary",
+        "ok_line": "A mountain chain is a line because a plate edge is a line.",
+        "ko_title": "The shape is inherited",
+        "ko_line": "The long, narrow shape of a range is set by whatever built it, not by anything that happens afterward.",
+        "exp_title": "A chain traces a plate edge",
+        "exp_text": "Whether two plates are colliding or one is sinking beneath another, the place where they meet is a long boundary, not a single point. Folding, faulting, or rising magma happens all along that boundary at once, so uplift appears as a continuous strip rather than at one isolated spot. A mountain chain is, in outline, the shape of the plate edge that built it."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the deep ocean zone where no sunlight can reach at all?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The photic zone",
+            "feedback": "The photic zone is the sunlit surface layer where photosynthesis happens, not the dark deep zone."
+          },
+          {
+            "label": "The aphotic zone",
+            "feedback": "Correct. The aphotic zone is the part of the ocean where no light penetrates, including the bathypelagic and abyssopelagic zones."
+          },
+          {
+            "label": "The mesopelagic zone",
+            "feedback": "The mesopelagic zone has minimal but still measurable light, so it is not completely dark."
+          },
+          {
+            "label": "The epipelagic zone",
+            "feedback": "The epipelagic zone is the sunlit surface layer, the opposite of a no-light zone."
+          }
+        ],
+        "ok_title": "No light zone",
+        "ok_line": "The aphotic zone is the deep ocean where sunlight never reaches.",
+        "ko_title": "Check zone names",
+        "ko_line": "Remember which ocean zones have light and which do not.",
+        "exp_title": "Aphotic zone basics",
+        "exp_text": "The aphotic zone is the deep part of the ocean where no sunlight penetrates. It covers the bathypelagic and abyssopelagic layers, and it makes up about three-quarters of the inhabitable ocean space. Organisms there cannot use photosynthesis and depend on food falling from above."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which fish is the most common deep-sea fish?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The lanternfish",
+            "feedback": "Correct. The lanternfish is by far the most common deep-sea fish."
+          },
+          {
+            "label": "The anglerfish",
+            "feedback": "Anglerfish are deep-sea fish, but they are not the most common; that title belongs to the lanternfish."
+          },
+          {
+            "label": "The viperfish",
+            "feedback": "Viperfish are deep-sea fish, but they are not the most common; lanternfish are far more numerous."
+          },
+          {
+            "label": "The cookiecutter shark",
+            "feedback": "Cookiecutter sharks are deep-sea fish, but they are not the most common; lanternfish hold that record."
+          }
+        ],
+        "ok_title": "Most common fish",
+        "ok_line": "Lanternfish outnumber all other deep-sea fish.",
+        "ko_title": "Common mix-up",
+        "ko_line": "Several fish live deep, but only one is the most abundant.",
+        "exp_title": "Lanternfish prevalence",
+        "exp_text": "Among all deep-sea fish, the lanternfish is the most common. It lives in the dark waters below the sunlit surface, and its abundance makes it a key part of the deep-sea ecosystem."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which ocean zone does photosynthesis occur?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The bathypelagic zone",
+            "feedback": "The bathypelagic zone is completely dark, so no photosynthesis can happen there."
+          },
+          {
+            "label": "The abyssopelagic zone",
+            "feedback": "The abyssopelagic zone is also aphotic, meaning no light reaches it for photosynthesis."
+          },
+          {
+            "label": "The epipelagic zone",
+            "feedback": "Correct. The epipelagic zone, also called the photic zone, is where light penetrates and photosynthesis occurs."
+          },
+          {
+            "label": "The mesopelagic zone",
+            "feedback": "The mesopelagic zone has only minimal light, not enough for photosynthesis to occur."
+          }
+        ],
+        "ok_title": "Photic zone",
+        "ok_line": "Photosynthesis happens in the sunlit epipelagic zone.",
+        "ko_title": "Light zones",
+        "ko_line": "Only the top sunlit layer supports photosynthesis.",
+        "exp_title": "Photic zone function",
+        "exp_text": "The epipelagic zone, extending from the surface down to about 200 metres, is the only part of the ocean where sunlight is strong enough for photosynthesis. This is why it is also called the photic zone, and it is the base of the ocean's food web."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for organisms that live on or in the sea floor?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Pelagic organisms",
+            "feedback": "Pelagic organisms live in the open water column, not on the sea floor."
+          },
+          {
+            "label": "Planktonic organisms",
+            "feedback": "Planktonic organisms drift in the water, not on the sea floor."
+          },
+          {
+            "label": "Nektonic organisms",
+            "feedback": "Nektonic organisms actively swim in the water, not on the sea floor."
+          },
+          {
+            "label": "Benthic organisms",
+            "feedback": "Correct. Benthic organisms live in or on the sea floor, unlike pelagic organisms that live in the water column."
+          }
+        ],
+        "ok_title": "Sea floor life",
+        "ok_line": "Benthic organisms live on or in the ocean floor.",
+        "ko_title": "Habitat words",
+        "ko_line": "Pelagic means open water; benthic means sea floor.",
+        "exp_title": "Benthic definition",
+        "exp_text": "Benthic organisms are those that live in or on the sea floor, such as many worms, crabs, and starfish. They are contrasted with pelagic organisms, which live in the water column above the bottom."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main energy source for most organisms living in the bathypelagic zone?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Sunlight",
+            "feedback": "Sunlight cannot reach the bathypelagic zone, so it cannot be an energy source there."
+          },
+          {
+            "label": "Marine snow",
+            "feedback": "Correct. Marine snow is organic detritus falling from above, and most bathypelagic organisms rely on it as their energy source."
+          },
+          {
+            "label": "Hydrothermal vents",
+            "feedback": "Hydrothermal vents do provide energy in some deep areas, but they are not the main source for most bathypelagic organisms."
+          },
+          {
+            "label": "Chemosynthesis from rocks",
+            "feedback": "Chemosynthesis happens at specific vent sites, not generally across the bathypelagic zone."
+          }
+        ],
+        "ok_title": "Deep sea food",
+        "ok_line": "Most deep-sea life depends on marine snow falling from above.",
+        "ko_title": "Energy source",
+        "ko_line": "Without sunlight, deep organisms eat falling organic matter.",
+        "exp_title": "Marine snow role",
+        "exp_text": "Marine snow is a continuous shower of organic detritus, including dead plankton and fecal matter, falling from the sunlit upper waters. Since no light reaches the bathypelagic zone, most organisms there rely on this falling food as their primary energy source."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to most of the organic material in marine snow before it reaches the deep sea floor?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is consumed by microbes and small animals",
+            "feedback": "Correct. Within the first 1,000 metres, microbes, zooplankton, and filter feeders eat most of the organic components of marine snow."
+          },
+          {
+            "label": "It dissolves completely in the water",
+            "feedback": "Marine snow does not dissolve entirely; it is mostly eaten by organisms before reaching the bottom."
+          },
+          {
+            "label": "It sinks unchanged to the ocean floor",
+            "feedback": "Only a small portion of marine snow reaches the deep floor; most is consumed along the way."
+          },
+          {
+            "label": "It is broken down by sunlight",
+            "feedback": "Sunlight does not reach the deep layers, so it cannot break down marine snow there."
+          }
+        ],
+        "ok_title": "Snow consumption",
+        "ok_line": "Most marine snow is eaten before it reaches the deep floor.",
+        "ko_title": "Food chain start",
+        "ko_line": "Marine snow feeds animals as it falls, not just at the bottom.",
+        "exp_title": "Marine snow fate",
+        "exp_text": "Marine snow falls slowly from the surface, but most of its organic material is consumed by microbes, zooplankton, and filter-feeding animals within the first 1,000 metres. Only a small fraction reaches the deep sea floor, where it supports benthic life."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group of fish is described as 'pseudoceanic' because they gather in higher numbers around seamounts and continental slopes?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Anglerfish and viperfish",
+            "feedback": "Anglerfish and viperfish are deep-sea fish, but they are not the ones described as pseudoceanic."
+          },
+          {
+            "label": "Bristlemouths and cookiecutter sharks",
+            "feedback": "Bristlemouths and cookiecutter sharks are deep-sea fish, but they are not named as pseudoceanic in this context."
+          },
+          {
+            "label": "Lanternfish, ridgeheads, hatchetfish, and lightfish",
+            "feedback": "Correct. These families are called pseudoceanic because they concentrate around seamounts and continental slopes rather than spreading evenly in open water."
+          },
+          {
+            "label": "Eelpouts and holocephalians",
+            "feedback": "Eelpouts and holocephalians are deep-sea fish, but they are not the ones described as pseudoceanic."
+          }
+        ],
+        "ok_title": "Pseudoceanic fish",
+        "ok_line": "Lanternfish and others gather around underwater structures.",
+        "ko_title": "Habitat pattern",
+        "ko_line": "Some fish cluster near seamounts, not open water.",
+        "exp_title": "Pseudoceanic definition",
+        "exp_text": "Pseudoceanic fish, including lanternfish, ridgeheads, marine hatchetfish, and lightfish, are not evenly spread through the open ocean. Instead, they are found in much higher numbers around structural oases like seamounts and continental slopes, likely because prey also gathers there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the temperature range in most of the deep sea, away from hydrothermal vents?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Between 10°C and 20°C",
+            "feedback": "This is warmer than the typical deep sea, which is much colder."
+          },
+          {
+            "label": "Between 5°C and 15°C",
+            "feedback": "The deep sea is colder than this range, usually below 3°C."
+          },
+          {
+            "label": "Between 0°C and 5°C",
+            "feedback": "This is close but slightly too warm; the deep sea rarely exceeds 3°C and can drop to about -1.8°C."
+          },
+          {
+            "label": "Between -1.8°C and 3°C",
+            "feedback": "Correct. Most of the deep sea has temperatures that rarely exceed 3°C and can fall as low as -1.8°C."
+          }
+        ],
+        "ok_title": "Deep sea cold",
+        "ok_line": "Deep sea temperatures stay near freezing, mostly below 3°C.",
+        "ko_title": "Temperature range",
+        "ko_line": "Most deep water is just above freezing.",
+        "exp_title": "Deep sea temperature",
+        "exp_text": "Away from hydrothermal vents, the deep sea is extremely cold, with temperatures usually between -1.8°C and 3°C. This cold, along with high pressure and low oxygen, makes it a harsh environment for life."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do deep-sea fish have a higher proportion of unsaturated fatty acids in their cell membranes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To keep their cell membranes fluid under high pressure",
+            "feedback": "Correct. High pressure squeezes molecules together, reducing membrane fluidity; more unsaturated fatty acids help keep membranes fluid enough for proper function."
+          },
+          {
+            "label": "To store extra energy for long fasting periods",
+            "feedback": "Unsaturated fatty acids are not primarily for energy storage in this context."
+          },
+          {
+            "label": "To make their bodies more buoyant in deep water",
+            "feedback": "Buoyancy is not related to the proportion of unsaturated fatty acids in membranes."
+          },
+          {
+            "label": "To help them see in the dark",
+            "feedback": "Unsaturated fatty acids do not affect vision; they affect membrane fluidity."
+          }
+        ],
+        "ok_title": "Membrane fluidity",
+        "ok_line": "Unsaturated fats keep cell membranes working under pressure.",
+        "ko_title": "Fatty acids role",
+        "ko_line": "Membranes need fluidity, not just energy storage.",
+        "exp_title": "Pressure adaptation",
+        "exp_text": "Under high pressure, molecules in cell membranes are squeezed together, making membranes less fluid. Deep-sea fish increase the proportion of unsaturated fatty acids in their membranes to keep them fluid, which is essential for efficient protein production and other biological functions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to deep-sea fish with gas-filled spaces if they are brought quickly to the surface?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They swim faster due to increased oxygen",
+            "feedback": "Rising quickly does not give them more oxygen; it changes pressure."
+          },
+          {
+            "label": "They become blind from the bright light",
+            "feedback": "Bright light can be an issue, but the main problem is gas expansion from pressure change."
+          },
+          {
+            "label": "They may blow up because the gas expands",
+            "feedback": "Correct. Gas in their vacuoles expands under low pressure, which can cause them to blow up."
+          },
+          {
+            "label": "They freeze solid because the water is warmer",
+            "feedback": "Surface water is warmer, not colder, and freezing is not the issue."
+          }
+        ],
+        "ok_title": "Gas expansion",
+        "ok_line": "Deep-sea fish can burst when brought to the surface.",
+        "ko_title": "Pressure effect",
+        "ko_line": "Gas expands as pressure drops.",
+        "exp_title": "Rapid ascent effect",
+        "exp_text": "Deep-sea fish have gas-filled spaces inside their bodies. At depth, the gas is compressed by high pressure, but if the fish is brought to the surface, the pressure drops and the gas expands, which can make the fish blow up. This is why they rarely survive being caught and brought up."
+      }
+    ]
+  }
+]

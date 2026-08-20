@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 234,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a pollinator?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An animal that moves pollen from the male anther to the female stigma of a flower.",
+            "feedback": "Correct. This movement of pollen is what defines a pollinator, and it leads to fertilization of the ovules."
+          },
+          {
+            "label": "A plant that produces pollen for other plants.",
+            "feedback": "That is a pollenizer, not a pollinator. A pollinator is an animal, while a pollenizer is a plant that serves as a pollen source."
+          },
+          {
+            "label": "A part of the flower that receives pollen.",
+            "feedback": "The stigma receives pollen, but it is a flower part, not an animal that moves pollen. The pollinator is the animal doing the moving."
+          },
+          {
+            "label": "A type of seed that is dispersed by animals.",
+            "feedback": "That describes seed dispersal, not pollination. Pollination is the transfer of pollen between flowers, which happens before seeds form."
+          }
+        ],
+        "ok_title": "Pollinator defined",
+        "ok_line": "A pollinator is the animal carrying pollen between flower parts.",
+        "ko_title": "Check your terms",
+        "ko_line": "Remember the pollinator moves pollen, not the pollen source itself.",
+        "exp_title": "The role of a pollinator",
+        "exp_text": "A pollinator is any animal that moves pollen from the anther, the male part of a flower, to the stigma, the female part. This transfer enables fertilization of the ovules, which is the first step toward making seeds and fruit. The animal does this while visiting flowers for food, such as nectar or pollen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group of animals are the major pollinators of most plants?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Birds",
+            "feedback": "Birds do pollinate some flowers, but they are not the major pollinators of most plants. Insects are the primary group."
+          },
+          {
+            "label": "Insects",
+            "feedback": "Correct. Insects, including bees, wasps, flies, butterflies, moths, and beetles, pollinate the majority of plant species."
+          },
+          {
+            "label": "Bats",
+            "feedback": "Bats pollinate certain plants, especially in tropical regions, but they are not the major pollinators of most plants. Insects hold that role."
+          },
+          {
+            "label": "Lizards",
+            "feedback": "Some lizards do pollinate, but they are only occasional pollinators for a few plants. The major pollinators are insects."
+          }
+        ],
+        "ok_title": "Insects lead",
+        "ok_line": "Insects pollinate most plants worldwide.",
+        "ko_title": "Vertebrates are rare",
+        "ko_line": "Birds, bats, and lizards help some flowers, but insects do the heavy lifting.",
+        "exp_title": "Major pollinators",
+        "exp_text": "Insects are the main pollinators for the vast majority of flowering plants. This group includes bees, wasps, flies, butterflies, moths, and beetles. While some birds, bats, and other vertebrates also pollinate, they cover only a small fraction of plant species compared to insects."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What part of a bee's body is specially adapted to carry pollen?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The wings",
+            "feedback": "Wings are for flying, not for carrying pollen. Bees carry pollen on their legs or abdomen using special structures."
+          },
+          {
+            "label": "The eyes",
+            "feedback": "Eyes are for seeing, not for transporting pollen. The pollen-carrying structures are on the legs or lower abdomen."
+          },
+          {
+            "label": "The hind legs or lower abdomen",
+            "feedback": "Correct. Most bees have a scopa on their hind legs or lower abdomen, while honey bees and bumblebees use a pollen basket on the hind leg."
+          },
+          {
+            "label": "The antennae",
+            "feedback": "Antennae are sensory organs for touch and smell, not for carrying pollen. The carrying structures are on the legs or abdomen."
+          }
+        ],
+        "ok_title": "Pollen baskets and scopae",
+        "ok_line": "Bees use special leg or abdomen parts to carry pollen.",
+        "ko_title": "Not flying parts",
+        "ko_line": "Pollen is carried on the body's rear, not on wings or head.",
+        "exp_title": "Pollen-carrying structures",
+        "exp_text": "Most bees have a scopa, which is a dense brush of hairs on the hind legs or lower abdomen, used to collect and hold pollen. Honey bees, bumblebees, and their relatives instead have a smooth, concave area on the hind leg called the corbicula, or pollen basket, where they pack pollen for transport back to the nest."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which bees collect floral scents rather than nectar or pollen from orchids?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Male euglossine bees",
+            "feedback": "Correct. Male euglossine bees visit orchids to collect fragrant compounds, which they use in their mating displays, and in doing so they pollinate the orchids."
+          },
+          {
+            "label": "Female euglossine bees",
+            "feedback": "Female euglossine bees pollinate other flowers, but they do not collect scents from orchids. It is the males that visit orchids for fragrance."
+          },
+          {
+            "label": "Honey bees",
+            "feedback": "Honey bees collect nectar and pollen from many flowers, but they do not have this special scent-collecting behavior with orchids. That is specific to male euglossine bees."
+          },
+          {
+            "label": "Bumblebees",
+            "feedback": "Bumblebees gather nectar and pollen, not scents. The orchid-visiting scent collectors are male euglossine bees."
+          }
+        ],
+        "ok_title": "Scent-collecting males",
+        "ok_line": "Male euglossine bees gather orchid fragrances, not food.",
+        "ko_title": "Who visits orchids",
+        "ko_line": "Male euglossine bees are the orchid scent collectors, not females or honey bees.",
+        "exp_title": "Orchid pollination by euglossine bees",
+        "exp_text": "Male euglossine bees pollinate orchids by collecting the flowers' scents, which they use to attract mates. They do not gather nectar or pollen from these orchids. In contrast, female euglossine bees pollinate flowers other than orchids, and they collect pollen and nectar as usual."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do bees use nectar and pollen for?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Nectar for building nests, pollen for defense",
+            "feedback": "That is not correct. Nectar provides energy, and pollen provides protein for the bees and their young. They do not use these for nest building or defense."
+          },
+          {
+            "label": "Nectar for protein, pollen for energy",
+            "feedback": "It is the other way around: nectar gives energy, and pollen gives protein."
+          },
+          {
+            "label": "Both are used for egg-laying",
+            "feedback": "Egg-laying is done by the queen, but nectar and pollen are food sources, not directly for egg production. They nourish the adult bees and their larvae."
+          },
+          {
+            "label": "Nectar for energy, pollen for protein",
+            "feedback": "Correct. Nectar is a concentrated energy source, while pollen is a high-protein food, especially important for rearing young bees."
+          }
+        ],
+        "ok_title": "Food roles",
+        "ok_line": "Nectar fuels, pollen builds.",
+        "ko_title": "Energy vs protein",
+        "ko_line": "Remember nectar is energy, pollen is protein.",
+        "exp_title": "Bee nutrition",
+        "exp_text": "Bees gather nectar as their main energy source, giving them the fuel to fly and work. Pollen provides the protein they need, particularly for growing and feeding their larvae. When a hive is raising many young bees, the workers deliberately collect more pollen to meet that protein demand."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a vertebrate pollinator?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A beetle",
+            "feedback": "Beetles are insects, not vertebrates. Vertebrate pollinators include birds, bats, and some mammals and lizards."
+          },
+          {
+            "label": "A hummingbird",
+            "feedback": "Correct. Hummingbirds are birds, which are vertebrates, and they pollinate deep-throated flowers with their long beaks."
+          },
+          {
+            "label": "A moth",
+            "feedback": "Moths are insects, not vertebrates. They are pollinators, but they belong to the insect group."
+          },
+          {
+            "label": "A fly",
+            "feedback": "Flies are insects, not vertebrates. Vertebrate pollinators have backbones and include animals like birds and bats."
+          }
+        ],
+        "ok_title": "Vertebrate examples",
+        "ok_line": "Hummingbirds are vertebrates that pollinate flowers.",
+        "ko_title": "Insects vs vertebrates",
+        "ko_line": "Birds and bats are vertebrates; beetles, moths, and flies are insects.",
+        "exp_title": "Vertebrate pollinators",
+        "exp_text": "Vertebrate pollinators are animals with backbones. These mainly include bats and birds, along with some non-bat mammals like monkeys, lemurs, possums, and rodents, and even some lizards. Among birds, hummingbirds, honeyeaters, and sunbirds have long beaks that let them reach nectar in deep-throated flowers, and they pollinate those flowers as they feed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which flower characteristic is more attractive to beetles than to birds?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red color and long narrow tubes",
+            "feedback": "That combination is attractive to birds, not beetles. Beetles prefer wide flowers with plenty of pollen."
+          },
+          {
+            "label": "Deep red flowers with much nectar",
+            "feedback": "This matches bird pollination, not beetle. Beetles are drawn to wide flowers with abundant pollen and little nectar."
+          },
+          {
+            "label": "Wide flowers with little nectar and copious pollen",
+            "feedback": "Correct. Beetles are strongly attracted to wide flowers that offer a lot of pollen, even if they have little nectar. Birds prefer the opposite."
+          },
+          {
+            "label": "Flowers that open only at night",
+            "feedback": "Night-blooming flowers are often pollinated by moths, not beetles. Beetles are daytime visitors to wide, pollen-rich flowers."
+          }
+        ],
+        "ok_title": "Beetle preferences",
+        "ok_line": "Beetles like wide, pollen-heavy flowers.",
+        "ko_title": "Bird vs beetle tags",
+        "ko_line": "Birds like red tubes with nectar; beetles like wide pollen bowls.",
+        "exp_title": "Beetle-attracting flowers",
+        "exp_text": "Beetles are attracted to wide flowers that produce a lot of pollen but only a little nectar. This is different from bird-pollinated flowers, which are typically red, have long narrow tubes, and offer abundant nectar. These differences in flower shape, color, and reward are part of each plant's pollination syndrome."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a pollinator and a pollenizer?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A pollinator is an animal, while a pollenizer is a plant.",
+            "feedback": "Correct. A pollinator is the animal that moves pollen, while a pollenizer is a plant that serves as a source of pollen."
+          },
+          {
+            "label": "A pollinator is a flower part, while a pollenizer is an insect.",
+            "feedback": "That is reversed: a pollinator is an animal, and a pollenizer is a plant. Neither is a flower part."
+          },
+          {
+            "label": "They are the same thing.",
+            "feedback": "They are not the same. A pollinator is the animal that transfers pollen, and a pollenizer is the plant that provides the pollen."
+          },
+          {
+            "label": "A pollinator produces pollen, while a pollenizer moves it.",
+            "feedback": "It is the opposite: the pollenizer produces pollen, and the pollinator moves it."
+          }
+        ],
+        "ok_title": "Two different roles",
+        "ok_line": "Pollinator is animal, pollenizer is plant.",
+        "ko_title": "Don't mix them",
+        "ko_line": "The animal moves pollen; the plant supplies it.",
+        "exp_title": "Pollinator vs pollenizer",
+        "exp_text": "A pollinator is an animal, such as a bee or bird, that physically carries pollen from one flower to another. A pollenizer, on the other hand, is a plant that produces and supplies the pollen for that transfer. They play different roles: one is the courier, the other is the source."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of fly is known for pollinating many flowering plants worldwide and is often considered second only to wild bees?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Carrion flies",
+            "feedback": "Carrion flies are important for certain plants with foul-smelling flowers, but they are not the widespread important pollinators that hoverflies are."
+          },
+          {
+            "label": "Flesh flies",
+            "feedback": "Flesh flies are similar to carrion flies and help specific plants, but they are not the second-most important pollinators overall. That title goes to hoverflies."
+          },
+          {
+            "label": "Bee flies",
+            "feedback": "Bee flies do pollinate some flowers, especially those with narrow tubes, but they are not the group considered second only to wild bees."
+          },
+          {
+            "label": "Hoverflies",
+            "feedback": "Correct. Hoverflies are major pollinators of flowering plants worldwide and are often ranked as the second most important pollinators after wild bees."
+          }
+        ],
+        "ok_title": "Hoverflies rank high",
+        "ok_line": "Hoverflies are top pollinators after bees.",
+        "ko_title": "Not the carrion crew",
+        "ko_line": "Hoverflies, not carrion or flesh flies, are the major broad pollinators.",
+        "exp_title": "Hoverflies as pollinators",
+        "exp_text": "Hoverflies are important pollinators of flowering plants across the globe. While they are generally nonselective and visit many different flowers, they are so abundant and active that they are considered the second most important pollinators after wild bees. Other flies, such as carrion flies and flesh flies, play specialized roles for certain plants, but hoverflies have a much wider impact."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the scopa on a bee?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A type of flower that bees prefer",
+            "feedback": "A scopa is not a flower. It is a body part on the bee used for carrying pollen."
+          },
+          {
+            "label": "A chemical that attracts bees to flowers",
+            "feedback": "That would be a scent or pheromone, not a scopa. The scopa is a physical structure on the bee's body."
+          },
+          {
+            "label": "A structure of thick hairs on the hind legs or lower abdomen that carries pollen",
+            "feedback": "Correct. The scopa is made of thick, plumose (feathery) hairs that hold pollen grains as the bee moves from flower to flower."
+          },
+          {
+            "label": "The part of the flower that produces pollen",
+            "feedback": "That is the anther. The scopa is on the bee, not on the flower."
+          }
+        ],
+        "ok_title": "The pollen brush",
+        "ok_line": "The scopa is a pollen-carrying hair brush on bees.",
+        "ko_title": "Body part not flower",
+        "ko_line": "The scopa is on the bee, not the flower or a chemical.",
+        "exp_title": "The scopa structure",
+        "exp_text": "The scopa is a specialized structure found on most bees, consisting of thick, feathery hairs located on the hind legs or the lower abdomen. These hairs help pollen grains stick to the bee's body, allowing the bee to carry pollen back to its nest to feed its young. Honey bees, bumblebees, and their relatives do not have a scopa; instead, they use a pollen basket, called a corbicula, on their hind leg."
+      }
+    ]
+  }
+]

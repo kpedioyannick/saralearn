@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 229,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a rock, in geological terms?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Any solid object found on the ground",
+            "feedback": "That includes things like broken bricks or dropped tools, which are not natural. A rock must occur naturally."
+          },
+          {
+            "label": "A single mineral crystal",
+            "feedback": "A mineral is one crystalline substance, but a rock is usually an aggregate of many minerals or mineraloids."
+          },
+          {
+            "label": "A naturally occurring solid mass of minerals or mineraloid matter",
+            "feedback": "Correct. A rock is natural, solid, and made of mineral or mineraloid grains."
+          },
+          {
+            "label": "A hard substance that contains metal",
+            "feedback": "Rocks may contain metal-bearing minerals, but many rocks have no metal at all, and the definition does not require it."
+          }
+        ],
+        "ok_title": "Rock defined",
+        "ok_line": "A rock is a natural solid mass of minerals or mineraloids.",
+        "ko_title": "Not the definition",
+        "ko_line": "Reread what a rock actually is, not what it might look like.",
+        "exp_title": "What a rock is",
+        "exp_text": "A rock is any naturally occurring solid mass made of minerals or mineraloid matter. It is not a single crystal, not something artificial, and not defined by containing metal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which three main groups are rocks usually divided into?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Igneous, sedimentary, metamorphic",
+            "feedback": "Yes, those are the three great classes of rock."
+          },
+          {
+            "label": "Granite, basalt, limestone",
+            "feedback": "Those are specific rock types, not the three main groups. Granite is igneous, basalt is igneous, limestone is sedimentary."
+          },
+          {
+            "label": "Crustal, mantle, core",
+            "feedback": "Those are Earth's layers, not rock classes. Rocks can be found in all three groups regardless of where they sit."
+          },
+          {
+            "label": "Hard, soft, brittle",
+            "feedback": "Those describe physical feel, not the geological classification based on how the rock formed."
+          }
+        ],
+        "ok_title": "Three rock classes",
+        "ok_line": "Igneous, sedimentary, and metamorphic are the three main groups.",
+        "ko_title": "Not the classes",
+        "ko_line": "These belong to a different system of grouping.",
+        "exp_title": "The three groups",
+        "exp_text": "Rocks are usually grouped into igneous, sedimentary, and metamorphic. The group depends on how the rock formed, not on its hardness or where it sits in Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do igneous rocks form?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "By layers of sediment pressing together",
+            "feedback": "That is how sedimentary rocks form, not igneous. Igneous rocks come from cooling magma or lava."
+          },
+          {
+            "label": "When magma or lava cools and solidifies",
+            "feedback": "Correct. Cooling and solidification of molten rock produces igneous rocks."
+          },
+          {
+            "label": "When existing rock is squeezed by high pressure without melting",
+            "feedback": "That describes metamorphism, not igneous formation. Metamorphic rocks transform from other rocks."
+          },
+          {
+            "label": "When tiny particles are glued together by minerals dissolved in water",
+            "feedback": "That is cementation, part of sedimentary rock formation, not igneous."
+          }
+        ],
+        "ok_title": "Igneous origin",
+        "ok_line": "Cooling of magma or lava makes igneous rocks.",
+        "ko_title": "Wrong formation",
+        "ko_line": "That process belongs to another rock class.",
+        "exp_title": "How igneous rocks form",
+        "exp_text": "Igneous rocks form when molten rock, called magma underground or lava at the surface, cools and solidifies. The cooling can happen slowly in the crust or quickly on the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main categories of igneous rocks?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Foliated and non-foliated",
+            "feedback": "Those are categories of metamorphic rocks, based on texture. Igneous rocks are split by where they solidify."
+          },
+          {
+            "label": "Clastic and chemical",
+            "feedback": "Those are types of sedimentary rocks, based on how particles or chemicals accumulate. Igneous rocks are not classified that way."
+          },
+          {
+            "label": "Intrusive and extrusive",
+            "feedback": "That is correct! Plutonic (intrusive) and volcanic (extrusive) are the two categories."
+          },
+          {
+            "label": "Silicate and non-silicate",
+            "feedback": "That is a mineral classification, not a division of igneous rock types. Most rocks contain silicates, but this is not the way igneous rocks are grouped."
+          }
+        ],
+        "ok_title": "Igneous categories",
+        "ok_line": "Plutonic/intrusive and volcanic/extrusive are the two main kinds.",
+        "ko_title": "Not igneous groups",
+        "ko_line": "That grouping belongs to a different rock family.",
+        "exp_title": "Two igneous kinds",
+        "exp_text": "Igneous rocks split into plutonic (intrusive) rocks that cool slowly inside the crust, like granite, and volcanic (extrusive) rocks that cool at the surface, like basalt or pumice."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the original rock called before it undergoes metamorphism?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The magma",
+            "feedback": "Magma is molten rock, not the original solid rock that gets transformed. The original rock is the protolith."
+          },
+          {
+            "label": "The sediment",
+            "feedback": "Sediment is loose particles that may become sedimentary rock, not the starting rock for metamorphism. The starting rock is the protolith."
+          },
+          {
+            "label": "The protolith",
+            "feedback": "Correct. The protolith is the original rock that changes into a metamorphic rock."
+          },
+          {
+            "label": "The country rock",
+            "feedback": "Country rock is the rock that magma passes through as it rises, not the rock that becomes metamorphic."
+          }
+        ],
+        "ok_title": "Protolith name",
+        "ok_line": "The protolith is the rock before metamorphism.",
+        "ko_title": "Wrong original",
+        "ko_line": "That term refers to something else in geology.",
+        "exp_title": "Original rock term",
+        "exp_text": "The original rock that gets transformed by heat and pressure is called the protolith. It can be igneous, sedimentary, or even an older metamorphic rock."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do sedimentary rocks form from?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Accumulated and cemented fragments of older rocks, minerals, or organisms",
+            "feedback": "Exactly. Sediments settle, compact, and cement into sedimentary rock."
+          },
+          {
+            "label": "Cooling of lava on the surface",
+            "feedback": "That makes igneous rock, not sedimentary. Lava cooling forms basalt or pumice."
+          },
+          {
+            "label": "Direct transformation of solid rock by heat and pressure",
+            "feedback": "That is metamorphism. Sedimentary rocks form by surface processes like deposition and cementation."
+          },
+          {
+            "label": "Crystallization of minerals from a cooling magma chamber",
+            "feedback": "That is igneous formation. Sedimentary rocks do not come from magma."
+          }
+        ],
+        "ok_title": "Sediment source",
+        "ok_line": "Sedimentary rocks come from cemented fragments and precipitates.",
+        "ko_title": "Wrong origin",
+        "ko_line": "That process creates a different rock class.",
+        "exp_title": "How sedimentary rocks form",
+        "exp_text": "Sedimentary rocks form at Earth's surface when fragments of older rocks or organic material settle and then get compacted and cemented, or when minerals precipitate from water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the process called when existing rocks change into metamorphic rocks?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Diagenesis",
+            "feedback": "Diagenesis is the compaction and cementation that forms sedimentary rocks, not the transformation that makes metamorphic rocks."
+          },
+          {
+            "label": "Metamorphism",
+            "feedback": "Correct. Metamorphism means 'change in form' and turns any rock type into a metamorphic rock."
+          },
+          {
+            "label": "Lithification",
+            "feedback": "Lithification is the process that turns loose sediment into solid sedimentary rock, not metamorphism."
+          },
+          {
+            "label": "Magma differentiation",
+            "feedback": "That is a process in igneous magma, where magma changes composition as it rises, not a metamorphic process."
+          }
+        ],
+        "ok_title": "Metamorphism term",
+        "ok_line": "Metamorphism is the transformation of rocks.",
+        "ko_title": "Wrong process name",
+        "ko_line": "That term belongs to a different rock-forming process.",
+        "exp_title": "Name of the process",
+        "exp_text": "The transformation of any rock type into a metamorphic rock under different temperature and pressure is called metamorphism, meaning 'change in form'."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group of rocks often contains fossils?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Igneous rocks",
+            "feedback": "Igneous rocks form from molten material, which would destroy any organism. Sedimentary rocks are the ones that preserve fossils."
+          },
+          {
+            "label": "Metamorphic rocks",
+            "feedback": "Metamorphic rocks are altered by intense heat and pressure, which usually destroys fossils. Sedimentary rocks are the fossil-bearing ones."
+          },
+          {
+            "label": "Sedimentary rocks",
+            "feedback": "Correct. Sedimentary rocks form from layers of sediment that can bury and preserve organisms."
+          },
+          {
+            "label": "All three groups equally",
+            "feedback": "No, fossils are rarely preserved in igneous or metamorphic rocks; they are characteristic of sedimentary rocks."
+          }
+        ],
+        "ok_title": "Fossil bearers",
+        "ok_line": "Sedimentary rocks are the ones that typically hold fossils.",
+        "ko_title": "Not fossil rocks",
+        "ko_line": "Heat and melting destroy remains.",
+        "exp_title": "Where fossils are found",
+        "exp_text": "Sedimentary rocks often contain fossils because they accumulate from particles that can bury organisms. Igneous rocks form from molten material and metamorphic rocks are altered by high heat and pressure, both of which destroy fossils."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for rocks that form in horizontal layers or strata?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Igneous rocks",
+            "feedback": "Igneous rocks can have layered flows, but the term 'stratified' specifically refers to sedimentary rocks laid down in layers."
+          },
+          {
+            "label": "Stratified rocks",
+            "feedback": "Correct. Sedimentary rocks are often called stratified because they settle in horizontal or near-horizontal layers."
+          },
+          {
+            "label": "Metamorphic rocks",
+            "feedback": "Metamorphic rocks may show foliation, but that is a different structure from sedimentary strata."
+          },
+          {
+            "label": "Mineraloids",
+            "feedback": "Mineraloids are non-crystalline mineral-like substances, not layered rocks."
+          }
+        ],
+        "ok_title": "Stratified rocks",
+        "ok_line": "Sedimentary rocks are often stratified.",
+        "ko_title": "Not stratified",
+        "ko_line": "That term refers to a specific layering in one rock group.",
+        "exp_title": "Layered rock term",
+        "exp_text": "Sedimentary rocks are frequently called stratified rocks because they form under gravity in horizontal or near-horizontal layers called strata."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are silicate minerals?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Minerals that contain no oxygen",
+            "feedback": "Silicate minerals contain silica tetrahedra, which include oxygen and silicon, so they do contain oxygen."
+          },
+          {
+            "label": "Minerals that are always black",
+            "feedback": "Color is not part of the definition. Silicate minerals come in many colors, like quartz or feldspar."
+          },
+          {
+            "label": "Minerals that form only in metamorphic rocks",
+            "feedback": "Silicate minerals are found in all rock types; they make up most of Earth's crust."
+          },
+          {
+            "label": "Minerals whose crystal structure includes silica tetrahedra",
+            "feedback": "Correct. Silicate minerals have silica tetrahedra in their crystal lattice."
+          }
+        ],
+        "ok_title": "Silicate definition",
+        "ok_line": "Silicate minerals have silica tetrahedra in their structure.",
+        "ko_title": "Not silicates",
+        "ko_line": "That description does not match silicate minerals.",
+        "exp_title": null,
+        "exp_text": "Silicate minerals are compounds that include silica tetrahedra in their crystal structure. They are the most common minerals, making up about 95% of Earth's crust."
+      }
+    ]
+  }
+]

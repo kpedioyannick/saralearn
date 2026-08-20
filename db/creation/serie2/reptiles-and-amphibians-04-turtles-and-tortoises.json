@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 244,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the hard outer covering of a turtle or tortoise called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The shell",
+            "feedback": "Correct. The shell is the turtle's protective outer covering, made of bone and keratin."
+          },
+          {
+            "label": "The carapace",
+            "feedback": "The carapace is only the top part of the shell, not the whole covering. The shell also includes the bottom part, called the plastron."
+          },
+          {
+            "label": "The plastron",
+            "feedback": "The plastron is only the bottom part of the shell, not the entire covering. The full shell includes both the plastron and the carapace."
+          },
+          {
+            "label": "The scute",
+            "feedback": "A scute is a single plate on the shell's surface, not the whole covering. The shell is made of many scutes attached to bone underneath."
+          }
+        ],
+        "ok_title": "Shell is correct",
+        "ok_line": "The shell is the turtle's protective outer covering.",
+        "ko_title": "Not the whole",
+        "ko_line": "Each of those names refers to only a part of the shell.",
+        "exp_title": "The turtle's shell",
+        "exp_text": "The shell is the entire hard covering, made of bone covered by keratin plates called scutes. It has a top part (carapace) and a bottom part (plastron). This is what protects the turtle's body."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the turtle's body is permanently attached to its shell?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Its tail",
+            "feedback": "The tail is outside the shell and can be tucked in, but it is not fused to the shell. Only the ribs and spine are attached directly."
+          },
+          {
+            "label": "Its head",
+            "feedback": "The head is not attached to the shell; it can pull in and out. The shell is fused to the bird's ribs and spine."
+          },
+          {
+            "label": "Its ribs and spine",
+            "feedback": "Correct. The shell is actually part of the skeleton—the ribs and spine are fused to it, so the turtle cannot crawl out of its shell."
+          },
+          {
+            "label": "Its legs",
+            "feedback": "Legs are outside the shell and can retract, but they are not fused to it. Only the ribs and spine are built into the shell."
+          }
+        ],
+        "ok_title": "Fused to skeleton",
+        "ok_line": "The ribs and spine are part of the shell.",
+        "ko_title": "Not attached that way",
+        "ko_line": "Only the ribs and spine are fused to the shell.",
+        "exp_title": "Shell is skeleton",
+        "exp_text": "The turtle's ribs and spine grow into the shell, making it part of the animal's own skeleton. That is why a turtle can never leave its shell; the shell is its body."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the turtle's shell feel when you scratch it?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Nothing, because it is dead material",
+            "feedback": "The outer layer is dead keratin, but underneath the shell has living bone and nerves, so the turtle can feel touch on it."
+          },
+          {
+            "label": "The touch, because the shell has nerves",
+            "feedback": "Correct. The shell is living bone covered by keratin, and it contains nerves, so a turtle feels a scratch on its shell."
+          },
+          {
+            "label": "Only pressure, not light touch",
+            "feedback": "Turtles can feel light touches on their shell, not just heavy pressure, because the shell has sensory nerves throughout the bone."
+          },
+          {
+            "label": "The scratch as pain, because the shell is delicate",
+            "feedback": "A normal scratch is not painful, but the shell can feel it. Pain would occur only if the shell is damaged deeply enough to injure the living tissue."
+          }
+        ],
+        "ok_title": "Shell can feel",
+        "ok_line": "Nerves in the shell sense touch.",
+        "ko_title": "Not dead at all",
+        "ko_line": "The shell is living tissue with nerves.",
+        "exp_title": "Living shell",
+        "exp_text": "The turtle's shell is not a lifeless armor; it is living bone with blood vessels and nerves. That is why a turtle flinches when you scratch its shell—it feels the touch."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a turtle breathe, given that its ribs are fused into its shell?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It cannot breathe at all when inside its shell",
+            "feedback": "That is not true; turtles breathe fine inside their shells. They use muscles that move other parts of the body to change air pressure in the lungs."
+          },
+          {
+            "label": "It breathes through its skin like a frog",
+            "feedback": "Turtles have lungs, not skin breathing. They inhale air through their nostrils and into their lungs, just at a different mechanism because the ribs are fixed."
+          },
+          {
+            "label": "It uses its throat to pump air in and out",
+            "feedback": "Throat movements help in some turtles, but the main breathing uses muscles attached to the inside of the shell and the organs to expand the lungs. There is no diaphragm like ours."
+          },
+          {
+            "label": "It uses special muscles that move the organs and shell to change lung volume",
+            "feedback": "Correct. Turtles have muscles attached to the shell and internal organs that squeeze the lungs to push air out, and relax to let air in, so they can breathe without moving ribs."
+          }
+        ],
+        "ok_title": "Muscles move lungs",
+        "ok_line": "Turtles use special muscles to breathe.",
+        "ko_title": "Not rib expansion",
+        "ko_line": "Turtles have a different way to inflate lungs.",
+        "exp_title": "Shell breathing",
+        "exp_text": "Since the ribs are part of the shell and cannot move, turtles use muscles that attach to the shell and to the organs. Contracting these muscles changes the volume of the lungs, pulling air in and pushing it out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the lower part of a turtle's shell?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Plastron",
+            "feedback": "Correct. The plastron is the bottom (belly) side of the shell, while the top is called the carapace."
+          },
+          {
+            "label": "Carapace",
+            "feedback": "The carapace is the upper (back) part, not the lower part. The lower part is the plastron."
+          },
+          {
+            "label": "Scute",
+            "feedback": "A scute is one of the individual keratin plates covering the shell, not the bottom section. The bottom section is the plastron."
+          },
+          {
+            "label": "Bridge",
+            "feedback": "The bridge is the side area connecting the top and bottom parts, not the entire lower part. The lower part is the plastron."
+          }
+        ],
+        "ok_title": "Plastron is bottom",
+        "ok_line": "The lower shell is the plastron.",
+        "ko_title": "Other names",
+        "ko_line": "Carapace, scute, and bridge each mean a different part.",
+        "exp_title": "Shell parts",
+        "exp_text": "The turtle's shell has two main sections: the carapace on top and the plastron underneath. The plastron is the flat, bottom part that protects the belly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the scutes on a turtle's shell consist of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Bone",
+            "feedback": "Bone is underneath the scutes, but the scutes themselves are made of a different material. The scutes are the outer plates."
+          },
+          {
+            "label": "Cartilage",
+            "feedback": "Cartilage is not what forms the outer plates. The shell's outer layer is made of keratin, like your fingernails."
+          },
+          {
+            "label": "Keratin",
+            "feedback": "Correct. Scutes are made of keratin, the same tough protein that makes up your fingernails and hair, which covers the bone of the shell."
+          },
+          {
+            "label": "Chitin",
+            "feedback": "Chitin is the material in insect exoskeletons, not in turtle shells. Turtle scutes are made of keratin."
+          }
+        ],
+        "ok_title": "Keratin plates",
+        "ok_line": "Scutes are keratin, like fingernails.",
+        "ko_title": "Not bone or chitin",
+        "ko_line": "The outer plates are keratin, not bone or chitin.",
+        "exp_title": "Shell's outer layer",
+        "exp_text": "The scutes are the hard, slightly rough plates on the outside of the shell. They are made of keratin, which is the same protein that forms your fingernails, giving them strength and some flexibility."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of turtle has webbed feet with claws for swimming?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Tortoise",
+            "feedback": "Tortoises live on land and have round, stumpy feet without webbing. They are not swimmers."
+          },
+          {
+            "label": "Aquatic turtle",
+            "feedback": "Correct. Aquatic turtles, like pond turtles and sea turtles, have webbed feet or flippers to push through water, with claws for gripping surfaces."
+          },
+          {
+            "label": "Box turtle",
+            "feedback": "Box turtles are land-dwelling but have moderately webbed feet; they are not fully aquatic and their feet are not primarily for swimming. This description fits aquatic turtles better."
+          },
+          {
+            "label": "Snapping turtle",
+            "feedback": "Snapping turtles are aquatic and have webbed feet, but the key distinction here is between tortoises and aquatic turtles. Aquatic turtle is the broader correct group."
+          }
+        ],
+        "ok_title": "Aquatic turtles swim",
+        "ok_line": "Webbed feet help aquatic turtles swim.",
+        "ko_title": "Land vs water",
+        "ko_line": "Tortoises have stumpy feet, not webbed ones.",
+        "exp_title": "Feet for lifestyle",
+        "exp_text": "Aquatic turtles have webbing between their toes and claws to paddle through water and climb onto logs. Tortoises, which live on land, have round, stumpy feet built for walking on dirt and rock."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a turtle and a tortoise?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Turtles have shells, tortoises do not",
+            "feedback": "Both turtles and tortoises have shells. The difference is in their habitat and body shape, not the presence of a shell."
+          },
+          {
+            "label": "Tortoises can swim, turtles cannot",
+            "feedback": "It is the opposite: tortoises live on land and are poor swimmers, while many turtles live in water and swim well."
+          },
+          {
+            "label": "Turtles are land animals, tortoises are water animals",
+            "feedback": "That is reversed. Tortoises are land animals, while turtles (in common usage) are often aquatic or semi-aquatic."
+          },
+          {
+            "label": "Tortoises live on land, turtles live in or near water",
+            "feedback": "Correct. Tortoises are strictly land-dwelling with stumpy feet, while turtles generally live in water (fresh or sea) and have webbed feet or flippers."
+          }
+        ],
+        "ok_title": "Habitat difference",
+        "ok_line": "Tortoises are land-dwellers; turtles live in water.",
+        "ko_title": "Not shell difference",
+        "ko_line": "Both have shells; the key is where they live.",
+        "exp_title": "Turtle vs tortoise",
+        "exp_text": "The main distinction is habitat: tortoises are land animals that cannot swim well and have heavy, domed shells and stubby feet. Turtles live in water most of their lives and have lighter, flatter shells and webbed feet or flippers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do most turtles lay their eggs on land, even if they live in water?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because their eggs need air and would drown in water",
+            "feedback": "Correct. Turtle eggs have leathery shells and need to breathe air, so they must be laid in soil or sand on land, not under water."
+          },
+          {
+            "label": "Because the eggs need sunlight to hatch",
+            "feedback": "Sunlight warms the sand, but the eggs do not need direct light to develop. They need air, and they are buried, not exposed to sun."
+          },
+          {
+            "label": "Because turtles cannot swim to lay eggs in water",
+            "feedback": "Turtles are good swimmers, but eggs cannot survive submerged because they need oxygen. They come ashore specifically to lay eggs in air."
+          },
+          {
+            "label": "Because the water would wash the eggs away",
+            "feedback": "That is a secondary reason, but the primary reason is that the eggs need to breathe. Even calm water would suffocate the embryo inside the egg."
+          }
+        ],
+        "ok_title": "Eggs need air",
+        "ok_line": "Turtle eggs must be laid on land to get oxygen.",
+        "ko_title": "Not sunlight or swimming",
+        "ko_line": "Air supply is the reason eggs go on land.",
+        "exp_title": "Air-breathing eggs",
+        "exp_text": "Turtle eggs have a leathery shell that lets oxygen pass through. If laid underwater, the embryo would not get enough air and would die. So even marine turtles come ashore to bury their eggs in sand."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a turtle's body temperature when the surrounding air gets colder?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It stays the same because turtles are warm-blooded",
+            "feedback": "Turtles are ectothermic, meaning they do not generate their own heat. Their body temperature changes with the environment."
+          },
+          {
+            "label": "It rises to keep them warm",
+            "feedback": "Turtles cannot raise their own body temperature internally. They rely on outside heat sources like the sun."
+          },
+          {
+            "label": "It drops, because turtles are cold-blooded",
+            "feedback": "Correct. Turtles are ectothermic, so their body temperature matches the temperature of their surroundings. When the air cools, so do they."
+          },
+          {
+            "label": "It only changes if they are in water, not on land",
+            "feedback": "Whether on land or in water, a turtle's body temperature follows the environment. Cold air cools them just as cold water does."
+          }
+        ],
+        "ok_title": "Cold-blooded means matching",
+        "ok_line": "Turtles take on the temperature around them.",
+        "ko_title": "Not warm-blooded",
+        "ko_line": "Turtles cannot keep a constant body heat.",
+        "exp_title": "Ectothermic turtles",
+        "exp_text": "Turtles are ectothermic, or cold-blooded. They do not produce their own body heat; instead, they warm up by basking in the sun and cool down when the air or water gets colder."
+      }
+    ]
+  }
+]

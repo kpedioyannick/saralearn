@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a lunar phase?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Moon's actual shape changing as it orbits Earth",
+            "feedback": "The Moon's shape does not change; it is always a sphere. What changes is the apparent shape we see from Earth, which is the phase."
+          },
+          {
+            "label": "The side of the Moon that always faces Earth",
+            "feedback": "That is the near side, not a phase. Phases are about how much of that side is lit, not which side is visible."
+          },
+          {
+            "label": "The apparent shape of the Moon's day and night parts as seen from afar",
+            "feedback": "Correct. A lunar phase is the apparent shape of the Moon's day and night sides viewed from a distance, which changes over a lunar month."
+          },
+          {
+            "label": "The time it takes for the Moon to orbit Earth once",
+            "feedback": "That is a lunar month, not a phase. A phase is the appearance, not the duration."
+          }
+        ],
+        "ok_title": "Phases are appearances",
+        "ok_line": "The phase is how the lit and dark parts look from Earth.",
+        "ko_title": "Phases are not shapes",
+        "ko_line": "The Moon stays round; its phase is just the visible lit portion.",
+        "exp_title": "Lunar phase definition",
+        "exp_text": "A lunar phase is the apparent shape of the Moon's day and night parts as seen from afar, like from Earth. It changes as the Moon moves in its orbit, showing different amounts of its sunlit side."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the four major phases of the Moon commonly called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Crescent, quarter, gibbous, and full",
+            "feedback": "Crescent and gibbous are minor phases, not major ones. The major phases are the new moon, first quarter, full moon, and last quarter."
+          },
+          {
+            "label": "New moon, first quarter, full moon, and last quarter",
+            "feedback": "Correct. These are the four principal phases, evenly spaced through the lunar month."
+          },
+          {
+            "label": "Waxing crescent, waxing gibbous, waning gibbous, and waning crescent",
+            "feedback": "Those are the four minor phases, not the major ones. The major ones are when the Moon appears new, half, full, and half again."
+          },
+          {
+            "label": "Sunrise, noon, sunset, and midnight",
+            "feedback": "Those are parts of a lunar day, not names for Moon phases. Major phases have their own standard names."
+          }
+        ],
+        "ok_title": "Four principal phases",
+        "ok_line": "New, first quarter, full, and last quarter are the majors.",
+        "ko_title": "Minors are different",
+        "ko_line": "Crescent and gibbous are intermediate, not principal.",
+        "exp_title": "Major lunar phases",
+        "exp_text": "The four major phases are the new moon, first quarter, full moon, and last quarter. They occur when the Moon's angle from the Sun is 0°, 90°, 180°, and 270° respectively."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How long does a lunar month, the time between successive recurrences of the same phase, average?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 29.5 days",
+            "feedback": "Correct. Because the Moon's orbit is slightly eccentric, the exact length varies, but on average it is about 29.5 days."
+          },
+          {
+            "label": "About 27.3 days",
+            "feedback": "That is closer to the Moon's sidereal orbit, but the lunar month between same phases is longer, about 29.5 days."
+          },
+          {
+            "label": "About 30.5 days",
+            "feedback": "That is too long. The average lunar month is about 29.5 days, not 30.5."
+          },
+          {
+            "label": "Exactly 28 days",
+            "feedback": "There is no exact 28-day month. The average is about 29.5 days, and it varies due to the Moon's orbit shape."
+          }
+        ],
+        "ok_title": "Lunar month length",
+        "ok_line": "The average is about 29.5 days.",
+        "ko_title": "Not exactly fixed",
+        "ko_line": "It varies, but the mean is 29.5 days.",
+        "exp_title": "Duration of a lunar month",
+        "exp_text": "A lunar month is the time from one phase to the next recurrence of the same phase. Because the Moon's orbit is not a perfect circle, this duration is not constant, but it averages about 29.5 days."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'waxing' refer to in the Moon's phases?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Moon moving closer to Earth",
+            "feedback": "Waxing has nothing to do with distance. It refers to the apparent shape thickening, from new to full."
+          },
+          {
+            "label": "The Moon growing larger in the sky",
+            "feedback": "The Moon does not grow; it seems to. Waxing means the lit part we see increases, not the Moon's size."
+          },
+          {
+            "label": "The Moon moving away from the Sun in the sky",
+            "feedback": "Waxing is about the lit shape, not the Moon's position relative to the Sun. It happens from new to full."
+          },
+          {
+            "label": "The Moon's apparent shape thickening from new to full",
+            "feedback": "Correct. Waxing means the illuminated part visible from Earth increases, from a new moon to a full moon."
+          }
+        ],
+        "ok_title": "Waxing means thickening",
+        "ok_line": "The lit shape grows from new to full.",
+        "ko_title": "Not about size or distance",
+        "ko_line": "It's about the visible lit portion, not actual size or orbit.",
+        "exp_title": "Meaning of waxing",
+        "exp_text": "Waxing is used for an intermediate phase when the Moon's apparent shape is thickening, from new moon to full moon. The lit part we see increases during this time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'waning' refer to in the Moon's phases?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Moon becoming less bright",
+            "feedback": "Waning is about the lit shape shrinking, not brightness. It happens from full to new."
+          },
+          {
+            "label": "The Moon moving into Earth's shadow",
+            "feedback": "That would be an eclipse, not a normal waning. Waning is the lit portion decreasing as seen from Earth."
+          },
+          {
+            "label": "The Moon's apparent shape thinning from full to new",
+            "feedback": "Correct. Waning means the illuminated part visible from Earth decreases, from full moon to new moon."
+          },
+          {
+            "label": "The Moon rotating slower than usual",
+            "feedback": "Waning has nothing to do with rotation speed. It refers to the decreasing lit shape."
+          }
+        ],
+        "ok_title": "Waning means thinning",
+        "ok_line": "The lit shape shrinks from full to new.",
+        "ko_title": "Not about brightness or speed",
+        "ko_line": "It's about the visible lit portion decreasing, not brightness or rotation.",
+        "exp_title": "Meaning of waning",
+        "exp_text": "Waning is used for an intermediate phase when the Moon's apparent shape is thinning, from full moon to new moon. The lit part we see decreases during this time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At which phase is the side of the Moon facing Earth not illuminated by the Sun?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Full moon",
+            "feedback": "At full moon, the side facing Earth is almost fully illuminated, not dark. The new moon is when it is dark."
+          },
+          {
+            "label": "New moon",
+            "feedback": "Correct. When the Sun and Moon are on the same side of Earth, the side facing Earth is not lit, so we see a new moon."
+          },
+          {
+            "label": "First quarter",
+            "feedback": "At first quarter, half of the near side is lit, not none. The new moon is when none is lit."
+          },
+          {
+            "label": "Last quarter",
+            "feedback": "At last quarter, half of the near side is lit, just on the other side. The new moon is when none is lit."
+          }
+        ],
+        "ok_title": "New moon is dark",
+        "ok_line": "The near side is unlit at new moon.",
+        "ko_title": "Other phases have light",
+        "ko_line": "Only at new moon is the near side completely dark.",
+        "exp_title": "New moon illumination",
+        "exp_text": "When the Sun and Moon are aligned on the same side of Earth, the Moon is new, and the side facing Earth is not illuminated by the Sun. That is why we cannot normally see a new moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a 'half moon' in the context of lunar phases?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The first quarter and last quarter moons",
+            "feedback": "Correct. Half moon is often used to mean the first- and third-quarter moons, when half of the near side appears lit."
+          },
+          {
+            "label": "The new moon and full moon",
+            "feedback": "Those are opposite extremes—new is dark, full is fully lit. Half moon refers to the quarters, not these."
+          },
+          {
+            "label": "The waxing crescent and waning crescent moons",
+            "feedback": "Crescents are not half-lit; they are less than half. Half moon is the quarters, when exactly half appears lit."
+          },
+          {
+            "label": "The waxing gibbous and waning gibbous moons",
+            "feedback": "Gibbous moons are more than half-lit, not half. The half moon is the quarter phases, when half is visible."
+          }
+        ],
+        "ok_title": "Half moon meaning",
+        "ok_line": "It refers to first and last quarters.",
+        "ko_title": "Not other phases",
+        "ko_line": "Half moon is the quarters, not crescents or gibbous.",
+        "exp_title": "Half moon definition",
+        "exp_text": "Half moon is often used to mean the first- and third-quarter moons, when the Moon appears exactly half-lit. The term 'quarter' refers to the cycle position, not the shape."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the average duration of each intermediate phase of the Moon?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "About 3.5 days",
+            "feedback": "That is too short. Each intermediate phase lasts about a quarter of a synodic month, which is about 7.38 days."
+          },
+          {
+            "label": "About 14.75 days",
+            "feedback": "That is half a month, not a quarter. Each intermediate phase is about one-quarter of the month, around 7.38 days."
+          },
+          {
+            "label": "About 29.5 days",
+            "feedback": "That is the whole lunar month, not one phase. Intermediate phases each last about 7.38 days."
+          },
+          {
+            "label": "About 7.38 days",
+            "feedback": "Correct. On average, each intermediate phase lasts one-quarter of a synodic month, which is about 7.38 days."
+          }
+        ],
+        "ok_title": "Intermediate phase length",
+        "ok_line": "Each lasts about 7.38 days on average.",
+        "ko_title": "Fraction of month",
+        "ko_line": "It's a quarter of the month, not the whole month.",
+        "exp_title": "Duration of intermediate phases",
+        "exp_text": "The intermediate phases—waxing crescent, waxing gibbous, waning gibbous, and waning crescent—each last on average one-quarter of a synodic month, which is about 7.38 days."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the four minor phases of the Moon?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "New, first quarter, full, and last quarter",
+            "feedback": "Those are the major phases, not the minor ones. The minor phases have crescent and gibbous in their names."
+          },
+          {
+            "label": "Sunrise, day, sunset, and night",
+            "feedback": "Those are parts of a lunar day, not Moon phases. The minor phases are the crescents and gibbous phases."
+          },
+          {
+            "label": "Waxing crescent, waxing gibbous, waning gibbous, and waning crescent",
+            "feedback": "Correct. These four are the minor phases that occur between the major ones."
+          },
+          {
+            "label": "Old moon, half moon, gibbous, and crescent",
+            "feedback": "Those are not standard minor phases. The standard minor phases are the waxing and waning crescents and gibbous moons."
+          }
+        ],
+        "ok_title": "Four minor phases",
+        "ok_line": "Crescents and gibbous in waxing and waning.",
+        "ko_title": "Not the major ones",
+        "ko_line": "The major phases are new, quarters, and full.",
+        "exp_title": "Minor lunar phases",
+        "exp_text": "The four minor phases are waxing crescent, waxing gibbous, waning gibbous, and waning crescent. They appear between the principal phases and each lasts about 7.38 days on average."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate age of the Moon defined as, in terms of phases?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The number of days counted from the time of the new moon",
+            "feedback": "Correct. The Moon's age is the number of days since the last new moon, which indicates its phase."
+          },
+          {
+            "label": "The number of days since the full moon",
+            "feedback": "That would not be the age; the age starts from the new moon, not the full moon."
+          },
+          {
+            "label": "The time since the Moon formed",
+            "feedback": "That is the Moon's actual age in billions of years, not the phase age. The phase age is days since new moon."
+          },
+          {
+            "label": "The number of days until the next new moon",
+            "feedback": "That is the time remaining, not the age. Age is measured from the last new moon."
+          }
+        ],
+        "ok_title": "Age definition",
+        "ok_line": "Age is days since new moon.",
+        "ko_title": "Not the formation age",
+        "ko_line": "Phase age is not the Moon's real age.",
+        "exp_title": "Lunar age",
+        "exp_text": "The number of days counted from the time of the new moon is the Moon's 'age'. This age indicates the phase: for example, about 7 days means first quarter, about 14 days means full moon."
+      }
+    ]
+  }
+]

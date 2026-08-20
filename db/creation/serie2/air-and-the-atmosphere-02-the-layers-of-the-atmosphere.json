@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the atmospheric layer that extends from the ground up to about 8 to 16 kilometers high?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Troposphere",
+            "feedback": "Correct. The troposphere is the lowest layer, starting at the surface and reaching up to about 8–16 km, and it contains most of the atmosphere's mass."
+          },
+          {
+            "label": "Stratosphere",
+            "feedback": "Incorrect. The stratosphere sits above the troposphere, starting at about 8–16 km and extending to roughly 50 km. The troposphere is the layer touching the ground."
+          },
+          {
+            "label": "Mesosphere",
+            "feedback": "Incorrect. The mesosphere lies above the stratosphere, from about 50 km to 85 km. The layer you are describing is the one nearest Earth's surface."
+          },
+          {
+            "label": "Thermosphere",
+            "feedback": "Incorrect. The thermosphere is much higher, starting around 85 km and reaching to over 500 km. The lowest layer is the troposphere."
+          }
+        ],
+        "ok_title": "Lowest layer",
+        "ok_line": "The troposphere is the bottom layer of the atmosphere.",
+        "ko_title": "Wrong layer",
+        "ko_line": "You named a higher layer; the lowest is the troposphere.",
+        "exp_title": "The troposphere's place",
+        "exp_text": "The troposphere is the atmospheric layer that touches the ground and rises to about 8–16 kilometers, varying with latitude and season. It holds nearly all the air we breathe, and almost all weather happens inside it because most of the moisture and clouds are confined there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which atmospheric layer is the ozone layer primarily located?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Troposphere",
+            "feedback": "Incorrect. The troposphere is the lowest layer, but most of the protective ozone resides higher up, in the stratosphere. Near the ground, ozone is only present in small, often pollution-related amounts."
+          },
+          {
+            "label": "Stratosphere",
+            "feedback": "Correct. The stratosphere, extending from about 8–16 km to roughly 50 km, contains the ozone layer that absorbs most of the sun's ultraviolet radiation."
+          },
+          {
+            "label": "Mesosphere",
+            "feedback": "Incorrect. The mesosphere is above the stratosphere, but it has very little ozone. The ozone layer is found in the stratosphere, not in this higher layer."
+          },
+          {
+            "label": "Exosphere",
+            "feedback": "Incorrect. The exosphere is the outermost layer where the atmosphere fades into space, and it holds almost no ozone. The ozone layer is much lower, in the stratosphere."
+          }
+        ],
+        "ok_title": "Ozone's home",
+        "ok_line": "The ozone layer sits in the stratosphere.",
+        "ko_title": "Wrong altitude",
+        "ko_line": "The ozone layer is not in the lowest or highest layers.",
+        "exp_title": "Where ozone lives",
+        "exp_text": "The ozone layer is concentrated in the stratosphere, roughly between 15 and 35 kilometers above the ground. This placement is crucial because it absorbs ultraviolet radiation from the sun before that radiation reaches the surface, protecting living cells from damage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the temperature to rise with increasing height in the stratosphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The direct heat of the sun's rays hitting the air",
+            "feedback": "Incorrect. The stratosphere's warmth is not from direct sunlight heating the air itself; it comes from the ozone absorbing ultraviolet radiation, which then warms the surrounding air."
+          },
+          {
+            "label": "The friction of the air moving against the top of the troposphere",
+            "feedback": "Incorrect. There is no significant frictional heating at the boundary between layers. The temperature increase is due to ozone absorbing ultraviolet light."
+          },
+          {
+            "label": "The heat rising from the Earth's surface below",
+            "feedback": "Incorrect. Heat from the surface warms the troposphere, but that effect decreases with height. In the stratosphere, the temperature rises because ozone absorbs ultraviolet radiation."
+          },
+          {
+            "label": "The absorption of ultraviolet radiation by ozone",
+            "feedback": "Correct. Ozone molecules in the stratosphere absorb ultraviolet radiation from the sun, and that absorbed energy warms the air, causing temperature to rise with altitude there."
+          }
+        ],
+        "ok_title": "Warming by ozone",
+        "ok_line": "Ozone absorbing UV radiation heats the stratosphere.",
+        "ko_title": "Misplaced cause",
+        "ko_line": "The warming is not from surface heat or sunlight directly.",
+        "exp_title": "Why the stratosphere warms",
+        "exp_text": "In the stratosphere, ozone absorbs ultraviolet radiation from the sun. When an ozone molecule captures this high-energy light, it converts it into heat, warming the air around it. Because more ozone sits higher in the stratosphere, the temperature increases with height there, unlike in the troposphere below."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the mesosphere's most notable characteristic in terms of temperature?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is the coldest layer of the atmosphere",
+            "feedback": "Correct. The mesosphere, stretching from about 50 to 85 km, is the coldest layer, with temperatures dropping to around -90°C near its top, because it has little ozone or other gases to absorb sunlight."
+          },
+          {
+            "label": "It is the warmest layer of the atmosphere",
+            "feedback": "Incorrect. The mesosphere is not the warmest; the thermosphere far above it reaches extremely high temperatures, while the mesosphere is actually the coldest layer."
+          },
+          {
+            "label": "It stays at a constant temperature throughout",
+            "feedback": "Incorrect. The mesosphere cools with increasing height, unlike some other layers where temperature rises or stays steady. It does not stay constant."
+          },
+          {
+            "label": "It gets warmer as you go higher",
+            "feedback": "Incorrect. In the mesosphere, temperature decreases with altitude, making it colder at the top. The warming trend resumes only in the thermosphere above."
+          }
+        ],
+        "ok_title": "Coldest layer",
+        "ok_line": "The mesosphere is the coldest place in the atmosphere.",
+        "ko_title": "Not the warmest",
+        "ko_line": "The mesosphere is cold, not hot.",
+        "exp_title": "Mesosphere's coldness",
+        "exp_text": "The mesosphere, between about 50 and 85 kilometers high, is the coldest atmospheric layer. It contains very little ozone to absorb sunlight, and the sparse air there loses heat rapidly, so temperatures can fall to around -90°C at its upper boundary. This is why it is the coldest layer of the entire atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the thermosphere contain that makes it able to reach very high temperatures?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Large amounts of ozone trapping heat",
+            "feedback": "Incorrect. The thermosphere has almost no ozone; the heat there comes from absorbing high-energy solar radiation, not from ozone trapping."
+          },
+          {
+            "label": "Heavy gases like argon that hold heat",
+            "feedback": "Incorrect. Argon is abundant only in lower layers. The thermosphere is very thin, and its high temperature is due to energetic particles, not heavy gases."
+          },
+          {
+            "label": "Thin air absorbing energetic solar radiation",
+            "feedback": "Correct. In the thermosphere, the thin air absorbs high-energy X-rays and ultraviolet light from the sun, which speeds up the few molecules present, making the temperature measure extremely high even though the air is sparse."
+          },
+          {
+            "label": "Clouds of water vapor trapping infrared heat",
+            "feedback": "Incorrect. The thermosphere is far too high and dry for clouds; water vapor is essentially absent there. Its heat comes from solar radiation absorption."
+          }
+        ],
+        "ok_title": "High-energy absorption",
+        "ok_line": "The thermosphere heats by absorbing solar X-rays and UV.",
+        "ko_title": "Wrong heat source",
+        "ko_line": "Ozone or clouds do not heat the thermosphere.",
+        "exp_title": "Thermosphere's temperature",
+        "exp_text": "The thermosphere, starting around 85 kilometers and extending to over 500, contains extremely thin air. When the few gas molecules there absorb high-energy radiation from the sun—like X-rays and ultraviolet light—they gain intense speed, giving the layer a very high temperature reading. But because the air is so sparse, it would not feel hot to a person, as there are too few molecules to transfer much heat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary gas that makes up the air in the troposphere and stratosphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Incorrect. Oxygen makes up about 21% of the air, but it is not the most abundant gas. The largest share belongs to nitrogen."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Correct. Nitrogen makes up about 78% of the air in the lower atmosphere, including both the troposphere and stratosphere, making it the dominant gas."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Incorrect. Carbon dioxide is present in only a trace amount, about 0.04%, far less than nitrogen or oxygen."
+          },
+          {
+            "label": "Argon",
+            "feedback": "Incorrect. Argon accounts for about 0.93% of the air, a small fraction compared with nitrogen's 78%."
+          }
+        ],
+        "ok_title": "Dominant gas",
+        "ok_line": "Nitrogen is the most plentiful gas in the air.",
+        "ko_title": "Not the majority",
+        "ko_line": "Oxygen is common but not the most abundant.",
+        "exp_title": "Nitrogen's share",
+        "exp_text": "In the troposphere and stratosphere, nitrogen makes up about 78% of the air by volume, far more than oxygen's 21%. This proportion stays fairly constant through these lower layers because the gases are well mixed by winds and turbulence."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do clouds and weather almost always form in the troposphere rather than higher up?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because almost all water vapor is found there",
+            "feedback": "Correct. The troposphere contains nearly all of the atmosphere's water vapor, so clouds, rain, and storms form there. Higher layers are extremely dry."
+          },
+          {
+            "label": "Because the air there is warmer than everywhere else",
+            "feedback": "Incorrect. While the troposphere is warm at the bottom, temperature alone does not explain clouds; the key is the presence of water vapor, which is abundant only in the troposphere."
+          },
+          {
+            "label": "Because the ozone layer forces clouds to stay low",
+            "feedback": "Incorrect. The ozone layer in the stratosphere has no effect on where clouds form; clouds are born from moisture in the troposphere."
+          },
+          {
+            "label": "Because winds are stronger in the troposphere",
+            "feedback": "Incorrect. Wind strength does not cause clouds; the essential ingredient is water vapor, which is almost entirely in the troposphere."
+          }
+        ],
+        "ok_title": "Moisture's location",
+        "ok_line": "Almost all water vapor sits in the troposphere.",
+        "ko_title": "Not temperature alone",
+        "ko_line": "Clouds need water vapor, which is only in the troposphere.",
+        "exp_title": "Why weather stays low",
+        "exp_text": "The troposphere holds roughly 99% of the atmosphere's water vapor. When this moisture cools and condenses, clouds form and weather happens. In the stratosphere and above, the air is so dry that clouds cannot form, which is why weather is confined to the lowest layer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the temperature of the air as you go higher through the troposphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It stays the same",
+            "feedback": "Incorrect. In the troposphere, temperature steadily decreases with altitude; it does not remain constant."
+          },
+          {
+            "label": "It rises steadily",
+            "feedback": "Incorrect. The troposphere cools with height, not warms. The warming trend only begins again in the stratosphere."
+          },
+          {
+            "label": "It rises then falls",
+            "feedback": "Incorrect. In the troposphere, temperature falls uniformly with altitude; there is no rise within this layer."
+          },
+          {
+            "label": "It decreases steadily",
+            "feedback": "Correct. Up through the troposphere, temperature drops about 6.5°C per kilometer, because the air near the ground is warmed by the Earth's surface, and that heat fades with distance upward."
+          }
+        ],
+        "ok_title": "Cooling with height",
+        "ok_line": "The troposphere gets colder as you climb.",
+        "ko_title": "Wrong trend",
+        "ko_line": "Temperature does not rise or stay flat in the troposphere.",
+        "exp_title": "Troposphere's cooling",
+        "exp_text": "As you ascend through the troposphere, the air temperature falls steadily, about 6.5 degrees Celsius per kilometer. The ground absorbs sunlight and warms the air directly above it, but higher up, that warmth is lost, so it becomes colder until you reach the tropopause, where the trend stops."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name given to the boundary that separates the troposphere from the stratosphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mesopause",
+            "feedback": "Incorrect. The mesopause is the boundary between the mesosphere and thermosphere, not between the troposphere and stratosphere."
+          },
+          {
+            "label": "Tropopause",
+            "feedback": "Correct. The tropopause is the transition zone where temperatures stop falling and start rising, marking the top of the troposphere and the base of the stratosphere."
+          },
+          {
+            "label": "Stratopause",
+            "feedback": "Incorrect. The stratopause sits between the stratosphere and mesosphere, at about 50 km, not at the troposphere's top."
+          },
+          {
+            "label": "Thermopause",
+            "feedback": "Incorrect. The thermopause is the upper boundary of the thermosphere, far above the troposphere and stratosphere."
+          }
+        ],
+        "ok_title": "Layer boundary",
+        "ok_line": "The tropopause sits between troposphere and stratosphere.",
+        "ko_title": "Wrong boundary name",
+        "ko_line": "The boundary at the troposphere's top is the tropopause.",
+        "exp_title": "What the tropopause is",
+        "exp_text": "The tropopause is the boundary layer where the troposphere ends and the stratosphere begins. It typically lies about 8–16 kilometers above the ground, and its defining feature is that the temperature there stops falling with height and instead starts rising in the stratosphere above."
+      }
+    ]
+  }
+]

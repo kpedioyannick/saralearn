@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 120,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What makes certain hillsides among the wettest places on Earth, receiving rain on most days of the year?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Moist monsoon winds are forced up steep slopes, cooling and dropping rain almost continuously",
+            "feedback": "Warm, moisture-laden air blowing in from a nearby sea has nowhere to go but up the hillside, and that steady lifting keeps rain falling on most days the wind is blowing."
+          },
+          {
+            "label": "The rock underneath constantly releases underground water into the air",
+            "feedback": "Rock does not manufacture moisture; every drop that falls there arrived from the air above, not from underground."
+          },
+          {
+            "label": "The location sits directly beneath a permanent stationary cloud",
+            "feedback": "No cloud stays fixed in one place indefinitely; what stays constant instead is the wind pattern that keeps feeding fresh moist air up the slope."
+          },
+          {
+            "label": "Ocean currents push extra rain clouds onto the hills each year",
+            "feedback": "Currents move water within the ocean, not clouds through the sky; it is wind carrying moist air, not currents pushing clouds, that explains the rainfall."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the mechanism",
+        "ok_line": "A slope that keeps wringing the same wind out, day after day.",
+        "ko_line": "Think about what a steep hillside does to moist wind blowing straight into it.",
+        "exp_title": "A hillside that never stops wringing the air",
+        "exp_text": "Certain valleys sit facing directly into warm, humid winds blowing steadily off a nearby sea for much of the year. When that moist air reaches the surrounding hills, it has nowhere to go but upward, and rising air cools and can no longer hold onto as much of its moisture. With fresh moist wind arriving continuously and the hills forcing it upward again and again, rain keeps falling there on nearly every day the wind keeps blowing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What combination makes a place like the Atacama Desert one of the driest regions on Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It sits directly on the equator, where rain never falls",
+            "feedback": "Equatorial regions are actually among the wettest on Earth, not the driest; this place lies well away from the equator instead."
+          },
+          {
+            "label": "It sits in a mountain rain shadow next to an ocean current that keeps the air unusually dry",
+            "feedback": "A mountain range wrings the moisture out of air before it arrives, while the cold current offshore chills the air over the sea and keeps it from picking up much moisture to begin with."
+          },
+          {
+            "label": "It has no clouds capable of forming above it",
+            "feedback": "Clouds can and occasionally do form there; the deeper problem is that very little moisture ever reaches the region in the first place."
+          },
+          {
+            "label": "It lies too far from any body of water to receive rain",
+            "feedback": "This desert actually borders an ocean directly; distance from water is not what explains its dryness here."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not quite",
+        "ok_line": "Squeezed dry twice over, by a mountain and by a cold sea.",
+        "ko_line": "Two separate features work together here; think about what lies both inland and just offshore.",
+        "exp_title": "Dried out twice before it arrives",
+        "exp_text": "A mountain range on one side of this desert forces incoming moist air to rise and drop nearly all its water well before it ever crosses over. On the other side, a cold ocean current chills the air sitting above the sea, and cold air holds very little moisture to begin with, so even air arriving straight off the ocean brings little to give. With moisture cut off from both directions, some parts of this desert can go years at a stretch without a single day of rain."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What weather situation lies behind almost every record for the heaviest rainfall to fall in a single day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A wide, gentle rain spread evenly across an entire country",
+            "feedback": "Widespread gentle rain spreads the same total water over a huge area; the heaviest single-day totals instead come from rain concentrated over one small spot."
+          },
+          {
+            "label": "Many separate small storms passing over the same spot in a row",
+            "feedback": "A string of separate storms would each need to independently target the same location, which is far less likely than one storm simply staying in place."
+          },
+          {
+            "label": "A powerful storm system stalling in place over one location for a very long stretch of time",
+            "feedback": "A storm that barely moves keeps dumping fresh rain onto the very same ground for hour after hour, instead of spreading that same rain out over a much wider area."
+          },
+          {
+            "label": "Sudden melting of snow high in nearby mountains",
+            "feedback": "Melting snow adds water to rivers, but it falls under a completely different record than rainfall; it is not rain arriving from the sky at all."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the cause",
+        "ok_line": "The record goes to the storm that refuses to move on.",
+        "ko_line": "The huge totals come from where a storm sits, not from how many separate storms there are.",
+        "exp_title": "A storm that refuses to move on",
+        "exp_text": "A moving storm spreads its rainfall out along the whole path it travels, so no single spot underneath it gets more than a fraction of the total water it carries. When a powerful storm instead stalls, held in place by weak winds around it, it keeps releasing rain onto the exact same ground hour after hour instead of moving that rain elsewhere. It is that stubborn stillness, more than anything about the storm's own strength, that lets the rain keep landing in the very same place for so long."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What has to be true of a storm for it to grow the largest hailstones ever recorded?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The storm needs to last only a few minutes at full strength",
+            "feedback": "A very short-lived storm gives a growing hailstone very little time to add layers before it falls; long duration is actually essential, not something to avoid."
+          },
+          {
+            "label": "The stone needs to start growing from an unusually large piece of dust",
+            "feedback": "The starting speck at the centre of any hailstone is tiny compared to the final size; nearly all of the stone's size comes from later layers, not from the initial particle."
+          },
+          {
+            "label": "The storm needs to occur at very high altitude to begin with",
+            "feedback": "Every hail-producing storm already reaches into cold, high altitudes; what varies between an ordinary hailstorm and a record-setting one is not how high the storm reaches but how long and how strongly its updraft holds on."
+          },
+          {
+            "label": "The storm needs an extraordinarily strong and long-lived updraft, keeping the stone aloft through many extra passes",
+            "feedback": "Only an unusually powerful and persistent updraft can hold a stone up long enough to keep adding layer after layer well past the size an ordinary storm would ever manage."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the requirement",
+        "ok_line": "Extra size comes from extra time spent aloft.",
+        "ko_line": "Think about what limits how many extra layers an ordinary hailstone gets to add before it falls.",
+        "exp_title": "Extra time buys extra size",
+        "exp_text": "Every hailstone grows the same basic way, by repeatedly passing through pockets of supercooled water and picking up another frozen layer each time. An ordinary updraft can only support that cycle for so long before the stone becomes too heavy to hold up and falls out small. A storm with an unusually strong and long-lived updraft keeps the stone suspended for far longer than that, letting it complete enough extra passes to grow into something extraordinary."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What lets certain mountains pile up more snow in a single season than almost anywhere else on Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They sit positioned to catch a nearly endless supply of moist air off a nearby sea, storm after storm",
+            "feedback": "A mountain facing directly into a steady stream of moisture-laden ocean air gets forced-upward snowfall not just once but from repeated storm after storm through the whole season."
+          },
+          {
+            "label": "Their peaks are simply the coldest points on the planet",
+            "feedback": "Far colder places elsewhere on Earth actually receive very little snow at all, since extreme cold usually comes with extremely dry air; cold alone is not what builds up deep snow."
+          },
+          {
+            "label": "They receive extra snow blown in from other mountain ranges",
+            "feedback": "Snow does not travel between separate mountain ranges intact; whatever falls on a mountain formed directly from moisture in the air passing over it."
+          },
+          {
+            "label": "Underground heat pushes extra moisture up through the rock",
+            "feedback": "Mountains have no internal heat source pushing moisture upward from within; every bit of snow that falls there comes from vapour in the air above, not from below."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the reason",
+        "ok_line": "The same lucky position, storm after storm.",
+        "ko_line": "Cold alone does not guarantee heavy snow; think about where the moisture keeps coming from.",
+        "exp_title": "The same setup, storm after storm",
+        "exp_text": "A mountain facing directly into a steady flow of moist air off a nearby sea forces that air to rise and drop its snow on nearly every storm that passes through. Unlike a location that only occasionally lies in a storm's path, a mountain positioned this way catches storm after storm across an entire season, each one adding to the same growing pile. It is that repeated exposure, far more than any single storm's strength, that lets the depth climb so high by the time the season ends."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What kind of single event is behind the record for the most snow to fall on one place within 24 hours?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A long, slow drizzle of light snow spread across several weeks",
+            "feedback": "Slow, spread-out snowfall builds depth gradually over a long time; a one-day record instead needs an intense burst concentrated into a short stretch."
+          },
+          {
+            "label": "One unusually intense storm parked directly over a mountain slope",
+            "feedback": "A powerful storm forced to keep rising against the same slope for many hours in a row can dump an extraordinary depth of snow before it finally moves on or weakens."
+          },
+          {
+            "label": "Several separate light snowfalls happening to land on the same date each year",
+            "feedback": "Coincidental separate snowfalls landing on the same date would still each be ordinary in size; a true one-day record needs one continuous, powerful event."
+          },
+          {
+            "label": "Snow blown in from a much larger storm system far away",
+            "feedback": "Snow that falls in one place formed from moisture in the air directly above it; it is not swept in whole from a distant, separate storm."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the mechanism",
+        "ok_line": "One storm, held in place, doing all the work.",
+        "ko_line": "A one-day record needs everything concentrated into a single, intense event, not spread out.",
+        "exp_title": "One storm doing a season's work in a day",
+        "exp_text": "A slope facing directly into a powerful, moisture-laden storm forces that air upward continuously, and rising air keeps dropping snow for as long as the storm keeps supplying fresh moisture. When such a storm stalls or moves only very slowly across a mountainside, the same slope keeps receiving that forced-upward snowfall hour after hour without pause. Squeezing what would normally be spread across many separate storms into one continuous event is what lets a single day's total climb so high."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What lets a small number of raindrops grow far larger than the typical raindrop before they finally fall?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They form in unusually cold clouds that freeze extra water onto them",
+            "feedback": "Freezing would turn a drop into hail or graupel rather than an oversized raindrop; the largest raindrops stay liquid the whole way through their growth."
+          },
+          {
+            "label": "They fall from clouds positioned unusually close to the ground",
+            "feedback": "A shorter fall gives a drop less time and distance to collide with others and grow; the largest drops actually need more room to grow, not less."
+          },
+          {
+            "label": "They travel an unusually long path through a cloud thick with droplets, merging again and again before finally falling",
+            "feedback": "Every extra stretch of cloud a drop drifts through gives it more chances to collide and merge with other droplets, and an especially tall, droplet-rich cloud can let a rare few drops keep growing far longer than usual before gravity finally wins."
+          },
+          {
+            "label": "They are made of a slightly different, heavier form of water",
+            "feedback": "Every raindrop is made of the exact same water, with nothing different about its composition; size differences come entirely from how much merging a drop experienced, not from what it is made of."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the mechanism",
+        "ok_line": "An unusually long detour through a droplet-rich cloud.",
+        "ko_line": "Growth by merging needs both time and a lot of droplets to merge with; think about what an especially tall, wet cloud provides.",
+        "exp_title": "An unusually long climb inside the cloud",
+        "exp_text": "A raindrop grows by colliding and merging with other droplets as it drifts through a cloud, and the more of that cloud a drop passes through, the more chances it gets to merge again. In an especially tall cloud thick with droplets, a rare drop caught by strong updrafts can be carried back upward repeatedly instead of falling straight through, extending its time inside the cloud far beyond what an ordinary drop experiences. That unusually long, repeated journey through so much moisture is what lets a handful of drops grow to a size well beyond anything typical before they finally break free and fall."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the elevation above which snow never fully melts sit so much higher on mountains near the equator than on mountains near the poles?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Equatorial mountains are made of rock that holds heat longer",
+            "feedback": "The type of rock a mountain is made from has essentially no bearing on where the snow line sits; that is set by air temperature at each elevation, not by the ground beneath it."
+          },
+          {
+            "label": "Snow near the equator melts into water before it can accumulate",
+            "feedback": "This describes the very effect being asked about rather than explaining it; the question is why melting happens at a higher elevation there in the first place."
+          },
+          {
+            "label": "Equatorial mountains simply receive far less snowfall overall",
+            "feedback": "How much snow falls barely affects where the permanent snow line sits; what decides that boundary is temperature at each height, regardless of how much snow arrives."
+          },
+          {
+            "label": "Sunlight there is stronger and more direct all year round, so it takes a greater height before the air turns cold enough to keep snow from melting",
+            "feedback": "Near the equator the sun sits high overhead in every season, delivering strong, consistent warmth, so the air only becomes cold enough to preserve snow year-round much higher up than it would nearer the poles."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the reason",
+        "ok_line": "Strong sunlight all year pushes the freezing line higher.",
+        "ko_line": "Think about how directly and how consistently sunlight strikes the ground at different latitudes.",
+        "exp_title": "Pushed higher by steady, direct sun",
+        "exp_text": "Near the equator, the sun stays close to directly overhead through every season of the year, delivering strong, fairly constant warmth to the lower slopes of any mountain there. Near the poles, sunlight arrives at a low, slanting angle even in summer, warming the ground far less effectively at any given elevation. Because the air stays warm enough to melt snow at a much greater height near the equator, a mountain there has to rise a long way before it finally reaches air cold enough to keep snow from ever fully melting."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can hail sometimes pile up on the ground to a depth deep enough to bury cars, as if it were a snowdrift?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An unusually long, slow-moving storm keeps dumping hail onto the same spot for a very long time",
+            "feedback": "A storm that lingers rather than sweeping quickly past can drop wave after wave of hail onto the very same streets, letting the stones pile up far beyond what a normal, brief hailstorm would ever leave behind."
+          },
+          {
+            "label": "Wind gathers hail from a much wider area into a single pile",
+            "feedback": "Wind can push already-fallen hail into drifts along walls or kerbs, but the sheer depth of a major hail accumulation event mostly comes from how much hail actually fell there, not from wind gathering it from elsewhere."
+          },
+          {
+            "label": "The hailstones themselves keep growing after landing",
+            "feedback": "A hailstone stops growing the instant it lands; once on the ground its size is fixed, so a deep accumulation has to come from many stones falling, not from stones continuing to enlarge."
+          },
+          {
+            "label": "Cold ground temperatures prevent any of the hail from melting",
+            "feedback": "Preventing melt helps a pile stay deep afterward, but it does not explain how the pile got so deep in the first place; that comes down to how much hail actually fell."
+          }
+        ],
+        "ok_title": "Right",
+        "ko_title": "Not the reason",
+        "ok_line": "A storm that simply won't move on.",
+        "ko_line": "The real question is how so much hail fell on one spot in the first place, not what happens to it afterward.",
+        "exp_title": "Hour after hour of the same storm",
+        "exp_text": "An ordinary hailstorm sweeps across an area quickly, dropping a scattering of stones before moving on to somewhere new. When a large, hail-producing storm instead moves very slowly or repeatedly passes back over the same stretch of ground, it can keep releasing fresh waves of hail onto that exact spot for hour after hour. Stone after stone landing on top of what fell moments before is what lets a hailstorm pile up like a drift of snow rather than leaving the usual thin scatter behind."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How could individual snow crystals ever combine into a single reported snowflake many times larger than an ordinary one?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A single crystal absorbed extra water vapour directly from very humid air",
+            "feedback": "Absorbing extra vapour can only make one crystal's own branches thicker; it cannot make a single crystal balloon out to many times the size of an ordinary flake."
+          },
+          {
+            "label": "Many individual crystals collided and stuck together in calm, slightly-above-freezing air on the way down",
+            "feedback": "In air just warm enough to make crystal surfaces slightly sticky, falling flakes that bump into each other can fuse rather than bounce apart, and many such collisions can build one large, loosely clumped flake out of dozens of smaller ones."
+          },
+          {
+            "label": "It formed around an unusually large piece of dust at its centre",
+            "feedback": "The particle at a snowflake's centre is far too small to explain a dramatic difference in the final size; the extra size instead has to come from what happens after the crystal begins growing."
+          },
+          {
+            "label": "Strong wind pressed several separate flakes flat against each other",
+            "feedback": "Wind tends to break fragile flakes apart rather than press them together; the clumping behind an oversized flake instead needs calm air and a slightly sticky surface, not force from wind."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ko_title": "Not the mechanism",
+        "ok_line": "Not one giant crystal, but many ordinary ones fused together.",
+        "ko_line": "Think about whether this is really one crystal grown huge, or several ordinary ones joined.",
+        "exp_title": "Many ordinary flakes fused into one",
+        "exp_text": "In calm air hovering just above freezing, the surface of a falling ice crystal can turn slightly damp and sticky rather than dry and hard. Flakes drifting close together in that kind of air collide often, and instead of bouncing apart on contact, their damp surfaces let them stick where they touch. A loosely bound clump built this way from many separate crystals can hold together all the way to the ground, looking to an onlooker like one single, enormous snowflake."
+      }
+    ]
+  }
+]

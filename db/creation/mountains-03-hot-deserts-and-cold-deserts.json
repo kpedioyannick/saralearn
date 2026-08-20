@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 139,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many of the world's great deserts sit in bands near 30 degrees latitude, north and south of the equator?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The sun's rays strike hardest there all year round",
+            "feedback": "The sun actually strikes hardest at the equator itself, not at 30 degrees, so heat alone does not explain the pattern."
+          },
+          {
+            "label": "Mountain ranges happen to cluster at that latitude",
+            "feedback": "Deserts at this latitude form on flat plains as often as near mountains, so a coincidence of mountain location cannot be the shared cause."
+          },
+          {
+            "label": "Air that rose and dropped its rain at the equator sinks there instead",
+            "feedback": "Air that has already lost its moisture over the equator descends again around this latitude, arriving dry rather than bringing rain."
+          },
+          {
+            "label": "Ocean currents avoid that latitude entirely",
+            "feedback": "Currents do flow past this latitude on many coasts; their absence is not what leaves the band dry."
+          }
+        ],
+        "ok_title": "Air on a loop",
+        "ok_line": "The rain fell somewhere else already.",
+        "ko_title": "Follow the air, not the sun",
+        "ko_line": "The hottest latitude on Earth is not the driest one. Something moves the dryness elsewhere.",
+        "exp_title": "The air that already gave up its rain",
+        "exp_text": "Warm, moist air rises over the equator, and as it climbs it cools and dumps its moisture as heavy tropical rain. That same air, now wrung dry, spreads north and south at high altitude and sinks back toward the ground around 30 degrees latitude, warming again as it descends. Air that is warming as it falls does not release rain, so the band of Earth where it comes back down stays dry."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the land on the far side of a mountain range from the sea often turn into desert?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Moist air drops its rain climbing the near side, then descends dry on the far side",
+            "feedback": "The mountains force the air upward before it can cross, wringing the moisture out on the windward slope and leaving only dry air for the other side."
+          },
+          {
+            "label": "Mountains block sunlight from reaching the far side",
+            "feedback": "A desert on the far side gets plenty of direct sun; the missing rain, not missing light, is what makes it dry."
+          },
+          {
+            "label": "The far side sits at a lower elevation, which traps heat",
+            "feedback": "Elevation on its own changes temperature, not moisture, and many rain shadow deserts sit at a similar or higher elevation than the wet side."
+          },
+          {
+            "label": "Wind cannot cross a mountain range at all",
+            "feedback": "Wind does cross mountain ranges; what changes is what that wind is carrying by the time it gets to the other side."
+          }
+        ],
+        "ok_title": "Wrung out on the way up",
+        "ok_line": "The rain fell on the other slope.",
+        "ko_title": "The mountain is not blocking the wind",
+        "ko_line": "Air does get over the range. Ask what happens to it on the way.",
+        "exp_title": "A rain shadow",
+        "exp_text": "When wind carrying moist air meets a mountain range, it is forced to rise, and rising air cools until its moisture condenses into clouds and falls as rain on the windward slope. By the time that same air crests the peaks and descends the far side, it has already lost most of its water, and descending air warms rather than cools, so no more rain forms. The far slope and the land beyond it sit in this shadow, receiving little of the rain that fell just over the ridge."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a desert be scorching hot in the day and freezing cold at night?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The ground itself changes colour between day and night",
+            "feedback": "Desert ground stays the same colour around the clock; colour affects how much heat is absorbed, not how quickly it escapes after dark."
+          },
+          {
+            "label": "Cold air rushes in from nearby mountains after sunset",
+            "feedback": "Deserts far from any mountains show the same huge swing between day and night, so incoming mountain air cannot be the shared cause."
+          },
+          {
+            "label": "The sun disappears faster in a desert than elsewhere",
+            "feedback": "Sunset happens at the same pace everywhere at a given latitude; a desert's night is not literally longer than a night elsewhere at the same location."
+          },
+          {
+            "label": "Dry air holds little heat and lets it escape quickly after sunset",
+            "feedback": "With almost no water vapour or clouds to trap warmth near the ground, the heat gained during the day radiates away into the sky rapidly once the sun sets."
+          }
+        ],
+        "ok_title": "Nothing to hold the warmth",
+        "ok_line": "Dry air lets go of heat as easily as it took it in.",
+        "ko_title": "It is about the air, not the ground",
+        "ko_line": "Think about what is missing from desert air compared to humid air.",
+        "exp_title": "No blanket over the sand",
+        "exp_text": "Water vapour and clouds act like a blanket, absorbing heat radiating up from the ground and sending some of it back down, which is why humid nights stay comparatively warm. Desert air carries very little water vapour and the sky is usually clear, so there is almost nothing to catch the heat the ground radiates upward after sunset. With that blanket missing, the day's warmth escapes into the sky quickly, and the temperature can fall sharply within a few hours of dark."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Antarctica classified as a desert even though it is covered in ice?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because nothing can grow there at all",
+            "feedback": "Some other deserts do support scattered plant life, and the classification does not rest on whether anything grows."
+          },
+          {
+            "label": "Because very little snow or rain actually falls there each year",
+            "feedback": "A desert is defined by how little precipitation it receives, and measured as water, the amount that falls on most of Antarctica each year is extremely small."
+          },
+          {
+            "label": "Because the ice itself is classified as a form of sand",
+            "feedback": "Ice and sand are entirely different materials, and the desert classification has nothing to do with what covers the ground."
+          },
+          {
+            "label": "Because it never rains there in any season",
+            "feedback": "A trace of precipitation does fall in a typical year; what matters for the classification is how little arrives, not that it never happens."
+          }
+        ],
+        "ok_title": "Dry, not warm",
+        "ok_line": "A desert is defined by rainfall, not temperature.",
+        "ko_title": "Ice is not the deciding factor",
+        "ko_line": "The word desert describes how little water falls from the sky, not what the ground looks like.",
+        "exp_title": "Cold air cannot carry much water",
+        "exp_text": "A desert is defined by how little precipitation falls on it in a year, not by how hot or cold it is. Cold air can hold only a small amount of water vapour, so the frigid air over Antarctica has very little moisture available to fall as snow in the first place. The ice sheet there built up over an enormous span of time from that thin, steady trickle, not from heavy annual snowfall the way it might elsewhere."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a sand dune slowly move across a desert over months and years?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Wind bounces sand up the gentle slope and it slides down the steep one",
+            "feedback": "Grains hop up the windward face in short bounces, pile at the crest, then tumble down the far side, and the whole shape creeps forward with each cycle."
+          },
+          {
+            "label": "The whole dune is picked up and carried by strong storms",
+            "feedback": "A dune's sand is far too heavy for wind to lift and carry as one mass; only individual grains move at a time, in countless small bounces."
+          },
+          {
+            "label": "Rainwater washes the sand from one side to the other",
+            "feedback": "Deserts receive too little rain for water to be doing this work, and dune migration continues steadily in places that see almost no rain at all."
+          },
+          {
+            "label": "The dune's own weight makes it slide downhill like a glacier",
+            "feedback": "A dune is loose, dry sand with nothing holding it together, so it cannot flow under its own weight the way dense glacial ice does."
+          }
+        ],
+        "ok_title": "Grain by grain",
+        "ok_line": "A whole dune moves by never moving all at once.",
+        "ko_title": "Not one big shift",
+        "ko_line": "Think about what wind can actually lift: a single grain, or an entire dune.",
+        "exp_title": "Bounced up, tipped over",
+        "exp_text": "Wind is strong enough to skip individual sand grains along the ground and bounce them up the dune's gentler windward slope, where they gather near the crest. Once too much sand piles up at the top, it slips down the dune's steep far side in small slides, and that face is called the slip face for exactly this reason. Because every grain that crosses the crest lands a little further downwind than it started, the whole dune inches forward over time even though no single gust ever moves it as a whole."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many desert basins develop flat, hard, cracked-looking crusts of salt?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Salt is blown in from a nearby ocean and settles there",
+            "feedback": "Salt pans form far from any coast just as often as near one, so windblown ocean salt cannot be the shared explanation."
+          },
+          {
+            "label": "The desert heat turns ordinary sand into salt",
+            "feedback": "Heat cannot change one mineral into another; the salt was already dissolved in water that later disappeared."
+          },
+          {
+            "label": "A shallow lake evaporates and leaves its dissolved minerals behind",
+            "feedback": "Water carries dissolved minerals into a basin with no outlet, and when the water evaporates away, those minerals stay behind as a crust."
+          },
+          {
+            "label": "Underground rivers push salt up through cracks in the surface",
+            "feedback": "Most desert basins have no river running beneath them at all, and the salt crust forms at the surface from water that once pooled there, not from below."
+          }
+        ],
+        "ok_title": "What the water left",
+        "ok_line": "The water disappeared. The minerals it carried did not.",
+        "ko_title": "It is not the sand that changed",
+        "ko_line": "Ask what a lake leaves behind once every drop of it is gone.",
+        "exp_title": "A lake that only leaves its minerals",
+        "exp_text": "Rain and runoff carry dissolved minerals into a low desert basin that has no river flowing back out, so anything dissolved in that water stays trapped there. When the shallow, temporary lake that forms eventually evaporates under the desert sun, the water itself escapes into the air, but the minerals it was carrying cannot evaporate with it. Left behind on the basin floor, those minerals dry into the hard, cracked white crust known as a salt pan."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does exposed desert rock sometimes wear a dark, shiny coating known as desert varnish?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Sandblasting by wind polishes the rock until it darkens",
+            "feedback": "Blowing sand does smooth and scour rock, but a polished surface stays the colour of the rock underneath; it does not add a new dark mineral coating."
+          },
+          {
+            "label": "Dew dissolves trace minerals from windblown dust and leaves a mineral film behind",
+            "feedback": "Brief overnight dew dissolves tiny amounts of manganese and iron carried in dust, and each day that moisture evaporates, leaving a thin mineral film that slowly darkens the rock."
+          },
+          {
+            "label": "Lightning strikes fuse a glassy dark layer onto exposed stone",
+            "feedback": "Lightning is far too rare and too localised an event to coat entire desert cliffs, which show the same dark varnish across huge, unstruck areas."
+          },
+          {
+            "label": "Lichen growing on the rock dies and leaves a dark stain",
+            "feedback": "Desert varnish forms even on bare rock surfaces where no lichen has ever grown, so a stain left by a living organism cannot be the general explanation."
+          }
+        ],
+        "ok_title": "A film, one dew at a time",
+        "ok_line": "The coating is built from dust, not from the rock itself.",
+        "ko_title": "Not from the rock underneath",
+        "ko_line": "The varnish is a coating added onto the surface, not a change to the stone beneath it.",
+        "exp_title": "A film laid down by a thousand dawns",
+        "exp_text": "Windblown dust settling on desert rock carries tiny traces of manganese and iron, and each night's brief dew dissolves a little of those minerals into a thin film of moisture on the surface. When the sun rises and that moisture evaporates, the dissolved minerals are left behind as a microscopically thin coating. Repeated over centuries, one faint film after another builds into the dark, shiny varnish seen on old desert rock faces."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the ground in many deserts look like a tight pavement of pebbles with almost no sand on top?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Wind has carried away the finer sand and dust, leaving the heavier stones",
+            "feedback": "Lighter sand and dust grains are light enough for wind to lift and carry off, while larger pebbles are too heavy to move the same way, so they accumulate on the surface."
+          },
+          {
+            "label": "Rain has cemented the pebbles together into a solid sheet",
+            "feedback": "Many deserts with this pebble pavement receive almost no rain at all, so cementing by rainwater cannot be the general cause."
+          },
+          {
+            "label": "Grazing animals have worn the sand away over time",
+            "feedback": "This pavement covers vast stretches of desert with no animals present, so grazing cannot be the explanation for the pattern as a whole."
+          },
+          {
+            "label": "The pebbles grew there from minerals in the soil",
+            "feedback": "The stones did not form in place; they are ordinary rock fragments left behind once everything smaller has blown away."
+          }
+        ],
+        "ok_title": "What is left after the wind takes the rest",
+        "ok_line": "Nothing added the stones. Something removed everything smaller.",
+        "ko_title": "Think about what wind can lift",
+        "ko_line": "A pebble is too heavy for wind to move. Sand and dust are not.",
+        "exp_title": "Sorted by what the wind can carry",
+        "exp_text": "Loose desert ground is a mix of particle sizes, from fine dust to large pebbles, and wind is strong enough to lift and carry away the smallest of these but not the largest. Over a long span of time, repeated gusts strip away the fine sand and dust while the heavier stones stay put, unable to be lifted. What remains on the surface is a tightly packed layer of coarse material, left behind because everything lighter around it has already blown off."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are cold deserts like the Gobi so dry, even though they are not especially hot?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cold air always produces less rain than warm air everywhere on Earth",
+            "feedback": "Cold, moist air near an ocean can produce plenty of rain and snow; temperature alone does not decide how dry a place is."
+          },
+          {
+            "label": "The ground there reflects rain clouds away before they can form",
+            "feedback": "Solid ground has no way to push clouds elsewhere; clouds form or fail to form based on the moisture in the air passing overhead, not on what is reflected off the ground."
+          },
+          {
+            "label": "There are no rivers nearby to supply moisture to the air",
+            "feedback": "Most rain does not come from evaporation off nearby rivers; it comes from moist air carried a long distance from the ocean, which is exactly what a deep inland location lacks."
+          },
+          {
+            "label": "It sits deep inside a continent, far from any ocean to supply moisture",
+            "feedback": "Air travelling over land gradually loses the moisture it started with, so by the time it reaches a location deep in a continent's interior, there is little left to fall as rain."
+          }
+        ],
+        "ok_title": "Too far from the source",
+        "ok_line": "The moisture ran out long before it arrived.",
+        "ko_title": "Distance, not heat",
+        "ko_line": "This desert is dry for a reason that has nothing to do with temperature.",
+        "exp_title": "Moisture that never makes it that far",
+        "exp_text": "Almost all rain begins as moisture evaporated from the ocean and carried inland by wind. As an air mass moves further over land, it steadily loses that moisture to rainfall along the way, leaving less and less available the deeper it travels. The Gobi sits so far from any ocean, deep in the interior of Asia, that by the time air reaches it there is very little moisture left to fall as rain, regardless of the temperature."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a short desert rainstorm cause a dangerous flash flood, even though deserts are usually so dry?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Desert rain always falls in far greater volume than rain elsewhere",
+            "feedback": "A desert downpour is not necessarily larger than a storm elsewhere; the danger comes from what happens to the water once it lands, not from an unusually large volume."
+          },
+          {
+            "label": "Hard, sun-baked ground cannot absorb water quickly, so it rushes off as runoff",
+            "feedback": "Desert soil is often compacted and has little vegetation to slow the water down or help it soak in, so a sudden rain runs straight off the surface instead of sinking into it."
+          },
+          {
+            "label": "Desert valleys are shaped to hold water back until it overflows suddenly",
+            "feedback": "A dry desert channel does the opposite of holding water back; it offers a ready-made path for runoff to travel through fast, gathering speed rather than being contained."
+          },
+          {
+            "label": "Underground water rises up to meet the falling rain",
+            "feedback": "Groundwater sits well below the surface in most deserts and plays no part in a sudden flood; the danger comes entirely from water moving across the surface."
+          }
+        ],
+        "ok_title": "Nowhere for the water to go but sideways",
+        "ok_line": "Ground that cannot soak up water sends it somewhere else instead.",
+        "ko_title": "It is not about how much rain falls",
+        "ko_line": "Ask what the ground does with the water once it lands, not how much of it there is.",
+        "exp_title": "Water that has nowhere to sink in",
+        "exp_text": "Desert soil is often compacted hard by long dry spells and carries little plant cover to break the force of falling rain or slow its path across the surface. When a storm does arrive, the water cannot soak into the ground fast enough and instead runs off across the hard surface almost as soon as it lands. That runoff gathers quickly into dry channels and gullies, arriving downstream as a fast-moving flood long before the ground has had any chance to absorb it."
+      }
+    ]
+  }
+]

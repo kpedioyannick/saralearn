@@ -22,3 +22,26 @@ export const BLOCKING_LOADER = false
 
 /** Multiplie les durées de lecture. 0.5 = deux fois plus rapide. */
 export const PACE = 1
+
+/**
+ * L'enchaînement après une réponse.
+ *
+ * `true` : la réussite et l'erreur passent seules à l'explication, et
+ * l'explication passe seule à l'exercice suivant, sur des minuteurs
+ * fixes — 2, 6 et 8 secondes. C'est ce que dessine la maquette, et ça
+ * contredisait déjà `ANALYSE_TECH.md`, qui voulait l'inverse.
+ *
+ * `false` : rien ne bouge sans un geste. La barre continue de se
+ * remplir — elle donne le rythme — mais elle ne décide plus. Deux
+ * raisons, dans cet ordre :
+ *
+ *   · la lecture à voix haute ne consultait pas ces minuteurs. Une
+ *     explication de douze secondes était coupée à huit, et l'exercice
+ *     suivant démarrait par-dessus ;
+ *   · passer d'un écran au suivant appartient à celui qui lit.
+ *
+ * Le prix : deux taps de plus par exercice. Sur cent exercices, deux
+ * cents gestes ajoutés — l'app se rapproche d'un quiz classique et
+ * s'éloigne du fil qui défile.
+ */
+export const AUTO_ADVANCE = false

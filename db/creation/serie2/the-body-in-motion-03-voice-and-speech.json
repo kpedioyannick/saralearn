@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What part of the body produces the sound of your voice?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The windpipe",
+            "feedback": "The windpipe is the tube that carries air, but it does not vibrate to make sound; it simply lets air pass through."
+          },
+          {
+            "label": "The vocal cords in the larynx",
+            "feedback": "Correct. The vocal cords sit in the larynx, and when air from the lungs passes between them, they vibrate to produce sound."
+          },
+          {
+            "label": "The tongue",
+            "feedback": "The tongue shapes sounds into vowels and consonants, but it does not generate the initial buzz; that comes from the vocal cords."
+          },
+          {
+            "label": "The lungs",
+            "feedback": "The lungs push air outward, but they do not vibrate; they are the power source, not the sound source."
+          }
+        ],
+        "ok_title": "Voice source",
+        "ok_line": "The larynx's vocal cords vibrate as air rushes through.",
+        "ko_title": "Not the lungs",
+        "ko_line": "Lungs supply air, but the sound comes from the larynx.",
+        "exp_title": "Where voice begins",
+        "exp_text": "Your voice starts in the larynx, the voice box in your throat. Two folds of tissue, the vocal cords, sit across this opening. When you breathe out, air pushes between them, making them vibrate, and that vibration is the sound we call your voice."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main muscle that pulls air into your lungs when you breathe in?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The diaphragm",
+            "feedback": "Correct. The diaphragm is a dome-shaped muscle under your lungs; when it tightens and flattens, it enlarges the chest cavity, and air rushes in."
+          },
+          {
+            "label": "The intercostal muscles between the ribs",
+            "feedback": "These muscles help expand the ribcage, but the main work of pulling air in is done by the diaphragm, not by them alone."
+          },
+          {
+            "label": "The abdominal muscles",
+            "feedback": "Abdominal muscles push air out during forceful breathing, but they do not pull air in; that is the diaphragm's job."
+          },
+          {
+            "label": "The throat muscles",
+            "feedback": "Throat muscles control the opening of the airway, but they do not create the suction that draws air into the lungs."
+          }
+        ],
+        "ok_title": "Breathing muscle",
+        "ok_line": "The diaphragm flattens to pull air into the lungs.",
+        "ko_title": "Not the ribs",
+        "ko_line": "The rib muscles assist, but the diaphragm leads.",
+        "exp_title": "The engine of breath",
+        "exp_text": "The diaphragm is the primary muscle of breathing. It sits like a dome below the lungs. When it contracts, it moves down, expanding the chest cavity, lowering air pressure, and drawing air in. When it relaxes, it rises and pushes air out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the mouth do you use to stop the airflow completely when you say the sound 'p'?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The back of the tongue against the soft palate",
+            "feedback": "That placement makes a 'k' sound, not a 'p'. For 'p', the lips meet fully, blocking the air at the front of the mouth."
+          },
+          {
+            "label": "The tip of the tongue against the ridge behind the teeth",
+            "feedback": "That placement makes a 't' sound. For 'p', you use your lips, not your tongue."
+          },
+          {
+            "label": "The teeth against the lower lip",
+            "feedback": "That placement makes an 'f' sound, where air escapes past the teeth, not a fully stopped 'p'."
+          },
+          {
+            "label": "Both lips pressed together",
+            "feedback": "Correct. To say 'p', you close both lips completely, block the air, then release it with a small burst."
+          }
+        ],
+        "ok_title": "Lips for 'p'",
+        "ok_line": "Both lips come together to stop the air.",
+        "ko_title": "Tongue does 't'",
+        "ko_line": "'p' uses lips, not the tongue or teeth.",
+        "exp_title": "Making a plosive",
+        "exp_text": "A consonant like 'p' is made by fully blocking the airstream and then releasing it. For 'p', the block happens at the lips: you press both lips together, build up air pressure behind them, and then open them to let the air burst out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do your vocal cords do when you whisper instead of speaking normally?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They vibrate faster than in normal speech",
+            "feedback": "Faster vibration would raise the pitch, but whispering does not raise pitch; whispering removes vibration entirely."
+          },
+          {
+            "label": "They close completely and stop all airflow",
+            "feedback": "If the airway closed completely, no air could escape and you could not whisper at all; air still flows, just without vibration."
+          },
+          {
+            "label": "They stay open and do not vibrate",
+            "feedback": "Correct. In a whisper, the vocal cords are held apart so air passes through without making them vibrate, and the sound comes only from the rush of air through the mouth."
+          },
+          {
+            "label": "They vibrate more slowly than in normal speech",
+            "feedback": "Slower vibration would produce a lower pitch, but a whisper is not a low-pitched version of speech; it simply has no vocal vibration."
+          }
+        ],
+        "ok_title": "Whisper mechanics",
+        "ok_line": "Vocal cords stay apart, so no vibration occurs.",
+        "ko_title": "No pitch change",
+        "ko_line": "Whispering removes sound, not just pitch.",
+        "exp_title": "Whispering without voice",
+        "exp_text": "In normal speech, the vocal cords come together and vibrate as air passes between them. In a whisper, you hold them apart, so they do not vibrate. The air flows through the open gap, and any sound you hear comes from the hiss of that airflow, not from vocal cord vibration."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What changes in your throat to make a higher-pitched note when you sing or speak?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The vocal cords relax and become longer",
+            "feedback": "Longer, relaxed cords produce a lower pitch, not a higher one. Higher notes require tighter, shorter cords."
+          },
+          {
+            "label": "The vocal cords tighten and stretch",
+            "feedback": "Correct. When you sing higher, muscles pull the vocal cords taut and thin, so they vibrate faster and produce a higher pitch."
+          },
+          {
+            "label": "More air is pushed from the lungs with greater force",
+            "feedback": "Pushing more air makes the sound louder, but it does not by itself change the pitch; pitch depends on vibration speed, not airflow force."
+          },
+          {
+            "label": "The larynx moves down toward the chest",
+            "feedback": "Moving the larynx down can change resonance and tone color, but the pitch itself is set by how tightly the cords are stretched."
+          }
+        ],
+        "ok_title": "Pitch control",
+        "ok_line": "Tighter cords vibrate faster for higher notes.",
+        "ko_title": "Not louder",
+        "ko_line": "Pitch comes from tension, not air force.",
+        "exp_title": "Higher notes explained",
+        "exp_text": "The pitch of your voice is set by the rate at which your vocal cords vibrate. To produce a higher note, muscles in the larynx pull on the cords, making them tighter, thinner, and longer. This faster vibration translates directly into a higher-pitched sound."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which parts of your mouth do you mainly use to shape the vowel sound in 'ee' versus the vowel sound in 'oo'?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The teeth and lips press together for both",
+            "feedback": "Teeth and lips do not press together for vowels; they stay apart, and the shape of the tongue and lips creates the different vowels."
+          },
+          {
+            "label": "The tongue stays flat and the lips round for both",
+            "feedback": "For 'ee', the tongue rises high in the front and the lips spread; for 'oo', the tongue pulls back and the lips round tightly. They are not the same."
+          },
+          {
+            "label": "The soft palate opens or closes to change the sound",
+            "feedback": "The soft palate controls whether air goes through the nose (for 'm' and 'n'), but it does not distinguish 'ee' from 'oo'."
+          },
+          {
+            "label": "The position of the tongue and the shape of the lips",
+            "feedback": "Correct. For 'ee', the tongue is high and front, and the lips spread wide. For 'oo', the tongue is high and back, and the lips are rounded and pushed forward. These shapes filter the buzz from the vocal cords."
+          }
+        ],
+        "ok_title": "Vowel shaping",
+        "ok_line": "Tongue position and lip shape make vowels.",
+        "ko_title": "Soft palate not it",
+        "ko_line": "The soft palate handles nasal sounds, not vowels.",
+        "exp_title": "How vowels differ",
+        "exp_text": "Vowels are made by changing the shape of the vocal tract, mainly by moving the tongue and lips, while the vocal cords keep buzzing. 'Ee' uses a high, front tongue with spread lips; 'oo' uses a high, back tongue with rounded lips. The different shapes act like filters, changing which overtones of the buzz are amplified."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes 'm' and 'n' sound different from most other consonants, giving them a humming quality?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Air escapes through the nose",
+            "feedback": "Correct. For 'm' and 'n', the mouth is blocked but the soft palate drops, so air flows out through the nose, and the vocal cords continue to vibrate, creating a hum."
+          },
+          {
+            "label": "The vocal cords stop vibrating completely",
+            "feedback": "If the cords stopped, 'm' and 'n' would be voiceless, like 's' or 'p'; they would not hum. The hum means the cords vibrate."
+          },
+          {
+            "label": "The tongue touches the teeth",
+            "feedback": "Touching the teeth can produce other sounds like 'th', but 'm' uses the lips, and 'n' uses the tongue against the ridge, not the teeth."
+          },
+          {
+            "label": "The air is forced out with a burst of pressure",
+            "feedback": "A burst of pressure makes plosives like 'p' and 't', not nasal consonants. 'm' and 'n' let air flow steadily through the nose."
+          }
+        ],
+        "ok_title": "Nasal consonants",
+        "ok_line": "Air exits the nose for 'm' and 'n'.",
+        "ko_title": "Not a burst",
+        "ko_line": "'m' and 'n' are continuous nasal sounds.",
+        "exp_title": "Where the hum comes from",
+        "exp_text": "'M' and 'n' are nasal consonants. You close the mouth completely—lips for 'm', tongue against the ridge for 'n'—and lower the soft palate so air escapes through the nose. Meanwhile the vocal cords keep vibrating, so the sound continues as a hum. Most other consonants let air out through the mouth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do two people saying the exact same word never sound quite identical?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they use different words in their minds",
+            "feedback": "They are saying the same word, so the meaning and the basic sequence of sounds are the same; the difference lies in the physical properties of each voice, not in the word chosen."
+          },
+          {
+            "label": "Because one person always speaks louder than the other",
+            "feedback": "Loudness differences can make voices distinct, but two people can match loudness and still sound different; the key is the shape and size of their vocal tracts."
+          },
+          {
+            "label": "Because one person's vocal cords vibrate at the same rate as the other's",
+            "feedback": "If they vibrated at the same rate, the pitch would match, but other factors still differ, and in practice rates differ slightly anyway."
+          },
+          {
+            "label": "Because each person's larynx, throat, mouth, and nose have unique shapes and sizes",
+            "feedback": "Correct. Even if two people say the same word, the sound passes through a vocal tract that is uniquely sized and shaped, filtering and coloring the vibration differently. This is why voices are recognizable."
+          }
+        ],
+        "ok_title": "Unique voices",
+        "ok_line": "Anatomy filters each voice differently.",
+        "ko_title": "Not the word",
+        "ko_line": "Same word, different vocal tract shape.",
+        "exp_title": "Why voices differ",
+        "exp_text": "Your voice's characteristic sound depends on the size and shape of your larynx, throat, mouth, and nasal passages. These structures act as natural filters, enhancing some frequencies and weakening others. Since no two people have identical anatomy, the same word travels through different filters and comes out sounding distinct."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the soft palate do when you speak a nasal sound like 'm'?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It rises to block the nose, forcing air through the mouth",
+            "feedback": "Rising blocks the nose, which would produce a non-nasal sound like 'b' or 'd', not 'm'. For 'm', the palate must lower so air escapes through the nose."
+          },
+          {
+            "label": "It vibrates rapidly to add a buzzing quality",
+            "feedback": "The soft palate does not vibrate in normal speech; the vocal cords produce the buzz, and the palate simply opens or closes the nasal passage."
+          },
+          {
+            "label": "It lowers to let air escape through the nose",
+            "feedback": "Correct. Lowering the soft palate opens the passage to the nose, letting the airstream flow out nasally while the mouth is closed at the lips, creating the 'm' sound."
+          },
+          {
+            "label": "It stays in its resting position, neither opening nor closing the nose",
+            "feedback": "At rest, the soft palate hangs down, but for a nasal sound it must actively lower further; if it stayed in place, the nose would be partially open, but the controlled opening happens deliberately."
+          }
+        ],
+        "ok_title": "Palate's role",
+        "ok_line": "Soft palate opens the nasal passage for nasal sounds.",
+        "ko_title": "Not for 'b'",
+        "ko_line": "Rising palate makes oral sounds, not 'm'.",
+        "exp_title": "Soft palate in speech",
+        "exp_text": "The soft palate is the fleshy back part of the roof of your mouth. For oral sounds like 'p' or 'b', it rises to block the nose, so all air goes out the mouth. For nasal sounds like 'm', it lowers, allowing air to flow into the nasal cavity and out through the nose, even though the mouth is blocked."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the airflow when you breathe in through your nose versus through your mouth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The airflow is the same, but the nose makes a humming sound",
+            "feedback": "The nose does not hum during normal breathing; it filters and warms air, but no sound is produced unless you add a vocal buzz."
+          },
+          {
+            "label": "The nose filters, warms, and moistens the air before it reaches the lungs",
+            "feedback": "Correct. The nasal passages are lined with mucus and tiny hairs that trap dust and germs, and the blood vessels warm the air as it passes through."
+          },
+          {
+            "label": "The mouth filters the air better than the nose does",
+            "feedback": "The mouth has no equivalent of the nose's hairs and mucus layers; it does not filter, warm, or moisten air as effectively."
+          },
+          {
+            "label": "Breathing through the nose pushes air into the lungs faster than mouth breathing",
+            "feedback": "The nose is actually narrower than the mouth, so airflow is slower and more restricted, not faster."
+          }
+        ],
+        "ok_title": "Nasal breathing",
+        "ok_line": "The nose cleans and warms incoming air.",
+        "ko_title": "Not the mouth",
+        "ko_line": "The mouth cannot filter like the nose.",
+        "exp_title": "What the nose does",
+        "exp_text": "When you breathe in through your nose, the air passes over mucus membranes lined with tiny hairs. These trap dust, pollen, and germs, while blood vessels in the lining warm the air and add moisture. This prepares the air for the delicate lining of your lungs, which mouth breathing does not do as thoroughly."
+      }
+    ]
+  }
+]

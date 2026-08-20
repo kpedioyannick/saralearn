@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many times does light reflect inside a raindrop to create a primary rainbow?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Once",
+            "feedback": "A single reflection inside the drop would not bend the light enough to send the colours back toward you. It takes one reflection for the primary bow, so this is not correct."
+          },
+          {
+            "label": "Twice",
+            "feedback": "Correct. In a primary rainbow, sunlight reflects once off the back of the raindrop before coming out toward the observer."
+          },
+          {
+            "label": "Three times",
+            "feedback": "Three reflections happen inside the drop for the secondary bow, not the primary one. The primary rainbow uses just two reflections total, but that is one internal reflection."
+          },
+          {
+            "label": "Four times",
+            "feedback": "Four reflections would send the light out in a different direction, not toward the ground where you see the primary bow. The primary bow needs only one internal reflection."
+          }
+        ],
+        "ok_title": "One reflection",
+        "ok_line": "The primary rainbow comes from one internal reflection.",
+        "ko_title": "Reflection count",
+        "ko_line": "Remember it is one reflection for the primary bow.",
+        "exp_title": "Primary bow reflection",
+        "exp_text": "A primary rainbow forms when sunlight enters a raindrop, reflects once off the inner back surface, and then leaves the drop. That single reflection bends the light so that each colour exits at a slightly different angle, spreading the white light into a spectrum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Through which part of a raindrop does sunlight pass when it enters to make a rainbow?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Through the exact centre",
+            "feedback": "Light through the centre would pass straight through without splitting into colours. The rainbow needs light to enter off-centre so it can refract and reflect."
+          },
+          {
+            "label": "Through the bottom edge",
+            "feedback": "Bottom-edge entry can happen, but it is not the special path. The exact path that creates the bright rainbow is near the top of the drop, called the upper edge."
+          },
+          {
+            "label": "Through the top surface",
+            "feedback": "Light enters through the top surface for the secondary bow, but for the primary bow it enters near the upper part, not exactly at the top. The precise entry point matters."
+          },
+          {
+            "label": "Near the top, off-centre",
+            "feedback": "Correct. Sunlight enters near the top of the raindrop, slightly off-centre, so it refracts, reflects once inside, and comes out toward the observer at the correct angle."
+          }
+        ],
+        "ok_title": "Off-centre entry",
+        "ok_line": "Sunlight must enter near the top, off-centre.",
+        "ko_title": "Entry point",
+        "ko_line": "It is not the centre or the exact edge.",
+        "exp_title": "Light path in drop",
+        "exp_text": "For a primary rainbow, sunlight strikes the upper part of the raindrop, slightly off-centre. This entry point lets the light refract (bend) as it goes in, reflect once, and then refract again as it leaves, sending different colours back at slightly different angles."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What angle does the primary rainbow appear at relative to the line from the Sun to the observer?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "0 degrees",
+            "feedback": "Zero degrees would mean the rainbow is directly in line with the Sun, which never happens because the Sun must be behind you. The bow is always offset."
+          },
+          {
+            "label": "45 degrees",
+            "feedback": "Forty-five degrees is not the special angle. The primary bow has a fixed angle of about 42 degrees from the Sun-observer line, not 45."
+          },
+          {
+            "label": "About 42 degrees",
+            "feedback": "Correct. The primary rainbow appears at about 42 degrees from the imaginary line running from the Sun through the observer's head to the ground."
+          },
+          {
+            "label": "About 90 degrees",
+            "feedback": "Ninety degrees would put the rainbow to your side, but it actually appears lower, at about 42 degrees. The secondary bow is at about 51 degrees."
+          }
+        ],
+        "ok_title": "42 degrees",
+        "ok_line": "The primary bow sits at about 42 degrees.",
+        "ko_title": "Angle of bow",
+        "ko_line": "Remember 42, not 0, 45, or 90.",
+        "exp_title": "Rainbow angle",
+        "exp_text": "When you face away from the Sun, the primary rainbow forms a circle centred on the point opposite the Sun. That circle's edge is always about 42 degrees from that central point, which is why the bow has a fixed height in the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a rainbow appear only when you look away from the Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the light must enter the raindrops from behind you",
+            "feedback": "Correct. Sunlight enters the drops at your back, reflects inside, and comes back toward you. If you face the Sun, the light would go away from you."
+          },
+          {
+            "label": "Because the Sun must be directly overhead",
+            "feedback": "The Sun can be at different heights, but it must always be behind you. Overhead would not change the need to look away."
+          },
+          {
+            "label": "Because rain only falls on the side away from the Sun",
+            "feedback": "Rain can fall anywhere, but the geometry of reflection still works only when the Sun is behind you. The position of rain is not the cause."
+          },
+          {
+            "label": "Because the water droplets block the Sun's light when you face it",
+            "feedback": "Droplets do not block the Sun's light in a way that creates a bow. The key is the direction of reflection, not blocking."
+          }
+        ],
+        "ok_title": "Sun behind you",
+        "ok_line": "The Sun must be behind you to catch the reflected light.",
+        "ko_title": "Facing away",
+        "ko_line": "Always look away from the Sun for a bow.",
+        "exp_title": "Observer geometry",
+        "exp_text": "A rainbow is seen when sunlight reflects off the back of a raindrop and travels back toward you. That can happen only if the Sun is behind you, so the light enters the drop from behind and comes out toward your eyes. Facing the Sun gives no reflected light coming to you."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What condition must the drops be in for you to see a clear, bright rainbow?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They must be frozen into ice crystals",
+            "feedback": "Ice crystals create halos, not rainbows. Rainbows come from liquid water drops, not frozen ones."
+          },
+          {
+            "label": "They must be very large and few in number",
+            "feedback": "Large drops can still make a bow, but few drops give a faint or partial bow. You need many drops spread across the sky to see the full coloured arc."
+          },
+          {
+            "label": "They must be roughly spherical and present in large numbers",
+            "feedback": "Correct. Each drop acts like a tiny prism. Spherical drops and many of them across the sky produce a bright, continuous arc of colours."
+          },
+          {
+            "label": "They must be flat like tiny mirrors",
+            "feedback": "Flat surfaces would reflect light specularly, but they would not separate colours. Raindrops are round, not flat, and that roundness enables the refraction and reflection."
+          }
+        ],
+        "ok_title": "Spherical drops many",
+        "ok_line": "Many round drops give a clear bow.",
+        "ko_title": "Drop shape and count",
+        "ko_line": "Round and numerous is the winning combination.",
+        "exp_title": "Drop condition",
+        "exp_text": "For a visible rainbow, you need countless raindrops that are nearly spherical, each acting as a small refracting and reflecting sphere. The more drops in the shower, the brighter and more complete the arc you see."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What colour appears on the inner edge of a primary rainbow?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red is on the outer edge of the primary bow, not the inner. The inner edge has violet."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green is in the middle of the spectrum. The inner edge is violet, the very end of the visible spectrum."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow sits between orange and green. It is not at the edge; the inner boundary is violet."
+          },
+          {
+            "label": "Violet",
+            "feedback": "Correct. In a primary rainbow, violet is on the inner edge because violet light is bent the most when it leaves the drop."
+          }
+        ],
+        "ok_title": "Violet inside",
+        "ok_line": "The inner edge of the primary bow is violet.",
+        "ko_title": "Inner colour",
+        "ko_line": "Remember violet, not red or green.",
+        "exp_title": "Primary bow colours",
+        "exp_text": "When sunlight exits a raindrop, violet light bends most and red light bends least. So in the primary rainbow, the innermost colour is violet and the outermost is red, with the other colours in between."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the secondary rainbow form inside a raindrop?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "With no reflection at all",
+            "feedback": "No reflection would just refract light straight through, giving no bow. A reflection is required to send the light back."
+          },
+          {
+            "label": "With two internal reflections",
+            "feedback": "Correct. In a secondary rainbow, light reflects twice inside the raindrop before coming out. These two reflections make the light exit at a higher angle and reverse the colour order."
+          },
+          {
+            "label": "With one internal reflection",
+            "feedback": "One reflection makes the primary bow. The secondary bow needs that extra bounce inside the drop."
+          },
+          {
+            "label": "With three internal reflections",
+            "feedback": "Three reflections would send the light out in yet another direction and is not the standard secondary bow. The secondary uses exactly two."
+          }
+        ],
+        "ok_title": "Two reflections",
+        "ok_line": "The secondary bow comes from two internal bounces.",
+        "ko_title": "Secondary reflection count",
+        "ko_line": "It is two, not one or three.",
+        "exp_title": "Secondary bow process",
+        "exp_text": "A secondary rainbow occurs when sunlight enters a raindrop, reflects twice off the inner surfaces, and then leaves. The double reflection means the light exits at a larger angle (about 51 degrees) and the colour order flips, with red on the inside and violet on the outside."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the region between the primary and secondary rainbow in a double bow?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Bright with white light",
+            "feedback": "That region is not bright; it is darker than the surrounding sky. It gets less light because of the way light exits the drops."
+          },
+          {
+            "label": "Filled with overlapping colours",
+            "feedback": "Overlapping colours would make a mixture, but that does not happen. The space between the bows is noticeably darker, called Alexander's band."
+          },
+          {
+            "label": "Darker than the sky around it",
+            "feedback": "Correct. This darker region, called Alexander's band, appears because drops there send light away from your eye rather than toward it."
+          },
+          {
+            "label": "Exactly the same as the rest of the sky",
+            "feedback": "It is not the same. The band between the two bows is visibly darker, which is why it stands out in a double rainbow."
+          }
+        ],
+        "ok_title": "Alexander's dark band",
+        "ok_line": "The space between the bows is darker.",
+        "ko_title": "Between the bows",
+        "ko_line": "That dark strip is Alexander's band.",
+        "exp_title": "Dark band between bows",
+        "exp_text": "Between the primary (42°) and secondary (51°) rainbow lies a region that appears darker than the sky above or below. This occurs because raindrops in that angular range reflect light away from the observer's eye, leaving less light to reach it. It is named Alexander's band."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a rainbow appear to move when you move?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because each eye sees the bow from its own angle",
+            "feedback": "Correct. The rainbow's position depends on the observer's viewpoint. As you move, the angle stays the same, but the actual drops you see change, so your personal bow moves with you."
+          },
+          {
+            "label": "Because the raindrops are falling",
+            "feedback": "Raindrops fall, but that does not cause the apparent movement. The bow's position is fixed by geometry relative to you, not by the drops' motion."
+          },
+          {
+            "label": "Because the Sun moves across the sky",
+            "feedback": "The Sun's movement over hours changes the bow's height, but moving a few steps does not. The immediate movement comes from your own motion."
+          },
+          {
+            "label": "Because the colours shift as you walk",
+            "feedback": "Colours do not shift because of your walking. The angle for each colour is fixed, so the order stays the same; only which drops you see changes."
+          }
+        ],
+        "ok_title": "Observer-dependent bow",
+        "ok_line": "Your rainbow moves with you.",
+        "ko_title": "Why it moves",
+        "ko_line": "It is your viewpoint, not the drops, that shifts.",
+        "exp_title": "Personal rainbow",
+        "exp_text": "A rainbow is not a physical object in the sky; it is a set of angles from your eye to many droplets. When you step sideways, you keep the same 42-degree angle, but the droplets that satisfy that angle are different, so the bow appears to move with you. Each person sees their own rainbow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What must be behind the observer for a rainbow to be visible at all?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A dark cloud",
+            "feedback": "A dark cloud affects contrast but does not provide light. The essential is the Sun, not a cloud."
+          },
+          {
+            "label": "A strong wind",
+            "feedback": "Wind has no role in forming a rainbow. It just moves the drops, but the geometry needs the Sun behind you."
+          },
+          {
+            "label": "The Sun",
+            "feedback": "Correct. The Sun must be behind you, shining onto the raindrops ahead. Without sunlight behind you, no rainbow can form."
+          },
+          {
+            "label": "A bright moon",
+            "feedback": "The Moon can give a faint rainbow at night, but the Sun is the usual source. Still, the source must be behind you, whether it is the Sun or the Moon."
+          }
+        ],
+        "ok_title": "Sun behind you",
+        "ok_line": "The Sun must be at your back.",
+        "ko_title": "Behind observer",
+        "ko_line": "Light must come from behind to make a bow.",
+        "exp_title": "Required light source",
+        "exp_text": "For a rainbow to appear, the light source (normally the Sun) must be behind you, shining toward the drops in front. The drops then reflect that light back to your eyes, creating the arc. Without the Sun behind you, the geometry simply does not work."
+      }
+    ]
+  }
+]

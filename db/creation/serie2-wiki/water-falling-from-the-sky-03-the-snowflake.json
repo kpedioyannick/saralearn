@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a snowflake made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Frozen crystalline water",
+            "feedback": "Correct. A snowflake is a collection of ice crystals, which are frozen water in a crystalline form."
+          },
+          {
+            "label": "Liquid water with air bubbles",
+            "feedback": "That describes a raindrop or slush, not a solid snowflake. Snow is frozen, not liquid."
+          },
+          {
+            "label": "Compressed water vapor",
+            "feedback": "Water vapor is a gas. Snowflakes are made of solid ice, which forms when vapor freezes into crystals."
+          },
+          {
+            "label": "A mix of ice and dirt particles",
+            "feedback": "Snow can pick up particles as it forms, but the flake itself is entirely frozen water, not a mixture."
+          }
+        ],
+        "ok_title": "Frozen water crystals",
+        "ok_line": "A snowflake is an ice crystal made of frozen water.",
+        "ko_title": "Not liquid or gas",
+        "ko_line": "Snow is solid ice, not liquid or vapor.",
+        "exp_title": "The material of snow",
+        "exp_text": "Every snowflake is built from frozen crystalline water. It starts as a tiny ice crystal in a cloud and grows as more water molecules freeze onto it. Even when it looks white, it is still just clear ice."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do snowflakes first form?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "On the ground",
+            "feedback": "Snowflakes form in the air, not on the ground. They fall to the ground after they have grown in clouds."
+          },
+          {
+            "label": "In lakes or oceans",
+            "feedback": "Lakes and oceans provide moisture, but the freezing into snowflakes happens high in the atmosphere, not in the water body itself."
+          },
+          {
+            "label": "In the air, usually within clouds",
+            "feedback": "Correct. Snowflakes grow while suspended in the air, typically inside clouds, before they fall to the ground."
+          },
+          {
+            "label": "On mountain peaks only",
+            "feedback": "Mountains can help lift air to form snow, but snowflakes themselves form in the atmosphere, not specifically on peaks."
+          }
+        ],
+        "ok_title": "Birth in the sky",
+        "ok_line": "Snowflakes start as ice crystals high in the air.",
+        "ko_title": "Not on the ground",
+        "ko_line": "Snow forms in the sky, then falls to the ground.",
+        "exp_title": "Place of snowflake formation",
+        "exp_text": "Snowflakes begin as tiny ice crystals that form in the air, usually within clouds. They grow while suspended and then fall, eventually accumulating on surfaces on the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the basic shapes that snowflakes can take?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Spheres, cubes, and pyramids",
+            "feedback": "Those are not snowflake shapes. Snow crystals grow in flat or columnar forms, not geometric solids like cubes."
+          },
+          {
+            "label": "Stars, hearts, and diamonds",
+            "feedback": "Hearts and diamonds are not natural snowflake shapes. The basic forms are simpler and come from ice crystal growth."
+          },
+          {
+            "label": "Circles, triangles, and squares",
+            "feedback": "Triangles and squares are not basic snowflake shapes. Snowflakes commonly have six-fold symmetry, not these forms."
+          },
+          {
+            "label": "Platelets, needles, columns, and rime",
+            "feedback": "Correct. These are the basic categories of snowflake shapes, along with combinations of them."
+          }
+        ],
+        "ok_title": "Four basic forms",
+        "ok_line": "Snowflakes come as platelets, needles, columns, and rime.",
+        "ko_title": "Not geometric solids",
+        "ko_line": "Snowflake shapes are flat plates, needles, or columns, not spheres or cubes.",
+        "exp_title": "Snowflake shape categories",
+        "exp_text": "Snowflakes grow in several basic forms: flat platelets, long needles, columnar crystals, and rime, which is a coating of frozen droplets. These basic shapes can combine into more complex patterns, but these are the starting ones."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What must happen for a cloud droplet to freeze into an ice crystal?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It must be larger than a raindrop",
+            "feedback": "Size is not the trigger for freezing. Even tiny droplets can freeze if conditions are right, and they are much smaller than raindrops."
+          },
+          {
+            "label": "A few molecules must arrange like an ice lattice",
+            "feedback": "Correct. Freezing begins when a few water molecules happen to arrange in the same pattern as ice, forming a nucleus for the rest to freeze around."
+          },
+          {
+            "label": "It must touch another droplet",
+            "feedback": "Contact with other droplets is not what starts freezing. The freezing starts from within the droplet itself or with a particle inside it."
+          },
+          {
+            "label": "It must be at exactly 0 °C",
+            "feedback": "Freezing can happen at temperatures below 0 °C, and often does at much lower temperatures. Exact 0 °C is not required."
+          }
+        ],
+        "ok_title": "The freezing start",
+        "ok_line": "Freezing begins when a few molecules line up like ice.",
+        "ko_title": "Not size or contact",
+        "ko_line": "Freezing comes from inside the droplet, not from outside touches.",
+        "exp_title": "How a droplet freezes",
+        "exp_text": "For a supercooled droplet to freeze, a few of its water molecules must by chance arrange themselves in the same pattern as an ice crystal. This small nucleus then lets the rest of the droplet freeze around it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do snowflakes appear white even though the ice they are made of is clear?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They contain white pigments",
+            "feedback": "There are no pigments in snow. The whiteness comes from how light interacts with the crystal surfaces, not from any coloring substance."
+          },
+          {
+            "label": "They are made of a different kind of ice",
+            "feedback": "Snow is the same clear ice as any other. The white appearance is an optical effect, not a different material."
+          },
+          {
+            "label": "Light is scattered by the crystal facets and imperfections",
+            "feedback": "Correct. The many small faces and hollows of the crystals scatter light in all directions, so the whole spectrum reaches the eye and the snow looks white."
+          },
+          {
+            "label": "They reflect the color of the sky",
+            "feedback": "The sky can be blue or gray, but snow is white even under a clear blue sky. The whiteness comes from the ice itself scattering light."
+          }
+        ],
+        "ok_title": "Scattered light",
+        "ok_line": "Snow looks white because crystal surfaces scatter all light.",
+        "ko_title": "No white pigment",
+        "ko_line": "Snow has no color; its whiteness is from light scattering.",
+        "exp_title": "Why snow is white",
+        "exp_text": "Ice is naturally clear, but a snowflake has many tiny flat faces and tiny hollows. These scatter incoming light in every direction, reflecting the whole spectrum, so the snow appears white rather than transparent."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to snow as it accumulates into a snowpack over time?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It metamorphoses through sintering, sublimation, and freeze-thaw",
+            "feedback": "Correct. Once snow piles up, it changes internally through these processes, altering its structure."
+          },
+          {
+            "label": "It stays exactly the same until it melts",
+            "feedback": "Snowpack does not stay unchanged. It constantly transforms through melting, refreezing, and vapor loss."
+          },
+          {
+            "label": "It gradually turns into liquid water",
+            "feedback": "That happens only when it melts. Before that, the snow undergoes metamorphism while still solid."
+          },
+          {
+            "label": "It gets blown away by the wind",
+            "feedback": "Wind can move snow as drifts, but that is not the main transformation. The snowpack changes in place over time."
+          }
+        ],
+        "ok_title": "Snowpack transformation",
+        "ok_line": "Accumulated snow changes through several processes.",
+        "ko_title": "Not static snow",
+        "ko_line": "Snowpack keeps changing, even before it melts.",
+        "exp_title": "Metamorphosis of snow",
+        "exp_text": "When snow accumulates, it does not stay as it fell. It undergoes sintering, where grains bond, sublimation, where ice turns directly to vapor, and freeze-thaw cycles, all of which reshape the snowpack over time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a snowflake as it falls through different temperature and humidity conditions in the atmosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It melts completely",
+            "feedback": "Melting happens only if the air is warm enough near the ground. While still in cold air, the flake grows and changes shape, not melts."
+          },
+          {
+            "label": "It stays the same shape from cloud to ground",
+            "feedback": "The temperature and humidity change as the flake falls, so it keeps adding water and altering its pattern. It does not stay the same."
+          },
+          {
+            "label": "It adds water molecules in different patterns, so it differs from other flakes",
+            "feedback": "Correct. The changing conditions cause the flake to grow with different patterns at different times, making each flake unique."
+          },
+          {
+            "label": "It shrinks as it falls",
+            "feedback": "Snowflakes usually grow as they collect more vapor, not shrink. Shrinking occurs only through sublimation in dry air, but that is not the general trend."
+          }
+        ],
+        "ok_title": "Growth on the way down",
+        "ok_line": "Falling snowflakes grow differently as conditions change.",
+        "ko_title": "Not unchanged or melted",
+        "ko_line": "Snowflakes change shape while falling, not stay the same.",
+        "exp_title": "Snowflake changes during fall",
+        "exp_text": "As a snowflake falls through the atmosphere, it encounters varying temperature and humidity. Water molecules are added to its core at different rates and patterns, so each flake ends up unique even though they follow similar growth rules."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What role do tiny particles like clay, dust, or biological matter play in snow formation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They color the snow",
+            "feedback": "Particles can sometimes be visible, but their main role is not to give color. They act as starting points for freezing."
+          },
+          {
+            "label": "They make the snow heavier",
+            "feedback": "Particles are extremely tiny and do not change snow's weight noticeably. Their role is in nucleation, not weight."
+          },
+          {
+            "label": "They prevent freezing",
+            "feedback": "On the contrary, these particles help freezing happen. In warmer clouds, they are needed as ice nuclei to start the crystal."
+          },
+          {
+            "label": "They act as ice nuclei for droplets to freeze around",
+            "feedback": "Correct. In warmer clouds, a particle such as clay or dust serves as a nucleus around which a droplet can freeze."
+          }
+        ],
+        "ok_title": "Nuclei for freezing",
+        "ok_line": "Particles give droplets something to freeze around.",
+        "ko_title": "Not coloring or weight",
+        "ko_line": "Particles start freezing, not change snow's look or weight.",
+        "exp_title": "Ice nuclei in snow formation",
+        "exp_text": "In clouds that are not extremely cold, a droplet needs a tiny particle inside it to act as a nucleus. Clay, desert dust, or biological particles can serve this role, helping the droplet freeze and begin growing into a snow crystal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens when a snowflake falls and lands on a mountain range's leeward side?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The air there is drier and warmer, so less snow falls",
+            "feedback": "Correct. As moist air rises up the windward side and loses its moisture, the descending air on the leeward side becomes drier and warmer, reducing snowfall there."
+          },
+          {
+            "label": "More snow falls because of the mountain wave",
+            "feedback": "Mountain waves enhance precipitation downwind, but the leeward side overall gets less, not more, because the air has lost its moisture."
+          },
+          {
+            "label": "The snow melts immediately on contact",
+            "feedback": "Melting depends on temperature, not the side of the mountain. The leeward side mainly gets less snow, not necessarily immediate melting."
+          },
+          {
+            "label": "The snow stays as it fell, with no change",
+            "feedback": "The air on the leeward side is different, and it affects whether snow falls at all. There is less precipitation there, so less snow accumulates."
+          }
+        ],
+        "ok_title": "Drier leeward side",
+        "ok_line": "Leeward slopes get less snow because air is drier.",
+        "ko_title": "Not more snow",
+        "ko_line": "The leeward side is drier and warmer, so less snow.",
+        "exp_title": "Mountain rain shadow",
+        "exp_text": "When moist air is forced up a mountain's windward side, it cools and releases its moisture as snow or rain. By the time the air descends on the leeward side, it has lost most of its moisture and is warmer and drier, so snowfall is reduced there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a snowflake made of from the moment it forms until it disappears?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Frozen crystalline water",
+            "feedback": "Yes, a snowflake is frozen crystalline water throughout its whole life, from formation in the air to melting or sublimating away."
+          },
+          {
+            "label": "Liquid water with air bubbles",
+            "feedback": "No, that describes rain droplets or foam, not snow. A snowflake is solid ice, not liquid water."
+          },
+          {
+            "label": "A mixture of ice and dust",
+            "feedback": "No, though dust can help a snowflake start forming, the snowflake itself is pure frozen water, not a mixture with dust inside."
+          },
+          {
+            "label": "Soft hail pellets",
+            "feedback": "No, soft hail pellets, called graupel, are a different type of precipitation. A snowflake is a single ice crystal or cluster of crystals, not a pellet."
+          }
+        ],
+        "ok_title": "Pure frozen water",
+        "ok_line": "A snowflake is frozen crystalline water at every stage of its life.",
+        "ko_title": "Not liquid or mixed",
+        "ko_line": "Snowflakes are solid ice, not liquid water or a mix with dust.",
+        "exp_title": "Snowflake composition",
+        "exp_text": "A snowflake consists of frozen crystalline water from the moment it forms in the cloud until it melts, slides away, or sublimates. It is never liquid water while it is a snowflake."
+      }
+    ]
+  }
+]

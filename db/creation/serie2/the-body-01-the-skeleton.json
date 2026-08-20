@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 248,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the scientific name for the group of bones that forms the framework of the body?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The cartilage",
+            "feedback": "Cartilage is a separate, flexible tissue that covers bone ends inside joints, not the overall bone framework."
+          },
+          {
+            "label": "The skeleton",
+            "feedback": "Correct — the skeleton is the complete set of bones that supports the body and gives it its shape."
+          },
+          {
+            "label": "The marrows",
+            "feedback": "Marrow is the soft inner material inside many bones, not the name for the whole bone framework."
+          },
+          {
+            "label": "The tendons",
+            "feedback": "Tendons are the cords that attach muscle to bone, not the bone framework itself."
+          }
+        ],
+        "ok_title": "Skeleton is the frame",
+        "ok_line": "The skeleton is the whole set of bones.",
+        "ko_title": "Not those tissues",
+        "ko_line": "Cartilage, marrow, and tendons are parts, not the whole frame.",
+        "exp_title": "The skeleton",
+        "exp_text": "The skeleton is the complete framework of bones in the body. It supports the body, protects organs, and gives the body its shape."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many separate bones make up an adult human skeleton?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "About 50",
+            "feedback": "That is far too few; even a child's skull alone has more than a dozen bones."
+          },
+          {
+            "label": "Exactly 100",
+            "feedback": "An adult has more than a hundred bones; many small bones in the hands and feet add up."
+          },
+          {
+            "label": "Approximately 300",
+            "feedback": "A newborn has more than 300 bones, but many fuse together as the person grows, leaving about 206 in an adult."
+          },
+          {
+            "label": "About 206",
+            "feedback": "Correct — an adult skeleton has roughly 206 bones; some babies are born with a few extra small ones that later fuse."
+          }
+        ],
+        "ok_title": "Around 206 bones",
+        "ok_line": "An adult typically has 206 bones.",
+        "ko_title": "Count is off",
+        "ko_line": "Adults have about 206, not 50, 100, or 300.",
+        "exp_title": "Adult bone count",
+        "exp_text": "An adult human skeleton contains about 206 bones. A newborn has more, but some bones fuse together during growth, reducing the total."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the long bone in the upper arm, between the shoulder and the elbow?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The humerus",
+            "feedback": "Correct — the humerus is the single long bone of the upper arm."
+          },
+          {
+            "label": "The femur",
+            "feedback": "The femur is the thigh bone in the leg, not the upper arm."
+          },
+          {
+            "label": "The radius",
+            "feedback": "The radius is one of the two bones in the forearm, on the thumb side."
+          },
+          {
+            "label": "The tibia",
+            "feedback": "The tibia is the shin bone in the lower leg, not in the arm."
+          }
+        ],
+        "ok_title": "Upper arm bone",
+        "ok_line": "The humerus runs from shoulder to elbow.",
+        "ko_title": "Wrong limb or part",
+        "ko_line": "Femur, radius, and tibia are bones of the leg or forearm.",
+        "exp_title": "The humerus",
+        "exp_text": "The humerus is the long bone of the upper arm. It connects at the shoulder and at the elbow, and it is the largest bone in the arm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the flat bone at the front of the chest, to which the ribs attach?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The clavicle",
+            "feedback": "The clavicle is the collarbone, which lies above the ribs and does not attach to them directly."
+          },
+          {
+            "label": "The scapula",
+            "feedback": "The scapula is the shoulder blade at the back, not the bone at the front of the chest."
+          },
+          {
+            "label": "The sternum",
+            "feedback": "Correct — the sternum, also called the breastbone, is the flat bone in the middle of the chest where ribs meet."
+          },
+          {
+            "label": "The vertebra",
+            "feedback": "A vertebra is one of the bones of the spine, not the front chest bone."
+          }
+        ],
+        "ok_title": "Breastbone",
+        "ok_line": "The sternum is the flat front chest bone.",
+        "ko_title": "Nearby, but not it",
+        "ko_line": "Clavicle, scapula, and vertebrae are different bones.",
+        "exp_title": "The sternum",
+        "exp_text": "The sternum is the flat bone at the front center of the chest. Most ribs connect to it, helping form the rib cage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the bones that make up the spine?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Ribs",
+            "feedback": "Ribs are the curved bones of the chest, not part of the spine."
+          },
+          {
+            "label": "Pelvis",
+            "feedback": "The pelvis is the large bone ring at the base of the trunk, not the spine itself."
+          },
+          {
+            "label": "Cranium",
+            "feedback": "The cranium is the part of the skull that encloses the brain, not the spine."
+          },
+          {
+            "label": "Vertebrae",
+            "feedback": "Correct — the spine is made of a stack of bones called vertebrae."
+          }
+        ],
+        "ok_title": "Spine bones",
+        "ok_line": "Each individual spine bone is a vertebra.",
+        "ko_title": "Wrong bones",
+        "ko_line": "Ribs, pelvis, and cranium are not spine bones.",
+        "exp_title": "The vertebrae",
+        "exp_text": "The spine is made of many small bones stacked one on top of another, and each of these bones is called a vertebra. Together they form the vertebral column."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the largest bone in the human body?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The humerus",
+            "feedback": "The humerus is the upper arm bone, but it is shorter and thinner than the thigh bone."
+          },
+          {
+            "label": "The femur",
+            "feedback": "Correct — the femur, the thigh bone, is the longest and heaviest bone in the body."
+          },
+          {
+            "label": "The tibia",
+            "feedback": "The tibia is a lower leg bone and is smaller than the femur above it."
+          },
+          {
+            "label": "The pelvis",
+            "feedback": "The pelvis is a large bone, but it is not a single long bone and is not the largest."
+          }
+        ],
+        "ok_title": "Thigh bone is largest",
+        "ok_line": "The femur is the body's biggest bone.",
+        "ko_title": "Not the largest",
+        "ko_line": "Humerus, tibia, and pelvis are all smaller than the femur.",
+        "exp_title": "The femur",
+        "exp_text": "The femur, located in the thigh, is the longest and heaviest bone in the human body. It supports the body's weight when standing and walking."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the dome-shaped bone that forms the top and sides of the head?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The jaw",
+            "feedback": "The jaw is the lower bone of the mouth, not the dome of the head."
+          },
+          {
+            "label": "The spine",
+            "feedback": "The spine runs down the back, not around the head."
+          },
+          {
+            "label": "The cranium",
+            "feedback": "Correct — the cranium is the curved part of the skull that protects the brain."
+          },
+          {
+            "label": "The cheekbone",
+            "feedback": "The cheekbone is a small bone of the face, not the whole upper skull."
+          }
+        ],
+        "ok_title": "Cranium of the skull",
+        "ok_line": "The cranium roofs the brain.",
+        "ko_title": "Wrong head part",
+        "ko_line": "Jaw, spine, and cheekbone are not the skull's dome.",
+        "exp_title": "The cranium",
+        "exp_text": "The cranium is the rounded upper part of the skull. It is made of several bones fused together, forming a hard dome that encloses and protects the brain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the small bones that make up the fingers and toes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Phalanges",
+            "feedback": "Correct — the bones in the fingers and toes are called phalanges."
+          },
+          {
+            "label": "Metacarpals",
+            "feedback": "Metacarpals are the bones of the palm of the hand, not the fingers themselves."
+          },
+          {
+            "label": "Tarsals",
+            "feedback": "Tarsals are the bones of the ankle and back of the foot, not the toes."
+          },
+          {
+            "label": "Carpals",
+            "feedback": "Carpals are the small bones of the wrist, not the fingers."
+          }
+        ],
+        "ok_title": "Finger and toe bones",
+        "ok_line": "Phalanges are the bones in fingers and toes.",
+        "ko_title": "Other hand/foot bones",
+        "ko_line": "Metacarpals, tarsals, and carpals are different bone groups.",
+        "exp_title": "The phalanges",
+        "exp_text": "Phalanges are the small bones that form the fingers and toes. Each finger except the thumb has three, and the thumb and each toe have two."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the skeleton protects the brain?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The rib cage",
+            "feedback": "The rib cage protects the heart and lungs, not the brain."
+          },
+          {
+            "label": "The pelvis",
+            "feedback": "The pelvis protects organs in the lower belly, not the brain."
+          },
+          {
+            "label": "The spine",
+            "feedback": "The spine protects the spinal cord, not the brain itself."
+          },
+          {
+            "label": "The skull",
+            "feedback": "Correct — the skull, especially the cranium, forms a hard shell around the brain."
+          }
+        ],
+        "ok_title": "Skull shields brain",
+        "ok_line": "The skull is the brain's protective case.",
+        "ko_title": "Not the brain guard",
+        "ko_line": "Rib cage, pelvis, and spine protect other structures.",
+        "exp_title": "The skull's role",
+        "exp_text": "The skull is the bony structure of the head. Its cranium part completely surrounds the brain, shielding it from blows and impacts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of joint is the elbow?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Ball-and-socket joint",
+            "feedback": "A ball-and-socket joint, like the shoulder or hip, allows movement in many directions; the elbow does not."
+          },
+          {
+            "label": "Hinge joint",
+            "feedback": "Correct — the elbow works like a hinge, allowing bending and straightening in one direction."
+          },
+          {
+            "label": "Pivot joint",
+            "feedback": "A pivot joint, like between the top two neck vertebrae, allows rotation, not the elbow's bending."
+          },
+          {
+            "label": "Gliding joint",
+            "feedback": "A gliding joint, like between wrist bones, allows bones to slide over each other, not hinge-like bending."
+          }
+        ],
+        "ok_title": "Elbow is a hinge",
+        "ok_line": "The elbow bends like a door hinge.",
+        "ko_title": "Wrong joint type",
+        "ko_line": "Ball-and-socket, pivot, and gliding joints move differently.",
+        "exp_title": "Hinge joints",
+        "exp_text": "The elbow is a hinge joint, meaning it opens and closes in a single plane, like a door hinge. This allows the arm to bend and straighten, but not to rotate sideways."
+      }
+    ]
+  }
+]

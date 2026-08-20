@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the force that the weight of air pushes on everything with?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Gravity",
+            "feedback": "Gravity is the force that pulls objects toward Earth, but the force exerted by the weight of air specifically is called air pressure."
+          },
+          {
+            "label": "Friction",
+            "feedback": "Friction is a force that opposes motion between surfaces, not the force from the weight of air."
+          },
+          {
+            "label": "Air pressure",
+            "feedback": "Correct. Air pressure is the force exerted by the weight of the air above, pushing on all surfaces."
+          },
+          {
+            "label": "Magnetism",
+            "feedback": "Magnetism is a force from magnets or moving electric charges, unrelated to the weight of air."
+          }
+        ],
+        "ok_title": "Force of air",
+        "ok_line": "Air pressure comes from the weight of air above pushing down.",
+        "ko_title": "Not gravity",
+        "ko_line": "Gravity pulls, but air pressure is the specific force from air's weight.",
+        "exp_title": "Air pressure defined",
+        "exp_text": "Air pressure is the force that the weight of the air above exerts on surfaces. It pushes in all directions because air molecules move and collide with everything."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which direction does air pressure push on an object?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Only downward",
+            "feedback": "Air pressure does push downward, but it also pushes sideways and upward because air molecules move in all directions."
+          },
+          {
+            "label": "Only upward",
+            "feedback": "Air pressure pushes upward too, but it is not limited to that direction; it acts from every side."
+          },
+          {
+            "label": "Only from the sides",
+            "feedback": "Sideways pressure exists, but air pressure also acts from above and below, so it is not only lateral."
+          },
+          {
+            "label": "In all directions",
+            "feedback": "Correct. Air molecules bombard surfaces from every side, so air pressure pushes equally in all directions."
+          }
+        ],
+        "ok_title": "Pushes everywhere",
+        "ok_line": "Air pressure acts from above, below, and all sides.",
+        "ko_title": "Not one way",
+        "ko_line": "Air pressure is not only downward, upward, or sideways.",
+        "exp_title": "Direction of pressure",
+        "exp_text": "Air pressure results from countless air molecules hitting a surface. Since molecules move randomly in all directions, the pressure they create acts in every direction at once."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does air pressure decrease as you go higher into the atmosphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the air gets warmer",
+            "feedback": "Temperature changes with altitude, but the main reason pressure drops is that there is less air above you to press down, not warmth."
+          },
+          {
+            "label": "Because there is less air above you",
+            "feedback": "Correct. Higher up, the column of air above you is shorter and less dense, so its weight and the pressure it causes are smaller."
+          },
+          {
+            "label": "Because the air becomes pure oxygen",
+            "feedback": "The composition of air stays roughly the same with altitude; it is the amount of air that decreases, not a change to pure oxygen."
+          },
+          {
+            "label": "Because gravity weakens with height",
+            "feedback": "Gravity weakens only slightly over the atmosphere's thickness, not enough to explain the large drop in pressure; less air above is the cause."
+          }
+        ],
+        "ok_title": "Less air above",
+        "ok_line": "Higher up, the weight of air above is smaller.",
+        "ko_title": "Not temperature",
+        "ko_line": "Pressure drops due to less air, not due to warmth.",
+        "exp_title": "Pressure and altitude",
+        "exp_text": "Air pressure is caused by the weight of the air above. Climbing higher means less air above you, so the pressure on your body decreases."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to air pressure when you go from a mountain top down to sea level?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It increases",
+            "feedback": "Correct. Descending adds more air above you, so the weight of air and the pressure it exerts become greater."
+          },
+          {
+            "label": "It decreases",
+            "feedback": "Pressure decreases when you go up, not down. Going down to sea level puts more air above you, so pressure rises."
+          },
+          {
+            "label": "It stays the same",
+            "feedback": "Pressure changes with altitude because the amount of air above changes; it does not stay constant."
+          },
+          {
+            "label": "It becomes zero",
+            "feedback": "Pressure never becomes zero at sea level; it is at its greatest there because the full atmosphere is above you."
+          }
+        ],
+        "ok_title": "Pressure rises",
+        "ok_line": "Coming down adds more air above, so pressure grows.",
+        "ko_title": "Not decrease",
+        "ko_line": "Going down means more air overhead, so pressure rises.",
+        "exp_title": "Descent and pressure",
+        "exp_text": "At sea level, the entire atmosphere sits above you, so the weight of air is maximum and air pressure is highest there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why doesn't the air pressure around you crush your body?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because air is very light",
+            "feedback": "Air is light, but it still has weight and exerts pressure; the reason you are not crushed is the balance from inside your body, not air's lightness."
+          },
+          {
+            "label": "Because air pressure is very weak",
+            "feedback": "Air pressure is actually strong, about 10 newtons per square centimetre at sea level; it does not crush you because pressure inside your body matches it."
+          },
+          {
+            "label": "Because your body pushes outward with equal pressure",
+            "feedback": "Correct. The air inside your lungs, ears, and other spaces pushes outward with the same pressure as the air outside, so the forces cancel out."
+          },
+          {
+            "label": "Because air pressure only acts on your skin",
+            "feedback": "Air pressure acts on your skin, but your body's internal fluids and gases also press outward, balancing the external pressure."
+          }
+        ],
+        "ok_title": "Balanced by inside",
+        "ok_line": "Internal air pushes outward equally, so no crushing occurs.",
+        "ko_title": "Not because weak",
+        "ko_line": "Air pressure is strong, but inside pressure matches it.",
+        "exp_title": "Internal balance",
+        "exp_text": "Your body contains air and fluids that press outward. This outward pressure equals the inward pressure of the atmosphere, so you feel no net force."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the 'pop' in your ears when you change altitude quickly?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The air inside your ears warming up",
+            "feedback": "Warming air might change pressure slightly, but the pop is about the difference between inside and outside air pressure, not temperature."
+          },
+          {
+            "label": "The air pressure inside your ears equalizing with the outside pressure",
+            "feedback": "Correct. When outside pressure changes, the air trapped in your ear has a different pressure; the pop is the small tube opening to let air move and balance it."
+          },
+          {
+            "label": "Your eardrum breaking",
+            "feedback": "Your eardrum does not break during normal altitude changes; the pop is the equalization of pressure through the Eustachian tube, not a rupture."
+          },
+          {
+            "label": "The air in your ears becoming pure oxygen",
+            "feedback": "The air in your ears stays a mixture like outside air; it is pressure changes, not gas composition changes, that cause the pop."
+          }
+        ],
+        "ok_title": "Pressure equalizing",
+        "ok_line": "The pop is air moving to balance pressures.",
+        "ko_title": "Not a break",
+        "ko_line": "The pop is equalization, not damage to the eardrum.",
+        "exp_title": "Ear pop mechanism",
+        "exp_text": "A tube connects your middle ear to your throat. When outside pressure changes, this tube opens briefly, letting air flow in or out until the pressure matches outside air pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the atmosphere has the highest air pressure?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The stratosphere",
+            "feedback": "The stratosphere is higher up, where there is less air above, so its pressure is lower than at ground level."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "The thermosphere is very high above Earth, with very little air, so air pressure there is extremely low."
+          },
+          {
+            "label": "The exosphere",
+            "feedback": "The exosphere is the outermost layer, where air is extremely thin, so pressure is nearly zero."
+          },
+          {
+            "label": "The troposphere, at sea level",
+            "feedback": "Correct. The troposphere is the lowest layer, and at sea level the full weight of the atmosphere above presses down, giving the highest pressure."
+          }
+        ],
+        "ok_title": "Bottom is strongest",
+        "ok_line": "Sea level has the most air above, so highest pressure.",
+        "ko_title": "Not high layers",
+        "ko_line": "Higher layers have less air above, so lower pressure.",
+        "exp_title": "Pressure maximum",
+        "exp_text": "Air pressure is greatest where the column of air above is thickest, which is at the bottom of the atmosphere, near sea level in the troposphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a balloon expand when you take it from sea level up a high mountain?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the outside air pressure decreases",
+            "feedback": "Correct. The gas inside the balloon still has the same pressure, but with less outside pressure pressing on it, the balloon expands until the inside pressure drops to match."
+          },
+          {
+            "label": "Because the air inside the balloon heats up",
+            "feedback": "Heating would expand the balloon, but rising to a mountain typically brings cooler air, not warmer, so that is not the reason."
+          },
+          {
+            "label": "Because the balloon's rubber stretches on its own",
+            "feedback": "Rubber does not stretch spontaneously; it is the imbalance between inside and outside pressure that forces it to expand."
+          },
+          {
+            "label": "Because there is more air inside the balloon",
+            "feedback": "The amount of air inside the balloon does not change as you climb; only the external pressure changes."
+          }
+        ],
+        "ok_title": "Less outside push",
+        "ok_line": "Lower outside pressure lets the balloon swell.",
+        "ko_title": "Not heating",
+        "ko_line": "Higher altitude is cooler, so heating is not the cause.",
+        "exp_title": "Balloon expansion",
+        "exp_text": "A balloon contains gas at a pressure close to the outside. When outside pressure drops, the inside gas pushes harder relative to outside, so the balloon expands until pressures balance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the 'pressure' in air pressure refer to?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The temperature of the air",
+            "feedback": "Temperature is a measure of how hot or cold the air is, not the force it exerts on surfaces."
+          },
+          {
+            "label": "The speed of the wind",
+            "feedback": "Wind speed is how fast air moves, while air pressure is the force from the weight of air, unrelated to motion."
+          },
+          {
+            "label": "The force the air exerts on a surface",
+            "feedback": "Correct. Air pressure is the amount of force air molecules push against a given area of surface."
+          },
+          {
+            "label": "The amount of water vapour in the air",
+            "feedback": "Water vapour content is called humidity, not pressure; pressure is about the force from the air's weight."
+          }
+        ],
+        "ok_title": "Force on surfaces",
+        "ok_line": "Air pressure is the push of air on a surface.",
+        "ko_title": "Not temperature",
+        "ko_line": "Pressure is a force, not a measure of heat.",
+        "exp_title": "Meaning of pressure",
+        "exp_text": "Air pressure measures how strongly air molecules push against a surface. It results from the weight of the air column above, and it acts on every surface it touches."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these places has the lowest air pressure?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "At sea level",
+            "feedback": "Sea level has the most air above it, so it has the highest pressure, not the lowest."
+          },
+          {
+            "label": "At the top of Mount Everest",
+            "feedback": "Correct. High on a mountain, there is much less air above you, so the weight of air and the pressure are very low compared to sea level."
+          },
+          {
+            "label": "In a valley between mountains",
+            "feedback": "A valley is lower than mountain tops, so more air lies above it, giving higher pressure than high altitudes."
+          },
+          {
+            "label": "On a beach at the coast",
+            "feedback": "A beach is near sea level, so it experiences high air pressure, similar to the sea level value."
+          }
+        ],
+        "ok_title": "Highest wins",
+        "ok_line": "The highest point has the least air above.",
+        "ko_title": "Not low places",
+        "ko_line": "Lower places have more air above, so higher pressure.",
+        "exp_title": "Pressure extremes",
+        "exp_text": "Air pressure depends on the height of the air column above. Mount Everest's top is very high, with a thin air column, so its pressure is far lower than at sea level."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the pole star?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A star that lies almost directly above the Earth's north pole",
+            "feedback": "Yes—Polaris sits nearly on the line of Earth's axis extended into space, so it barely moves as the planet turns."
+          },
+          {
+            "label": "A star that always shines brightest in the northern sky",
+            "feedback": "Actually, Polaris is not the brightest star; it is only moderately bright. Its value is its fixed position, not its brilliance."
+          },
+          {
+            "label": "A star that is exactly at the center of the Milky Way",
+            "feedback": "No, the pole star is not at the galaxy's center. It is a nearby star aligned with Earth's rotational axis, not the galaxy's hub."
+          },
+          {
+            "label": "A star that never rises or sets and is visible from the entire Earth",
+            "feedback": "Only northern observers see it always above the horizon; from the Southern Hemisphere it is completely hidden below the horizon."
+          }
+        ],
+        "ok_title": "Fixed north marker",
+        "ok_line": "Polaris marks true north because it sits on Earth's axis line.",
+        "ko_title": "Not the brightest",
+        "ko_line": "Polaris is handy, but it is not the sky's brightest star.",
+        "exp_title": "Earth's axis pointer",
+        "exp_text": "The pole star is the star that happens to lie almost exactly on the imaginary line of Earth's axis extended into space. As Earth rotates, this star appears to stay fixed, while all others circle around it. It marks true north."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does Polaris appear almost motionless during the night?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because it is the largest star in the sky",
+            "feedback": "Size has nothing to do with motion here—even huge stars appear to move across the sky. Polaris seems still because of its location, not its size."
+          },
+          {
+            "label": "Because it sits nearly on Earth's axis of rotation",
+            "feedback": "Correct—Earth spins around an axis that points almost straight at Polaris, so the star barely shifts from the viewer's perspective."
+          },
+          {
+            "label": "Because it is moving at the same speed as Earth's rotation",
+            "feedback": "Earth's rotation is what makes stars move; Polaris is not moving with Earth—it just happens to be on the rotation axis."
+          },
+          {
+            "label": "Because it is located at the edge of the visible universe",
+            "feedback": "Distance doesn't stop the apparent motion; even far stars sweep across the sky. Polaris is still because of its position on the axis, not its distance."
+          }
+        ],
+        "ok_title": "Axis alignment",
+        "ok_line": "Polaris is nearly on the Earth's rotation axis, so it stays put.",
+        "ko_title": "Not size or speed",
+        "ko_line": "Polaris's stillness comes from its position, not its properties.",
+        "exp_title": "Rotational pivot point",
+        "exp_text": "The Earth spins on its axis, and that axis, extended into space, points almost exactly at Polaris. As the planet turns, the star remains nearly in place while everything else circles it. This is why it is called the pole star."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How can you use Polaris to find true north?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "By waiting until it is directly overhead",
+            "feedback": "Polaris is only directly overhead at the North Pole, not generally. From most places it sits at some height above the horizon, still pointing north."
+          },
+          {
+            "label": "By measuring its brightness with a special device",
+            "feedback": "Brightness has nothing to do with direction. Polaris marks north by its position in the sky, not by how much light it gives."
+          },
+          {
+            "label": "By drawing an imaginary line from Polaris straight down to the horizon",
+            "feedback": "Correct—the point on the horizon directly below Polaris is true north. From there you can face north and orient yourself."
+          },
+          {
+            "label": "By following the arc of its path across the night sky",
+            "feedback": "Polaris does not trace an arc—it stays nearly fixed. The arc of other stars is not a guide to north."
+          }
+        ],
+        "ok_title": "Drop to horizon",
+        "ok_line": "Drop a line from Polaris to the horizon; that point is north.",
+        "ko_title": "Not by brightness",
+        "ko_line": "Brightness never tells direction; position is what matters.",
+        "exp_title": "Direction finding",
+        "exp_text": "Polaris sits almost directly above true north. To find north, look at Polaris and imagine a vertical line dropping from it to the horizon. The spot where that line meets the horizon is north."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the height of Polaris above the horizon tell you?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The time of night",
+            "feedback": "Time is read from the rotation of constellations, not from Polaris's height. Its height stays fixed all night."
+          },
+          {
+            "label": "The temperature of the air",
+            "feedback": "The star's position has nothing to do with weather or temperature. It is purely a geometric measure of your location."
+          },
+          {
+            "label": "The distance to the North Pole",
+            "feedback": "It tells your latitude, which determines your distance from the pole, but the direct reading is the latitude angle itself."
+          },
+          {
+            "label": "Your latitude on Earth",
+            "feedback": "Correct—the angle between the horizon and Polaris equals your latitude. At the equator it sits at 0°, at the North Pole at 90°."
+          }
+        ],
+        "ok_title": "Latitude measure",
+        "ok_line": "The angle up to Polaris equals your latitude on Earth.",
+        "ko_title": "Not time or weather",
+        "ko_line": "It is a geographic measure, not a clock or thermometer.",
+        "exp_title": "Angle equals latitude",
+        "exp_text": "If you measure the angle from the horizon up to Polaris, that number in degrees is your latitude. This works because Earth's axis points at Polaris, so the star's height directly reflects how far north you are."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is there no bright pole star in the southern sky?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because no bright star lies near the south celestial pole",
+            "feedback": "Correct—the southern axis point falls in a relatively dim patch of sky with no bright star close enough to serve as a handy marker."
+          },
+          {
+            "label": "Because the southern hemisphere blocks the view of all stars",
+            "feedback": "That is not true—the Southern Hemisphere has many visible stars, just no convenient bright one at its pole."
+          },
+          {
+            "label": "Because the south pole is not a fixed point in space",
+            "feedback": "Every pole is a fixed point in the sky, but the southern one simply lacks a bright star near it."
+          },
+          {
+            "label": "Because the Earth's axis does not point anywhere in the south",
+            "feedback": "It does—Earth's axis points in two opposite directions. The southern one exists, but no bright star sits there."
+          }
+        ],
+        "ok_title": "Dim southern pole",
+        "ok_line": "The south celestial pole is in a star-poor region of the sky.",
+        "ko_title": "Not a blocked view",
+        "ko_line": "Plenty of stars shine in the south; none are at the pole.",
+        "exp_title": "Lack of a marker",
+        "exp_text": "The Earth's axis points in both directions, but the southern extension points into a region of sky that lacks any noticeably bright star. So sailors and travelers in the south must rely on other constellations like the Southern Cross to estimate direction."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does Polaris disappear from view when you travel far south?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it gets too dim to see from far away",
+            "feedback": "The star's brightness doesn't change; it is the same star. It disappears because the Earth itself blocks it, not because it fades."
+          },
+          {
+            "label": "Because it moves to the other side of the sky",
+            "feedback": "Polaris sits at the north pole of the sky; it does not move. The horizon changes as you travel, hiding it."
+          },
+          {
+            "label": "Because the horizon gets in the way as you go south",
+            "feedback": "Correct—as you move south, the northern sky dips below the horizon. Polaris, being near the north point, eventually slips out of sight."
+          },
+          {
+            "label": "Because the southern hemisphere has too many clouds",
+            "feedback": "Clouds are unrelated to a star's visibility at different latitudes; the issue is purely the angle of the horizon."
+          }
+        ],
+        "ok_title": "Horizon hides it",
+        "ok_line": "Going south lowers the northern sky behind the horizon.",
+        "ko_title": "Unchanged star",
+        "ko_line": "Polaris is still there; the horizon blocks it from view.",
+        "exp_title": "Latitude visibility",
+        "exp_text": "From the equator, Polaris sits right on the northern horizon. Travel farther south, and the entire northern sky tilts down, pushing Polaris below the horizon entirely. It is still there, but Earth's curve blocks it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the point in the sky that Polaris marks?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The zenith",
+            "feedback": "The zenith is the point directly overhead a specific observer, which changes as you move. It is not a fixed sky location."
+          },
+          {
+            "label": "The north celestial pole",
+            "feedback": "Correct—this is the imaginary point on the sky directly above Earth's north pole, and Polaris lies very close to it."
+          },
+          {
+            "label": "The ecliptic",
+            "feedback": "The ecliptic is the Sun's apparent yearly path among the stars, not a fixed pole point."
+          },
+          {
+            "label": "The celestial equator",
+            "feedback": "That is an imaginary line halfway between the poles, not the point where Polaris sits."
+          }
+        ],
+        "ok_title": "Sky's north pole",
+        "ok_line": "Polaris marks the north celestial pole, a fixed point in the sky.",
+        "ko_title": "Not overhead or ecliptic",
+        "ko_line": "These terms describe different sky features, not the pole.",
+        "exp_title": "Celestial pole definition",
+        "exp_text": "The north celestial pole is the imaginary point on the sky where Earth's axis, extended outward, points. It is the pivot around which all northern stars appear to rotate. Polaris is close enough to this point to be called the pole star."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do stars close to Polaris move in small circles overnight, while stars far from it move in large ones?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because close stars are nearer to Earth than distant ones",
+            "feedback": "Distance to the star is not the cause; it is the star's angular distance from the pole that sets the circle size."
+          },
+          {
+            "label": "Because close stars are moving faster through space",
+            "feedback": "The size of the apparent circle comes from Earth's rotation, not from the star's own speed."
+          },
+          {
+            "label": "Because the smaller stars happen to be closer to the pole",
+            "feedback": "Star size matters not at all; a giant star near the pole still traces a tiny circle."
+          },
+          {
+            "label": "Because they are nearer to the rotation axis of the sky",
+            "feedback": "Correct—stars near the north celestial pole are near the pivot point, so they swing in tight arcs, while far stars swing widely."
+          }
+        ],
+        "ok_title": "Pole proximity effect",
+        "ok_line": "Stars near the pole have small circles; far ones have big arcs.",
+        "ko_title": "Not distance or speed",
+        "ko_line": "It is angular distance from the pole that matters.",
+        "exp_title": "Rotation geometry",
+        "exp_text": "Imagine a merry-go-round: a rider near the center moves a short path, one at the edge a long path. Similarly, stars near the rotation pole trace small circles, while stars near the celestial equator sweep large arcs across the sky every night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "If you face Polaris, which compass direction are you facing?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "True north",
+            "feedback": "Correct—Polaris marks true north, the geographic north pole direction, regardless of magnetic compass readings."
+          },
+          {
+            "label": "Magnetic north",
+            "feedback": "Magnetic north is a different point on Earth's surface, which shifts over time; Polaris points to the geographic pole, not the magnetic one."
+          },
+          {
+            "label": "North-east",
+            "feedback": "Polaris is directly north, not tilted toward either east or west."
+          },
+          {
+            "label": "West",
+            "feedback": "Facing west would put the North Star to your left; Polaris is straight ahead of you when you face north."
+          }
+        ],
+        "ok_title": "Geographic north",
+        "ok_line": "Facing Polaris means facing true north, the Earth's pole.",
+        "ko_title": "Not magnetic",
+        "ko_line": "Polaris aligns with the rotational pole, not the magnetic pole.",
+        "exp_title": "True direction",
+        "exp_text": "Polaris sits nearly on the north celestial pole, which is above the geographic North Pole. So when you face it, you are looking directly toward true north, the same direction as Earth's rotation axis points on the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why will Polaris not always be the pole star in the distant future?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because Polaris will eventually explode as a supernova",
+            "feedback": "Polaris is not massive enough to explode; it will end as a white dwarf. That is not the reason it will lose its pole position."
+          },
+          {
+            "label": "Because Earth's rotation will slow down to zero",
+            "feedback": "Earth might slow over billions of years, but it will never stop; the shift in the pole star comes from a wobble, not a stop."
+          },
+          {
+            "label": "Because Earth's axis slowly changes its pointing direction over thousands of years",
+            "feedback": "Correct—a slow wobble, called precession, makes the axis trace a circle in the sky, so the star nearest the pole changes over time."
+          },
+          {
+            "label": "Because Polaris will drift away from its spot due to its own motion",
+            "feedback": "Stars do move, but the main cause is the shifting of Earth's axis, which moves the pole point away from Polaris far faster than the star's own motion."
+          }
+        ],
+        "ok_title": "Axis wobble",
+        "ok_line": "Earth's axis slowly swings, changing which star is the pole star.",
+        "ko_title": "Not stellar explosion",
+        "ko_line": "Polaris is too small to explode; precession is the reason.",
+        "exp_title": "Precession of the axis",
+        "exp_text": "Earth's axis is not perfectly fixed; it slowly traces a circle, like a spinning top wobbling. This wobble takes about 26,000 years to complete. As it happens, the point where the axis points moves away from Polaris, so in thousands of years, other stars will take its place as the pole star."
+      }
+    ]
+  }
+]

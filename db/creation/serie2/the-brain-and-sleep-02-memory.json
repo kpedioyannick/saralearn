@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 251,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the process called when the brain turns a new experience into a lasting memory?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Recall",
+            "feedback": "Recall is bringing a stored memory back into mind, not the original act of storing it. The process of forming a memory is called encoding."
+          },
+          {
+            "label": "Forgetting",
+            "feedback": "Forgetting is the loss of a memory over time, the opposite of forming one. The process you're asking about is encoding."
+          },
+          {
+            "label": "Encoding",
+            "feedback": "Correct. Encoding is the brain's first step in memory, where a new experience is turned into a form it can store."
+          },
+          {
+            "label": "Retrieval",
+            "feedback": "Retrieval is pulling a memory out of storage when you need it, which happens later. The act of storing it in the first place is encoding."
+          }
+        ],
+        "ok_title": "Encoding defined",
+        "ok_line": "Encoding is the step where experience becomes a stored memory.",
+        "ko_title": "Memory steps mixed",
+        "ko_line": "Remember, encoding stores, retrieval recalls, and forgetting loses.",
+        "exp_title": "Memory's first step",
+        "exp_text": "Encoding is the process of turning what you perceive into a memory trace that the brain can store. It happens automatically for most events, but paying attention helps make the trace stronger. Without encoding, nothing can be remembered later because the experience never gets saved."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the brain does a new long-term memory first get formed before it is stored more permanently elsewhere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum mainly coordinates movement and balance, not the forming of new declarative memories. The structure that first holds a new long-term memory is the hippocampus."
+          },
+          {
+            "label": "The hippocampus",
+            "feedback": "Correct. The hippocampus, a curved structure deep in the brain, acts as a temporary holding area, and over time the memory moves to the cortex for permanent storage."
+          },
+          {
+            "label": "The brainstem",
+            "feedback": "The brainstem controls basic survival functions like breathing and heart rate, not memory formation. New long-term memories begin in the hippocampus."
+          },
+          {
+            "label": "The thalamus",
+            "feedback": "The thalamus relays sensory information, but it does not form new long-term memories. That job belongs to the hippocampus."
+          }
+        ],
+        "ok_title": "Hippocampus role",
+        "ok_line": "The hippocampus is the gateway for new long-term memories.",
+        "ko_title": "Brain structure mix-up",
+        "ko_line": "Hippocampus holds new memories; cortex stores them long-term.",
+        "exp_title": "Memory's temporary home",
+        "exp_text": "The hippocampus is a seahorse-shaped structure deep in the temporal lobe. It binds together the different parts of an experience—what you saw, heard, and felt—into a single memory. Over weeks and months, the memory gradually gets reorganised and stored across the cortex, so the hippocampus is not needed forever."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the very brief form of memory that holds sensory information for less than a second or two?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sensory memory",
+            "feedback": "Correct. Sensory memory is the ultra-brief snapshot of what your senses just picked up, lasting under a second or two before it fades unless you pay attention."
+          },
+          {
+            "label": "Working memory",
+            "feedback": "Working memory holds and manipulates information for several seconds while you use it, not the raw sensory snapshot. Sensory memory comes before it."
+          },
+          {
+            "label": "Short-term memory",
+            "feedback": "Short-term memory lasts longer, around 15 to 30 seconds, and holds a few items you're actively thinking about. The immediate sensory trace is sensory memory."
+          },
+          {
+            "label": "Long-term memory",
+            "feedback": "Long-term memory stores information for hours to years, not fractions of a second. The fleeting first impression is sensory memory."
+          }
+        ],
+        "ok_title": "Sensory snapshot",
+        "ok_line": "Sensory memory is the instant echo of what you sensed.",
+        "ko_title": "Memory durations confused",
+        "ko_line": "Sensory lasts under a second; short-term lasts seconds; long-term lasts long.",
+        "exp_title": "The briefest memory",
+        "exp_text": "Sensory memory is the first stage of memory, holding a raw, exact copy of what your eyes, ears, or skin just detected. It lasts only a fraction of a second to about two seconds. If you pay attention to it, the information can pass into working memory; otherwise it vanishes and is gone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "About how many separate items can a person typically hold in working memory at one time?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "One or two",
+            "feedback": "You can usually hold more than just one or two items. The common limit is around seven, though it can drop to four when the items are complex."
+          },
+          {
+            "label": "Exactly ten",
+            "feedback": "Ten is too many for most people. The usual capacity is around seven items, and even that can drop when the items are harder."
+          },
+          {
+            "label": "Twenty or more",
+            "feedback": "Twenty is far beyond the typical limit. Working memory usually holds about seven separate pieces of information at once, not twenty."
+          },
+          {
+            "label": "About seven",
+            "feedback": "Correct. The classic estimate is that working memory can hold around seven separate items, give or take two, before older items start dropping out."
+          }
+        ],
+        "ok_title": "Magical seven",
+        "ok_line": "Working memory holds roughly seven items at once.",
+        "ko_title": "Capacity misjudged",
+        "ko_line": "Seven is the average, not one, ten, or twenty.",
+        "exp_title": "Working memory limit",
+        "exp_text": "Working memory, sometimes called short-term memory, has a limited capacity of about seven chunks of information at a time. Chunking—grouping items together—can stretch this limit, but the basic count stays around seven. When you try to hold more, the oldest items tend to get pushed out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What term describes a long-term memory for a fact, such as knowing that Paris is the capital of France?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Procedural memory",
+            "feedback": "Procedural memory stores how to do things, like riding a bike, not factual knowledge. The memory for a fact is called declarative or semantic memory."
+          },
+          {
+            "label": "Episodic memory",
+            "feedback": "Episodic memory stores personal experiences with a time and place, like your last birthday. A general fact without a personal context is semantic memory."
+          },
+          {
+            "label": "Semantic memory",
+            "feedback": "Correct. Semantic memory stores general knowledge about the world—facts, meanings, and concepts—independent of when or where you learned them."
+          },
+          {
+            "label": "Sensory memory",
+            "feedback": "Sensory memory is the fleeting first impression of a stimulus, not a long-term fact. Facts are stored in semantic memory."
+          }
+        ],
+        "ok_title": "Fact memory named",
+        "ok_line": "Semantic memory holds facts like capital cities.",
+        "ko_title": "Memory types confused",
+        "ko_line": "Semantic is facts; episodic is events; procedural is skills.",
+        "exp_title": "Declarative memory",
+        "exp_text": "Semantic memory is a type of declarative memory that holds general facts and knowledge about the world, without any link to the specific time or place you learned them. It lets you answer 'What is the capital of France?' instantly. It contrasts with episodic memory, which stores your own past experiences, and procedural memory, which stores skills."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of long-term memory stores the sequence of steps needed to perform a skill like tying a shoelace?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Semantic memory",
+            "feedback": "Semantic memory holds facts, not the step-by-step know-how of a skill. The memory for how to do something is procedural memory."
+          },
+          {
+            "label": "Procedural memory",
+            "feedback": "Correct. Procedural memory stores the motor programs and sequences behind skills, and once learned, they run with little conscious effort."
+          },
+          {
+            "label": "Episodic memory",
+            "feedback": "Episodic memory stores specific personal events, not the general procedure for a skill. Tying a shoelace uses procedural memory."
+          },
+          {
+            "label": "Working memory",
+            "feedback": "Working memory is short-lived and holds information you're actively using; it does not store long-term skills. Procedural memory does that."
+          }
+        ],
+        "ok_title": "Skill memory named",
+        "ok_line": "Procedural memory stores how to do skills.",
+        "ko_title": "Memory types mixed",
+        "ko_line": "Skills go to procedural; facts to semantic; events to episodic.",
+        "exp_title": "Knowing how",
+        "exp_text": "Procedural memory is the part of long-term memory that holds the knowledge of how to do things—riding a bicycle, writing, or tying a shoelace. It is often implicit, meaning you don't need to consciously think about the steps. Once well learned, these procedures become automatic and are very hard to forget."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the memory of a personal event, like your first day at school?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Episodic memory",
+            "feedback": "Correct. Episodic memory stores personal experiences tied to a specific time and place, letting you mentally travel back to that moment."
+          },
+          {
+            "label": "Semantic memory",
+            "feedback": "Semantic memory holds general facts, not personal events with a time and place. Your first day at school is an episodic memory."
+          },
+          {
+            "label": "Procedural memory",
+            "feedback": "Procedural memory is for skills, not personal experiences. An event from your life is stored in episodic memory."
+          },
+          {
+            "label": "Sensory memory",
+            "feedback": "Sensory memory lasts under a second and is not part of long-term storage. A long-lasting personal memory is episodic."
+          }
+        ],
+        "ok_title": "Event memory named",
+        "ok_line": "Episodic memory stores your own past experiences.",
+        "ko_title": "Memory classification error",
+        "ko_line": "Events are episodic; facts are semantic; skills are procedural.",
+        "exp_title": "Personal history",
+        "exp_text": "Episodic memory is the type of long-term memory that stores specific events you have personally experienced, along with the context of when and where they happened. It gives you a sense of your own past, like a mental time travel. It is distinct from semantic memory (facts) and procedural memory (skills)."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What term describes a memory that you are not consciously aware of but that still influences your behaviour, such as a skill you perform automatically?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Explicit memory",
+            "feedback": "Explicit memory is a memory you can consciously recall and describe, like a fact or an event. A memory that works without awareness is implicit memory."
+          },
+          {
+            "label": "Declarative memory",
+            "feedback": "Declarative memory is another name for explicit memory, which you can state out loud. Automatic skills rely on implicit memory instead."
+          },
+          {
+            "label": "Semantic memory",
+            "feedback": "Semantic memory holds facts you can consciously retrieve, so it is explicit. The type that runs without awareness is implicit memory."
+          },
+          {
+            "label": "Implicit memory",
+            "feedback": "Correct. Implicit memory is a long-term memory that operates without conscious effort, such as the motor routines behind a well-practised skill."
+          }
+        ],
+        "ok_title": "Unconscious memory",
+        "ok_line": "Implicit memory works without you thinking about it.",
+        "ko_title": "Explicit vs implicit",
+        "ko_line": "Implicit is automatic; explicit is consciously recalled.",
+        "exp_title": "Hidden memory",
+        "exp_text": "Implicit memory is a type of long-term memory that influences your behaviour without your conscious awareness. It includes procedural memories like tying shoes and also conditioned responses, like feeling hungry at the smell of a favourite food. You don't have to try to bring an implicit memory to mind—it just affects how you act."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the gradual loss of access to a memory because it has not been used for a long time?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Interference",
+            "feedback": "Interference is when other information blocks a memory, not simply because time has passed. The loss from disuse is called forgetting."
+          },
+          {
+            "label": "Encoding failure",
+            "feedback": "Encoding failure means the memory was never properly formed in the first place. The gradual loss of an existing memory over time is forgetting."
+          },
+          {
+            "label": "Forgetting",
+            "feedback": "Correct. Forgetting is the inability to retrieve a memory that was once stored, often because the connection to it has weakened with lack of use."
+          },
+          {
+            "label": "Retrieval failure",
+            "feedback": "Retrieval failure is specifically when a memory is stored but cannot be accessed due to a poor cue, not the general decay from disuse. Forgetting covers the long-term loss."
+          }
+        ],
+        "ok_title": "Memory decay",
+        "ok_line": "Forgetting is the loss of access to a memory over time.",
+        "ko_title": "Memory failure terms",
+        "ko_line": "Forgetting is decay from disuse; interference is blocking; retrieval failure is a cue problem.",
+        "exp_title": "Why memories fade",
+        "exp_text": "Forgetting happens when the neural connections that hold a memory weaken because the memory is not rehearsed or used. Over time, the memory becomes harder to retrieve until it may seem gone entirely. This is why skills and facts you don't practise tend to fade, while those you use regularly stay strong."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is it called when a new memory interferes with your ability to recall an older, similar memory?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Retroactive facilitation",
+            "feedback": "Facilitation means helping memory, not blocking it. When new information blocks old, that is retroactive interference."
+          },
+          {
+            "label": "Retroactive interference",
+            "feedback": "Correct. Retroactive interference happens when newly learned information disrupts the recall of older, similar information."
+          },
+          {
+            "label": "Proactive interference",
+            "feedback": "Proactive interference is the opposite: older information disrupts the recall of newer information. Here, the new memory blocks the old one."
+          },
+          {
+            "label": "Memory decay",
+            "feedback": "Memory decay is the week of memory over time due to disuse, not the blocking effect of new memories. That blocking is called interference."
+          }
+        ],
+        "ok_title": "New blocks old",
+        "ok_line": "Retroactive interference has new memories block old ones.",
+        "ko_title": "Interference direction",
+        "ko_line": "Retro is new→old; proactive is old→new.",
+        "exp_title": "The other direction",
+        "exp_text": "Retroactive interference is a memory phenomenon where learning something new makes it harder to remember something you learned earlier. For example, if you learn a new locker combination, it can make you forget last year's combination. The opposite, proactive interference, is when an older memory blocks a newer one."
+      }
+    ]
+  }
+]

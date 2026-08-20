@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 240,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a galaxy?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A single enormous star like the Sun",
+            "feedback": "A star is a single object, not a system of many stars. A galaxy contains billions of stars."
+          },
+          {
+            "label": "A cloud of gas and dust floating in space",
+            "feedback": "Gas and dust are part of a galaxy, but they don't make one alone. A galaxy is a huge collection of stars and other matter held together by gravity."
+          },
+          {
+            "label": "A huge system of stars, gas, dust, and dark matter held together by gravity",
+            "feedback": "Correct. A galaxy is a vast gravitationally bound collection that includes stars, gas, dust, and dark matter."
+          },
+          {
+            "label": "A cluster of planets orbiting a central star",
+            "feedback": "That describes a solar system, not a galaxy. A galaxy is far larger and contains many star systems."
+          }
+        ],
+        "ok_title": "Galaxy defined",
+        "ok_line": "A galaxy is a huge gravitationally bound system of stars and other matter.",
+        "ko_title": "Not a single star",
+        "ko_line": "A galaxy is much more than one star or a cloud.",
+        "exp_title": "What a galaxy is",
+        "exp_text": "A galaxy is a massive, self-contained system of stars, gas, dust, and dark matter, all held together by gravity. It is far larger than any star or solar system, and can contain hundreds of billions of stars."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape does an elliptical galaxy have?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A flat disk with spiral arms",
+            "feedback": "That is the shape of a spiral galaxy, not an elliptical one. Elliptical galaxies are round or oval and lack spiral arms."
+          },
+          {
+            "label": "A smooth, rounded or oval shape",
+            "feedback": "Correct. Elliptical galaxies look like smooth, stretched spheres, with no flat disk or spiral structure."
+          },
+          {
+            "label": "An irregular, chaotic blob with no clear shape",
+            "feedback": "That describes an irregular galaxy. Elliptical galaxies have a regular, smooth rounded form."
+          },
+          {
+            "label": "A thin ring of stars surrounding an empty center",
+            "feedback": "Elliptical galaxies are filled with stars throughout, not hollow in the middle. They have no ring structure."
+          }
+        ],
+        "ok_title": "Elliptical shape",
+        "ok_line": "Elliptical galaxies are smooth, rounded ovals of stars.",
+        "ko_title": "Not spiral or irregular",
+        "ko_line": "Elliptical galaxies are not flat disks and not chaotic blobs.",
+        "exp_title": "Elliptical galaxy form",
+        "exp_text": "An elliptical galaxy is a smooth, rounded or oval collection of stars. Unlike spiral galaxies, it has no flat disk, no spiral arms, and no prominent gas or dust lanes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main visible component of a spiral galaxy that gives it its flat, disk-like appearance?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A thin, rotating disk of stars, gas, and dust",
+            "feedback": "Correct. The disk is the flat part where spiral arms sit, made of stars and interstellar material."
+          },
+          {
+            "label": "A spherical halo of old stars",
+            "feedback": "The halo is a round, diffuse region around the disk, not the flat part that defines the spiral shape."
+          },
+          {
+            "label": "A central bulge of tightly packed stars",
+            "feedback": "The bulge is the dense center, but it is round or oval, not flat like the disk."
+          },
+          {
+            "label": "A network of dark matter filaments",
+            "feedback": "Dark matter is invisible and not part of the visible disk. The disk is made of ordinary matter like stars and gas."
+          }
+        ],
+        "ok_title": "Disk makes spiral",
+        "ok_line": "The disk is the flat component that holds the spiral arms.",
+        "ko_title": "Not halo or bulge",
+        "ko_line": "Halo and bulge are round, not flat like the disk.",
+        "exp_title": "Spiral galaxy disk",
+        "exp_text": "A spiral galaxy looks flat because most of its stars, gas, and dust lie in a thin, rotating disk. The bulge is a round central concentration, and the halo is a sparse sphere around the whole galaxy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where is the Sun located within the Milky Way?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "At the exact center of the galaxy",
+            "feedback": "The Sun is far from the center. It orbits at a large distance, well out in the disk."
+          },
+          {
+            "label": "In the spherical halo, above the disk",
+            "feedback": "The Sun lies inside the flat disk, not in the surrounding halo. It travels around the center along with other disk stars."
+          },
+          {
+            "label": "At the very edge of the galaxy's disk",
+            "feedback": "The Sun is not at the outermost edge. It sits about halfway from the center to the edge."
+          },
+          {
+            "label": "Inside the disk, roughly halfway between the center and the outer edge",
+            "feedback": "Correct. The Sun is in the disk, about 26,000 to 28,000 light-years from the galactic center, which is roughly halfway out."
+          }
+        ],
+        "ok_title": "Sun's place in galaxy",
+        "ok_line": "The Sun lies within the disk, about halfway out from the center.",
+        "ko_title": "Not at center or edge",
+        "ko_line": "The Sun is neither central nor at the rim of the galaxy.",
+        "exp_title": "Sun's location in Milky Way",
+        "exp_text": "The Sun is located in the disk of the Milky Way, at a distance of roughly 27,000 light-years from the central bulge. That puts it about halfway between the center and the outer edge of the disk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do spiral arms of a galaxy contain that makes them appear bright?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only old, dim red stars",
+            "feedback": "Old red stars are spread everywhere in the disk, but they don't make arms stand out. Spiral arms are bright because of young, hot, luminous stars."
+          },
+          {
+            "label": "Dark clouds of gas that block light",
+            "feedback": "Those clouds make dark lanes, not bright arms. Spiral arms are bright because they contain glowing young stars and emission nebulae."
+          },
+          {
+            "label": "Young, hot, bright stars and glowing gas clouds",
+            "feedback": "Correct. Spiral arms are rich in young massive stars and bright nebulae, which shine strongly and trace the arm shape."
+          },
+          {
+            "label": "A dense cluster of stars with no gas",
+            "feedback": "Spiral arms have abundant gas and dust, not just stars. It's that material plus young stars that makes them glow."
+          }
+        ],
+        "ok_title": "Bright arms explained",
+        "ok_line": "Young hot stars and glowing gas light up the spiral arms.",
+        "ko_title": "Not old stars or dark gas",
+        "ko_line": "Old stars are dim and dark clouds block light, not create brightness.",
+        "exp_title": "Why spiral arms shine",
+        "exp_text": "Spiral arms look bright because they contain many young, massive, hot stars that shine blue and bright, along with glowing clouds of ionized gas. Those stars are short-lived, so they stay near where they formed, marking the arm pattern."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a dwarf galaxy?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A small galaxy with only a few million to a few billion stars",
+            "feedback": "Correct. Dwarf galaxies are much smaller than giants like the Milky Way, holding only a small fraction of the stars."
+          },
+          {
+            "label": "A galaxy that contains no stars at all",
+            "feedback": "Every galaxy contains stars; a dwarf galaxy has fewer stars than a normal one, but still many millions."
+          },
+          {
+            "label": "A galaxy that is completely empty of gas and dust",
+            "feedback": "Dwarf galaxies often contain gas and dust, especially irregular dwarfs. Their small size is about few stars, not absence of matter."
+          },
+          {
+            "label": "A galaxy that orbits a planet",
+            "feedback": "Galaxies do not orbit planets. Dwarf galaxies can orbit a larger galaxy, like the Magellanic Clouds orbit the Milky Way."
+          }
+        ],
+        "ok_title": "Dwarf galaxy size",
+        "ok_line": "A dwarf galaxy is a small galaxy with far fewer stars than a giant one.",
+        "ko_title": "Still a galaxy",
+        "ko_line": "Dwarf galaxies have stars and matter, just in small numbers.",
+        "exp_title": "Dwarf galaxy definition",
+        "exp_text": "A dwarf galaxy is a small galaxy, typically containing only a few million to a few billion stars, compared to the hundreds of billions in a large spiral like the Milky Way. Many are companions to larger galaxies and are held by their gravity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What holds a cluster of galaxies together?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The magnetic fields of the galaxies",
+            "feedback": "Magnetic fields are too weak and local to bind whole clusters. Gravity is the force that holds them together."
+          },
+          {
+            "label": "The pressure of light from stars",
+            "feedback": "Light pressure is negligible on cosmic scales and pushes outward, not inward. Gravity pulls galaxies together."
+          },
+          {
+            "label": "The rotation of a single giant central galaxy",
+            "feedback": "There is no single central galaxy that spins the cluster around. The whole cluster is bound by the mutual gravity of all its members."
+          },
+          {
+            "label": "The mutual gravitational attraction among all the member galaxies",
+            "feedback": "Correct. Each galaxy pulls on the others with gravity, and together they keep the cluster from flying apart."
+          }
+        ],
+        "ok_title": "Cluster binding force",
+        "ok_line": "Gravity between galaxies holds a cluster together.",
+        "ko_title": "Not magnetism or light",
+        "ko_line": "Weak forces like magnetism or light pressure cannot bind galaxies.",
+        "exp_title": "Galaxy cluster cohesion",
+        "exp_text": "A galaxy cluster stays together because every galaxy's gravity attracts every other one. The combined gravitational pull of all the galaxies, plus dark matter, prevents them from drifting away from one another."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of galaxy typically has the most ongoing star formation?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Elliptical galaxy",
+            "feedback": "Elliptical galaxies contain mostly old stars and very little gas, so they form almost no new stars."
+          },
+          {
+            "label": "Dwarf spheroidal galaxy",
+            "feedback": "These small, round galaxies are old and gas-poor, so they have essentially no new star formation."
+          },
+          {
+            "label": "Spiral galaxy",
+            "feedback": "Correct. Spiral galaxies have abundant gas and dust in their disks, which fuel active star formation in the spiral arms."
+          },
+          {
+            "label": "A galaxy with no gas or dust",
+            "feedback": "Without gas and dust, star formation cannot happen. Spiral galaxies have that material, which is why they form stars."
+          }
+        ],
+        "ok_title": "Star-forming galaxy type",
+        "ok_line": "Spiral galaxies, with their gas-rich disks, form stars actively.",
+        "ko_title": "Ellipticals are quiet",
+        "ko_line": "Elliptical galaxies have little gas, so star formation is rare.",
+        "exp_title": "Where stars form in galaxies",
+        "exp_text": "Spiral galaxies contain large amounts of cold gas and dust spread through their disks. That raw material collapses into new stars, especially along the bright spiral arms. Elliptical galaxies, by contrast, have used up most of their gas long ago and now form stars only very slowly or not at all."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do irregular galaxies look like?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Perfectly round balls of stars",
+            "feedback": "Round balls describe elliptical galaxies, not irregular ones. Irregular galaxies have no regular shape."
+          },
+          {
+            "label": "Patchy, asymmetric collections of stars with no clear disk or bulge",
+            "feedback": "Correct. Irregular galaxies are chaotic, lumpy, and lack any defined spiral or elliptical form."
+          },
+          {
+            "label": "Flat spirals with well-defined arms",
+            "feedback": "That is the shape of a spiral galaxy. Irregular galaxies have disrupted, messy structures."
+          },
+          {
+            "label": "Smooth ovals with a bright central nucleus",
+            "feedback": "Smooth ovals describe ellipticals. Irregular galaxies are not smooth or symmetrical."
+          }
+        ],
+        "ok_title": "Irregular appearance",
+        "ok_line": "Irregular galaxies are misshapen, clumpy, and asymmetric.",
+        "ko_title": "Not regular shapes",
+        "ko_line": "Irregular galaxies lack the symmetry of spirals or ellipticals.",
+        "exp_title": "Irregular galaxy structure",
+        "exp_text": "Irregular galaxies have no clear disk, bulge, or symmetrical outline. They look patchy and irregular, often with scattered regions of star formation. This shape is usually the result of gravitational interactions or collisions that disrupt a once-regular galaxy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the force that keeps stars in a galaxy from flying apart?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Gravity",
+            "feedback": "Correct. Gravity pulls every star and every bit of matter toward every other, binding the whole galaxy together."
+          },
+          {
+            "label": "Magnetism",
+            "feedback": "Magnetic forces are far too weak to hold galaxies. They only affect charged particles locally, not entire star systems."
+          },
+          {
+            "label": "Centrifugal force",
+            "feedback": "Centrifugal force pushes outward and would fling stars away, not hold them in. It's the balance against gravity that keeps orbits stable."
+          },
+          {
+            "label": "Electromagnetic radiation",
+            "feedback": "Light and other radiation carry energy but exert only tiny pressure. Gravity is the overwhelming force that binds galaxies."
+          }
+        ],
+        "ok_title": "Binding force",
+        "ok_line": "Gravity holds galaxies together.",
+        "ko_title": "Not weak forces",
+        "ko_line": "Magnetism and radiation cannot bind a galaxy.",
+        "exp_title": "Gravity binds stars",
+        "exp_text": "Gravity is the fundamental force that attracts all masses to each other. In a galaxy, the combined gravity of all the stars, gas, dust, and dark matter keeps the system together and makes every star orbit the common center of mass."
+      }
+    ]
+  }
+]

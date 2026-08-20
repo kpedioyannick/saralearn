@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 113,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why are cirrus clouds thin, wispy, and streaky rather than puffy and solid-looking?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They form from smoke particles that drift and thin quickly",
+            "feedback": "An ordinary cirrus cloud has no connection to smoke; it forms from ice crystals condensing directly out of very cold, thin air."
+          },
+          {
+            "label": "They form from ice crystals that fall and get drawn into streaks by strong high winds",
+            "feedback": "That falling and stretching is exactly what gives a cirrus cloud its combed, streaky look."
+          },
+          {
+            "label": "They are too far away to look solid",
+            "feedback": "Distance alone doesn't change how tightly packed a cloud's crystals actually are; a distant thunderstorm still looks solid, not wispy."
+          },
+          {
+            "label": "They contain far less water than a low grey cloud",
+            "feedback": "A cirrus cloud does hold relatively little water for its size, but that alone wouldn't explain the streaked, combed shape -- only its faintness."
+          }
+        ],
+        "ok_title": "Streaked by the wind that shapes them",
+        "ok_line": "Falling ice, stretched thin by the air it falls through.",
+        "ko_title": "Not distance, not smoke",
+        "ko_line": "Ask what a cirrus cloud is actually made of, high where it forms, and what happens to that material as it falls.",
+        "exp_title": "Ice, falling and stretched",
+        "exp_text": "Cirrus clouds form so high up that the air there is far below freezing, and any water vapour condensing at that height turns directly into small ice crystals rather than liquid droplets. Those crystals slowly fall, and because wind speeds at that altitude are often very strong and change with height, the falling trail of crystals gets drawn out sideways into a streak rather than staying in a compact clump. The combed, wispy look of a cirrus cloud is really a portrait of the wind it's falling through."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you often see the sun clearly through a layer of cirrus cloud but not through a layer of stratus?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Cirrus is white and stratus is grey, and grey blocks more light",
+            "feedback": "The colour you notice is a result of how much light gets through, not the cause of it; asking why stratus looks grey is really the same question."
+          },
+          {
+            "label": "Stratus clouds sit closer to the sun than cirrus does",
+            "feedback": "Every cloud in the sky is enormously closer to the ground than to the sun; the tiny difference in altitude between cloud types changes nothing about how much sunlight reaches you."
+          },
+          {
+            "label": "Cirrus has far fewer, more widely spaced ice crystals to block the light",
+            "feedback": "With relatively little material in the way, most of the light simply carries on through."
+          },
+          {
+            "label": "Stratus clouds absorb sunlight to power their own growth",
+            "feedback": "A cloud doesn't feed on light the way a plant does; light passing through or bouncing off it isn't being used for anything."
+          }
+        ],
+        "ok_title": "Sparse versus packed",
+        "ok_line": "Fewer crystals in the way means more light gets straight through.",
+        "ko_title": "Not colour as a cause, not distance",
+        "ko_line": "Ask how much material -- droplets or crystals -- actually stands between the sun and your eye in each case.",
+        "exp_title": "How much stands in the light's way",
+        "exp_text": "A cirrus cloud is thin and made of a relatively sparse scattering of ice crystals spread through a great depth of very cold, dry air, so much of the sunlight passing through it reaches you largely unblocked. A stratus cloud, by contrast, is a dense, low layer packed with many more liquid droplets close together, and light entering it is scattered back and forth between droplets so many times that very little of it makes it straight through. The sun looks pale and blurred through cirrus and disappears almost entirely under a thick stratus deck for exactly that difference in how crowded each cloud is."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What gives a fair-weather cumulus cloud its puffy, cauliflower-like top while its base stays flat?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The top is shaped by raindrops falling back through it",
+            "feedback": "A fair-weather cumulus rarely produces any rain at all; its rounded top has nothing to do with falling drops."
+          },
+          {
+            "label": "Wind carves the rounded shape into the cloud from outside",
+            "feedback": "Wind can shear and drag at a cloud's outline, but the bulging, cauliflower texture of a cumulus top comes from what's happening inside it, not from being carved by wind."
+          },
+          {
+            "label": "The flat base and the rounded top form by two completely separate processes",
+            "feedback": "Both come from the very same rising bubble of air -- the flat base is where it starts condensing, and the rounded top is that same condensation continuing turbulently upward."
+          },
+          {
+            "label": "A rising bubble of warm air pushes upward in turbulent surges above the flat condensation level",
+            "feedback": "Each surge of that bubbling updraft bulges the cloud's top a little further, giving it that heaped, rounded look."
+          }
+        ],
+        "ok_title": "One rising bubble, two shapes",
+        "ok_line": "Flat where it starts condensing, bulging with every surge above that.",
+        "ko_title": "Not wind, not falling rain",
+        "ko_line": "Both the flat base and the bulging top trace back to the same rising air. What is that air doing as it climbs?",
+        "exp_title": "A bubbling top on a flat floor",
+        "exp_text": "A cumulus cloud starts with a bubble of warm air rising from the sun-heated ground, and it only becomes visible once that bubble cools to its dew point -- the flat base marks that single height, shared by every bubble rising through similar air nearby. Above that base the bubble keeps climbing in uneven surges rather than as a smooth column, each surge shouldering a little further upward and outward before the next one follows. Those surges, piling on top of each other, are what give the cloud's crown its heaped, cauliflower-like texture."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a stratus cloud spread out as a flat, featureless grey sheet rather than as separate, puffy clumps?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Gentle, widespread lifting cools a broad layer of air evenly, with no strong local updrafts to bunch it",
+            "feedback": "Without any one spot rising faster than its surroundings, the condensation happens smoothly across the whole layer instead of in separate clumps."
+          },
+          {
+            "label": "It forms only over water, which is naturally flat",
+            "feedback": "Stratus forms over land just as often as over water; the flatness of the surface below has nothing to do with the cloud's own shape."
+          },
+          {
+            "label": "The droplets inside are too heavy to pile up into any shape",
+            "feedback": "Stratus droplets are ordinary tiny cloud droplets, no heavier than those in a puffy cumulus; weight isn't why the cloud lies flat."
+          },
+          {
+            "label": "It always forms at night when there's no sunlight to build shape into it",
+            "feedback": "Stratus can form and persist through the day just as easily as at night; darkness isn't a requirement for its shape."
+          }
+        ],
+        "ok_title": "Even lifting, even cloud",
+        "ok_line": "No one gust of updraft to pile the air into separate heaps.",
+        "ko_title": "Not water below, not weight, not darkness",
+        "ko_line": "Ask what kind of lifting -- one strong gust in one place, or a gentle rise everywhere -- produced this cloud.",
+        "exp_title": "Lifted evenly, spread evenly",
+        "exp_text": "A cumulus cloud is built by one bubble of air rising faster than the air around it, and that uneven rising is exactly what gives it separate, distinct clumps with clear sky between them. A stratus cloud instead forms when a broad layer of air is lifted or cooled gently and fairly evenly across a wide area, with nothing pushing any one patch upward faster than its neighbours. With the whole layer reaching its dew point together rather than in separate surges, the resulting cloud comes out as one continuous, featureless sheet."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you tell a high, wispy cloud apart from a low, grey one just by looking, without knowing anything about its altitude?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "High clouds always move faster across the sky than low ones",
+            "feedback": "Cloud speed depends on the wind at that particular height on that particular day; it isn't a reliable clue you could read from the ground on sight."
+          },
+          {
+            "label": "A high cloud made of ice looks thin and pale, while a low one made of denser droplets looks duller and more textured",
+            "feedback": "That difference in transparency and texture is a direct sign of how much water is packed into the cloud and how far the light has to travel through it."
+          },
+          {
+            "label": "High clouds are always whiter, low clouds always darker grey",
+            "feedback": "A thick, low cloud can look bright white in full sun, and a thin, hazy cirrus can look faintly grey at dusk; colour on its own isn't a reliable sign of height."
+          },
+          {
+            "label": "You can only tell by measuring the cloud's exact temperature",
+            "feedback": "Nobody standing on the ground can measure a cloud's temperature directly; its appearance alone gives you all the clues you need."
+          }
+        ],
+        "ok_title": "Read it from the light passing through",
+        "ok_line": "Thin and pale means little in the way; dull and textured means plenty.",
+        "ko_title": "Not speed, not simple colour",
+        "ko_line": "Ask how much material is likely packed into the cloud, and what that would do to the light coming through it.",
+        "exp_title": "Texture as a clue to height",
+        "exp_text": "A high cloud, made of sparse ice crystals scattered through a great depth of thin, dry air, lets most light pass through and shows almost no internal texture -- it looks pale, thin, and faintly streaked. A low cloud is packed with far more liquid droplets much closer together, so light scatters repeatedly inside it, giving it a denser, greyer, more textured look with visible lumps and shadows. Reading that difference in transparency and texture is often enough to guess roughly how high a cloud sits, without needing to know anything else about it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do lens-shaped (lenticular) clouds often look as if they're standing still near a mountain peak, even in a strong wind?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The wind is actually much weaker right at the mountaintop",
+            "feedback": "Wind at a mountain's summit is often stronger than at the surrounding lowlands, not weaker; the still appearance has another cause."
+          },
+          {
+            "label": "The cloud is anchored to the rock by gravity",
+            "feedback": "Gravity pulls a cloud's droplets downward the same way anywhere else; it has no special grip on a mountaintop that would anchor a cloud in place."
+          },
+          {
+            "label": "Air rises over the peak and condenses at the crest of a standing wave, then evaporates again on the far side",
+            "feedback": "New air keeps moving through that spot, condensing at the crest and dispersing beyond it, which is why the cloud's outline stays put while the wind keeps blowing through it."
+          },
+          {
+            "label": "It's actually many separate small clouds that happen to line up",
+            "feedback": "It's a single, continuous cloud shape, held in one place not by any lineup of separate clouds but by air condensing and evaporating repeatedly in that same spot."
+          }
+        ],
+        "ok_title": "Standing wave, moving air",
+        "ok_line": "The cloud looks fixed because it keeps reforming in the same place, not because nothing moves through it.",
+        "ko_title": "Not weaker wind, not gravity, not a lineup",
+        "ko_line": "Ask what happens to air forced up and over a mountain, and where it stops being saturated again.",
+        "exp_title": "A cloud that reforms where it stands",
+        "exp_text": "Wind flowing over a mountain gets thrown into a wave, rising over the peak and dipping down again on the far side, sometimes repeating that wave pattern further downwind. Where the crest of that wave lifts air high enough to cool past its dew point, a cloud condenses; once the same air descends past the crest and warms again, its droplets evaporate and the cloud vanishes there. Because that crest sits in one fixed place relative to the mountain, the cloud appears anchored even though the air condensing and evaporating within it is rushing straight through."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a mackerel sky -- a layer of small, closely packed cloud patches separated by clear gaps -- look rippled rather than smooth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It's caused by many separate storms lined up in a row",
+            "feedback": "A mackerel sky isn't a row of storms at all; it's a single cloud layer broken up by turbulence within itself."
+          },
+          {
+            "label": "The clouds are reflecting the ripples of the ocean below",
+            "feedback": "The pattern appears over land just as often as over the sea, and a cloud's texture has no connection to whatever surface happens to lie beneath it."
+          },
+          {
+            "label": "Each patch is a separate cloud that formed independently of the others",
+            "feedback": "The patches form together, broken apart from what began as one continuous mid-level layer, rather than springing up as separate clouds."
+          },
+          {
+            "label": "Turbulence within one mid-level cloud layer breaks it into small, rippled clumps with gaps between",
+            "feedback": "That churn inside the layer is exactly what pulls a single sheet of cloud apart into the repeating, wave-like pattern you see."
+          }
+        ],
+        "ok_title": "One layer, broken by its own turbulence",
+        "ok_line": "The ripples are the layer folding on itself, not separate clouds lining up.",
+        "ko_title": "Not storms, not reflection, not independent patches",
+        "ko_line": "Ask what could take one continuous sheet of mid-level cloud and pull it apart into a repeating pattern.",
+        "exp_title": "A layer torn into ripples",
+        "exp_text": "A mackerel sky begins as a single, roughly continuous layer of altocumulus cloud sitting at a mid-level height. Turbulence within that layer -- small rising and sinking currents of air moving at a similar scale across the whole sheet -- pulls it apart unevenly, thickening the cloud in some patches and clearing it in the gaps between. The result is a sky covered in small, evenly spaced clumps, all born from the same layer being folded by the same kind of churn."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are the very highest clouds in the sky always made of ice rather than liquid water droplets?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The air at that altitude is far below freezing, so condensing water turns straight to ice",
+            "feedback": "At those temperatures there's no window for liquid to exist first; vapour condenses directly into solid ice crystals."
+          },
+          {
+            "label": "Ice crystals are lighter than water droplets, so only ice can float that high",
+            "feedback": "A cloud's altitude isn't decided by what the droplets or crystals inside it weigh; it's decided by where the air itself is cool enough to cause condensation."
+          },
+          {
+            "label": "There's no liquid water available at that height to begin with",
+            "feedback": "The water that ends up as ice at high altitude arrives there as vapour, the same as it would for any lower cloud; the difference is what temperature it meets once it condenses."
+          },
+          {
+            "label": "Ice reflects sunlight better, which somehow keeps it aloft",
+            "feedback": "How well something reflects light has no bearing on whether it stays suspended in the air; that's governed by size and air resistance, not brightness."
+          }
+        ],
+        "ok_title": "Too cold for liquid to exist",
+        "ok_line": "Condensing at that temperature skips liquid altogether.",
+        "ko_title": "Not weight, not a shortage of water, not reflectivity",
+        "ko_line": "Ask what temperature the air actually is at that height, and what happens to condensing water at that temperature.",
+        "exp_title": "Cold enough to skip the liquid stage",
+        "exp_text": "At the great heights where the highest clouds form, air temperatures sit far below freezing, often by a wide margin. Water vapour cooling to its dew point at that temperature has no opportunity to exist as a liquid even briefly; it condenses directly into tiny solid ice crystals instead. Every cloud at that altitude is built from ice for the simple reason that the air up there is never warm enough to allow anything else."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a ring of light -- a halo -- sometimes appear around the sun or moon when a veil of cirrostratus cloud is overhead?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Sunlight is reflecting off the flat, mirror-like base of the cloud",
+            "feedback": "A cloud's base isn't smooth or mirror-like in this way; the ring comes from light passing through the cloud, not bouncing off its underside."
+          },
+          {
+            "label": "Light bends at a consistent angle passing through the cloud's hexagonal ice crystals",
+            "feedback": "Because so many crystals share roughly the same shape, they all bend the light by about the same amount, and that consistency is what draws a distinct ring rather than a blur."
+          },
+          {
+            "label": "The moisture in the cloud briefly magnifies the sun or moon",
+            "feedback": "Nothing about a cloud's moisture magnifies a light source; what changes is the direction light bends as it passes through, not its apparent size."
+          },
+          {
+            "label": "It only happens when the cloud is unusually thick",
+            "feedback": "A halo actually needs a thin, even veil to show clearly; a thick cloud simply blocks the light instead of letting a clean ring of it through."
+          }
+        ],
+        "ok_title": "Same shape, same bend, one ring",
+        "ok_line": "Countless crystals, all bending the light the same amount.",
+        "ko_title": "Not reflection, not magnification, not thickness",
+        "ko_line": "Ask what shape the ice crystals in this particular cloud tend to share, and what a shared shape does to light passing through many of them.",
+        "exp_title": "A ring drawn by matching angles",
+        "exp_text": "Cirrostratus is made of ice crystals that commonly form as small, six-sided hexagonal shapes, and a great many of them are scattered through the thin cloud layer between you and the sun or moon. Light passing through each crystal bends by an amount that depends on the angle it enters at relative to those six flat faces, and for crystals oriented every which way, one particular bending angle turns out to be far more common than any other. Light arriving at your eye having bent by that common angle traces out a ring at a fixed distance from the sun or moon, while light bent by other angles is scattered too thinly to stand out."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do clouds so often appear in distinct layers at very different heights, instead of filling the whole sky from top to bottom?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Clouds repel each other and spread apart to stay separate",
+            "feedback": "Cloud droplets and crystals have no such repulsion; nothing about one cloud pushes another cloud away from it."
+          },
+          {
+            "label": "Each layer forms on a different day and simply hasn't dispersed yet",
+            "feedback": "Layers at very different heights can and do form on the very same day, sometimes within the same hour, driven by conditions at each height rather than by how long ago they formed."
+          },
+          {
+            "label": "Each layer of the atmosphere has its own temperature and moisture, so saturation happens independently at each height",
+            "feedback": "A cloud forms wherever local air happens to cool to its dew point, and that can occur at several separate heights at once without any connection between them."
+          },
+          {
+            "label": "Wind only blows in narrow bands, keeping each cloud confined to one height",
+            "feedback": "Wind direction and strength do change with height, but that shapes how a cloud moves once it exists, not the height at which it forms in the first place."
+          }
+        ],
+        "ok_title": "Independent heights, independent clouds",
+        "ok_line": "Saturation at one height has nothing to do with saturation at another.",
+        "ko_title": "Not repulsion, not different days, not wind bands",
+        "ko_line": "Ask what has to be true of the air at a given height, on its own, for a cloud to form there.",
+        "exp_title": "Wherever the air happens to saturate",
+        "exp_text": "Temperature and moisture both vary with height through the atmosphere, sometimes quite sharply, so the exact conditions needed for condensation -- air cooled to its dew point -- can be met at one height and not at another just above or below it. A cloud forms at whichever height that threshold happens to be crossed, entirely independent of what the air is doing many hundreds of metres higher or lower. On a day when several different heights each happen to reach saturation, several separate cloud layers appear at once, stacked with clear air between them."
+      }
+    ]
+  }
+]

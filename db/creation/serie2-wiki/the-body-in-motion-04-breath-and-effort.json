@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the medical term for shortness of breath?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dyspnea",
+            "feedback": "Correct. Dyspnea is the medical term used for shortness of breath."
+          },
+          {
+            "label": "Tachycardia",
+            "feedback": "Tachycardia refers to a fast heart rate, not a breathing problem."
+          },
+          {
+            "label": "Edema",
+            "feedback": "Edema is swelling caused by fluid retention, not shortness of breath."
+          },
+          {
+            "label": "Hypoxia",
+            "feedback": "Hypoxia means low oxygen in the body's tissues, which is a consequence, not the term for the symptom itself."
+          }
+        ],
+        "ok_title": "Correct term",
+        "ok_line": "Dyspnea is the medical word for shortness of breath.",
+        "ko_title": "Not that term",
+        "ko_line": "Check the medical vocabulary for breathing difficulties.",
+        "exp_title": "Medical naming",
+        "exp_text": "Dyspnea is the specific medical term that describes the uncomfortable feeling of not being able to breathe well enough. It is the standard word used by doctors and in medical literature."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is listed as a distinct sensation of dyspnea?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Blurred vision",
+            "feedback": "Blurred vision can occur with some conditions that cause dyspnea, like anemia, but it is not one of the distinct sensations of dyspnea itself."
+          },
+          {
+            "label": "Ringing in the ears",
+            "feedback": "Ringing in the ears is not mentioned as a sensation of dyspnea; the distinct sensations are about the breathing discomfort itself."
+          },
+          {
+            "label": "Chest tightness",
+            "feedback": "Correct. Chest tightness or chest pain is one of the distinct sensations listed for dyspnea."
+          },
+          {
+            "label": "Numbness in the head",
+            "feedback": "Numbness in the head was reported by some patients with anemia-related dyspnea, but it is not a distinct sensation of dyspnea itself."
+          }
+        ],
+        "ok_title": "Sensation named",
+        "ok_line": "Chest tightness is one of the distinct sensations of dyspnea.",
+        "ko_title": "Sensation misplaced",
+        "ko_line": "Those are symptoms of other conditions, not core dyspnea sensations.",
+        "exp_title": "Defining sensations",
+        "exp_text": "The sensations that define dyspnea include the feeling of effort or work to breathe, chest tightness or pain, and 'air hunger', which is the feeling of not getting enough oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the tripod position often assumed to be a sign of?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A panic attack",
+            "feedback": "Panic attacks can cause dyspnea, but the tripod position is specifically mentioned as a sign of dyspnea in general, not a panic attack."
+          },
+          {
+            "label": "Asthma",
+            "feedback": "Asthma is a cause of dyspnea, but the tripod position is a general sign of severe breathing difficulty, not specific to asthma."
+          },
+          {
+            "label": "Pneumonia",
+            "feedback": "Pneumonia causes dyspnea, but the tripod position is not specifically a sign of pneumonia."
+          },
+          {
+            "label": "Shortness of breath",
+            "feedback": "Correct. The tripod position is often assumed to be a sign of shortness of breath."
+          }
+        ],
+        "ok_title": "Sign of dyspnea",
+        "ok_line": "The tripod position is often a sign of shortness of breath.",
+        "ko_title": "Cause vs. sign",
+        "ko_line": "Those are causes of dyspnea, not the condition the tripod position indicates.",
+        "exp_title": "Physical sign",
+        "exp_text": "The tripod position, where a person leans forward with hands on knees or another support, is a physical sign commonly seen in people experiencing shortness of breath."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between acute and chronic shortness of breath?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Acute is mild, chronic is severe",
+            "feedback": "Severity is not what distinguishes acute from chronic; it's about how quickly it starts and how long it lasts."
+          },
+          {
+            "label": "Acute is caused by lung problems, chronic by heart problems",
+            "feedback": "Both types can have various causes; the distinction is in timing and duration, not the organ involved."
+          },
+          {
+            "label": "Acute starts suddenly, chronic lasts a long time",
+            "feedback": "Correct. Acute shortness of breath comes on suddenly, while chronic shortness of breath is long-lasting."
+          },
+          {
+            "label": "Acute happens during rest, chronic during exercise",
+            "feedback": "Both can occur at rest or with exertion; the key difference is the onset and duration."
+          }
+        ],
+        "ok_title": "Timing difference",
+        "ok_line": "Acute is sudden, chronic is persistent.",
+        "ko_title": "Not the difference",
+        "ko_line": "Acute and chronic refer to time, not intensity or cause.",
+        "exp_title": null,
+        "exp_text": "Acute shortness of breath has a sudden onset, often linked to rapid changes like an embolism or lung collapse. Chronic shortness of breath develops gradually and persists over time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a common symptom of anemia that involves breathing?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Shortness of breath with exertion",
+            "feedback": "Correct. Anemia that develops gradually often presents with shortness of breath during physical effort."
+          },
+          {
+            "label": "Wheezing",
+            "feedback": "Wheezing is more commonly associated with conditions like asthma, not anemia."
+          },
+          {
+            "label": "Chest tightness",
+            "feedback": "Chest tightness is a sensation of dyspnea, but it is not the breathing symptom specifically linked to anemia."
+          },
+          {
+            "label": "Rapid breathing at rest",
+            "feedback": "Anemia causes dyspnea with exertion, not necessarily rapid breathing at rest."
+          }
+        ],
+        "ok_title": "Anemia's breath sign",
+        "ok_line": "Exertional dyspnea is common in anemia.",
+        "ko_title": "Other conditions' signs",
+        "ko_line": "Wheezing and chest tightness point to different causes.",
+        "exp_title": null,
+        "exp_text": "Anemia, especially when it develops slowly, often causes shortness of breath during exertion, along with fatigue, weakness, and a fast heart rate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which sensation is listed as one of the distinct feelings a person can have during dyspnea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Air hunger",
+            "feedback": "Correct. Air hunger is one of the distinct sensations of dyspnea, described as the feeling of not getting enough oxygen."
+          },
+          {
+            "label": "Burning in the lungs",
+            "feedback": "A burning sensation in the lungs is not one of the distinct sensations listed for dyspnea. The listed ones include effort, chest tightness, and air hunger."
+          },
+          {
+            "label": "Dizziness",
+            "feedback": "Dizziness is not listed as one of the distinct sensations of dyspnea. The distinct sensations are effort, chest tightness, and air hunger."
+          },
+          {
+            "label": "Ringing in the ears",
+            "feedback": "Ringing in the ears is not mentioned as a sensation of dyspnea. The distinct sensations are effort/work to breathe, chest tightness, and air hunger."
+          }
+        ],
+        "ok_title": "Sensations listed",
+        "ok_line": "Air hunger is one of the distinct sensations of dyspnea.",
+        "ko_title": "Not a listed sensation",
+        "ko_line": "The distinct sensations are effort, chest tightness, and air hunger, not the options given.",
+        "exp_title": "What dyspnea feels like",
+        "exp_text": "Dyspnea is not a single uniform feeling. It can include distinct sensations like the effort or work needed to breathe, a feeling of chest tightness, and air hunger, which is the sense that you are not getting enough oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When is shortness of breath considered a normal symptom rather than a sign of disease?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "When it happens while resting",
+            "feedback": "Shortness of breath while resting is considered pathological, not normal. It becomes a normal symptom during heavy physical exertion."
+          },
+          {
+            "label": "When it happens during light exertion",
+            "feedback": "Shortness of breath during light exertion is considered pathological. It is a normal symptom only during heavy physical exertion."
+          },
+          {
+            "label": "When it occurs in unexpected situations",
+            "feedback": "Occurring in unexpected situations is a marker of pathological dyspnea. Normal dyspnea happens during heavy physical exertion, which is expected."
+          },
+          {
+            "label": "When it follows heavy physical exertion",
+            "feedback": "Correct. Shortness of breath is a normal response to heavy physical exertion. It becomes a concern only when it appears at rest, during light effort, or in unexpected situations."
+          }
+        ],
+        "ok_title": "Normal dyspnea",
+        "ok_line": "Heavy exertion normally causes shortness of breath.",
+        "ko_title": "Pathological situations",
+        "ko_line": "Rest, light exertion, and unexpected situations make dyspnea abnormal.",
+        "exp_title": "When dyspnea is normal",
+        "exp_text": "Shortness of breath is a normal symptom of heavy physical exertion. The body increases breathing to supply working muscles with oxygen, so feeling breathless after hard effort is expected and not a sign of illness."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What body position is often assumed by a person experiencing shortness of breath?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lying flat on the back",
+            "feedback": "Lying flat can actually worsen shortness of breath in many conditions; it is not the typical position. The tripod position is the one often assumed."
+          },
+          {
+            "label": "The tripod position",
+            "feedback": "Correct. The tripod position, where a person leans forward while supporting themselves on their arms or knees, is often assumed as a sign of shortness of breath."
+          },
+          {
+            "label": "The fetal position",
+            "feedback": "The fetal position, curling up on the side, is not the position associated with shortness of breath. The tripod position is the one often assumed."
+          },
+          {
+            "label": "Standing fully upright with arms at the sides",
+            "feedback": "Standing fully upright with arms at the sides is not the position associated with shortness of breath. The tripod position, leaning forward with support, is typical."
+          }
+        ],
+        "ok_title": "Tripod position",
+        "ok_line": "The tripod position is often a sign of dyspnea.",
+        "ko_title": "Not the typical posture",
+        "ko_line": "People with shortness of breath often lean forward in the tripod position.",
+        "exp_title": "A visible sign",
+        "exp_text": "A person struggling to breathe often assumes the tripod position: leaning forward with their hands or arms braced on their knees or another support. This posture helps the accessory muscles of the chest and neck work more effectively."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is listed as a common cause of shortness of breath?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Broken bone",
+            "feedback": "A broken bone is not listed as a common cause of shortness of breath. Asthma, pneumonia, heart failure, and other conditions are the common causes."
+          },
+          {
+            "label": "Skin rash",
+            "feedback": "A skin rash is not listed as a cause of shortness of breath. Common causes include asthma, pneumonia, and heart conditions."
+          },
+          {
+            "label": "Asthma",
+            "feedback": "Correct. Asthma is one of the most common causes of shortness of breath, frequently leading people to the emergency room."
+          },
+          {
+            "label": "Ear infection",
+            "feedback": "An ear infection is not listed as a cause of shortness of breath. Common causes are respiratory and cardiac conditions like asthma and heart failure."
+          }
+        ],
+        "ok_title": "A common cause",
+        "ok_line": "Asthma is a leading cause of shortness of breath.",
+        "ko_title": "Unrelated conditions",
+        "ko_line": "Asthma and other respiratory or cardiac conditions are common causes, not those options.",
+        "exp_title": "Sources of dyspnea",
+        "exp_text": "Shortness of breath often comes from disorders of the respiratory or cardiac systems. Asthma is a very common cause, along with pneumonia, heart failure, and chronic obstructive pulmonary disease."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the intensity or burden of dyspnea help healthcare providers evaluate?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The severity of the breathing discomfort",
+            "feedback": "Correct. The American Thoracic Society recommends evaluating dyspnea by assessing the intensity of its distinct sensations, the degree of distress, and its impact on daily activities."
+          },
+          {
+            "label": "The exact cause of the shortness of breath",
+            "feedback": "Evaluating intensity and burden helps assess the experience of dyspnea, not directly identify its cause. The cause is determined through other diagnostic means."
+          },
+          {
+            "label": "The patient's age",
+            "feedback": "Age is not what the intensity or burden of dyspnea evaluates. It assesses the severity of the breathing discomfort and its impact on daily life."
+          },
+          {
+            "label": "The patient's lung capacity",
+            "feedback": "Lung capacity is a measurement of breathing volume, not what the intensity or burden of dyspnea refers to. It evaluates the patient's subjective experience."
+          }
+        ],
+        "ok_title": "Evaluating dyspnea",
+        "ok_line": "Intensity and burden measure the patient's experience.",
+        "ko_title": "Not measuring the cause",
+        "ko_line": "The assessment focuses on the discomfort itself, not direct causation.",
+        "exp_title": "How dyspnea is assessed",
+        "exp_text": "Because dyspnea is subjective, its severity is assessed by asking about the intensity of the distinct sensations, how distressing the discomfort is, and how much it interferes with daily activities. This helps gauge the burden of the symptom."
+      }
+    ]
+  }
+]

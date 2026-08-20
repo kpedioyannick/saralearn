@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the band of colours that white light separates into?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A rainbow",
+            "feedback": "A rainbow is the curved arc of colours you see in the sky, but the band of colours itself, whether in the sky or made by a prism, is called a spectrum."
+          },
+          {
+            "label": "A colour wheel",
+            "feedback": "A colour wheel is a circular arrangement used to show relationships between colours, not the name for the full band of colours from white light."
+          },
+          {
+            "label": "A spectrum",
+            "feedback": "Correct. When white light is spread out, the result is called a spectrum, showing all the colours in order."
+          },
+          {
+            "label": "A pigment set",
+            "feedback": "Pigments are materials that absorb and reflect light, like paint or ink, not the band of colours from white light."
+          }
+        ],
+        "ok_title": "Spectrum confirmed",
+        "ok_line": "White light spreads into a spectrum of colours.",
+        "ko_title": "Not that term",
+        "ko_line": "The band is a spectrum, not a rainbow or wheel.",
+        "exp_title": "The spectrum",
+        "exp_text": "When white light passes through a prism, it spreads out into a continuous band of colours called a spectrum. The colours always appear in the same order: red, orange, yellow, green, blue, indigo, and violet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour of visible light has the longest wave?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Correct. Red light has the longest wavelength in the visible spectrum, which is why it appears at one end."
+          },
+          {
+            "label": "Violet",
+            "feedback": "Violet has the shortest wavelength, not the longest. Red is at the opposite end of the spectrum."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green sits in the middle of the visible spectrum, with wavelengths between red and violet."
+          },
+          {
+            "label": "Blue",
+            "feedback": "Blue has a shorter wavelength than red. Red is the longest."
+          }
+        ],
+        "ok_title": "Red is longest",
+        "ok_line": "Red light has the longest wave in the visible range.",
+        "ko_title": "Wavelength mix-up",
+        "ko_line": "Red is longest; violet is shortest.",
+        "exp_title": "Wavelength order",
+        "exp_text": "Visible light is a band of colours, each with its own wavelength. Red has the longest wavelength, and violet has the shortest. The order is red, orange, yellow, green, blue, indigo, violet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a prism do to white light?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It absorbs all the colours",
+            "feedback": "A prism does not absorb light; it lets light pass through and bends it. Absorption happens on dark surfaces."
+          },
+          {
+            "label": "It reflects light back",
+            "feedback": "A prism is transparent, so it does not reflect light like a mirror. It refracts, or bends, the light instead."
+          },
+          {
+            "label": "It mixes colours into white",
+            "feedback": "A prism separates colours, not mixes them. Mixing colours to make white is done with light sources, not a prism."
+          },
+          {
+            "label": "It spreads the colours apart",
+            "feedback": "Correct. A prism bends white light, and because each colour bends a little differently, the colours spread out into a spectrum."
+          }
+        ],
+        "ok_title": "Prism separates",
+        "ok_line": "A prism spreads white light into its colours.",
+        "ko_title": "Prism action",
+        "ko_line": "It separates, not absorbs or mixes.",
+        "exp_title": "Prism's role",
+        "exp_text": "A prism is a piece of glass that bends light. Since each colour in white light bends by a slightly different amount, the light spreads out, showing the hidden spectrum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do the colours separate when white light passes through a prism?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the prism adds new colours",
+            "feedback": "The prism does not add colours; the colours were already in the white light. The prism just separates them."
+          },
+          {
+            "label": "Because each colour bends by a different amount",
+            "feedback": "Correct. Each colour of light slows down and bends by a slightly different amount as it enters the glass, so they take different paths and spread apart."
+          },
+          {
+            "label": "Because the prism heats the light",
+            "feedback": "Heating does not separate colours. The separation is due to refraction, not temperature."
+          },
+          {
+            "label": "Because the prism filters out some colours",
+            "feedback": "A prism does not filter or block colours; it lets all through but bends them differently. Filters absorb some colours."
+          }
+        ],
+        "ok_title": "Different bending",
+        "ok_line": "Each colour bends differently, so they spread.",
+        "ko_title": "Not addition or heat",
+        "ko_line": "It is refraction, not adding or heating.",
+        "exp_title": "Refraction difference",
+        "exp_text": "When light enters glass, it slows down and changes direction. The amount of bending depends on the colour's wavelength, so each colour comes out at a slightly different angle, separating the spectrum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which colour of visible light has the shortest wave?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red has the longest wave, not the shortest. Violet is at the other end with the shortest wave."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Yellow has a medium wavelength, shorter than red but longer than violet."
+          },
+          {
+            "label": "Violet",
+            "feedback": "Correct. Violet has the shortest wavelength in the visible spectrum, at the opposite end from red."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green's wavelength is in the middle, not the shortest. Violet is shortest."
+          }
+        ],
+        "ok_title": "Violet shortest",
+        "ok_line": "Violet light has the shortest wave.",
+        "ko_title": "Wavelength order",
+        "ko_line": "Violet is shortest; red is longest.",
+        "exp_title": "Shortest wave",
+        "exp_text": "Each colour of light has a different wavelength. Violet has the shortest, and red has the longest. That is why violet lies at one end of the spectrum and red at the other."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the order of colours in a spectrum from longest wave to shortest?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Violet, blue, green, yellow, orange, red",
+            "feedback": "This is reversed. It goes from shortest to longest. The correct order starts with red at the longest."
+          },
+          {
+            "label": "Red, orange, yellow, green, blue, indigo, violet",
+            "feedback": "Correct. This is the order from longest wave (red) to shortest wave (violet)."
+          },
+          {
+            "label": "Yellow, orange, red, violet, blue, green",
+            "feedback": "This is not the natural order. The spectrum follows a fixed sequence from red to violet."
+          },
+          {
+            "label": "Green, blue, red, orange, yellow, violet",
+            "feedback": "This mixes the order. The correct sequence is red, orange, yellow, green, blue, indigo, violet."
+          }
+        ],
+        "ok_title": "ROYGBIV order",
+        "ok_line": "Red to violet is the spectrum order.",
+        "ko_title": "Order mix-up",
+        "ko_line": "It always runs red to violet.",
+        "exp_title": "Spectrum sequence",
+        "exp_text": "Because each colour has a different wavelength, the spectrum always shows them in a fixed order: red, orange, yellow, green, blue, indigo, and violet, from longest to shortest wave."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to each colour of light when it enters a glass prism?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It bounces back like a mirror",
+            "feedback": "A prism is transparent, so light goes through it rather than bouncing off. Reflection happens on mirrors, not prisms."
+          },
+          {
+            "label": "It slows down and bends",
+            "feedback": "Correct. When light enters glass, it slows down and changes direction. Each colour bends a bit differently, which separates them."
+          },
+          {
+            "label": "It speeds up and goes straight",
+            "feedback": "Light actually slows down in glass, not speeds up. It also bends, not goes straight."
+          },
+          {
+            "label": "It gets absorbed and turns to heat",
+            "feedback": "Glass is transparent, so most light passes through. Absorption into heat happens on dark, opaque surfaces."
+          }
+        ],
+        "ok_title": "Light bends in glass",
+        "ok_line": "Light slows and bends in a prism.",
+        "ko_title": "No bounce or heat",
+        "ko_line": "It transfers through and bends.",
+        "exp_title": "Refraction in glass",
+        "exp_text": "When light moves from air into glass, it slows down and changes direction. This bending is called refraction. Each colour slows a little differently, so they spread apart."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is white light made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A mixture of all the colours of visible light",
+            "feedback": "Correct. White light contains all the colours, and a prism reveals them by separating them."
+          },
+          {
+            "label": "Only red, green, and blue light",
+            "feedback": "Those three colours can mix to make white, but white light itself contains all colours, not just three."
+          },
+          {
+            "label": "A single colour with no others",
+            "feedback": "If white light had a single colour, a prism could not split it into many colours. It must contain many."
+          },
+          {
+            "label": "Ultraviolet and infrared together",
+            "feedback": "Those are invisible light types, not the colours we see. White light is the visible colours mixed."
+          }
+        ],
+        "ok_title": "All colours mixed",
+        "ok_line": "White light is all visible colours together.",
+        "ko_title": "Not one colour",
+        "ko_line": "It is a mixture, not a single hue.",
+        "exp_title": "White light content",
+        "exp_text": "White light from the Sun or a lamp is not a single colour. It is a combination of all the colours of the visible spectrum. When passed through a prism, these colours spread out and become visible."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a rainbow's arc made of?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Dust particles in the air",
+            "feedback": "Dust scatters light but does not create the colourful arc. Raindrops are what make a rainbow."
+          },
+          {
+            "label": "Tiny water droplets in the air",
+            "feedback": "Correct. Sunlight enters each droplet, bends, and reflects, then comes out separated into colours, forming the arc."
+          },
+          {
+            "label": "Ice crystals in the sky",
+            "feedback": "Ice crystals can make halos or sundogs, but a rainbow comes from liquid water droplets."
+          },
+          {
+            "label": "Clouds that block the Sun",
+            "feedback": "Clouds block sunlight, and a rainbow needs sunlight passing through clear air to reach droplets."
+          }
+        ],
+        "ok_title": "Droplets make rainbow",
+        "ok_line": "Raindrops split sunlight into colours.",
+        "ko_title": "Not dust or ice",
+        "ko_line": "Liquid water drops create the arc.",
+        "exp_title": "Rainbow source",
+        "exp_text": "A rainbow forms when sunlight enters tiny raindrops, bounces off the back of each drop, and comes out again. Each drop separates the light into colours, and together the drops create the arc you see."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to sunlight inside a single raindrop to make a rainbow?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is absorbed and heats the drop",
+            "feedback": "Raindrops do not absorb much sunlight; they bend and reflect it. Absorption would not create colours."
+          },
+          {
+            "label": "It passes straight through unchanged",
+            "feedback": "If sunlight passed straight through, there would be no bending or spreading of colours, so no rainbow."
+          },
+          {
+            "label": "It gets scattered randomly",
+            "feedback": "Random scattering would mix colours together, not produce a clear spectrum. A rainbow needs ordered bending."
+          },
+          {
+            "label": "It bends, reflects, and spreads into colours",
+            "feedback": "Correct. Inside the drop, light bends as it enters, reflects off the back, and bends again as it leaves, separating into colours."
+          }
+        ],
+        "ok_title": "Drop bends and reflects",
+        "ok_line": "Light refracts and reflects inside a drop.",
+        "ko_title": "No straight pass",
+        "ko_line": "The drop bends and reflects the light.",
+        "exp_title": "Inside the raindrop",
+        "exp_text": "Sunlight enters a raindrop, slows and bends, then bounces off the inner surface, and bends again as it exits. This double bending separates the colours and sends them back toward you."
+      }
+    ]
+  }
+]

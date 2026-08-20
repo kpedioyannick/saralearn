@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do living cells actually do with the oxygen they take from the air?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They use it to release energy from food.",
+            "feedback": "Correct. Cells combine oxygen with food molecules to release the energy stored in them, a process essential for life."
+          },
+          {
+            "label": "They store it for later use in building bones.",
+            "feedback": "Incorrect. Oxygen is not stored for bone building; it is used continuously to release energy from food."
+          },
+          {
+            "label": "They turn it into carbon dioxide directly.",
+            "feedback": "Incorrect. Oxygen is consumed in energy release, and carbon dioxide is a waste product of that process, not a direct transformation of oxygen."
+          },
+          {
+            "label": "They use it to make nitrogen gas.",
+            "feedback": "Incorrect. Nitrogen is separate; cells do not convert oxygen into nitrogen gas."
+          }
+        ],
+        "ok_title": "Oxygen's role",
+        "ok_line": "Cells burn food with oxygen to get energy.",
+        "ko_title": "Misuse of oxygen",
+        "ko_line": "Oxygen is for energy release, not storage or conversion.",
+        "exp_title": "Cellular respiration",
+        "exp_text": "Living cells take in oxygen and use it to break down food molecules, releasing energy that powers all their activities. This is why breathing brings in oxygen and why it is so vital."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do ants and beetles, which have no lungs, get the air they need?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They absorb it through their skin.",
+            "feedback": "Incorrect. Their outer shell is hard and not used for gas exchange; they use a system of air tubes instead."
+          },
+          {
+            "label": "They carry it in special air sacs in their wings.",
+            "feedback": "Incorrect. Air sacs help, but the main route is through tubes that open to the outside, not via wings."
+          },
+          {
+            "label": "Air enters through small openings and travels through a network of tubes.",
+            "feedback": "Correct. Insects have tiny holes on their body surface leading to tubes that deliver air directly to their cells."
+          },
+          {
+            "label": "They take it from the water in their environment.",
+            "feedback": "Incorrect. Land insects get oxygen from the air, not from water; aquatic insects may use gills but not this way."
+          }
+        ],
+        "ok_title": "Insect breathing",
+        "ok_line": "Air goes in through holes and through tubes.",
+        "ko_title": "Wrong gas route",
+        "ko_line": "Insects rely on tubes, not skin or wings.",
+        "exp_title": "Tracheal system",
+        "exp_text": "Insects have a network of air-filled tubes called tracheae that branch through their bodies, opening to the outside through small pores. Air diffuses directly to their tissues, so lungs are unnecessary."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can't a large animal like a dog use the same tube system that works for an insect?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The tubes would fill with water, blocking the air.",
+            "feedback": "Incorrect. Water blockage is not the issue; the problem is about distance and diffusion speed."
+          },
+          {
+            "label": "The tubes would be too long for air to reach all parts quickly.",
+            "feedback": "Correct. Air moves by diffusion; in a big body, the tubes would be too long for oxygen to reach deep tissues fast enough."
+          },
+          {
+            "label": "The tubes would break under the animal's weight.",
+            "feedback": "Incorrect. Tubes are not load-bearing; the limitation is gas transport, not physical strength."
+          },
+          {
+            "label": "The tubes would get clogged by hair or fur.",
+            "feedback": "Incorrect. Hair is on the outside and does not block internal tubes; the core issue is distance."
+          }
+        ],
+        "ok_title": "Size limitation",
+        "ok_line": "Diffusion works only over short distances.",
+        "ko_title": "Not about structure",
+        "ko_line": "The problem is length, not water or weight.",
+        "exp_title": "Diffusion limits",
+        "exp_text": "Gas exchange by simple diffusion is efficient only when the distance is small. In a large body, the diffusion path would be too long to supply tissues quickly, so bigger animals need lungs and a circulatory system to carry oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a fish get the oxygen it needs even though it never breathes air?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It stores oxygen in its scales.",
+            "feedback": "Incorrect. Scales are protective, not respiratory; they do not absorb oxygen."
+          },
+          {
+            "label": "It makes oxygen from water using sunlight.",
+            "feedback": "Incorrect. Only plants and some algae perform that process; fish do not."
+          },
+          {
+            "label": "It breathes water into its lungs and filters out the oxygen.",
+            "feedback": "Incorrect. Fish do not have lungs; they have gills for gas exchange."
+          },
+          {
+            "label": "It filters dissolved oxygen out of the water using gills.",
+            "feedback": "Correct. Gills extract oxygen that is dissolved in the water as it flows over them."
+          }
+        ],
+        "ok_title": "Fish gas exchange",
+        "ok_line": "Gills take oxygen from water.",
+        "ko_title": "No lungs in fish",
+        "ko_line": "Fish use gills, not lungs or storage.",
+        "exp_title": "Gills and dissolved oxygen",
+        "exp_text": "Fish have gills with many thin filaments that absorb oxygen dissolved in water. Water flows over the gills, and oxygen passes into the blood, so fish never need to surface for air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can plants take carbon dioxide directly from the air but not nitrogen gas from the air?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because nitrogen gas is too stable for them to break apart.",
+            "feedback": "Correct. Nitrogen molecules are very stable, and plants lack the enzymes to split them; they can only use fixed nitrogen compounds from the soil."
+          },
+          {
+            "label": "Because nitrogen is heavier than carbon dioxide, so it stays near the ground.",
+            "feedback": "Incorrect. Gases mix evenly in the air; heaviness does not keep nitrogen away from plant leaves."
+          },
+          {
+            "label": "Because plants only need carbon, not nitrogen.",
+            "feedback": "Incorrect. Plants do need nitrogen for proteins and DNA; they just cannot get it as a gas."
+          },
+          {
+            "label": "Because carbon dioxide enters through leaves, but nitrogen only enters through roots.",
+            "feedback": "Incorrect. Nitrogen gas also reaches leaves, but plants cannot use it in that form; they take up fixed nitrogen from soil water."
+          }
+        ],
+        "ok_title": "Nitrogen fixation",
+        "ok_line": "Plants need nitrogen in soil compounds.",
+        "ko_title": "Not a location issue",
+        "ko_line": "It's about chemical stability, not where gases go.",
+        "exp_title": "Why plants need fixed nitrogen",
+        "exp_text": "Nitrogen gas in the air is unreactive because its two atoms are held by a very strong triple bond. Plants can use carbon dioxide directly for photosynthesis, but they need nitrogen in the form of nitrates or ammonium from the soil, which only certain bacteria and lightning can create from the gas."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do animals that live permanently high on a mountain often have more oxygen-carrying red blood cells than lowland animals?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the air is denser up there, so they need more cells to slow it down.",
+            "feedback": "Incorrect. Air is thinner, not denser, at high altitude; more cells help capture more of the limited oxygen."
+          },
+          {
+            "label": "Because they have bigger hearts that need extra oxygen.",
+            "feedback": "Incorrect. The heart size is not the reason; the adaptation is about carrying more oxygen per drop of blood."
+          },
+          {
+            "label": "Because the air has less oxygen, so more cells help capture enough.",
+            "feedback": "Correct. At high altitude, each breath brings fewer oxygen molecules, so having more hemoglobin-rich cells improves oxygen uptake."
+          },
+          {
+            "label": "Because they lose red blood cells when climbing, so they make extra.",
+            "feedback": "Incorrect. Permanent high-altitude animals are born with the higher count; it is not a temporary loss and replacement."
+          }
+        ],
+        "ok_title": "Altitude adaptation",
+        "ok_line": "More cells grab scarce oxygen.",
+        "ko_title": "Not about air density",
+        "ko_line": "It's about less oxygen per breath.",
+        "exp_title": "High-altitude blood",
+        "exp_text": "At high elevations, atmospheric pressure is lower, so each breath contains fewer oxygen molecules. Animals adapted to such places produce more red blood cells, each carrying hemoglobin, to increase the total oxygen-carrying capacity of their blood and meet their cells' needs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What actually triggers the urgent need to breathe after you hold your breath for a while?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The lack of oxygen in your muscles.",
+            "feedback": "Incorrect. Muscle oxygen depletion does not directly signal the breathing center; the main trigger is a rise in blood carbon dioxide."
+          },
+          {
+            "label": "The rising level of carbon dioxide in your blood.",
+            "feedback": "Correct. Carbon dioxide accumulates as you hold your breath, and the brain senses this and forces you to breathe."
+          },
+          {
+            "label": "The feeling of your lungs being empty.",
+            "feedback": "Incorrect. Lung fullness is not the signal; the chemical change in blood is what matters."
+          },
+          {
+            "label": "The drop in blood pressure from less oxygen.",
+            "feedback": "Incorrect. Blood pressure is not the trigger; carbon dioxide is the primary stimulus."
+          }
+        ],
+        "ok_title": "Breath trigger",
+        "ok_line": "Carbon dioxide buildup makes you breathe.",
+        "ko_title": "Not oxygen lack",
+        "ko_line": "The signal is CO2, not muscle oxygen.",
+        "exp_title": "The breathing drive",
+        "exp_text": "When you hold your breath, carbon dioxide produced by your cells builds up in your blood. Special sensors in the brain detect this rising CO2 level and send a powerful signal to breathe, overriding your voluntary effort to hold on."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the constant cycle between breathing and photosynthesis describe?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The movement of nitrogen from air to soil and back.",
+            "feedback": "Incorrect. That cycle involves nitrogen fixation, not breathing and photosynthesis."
+          },
+          {
+            "label": "The exchange of water vapor between plants and air.",
+            "feedback": "Incorrect. Water vapor is not the focus; the cycle of carbon dioxide and oxygen is."
+          },
+          {
+            "label": "The exchange of oxygen and carbon dioxide between living things.",
+            "feedback": "Correct. Animals breathe out carbon dioxide that plants use for photosynthesis, and plants release oxygen that animals breathe in."
+          },
+          {
+            "label": "The way ozone forms and breaks down in the sky.",
+            "feedback": "Incorrect. That is the ozone cycle, not the breathing-photosynthesis balance."
+          }
+        ],
+        "ok_title": "Gas cycle",
+        "ok_line": "Animals give CO2, plants give O2.",
+        "ko_title": "Other cycles",
+        "ko_line": "This is not nitrogen or ozone.",
+        "exp_title": "Oxygen–carbon dioxide balance",
+        "exp_text": "Animals take in oxygen and release carbon dioxide through respiration, while plants take in carbon dioxide and release oxygen through photosynthesis. This mutual exchange keeps the levels of both gases relatively stable in the atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the overall mix of gases in the air stay roughly balanced despite all the breathing and burning?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because plants and other producers recycle the gases.",
+            "feedback": "Correct. Photosynthesis removes carbon dioxide and adds oxygen, counteracting the opposite effects of respiration and burning."
+          },
+          {
+            "label": "Because gases are always evenly mixed by the wind.",
+            "feedback": "Incorrect. Winds mix gases but do not change their amounts; the balance comes from biological processes."
+          },
+          {
+            "label": "Because no gas is ever really used up or added.",
+            "feedback": "Incorrect. Gases are indeed consumed and produced, but the cycle keeps them in check."
+          },
+          {
+            "label": "Because the atmosphere has a fixed amount of each gas forever.",
+            "feedback": "Incorrect. The amounts are not fixed forever; they fluctuate but are roughly held by the cycles."
+          }
+        ],
+        "ok_title": "Atmospheric balance",
+        "ok_line": "Plants and animals offset each other.",
+        "ko_title": "Not just mixing",
+        "ko_line": "It's a chemical cycle, not wind alone.",
+        "exp_title": "Balanced gas exchange",
+        "exp_text": "While respiration and combustion consume oxygen and add carbon dioxide, photosynthesis does the reverse. Over time, these opposing processes keep the atmospheric concentrations of oxygen and carbon dioxide relatively stable, despite continuous use and release."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes ozone near the ground harmful to breathe, even though the same gas protects us high up?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because it is mixed with pollution that weakens its effect.",
+            "feedback": "Incorrect. Ozone itself is the problem at ground level; it is a strong oxidant that damages tissue."
+          },
+          {
+            "label": "Because it is denser near the ground, so it stays longer in your lungs.",
+            "feedback": "Incorrect. Density is not the cause; the chemical reactivity of ozone is what harms cells."
+          },
+          {
+            "label": "Because it blocks out the vitamin D from sunlight.",
+            "feedback": "Incorrect. Ground-level ozone does not block sunlight; it irritates respiratory tissues."
+          },
+          {
+            "label": "Because its molecules react with and damage living tissues directly.",
+            "feedback": "Correct. Ozone is highly reactive and can oxidize cell membranes and lung tissue, causing inflammation and breathing problems."
+          }
+        ],
+        "ok_title": "Ground-level ozone",
+        "ok_line": "Ozone reacts and harms cells.",
+        "ko_title": "Not about location",
+        "ko_line": "It's the chemistry, not density.",
+        "exp_title": "Ozone's dual nature",
+        "exp_text": "High in the stratosphere, ozone absorbs ultraviolet light and protects life. Near the ground, the same reactive molecule attacks living cells, particularly in the lungs, because it is a powerful oxidizing agent that can damage proteins and membranes."
+      }
+    ]
+  }
+]

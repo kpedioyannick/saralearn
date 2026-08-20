@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the period of darkness when the Sun is below the horizon?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Night",
+            "feedback": "Correct. Night is the period of darkness when the Sun is below the horizon."
+          },
+          {
+            "label": "Twilight",
+            "feedback": "Twilight is the transition period between daylight and darkness, not the full period of darkness itself."
+          },
+          {
+            "label": "Dusk",
+            "feedback": "Dusk is a specific part of evening twilight, not the entire period of darkness."
+          },
+          {
+            "label": "Midnight",
+            "feedback": "Midnight is a single moment in the middle of the night, not the whole period."
+          }
+        ],
+        "ok_title": "Night defined",
+        "ok_line": "Night is the dark period when the Sun is below the horizon.",
+        "ko_title": "Not the dark period",
+        "ko_line": "The dark period has a specific name, not those alternatives.",
+        "exp_title": "Dark period name",
+        "exp_text": "Night, also called nighttime, is the period of darkness when the Sun is below the horizon. It is the opposite of daytime."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the appearance of sunrise and sunset on Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun moving around Earth",
+            "feedback": "The Sun does not move around Earth; Earth rotates on its axis, which makes the Sun appear to rise and set."
+          },
+          {
+            "label": "The Moon's gravity",
+            "feedback": "The Moon's gravity affects tides, not the daily cycle of sunrise and sunset."
+          },
+          {
+            "label": "Earth's rotation",
+            "feedback": "Correct. Earth's rotation on its axis causes the Sun to appear to rise in the east and set in the west."
+          },
+          {
+            "label": "The tilt of Earth's axis",
+            "feedback": "The axial tilt causes seasons and varying day length, but the daily rising and setting comes from Earth spinning."
+          }
+        ],
+        "ok_title": "Rotation gives sunrise",
+        "ok_line": "Earth's spin makes the Sun appear to rise and set.",
+        "ko_title": "Not those causes",
+        "ko_line": "The daily motion comes from Earth turning, not from other factors.",
+        "exp_title": "Cause of sunrise",
+        "exp_text": "Earth rotates on its axis, and that rotation makes the Sun appear to rise in the east and set in the west."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a place on Earth when it is pointed away from the Sun?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It experiences daytime",
+            "feedback": "Daytime happens when a place faces the Sun; pointing away gives darkness."
+          },
+          {
+            "label": "It experiences night",
+            "feedback": "Correct. When a place is turned away from the Sun, that location experiences night."
+          },
+          {
+            "label": "It experiences twilight all day",
+            "feedback": "Twilight is a brief transition, not a full period while facing away from the Sun."
+          },
+          {
+            "label": "It experiences polar day",
+            "feedback": "Polar day occurs when a place faces the Sun for 24 hours, not when pointed away."
+          }
+        ],
+        "ok_title": "Away means night",
+        "ok_line": "Turning away from the Sun brings night to that place.",
+        "ko_title": "Not daytime",
+        "ko_line": "Facing away from the Sun gives darkness, not light or twilight.",
+        "exp_title": "Night on Earth",
+        "exp_text": "Earth's rotation alternately faces places toward and away from the Sun. Away means night; toward means day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the length of night on Venus?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 58 Earth days",
+            "feedback": "Correct. Venus's night lasts about 58 Earth days because its rotation is very slow."
+          },
+          {
+            "label": "About 12 hours",
+            "feedback": "12 hours is roughly Earth's night at the equator, not Venus's."
+          },
+          {
+            "label": "About 24 hours",
+            "feedback": "24 hours is close to Earth's day, not Venus's much longer night."
+          },
+          {
+            "label": "About 2 weeks",
+            "feedback": "Two weeks is the length of a lunar night, not Venus's night."
+          }
+        ],
+        "ok_title": "Venus night length",
+        "ok_line": "Venus's night lasts about 58 Earth days.",
+        "ko_title": "Wrong night length",
+        "ko_line": "Venus's night is far longer than Earth's day.",
+        "exp_title": "Venus night duration",
+        "exp_text": "Venus rotates very slowly, so its night lasts about 58 Earth days."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How is the Moon's rotation related to its facing Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Moon spins very fast",
+            "feedback": "The Moon spins slowly, not fast; it is tidally locked."
+          },
+          {
+            "label": "The Moon does not rotate at all",
+            "feedback": "The Moon does rotate, but its rotation period matches its orbital period, so it always shows the same face."
+          },
+          {
+            "label": "The Moon is tidally locked",
+            "feedback": "Correct. The Moon's rotation is tidally locked, so one side always faces Earth."
+          },
+          {
+            "label": "The Moon's rotation changes each orbit",
+            "feedback": "The Moon's rotation is constant and matches its orbit, not changing each time."
+          }
+        ],
+        "ok_title": "Moon tidally locked",
+        "ok_line": "The Moon's spin matches its orbit, so it always faces Earth.",
+        "ko_title": "Not those rotations",
+        "ko_line": "The Moon's rotation is locked, not fast or absent.",
+        "exp_title": "Moon's rotation lock",
+        "exp_text": "The Moon is tidally locked to Earth, meaning it rotates once for each orbit, so the same side always faces Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes lunar phases visible from Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Earth's shadow falling on the Moon",
+            "feedback": "Earth's shadow only causes a lunar eclipse, not the regular monthly phases."
+          },
+          {
+            "label": "Nightfall across portions of the Moon's near side",
+            "feedback": "Correct. As night falls on different parts of the Moon's near side, we see different lunar phases."
+          },
+          {
+            "label": "The Moon's own light changing",
+            "feedback": "The Moon doesn't produce its own light; it reflects sunlight."
+          },
+          {
+            "label": "Clouds covering parts of the Moon",
+            "feedback": "Clouds are on Earth and don't cause the Moon's phases."
+          }
+        ],
+        "ok_title": "Phases from nightfall",
+        "ok_line": "Phases appear as night falls on different parts of the Moon's near side.",
+        "ko_title": "Not shadow or clouds",
+        "ko_line": "Phases come from the Moon's night side, not from Earth's shadow or clouds.",
+        "exp_title": "Lunar phases cause",
+        "exp_text": "As the Moon orbits Earth, night falls on different portions of its near side, and that changing darkness creates the phases we see."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for animals that are active during the night?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Diurnal",
+            "feedback": "Diurnal animals are active during the day and sleep at night."
+          },
+          {
+            "label": "Crepuscular",
+            "feedback": "Crepuscular animals are active at dawn and dusk, not throughout the night."
+          },
+          {
+            "label": "Noctilucent",
+            "feedback": "Noctilucent refers to something that glows at night, not to an animal's activity pattern."
+          },
+          {
+            "label": "Nocturnal",
+            "feedback": "Correct. Nocturnal animals are more active at night and have adaptations for low light."
+          }
+        ],
+        "ok_title": "Night-active animals",
+        "ok_line": "Nocturnal animals are active at night.",
+        "ko_title": "Not those terms",
+        "ko_line": "The term for night activity is nocturnal, not the others.",
+        "exp_title": "Nocturnal meaning",
+        "exp_text": "Nocturnal animals are active at night and have adaptations like night vision and heightened other senses."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do plants do with energy produced through photosynthesis to use at night?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Store it as starch granules",
+            "feedback": "Correct. Plants store energy as starch granules to consume during the night."
+          },
+          {
+            "label": "Release it as heat",
+            "feedback": "Plants do not store energy as heat; they store it as starch."
+          },
+          {
+            "label": "Convert it to light",
+            "feedback": "Plants do not convert stored energy to light; they use it for metabolism."
+          },
+          {
+            "label": "Excrete it through roots",
+            "feedback": "Plants do not excrete stored energy; they keep it for nighttime use."
+          }
+        ],
+        "ok_title": "Stored as starch",
+        "ok_line": "Plants store energy as starch granules for the night.",
+        "ko_title": "Not those storage ways",
+        "ko_line": "The storage form is starch, not heat or light.",
+        "exp_title": "Plant night storage",
+        "exp_text": "During the day, plants make energy by photosynthesis and store it as starch granules, which they consume at night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do night-blooming cacti rely on for reproduction?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Wind to carry pollen",
+            "feedback": "Night-blooming cacti rely on animals, not wind, for pollination."
+          },
+          {
+            "label": "Daytime bees",
+            "feedback": "Bees are active during the day, but these cacti bloom at night."
+          },
+          {
+            "label": "Nocturnal pollinators such as bats and moths",
+            "feedback": "Correct. Night-blooming cacti rely on nocturnal pollinators like bats and moths."
+          },
+          {
+            "label": "Sunlight to dry seeds",
+            "feedback": "Reproduction needs pollination, not drying seeds with sunlight."
+          }
+        ],
+        "ok_title": "Nocturnal pollinators",
+        "ok_line": "Bats and moths pollinate night-blooming cacti.",
+        "ko_title": "Not those pollinators",
+        "ko_line": "Night-blooming cacti use nocturnal animals, not wind or daytime insects.",
+        "exp_title": "Cactus pollination",
+        "exp_text": "Night-blooming cacti depend on nocturnal pollinators such as bats and moths to reproduce."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 176,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What actually causes the changing phases of the Moon?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's shadow falling on the Moon",
+            "feedback": "That is what causes a lunar eclipse, a rare and separate alignment. Ordinary phases happen every month even though the Moon almost never passes through Earth's shadow."
+          },
+          {
+            "label": "Clouds passing in front of the Moon",
+            "feedback": "Clouds only block the view for one observer on one night. They cannot produce a rhythm that repeats the same way for everyone on Earth, month after month."
+          },
+          {
+            "label": "The changing angle between the Sun, the Moon and Earth",
+            "feedback": "The lit half never changes size, only how much of it faces Earth. That is exactly what a shifting angle produces."
+          },
+          {
+            "label": "The Moon spinning to show us different faces",
+            "feedback": "The Moon's spin keeps the same face pointed at Earth throughout the whole cycle. Phases are about how much of that one face is lit, not which face we see."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "That's the mechanism",
+        "ok_line": "Same near side, different lighting.",
+        "ko_title": "Not shadow, not clouds",
+        "ko_line": "Ask what changes every night while the Moon's face stays put.",
+        "exp_title": "Half lit, half dark, always",
+        "exp_text": "The Sun always lights exactly half of the Moon, the same way it lights exactly half of any ball held up to it. As the Moon travels around Earth over the course of a month, the angle between the Sun, the Moon and Earth keeps changing, so the fraction of that lit half we can see from Earth grows and shrinks in turn. A phase is nothing more than a changing viewing angle on a boundary between light and dark that never moves."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the cycle of Moon phases take longer than the Moon's full trip around Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Moon slows down partway through its orbit",
+            "feedback": "The Moon's speed barely changes around its orbit, and any small change happens far too soon to explain a gap of two extra days at the end of the cycle."
+          },
+          {
+            "label": "Because Earth is also moving around the Sun, so the Moon needs extra time to line up with the Sun again",
+            "feedback": "Earth's own journey around the Sun shifts the target the Moon has to reach, which is exactly what stretches the phase cycle beyond one orbit."
+          },
+          {
+            "label": "Because the Moon's orbit is not a perfect circle",
+            "feedback": "An orbit shaped like a slight oval does shift the Moon's speed a little, but even a perfectly circular orbit would still need the same extra stretch of time."
+          },
+          {
+            "label": "Because clouds and weather delay when the phase becomes visible",
+            "feedback": "Weather can hide the Moon from one observer for a night, but it cannot shift a rhythm that repeats the same way for the entire planet."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "The chase",
+        "ok_line": "The Moon has to catch a target that keeps moving.",
+        "ko_title": "Wrong culprit",
+        "ko_line": "The gap is not about the shape of the Moon's path, it's about what else moves while the Moon travels it.",
+        "exp_title": "Catching up with a moving Sun",
+        "exp_text": "A trip once around Earth, measured against the distant stars, is the shorter of the two figures. But Earth spends that same stretch of time moving along its own path around the Sun, which shifts the direction the Moon has to line up with in order to repeat a phase. So the Moon has to travel a little further than one full circle to catch up with the Sun's new position, which is why the whole cycle of phases runs longer than a single orbit."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can't you normally see the new moon in the sky?",
+        "body": null,
+        "options": [
+          {
+            "label": "It's on the same side of Earth as the Sun, its lit half turned away from us and lost in the Sun's glare",
+            "feedback": "That double effect, the wrong half facing us and the Sun's own glare, is exactly why the new moon disappears from view."
+          },
+          {
+            "label": "It's directly behind Earth, in Earth's shadow",
+            "feedback": "That describes the setup for a lunar eclipse, which only happens at full moon. The new moon sits on the opposite side of Earth entirely."
+          },
+          {
+            "label": "Its surface stops reflecting light for a few days",
+            "feedback": "The Moon's surface never changes. Half of it is being lit exactly as always; only the angle from which we view that lit half is different."
+          },
+          {
+            "label": "It has moved too far away from Earth to see",
+            "feedback": "The Moon's distance from Earth barely changes across a month, and the same near-circular orbit brings it back into view night after night."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Hidden in daylight",
+        "ok_line": "It's up there — you just can't fight the Sun's glare.",
+        "ko_title": "Wrong direction",
+        "ko_line": "Think about which side of Earth the new moon sits on, not what shadow it might be hiding in.",
+        "exp_title": "Facing the Sun, not us",
+        "exp_text": "At new moon, the Moon sits nearly between Earth and the Sun, so the half of it lit by sunlight faces away from Earth while the half turned towards us stays dark. That same position keeps the Moon close to the Sun in our sky, rising and setting alongside it in broad daylight. A dark disc lost in the glare right next to the Sun was never going to stand out against the day sky."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a full moon rise at around the same time the Sun sets?",
+        "body": null,
+        "options": [
+          {
+            "label": "Coincidence — the timing changes randomly night to night",
+            "feedback": "The rise time shifts by a predictable amount each night, following the Moon's steady orbit. Nothing about it is random."
+          },
+          {
+            "label": "Because the full moon moves faster across the sky than other phases",
+            "feedback": "The Moon's speed across the sky barely changes with phase. What changes is where, opposite the Sun, it happens to sit."
+          },
+          {
+            "label": "Because moonlight is strongest right after sunset",
+            "feedback": "How bright the Moon looks then is really about how dark the sky has become. Brightness does not set the Moon's rising time."
+          },
+          {
+            "label": "Because Earth is directly between the Sun and the Moon",
+            "feedback": "That line-up is what puts a full moon opposite the Sun in the sky, so one rises as the other sets."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Opposite corners",
+        "ok_line": "Full moon, Sun setting: Earth is the fulcrum between them.",
+        "ko_title": "Not speed, not chance",
+        "ko_line": "Think about where the full moon has to sit relative to the Sun for its whole face to be lit.",
+        "exp_title": "Sunset in one direction, moonrise in the other",
+        "exp_text": "A moon looks full only when Earth sits roughly between the Sun and the Moon, with sunlight striking the near side of the Moon almost straight on. That arrangement puts the Moon on the opposite side of the sky from the Sun, so as the Sun sinks below the western horizon, the Moon is climbing up in the east. The two events sit at opposite ends of the same straight line through Earth, which is why they trade places in the sky together."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What causes the faint glow sometimes visible on the dark part of a crescent moon, often called 'the old moon in the new moon's arms'?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sunlight reflected off Earth, lighting up the Moon's dark side",
+            "feedback": "Earth's day side reflects enough sunlight to faintly light the Moon's night side, and that light travels back to your eye."
+          },
+          {
+            "label": "Leftover heat still glowing from the lunar day",
+            "feedback": "The Moon has no glow of its own. Any light reaching your eye from it has to have arrived from somewhere else first."
+          },
+          {
+            "label": "Starlight collecting on the Moon's surface",
+            "feedback": "Starlight reaching Earth is far too faint and spread across the whole sky to visibly brighten a small disc like the Moon."
+          },
+          {
+            "label": "A thin layer of the Moon's own atmosphere scattering light",
+            "feedback": "The Moon has next to no atmosphere. There is nothing there thin or thick enough to scatter light this way."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Borrowed twice",
+        "ok_line": "Sunlight bounced off Earth, then off the Moon, then reached your eye.",
+        "ko_title": "Look for the middleman",
+        "ko_line": "The glow has to have come from somewhere — trace the light back one more step than the Moon itself.",
+        "exp_title": "Earth as a mirror in the sky",
+        "exp_text": "During a crescent phase, Earth's day side is turned almost fully towards the Moon and reflects a good deal of sunlight back out into space. Some of that reflected light reaches the Moon's dark hemisphere and lights it faintly, before bouncing a second time back to an observer on Earth. The soft glow filling in the rest of the disc is sunlight that has already bounced off our own planet on its way there."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the bright edge of a crescent moon always sit on the side facing the Sun?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the Moon spins to turn that edge toward the Sun",
+            "feedback": "The Moon's spin only ever keeps the same face pointed at Earth. It is not rotating to aim any particular edge at the Sun."
+          },
+          {
+            "label": "Because our eyes are drawn toward brighter light",
+            "feedback": "That would be about perception, not about where the light actually falls. The crescent really is bright only on that side, not merely seen that way."
+          },
+          {
+            "label": "Because that edge sits closest to the sunlit half of the Moon's surface",
+            "feedback": "The edge nearest the Sun's direction is where the lit hemisphere meets the visible disc, which is exactly where the crescent glows."
+          },
+          {
+            "label": "Because it's the last part of the Moon still lit before a new moon",
+            "feedback": "That describes timing near new moon only. The near-Sun edge is the bright one at every crescent, whether waxing or waning."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Follow the terminator",
+        "ok_line": "The line between light and dark on the Moon always favours the side nearest the Sun.",
+        "ko_title": "Not spin, not perception",
+        "ko_line": "The Moon isn't turning and your eyes aren't being tricked — look at where the sunlight is actually landing.",
+        "exp_title": "The crescent points at its own light source",
+        "exp_text": "Only half of the Moon is ever lit at a time, and the boundary between its lit and dark halves shifts across the visible disc as the Moon orbits. During a crescent phase, the sliver we see lit sits on the same side of the disc as the direction to the Sun, because that is the part of the near face still catching direct sunlight. The bright edge doesn't point at the Sun by chance — it is simply the strip of the Moon's surface nearest to it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the difference between a 'waxing' moon and a 'waning' moon?",
+        "body": null,
+        "options": [
+          {
+            "label": "Waxing means getting closer to Earth, waning means moving away",
+            "feedback": "The words describe how much of the Moon looks lit, not its distance from Earth, which barely changes across a month."
+          },
+          {
+            "label": "Waxing means the lit portion is growing night by night, waning means it is shrinking",
+            "feedback": "Growing towards full and shrinking towards new are exactly the two halves of the cycle these two words name."
+          },
+          {
+            "label": "Waxing happens in the first half of the year, waning in the second",
+            "feedback": "The wax-and-wane cycle repeats roughly every month. It has nothing to do with the calendar seasons."
+          },
+          {
+            "label": "Waxing is the Moon rising, waning is the Moon setting",
+            "feedback": "Rising and setting happen every single day regardless of phase. They describe crossing the horizon, not how much of the Moon is lit."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Growing or shrinking",
+        "ok_line": "One word for more light each night, one for less.",
+        "ko_title": "Not distance, not season, not rise and set",
+        "ko_line": "The words describe the shape you see, night after night, nothing else about the Moon.",
+        "exp_title": "Two words for one changing sliver",
+        "exp_text": "As the Moon moves from new to full, the sliver of its lit face visible from Earth grows a little bigger each night, and that stretch of the cycle is called waxing. Once it passes full and heads back towards new, the same lit sliver shrinks night by night instead, and that half of the cycle is called waning. The two words simply track whether tomorrow's Moon will show more light than tonight's or less."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "In what order does the Moon pass through its phases, starting from new moon?",
+        "body": null,
+        "options": [
+          {
+            "label": "New, full, first quarter, last quarter, new",
+            "feedback": "This jumps straight to full before the halfway point. The lit sliver grows gradually, it never skips from nothing to whole."
+          },
+          {
+            "label": "New, crescent, first quarter, gibbous, full, gibbous, last quarter, crescent, new",
+            "feedback": "That is the full, gradual sequence, growing all the way to full and then shrinking back the same way in reverse."
+          },
+          {
+            "label": "New, gibbous, full, crescent, new",
+            "feedback": "A gibbous shape, more than half lit, cannot come right after new, when almost nothing is lit. The growth is gradual, not a sudden leap."
+          },
+          {
+            "label": "The order changes from month to month",
+            "feedback": "The same steady sequence repeats every cycle, driven by the same steadily changing angle between Sun, Moon and Earth each time."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "The full sequence",
+        "ok_line": "A smooth climb to full, then the same steps back down.",
+        "ko_title": "No skipping",
+        "ko_line": "The lit sliver only ever grows or shrinks by a little from one night to the next — nothing jumps.",
+        "exp_title": "A gradual climb and a gradual fall",
+        "exp_text": "The angle between the Sun, the Moon and Earth changes by only a small amount from one night to the next, so the fraction of the Moon we see lit shifts gradually rather than in jumps. Starting from new moon it grows through a thin crescent, past a half-lit first quarter, through a gibbous shape of more than half, up to a fully lit full moon — then the same stages unwind in reverse on the way back down. Every cycle follows that same climb and fall, because the changing geometry behind it repeats in the same order each time."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you sometimes see the Moon in a bright daytime sky?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Moon only shows itself in daylight during an eclipse",
+            "feedback": "Eclipses are rare, specific alignments. A daytime moon is an everyday sight that has nothing to do with eclipses."
+          },
+          {
+            "label": "Because the Moon is above the horizon for many daytime hours during much of its cycle, and it's bright enough to compete with blue sky",
+            "feedback": "Being above the horizon while lit brightly enough to outshine the blue is exactly what lets the Moon show up in daylight."
+          },
+          {
+            "label": "Sunlight passing through the Moon makes it visible from the day side",
+            "feedback": "The Moon is solid rock, opaque all the way through. No light passes through it to appear on any far side."
+          },
+          {
+            "label": "The Moon only appears in daylight near sunset",
+            "feedback": "A daytime moon can be seen at many hours, not only near sunset, since it spends long stretches of many days above the horizon while the Sun is up too."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Up there the whole time",
+        "ok_line": "It's above the horizon for hours of daylight — bright enough to show through the blue.",
+        "ko_title": "Not an eclipse, not sunset only",
+        "ko_line": "A daytime moon is an everyday event tied to where the Moon happens to be in the sky, not a rare alignment.",
+        "exp_title": "Sharing the sky with the Sun",
+        "exp_text": "Except close to new and full moon, the Moon rises and sets at times well apart from the Sun, which leaves it sitting above the horizon for long stretches of ordinary daylight. Its surface is lit brightly enough by direct sunlight that it can still stand out against the blue of a clear sky, the same way a bright cloud does. Whenever its position happens to place it up there while the Sun is out, it simply stays visible instead of waiting behind the horizon until dark."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the first quarter moon and the last quarter moon both look exactly half-lit, but on opposite sides?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the two quarters happen when the Moon sits on opposite sides of its orbit relative to the Sun",
+            "feedback": "Sitting on opposite sides of that right angle is exactly what makes the sunlit half show up on opposite edges of the disc."
+          },
+          {
+            "label": "Because the Moon rotates a half turn between the two",
+            "feedback": "The Moon's spin keeps the same face towards Earth throughout. It never flips around to show a different side."
+          },
+          {
+            "label": "Because Earth's shadow covers a different half each time",
+            "feedback": "Quarter phases have nothing to do with Earth's shadow. That only matters during a lunar eclipse."
+          },
+          {
+            "label": "Because the two quarters are the same event seen from different countries",
+            "feedback": "They are two separate points in the same orbit, roughly two weeks apart, not one moment seen from different places."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Opposite sides, opposite halves",
+        "ok_line": "The sunlit half flips which edge it sits on, depending which side of the right angle the Moon is on.",
+        "ko_title": "Not rotation, not shadow",
+        "ko_line": "The Moon's face towards us never changes; think about where in its orbit it sits relative to the Sun instead.",
+        "exp_title": "Two points, a right angle apart",
+        "exp_text": "A quarter moon happens when the line from the Moon to the Sun sits at a right angle to the line from the Moon to Earth, so sunlight grazes exactly half of the near face. The first quarter occurs with the Moon on one side of that right angle as it heads towards full, and the last quarter occurs on the other side as it heads back towards new. Since the two events sit on opposite sides of the same geometry, the half lit at one quarter is the mirror of the half lit at the other."
+      }
+    ]
+  }
+]

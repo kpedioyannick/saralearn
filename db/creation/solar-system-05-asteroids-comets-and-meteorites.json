@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 185,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is the actual difference between a meteoroid, a meteor and a meteorite?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are three different sizes of asteroid, from smallest to largest",
+            "feedback": "Size doesn't distinguish these three terms; the same small piece of rock can be called all three names at different moments."
+          },
+          {
+            "label": "A meteoroid is made of ice, a meteor of rock, and a meteorite of metal",
+            "feedback": "Composition doesn't decide which of these three names applies; the same object keeps its material makeup while its name changes."
+          },
+          {
+            "label": "The names mark different stages: a meteoroid before it enters the atmosphere, a meteor as the glowing streak it makes while burning through the air, and a meteorite if any of it survives to reach the ground",
+            "feedback": "The same small piece of rock or metal is called a meteoroid while still drifting through space, becomes a meteor the moment it hits the atmosphere fast enough to glow, and is called a meteorite only if a surviving fragment lands on the ground."
+          },
+          {
+            "label": "A meteor comes from a comet, a meteoroid from an asteroid, and a meteorite from beyond the solar system",
+            "feedback": "Origin doesn't decide the name either; a fragment from either a comet or an asteroid passes through all three stages the same way."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Three names, one object",
+        "ok_line": "The stage changes; the small piece of rock doesn't.",
+        "ko_title": "Not size, not material, not origin",
+        "ko_line": "The three words track what stage of its journey the object is at.",
+        "exp_title": "The same object, three stages of its journey",
+        "exp_text": "A small piece of rock or metal drifting through space is called a meteoroid, and stays a meteoroid regardless of what it's made of or where it came from. The instant it slams into the atmosphere fast enough to heat the air around it and glow, it becomes a meteor, the visible streak; if any part of it survives that passage and reaches the ground, that surviving piece earns the third name, meteorite."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a comet only grow its glowing tail as it nears the Sun, rather than having one throughout its whole orbit?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its ice only exists in the part of its orbit close to the Sun",
+            "feedback": "A comet carries its ice with it throughout its entire orbit; the ice doesn't appear only near the Sun, it's simply frozen and inactive while the comet is far away."
+          },
+          {
+            "label": "Solar heat vaporizes its frozen ices as it nears the Sun, releasing gas and dust that form the visible tail",
+            "feedback": "A comet spends most of its orbit far from the Sun, cold enough for its ices to stay frozen and inert, but as it swings closer growing heat begins to vaporize the surface ice directly into gas, which carries dust along with it."
+          },
+          {
+            "label": "Sunlight is only bright enough to make a tail visible when the comet is close",
+            "feedback": "The tail isn't just being lit up by nearby sunlight; the tail's material barely exists at all until sunlight is strong enough to vaporize the comet's ice and actually create it."
+          },
+          {
+            "label": "The Sun's gravity stretches the comet's body into a tail shape",
+            "feedback": "Gravity can stretch an object's orbit into a long path, but it doesn't pull loose gas and dust out into a glowing tail; that release comes from heat, not from a stretching force."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Heat wakes it up",
+        "ok_line": "Frozen and quiet far out; vaporizing and glowing up close.",
+        "ko_title": "Not disappearing ice, not just visibility, not stretching",
+        "ko_line": "The tail is only created once solar heat starts vaporizing the comet's surface.",
+        "exp_title": "Woken up by the Sun's heat",
+        "exp_text": "A comet spends most of its orbit far from the Sun, cold enough that the ices making up much of its body stay frozen and completely inert. As its path carries it close enough to the Sun, that heat begins vaporizing the surface ice directly into gas, and the escaping gas drags dust off the comet along with it, which is what forms the glowing tail that only appears while the comet is near enough to feel the Sun's warmth."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a comet's tail always stream away from the Sun, even on the part of its orbit where the comet is moving toward the Sun?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tail is simply left behind along the comet's path of travel, like smoke from a chimney",
+            "feedback": "A tail left behind by motion would trail along the direction the comet came from, not necessarily point straight away from the Sun; on part of its orbit that would put it pointing the wrong way entirely."
+          },
+          {
+            "label": "Gravity from the Sun bends the tail around to always face outward",
+            "feedback": "Gravity pulls the tail's particles toward the Sun, not away from it; something else has to be pushing the gas and dust outward."
+          },
+          {
+            "label": "The comet always travels tail-first, so the tail naturally points forward, away from the Sun",
+            "feedback": "A comet's tail doesn't always point in the direction of travel; on the way toward the Sun it would then have to point backward, yet it still streams outward, away from the Sun, not backward along the path."
+          },
+          {
+            "label": "Solar wind and the pressure of sunlight itself push the released gas and dust directly away from the Sun regardless of which way the comet is moving",
+            "feedback": "Once ice vaporizes off a comet into gas and dust, that loose material gets pushed by the constant outward pressure of sunlight and the stream of particles in the solar wind, both of which blow steadily outward from the Sun in every direction."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Blown, not left behind",
+        "ok_line": "Sunlight and solar wind push the gas outward, whichever way the comet moves.",
+        "ko_title": "Not a chimney trail, not gravity, not tail-first travel",
+        "ko_line": "The tail's direction comes from an outward push, not from the comet's own motion.",
+        "exp_title": "Blown outward by the Sun itself",
+        "exp_text": "Once ice vaporizes off a comet into gas and dust, that material is no longer tied to the comet's motion and instead gets pushed by the steady outward pressure of sunlight and the stream of solar wind particles, both of which blow outward from the Sun in every direction at once. That constant outward push always points the tail away from the Sun, regardless of whether the comet itself is approaching or receding at that point in its orbit."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do most asteroids stay confined to the belt between Mars and Jupiter instead of drifting toward the inner planets?",
+        "body": null,
+        "options": [
+          {
+            "label": "Most settled long ago into stable orbits within that region that keep them circling there rather than crossing into the inner solar system",
+            "feedback": "The asteroid belt is made of rocky leftovers from the region between Mars and Jupiter that never merged into a planet, and most of those pieces settled long ago into fairly stable, roughly circular orbits confined to that band."
+          },
+          {
+            "label": "The Sun's gravity is too weak that far out to pull them any closer",
+            "feedback": "The Sun's gravity reaches every asteroid in the belt strongly enough to hold each one in orbit; weak gravity isn't what's keeping them out of the inner solar system."
+          },
+          {
+            "label": "Jupiter's gravity has flung every single asteroid there into a locked, unchanging position",
+            "feedback": "Asteroids in the belt are still constantly orbiting the Sun, not locked motionless in place; Jupiter's gravity stirs some of them but the vast majority simply keep circling in the region where they formed."
+          },
+          {
+            "label": "They are held there by an invisible ring of ice at the belt's outer edge",
+            "feedback": "No such ring of ice surrounds or contains the asteroid belt; what keeps most asteroids there is simply the stable orbit each one settled into long ago."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Circling where they've always circled",
+        "ok_line": "Stable orbits keep most of them right there in the belt.",
+        "ko_title": "Not weak gravity, not locked in place, not an ice ring",
+        "ko_line": "Most asteroids simply settled into orbits that keep them within the belt.",
+        "exp_title": "Orbits that never needed to change",
+        "exp_text": "The asteroid belt is made of rocky leftovers from the region between Mars and Jupiter that never merged into a planet, and most of those pieces settled long ago into fairly stable, roughly circular orbits confined to that band. Jupiter's gravity does occasionally disturb one enough to send it looping toward the inner solar system, but the great majority simply keep circling in the orbits they've held since the solar system was young."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a small piece of space rock glow so brightly as it streaks across the night sky?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is literally burning as fuel, the way a flame consumes wood",
+            "feedback": "There's no combustion in the usual sense of a fire feeding on fuel and oxygen at a steady burn; the glow comes from a much faster, more violent process than ordinary burning."
+          },
+          {
+            "label": "It slams into the air so fast that it violently compresses and heats the air ahead of it, vaporizing the rock and making both glow",
+            "feedback": "A meteoroid enters the atmosphere at an enormous speed, and moving that fast through air compresses and heats the gas directly in front of it far more violently than any ordinary friction would, vaporizing the outer layers of the rock."
+          },
+          {
+            "label": "Its own internal heat, carried from space, finally reaches the surface and shows through",
+            "feedback": "A small piece of rock or metal drifting through the near-vacuum of space is extremely cold, not internally hot; the heat that makes it glow is generated during entry, not carried with it from before."
+          },
+          {
+            "label": "Reflected moonlight makes it visible only at certain angles",
+            "feedback": "The glow is its own light, produced by intense heat, not sunlight or moonlight simply bouncing off a dark object; it would glow the same way with no moon in the sky at all."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Compressed air, not fuel",
+        "ok_line": "Speed alone heats the air enough to vaporize the rock.",
+        "ko_title": "Not literal burning, not carried heat, not reflected light",
+        "ko_line": "The heat is generated the instant it hits the atmosphere, by how fast it's moving.",
+        "exp_title": "Heated by speed, not by fuel",
+        "exp_text": "A meteoroid slams into the atmosphere at an enormous speed, and moving that fast through air compresses and heats the gas directly ahead of it far more intensely than ordinary friction ever could. That extreme heat vaporizes the outer layers of the rock and ionizes the surrounding air, and it's the glowing, superheated trail this leaves behind that appears as a meteor streaking across the sky."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do most small meteoroids burn up completely before ever reaching the ground?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's magnetic field vaporizes them on approach",
+            "feedback": "A magnetic field acts on charged particles, not on the neutral rock and metal a meteoroid is made of; it isn't what destroys them."
+          },
+          {
+            "label": "They are deliberately destroyed by collisions with satellites in orbit",
+            "feedback": "Human-made satellites are far too sparse and far too small a target for collisions with them to account for meteoroids disappearing; almost none ever come near one."
+          },
+          {
+            "label": "Their small size means the intense heat generated crossing the thick lower atmosphere is enough to vaporize them entirely before they get close to the ground",
+            "feedback": "A small meteoroid carries relatively little mass compared with the surface area exposed to the atmosphere, so the intense heat generated by compression as it plunges into thicker air has comparatively little material to work through before vaporizing it completely."
+          },
+          {
+            "label": "The ground's own heat radiating upward destroys them just above the surface",
+            "feedback": "Ground-level heat is far too mild, and reaches nowhere near high enough into the sky, to have any effect on an object streaking through the upper atmosphere."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Too little to survive the heat",
+        "ok_line": "Small size means the heat has hardly anything to burn through.",
+        "ko_title": "Not magnetism, not satellites, not ground heat",
+        "ko_line": "It's the meteoroid's own small size against the heat of entry that decides survival.",
+        "exp_title": "Too little material to outlast the heat",
+        "exp_text": "A small meteoroid has relatively little mass behind the surface area exposed to the atmosphere, so as it plunges into thicker and thicker air, the intense heat generated by compression ahead of it has comparatively little material to burn through before consuming the whole thing. Only an object carrying enough mass to begin with can have anything substantial left over once it has crossed the thickest, hottest part of its passage through the air."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do certain meteor showers appear in the night sky on roughly the same dates every single year?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's orbit crosses the trail of dust shed by a particular comet at the same point in its journey around the Sun each year",
+            "feedback": "A comet sheds a trail of dust along its own orbital path each time it passes near the Sun, and that dust stays roughly fixed in place; Earth's orbit crosses that same trail at the same point in its yearly journey around the Sun."
+          },
+          {
+            "label": "The Moon's phase lines up the same way at those specific dates",
+            "feedback": "The Moon's phase shifts against the calendar from year to year and has no fixed link to a shower's timing; a shower can occur under any phase of the Moon."
+          },
+          {
+            "label": "Comets themselves pass close to Earth on those same dates every year",
+            "feedback": "The comet responsible for a given shower is usually far away and passes near the Sun only rarely; it isn't the comet itself returning annually, but Earth crossing debris the comet left behind."
+          },
+          {
+            "label": "The asteroid belt lines up with Earth's orbit on those dates",
+            "feedback": "The asteroid belt sits much farther out and doesn't intersect Earth's orbital path at all; meteor showers come from cometary dust trails, not from the belt."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Crossing the same dust trail",
+        "ok_line": "The dust stays put in its own orbit; Earth crosses it at the same spot yearly.",
+        "ko_title": "Not the Moon, not the comet's return, not the asteroid belt",
+        "ko_line": "It's Earth's own repeating orbit meeting a fixed trail of comet dust.",
+        "exp_title": "The same crossing, year after year",
+        "exp_text": "A comet sheds a trail of dust along its own orbital path each time it passes near the Sun, and that dust spreads out and stays roughly fixed in place along that path rather than following the comet away. Earth's orbit around the Sun crosses that same dust trail at the same point every year, so each time Earth reaches that spot again it plows through the same cloud of debris, lighting up a meteor shower on close to the same date."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some comets take an enormous stretch of time to return, while most asteroids complete an orbit far more quickly?",
+        "body": null,
+        "options": [
+          {
+            "label": "Comets move much more slowly than asteroids at every point in their orbit",
+            "feedback": "A comet actually moves fastest of all when it swings closest to the Sun; it isn't uniformly slower than an asteroid, it just spends most of its time on a much longer path far away."
+          },
+          {
+            "label": "Asteroids are pulled by extra gravity from nearby planets that speeds their orbit up",
+            "feedback": "Nearby planets can nudge an asteroid's path slightly, but that isn't the main reason asteroids complete their orbits sooner; it comes down to how far out their orbit reaches in the first place."
+          },
+          {
+            "label": "Comets have much more mass than asteroids, and heavier objects orbit more slowly",
+            "feedback": "An object's own mass has essentially no effect on how long its orbit takes; a heavy comet and a light asteroid on the same-sized path would take the same time to complete it."
+          },
+          {
+            "label": "Many comets originate far out toward the edge of the solar system, so their orbits stretch out over a vastly larger distance than a typical asteroid's",
+            "feedback": "Many comets originate in a distant reservoir of icy bodies far beyond the outer planets, and their orbits stretch from that remote region all the way in toward the Sun and back out again, covering an enormous distance on each round trip."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "A far bigger loop to complete",
+        "ok_line": "Farther origin, longer path, longer time to come back.",
+        "ko_title": "Not slower speed, not extra pull, not extra mass",
+        "ko_line": "It comes down to how far out the orbit reaches, not speed or mass.",
+        "exp_title": "A loop stretched out to the edge and back",
+        "exp_text": "Many comets originate in a distant reservoir of icy material far beyond the outer planets, and their orbits carry them from that remote region all the way in toward the Sun and back out again, covering an enormous span of the solar system on each trip. A typical asteroid's orbit stays confined to a much smaller loop nearer the Sun, so it has a far shorter path to retrace and returns to the same point again and again much sooner."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are impact craters almost always round, even when the object that made them struck the surface at a shallow, glancing angle?",
+        "body": null,
+        "options": [
+          {
+            "label": "The impacting object always tumbles into a round shape just before hitting",
+            "feedback": "An incoming meteoroid or asteroid doesn't reshape itself into a sphere mid-flight; whatever shape it had on approach has nothing to do with the crater's own shape."
+          },
+          {
+            "label": "Erosion afterward wears every crater into a circle no matter its original shape",
+            "feedback": "Plenty of craters, especially on airless worlds, show no erosion at all and still come out round from the very moment of impact, so erosion isn't what's rounding them."
+          },
+          {
+            "label": "The collision releases its energy in an explosive burst that pushes material outward symmetrically in all directions, rather than simply digging a trench in the direction of travel",
+            "feedback": "An impact at these speeds releases its energy almost instantly, more like an explosion than a scoop digging a trench, and that explosive release pushes material outward from the impact point roughly equally in every direction."
+          },
+          {
+            "label": "Only objects that happen to strike straight down produce a crater at all",
+            "feedback": "Craters form from impacts at a very wide range of angles, not just straight-down hits; shallow, glancing impacts still leave round craters, they just tend to shift where the deepest point sits."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "An explosion, not a scoop",
+        "ok_line": "Energy blasts outward evenly, whatever angle the object came in at.",
+        "ko_title": "Not tumbling, not erosion, not straight-down only",
+        "ko_line": "It's how the impact energy is released, not the impactor's shape or angle.",
+        "exp_title": "Shaped by an explosion, not a scoop",
+        "exp_text": "An object striking a surface at the speeds typical of meteoroids and asteroids releases its enormous energy almost instantly, behaving far more like a buried explosion than a shovel digging into the ground. That explosive release pushes material outward from the impact point in roughly every direction at once, and since that outward push, rather than the direction the object was travelling, is what carves the crater's shape, even a strike at a shallow, glancing angle still leaves behind a crater that comes out essentially round."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do a small number of asteroids have their own tiny moons orbiting them?",
+        "body": null,
+        "options": [
+          {
+            "label": "Every asteroid captures a moon eventually, given enough time passing near planets",
+            "feedback": "Only a small fraction of asteroids are known to have moons; having one isn't a fate that every asteroid eventually reaches."
+          },
+          {
+            "label": "A collision or a close gravitational encounter can leave debris, or an entire second body, orbiting the surviving asteroid",
+            "feedback": "A collision between two asteroids can throw off debris that doesn't have enough speed to escape the surviving body's weak gravity, and that debris can settle into orbit as a small moon instead of scattering away."
+          },
+          {
+            "label": "Asteroids generate moons internally through volcanic activity, the same way some planets are thought to",
+            "feedback": "Asteroids are far too small and cold to have any internal volcanic activity capable of producing material that becomes a moon."
+          },
+          {
+            "label": "Every asteroid with a moon was originally a single body that split perfectly in two",
+            "feedback": "A clean, even split into two nearly equal halves isn't the typical origin; more often it's debris from a collision, or a smaller object drawn into orbit by a close encounter, rather than one body dividing evenly."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Leftovers that stayed in orbit",
+        "ok_line": "Debris or a captured neighbour, held by weak but real gravity.",
+        "ko_title": "Not universal, not volcanic, not an even split",
+        "ko_line": "A moon around an asteroid usually traces back to a collision or a close encounter.",
+        "exp_title": "Debris that never quite escaped",
+        "exp_text": "When two asteroids collide, some of the debris thrown off doesn't have enough speed to escape the gravity of the larger surviving body, weak as that gravity is, and instead settles into orbit around it as a small moon. A close encounter between two asteroids that doesn't end in collision can occasionally produce something similar, with one body's gravity catching the other into a loose, lasting orbit."
+      }
+    ]
+  }
+]

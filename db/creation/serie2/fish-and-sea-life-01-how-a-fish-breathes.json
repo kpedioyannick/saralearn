@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the thin, feathery structures inside a fish's gills that actually take in oxygen?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Gill filaments",
+            "feedback": "Correct. Gill filaments are the soft, feathery threads inside the gills. They are packed with tiny blood vessels that pick up oxygen from the water as it flows over them."
+          },
+          {
+            "label": "Gill rakers",
+            "feedback": "Not quite. Gill rakers are the stiff, bony projections on the front of the gill arch. They filter food and debris from the water, but they do not take in oxygen."
+          },
+          {
+            "label": "Gill arches",
+            "feedback": "That's not right. Gill arches are the curved, bony rods that support the gill filaments. They hold the gill structure together but are not the surface where oxygen is absorbed."
+          },
+          {
+            "label": "Gill slits",
+            "feedback": "Incorrect. Gill slits are the openings on the outside of the fish's head where water exits after passing over the filaments. They are not the oxygen-absorbing structures."
+          }
+        ],
+        "ok_title": "Gill filaments",
+        "ok_line": "These soft, feathery threads pull oxygen from water.",
+        "ko_title": "Check the parts",
+        "ko_line": "Filaments absorb, rakers filter, arches support, slits let water out.",
+        "exp_title": "The oxygen-absorbing parts",
+        "exp_text": "A fish's gill is made of several parts. The gill filaments are the thin, feathery structures that actually take oxygen from water. Each filament is covered with even smaller projections called lamellae, which are packed with blood vessels. As water flows over the filaments, oxygen passes through the thin walls into the blood. The rakers, arches, and slits have different jobs and do not absorb oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a fish's mouth and throat is used to push water over the gills?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The teeth",
+            "feedback": "No, the teeth are for biting and holding food. They do not help move water. The structure that creates the water flow is the operculum and the muscles of the mouth floor."
+          },
+          {
+            "label": "The tongue",
+            "feedback": "Not correct. The tongue is a small, mostly inactive flap in a fish's mouth. It does not pump water. The water movement comes from the gill cover and lower jaw."
+          },
+          {
+            "label": "The gill cover",
+            "feedback": "Correct. The gill cover (operculum) is the bony flap at the side of the head. When the fish opens its mouth and lifts the cover, water is drawn in and then pushed out over the gills as the cover closes down."
+          },
+          {
+            "label": "The gill arch",
+            "feedback": "That's wrong. The gill arch is a bony rod that holds the filaments. It is not involved in pumping water. Water is moved by the gill cover and mouth floor muscles."
+          }
+        ],
+        "ok_title": "Gill cover pumps",
+        "ok_line": "The operculum opens and closes to push water over the gills.",
+        "ko_title": "Pump misidentified",
+        "ko_line": "The gill cover, not teeth, tongue, or arch, drives water flow.",
+        "exp_title": "How water moves through",
+        "exp_text": "A fish breathes by moving water over its gills. The main pumping organ is the gill cover, called the operculum. When the fish opens its mouth and lifts the gill cover, water flows in. Then the cover closes down and the mouth floor rises, forcing water out through the gill slits, over the filaments. Teeth, tongue, and arches are not involved in this pumping."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of the tiny blood vessels inside the gill filaments?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To pump water through the gills",
+            "feedback": "No, blood vessels do not pump water. That job belongs to the gill cover and mouth muscles. Blood vessels carry blood and exchange gases."
+          },
+          {
+            "label": "To pick up oxygen and release carbon dioxide",
+            "feedback": "Correct. The blood vessels in the filaments are thin-walled and close to the water. Oxygen moves from the water into the blood, and carbon dioxide passes from the blood into the water."
+          },
+          {
+            "label": "To trap food particles in the water",
+            "feedback": "Incorrect. Trapping food is the job of the gill rakers, not the blood vessels. Blood vessels are for gas exchange only."
+          },
+          {
+            "label": "To store extra oxygen for later use",
+            "feedback": "No. A fish does not store oxygen in the gills. The blood vessels continuously absorb oxygen from the water as it flows, and the oxygen is used right away."
+          }
+        ],
+        "ok_title": "Gas exchange happens",
+        "ok_line": "Tiny vessels in the filaments swap oxygen for carbon dioxide.",
+        "ko_title": "Vessels vs. other parts",
+        "ko_line": "Blood vessels exchange gases, not pump water, trap food, or store oxygen.",
+        "exp_title": "Where oxygen enters blood",
+        "exp_text": "Inside each gill filament are countless tiny blood vessels called capillaries. Their walls are very thin, so oxygen from the water can easily pass into the blood, and carbon dioxide from the blood passes out into the water. This swapping of gases is the whole purpose of breathing. The vessels do not move water, filter food, or store oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which gas does a fish remove from its blood and release into the water through its gills?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "No, oxygen is taken in, not released. A fish's gills absorb oxygen from water. The waste gas that leaves the blood is carbon dioxide."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Not correct. Nitrogen is not removed through the gills. Fish release carbon dioxide, which is a waste product of their body's energy use."
+          },
+          {
+            "label": "Hydrogen",
+            "feedback": "Incorrect. Hydrogen is not a gas exchanged by fish gills. The gas that moves out of the blood is carbon dioxide."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Correct. Carbon dioxide is the waste gas produced by the fish's cells. It diffuses out of the blood into the water passing over the gill filaments."
+          }
+        ],
+        "ok_title": "Waste gas out",
+        "ok_line": "Fish breathe out carbon dioxide into the water.",
+        "ko_title": "Wrong gas direction",
+        "ko_line": "Oxygen comes in, carbon dioxide goes out, not the other way.",
+        "exp_title": "CO2 leaves through gills",
+        "exp_text": "Fish, like all animals, produce carbon dioxide as a waste product of getting energy from food. This gas travels in the blood to the gills, where it passes out through the thin walls of the gill filaments into the water. Oxygen moves in the opposite direction, from the water into the blood."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a fish's operculum do besides protecting the gills?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It helps the fish taste the water",
+            "feedback": "No, tasting is done by taste buds on the skin and in the mouth, not the gill cover. The operculum is for protection and pumping water."
+          },
+          {
+            "label": "It stores air for the fish to breathe",
+            "feedback": "No. Fish do not store air in the gill cover. The operculum is a bony flap, not an air sac. Breathing is done by absorbing oxygen from water."
+          },
+          {
+            "label": "It pumps water over the gills",
+            "feedback": "Correct. The operculum moves back and forth, helping to draw water in through the mouth and push it out over the gills so the fish can breathe even without swimming."
+          },
+          {
+            "label": "It keeps the fish from floating upward",
+            "feedback": "Incorrect. Controlling buoyancy is the job of the swim bladder, not the gill cover. The operculum is about protecting and ventilating the gills."
+          }
+        ],
+        "ok_title": "Operculum double duty",
+        "ok_line": "It shields gills and pumps water for breathing.",
+        "ko_title": "Mixed up with other organs",
+        "ko_line": "The gill cover pumps water; it doesn't taste, store air, or float.",
+        "exp_title": "What the gill cover does",
+        "exp_text": "The operculum, or gill cover, is a tough, bony flap on the side of a bony fish's head. It protects the delicate gill filaments from damage. But it also has a second job: by opening and closing, it actively pumps water over the gills. This lets the fish breathe while staying still, without having to swim to force water through."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which direction does water pass over a fish's gills when the fish breathes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "From the mouth, over the gills, and out through the gill slits",
+            "feedback": "Correct. Water enters through the mouth, passes over the gill filaments where oxygen is absorbed, and exits through the opening covered by the operculum. This one-way flow keeps the gills continuously bathed in fresh water."
+          },
+          {
+            "label": "From the gill slits, over the gills, and out through the mouth",
+            "feedback": "No, that is the reverse direction. Water always enters through the mouth and leaves through the gill slits, not the other way around."
+          },
+          {
+            "label": "In and out through the same opening in the side of the head",
+            "feedback": "That would make the flow irregular. Fish have a single, continuous path: in through the mouth, out through the gill openings, not back and forth through one hole."
+          },
+          {
+            "label": "Straight through the top of the fish's head",
+            "feedback": "No, there is no opening on the top of the head for breathing. Water travels from the mouth to the gill slits on the sides."
+          }
+        ],
+        "ok_title": "One-way water flow",
+        "ok_line": "Water goes in the mouth and out the gill slits.",
+        "ko_title": "Flow direction reversed",
+        "ko_line": "Always mouth to gill slits, never the reverse.",
+        "exp_title": "Path of water through gills",
+        "exp_text": "A fish breathes by taking water in through its mouth. The water then flows backward over the gill filaments, which are positioned on both sides of the head. After the oxygen has been absorbed, the water passes out through the gill slits, which are under the operculum. This one-way flow is important because it ensures a steady supply of fresh water and oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a fish often open and close its mouth while swimming slowly?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "To taste the water",
+            "feedback": "No, tasting is done by taste buds, and opening and closing the mouth isn't for tasting. It is a breathing movement that pushes water over the gills."
+          },
+          {
+            "label": "To swallow small fish whole",
+            "feedback": "Wrong. Mouth movements happen all the time, not just when eating. They are most often the rhythmic action of pumping water over the gills."
+          },
+          {
+            "label": "To scare off predators",
+            "feedback": "No. Displaying the open mouth can be a threat in some fish, but the steady rhythm while swimming is clearly for breathing, not intimidation."
+          },
+          {
+            "label": "To force water over its gills",
+            "feedback": "Correct. When a fish opens its mouth, water flows in; when it closes, the water is pushed out over the gills. This pumping action keeps fresh water moving across the filaments even when the fish isn't swimming fast."
+          }
+        ],
+        "ok_title": "Mouth = breathing pump",
+        "ok_line": "Opening and closing drives water over the gills.",
+        "ko_title": "Mouth rhythm misread",
+        "ko_line": "The steady motion is for respiration, not tasting, eating, or threat.",
+        "exp_title": "Why the mouth moves",
+        "exp_text": "Fish need a constant flow of water over their gills to breathe. When swimming slowly or resting, many fish actively pump water by opening and closing their mouth and gill cover. Opening the mouth lets water rush in; closing it forces that water out through the gills, where oxygen is taken up. This rhythmic movement is an automatic breathing action, not a sign of feeding or stress."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the amount of oxygen in the water after it passes over a fish's gills?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stays the same",
+            "feedback": "No, that would mean no oxygen was absorbed. The gills are there exactly to remove oxygen, so the water leaving has less oxygen than the water entering."
+          },
+          {
+            "label": "It decreases",
+            "feedback": "Correct. The gill filaments absorb oxygen from the water into the fish's blood, so the water that exits through the gill slits contains less oxygen than the water that entered the mouth."
+          },
+          {
+            "label": "It increases",
+            "feedback": "Incorrect. Water cannot gain oxygen as it passes through the fish. Oxygen only moves from water into the blood, so the level goes down, not up."
+          },
+          {
+            "label": "It becomes pure carbon dioxide",
+            "feedback": "That's not right. The water picks up some carbon dioxide, but it remains mostly water with a little dissolved gas. It is not turned into pure carbon dioxide."
+          }
+        ],
+        "ok_title": "Oxygen is removed",
+        "ok_line": "Water leaves the gills with less oxygen.",
+        "ko_title": "Oxygen level wrong",
+        "ko_line": "Gills take oxygen out, so the water exiting has less.",
+        "exp_title": "Oxygen drop across gills",
+        "exp_text": "As water flows over the gill filaments, oxygen molecules pass from the water through the thin walls of the blood vessels into the fish's blood. This means the water that exits through the gill slits has a lower oxygen content than the water that entered through the mouth. The drop in oxygen is how you can tell the gills are doing their job of extracting dissolved oxygen from the environment."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a fish take oxygen from water but not from air?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because air has no oxygen in it",
+            "feedback": "No, air actually has much more oxygen than water. The problem is not the amount of oxygen, but that a fish's gills need water to stay spread out and functioning."
+          },
+          {
+            "label": "Because fish lungs are not made for air",
+            "feedback": "No, fish do not have lungs. They have gills, which are built to exchange gases with water, not with air."
+          },
+          {
+            "label": "Because their gill filaments collapse and stick together in air",
+            "feedback": "Correct. In water, the filaments are spread apart. In air, they clump together, reducing the surface area so much that almost no oxygen can be absorbed. Also, air dries out the gills."
+          },
+          {
+            "label": "Because water is denser than air",
+            "feedback": "That is true, but it's not the reason. The key is that the gills need a watery medium to keep their filaments open and moist. Density itself isn't the obstacle."
+          }
+        ],
+        "ok_title": "Gills need water",
+        "ok_line": "In air, gill filaments collapse and stick together.",
+        "ko_title": "Air vs. water breathing",
+        "ko_line": "Gills are designed for water; air causes them to clump and dry.",
+        "exp_title": "Why fish drown in air",
+        "exp_text": "A fish's gills are made of many thin, soft filaments that in water stand apart, giving a huge surface for absorbing oxygen. In air, these filaments lose their support and clump together, so the surface area drops drastically. Also, air evaporates moisture from the gills. Even though air has more oxygen than water, a fish cannot extract enough, which is why it can suffocate out of water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where on a fish's body are the gills located?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "On the sides of the head, behind the eyes",
+            "feedback": "Correct. The gills sit on both sides of a fish's head, just behind the eyes. They are covered and protected by the operculum."
+          },
+          {
+            "label": "On the belly, near the anus",
+            "feedback": "No, the belly area contains internal organs, not gills. Gills are positioned on the head, near the mouth, so water can pass in and out easily."
+          },
+          {
+            "label": "Along the middle of the back",
+            "feedback": "Incorrect. The back is where the dorsal fin and spine are, not gills. Gills are only on the sides of the head."
+          },
+          {
+            "label": "Inside the tail fin",
+            "feedback": "No. The tail fin is for propulsion and steering, not breathing. Gills are always on the head, behind the jaw."
+          }
+        ],
+        "ok_title": "Gill position on head",
+        "ok_line": "Gills sit on both sides, behind the eyes and mouth.",
+        "ko_title": "Location misplaced",
+        "ko_line": "Gills are head-side organs, not on belly, back, or tail.",
+        "exp_title": "Where to find the gills",
+        "exp_text": "On a bony fish, the gills are positioned on each side of the head, just behind the eyes and below the back of the jaw. This placement lets water coming in through the mouth flow directly over them and then out through the gill slits. The gill cover (operculum) shields them from damage. No other part of the body has gills."
+      }
+    ]
+  }
+]

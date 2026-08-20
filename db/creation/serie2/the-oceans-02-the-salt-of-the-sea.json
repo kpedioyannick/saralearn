@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 232,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main chemical compound that makes seawater salty?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sodium chloride",
+            "feedback": "Correct — sodium chloride, commonly known as table salt, makes up about 85% of the dissolved salts in seawater."
+          },
+          {
+            "label": "Calcium carbonate",
+            "feedback": "Calcium carbonate is the substance that builds shells and coral skeletons, but it is not the main salt in seawater."
+          },
+          {
+            "label": "Magnesium sulfate",
+            "feedback": "Magnesium sulfate exists in seawater, but it is much less abundant than sodium chloride."
+          },
+          {
+            "label": "Potassium nitrate",
+            "feedback": "Potassium nitrate is a plant nutrient found in small amounts, not the dominant salt in the ocean."
+          }
+        ],
+        "ok_title": "Main sea salt",
+        "ok_line": "Sodium chloride is the most abundant salt in seawater.",
+        "ko_title": "Wrong compound",
+        "ko_line": "Remember that the dominant salt is ordinary table salt.",
+        "exp_title": "Salt composition of seawater",
+        "exp_text": "Seawater contains many dissolved salts, but sodium chloride is by far the most common. It gives the ocean its characteristic salty taste and is the reason salt can easily be harvested from evaporated seawater."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the saltiness of the open ocean typically compare from one region to another?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It varies wildly for no reason",
+            "feedback": "The open ocean's saltiness does vary, but not wildly — it stays within a narrow range because ocean currents mix the water thoroughly."
+          },
+          {
+            "label": "It is fairly similar everywhere",
+            "feedback": "Correct — the open ocean's salt content stays fairly uniform because currents constantly mix water, so differences get smoothed out."
+          },
+          {
+            "label": "It is always highest near the equator",
+            "feedback": "Near the equator, heavy rainfall dilutes the water, so salinity is often lower than in subtropical regions where evaporation is strong."
+          },
+          {
+            "label": "It decreases steadily from north to south",
+            "feedback": "There is no steady north–south trend; salinity depends on local balance of evaporation, rain, and river inflow."
+          }
+        ],
+        "ok_title": "Uniform ocean salt",
+        "ok_line": "Ocean currents keep the open sea's salt content fairly even.",
+        "ko_title": "Not regionally random",
+        "ko_line": "Salinity stays within a narrow range because the ocean mixes.",
+        "exp_title": "Salinity in the open ocean",
+        "exp_text": "Although river mouths and enclosed seas can be more or less salty, the open ocean is well mixed by currents, so its salinity stays between about 33 and 37 grams of salt per kilogram of water almost everywhere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the average salt concentration of seawater, measured in grams per kilogram?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "10 grams per kilogram",
+            "feedback": "That is far too low — seawater would taste only mildly salty at that level; the real average is about 35 grams."
+          },
+          {
+            "label": "50 grams per kilogram",
+            "feedback": "That is too high — such a concentration would be found only in extreme closed basins, not in the open ocean."
+          },
+          {
+            "label": "35 grams per kilogram",
+            "feedback": "Correct — seawater averages about 35 grams of dissolved salt per kilogram of water, roughly 3.5% by weight."
+          },
+          {
+            "label": "20 grams per kilogram",
+            "feedback": "That is below the typical range; even the less salty open ocean rarely drops that low."
+          }
+        ],
+        "ok_title": "Average salinity",
+        "ok_line": "Seawater has about 35 grams of salt per kilogram.",
+        "ko_title": "Check the number",
+        "ko_line": "The standard value is 35, not 10, 20, or 50.",
+        "exp_title": "Salinity measurement",
+        "exp_text": "Salinity is expressed as grams of dissolved salt per kilogram of seawater. The average is 35, meaning that out of 1000 grams of seawater, about 35 grams are salts and the rest is pure water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the salt content of seawater when it evaporates?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The salt evaporates with the water",
+            "feedback": "Salt does not evaporate; only pure water turns into vapour, leaving the salt behind."
+          },
+          {
+            "label": "The salt disappears into the air",
+            "feedback": "Salt is left behind, not carried away — evaporation removes water, not dissolved ions."
+          },
+          {
+            "label": "The salt stays the same but the water stays too",
+            "feedback": "Evaporation removes water, so the remaining water becomes more concentrated with salt."
+          },
+          {
+            "label": "The salt becomes more concentrated in the remaining water",
+            "feedback": "Correct — as water evaporates, the same amount of salt is left in less water, so salinity rises."
+          }
+        ],
+        "ok_title": "Evaporation effect",
+        "ok_line": "Evaporation leaves salt behind, making the water saltier.",
+        "ko_title": "Salt stays put",
+        "ko_line": "Only water evaporates, so salt concentration increases.",
+        "exp_title": "Evaporation and salinity",
+        "exp_text": "When seawater evaporates, water molecules turn into vapour and leave, but dissolved salts remain. This is why enclosed seas in hot, dry regions, like the Red Sea, become saltier than the open ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is a major natural source of salt that ends up in the ocean?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Weathering of rocks on land",
+            "feedback": "Correct — rain and rivers dissolve minerals from rocks and carry the ions into the sea."
+          },
+          {
+            "label": "Volcanic eruptions under the sea",
+            "feedback": "Volcanoes do release some minerals, but the main long-term source is rock weathering on continents."
+          },
+          {
+            "label": "Melting of polar ice caps",
+            "feedback": "Ice caps are made of fresh water, so their melting dilutes the ocean rather than adding salt."
+          },
+          {
+            "label": "Falling space dust",
+            "feedback": "Space dust is not a meaningful source of the vast salt load in the oceans."
+          }
+        ],
+        "ok_title": "Salt origin",
+        "ok_line": "Rivers carry dissolved minerals from rocks into the sea.",
+        "ko_title": "Not from ice or dust",
+        "ko_line": "Rock weathering on land is the primary salt source.",
+        "exp_title": "Where ocean salt comes from",
+        "exp_text": "Rain and carbon dioxide slowly weather rocks on land, releasing dissolved ions like sodium and chloride. Rivers transport these ions to the ocean, where they accumulate over millions of years."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does seawater taste saltier near the surface in hot, dry regions?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because rivers bring more salt there",
+            "feedback": "Rivers actually dilute salinity near their mouths; the high surface salinity in hot dry regions comes from evaporation, not river input."
+          },
+          {
+            "label": "Because rapid evaporation removes water but leaves salt",
+            "feedback": "Correct — strong sunshine and dry air evaporate water quickly, concentrating the salt in the remaining surface water."
+          },
+          {
+            "label": "Because cold water sinks and leaves salt behind",
+            "feedback": "Cold water sinking is related to deep currents, but it does not make the surface saltier; evaporation is the cause."
+          },
+          {
+            "label": "Because fish secrete salt near the surface",
+            "feedback": "Fish do not add significant salt to the ocean; their bodies maintain internal salt balance without affecting sea salinity."
+          }
+        ],
+        "ok_title": "Hot dry seas",
+        "ok_line": "Evaporation concentrates salt in surface waters of dry regions.",
+        "ko_title": "Evaporation, not rivers",
+        "ko_line": "High surface salinity comes from water loss, not added salt.",
+        "exp_title": "Surface salinity in dry zones",
+        "exp_text": "In subtropical belts around 30 degrees latitude, clear skies and strong winds drive high evaporation. The ocean surface loses fresh water, so the remaining water becomes more saline than elsewhere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the measure of how much salt is dissolved in a body of water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Density",
+            "feedback": "Density is how heavy the water is for its volume, not specifically about salt content."
+          },
+          {
+            "label": "Turbidity",
+            "feedback": "Turbidity measures how cloudy or murky the water is, not its salt content."
+          },
+          {
+            "label": "Salinity",
+            "feedback": "Correct — salinity is the term for the concentration of dissolved salts in water."
+          },
+          {
+            "label": "Viscosity",
+            "feedback": "Viscosity describes how thick or resistant to flow a fluid is, unrelated to salt."
+          }
+        ],
+        "ok_title": "Term for saltiness",
+        "ok_line": "Salinity is the measure of dissolved salt in water.",
+        "ko_title": "Different property",
+        "ko_line": "Saltiness has its own name, not density or turbidity.",
+        "exp_title": "Definition of salinity",
+        "exp_text": "Salinity is the total amount of dissolved salts in a given mass of water, usually reported in grams per kilogram. It is the standard way scientists describe how salty seawater is."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which process removes salt from the ocean over long time scales?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Evaporation of seawater",
+            "feedback": "Evaporation only removes water, not salt — it actually increases salinity in the remaining water."
+          },
+          {
+            "label": "Freezing of sea ice",
+            "feedback": "Freezing removes fresh water and leaves salt behind, making the remaining water saltier, not less."
+          },
+          {
+            "label": "Drinking by marine animals",
+            "feedback": "Marine animals use salt for their own bodies but do not remove it from the ocean on a global scale."
+          },
+          {
+            "label": "Formation of sedimentary rocks",
+            "feedback": "Correct — when salt precipitates out of evaporating water and gets buried, it is locked away in rock layers."
+          }
+        ],
+        "ok_title": "Salt removal",
+        "ok_line": "Salt is removed when it becomes part of sedimentary rocks.",
+        "ko_title": "Not by evaporation",
+        "ko_line": "Evaporation concentrates salt; rock formation removes it.",
+        "exp_title": "Long-term salt budget",
+        "exp_text": "Over millions of years, salt enters oceans from rivers and is removed when evaporites like halite form in isolated basins and get buried. This keeps ocean salinity from increasing forever."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does freshwater freeze at a higher temperature than seawater?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dissolved salt lowers the freezing point of water",
+            "feedback": "Correct — salt interferes with water molecules forming ice, so seawater must get colder than 0°C before freezing."
+          },
+          {
+            "label": "Salt makes water molecules move faster",
+            "feedback": "Salt does not speed up molecules; it disrupts ice crystal formation, lowering the freezing temperature."
+          },
+          {
+            "label": "Seawater has more impurities that warm it",
+            "feedback": "Impurities are not a source of heat; they affect freezing by changing the water's properties."
+          },
+          {
+            "label": "Freshwater is denser than seawater",
+            "feedback": "Seawater is denser than freshwater, but density does not directly determine freezing temperature in this way."
+          }
+        ],
+        "ok_title": "Freezing point drop",
+        "ok_line": "Salt lowers the temperature at which water freezes.",
+        "ko_title": "Salt changes freezing",
+        "ko_line": "Seawater freezes below 0°C because of dissolved salts.",
+        "exp_title": "Why seawater freezes colder",
+        "exp_text": "Dissolved ions like sodium and chloride get in the way of water molecules lining up to form ice crystals. This means seawater needs to cool to about -1.9°C before it freezes, compared to 0°C for pure water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the salt concentration of the water just beneath forming sea ice compare with the water around it?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It is lower because salt gets trapped in ice",
+            "feedback": "Sea ice actually excludes most salt — it stays in the liquid, not in the ice."
+          },
+          {
+            "label": "It is higher because salt is pushed out of the ice",
+            "feedback": "Correct — as water freezes, pure ice forms and leaves the salt behind, so the adjacent water becomes saltier."
+          },
+          {
+            "label": "It is the same because freezing does not change salinity",
+            "feedback": "Freezing does change salinity because only water molecules join the ice, leaving salt in the liquid."
+          },
+          {
+            "label": "It is lower because salt sinks into the deep ocean",
+            "feedback": "Salt does not sink on its own; it concentrates in the water near the ice as freezing occurs."
+          }
+        ],
+        "ok_title": "Ice and salt",
+        "ok_line": "Sea ice leaves salt behind, making nearby water saltier.",
+        "ko_title": "Salt excluded from ice",
+        "ko_line": "Freezing concentrates salt in the surrounding water.",
+        "exp_title": "Salt exclusion during freezing",
+        "exp_text": "When seawater freezes, only water molecules form the ice crystals. Salt ions remain in the liquid, increasing salinity in the thin layer of water just below the ice, which is denser and can sink."
+      }
+    ]
+  }
+]

@@ -29,12 +29,33 @@ from .llm import ask
 # Renvois au support. L'élève ne voit que la question : elle doit tenir
 # debout seule. Ces tournures rendent l'exercice littéralement
 # impossible pour qui n'a pas le document sous les yeux.
+#
+# CE REFUS EST DOUBLÉ D'UNE CONSIGNE, et c'est ce qui le rend tenable.
+# `sections.py` la pose juste sous l'article : elle énumère les douze
+# champs balayés ici et annonce que l'exercice entier saute. Elle avait
+# été retirée le 18/08/2026 puis remise le même jour, une fois mesuré
+# ce que le refus coûte quand le modèle n'est pas prévenu.
+#
+# Si les lots rendent moins que leur `count`, c'est ici qu'il faut
+# regarder d'abord : restreindre `META` aux seuls `prompt` et `body`
+# pour les exercices écrits par `topup` — c'est là que le renvoi rend
+# vraiment la question impossible ; ailleurs il est laid, pas bloquant.
 META = re.compile(
     r"\b(?:dans ce cours|dans cette le[çc]on|d'apr[èe]s le (?:cours|texte|document)"
     r"|ce (?:cours|document|texte) (?:mentionne|indique|pr[ée]cise|aborde)"
     r"|selon le (?:cours|texte)|le cours (?:dit|parle|porte)"
     r"|in this (?:lesson|course|text)|according to the (?:text|lesson|document)"
-    r"|this (?:document|lesson|text) (?:states|mentions|covers))\b",
+    r"|this (?:document|lesson|text) (?:states|mentions|covers)"
+    # Ajouté le 14/08/2026. La génération adossée à un article Wikipédia
+    # a produit 255 exercices renvoyant à leur source — « The article
+    # states that… » — que la règle ci-dessus laissait passer : elle
+    # visait « according to the text », pas « the article ». Vérifié
+    # sans aucun faux positif sur les 1 960 exercices déjà validés.
+    r"|the article\b|the text (?:states|says|mentions|describes|explains|notes)"
+    r"|in the (?:text|passage|article)\b"
+    r"|according to (?:the|this) (?:article|passage|source)"
+    r"|as (?:mentioned|stated|described|noted|explained) (?:in|above)"
+    r"|the passage (?:states|says|mentions))\b",
     re.I,
 )
 
@@ -81,13 +102,17 @@ def check_rules(item: dict, level: str | None = None,
     seen = [prompt, body]
     seen += [str(o.get(k, "")) for o in options for k in ("label", "feedback")]
     seen += [str(item.get(k) or "") for k in
-             ("ok_line", "ko_line", "exp_title", "exp_text", "exp_tip")]
+             ("ok_line", "ko_line", "exp_title", "exp_text")]
     if any(META.search(t) for t in seen):
         reasons.append("renvoie au support : l'élève n'a pas le cours sous les yeux")
 
-    # « Probablement » dans un retour : une règle de français ne se devine pas.
-    if any(HEDGE.search(t) for t in seen):
-        reasons.append("formulation incertaine : une règle ne se devine pas")
+    # LA RÈGLE SUR LES FORMULATIONS INCERTAINES A ÉTÉ RETIRÉE. Elle
+    # refusait « probablement », « sans doute », « most likely ». Écrite
+    # pour un catalogue de grammaire — une règle d'accord ne se devine
+    # pas, elle s'applique — elle n'a plus de sens sur de la culture
+    # générale, où « most likely » apparaît légitimement dans une
+    # question ouverte. Elle a écarté un exercice correct sur le disque
+    # facial de la chouette effraie.
 
     if not isinstance(correct, int) or not 0 <= correct < len(options):
         reasons.append("bonne réponse hors bornes")
@@ -102,28 +127,36 @@ def check_rules(item: dict, level: str | None = None,
     if len({" ".join(l.split()).casefold() for l in labels}) != len(labels):
         reasons.append("deux options identiques : la bonne réponse est indécidable")
 
-    # « Un écran, pas de scroll » : ces bornes viennent du cahier des
-    # charges, pas d'un goût personnel.
-    if len(prompt) > 240:
-        reasons.append("énoncé trop long pour l'écran")
-    if any(len(l) > 60 for l in labels):
-        reasons.append("option trop longue pour le bouton")
+    # LES BORNES DE LONGUEUR ONT ÉTÉ RETIRÉES (migration 015). L'énoncé
+    # était plafonné à 240 caractères et les options à 60, au nom d'« un
+    # écran, pas de scroll ». Ces chiffres décrivaient une app de
+    # grammaire dont les questions faisaient cinquante caractères ; le
+    # catalogue d'informatique atteignait déjà 240, et le front avait dû
+    # baisser sa police de 40 à 20 px pour les encaisser. La borne ne
+    # protégeait donc plus rien qu'elle n'eût déjà cédé.
+    #
+    # Ce qui garde l'écran lisible n'est plus une limite de caractères
+    # mais la mise en page : voir `PhaseBlocks.tsx`, qui replie et
+    # redimensionne. Un énoncé trop long est désormais un défaut de
+    # rédaction, pas une erreur que la machine sait trancher.
+
     # Pour une réponse courte, `options` liste les graphies acceptées :
     # une seule est un choix légitime, même s'il est risqué.
     if len(options) < 2 and kind != "short_answer":
         reasons.append("moins de deux options")
 
-    # Une option nettement plus longue que les autres trahit la bonne
-    # réponse : l'élève la repère sans rien savoir. Sans objet pour les
-    # deux types où l'on ne choisit pas parmi des propositions : la
-    # réponse courte n'en affiche aucune, et le texte à trous mélange
-    # les candidats de plusieurs trous dans la même liste.
-    if (kind not in ("short_answer", "cloze")
-            and len(labels) >= 3 and correct is not None
-            and 0 <= correct < len(labels)):
-        others = [len(l) for i, l in enumerate(labels) if i != correct]
-        if others and len(labels[correct]) > 2.2 * (sum(others) / len(others)):
-            reasons.append("la bonne réponse est bien plus longue : elle se devine")
+    # LA RÈGLE DE LONGUEUR RELATIVE A ÉTÉ RETIRÉE. Elle refusait toute
+    # bonne réponse dépassant 2,2 fois la longueur moyenne des autres,
+    # au motif qu'elle se devine sans rien savoir. Le motif est juste :
+    # une bonne réponse détaillée face à trois distracteurs brefs se
+    # repère au premier coup d'œil. Mais c'est un défaut de rédaction,
+    # pas une erreur que la machine sait trancher — et sur un catalogue
+    # de culture générale elle écartait des questions exactes dont la
+    # réponse était simplement précise (« In the last segments of the
+    # abdomen » contre « In the eyes »).
+    #
+    # Elle reste vraie comme conseil : écrire les quatre libellés de
+    # longueur comparable. Elle n'est plus imposée.
 
     # Le matériau doit être SOUS LES YEUX de l'élève. « Complète la phrase
     # avec la forme correcte du verbe être » sans phrase n'est pas un
@@ -221,22 +254,16 @@ Réponds UNIQUEMENT par un objet JSON, sans texte autour :
 {{"correcte": true/false,
   "unique": true/false,
   "niveau_ok": true/false,
-  "autonome": true/false,
-  "porte_sur_la_langue": true/false,
+  "autonome": true/false,{cle_langue}{cle_intuition}
   "coherent": true/false,
   "motif": "une phrase, vide si tout va bien"}}
 
-  correcte  — la réponse annoncée est-elle juste selon les règles du français ?
+  correcte  — la réponse annoncée est-elle juste {correcte_selon} ?
               Vérifie toi-même, ne fais pas confiance.
   unique    — est-elle la SEULE défendable ? Si une autre option se tient
               aussi, réponds false.
   niveau_ok — un élève de {level} peut-il comprendre l'énoncé et y répondre ?
-  autonome  — la question se suffit-elle à elle-même, sans document externe ?
-  porte_sur_la_langue
-            — répondre exige-t-il d'appliquer une règle de français à une
-              phrase ou à un mot présents dans l'énoncé ? Si la question
-              porte sur ce qu'une leçon contient, sur son plan ou sur son
-              champ d'application, réponds false.
+  autonome  — la question se suffit-elle à elle-même, sans document externe ?{critere_langue}{critere_intuition}
   coherent  — la bonne réponse répond-elle exactement à ce qui est demandé ?
               Si la question demande une erreur, la bonne réponse doit être
               une erreur. Si le retour d'une option fausse décrit une
@@ -260,25 +287,101 @@ Reply with a JSON object ONLY, no surrounding text:
 {{"correcte": true/false,
   "unique": true/false,
   "niveau_ok": true/false,
-  "autonome": true/false,
-  "porte_sur_la_langue": true/false,
+  "autonome": true/false,{cle_langue}{cle_intuition}
   "coherent": true/false,
   "motif": "one sentence, empty if all is well"}}
 
-  porte_sur_la_langue — does answering require applying a rule of English to
-              a sentence or word present in the question? If it asks what a
-              lesson contains or covers, answer false.
+  correcte  — is the marked answer right {correcte_selon}? Check for
+              yourself, do not take it on trust.{critere_langue}{critere_intuition}
   coherent  — does the marked answer answer exactly what is asked, and does
               no wrong option's feedback describe correct behaviour?"""
 
 
-async def judge(item: dict, lang: str = "fr", level: str = "CM2") -> Verdict:
-    """Second avis d'un modèle qui n'a ni le cours ni le contexte."""
+# Les deux formulations du critère `correcte`, et le critère de langue
+# lui-même, dépendent de ce qu'on enseigne. Voir `judge`.
+_SELON = {
+    ("langue", "fr"): "selon les règles du français",
+    ("langue", "en"): "according to the rules of English",
+    ("connaissance", "fr"): "selon le sujet traité",
+    ("connaissance", "en"): "for the subject being taught",
+}
+_CRITERE_LANGUE = {
+    "fr": """
+  porte_sur_la_langue
+            — répondre exige-t-il d'appliquer une règle de français à une
+              phrase ou à un mot présents dans l'énoncé ? Si la question
+              porte sur ce qu'une leçon contient, sur son plan ou sur son
+              champ d'application, réponds false.""",
+    "en": """
+  porte_sur_la_langue — does answering require applying a rule of English to
+              a sentence or word present in the question? If it asks what a
+              lesson contains or covers, answer false.""",
+}
+
+
+# LE CRITÈRE D'INTUITION, posé le 19/08/2026 et réservé à la
+# « connaissance ». Il double la consigne de `sections.py` : celle-ci
+# demande des questions auxquelles on peut RÉFLÉCHIR, celui-ci écarte
+# celles auxquelles on ne peut que se souvenir.
+#
+# Il est écrit étroit, exprès. Le juge de ce fichier refuse par défaut,
+# et un critère large fait tomber des lots entiers — c'est déjà arrivé
+# avec `porte_sur_la_langue`, qui écartait 100 % d'un catalogue
+# technique pour une raison sans rapport avec sa qualité. Celui-ci ne
+# refuse QUE le cas franc : aucun chemin de raisonnement, seulement un
+# mot à avoir retenu.
+_CRITERE_INTUITION = {
+    "fr": """
+  intuitif  — quelqu'un qui n'a jamais lu de cours sur le sujet pourrait-il
+              atteindre la réponse EN RÉFLÉCHISSANT, à partir de ce qu'il a
+              déjà observé du monde ? Réponds false si le seul chemin est
+              d'avoir retenu un terme, un nom propre, une date ou un record —
+              une définition, un « qui a découvert », un « lequel est le
+              plus grand ». Un raisonnement même court suffit à répondre
+              true : dans le doute, réponds true.""",
+    "en": """
+  intuitif  — could someone who has never read a lesson on this subject
+              reach the answer BY THINKING, from what they have already
+              observed of the world? Answer false only if the sole path is
+              having memorised a term, a proper name, a date or a record —
+              a definition, a "who discovered", a "which is the largest".
+              Any reasoning path, however short, means true: when in doubt,
+              answer true.""",
+}
+
+
+async def judge(item: dict, lang: str = "fr", level: str = "CM2",
+                matiere: str = "langue") -> Verdict:
+    """Second avis d'un modèle qui n'a ni le cours ni le contexte.
+
+    `matiere` dit ce qu'on enseigne, et commande deux critères :
+
+      « langue »        le défaut — grammaire, conjugaison, orthographe.
+                        Rien ne change pour eux.
+      « connaissance »  tout le reste : Git, SQL, l'agile, le code de la
+                        route. Le critère `porte_sur_la_langue` DISPARAÎT,
+                        du prompt comme du dépouillement.
+
+    Sans cette distinction, le juge refusait la totalité d'un catalogue
+    technique : « répondre exige-t-il d'appliquer une règle de français ? »
+    ne peut valoir que non sur une question Git, et le refus tombait pour
+    une raison sans rapport avec la qualité de l'exercice. Mesuré sur
+    huit exercices tirés des douze sujets techniques : 0 accepté.
+    """
     options = item.get("options") or []
     correct = item.get("correct_index", 0)
     template = JUDGE_FR if lang == "fr" else JUDGE_EN
+    sur_la_langue = matiere == "langue"
     prompt = template.format(
         level=level,
+        correcte_selon=_SELON[(matiere if matiere in ("langue", "connaissance")
+                               else "langue", "fr" if lang == "fr" else "en")],
+        cle_langue='\n  "porte_sur_la_langue": true/false,' if sur_la_langue else "",
+        critere_langue=_CRITERE_LANGUE["fr" if lang == "fr" else "en"]
+        if sur_la_langue else "",
+        cle_intuition='\n  "intuitif": true/false,' if not sur_la_langue else "",
+        critere_intuition=_CRITERE_INTUITION["fr" if lang == "fr" else "en"]
+        if not sur_la_langue else "",
         question=item.get("prompt", ""),
         corps=(item.get("body") or ""),
         options="\n".join(
@@ -312,14 +415,21 @@ async def judge(item: dict, lang: str = "fr", level: str = "CM2") -> Verdict:
 
     reasons = []
     motif = (data.get("motif") or "").strip()
-    for key, label in (
+    criteres = [
         ("correcte", "réponse jugée fausse"),
         ("unique", "plusieurs options défendables"),
         ("niveau_ok", "hors de portée du niveau"),
         ("autonome", "dépend d'un document absent"),
-        ("porte_sur_la_langue", "interroge le cours, pas la langue"),
         ("coherent", "la réponse ne répond pas à la question posée"),
-    ):
+    ]
+    # Le critère n'est réclamé que s'il a été posé : sinon un juge qui ne
+    # le renvoie pas — parce qu'on ne le lui a pas demandé — ferait
+    # échouer tout le lot sur une clé absente.
+    if sur_la_langue:
+        criteres.insert(4, ("porte_sur_la_langue", "interroge le cours, pas la langue"))
+    else:
+        criteres.insert(4, ("intuitif", "se répond de mémoire, pas en réfléchissant"))
+    for key, label in criteres:
         if data.get(key) is not True:
             reasons.append(f"{label}{' — ' + motif if motif else ''}")
             motif = ""  # le motif n'est utile qu'une fois
@@ -327,10 +437,11 @@ async def judge(item: dict, lang: str = "fr", level: str = "CM2") -> Verdict:
 
 
 async def review(item: dict, lang: str = "fr", level: str = "CM2",
-                 with_judge: bool = True, kind: str | None = None) -> Verdict:
+                 with_judge: bool = True, kind: str | None = None,
+                 matiere: str = "langue") -> Verdict:
     rules = check_rules(item, level, kind)
     if not rules.ok:
         return rules              # inutile de payer un juge pour ça
     if not with_judge:
         return rules
-    return await judge(item, lang, level)
+    return await judge(item, lang, level, matiere)

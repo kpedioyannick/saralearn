@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the outermost layer of Earth's atmosphere called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The exosphere",
+            "feedback": "Correct. The exosphere is the outermost layer, though it is so thin that some scientists consider it part of space."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "The thermosphere is the second-highest layer, sitting below the exosphere, not the outermost one."
+          },
+          {
+            "label": "The mesosphere",
+            "feedback": "The mesosphere is lower than the thermosphere, so it is not the outermost layer."
+          },
+          {
+            "label": "The stratosphere",
+            "feedback": "The stratosphere sits above the troposphere but far below the exosphere, so it is not the outermost."
+          }
+        ],
+        "ok_title": "Outermost layer named",
+        "ok_line": "The exosphere is the topmost layer of the atmosphere.",
+        "ko_title": "Layer order mixed up",
+        "ko_line": "The exosphere, not a lower layer, is the outermost one.",
+        "exp_title": "The exosphere",
+        "exp_text": "The exosphere is the outermost layer of Earth's atmosphere. It is so thin that some scientists consider it part of interplanetary space rather than the atmosphere. Beyond it lies the solar wind and interplanetary medium, so the atmosphere fades out gradually rather than stopping at a sharp boundary."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which layer of the atmosphere is found directly above the troposphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The mesosphere",
+            "feedback": "The mesosphere sits above the stratosphere, not directly above the troposphere."
+          },
+          {
+            "label": "The stratosphere",
+            "feedback": "Correct. The stratosphere lies directly above the troposphere, from about 12 to 50 kilometers up."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "The thermosphere is much higher up, above the mesosphere, so it is not the next layer after the troposphere."
+          },
+          {
+            "label": "The exosphere",
+            "feedback": "The exosphere is the highest layer of all, far above the troposphere."
+          }
+        ],
+        "ok_title": "Stratosphere above troposphere",
+        "ok_line": "The stratosphere is the layer just above the troposphere.",
+        "ko_title": "Layer order wrong",
+        "ko_line": "The stratosphere, not a higher layer, sits right on top of the troposphere.",
+        "exp_title": "The stratosphere",
+        "exp_text": "The stratosphere is the second layer of the atmosphere, starting at about 12 kilometers above the ground and ending at about 50 kilometers. It sits directly above the troposphere, the lowest layer where we live."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate height range of the mesosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "0 to 12 kilometers",
+            "feedback": "That range describes the troposphere, not the mesosphere."
+          },
+          {
+            "label": "12 to 50 kilometers",
+            "feedback": "That range describes the stratosphere, which sits below the mesosphere."
+          },
+          {
+            "label": "50 to 80 kilometers",
+            "feedback": "Correct. The mesosphere extends from about 50 kilometers up to about 80 kilometers."
+          },
+          {
+            "label": "80 to 700 kilometers",
+            "feedback": "That range describes the thermosphere, which sits above the mesosphere."
+          }
+        ],
+        "ok_title": "Mesosphere height range",
+        "ok_line": "The mesosphere spans from 50 to 80 kilometers above the ground.",
+        "ko_title": "Wrong altitude range",
+        "ko_line": "The mesosphere is between 50 and 80 kilometers, not lower or higher.",
+        "exp_title": "Mesosphere altitude",
+        "exp_text": "The mesosphere is the third layer of the atmosphere, found between about 50 and 80 kilometers above Earth's surface. It sits above the stratosphere and below the thermosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which layer of the atmosphere does the temperature gradually increase with height?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The troposphere",
+            "feedback": "In the troposphere, temperature generally decreases as you go higher, not increase."
+          },
+          {
+            "label": "The mesosphere",
+            "feedback": "In the mesosphere, temperature generally falls with height, similar to the troposphere."
+          },
+          {
+            "label": "The exosphere",
+            "feedback": "The exosphere is so thin that its temperature is not a meaningful layer property; the thermosphere is the one with a clear increase."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "Correct. In the thermosphere, temperature rises with height, reaching very high values even though the air is extremely thin."
+          }
+        ],
+        "ok_title": "Temperature rising in thermosphere",
+        "ok_line": "The thermosphere's temperature climbs with altitude.",
+        "ko_title": "Temperature profile wrong",
+        "ko_line": "The thermosphere, not the troposphere or mesosphere, warms with height.",
+        "exp_title": "Thermosphere temperature",
+        "exp_text": "The thermosphere is the layer where temperature increases as you go higher. This warming happens because the layer absorbs ionizing ultraviolet and X-ray radiation from the Sun. The air is so rarefied there that the high temperature does not feel hot to a person."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the layer just below the thermosphere called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The mesosphere",
+            "feedback": "Correct. The mesosphere sits directly below the thermosphere, separated from it by the mesopause."
+          },
+          {
+            "label": "The stratosphere",
+            "feedback": "The stratosphere is lower still, below the mesosphere, so it is not directly below the thermosphere."
+          },
+          {
+            "label": "The troposphere",
+            "feedback": "The troposphere is the lowest layer, far below the thermosphere."
+          },
+          {
+            "label": "The exosphere",
+            "feedback": "The exosphere sits above the thermosphere, not below it."
+          }
+        ],
+        "ok_title": "Mesosphere below thermosphere",
+        "ok_line": "The mesosphere lies directly under the thermosphere.",
+        "ko_title": "Lower layer wrong",
+        "ko_line": "The mesosphere, not a higher or lower layer, sits just below the thermosphere.",
+        "exp_title": "Mesosphere position",
+        "exp_text": "The mesosphere is the layer immediately beneath the thermosphere. The boundary between them is called the mesopause. Above the mesosphere is the thermosphere, and below it is the stratosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which layer of the atmosphere contains the ozone layer?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The troposphere",
+            "feedback": "The troposphere is the lowest layer, and while some ozone can appear near the ground, the protective ozone layer is in the stratosphere."
+          },
+          {
+            "label": "The stratosphere",
+            "feedback": "Correct. The ozone layer is found within the stratosphere."
+          },
+          {
+            "label": "The mesosphere",
+            "feedback": "The mesosphere is too high for the ozone layer; the ozone sits in the stratosphere below it."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "The thermosphere is much higher than where the ozone layer is found."
+          }
+        ],
+        "ok_title": "Ozone in stratosphere",
+        "ok_line": "The ozone layer sits inside the stratosphere.",
+        "ko_title": "Ozone layer misplaced",
+        "ko_line": "The ozone layer, not a lower or higher layer, belongs to the stratosphere.",
+        "exp_title": "Ozone layer location",
+        "exp_text": "The ozone layer is located in the stratosphere, the second layer of the atmosphere. This layer absorbs ultraviolet radiation from the Sun, which is why it is important for protecting living things on the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the layer of the atmosphere that extends from about 80 kilometers up to about 700 kilometers?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The exosphere",
+            "feedback": "The exosphere is higher, starting above the thermosphere, not from 80 kilometers."
+          },
+          {
+            "label": "The mesosphere",
+            "feedback": "The mesosphere ends at about 80 kilometers, so it does not extend up to 700."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "Correct. The thermosphere spans from about 80 kilometers up to about 700 kilometers."
+          },
+          {
+            "label": "The stratosphere",
+            "feedback": "The stratosphere is much lower, from about 12 to 50 kilometers, not up to 700."
+          }
+        ],
+        "ok_title": "Thermosphere altitude range",
+        "ok_line": "The thermosphere runs from about 80 to 700 kilometers high.",
+        "ko_title": "Wrong layer for altitude",
+        "ko_line": "The thermosphere, not a lower or higher layer, covers 80 to 700 kilometers.",
+        "exp_title": "Thermosphere extent",
+        "exp_text": "The thermosphere is the layer that extends from about 80 kilometers up to about 700 kilometers above Earth's surface. It sits above the mesosphere and below the exosphere, and its upper boundary is called the thermopause."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the lowest layer of the atmosphere, where we live and where weather happens?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The stratosphere",
+            "feedback": "The stratosphere sits above the lowest layer, so it is not where we live."
+          },
+          {
+            "label": "The mesosphere",
+            "feedback": "The mesosphere is high above the ground, not the lowest layer."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "The thermosphere is far above the lowest layer."
+          },
+          {
+            "label": "The troposphere",
+            "feedback": "Correct. The troposphere is the lowest layer, reaching from the ground up to about 12 kilometers."
+          }
+        ],
+        "ok_title": "Troposphere at ground",
+        "ok_line": "The troposphere is the lowest layer, where we live.",
+        "ko_title": "Lowest layer wrong",
+        "ko_line": "The troposphere, not a higher layer, is the bottom one.",
+        "exp_title": "The troposphere",
+        "exp_text": "The troposphere is the lowest layer of the atmosphere, extending from the ground up to about 12 kilometers. Nearly all the air we breathe and almost all the weather we experience happen within this layer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which layer of the atmosphere is the coldest?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The mesosphere",
+            "feedback": "Correct. The mesosphere is the coldest layer of the atmosphere."
+          },
+          {
+            "label": "The troposphere",
+            "feedback": "The troposphere gets cold high up, but the mesosphere is colder still."
+          },
+          {
+            "label": "The stratosphere",
+            "feedback": "The stratosphere warms with height because of ozone absorption, so it is not the coldest."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "The thermosphere has very high temperatures, so it is not the coldest layer."
+          }
+        ],
+        "ok_title": "Coldest layer mesosphere",
+        "ok_line": "The mesosphere is the coldest layer of the atmosphere.",
+        "ko_title": "Coldest layer wrong",
+        "ko_line": "The mesosphere, not a warmer layer, is the coldest.",
+        "exp_title": "Coldest layer",
+        "exp_text": "The mesosphere is the coldest layer of the atmosphere. It sits above the stratosphere, where ozone warms the air, and below the thermosphere, where solar radiation heats things up, so it ends up being the chilliest place in the atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the second-highest layer of the atmosphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The exosphere",
+            "feedback": "The exosphere is the highest layer, so it is not the second-highest."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "Correct. The thermosphere is the second-highest layer, sitting just below the exosphere."
+          },
+          {
+            "label": "The mesosphere",
+            "feedback": "The mesosphere is the third-highest, below the thermosphere."
+          },
+          {
+            "label": "The stratosphere",
+            "feedback": "The stratosphere is far lower, so it is not the second-highest."
+          }
+        ],
+        "ok_title": "Second-highest layer thermosphere",
+        "ok_line": "The thermosphere is the second-highest layer, below the exosphere.",
+        "ko_title": "Second-highest wrong",
+        "ko_line": "The thermosphere, not the exosphere or a lower layer, is the second-highest.",
+        "exp_title": "Thermosphere rank",
+        "exp_text": "The thermosphere is the second-highest layer of the atmosphere. Only the exosphere sits above it. It extends from about 80 kilometers up to about 700 kilometers, where the exosphere begins."
+      }
+    ]
+  }
+]

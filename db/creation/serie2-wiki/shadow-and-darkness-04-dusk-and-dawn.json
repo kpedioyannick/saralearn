@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes twilight?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sunlight scattered in the upper atmosphere when the Sun is below the horizon",
+            "feedback": "Correct. The sky stays lit because the upper atmosphere scatters sunlight down to the surface even after the Sun has set."
+          },
+          {
+            "label": "The Moon reflecting light from the Sun",
+            "feedback": "The Moon does reflect sunlight, but twilight happens without the Moon, from the scattering of sunlight by the atmosphere itself."
+          },
+          {
+            "label": "Light from stars and planets",
+            "feedback": "Stars and planets are too faint to illuminate the sky; twilight comes from sunlight that is still reaching the atmosphere."
+          },
+          {
+            "label": "The Sun shining from below the horizon directly",
+            "feedback": "Direct sunlight cannot reach the surface when the Sun is below the horizon; only scattered light does, which is what twilight is."
+          }
+        ],
+        "ok_title": "Scattered sunlight",
+        "ok_line": "Twilight is atmospheric scattering of sunlight while the Sun is below the horizon.",
+        "ko_title": "Check the source",
+        "ko_line": "Twilight does not come from the Moon, stars, or direct sunlight.",
+        "exp_title": "Twilight's origin",
+        "exp_text": "Twilight is daylight illumination produced by diffuse sky radiation when the Sun is below the horizon. The upper atmosphere scatters sunlight, lighting the lower atmosphere and the Earth's surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three subcategories of twilight?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Morning, midday, and evening twilight",
+            "feedback": "Those are times of day, not the geometric categories of twilight. The three established subcategories are civil, nautical, and astronomical."
+          },
+          {
+            "label": "Blue, pink, and orange twilight",
+            "feedback": "Those are colours that may appear, but they are not the defined subcategories. The subcategories are based on the Sun's position below the horizon."
+          },
+          {
+            "label": "Civil, nautical, and astronomical twilight",
+            "feedback": "Correct. These three are defined by how far the geometric center of the Sun is below the horizon."
+          },
+          {
+            "label": "Dawn, dusk, and night",
+            "feedback": "Dawn and dusk are periods of twilight, but night is not a subcategory. The three subcategories are civil, nautical, and astronomical."
+          }
+        ],
+        "ok_title": "Three twilight types",
+        "ok_line": "Civil, nautical, and astronomical twilight are the three categories.",
+        "ko_title": "Distinguish types",
+        "ko_line": "The categories are based on solar angle, not on time of day or colour.",
+        "exp_title": "Twilight subcategories",
+        "exp_text": "Twilight is divided into civil twilight (nearest the horizon), nautical twilight, and astronomical twilight (farthest from the horizon), according to the Sun's position below the horizon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During civil twilight, how far is the geometric center of the Sun below the horizon?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Between 0 and 6 degrees above the horizon",
+            "feedback": "Civil twilight is defined by the Sun being below the horizon, not above it. The range for civil twilight is 0 to 6 degrees below."
+          },
+          {
+            "label": "Between 6 and 12 degrees below the horizon",
+            "feedback": "That range belongs to nautical twilight, not civil. Civil twilight is from the horizon down to 6 degrees below."
+          },
+          {
+            "label": "Between 12 and 18 degrees below the horizon",
+            "feedback": "That is the range for astronomical twilight. Civil twilight is the closest to the horizon, from 0 to 6 degrees below."
+          },
+          {
+            "label": "Between 0 and 6 degrees below the horizon",
+            "feedback": "Correct. Civil twilight lasts while the Sun's center is between the horizon and 6 degrees below it."
+          }
+        ],
+        "ok_title": "Civil twilight range",
+        "ok_line": "Civil twilight spans from the horizon to 6 degrees below.",
+        "ko_title": "Check the angle",
+        "ko_line": "Civil twilight is the nearest to the horizon, not the farthest.",
+        "exp_title": "Civil twilight definition",
+        "exp_text": "Civil twilight is the period when the geometric center of the Sun is between the horizon and 6 degrees below the horizon, giving enough light for most outdoor activities without artificial light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the period of twilight just before sunrise?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dawn",
+            "feedback": "Correct. Dawn is the twilight period that occurs before sunrise, as the sky brightens from darkness."
+          },
+          {
+            "label": "Dusk",
+            "feedback": "Dusk is the twilight after sunset, not before sunrise. Dawn comes before the Sun rises."
+          },
+          {
+            "label": "Night",
+            "feedback": "Night is the dark period when the Sun is far below the horizon, not the twilight before sunrise."
+          },
+          {
+            "label": "Noon",
+            "feedback": "Noon is when the Sun is highest in the sky, not a twilight period. Dawn is the morning twilight."
+          }
+        ],
+        "ok_title": "Morning twilight",
+        "ok_line": "Dawn is the twilight that precedes sunrise.",
+        "ko_title": "Dawn vs. dusk",
+        "ko_line": "Dawn is morning; dusk is evening.",
+        "exp_title": "Dawn defined",
+        "exp_text": "Dawn is the period of twilight before sunrise, when the sky gradually brightens as the Sun approaches the horizon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the period of twilight after sunset?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Dawn",
+            "feedback": "Dawn is the twilight before sunrise, not after sunset. The evening twilight is called dusk."
+          },
+          {
+            "label": "Dusk",
+            "feedback": "Correct. Dusk is the twilight period that follows sunset, as the sky darkens."
+          },
+          {
+            "label": "Midnight",
+            "feedback": "Midnight is the middle of the night, not the twilight after sunset. Dusk is the right term."
+          },
+          {
+            "label": "Morning",
+            "feedback": "Morning is the early part of the day, not the twilight after sunset. The twilight after sunset is dusk."
+          }
+        ],
+        "ok_title": "Evening twilight",
+        "ok_line": "Dusk is the twilight that follows sunset.",
+        "ko_title": "Dusk vs. dawn",
+        "ko_line": "Dusk is evening; dawn is morning.",
+        "exp_title": "Dusk defined",
+        "exp_text": "Dusk is the period of twilight after sunset, when the sky gradually darkens as the Sun goes farther below the horizon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does 'crepuscular' describe?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Animals that are active only at night",
+            "feedback": "Nocturnal animals are active at night, not during twilight. 'Crepuscular' refers to activity during dawn and dusk."
+          },
+          {
+            "label": "Animals that are active only during the day",
+            "feedback": "Diurnal animals are active during the day. 'Crepuscular' refers to twilight, not full daytime."
+          },
+          {
+            "label": "Animals that are most active during twilight",
+            "feedback": "Correct. 'Crepuscular' is the adjective for animals whose peak activity is at dawn and dusk."
+          },
+          {
+            "label": "Animals that live in caves",
+            "feedback": "Cave-dwelling animals are called troglodytes, not crepuscular. The term 'crepuscular' relates to twilight activity."
+          }
+        ],
+        "ok_title": "Crepuscular meaning",
+        "ok_line": "Crepuscular animals are active during twilight.",
+        "ko_title": "Activity timing",
+        "ko_line": "'Crepuscular' is about dawn and dusk, not night, day, or caves.",
+        "exp_title": "Crepuscular animals",
+        "exp_text": "The collateral adjective for twilight is 'crepuscular', used to describe animals that are most active during the twilight periods of dawn and dusk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which twilight can sailors navigate by the horizon at sea?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Astronomical twilight",
+            "feedback": "Astronomical twilight is too dark for the horizon to be visible. Sailors need the clearer horizon of nautical twilight."
+          },
+          {
+            "label": "No twilight",
+            "feedback": "Sailors need to see the horizon to navigate by stars. That is possible during part of nautical twilight."
+          },
+          {
+            "label": "Civil twilight only",
+            "feedback": "Civil twilight is bright enough, but the specific twilight that allows horizon sightings for navigation is nautical twilight."
+          },
+          {
+            "label": "Nautical twilight",
+            "feedback": "Correct. During nautical twilight, there is enough light to see the horizon for star sightings."
+          }
+        ],
+        "ok_title": "Sailors' twilight",
+        "ok_line": "Nautical twilight allows sailors to see the horizon for navigation.",
+        "ko_title": "Horizon visibility",
+        "ko_line": "Both astronomical and civil twilight are not the right answer for this.",
+        "exp_title": "Nautical navigation",
+        "exp_text": "During nautical twilight, the horizon is visible enough for sailors to take reliable star sightings, which is why it is named for navigation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the sky's illumination when the Sun is 18 degrees below the horizon?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It becomes nearly zero",
+            "feedback": "Correct. At 18 degrees below the horizon, the scattered light is almost gone, and astronomical twilight ends."
+          },
+          {
+            "label": "It becomes as bright as day",
+            "feedback": "That would happen when the Sun is above the horizon, not far below it. At 18 degrees below, it is nearly dark."
+          },
+          {
+            "label": "It becomes bright enough for reading",
+            "feedback": "Reading needs much more light. At 18 degrees below, the sky is essentially dark."
+          },
+          {
+            "label": "It starts to increase again",
+            "feedback": "The illumination decreases as the Sun goes lower; it does not increase until the Sun rises again."
+          }
+        ],
+        "ok_title": "Full darkness",
+        "ok_line": "At 18 degrees below, twilight ends and night begins.",
+        "ko_title": "Light level drops",
+        "ko_line": "The sky is nearly unlit at that angle, not bright.",
+        "exp_title": "Astronomical twilight end",
+        "exp_text": "When the Sun reaches 18 degrees below the horizon, the illumination from the sky is nearly zero, and evening twilight becomes nighttime."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the 'blue hour'?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A period of full daylight",
+            "feedback": "The blue hour refers to twilight, not daylight. It is known for its bluish quality."
+          },
+          {
+            "label": "Twilight, popular with photographers and painters",
+            "feedback": "Correct. Twilight is called the blue hour because of its distinctive quality, especially the absence of shadows."
+          },
+          {
+            "label": "The time when the Moon is blue",
+            "feedback": "The Moon is not blue; the blue hour is about twilight's lighting, not the Moon."
+          },
+          {
+            "label": "The darkest part of the night",
+            "feedback": "The darkest part of the night is not called the blue hour; that name is for twilight."
+          }
+        ],
+        "ok_title": "Blue hour",
+        "ok_line": "Twilight is known to artists as the blue hour.",
+        "ko_title": "Artistic term",
+        "ko_line": "The blue hour is not daylight or night, but twilight.",
+        "exp_title": "Twilight's artistic name",
+        "exp_text": "Twilight's distinctive quality—absence of shadows and silhouetted objects—makes it popular with photographers and painters, who call it the blue hour."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What condition is needed for twilight to occur at all?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun must be exactly at the horizon",
+            "feedback": "Twilight occurs when the Sun is below the horizon, not exactly at it. Even a few degrees below still gives twilight."
+          },
+          {
+            "label": "The Moon must be present in the sky",
+            "feedback": "The Moon is not needed for twilight. Twilight comes from sunlight scattering in the atmosphere."
+          },
+          {
+            "label": "The Sun must be below the horizon",
+            "feedback": "Correct. Twilight is the illumination when the Sun is below the horizon, from scattered sunlight."
+          },
+          {
+            "label": "The sky must be completely clear of clouds",
+            "feedback": "Clouds can affect the appearance, but twilight occurs regardless of cloud cover, as long as the Sun is below the horizon."
+          }
+        ],
+        "ok_title": "Sun below horizon",
+        "ok_line": "Twilight requires the Sun to be below the horizon.",
+        "ko_title": "Essential condition",
+        "ko_line": "Twilight is not tied to the Moon or clear skies; it is about the Sun's position.",
+        "exp_title": "Twilight's requirement",
+        "exp_text": "Twilight is illumination produced when the Sun is below the horizon, as sunlight from the upper atmosphere is scattered to light the lower atmosphere and surface."
+      }
+    ]
+  }
+]

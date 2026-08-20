@@ -1,4 +1,4 @@
-import { NavHead } from '../components/ui'
+import { NavHead, PageBack } from '../components/ui'
 import { Wordmark } from '../components/Wordmark'
 import { useStore } from '../state/store'
 
@@ -32,6 +32,8 @@ export function About() {
 
       <div className="screen-scroll page">
         <div className="page-inner">
+          <PageBack onClick={() => go('settings')} label={t.settings} />
+
           <header className="about-hero">
             <Wordmark className="about-wordmark" />
             <p className="serif-italic about-slogan">{t.slogan}</p>

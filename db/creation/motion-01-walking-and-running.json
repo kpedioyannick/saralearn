@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 271,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does walking cost less energy than running, stride for stride?",
+        "body": null,
+        "options": [
+          {
+            "label": "Walking is simply a slower version of the same running motion",
+            "feedback": "The two are not the same motion slowed down; running has a moment when both feet leave the ground together, and walking never does."
+          },
+          {
+            "label": "In walking, the leg swings forward like a pendulum, and gravity carries the body's weight over it",
+            "feedback": "The stiff, swinging leg lets momentum and gravity do most of the carrying, so far less muscular push is needed."
+          },
+          {
+            "label": "Walking uses the arms to do most of the forward push",
+            "feedback": "The arms swing to balance the twisting of the hips and shoulders; the legs alone do the work of moving the body forward."
+          },
+          {
+            "label": "Running requires more oxygen for the brain to send faster signals",
+            "feedback": "The extra oxygen a runner uses goes to the working leg muscles, not to speeding up nerve signals, which travel at the same rate regardless of pace."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's the trick",
+        "ok_line": "A swinging leg and gravity do the carrying.",
+        "ko_title": "Not a slowed-down run",
+        "ko_line": "Walking and running use two different tricks to move the body forward, not the same one at different speeds.",
+        "exp_title": "A pendulum, not a slowed-down run",
+        "exp_text": "Walking works like an inverted pendulum: with each step the leg stays fairly stiff and the body's weight vaults over it, trading speed for height and back again, so momentum and gravity do most of the carrying. Running abandons that trick — there is a moment in every stride when both feet are off the ground, and getting airborne again takes an active push from the leg muscles rather than a free swing. That active push, repeated with every stride, is the extra cost that walking avoids."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually happens to the Achilles tendon with each running stride?",
+        "body": null,
+        "options": [
+          {
+            "label": "It stores energy on landing and releases it again on push-off",
+            "feedback": "Stretching under load lets it act as a spring, giving back part of the energy the leg would otherwise have to supply itself."
+          },
+          {
+            "label": "It stays completely slack throughout the stride",
+            "feedback": "A slack tendon could store nothing; it is precisely the stretching under load that lets it act as a spring."
+          },
+          {
+            "label": "It shortens permanently with each stride to make the leg lighter",
+            "feedback": "A tendon returns to its resting length after each stride; nothing about it becomes shorter or lighter."
+          },
+          {
+            "label": "It only serves to hold the calf muscle in place",
+            "feedback": "Holding the muscle in place is true of tendons generally, but it misses the tendon's active role here: it also does mechanical work of its own."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A built-in spring",
+        "ok_line": "Storing and releasing energy is exactly the tendon's job here.",
+        "ko_title": "More than a strap",
+        "ko_line": "The tendon is doing something more active than simply holding a muscle in place.",
+        "exp_title": "A spring built into the ankle",
+        "exp_text": "When the foot lands, the calf muscle contracts and the Achilles tendon stretches, taking up some of the shock and storing it as elastic energy, the way a stretched rubber band stores a pull. As the foot rolls forward to push off, the tendon recoils and gives that stored energy back to help launch the body into the next stride. Muscles still do work, but the tendon returns part of the energy for free, which is what keeps running from costing even more than it does."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a running stride include a moment when neither foot touches the ground, but a walking stride never does?",
+        "body": null,
+        "options": [
+          {
+            "label": "The legs are longer during a run, so the feet land farther apart",
+            "feedback": "Leg length does not change between walking and running; it is the timing and force of the push-off that changes, not the bones' length."
+          },
+          {
+            "label": "Walking is simply running at half speed",
+            "feedback": "Slowing a run down does not turn it into a walk; the two use different leg mechanics, not just different speeds."
+          },
+          {
+            "label": "Running pushes off hard enough to launch the body briefly into the air, which walking never needs to do",
+            "feedback": "That stronger push is exactly what sends the body airborne for an instant between strides."
+          },
+          {
+            "label": "Arm swinging keeps one foot anchored to the ground while walking",
+            "feedback": "The arms swing to counter the twisting of the hips and shoulders; they play no part in keeping a foot on the ground."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Airborne on purpose",
+        "ok_line": "That extra push is what launches the body for an instant.",
+        "ko_title": "Not about the arms",
+        "ko_line": "What keeps a walker's foot on the ground has nothing to do with the arms swinging.",
+        "exp_title": "A push strong enough to leave the ground",
+        "exp_text": "Walking only ever needs enough push to keep the body vaulting forward over a leg that is still touching the ground, so one foot or the other stays planted the whole time. Running asks for more: the push against the ground is strong enough to send the whole body briefly airborne before the next foot lands, which is why a runner is, for an instant, touching nothing at all. That extra push is also the reason running takes noticeably more muscular effort than walking."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do your arms swing when you walk or run, instead of staying still at your sides?",
+        "body": null,
+        "options": [
+          {
+            "label": "They swing opposite to the legs to cancel out the twisting the legs would otherwise cause in the torso",
+            "feedback": "Carrying momentum in the opposite direction to the legs is exactly what keeps the torso from twisting with each stride."
+          },
+          {
+            "label": "They pump extra air into the lungs with each swing",
+            "feedback": "Arm swinging doesn't drive breathing; breathing rate and depth are controlled separately by the chest and diaphragm."
+          },
+          {
+            "label": "They cool the body by fanning air past the skin",
+            "feedback": "Any airflow from swinging arms cools almost nothing; sweating is what does the real cooling work."
+          },
+          {
+            "label": "The shoulders are physically linked to the hip muscles by a single connected structure",
+            "feedback": "Shoulders and hips aren't directly joined by muscle; the coordination between them comes from timing in the nervous system."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A built-in counterweight",
+        "ok_line": "The swinging arm cancels the twist the legs create.",
+        "ko_title": "Not about breathing or heat",
+        "ko_line": "The arms are countering a force the legs are creating, not managing air or temperature.",
+        "exp_title": "Cancelling out a twist",
+        "exp_text": "Each time a leg swings forward, it twists the hips slightly, and left unchecked that twist would spread up into the shoulders and send the upper body swaying with every step. Swinging the opposite arm forward at the same moment works against that twist, because it carries momentum in the other direction, so the two roughly cancel out. The result is a torso that travels forward in a fairly straight line instead of corkscrewing with every stride."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do toddlers learning to walk stand with their feet spread wide apart?",
+        "body": null,
+        "options": [
+          {
+            "label": "Wide feet make each stride cover more ground",
+            "feedback": "Stride length comes from how far forward the leg swings, not from how far apart the feet are placed sideways."
+          },
+          {
+            "label": "Their hip joints are not yet able to bring the legs together",
+            "feedback": "The hip joints are already properly shaped at that age; the wide stance is about stability and control, not incomplete joints."
+          },
+          {
+            "label": "It copies the running stance seen in four-legged animals",
+            "feedback": "Running animals typically place their feet close to a midline to move efficiently forward; a wide stance is a stability strategy, not a running posture."
+          },
+          {
+            "label": "A wide stance gives a broad base of support under a body still learning to balance",
+            "feedback": "A broader base leaves much more room for error before a stumble turns into a fall."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "A wider safety margin",
+        "ok_line": "The broad base gives an unsteady balance more room to work with.",
+        "ko_title": "Not about the joints",
+        "ko_line": "The hip joints are already fully formed; the wide stance is a strategy, not a limitation.",
+        "exp_title": "A broad base for a wobbly balance",
+        "exp_text": "Standing and walking both mean keeping the body's weight balanced over whatever is touching the ground, and a narrow base leaves very little room for error before that balance is lost. A toddler's control over balance is still clumsy, so spreading the feet wide creates a much bigger base to fall within before a stumble becomes a fall. As that control improves, the stance narrows on its own, until the feet fall roughly in line with each other the way an adult's do."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does going downhill tire your leg muscles even though gravity is pulling you along?",
+        "body": null,
+        "options": [
+          {
+            "label": "Gravity pulls harder on a downhill slope",
+            "feedback": "Gravity itself does not get stronger on a slope; what changes is how the muscles must use it, not its strength."
+          },
+          {
+            "label": "The leg muscles have to hold back and lengthen under load with every step, controlling the descent rather than driving it",
+            "feedback": "Acting as a brake under load is a harder kind of work for a muscle than simply shortening to push forward."
+          },
+          {
+            "label": "The heart must work harder to pump blood back down to the legs",
+            "feedback": "Gravity actually helps blood flow downward toward the legs; what tires the muscles here is a separate matter entirely."
+          },
+          {
+            "label": "Downhill walking uses an entirely different set of muscles",
+            "feedback": "Mostly the same muscles are involved; what differs is the kind of work they are asked to do, not which ones they are."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Braking, not coasting",
+        "ok_line": "Holding back under load is the harder job.",
+        "ko_title": "Same muscles, harder job",
+        "ko_line": "It isn't a different set of muscles or a stronger pull of gravity; it's what the muscles are being asked to do.",
+        "exp_title": "Braking is harder than it looks",
+        "exp_text": "Going uphill, the leg muscles shorten to push the body up against gravity, which is the kind of work muscles are built to do efficiently. Going downhill flips the job: with every step, the same muscles must stay tense while gravity stretches them, acting as a brake that keeps the body from toppling forward down the slope. That kind of braking work, repeated with every step, is what leaves the muscles sore afterwards."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens automatically in your leg the instant you trip over something?",
+        "body": null,
+        "options": [
+          {
+            "label": "Conscious thought quickly decides which muscles to fire",
+            "feedback": "Reflex responses are far too fast for a considered decision to fit in; the correction happens on a shorter path than conscious thought allows."
+          },
+          {
+            "label": "Breathing speeds up at once to feed the recovering muscles extra oxygen",
+            "feedback": "Recovering from a stumble takes a fraction of a second, far too fast for any change in breathing to matter."
+          },
+          {
+            "label": "A fast, automatic reflex fires the leg muscles before the stumble is even consciously noticed",
+            "feedback": "A short cut through the spinal cord lets the correction happen well before conscious awareness catches up."
+          },
+          {
+            "label": "The leg bones lock rigid to stop the leg bending",
+            "feedback": "Bones cannot lock or stiffen themselves; it is the surrounding muscles that tense to make the correction."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Faster than thought",
+        "ok_line": "The correction runs on a short cut that bypasses conscious thought entirely.",
+        "ko_title": "Too slow to matter",
+        "ko_line": "Whatever saves you from a stumble has to act faster than thinking or breathing ever could.",
+        "exp_title": "Faster than a decision",
+        "exp_text": "Catching a stumble has to happen too quickly for the usual route of noticing something, thinking about it, and then deciding what to do — by the time that process finished, the fall would already be underway. Instead the signal from the stumbling leg takes a short cut through the spinal cord and straight back out to the leg muscles, triggering a burst of contraction that catches the body's weight. The rest of the brain catches up and registers what happened after the muscles have already reacted."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the human foot roll from heel to toe with each walking step, rather than landing flat all at once?",
+        "body": null,
+        "options": [
+          {
+            "label": "It lets the foot cool down briefly between steps",
+            "feedback": "A step lasts a fraction of a second, far too brief for any meaningful cooling, and cooling is not what the rolling motion is for."
+          },
+          {
+            "label": "The toes touch down first to test the ground for safety",
+            "feedback": "It is the heel that makes contact first, not the toes; the foot only reaches the toes at the very end of the roll."
+          },
+          {
+            "label": "Landing flat instead would make each step silent",
+            "feedback": "Quietness is not the reason for the motion, and a heel-to-toe walk is not notably quieter than a flat-footed one."
+          },
+          {
+            "label": "The heel-to-toe roll spreads the landing impact and turns the foot into a lever for push-off",
+            "feedback": "Rolling the weight forward along the foot both softens the landing and sets up a lever for the push that follows."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "A rolling lever",
+        "ok_line": "The roll softens the landing and builds the push that follows.",
+        "ko_title": "Not about sound or cooling",
+        "ko_line": "The rolling motion is doing mechanical work, not managing sound or temperature.",
+        "exp_title": "The foot as a rolling lever",
+        "exp_text": "The heel touches down first and briefly takes the shock of landing, spreading out a jolt that would be harsher if the whole sole struck the ground at once. From there the weight rolls forward along the outer edge of the foot and across the ball, using the ankle joint as a pivot the way a lever turns around a fixed point. By the time the roll reaches the toes, the foot is positioned to push off cleanly into the next stride."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does sprinting rely on different muscle activity than a slow jog, even though both use the same legs?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sprinting calls on muscle fibres built for quick powerful bursts, which a gentle jog barely needs",
+            "feedback": "A hard sprint demands force delivered quickly, and that job falls to a different kind of fibre than a gentle jog calls on."
+          },
+          {
+            "label": "Sprinting uses an entirely different set of muscles than jogging",
+            "feedback": "Broadly the same muscles are involved in both; what changes is which fibres inside those muscles are doing the work."
+          },
+          {
+            "label": "Sprinting relies on the bones to absorb most of the effort",
+            "feedback": "Bones provide a rigid frame but produce no force of their own; force comes only from muscle."
+          },
+          {
+            "label": "Sprinting only works the muscles on one side of the leg",
+            "feedback": "Muscles on both the front and back of the leg are active in both a sprint and a jog; sprinting doesn't confine effort to one side."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Different fibres, same legs",
+        "ok_line": "A hard sprint calls on a different part of the muscle's own machinery.",
+        "ko_title": "Same muscles overall",
+        "ko_line": "It isn't a different muscle or a one-sided effort; the same legs are drawing on a different kind of fibre.",
+        "exp_title": "Fibres built for two different jobs",
+        "exp_text": "A single muscle is made up of many fibres, and not all of them are built alike: some contract slowly but resist tiring for a long time, while others contract in a quick, powerful burst but fatigue fast. A gentle jog can be sustained mostly on the slow, tireless fibres, so those are the ones mainly called upon. A hard sprint demands force delivered quickly, and that is a job the fast, powerful fibres are built for far more than the slow ones are, so the same legs suddenly draw on a different part of their own muscle."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do you lean your body forward slightly when starting to walk from a standstill?",
+        "body": null,
+        "options": [
+          {
+            "label": "It reduces the air resistance in front of you",
+            "feedback": "Air resistance at walking pace is far too small to matter, and leaning that little would barely change it."
+          },
+          {
+            "label": "Leaning shifts your weight ahead of your feet, so you begin falling forward and a step catches you",
+            "feedback": "That small forward tip is what starts the body falling, and the first step is what catches it."
+          },
+          {
+            "label": "Leaning forward instantly makes the leg muscles stronger",
+            "feedback": "Leaning does not add strength to a muscle; it changes where your weight sits, not how forcefully a muscle can contract."
+          },
+          {
+            "label": "It signals to people nearby that you are about to move",
+            "feedback": "The lean is not a signal for others; it happens even when walking completely alone."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A controlled fall",
+        "ok_line": "The lean starts the fall, and the step catches it.",
+        "ko_title": "Not a signal or a shortcut",
+        "ko_line": "The lean isn't about strength or resistance; it's what gets the body moving in the first place.",
+        "exp_title": "Walking starts as a controlled fall",
+        "exp_text": "Standing still, your weight sits balanced directly over your feet, and nothing pulls you forward. Tipping the body slightly ahead moves that weight past the edge of your base of support, so gravity begins pulling you down and forward the way it would if you were simply falling. A step forward plants a new base under that falling weight before it goes too far, catching the fall and turning it into a stride of a walk."
+      }
+    ]
+  }
+]

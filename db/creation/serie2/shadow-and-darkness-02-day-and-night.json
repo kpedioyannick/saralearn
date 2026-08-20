@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason the sky is dark at night?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun is behind the Moon",
+            "feedback": "That happens only during a solar eclipse, and even then the sky darkens only for a few minutes. Normally the Sun is simply on the other side of the Earth."
+          },
+          {
+            "label": "The stars are too faint to be seen",
+            "feedback": "Stars are faint, but millions are visible. The real reason is that at night your part of Earth faces away from the Sun, not that the stars are weak."
+          },
+          {
+            "label": "Your side of Earth is turned away from the Sun",
+            "feedback": "Correct. Night happens because the Earth rotates and your location faces away from the Sun, leaving the sky dark while the Sun lights the other half of the planet."
+          },
+          {
+            "label": "The Earth blocks the Sun's light",
+            "feedback": "That is true, but it is the same idea phrased differently. The key fact is that your part of Earth is turned away from the Sun, which is why it is dark."
+          }
+        ],
+        "ok_title": "Earth's rotation",
+        "ok_line": "Night is just your side of Earth facing away from the Sun.",
+        "ko_title": "Night cause",
+        "ko_line": "Remember it is about Earth's turn, not about the stars or the Moon.",
+        "exp_title": "Day and night cause",
+        "exp_text": "As the Earth spins, one half faces the Sun and has day, while the other half faces away and has night. When your location turns away from the Sun, the sky becomes dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the Earth turn around to cause day and night?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Moon",
+            "feedback": "The Moon orbits the Earth, but it does not make the Earth spin. Day and night come from Earth's own rotation."
+          },
+          {
+            "label": "Its own axis",
+            "feedback": "Correct. The Earth spins around an imaginary line that runs from the North Pole to the South Pole, called the axis, completing one turn each day."
+          },
+          {
+            "label": "The Sun",
+            "feedback": "The Earth orbits the Sun once a year, but that orbit gives the seasons, not the daily cycle of day and night. Day and night come from spinning on the axis."
+          },
+          {
+            "label": "The centre of the galaxy",
+            "feedback": "The whole solar system moves around the galaxy, but that takes hundreds of millions of years and does not cause our daily day and night."
+          }
+        ],
+        "ok_title": "Earth's axis",
+        "ok_line": "The Earth spins on its own axis to make day and night.",
+        "ko_title": "Axis vs orbit",
+        "ko_line": "Do not confuse the daily spin with the yearly orbit around the Sun.",
+        "exp_title": "Earth's spin",
+        "exp_text": "The Earth rotates around a straight line called its axis that passes through the poles. One full rotation takes about 24 hours, giving us one day and one night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How long does the Earth take to complete one rotation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 24 hours",
+            "feedback": "Correct. One full turn of the Earth on its axis takes roughly 24 hours, which is why we have a cycle of one day and one night."
+          },
+          {
+            "label": "About 12 hours",
+            "feedback": "That is half a day, the time from noon to midnight, not the full rotation. The Earth needs the full 24 hours for one turn."
+          },
+          {
+            "label": "About 48 hours",
+            "feedback": "That would be two days for one spin, which is not what we observe. Our day is about 24 hours long."
+          },
+          {
+            "label": "About one month",
+            "feedback": "A month is the time the Moon takes to orbit the Earth, not the time the Earth takes to spin. The Earth spins much faster, once every 24 hours."
+          }
+        ],
+        "ok_title": "One day",
+        "ok_line": "One rotation takes about 24 hours, a day and a night.",
+        "ko_title": "Wrong times",
+        "ko_line": "Remember the value is close to a full day, not half or double.",
+        "exp_title": "Rotation period",
+        "exp_text": "The Earth turns once on its axis in about 24 hours. That is what defines a day, with the Sun appearing to rise, cross the sky, and set."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a solar eclipse?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The Earth blocks the Sun's light from the Moon",
+            "feedback": "That is a lunar eclipse, when the Moon is in Earth's shadow. In a solar eclipse it is the Moon that blocks the Sun."
+          },
+          {
+            "label": "The Sun changes colour temporarily",
+            "feedback": "The Sun does not change colour; it keeps shining normally. An eclipse is a shadow, not a change in the Sun itself."
+          },
+          {
+            "label": "The Moon enters Earth's shadow",
+            "feedback": "That describes a lunar eclipse, not a solar eclipse. In a solar eclipse the Moon's shadow falls on Earth."
+          },
+          {
+            "label": "The Moon blocks the Sun's light for a short time",
+            "feedback": "Correct. During a solar eclipse, the Moon passes between the Sun and Earth, casting its shadow on Earth and briefly hiding the Sun from view."
+          }
+        ],
+        "ok_title": "Solar eclipse",
+        "ok_line": "The Moon's shadow falls on Earth and hides the Sun.",
+        "ko_title": "Eclipse type",
+        "ko_line": "Solar means the Sun; lunar means the Moon.",
+        "exp_title": "Solar eclipse cause",
+        "exp_text": "When the Moon moves exactly between the Sun and the Earth, its shadow falls on a small part of Earth's surface. People there see the Sun partly or fully hidden for several minutes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is a shadow never completely black in ordinary daylight?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The shadow is made of grey air",
+            "feedback": "Shadows are not made of anything; they are regions where direct light is blocked. The greyness comes from other light still reaching the area."
+          },
+          {
+            "label": "The ground reflects light upward",
+            "feedback": "That is part of the reason, but not all. Light also scatters off the sky and off nearby objects, not just off the ground."
+          },
+          {
+            "label": "Light from the sky and surroundings reaches the shadow",
+            "feedback": "Correct. Even where the Sun is blocked, scattered light from the blue sky and reflections from walls, ground and objects fill the shadow with some light."
+          },
+          {
+            "label": "The shadow takes time to become dark",
+            "feedback": "A shadow forms instantly when light is blocked; it does not gradually darken. The lack of full darkness is due to ambient light, not time."
+          }
+        ],
+        "ok_title": "Ambient light",
+        "ok_line": "Scattered light fills the shadow, so it is grey.",
+        "ko_title": "Shadow darkness",
+        "ko_line": "It is about other light, not about time or material.",
+        "exp_title": "Shadow brightness",
+        "exp_text": "A shadow is only the region where direct sunlight is blocked. The sky scatters sunlight everywhere, and surfaces reflect it, so some light always leaks into the shadow, making it grey rather than black."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is twilight?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The time when the Sun is directly overhead",
+            "feedback": "That is noon, not twilight. Twilight occurs when the Sun is just below the horizon, not high above."
+          },
+          {
+            "label": "The soft light before sunrise and after sunset",
+            "feedback": "Correct. Twilight is the period when the Sun is below the horizon but still lights the sky, giving a gentle glow rather than full darkness."
+          },
+          {
+            "label": "The moment the Sun fully disappears below the horizon",
+            "feedback": "That instant is sunset, the beginning of twilight. Twilight lasts much longer, as the sky gradually darkens."
+          },
+          {
+            "label": "The darkest part of the night",
+            "feedback": "That is the middle of the night, when the Sun is far below the horizon. Twilight is the brighter period just after sunset or before sunrise."
+          }
+        ],
+        "ok_title": "Twilight glow",
+        "ok_line": "Twilight is the soft light when the Sun is just below the horizon.",
+        "ko_title": "Twilight meaning",
+        "ko_line": "It is a gradual period, not a single moment or the darkest time.",
+        "exp_title": "Twilight definition",
+        "exp_text": "Twilight is the period of partial light that occurs twice each day: after the Sun sets and before it rises. The Sun is below the horizon but still illuminates the upper atmosphere, so the sky is not fully dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the sky pink opposite the setting Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Light from the Sun scatters off the sky onto that side",
+            "feedback": "Correct. The setting Sun's light, especially the red and orange parts, travels across the sky and scatters off air and dust, colouring the eastern sky pink."
+          },
+          {
+            "label": "The Earth's shadow is coloured pink",
+            "feedback": "Earth's shadow is actually blue-grey and appears on the opposite side, but the pink colour is from scattered sunlight, not from the shadow itself."
+          },
+          {
+            "label": "The Moon reflects pink light there",
+            "feedback": "The Moon reflects sunlight, but it is not the main source of the pink glow in the sky after sunset. The pink comes from scattering of solar light in the atmosphere."
+          },
+          {
+            "label": "Clouds in the east emit pink light",
+            "feedback": "Clouds do not emit light; they reflect light. The pink glow is sunlight scattered by the air that then lights those clouds, not emission from them."
+          }
+        ],
+        "ok_title": "Scattered light",
+        "ok_line": "The pink glow is scattered sunlight reaching the far side of the sky.",
+        "ko_title": "Sky pinkness",
+        "ko_line": "It is not about the Moon or Earth's shadow; it is scattered sunlight.",
+        "exp_title": "Twilight colours",
+        "exp_text": "After sunset, the Sun's light still travels through the atmosphere and scatters. The longer path means red and pink wavelengths dominate, and this scattered light illuminates the sky on the opposite side, giving a pink glow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are crepuscular rays?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Beams of light that always point straight up",
+            "feedback": "They can slant or fan out. The name comes from their typical appearance during twilight, but they are paths of sunlight, not always vertical."
+          },
+          {
+            "label": "Rays of light that come from the Moon",
+            "feedback": "Crepuscular rays come from the Sun, not the Moon. They are most visible at dawn or dusk when the Sun is near the horizon."
+          },
+          {
+            "label": "Parallel beams of sunlight seen through clouds",
+            "feedback": "Correct. These are shafts of sunlight separated by cloud shadows. Because the Sun is far away, the beams are nearly parallel, but they seem to spread out from a point."
+          },
+          {
+            "label": "Dark columns that block all light",
+            "feedback": "The dark parts between the bright beams are shadows cast by clouds, not separate rays that block light. The bright parts are the actual sunlight."
+          }
+        ],
+        "ok_title": "Sunbeams",
+        "ok_line": "Crepuscular rays are parallel sunbeams visible through cloud gaps.",
+        "ko_title": "Rays definition",
+        "ko_line": "They are light from the Sun, not from the Moon or dark objects.",
+        "exp_title": "Crepuscular rays",
+        "exp_text": "When clouds partially cover the Sun, light passes through gaps and casts long shadows. The bright beams are sunlight, and because the Sun is so distant, they are parallel though they appear to fan out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do colours fade as evening comes on?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Sun's light becomes weaker and more blue",
+            "feedback": "Actually, the Sun's light becomes redder, not bluer, as it travels through more atmosphere. The fading is not because the light turns blue."
+          },
+          {
+            "label": "Less light reaches the objects, so their colours appear dull",
+            "feedback": "Correct. As the Sun sets, the amount of light reaching the ground drops sharply. With less light, the eye cannot see colours clearly, and they look faded or grey."
+          },
+          {
+            "label": "The air absorbs all the colours except grey",
+            "feedback": "The air does not absorb all colours; it scatters them. The reduction in light is the main reason colours fade, not selective absorption."
+          },
+          {
+            "label": "The eyes stop working in dim light",
+            "feedback": "Eyes still work, they just become less sensitive to colour. But the reason is the drop in light intensity, not that the eyes stop functioning."
+          }
+        ],
+        "ok_title": "Low light",
+        "ok_line": "Fewer photons mean colours appear duller.",
+        "ko_title": "Colour fading",
+        "ko_line": "It is about light amount, not about the colour of the light.",
+        "exp_title": "Evening colours",
+        "exp_text": "Colours come from light reflecting off objects. In the evening the Sun is low, its light passes through more air and is reduced, so objects receive less light and their colours look less vivid."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason the sky is dark at night?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The stars are too far away to shine",
+            "feedback": "Stars are far, but they still shine and many are visible. The darkness is because your side of Earth faces away from the Sun, not because of distance."
+          },
+          {
+            "label": "The Earth's shadow covers the whole sky",
+            "feedback": "Earth's shadow is only on the side facing away from the Sun, which is the night side. But the sky looks dark because the Sun is not lighting it, not because a shadow covers everything."
+          },
+          {
+            "label": "Your side of Earth is turned away from the Sun",
+            "feedback": "Correct. At night, your location on Earth is rotated away from the Sun, so the sky is not lit by sunlight, making it dark."
+          },
+          {
+            "label": "The Moon blocks the Sun's light at night",
+            "feedback": "The Moon is usually not in the sky at night, and it does not block sunlight; it reflects it. The dark is from Earth's rotation, not the Moon."
+          }
+        ],
+        "ok_title": "Night cause",
+        "ok_line": "Night is when your side faces away from the Sun.",
+        "ko_title": "Dark sky",
+        "ko_line": "Remember it is about Earth's spin, not about stars or the Moon.",
+        "exp_title": "Why night is dark",
+        "exp_text": "The Earth rotates, so at any moment half of it faces the Sun and has daylight, while the other half faces away and has night. Without sunlight hitting the atmosphere, the sky is dark."
+      }
+    ]
+  }
+]

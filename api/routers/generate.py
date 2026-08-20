@@ -1,9 +1,12 @@
-"""Génération des exercices à partir du Markdown déposé.
+"""Exécution d'un lancement de rédaction, et relecture de ce qu'il produit.
 
-Un lancement crée une ligne `exercise_prompt` par couple
-(type de question × niveau de Bloom), avec le texte exact envoyé au
-modèle. Les exercices arrivent en `draft` : rien n'entre au feed sans
-être relu.
+Un lancement est une ligne `exercise_prompt` portant le texte exact
+envoyé au modèle. Les exercices arrivent en `draft` : rien n'entre au
+feed sans être relu.
+
+La route qui créait ces lancements depuis un gabarit versionné a été
+retirée avec la table `prompt` (migration 018). Ils naissent désormais
+dans `knowledge.py`, à partir d'un chapitre, qui appelle `_run` ici.
 """
 
 from __future__ import annotations
@@ -11,19 +14,17 @@ from __future__ import annotations
 import json
 import sqlite3
 
-from fastapi import APIRouter, BackgroundTasks, HTTPException, status
+from fastapi import APIRouter
 
-from ..config import LLM_NAME
 from ..db import connection, row, rows, scalar, transaction
-from ..llm import GenerationError, ask, render, validate
+from ..llm import GenerationError, ask, validate
 from ..schemas import (
     ExerciseOut,
     ExercisePatch,
-    GenerateIn,
     GenerationRunOut,
     GenerationStatusOut,
 )
-from ..security import CurrentUser, DbDep
+from ..security import Author, CurrentUser, DbDep
 from .feed import _load_exercise, to_exercise_out
 from .themes import _load, _require_owner
 
@@ -31,12 +32,17 @@ router = APIRouter(tags=["génération"])
 
 
 def _status(conn: sqlite3.Connection, theme_id: int) -> GenerationStatusOut:
+    # Le thème d'un lancement se lit sur son chapitre depuis la 019 :
+    # `exercise_prompt.theme_id` a été retiré, il doublait déjà
+    # `chapter.theme_id`. JOIN fermé, `chapter_id` étant NOT NULL.
+    # 'qcm' est le seul type encore produit.
     runs = rows(
         conn,
         "SELECT ep.id, ep.status, ep.requested_count, ep.produced_count, ep.error,"
-        "       p.type_question, p.type_bloom"
-        " FROM exercise_prompt ep JOIN prompt p ON p.id = ep.prompt_id"
-        " WHERE ep.theme_id = ? ORDER BY ep.id",
+        "       COALESCE(c.type_question, 'qcm') AS type_question"
+        " FROM exercise_prompt ep"
+        " JOIN chapter c ON c.id = ep.chapter_id"
+        " WHERE c.theme_id = ? ORDER BY ep.id",
         (theme_id,),
     )
     return GenerationStatusOut(
@@ -59,8 +65,12 @@ async def _run(run_id: int) -> None:
     with connection() as conn:
         run = row(
             conn,
-            "SELECT ep.*, p.type_question FROM exercise_prompt ep"
-            " JOIN prompt p ON p.id = ep.prompt_id WHERE ep.id = ?",
+            "SELECT ep.*, COALESCE(c.type_question, 'qcm') AS type_question,"
+            "       c.theme_id, t.lang"
+            " FROM exercise_prompt ep"
+            " JOIN chapter c ON c.id = ep.chapter_id"
+            " JOIN theme t ON t.id = c.theme_id"
+            " WHERE ep.id = ?",
             (run_id,),
         )
         if run is None:
@@ -71,7 +81,7 @@ async def _run(run_id: int) -> None:
 
     try:
         raw = await ask(run["rendered_prompt"])
-        items = validate(raw, run["type_question"])
+        items = validate(raw, run["type_question"], run["lang"])
         if not items:
             raise GenerationError("Le modèle n'a produit aucun exercice exploitable.")
     except (GenerationError, Exception) as exc:  # noqa: BLE001 — on trace tout
@@ -84,24 +94,18 @@ async def _run(run_id: int) -> None:
         return
 
     with connection() as conn:
-        bloom = scalar(
-            conn,
-            "SELECT p.type_bloom FROM exercise_prompt ep JOIN prompt p ON p.id = ep.prompt_id"
-            " WHERE ep.id = ?",
-            (run_id,),
-        )
         with transaction(conn):
             for item in items:
                 conn.execute(
                     "INSERT INTO exercise (theme_id, exercise_prompt_id, type_question,"
-                    " type_bloom, prompt, body, options, correct_index, ok_title, ok_line,"
-                    " ko_title, ko_line, exp_title, exp_text, exp_tip, state)"
-                    " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'draft')",
+                    " prompt, body, options, correct_index,"
+                    " ok_title, ok_line, ko_title, ko_line, exp_title, exp_text,"
+                    " state)"
+                    " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,'draft')",
                     (
                         run["theme_id"],
                         run_id,
                         run["type_question"],
-                        bloom,
                         item["prompt"],
                         item["body"],
                         json.dumps(item["options"], ensure_ascii=False),
@@ -112,7 +116,6 @@ async def _run(run_id: int) -> None:
                         item["ko_line"],
                         item["exp_title"],
                         item["exp_text"],
-                        item["exp_tip"],
                     ),
                 )
             conn.execute(
@@ -122,77 +125,15 @@ async def _run(run_id: int) -> None:
             )
 
 
-# Volontairement synchrone : la dépendance SQLite est créée dans un thread
-# du pool, et une connexion sqlite3 ne peut pas franchir un thread. Une
-# route `async` la ferait ouvrir ici et utiliser sur la boucle — erreur
-# garantie. Rien n'est attendu dans ce corps ; le travail long part en
-# tâche de fond, qui, elle, est bien asynchrone.
-@router.post("/themes/{theme_id}/generate", response_model=GenerationStatusOut)
-def generate(
-    theme_id: int,
-    payload: GenerateIn,
-    conn: DbDep,
-    user: CurrentUser,
-    background: BackgroundTasks,
-) -> GenerationStatusOut:
-    theme = _load(conn, theme_id, user["lang"])
-    _require_owner(theme, user)
-
-    if not theme["source_markdown"]:
-        raise HTTPException(
-            status.HTTP_422_UNPROCESSABLE_ENTITY,
-            "Ce thème n'a pas encore de cours. Dépose du Markdown avant de générer.",
-        )
-
-    tags = ", ".join(
-        t["label"]
-        for t in rows(
-            conn,
-            "SELECT g.label FROM theme_tag tt JOIN tag g ON g.id = tt.tag_id"
-            " WHERE tt.theme_id = ?",
-            (theme_id,),
-        )
-    )
-
-    pairs = [(q, b) for q in payload.types for b in payload.blooms]
-    # Le volume demandé se répartit sur les couples choisis, au minimum 1.
-    per_run = max(1, payload.count // max(1, len(pairs)))
-
-    run_ids: list[int] = []
-    with transaction(conn):
-        for type_question, type_bloom in pairs:
-            gabarit = row(
-                conn,
-                "SELECT * FROM prompt WHERE lang = ? AND type_question = ?"
-                " AND type_bloom = ? AND is_active = 1 ORDER BY version DESC LIMIT 1",
-                (theme["lang"], type_question, type_bloom),
-            )
-            if gabarit is None:
-                continue
-            rendered = render(
-                gabarit["template"],
-                title=theme["title"],
-                tags=tags or "aucun",
-                count=per_run,
-                source=theme["source_markdown"],
-            )
-            cur = conn.execute(
-                "INSERT INTO exercise_prompt (theme_id, prompt_id, rendered_prompt,"
-                " model, requested_count, status) VALUES (?, ?, ?, ?, ?, 'pending')",
-                (theme_id, gabarit["id"], rendered, LLM_NAME, per_run),
-            )
-            run_ids.append(cur.lastrowid)
-
-    if not run_ids:
-        raise HTTPException(
-            status.HTTP_422_UNPROCESSABLE_ENTITY,
-            "Aucun gabarit actif pour ces types. Lance db/seed_prompts.sql.",
-        )
-
-    for run_id in run_ids:
-        background.add_task(_run, run_id)
-
-    return _status(conn, theme_id)
+# `POST /themes/{id}/generate` était ici. Elle cherchait un gabarit actif
+# dans `prompt`, table supprimée par la migration 018 — il n'en restait
+# que deux coquilles inactives, et son message d'erreur renvoyait à
+# `db/seed_prompts.sql`, fichier lui-même disparu du dépôt. Trois verrous
+# la rendaient déjà inatteignable : aucun thème n'a de `source_markdown`,
+# aucun gabarit n'était actif, aucun thème n'a de propriétaire.
+#
+# Créer un lancement se fait maintenant par `POST /knowledge/{id}/generate`,
+# qui part d'un chapitre et appelle `_run` ci-dessus.
 
 
 @router.get("/themes/{theme_id}/generation", response_model=GenerationStatusOut)
@@ -209,10 +150,16 @@ def theme_exercises(
     """La pile à relire, dans l'ordre de production."""
     theme = _load(conn, theme_id, user["lang"])
     _require_owner(theme, user)
+    # La jointure sur `sign` n'est pas décorative : `to_exercise_out` lit
+    # `sign_image` et `sign_alt` sans valeur de repli. Sans elle, la pile
+    # à relire renvoyait un 500 — la génération produisait bien, mais
+    # l'auteur ne pouvait plus rien valider, et le thème se publiait vide.
     sql = (
-        "SELECT e.*, t.title AS theme_title, t.color AS theme_color, c.color AS category_color"
+        "SELECT e.*, t.title AS theme_title, t.color AS theme_color, c.color AS category_color,"
+        " s.image_path AS sign_image, s.image_alt AS sign_alt"
         " FROM exercise e JOIN theme t ON t.id = e.theme_id"
-        " JOIN category c ON c.id = t.category_id WHERE e.theme_id = ?"
+        " JOIN category c ON c.id = t.category_id"
+        " LEFT JOIN sign s ON s.id = e.sign_id WHERE e.theme_id = ?"
     )
     params: list = [theme_id]
     if state:
@@ -224,7 +171,7 @@ def theme_exercises(
 
 @router.patch("/exercises/{exercise_id}", response_model=ExerciseOut)
 def patch_exercise(
-    exercise_id: int, payload: ExercisePatch, conn: DbDep, user: CurrentUser
+    exercise_id: int, payload: ExercisePatch, conn: DbDep, user: Author
 ) -> ExerciseOut:
     """Valider, écarter ou corriger un exercice relu."""
     e = _load_exercise(conn, exercise_id)

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 82,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What does a glass prism do to a beam of white light?",
+        "body": null,
+        "options": [
+          {
+            "label": "It spreads it into its colours",
+            "feedback": "Each colour bends by a slightly different amount."
+          },
+          {
+            "label": "It adds colour to plain light",
+            "feedback": "The colours were there before the glass."
+          },
+          {
+            "label": "It strips the colour out",
+            "feedback": "The light leaves with more colour visible, not less."
+          },
+          {
+            "label": "It makes the light brighter",
+            "feedback": "Glass always absorbs a little. Nothing is gained."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "It separates what was already mixed.",
+        "ko_title": "Not that.",
+        "ko_line": "A second prism can put the colours back into white. What does that tell you?",
+        "exp_title": "White was a mixture all along",
+        "exp_text": "Newton settled a long argument with two prisms. The first spread sunlight into a band of colour, which everyone had seen; the second, placed to catch the band, recombined it into white light. Glass therefore adds nothing — it only sorts. He went further and isolated a single colour, passed it through another prism, and found it unchanged: the colours are the components, and white is what you get when they travel together."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the colours separate as light passes through glass?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each colour is slowed differently",
+            "feedback": "Violet slows most, so it turns the most."
+          },
+          {
+            "label": "Each colour weighs a different amount",
+            "feedback": "Light has no weight of any kind."
+          },
+          {
+            "label": "The glass filters them one by one",
+            "feedback": "None is removed. All of them emerge."
+          },
+          {
+            "label": "They enter the glass at different times",
+            "feedback": "They arrive together and leave together."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Different slowdowns, different bends, and the colours part company.",
+        "ko_title": "Not it.",
+        "ko_line": "Bending follows slowing. So the colours must be slowing unequally.",
+        "exp_title": "Violet is held back the most",
+        "exp_text": "All colours travel at the same speed in a vacuum, but not in glass: the shorter the wave, the more it is slowed. Violet lags most and so is bent most sharply, red least, and the rest fall between. One pass through a prism turns a difference of a few per cent in speed into a visible fan of colour. The effect is called dispersion, and it is why a cheap lens fringes an image with colour."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which colour of visible light has the shortest wave?",
+        "body": null,
+        "options": [
+          {
+            "label": "Violet",
+            "feedback": "About 400 nanometres, at the short end of the range."
+          },
+          {
+            "label": "Red",
+            "feedback": "About 700 nanometres — the longest we can see."
+          },
+          {
+            "label": "Green",
+            "feedback": "It sits in the middle, near 550."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Around 580, closer to red than to violet."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Shortest wave, most bending, and the end of the visible band.",
+        "ko_title": "The other end.",
+        "ko_line": "Picture the rainbow. Which colour sits at the inner edge?",
+        "exp_title": "From 400 to 700 nanometres",
+        "exp_text": "Visible light runs from about 400 nanometres at the violet end to about 700 at the red. That is not even a doubling, yet within that narrow strip lies every colour any human has seen. Past violet is ultraviolet, past red is infrared, and both are invisible only because our eyes stop there — bees see well into the ultraviolet, and snakes detect infrared."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lemon look yellow?",
+        "body": null,
+        "options": [
+          {
+            "label": "It absorbs the other colours",
+            "feedback": "Yellow is what the skin fails to keep."
+          },
+          {
+            "label": "Its skin produces yellow light",
+            "feedback": "A lemon in a dark room emits nothing."
+          },
+          {
+            "label": "Yellow passes through its skin",
+            "feedback": "The light bounces off the surface, it does not pass."
+          },
+          {
+            "label": "Its surface adds yellow to the light",
+            "feedback": "Nothing is added. Something is removed."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "You see the colour the lemon rejected.",
+        "ko_title": "Not so.",
+        "ko_line": "Turn out the light and the lemon has no colour at all.",
+        "exp_title": "Colour is what a thing refuses",
+        "exp_text": "Sunlight arrives carrying every colour. The skin of a lemon absorbs most of them and scatters back what we call yellow, so the colour you see is the part it could not use. Change the light and you change the colour: under a lamp with no yellow in it, a lemon looks grey or brown. That is why shops choose their lighting carefully — meat and vegetables lit with the wrong spectrum look spoiled."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What do you get when you mix red, green and blue light?",
+        "body": null,
+        "options": [
+          {
+            "label": "White",
+            "feedback": "The three together cover the whole visible range."
+          },
+          {
+            "label": "Brown",
+            "feedback": "That is what mixing those three paints would give."
+          },
+          {
+            "label": "Black",
+            "feedback": "Adding light can never produce darkness."
+          },
+          {
+            "label": "Grey",
+            "feedback": "Grey is dimmer white, not a different mixture."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Light adds up. Paint takes away.",
+        "ko_title": "Not it.",
+        "ko_line": "You are mixing light, not paint. The two work in opposite directions.",
+        "exp_title": "Adding light, subtracting paint",
+        "exp_text": "Mixing light is addition: each source contributes, and red, green and blue together stimulate all three kinds of cone in your eye, which reads as white. Mixing paint is subtraction: each pigment removes part of the light, so the more you add the less comes back, and you end at mud. Every screen you own uses the first rule — a white pixel is three tiny lamps of red, green and blue, all lit."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a soap bubble show shifting bands of colour?",
+        "body": null,
+        "options": [
+          {
+            "label": "Reflections from its two surfaces interfere",
+            "feedback": "They reinforce some colours and cancel others."
+          },
+          {
+            "label": "Soap contains coloured dyes",
+            "feedback": "Plain soap and water do it just as well."
+          },
+          {
+            "label": "The film splits light like a prism",
+            "feedback": "It is far too thin to disperse anything."
+          },
+          {
+            "label": "Air inside the bubble is coloured",
+            "feedback": "The same air surrounds the bubble outside."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly.",
+        "ok_line": "Two reflections, slightly out of step, and colours cancel.",
+        "ko_title": "Not that.",
+        "ko_line": "The film has an inner face and an outer one. Both reflect.",
+        "exp_title": "Two reflections that argue",
+        "exp_text": "Light bounces off the front of the soap film and off the back, and the second has travelled slightly further. For some colours the two arrive in step and reinforce; for others they cancel. Which colour wins depends on the thickness, so as the film drains and thins the bands drift and change. Just before bursting the top goes black — the film has become so thin that every colour cancels."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a spectrum?",
+        "body": null,
+        "options": [
+          {
+            "label": "Light spread out by wavelength",
+            "feedback": "Each colour placed in order along a band."
+          },
+          {
+            "label": "The brightest colour in a beam",
+            "feedback": "A spectrum contains all of them, ranked."
+          },
+          {
+            "label": "A mixture of two colours",
+            "feedback": "It is a full ordered range, not a pair."
+          },
+          {
+            "label": "The colour an object absorbs",
+            "feedback": "That can be read from a spectrum, but is not one."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Light sorted by wavelength, laid out in order.",
+        "ko_title": "Not quite.",
+        "ko_line": "Think of what a prism produces: not one colour, but all of them arranged.",
+        "exp_title": "Light, laid out in order",
+        "exp_text": "A spectrum is light separated so that each wavelength sits at its own place. It matters because every element leaves a signature in one: heated, a gas emits at a few precise wavelengths, and cool gas in front of a bright source absorbs at exactly the same ones, leaving dark lines. Reading those lines in sunlight revealed what the Sun is made of — and turned up helium, found in the Sun before it was ever found on Earth."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a rainbow always show its colours in the same order?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each colour bends by a fixed amount",
+            "feedback": "Red always least, violet always most."
+          },
+          {
+            "label": "The Sun sends them in that order",
+            "feedback": "Sunlight leaves with all colours mixed together."
+          },
+          {
+            "label": "Rain sorts drops by size",
+            "feedback": "Drop size affects brightness, not the sequence."
+          },
+          {
+            "label": "The eye reads them in that order",
+            "feedback": "The eye reads whatever arrives, in any order."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Fixed bending gives a fixed order, every single time.",
+        "ko_title": "Not it.",
+        "ko_line": "The order is set inside the raindrop, before the light ever reaches you.",
+        "exp_title": "The order is set by physics, not by chance",
+        "exp_text": "Inside each raindrop light bends on entering, reflects off the back, and bends again on leaving. Because every colour bends by its own fixed amount, red emerges at about 42 degrees from the incoming sunlight and violet at about 40, with the rest between. The sequence can never scramble. In a double rainbow the outer bow has bounced twice inside the drop, which reverses it — its red is on the inside."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a bee see patterns on a flower that you cannot?",
+        "body": null,
+        "options": [
+          {
+            "label": "It sees ultraviolet light",
+            "feedback": "Many flowers carry marks visible only in it."
+          },
+          {
+            "label": "Its eyes are far sharper",
+            "feedback": "A bee's vision is much blurrier than yours."
+          },
+          {
+            "label": "It sees in complete darkness",
+            "feedback": "Bees need daylight like anyone else."
+          },
+          {
+            "label": "It looks much closer to the flower",
+            "feedback": "The marks stay invisible to us at any distance."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The pattern is there. Your eyes simply stop too soon.",
+        "ko_title": "Not that.",
+        "ko_line": "The flower is not hiding anything. It is broadcasting outside your range.",
+        "exp_title": "Landing marks outside our range",
+        "exp_text": "Bee vision runs from about 300 to 650 nanometres, shifted from ours: it reaches into the ultraviolet and stops short of red. Photographed in ultraviolet, many flowers show bullseyes and stripes converging on the nectar — guides painted for a customer whose eyes are not ours. A field of what looks to us like plain yellow flowers is, to a bee, patterned as clearly as a runway."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the sea look blue-green as you go deeper?",
+        "body": null,
+        "options": [
+          {
+            "label": "Water absorbs red light first",
+            "feedback": "Red is gone within a few metres, blue goes deepest."
+          },
+          {
+            "label": "It reflects the colour of the sky",
+            "feedback": "Deep water stays blue on a grey day."
+          },
+          {
+            "label": "Sea plants tint the water",
+            "feedback": "Clear open ocean has almost none and is bluest."
+          },
+          {
+            "label": "Salt gives the water its colour",
+            "feedback": "Fresh lakes deep enough look blue too."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Red is stripped out first. Only blue gets deep.",
+        "ko_title": "Not it.",
+        "ko_line": "The colour is what survives the descent, not what falls on the surface.",
+        "exp_title": "The colours drop out one by one",
+        "exp_text": "Water absorbs long wavelengths fastest. Red is nearly gone by 5 metres, orange by 15, yellow by 30, and blue reaches furthest — which is why everything below looks blue-green and why divers find that blood appears dark green at depth. A white light carried down restores the true colours at once, which is why underwater photographs are lit rather than merely exposed."
+      }
+    ]
+  }
+]

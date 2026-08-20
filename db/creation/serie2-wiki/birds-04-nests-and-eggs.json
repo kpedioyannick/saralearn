@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 242,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the simplest type of bird nest?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A mound of vegetation and earth",
+            "feedback": "A mound is a large pile, not the simplest. The scrape is the simplest nest, being just a shallow depression."
+          },
+          {
+            "label": "A hanging woven cup",
+            "feedback": "A hanging woven nest is elaborate, made by birds like weavers. The simplest is the scrape, a shallow depression in soil or vegetation."
+          },
+          {
+            "label": "A shallow depression in soil or vegetation",
+            "feedback": "Correct. The scrape is the simplest nest, merely a hollow in the ground or among plants, often lined with bits of material."
+          },
+          {
+            "label": "A burrow dug into the ground",
+            "feedback": "A burrow is a tunnel dug into the ground, which is more complex than a simple scrape depression."
+          }
+        ],
+        "ok_title": "Scrape nests",
+        "ok_line": "The scrape is the simplest nest type, a shallow hollow in the ground.",
+        "ko_title": "Not the simplest",
+        "ko_line": "Other nest types involve more construction than a simple depression.",
+        "exp_title": "The scrape nest",
+        "exp_text": "A scrape is a shallow depression in soil or vegetation, often with a rim to keep eggs from rolling away. It may be lined with leaves, stones, shells, or feathers for camouflage or insulation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which bird does not build a nest and keeps its egg between its feet?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "American robin",
+            "feedback": "The American robin builds a grassy cup nest. The bird that holds its egg between its feet is the emperor penguin."
+          },
+          {
+            "label": "Emperor penguin",
+            "feedback": "Correct. Emperor penguins do not build nests; they tuck their eggs between their feet and a fold of skin on their lower belly."
+          },
+          {
+            "label": "Common murre",
+            "feedback": "The common murre lays its egg directly on a rocky ledge, not between its feet. The emperor penguin uses its feet to hold the egg."
+          },
+          {
+            "label": "Montezuma oropendola",
+            "feedback": "The Montezuma oropendola weaves a hanging nest. It does not carry its egg between its feet like the emperor penguin."
+          }
+        ],
+        "ok_title": "Penguin's egg care",
+        "ok_line": "Emperor penguins keep their egg safe between their feet and a skin fold.",
+        "ko_title": "Nest-building birds",
+        "ko_line": "These birds build nests or lay eggs elsewhere, not between their feet.",
+        "exp_title": "Emperor penguin nesting",
+        "exp_text": "Emperor penguins breed in the harsh Antarctic winter. By holding the egg on their feet, they can move and huddle together for warmth, sharing body heat to survive the cold."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a nest made of dried saliva called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A shelf made of dried saliva",
+            "feedback": "Correct. Some birds build nests that are shelves formed from dried saliva, as mentioned among the variety of nest types."
+          },
+          {
+            "label": "A mud dome with an entrance tunnel",
+            "feedback": "That describes a mud dome nest, which is built from mud, not saliva. The saliva nest is a separate type."
+          },
+          {
+            "label": "A knot-hole left by a broken branch",
+            "feedback": "A knot-hole is a cavity in a tree, not a structure made of saliva. The saliva nest is a shelf-like construction."
+          },
+          {
+            "label": "A burrow dug into the ground",
+            "feedback": "A burrow is a tunnel in the ground, not a saliva construction. The saliva nest is a shelf, often attached to a surface."
+          }
+        ],
+        "ok_title": "Saliva nest",
+        "ok_line": "Some birds make their nest as a shelf from dried saliva.",
+        "ko_title": "Other nest types",
+        "ko_line": "These are different nest structures, not made from saliva.",
+        "exp_title": "Saliva-built nests",
+        "exp_text": "Among the many nest forms, some birds create a shelf entirely from dried saliva. This is one of the more unusual materials used, along with mud, vegetation, and even metal spikes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do brood parasites do instead of building their own nest?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They dig a burrow in the ground",
+            "feedback": "Digging a burrow is still nest-building. Brood parasites lay their eggs in other birds' nests."
+          },
+          {
+            "label": "They lay eggs on bare rock",
+            "feedback": "Laying on bare rock is a nestless strategy, but brood parasites instead use the nests of other species."
+          },
+          {
+            "label": "They build a scrape in soil",
+            "feedback": "A scrape is a nest type; brood parasites do not build any nest of their own."
+          },
+          {
+            "label": "They lay eggs in the nests of other birds",
+            "feedback": "Correct. Brood parasites, like cuckoos and cowbirds, lay their eggs in active nests of other species, letting those birds raise the chicks."
+          }
+        ],
+        "ok_title": "Brood parasitism",
+        "ok_line": "Brood parasites lay eggs in other birds' nests, avoiding nest building.",
+        "ko_title": "Nest-building options",
+        "ko_line": "These describe nests built by the bird itself, which brood parasites do not do.",
+        "exp_title": "Brood parasites",
+        "exp_text": "Brood parasites such as New World cowbirds, honeyguides, and many cuckoos lay their eggs in the active nests of other species. The host birds then incubate and feed the parasite's young, while the parasite builds no nest of its own."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which bird uses anti-bird spikes to build part of its nest?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Dusky scrubfowl",
+            "feedback": "The dusky scrubfowl builds large mounds of vegetation and earth, not from metal spikes. The magpie uses anti-bird spikes."
+          },
+          {
+            "label": "Village weaver",
+            "feedback": "The village weaver weaves a hanging nest from grass. It does not use metal spikes; the magpie does."
+          },
+          {
+            "label": "Magpie",
+            "feedback": "Correct. Some magpies have been observed building nests using anti-bird spikes, forming a protective dome that may deter predators."
+          },
+          {
+            "label": "Ashy storm-petrel",
+            "feedback": "The ashy storm-petrel lays eggs in rocky crevices without nest material. It does not use spikes; the magpie is the one."
+          }
+        ],
+        "ok_title": "Spike-using magpies",
+        "ok_line": "Magpies sometimes build their nests with anti-bird spikes.",
+        "ko_title": "Other nest builders",
+        "ko_line": "These birds build nests from natural materials, not metal spikes.",
+        "exp_title": "Magpie nest with spikes",
+        "exp_text": "Some magpies incorporate anti-bird spikes into their nests, using them to form a dome that may help protect chicks from predators, ironically serving the spikes' original purpose of keeping birds away."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the nest of a common murre?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A scrape in the sand",
+            "feedback": "A scrape is a depression in soil or vegetation, but the murre lays its eggs directly on rocky ledges without any nest."
+          },
+          {
+            "label": "A bare rocky ledge",
+            "feedback": "Correct. Common murres lay their eggs directly onto narrow rocky ledges, with no nest structure at all."
+          },
+          {
+            "label": "A burrow in the ground",
+            "feedback": "A burrow is a tunnel dug into the ground; murres do not dig burrows. They use bare rocky ledges."
+          },
+          {
+            "label": "A mud dome with an entrance tunnel",
+            "feedback": "A mud dome is a constructed nest, not used by murres. Murres simply lay on bare rock."
+          }
+        ],
+        "ok_title": "Ledge nesting",
+        "ok_line": "Murres lay eggs on bare rock ledges without building a nest.",
+        "ko_title": "Other nest types",
+        "ko_line": "These are built or dug nests, unlike the murre's bare ledge.",
+        "exp_title": "Murre nesting",
+        "exp_text": "Common murres, along with thick-billed murres and razorbills, lay their eggs directly onto narrow rocky ledges. Their eggs are pointed at one end so they roll in a circle instead of falling off, since there is no nest to hold them."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a roost nest used for?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Roosting in the non-breeding season",
+            "feedback": "Correct. Some birds build special dormitory or roost nests used only for roosting, not for breeding."
+          },
+          {
+            "label": "Laying eggs in the breeding season",
+            "feedback": "That is what a breeding nest is for. A roost nest is used for sleeping or resting outside the breeding season."
+          },
+          {
+            "label": "Storing food for winter",
+            "feedback": "Nests are not described as food stores. A roost nest is for roosting, not storage."
+          },
+          {
+            "label": "Courtship display to attract a mate",
+            "feedback": "Courtship involves nest-building in some species, but a roost nest is for roosting, not display."
+          }
+        ],
+        "ok_title": "Roost nests",
+        "ok_line": "Roost nests are for sleeping or resting outside breeding time.",
+        "ko_title": "Breeding nests",
+        "ko_line": "Breeding nests are for eggs and young; roost nests serve a different purpose.",
+        "exp_title": "Roosting in nests",
+        "exp_text": "Nests are primarily used for breeding, but some birds reuse them for roosting in the non-breeding season. Others build special dormitory or roost nests used only for that purpose."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do emperor penguins use to keep their eggs warm?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A scrape lined with feathers",
+            "feedback": "Emperor penguins do not build scrapes. They hold their eggs between their feet and a fold of skin, not on a nest."
+          },
+          {
+            "label": "A mound of vegetation",
+            "feedback": "A vegetation mound is a nest type, but emperor penguins build no nest. They use body heat from their feet and belly."
+          },
+          {
+            "label": "A burrow in the snow",
+            "feedback": "Emperor penguins do not dig burrows. They incubate by tucking the egg between their feet and lower belly."
+          },
+          {
+            "label": "Their feet and a fold of belly skin",
+            "feedback": "Correct. Emperor penguins keep their eggs and chicks between their feet and a fold of skin on their lower bellies, using body heat to incubate."
+          }
+        ],
+        "ok_title": "Egg incubation",
+        "ok_line": "Emperor penguins warm their eggs with their feet and belly skin.",
+        "ko_title": "Nest-based incubation",
+        "ko_line": "These are nest types; emperor penguins use no nest.",
+        "exp_title": "Emperor penguin incubation",
+        "exp_text": "Emperor penguins do not build nests. Instead, they hold their single egg on top of their feet, covered by a fold of skin from the lower belly. This lets them move and huddle together for warmth during the harsh Antarctic winter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which bird lays its egg on a broken stump or in a shallow depression on a branch?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "King penguin",
+            "feedback": "King penguins hold their eggs between their feet, not on a stump or branch. The potoo uses such a spot."
+          },
+          {
+            "label": "Common murre",
+            "feedback": "Common murres lay on rocky ledges, not on a stump or branch. The potoo lays its egg on a broken stump or branch depression."
+          },
+          {
+            "label": "Potoo",
+            "feedback": "Correct. Potoos lay their single egg directly on a broken stump or into a shallow depression on a branch, often where a branch died and fell off."
+          },
+          {
+            "label": "Eurasian eagle-owl",
+            "feedback": "Eurasian eagle-owls lay eggs in rocky crevices, not on a stump or branch. The potoo uses that site."
+          }
+        ],
+        "ok_title": "Potoo nesting",
+        "ok_line": "Potoos lay their egg on a stump or branch depression.",
+        "ko_title": "Other nesting sites",
+        "ko_line": "These birds use different spots—feet, ledges, or crevices—not broken stumps.",
+        "exp_title": "Potoo egg placement",
+        "exp_text": "Potoos do not build nests. They place their single egg directly on a broken stump or into a shallow depression on a branch, often where an upward-pointing branch died and fell off, leaving a scar or knot-hole."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do many birds do with their old nest each year?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They always abandon it and build a new one",
+            "feedback": "Most birds build a new nest, but some refurbish the old one. The answer is that most build new, though some reuse."
+          },
+          {
+            "label": "Most build a new nest, but some refurbish their old one",
+            "feedback": "Correct. Most birds build a new nest each year, while some refurbish their old nests."
+          },
+          {
+            "label": "They all reuse the same nest for life",
+            "feedback": "Not all birds reuse nests; most build new ones each year. A few, like some eagles, reuse theirs for years."
+          },
+          {
+            "label": "They never reuse a nest after the first season",
+            "feedback": "That is too absolute—some birds do reuse nests, such as eagles and Eurasian coots. Most build new, but reuse happens."
+          }
+        ],
+        "ok_title": "Nest reuse",
+        "ok_line": "Most birds build fresh nests, but some refurbish old ones.",
+        "ko_title": "Yearly nesting habits",
+        "ko_line": "Nest building varies: most build anew, a few reuse.",
+        "exp_title": "Annual nest building",
+        "exp_text": "Most birds build a new nest each year. However, some species refurbish their old nests, and large eagle eyries may be used and improved over several years. The Eurasian coot also reuses nesting sites, sometimes building on top of previous layers."
+      }
+    ]
+  }
+]

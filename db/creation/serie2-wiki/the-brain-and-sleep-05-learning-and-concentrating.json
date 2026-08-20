@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 251,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the first stage of non-REM sleep called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "N1",
+            "feedback": "Correct. The sleep cycle normally begins with stage N1, followed by N2, then N3, then back to N2 before REM."
+          },
+          {
+            "label": "N2",
+            "feedback": "N2 comes after N1, not before. The order is N1 → N2 → N3 → N2 → REM."
+          },
+          {
+            "label": "N3",
+            "feedback": "N3 is the deep or slow-wave stage, which occurs after N1 and N2, not first."
+          },
+          {
+            "label": "REM",
+            "feedback": "REM occurs later in the cycle, after the non-REM stages, not at the very beginning."
+          }
+        ],
+        "ok_title": "First sleep stage",
+        "ok_line": "Sleep starts with stage N1.",
+        "ko_title": "Sleep stage mix-up",
+        "ko_line": "Remember the order: N1, N2, N3, back to N2, then REM.",
+        "exp_title": "Sleep cycle order",
+        "exp_text": "A normal sleep cycle proceeds in the order N1 → N2 → N3 → N2 → REM. N1 is the lightest stage, and sleep always begins there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which stage of sleep is deep sleep or slow-wave sleep most prominent?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "REM sleep",
+            "feedback": "REM sleep is the stage with vivid dreams and fast brain waves, not slow-wave or deep sleep."
+          },
+          {
+            "label": "Stage N1",
+            "feedback": "N1 is light sleep, where you are just starting to drift off. Deep sleep occurs in a later stage."
+          },
+          {
+            "label": "Stage N3",
+            "feedback": "Correct. Stage N3, also called delta sleep or slow-wave sleep, is the deepest stage of non-REM sleep."
+          },
+          {
+            "label": "Stage N2",
+            "feedback": "N2 is lighter than N3 and is not considered deep sleep. N3 is the deep stage."
+          }
+        ],
+        "ok_title": "Deep sleep stage",
+        "ok_line": "N3 is where slow-wave, deep sleep happens.",
+        "ko_title": "Deep vs. light sleep",
+        "ko_line": "N1 and N2 are lighter; N3 is the deepest.",
+        "exp_title": "Non-REM deep sleep",
+        "exp_text": "Stage N3 of non-REM sleep is also called delta sleep or slow-wave sleep. During it, the brain uses less energy and the body is in its deepest rest."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which brain wave appears when a person is awake but resting quietly with eyes closed?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Beta waves",
+            "feedback": "Beta waves appear when you are alert and paying attention, not when you are resting quietly."
+          },
+          {
+            "label": "Delta waves",
+            "feedback": "Delta waves occur during the deepest sleep (stages 3 and 4), not while awake and resting."
+          },
+          {
+            "label": "Theta waves",
+            "feedback": "Theta waves are seen as you transition into sleep, not during the resting, fully conscious state."
+          },
+          {
+            "label": "Alpha waves",
+            "feedback": "Correct. Alpha waves are present when a person is in a resting, fully conscious state, often with eyes closed and body still."
+          }
+        ],
+        "ok_title": "Resting brain waves",
+        "ok_line": "Alpha waves mark quiet, resting wakefulness.",
+        "ko_title": "Waves mix-up",
+        "ko_line": "Beta, delta, and theta appear in other states.",
+        "exp_title": "Brain wave states",
+        "exp_text": "Each brain wave corresponds to a different state. Alpha waves show up when you are resting but still conscious, while beta waves appear when alert and delta waves during deep sleep."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main brain wave frequency seen when a person is fully alert and concentrating on a task?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Alpha waves",
+            "feedback": "Alpha waves appear when you are resting, not when you are fully alert and concentrating."
+          },
+          {
+            "label": "Beta waves",
+            "feedback": "Correct. Beta waves have the highest frequency and occur when a person is fully alert, such as while completing a task."
+          },
+          {
+            "label": "Theta waves",
+            "feedback": "Theta waves are associated with the transition into sleep, not with alert concentration."
+          },
+          {
+            "label": "Delta waves",
+            "feedback": "Delta waves occur during the deepest sleep, not during alert activity."
+          }
+        ],
+        "ok_title": "Alert brain waves",
+        "ok_line": "Beta waves appear when you're fully focused.",
+        "ko_title": "Concentration waves",
+        "ko_line": "Alertness uses beta, not alpha or delta.",
+        "exp_title": "Beta wave activity",
+        "exp_text": "Beta waves are the fastest brain waves, appearing when a person is fully alert and paying attention. They replace alpha waves when you shift from resting to concentrating."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which sleep phase does the brain mostly restore its supply of ATP?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Non-REM sleep",
+            "feedback": "Correct. During non-REM sleep, especially in areas with reduced brain activity, the brain restores its ATP supply."
+          },
+          {
+            "label": "REM sleep",
+            "feedback": "REM sleep is for dreaming and has fast brain waves; ATP restoration happens mainly in non-REM sleep."
+          },
+          {
+            "label": "Wakefulness",
+            "feedback": "While awake, the brain uses energy; ATP restoration is a sleep-related process."
+          },
+          {
+            "label": "Dreaming",
+            "feedback": "Dreaming occurs in REM, not during the ATP-restoring non-REM phase."
+          }
+        ],
+        "ok_title": "Energy restoration",
+        "ok_line": "Non-REM sleep restores brain ATP.",
+        "ko_title": "Sleep energy repair",
+        "ko_line": "ATP is replenished in non-REM, not REM.",
+        "exp_title": "ATP replenishment",
+        "exp_text": "During non-REM sleep, the brain reduces energy use and builds up its ATP stores, the molecule that supplies energy for short-term storage and transport."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What hormone is released in bursts during slow-wave sleep?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Melatonin",
+            "feedback": "Melatonin helps regulate the sleep cycle but is not the hormone released in bursts during slow-wave sleep."
+          },
+          {
+            "label": "Prolactin",
+            "feedback": "Prolactin is secreted during all sleep, but not specifically in bursts during slow-wave sleep."
+          },
+          {
+            "label": "Insulin",
+            "feedback": "Insulin is involved in blood sugar regulation, not in slow-wave sleep bursts."
+          },
+          {
+            "label": "Growth hormone",
+            "feedback": "Correct. During slow-wave sleep, the body secretes bursts of growth hormone."
+          }
+        ],
+        "ok_title": "Sleep hormone release",
+        "ok_line": "Growth hormone bursts occur in slow-wave sleep.",
+        "ko_title": "Hormone confusion",
+        "ko_line": "Prolactin is all sleep; growth hormone is slow-wave.",
+        "exp_title": "Slow-wave hormones",
+        "exp_text": "During slow-wave sleep (stage N3), the body releases growth hormone in bursts. This is different from prolactin, which is secreted throughout all sleep."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the brain secret during all sleep, even during the day?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Growth hormone",
+            "feedback": "Growth hormone is only released during slow-wave sleep, not during all sleep."
+          },
+          {
+            "label": "Prolactin",
+            "feedback": "Correct. Prolactin is associated with all sleep, whether it happens at night or during the day."
+          },
+          {
+            "label": "Melatonin",
+            "feedback": "Melatonin is regulated by light and darkness, not released during all sleep phases."
+          },
+          {
+            "label": "Cortisol",
+            "feedback": "Cortisol is a stress hormone, not one secreted during all sleep."
+          }
+        ],
+        "ok_title": "All-sleep hormone",
+        "ok_line": "Prolactin is linked to all sleep.",
+        "ko_title": "Sleep hormones",
+        "ko_line": "Prolactin is for all sleep; growth hormone is slow-wave only.",
+        "exp_title": "Prolactin in sleep",
+        "exp_text": "All sleep, regardless of the time of day, is associated with the secretion of prolactin. This is separate from growth hormone, which appears only during slow-wave sleep."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to body temperature and heart rate during non-REM deep sleep?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They increase",
+            "feedback": "They actually fall during non-REM deep sleep, not rise."
+          },
+          {
+            "label": "They stay the same",
+            "feedback": "They do not stay the same; they drop during deep sleep."
+          },
+          {
+            "label": "They fall",
+            "feedback": "Correct. During non-REM deep sleep, body temperature and heart rate both decrease."
+          },
+          {
+            "label": "They fluctuate wildly",
+            "feedback": "They decrease steadily, not fluctuate wildly."
+          }
+        ],
+        "ok_title": "Deep sleep body changes",
+        "ok_line": "Temperature and heart rate drop in deep sleep.",
+        "ko_title": "Sleep body signs",
+        "ko_line": "Deep sleep slows the body down.",
+        "exp_title": "Non-REM physiology",
+        "exp_text": "In non-REM deep sleep, the body lowers its temperature and slows the heart rate, while the brain uses less energy. This is a calm, restorative phase."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which sleep phase does the body experience virtual paralysis of the muscles?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "REM sleep",
+            "feedback": "Correct. REM sleep includes virtual paralysis of the body, along with rapid eye movements."
+          },
+          {
+            "label": "Non-REM stage N1",
+            "feedback": "In N1, you are lightly asleep and muscles are not paralyzed; paralysis happens in REM."
+          },
+          {
+            "label": "Non-REM stage N2",
+            "feedback": "N2 is light sleep without the muscle paralysis that defines REM."
+          },
+          {
+            "label": "Non-REM stage N3",
+            "feedback": "N3 is deep sleep, but muscle paralysis is specific to REM sleep."
+          }
+        ],
+        "ok_title": "REM paralysis",
+        "ok_line": "REM sleep causes virtual muscle paralysis.",
+        "ko_title": "REM features",
+        "ko_line": "Paralysis occurs only in REM, not in NREM stages.",
+        "exp_title": "REM sleep characteristics",
+        "exp_text": "REM sleep, also called paradoxical sleep, involves rapid eye movements and virtual paralysis of the body. This paralysis is part of what makes REM distinct from other sleep stages."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the brain area that is considered the most important for the circadian clock?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cerebellum",
+            "feedback": "The cerebellum coordinates movement, not the circadian rhythm."
+          },
+          {
+            "label": "Hippocampus",
+            "feedback": "The hippocampus is involved in memory formation, not in the circadian clock."
+          },
+          {
+            "label": "Amygdala",
+            "feedback": "The amygdala processes emotions, not the day-night rhythm."
+          },
+          {
+            "label": "Suprachiasmatic nucleus",
+            "feedback": "Correct. The suprachiasmatic nucleus (SCN), located above the optic chiasm, is the most important clock area in the brain for the circadian rhythm."
+          }
+        ],
+        "ok_title": "Circadian brain region",
+        "ok_line": "The suprachiasmatic nucleus is the main clock.",
+        "ko_title": "Brain region mix-up",
+        "ko_line": "Memory and emotion areas are not the circadian clock.",
+        "exp_title": "Suprachiasmatic nucleus",
+        "exp_text": "The suprachiasmatic nucleus (SCN) in the brain is the key area that regulates the circadian clock. It helps create the internal day-night rhythm based on environmental signals."
+      }
+    ]
+  }
+]

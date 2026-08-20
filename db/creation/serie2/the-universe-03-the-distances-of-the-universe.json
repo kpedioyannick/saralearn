@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 240,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the basic unit used to measure distances within our solar system?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The astronomical unit (AU)",
+            "feedback": "Correct. An astronomical unit is the average distance from Earth to the Sun, about 150 million kilometers, and is used for distances inside our solar system."
+          },
+          {
+            "label": "The light-year",
+            "feedback": "Not quite. A light-year measures the distance light travels in one year, which is much larger and used for distances between stars and galaxies, not within the solar system."
+          },
+          {
+            "label": "The parsec",
+            "feedback": "Incorrect. A parsec is a unit used for interstellar distances, based on parallax, and is far larger than an astronomical unit, so it is not used for the solar system."
+          },
+          {
+            "label": "The kilometer",
+            "feedback": "No. While kilometers can measure small solar system distances, the astronomical unit is the standard unit for describing the scale of orbits within our solar system."
+          }
+        ],
+        "ok_title": "AU defined",
+        "ok_line": "The AU is Earth–Sun distance, used for solar system scales.",
+        "ko_title": "Wrong unit",
+        "ko_line": "Check that the unit matches the scale of the distances.",
+        "exp_title": "Astronomical unit",
+        "exp_text": "The astronomical unit is the average distance from Earth to the Sun, roughly 150 million kilometers. It is a convenient yardstick for distances within the solar system, such as the orbit of Mars or Jupiter, because it is a manageable number compared to light-years or parsecs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a light-year a measure of?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Time",
+            "feedback": "That is a common mix-up. Despite the word 'year' in its name, a light-year is not a measure of time; it is a unit of distance."
+          },
+          {
+            "label": "Distance",
+            "feedback": "Correct. A light-year is the distance that light travels in one year, about 9.5 trillion kilometers, used for large cosmic distances."
+          },
+          {
+            "label": "Speed",
+            "feedback": "No. Speed is how fast something moves, like light itself at 300,000 kilometers per second. A light-year tells you how far light goes in a year, not its speed."
+          },
+          {
+            "label": "Brightness",
+            "feedback": "Incorrect. Brightness is a measure of how much light an object emits or how bright it appears. A light-year has nothing to do with brightness."
+          }
+        ],
+        "ok_title": "Light-year is distance",
+        "ok_line": "Light-year measures how far light travels in one year.",
+        "ko_title": "Misread unit",
+        "ko_line": "The name tricks, but it is about length, not time.",
+        "exp_title": "Light-year definition",
+        "exp_text": "A light-year is the distance light covers in one year, about 9.5 trillion kilometers. It is used to express the vast gaps between stars and galaxies, because those distances are too large for kilometers or astronomical units."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the parallax method rely on to measure the distance to a nearby star?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The star's brightness changing over time",
+            "feedback": "No. Brightness changes can come from pulsation or eclipses, but parallax uses a geometric shift in position, not brightness."
+          },
+          {
+            "label": "The star's color shifting toward red",
+            "feedback": "Incorrect. A red shift indicates motion away from us, not distance. Parallax is about apparent movement against background stars."
+          },
+          {
+            "label": "The star's size seen through a telescope",
+            "feedback": "Wrong. Stars appear as points even with telescopes because they are so far away; their angular size does not reveal distance directly."
+          },
+          {
+            "label": "The star's apparent shift against distant stars when viewed from opposite sides of Earth's orbit",
+            "feedback": "Correct. As Earth moves around the Sun, a nearby star appears to shift slightly back and forth against the fixed background of faraway stars, and that shift reveals its distance."
+          }
+        ],
+        "ok_title": "Parallax shift",
+        "ok_line": "Nearby stars wobble as Earth orbits, giving distance.",
+        "ko_title": "Confused method",
+        "ko_line": "Parallax is geometric, not about brightness or color.",
+        "exp_title": "Parallax principle",
+        "exp_text": "Parallax works by observing a nearby star from two different points in Earth's orbit, six months apart. The apparent shift in the star's position relative to distant stars is measurable, and a larger shift means a closer star. This geometric method is the direct way to measure distances to nearby stars."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a star appear fainter when it is farther away, even if it is the same kind of star?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the star's light gets absorbed by dust in space",
+            "feedback": "That can dim a star, but it is not the fundamental reason for the inverse square law. The main effect is that light spreads out over a larger area with distance."
+          },
+          {
+            "label": "Because the star itself becomes intrinsically less luminous",
+            "feedback": "No. The star's true brightness does not change with distance; only how bright it appears to us changes because the light spreads out."
+          },
+          {
+            "label": "Because the light spreads out over a larger sphere as it travels",
+            "feedback": "Correct. Light from a star spreads equally in all directions, covering a larger area the farther it travels, so the same amount of light falls on a smaller fraction of that sphere, making the star appear dimmer."
+          },
+          {
+            "label": "Because the star's light gets stretched to longer wavelengths",
+            "feedback": "Incorrect. Redshift happens due to expansion of space, not simply from distance, and it affects color, not the geometric dimming."
+          }
+        ],
+        "ok_title": "Inverse square dimming",
+        "ok_line": "Light spreads out, so apparent brightness drops with distance.",
+        "ko_title": "Wrong dimming cause",
+        "ko_line": "Dimming is geometric, not about dust or redshift.",
+        "exp_title": "Apparent brightness",
+        "exp_text": "Light from a star travels outward in all directions, forming an expanding sphere. As distance doubles, the same light covers four times the area, so the star appears four times fainter. This precise rule, the inverse square law, is why distance makes stars look dimmer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'standard candle' refer to in astronomy?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An object whose true brightness is known, so its apparent faintness reveals its distance",
+            "feedback": "Correct. A standard candle is any object with a known intrinsic luminosity; by comparing that to how dim it appears, astronomers can calculate how far away it is."
+          },
+          {
+            "label": "A nearby star used to calibrate telescopes",
+            "feedback": "No. A standard candle is not a calibration tool for instruments; it is a type of object with known brightness used for distance measurement."
+          },
+          {
+            "label": "A star that burns at a constant rate throughout its life",
+            "feedback": "Incorrect. Some stars do burn steadily, but the term 'standard candle' specifically refers to using known brightness to gauge distance, not just steady burning."
+          },
+          {
+            "label": "A glowing cloud of gas that marks the center of a galaxy",
+            "feedback": "Wrong. A glowing cloud is an emission nebula, not a standard candle. Standard candles are objects with known luminosity, like certain types of variable stars."
+          }
+        ],
+        "ok_title": "Standard candle",
+        "ok_line": "Known brightness plus apparent dimness gives distance.",
+        "ko_title": "Misnamed concept",
+        "ko_line": "Standard candle is about distance, not telescopes or nebulae.",
+        "exp_title": "Standard candle use",
+        "exp_text": "A standard candle is an astronomical object, such as a Cepheid variable or a certain type of supernova, whose true brightness is well known. When it is observed faintly, the amount of dimming tells how far away it is, following the inverse square law."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason the parallax method cannot be used for galaxies beyond our own?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Galaxies do not emit enough light to detect",
+            "feedback": "No. Galaxies are bright enough to see, but their distances are so enormous that their parallax shift is far too small to measure."
+          },
+          {
+            "label": "Their distances are so vast that the apparent shift is too tiny to measure",
+            "feedback": "Correct. Even the nearest galaxies are so far away that the shift in their position, as Earth moves around the Sun, is smaller than any instrument can detect."
+          },
+          {
+            "label": "Galaxies move too quickly across the sky",
+            "feedback": "Incorrect. Galaxies have proper motion, but it is extremely slow; the issue is the tiny parallax angle, not rapid movement."
+          },
+          {
+            "label": "The light from galaxies is too red-shifted",
+            "feedback": "Wrong. Redshift indicates expansion and is used for distance in a different way, but it is not what prevents parallax; parallax fails because the angle is too small."
+          }
+        ],
+        "ok_title": "Parallax limit",
+        "ok_line": "Parallax becomes unmeasurable at very large distances.",
+        "ko_title": "Wrong reason",
+        "ko_line": "It is not brightness or motion, but the tiny shift.",
+        "exp_title": "Parallax beyond",
+        "exp_text": "The parallax method works by measuring a small angular shift. For a galaxy that is millions of light-years away, that shift is so minuscule that it falls below the resolution of any telescope, so astronomers must rely on other techniques like standard candles or redshift."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does looking at a very distant galaxy mean seeing it as it was in the distant past?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the galaxy is moving away from us very fast",
+            "feedback": "That affects its redshift, but it is not why we see it in the past. The key is the travel time of light, not the galaxy's motion."
+          },
+          {
+            "label": "Because the galaxy's light is blocked by intervening matter",
+            "feedback": "No. Blocking would dim or hide it, but seeing the past happens because light takes time to reach us, regardless of obstacles."
+          },
+          {
+            "label": "Because light takes a long time to travel the enormous distance from that galaxy to Earth",
+            "feedback": "Correct. Light travels at a finite speed, so the light we see from a distant galaxy left it millions or billions of years ago; we are seeing the galaxy as it was when that light started its journey."
+          },
+          {
+            "label": "Because the galaxy's light is stretched to longer wavelengths",
+            "feedback": "Incorrect. Redshift changes the color, but it is not the reason we see the past; the reason is the light's travel time."
+          }
+        ],
+        "ok_title": "Light travel time",
+        "ok_line": "The farther away, the older the light we see.",
+        "ko_title": "Confused cause",
+        "ko_line": "Redshift does not make us see the past; travel time does.",
+        "exp_title": "Seeing the past",
+        "exp_text": "Light has a finite speed, about 300,000 kilometers per second. A galaxy a billion light-years away sends light that takes a billion years to reach us, so the image we see is from a billion years ago. This is why distant means old."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the cosmic microwave background radiation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The glow of all the stars in the universe combined",
+            "feedback": "No. Starlight adds up to a faint background, but the CMB is not starlight; it is leftover heat from the early universe."
+          },
+          {
+            "label": "The light emitted by the first galaxies ever formed",
+            "feedback": "Incorrect. The first galaxies emitted light, but the CMB is older, coming from the time when the universe became transparent, before any galaxies existed."
+          },
+          {
+            "label": "The infrared radiation from dust in our own galaxy",
+            "feedback": "Wrong. Dust emits infrared, but the CMB is a uniform glow from all directions, not confined to our galaxy's plane."
+          },
+          {
+            "label": "The faint afterglow of the hot early universe, filling all of space",
+            "feedback": "Correct. The cosmic microwave background is the remnant radiation from when the universe cooled enough for light to travel freely, and it still fills the entire sky."
+          }
+        ],
+        "ok_title": "CMB origin",
+        "ok_line": "It is the leftover heat from the early universe.",
+        "ko_title": "Mixed up sources",
+        "ko_line": "The CMB is not starlight or galaxy light; it is primordial.",
+        "exp_title": "Cosmic microwave background",
+        "exp_text": "The cosmic microwave background is a faint, uniform glow of microwave radiation coming from every direction. It is the cooled remnant of the hot, dense state of the early universe, released when the universe became transparent, and it provides a snapshot of the universe when it was only about 380,000 years old."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the redshift of light from distant galaxies?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The expansion of space stretching the light's wavelength",
+            "feedback": "Correct. As space expands, the wavelength of light traveling through it gets stretched, making the light appear redder, and more expansion means more stretching."
+          },
+          {
+            "label": "The galaxies moving away from each other through space",
+            "feedback": "That is a common misconception. In the expanding universe, galaxies are carried apart by space itself, not moving through static space; the redshift is due to space stretching, not their own motion."
+          },
+          {
+            "label": "The light losing energy as it travels through intergalactic dust",
+            "feedback": "No. Dust can dim or scatter light, but it does not cause the systematic redshift seen in distant galaxies; that redshift comes from cosmic expansion."
+          },
+          {
+            "label": "The gravitational pull of nearby galaxies changing the light's energy",
+            "feedback": "Incorrect. Gravitational redshift exists in strong gravity, but for distant galaxies, the dominant effect is the expansion of space, not gravity of neighbors."
+          }
+        ],
+        "ok_title": "Expansion redshift",
+        "ok_line": "Space stretches light as it travels, reddening it.",
+        "ko_title": "Wrong redshift cause",
+        "ko_line": "It is space expansion, not motion or dust.",
+        "exp_title": "Cosmic redshift",
+        "exp_text": "Light from a distant galaxy is redshifted because the universe is expanding. As the light travels through space, the very fabric of space stretches, lengthening the light's wavelength. The farther the galaxy, the more expansion has occurred, so the redder the light appears."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the night sky dark even though there are stars in every direction?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the stars are too faint to be seen",
+            "feedback": "No. Many stars are faint, but the question is about the combined light; the darkness is explained by the universe's age, not by individual star brightness."
+          },
+          {
+            "label": "Because dust blocks the light from distant stars",
+            "feedback": "That dims some light, but it would heat up and emit light eventually; the main reason is that the light from distant stars hasn't reached us yet."
+          },
+          {
+            "label": "Because the universe has a finite age, so light from very distant stars hasn't reached us yet",
+            "feedback": "Correct. The universe is only about 13.8 billion years old, so we can only see light that has had time to travel to us. Beyond that distance, there are no stars visible to fill the sky."
+          },
+          {
+            "label": "Because the stars are moving away from us faster than light",
+            "feedback": "Incorrect. Stars and galaxies can recede due to expansion, but that does not make the sky dark; the darkness is due to the finite age of the universe."
+          }
+        ],
+        "ok_title": "Dark night sky",
+        "ok_line": "The universe's finite age limits what we see.",
+        "ko_title": "Wrong explanation",
+        "ko_line": "It is not about faintness or dust, but finite light travel.",
+        "exp_title": "Olbers' paradox",
+        "exp_text": "If the universe were infinite and eternal, every line of sight would eventually hit a star, and the sky would be bright. But the universe has a finite age, so light from beyond a certain distance hasn't reached us yet, leaving gaps of darkness between the stars we do see."
+      }
+    ]
+  }
+]

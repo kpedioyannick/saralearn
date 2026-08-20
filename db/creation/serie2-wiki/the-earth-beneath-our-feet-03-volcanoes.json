@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 229,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a volcano?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A mountain that only exists on Earth",
+            "feedback": "Volcanoes are not limited to Earth; they also exist on other planets such as Venus and Mars."
+          },
+          {
+            "label": "A crack in the ground caused by earthquakes",
+            "feedback": "A volcano is a vent or fissure that lets magma, ash, and gases escape from a magma chamber below, not a crack made by an earthquake."
+          },
+          {
+            "label": "A vent or fissure in a planet's crust that lets hot lava, ash, and gases escape from below",
+            "feedback": "That's right. The opening allows material from a magma chamber to reach the surface."
+          },
+          {
+            "label": "A type of rock formed from cooled lava",
+            "feedback": "Cooled lava forms igneous rock, but the volcano itself is the opening or vent, not the rock produced."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "You've identified what a volcano actually is.",
+        "ko_title": "Not quite",
+        "ko_line": "Check the definition more closely.",
+        "exp_title": "What a volcano is",
+        "exp_text": "A volcano is a vent or fissure in the crust of a planetary-mass object that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface. It is not the mountain itself but the opening through which material comes out."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do most of Earth's volcanoes form?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the middle of continents, away from any plate edges",
+            "feedback": "Volcanoes away from plate boundaries do exist, like hotspots, but most volcanoes actually form at plate boundaries, not in continent interiors."
+          },
+          {
+            "label": "Underwater, at plate boundaries",
+            "feedback": "Right. Most of Earth's plate boundaries are underwater, so most volcanic activity happens beneath the ocean."
+          },
+          {
+            "label": "At transform boundaries where plates slide past each other",
+            "feedback": "Volcanoes are usually not created at transform boundaries, where plates slide past one another, so they aren't the main location for volcanic activity."
+          },
+          {
+            "label": "At the poles, near ice caps",
+            "feedback": "Polar regions are not necessarily where plate boundaries are, so this isn't where most volcanoes form."
+          }
+        ],
+        "ok_title": "Underwater majority",
+        "ok_line": "You found where most volcanoes are.",
+        "ko_title": "Not the hotspot",
+        "ko_line": "Consider where plate boundaries are located.",
+        "exp_title": "Location of most volcanoes",
+        "exp_text": "Most volcanic activity occurs at plate boundaries, and because most plate boundaries are underwater, most volcanoes are found under the ocean. This includes mid-ocean ridges where plates diverge and subduction zones where they converge."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of plate boundary typically produces violent, explosive eruptions?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Convergent boundaries",
+            "feedback": "Correct. At convergent boundaries, where plates collide, the magma is often viscous and traps gas, leading to violent eruptions."
+          },
+          {
+            "label": "Divergent boundaries",
+            "feedback": "Divergent boundaries, like mid-ocean ridges, usually produce non-explosive eruptions because the magma is less viscous."
+          },
+          {
+            "label": "Transform boundaries",
+            "feedback": "Transform boundaries, where plates slide past each other, generally do not create volcanoes at all."
+          },
+          {
+            "label": "Hotspot boundaries",
+            "feedback": "Hotspots are not a plate boundary type; they occur away from plate boundaries and their eruptions can vary."
+          }
+        ],
+        "ok_title": "Explosive boundaries",
+        "ok_line": "You matched the boundary to the eruption type.",
+        "ko_title": "Check again",
+        "ko_line": "Think about which boundary creates thick, gas-rich magma.",
+        "exp_title": "Eruption styles by boundary",
+        "exp_text": "Convergent boundaries, where plates collide and one subducts, produce magma high in silica that is very viscous. This thick magma traps gases, leading to violent, explosive eruptions. Divergent boundaries typically cause gentle, non-explosive eruptions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a dormant volcano?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A volcano that has never erupted",
+            "feedback": "A volcano that has never erupted isn't classified as dormant; dormant means it has erupted in the past but hasn't erupted recently."
+          },
+          {
+            "label": "A volcano that is erupting right now",
+            "feedback": "A volcano erupting right now is considered active, not dormant."
+          },
+          {
+            "label": "A volcano that cannot erupt ever again",
+            "feedback": "That describes an extinct volcano, which has no magma source left. Dormant volcanoes can still erupt in the future."
+          },
+          {
+            "label": "A volcano that has not erupted for a long time but might erupt again",
+            "feedback": "That's correct. Dormant means it hasn't erupted in a long time (since the start of the Holocene, about 12,000 years ago) but may erupt again."
+          }
+        ],
+        "ok_title": "Dormant explained",
+        "ok_line": "You know what dormant means.",
+        "ko_title": "Not that state",
+        "ko_line": "Compare dormant with active and extinct states.",
+        "exp_title": "The dormant state",
+        "exp_text": "A dormant volcano has not erupted in a long time—generally accepted as since the start of the Holocene, about 12,000 years ago—but it may erupt again. This is different from an extinct volcano, which has no magma source and cannot erupt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do volcanoes form at hotspots like Hawaii?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "By plates sliding past each other at a boundary",
+            "feedback": "Transform boundaries don't create volcanoes, so hotspots are not formed this way."
+          },
+          {
+            "label": "By two plates colliding and one subducting",
+            "feedback": "That describes convergent boundary volcanoes, not hotspots, which occur away from plate boundaries."
+          },
+          {
+            "label": "From mantle plumes rising from deep within Earth",
+            "feedback": "That's right. Hotspots are thought to be caused by mantle plumes, columns of hot material rising from the core-mantle boundary."
+          },
+          {
+            "label": "By an earthquake cracking the surface open",
+            "feedback": "Earthquakes don't create volcanoes; they are a separate process. Hotspots form from deep mantle upwellings."
+          }
+        ],
+        "ok_title": "Hotspots origin",
+        "ok_line": "You identified the deep source of hotspots.",
+        "ko_title": "Wrong mechanism",
+        "ko_line": "Hotspots don't rely on plate boundaries or earthquakes.",
+        "exp_title": "How hotspots form",
+        "exp_text": "Hotspots are volcanic areas thought to be formed by mantle plumes, which are columns of hot material rising from the core-mantle boundary. As the tectonic plate moves over the plume, new volcanoes form and old ones drift away, creating chains like the Hawaiian Islands."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three essential parts a volcano needs to erupt?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A crater, a mountain, and a lake",
+            "feedback": "A crater and mountain are common shapes, but they aren't necessary for the eruption process. A lake is not required."
+          },
+          {
+            "label": "A magma chamber, a conduit, and a vent",
+            "feedback": "Correct. The magma chamber stores molten rock, the conduit lets it rise through the crust, and the vent lets it escape to the surface."
+          },
+          {
+            "label": "A fissure, a fault, and a plate boundary",
+            "feedback": "A fault and plate boundary aren't internal parts of a volcano; they are geological features outside it."
+          },
+          {
+            "label": "Lava, ash, and gas",
+            "feedback": "Lava, ash, and gas are what comes out, not the parts that make the volcano work."
+          }
+        ],
+        "ok_title": "Volcano anatomy",
+        "ok_line": "You know the essential parts.",
+        "ko_title": "Incomplete answer",
+        "ko_line": "Think about the internal plumbing, not the outputs.",
+        "exp_title": "Parts of a volcano",
+        "exp_text": "For a volcano to erupt, it needs a reservoir of molten magma (a magma chamber), a conduit to allow magma to rise through the crust, and a vent to let the magma escape above the surface as lava."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a volcanic edifice?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The magma chamber that stores molten rock",
+            "feedback": "The magma chamber is underground and not erupted material. The edifice is what forms at the surface."
+          },
+          {
+            "label": "The vent through which magma escapes",
+            "feedback": "The vent is the opening, not the deposited material around it. The edifice is the accumulation of erupted material."
+          },
+          {
+            "label": "The gas and ash released during an eruption",
+            "feedback": "Gas and ash are part of what erupts, but the edifice is the landform built from deposited material, not the material itself in the air."
+          },
+          {
+            "label": "The cone or mountain built from erupted lava and tephra",
+            "feedback": "Exactly. The erupted volcanic material (lava and tephra) deposited around the vent is known as the volcanic edifice, typically a cone or mountain."
+          }
+        ],
+        "ok_title": "Edifice defined",
+        "ok_line": "You know what builds a volcano's shape.",
+        "ko_title": "Try again",
+        "ko_line": "Edifice refers to the visible structure.",
+        "exp_title": "What an edifice is",
+        "exp_text": "A volcanic edifice is the erupted material—lava and tephra—that accumulates around the vent, forming a cone or mountain. It's the landform you can see, not the underground magma chamber or the vent itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is a type of volcano that is NOT associated with normal magmatic activity?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mud volcano",
+            "feedback": "Correct. Mud volcanoes are structures often not associated with known magmatic activity, unlike igneous volcanoes."
+          },
+          {
+            "label": "Shield volcano",
+            "feedback": "Shield volcanoes are a type of igneous volcano built from fluid lava flows, so they are associated with magmatic activity."
+          },
+          {
+            "label": "Composite volcano",
+            "feedback": "Composite volcanoes (stratovolcanoes) are built from layers of lava and tephra, so they involve magmatic activity."
+          },
+          {
+            "label": "Cinder cone volcano",
+            "feedback": "Cinder cones are small volcanoes made of tephra from magmatic eruptions, so they are associated with magma."
+          }
+        ],
+        "ok_title": "Non-magmatic type",
+        "ok_line": "You spotted the odd one out.",
+        "ko_title": "Not that one",
+        "ko_line": "Think about which type doesn't come from magma.",
+        "exp_title": "Mud volcanoes",
+        "exp_text": "Mud volcanoes are structures often not associated with known magmatic activity. They can be formed by the eruption of mud, water, and gases, and are distinct from igneous volcanoes that require molten rock."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a volcano when the tectonic plate moves away from a hotspot?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It stays as active as before",
+            "feedback": "Once the volcano moves off the plume, it can't get magma, so it doesn't stay active."
+          },
+          {
+            "label": "It becomes more explosive",
+            "feedback": "Moving off the plume cuts off the magma supply, so it doesn't become more explosive; it becomes inactive."
+          },
+          {
+            "label": "It becomes inactive as it drifts off the plume",
+            "feedback": "That's right. Each volcano becomes inactive as the plate moves it away from the mantle plume, and a new volcano forms over the hotspot."
+          },
+          {
+            "label": "It turns into a mud volcano",
+            "feedback": "Moving off the plume doesn't change it into a mud volcano, which is a different type of structure."
+          }
+        ],
+        "ok_title": "Plate drift effect",
+        "ok_line": "You understand the hotspot chain process.",
+        "ko_title": "Incorrect outcome",
+        "ko_line": "Think about what happens when magma supply is cut.",
+        "exp_title": "Hotspot volcano life cycle",
+        "exp_text": "As tectonic plates move across mantle plumes, each volcano becomes inactive as it drifts off the plume. New volcanoes are created where the plate advances over the hotspot, which is why chains like Hawaii form."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What effect can a large volcanic eruption have on Earth's atmosphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It heats the troposphere directly",
+            "feedback": "Large eruptions actually cool the troposphere by blocking sunlight, not heat it."
+          },
+          {
+            "label": "It increases the amount of oxygen in the air",
+            "feedback": "Volcanic eruptions release gases like sulfur dioxide and ash, not extra oxygen."
+          },
+          {
+            "label": "It has no effect on the atmosphere",
+            "feedback": "Large eruptions can significantly affect atmospheric temperature by releasing ash and sulfuric acid droplets."
+          },
+          {
+            "label": "Ash and droplets of sulfuric acid block the Sun, cooling the troposphere",
+            "feedback": "Correct. Large eruptions can cool Earth's troposphere because ash and sulfuric acid droplets obscure the Sun's light."
+          }
+        ],
+        "ok_title": "Atmospheric cooling",
+        "ok_line": "You know how eruptions affect temperature.",
+        "ko_title": "Not the effect",
+        "ko_line": "Consider what particles do to sunlight.",
+        "exp_title": "Volcanic effects on climate",
+        "exp_text": "Large volcanic eruptions can affect atmospheric temperature as ash and droplets of sulfuric acid obscure the Sun and cool Earth's troposphere. This can even lead to volcanic winters, which have caused famines historically."
+      }
+    ]
+  }
+]

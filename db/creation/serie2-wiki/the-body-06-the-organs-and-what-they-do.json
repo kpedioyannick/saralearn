@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 248,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an organ in a multicellular organism?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A collection of tissues joined together to serve a common function",
+            "feedback": "Correct. An organ is made of different tissues working together for one purpose, such as the stomach digesting food."
+          },
+          {
+            "label": "A single type of cell that performs a specific task",
+            "feedback": "That is a tissue, not an organ. Tissues are formed from the same type of cells acting together, while organs combine different tissues."
+          },
+          {
+            "label": "Two or more organs working together",
+            "feedback": "That describes an organ system, not an organ. An organ itself is a single structural unit, though multiple organs can form a system."
+          },
+          {
+            "label": "Any cell that has a nucleus",
+            "feedback": "That is a general cell feature, not what defines an organ. Organs are larger structures composed of tissues."
+          }
+        ],
+        "ok_title": "Organ defined",
+        "ok_line": "An organ is a unit of tissues with a shared job.",
+        "ko_title": "Organ confused",
+        "ko_line": "Remember an organ is made of tissues, not cells or systems alone.",
+        "exp_title": "What makes an organ",
+        "exp_text": "An organ is a collection of tissues joined into a structural unit to serve a common function. For example, the intestinal wall uses both epithelial tissue and smooth muscle tissue. It sits between tissue and organ system in the hierarchy of life."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two broad classes of tissues inside an organ?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Epithelial and connective",
+            "feedback": "These are specific tissue types, not the two broad classes. The classes are based on function: parenchyma and stroma."
+          },
+          {
+            "label": "Muscle and nerve",
+            "feedback": "Muscle and nerve are examples of tissues, but they do not cover the functional/structure split used for organs."
+          },
+          {
+            "label": "Parenchyma and stroma",
+            "feedback": "Correct. Parenchyma is the functional tissue, and stroma is the structural tissue with support and connection roles."
+          },
+          {
+            "label": "Blood and bone",
+            "feedback": "Blood and bone are tissues, but not the two broad classes that describe an organ's composition."
+          }
+        ],
+        "ok_title": "Two tissue classes",
+        "ok_line": "An organ has functional and structural tissue.",
+        "ko_title": "Wrong tissue split",
+        "ko_line": "The split is by role, not by tissue type name.",
+        "exp_title": "Parenchyma and stroma",
+        "exp_text": "In an organ, parenchyma is the tissue that does the organ's main job, like gland tissue making hormones. Stroma is the supporting tissue—nerves, blood vessels, and connective tissue—that keeps the parenchyma nourished and in place."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is an example of parenchyma in an organ?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Blood vessels that nourish the tissue",
+            "feedback": "Those are part of the stroma, not the functional tissue. They supply oxygen and remove waste."
+          },
+          {
+            "label": "Nerves that signal the tissue",
+            "feedback": "Nerves are also stroma—they support the organ but do not perform its main function."
+          },
+          {
+            "label": "Connective tissue that anchors the organ",
+            "feedback": "That belongs to the stroma. It provides structure and placement, not the organ's primary action."
+          },
+          {
+            "label": "Gland tissue that produces hormones",
+            "feedback": "Correct. Gland tissue making hormones is the functional part, so it is the parenchyma."
+          }
+        ],
+        "ok_title": "Parenchyma example",
+        "ok_line": "The working tissue is the parenchyma.",
+        "ko_title": "Stroma mistaken",
+        "ko_line": "Support tissues are stroma, not parenchyma.",
+        "exp_title": "Functional tissue",
+        "exp_text": "Parenchyma is the tissue that actually performs the organ's function. For a hormone-producing gland, that is the gland tissue itself. Blood vessels, nerves, and connective tissue all serve support roles and are called stroma."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three main organs found in plants?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Flower, seed, and fruit",
+            "feedback": "Those are reproductive structures in flowering plants, not the three main organs that all plants share."
+          },
+          {
+            "label": "Roots, stems, and leaves",
+            "feedback": "Correct. These are the vegetative organs essential for the plant's life and maintenance."
+          },
+          {
+            "label": "Cone, strobilus, and gametophore",
+            "feedback": "These are reproductive structures in different plant groups, not the three main plant organs."
+          },
+          {
+            "label": "Shoot, root, and flower",
+            "feedback": "Shoot and root are organ systems, and flower is a reproductive organ, but the three main organs are roots, stems, and leaves."
+          }
+        ],
+        "ok_title": "Plant's three organs",
+        "ok_line": "Roots, stems, and leaves are the main three.",
+        "ko_title": "Reproductive mix-up",
+        "ko_line": "Flowers and such are extra organs, not the main trio.",
+        "exp_title": "Three main plant organs",
+        "exp_text": "Plants have three main organs: roots, stems, and leaves. These are vegetative organs that keep the plant alive. Flowers, seeds, and fruits are reproductive organs, but they are not part of the main trio."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which system in the body is responsible for pumping and channeling blood?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cardiovascular system",
+            "feedback": "Correct. This system includes the heart, blood, and blood vessels to move blood around the body and lungs."
+          },
+          {
+            "label": "Lymphatic system",
+            "feedback": "That system moves lymph, not blood. It transfers lymph between tissues and the bloodstream."
+          },
+          {
+            "label": "Respiratory system",
+            "feedback": "This system handles breathing and gas exchange, not blood pumping."
+          },
+          {
+            "label": "Excretory system",
+            "feedback": "That system manages urine production and fluid balance, not blood circulation."
+          }
+        ],
+        "ok_title": "Blood's system",
+        "ok_line": "The cardiovascular system moves blood.",
+        "ko_title": "Wrong system",
+        "ko_line": "Pumping blood belongs to the cardiovascular, not others.",
+        "exp_title": "Cardiovascular role",
+        "exp_text": "The cardiovascular system uses the heart, blood, and blood vessels to pump and channel blood to and from the body and lungs. It is the body's transport network for blood."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which organs are part of the excretory system?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Heart, blood, and blood vessels",
+            "feedback": "Those belong to the cardiovascular system, not the excretory one."
+          },
+          {
+            "label": "Brain, spinal cord, and nerves",
+            "feedback": "Those are part of the nervous system, which handles information, not excretion."
+          },
+          {
+            "label": "Kidneys, ureters, bladder, and urethra",
+            "feedback": "Correct. These organs manage fluid balance, electrolyte balance, and urine excretion."
+          },
+          {
+            "label": "Lungs, trachea, and diaphragm",
+            "feedback": "Those are respiratory organs for breathing, not for making or releasing urine."
+          }
+        ],
+        "ok_title": "Excretory organs",
+        "ok_line": "Kidneys, ureters, bladder, and urethra excrete urine.",
+        "ko_title": "System confusion",
+        "ko_line": "Excretion is about urine, not blood or breathing.",
+        "exp_title": "Excretory system",
+        "exp_text": "The excretory system includes the kidneys, ureters, bladder, and urethra. These work together for fluid balance, electrolyte balance, and the excretion of urine."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the integumentary system include?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Bones, cartilage, and ligaments",
+            "feedback": "Those are skeletal system parts, not part of the integumentary system."
+          },
+          {
+            "label": "Muscles and tendons",
+            "feedback": "Muscles belong to the muscular system, and tendons are skeletal, not integumentary."
+          },
+          {
+            "label": "The brain and spinal cord",
+            "feedback": "Those are nervous system structures, not skin or hair."
+          },
+          {
+            "label": "Skin, hair, and nails",
+            "feedback": "Correct. The integumentary system covers the body and includes skin, hair, and nails in mammals."
+          }
+        ],
+        "ok_title": "Body covering",
+        "ok_line": "Skin, hair, and nails form the integumentary system.",
+        "ko_title": "Wrong body system",
+        "ko_line": "This system is about the outer covering, not bones or nerves.",
+        "exp_title": "Integumentary system",
+        "exp_text": "The integumentary system is the body's outer covering. In mammals it includes skin, hair, and nails. It also includes scales in fish, reptiles, and birds, and feathers in birds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is a solid organ in the abdomen?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Liver",
+            "feedback": "Correct. The liver is classified as a solid organ in the abdominal cavity."
+          },
+          {
+            "label": "Stomach",
+            "feedback": "The stomach is a hollow organ, not a solid one, because it has an internal cavity."
+          },
+          {
+            "label": "Intestines",
+            "feedback": "Intestines are hollow organs, not solid. They have a lumen inside."
+          },
+          {
+            "label": "Gallbladder",
+            "feedback": "The gallbladder is hollow, as it stores bile in a cavity."
+          }
+        ],
+        "ok_title": "Solid abdominal organ",
+        "ok_line": "Liver is solid, not hollow.",
+        "ko_title": "Hollow vs solid",
+        "ko_line": "Hollow organs have cavities; solid ones do not.",
+        "exp_title": "Solid and hollow organs",
+        "exp_text": "In the abdomen, solid organs are the liver, pancreas, spleen, kidneys, and adrenal glands. Hollow organs, like the stomach and intestines, have an internal space for contents."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is a hollow organ in the abdomen?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Kidney",
+            "feedback": "The kidney is a solid organ, not hollow, even though it filters blood."
+          },
+          {
+            "label": "Spleen",
+            "feedback": "The spleen is solid, not hollow, as it lacks an internal cavity."
+          },
+          {
+            "label": "Bladder",
+            "feedback": "Correct. The bladder is hollow, because it stores urine in its internal space."
+          },
+          {
+            "label": "Adrenal gland",
+            "feedback": "Adrenal glands are solid organs, not hollow, even though they produce hormones."
+          }
+        ],
+        "ok_title": "Hollow abdominal organ",
+        "ok_line": "Bladder is hollow and stores urine.",
+        "ko_title": "Solid vs hollow",
+        "ko_line": "Hollow organs have a cavity; solid ones do not.",
+        "exp_title": "Hollow organ example",
+        "exp_text": "In the abdomen, hollow organs include the stomach, intestines, gallbladder, bladder, and rectum. The bladder is hollow because it holds urine inside its cavity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the vegetative organs of a plant?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Flower, seed, and fruit",
+            "feedback": "These are reproductive organs, not vegetative ones, because they are not needed for the plant's own maintenance."
+          },
+          {
+            "label": "Roots, stems, and leaves",
+            "feedback": "Correct. These are the vegetative organs essential for the plant's life and maintenance."
+          },
+          {
+            "label": "Cone, strobilus, and gametophore",
+            "feedback": "These are reproductive structures in different plant groups, not vegetative organs."
+          },
+          {
+            "label": "Shoot and root systems",
+            "feedback": "Shoot and root are organ systems that include many organs, not the specific vegetative organs themselves."
+          }
+        ],
+        "ok_title": "Vegetative organs",
+        "ok_line": "Roots, stems, and leaves keep a plant alive.",
+        "ko_title": "Reproductive mix-up",
+        "ko_line": "Reproductive organs are for reproduction, not maintenance.",
+        "exp_title": "Plant maintenance organs",
+        "exp_text": "Vegetative organs are the roots, stems, and leaves. They are essential for the plant's life, such as performing photosynthesis. Reproductive organs like flowers and seeds are separate and for reproduction."
+      }
+    ]
+  }
+]

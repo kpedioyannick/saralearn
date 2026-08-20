@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 274,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does your breathing speed up as soon as you start running, often before you feel out of breath?",
+        "body": null,
+        "options": [
+          {
+            "label": "The heart sends a direct signal to the lungs to speed up",
+            "feedback": "The heart and lungs do not send signals to each other directly like that; breathing rate is adjusted by a separate control process."
+          },
+          {
+            "label": "Working muscles produce more carbon dioxide, and the rising level triggers faster breathing to clear it",
+            "feedback": "That rising carbon dioxide level is detected and read as the signal to breathe faster."
+          },
+          {
+            "label": "The jostling motion of running mechanically speeds up breathing",
+            "feedback": "The jostling of running does not drive the breathing rate; the change comes from a chemical signal, not from being physically jolted."
+          },
+          {
+            "label": "Breathing speeds up only once the muscles have completely run out of oxygen",
+            "feedback": "Breathing picks up long before oxygen actually runs low; the trigger is the carbon dioxide building up, which rises well ahead of any real shortage."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A rising signal",
+        "ok_line": "Rising carbon dioxide is exactly what triggers the faster breathing.",
+        "ko_title": "Not jostling or the heart",
+        "ko_line": "Breathing rate answers to a chemical signal, not to motion or a direct signal from the heart.",
+        "exp_title": "A rising signal, not a shortage",
+        "exp_text": "Working muscles burn fuel faster, and one product of that burning is carbon dioxide, which is carried away in the blood. As carbon dioxide builds up, it is detected and read as a signal that more air needs to move in and out, and breathing speeds up in response. That response happens quickly, often before a runner has covered much distance at all, because the carbon dioxide signal rises well ahead of any real shortage of oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "During hard exercise, why does the depth of each breath increase along with how often you breathe?",
+        "body": null,
+        "options": [
+          {
+            "label": "Deeper breaths carry more fresh air past the airways and into the depths of the lungs where gas exchange happens",
+            "feedback": "Pushing past that fixed dead space and into the working part of the lung is exactly why depth matters."
+          },
+          {
+            "label": "Faster breathing alone would be enough; depth changes only by accident",
+            "feedback": "Rapid shallow breathing would move a lot of air back and forth in the airways without much of it reaching deep into the lungs, so depth is not incidental."
+          },
+          {
+            "label": "Deeper breaths exist mainly to cool the lungs during hard effort",
+            "feedback": "Cooling the lungs is not the purpose here; the reason breaths deepen is about how much fresh air actually reaches the exchange surfaces."
+          },
+          {
+            "label": "Breathing gets deeper purely to make more noise while exercising",
+            "feedback": "Any extra noise is simply a side effect of moving more air, not a reason the body deepens its breathing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Past the empty pipes",
+        "ok_line": "A deeper breath reaches where the useful exchange actually happens.",
+        "ko_title": "Not cooling or noise",
+        "ko_line": "Depth serves gas exchange, not temperature or sound.",
+        "exp_title": "Getting past the empty pipes",
+        "exp_text": "Every breath has to travel through airways that hold a fixed amount of air doing nothing but passing through, air that never actually reaches the depths of the lung where oxygen crosses into the blood. A fast, shallow breath moves a lot of that wasted air back and forth without pulling much fresh air past it. A deeper breath pushes further, past that fixed dead space and into the working part of the lungs, which is why breathing during hard exercise deepens as well as speeds up."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is actually thought to cause the sharp side ache, or stitch, that can strike partway through a run?",
+        "body": null,
+        "options": [
+          {
+            "label": "A build-up of sweat pooling around the ribs",
+            "feedback": "Sweat gathers on the skin's surface and has no connection to a sharp ache felt deep inside, near the ribs."
+          },
+          {
+            "label": "The stomach physically colliding with the ribs on every stride",
+            "feedback": "The stomach doesn't strike the ribs during running; a stitch is understood to involve strain around the diaphragm, not a direct collision between organs."
+          },
+          {
+            "label": "A strain or spasm around the diaphragm, aggravated by the jolt of each stride and the effort of hard breathing",
+            "feedback": "That combination of jolting motion and heavy breathing demand is what strains the diaphragm into a sharp ache."
+          },
+          {
+            "label": "A sudden drop in leg muscle temperature",
+            "feedback": "Leg muscles typically warm up rather than cool down during a run, and a stitch is felt in the torso, not down in the legs."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A strained sheet of muscle",
+        "ok_line": "The jolt and the breathing effort together strain the diaphragm.",
+        "ko_title": "Not the stomach or leg muscles",
+        "ko_line": "The ache is felt near the diaphragm, not from a collision or a temperature change elsewhere.",
+        "exp_title": "A strained sheet of muscle",
+        "exp_text": "The diaphragm is a broad sheet of muscle working hard with every breath during a run, and it is also linked by ligaments to organs sitting just below it, including the liver. The repeated jolt of each footfall tugs on those connections, and combined with the heavy demands already being placed on the diaphragm by fast, deep breathing, the strain can build into a sharp, localised ache. Slowing the breathing and easing the pace is usually enough to let that strain settle."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can't you sustain an all-out sprint for very long, even though you're not yet out of breath?",
+        "body": null,
+        "options": [
+          {
+            "label": "The legs simply run out of room to take longer strides",
+            "feedback": "Stride length isn't what limits a sprint's duration; something inside the working muscle itself is what gives out first."
+          },
+          {
+            "label": "The muscles switch to a fast energy process that doesn't wait for oxygen delivery, but it leaves behind byproducts that quickly interfere with strong contraction",
+            "feedback": "That build-up of byproducts inside the muscle is exactly what forces the pace down so quickly."
+          },
+          {
+            "label": "The lungs physically cannot take in any more air after a few seconds",
+            "feedback": "The lungs are not the limiting factor here; a sprinter can still be breathing normally when their legs are already struggling to keep up the pace."
+          },
+          {
+            "label": "Sprinting uses up the body's entire oxygen supply within seconds",
+            "feedback": "The body's oxygen stores are not used up that quickly; the muscles switch to a different energy process well before oxygen actually runs low."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Fast fuel, fast cost",
+        "ok_line": "The byproducts of that fast energy process are what slow the muscle down.",
+        "ko_title": "Not the lungs or stride length",
+        "ko_line": "What limits a sprint happens inside the muscle, not in the lungs or the legs' reach.",
+        "exp_title": "Fast fuel with a fast cost",
+        "exp_text": "A hard sprint demands energy faster than oxygen can be delivered to the working muscles to release it the usual way, so the muscles fall back on a faster process that doesn't need to wait for oxygen at all. That faster process comes with a cost: it leaves behind byproducts that build up quickly inside the muscle and interfere with how strongly it can keep contracting. The sprint slows not because the lungs have failed, but because the muscle itself is struggling under its own waste."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is actually happening in the body during the 'second wind' that can follow the breathless first few minutes of hard exercise?",
+        "body": null,
+        "options": [
+          {
+            "label": "The muscles simply stop producing waste for a while",
+            "feedback": "Waste production from working muscles doesn't pause partway through exercise; what changes is how well the body is keeping pace with delivering oxygen."
+          },
+          {
+            "label": "A fresh batch of energy is suddenly released that wasn't there before",
+            "feedback": "There is no separate reserve of energy that switches on partway through; the change is in how well oxygen delivery is keeping up with demand."
+          },
+          {
+            "label": "The body's oxygen delivery, which lagged behind the sudden demand at first, catches up and settles into a steadier rhythm matching the effort",
+            "feedback": "That catching-up of heart rate and breathing to match the effort is exactly what a second wind feels like."
+          },
+          {
+            "label": "The nervous system briefly stops sending pain signals from tired muscles",
+            "feedback": "What shifts here is the smoothness of oxygen delivery to the muscles, not whether pain signals are being sent at all."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Catching up to demand",
+        "ok_line": "Oxygen delivery finally matches what the muscles are asking for.",
+        "ko_title": "Not new energy or numbed pain",
+        "ko_line": "Nothing new appears; delivery of what was already needed simply catches up.",
+        "exp_title": "Catching up to the demand",
+        "exp_text": "At the very start of hard exercise, the demand for oxygen in the working muscles jumps almost immediately, but the systems that deliver it, the heart rate and the depth and rate of breathing, take a little time to climb to match that demand. During that gap, the body leans on faster, less efficient ways of producing energy, which is part of why the first few minutes can feel especially breathless and hard. Once heart rate and breathing have risen enough to keep pace with the muscles' needs, the effort settles into a rhythm that feels noticeably easier to sustain."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do you keep breathing hard for a while even after you've stopped running?",
+        "body": null,
+        "options": [
+          {
+            "label": "The lungs need time to physically shrink back to their resting size",
+            "feedback": "The lungs return to their resting volume almost as soon as a breath ends; they aren't slowly shrinking over the following minutes."
+          },
+          {
+            "label": "Heavy breathing continues purely out of habit built up during the run",
+            "feedback": "This isn't a matter of habit; there is a real ongoing need inside the body being addressed by the continued heavy breathing."
+          },
+          {
+            "label": "The heart is still trying to warm the muscles back up",
+            "feedback": "Warming muscles isn't what continued heavy breathing is doing; the breathing is working to restore oxygen levels and clear waste, a different job entirely."
+          },
+          {
+            "label": "The body keeps breathing hard to replenish oxygen stores and clear away the byproducts left from the effort",
+            "feedback": "That ongoing replenishing and clearing is exactly why breathing stays heavy after the running stops."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Paying back a debt",
+        "ok_line": "Oxygen stores and leftover byproducts still need to be settled.",
+        "ko_title": "Not habit or warming",
+        "ko_line": "There's a real physical debt being repaid here, not a habit or a warming process.",
+        "exp_title": "Paying back what was borrowed",
+        "exp_text": "During hard effort, the body leans on energy processes that don't wait for oxygen to arrive, and those processes leave behind a debt: oxygen stores in the blood and muscle run lower than normal, and byproducts from the effort are left sitting in the tissues. Once the running stops, that debt still has to be settled, so breathing stays fast and deep to pull in the extra oxygen needed and to help flush the leftover byproducts away. Breathing stays elevated for as long as that settling takes, then drifts back down to its normal resting pace."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is it so hard to hold your breath once you're in the middle of intense physical effort?",
+        "body": null,
+        "options": [
+          {
+            "label": "The automatic control driving breathing responds to a much stronger chemical signal during intense effort, and it overrides voluntary control far sooner",
+            "feedback": "That stronger, faster-building chemical signal is exactly what overrides the wish to hold a breath."
+          },
+          {
+            "label": "Breath-holding becomes physically impossible because the ribs lock open",
+            "feedback": "The ribs do not lock into any fixed position; what makes holding a breath difficult is a control signal becoming very hard to ignore, not a mechanical jam in the chest."
+          },
+          {
+            "label": "The vocal cords are forced open by the pressure of exertion",
+            "feedback": "The vocal cords aren't what's forcing a breath to happen here; the drive comes from deeper control centres responding to the chemistry of the blood."
+          },
+          {
+            "label": "It only feels harder because of nervousness about the effort",
+            "feedback": "This isn't a matter of nerves or feeling; a real, strengthening physiological signal makes ignoring the urge to breathe increasingly difficult."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A signal too strong to ignore",
+        "ok_line": "The chemical drive to breathe simply outpaces voluntary control.",
+        "ko_title": "Not the ribs, the cords, or nerves",
+        "ko_line": "Nothing is mechanically jammed and it isn't nervousness; a chemical signal is overriding the choice.",
+        "exp_title": "A signal too strong to ignore",
+        "exp_text": "Breathing is normally under a mix of automatic and voluntary control, which is why a breath can be held on purpose for a while, at rest, without much trouble. During intense effort, carbon dioxide builds up far faster than it does sitting still, and the automatic control responding to that build-up sends an increasingly urgent signal to breathe. That signal grows strong enough, quickly enough, that voluntary control is overridden long before it would be at rest."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do your shoulders and neck visibly work during very hard breathing, when normal breathing barely seems to involve them at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "The shoulders and neck actually control the rate of breathing",
+            "feedback": "The rate of breathing is set elsewhere; those muscles are called on to increase the volume moved with each breath, not to set the pace."
+          },
+          {
+            "label": "Visible neck and shoulder movement is simply tension unrelated to breathing",
+            "feedback": "This movement is directly tied to breathing itself; it isn't unrelated tension but muscles actively helping expand the chest."
+          },
+          {
+            "label": "The diaphragm stops working during hard effort, leaving the job to other muscles",
+            "feedback": "The diaphragm keeps working hard throughout intense effort; other muscles are recruited to help alongside it, not to replace it."
+          },
+          {
+            "label": "Extra muscles around the neck and shoulders help lift the rib cage further, expanding the chest beyond what the diaphragm alone can manage",
+            "feedback": "That extra lifting of the rib cage is exactly what those muscles are doing during heavy breathing."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Extra help for the chest",
+        "ok_line": "Those muscles are hauling the rib cage further open.",
+        "ko_title": "Not tension or a resting diaphragm",
+        "ko_line": "The diaphragm is still working; the neck and shoulders are added to it, not replacing it.",
+        "exp_title": "Calling in extra help to expand the chest",
+        "exp_text": "Quiet breathing at rest relies mostly on the diaphragm, a sheet of muscle beneath the lungs that drops down to draw air in, and that alone is normally enough to move all the air the body needs. During hard effort, far more air needs to move with each breath than the diaphragm working on its own can manage, so muscles around the neck and shoulders join in, helping haul the rib cage further upward and outward. That extra lifting is what makes the neck and shoulders visibly work during the heaviest breathing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the same physical effort feel much harder to sustain at high altitude than at sea level?",
+        "body": null,
+        "options": [
+          {
+            "label": "The air is colder at altitude, which slows the muscles down directly",
+            "feedback": "Cold air does affect comfort, but it isn't what limits sustained effort at altitude; the real limit is how much oxygen each breath actually delivers."
+          },
+          {
+            "label": "The thinner air holds fewer oxygen molecules per breath, so even with faster, deeper breathing, less oxygen reaches the working muscles",
+            "feedback": "That shortfall in oxygen delivered per breath is exactly what makes the same effort feel harder."
+          },
+          {
+            "label": "Gravity is weaker at altitude, making the legs harder to push",
+            "feedback": "Gravity changes far too little at any altitude a person could stand on to make a noticeable difference to how the legs work."
+          },
+          {
+            "label": "There is simply less air pressure pushing the chest to expand",
+            "feedback": "Chest expansion isn't the limiting factor here; the issue is how much oxygen is packed into each breath of that thinner air."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Less oxygen per breath",
+        "ok_line": "Thinner air simply delivers less oxygen with each breath.",
+        "ko_title": "Not cold or gravity",
+        "ko_line": "The real limit is how much oxygen reaches the muscles, not temperature or gravity.",
+        "exp_title": "Less oxygen packed into the same breath",
+        "exp_text": "Air at altitude is thinner, meaning a given breath's worth of air contains noticeably fewer oxygen molecules than the same breath would hold near sea level. Breathing faster and deeper can partly make up for that by moving more air overall, but it can't fully close the gap, so the working muscles still end up receiving less oxygen than they would doing the very same effort lower down. That shortfall is what makes ordinary effort feel unusually hard until the body has had time to adjust."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually forces you to take a breath after holding it underwater for as long as you can?",
+        "body": null,
+        "options": [
+          {
+            "label": "Falling oxygen levels are what finally force the breath",
+            "feedback": "Oxygen usually hasn't dropped to a critical level yet at that point; the driving signal builds up from something else entirely."
+          },
+          {
+            "label": "The lungs physically run out of space to hold anything more",
+            "feedback": "The lungs are not full to some hard limit during a breath-hold; nothing about running out of room is what triggers the urge."
+          },
+          {
+            "label": "Rising carbon dioxide in the blood triggers the urge to breathe, not the oxygen level falling",
+            "feedback": "That rising carbon dioxide, detected in the blood, is exactly what produces the mounting urge to breathe."
+          },
+          {
+            "label": "Cold water pressure on the chest forces the breath",
+            "feedback": "This happens the same way in warm water and in air held on land, so pressure or temperature from the water isn't the trigger."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "The other gas is to blame",
+        "ok_line": "Carbon dioxide, not falling oxygen, is what drives the urge.",
+        "ko_title": "Not oxygen, space, or cold",
+        "ko_line": "None of those is what forces the breath; it's the rising level of a different gas.",
+        "exp_title": "The wrong gas gets the blame",
+        "exp_text": "It seems natural to assume that a held breath ends because oxygen is running out, since that is the gas the body actually needs. What is really building up during the hold is carbon dioxide, and it is the rising level of that gas, detected in the blood, that produces the mounting, eventually overwhelming urge to breathe. Practising a breath-hold can push back the moment that urge appears, but it does so by learning to tolerate more carbon dioxide, not by finding a way past a shortage of oxygen."
+      }
+    ]
+  }
+]

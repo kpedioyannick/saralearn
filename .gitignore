@@ -2,9 +2,21 @@
 # .env porte le jeton d'administration. Une clé OpenAI a déjà fini en
 # clair dans un vhost Apache sur cette machine, puis dans les sauvegardes
 # système : ce fichier ne doit jamais être versionné.
+#
+# LA RÈGLE EST « TOUT `.env` », AVEC DEUX EXCEPTIONS NOMMÉES. Écrire les
+# variantes une à une ne tient pas : `.env.avant-feed-types`, une copie
+# de travail gardée avant une bascule, portait le jeton d'admin, la clé
+# DeepSeek et celle de Google TTS — et aucune ligne de ce fichier ne
+# l'attrapait. Un `git add .` l'aurait poussée en clair.
 .env
-.env.local
-.env.*.local
+.env*
+
+# Les deux qui doivent suivre le dépôt : le modèle sans valeurs, et
+# l'adresse de l'API en production — sans quoi le bundle se construit
+# sur 127.0.0.1 et l'app est muette pour tout le monde (voir
+# `scripts/check_build.mjs`).
+!.env.example
+!.env.production
 
 # ── Contenu ──────────────────────────────────────────────────────────
 # La base porte les exercices, les comptes et les votes. Elle ne rentre

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 265,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is a gene?",
+        "body": null,
+        "options": [
+          {
+            "label": "A stretch of DNA that carries instructions for a particular trait",
+            "feedback": "Correct."
+          },
+          {
+            "label": "A single cell found only in reproductive organs",
+            "feedback": "A gene is not a cell at all. It is a piece of the material stored inside a cell's nucleus."
+          },
+          {
+            "label": "A tiny organ inside a cell that produces energy",
+            "feedback": "That description fits a different structure inside the cell. A gene carries information, not energy."
+          },
+          {
+            "label": "A chemical the body releases into the bloodstream",
+            "feedback": "A gene stays inside the cell's nucleus. It is not something released or carried through the blood."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "A stretch of instructions, written into DNA.",
+        "ko_title": "Not quite",
+        "ko_line": "A gene is not a cell, an organ, or a chemical released into the blood — think about what is stored inside a cell's nucleus.",
+        "exp_title": "Instructions written into DNA",
+        "exp_text": "DNA is a long molecule made up of a sequence of chemical letters, and a gene is a particular stretch of that sequence that carries the instructions for building one specific trait, such as a protein the body needs. A cell reads that stretch when it needs to build whatever the gene describes."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How is a person's DNA organized inside a cell?",
+        "body": null,
+        "options": [
+          {
+            "label": "As one continuous loose strand floating freely",
+            "feedback": "Loose, unorganized DNA would tangle and break easily. It is tightly packaged instead."
+          },
+          {
+            "label": "Packaged into structures called chromosomes, inherited in pairs",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Spread evenly across every organ as separate copies",
+            "feedback": "DNA is not distributed organ by organ in different forms. The same packaged set sits inside the nucleus of nearly every cell in the body."
+          },
+          {
+            "label": "Stored only inside red blood cells",
+            "feedback": "Red blood cells are unusual in that they actually lack a nucleus and DNA entirely. Almost every other cell carries a full set."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Tightly packaged structures, one set from each parent.",
+        "ko_title": "Not that arrangement",
+        "ko_line": "Loose or scattered DNA would be fragile and disorganized. Think about how it is actually bundled up.",
+        "exp_title": "Bundled into paired structures",
+        "exp_text": "Inside the nucleus of most cells, DNA is coiled tightly around proteins and packaged into separate structures called chromosomes. A person carries chromosomes in matching pairs, with one member of each pair inherited from the mother and the other from the father."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a child typically show a mix of traits from both parents rather than looking identical to just one?",
+        "body": null,
+        "options": [
+          {
+            "label": "Traits are inherited only from whichever parent's genes are stronger",
+            "feedback": "There is no single parent whose genes simply take over as a whole. Both parents contribute to essentially every trait."
+          },
+          {
+            "label": "The child's traits are decided randomly with no link to either parent",
+            "feedback": "Inheritance is not random and disconnected from the parents. Each trait traces back directly to genes supplied by both of them."
+          },
+          {
+            "label": "The child receives one copy of each gene from each parent, so both contribute",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Only the mother's genes actually get passed on",
+            "feedback": "Genes are passed on by both parents, not only the mother. Each parent contributes a full set."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "Both parents supply a copy of every gene.",
+        "ko_title": "Not quite",
+        "ko_line": "Nothing here is decided by one parent alone or left to chance. Think about how many copies of each gene a child receives, and from whom.",
+        "exp_title": "Two copies, two sources",
+        "exp_text": "For nearly every gene, a child inherits one copy from the mother and one copy from the father, sitting side by side on a matching pair of chromosomes. Because both parents contribute a copy of every gene, a child ends up with a blend of traits from each side rather than a copy of one parent alone."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "If a child inherits two different versions of the same gene, one from each parent, what can determine which trait shows?",
+        "body": null,
+        "options": [
+          {
+            "label": "The two versions always blend into an in-between trait",
+            "feedback": "Blending into a middle trait is not the usual outcome. For many genes, one version can simply take charge over the other."
+          },
+          {
+            "label": "Whichever version was inherited first is always the one that shows",
+            "feedback": "There is no meaningful order of arrival between the two copies. What matters instead is the relationship between the two versions themselves."
+          },
+          {
+            "label": "Both versions always show at once, never just one",
+            "feedback": "Both showing equally is not the typical pattern for many genes. One version can instead override the other."
+          },
+          {
+            "label": "One version can be dominant and mask the effect of the other",
+            "feedback": "Correct."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "One version can override the other rather than blending with it.",
+        "ko_title": "Not the pattern",
+        "ko_line": "There is no order of arrival or automatic blending here. Think about a relationship where one version simply overrides the other.",
+        "exp_title": "One version overriding the other",
+        "exp_text": "When a child carries two different versions of a gene, one from each parent, the versions are not always treated equally. A dominant version can produce its trait even with a single copy present, overriding the effect of a recessive version, which shows itself when both inherited copies happen to be that same recessive kind."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do identical twins come to exist?",
+        "body": null,
+        "options": [
+          {
+            "label": "A single fertilized egg splits into two separate embryos early on",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Two separate eggs are fertilized by two separate sperm",
+            "feedback": "That describes a different kind of twin, one that ends up with different genetic material rather than matching."
+          },
+          {
+            "label": "One egg is fertilized twice by two different sperm",
+            "feedback": "An egg does not get fertilized a second time once it has already combined with one sperm."
+          },
+          {
+            "label": "A single embryo divides at the moment of birth",
+            "feedback": "Any splitting happens far earlier, in the first days after fertilization, not at the moment of birth itself."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct",
+        "ok_line": "One fertilized egg, splitting early into two.",
+        "ko_title": "Not that route",
+        "ko_line": "This kind of twin shares identical genetic material, which points to a single starting point rather than two separate ones.",
+        "exp_title": "One starting point, splitting in two",
+        "exp_text": "Identical twins begin as a single egg fertilized by a single sperm, forming one combined set of genetic material. In the early days after fertilization, that developing ball of cells splits into two separate, complete embryos, each carrying a copy of the very same genetic material."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How are fraternal twins different from identical twins, at the moment they begin?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fraternal twins start from a single fertilized egg that splits, like identical twins",
+            "feedback": "That describes identical twins. Fraternal twins begin in a different way entirely."
+          },
+          {
+            "label": "Fraternal twins start from two separate eggs, each fertilized by its own sperm",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Fraternal twins share the exact same genetic material as identical twins",
+            "feedback": "Sharing identical genetic material is a feature of twins from a single split egg, not of fraternal twins."
+          },
+          {
+            "label": "Fraternal twins form only when identical twins fail to separate fully",
+            "feedback": "Failing to separate fully describes a rare complication of a splitting egg, which is unrelated to how fraternal twins actually begin."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Two separate eggs, two separate fertilizations.",
+        "ko_title": "Not quite",
+        "ko_line": "Fraternal twins do not share the identical genetic material that comes from a single split egg. Think about how many eggs are involved instead.",
+        "exp_title": "Two separate beginnings",
+        "exp_text": "Fraternal twins begin when two separate eggs are released and each is fertilized by its own sperm, producing two genetically distinct embryos that happen to develop side by side. Because each began from its own combination of egg and sperm, fraternal twins end up no more alike genetically than any other pair of siblings."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What determines whether a baby develops as biologically male or female?",
+        "body": null,
+        "options": [
+          {
+            "label": "Hormones the mother produces during pregnancy",
+            "feedback": "The mother's hormone levels do not decide this outcome. It is set earlier, at the moment of fertilization."
+          },
+          {
+            "label": "The order in which organs form during development",
+            "feedback": "Organ formation follows from an underlying instruction already present, rather than deciding the outcome itself."
+          },
+          {
+            "label": "Which combination of X and Y chromosomes the baby inherits",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The position of the baby inside the uterus",
+            "feedback": "Where a baby happens to sit inside the uterus has no bearing on this outcome, which is set from the very start."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "A pair of chromosomes, set from the moment of fertilization.",
+        "ko_title": "Not the deciding factor",
+        "ko_line": "This outcome is set at the very start, before the mother's hormones or the baby's position come into play. Think about which chromosomes are involved.",
+        "exp_title": "Set by one chromosome pair",
+        "exp_text": "Among a person's chromosome pairs, one particular pair comes in two possible forms, known as X and Y. An egg contributes an X, while a sperm can contribute either an X or a Y, so which one happens to fertilize the egg sets whether the resulting pair is XX or XY."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where does new genetic variation, not already present in either parent, come from?",
+        "body": null,
+        "options": [
+          {
+            "label": "It never appears; all variation already exists in the parents' genes",
+            "feedback": "Variation is not limited to only what already exists in the parents. New changes can genuinely arise."
+          },
+          {
+            "label": "It comes from experiences during a person's lifetime being added to their genes",
+            "feedback": "Life experiences are not written into the genes that get passed on to children. New variation arises through a different process entirely."
+          },
+          {
+            "label": "It comes from the environment writing new information directly into cells",
+            "feedback": "The environment does not directly insert new genetic information. Variation instead arises from an internal process during DNA copying."
+          },
+          {
+            "label": "Occasional copying errors arise when DNA is copied, introducing small changes",
+            "feedback": "Correct."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Correct",
+        "ok_line": "Small copying errors, arising during DNA replication itself.",
+        "ko_title": "Not the source",
+        "ko_line": "Nothing here comes from lived experience or the surrounding environment being written into genes. Think about what can go slightly wrong when DNA is copied.",
+        "exp_title": "Small errors during copying",
+        "exp_text": "Every time a cell divides, it has to copy its entire set of DNA, letter by letter, before splitting in two. Occasionally that copying process makes a small mistake, called a mutation, and that altered stretch of DNA can then be passed on, introducing a genetic difference that was not present in either parent."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't a child usually look exactly like either parent?",
+        "body": null,
+        "options": [
+          {
+            "label": "Traits from thousands of different genes are mixed and reshuffled from both parents",
+            "feedback": "Correct."
+          },
+          {
+            "label": "A child's appearance is decided by chance with no link to genes at all",
+            "feedback": "Appearance is not disconnected from genetics. It comes directly from the specific mix of genes a child inherits."
+          },
+          {
+            "label": "Only half of the child's genes function properly",
+            "feedback": "A child's genes generally function as expected. What creates the difference in appearance is the particular combination inherited, not malfunctioning genes."
+          },
+          {
+            "label": "The child's genes change to a new set entirely after birth",
+            "feedback": "A child's genes are set at conception and do not switch to an entirely different set after birth."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "A unique reshuffling of genes from both sides, every time.",
+        "ko_title": "Not the reason",
+        "ko_line": "Appearance is tied directly to genetics here, not to chance or to genes changing later. Think about how many different genes are involved and how they get combined.",
+        "exp_title": "A unique reshuffling, every time",
+        "exp_text": "A person's traits are shaped by a great many different genes working together, not by any single gene acting alone. Each time a child is conceived, a different combination of gene copies from each parent gets shuffled together, so every child ends up with a distinct mix rather than a plain copy of either parent."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can't a trait like natural eye color usually be predicted by a simple single dominant-or-recessive rule?",
+        "body": null,
+        "options": [
+          {
+            "label": "Eye color is not actually inherited from parents at all",
+            "feedback": "Eye color is genuinely passed down from parents. The complication lies in how many genes are involved, not in whether it is inherited."
+          },
+          {
+            "label": "Many different genes each contribute a small effect, combining to produce the final color",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Eye color is decided entirely by environment after birth",
+            "feedback": "The environment after birth does not determine eye color. It is set by inherited genes."
+          },
+          {
+            "label": "Only one gene controls eye color, but it changes randomly with age",
+            "feedback": "A single gene changing at random would not explain the wide range of eye colors seen, and eye color does not shift randomly through life."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Several genes each add a small piece to the final result.",
+        "ko_title": "Not that simple",
+        "ko_line": "Eye color is inherited, but not through a single gene acting alone. Think about how many genes might be involved and how their effects combine.",
+        "exp_title": "Many small contributions, not one",
+        "exp_text": "A simple dominant-or-recessive rule works well for a trait controlled by a single gene, but eye color depends on several different genes, each nudging the amount and placement of pigment a little differently. Combining all of those small individual effects together produces the wide range of eye colors seen from one person to the next."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 84,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the daytime sky blue?",
+        "body": null,
+        "options": [
+          {
+            "label": "Air scatters blue light most",
+            "feedback": "Short waves are thrown sideways far more than long ones."
+          },
+          {
+            "label": "The air is faintly blue in colour",
+            "feedback": "Air in a jar is colourless however you light it."
+          },
+          {
+            "label": "It reflects the blue of the oceans",
+            "feedback": "The sky is just as blue over a desert."
+          },
+          {
+            "label": "Sunlight itself is bluish",
+            "feedback": "Sunlight above the atmosphere is close to white."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "You are seeing sunlight that was knocked sideways on its way past.",
+        "ko_title": "Not that.",
+        "ko_line": "The Sahara sky is as blue as any. So it is not the sea.",
+        "exp_title": "Blue light gets bounced around",
+        "exp_text": "Air molecules are far smaller than a wavelength of light, and such small obstacles scatter short waves much more strongly than long ones — roughly sixteen times more for blue than for red. Blue light is therefore knocked in every direction and arrives at your eye from all over the sky, while red mostly carries straight on. Look away from the Sun and what you see is scattered blue."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the sky turn red at sunset?",
+        "body": null,
+        "options": [
+          {
+            "label": "The light crosses far more air",
+            "feedback": "Blue is scattered away, leaving red to arrive."
+          },
+          {
+            "label": "The Sun cools as it sets",
+            "feedback": "The Sun is unchanged. Only our angle to it moves."
+          },
+          {
+            "label": "Dust in the air glows red",
+            "feedback": "Dust scatters light; it does not glow."
+          },
+          {
+            "label": "The atmosphere heats up at dusk",
+            "feedback": "Evening air cools rather than warms."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Same scattering as at noon, with far more air to cross.",
+        "ko_title": "Not it.",
+        "ko_line": "Nothing about the Sun changes. Only the path the light takes to reach you.",
+        "exp_title": "A longer path strips the blue away",
+        "exp_text": "With the Sun overhead, light crosses the atmosphere by the shortest route. At sunset it comes in almost horizontally and travels through perhaps forty times as much air, so nearly all the blue and green is scattered away before arrival and only the long wavelengths survive the trip. It is the same effect that makes the sky blue, run to its conclusion — the blue has been removed rather than the red added."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the sky black when seen from space?",
+        "body": null,
+        "options": [
+          {
+            "label": "There is no air to scatter light",
+            "feedback": "Sunlight passes without anything to deflect it."
+          },
+          {
+            "label": "Space is too cold for light",
+            "feedback": "Temperature has no effect on light."
+          },
+          {
+            "label": "The Sun is dimmer out there",
+            "feedback": "It is brighter, with no air in the way."
+          },
+          {
+            "label": "Light is absorbed by the vacuum",
+            "feedback": "A vacuum absorbs nothing at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly.",
+        "ok_line": "No air, no scattering, no blue.",
+        "ko_title": "Not so.",
+        "ko_line": "The blue sky needs something for the light to bounce off. What is missing up there?",
+        "exp_title": "The blue was never in the light",
+        "exp_text": "Blue sky is sunlight scattered by air, so where there is no air there is no blue. Astronauts see a blazing Sun against a black sky, and the two coexist without contradiction — the light is there, but nothing deflects any of it towards the eye. The same holds on the Moon: full daylight, sharp shadows, and stars overhead if you shield your eyes from the glare."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do distant mountains look pale blue?",
+        "body": null,
+        "options": [
+          {
+            "label": "Air scatters light into the gap",
+            "feedback": "Kilometres of air add their own blue haze."
+          },
+          {
+            "label": "Cold air makes the rock look blue",
+            "feedback": "Temperature does not tint what you see."
+          },
+          {
+            "label": "Distant things always look faded",
+            "feedback": "Distance alone changes nothing without air."
+          },
+          {
+            "label": "The mountains are covered in ice",
+            "feedback": "The effect appears on bare rock in summer."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "You are looking at the mountain through a slab of sky.",
+        "ko_title": "Not it.",
+        "ko_line": "There are kilometres of something between you and that ridge.",
+        "exp_title": "Sky in front of the mountain",
+        "exp_text": "Between you and a far ridge lie kilometres of air, and that air scatters blue towards your eye exactly as the sky does. The mountain's own colour arrives weakened, with a blue veil laid over it, so ridge after ridge fades paler with distance. Painters have used this for centuries to build depth, and pilots read the same haze as a rough measure of visibility."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do clouds look white rather than blue?",
+        "body": null,
+        "options": [
+          {
+            "label": "Their droplets scatter all colours alike",
+            "feedback": "They are large enough not to favour blue."
+          },
+          {
+            "label": "They reflect the light of the Sun",
+            "feedback": "So does everything lit. That does not make it white."
+          },
+          {
+            "label": "Water is naturally white",
+            "feedback": "Water in a glass is clear, not white."
+          },
+          {
+            "label": "They sit above the blue part of the sky",
+            "feedback": "Clouds sit well within the atmosphere."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Big droplets play no favourites, so everything comes back together.",
+        "ko_title": "Not that.",
+        "ko_line": "The sky is blue because tiny things scatter unevenly. What if the things are bigger?",
+        "exp_title": "Big enough to treat all colours the same",
+        "exp_text": "Air molecules are far smaller than a wavelength and strongly favour blue. Cloud droplets are much larger, and at that size every colour is scattered about equally, so all of them come back together and the cloud reads as white. A thick cloud looks grey for a different reason: so much light is scattered on the way through that little reaches the underside you are looking at."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the Sun's disc yellow at midday but orange near the horizon?",
+        "body": null,
+        "options": [
+          {
+            "label": "More blue is removed at low angles",
+            "feedback": "A longer path through air strips more of it."
+          },
+          {
+            "label": "The Sun changes colour as it sinks",
+            "feedback": "The Sun is unchanged throughout the day."
+          },
+          {
+            "label": "Dust rises in the evening",
+            "feedback": "Dust deepens the effect but does not cause it."
+          },
+          {
+            "label": "Our eyes tire towards evening",
+            "feedback": "A camera records exactly the same shift."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The lower it sits, the more blue is taken out on the way.",
+        "ko_title": "Not it.",
+        "ko_line": "The Sun does not change. The thickness of air between you and it does.",
+        "exp_title": "The disc reddens as the path lengthens",
+        "exp_text": "Seen from space the Sun is essentially white. Overhead, the atmosphere removes a little blue and leaves it faintly yellow. Near the horizon the path through air is many times longer, far more blue and green is scattered out, and what remains is orange or red — dim enough by then to look at directly. Dust, smoke or volcanic ash lengthen the effect and deepen the colour."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the Sun look flattened as it touches the horizon?",
+        "body": null,
+        "options": [
+          {
+            "label": "Air bends the light from its lower edge",
+            "feedback": "The bottom is lifted more than the top."
+          },
+          {
+            "label": "The Sun is squashed by its own spin",
+            "feedback": "It is very slightly flattened, far too little to see."
+          },
+          {
+            "label": "The horizon cuts into the disc",
+            "feedback": "The disc is flattened before it is cut."
+          },
+          {
+            "label": "Our eyes distort things near the ground",
+            "feedback": "A camera shows the same squashed shape."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "The bottom edge is lifted more than the top, and the circle squashes.",
+        "ko_title": "Not that.",
+        "ko_line": "Light from the lower edge crosses more air than light from the upper edge.",
+        "exp_title": "Bent by the air, and unequally",
+        "exp_text": "Air bends light passing through it, and the effect is strongest near the horizon. Light from the Sun's lower edge takes a longer, lower path and is lifted more than light from the upper edge, so the disc is squeezed vertically into an oval. The same bending lifts the whole Sun by about its own width — meaning that when you watch it touch the horizon, it has already set."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the green flash sometimes seen at sunset?",
+        "body": null,
+        "options": [
+          {
+            "label": "The last light bent out of the disc",
+            "feedback": "Green is lifted a fraction more than red."
+          },
+          {
+            "label": "A reflection off the sea",
+            "feedback": "It is seen from mountains and deserts too."
+          },
+          {
+            "label": "A trick of a tired eye",
+            "feedback": "Cameras record it, so it is really there."
+          },
+          {
+            "label": "Green light from the Sun's rim",
+            "feedback": "The Sun's rim is not green. Air does the work."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The air sorts the colours, and green is the last one standing.",
+        "ko_title": "Not it.",
+        "ko_line": "Air bends different colours by different amounts. Follow that through to the final second.",
+        "exp_title": "The colour that sets last",
+        "exp_text": "The atmosphere lifts every colour of the sinking Sun by a slightly different amount, green a fraction more than red. For a second or two as the disc disappears, the red image has already set while a sliver of green is still held above the horizon. Blue would rank higher still but is scattered away entirely, so green wins. A clear, sharp horizon and steady air are needed, which is why the sea is the classic place to look."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the sky glow after the Sun has gone down?",
+        "body": null,
+        "options": [
+          {
+            "label": "High air is still lit from below",
+            "feedback": "The Sun still shines on it long after it left your ground."
+          },
+          {
+            "label": "The ground gives back its heat",
+            "feedback": "Warm ground emits infrared, which you cannot see."
+          },
+          {
+            "label": "The Moon lights the sky",
+            "feedback": "Twilight happens on moonless nights too."
+          },
+          {
+            "label": "Air holds daylight for a while",
+            "feedback": "Air stores no light. Cut the source and it goes dark."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Up there the Sun has not set yet.",
+        "ko_title": "Not that.",
+        "ko_line": "The Sun is below your horizon. Is it below the horizon of the air ten kilometres up?",
+        "exp_title": "Sunlit air over a dark ground",
+        "exp_text": "The Sun sets for your patch of ground long before it sets for the air far above you, and that high air keeps scattering sunlight down. As the Earth turns, the lit layer climbs higher and the glow fades. Twilight ends when the Sun is 18 degrees below the horizon — about an hour and a half at mid-latitudes, and never at all in a polar summer, where the white nights come from exactly this."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the setting Sun safe to look at when the midday Sun is not?",
+        "body": null,
+        "options": [
+          {
+            "label": "Much of its light is scattered away",
+            "feedback": "The long path through air removes most of it."
+          },
+          {
+            "label": "It has become genuinely weaker",
+            "feedback": "The Sun's output does not change through the day."
+          },
+          {
+            "label": "Red light cannot harm the eye",
+            "feedback": "Bright red light damages the eye like any other."
+          },
+          {
+            "label": "The eye adjusts to dim conditions",
+            "feedback": "A wider pupil lets in more, not less."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The air has already absorbed most of what would have hurt.",
+        "ko_title": "Careful.",
+        "ko_line": "Nothing about the Sun weakens. Something between you and it does the work.",
+        "exp_title": "The atmosphere as a filter",
+        "exp_text": "Near the horizon, sunlight crosses enough air that most of it — including nearly all the ultraviolet — is scattered or absorbed before reaching you, which is why the disc dims to something the eye can bear. The safety is borrowed rather than owned: a hazy Sun a few degrees higher can still be far too strong, and a partial eclipse near midday is dangerous precisely because the Sun looks tame while losing none of its intensity."
+      }
+    ]
+  }
+]

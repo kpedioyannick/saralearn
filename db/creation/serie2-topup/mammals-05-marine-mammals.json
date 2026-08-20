@@ -1,0 +1,162 @@
+[
+  {
+    "theme_id": 241,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'marine mammal' refer to?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mammals that rely on marine ecosystems for their existence",
+            "feedback": "That's correct. Marine mammals are mammals that depend on marine environments for feeding and survival."
+          },
+          {
+            "label": "Mammals that live only in freshwater",
+            "feedback": "Freshwater is not the same as marine. Marine mammals rely on oceans or seas, though some, like river dolphins, live in rivers that connect to the sea."
+          },
+          {
+            "label": "Mammals that live only on land",
+            "feedback": "Land mammals do not rely on marine environments. Marine mammals depend on the ocean for their existence."
+          },
+          {
+            "label": "Mammals that can fly over the ocean",
+            "feedback": "Flying mammals like bats are not typically called marine mammals, even if some bats hunt over water. The term refers to mammals that depend on marine ecosystems."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "Marine mammals depend on the sea to live and feed.",
+        "ko_title": "Not that",
+        "ko_line": "Marine mammals are tied to oceans, not to land or freshwater.",
+        "exp_title": "Marine mammal dependency",
+        "exp_text": "Marine mammals are an informal group of mammals whose survival depends entirely or almost entirely on the oceans. They include cetaceans, pinnipeds, sirenians, sea otters, and polar bears, and they feed in marine environments."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which animals are fully aquatic marine mammals?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Seals and sea lions",
+            "feedback": "Seals and sea lions are pinnipeds, which are semiaquatic—they spend most time in water but return to land to mate and molt."
+          },
+          {
+            "label": "Polar bears",
+            "feedback": "Polar bears are mostly terrestrial and go into water only when necessary, so they are not fully aquatic."
+          },
+          {
+            "label": "Sea otters",
+            "feedback": "Sea otters live in kelp forests and estuaries, but they are not fully aquatic like cetaceans and sirenians; they still come to land sometimes."
+          },
+          {
+            "label": "Whales and manatees",
+            "feedback": "Correct. Both cetaceans (whales, dolphins, porpoises) and sirenians (manatees, dugongs) are fully aquatic and depend on water for all stages of life."
+          }
+        ],
+        "ok_title": "Fully aquatic pairs",
+        "ok_line": "Cetaceans and sirenians never leave the water.",
+        "ko_title": "Not fully aquatic",
+        "ko_line": "Pinnipeds, polar bears, and sea otters are not obligate water dwellers.",
+        "exp_title": "Obligate water dwellers",
+        "exp_text": "Cetaceans and sirenians are fully aquatic, meaning they spend their entire lives in water. Pinnipeds are semiaquatic because they need land for breeding and molting, while polar bears are mostly terrestrial."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do pinnipeds need to come to land for?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Feeding",
+            "feedback": "Pinnipeds feed in the water, not on land. They come ashore for other vital activities."
+          },
+          {
+            "label": "Mating, breeding, and molting",
+            "feedback": "Correct. Pinnipeds spend most of their time in water but must return to land or ice for mating, giving birth, and shedding their fur."
+          },
+          {
+            "label": "Drinking freshwater",
+            "feedback": "Pinnipeds get water from their food and do not need to come ashore to drink."
+          },
+          {
+            "label": "Sleeping",
+            "feedback": "Pinnipeds can sleep in water, so they do not need to come to land for that."
+          }
+        ],
+        "ok_title": "Land activities",
+        "ok_line": "Pinnipeds come ashore to mate, breed, and molt.",
+        "ko_title": "Water activities",
+        "ko_line": "Feeding and sleeping can happen in the water for pinnipeds.",
+        "exp_title": "Semiaquatic life",
+        "exp_text": "Pinnipeds are semiaquatic: they are well adapted to water but must haul out on land or ice for reproduction and molting. Their feeding happens in the ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which group of marine mammals is considered fully aquatic?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cetaceans and sirenians",
+            "feedback": "Correct. Both cetaceans (whales, dolphins) and sirenians (manatees, dugongs) are fully aquatic and never leave the water."
+          },
+          {
+            "label": "Pinnipeds",
+            "feedback": "Pinnipeds are semiaquatic; they need land for mating and molting, so they are not fully aquatic."
+          },
+          {
+            "label": "Sea otters",
+            "feedback": "Sea otters are not fully aquatic; they come to land and live in kelp forests and estuaries."
+          },
+          {
+            "label": "Polar bears",
+            "feedback": "Polar bears are mostly terrestrial and enter water only when necessary, so they are not fully aquatic."
+          }
+        ],
+        "ok_title": "Fully aquatic group",
+        "ok_line": "Cetaceans and sirenians live only in water.",
+        "ko_title": "Not fully aquatic",
+        "ko_line": "Pinnipeds, otters, and bears are not obligate water dwellers.",
+        "exp_title": "Aquatic lifestyle",
+        "exp_text": "Cetaceans and sirenians are obligate water dwellers, meaning they cannot survive on land. Other marine mammals like pinnipeds and polar bears have varying degrees of land use."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a 'quasi-marine mammal'?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A mammal that lives only in the ocean",
+            "feedback": "That describes fully aquatic marine mammals, not quasi-marine ones. Quasi-marine mammals have great dependency on the sea but are not anatomically specialized."
+          },
+          {
+            "label": "A mammal that has flippers and a tail",
+            "feedback": "Flippers are a sign of anatomical specialization, which quasi-marine mammals lack. They are not necessarily adapted with flippers."
+          },
+          {
+            "label": "A mammal that eats only marine plants",
+            "feedback": "Diet is not the defining feature. Quasi-marine mammals rely on the sea but are not specialized for aquatic life."
+          },
+          {
+            "label": "A mammal that depends heavily on the sea but is not anatomically specialized for it",
+            "feedback": "Correct. Quasi-marine mammals, like the arctic fox or fish-eating bats, rely on marine resources but have not evolved specialized aquatic traits."
+          }
+        ],
+        "ok_title": "Quasi-marine definition",
+        "ok_line": "They depend on the sea without being specialized.",
+        "ko_title": "Not quasi-marine",
+        "ko_line": "Fully aquatic or specialized mammals are not quasi-marine.",
+        "exp_title": "Dependency without specialization",
+        "exp_text": "Quasi-marine mammals are those that have a strong reliance on the sea for food or survival but have not developed anatomical adaptations like flippers or blubber. Examples include the arctic fox and certain bats."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a tide?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The periodic rise and fall of sea level",
+            "feedback": "Correct. Tides are the regular, cyclic rising and falling of sea level."
+          },
+          {
+            "label": "A constant high water level along a coast",
+            "feedback": "Incorrect. Tides are not constant; they rise and fall periodically."
+          },
+          {
+            "label": "A wave caused by wind on the ocean surface",
+            "feedback": "Incorrect. Wind-driven waves are different from tides, which are caused by gravitational forces."
+          },
+          {
+            "label": "The daily change in ocean temperature",
+            "feedback": "Incorrect. Tides concern sea level, not temperature."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "A tide is the regular rise and fall of sea level.",
+        "ko_title": "Not quite",
+        "ko_line": "Remember, tides are periodic changes in sea level.",
+        "exp_title": "Definition of a tide",
+        "exp_text": "A tide is the periodic rise and fall of sea level. It is caused mainly by the gravitational pull of the Moon and the Sun on Earth’s oceans, combined with the Earth's rotation and orbital motion. This regular up-and-down movement of water is what we call a tide."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many times a day does the ocean typically rise and fall?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Once",
+            "feedback": "Incorrect. That would be a diurnal tide, but most places see two cycles a day."
+          },
+          {
+            "label": "Twice",
+            "feedback": "Correct. Most oceans have two high tides and two low tides each day, a pattern called semi-diurnal."
+          },
+          {
+            "label": "Three times",
+            "feedback": "Incorrect. Tides do not typically happen three times a day."
+          },
+          {
+            "label": "Four times",
+            "feedback": "Incorrect. The standard pattern is two highs and two lows, not four of each."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Oceans commonly rise and fall twice daily.",
+        "ko_title": "Not that many",
+        "ko_line": "Most coasts see two high and two low tides per day.",
+        "exp_title": "Semi-diurnal tides",
+        "exp_text": "In most locations, tides are semi-diurnal: there are two high waters and two low waters each day. This happens because the Earth rotates once relative to the Moon roughly every 24 hours and 50 minutes, which gives two tidal bulges, so each coast passes through a high and a low tide about twice a day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the moment when the water stops falling and reaches its lowest level?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Low tide",
+            "feedback": "Correct. When the water stops falling and reaches a local minimum, that is low tide."
+          },
+          {
+            "label": "High tide",
+            "feedback": "Incorrect. High tide is when the water stops rising at its maximum, not when it stops falling."
+          },
+          {
+            "label": "Slack water",
+            "feedback": "Incorrect. Slack water is when the tidal current stops, not the water level at its lowest."
+          },
+          {
+            "label": "Flood tide",
+            "feedback": "Incorrect. Flooding is the rising phase, not the lowest point."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "The lowest point is called low tide.",
+        "ko_title": "Not quite",
+        "ko_line": "Low tide is the minimum water level, not the current stopping.",
+        "exp_title": "Low tide stage",
+        "exp_text": "Low tide is the stage in the tidal cycle when the water stops falling and reaches its local minimum. It is one of the four named stages, along with flooding, high tide, and ebbing. At low tide, the intertidal zone is exposed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for the currents produced by tides?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Ocean streams",
+            "feedback": "Incorrect. The specific term for tidal currents is not 'ocean streams'."
+          },
+          {
+            "label": "Wave currents",
+            "feedback": "Incorrect. Waves are different from tides; the currents caused by tides have their own name."
+          },
+          {
+            "label": "Tidal streams",
+            "feedback": "Correct. Tidal streams, also called tidal currents, are the oscillating currents caused by tides."
+          },
+          {
+            "label": "Gyre flows",
+            "feedback": "Incorrect. Gyres are large circular ocean currents, not tidal currents."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Tidal currents are called tidal streams.",
+        "ko_title": "Not that term",
+        "ko_line": "The correct name for tidal currents is tidal streams.",
+        "exp_title": "Tidal currents",
+        "exp_text": "The oscillating currents produced by tides are known as tidal streams or tidal currents. They are the horizontal movement of water associated with the rise and fall of tides. These currents reverse direction periodically, with a moment of no current called slack water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the time when the tidal current ceases and then reverses direction?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "High water",
+            "feedback": "Incorrect. High water is the highest sea level, not the moment the current stops."
+          },
+          {
+            "label": "Low water",
+            "feedback": "Incorrect. Low water is the lowest sea level, not the moment the current stops."
+          },
+          {
+            "label": "Turning tide",
+            "feedback": "Incorrect. 'Turning' describes the reversal, but the specific term for the cessation is different."
+          },
+          {
+            "label": "Slack water",
+            "feedback": "Correct. Slack water, or slack tide, is when the tidal current ceases and then reverses."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Slack water is when the current stops.",
+        "ko_title": "Not quite",
+        "ko_line": "The correct term is slack water, not high or low water.",
+        "exp_title": "Slack water",
+        "exp_text": "Slack water, or slack tide, is the moment when the tidal current ceases. After this, the current reverses direction and is said to be turning. Slack water usually occurs near high water and low water, though in some places it may differ significantly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for a tide pattern with one high water and one low water each day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Semi-diurnal",
+            "feedback": "Incorrect. Semi-diurnal means two high and two low waters each day, not one."
+          },
+          {
+            "label": "Mixed",
+            "feedback": "Incorrect. Mixed refers to tides with unequal heights, not a single cycle per day."
+          },
+          {
+            "label": "Diurnal",
+            "feedback": "Correct. Diurnal tides have one tidal cycle per day."
+          },
+          {
+            "label": "Spring",
+            "feedback": "Incorrect. Spring is a type of tide with large range, not a daily pattern."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Diurnal means one cycle per day.",
+        "ko_title": "Not that",
+        "ko_line": "One high and one low per day is called diurnal.",
+        "exp_title": "Diurnal tides",
+        "exp_text": "Tides are commonly semi-diurnal, with two high and two low waters each day, or diurnal, with one tidal cycle per day. Diurnal tides have only one high water and one low water in a lunar day, which is about 24 hours and 50 minutes long."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the average sea level over a long period called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Highest astronomical tide",
+            "feedback": "Incorrect. HAT is the highest predicted tide, not the average level."
+          },
+          {
+            "label": "Mean sea level",
+            "feedback": "Correct. Mean sea level is the average sea level for a location over a long period."
+          },
+          {
+            "label": "Lowest astronomical tide",
+            "feedback": "Incorrect. LAT is the lowest predicted tide, not the average."
+          },
+          {
+            "label": "Spring tide level",
+            "feedback": "Incorrect. Spring tide level refers to the high tides during spring tides, not the average."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Mean sea level is the long-term average.",
+        "ko_title": "Not that",
+        "ko_line": "The average sea level is mean sea level, not a specific tide level.",
+        "exp_title": "Mean sea level",
+        "exp_text": "Mean sea level (MSL) is the average sea level at a location over a long period. It is used as a reference level for tide measurements. It is constant for any location over a long time, ignoring short-term variations from waves and weather."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When the Sun, Moon, and Earth line up, what happens to the tide's range?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is at its maximum, called a spring tide",
+            "feedback": "Correct. The line-up, called syzygy, makes the tidal range largest, known as a spring tide."
+          },
+          {
+            "label": "It is at its minimum, called a neap tide",
+            "feedback": "Incorrect. Neap tides happen when the Sun and Moon are at right angles, not in a line."
+          },
+          {
+            "label": "It is reduced by half",
+            "feedback": "Incorrect. The range increases, not decreases, at syzygy."
+          },
+          {
+            "label": "It stays the same",
+            "feedback": "Incorrect. The range changes depending on the alignment."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Alignment causes maximum range, spring tide.",
+        "ko_title": "Not quite",
+        "ko_line": "Spring tides occur at syzygy, not neap tides.",
+        "exp_title": "Spring tide cause",
+        "exp_text": "About twice a month, around new moon and full moon, the Sun, Moon, and Earth form a line, called a syzygy. The Sun's tidal force then adds to the Moon's, making the tidal range at its maximum. This is called a spring tide, though the name has nothing to do with the season."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During what lunar phase does a neap tide occur?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "New moon and full moon",
+            "feedback": "Incorrect. Those phases cause spring tides, not neap tides."
+          },
+          {
+            "label": "First quarter and third quarter",
+            "feedback": "Correct. Neap tides happen when the Moon is at first or third quarter."
+          },
+          {
+            "label": "Crescent moon",
+            "feedback": "Incorrect. The crescent phases are not quarter, so neap tides do not occur then."
+          },
+          {
+            "label": "Waxing gibbous",
+            "feedback": "Incorrect. Neap tides are tied to quadrature, which happens at quarters, not gibbous."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Neap tides occur at quarter moons.",
+        "ko_title": "Not those phases",
+        "ko_line": "Neap tides need the Moon at first or third quarter.",
+        "exp_title": "Neap tide phases",
+        "exp_text": "A neap tide occurs when the Moon is at first quarter or third quarter. At these times, the Sun and Moon are 90 degrees apart as seen from Earth, called quadrature. The Sun's tidal force then partially cancels the Moon's, giving the tide's range its minimum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the slight stretching of the solid Earth caused by tidal forces?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Ocean tide",
+            "feedback": "Incorrect. Ocean tides are the water movements; the solid Earth's response has a different name."
+          },
+          {
+            "label": "Atmospheric tide",
+            "feedback": "Incorrect. Atmospheric tide involves air pressure, not the solid ground."
+          },
+          {
+            "label": "Slack tide",
+            "feedback": "Incorrect. Slack tide is about current stopping, not deformation of Earth."
+          },
+          {
+            "label": "Earth tide",
+            "feedback": "Correct. Earth tide is the periodic vertical displacement of the solid Earth's crust due to tidal forces."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "Earth tide is the solid Earth's stretching.",
+        "ko_title": "Not that",
+        "ko_line": "The crust's deformation is called Earth tide.",
+        "exp_title": "Earth tide",
+        "exp_text": "Tidal forces act on the entire Earth system, not just the oceans. In the solid Earth's crust, these forces produce periodic vertical displacements of a few centimeters, a phenomenon known as Earth tide. It involves elastic deformation of the ground, unlike ocean tides which are water movements."
+      }
+    ]
+  }
+]

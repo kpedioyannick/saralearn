@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 225,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the first step in the formation of any cloud?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Rain falling from higher up",
+            "feedback": "Rain is the end of a cloud's life, not its beginning. A cloud starts before any raindrop exists, when water vapour in the air condenses."
+          },
+          {
+            "label": "Water vapour condensing into tiny droplets",
+            "feedback": "Correct. Condensation of water vapour onto tiny particles in the air is the very act that creates a cloud's droplets."
+          },
+          {
+            "label": "Ice crystals forming from liquid water",
+            "feedback": "Ice only appears in high, cold clouds. The usual first step of cloud formation is condensation of vapour, not freezing of liquid water."
+          },
+          {
+            "label": "Ground water evaporating directly into visible puffs",
+            "feedback": "Evaporation is what puts water vapour into the air, but the vapour is invisible. A cloud only becomes visible when that vapour condenses into droplets."
+          }
+        ],
+        "ok_title": "First step confirmed",
+        "ok_line": "Condensation turns invisible vapour into visible droplets.",
+        "ko_title": "Not the first step",
+        "ko_line": "That happens later or elsewhere, not at the start.",
+        "exp_title": "Cloud birth",
+        "exp_text": "A cloud begins when water vapour in the air condenses into countless tiny liquid droplets. This happens only when the air is cooled enough to reach its saturation point, so the vapour can no longer stay invisible."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What must be present in the air for water vapour to condense into a cloud droplet?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Tiny particles like dust or salt",
+            "feedback": "Correct. Vapour needs a surface to cling to, and these microscopic particles serve as the seeds for every droplet."
+          },
+          {
+            "label": "Pollen grains large enough to see",
+            "feedback": "Cloud droplets form on particles far smaller than visible pollen. Even clean-looking air holds countless microscopic seeds."
+          },
+          {
+            "label": "Pre-existing water droplets",
+            "feedback": "There are no droplets yet—that's what condensation creates. Vapour condenses onto solid particles, not onto other liquid drops."
+          },
+          {
+            "label": "Strong sunlight",
+            "feedback": "Sunlight warms the ground and helps evaporation, but it does not provide a surface for condensation. Clouds often form in shade or at night too."
+          }
+        ],
+        "ok_title": "Seed particle needed",
+        "ok_line": "Vapour needs a tiny surface to condense on.",
+        "ko_title": "No surface there",
+        "ko_line": "That alone cannot start a droplet.",
+        "exp_title": "Condensation nuclei",
+        "exp_text": "Water vapour cannot condense into a droplet on its own in clean air. It needs a tiny solid or liquid particle—dust, salt, smoke, or similar—to act as a seed. These seeds are always floating in the atmosphere, so droplets can form almost anywhere once cooling pushes the air to saturation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the temperature of a bubble of air as it rises through the sky?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It stays the same",
+            "feedback": "Rising air expands because the pressure around it drops, and that expansion cools it. The temperature definitely changes."
+          },
+          {
+            "label": "It warms up",
+            "feedback": "Compression warms air, but rising air is expanding, not compressing. The cooling from expansion is what creates clouds."
+          },
+          {
+            "label": "It cools down",
+            "feedback": "Correct. As the bubble rises, it expands and its temperature falls, eventually reaching the point where condensation can begin."
+          },
+          {
+            "label": "It alternately warms and cools",
+            "feedback": "Steady rising causes steady cooling, not oscillation. The cooling continues as long as the bubble keeps climbing."
+          }
+        ],
+        "ok_title": "Cooling on the way up",
+        "ok_line": "Expansion as air rises makes it cooler.",
+        "ko_title": "Temperature changes",
+        "ko_line": "Rising air never stays warm or unchanged.",
+        "exp_title": "Expansion cooling",
+        "exp_text": "When a parcel of air rises, the pressure around it falls, so the air expands. Expansion uses energy, which comes from the air's own heat, and the air cools as a result. This cooling is what eventually brings the air to saturation and starts condensation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At what point during its rise does a bubble of air first become a visible cloud?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "As soon as it starts to rise",
+            "feedback": "A newly rising bubble is still warm and unsaturated, so no condensation happens yet. It must cool enough first."
+          },
+          {
+            "label": "When it reaches the top of the troposphere",
+            "feedback": "Most clouds form far below the top of the atmosphere. The bubble becomes visible at the level where condensation begins, not at the very top."
+          },
+          {
+            "label": "When it has travelled a fixed distance, like a kilometre",
+            "feedback": "There is no fixed distance. The level depends on how much moisture is in the air and how quickly it cools, so it changes from day to day and place to place."
+          },
+          {
+            "label": "When it has cooled to the saturation point",
+            "feedback": "Correct. The visible droplets appear exactly when continued cooling makes the air hold as much vapour as it can, so the excess condenses."
+          }
+        ],
+        "ok_title": "Saturation reached",
+        "ok_line": "The cloud appears at the condensation level.",
+        "ko_title": "Cloud appears later",
+        "ko_line": "Rising alone doesn't make a cloud visible.",
+        "exp_title": "The condensation level",
+        "exp_text": "A rising bubble stays invisible until its temperature drops to the dew point—the temperature at which the air is saturated. That is the moment when excess water vapour condenses onto the seed particles, and the bubble turns from transparent air into a visible cloud. This level is the flat base you see at the bottom of many clouds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the flat, level bottom of a puffy cloud called, in everyday terms?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The cloud's top",
+            "feedback": "The top is the puffy, uneven part. The flat surface you're thinking of is at the lower edge, where the cloud begins."
+          },
+          {
+            "label": "The cloud's core",
+            "feedback": "That refers to the denser interior of the cloud, not its lower boundary. The flat base marks the start of condensation."
+          },
+          {
+            "label": "The cloud's base",
+            "feedback": "Correct. The base is the flat underside, which sits at the height where rising air first cools enough to condense."
+          },
+          {
+            "label": "The cloud's edge",
+            "feedback": "Edges are the ragged outer boundaries. The flat, horizontal lower surface is specifically called the base."
+          }
+        ],
+        "ok_title": "Flat bottom named",
+        "ok_line": "The cloud's base is its level underside.",
+        "ko_title": "Wrong cloud part",
+        "ko_line": "That term refers to another part of the cloud.",
+        "exp_title": "Cloud base",
+        "exp_text": "The base is the flat, horizontal underside of a cloud. It marks the condensation level—the height where all rising air parcels in that area first reach saturation at roughly the same temperature, so the cloud's bottom is level even though its top is bumpy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What role does the release of latent heat play once condensation begins inside a rising air parcel?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It cools the parcel further and stops its rise",
+            "feedback": "Latent heat warms the air, not cools it. This warming helps the parcel keep rising rather than stopping it."
+          },
+          {
+            "label": "It warms the parcel and helps it keep rising",
+            "feedback": "Correct. When vapour condenses, it releases stored heat, which warms the surrounding air and makes the parcel more buoyant."
+          },
+          {
+            "label": "It has no effect on the parcel's temperature",
+            "feedback": "Condensation always releases a fixed amount of heat, so the parcel warms noticeably. This is a major source of a cloud's energy."
+          },
+          {
+            "label": "It turns the droplets into ice",
+            "feedback": "Latent heat is released by condensation of vapour into liquid. Freezing into ice releases yet more heat, but that's a separate process."
+          }
+        ],
+        "ok_title": "Heat from condensation",
+        "ok_line": "Condensation warms the air parcel.",
+        "ko_title": "Wrong thermal effect",
+        "ko_line": "That doesn't match what happens to rising moist air.",
+        "exp_title": "Latent heat release",
+        "exp_text": "When water vapour turns into liquid droplets, it gives off the heat it absorbed during evaporation. This latent heat warms the air parcel from within, making it less dense than the surrounding air. The parcel therefore stays buoyant and can continue rising higher, which is why clouds can grow tall on a warm afternoon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main source of the water vapour that ends up inside a cloud's droplets?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Water vapour falling from outer space",
+            "feedback": "The atmosphere draws its moisture from the surface below, not from space. Space holds no water vapour for clouds to collect."
+          },
+          {
+            "label": "Chemical reactions in the upper atmosphere",
+            "feedback": "Clouds are made of ordinary water, not a product of chemical changes in the air. The water comes from the ground and oceans."
+          },
+          {
+            "label": "Ice crystals melting into vapour high above",
+            "feedback": "Melting ice makes liquid water, not vapour, and it doesn't supply new moisture. The vapour arrives from the surface long before any ice exists."
+          },
+          {
+            "label": "Evaporation from oceans, lakes, and wet ground",
+            "feedback": "Correct. Sun-warmed water turns into vapour, which rises with the air and later condenses to form cloud droplets."
+          }
+        ],
+        "ok_title": "Vapour from below",
+        "ok_line": "Evaporation from the surface feeds the clouds.",
+        "ko_title": "Not the real source",
+        "ko_line": "That supply doesn't exist or can't reach clouds.",
+        "exp_title": "Water's journey upward",
+        "exp_text": "The water in every cloud began as liquid on the Earth's surface—in oceans, lakes, rivers, or damp soil. Sunlight evaporates it into invisible vapour, which mixes into the air. When that air later rises and cools, the same water condenses back into droplets, completing the first leg of its journey into the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a rising bubble of air eventually stop rising and spread out sideways, marking the top of a cloud?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It reaches air that is warmer or equally warm, so it is no longer buoyant",
+            "feedback": "Correct. The parcel rises only while it is warmer than its surroundings; when it meets air that's not cooler, its rise stops."
+          },
+          {
+            "label": "It runs out of water vapour completely",
+            "feedback": "The parcel may still hold vapour, but that doesn't stop its motion. Buoyancy, not moisture supply, decides whether it keeps rising."
+          },
+          {
+            "label": "It hits the top of the troposphere, which is always at cloud height",
+            "feedback": "Clouds usually top out far below the tropopause. The stopping level depends on the temperature profile of the day's air, not on a fixed ceiling."
+          },
+          {
+            "label": "It expands so much that it becomes invisible",
+            "feedback": "Expansion doesn't make droplets vanish; it makes the cloud spread out. The visible top forms at the level where rising stops."
+          }
+        ],
+        "ok_title": "Rise stops here",
+        "ok_line": "The parcel meets air that is not cooler.",
+        "ko_title": "Rise doesn't end that way",
+        "ko_line": "That reason doesn't explain the cloud's top.",
+        "exp_title": "Stable layer above",
+        "exp_text": "A parcel of air keeps rising while it is warmer (and therefore lighter) than the air around it. When it enters a layer where the surrounding air is warmer or only equally warm, the parcel loses its buoyancy and stops climbing. Its moisture spreads horizontally at that level, giving a cloud its flattened or anvil-like top."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What determines whether a rising parcel of air will form a cloud at all, rather than staying perfectly clear?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "How fast the wind blows at ground level",
+            "feedback": "Wind speed mostly moves clouds around; it doesn't decide whether condensation happens. The key is how the parcel cools in relation to its moisture."
+          },
+          {
+            "label": "The time of day, morning versus afternoon",
+            "feedback": "Time of day affects warming, but a strong thermal can form a cloud at any hour. The deciding factor is saturation, not the clock."
+          },
+          {
+            "label": "Whether the air cools to its dew point before it stops rising",
+            "feedback": "Correct. If the parcel reaches saturation, condensation occurs; if it stops rising while still unsaturated, no cloud forms."
+          },
+          {
+            "label": "The number of seed particles in the air",
+            "feedback": "Seeds are almost always abundant, so they rarely limit cloud formation. Saturation is the true gatekeeper."
+          }
+        ],
+        "ok_title": "Saturation decides",
+        "ok_line": "Cloud appears only if the dew point is reached.",
+        "ko_title": "Not the deciding factor",
+        "ko_line": "That alone doesn't make a cloud appear.",
+        "exp_title": "Cloud or clear sky",
+        "exp_text": "A rising parcel makes a cloud only if it cools enough to reach its dew point—the temperature where the air is saturated. If the parcel stops rising while still warmer than the dew point, the vapour stays invisible and the sky remains clear. This is why you can see thermals rise without ever producing a cloud."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes the droplets in a cloud stay suspended in the air instead of immediately falling to the ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They are lighter than air",
+            "feedback": "Liquid water is far denser than air, so droplets weigh more, not less. Their tiny size, not their weight, keeps them aloft."
+          },
+          {
+            "label": "They are so tiny that weak air currents hold them up",
+            "feedback": "Correct. Cloud droplets are microscopic, and even gentle upward motion in the air is enough to keep them drifting instead of falling."
+          },
+          {
+            "label": "They are electrically charged and repel the ground",
+            "feedback": "Cloud droplets are neutral or only weakly charged; electricity is not what holds them in the sky."
+          },
+          {
+            "label": "They are made of ice, which floats",
+            "feedback": "Many cloud droplets are liquid, not ice. And ice crystals are still heavier than the air around them; they too need rising air to stay aloft."
+          }
+        ],
+        "ok_title": "Tiny droplets float",
+        "ok_line": "Their small size lets air currents carry them.",
+        "ko_title": "Not why they stay up",
+        "ko_line": "That explanation doesn't match what holds droplets aloft.",
+        "exp_title": "Why clouds hang in the sky",
+        "exp_text": "Cloud droplets are only about a hundredth of a millimetre across. At that size, air resistance is huge compared with their weight, and the slightest upward air motion—even a slow updraft—keeps them suspended. They fall so slowly that they appear to hang still, until they grow large enough to overcome the air's support and become rain."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 250,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main function of water in the human body?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To provide energy for cells",
+            "feedback": "Water carries no energy; cells get energy from carbohydrates, fats, and proteins, not from water."
+          },
+          {
+            "label": "To build muscle tissue",
+            "feedback": "Muscle is built from proteins, not water, though water does help deliver the building blocks."
+          },
+          {
+            "label": "To dissolve and transport substances",
+            "feedback": "Correct — water acts as a solvent, carrying nutrients, wastes, and other molecules throughout the body."
+          },
+          {
+            "label": "To store genetic information",
+            "feedback": "Genetic information is stored in DNA, which is not made of water."
+          }
+        ],
+        "ok_title": "Water's role",
+        "ok_line": "Water dissolves and moves things around the body.",
+        "ko_title": "Not water's job",
+        "ko_line": "Energy, muscle, and DNA come from other molecules.",
+        "exp_title": "Essential solvent",
+        "exp_text": "Water is the body's main solvent. It dissolves nutrients, carries them to cells, and helps remove waste. Without water, most chemical reactions in cells could not happen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Through which body system does water enter the bloodstream most directly after being drunk?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The respiratory system",
+            "feedback": "The respiratory system takes in oxygen and releases carbon dioxide, not water."
+          },
+          {
+            "label": "The digestive system",
+            "feedback": "Correct — water is absorbed from the stomach and intestines into the blood."
+          },
+          {
+            "label": "The urinary system",
+            "feedback": "The urinary system removes water and wastes from the blood; it does not add water to it."
+          },
+          {
+            "label": "The circulatory system",
+            "feedback": "The circulatory system transports blood but does not take in water from outside; water must first enter through the digestive tract."
+          }
+        ],
+        "ok_title": "Water's entrance",
+        "ok_line": "Drunk water goes through the gut into the blood.",
+        "ko_title": "Wrong doorway",
+        "ko_line": "Other systems handle oxygen, wastes, or transport, not water intake.",
+        "exp_title": "Absorption route",
+        "exp_text": "After you drink, water passes down the esophagus to the stomach, then into the small intestine where most of it is absorbed through the walls into the bloodstream. The digestive system is the gateway."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the kidneys do with the water that flows through them in the blood?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They filter the blood and return most of the water to it",
+            "feedback": "Correct — the kidneys filter out waste and excess water, but reabsorb the majority of water back into the blood."
+          },
+          {
+            "label": "They add water to the blood to keep it thin",
+            "feedback": "Kidneys do not add water; they regulate how much stays, but the water already comes from what you drink."
+          },
+          {
+            "label": "They remove all water and send it to the bladder",
+            "feedback": "If all water were removed, the body would dehydrate within minutes; most is reabsorbed."
+          },
+          {
+            "label": "They use water to make digestive juices",
+            "feedback": "Digestive juices are made by the stomach, pancreas, and intestines, not the kidneys."
+          }
+        ],
+        "ok_title": "Kidney's filter",
+        "ok_line": "Kidneys keep nearly all the water and let out only the waste.",
+        "ko_title": "Not a tap",
+        "ko_line": "Kidneys reabsorb, not add or spend, water.",
+        "exp_title": "Water recycling",
+        "exp_text": "Each day, the kidneys filter about 180 litres of fluid from the blood. Of that, they reabsorb about 99% back into the body. Only the leftover water, carrying dissolved waste, becomes urine."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does urine become darker and more concentrated when someone hasn't drunk enough water?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the kidneys produce less urine overall, making it thicker with sugar",
+            "feedback": "Concentrated urine comes from less water, not from sugar; sugar in urine is a sign of diabetes, not dehydration."
+          },
+          {
+            "label": "Because the body adds more waste to the urine to get rid of it faster",
+            "feedback": "The amount of waste stays the same; the water content drops, making the waste more concentrated."
+          },
+          {
+            "label": "Because the bladder absorbs water from the urine",
+            "feedback": "The bladder does not absorb water; the kidneys decide the concentration before urine reaches the bladder."
+          },
+          {
+            "label": "Because the kidneys reabsorb more water, leaving less water to dilute the waste",
+            "feedback": "Correct — when water is short, the kidneys hold onto it, so urine has less water and looks darker."
+          }
+        ],
+        "ok_title": "Dark urine clue",
+        "ok_line": "Less water in, so urine gets more concentrated.",
+        "ko_title": "Not a colour change",
+        "ko_line": "Darkness means less water, not more waste.",
+        "exp_title": "Concentration logic",
+        "exp_text": "The kidneys respond to low water by reabsorbing more water into the blood. The urine that forms contains the same waste but in less water, so it becomes more concentrated and darker in colour."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Besides drinking, which of these is a way the body gains water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "By breathing in moist air through the lungs",
+            "feedback": "Breathing exchanges gases; the lungs lose water vapour, they do not add significant water to the body."
+          },
+          {
+            "label": "By absorbing sweat back through the skin",
+            "feedback": "Sweat evaporates off the skin; it is not reabsorbed in any meaningful way."
+          },
+          {
+            "label": "Through the water in solid foods like fruits and vegetables",
+            "feedback": "Correct — many foods contain water, and the digestive system absorbs it along with nutrients."
+          },
+          {
+            "label": "By making water from the chemical reactions of the body",
+            "feedback": "The body does create some water from metabolism, but it is a tiny fraction compared to what comes in food and drink."
+          }
+        ],
+        "ok_title": "Hidden water source",
+        "ok_line": "Food is a real source of water, not just drinks.",
+        "ko_title": "Not real sources",
+        "ko_line": "Lungs, skin, and metabolism do not supply much water.",
+        "exp_title": "Water in meals",
+        "exp_text": "Many foods, especially fruits, vegetables, and even bread, contain water. When you eat these, the water is absorbed along with the nutrients. This can make up roughly 20% of daily water intake."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the body keep losing water even when a person is not sweating or urinating?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because water evaporates from the skin only during exercise",
+            "feedback": "Skin loses water constantly, not just during exercise, through a process called insensible perspiration."
+          },
+          {
+            "label": "Through water vapour in the breath and through the skin",
+            "feedback": "Correct — every breath carries out water vapour, and water also evaporates from the skin surface all day."
+          },
+          {
+            "label": "Because the kidneys always let some water leak into the intestines",
+            "feedback": "The intestines absorb water, they do not leak it out; that would cause diarrhoea, not normal loss."
+          },
+          {
+            "label": "Because the body uses water to build new cells",
+            "feedback": "Building cells uses water as a component, but that water stays in the body; the loss is via breath and skin."
+          }
+        ],
+        "ok_title": "Constant loss",
+        "ok_line": "Breath and skin lose water all the time.",
+        "ko_title": "Wrong leaks",
+        "ko_line": "Kidneys and intestines keep water, they don't spill it.",
+        "exp_title": "Daily losses",
+        "exp_text": "Even at rest, you exhale water vapour with every breath, and water slowly evaporates through your skin, which is invisible. These losses are essential to regulate temperature and keep the lungs moist, but they mean you need regular water intake."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to excess water that the body does not need?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The kidneys filter it out and it leaves the body in urine",
+            "feedback": "Correct — when blood has too much water, the kidneys excrete the surplus as dilute urine."
+          },
+          {
+            "label": "It is stored in the liver for later use",
+            "feedback": "The liver stores glycogen and fats, not water; the body has no water storage organ."
+          },
+          {
+            "label": "It is converted into fat tissue",
+            "feedback": "Water cannot be turned into fat; fat is built from excess energy from food, not from water."
+          },
+          {
+            "label": "It is absorbed by the large intestine and kept in the gut",
+            "feedback": "The large intestine absorbs water into the body, but it does not store it; excess goes to the kidneys."
+          }
+        ],
+        "ok_title": "Excess water exit",
+        "ok_line": "Surplus water is passed out as urine.",
+        "ko_title": "No storage jar",
+        "ko_line": "Water isn't kept, stored, or changed into fat.",
+        "exp_title": "Balancing act",
+        "exp_text": "The kidneys continuously monitor blood water levels. If you drink too much, they allow more water to pass into urine, which is pale and plentiful. This keeps the body's fluid balance steady."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the body contains the highest proportion of water relative to its total weight?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Bones",
+            "feedback": "Bones are mostly mineral, with only about 20-30% water; they are not the most watery tissue."
+          },
+          {
+            "label": "Teeth",
+            "feedback": "Teeth enamel is almost entirely mineral and contains very little water, under 10%."
+          },
+          {
+            "label": "Fat tissue",
+            "feedback": "Fat cells contain little water, about 10-20%; they hold mostly lipid."
+          },
+          {
+            "label": "Blood plasma",
+            "feedback": "Correct — blood plasma is about 92% water, the highest proportion among these options."
+          }
+        ],
+        "ok_title": "Water-rich tissue",
+        "ok_line": "Blood plasma is mostly water.",
+        "ko_title": "Dry parts",
+        "ko_line": "Bones, teeth, and fat are much less watery.",
+        "exp_title": "Plasma composition",
+        "exp_text": "Blood plasma, the liquid part of blood, is over 90% water. It carries red blood cells, nutrients, hormones, and waste. Other tissues like muscle and brain also contain plenty of water, but not as high a percentage as plasma."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the body need water to regulate its temperature?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because water carries heat away through the urine",
+            "feedback": "Urine removes little heat; the main cooling mechanism is sweating and evaporation."
+          },
+          {
+            "label": "Because water expands when heated to cool the skin",
+            "feedback": "Water expanding does not cool; evaporation of sweat from the skin is what takes heat away."
+          },
+          {
+            "label": "Because water evaporating as sweat takes heat with it",
+            "feedback": "Correct — when sweat evaporates, it removes heat from the skin, cooling the body."
+          },
+          {
+            "label": "Because water stores heat and keeps it in the body",
+            "feedback": "Storing heat would overheat you; the body uses evaporation to shed heat."
+          }
+        ],
+        "ok_title": "Cooling sweat",
+        "ok_line": "Evaporating sweat carries heat off the skin.",
+        "ko_title": "Not a heater",
+        "ko_line": "Water's cooling role is evaporation, not storage.",
+        "exp_title": "Evaporative cooling",
+        "exp_text": "When the body gets hot, sweat glands release water onto the skin. As that water turns into vapour, it absorbs heat from the skin and carries it away into the air. This is why sweating cools you down, and why you need to drink to replace that lost water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the brain do when it detects that the blood has too little water?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It sends a signal to the stomach to release more water",
+            "feedback": "The stomach does not release water into the blood; it absorbs water that you drink."
+          },
+          {
+            "label": "It creates the sensation of thirst",
+            "feedback": "Correct — the brain monitors blood concentration and triggers thirst to make the person drink."
+          },
+          {
+            "label": "It makes the kidneys produce more urine to flush out wastes",
+            "feedback": "More urine would remove more water, worsening the shortage; the brain actually signals the kidneys to save water."
+          },
+          {
+            "label": "It tells the skin to stop sweating completely",
+            "feedback": "Stopping sweating alone does not fix the water shortage; thirst is the primary response."
+          }
+        ],
+        "ok_title": "Thirst trigger",
+        "ok_line": "The brain tells you to drink when blood gets too concentrated.",
+        "ko_title": "Not a pump",
+        "ko_line": "The brain's job is to make you seek water, not to shift it around.",
+        "exp_title": "Detecting dehydration",
+        "exp_text": "Specialized cells in the brain sense when blood plasma becomes more concentrated due to low water. They send signals that produce the urge to drink. This is why feeling thirsty is the body's way of telling you to replenish fluids before dehydration worsens."
+      }
+    ]
+  }
+]

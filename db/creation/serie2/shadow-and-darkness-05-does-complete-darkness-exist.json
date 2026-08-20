@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 220,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does it mean for a space to be in complete darkness?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "No shadow is cast in that space",
+            "feedback": "A shadow depends on a light source and an object blocking it, not on the space itself being dark. Complete darkness is about the absence of light, not about shadows."
+          },
+          {
+            "label": "No light at all reaches that space",
+            "feedback": "Yes, complete darkness means there is no light of any kind—no visible light, no faint glow—so nothing can be seen there."
+          },
+          {
+            "label": "The space is black in color",
+            "feedback": "Black is a color we see when there is little light, but a space could be painted black yet still have light shining on it. Complete darkness is about the absence of light, not the color of surfaces."
+          },
+          {
+            "label": "The space is closed off from the outside",
+            "feedback": "Being closed off can block outside light, but light could still come from inside, or reflections could enter. Complete darkness requires that no light at all enters, which is more than just being closed off."
+          }
+        ],
+        "ok_title": "No light at all",
+        "ok_line": "Complete darkness means zero light reaches that space.",
+        "ko_title": "Not about shadows",
+        "ko_line": "Shadows are about blocked light, not about the darkness of a place.",
+        "exp_title": "Definition of complete darkness",
+        "exp_text": "Complete darkness is the total absence of light. In everyday experience, we rarely find it because light scatters, reflects, or comes from tiny sources. For a space to be in complete darkness, no light photons can enter it, which is why deep caves or specially sealed rooms can approach it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where on Earth can a person experience truly complete darkness?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "In a deep cave with no openings",
+            "feedback": "A deep cave can be very dark, but some light may leak through cracks, and your eyes can adapt to pick up even faint glows. Complete darkness is extremely hard to achieve because light scatters from tiny sources."
+          },
+          {
+            "label": "On a moonless night in the countryside",
+            "feedback": "Even on a moonless night, starlight, airglow, and light scattered from distant sources provide some light. There is never total darkness outside because the atmosphere scatters light from many directions."
+          },
+          {
+            "label": "Nowhere on Earth's surface",
+            "feedback": "Correct. On the surface, there is always some light, whether from stars, airglow, reflections, or human sources. Complete darkness is essentially a theoretical condition or found only in specially constructed dark rooms."
+          },
+          {
+            "label": "At the poles during winter",
+            "feedback": "At the poles during winter, the Sun stays below the horizon, but the sky is never completely dark—there is twilight, airglow, and stars. Complete darkness is not achieved even there."
+          }
+        ],
+        "ok_title": "No place on surface",
+        "ok_line": "Earth's surface always receives some light from somewhere.",
+        "ko_title": "Caves not perfect",
+        "ko_line": "Even deep caves can have light leaks and your eyes adapt to faint light.",
+        "exp_title": "Complete darkness is elusive",
+        "exp_text": "On Earth's surface, complete darkness is practically impossible because light is everywhere: from the Sun, Moon, stars, airglow, and human-made sources. The only true complete darkness is found in specially designed dark rooms that block all light, or in the deep ocean where sunlight never reaches."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to your eyes when you stay in a completely dark room for a long time?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They become more sensitive to faint light",
+            "feedback": "Yes, your eyes adapt to darkness by increasing the sensitivity of your rod cells, so you can detect even very dim light. This is why you can eventually see silhouettes in a dark room."
+          },
+          {
+            "label": "They stop working entirely",
+            "feedback": "Your eyes do not stop working; they just become more sensitive. Complete darkness does not damage your eyes or make them blind."
+          },
+          {
+            "label": "They start to see colors better",
+            "feedback": "In darkness, your color-detecting cone cells become less effective, and you rely on rod cells which see in shades of gray. Colors become harder to see, not better."
+          },
+          {
+            "label": "They produce more tears",
+            "feedback": "Darkness does not cause your eyes to produce more tears. Tear production is connected to irritation and emotion, not to light levels."
+          }
+        ],
+        "ok_title": "Eyes adapt to dark",
+        "ok_line": "Your eyes increase sensitivity to catch faint light.",
+        "ko_title": "Not damage or color",
+        "ko_line": "Darkness boosts sensitivity, not blindness or color vision.",
+        "exp_title": "Dark adaptation",
+        "exp_text": "When you stay in darkness, your eyes gradually become more sensitive because the retina produces more of a light-sensitive pigment. This process, called dark adaptation, takes about 20-30 minutes to reach maximum sensitivity, allowing you to see very faint objects that would be invisible at first."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is it impossible to see anything in complete darkness?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because your eyes need air to see",
+            "feedback": "Your eyes need light, not air, to see. Even in a vacuum, if light is present, you can see."
+          },
+          {
+            "label": "Because your brain shuts down the visual system",
+            "feedback": "Your brain does not shut down vision; it just receives no signals when there is no light. The visual system stays active and waiting."
+          },
+          {
+            "label": "Because there is no color to perceive",
+            "feedback": "Even without color, you could see shapes and movements if there were any light. The real issue is that no light enters your eyes, so no image is formed."
+          },
+          {
+            "label": "Because no light enters your eyes to form an image",
+            "feedback": "Yes, seeing requires light to enter your eyes and stimulate the retina. In complete darkness, there is no light, so your eyes receive nothing and you see only blackness."
+          }
+        ],
+        "ok_title": "Seeing needs light",
+        "ok_line": "Without light, your eyes receive no signal to see.",
+        "ko_title": "Not about air or color",
+        "ko_line": "The issue is lack of light, not air or color.",
+        "exp_title": "Vision depends on light",
+        "exp_text": "Your eyes are light detectors. They work by converting incoming light into electrical signals that the brain interprets as images. In complete darkness, no light reaches the retina, so no signals are sent, and you perceive only blackness."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main source of light that prevents complete darkness on Earth's surface at night?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Moon's own light",
+            "feedback": "The Moon does not produce its own light; it reflects sunlight. Even on a night when the Moon is bright, that light is reflected, and on moonless nights other sources remain."
+          },
+          {
+            "label": "Starlight and airglow",
+            "feedback": "Yes, even on a moonless night, stars shine and the atmosphere itself glows faintly, called airglow. These together provide enough light to prevent total darkness."
+          },
+          {
+            "label": "Light from volcanoes and fires",
+            "feedback": "Volcanic eruptions and fires are rare and localized, not constant everywhere. They are not the reason the night sky is generally not totally dark."
+          },
+          {
+            "label": "Reflected light from the Earth's core",
+            "feedback": "The Earth's core is hot but does not emit visible light that reaches the surface. Light comes from above, not from below."
+          }
+        ],
+        "ok_title": "Starlight and airglow",
+        "ok_line": "Stars and the glowing atmosphere keep night from being fully dark.",
+        "ko_title": "Moon is reflected",
+        "ko_line": "The Moon is not a light source, and other sources exist anyway.",
+        "exp_title": "Night sky is never black",
+        "exp_text": "At night, even without the Moon, the sky is not perfectly dark. Starlight from countless stars adds faint light, and the atmosphere itself emits a weak glow called airglow, caused by chemical reactions in the upper atmosphere. Together, they bathe the ground in a dim light that our eyes can detect after adapting."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the inside of a cave deep underground often described as being in complete darkness?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the air is dusty and blocks light",
+            "feedback": "Dust can scatter light but doesn't create darkness; in fact, dust can make light visible as beams. The real reason is that no light enters the cave at all."
+          },
+          {
+            "label": "Because the rocks absorb all light that comes in",
+            "feedback": "Rocks absorb some light but also reflect some. The key is that no light enters the cave in the first place—the entrance is far and winding, so sunlight cannot reach."
+          },
+          {
+            "label": "Because no light from outside can reach that far",
+            "feedback": "Yes, deep caves have entrances that block sunlight, and the long passageways prevent any light from penetrating. Without a light source, the interior is truly dark."
+          },
+          {
+            "label": "Because the cave is colder than the outside",
+            "feedback": "Temperature does not affect light. Even a cold cave would be lit if light could enter, but its depth blocks all light."
+          }
+        ],
+        "ok_title": "No light enters",
+        "ok_line": "Deep caves block all outside light.",
+        "ko_title": "Not temperature or dust",
+        "ko_line": "It's about absence of light, not cold or dust.",
+        "exp_title": "Caves block light",
+        "exp_text": "Deep caves are dark because their entrances are small and winding, so sunlight, moonlight, or starlight cannot travel far enough inside. Since there is no other light source, the cave interior is completely dark—a place where you cannot see your own hand in front of your face."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does 'total darkness' require that ordinary darkness does not?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The complete absence of every photon",
+            "feedback": "Yes, total darkness means there is not a single particle of light—no invisible photons, no stray reflections. Ordinary darkness may have dim light that our eyes cannot detect, but total darkness has none at all."
+          },
+          {
+            "label": "The absence of shadows",
+            "feedback": "Shadows are not related to darkness itself. Total darkness can have no shadows because there is no light to cast them, but the definition is about light absence, not shadow absence."
+          },
+          {
+            "label": "A room with no windows",
+            "feedback": "A windowless room may have light from cracks, electrical sources, or glowing objects. Total darkness requires more than just no windows—it requires sealing off all light completely."
+          },
+          {
+            "label": "Being far from any star",
+            "feedback": "Being far from stars reduces light, but there is still cosmic background radiation and possibly other sources. Total darkness is a condition of zero light, not just low light."
+          }
+        ],
+        "ok_title": "Zero photons",
+        "ok_line": "Total darkness means absolutely no light particles at all.",
+        "ko_title": "Not shadows or windows",
+        "ko_line": "Total darkness is about zero light, not about shadows or construction.",
+        "exp_title": "Total darkness defined",
+        "exp_text": "Total darkness is a theoretical condition where no photons exist in a given space. Ordinary darkness may have some invisible light or extremely faint glows, but total darkness has truly none. This makes it impossible for any vision to occur, even with the most sensitive instruments."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a shadow in daylight never be completely black?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the ground is not perfectly flat",
+            "feedback": "The unevenness of the ground does not affect the darkness of a shadow. The shadow's color depends on how much light falls on the area, not on ground shape."
+          },
+          {
+            "label": "Because light scatters from the sky and surroundings",
+            "feedback": "Yes, in daylight, light from the blue sky and reflected light from surrounding objects fills in the shadow. The shadow is darker than the surrounding area but still receives some indirect light."
+          },
+          {
+            "label": "Because the Sun emits light from all directions",
+            "feedback": "The Sun is a single source, emitting from its disk, but its light travels in straight lines. The shadow gets light from other directions because of scattering, not because the Sun emits in all directions."
+          },
+          {
+            "label": "Because your eyes are too sensitive",
+            "feedback": "Your eyes being sensitive does not change the amount of light in the shadow. The shadow is not black because there is actual light present, not because your eyes are adapted."
+          }
+        ],
+        "ok_title": "Scattered light fills",
+        "ok_line": "Sky and reflected light brighten the shadow.",
+        "ko_title": "Not ground or Sun",
+        "ko_line": "It's about scattered light, not ground or Sun geometry.",
+        "exp_title": "Shadows are never pure black",
+        "exp_text": "In daylight, the shadow of an object is not completely dark because light from the blue sky and reflected light from nearby surfaces enters the shadow area from many directions. This scattered light is much dimmer than direct sunlight, but enough to make the shadow gray rather than black."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the only way to create a region of complete darkness in an experiment?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "By putting an object in front of a bright light",
+            "feedback": "Putting an object in front of a light creates a shadow, but that shadow still gets light from other sources like walls and the sky. It is not complete darkness."
+          },
+          {
+            "label": "By removing all air from a container",
+            "feedback": "Removing air does not remove light. Light can travel through a vacuum, so even a perfect vacuum would not be dark unless all light is blocked."
+          },
+          {
+            "label": "By enclosing a space in a light-proof box",
+            "feedback": "Yes, if you make a box with no openings that let light in, and you ensure no light source is inside, the interior becomes completely dark. This is how photographic darkrooms and light-tight containers work."
+          },
+          {
+            "label": "By painting the inside walls black",
+            "feedback": "Painting walls black reduces reflection, but light can still enter through openings. A black surface does not stop light from entering; it just absorbs some that comes in."
+          }
+        ],
+        "ok_title": "Sealed light-proof box",
+        "ok_line": "A fully sealed box with no light inside creates total darkness.",
+        "ko_title": "Not shadow or vacuum",
+        "ko_line": "Shadows and vacuum alone do not eliminate light.",
+        "exp_title": "Creating total darkness",
+        "exp_text": "To create complete darkness, you need a closed container that blocks all external light—no cracks, no transparent parts—and you must ensure there is no light source inside. A light-proof box with blackened interior can achieve this, because any light that enters is absorbed and none can re-enter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a moonless night in a forest still have some light?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the trees emit a faint glow",
+            "feedback": "Trees do not emit visible light. Some fungi and insects glow, but not the trees themselves, and that glow is rare and not the main source."
+          },
+          {
+            "label": "Because the forest floor reflects moonlight",
+            "feedback": "On a moonless night, there is no moonlight to reflect. The forest floor cannot reflect what isn't there."
+          },
+          {
+            "label": "Because the leaves are phosphorescent",
+            "feedback": "Leaves do not glow on their own. Phosphorescence is a special property not found in normal leaves."
+          },
+          {
+            "label": "Because starlight passes through gaps in the canopy",
+            "feedback": "Yes, on a moonless night, steady starlight comes through openings in the leaves, casting faint light on the forest floor. Combined with airglow and scattered light, the forest is never absolutely dark."
+          }
+        ],
+        "ok_title": "Starlight through gaps",
+        "ok_line": "Starlight filters through leaf openings to light the ground.",
+        "ko_title": "Trees don't glow",
+        "ko_line": "Trees are not light sources; starlight is the cause.",
+        "exp_title": "Forest at night",
+        "exp_text": "Even without the Moon, night is never perfectly dark because starlight from countless stars provides dim illumination. In a forest, the canopy blocks much of this, but gaps let some starlight through, creating faint patches of light on the ground. This is why you can sometimes see shapes in a moonless forest after your eyes adapt."
+      }
+    ]
+  }
+]

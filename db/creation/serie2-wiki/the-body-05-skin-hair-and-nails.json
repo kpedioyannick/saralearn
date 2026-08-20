@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 248,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the medical term for ringworm?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dermatophytosis",
+            "feedback": "Correct. Dermatophytosis is the medical name for ringworm, a fungal infection of the skin, hair, or nails."
+          },
+          {
+            "label": "Tinea versicolor",
+            "feedback": "Tinea versicolor is a different skin infection caused by a fungus that is not a dermatophyte, so it is not the same as ringworm."
+          },
+          {
+            "label": "Onychomycosis",
+            "feedback": "Onychomycosis refers specifically to a fungal infection of the nails, not to ringworm in general."
+          },
+          {
+            "label": "Pityriasis rosea",
+            "feedback": "Pityriasis rosea is a separate skin condition that can look similar but is not caused by the same fungi as ringworm."
+          }
+        ],
+        "ok_title": "Medical term",
+        "ok_line": "Ringworm is officially called dermatophytosis.",
+        "ko_title": "Not the term",
+        "ko_line": "That name belongs to a different condition, not ringworm.",
+        "exp_title": "Naming ringworm",
+        "exp_text": "Dermatophytosis is the medical term for the fungal infection commonly known as ringworm. It can affect the skin, hair, and nails, and the name comes from the dermatophyte fungi that cause it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of organism causes ringworm?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Bacteria",
+            "feedback": "Bacteria cause other infections like impetigo, but ringworm is caused by fungi, not bacteria."
+          },
+          {
+            "label": "Fungi",
+            "feedback": "Correct. Ringworm is a fungal infection, caused by various species of fungi known as dermatophytes."
+          },
+          {
+            "label": "Viruses",
+            "feedback": "Viruses cause illnesses like the common cold, but ringworm is a fungal infection, not a viral one."
+          },
+          {
+            "label": "Parasitic worms",
+            "feedback": "Despite the name 'ringworm', the infection is not caused by worms. It is caused by fungi."
+          }
+        ],
+        "ok_title": "Fungal cause",
+        "ok_line": "Ringworm is caused by fungi.",
+        "ko_title": "Wrong organism",
+        "ko_line": "Ringworm is not caused by that kind of organism.",
+        "exp_title": "The culprit",
+        "exp_text": "Ringworm is a fungal infection. The fungi that cause it are called dermatophytes, and they feed on keratin in the skin, hair, and nails."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical appearance of a ringworm rash on the skin?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A flat, brown patch without any border",
+            "feedback": "That description fits some other skin conditions, but ringworm usually appears as a red, scaly, circular rash with a raised border."
+          },
+          {
+            "label": "A smooth, shiny bump with no scaling",
+            "feedback": "Ringworm patches are typically scaly and itchy, not smooth and shiny."
+          },
+          {
+            "label": "A red, itchy, scaly circle that may have a clear center",
+            "feedback": "Correct. Ringworm often forms a red, itchy, scaly ring-shaped rash, which is why it gets that name."
+          },
+          {
+            "label": "A cluster of small blisters with no pattern",
+            "feedback": "Blisters can sometimes appear, but the classic ringworm rash is a red, scaly, circular patch, not just a cluster of blisters."
+          }
+        ],
+        "ok_title": "Classic rash",
+        "ok_line": "Ringworm appears as a red, itchy, scaly ring.",
+        "ko_title": "Not the look",
+        "ko_line": "That appearance does not match typical ringworm.",
+        "exp_title": "The ring pattern",
+        "exp_text": "Ringworm typically causes a red, itchy, scaly rash that forms a circular or ring-like shape. The edges may be more red than the center, giving the 'ring' look."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the body does tinea capitis affect?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The feet",
+            "feedback": "Feet infections are called tinea pedis, not tinea capitis. Tinea capitis affects the scalp."
+          },
+          {
+            "label": "The groin",
+            "feedback": "Groin infections are called tinea cruris, not tinea capitis. Tinea capitis is on the scalp."
+          },
+          {
+            "label": "The nails",
+            "feedback": "Nail infections are called tinea unguium, not tinea capitis. Tinea capitis affects the scalp and hair."
+          },
+          {
+            "label": "The scalp and hair",
+            "feedback": "Correct. Tinea capitis is the fungal infection of the scalp and hair, often causing bald patches."
+          }
+        ],
+        "ok_title": "Scalp infection",
+        "ok_line": "Tinea capitis is ringworm of the scalp.",
+        "ko_title": "Wrong location",
+        "ko_line": "That condition has a different name because it affects a different area.",
+        "exp_title": "Where it hits",
+        "exp_text": "Tinea capitis is the name for ringworm when it appears on the scalp and hair. It can lead to hair loss in the affected area."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How can ringworm be transmitted from one person to another?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "By direct skin contact with an infected person",
+            "feedback": "Correct. Ringworm can spread through direct contact between people, as well as through contact with contaminated objects or animals."
+          },
+          {
+            "label": "Only through coughing or sneezing",
+            "feedback": "Ringworm is not spread through the air like a cold. It spreads through skin contact or contact with contaminated items."
+          },
+          {
+            "label": "By drinking contaminated water",
+            "feedback": "Ringworm is not spread through water. It spreads by touching infected skin, animals, or objects like towels."
+          },
+          {
+            "label": "Through blood transfusions",
+            "feedback": "Ringworm is a skin infection and does not spread through blood transfusions."
+          }
+        ],
+        "ok_title": "How it spreads",
+        "ok_line": "Ringworm spreads by skin contact or shared items.",
+        "ko_title": "Wrong route",
+        "ko_line": "That is not how ringworm is passed on.",
+        "exp_title": "Transmission ways",
+        "exp_text": "Ringworm spreads from person to person through direct skin contact, or by touching items that an infected person has used, like towels, clothing, or hairbrushes. It can also pass from animals to people."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a common risk factor for getting ringworm?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Wearing sandals at the beach",
+            "feedback": "Wearing sandals actually helps prevent ringworm by protecting your feet. Exposure to moist, warm areas like locker rooms is a risk factor."
+          },
+          {
+            "label": "Using public showers without footwear",
+            "feedback": "Correct. Walking barefoot in public showers is a risk factor because the fungus thrives in moist, warm environments."
+          },
+          {
+            "label": "Keeping your skin dry",
+            "feedback": "Keeping skin dry is a preventive measure, not a risk factor. Moisture increases the risk."
+          },
+          {
+            "label": "Avoiding contact with animals",
+            "feedback": "Avoiding contact with animals reduces risk, since animals can carry the fungus. Contact with animals is a risk factor."
+          }
+        ],
+        "ok_title": "Risk factor",
+        "ok_line": "Barefoot in public showers raises risk.",
+        "ko_title": "Not a risk",
+        "ko_line": "That action actually lowers the chance of infection.",
+        "exp_title": "What raises chances",
+        "exp_text": "Using public showers without shoes is a known risk factor for ringworm because the fungus grows in warm, moist places. Other risks include contact sports, sweating a lot, and contact with infected animals."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary treatment for ringworm on the skin?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Antibiotic pills",
+            "feedback": "Antibiotics treat bacterial infections, not fungal ones. Ringworm is a fungus, so it needs antifungal medication."
+          },
+          {
+            "label": "Steroid creams",
+            "feedback": "Steroid creams can actually make ringworm worse by hiding the symptoms, and they are not a treatment for the fungus itself."
+          },
+          {
+            "label": "Antifungal creams applied to the skin",
+            "feedback": "Correct. Topical antifungal creams like clotrimazole or miconazole are the usual treatment for ringworm on the skin."
+          },
+          {
+            "label": "No treatment; it goes away by itself",
+            "feedback": "Ringworm usually does not clear up on its own and needs antifungal treatment to be cured."
+          }
+        ],
+        "ok_title": "Skin treatment",
+        "ok_line": "Antifungal creams treat ringworm.",
+        "ko_title": "Wrong medicine",
+        "ko_line": "That is not the right kind of treatment for a fungal infection.",
+        "exp_title": "How to treat it",
+        "exp_text": "Ringworm on the skin is treated with antifungal creams applied to the affected area. These creams kill the fungus, and treatment is typically continued for a week after symptoms disappear to prevent a return."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When ringworm affects the scalp, what may happen to the hair in that area?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It falls out, leaving bald patches",
+            "feedback": "Correct. Scalp ringworm, or tinea capitis, often causes hair loss in the affected area, leading to bald patches."
+          },
+          {
+            "label": "It becomes thicker and curlier",
+            "feedback": "Ringworm does not change hair texture. It can cause hair loss, not growth changes."
+          },
+          {
+            "label": "It turns a different color",
+            "feedback": "Ringworm does not change the color of hair. It causes scaling and hair loss on the scalp."
+          },
+          {
+            "label": "It grows faster than normal",
+            "feedback": "Hair growth is not accelerated by ringworm. The fungus damages the hair, leading to breakage and loss."
+          }
+        ],
+        "ok_title": "Scalp effect",
+        "ok_line": "Hair falls out with scalp ringworm.",
+        "ko_title": "Not the effect",
+        "ko_line": "That is not what ringworm does to the hair.",
+        "exp_title": "Hair loss",
+        "exp_text": "When ringworm infects the scalp, the fungus attacks the hair shafts, causing them to break and fall out. This results in bald patches in the affected area."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a preventive measure against ringworm?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sharing towels with friends",
+            "feedback": "Sharing towels is a risk factor because the fungus can be carried on the towel. Not sharing personal items is prevention."
+          },
+          {
+            "label": "Walking barefoot in locker rooms",
+            "feedback": "Walking barefoot in locker rooms is a risk factor. Wearing shoes in such places is preventive."
+          },
+          {
+            "label": "Touching pets with bald spots",
+            "feedback": "Pets with bald spots may carry the fungus, so touching them is a risk. Avoiding such contact is preventive."
+          },
+          {
+            "label": "Keeping your skin dry",
+            "feedback": "Correct. Keeping the skin dry helps prevent ringworm because the fungus thrives in moist environments."
+          }
+        ],
+        "ok_title": "Prevention step",
+        "ok_line": "Dry skin helps avoid ringworm.",
+        "ko_title": "Not preventive",
+        "ko_line": "That action increases the risk instead of reducing it.",
+        "exp_title": "Staying safe",
+        "exp_text": "Keeping the skin dry is a key preventive measure against ringworm, since the fungus grows in warm, wet conditions. Avoiding barefoot walks in public places and not sharing personal items also help."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'tinea pedis' refer to?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Ringworm of the groin",
+            "feedback": "Ringworm of the groin is called tinea cruris, not tinea pedis. Tinea pedis affects the feet."
+          },
+          {
+            "label": "Ringworm of the feet",
+            "feedback": "Correct. Tinea pedis is the medical name for athlete's foot, a fungal infection of the feet."
+          },
+          {
+            "label": "Ringworm of the hands",
+            "feedback": "Ringworm of the hands is called tinea manuum, not tinea pedis. Tinea pedis is on the feet."
+          },
+          {
+            "label": "Ringworm of the face",
+            "feedback": "Ringworm of the face is called tinea faciei, not tinea pedis. Tinea pedis is on the feet."
+          }
+        ],
+        "ok_title": "Athlete's foot",
+        "ok_line": "Tinea pedis is foot ringworm.",
+        "ko_title": "Wrong body part",
+        "ko_line": "That name belongs to a different area, not the feet.",
+        "exp_title": "Naming by location",
+        "exp_text": "Tinea pedis is the term for ringworm when it infects the feet, commonly known as athlete's foot. The name 'tinea pedis' comes from the Latin for foot."
+      }
+    ]
+  }
+]

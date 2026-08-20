@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the far side of the Moon?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The hemisphere of the Moon that never faces Earth",
+            "feedback": "Correct. The far side is the half of the Moon turned away from Earth at any moment, so it is never visible from our planet."
+          },
+          {
+            "label": "The part of the Moon that is always dark",
+            "feedback": "Not exactly. The far side gets sunlight just like the near side; it is only 'dark' in the sense of unseen from Earth, not unlit."
+          },
+          {
+            "label": "The side of the Moon that faces the Sun",
+            "feedback": "That changes as the Moon orbits. The far side faces the Sun only during certain phases, not permanently."
+          },
+          {
+            "label": "The side of the Moon opposite the Sun",
+            "feedback": "The side opposite the Sun is the night side, which shifts as the Moon moves; the far side is defined by Earth, not by the Sun."
+          }
+        ],
+        "ok_title": "Far side defined",
+        "ok_line": "The far side is the half never turned toward Earth.",
+        "ko_title": "Definition clarified",
+        "ko_line": "The far side is about direction from Earth, not about light or dark.",
+        "exp_title": "What the far side is",
+        "exp_text": "The far side of the Moon is the hemisphere that always points away from Earth because of tidal locking. It experiences day and night just like the near side, but no one on Earth ever sees it directly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How much of the Moon's surface is considered the far side?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Exactly one quarter",
+            "feedback": "That is too little. The far side is half of the Moon's surface, not a quarter."
+          },
+          {
+            "label": "Exactly one third",
+            "feedback": "That is not correct. The Moon has two hemispheres, so the far side is one half, not one third."
+          },
+          {
+            "label": "Exactly one half",
+            "feedback": "Correct. The Moon is a sphere, and the far side is the half that faces away from Earth."
+          },
+          {
+            "label": "Almost all of it",
+            "feedback": "That is not right. The far side is only half; the other half is the near side that faces Earth."
+          }
+        ],
+        "ok_title": "Half of the Moon",
+        "ok_line": "The far side is exactly half of the lunar surface.",
+        "ko_title": "Surface split",
+        "ko_line": "The Moon divides into two equal hemispheres, near and far.",
+        "exp_title": "The far side's extent",
+        "exp_text": "Because the Moon is a sphere, any line through its center divides it into two equal halves. The far side is the half that never points toward Earth, so it is exactly one half of the Moon's total surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What did the first spacecraft images reveal about the far side of the Moon?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is covered with smooth plains like the near side",
+            "feedback": "Incorrect. The far side is much rougher and more cratered; the smooth plains are mainly on the near side."
+          },
+          {
+            "label": "It is almost entirely dark",
+            "feedback": "No, the far side is not dark; it receives sunlight. The images showed a normal sunlit surface, not darkness."
+          },
+          {
+            "label": "It has large, dark 'seas' like the near side",
+            "feedback": "That is wrong. The far side has very few of the dark maria; it is mostly bright, heavily cratered highlands."
+          },
+          {
+            "label": "It is heavily cratered and has almost no dark plains",
+            "feedback": "Correct. The far side is dominated by craters and bright highlands, with only a few small dark patches."
+          }
+        ],
+        "ok_title": "First look at far side",
+        "ok_line": "Images showed a cratered, highland surface with few maria.",
+        "ko_title": "Far side appearance",
+        "ko_line": "The far side is rugged and pale, not smooth and dark.",
+        "exp_title": "What the far side looks like",
+        "exp_text": "When spacecraft first photographed the far side, it revealed a surface covered in craters from countless impacts, with almost none of the large, dark, smooth plains called maria that dominate the near side. This made the far side look very different from the familiar face we see from Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do we never see the far side of the Moon from Earth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the Moon does not rotate at all",
+            "feedback": "That is not quite right. The Moon does spin, but it spins at the same rate it orbits, so the same side always faces Earth."
+          },
+          {
+            "label": "Because the Moon rotates once per orbit around Earth",
+            "feedback": "Correct. Tidal locking makes the Moon complete one rotation for each orbit, so it always presents the same face to Earth."
+          },
+          {
+            "label": "Because Earth's gravity blocks the view",
+            "feedback": "That is not correct. Earth does not block anything; it is the Moon's own rotation that hides the far side."
+          },
+          {
+            "label": "Because the far side is always turned away from the Sun",
+            "feedback": "No, the far side faces the Sun during part of each month. Its invisibility has nothing to do with sunlight."
+          }
+        ],
+        "ok_title": "Tidal locking hides far side",
+        "ok_line": "One rotation per orbit keeps the same face toward Earth.",
+        "ko_title": "Why far side stays hidden",
+        "ko_line": "The Moon's rotation matches its orbit, not a lack of spin.",
+        "exp_title": "The reason we see only one face",
+        "exp_text": "The Moon is tidally locked to Earth, meaning it rotates on its axis once in exactly the same time it takes to complete one orbit around Earth. So as it circles us, it turns just enough to keep the same hemisphere facing our planet, and the far side never comes into view from Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which side of the Moon is called the near side?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The hemisphere that always faces Earth",
+            "feedback": "Correct. The near side is the half of the Moon that is turned toward Earth at all times."
+          },
+          {
+            "label": "The hemisphere that always faces the Sun",
+            "feedback": "No, the near side does not always face the Sun; the Sun's direction changes as the Moon orbits."
+          },
+          {
+            "label": "The hemisphere that is always lit",
+            "feedback": "That is not right. The near side alternates between day and night, just like the far side."
+          },
+          {
+            "label": "The hemisphere that we see during a full moon",
+            "feedback": "That is partially true, but the near side is always facing Earth, not only at full moon. Even at new moon we cannot see it because it is unlit, but it is still the near side."
+          }
+        ],
+        "ok_title": "Near side defined",
+        "ok_line": "The near side always points toward Earth.",
+        "ko_title": "Near side meaning",
+        "ko_line": "The near side is defined by Earth, not by the Sun or lighting.",
+        "exp_title": "What the near side is",
+        "exp_text": "The near side is the Moon's hemisphere that permanently faces Earth due to tidal locking. It is the only part of the Moon we can see from our planet, though we see different portions of it lit during the month."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the most prominent feature of the far side's surface compared to the near side?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It has many large, dark maria",
+            "feedback": "Wrong. The far side has very few maria; they are mostly on the near side."
+          },
+          {
+            "label": "It is smoother and less cratered",
+            "feedback": "No, the far side is more heavily cratered, not less. The near side is smoother because of its maria."
+          },
+          {
+            "label": "It has no craters at all",
+            "feedback": "That is incorrect. The far side is covered with craters, even more than the near side."
+          },
+          {
+            "label": "It is heavily cratered with few dark plains",
+            "feedback": "Correct. The far side is marked by countless craters and bright highlands, with almost none of the dark basaltic plains."
+          }
+        ],
+        "ok_title": "Far side's rough surface",
+        "ok_line": "Craters cover the far side, with only a few dark patches.",
+        "ko_title": "Surface comparison",
+        "ko_line": "The far side is rugged and pale, not smooth and dark.",
+        "exp_title": "Far side's dominant look",
+        "exp_text": "The far side is characterized by a dense covering of impact craters and bright, rough highlands. Unlike the near side, it lacks the large, dark, smooth areas called maria, which is why it looks more battered and lighter in color."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How did scientists first learn about the far side of the Moon before any spacecraft went there?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "By looking through powerful telescopes from Earth",
+            "feedback": "That is not possible. The far side is never visible from Earth, so telescopes cannot see it directly."
+          },
+          {
+            "label": "By studying the Moon's phases",
+            "feedback": "No, phases show different lighting of the near side, not the far side. They do not reveal what is behind the Moon."
+          },
+          {
+            "label": "By sending spacecraft to photograph it",
+            "feedback": "Correct. The first spacecraft to travel around the Moon sent back images that showed the far side for the first time."
+          },
+          {
+            "label": "By observing the Moon's reflected light",
+            "feedback": "Reflected light comes from the near side only; it does not reveal the far side's surface."
+          }
+        ],
+        "ok_title": "First views from spacecraft",
+        "ok_line": "Spacecraft images revealed the far side's surface.",
+        "ko_title": "How far side was seen",
+        "ko_line": "Only spacecraft can show us the far side from Earth.",
+        "exp_title": "Discovering the far side",
+        "exp_text": "Because the far side never faces Earth, it remained unknown until the Soviet spacecraft Luna 3 took the first photographs of it in 1959. These images showed a landscape covered with craters and almost no dark maria, which surprised scientists."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of terrain covers most of the far side of the Moon?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Dark volcanic plains",
+            "feedback": "Incorrect. The far side has very few volcanic plains; they are mainly on the near side."
+          },
+          {
+            "label": "Bright, rugged highlands",
+            "feedback": "Correct. The far side is mostly made of light-colored, heavily cratered highland terrain."
+          },
+          {
+            "label": "Smooth, flat lowlands",
+            "feedback": "No, the far side is not smooth or flat; it is rough and mountainous with many craters."
+          },
+          {
+            "label": "Icy polar caps",
+            "feedback": "That is not correct. The Moon has no permanent ice caps, and the far side is rocky, not icy."
+          }
+        ],
+        "ok_title": "Highlands dominate far side",
+        "ok_line": "The far side is largely bright, rugged highlands.",
+        "ko_title": "Terrain type on far side",
+        "ko_line": "The far side is mostly highlands, not plains or ice.",
+        "exp_title": "Far side's main terrain",
+        "exp_text": "Most of the far side is covered by lunar highlands, which are lighter in color, heavily cratered, and rugged. These highlands contrast with the dark, smooth maria that fill much of the near side."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the far side of the Moon sometimes called the 'dark side'?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because it is hidden from Earth, not because it is unlit",
+            "feedback": "Correct. The nickname comes from it being unseen from Earth, but it receives sunlight just like the near side."
+          },
+          {
+            "label": "Because it never receives any sunlight",
+            "feedback": "That is wrong. The far side has day and night cycles, just like the near side."
+          },
+          {
+            "label": "Because it is always night there",
+            "feedback": "No, the far side is not in permanent darkness; it experiences a normal lunar day and night."
+          },
+          {
+            "label": "Because it is invisible at full moon",
+            "feedback": "At full moon we see the whole near side lit, but the far side is still not visible because it is the other half. The name 'dark' refers to unseen, not unlit."
+          }
+        ],
+        "ok_title": "Nickname explained",
+        "ok_line": "Dark means unseen, not unlit.",
+        "ko_title": "Why 'dark side' is misleading",
+        "ko_line": "The far side gets sunlight, it is just never seen from Earth.",
+        "exp_title": "The 'dark side' name",
+        "exp_text": "The phrase 'dark side' is a popular nickname that came from the fact that the far side is never visible from Earth, making it seem mysterious or hidden. In reality, it is not dark; it receives sunlight during its lunar day, and the name simply means 'unseen from our planet'."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What did the first photographs of the far side show about its craters?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They were all fresh and sharp",
+            "feedback": "Not exactly. The craters vary in age, and many are old and worn, but the overall density is high."
+          },
+          {
+            "label": "They were fewer than on the near side",
+            "feedback": "That is wrong. The far side has more craters than the near side, not fewer."
+          },
+          {
+            "label": "They were far more numerous than on the near side",
+            "feedback": "Correct. The far side is much more heavily cratered, showing many impact scars."
+          },
+          {
+            "label": "They were all covered by dark lava",
+            "feedback": "No, the far side lacks the lava-filled maria; most craters are on the bright highlands."
+          }
+        ],
+        "ok_title": "Craters on far side",
+        "ok_line": "The far side shows far more craters than the near side.",
+        "ko_title": "Crater density",
+        "ko_line": "The far side is more heavily cratered, not less.",
+        "exp_title": "First views of far side craters",
+        "exp_text": "The first photographs revealed that the far side is packed with craters of all sizes, far more than the near side. This is because the near side's large maria were formed by lava flows that covered many older craters, while the far side kept its cratered highland surface."
+      }
+    ]
+  }
+]

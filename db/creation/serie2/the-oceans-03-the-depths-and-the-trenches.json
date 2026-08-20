@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 232,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the steep, deep underwater valleys that cut into the continental slope?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Submarine canyons",
+            "feedback": "Correct. Submarine canyons are deep, V-shaped valleys carved into the continental slope, often extending from river mouths or shelf edges down to the deep seafloor."
+          },
+          {
+            "label": "Ocean trenches",
+            "feedback": "Not quite. Ocean trenches are much deeper and form at subduction zones, far from the continental slope, whereas submarine canyons are found on the slope itself."
+          },
+          {
+            "label": "Abyssal plains",
+            "feedback": "No. Abyssal plains are flat, deep ocean floors, not valleys cutting into slopes."
+          },
+          {
+            "label": "Mid-ocean ridges",
+            "feedback": "Incorrect. Mid-ocean ridges are underwater mountain chains, not valleys."
+          }
+        ],
+        "ok_title": "Submarine canyons defined",
+        "ok_line": "Submarine canyons are steep valleys on the continental slope.",
+        "ko_title": "Valley location mix-up",
+        "ko_line": "Submarine canyons are on the slope, not in deep sea.",
+        "exp_title": "Submarine canyons",
+        "exp_text": "Submarine canyons are deep, narrow valleys that cut into the continental slope, often carrying sediment from the shelf to the deep ocean floor. They are formed by underwater currents and debris flows."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the flat, almost level area of the deep ocean floor?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Continental rise",
+            "feedback": "Not exactly. The continental rise is a gentle slope of sediment at the base of the continental slope, not a flat plain."
+          },
+          {
+            "label": "Trench",
+            "feedback": "No. A trench is a deep, narrow depression, not a flat area."
+          },
+          {
+            "label": "Abyssal plain",
+            "feedback": "Correct. Abyssal plains are the vast, flat regions of the deep ocean floor, covered by fine sediment."
+          },
+          {
+            "label": "Seamount",
+            "feedback": "Incorrect. A seamount is an underwater mountain, not a flat area."
+          }
+        ],
+        "ok_title": "Abyssal plains flat",
+        "ok_line": "Abyssal plains are the flat deep-sea floors.",
+        "ko_title": "Flat floor confusion",
+        "ko_line": "Abyssal plains are flat, not slopes or mountains.",
+        "exp_title": "Abyssal plains",
+        "exp_text": "Abyssal plains are vast, flat regions on the deep ocean floor, usually found between continental margins and mid-ocean ridges. They are covered by thick layers of sediment."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a single, isolated underwater mountain that does not reach the surface?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Atoll",
+            "feedback": "No. An atoll is a ring-shaped reef around a lagoon, not a single underwater mountain."
+          },
+          {
+            "label": "Seamount",
+            "feedback": "Correct. A seamount is an isolated underwater mountain, often formed by volcanic activity, that rises from the seafloor but stays below the surface."
+          },
+          {
+            "label": "Guyot",
+            "feedback": "Not quite. A guyot is a flat-topped seamount, but the ordinary name for an isolated underwater mountain is simply 'seamount'."
+          },
+          {
+            "label": "Island",
+            "feedback": "Incorrect. An island reaches above the water surface, whereas a seamount does not."
+          }
+        ],
+        "ok_title": "Seamount isolated peak",
+        "ok_line": "A seamount is an isolated underwater mountain.",
+        "ko_title": "Underwater peak naming",
+        "ko_line": "Seamounts stay below surface, unlike islands.",
+        "exp_title": "Seamounts",
+        "exp_text": "Seamounts are underwater mountains, usually volcanic in origin, that rise steeply from the ocean floor but do not break the surface. They are common in the deep ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the deepest parts of the ocean, which are long, narrow depressions in the seafloor?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Basins",
+            "feedback": "Not really. Ocean basins are large, broad depressions that hold ocean water, but they are not the narrow, deepest trenches."
+          },
+          {
+            "label": "Ridges",
+            "feedback": "No. Ridges are elevated mountain chains, not depressions."
+          },
+          {
+            "label": "Canyons",
+            "feedback": "Incorrect. Submarine canyons are cut into continental slopes, not the deepest seafloor."
+          },
+          {
+            "label": "Trenches",
+            "feedback": "Correct. Trenches are the deepest parts of the ocean, formed at subduction zones where one plate slides under another."
+          }
+        ],
+        "ok_title": "Trenches deepest parts",
+        "ok_line": "Trenches are the deepest ocean depressions.",
+        "ko_title": "Deepest depression naming",
+        "ko_line": "Trenches are narrow and deep, not broad basins.",
+        "exp_title": "Ocean trenches",
+        "exp_text": "Ocean trenches are the deepest parts of the seafloor, forming long, narrow arcs where tectonic plates converge. The Mariana Trench is one example."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the underwater mountain chain that runs through the middle of many oceans?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mid-ocean ridge",
+            "feedback": "Correct. A mid-ocean ridge is an underwater mountain chain formed by volcanic activity at divergent plate boundaries, running through ocean basins."
+          },
+          {
+            "label": "Continental shelf",
+            "feedback": "No. The continental shelf is a shallow, flat extension of a continent, not an underwater mountain chain."
+          },
+          {
+            "label": "Abyssal hill",
+            "feedback": "Incorrect. Abyssal hills are small, rounded elevations on the seafloor, not long mountain chains."
+          },
+          {
+            "label": "Trench",
+            "feedback": "No. A trench is a deep depression, not a mountain chain."
+          }
+        ],
+        "ok_title": "Mid-ocean ridge chain",
+        "ok_line": "Mid-ocean ridges are underwater mountain chains.",
+        "ko_title": "Underwater mountain naming",
+        "ko_line": "Mid-ocean ridges are chains, not shelves or hills.",
+        "exp_title": "Mid-ocean ridges",
+        "exp_text": "Mid-ocean ridges are underwater mountain ranges formed by volcanic eruptions where tectonic plates pull apart. They can extend for thousands of kilometres."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the slow, deep circulation of ocean water that connects surface currents to deep currents?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Surface current",
+            "feedback": "No. Surface currents are wind-driven and occur only at the top layer, not deep circulation."
+          },
+          {
+            "label": "Thermohaline circulation",
+            "feedback": "Correct. Thermohaline circulation, also called the global conveyor belt, is driven by differences in temperature and salinity, moving water between the surface and the deep ocean."
+          },
+          {
+            "label": "Gyre",
+            "feedback": "Not exactly. A gyre is a large circular current in the ocean surface, not a deep circulation."
+          },
+          {
+            "label": "Upwelling",
+            "feedback": "Incorrect. Upwelling is the vertical rise of cold water to the surface, but it is not the full deep circulation."
+          }
+        ],
+        "ok_title": "Thermohaline circulation deep",
+        "ok_line": "Thermohaline circulation moves deep ocean water.",
+        "ko_title": "Deep circulation name",
+        "ko_line": "Thermohaline circulation is deep, not surface.",
+        "exp_title": "Thermohaline circulation",
+        "exp_text": "Thermohaline circulation is the slow, deep movement of ocean water driven by density differences from temperature and salt content. It links surface and deep ocean layers globally."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the sudden rise of cold, nutrient-rich water from the deep ocean to the surface?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Downwelling",
+            "feedback": "No. Downwelling is the sinking of surface water, not a rise."
+          },
+          {
+            "label": "Current",
+            "feedback": "Incorrect. A current is a horizontal flow of water, not a vertical rise."
+          },
+          {
+            "label": "Upwelling",
+            "feedback": "Correct. Upwelling is when deep, cold water rises to the surface, often bringing nutrients that support marine life."
+          },
+          {
+            "label": "Tide",
+            "feedback": "No. Tides are the periodic rise and fall of sea level, not a vertical current."
+          }
+        ],
+        "ok_title": "Upwelling cold rise",
+        "ok_line": "Upwelling brings cold water to surface.",
+        "ko_title": "Vertical movement naming",
+        "ko_line": "Upwelling is a rise, not sinking or horizontal.",
+        "exp_title": "Upwelling",
+        "exp_text": "Upwelling is the process where deep ocean water rises to the surface, typically near coasts where winds push surface water away. It brings nutrients from the deep, supporting rich ecosystems."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a large, circular system of ocean currents?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Gyre",
+            "feedback": "Correct. A gyre is a large system of rotating ocean currents, typically driven by wind and the Coriolis effect."
+          },
+          {
+            "label": "Rip current",
+            "feedback": "No. A rip current is a narrow, fast-moving current flowing away from shore, not a large circular system."
+          },
+          {
+            "label": "Whirlpool",
+            "feedback": "Incorrect. A whirlpool is a small, local vortex, not a large ocean current system."
+          },
+          {
+            "label": "Upwelling",
+            "feedback": "No. Upwelling is a vertical movement of water, not a circular current."
+          }
+        ],
+        "ok_title": "Gyres circular currents",
+        "ok_line": "Gyres are large circular ocean currents.",
+        "ko_title": "Circular current naming",
+        "ko_line": "Gyres are large and circular, not narrow or vertical.",
+        "exp_title": "Gyres",
+        "exp_text": "A gyre is a large system of rotating ocean currents found in major ocean basins, driven by prevailing winds and the Coriolis effect. They move water in a circular pattern."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the shallow, submerged edge of a continent that extends from the shoreline to the deep ocean?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Continental slope",
+            "feedback": "Not quite. The continental slope is the steep drop-off beyond the shelf, not the shallow submerged edge itself."
+          },
+          {
+            "label": "Abyssal plain",
+            "feedback": "No. An abyssal plain is deep and flat, far from the continent."
+          },
+          {
+            "label": "Continental rise",
+            "feedback": "Incorrect. The continental rise is the sediment slope at the base of the continental slope."
+          },
+          {
+            "label": "Continental shelf",
+            "feedback": "Correct. The continental shelf is the shallow, gently sloping underwater extension of a continent, ending at the shelf break."
+          }
+        ],
+        "ok_title": "Continental shelf shallow",
+        "ok_line": "Continental shelf is the shallow submerged edge.",
+        "ko_title": "Continental margin parts",
+        "ko_line": "The shelf is shallow; slope is steep, rise is lower.",
+        "exp_title": "Continental shelf",
+        "exp_text": "The continental shelf is the shallow, flat underwater area that borders a continent, typically extending from the coast to a depth of about 200 metres before dropping off."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the steep slope that connects the continental shelf to the deep ocean floor?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Continental shelf",
+            "feedback": "No. The continental shelf is the shallow flat area, not the steep slope."
+          },
+          {
+            "label": "Continental slope",
+            "feedback": "Correct. The continental slope is the steep, descending boundary between the continental shelf and the deep seafloor."
+          },
+          {
+            "label": "Abyssal plain",
+            "feedback": "Incorrect. An abyssal plain is a flat, deep area, not a slope."
+          },
+          {
+            "label": "Trench",
+            "feedback": "No. A trench is a deep depression at a plate boundary, not the slope off a continent."
+          }
+        ],
+        "ok_title": "Continental slope steep",
+        "ok_line": "Continental slope links shelf to deep sea.",
+        "ko_title": "Slope vs shelf",
+        "ko_line": "The slope is steep; the shelf is shallow and flat.",
+        "exp_title": "Continental slope",
+        "exp_text": "The continental slope is the steep underwater slope that descends from the edge of the continental shelf to the deep ocean floor, often cut by submarine canyons."
+      }
+    ]
+  }
+]

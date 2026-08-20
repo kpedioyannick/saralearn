@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 231,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is another common name for an inland sea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Epeiric sea",
+            "feedback": "Yes, an inland sea is also called an epeiric sea or an epicontinental sea."
+          },
+          {
+            "label": "Marginal sea",
+            "feedback": "That is a different type of sea, one partially enclosed by islands, archipelagos, or peninsulas, not an inland sea."
+          },
+          {
+            "label": "Mediterranean sea",
+            "feedback": "Mediterranean seas are enclosed seas with limited water exchange, but they are not the same as inland seas."
+          },
+          {
+            "label": "Brackish sea",
+            "feedback": "Brackish describes the water's saltiness, not the name of the sea itself."
+          }
+        ],
+        "ok_title": "Synonym confirmed",
+        "ok_line": "Inland seas are also known as epeiric or epicontinental seas.",
+        "ko_title": "Different sea type",
+        "ko_line": "That name refers to a different kind of sea.",
+        "exp_title": "Two alternative names",
+        "exp_text": "An inland sea is also called an epeiric sea or an epicontinental sea. These names all describe the same kind of water body that sits within a continent."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where is an inland sea located?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Along the edge of a continent, directly touching the ocean",
+            "feedback": "No, that is a bay or a marginal sea. An inland sea lies within a landmass, not at the continent's edge."
+          },
+          {
+            "label": "Within a landmass, surrounded by dry land",
+            "feedback": "Correct. An inland sea is a very large body of water located within a landmass, sometimes completely surrounded by land."
+          },
+          {
+            "label": "Underneath a continental shelf",
+            "feedback": "That would be water above a shelf, which is a legal term, not where an inland sea sits."
+          },
+          {
+            "label": "In the middle of the ocean, far from any land",
+            "feedback": "No, that is an open ocean area, not an inland sea, which is by definition on a continent."
+          }
+        ],
+        "ok_title": "Inside a continent",
+        "ok_line": "Inland seas sit within a landmass.",
+        "ko_title": "Wrong location",
+        "ko_line": "That spot is not inside a continent.",
+        "exp_title": "Position on land",
+        "exp_text": "An inland sea is a very large body of water found within a landmass. It can be completely surrounded by dry land, or connected to the ocean by a narrow passage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How can an inland sea be connected to the World Ocean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It cannot be connected at all",
+            "feedback": "No, it may be completely surrounded, but it can also be connected by a narrow river, strait, or arm of the sea."
+          },
+          {
+            "label": "By a wide, open channel with no narrowing",
+            "feedback": "The connection is narrow, like a river, strait, or arm of the sea, not an open wide channel."
+          },
+          {
+            "label": "By a narrow river, strait, or arm of the sea",
+            "feedback": "Yes, that is exactly how an inland sea can link to the World Ocean."
+          },
+          {
+            "label": "By a direct, wide opening to the ocean",
+            "feedback": "That would make it a bay, not an inland sea; a bay is directly connected to the ocean."
+          }
+        ],
+        "ok_title": "Narrow link",
+        "ok_line": "A narrow river, strait, or arm of the sea connects it.",
+        "ko_title": "Connection wrong",
+        "ko_line": "That kind of opening is not what joins an inland sea.",
+        "exp_title": "Possible connections",
+        "exp_text": "An inland sea may be completely landlocked, or it may be connected to the World Ocean by a narrow river, strait, or arm of the sea. The connection is not a wide open gap."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Compared to typical seawater, what is the salinity of an inland sea usually like?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Higher than seawater",
+            "feedback": "No, it is usually lower than seawater, though it is still salty."
+          },
+          {
+            "label": "The same as seawater",
+            "feedback": "Most inland seas are not the same; their salinity is usually lower than open seawater."
+          },
+          {
+            "label": "Completely fresh, like a lake",
+            "feedback": "No, an inland sea is brackish, so it is saltier than a freshwater lake."
+          },
+          {
+            "label": "Higher than a freshwater lake but lower than seawater",
+            "feedback": "Yes, an inland sea is brackish, meaning its salinity sits between fresh water and seawater."
+          }
+        ],
+        "ok_title": "Brackish water",
+        "ok_line": "Inland seas are brackish.",
+        "ko_title": "Salinity mix-up",
+        "ko_line": "The salt level is between lake and ocean.",
+        "exp_title": null,
+        "exp_text": "An inland sea generally has brackish water: its salinity is higher than that of a freshwater lake but usually lower than that of seawater."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes tides in an inland sea?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The orbits of the Moon and the Sun",
+            "feedback": "Correct, like other seas, inland seas experience tides governed by the Moon's and Sun's orbits."
+          },
+          {
+            "label": "The rotation of the Earth alone",
+            "feedback": "Earth's rotation affects tides, but it is the Moon and Sun that govern them."
+          },
+          {
+            "label": "The wind blowing across the water",
+            "feedback": "Wind can create waves, but it does not govern the tides themselves."
+          },
+          {
+            "label": "The flow of rivers entering the sea",
+            "feedback": "Rivers add water, but they do not cause tides."
+          }
+        ],
+        "ok_title": "Moon and Sun",
+        "ok_line": "Tides follow the Moon and Sun.",
+        "ko_title": "Tide cause wrong",
+        "ko_line": "That force does not set the tides.",
+        "exp_title": null,
+        "exp_text": "Inland seas experience tides just like other seas, and these tides are governed by the orbits of the Moon and the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does an inland sea differ from a bay?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A bay is larger than an inland sea",
+            "feedback": "Size is not the difference; the difference is in how each connects to the ocean."
+          },
+          {
+            "label": "A bay is directly connected to the ocean",
+            "feedback": "Correct, a bay is directly connected to the ocean, while an inland sea is not."
+          },
+          {
+            "label": "A bay is always fresh water",
+            "feedback": "Bays are not always fresh; that is not what sets them apart."
+          },
+          {
+            "label": "An inland sea is always landlocked",
+            "feedback": "An inland sea may be landlocked, but it can also have a narrow connection to the ocean."
+          }
+        ],
+        "ok_title": "Ocean link",
+        "ok_line": "A bay opens directly to the ocean.",
+        "ko_title": "Wrong distinction",
+        "ko_line": "That is not how the two differ.",
+        "exp_title": null,
+        "exp_text": "The key difference is that a bay is directly connected to the ocean, whereas an inland sea is not directly connected, even if it has a narrow link."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the bottom of an epeiric sea by definition?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It is always a deep trench",
+            "feedback": "No, an epeiric sea is defined as shallow, not a deep trench."
+          },
+          {
+            "label": "It is always rocky and bare",
+            "feedback": "The definition is about depth relative to waves, not about the material of the bottom."
+          },
+          {
+            "label": "It lies within the wave base",
+            "feedback": "Yes, the bottom is shallow enough that waves above can still stir the sediments."
+          },
+          {
+            "label": "It is always covered by thick ice",
+            "feedback": "Ice is not part of the definition of an epeiric sea."
+          }
+        ],
+        "ok_title": "Shallow bottom",
+        "ok_line": "The bottom sits within wave reach.",
+        "ko_title": "Depth definition missed",
+        "ko_line": "The definition concerns wave base, not something else.",
+        "exp_title": null,
+        "exp_text": "An epeiric sea is defined as a shallow body of water whose bottom is within the wave base, meaning the waves above can still stir the bottom sediments."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When does an inland sea become an epeiric sea?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "When it is completely surrounded by land",
+            "feedback": "Being landlocked does not make it an epeiric sea; that is a separate condition."
+          },
+          {
+            "label": "When it has tides",
+            "feedback": "Many seas have tides; that alone does not make an inland sea an epeiric sea."
+          },
+          {
+            "label": "When it is brackish",
+            "feedback": "Brackishness is a common feature, but not the condition for being an epeiric sea."
+          },
+          {
+            "label": "When a continental interior is flooded by marine transgression",
+            "feedback": "Correct, an inland sea is an epeiric sea only when the sea floods a continental interior due to sea level rise or epeirogenic movement."
+          }
+        ],
+        "ok_title": "Flooded continent",
+        "ok_line": "Marine transgression makes it epeiric.",
+        "ko_title": "Wrong trigger",
+        "ko_line": "That condition does not define an epeiric sea.",
+        "exp_title": null,
+        "exp_text": "An inland sea is called an epeiric sea only when a continental interior is flooded by marine transgression, which happens due to sea level rise or epeirogenic movement."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which modern body of water is considered an inland sea and is also called the largest lake in the world?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The Caspian Sea",
+            "feedback": "Yes, the Caspian Sea is a large inland body of water that is also considered the largest lake in the world."
+          },
+          {
+            "label": "The Baltic Sea",
+            "feedback": "The Baltic Sea is a brackish inland sea, but it is not called the largest lake."
+          },
+          {
+            "label": "The Sea of Marmara",
+            "feedback": "The Sea of Marmara is surrounded by land except for its straits, but it is not the largest lake."
+          },
+          {
+            "label": "Hudson Bay",
+            "feedback": "Hudson Bay reaches into the continent, but it is not considered a lake at all."
+          }
+        ],
+        "ok_title": "Caspian answer",
+        "ok_line": "The Caspian is both inland sea and largest lake.",
+        "ko_title": "Other inland sea",
+        "ko_line": "That water body is not the one called the largest lake.",
+        "exp_title": null,
+        "exp_text": "The Caspian Sea is a very large, inland body of water with some sea-like characteristics, such as salty water, and it is also considered the largest lake in the world."
+      }
+    ]
+  }
+]

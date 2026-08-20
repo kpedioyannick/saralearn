@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 249,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How does the inner ear detect that your head is spinning?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Fluid inside curved tubes lags behind the head's rotation and bends hair cells",
+            "feedback": "The tube moves with the head, but the fluid inside briefly lags behind, thanks to its own inertia, and that lag bends the hair cells."
+          },
+          {
+            "label": "Crystals inside press down harder as you turn",
+            "feedback": "Pressing crystals are how tilting and straight-line movement get detected; turning uses a different, fluid-based structure."
+          },
+          {
+            "label": "The eardrum vibrates faster the quicker you spin",
+            "feedback": "The eardrum responds to sound pressure, not rotation; spinning in complete silence is detected just as well."
+          },
+          {
+            "label": "Blood pressure rises evenly on both sides of the head",
+            "feedback": "Turning the head is detected within a moment, far faster than any pressure shift could be read, and pressure isn't sensed as a distinct sense here."
+          }
+        ],
+        "ok_title": "Fluid that lags behind",
+        "ok_line": "The tube turns instantly; the fluid inside briefly refuses to, and that gap is what gets sensed.",
+        "ko_title": "Not crystals, sound, or blood pressure",
+        "ko_line": "Turning is sensed within a moment — think about what would still be catching up right at that instant.",
+        "exp_title": "Fluid that resists being turned",
+        "exp_text": "Three curved, fluid-filled tubes sit at right angles to each other in the inner ear, and when the head suddenly turns, the tube itself moves with it but the fluid inside briefly lags behind, thanks to its own inertia. That lag pushes the fluid against a flexible membrane studded with hair cells, bending them and sending a signal that reports the head is turning, and roughly how fast."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does the inner ear tell that you're tilting your head, or moving in a straight line, rather than turning?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The same curved tubes used for turning simply respond more slowly",
+            "feedback": "The curved tubes are built specifically to catch rotation and barely respond at all to a straight tilt or steady straight-line movement."
+          },
+          {
+            "label": "Tiny crystals resting on hair cells shift with gravity or acceleration",
+            "feedback": "A layer of dense crystals sits over hair cells, and tilting or speeding up shifts those crystals, bending the cells beneath."
+          },
+          {
+            "label": "Air pressure in the middle ear changes with posture",
+            "feedback": "Middle-ear air pressure stays essentially constant regardless of how the head is tilted."
+          },
+          {
+            "label": "Muscles in the neck alone report the head's position",
+            "feedback": "Neck muscles do contribute some information, but the inner ear has its own separate structure that keeps working even when the neck is held rigid."
+          }
+        ],
+        "ok_title": "A different structure for a different motion",
+        "ok_line": "Rotation and tilt aren't sensed by the same parts — tilt relies on weight resting on hair cells.",
+        "ko_title": "Not the same tubes, not air pressure",
+        "ko_line": "The curved tubes barely respond to a straight tilt — something else in the inner ear must be doing this job.",
+        "exp_title": "Crystals that settle with gravity's pull",
+        "exp_text": "A different pair of small chambers in the inner ear holds a patch of hair cells topped with a layer of tiny, dense crystals, heavier than the jelly-like layer they rest in. Tilting the head or speeding up in a straight line shifts those crystals under their own weight, dragging the jelly layer with them and bending the hair cells beneath in a direction that reports which way gravity or motion is pulling."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you keep reading a sign clearly while shaking your head, but not while shaking the sign itself at the same speed?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The eyes are simply faster at following a head than a hand",
+            "feedback": "How fast the eyes can move isn't what's different — what's different is that the inner ear supplies signals during head motion that aren't available when the sign is what's moving."
+          },
+          {
+            "label": "Text is naturally easier for the eyes to lock onto than an object",
+            "feedback": "The same words in the same font are being read in both situations; how easy the text is to lock onto hasn't changed."
+          },
+          {
+            "label": "The eyes move to counter the head's motion automatically, using signals from the inner ear",
+            "feedback": "Signals from the inner ear's motion sensors drive the eyes to rotate opposite the head, keeping the gaze locked on a fixed point."
+          },
+          {
+            "label": "Shaking the head produces less blur because the sign stays still",
+            "feedback": "The sign staying still is true either way, and yet reading only works in one of the two situations — its stillness alone doesn't explain the difference."
+          }
+        ],
+        "ok_title": "A reflex driven by the inner ear",
+        "ok_line": "The eyes counter-rotate automatically, but only when it's the head that's actually moving.",
+        "ko_title": "Not eye speed, and not the text itself",
+        "ko_line": "The words and the sign are identical in both cases — the difference has to be in what's moving and what's sensing it.",
+        "exp_title": "A reflex that reads the head, not the eyes",
+        "exp_text": "Signals from the inner ear's motion sensors feed directly into the muscles that aim the eyes, so the moment the head turns one way, the eyes are driven to rotate the opposite way by almost exactly the same amount, keeping the gaze locked on a fixed point. Shaking the sign instead of the head gives the inner ear nothing to report, since the head itself isn't moving, so that automatic counter-rotation never kicks in and the moving object simply blurs."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do you feel like you're still spinning for a few seconds right after you stop turning quickly, like after a spin on a playground roundabout?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The muscles that were spinning you keep contracting briefly",
+            "feedback": "The muscles involved relax as soon as the spinning stops; the lingering sensation comes from inside the ear."
+          },
+          {
+            "label": "Blood keeps circulating in the direction of the spin",
+            "feedback": "Blood flow doesn't carry any sense of direction on its own, and it isn't what the balance system reads to sense turning."
+          },
+          {
+            "label": "The eyes remain fixed on where the spinning started",
+            "feedback": "The eyes are actually still moving during this dizzy stretch, flicking in a distinctive back-and-forth pattern, rather than staying fixed."
+          },
+          {
+            "label": "The fluid in the curved inner-ear tubes keeps moving briefly after the head has stopped",
+            "feedback": "The same inertia that made the fluid lag at the start of the spin keeps it drifting for a moment after the head actually stops."
+          }
+        ],
+        "ok_title": "Inertia working in reverse",
+        "ok_line": "The fluid that lagged behind at the start now overshoots at the stop.",
+        "ko_title": "Not muscles, not blood, not the eyes staying still",
+        "ko_line": "The eyes are actually still flicking during this moment — so something is still moving.",
+        "exp_title": "Fluid that overshoots the stop",
+        "exp_text": "The same fluid whose lag reports the start of a spin also has inertia working against it at the other end: once the head actually stops, the fluid inside the curved tubes keeps drifting for a little while longer before it settles. That continuing drift keeps bending the hair cells as though the head were still turning, which is why the sense of spinning outlasts the spinning itself by a moment."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does reading a book in a moving car often make some people feel sick?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The inner ear reports motion while the eyes, fixed on a still page, report no motion at all",
+            "feedback": "This mismatch between what the balance system and the eyes are separately reporting is what the body responds to with queasy discomfort."
+          },
+          {
+            "label": "The eyes get tired faster from close-up reading in a moving vehicle",
+            "feedback": "Eye tiredness from reading doesn't produce nausea on its own, even after long reading sessions when sitting still."
+          },
+          {
+            "label": "The stomach is shaken more by a car than by walking",
+            "feedback": "Physical jostling of the stomach is far gentler in a smooth-riding car than in ordinary walking or running, which don't reliably cause this feeling."
+          },
+          {
+            "label": "Reading raises heart rate, which triggers nausea",
+            "feedback": "Heart rate rises for all kinds of ordinary reasons, like a brisk walk, without any nausea resulting."
+          }
+        ],
+        "ok_title": "Two senses telling different stories",
+        "ok_line": "The sickness comes from a disagreement between what moves and what looks still.",
+        "ko_title": "Not eye strain, not jostling, not heart rate",
+        "ko_line": "A smooth-riding car barely jostles the stomach — something else is disagreeing with something.",
+        "exp_title": "Two senses telling two different stories",
+        "exp_text": "As the car turns, brakes and accelerates, the inner ear's motion sensors are reporting real, ongoing movement, while the eyes, fixed on a page that doesn't move relative to the hands holding it, are reporting that everything is still. This particular kind of disagreement between what the balance system and the eyes are separately reporting is what the body responds to with the queasy discomfort of motion sickness."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can you touch your own nose with your eyes closed, without seeing where your hand or your nose are?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The skin on the fingertip guides the hand in by smell",
+            "feedback": "Smell has no role in guiding the hand's path here, and the fingertip isn't seeking anything by scent."
+          },
+          {
+            "label": "Sensors in muscles and joints report the position and movement of body parts",
+            "feedback": "Sensors woven through muscles and around joints constantly measure how stretched a muscle is and how bent a joint is."
+          },
+          {
+            "label": "Memory of yesterday's arm position guides the movement",
+            "feedback": "The arm was almost certainly in a completely different position yesterday, and the movement still succeeds regardless."
+          },
+          {
+            "label": "Balance organs in the ear track exactly where the hand is",
+            "feedback": "Those organs report the motion and tilt of the head itself, not the position of a hand out at the end of a limb."
+          }
+        ],
+        "ok_title": "A sense of your own body's position",
+        "ok_line": "Muscle and joint sensors report where every part of the arm is, without any need to look.",
+        "ko_title": "Not smell, memory, or the ear",
+        "ko_line": "This works instantly and reliably, every time — not something that depends on remembering or on the ears.",
+        "exp_title": "A sense of where your own body is",
+        "exp_text": "Sensors woven through muscles and around joints constantly measure how far a muscle is stretched and at what angle a joint is bent, updating with every small movement. Combining the readings from shoulder, elbow, wrist and neck gives a continuously updated sense of exactly where the hand and the nose both are in space, without either one needing to be seen."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is standing on one leg noticeably harder with your eyes closed than with them open?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Closing the eyes makes the inner ear stop working",
+            "feedback": "The inner ear's motion and tilt sensors keep working exactly the same whether the eyes are open or shut."
+          },
+          {
+            "label": "The legs get physically weaker in darkness",
+            "feedback": "Muscle strength doesn't change just because the eyes are closed; the same muscles are doing the same job either way."
+          },
+          {
+            "label": "Balance normally relies on combining information from vision, the inner ear and the body's joints together",
+            "feedback": "Removing the visual part of that team leaves the running estimate of balance to lean on the remaining two alone."
+          },
+          {
+            "label": "Eyes closed changes blood flow to the legs",
+            "feedback": "Blood flow to the legs isn't meaningfully altered by whether the eyelids happen to be open or shut."
+          }
+        ],
+        "ok_title": "One sense removed from a team",
+        "ok_line": "Balance normally draws on three sources at once, and losing one makes the rest work harder.",
+        "ko_title": "Not the inner ear, not strength, not blood flow",
+        "ko_line": "The legs and the inner ear both keep working the same either way — so what's actually missing?",
+        "exp_title": "One sense removed from a team of three",
+        "exp_text": "Staying upright on one leg draws on the inner ear's report of tilt, the joints' and muscles' report of position, and the eyes' steady view of the surroundings, all combined into one running estimate of balance. Removing the visual part of that team by closing the eyes leaves the estimate to lean on the remaining two alone, and small wobbles that vision would normally have caught and corrected quickly start to show instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually triggers the urgent need to breathe when you're holding your breath, if it isn't a lack of oxygen?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A drop in body temperature",
+            "feedback": "Body temperature doesn't shift in any noticeable way over the course of a single held breath."
+          },
+          {
+            "label": "Muscles in the chest simply get tired of holding still",
+            "feedback": "Breathing in pure oxygen lets a held breath last much longer, with the chest muscles no more tired than usual, which points to something being sensed rather than plain fatigue."
+          },
+          {
+            "label": "A steady drop in heart rate",
+            "feedback": "Heart rate doesn't fall in a way that would explain the urgency; the sensors driving it are tracking a gas, not the heartbeat."
+          },
+          {
+            "label": "Rising carbon dioxide levels detected by internal sensors",
+            "feedback": "Sensors near major blood vessels and inside the head constantly monitor how much carbon dioxide is dissolved in the blood."
+          }
+        ],
+        "ok_title": "Watching the wrong gas, on purpose",
+        "ok_line": "It isn't a lack of oxygen being tracked here at all — it's a rising gas that builds up far faster.",
+        "ko_title": "Not temperature, fatigue, or heart rate",
+        "ko_line": "Breathing pure oxygen first barely changes how long a breath can be held — so oxygen level isn't the trigger being watched.",
+        "exp_title": "A sensor tuned to the wrong gas, on purpose",
+        "exp_text": "Sensors near major blood vessels and inside the head constantly monitor how much carbon dioxide is dissolved in the blood, because that level rises and falls far more quickly than the amount of oxygen does. As carbon dioxide builds up during a held breath, those sensors drive an increasingly urgent signal to breathe, which is why breathing in pure oxygen beforehand, without touching the carbon dioxide building up, barely extends how long the breath can be held."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What makes an empty stomach produce the gnawing feeling of hunger?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The stomach lining releases signals as it contracts and its walls report being empty",
+            "feedback": "Stretch-sensitive nerve endings in the stomach wall pick up both the rolling contractions and the general lack of fullness."
+          },
+          {
+            "label": "Blood sugar rising sharply after a meal",
+            "feedback": "Rising blood sugar happens after eating, not while a stomach sits empty, and it tends to reduce hunger rather than create it."
+          },
+          {
+            "label": "The stomach fills with extra air when there's no food",
+            "feedback": "An empty stomach doesn't fill up with air to replace missing food; what changes is the state of its walls and the signals they send."
+          },
+          {
+            "label": "Muscles in the jaw signal that they haven't been used",
+            "feedback": "Hunger builds up steadily even during long stretches with no chewing at all."
+          }
+        ],
+        "ok_title": "The stomach reporting its own state",
+        "ok_line": "The gnawing feeling starts right where it seems to — in the contracting, empty stomach wall.",
+        "ko_title": "Not blood sugar, not air, not the jaw",
+        "ko_line": "Rising blood sugar happens after eating, not before — think about what an empty stomach itself is doing.",
+        "exp_title": "A stomach that reports its own state",
+        "exp_text": "An empty stomach contracts in slow, rolling waves, and stretch-sensitive nerve endings in its wall pick up both that contraction and the general lack of fullness, sending the signal onward as a growing feeling of emptiness. Hormones released as mealtimes approach add to that same signal, but the contracting, empty stomach wall is where the gnawing feeling itself starts."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually triggers the sensation of thirst after eating something very salty?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The tongue dries out faster after salty food",
+            "feedback": "Thirst is felt well beyond the mouth and continues even after the mouth itself feels wet again."
+          },
+          {
+            "label": "Sensors detect that the blood has become more concentrated",
+            "feedback": "Salt draws water out of the body's cells and into the blood, and specialised sensors are built to detect that change in concentration."
+          },
+          {
+            "label": "Salt directly irritates the throat",
+            "feedback": "Any throat irritation from salty food fades quickly, while the thirst that follows can build and last much longer."
+          },
+          {
+            "label": "The stomach signals that it needs more liquid to digest",
+            "feedback": "Thirst still shows up strongly even when the salty food has already left the stomach and moved further along."
+          }
+        ],
+        "ok_title": "Sensors reading the blood itself",
+        "ok_line": "Thirst is triggered by a change measured deep in the blood, not by dryness in the mouth or throat.",
+        "ko_title": "Not the tongue, throat, or stomach",
+        "ko_line": "Thirst outlasts any dryness in the mouth or irritation in the throat — something further inside is being tracked.",
+        "exp_title": "Sensors that track the blood itself",
+        "exp_text": "Salt draws water out of the body's cells and into the blood, making the fluid part of the blood more concentrated than usual, and specialised sensors are built specifically to detect exactly that kind of change in concentration. Once those sensors register blood running more concentrated than it should be, they drive the urge to drink, which continues until enough water has been taken in to dilute it back down."
+      }
+    ]
+  }
+]

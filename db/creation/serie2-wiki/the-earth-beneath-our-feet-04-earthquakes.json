@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 229,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an earthquake?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The shaking of Earth's surface caused by a sudden release of energy in the lithosphere",
+            "feedback": "Correct. The energy release makes seismic waves that shake the ground."
+          },
+          {
+            "label": "The slow movement of tectonic plates over long periods",
+            "feedback": "Plate movement is continuous, but an earthquake is the sudden shaking caused by energy release."
+          },
+          {
+            "label": "The eruption of magma from a volcano",
+            "feedback": "Volcanic activity can trigger earthquakes, but the earthquake itself is the shaking, not the eruption."
+          },
+          {
+            "label": "The sinking of land due to underground water removal",
+            "feedback": "That describes subsidence, not the shaking that defines an earthquake."
+          }
+        ],
+        "ok_title": "Earthquake defined",
+        "ok_line": "An earthquake is the shaking of Earth's surface from sudden energy release in the lithosphere.",
+        "ko_title": "Not an earthquake",
+        "ko_line": "An earthquake is specifically the shaking, not slow movement or eruptions.",
+        "exp_title": "Basic shake",
+        "exp_text": "An earthquake is the shaking of Earth's surface caused by a sudden release of energy in the lithosphere. This release creates seismic waves that travel through the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the point inside Earth where an earthquake first starts?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Epicenter",
+            "feedback": "The epicenter is the point on the ground directly above the starting point, not the starting point itself."
+          },
+          {
+            "label": "Hypocenter or focus",
+            "feedback": "Correct. The hypocenter, also called the focus, is the initial point of rupture inside Earth."
+          },
+          {
+            "label": "Fault line",
+            "feedback": "A fault line is the surface trace of a fault, not the specific point where an earthquake starts."
+          },
+          {
+            "label": "Seismic zone",
+            "feedback": "That is a broader area of earthquake activity, not the single starting point."
+          }
+        ],
+        "ok_title": "Starting point",
+        "ok_line": "The initial rupture point is the hypocenter or focus.",
+        "ko_title": "Not the start",
+        "ko_line": "The epicenter is above, not at the start.",
+        "exp_title": "Where it begins",
+        "exp_text": "The point of initial rupture inside Earth is the hypocenter or focus. The epicenter is the ground-level point directly above it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is one of the three main types of geological fault that can cause earthquakes?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Subduction",
+            "feedback": "Subduction is a process at convergent boundaries, not a fault type itself."
+          },
+          {
+            "label": "Transform",
+            "feedback": "Transform is a type of strike-slip boundary, but the three main fault types are normal, reverse, and strike-slip."
+          },
+          {
+            "label": "Strike-slip",
+            "feedback": "Correct. Along with normal and reverse faults, strike-slip is one of the three main types."
+          },
+          {
+            "label": "Divergent",
+            "feedback": "Divergent is a plate boundary type, not a fault type."
+          }
+        ],
+        "ok_title": "Fault types",
+        "ok_line": "The three main fault types are normal, reverse, and strike-slip.",
+        "ko_title": "Not a fault",
+        "ko_line": "Subduction and divergent are processes or boundaries, not fault types.",
+        "exp_title": "Three main faults",
+        "exp_text": "The three main types of geological fault are normal, reverse (thrust), and strike-slip. Many earthquakes happen when movement occurs on one of these."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'seismic activity' refer to?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The total energy released by a single earthquake",
+            "feedback": "That is the energy of one event, not the overall activity over time."
+          },
+          {
+            "label": "The depth of an earthquake's focus",
+            "feedback": "Depth is a property of one quake, not a measure of activity."
+          },
+          {
+            "label": "The number of faults in a region",
+            "feedback": "Faults exist whether or not they are active; seismic activity concerns earthquakes that actually happen."
+          },
+          {
+            "label": "The frequency, type, and size of earthquakes in an area over time",
+            "feedback": "Correct. Seismic activity describes how often, what kinds, and how big the earthquakes are."
+          }
+        ],
+        "ok_title": "Seismic activity",
+        "ok_line": "Seismic activity is the frequency, type, and size of earthquakes over time.",
+        "ko_title": "Not activity",
+        "ko_line": "Seismic activity is about earthquakes happening, not just one quake or fault counts.",
+        "exp_title": "Measuring activity",
+        "exp_text": "Seismic activity of an area is the frequency, type, and size of earthquakes experienced over a particular time. It gives a picture of earthquake behavior in a region."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the epicenter of an earthquake?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The point on the ground directly above the hypocenter",
+            "feedback": "Correct. The epicenter is at ground level, exactly above the starting point."
+          },
+          {
+            "label": "The point inside Earth where the rock first slips",
+            "feedback": "That is the hypocenter or focus, not the epicenter."
+          },
+          {
+            "label": "The line where two tectonic plates meet",
+            "feedback": "That is a plate boundary, not the epicenter of a specific quake."
+          },
+          {
+            "label": "The area where aftershocks occur",
+            "feedback": "Aftershocks can happen around the rupture, but the epicenter is a single point above the start."
+          }
+        ],
+        "ok_title": "Above the start",
+        "ok_line": "The epicenter is the ground point directly above the hypocenter.",
+        "ko_title": "Not epicenter",
+        "ko_line": "The epicenter is on the surface, not inside or along a boundary.",
+        "exp_title": "Surface point",
+        "exp_text": "The epicenter is the point at ground level directly above the hypocenter. It marks where the shaking is usually strongest at the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which natural events other than fault rupture can cause earthquakes?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Tides and ocean currents",
+            "feedback": "Tides and currents do not release the kind of energy that causes earthquakes."
+          },
+          {
+            "label": "Volcanic activity and landslides",
+            "feedback": "Correct. Both volcanic activity and landslides are listed as causes of earthquakes."
+          },
+          {
+            "label": "Wind erosion and river flow",
+            "feedback": "These shape the landscape but do not generate seismic waves."
+          },
+          {
+            "label": "Glacier movement and snowfall",
+            "feedback": "Glaciers can move, but they are not given as causes of earthquakes in the reference."
+          }
+        ],
+        "ok_title": "Other causes",
+        "ok_line": "Volcanic activity and landslides can cause earthquakes.",
+        "ko_title": "Not causes",
+        "ko_line": "Tides, wind, rivers, and snow are not earthquake triggers.",
+        "exp_title": "Beyond faults",
+        "exp_text": "Earthquakes are caused mostly by fault rupture, but also by volcanic activity, landslides, and other seismic events. Human actions like mining or blasting can also trigger them."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is soil liquefaction?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The melting of soil into liquid due to heat",
+            "feedback": "Heat does not melt soil into liquid; liquefaction is from shaking, not temperature."
+          },
+          {
+            "label": "The flow of water through permeable soil layers",
+            "feedback": "That is groundwater flow, not a ground failure caused by shaking."
+          },
+          {
+            "label": "A condition where saturated soil behaves like a liquid during shaking",
+            "feedback": "Correct. Liquefaction makes the ground lose strength and act like a liquid."
+          },
+          {
+            "label": "The hardening of soil after an earthquake",
+            "feedback": "That is the opposite; liquefaction weakens the soil, not hardens it."
+          }
+        ],
+        "ok_title": "Liquefaction",
+        "ok_line": "Liquefaction makes saturated soil act like a liquid during shaking.",
+        "ko_title": "Not liquefaction",
+        "ko_line": "It is from shaking, not heat or normal water flow.",
+        "exp_title": "Shaking the ground",
+        "exp_text": "Soil liquefaction is an effect of earthquakes where water-saturated soil temporarily loses strength and behaves like a liquid. This can cause buildings to sink or tilt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When a large earthquake occurs offshore, what can the displacement of the seabed cause?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A volcanic eruption",
+            "feedback": "A volcanic eruption happens when magma rises, not from seabed displacement."
+          },
+          {
+            "label": "A landslide on land",
+            "feedback": "Landslides can be triggered by earthquakes, but the displacement of the seabed offshore leads to tsunamis."
+          },
+          {
+            "label": "An aftershock",
+            "feedback": "Aftershocks are separate quakes, not the result of seabed displacement itself."
+          },
+          {
+            "label": "A tsunami",
+            "feedback": "Correct. If the seabed is displaced enough, it can cause a tsunami."
+          }
+        ],
+        "ok_title": "Offshore quake",
+        "ok_line": "Seabed displacement offshore can cause a tsunami.",
+        "ko_title": "Not the result",
+        "ko_line": "Seabed shifting is what makes tsunamis, not eruptions or landslides.",
+        "exp_title": "Waves from the sea",
+        "exp_text": "When the epicenter of a large earthquake is offshore, the seabed may be displaced sufficiently to cause a tsunami. The displaced water forms waves that travel outward."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "According to the elastic-rebound theory, what happens along a locked fault before an earthquake?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Stress and stored strain energy gradually build up",
+            "feedback": "Correct. The locking of the fault leads to increasing stress and stored energy until it breaks."
+          },
+          {
+            "label": "The fault slides smoothly without any resistance",
+            "feedback": "Smooth sliding happens only if there are no irregularities, but most faults have them, causing locking."
+          },
+          {
+            "label": "The fault immediately releases all energy in a single smooth motion",
+            "feedback": "That would be a sudden release, but before it there is a build-up, not immediate release."
+          },
+          {
+            "label": "The fault heats up and melts the rock around it",
+            "feedback": "Heating happens after rupture, not as a buildup process before."
+          }
+        ],
+        "ok_title": "Building up",
+        "ok_line": "Stress and strain build up slowly until the fault breaks.",
+        "ko_title": "No build-up",
+        "ko_line": "Before an earthquake, energy accumulates, not releases smoothly.",
+        "exp_title": "The rebound idea",
+        "exp_text": "In elastic-rebound theory, a fault locks due to irregularities, and continued plate motion increases stress and stored strain energy until it is enough to break through and cause an earthquake."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of fault is associated with the most powerful earthquakes, including megathrust earthquakes?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Normal faults",
+            "feedback": "Normal faults usually produce earthquakes smaller than magnitude 7, not the most powerful ones."
+          },
+          {
+            "label": "Strike-slip faults",
+            "feedback": "Strike-slip faults can produce major quakes up to about magnitude 8, but megathrusts come from reverse faults."
+          },
+          {
+            "label": "Reverse faults",
+            "feedback": "Correct. Reverse faults, especially at convergent boundaries, produce megathrust earthquakes."
+          },
+          {
+            "label": "Transform faults",
+            "feedback": "Transform faults are a type of strike-slip, not the source of megathrust quakes."
+          }
+        ],
+        "ok_title": "Powerful faults",
+        "ok_line": "Reverse faults create the most powerful earthquakes.",
+        "ko_title": "Weakest link",
+        "ko_line": "Normal and strike-slip faults do not make megathrust quakes.",
+        "exp_title": "Where the big ones are",
+        "exp_text": "Reverse faults, particularly those along convergent boundaries, are associated with the most powerful earthquakes, called megathrust earthquakes. Almost all magnitude 8 or larger quakes come from them."
+      }
+    ]
+  }
+]

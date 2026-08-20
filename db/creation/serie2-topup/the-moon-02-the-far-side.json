@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'dark side of the Moon' actually mean?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The side that never receives sunlight",
+            "feedback": "That is a common misconception. Every part of the Moon gets about two weeks of sunlight followed by two weeks of night. 'Dark' here means unseen, not unlit."
+          },
+          {
+            "label": "The side that is never visible from Earth",
+            "feedback": "Yes. Because the Moon is tidally locked, the far side never faces Earth, so it stayed unseen until spacecraft photographed it. It still gets sunlight like any other part."
+          },
+          {
+            "label": "The side that is always in shadow during a lunar eclipse",
+            "feedback": "A lunar eclipse happens when Earth's shadow falls on the Moon, but that affects the near side, not the far side. The nickname refers to being unseen, not shadowed."
+          },
+          {
+            "label": "The side that is darker in color due to fewer bright craters",
+            "feedback": "Actually, the far side has fewer dark maria and is more reflective, making it brighter overall. The 'dark' in the nickname is about visibility, not color."
+          }
+        ],
+        "ok_title": "Unseen, not unlit",
+        "ok_line": "The far side is called dark because it was never seen from Earth, not because it lacks sunlight.",
+        "ko_title": "Dark means unseen",
+        "ko_line": "Remember, 'dark side' refers to the far side being hidden from view, not to darkness.",
+        "exp_title": "Meaning of dark side",
+        "exp_text": "The far side of the Moon is sometimes called the dark side, but 'dark' there means unseen or unknown, not unilluminated. The Moon is tidally locked, so the same hemisphere always faces Earth, leaving the far side hidden until spacecraft visited it. Every location on the Moon experiences about two weeks of sunlight and two weeks of night, so the far side is not permanently dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the far side of the Moon never fully come into view from Earth?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because Earth blocks the view of that hemisphere",
+            "feedback": "Earth does not block the view; the Moon itself rotates and orbits at the same rate, so the same face is always turned toward Earth. That is tidal locking."
+          },
+          {
+            "label": "Because the Moon spins faster than it orbits",
+            "feedback": "That would make different parts of the Moon visible over time. Instead, the rotation period matches the orbital period, so the same side always faces Earth."
+          },
+          {
+            "label": "Because the Moon rotates once for every orbit it makes around Earth",
+            "feedback": "Correct. Tidal locking means the Moon's rotation period equals its orbital period, so the far side never turns toward Earth. Only about 18% of it is glimpsed through libration."
+          },
+          {
+            "label": "Because the far side is too dark to be seen",
+            "feedback": "The far side does receive sunlight. It is invisible from Earth because the Moon's rotation keeps that hemisphere turned away, not because it is dark."
+          }
+        ],
+        "ok_title": "Tidal locking",
+        "ok_line": "The Moon spins once per orbit, so the far side never faces Earth.",
+        "ko_title": "Locked rotation",
+        "ko_line": "The Moon's spin matches its orbit, keeping the far side hidden.",
+        "exp_title": "Why far side stays hidden",
+        "exp_text": "The Moon is tidally locked to Earth, meaning the time it takes to rotate once equals the time it takes to orbit Earth once. As a result, the same hemisphere always points toward Earth, so the far side never fully comes into view. Small wobbles called libration let us glimpse about 18% of the far side, but the rest is only visible from spacecraft."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the surface of the far side of the Moon compare to the near side?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The far side is smoother and has more maria",
+            "feedback": "It is the opposite: the far side is rugged and heavily cratered, with very few maria. The near side has large dark plains, while the far side has only about 1% maria coverage."
+          },
+          {
+            "label": "The far side is darker and less reflective",
+            "feedback": "The far side actually reflects more light because it has fewer dark maria. Its terrain is brighter overall than the near side."
+          },
+          {
+            "label": "The far side looks much like the near side",
+            "feedback": "The two hemispheres are dramatically different. The near side is covered with large maria, while the far side is densely cratered and has few smooth plains."
+          },
+          {
+            "label": "The far side is rugged, with many craters and few maria",
+            "feedback": "Yes. The far side has a battered, cratered appearance with only about 1% of its surface covered by maria, compared to 31.2% on the near side. This makes it look more like other barren places in the Solar System."
+          }
+        ],
+        "ok_title": "Rugged far side",
+        "ok_line": "The far side is heavily cratered with few dark maria.",
+        "ko_title": "Near vs far sides",
+        "ko_line": "The near side has many maria; the far side has few and is cratered.",
+        "exp_title": "Surface differences",
+        "exp_text": "The far side of the Moon looks very different from the near side. It is rough and full of impact craters, with relatively few flat, dark maria—only about 1% coverage versus 31.2% on the near side. Because it lacks those dark plains, the far side is more reflective and appears brighter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How much of the Moon's surface can be seen from Earth over time due to libration?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "All of it",
+            "feedback": "No, the Moon is tidally locked, so the far side never fully turns to Earth. Only about 59% of the surface is visible from Earth at one time or another, not all of it."
+          },
+          {
+            "label": "About half, exactly 50%",
+            "feedback": "That would be true for a perfectly locked rotation with no wobble, but libration lets us see a bit more. The actual figure is 59%."
+          },
+          {
+            "label": "About 59%",
+            "feedback": "Yes. Librations—slow wobbles in the Moon's orbit—let observers see slightly more than half the surface, up to 59% over time. The remaining 41% is on the far side and largely unseen from Earth."
+          },
+          {
+            "label": "Only 18%",
+            "feedback": "That figure refers to how much of the far side is occasionally visible from Earth, not the total visible surface. The total visible from Earth is 59%."
+          }
+        ],
+        "ok_title": "59 percent visible",
+        "ok_line": "Libration reveals up to 59% of the Moon from Earth.",
+        "ko_title": "Libration's effect",
+        "ko_line": "Over time, Earth sees 59% of the Moon, not just half.",
+        "exp_title": "Visible portion of Moon",
+        "exp_text": "Because the Moon is tidally locked, usually we only see one hemisphere, but small wobbles called librations let us peek around the edges. In total, 59% of the Moon's surface is visible from Earth at one time or another. The remaining 41% stays hidden on the far side, only seen by spacecraft."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the presence of many visible craters on the far side tell us about impacts compared to the near side?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The far side has received more impacts than the near side",
+            "feedback": "That is not what the evidence shows. Both sides have likely received about the same number of impacts. The difference is that lava flows on the near side covered many craters, so fewer are visible there."
+          },
+          {
+            "label": "Both sides have received about the same number of impacts",
+            "feedback": "Correct. The near side's lava flows have resurfaced and hidden many craters, while the far side shows them all. Earth does not shield the far side, as it covers only a tiny fraction of the sky as seen from the Moon."
+          },
+          {
+            "label": "The near side has been shielded from impacts by Earth",
+            "feedback": "Earth is too small in the lunar sky to act as a shield. NASA calculates it covers only about 4 square degrees out of 41,000, so it is negligible."
+          },
+          {
+            "label": "The far side's thicker crust prevented lava flows from forming craters",
+            "feedback": "Actually, the far side has fewer lava flows, so its craters are not covered up. The near side's thinner crust allowed basalt to flood and hide craters."
+          }
+        ],
+        "ok_title": "Equal impacts",
+        "ok_line": "Both Moon sides get the same impacts, but lava hides near-side craters.",
+        "ko_title": "Craters hidden by lava",
+        "ko_line": "Near-side lava flows covered craters, not fewer impacts.",
+        "exp_title": "Why far side has more visible craters",
+        "exp_text": "The far side appears more cratered, but that does not mean it has been hit more often. The Moon's near side had lava flows that covered and obscured many craters, resurfacing the ground. Earth does not shield the far side from impacts, as it occupies only a tiny part of the lunar sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason the near side of the Moon has fewer visible craters than the far side?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The near side is younger and has not had time to accumulate craters",
+            "feedback": "Both sides are about the same age, and both have received impacts throughout their history. The difference is that lava flows on the near side have covered older craters."
+          },
+          {
+            "label": "Earth blocks most incoming meteors from hitting the near side",
+            "feedback": "Earth covers only a tiny fraction of the sky as seen from the Moon, so it does not shield the near side. Impacts have hit both sides equally."
+          },
+          {
+            "label": "The far side has a thicker crust that attracts more impacts",
+            "feedback": "Crust thickness does not attract impacts. The near side's thinner crust allowed lava to erupt and fill craters, hiding them from view."
+          },
+          {
+            "label": "Lava flows on the near side covered and obscured many craters",
+            "feedback": "Yes. The near side's large maria formed from lava that flooded and buried craters, smoothing the surface. The far side had few such flows, so its craters remain visible."
+          }
+        ],
+        "ok_title": "Lava covered craters",
+        "ok_line": "Near-side lava flows hid many craters, not lack of impacts.",
+        "ko_title": "Resurfacing by lava",
+        "ko_line": "Lava flow on the near side buried craters, leaving the far side cratered.",
+        "exp_title": "Near side looks smoother",
+        "exp_text": "The near side has fewer visible craters because its surface was resurfaced by lava flows that filled and covered older craters, creating the dark maria. The far side, with fewer lava flows, keeps its craters. Both sides have experienced the same number of impacts, but the near side's resurfacing hides them."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which statement about sunlight on the far side of the Moon is true?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The far side never receives direct sunlight",
+            "feedback": "That is false. Every part of the Moon, including the far side, gets about two weeks of sunlight followed by two weeks of night. The phrase 'dark side' does not mean unlit."
+          },
+          {
+            "label": "The far side receives only starlight during its night",
+            "feedback": "During its night, the far side gets about 0.001 lux of starlight, but that is not a permanent condition. It does receive direct sunlight during its day, just like the near side."
+          },
+          {
+            "label": "The far side receives about the same amount of sunlight as the near side",
+            "feedback": "Correct. On average, both hemispheres get nearly equal sunlight directly from the Sun. Earthshine adds a little extra light to the near side, but the difference is small."
+          },
+          {
+            "label": "The far side is always in shadow during a lunar eclipse",
+            "feedback": "A lunar eclipse only occurs when the near side faces Earth and is in Earth's shadow. The far side is dark then, but that is not a permanent condition, and it does not mean it lacks sunlight otherwise."
+          }
+        ],
+        "ok_title": "Equal sunlight",
+        "ok_line": "Both Moon sides get about the same direct sunlight.",
+        "ko_title": "Not always dark",
+        "ko_line": "The far side gets sunlight too; 'dark' means unseen.",
+        "exp_title": "Sunlight on far side",
+        "exp_text": "Both the near and far sides of the Moon receive, on average, nearly equal amounts of direct sunlight from the Sun. The far side is not permanently dark; it experiences two weeks of daylight, then two weeks of night. The nickname 'dark side' refers to it being hidden from Earth, not to lack of light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where did the first landing on the far side of the Moon take place, and in what year?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the Apollo basin, in 2024",
+            "feedback": "That was the landing site of the Chang'e 6 sample-return mission in 2024, but it was not the first landing. The first was Chang'e 4 in 2019."
+          },
+          {
+            "label": "On the far side in general, in 2019",
+            "feedback": "Yes. Chang'e 4 made the first soft landing on the far side on January 3, 2019. All previous landings had been on the near side."
+          },
+          {
+            "label": "On the near side, in 1968",
+            "feedback": "Apollo 8 flew around the Moon in 1968 and saw the far side, but it did not land. The first landing was much later, in 2019."
+          },
+          {
+            "label": "On the far side, but in 1960",
+            "feedback": "In 1960, the Soviet Academy published the first atlas of the far side, but no landing happened then. The first landing was in 2019."
+          }
+        ],
+        "ok_title": "First far side landing",
+        "ok_line": "Chang'e 4 made the first far side landing in 2019.",
+        "ko_title": "Landing milestone",
+        "ko_line": "The first far side landing was by Chang'e 4 in 2019.",
+        "exp_title": "First far side landing",
+        "exp_text": "All crewed and uncrewed soft landings on the Moon happened on the near side until January 3, 2019, when the Chang'e 4 spacecraft made the first landing on the far side. Later, in 2024, the Chang'e 6 mission landed in the Apollo basin and returned samples from the far side to Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason the far side's terrain shows more extreme elevation changes than the near side?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It has both the Moon's highest and lowest points, along with its tallest mountains",
+            "feedback": "Yes. The far side has more extreme variations in terrain elevation than the near side, including the highest and lowest points and the tallest mountains measured from base to peak."
+          },
+          {
+            "label": "It has fewer craters, so the surface is less even",
+            "feedback": "Fewer craters would make it smoother, but the far side actually has many craters. The extreme elevation change comes from its mountains and the deep South Pole–Aitken basin."
+          },
+          {
+            "label": "The near side has been flattened by lava flows",
+            "feedback": "That is partly true, but the far side's own highlands and deep basins cause the extreme differences. The far side has both the highest and lowest elevations on the Moon."
+          },
+          {
+            "label": "Earth's gravity pulls the far side's crust upward",
+            "feedback": "Earth's gravity affects the Moon's tides, but not in a way that shapes the far side's extreme elevation. The far side's ruggedness comes from impacts and a thick crust."
+          }
+        ],
+        "ok_title": "Extreme terrain",
+        "ok_line": "The far side has the Moon's highest and lowest points.",
+        "ko_title": "Elevation extremes",
+        "ko_line": "Far side terrain varies more, with highest and lowest spots.",
+        "exp_title": "Terrain variation on far side",
+        "exp_text": "The far side shows more extreme variations in terrain elevation than the near side. It contains the Moon's highest and lowest points, as well as its tallest mountains measured from base to peak. This ruggedness is a result of its heavy cratering and thick crust, unlike the near side's smoother, lava-filled basins."
+      }
+    ]
+  }
+]

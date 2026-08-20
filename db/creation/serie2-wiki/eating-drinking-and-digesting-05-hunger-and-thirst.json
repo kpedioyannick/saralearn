@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 250,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is thirst?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A craving for drinkable fluids that helps keep the body's fluid balance",
+            "feedback": "Correct—thirst is the urge to drink fluids, and it acts as a basic mechanism for keeping fluid levels balanced."
+          },
+          {
+            "label": "A feeling that only happens when the stomach is empty",
+            "feedback": "Thirst is not about an empty stomach; it comes from a lack of fluids or changes in the body's salt and water balance."
+          },
+          {
+            "label": "A signal that the body has too much water",
+            "feedback": "Thirst arises from too little water or too much salt, not from having excess water."
+          },
+          {
+            "label": "A habit learned from other animals",
+            "feedback": "Thirst is a basic instinct built into animals, not a learned behavior."
+          }
+        ],
+        "ok_title": "Thirst defined",
+        "ok_line": "Thirst is the instinct to drink when the body needs fluids.",
+        "ko_title": "Thirst mix-ups",
+        "ko_line": "Thirst signals low water, not high water or an empty stomach.",
+        "exp_title": "Basic definition",
+        "exp_text": "Thirst is the craving for potable fluids, which drives animals to drink. It is an essential mechanism for keeping the body's fluid balance, and it is triggered by a lack of fluids or by too much salt in the blood."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the brain detect to trigger thirst?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The amount of food in the stomach",
+            "feedback": "Stomach fullness controls hunger, not thirst—thirst is triggered by changes in the blood, not by stomach contents."
+          },
+          {
+            "label": "Changes in blood constituents, like a drop in water volume or a rise in salt concentration",
+            "feedback": "Correct—brain structures detect low fluid volume or high salt levels in the blood and signal thirst."
+          },
+          {
+            "label": "The temperature of the skin",
+            "feedback": "Skin temperature is not what triggers thirst; the brain reads the blood's water and salt levels."
+          },
+          {
+            "label": "The activity of the muscles",
+            "feedback": "Muscle activity is not directly detected for thirst; the key signals are blood volume and salt concentration."
+          }
+        ],
+        "ok_title": "Brain detects blood",
+        "ok_line": "Low water or high salt in the blood triggers thirst.",
+        "ko_title": "Wrong triggers",
+        "ko_line": "Thirst is not about stomach, skin, or muscle signals.",
+        "exp_title": "Detection mechanism",
+        "exp_text": "Structures in the brain detect when the water volume of the blood falls below a threshold or when the concentration of osmolites like sodium rises too high. These changes in blood constituents are what signal thirst."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the condition called when the fluid outside a cell has the same solute concentration as the fluid inside the cell?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Hypertonic",
+            "feedback": "Hypertonic means the outside fluid has more solutes, which pulls water out of the cell—not the same concentration."
+          },
+          {
+            "label": "Hypotonic",
+            "feedback": "Hypotonic means the outside fluid has fewer solutes, causing water to enter the cell—not equality."
+          },
+          {
+            "label": "Isotonic",
+            "feedback": "Correct—when both sides have equal solute levels, net water movement is zero, and the condition is isotonic."
+          },
+          {
+            "label": "Dehydrated",
+            "feedback": "Dehydration describes a lack of water in the body, not the balance between cell sides."
+          }
+        ],
+        "ok_title": "Isotonic balance",
+        "ok_line": "Equal solute levels outside and inside the cell mean zero net water movement.",
+        "ko_title": "Tonicity confusion",
+        "ko_line": "Hypertonic and hypotonic describe unequal solute levels, not equal.",
+        "exp_title": "Isotonic condition",
+        "exp_text": "When the interstitial fluid and the intracellular fluid have the same concentration of solutes, water moves equally in and out, so net movement is zero. This state is called isotonic, and it is the normal, balanced condition for cells."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a cell when the fluid around it becomes hypertonic?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It fills with water and swells",
+            "feedback": "That happens in a hypotonic environment, not a hypertonic one—hypertonic pulls water out."
+          },
+          {
+            "label": "It stays unchanged",
+            "feedback": "A hypertonic outside fluid has more solutes, so water leaves the cell, changing it."
+          },
+          {
+            "label": "It becomes isotonic",
+            "feedback": "The cell does not become isotonic on its own; it loses water and shrinks in a hypertonic environment."
+          },
+          {
+            "label": "It loses water and shrinks",
+            "feedback": "Correct—when outside solutes are higher, water moves out of the cell by osmosis, causing it to shrink."
+          }
+        ],
+        "ok_title": "Cell in hypertonic",
+        "ok_line": "Water leaves the cell, so it shrinks.",
+        "ko_title": "Shrink vs. swell",
+        "ko_line": "Hypertonic pulls water out, not in.",
+        "exp_title": "Water movement",
+        "exp_text": "In a hypertonic condition, the interstitial fluid has a higher solute concentration than the cell's interior. Because water moves toward higher solute concentration, water leaves the cell, causing it to shrink and lose the ability to perform essential chemical functions if too much water leaves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which condition is dangerous because it can cause a cell to swell and rupture?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Isotonic",
+            "feedback": "Isotonic is balanced—no net water movement, so no swelling."
+          },
+          {
+            "label": "Hypertonic",
+            "feedback": "Hypertonic causes water to leave the cell, leading to shrinkage, not swelling."
+          },
+          {
+            "label": "Hypotonic",
+            "feedback": "Correct—in a hypotonic environment, the outside fluid has fewer solutes, so water enters the cell, which can swell and rupture."
+          },
+          {
+            "label": "Hypervolemic",
+            "feedback": "Hypervolemia refers to high blood volume, not the cell's osmotic balance."
+          }
+        ],
+        "ok_title": "Hypotonic danger",
+        "ok_line": "Water floods into the cell, risking swelling and rupture.",
+        "ko_title": "Wrong tonicity",
+        "ko_line": "Hypertonic causes shrinkage, not swelling.",
+        "exp_title": "Hypotonic condition",
+        "exp_text": "When the interstitial fluid is less concentrated in solutes than the cell's interior, water moves into the cell to try to equalize the concentrations. This can cause the cell to swell and eventually rupture, making hypotonic conditions dangerous."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which conditions in the body can trigger the feeling of thirst?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "An excess of water in the blood",
+            "feedback": "Excess water would make the blood more dilute, not concentrated, so it would not trigger thirst. Thirst is triggered by a lack of water or too much solute."
+          },
+          {
+            "label": "A drop in blood sugar levels",
+            "feedback": "Low blood sugar triggers hunger, not thirst. Thirst relates to fluid balance, not glucose levels."
+          },
+          {
+            "label": "A decrease in body water volume or an increase in solute concentration",
+            "feedback": "Correct. When the body's water volume falls below a threshold, or the concentration of osmolites like sodium rises, the brain detects these changes and signals thirst."
+          },
+          {
+            "label": "An increase in blood pressure",
+            "feedback": "High blood pressure does not directly signal thirst. Thirst is triggered by low fluid volume or high solute concentration, not by blood pressure itself."
+          }
+        ],
+        "ok_title": "Thirst triggers",
+        "ok_line": "Low water or high solute concentration sets off thirst.",
+        "ko_title": "Wrong triggers for thirst",
+        "ko_line": "Thirst is not about sugar or excess water.",
+        "exp_title": "What causes thirst",
+        "exp_text": "Thirst arises when the water volume of the body falls below a certain level or when the concentration of osmolites such as sodium becomes too high. Structures in the brain detect these changes in blood and signal the need to drink."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for excessive thirst, which may indicate diabetes?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Polyuria",
+            "feedback": "Polyuria is excessive urination, not thirst. It can occur alongside excessive thirst but is a separate symptom."
+          },
+          {
+            "label": "Polydipsia",
+            "feedback": "Correct. Polydipsia is the term for excessive thirst, and along with polyuria (excessive urination) it may signal diabetes mellitus or diabetes insipidus."
+          },
+          {
+            "label": "Hypovolemia",
+            "feedback": "Hypovolemia is a decreased blood volume, which can cause thirst, but it is not the term for excessive thirst itself."
+          },
+          {
+            "label": "Hypertonia",
+            "feedback": "Hypertonia refers to a condition of higher solute concentration, not to excessive thirst. The term for excessive thirst is polydipsia."
+          }
+        ],
+        "ok_title": "Excessive thirst term",
+        "ok_line": "Polydipsia is the medical word for extreme thirst.",
+        "ko_title": "Confusing terms",
+        "ko_line": "Polyuria and hypovolemia are different conditions.",
+        "exp_title": null,
+        "exp_text": "Excessive thirst is called polydipsia. When it appears together with excessive urination (polyuria), it can be a clue that the person has diabetes mellitus or diabetes insipidus."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does isotonic mean in terms of fluids inside and outside a cell?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The fluid outside has more solutes than inside",
+            "feedback": "That describes hypertonic, not isotonic. In isotonic conditions, solute levels are equal on both sides."
+          },
+          {
+            "label": "The fluid inside has more solutes than outside",
+            "feedback": "That describes a hypotonic or hypertonic state depending on the direction, but not isotonic. Isotonic means equal solute concentrations."
+          },
+          {
+            "label": "Water moves out of the cell rapidly",
+            "feedback": "Water leaving the cell happens in a hypertonic environment, not an isotonic one. In isotonic conditions, net water movement is zero."
+          },
+          {
+            "label": "The solute concentration is the same on both sides, so net water movement is zero",
+            "feedback": "Correct. Isotonic means equal solute levels inside and outside, so water does not move in or out on net."
+          }
+        ],
+        "ok_title": "Isotonic definition",
+        "ok_line": "Isotonic means equal solute concentration across the membrane.",
+        "ko_title": "Isotonic mistaken",
+        "ko_line": "Isotonic is about balance, not water loss or gain.",
+        "exp_title": null,
+        "exp_text": "Isotonic is the condition where the interstitial fluid (outside the cell) has the same concentration of solutes as the intracellular fluid (inside the cell). As a result, there is no net movement of water across the cell membrane."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a cell when the surrounding interstitial fluid becomes hypertonic?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Water leaves the cell, causing it to shrink",
+            "feedback": "Correct. In a hypertonic environment, the outside has more solutes (or less water), so water is pulled out of the cell, reducing its volume."
+          },
+          {
+            "label": "Water enters the cell, causing it to swell",
+            "feedback": "Water entering the cell happens in a hypotonic environment, not hypertonic. Hypertonic pulls water out."
+          },
+          {
+            "label": "The cell stays the same size",
+            "feedback": "That would be isotonic, not hypertonic. In hypertonic conditions, water moves out and the cell shrinks."
+          },
+          {
+            "label": "The cell membrane dissolves",
+            "feedback": "The cell does not dissolve; it loses water and may shrink. Rupture happens in hypotonic conditions, not hypertonic."
+          }
+        ],
+        "ok_title": "Hypertonic effect",
+        "ok_line": "Hypertonic fluid pulls water out of cells.",
+        "ko_title": "Hypertonic misread",
+        "ko_line": "Hypertonic shrinks, hypotonic swells.",
+        "exp_title": null,
+        "exp_text": "When the interstitial fluid has a higher concentration of solutes than the intracellular fluid, it is hypertonic. This pulls water out of the cell, causing it to shrink, and if too much water is lost, the cell cannot perform its essential functions. The animal then feels thirsty."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of thirst results from a loss of blood volume without depleting the fluid inside cells?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Osmometric thirst",
+            "feedback": "Osmometric thirst is caused by increased solute concentration in the interstitial fluid, not by blood volume loss. This is a different type."
+          },
+          {
+            "label": "Salt craving",
+            "feedback": "Salt craving can accompany thirst from volume loss, but it is not the name of the thirst type. The type is called ext cellular thirst or decreased volume thirst."
+          },
+          {
+            "label": "Extracellular thirst",
+            "feedback": "Correct. Extracellular thirst is generated by decreased blood volume (hypovolemia) without depleting the intracellular fluid, and it comes from losses like blood loss, vomiting, or diarrhea."
+          },
+          {
+            "label": "Intracellular thirst",
+            "feedback": "Intracellular thirst is caused by increased osmolite concentration, not by blood volume loss. That is a different mechanism."
+          }
+        ],
+        "ok_title": "Extracellular thirst",
+        "ok_line": "Blood volume loss triggers extracellular thirst.",
+        "ko_title": "Thirst types mixed",
+        "ko_line": "Volume loss vs. concentration increase are separate.",
+        "exp_title": null,
+        "exp_text": "Extracellular thirst is one of two types of thirst, defined as thirst caused by a decrease in blood volume (hypovolemia) without depleting the fluid inside cells. It can be triggered by blood loss, vomiting, or diarrhea. The other type is intracellular thirst, caused by an increase in solute concentration."
+      }
+    ]
+  }
+]

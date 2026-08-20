@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 250,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain detects that the blood has become too concentrated and triggers the feeling of thirst?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The hypothalamus",
+            "feedback": "Correct. The hypothalamus constantly checks the concentration of the blood and sends the signal that makes you feel thirsty when water is short."
+          },
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum coordinates movement and balance; it has nothing to do with detecting blood concentration or starting thirst."
+          },
+          {
+            "label": "The medulla oblongata",
+            "feedback": "The medulla controls automatic functions like breathing and heart rate, but the thirst signal comes from the hypothalamus."
+          },
+          {
+            "label": "The cerebrum",
+            "feedback": "The cerebrum handles conscious thought, memory and senses; the detection of blood concentration belongs to the hypothalamus."
+          }
+        ],
+        "ok_title": "Thirst centre found",
+        "ok_line": "The hypothalamus starts the thirst alert.",
+        "ko_title": "Wrong brain region",
+        "ko_line": "That part doesn't control water balance.",
+        "exp_title": "Hypothalamus and thirst",
+        "exp_text": "The hypothalamus is a small region at the base of the brain that monitors the saltiness of the blood. When the blood becomes too concentrated because water is low, it triggers the sensation of thirst, pushing you to drink."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the rumbling, growling sound of an empty stomach?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The stomach is completely empty and its walls rub together",
+            "feedback": "The stomach walls are always coated with a layer of mucus, so they don't rub directly. The sound comes from internal movements, not friction between walls."
+          },
+          {
+            "label": "Air and digestive juices are moved around by the stomach's muscular contractions",
+            "feedback": "Correct. Even when empty, the stomach keeps contracting, and these movements push gas and leftover fluid around, which produces the rumbling noise."
+          },
+          {
+            "label": "The stomach is producing large amounts of acid that bubbles up",
+            "feedback": "Acid production doesn't produce that sound; the rumbling is caused by muscular contractions moving air and fluids, not by acid bubbling."
+          },
+          {
+            "label": "The intestines are growling in anger at not receiving food",
+            "feedback": "There's no emotion involved; the sound is purely mechanical, from contractions and trapped gas moving through the digestive tract."
+          }
+        ],
+        "ok_title": "Empty stomach noise",
+        "ok_line": "Contractions and gas make the rumble.",
+        "ko_title": "Not from friction",
+        "ko_line": "Mucus prevents walls from rubbing.",
+        "exp_title": "Why empty stomachs rumble",
+        "exp_text": "The stomach and intestines continue their rhythmic muscular activity even when empty. These contractions mix any trapped air and digestive juices, creating the gurgling sound you hear."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the mouth feel dry when a person is thirsty?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The salivary glands stop working completely as soon as the body needs water",
+            "feedback": "They don't stop completely; they reduce the amount of saliva they make, and that reduced flow leaves the mouth feeling dry."
+          },
+          {
+            "label": "The body is using all its water for the blood, leaving none for saliva",
+            "feedback": "The body doesn't shut off saliva entirely; it simply produces less, which is why the mouth feels dry but not bone-dry."
+          },
+          {
+            "label": "The body reduces saliva production to conserve water",
+            "feedback": "Correct. When water is low, the body cuts back on non-essential losses like saliva, and the drier mouth is one of the first signs of thirst."
+          },
+          {
+            "label": "The air in the mouth evaporates the moisture more quickly when you are thirsty",
+            "feedback": "Evaporation rate isn't the cause; the reduced production of saliva by the glands is what leaves the mouth dry."
+          }
+        ],
+        "ok_title": "Dry mouth signal",
+        "ok_line": "Less saliva means a dry mouth.",
+        "ko_title": "Not evaporation",
+        "ko_line": "Saliva output drops, not air drying.",
+        "exp_title": "Saliva and thirst",
+        "exp_text": "Saliva production naturally slows when the body senses water shortage. This helps retain fluid, but it also leaves the mouth feeling dry, which is an early clue that you need to drink."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What tells the brain that the stomach has had enough food and it's time to stop eating?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The amount of sugar in the blood rises suddenly",
+            "feedback": "Blood sugar does play a role, but the immediate stop signal comes from the stomach stretching; sugar changes are slower and don't directly tell the brain to stop."
+          },
+          {
+            "label": "The taste buds send a message that the food is no longer enjoyable",
+            "feedback": "Taste doesn't control stopping; you can enjoy a meal and still stop because the stomach itself signals fullness."
+          },
+          {
+            "label": "The brain counts the number of chews and decides that's enough",
+            "feedback": "There's no counting mechanism; the brain receives physical signals from the stomach, not a count of chews."
+          },
+          {
+            "label": "The stomach stretches and sends a message to the brain",
+            "feedback": "Correct. As food fills the stomach, its wall stretches, and nerve signals travel to the brain, which then reduces the feeling of hunger and promotes a feeling of fullness."
+          }
+        ],
+        "ok_title": "Fullness signal found",
+        "ok_line": "Stomach stretch tells the brain to stop.",
+        "ko_title": "Not from taste or count",
+        "ko_line": "The stomach's stretch is the key message.",
+        "exp_title": "How fullness is detected",
+        "exp_text": "Special nerve endings in the stomach wall sense how much the stomach is stretched. When it stretches enough, they send a strong signal to the brain that stops the urge to eat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can drinking a large glass of water sometimes temporarily take the edge off hunger, even though water has no nutrients?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The water fills the stomach and stretches its wall, which sends a fullness signal",
+            "feedback": "Correct. The stretch of the stomach wall is what signals fullness, so water can trigger that signal even though it provides no calories."
+          },
+          {
+            "label": "The water converts into a sugar that the body uses for energy",
+            "feedback": "Water contains no nutrients; it cannot turn into sugar. The temporary effect comes from physical stretching, not energy supply."
+          },
+          {
+            "label": "The water cools the stomach, which slows down hunger messages",
+            "feedback": "Temperature doesn't control hunger; the stomach's stretch is the actual signal that reduces hunger."
+          },
+          {
+            "label": "The water makes the brain think that food is being digested",
+            "feedback": "The brain receives signals from the stomach's stretch receptors, not from recognizing that water is being digested."
+          }
+        ],
+        "ok_title": "Water fills the stomach",
+        "ok_line": "Stretch temporarily calms hunger.",
+        "ko_title": "No nutrients involved",
+        "ko_line": "Water only stretches, not feeds.",
+        "exp_title": "Water and hunger relief",
+        "exp_text": "The feeling of fullness is tied to how much the stomach stretches. Water can stretch the stomach, so it briefly reduces hunger, but because it has no nutrients, the body still needs food."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a person often start to feel hungry again a few hours after finishing a large meal?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The stomach forgets to send fullness signals once the meal is over",
+            "feedback": "The stomach doesn't forget; the fullness signal fades as the stomach empties, and the body then needs more fuel."
+          },
+          {
+            "label": "The stomach empties and blood nutrient levels drop, triggering hunger",
+            "feedback": "Correct. As the stomach empties and nutrients are absorbed, blood levels of sugar and other fuels fall, and the brain responds with a new hunger signal."
+          },
+          {
+            "label": "The intestines stop absorbing nutrients and call for more food",
+            "feedback": "The intestines keep absorbing; hunger returns because the body's fuel stores are being used, not because the intestines stop working."
+          },
+          {
+            "label": "The brain becomes bored with the lack of taste and asks for more",
+            "feedback": "Hunger is a metabolic signal, not a boredom response; it comes from low nutrient levels, not from missing taste."
+          }
+        ],
+        "ok_title": "Hunger returns",
+        "ok_line": "Nutrient levels drop, hunger rises.",
+        "ko_title": "Not forgetfulness",
+        "ko_line": "The body's fuel gauge triggers hunger.",
+        "exp_title": "Why hunger returns",
+        "exp_text": "After a meal, the stomach gradually empties and the absorbed nutrients are used by the body. When the levels of glucose and other fuels in the blood fall again, the brain sends out a new hunger signal."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the smell of a favourite meal, or even just thinking about it, make someone start salivating and feel hungrier before they've eaten anything?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The stomach immediately starts digesting the food just from smelling it",
+            "feedback": "There's no food to digest; the smell only triggers preparation responses, like saliva production, not actual digestion."
+          },
+          {
+            "label": "The nose sends air to the stomach, causing a false sense of fullness",
+            "feedback": "Smell doesn't fill the stomach; the response is in the brain preparing the body to eat, not in the stomach being filled."
+          },
+          {
+            "label": "The brain, learning from past meals, prepares the body for food",
+            "feedback": "Correct. Your brain associates the smell or thought of a favourite food with the pleasure of eating, so it readies the body by increasing saliva and making you feel hungry."
+          },
+          {
+            "label": "The tongue starts tasting the smell and sends hunger signals to the brain",
+            "feedback": "The tongue doesn't taste smells; the olfactory (smell) system sends signals to the brain, which then triggers appetite."
+          }
+        ],
+        "ok_title": "Anticipation effect",
+        "ok_line": "Brain prepares body for expected food.",
+        "ko_title": "Not from stomach",
+        "ko_line": "The brain's anticipation starts the response.",
+        "exp_title": "Cephalic phase of hunger",
+        "exp_text": "The sight, smell or thought of food causes the brain to anticipate eating. It signals the salivary glands and stomach to prepare for the upcoming meal, which is why you salivate and feel hungry."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a person typically feel thirsty only after they have already lost a fair amount of the body's water, rather than the moment water loss begins?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The body cannot detect water loss until the kidneys stop producing urine",
+            "feedback": "Kidneys don't stop producing urine that quickly; the detection is based on blood concentration, which takes time to change."
+          },
+          {
+            "label": "Thirst is a learned response that appears only when the mouth is very dry",
+            "feedback": "Thirst is triggered by blood concentration, not by mouth dryness alone; the mouth dryness is a later sign."
+          },
+          {
+            "label": "The brain is slow at processing thirst signals",
+            "feedback": "The brain isn't slow; the blood concentration only changes gradually as water is lost, so the signal takes time to build up."
+          },
+          {
+            "label": "The blood's concentration changes slowly, and the thirst trigger only fires when it crosses a threshold",
+            "feedback": "Correct. Water loss must be significant enough to raise the salt concentration in the blood; only then do the brain's sensors send a strong thirst signal."
+          }
+        ],
+        "ok_title": "Delayed thirst",
+        "ok_line": "Blood concentration must change enough.",
+        "ko_title": "Not about speed",
+        "ko_line": "A threshold must be crossed for thirst.",
+        "exp_title": "Thirst threshold",
+        "exp_text": "The hypothalamus monitors the concentration of dissolved salts in the blood. Early water loss raises it only slightly, below the threshold for a clear thirst signal; once enough water is lost, the concentration crosses the threshold and you feel thirsty."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a large, fatty meal tend to sit in the stomach longer than a light meal before it feels fully digested?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Fat slows the emptying of the stomach into the small intestine",
+            "feedback": "Correct. Fat triggers a signal that slows the stomach's muscular movements, keeping the food there longer to be digested gradually."
+          },
+          {
+            "label": "Fat is more difficult to chew, so it stays in the mouth longer",
+            "feedback": "Chewing happens in the mouth, not the stomach; the delay is in the stomach's emptying, not in chewing."
+          },
+          {
+            "label": "Fat requires more saliva, which delays the whole process",
+            "feedback": "Saliva is for the mouth; the stomach's emptying is regulated by fat content, not by how much saliva was used."
+          },
+          {
+            "label": "Fat expands in the stomach, pressing the walls and causing less movement",
+            "feedback": "Fat doesn't expand; it simply triggers a hormonal response that slows gastric emptying."
+          }
+        ],
+        "ok_title": "Fat slows emptying",
+        "ok_line": "Fat keeps food longer in the stomach.",
+        "ko_title": "Not from chewing",
+        "ko_line": "The delay happens in the stomach.",
+        "exp_title": "Fat and stomach emptying",
+        "exp_text": "When fat reaches the small intestine, it signals back to the stomach to slow down its contractions. This gives the digestive system more time to process the fatty meal, so the stomach feels full longer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of the kidneys in keeping the body's water at the right level?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They store extra water and release it when needed",
+            "feedback": "Kidneys don't store water; they regulate how much water leaves the body in urine."
+          },
+          {
+            "label": "They add water to the blood when it becomes too concentrated",
+            "feedback": "Kidneys can't add water; they adjust water loss to balance the concentration, but the water must come from drinking."
+          },
+          {
+            "label": "They adjust how much water is removed from the blood to make urine",
+            "feedback": "Correct. When water is low, the kidneys reabsorb more water back into the blood, producing less but more concentrated urine."
+          },
+          {
+            "label": "They produce hormones that tell the brain to stop feeling thirsty",
+            "feedback": "The kidneys don't stop thirst; they conserve water, but the thirst signal comes from the brain."
+          }
+        ],
+        "ok_title": "Kidneys balance water",
+        "ok_line": "They control water loss in urine.",
+        "ko_title": "No storage or production",
+        "ko_line": "Kidneys regulate, not store or add water.",
+        "exp_title": "Kidney water regulation",
+        "exp_text": "The kidneys filter the blood and produce urine. They can reabsorb more or less water depending on the body's needs, so when you're dehydrated, they hold back water and you make less urine."
+      }
+    ]
+  }
+]

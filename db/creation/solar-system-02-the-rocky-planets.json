@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 182,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why did Mercury, Venus, Earth and Mars end up made of rock and metal instead of ice or gas?",
+        "body": null,
+        "options": [
+          {
+            "label": "They formed after the gas giants and had first pick of the leftover metal",
+            "feedback": "The inner and outer planets formed around the same time, from the same original disk, not one after another."
+          },
+          {
+            "label": "Their gravity is too weak to hold onto gas",
+            "feedback": "A planet's early gravity isn't the limit here — even a weak-gravity world couldn't have collected gas that was never cold enough to condense nearby in the first place."
+          },
+          {
+            "label": "They formed close to the young Sun, where only metal and rock stayed solid enough to condense",
+            "feedback": "So close to the Sun's heat, ice and gas could never condense into solid material, and only metal and rock stayed solid enough to clump together, so that's all the inner planets could ever be built from."
+          },
+          {
+            "label": "The solar wind blew all the gas away from them",
+            "feedback": "The solar wind does strip loose gas over time, but it isn't what decided their makeup — they were built from solids that had already condensed near the Sun before any wind swept through."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Only what could survive the heat",
+        "ok_line": "Rock and metal held their shape near the Sun; nothing else did.",
+        "ko_title": "Not order, not weak gravity, not wind",
+        "ko_line": "It comes down to what could stay solid that close to the Sun.",
+        "exp_title": "Built from what could stay solid",
+        "exp_text": "Close to the young Sun, temperatures were far too high for ice or gas to condense into solid grains, so only metal and rock, which stay solid at much higher temperatures, could clump together there. Everything the inner planets are made of had to be something that could survive that heat as a solid in the first place."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Mercury swing between blistering heat and freezing cold between its day and night sides?",
+        "body": null,
+        "options": [
+          {
+            "label": "It has essentially no atmosphere to trap heat or spread it around",
+            "feedback": "An atmosphere normally absorbs heat during the day and releases it slowly overnight; with next to none, Mercury has no blanket of gas to even out the swing."
+          },
+          {
+            "label": "It spins so fast that neither side has time to warm up or cool down",
+            "feedback": "Mercury actually spins very slowly on its axis; a fast spin would smooth out temperature swings, not cause them."
+          },
+          {
+            "label": "Its orbit brings it extremely close to the Sun only during the day",
+            "feedback": "Mercury's distance from the Sun barely changes between its day and night; the swing is about whether sunlight is hitting a spot, not a changing distance."
+          },
+          {
+            "label": "Ice at its poles cools the whole planet at night",
+            "feedback": "The small patches of ice sitting in permanently shadowed craters near Mercury's poles are far too limited to cool an entire planet each night."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "No blanket",
+        "ok_line": "Nothing to hold the heat in or spread it around.",
+        "ko_title": "Not spin, not distance, not ice",
+        "ko_line": "The swing comes from what's missing overhead: an atmosphere.",
+        "exp_title": "No air to even things out",
+        "exp_text": "An atmosphere normally acts like a blanket, absorbing heat during the day and releasing it slowly overnight so temperatures don't swing too wildly. Mercury has essentially no atmosphere to do that job, so its sunlit side heats directly under bare sunlight while its night side loses heat straight into space with nothing holding it back."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Venus's surface hotter than Mercury's, even though Venus is much farther from the Sun?",
+        "body": null,
+        "options": [
+          {
+            "label": "Venus's core produces far more internal heat",
+            "feedback": "Venus's internal heat is a minor contributor next to what its atmosphere traps; a bigger core alone wouldn't create this size of a temperature difference."
+          },
+          {
+            "label": "Venus spins faster, generating more friction-driven heat",
+            "feedback": "Venus actually spins extremely slowly, not fast, so speed of rotation isn't producing extra heat."
+          },
+          {
+            "label": "Mercury's proximity to the Sun is offset by strong winds that cool its surface",
+            "feedback": "Mercury has essentially no atmosphere and so no winds at all to cool anything."
+          },
+          {
+            "label": "Venus's thick carbon dioxide atmosphere traps heat in a runaway greenhouse effect",
+            "feedback": "Venus's atmosphere is overwhelmingly carbon dioxide and far denser than Earth's, and that gas traps incoming sunlight as heat until the surface reaches an extreme temperature, well past anything Mercury's bare, airless surface manages despite sitting closer to the Sun."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "The blanket, not the distance",
+        "ok_line": "A thick enough atmosphere beats being close to the Sun.",
+        "ko_title": "Not spin, not core, not wind",
+        "ko_line": "Distance from the Sun isn't what's deciding this one — what's overhead is.",
+        "exp_title": "A blanket thick enough to overpower distance",
+        "exp_text": "Venus's atmosphere is so thick and so dominated by carbon dioxide that it traps far more of the Sun's incoming heat than it lets escape, and the trapped heat keeps building until the planet radiates it away just as fast as it arrives, at a temperature far higher than sunlight alone would produce. Mercury, despite receiving stronger sunlight from being nearer the Sun, has essentially no atmosphere to trap any of that heat, so its surface has nothing holding warmth in place after dark."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Mars appear red when viewed from Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its thick clouds scatter red light the way Earth's sky scatters blue",
+            "feedback": "Mars has a very thin atmosphere with few clouds; its colour comes from the ground, not from light scattering in a thick sky."
+          },
+          {
+            "label": "Iron minerals in its surface dust have rusted, oxidizing over a very long time",
+            "feedback": "Dust across Mars's surface is rich in iron, and over an immense span of time that iron has reacted with tiny amounts of oxygen to form iron oxide, the same reddish compound as rust on Earth."
+          },
+          {
+            "label": "Its surface is covered in red volcanic glass from ancient eruptions",
+            "feedback": "Volcanic rock on Mars is mostly dark basalt, not red glass; the red colour is a surface coating, not the rock underneath."
+          },
+          {
+            "label": "Its thin atmosphere lets through mostly red sunlight",
+            "feedback": "The sunlight reaching Mars is much the same mix of colours it is anywhere in the solar system; the atmosphere isn't filtering it down to red."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Rust, on a planetary scale",
+        "ok_line": "Iron plus oxygen, given enough time, turns red.",
+        "ko_title": "Not clouds, not glass, not filtered light",
+        "ko_line": "The colour is a chemical change in the surface dust itself.",
+        "exp_title": "A rusted world",
+        "exp_text": "Mars's surface dust is loaded with iron, and over a vast span of time that iron has slowly combined with the small amounts of oxygen available, forming iron oxide, the compound better known as rust. That reddish dust coats rocks and drifts across the whole planet, which is why Mars looks red from space long before a lander ever reaches its surface."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why did Mars lose most of its original atmosphere over time while Earth kept most of its own?",
+        "body": null,
+        "options": [
+          {
+            "label": "Mars is smaller, so its gravity could never hold gas in the first place",
+            "feedback": "Mars's gravity is weaker than Earth's but still strong enough to hold heavier gases for a very long time; weak gravity alone isn't the main story here."
+          },
+          {
+            "label": "Volcanic eruptions on Mars stopped producing gas early on",
+            "feedback": "Mars's early volcanoes did add gas to its atmosphere the way Earth's did; the difference isn't in how the gas got there but in what happened to it afterward."
+          },
+          {
+            "label": "Its core cooled and its magnetic field faded, leaving the atmosphere exposed to the solar wind, which stripped it away",
+            "feedback": "Mars's core cooled and largely solidified early in its history, and without a churning molten interior it stopped generating a global magnetic field, which is what normally deflects the solar wind."
+          },
+          {
+            "label": "Comet impacts blasted the atmosphere off into space",
+            "feedback": "Impacts do erode a little atmosphere at the moment of collision, but they're far too rare and small an effect to account for the loss of nearly a whole atmosphere over time."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Lost its shield",
+        "ok_line": "No magnetic field, nothing left to deflect the solar wind.",
+        "ko_title": "Not size, not volcanoes, not comets",
+        "ko_line": "What changed was the planet's protection, not how the gas got there.",
+        "exp_title": "Stripped once the shield went out",
+        "exp_text": "A planet's magnetic field, generated deep inside by a moving molten core, deflects the stream of charged particles constantly blowing outward from the Sun, keeping them from reaching the upper atmosphere directly. Mars's smaller core cooled and solidified far sooner than Earth's, its field faded, and without that shield the solar wind has been steadily stripping gas from its atmosphere into space ever since."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a single day on Venus, from sunrise to sunrise, actually last longer than its entire year around the Sun?",
+        "body": null,
+        "options": [
+          {
+            "label": "Venus spins on its axis extremely slowly, and in the opposite direction to most planets",
+            "feedback": "Venus rotates on its axis so slowly that a single spin takes longer than the time it needs to circle the Sun, and it spins backwards from most planets besides."
+          },
+          {
+            "label": "Venus takes a very roundabout, looping path around the Sun that takes far longer to complete",
+            "feedback": "Venus's path around the Sun is direct and fairly quick, one of the shorter years of any planet; the length problem is with its spin, not its orbital path."
+          },
+          {
+            "label": "Its thick clouds block sunlight so completely that day and night barely differ",
+            "feedback": "Thick clouds do dim the light reaching the surface, but that changes how bright the day looks, not how long it lasts."
+          },
+          {
+            "label": "It is tidally locked, so the same face always points at the Sun",
+            "feedback": "A fully locked planet would have no day-night cycle at all rather than an extremely long one; Venus does still slowly rotate, just very slowly and backwards."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Spinning that slowly",
+        "ok_line": "A backward, sluggish spin outruns the whole orbit.",
+        "ko_title": "Not the path, not the clouds, not fully locked",
+        "ko_line": "It's the spin on its own axis that's the strange part, not the trip around the Sun.",
+        "exp_title": "A spin slower than the orbit",
+        "exp_text": "Venus circles the Sun a good deal faster than it turns on its own axis, and it turns backwards compared with most other planets besides, likely the result of a slow tidal drag between the Sun and its thick, heavy atmosphere acting on the planet over a very long stretch of time. Because completing one full spin takes longer than completing one full orbit, sunrise to sunrise on Venus outlasts a full trip around the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Earth have active plate tectonics — its crust cracked into moving plates — when the other rocky planets don't?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's crust is thinner than the crust of any other rocky planet",
+            "feedback": "Earth's crust isn't unusually thin; the difference isn't primarily about thickness."
+          },
+          {
+            "label": "Earth is closer to the Sun, and heat from sunlight softens its crust",
+            "feedback": "Sunlight only warms the very top of the surface; it never penetrates deep enough to affect a rigid crust or the mantle beneath it."
+          },
+          {
+            "label": "Earth's Moon pulls on the crust and cracks it apart",
+            "feedback": "Tides raised by the Moon flex the oceans and, to a tiny degree, the crust, but nowhere near enough force to drive plates apart over geological time."
+          },
+          {
+            "label": "Earth still has enough internal heat to churn its mantle, and water helps lubricate the plates so they can slide",
+            "feedback": "Underneath Earth's crust, the mantle is hot enough to slowly churn like thick syrup on a stove, dragging the broken plates above it along for the ride, and water worked down into the rock helps them slide against each other rather than locking in place."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Heat below, water in between",
+        "ok_line": "A churning mantle and slippery rock make the plates move.",
+        "ko_title": "Not thickness, not sunlight, not the Moon",
+        "ko_line": "What drives plates is happening deep inside the planet, not at the surface.",
+        "exp_title": "A churning interior with slippery seams",
+        "exp_text": "Deep inside Earth, leftover heat from formation and ongoing radioactive decay keeps the mantle soft enough to slowly flow, and that flow drags the rigid plates of crust above it along, spreading some apart and pushing others together. Water that has soaked down into the rock along plate edges acts almost like a lubricant, letting the plates grind past each other instead of locking solid, a combination the other rocky planets don't share."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Mercury's surface still covered in ancient impact craters that have barely changed over time?",
+        "body": null,
+        "options": [
+          {
+            "label": "New craters keep forming there far more often than anywhere else",
+            "feedback": "A high rate of new impacts wouldn't explain why old craters stay sharp; it would just add fresh ones on top."
+          },
+          {
+            "label": "It has no atmosphere or weather to erode craters, and no active plate movement to erase or bury them",
+            "feedback": "Mercury has no wind, no rain and no flowing water to slowly wear a crater's edges down, and it also has no shifting plates or ongoing volcanic resurfacing to bury old scars under new material."
+          },
+          {
+            "label": "Its extreme heat bakes the craters permanently into the rock",
+            "feedback": "Heat alone doesn't fix a shape in place; craters on any airless rocky body stay sharp mainly because nothing is wearing them down or covering them up."
+          },
+          {
+            "label": "Its gravity is too weak to let debris ever settle back into the craters",
+            "feedback": "Mercury's gravity is perfectly capable of holding debris in place; craters look preserved not because material can't settle, but because nothing is actively wearing them away."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Nothing to wear them down",
+        "ok_line": "No wind, no rain, no plates — nothing erases the scars.",
+        "ko_title": "Not more impacts, not heat, not weak gravity",
+        "ko_line": "It's the absence of erosion and resurfacing that preserves the craters.",
+        "exp_title": "A record no one has erased",
+        "exp_text": "Wearing a crater away takes something actively working on it — wind, rain, flowing water, or a crust that keeps recycling itself through plate movement and volcanic activity — and Mercury has none of those processes running today. A crater blasted into its surface long ago is left almost untouched afterward, since nothing on the planet is smoothing it over or covering it with fresh rock."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do Mars's two small moons, Phobos and Deimos, look like lumpy potatoes rather than round like Earth's Moon?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are far too small for their own gravity to pull them into a sphere, and were likely captured passing asteroids",
+            "feedback": "A body needs a certain amount of mass before its own gravity is strong enough to overpower the rock's own strength and pull it into a sphere, and both of Mars's moons fall well short of that."
+          },
+          {
+            "label": "They are made of a much stronger rock that resists being rounded",
+            "feedback": "Rock strength isn't unusual on these moons; the shape comes down to how little gravity a small body has to work with, not what the rock is made of."
+          },
+          {
+            "label": "Mars's gravity keeps stretching them into irregular shapes",
+            "feedback": "A planet's gravity can raise tidal bulges but doesn't randomly deform a moon into a lumpy shape; the irregular shape is simply how the body formed and has stayed."
+          },
+          {
+            "label": "They formed very recently and haven't had time to round out yet",
+            "feedback": "A body only rounds out once its own gravity is strong enough to reshape it; extra time alone would not round out a body this small."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Too small to round out",
+        "ok_line": "Not enough gravity to overpower the rock's own strength.",
+        "ko_title": "Not strength, not stretching, not youth",
+        "ko_line": "What decides roundness is a body's own mass and gravity, nothing else.",
+        "exp_title": "Too little gravity to smooth themselves out",
+        "exp_text": "Rounding a body into a sphere takes enough of its own gravity to overpower the rigidity of its rock, crushing bumps and filling hollows, and that only happens once a body reaches a certain size. Phobos and Deimos are far too small to have ever crossed that threshold, so they have kept the irregular, lumpy shape typical of the asteroids they likely once were, before Mars's gravity caught them into orbit."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is Mercury, though barely bigger than the Moon, packed with proportionally far more metal than Earth or Venus?",
+        "body": null,
+        "options": [
+          {
+            "label": "It formed entirely from metal-rich material with no rock at all",
+            "feedback": "Mercury did originally form with a rocky outer layer like the other inner planets; the puzzle is why so little of that rock remains, not that it never existed."
+          },
+          {
+            "label": "Its strong gravity crushed its rock into a denser form",
+            "feedback": "Mercury's gravity is actually the weakest among the rocky planets; it isn't strong enough to compress rock into a denser state."
+          },
+          {
+            "label": "A massive early collision is thought to have blasted away much of its rocky outer layer, leaving a proportionally oversized metal core behind",
+            "feedback": "Mercury likely formed with a rocky mantle proportioned much like Earth's or Venus's, but an enormous collision early in its history is thought to have stripped away much of that outer rock, leaving the dense core behind."
+          },
+          {
+            "label": "It cooled faster than the other planets, which concentrated its metal at the centre",
+            "feedback": "Cooling speed changes how fast a molten planet separates into layers, not how much metal it ends up with overall; it wouldn't shrink away the rocky layer."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A planet that lost its shell",
+        "ok_line": "The core stayed; much of the rock around it didn't.",
+        "ko_title": "Not born that way, not crushing, not cooling",
+        "ko_line": "Something violent happened after Mercury first formed.",
+        "exp_title": "A core that survived a violent youth",
+        "exp_text": "Mercury is thought to have started out with a rocky mantle wrapped around its metal core in proportions closer to Earth's, but a giant impact early in the solar system's history is believed to have blasted away much of that outer rocky shell while the dense core survived intact. What remained afterward was a small planet built from a nearly full-sized core wrapped in only a thin remaining layer of rock."
+      }
+    ]
+  }
+]

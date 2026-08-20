@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What causes the rumbling, growling sound of an empty stomach?",
+        "body": null,
+        "options": [
+          {
+            "label": "Muscles in the empty stomach contracting and squeezing air and fluid inside it",
+            "feedback": "With no food to muffle them, those regular contractions squeeze air and fluid, and the movement is what's heard."
+          },
+          {
+            "label": "Air escaping from the lungs into the stomach through a shared passage",
+            "feedback": "The airway and the gut are separate tubes once past the throat, kept apart by the epiglottis; air from the lungs has no route into the stomach."
+          },
+          {
+            "label": "Bacteria in the stomach producing gas rapidly when it is empty",
+            "feedback": "The stomach's acid keeps its own bacterial population very low; the sound isn't coming from gas produced by bacteria there."
+          },
+          {
+            "label": "Nerves misfiring as they signal hunger to the brain",
+            "feedback": "Nerve signals to the brain don't produce a sound anyone else could hear; the noise itself comes from something physically moving inside the stomach."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Muscle, air and fluid, with nothing to muffle it.",
+        "ko_title": "Not the source",
+        "ko_line": "Ask what's physically making noise, rather than what's sending a signal.",
+        "exp_title": "An empty stomach still keeps moving",
+        "exp_text": "The stomach's muscular walls keep contracting in waves on a regular rhythm whether or not there is food inside, and with an empty stomach there is nothing soft to muffle those contractions. Air and fluid left inside get squeezed and churned by the moving walls, and the sound of that movement is what's heard as rumbling or growling."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is it the brain, rather than the stomach itself, that ultimately decides when a person feels hungry?",
+        "body": null,
+        "options": [
+          {
+            "label": "The stomach has no nerves at all, so it cannot register anything",
+            "feedback": "The stomach does have nerves able to detect stretching and send signals; the reason the brain decides isn't that the stomach can't sense anything at all."
+          },
+          {
+            "label": "Hunger is triggered purely by how long ago the last meal was eaten",
+            "feedback": "Timing alone doesn't determine hunger; two people who ate the same meal at the same time can still feel hungry at different points, because the brain is weighing more than a clock."
+          },
+          {
+            "label": "The stomach makes the decision and simply reports it to the brain afterward",
+            "feedback": "That has the order backwards; the stomach's signals are only one input among several that the brain gathers before producing the feeling of hunger."
+          },
+          {
+            "label": "A region of the brain gathers signals from across the body, including hormones and blood nutrient levels, and produces the feeling of hunger",
+            "feedback": "That region combines gut hormones and circulating nutrient levels with other signals to produce the sensation of hunger."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "One region, weighing many signals, not just one organ's opinion.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about how many different signals, not just from the stomach, would have to be combined to judge hunger accurately.",
+        "exp_title": "A feeling built from many signals",
+        "exp_text": "A region of the brain called the hypothalamus continuously receives signals from around the body, including hormones released by the gut and fat tissue, and the level of nutrients circulating in the blood. It combines all of that information to produce the sensation of hunger, which is why hunger can be influenced by far more than simply how full the stomach happens to be at that moment."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What tells the brain that the stomach has had enough food and it's time to stop eating?",
+        "body": null,
+        "options": [
+          {
+            "label": "The mouth counts how many times it has chewed",
+            "feedback": "Chewing itself isn't counted or tracked by the body as a way of judging fullness; the signal for fullness comes from further along, not from the number of chews."
+          },
+          {
+            "label": "Stretch receptors in the stomach wall, along with hormones released as food arrives, signal fullness to the brain",
+            "feedback": "As the stomach fills and stretches, nerve endings and gut hormones together report that fullness to the brain."
+          },
+          {
+            "label": "The esophagus closes once a fixed amount of food has passed through it",
+            "feedback": "The esophagus doesn't track or limit the total amount eaten over a meal; it simply carries each swallow through, one at a time."
+          },
+          {
+            "label": "Blood sugar rises the moment food is swallowed",
+            "feedback": "Blood sugar doesn't rise the instant food is swallowed; it takes time for food to be digested and absorbed before it affects blood sugar at all, so it can't be the immediate signal to stop eating."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "Stretch and hormones together, not a single switch.",
+        "ko_title": "Not the signal",
+        "ko_line": "Think about what changes physically in the stomach and gut as a meal is eaten, in real time.",
+        "exp_title": "A message sent as the stomach fills",
+        "exp_text": "As the stomach fills with food, its wall stretches, and nerve endings sensitive to that stretch send signals to the brain reporting how full it has become. At the same time, hormones released from the gut once food starts arriving add a further signal, and together these tell the brain that enough has been eaten and it's time to stop."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can eating quickly lead to eating more than intended, even though the person doesn't feel hungry any more once they stop?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fast eating produces weaker stretch signals from the stomach",
+            "feedback": "The stomach stretches by the same amount regardless of how quickly the food arrived; eating fast doesn't weaken the stretch signal itself."
+          },
+          {
+            "label": "Chewing quickly destroys the hormones that signal fullness",
+            "feedback": "Chewing doesn't interact with hormones at all; fullness hormones are released later, from the gut, well after chewing has finished."
+          },
+          {
+            "label": "The signal that the brain has had enough takes some time to arrive, so eating fast outpaces it",
+            "feedback": "More food can go in during that delay at a fast pace than would go in at a slower one, before the fullness signal lands."
+          },
+          {
+            "label": "Fast eating sends the fullness signal to the wrong part of the brain",
+            "feedback": "The signal still reaches the same region of the brain regardless of eating speed; the problem with eating fast isn't about where the signal goes, but when it arrives."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "The warning arrives late, and fast eating outruns it.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about timing: how long a signal takes to travel and register, compared with how fast the meal is going in.",
+        "exp_title": "A warning that arrives after the fact",
+        "exp_text": "The signals that tell the brain a meal has been enough, from stomach stretch and from hormones released by the gut, take a while to build up and register once eating has started. Eating quickly means a lot more food can go in during that delay than would have gone in at a slower pace, so by the time the fullness signal finally lands, more has already been eaten than was needed."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the mouth feel dry when someone is thirsty?",
+        "body": null,
+        "options": [
+          {
+            "label": "With less water available in the body, the glands that produce saliva make less of it",
+            "feedback": "Saliva is made mostly of water drawn from the body's own fluids, so those glands produce less when water is short."
+          },
+          {
+            "label": "Thirst directly numbs the nerves that sense moisture in the mouth",
+            "feedback": "Thirst doesn't act on nerves to numb sensation; the dry feeling comes from an actual drop in how much saliva is present, not from numbness."
+          },
+          {
+            "label": "The tongue absorbs saliva faster when the body needs water",
+            "feedback": "The tongue doesn't draw saliva out of itself faster; saliva production happens in separate glands, and it's their output that drops."
+          },
+          {
+            "label": "Breathing through the mouth increases during thirst, drying it out",
+            "feedback": "How someone breathes doesn't change simply because they're thirsty; the dryness comes from reduced saliva production, not from a change in breathing pattern."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Less water in the body, less saliva made from it.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about where saliva actually comes from, and what it's made mostly of.",
+        "exp_title": "Less water in, less saliva out",
+        "exp_text": "Saliva is made mostly of water, produced continuously by glands around the mouth using water drawn from the body's own fluids. When the body is short on water, those glands produce less saliva than usual, and the resulting dryness is itself one of the signals that prompts a person to drink."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What in the brain detects that the blood has become too concentrated, with too little water in it, and triggers the feeling of thirst?",
+        "body": null,
+        "options": [
+          {
+            "label": "Nerve endings in the throat that dry out first",
+            "feedback": "A dry throat can add to the feeling of thirst, but the initial trigger for thirst comes from something detecting the blood's own concentration, not from dryness in the throat itself."
+          },
+          {
+            "label": "Taste buds on the tongue that sense saltiness rising",
+            "feedback": "Taste buds respond to substances actually touching the tongue, not to the concentration of the blood circulating deep inside the body."
+          },
+          {
+            "label": "Pressure sensors in the stomach wall",
+            "feedback": "The stomach's pressure sensors respond to how full or stretched it is, which relates to fullness, not to the concentration of the blood."
+          },
+          {
+            "label": "Specialised cells in the brain that sense the concentration of the blood passing through",
+            "feedback": "Those cells sit close to tiny blood vessels and respond directly to changes in how concentrated the passing blood has become."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Exactly",
+        "ok_line": "Cells reading the blood itself, not a symptom of it.",
+        "ko_title": "Not the detector",
+        "ko_line": "Ask what's actually built to sense how concentrated the blood has become, rather than something affected as a side effect.",
+        "exp_title": "Cells that read the blood directly",
+        "exp_text": "A region of the brain contains specialised cells that sit close to tiny blood vessels and respond directly to how concentrated the blood passing through them has become. When the body has lost water and the blood grows more concentrated than usual, those cells detect the change and trigger the sensation of thirst, prompting the search for something to drink."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a person often start to feel hungry again a few hours after finishing a large meal?",
+        "body": null,
+        "options": [
+          {
+            "label": "The stomach signals hunger the moment it is completely empty of food",
+            "feedback": "An empty stomach alone doesn't immediately trigger hunger; the timing of hunger is tied more closely to what's happening with blood sugar and stored energy than to the stomach being literally empty."
+          },
+          {
+            "label": "Blood sugar from the meal gradually gets used up or stored away, and its drop helps trigger hunger again",
+            "feedback": "As blood sugar from the meal falls back down, the signals that had been suppressing hunger fade and hunger returns."
+          },
+          {
+            "label": "The body forgets that a meal was eaten after a fixed amount of time",
+            "feedback": "The body doesn't work on a memory-based timer for meals; hunger is triggered by ongoing changes in the body's internal signals, not by forgetting."
+          },
+          {
+            "label": "Hormones released during the first meal actively block hunger only for a set number of hours",
+            "feedback": "There's no fixed countdown hormone that simply switches off after a set time; the return of hunger tracks how the body's nutrient and hormone levels actually change as the meal is used up."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Hunger returns as the meal's sugar is spent, not on a clock.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what's happening to the nutrients from that meal, hour by hour, after it's eaten.",
+        "exp_title": "Hunger returns as the fuel runs down",
+        "exp_text": "After a meal, sugar absorbed from it raises the level circulating in the blood, and the body's cells gradually use that sugar for energy or store the surplus away. As that level falls back down, the signals that had been suppressing hunger fade, and the brain's hunger centre responds by producing the feeling of hunger once again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can drinking a large glass of water sometimes temporarily take the edge off hunger, even though water has no nutrients?",
+        "body": null,
+        "options": [
+          {
+            "label": "Water reacts chemically with stomach acid to produce a feeling of fullness",
+            "feedback": "Water doesn't need to react chemically with anything to produce this effect; the sensation comes from something purely physical happening in the stomach."
+          },
+          {
+            "label": "Water is converted into sugar by the stomach, briefly raising blood sugar",
+            "feedback": "The stomach has no way to convert water into sugar; water stays water as it passes through, with nothing to raise blood sugar."
+          },
+          {
+            "label": "The stomach's stretch receptors respond to any volume filling it, food or otherwise",
+            "feedback": "Those receptors respond simply to how much the stomach has expanded, without distinguishing between food and any other liquid."
+          },
+          {
+            "label": "Water blocks the hormone that normally signals hunger",
+            "feedback": "Water doesn't interact with or block hunger-signalling hormones directly; the effect it has comes from something more immediate and physical."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Exactly",
+        "ok_line": "Volume is volume, whatever it's made of.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what the stomach's stretch receptors actually respond to: what's in the stomach, or what it's made of.",
+        "exp_title": "A stretch receptor that doesn't care what's stretching it",
+        "exp_text": "The stretch receptors in the stomach wall respond simply to how much the stomach has been filled and expanded, without distinguishing between food and any other liquid taking up that space. A large glass of water stretches the stomach much the way a meal would, sending a similar, though shorter-lived, fullness signal to the brain even though no nutrients have actually arrived."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the smell of a favourite meal, or even just thinking about it, make someone start salivating and feel hungrier before they've eaten anything?",
+        "body": null,
+        "options": [
+          {
+            "label": "The brain triggers digestive preparations in anticipation, based on a learned association with that smell",
+            "feedback": "The brain has learned to link that smell with food, and it triggers digestive responses in advance of any food arriving."
+          },
+          {
+            "label": "The smell itself contains tiny nutrient particles the body starts absorbing through the nose",
+            "feedback": "Smell involves detecting molecules in the air, not absorbing anything of nutritional value through the nose; nothing there provides the body with energy."
+          },
+          {
+            "label": "Hunger causes the sense of smell to become sharper, creating the illusion of a stronger response",
+            "feedback": "This describes hunger changing how smell is perceived, but the actual salivating and appetite response happens the other way round, starting from the smell or thought and acting on the digestive system, not from a sharpened sense of smell."
+          },
+          {
+            "label": "Saliva glands respond directly and automatically to any smell, regardless of what it is",
+            "feedback": "Saliva glands don't respond to smells indiscriminately; the response is tied to smells or thoughts already linked with food specifically, through learned association, not to smell in general."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "The brain gets a head start before any food arrives.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what the brain is doing in advance, based on something it has learned to associate with food.",
+        "exp_title": "Getting a head start before the first bite",
+        "exp_text": "Through repeated experience, the brain learns to associate certain smells, sights or thoughts with food that is about to be eaten, and it can trigger digestive responses in advance of any food actually arriving. That anticipation increases saliva production and nudges the sensation of hunger upward, preparing the body for a meal before the first bite has even been taken."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does someone typically feel thirsty only after they have already lost a fair amount of the body's water, rather than the moment water loss begins?",
+        "body": null,
+        "options": [
+          {
+            "label": "Thirst is triggered by a signal from the kidneys the instant any water is lost",
+            "feedback": "The kidneys do respond to changes in water balance, but thirst itself isn't triggered by an instant signal from them the moment even a small amount of water is lost."
+          },
+          {
+            "label": "The brain checks water levels only once a day, on a fixed schedule",
+            "feedback": "There's no daily checking schedule involved; thirst-related signals are monitored continuously, not at set intervals."
+          },
+          {
+            "label": "Thirst is delayed on purpose to prevent someone from drinking too much water",
+            "feedback": "There's no deliberate withholding involved here; the delay comes from how the detection itself works, not from a purpose of limiting how much is drunk."
+          },
+          {
+            "label": "The brain's thirst-detecting cells only respond once the blood's concentration has risen past a noticeable threshold",
+            "feedback": "Those cells only react once the concentration has shifted enough to be a clear, measurable change, not at the very first trace of loss."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Exactly",
+        "ok_line": "No alarm until the change is big enough to detect.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about how sensitive a detector has to be before it registers a change at all, rather than reacting to the very first trace of it.",
+        "exp_title": "An alarm that needs a real change to ring",
+        "exp_text": "The specialised cells in the brain that detect the blood's concentration only respond once that concentration has shifted enough to be a clear, measurable change, not at the very first trace of water loss. Because some water has to be lost before the concentration rises past that threshold, thirst tends to arrive a little after the body has already begun running short, rather than the instant water loss starts."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 251,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the state of reduced awareness and responsiveness from which a person can be roused?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sleep",
+            "feedback": "Correct. Sleep is a reversible state of lowered consciousness where the brain cycles through different stages."
+          },
+          {
+            "label": "Coma",
+            "feedback": "A coma is a prolonged state of deep unconsciousness from which a person cannot be roused, unlike normal sleep."
+          },
+          {
+            "label": "Hypnosis",
+            "feedback": "Hypnosis is a trance-like state induced by suggestion, not the natural nightly state of reduced awareness."
+          },
+          {
+            "label": "Meditation",
+            "feedback": "Meditation is a deliberate, alert state of focused attention, not the ordinary unconsciousness of sleep."
+          }
+        ],
+        "ok_title": "Sleep is reversible",
+        "ok_line": "Sleep is a state you can wake from.",
+        "ko_title": "Not a deep coma",
+        "ko_line": "Unlike coma, sleep always allows waking.",
+        "exp_title": "Defining sleep",
+        "exp_text": "Sleep is a natural, recurring state of reduced awareness and responsiveness that is easily reversed by stimuli like noise or light. This reversibility separates it from coma, where waking is not possible."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which stage of sleep do the eyes dart rapidly back and forth and vivid dreaming typically occurs?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Light sleep",
+            "feedback": "Light sleep is the early stage where you drift in and out; dreaming is rare and not vivid here."
+          },
+          {
+            "label": "Deep sleep",
+            "feedback": "Deep sleep has slow brain waves and little dreaming; it is for physical restoration."
+          },
+          {
+            "label": "REM sleep",
+            "feedback": "Correct. REM stands for rapid eye movement, and this stage is when the most vivid dreams happen."
+          },
+          {
+            "label": "NREM sleep",
+            "feedback": "NREM sleep includes light and deep stages, where dreams are less vivid and eyes are still."
+          }
+        ],
+        "ok_title": "REM means dreaming",
+        "ok_line": "Rapid eye movements mark the dreaming stage.",
+        "ko_title": "Not the calm stages",
+        "ko_line": "Light and deep sleep lack that eye motion.",
+        "exp_title": "REM sleep basics",
+        "exp_text": "REM sleep is named for the rapid back-and-forth movements of the eyes under closed lids. It is the stage with the most intense and story-like dreams, while NREM stages have little or no vivid dreaming."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the body's muscles during the REM stage of sleep?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They stay fully tense and ready to move",
+            "feedback": "Muscles are not tense in REM; they are actively relaxed to prevent acting out dreams."
+          },
+          {
+            "label": "They go limp and relaxed",
+            "feedback": "Correct. In REM, the body is essentially paralysed so that you don't physically act out your dreams."
+          },
+          {
+            "label": "They twitch randomly in all directions",
+            "feedback": "Twitches do occur briefly, but the overall state is limp, not random movement."
+          },
+          {
+            "label": "They stiffen to keep you upright",
+            "feedback": "You are lying down during sleep, so muscles do not need to hold posture; they relax instead."
+          }
+        ],
+        "ok_title": "REM body is limp",
+        "ok_line": "Muscles relax during vivid dreams.",
+        "ko_title": "Not for moving",
+        "ko_line": "The body stays still to protect the dream.",
+        "exp_title": "Muscle paralysis in REM",
+        "exp_text": "During REM sleep, the brain sends signals that inhibit motor neurons, making the limbs and trunk limp. This temporary paralysis prevents a person from physically acting out the vivid dreams unfolding in the mind."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain is most active in generating and controlling the sleep-wake cycle?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The cerebellum",
+            "feedback": "The cerebellum coordinates movement and balance, not the timing of sleep."
+          },
+          {
+            "label": "The occipital lobe",
+            "feedback": "The occipital lobe processes vision, not sleep regulation."
+          },
+          {
+            "label": "The frontal lobe",
+            "feedback": "The frontal lobe handles reasoning and planning, not the basic sleep-wake rhythm."
+          },
+          {
+            "label": "The hypothalamus",
+            "feedback": "Correct. The hypothalamus contains clusters of neurons that act as the brain's internal clock, promoting wakefulness or sleep."
+          }
+        ],
+        "ok_title": "Hypothalamus sets the clock",
+        "ok_line": "The hypothalamus drives when you sleep.",
+        "ko_title": "Not for movement or vision",
+        "ko_line": "Cerebellum and lobes have other jobs.",
+        "exp_title": "The brain's sleep centre",
+        "exp_text": "The hypothalamus, a small region deep in the brain, contains the suprachiasmatic nucleus that responds to light and directs the release of melatonin, regulating when the body feels sleepy or alert."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What chemical substance builds up in the brain during waking hours and promotes the urge to sleep?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Adenosine",
+            "feedback": "Correct. Adenosine accumulates as the brain uses energy and increases sleep pressure, making you feel drowsy."
+          },
+          {
+            "label": "Melatonin",
+            "feedback": "Melatonin is released in response to darkness to signal bedtime, but it does not build up from being awake."
+          },
+          {
+            "label": "Serotonin",
+            "feedback": "Serotonin is involved in mood and also in sleep regulation, but it does not accumulate as a wakefulness byproduct."
+          },
+          {
+            "label": "Dopamine",
+            "feedback": "Dopamine relates to reward and motivation, not to the buildup of sleepiness."
+          }
+        ],
+        "ok_title": "Adenosine builds sleepiness",
+        "ok_line": "Adenosine rises the longer you stay awake.",
+        "ko_title": "Melatonin is for darkness",
+        "ko_line": "Melatonin signals night, not wake-time buildup.",
+        "exp_title": "Sleep pressure chemical",
+        "exp_text": "Adenosine is a byproduct of energy use in brain cells. As it accumulates during the day, it binds to receptors that promote drowsiness; sleep clears it out, restoring alertness."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the biological rhythm that repeats roughly every 24 hours and regulates the sleep-wake cycle?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Ultradian rhythm",
+            "feedback": "Ultradian rhythms are shorter than 24 hours, like the 90-minute sleep cycles, not the daily one."
+          },
+          {
+            "label": "Infradian rhythm",
+            "feedback": "Infradian rhythms last longer than a day, such as monthly cycles, not the daily one."
+          },
+          {
+            "label": "Circadian rhythm",
+            "feedback": "Correct. Circadian means 'about a day' and it is the internal clock that drives sleep and wakefulness."
+          },
+          {
+            "label": "Biorhythm",
+            "feedback": "Biorhythm is a vague everyday term, not the precise scientific name for the daily cycle."
+          }
+        ],
+        "ok_title": "Circadian rhythm is daily",
+        "ok_line": "The 24-hour clock shapes when you sleep.",
+        "ko_title": "Not shorter or longer cycles",
+        "ko_line": "Ultradian and infradian have other lengths.",
+        "exp_title": "The daily body clock",
+        "exp_text": "The circadian rhythm is an internal cycle lasting about 24 hours, set by the suprachiasmatic nucleus in the hypothalamus. It synchronises sleep and wakefulness with the day-night cycle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which small gland in the brain releases melatonin to help induce sleep when it gets dark?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The pituitary gland",
+            "feedback": "The pituitary is the master gland for hormones like growth, not specifically melatonin for sleep."
+          },
+          {
+            "label": "The pineal gland",
+            "feedback": "Correct. The pineal gland produces melatonin in response to darkness, signalling the body that it is time to sleep."
+          },
+          {
+            "label": "The thyroid gland",
+            "feedback": "The thyroid regulates metabolism, not the sleep-wake cycle."
+          },
+          {
+            "label": "The adrenal gland",
+            "feedback": "The adrenal glands release stress hormones like cortisol, not melatonin."
+          }
+        ],
+        "ok_title": "Pineal makes melatonin",
+        "ok_line": "The pineal gland answers darkness with melatonin.",
+        "ko_title": "Not a hormone master",
+        "ko_line": "Pituitary, thyroid, and adrenals do other jobs.",
+        "exp_title": "Melatonin source",
+        "exp_text": "The pineal gland, located in the centre of the brain, synthesises melatonin when light levels drop. Melatonin then acts on the hypothalamus to promote drowsiness and prepare for sleep."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for the temporary inability to move or speak that can happen just as a person is falling asleep or waking up?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sleepwalking",
+            "feedback": "Sleepwalking involves moving around while asleep, the opposite of being unable to move."
+          },
+          {
+            "label": "Night terror",
+            "feedback": "Night terrors are episodes of screaming and fear during deep sleep, not muscle paralysis."
+          },
+          {
+            "label": "Sleep apnea",
+            "feedback": "Sleep apnea is a breathing disorder where breathing stops during sleep, not a paralysis of movement."
+          },
+          {
+            "label": "Sleep paralysis",
+            "feedback": "Correct. Sleep paralysis is the brief loss of muscle control when the REM paralysis lingers into wakefulness or sleep onset."
+          }
+        ],
+        "ok_title": "Paralysis at the edge",
+        "ok_line": "Your body stays asleep while your mind wakes.",
+        "ko_title": "Not movement or breathing",
+        "ko_line": "Walking, night terrors, and apnea are different.",
+        "exp_title": "Brief inability to move",
+        "exp_text": "Sleep paralysis happens when you become conscious but the REM sleep muscle inhibition is still active. It lasts a few seconds to a minute and is harmless, though startling."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which stage of sleep does the brain most actively consolidate and strengthen memories from the day?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Deep slow-wave sleep",
+            "feedback": "Correct. Deep sleep is when the hippocampus replays and integrates new information into long-term memory."
+          },
+          {
+            "label": "REM sleep",
+            "feedback": "REM sleep is more involved in emotional processing and creativity, not mainly memory consolidation of facts."
+          },
+          {
+            "label": "Light sleep",
+            "feedback": "Light sleep is a transition stage with minimal memory processing."
+          },
+          {
+            "label": "All stages equally",
+            "feedback": "Stages are not equal; deep sleep is the primary time for strengthening factual memories."
+          }
+        ],
+        "ok_title": "Deep sleep stores memories",
+        "ok_line": "Slow waves lock in what you learned.",
+        "ko_title": "REM is for emotion",
+        "ko_line": "REM handles feelings, not the main storage.",
+        "exp_title": "Memory consolidation in deep sleep",
+        "exp_text": "During deep slow-wave sleep, brain waves become slow and synchronized, and the hippocampus replays the day's experiences, transferring them to the cortex for long-term storage. This is why poor deep sleep impairs memory."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the most common cause of a person waking up several times during the night without fully realising it?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Nightmares",
+            "feedback": "Nightmares are vivid bad dreams that wake a person fully, but most nighttime awakenings are not from nightmares."
+          },
+          {
+            "label": "External noise",
+            "feedback": "Loud noises can wake you, but the normal pattern includes brief micro-awakenings even in silence."
+          },
+          {
+            "label": "Brief arousals between sleep cycles",
+            "feedback": "Correct. The brain naturally rouses briefly every 90 minutes or so as it shifts from one sleep stage to the next."
+          },
+          {
+            "label": "Lack of melatonin",
+            "feedback": "Melatonin deficiency would make falling asleep hard, but it is not the reason for mid-sleep awakenings."
+          }
+        ],
+        "ok_title": "Cycle shifts wake briefly",
+        "ok_line": "Your brain stirs between sleep stages.",
+        "ko_title": "Not always nightmares",
+        "ko_line": "Most awakenings are natural and short.",
+        "exp_title": "Natural sleep interruptions",
+        "exp_text": "Across a night, the brain cycles through NREM and REM stages roughly every 90 minutes. At the end of each cycle, there is a brief arousal, often so short it is forgotten, which is normal and not a disorder."
+      }
+    ]
+  }
+]

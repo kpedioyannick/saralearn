@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary sound source in the human voice?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The lungs",
+            "feedback": "The lungs supply the airflow, but they do not vibrate. The sound itself is made by the vocal folds vibrating in the larynx."
+          },
+          {
+            "label": "The tongue",
+            "feedback": "The tongue is an articulator that shapes and filters sound after it is made, but it is not the source of the voice."
+          },
+          {
+            "label": "The vocal folds",
+            "feedback": "Correct. The vocal folds vibrate using airflow from the lungs to create audible pulses, which form the laryngeal sound source."
+          },
+          {
+            "label": "The lips",
+            "feedback": "The lips are articulators that help form speech sounds, but they do not generate the voice itself."
+          }
+        ],
+        "ok_title": "Vocal folds confirmed",
+        "ok_line": "The vocal folds are the primary sound source.",
+        "ko_title": "Wrong sound source",
+        "ko_line": "The lungs and articulators help, but the folds make the sound.",
+        "exp_title": "The voice's sound source",
+        "exp_text": "The human voice is produced when the vocal folds within the larynx vibrate. The lungs provide the airflow that sets them vibrating, and the articulators above the larynx shape the resulting sound. Without the vocal folds vibrating, there is no voiced sound at all."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where are the vocal folds located?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the lungs",
+            "feedback": "The lungs are the air pump, not the location of the vocal folds. The folds sit higher up, in the larynx."
+          },
+          {
+            "label": "In the larynx",
+            "feedback": "Correct. The vocal folds are inside the larynx, often called the voice box."
+          },
+          {
+            "label": "In the mouth",
+            "feedback": "The mouth contains the tongue, palate and lips, not the vocal folds. The folds are deeper down, in the throat."
+          },
+          {
+            "label": "In the trachea",
+            "feedback": "The trachea is the breathing tube below the larynx. The folds sit in the larynx, just above the trachea."
+          }
+        ],
+        "ok_title": "Folds in larynx",
+        "ok_line": "The vocal folds sit in the voice box.",
+        "ko_title": "Wrong location",
+        "ko_line": "The folds are in the larynx, not elsewhere.",
+        "exp_title": "The voice box",
+        "exp_text": "The vocal folds are found within the larynx, also known as the voice box. They are attached at the back to the arytenoid cartilages and at the front to the thyroid cartilage, and they blend into the sides of the breathing tube below the larynx."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the lungs do in the mechanism of generating the human voice?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They shape the sound into vowels",
+            "feedback": "Shaping sound into vowels is done by the articulators above the larynx, not by the lungs. The lungs only supply air."
+          },
+          {
+            "label": "They vibrate to create sound pulses",
+            "feedback": "It is the vocal folds that vibrate, not the lungs. The lungs simply push air past the folds."
+          },
+          {
+            "label": "They adjust the pitch of the voice",
+            "feedback": "Pitch is adjusted by the muscles of the larynx changing the length and tension of the vocal folds, not by the lungs themselves."
+          },
+          {
+            "label": "They produce airflow and air pressure",
+            "feedback": "Correct. The lungs act as the pump, providing the airflow and pressure needed to make the vocal folds vibrate."
+          }
+        ],
+        "ok_title": "Lungs as pump",
+        "ok_line": "The lungs supply the airflow and pressure.",
+        "ko_title": "Not the lungs' job",
+        "ko_line": "The lungs pump air, but they don't shape or pitch the sound.",
+        "exp_title": "The lungs' role",
+        "exp_text": "The lungs are described as the pump of the voice mechanism. They must produce enough airflow and air pressure to make the vocal folds vibrate. Once that air passes through the vibrating folds, the larynx and articulators do the rest of the work."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is an articulator?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The tongue",
+            "feedback": "Correct. The tongue is one of the articulators in the vocal tract, along with the palate, cheeks and lips."
+          },
+          {
+            "label": "The lungs",
+            "feedback": "The lungs are the air pump, not an articulator. Articulators sit above the larynx."
+          },
+          {
+            "label": "The vocal folds",
+            "feedback": "The vocal folds are the sound source, not articulators. Articulators filter and shape the sound after it is made."
+          },
+          {
+            "label": "The larynx",
+            "feedback": "The larynx holds the vocal folds and is not listed as an articulator. Articulators are the parts of the vocal tract above the larynx."
+          }
+        ],
+        "ok_title": "Tongue is articulator",
+        "ok_line": "The tongue is one of the articulators.",
+        "ko_title": "Not an articulator",
+        "ko_line": "That part is not an articulator in the voice mechanism.",
+        "exp_title": "The articulators",
+        "exp_text": "The articulators are the parts of the vocal tract above the larynx: the tongue, palate, cheeks, lips and so on. They articulate and filter the sound that comes from the larynx, and can even interact with the airflow to strengthen or weaken it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary sound source of the human voice?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The vocal folds",
+            "feedback": "Correct. The vocal folds are the primary sound source of the human voice."
+          },
+          {
+            "label": "The lungs",
+            "feedback": "The lungs provide the airflow and pressure needed, but the sound itself comes from the vocal folds vibrating."
+          },
+          {
+            "label": "The tongue",
+            "feedback": "The tongue is an articulator that shapes sound, but it does not generate the voice's primary source."
+          },
+          {
+            "label": "The lips",
+            "feedback": "Lips help articulate speech, but the sound originates from the vocal folds, not the lips."
+          }
+        ],
+        "ok_title": "Primary sound source",
+        "ok_line": "The vocal folds are where the voice's sound begins.",
+        "ko_title": "Sound source mix-up",
+        "ko_line": "Remember which part actually vibrates to make the sound.",
+        "exp_title": "Vocal folds as source",
+        "exp_text": "The vocal folds are the primary sound source. The lungs pump air, and the articulators shape the sound, but the voice itself starts with the vibration of the vocal folds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the body is described as the 'pump' for the voice?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The larynx",
+            "feedback": "The larynx houses the vocal folds, but it is not the pump. The lungs provide the airflow."
+          },
+          {
+            "label": "The trachea",
+            "feedback": "The trachea is the breathing tube, not the pump. The lungs generate the air pressure."
+          },
+          {
+            "label": "The lungs",
+            "feedback": "Correct. The lungs act as the pump, producing the airflow and pressure needed to vibrate the vocal folds."
+          },
+          {
+            "label": "The diaphragm",
+            "feedback": "The diaphragm helps breathing, but in this description the lungs are named as the pump."
+          }
+        ],
+        "ok_title": "The lungs as pump",
+        "ok_line": "Lungs supply the air that powers the voice.",
+        "ko_title": "Pump confusion",
+        "ko_line": "The pump is not the voice box or tube.",
+        "exp_title": "Lungs' role in voice",
+        "exp_text": "The lungs are the pump. They must generate enough airflow and pressure to make the vocal folds vibrate and produce sound."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do the vocal folds sit in the body?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "In the mouth",
+            "feedback": "The mouth contains articulators like the tongue, but the vocal folds are deeper, in the larynx."
+          },
+          {
+            "label": "In the trachea",
+            "feedback": "The folds blend into the side of the breathing tube, but they are primarily within the larynx."
+          },
+          {
+            "label": "In the pharynx",
+            "feedback": "The pharynx is part of the vocal tract, but the folds are specifically in the larynx."
+          },
+          {
+            "label": "In the larynx",
+            "feedback": "Correct. The vocal folds are located within the larynx, also called the voice box."
+          }
+        ],
+        "ok_title": "Location of folds",
+        "ok_line": "The vocal folds live inside the larynx.",
+        "ko_title": "Wrong location chosen",
+        "ko_line": "The folds are not in the mouth or tube.",
+        "exp_title": "Larynx as home",
+        "exp_text": "The vocal folds are within the larynx. They attach to cartilages there and are not part of the mouth or the breathing tube itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many layers do the vocal folds have?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Two layers",
+            "feedback": "There are three layers, not two. The vocal ligament and muscle are separate layers."
+          },
+          {
+            "label": "Three layers",
+            "feedback": "Correct. The folds have an epithelium, a vocal ligament, and a muscle layer."
+          },
+          {
+            "label": "Four layers",
+            "feedback": "Four is too many. The described construction has exactly three layers."
+          },
+          {
+            "label": "One layer",
+            "feedback": "One layer is not enough. The folds are built from three distinct layers."
+          }
+        ],
+        "ok_title": "Fold layers",
+        "ok_line": "Three layers make up each vocal fold.",
+        "ko_title": "Layer count off",
+        "ko_line": "Count the layers as described.",
+        "exp_title": "Three-layer structure",
+        "exp_text": "The vocal folds have three layers: the epithelium on the outside, the vocal ligament, and the vocalis muscle. This layered structure lets them vibrate and adjust."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What color are the vocal folds described as?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Pearly white",
+            "feedback": "Correct. The vocal folds are described as pearly white in color."
+          },
+          {
+            "label": "Pinkish red",
+            "feedback": "That is not the described color. The folds are pearly white."
+          },
+          {
+            "label": "Gray",
+            "feedback": "Gray is not correct. They are pearly white."
+          },
+          {
+            "label": "Yellowish",
+            "feedback": "Yellowish is not the color given. The folds are pearly white."
+          }
+        ],
+        "ok_title": "Fold color",
+        "ok_line": "The folds appear pearly white.",
+        "ko_title": "Color mismatch",
+        "ko_line": "The described color is pearly white.",
+        "exp_title": "Pearly white folds",
+        "exp_text": "The vocal folds are flat triangular bands and are pearly white. This color is part of their normal appearance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the fold that sits above each vocal fold?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The epiglottis",
+            "feedback": "The epiglottis covers the airway when swallowing, but it is not the fold above the vocal fold."
+          },
+          {
+            "label": "The arytenoid",
+            "feedback": "Arytenoids are cartilages, not folds. The structure above is the vestibular fold."
+          },
+          {
+            "label": "The vestibular fold",
+            "feedback": "Correct. The vestibular fold, also called the false vocal cord, sits above each vocal fold."
+          },
+          {
+            "label": "The thyroid",
+            "feedback": "The thyroid is a cartilage, not a fold. The one above is the vestibular fold."
+          }
+        ],
+        "ok_title": "False vocal cord",
+        "ok_line": "The vestibular fold lies above each vocal fold.",
+        "ko_title": "Wrong structure",
+        "ko_line": "The upper fold is the vestibular fold.",
+        "exp_title": "Vestibular fold",
+        "exp_text": "Above each vocal fold is the vestibular fold, also called the false vocal cord. It has a small sac between its two folds."
+      }
+    ]
+  }
+]

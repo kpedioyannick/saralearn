@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 191,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the Milky Way look like a hazy, pale band stretched across the night sky?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because we are looking edge-on through a flat disk crowded with stars",
+            "feedback": "Looking along the flat plane of the disk means the line of sight passes through far more stars, packed closer together in the sky, than looking out of it — so they blur into a haze."
+          },
+          {
+            "label": "Because a cloud of gas glows behind the stars",
+            "feedback": "Gas does drift through the disk, but the haze itself is starlight, not a glowing cloud; it comes from countless faint stars too close together to tell apart."
+          },
+          {
+            "label": "Because that part of the sky is closer to Earth than the rest",
+            "feedback": "Distance isn't what produces the haze — plenty of individual bright stars are nearer to us than most of that band, yet they stand out as sharp points instead of blurring together."
+          },
+          {
+            "label": "Because the band reflects sunlight",
+            "feedback": "None of that light is reflected; every point in the band is a star, or countless stars, shining under its own light."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly right",
+        "ok_line": "You're looking straight down the crowded plane of your own galaxy.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about which direction you're looking, not what's making the light.",
+        "exp_title": "A disk seen from inside",
+        "exp_text": "The Milky Way is a flattened disk of stars, and Earth sits inside that disk rather than above or below it. Looking along the flat plane, the eye's line of sight passes through star after star lying nearly in the same direction, and their combined, unresolved light merges into a pale band; looking up out of the disk, that same line of sight passes through a much thinner slice of stars, so the sky there looks comparatively empty."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What overall shape does the Milky Way, the galaxy that holds our Sun, have?",
+        "body": null,
+        "options": [
+          {
+            "label": "A featureless sphere of stars",
+            "feedback": "A sphere spans every direction equally, but our galaxy's stars crowd into one flat plane, which a sphere-shaped galaxy could never produce."
+          },
+          {
+            "label": "A flattened spiral disk with a central bulge",
+            "feedback": "A thin, rotating disk laced with spiral arms, thickening into a bulge of older stars at its center."
+          },
+          {
+            "label": "A single long, straight chain of stars",
+            "feedback": "Nothing in the galaxy lines up in one straight row; the disk spreads outward from the center in every direction, curved into spiral arms rather than a line."
+          },
+          {
+            "label": "A hollow ring with an empty middle",
+            "feedback": "The center is in fact the most crowded part of the galaxy, a thick bulge of stars, not an empty gap."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correctly pictured",
+        "ok_line": "Flat where the stars spread out, thick where they gather at the center.",
+        "ko_title": "Wrong picture",
+        "ko_line": "Picture the haze in the sky as a rim you're looking through, not a random scatter.",
+        "exp_title": "Disk, arms and bulge",
+        "exp_text": "Nearly all of the galaxy's stars lie within a thin, rotating disk that curls into spiral arms as it spreads outward from the center. At the very middle, the disk thickens into a rounder bulge packed with older stars, so the whole structure looks less like a ball and more like a flattened pinwheel with a bump in its middle."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the Milky Way flattened into a disk rather than shaped like a round ball of stars?",
+        "body": null,
+        "options": [
+          {
+            "label": "Gravity only pulls straight down",
+            "feedback": "Gravity pulls equally toward mass from every direction, not preferentially downward; that alone could never flatten a cloud into a disk."
+          },
+          {
+            "label": "Stars near the edge escaped, leaving a ring",
+            "feedback": "The disk isn't a hollow ring with stars missing from its middle — the crowded center is very much still there, thick with stars."
+          },
+          {
+            "label": "Because the whole cloud was spinning as it collapsed",
+            "feedback": "Spin let the cloud collapse freely along its axis of rotation, while motion around that axis resisted collapse across it, squashing a ball into a disk."
+          },
+          {
+            "label": "Because light pressure pushed the stars sideways",
+            "feedback": "Starlight can nudge loose dust a little, but it has nowhere near the force needed to arrange a whole galaxy's stars into a disk."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "That's the mechanism",
+        "ok_line": "Spin resists collapse in one direction and not the other.",
+        "ko_title": "Look at the spin",
+        "ko_line": "A shape this consistent, across a huge cloud, needs one force acting the same way everywhere — think about rotation.",
+        "exp_title": "Squashed by its own spin",
+        "exp_text": "The gas cloud that became the galaxy was turning as gravity pulled it inward, and that spin resisted collapse across the direction of rotation while doing nothing to stop collapse along the spin axis. Matter above and below the midplane kept falling inward and settling toward it, while matter already near the midplane could not collapse any further sideways, so the cloud flattened into a disk."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do dark lanes and rifts appear cutting across the bright band of the Milky Way?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are gaps where no stars ever formed",
+            "feedback": "Stars fill that direction of the disk just as densely as elsewhere; the dark lane isn't empty of stars, only of visible light from them."
+          },
+          {
+            "label": "They are shadows cast by nearer stars",
+            "feedback": "A single star casts no shadow large enough to blank out a wide stretch of the galaxy — nothing in the disk is positioned to block light that way."
+          },
+          {
+            "label": "They are regions the Sun's light cannot reach",
+            "feedback": "The Milky Way's light reaches Earth on its own from every direction, independent of where the Sun happens to be at the time."
+          },
+          {
+            "label": "They are clouds of dust blocking the starlight behind them",
+            "feedback": "Thick lanes of dust lying in the disk absorb and scatter the light of the stars behind them before it can reach us."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "That's it",
+        "ok_line": "The stars are still there — their light just can't get through.",
+        "ko_title": "Not empty, blocked",
+        "ko_line": "A dark patch in a crowded band is more likely hiding something than missing something.",
+        "exp_title": "A curtain, not a gap",
+        "exp_text": "The disk of the galaxy holds clouds of dust as well as stars, and thick knots of that dust sit directly along some lines of sight through the crowded band. Light from the stars behind a cloud is absorbed and scattered by its particles before it can travel on toward Earth, so those stars stay hidden behind what looks, from here, like a dark rift in the light."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the Milky Way's spiral arms stand out as bright, distinct lanes even though the stars inside them keep moving through and beyond them?",
+        "body": null,
+        "options": [
+          {
+            "label": "The arms are a pattern of crowding that stars pass through, not a fixed group of stars",
+            "feedback": "The arm is a slow-moving zone of extra crowding; individual stars enter it, cross it, and leave it again, while the pattern itself persists."
+          },
+          {
+            "label": "Every star in an arm is younger than every star outside it",
+            "feedback": "Arms do contain many young, bright stars, but stars of every age drift through every part of the disk, arms included."
+          },
+          {
+            "label": "The arms are solid bridges of gas holding stars in a fixed line",
+            "feedback": "Nothing holds stars fixed in a line; each star follows its own orbit around the galaxy's center, independent of any structure around it."
+          },
+          {
+            "label": "Stars are only born in arms and never move again afterward",
+            "feedback": "New stars are more common in arms, but a star's orbit carries it onward regardless of where it was born, out of the arm and around the galaxy."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "A traffic jam of stars, not a train car full of them.",
+        "ko_title": "Not a fixed group",
+        "ko_line": "Ask whether a star could ever leave an arm — if it can, the arm can't be defined by which stars are in it.",
+        "exp_title": "A jam, not a convoy",
+        "exp_text": "Each star in the disk follows its own orbit around the galactic center at its own pace, so a spiral arm cannot be a fixed group of stars traveling together. What actually holds its shape is a slow-moving pattern of extra crowding, like a traffic jam that stays roughly in place on a road even as every car drives through it and out the other side: stars slow down and bunch up as they pass through this crowded region, brightening it, then spread out again once they leave."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where does our Sun sit within the structure of the Milky Way?",
+        "body": null,
+        "options": [
+          {
+            "label": "At the very center of the galaxy",
+            "feedback": "The crowded central bulge is a very different environment, thick with old stars — nothing like the sparser region the Sun actually sits in."
+          },
+          {
+            "label": "Out in the disk, inside one of the spiral arms, well away from the center",
+            "feedback": "The Sun orbits within the flattened disk, well out from the crowded center."
+          },
+          {
+            "label": "In the halo, above the disk",
+            "feedback": "The halo holds old stars scattered on loose, tilted orbits above and below the disk; the Sun instead orbits within the flat disk itself."
+          },
+          {
+            "label": "Outside the galaxy altogether, orbiting it from a distance",
+            "feedback": "The Sun is bound inside the galaxy's disk along with everything else in it, not circling the galaxy from beyond its edge."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right spot",
+        "ok_line": "Out in the crowd, not in the middle of it.",
+        "ko_title": "Not where you'd guess",
+        "ko_line": "The Sun is an ordinary star among billions, out in the disk rather than anywhere special.",
+        "exp_title": "An ordinary address",
+        "exp_text": "The Sun lies within the flat disk of the galaxy rather than in its crowded central bulge or its sparse surrounding halo, sitting inside one of the spiral arms a considerable way out from the center. It orbits the galaxy's center the same way every other star in the disk does, one traveler among many rather than anything special sitting in the middle."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What kind of region surrounds the flat disk of the Milky Way, above and below it?",
+        "body": null,
+        "options": [
+          {
+            "label": "A second, fainter disk mirroring the first",
+            "feedback": "Nothing flat sits above the main disk; the region surrounding it has no preferred flat plane of its own."
+          },
+          {
+            "label": "A ring of gas with no stars in it at all",
+            "feedback": "The surrounding region does hold stars — old ones, gathered into clusters — rather than being empty of them."
+          },
+          {
+            "label": "A roughly spherical halo, sparse but scattered with clusters of old stars",
+            "feedback": "A thin, ball-shaped halo wraps around the disk, holding scattered clusters of some of the galaxy's oldest stars on looping orbits."
+          },
+          {
+            "label": "A wall of dust sealing the disk off from outside",
+            "feedback": "Nothing seals the disk in; the stars and clusters of the surrounding halo move freely on orbits that carry them through and around it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right shape",
+        "ok_line": "A sparse ball wrapped around a crowded disk.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what shape spreads evenly above, below, and around a disk, rather than lying flat like it.",
+        "exp_title": "A loose shell of old stars",
+        "exp_text": "Around the flattened disk of the galaxy lies a much sparser, roughly spherical halo, reaching above and below the disk in every direction rather than lying flat within it. Scattered through this halo are tight clusters of some of the galaxy's oldest stars, each one looping around the galactic center on a long, tilted orbit that carries it well clear of the crowded disk before swinging back through it again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't the Milky Way drift apart, given how far its stars are spread from one another?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because a rigid framework of dust holds every star fixed in place",
+            "feedback": "No such framework exists; dust drifts loosely through the disk and could never hold a star in a fixed spot."
+          },
+          {
+            "label": "Because the stars are actually packed tightly together",
+            "feedback": "Stars within the galaxy are separated by enormous gaps compared with their own size — packed closely is not the reason they stay together."
+          },
+          {
+            "label": "Because the stars stopped moving relative to each other long ago",
+            "feedback": "Every star keeps orbiting; nothing in the galaxy has come to rest, and stillness isn't what keeps the structure together."
+          },
+          {
+            "label": "Because the combined gravity of all its stars and mass pulls everything into orbit around a common center",
+            "feedback": "Each star's motion is bent into an orbit by the pull of all the mass gathered within the galaxy, which is enough to bind the whole system together despite the huge gaps between individual stars."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "That's the glue",
+        "ok_line": "Not closeness, but the combined pull of everything together.",
+        "ko_title": "Reconsider",
+        "ko_line": "The stars are anything but close together — so what else could be holding them in one structure?",
+        "exp_title": "Bound by combined pull, not closeness",
+        "exp_text": "Individually, two stars in the galaxy are so far apart that the pull between just that pair is tiny, but the galaxy holds an enormous number of stars, and their gravity adds together into one strong pull toward the mass gathered near the center. That combined pull is enough to bend every star's path into an orbit around the galaxy rather than letting it wander off in a straight line, holding the whole structure together even though neighboring stars themselves stay far apart."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What keeps the Milky Way's small companion galaxies, such as the Magellanic Clouds, from simply drifting away into space?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Milky Way's gravity holds them in orbit around it",
+            "feedback": "A companion galaxy is bound by the pull of the Milky Way's much greater mass, keeping it on a long orbit rather than letting it wander off."
+          },
+          {
+            "label": "A physical tether of gas connects them directly",
+            "feedback": "There is no solid connection between the two; whatever gas stretches between them is being pulled along by gravity, not holding them together like a rope."
+          },
+          {
+            "label": "They are simply too far away to be affected by anything",
+            "feedback": "Distance does weaken gravity's pull, but it never switches it off completely — even a companion galaxy far out still feels the Milky Way's pull strongly enough to be bound by it."
+          },
+          {
+            "label": "Their own spin keeps them from moving elsewhere",
+            "feedback": "A galaxy's spin affects its own internal shape, not the separate, larger path it follows around another galaxy."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Bound and orbiting",
+        "ok_line": "Gravity, again, doing the same job at a bigger scale.",
+        "ko_title": "Same force, different scale",
+        "ko_line": "One structure orbiting another is not so different from a star orbiting a galaxy's center.",
+        "exp_title": "A smaller galaxy on a long leash",
+        "exp_text": "The Milky Way is far more massive than a small companion galaxy nearby, and that difference in mass means the companion feels a strong pull toward it rather than the other way around. Caught by that pull, the smaller galaxy follows a long, looping orbit around the Milky Way instead of drifting off on its own path through space."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does nearly everything within the Milky Way, including the Sun, travel in an orbit around the galaxy's center rather than moving off in a straight line?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the disk itself is a solid structure that carries stars along like a wheel",
+            "feedback": "The disk isn't a rigid object; every star follows its own individual path, not a fixed spot on a single turning wheel."
+          },
+          {
+            "label": "Because gravity from the mass concentrated toward the center continually bends each star's path inward",
+            "feedback": "The pull toward the densely packed center is strong enough to curve a star's motion into a loop instead of letting it fly off straight."
+          },
+          {
+            "label": "Because stars near the center push outward on the ones farther out",
+            "feedback": "Stars don't shove each other around directly like that; what shapes each star's path is the pull of gravity, not contact between stars."
+          },
+          {
+            "label": "Because space itself is curled into a circle at the galaxy's scale",
+            "feedback": "Nothing about the shape of space forces a circular path here; a star moving through ordinary space still gets bent into an orbit by gravity alone."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Bent by gravity",
+        "ok_line": "A straight path curved into a loop by the pull toward the center.",
+        "ko_title": "Think of gravity, not structure",
+        "ko_line": "Nothing holds a star to a fixed track — something has to be actively bending its path.",
+        "exp_title": "A straight line, continually bent",
+        "exp_text": "Left alone, a star would travel in a straight line, but the mass gathered toward the galaxy's center pulls on it constantly, bending that line a little more with every moment. Bent steadily enough for long enough, a straight path curls all the way around into a loop, which is why the Sun and the rest of the galaxy's stars trace orbits around the center instead of drifting away in one direction."
+      }
+    ]
+  }
+]

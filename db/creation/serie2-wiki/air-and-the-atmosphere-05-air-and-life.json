@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What holds the layer of mixed gas around Earth's surface in place?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Gravity",
+            "feedback": "Correct. Gravity keeps the air from drifting off into space, so the atmosphere stays wrapped around the planet."
+          },
+          {
+            "label": "The ozone layer",
+            "feedback": "The ozone layer absorbs ultraviolet light, but it does not hold the air down; gravity does that."
+          },
+          {
+            "label": "The greenhouse effect",
+            "feedback": "The greenhouse effect keeps the planet warm by retaining heat, but it is not what holds the air in place."
+          },
+          {
+            "label": "Air pressure",
+            "feedback": "Air pressure is the force the air itself exerts downward, but it is gravity that keeps the air from escaping."
+          }
+        ],
+        "ok_title": "Held by gravity",
+        "ok_line": "Gravity keeps the atmosphere around Earth.",
+        "ko_title": "Not the holder",
+        "ko_line": "That is something else about the air.",
+        "exp_title": "Why air stays",
+        "exp_text": "The atmosphere is a layer of mixed gas that is retained by gravity. Without gravity, the air would simply disperse into space."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "By quantity of molecules, which gas is the most abundant in dry air?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen makes up about 20.95% of dry air, but nitrogen is far more abundant at about 78%."
+          },
+          {
+            "label": "Argon",
+            "feedback": "Argon is only about 0.93% of dry air, so it is not the most abundant gas."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Correct. Nitrogen makes up about 78.08% of dry air by molecule count, more than any other gas."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is only about 0.04% of dry air, a trace gas, not the most abundant."
+          }
+        ],
+        "ok_title": "Nitrogen leads",
+        "ok_line": "Nitrogen is the most abundant gas in dry air.",
+        "ko_title": "Not the top gas",
+        "ko_line": "This gas is present, but not the most common.",
+        "exp_title": "Dry air composition",
+        "exp_text": "Dry air contains about 78.08% nitrogen, 20.95% oxygen, 0.93% argon, and 0.04% carbon dioxide by molecule count. Nitrogen is therefore the most abundant gas."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the amount of water vapor in the air as you go from the coldest parts of the atmosphere to hot, humid air masses?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stays the same",
+            "feedback": "Water vapor concentration is not constant; it varies widely with temperature and humidity."
+          },
+          {
+            "label": "It increases",
+            "feedback": "Correct. Water vapor ranges from about 10 ppm in the coldest air to as much as 5% in hot, humid air."
+          },
+          {
+            "label": "It decreases",
+            "feedback": "Hot, humid air holds more water vapor, not less, so the concentration goes up rather than down."
+          },
+          {
+            "label": "It disappears entirely",
+            "feedback": "Water vapor never disappears completely, even in the coldest air, so this is not right."
+          }
+        ],
+        "ok_title": "Water vapor varies",
+        "ok_line": "Hotter, more humid air holds more water vapor.",
+        "ko_title": "Not fixed or gone",
+        "ko_line": "Water vapor changes a lot, but it does not vanish.",
+        "exp_title": "Water vapor range",
+        "exp_text": "Water vapor is a variable gas: from about 10 ppm in the coldest portions of the atmosphere to 5% in hot, humid air masses. It is never a fixed amount or completely absent."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a noble gas found in trace amounts in the air?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is a major constituent, not a trace noble gas."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is a trace greenhouse gas, but it is not a noble gas."
+          },
+          {
+            "label": "Methane",
+            "feedback": "Methane is a trace greenhouse gas, not a noble gas."
+          },
+          {
+            "label": "Neon",
+            "feedback": "Correct. Neon is one of the noble gases present in trace amounts, along with helium, krypton, and xenon."
+          }
+        ],
+        "ok_title": "A noble trace gas",
+        "ok_line": "Neon is a noble gas in the air.",
+        "ko_title": "Not noble",
+        "ko_line": "This gas is present, but it is not a noble gas.",
+        "exp_title": "Trace noble gases",
+        "exp_text": "The noble gases present in air include neon, helium, krypton, and xenon, in addition to argon. They exist in trace amounts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Up to what altitude does turbulent mixing keep the relative concentrations of atmospheric gases the same?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 100 km",
+            "feedback": "Correct. Turbulent mixing keeps the gas concentrations uniform up to around 100 km altitude."
+          },
+          {
+            "label": "About 50 km",
+            "feedback": "At 50 km, mixing still keeps concentrations uniform, but the stated limit is 100 km."
+          },
+          {
+            "label": "About 80 km",
+            "feedback": "Around 80 km is where the transition zone begins, but full mixing continues until about 100 km."
+          },
+          {
+            "label": "About 120 km",
+            "feedback": "At 120 km, molecular diffusion has taken over, so the mixing limit is lower."
+          }
+        ],
+        "ok_title": "Uniform up to 100 km",
+        "ok_line": "Mixing keeps gases uniform to about 100 km.",
+        "ko_title": "Wrong mixing limit",
+        "ko_line": "That altitude is not where uniform mixing ends.",
+        "exp_title": "Turbulent mixing zone",
+        "exp_text": "Up to an altitude of about 100 km, atmospheric turbulence mixes the gases so their relative concentrations stay the same. Above that, molecular diffusion gradually separates lighter from heavier gases."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which layer of the atmosphere is the outermost?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Thermosphere",
+            "feedback": "The thermosphere lies below the exosphere, so it is not the outermost."
+          },
+          {
+            "label": "Stratosphere",
+            "feedback": "The stratosphere is far below, sitting above the troposphere, so it is not the outermost."
+          },
+          {
+            "label": "Exosphere",
+            "feedback": "Correct. The exosphere is the outermost layer, extending from the top of the thermosphere outward."
+          },
+          {
+            "label": "Mesosphere",
+            "feedback": "The mesosphere sits below the thermosphere, so it is not the outermost."
+          }
+        ],
+        "ok_title": "Outermost is exosphere",
+        "ok_line": "The exosphere is the top layer.",
+        "ko_title": "Not the top layer",
+        "ko_line": "This layer is below the exosphere.",
+        "exp_title": "Layer order",
+        "exp_text": "The exosphere is the outermost layer of Earth's atmosphere, above the thermosphere. It is so tenuous that some consider it part of interplanetary space."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What describes the temperature in the thermosphere as altitude increases?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It decreases steadily",
+            "feedback": "Temperature does not decrease in the thermosphere; it rises with height."
+          },
+          {
+            "label": "It increases",
+            "feedback": "Correct. The thermosphere's temperature gradually increases with altitude, up to about 1500 °C."
+          },
+          {
+            "label": "It stays constant",
+            "feedback": "Temperature is not constant; it changes noticeably with altitude in the thermosphere."
+          },
+          {
+            "label": "It fluctuates randomly",
+            "feedback": "The temperature trend is a steady increase, not random fluctuation."
+          }
+        ],
+        "ok_title": "Thermosphere heats up",
+        "ok_line": "Temperature rises with height in the thermosphere.",
+        "ko_title": "Wrong trend",
+        "ko_line": "The thermosphere does not cool or stay flat.",
+        "exp_title": "Thermosphere temperature",
+        "exp_text": "The thermosphere's temperature gradually increases with height and can rise as high as 1500 °C, though the gas is so thin that the temperature does not feel hot."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main gas found in the exosphere?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is not the main gas here; the exosphere is mostly hydrogen."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen is abundant lower in the atmosphere, but not in the exosphere."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is present only in limited amounts near the bottom of the exosphere."
+          },
+          {
+            "label": "Hydrogen",
+            "feedback": "Correct. The exosphere is mainly hydrogen, with small amounts of helium, carbon dioxide, and nascent oxygen near its base."
+          }
+        ],
+        "ok_title": "Hydrogen dominates",
+        "ok_line": "The exosphere is mostly hydrogen.",
+        "ko_title": "Not the main gas",
+        "ko_line": "This gas is not the most common in the exosphere.",
+        "exp_title": "Exosphere composition",
+        "exp_text": "The exosphere consists mainly of extremely low densities of hydrogen, along with limited helium and other gases nearer the exobase."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do particles in the exosphere behave differently from a normal gas?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They are too far apart to collide",
+            "feedback": "Correct. The atoms and molecules are so widely spaced that they can travel hundreds of kilometres without colliding."
+          },
+          {
+            "label": "They are too heavy to move",
+            "feedback": "The particles are not heavy; they move freely, but their sparse spacing prevents collisions."
+          },
+          {
+            "label": "They are stuck together tightly",
+            "feedback": "The particles are extremely far apart, not tightly packed."
+          },
+          {
+            "label": "They are frozen in place",
+            "feedback": "The particles move on ballistic trajectories; they are not frozen."
+          }
+        ],
+        "ok_title": "Sparse particles",
+        "ok_line": "Exosphere particles rarely collide.",
+        "ko_title": "Not packed or frozen",
+        "ko_line": "The spacing, not weight or cold, explains the behavior.",
+        "exp_title": "Gas-like behavior lost",
+        "exp_text": "In the exosphere, the atoms and molecules are so far apart that they can travel hundreds of kilometres without colliding, so it no longer behaves like a normal gas."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which layer of the atmosphere overlaps with the ionosphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The troposphere",
+            "feedback": "The ionosphere is far above the troposphere, so it does not overlap there."
+          },
+          {
+            "label": "The thermosphere",
+            "feedback": "Correct. The ionosphere overlaps the thermosphere, from about 50 to 600 km above Earth's surface."
+          },
+          {
+            "label": "The mesosphere",
+            "feedback": "The mesosphere is below the thermosphere, so it is not where the ionosphere sits."
+          },
+          {
+            "label": "The exosphere",
+            "feedback": "The ionosphere overlaps the thermosphere, not the exosphere, which lies above."
+          }
+        ],
+        "ok_title": "Ionosphere in thermosphere",
+        "ok_line": "The ionosphere overlaps the thermosphere.",
+        "ko_title": "Wrong layer",
+        "ko_line": "The ionosphere sits elsewhere.",
+        "exp_title": "Ionosphere location",
+        "exp_text": "The ionosphere, a region of enhanced plasma density, overlaps the thermosphere from about 50 to 600 km above Earth's surface."
+      }
+    ]
+  }
+]

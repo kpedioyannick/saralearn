@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 226,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary source of energy that drives the water cycle?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The heat from Earth's core",
+            "feedback": "Earth's internal heat is not what powers the cycle. The cycle is driven by energy from the sun, which heats water and causes it to evaporate."
+          },
+          {
+            "label": "The rotation of the planet",
+            "feedback": "Rotation affects winds and currents, but the water cycle's energy comes from solar radiation. Without the sun, water would not evaporate and rise."
+          },
+          {
+            "label": "The energy emitted from the sun",
+            "feedback": "Correct. Solar radiation heats water in oceans, lakes, and rivers, causing it to change phase and rise into the atmosphere."
+          },
+          {
+            "label": "The gravitational pull of the moon",
+            "feedback": "The moon's gravity influences tides, but it does not drive evaporation or condensation. The sun's energy is what powers the cycle."
+          }
+        ],
+        "ok_title": "Solar energy",
+        "ok_line": "The sun's heat is what makes the water cycle go.",
+        "ko_title": "Wrong power source",
+        "ko_line": "That is not what drives the water cycle.",
+        "exp_title": "The sun's role",
+        "exp_text": "The water cycle is powered by energy from the sun. Solar radiation heats water in oceans and other bodies, turning it into vapor that rises."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which body of water supplies most of the evaporation in the global water cycle?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ocean",
+            "feedback": "Correct. The ocean is the source of 86% of global evaporation, making it the main supplier of water vapor to the atmosphere."
+          },
+          {
+            "label": "Large lakes",
+            "feedback": "Lakes do evaporate, but they are small compared to the ocean. The ocean covers most of the planet and supplies the vast majority of vapor."
+          },
+          {
+            "label": "Rivers and streams",
+            "feedback": "Rivers carry water but cover little area. Evaporation from them is minor; the ocean dominates because it is so extensive."
+          },
+          {
+            "label": "Soil and plant surfaces",
+            "feedback": "Transpiration and soil evaporation happen, but they are not the main source. The ocean supplies about 86% of all evaporation."
+          }
+        ],
+        "ok_title": "Ocean's key role",
+        "ok_line": "The ocean is where most water vapor comes from.",
+        "ko_title": "Not the main source",
+        "ko_line": "That water body is not the biggest evaporator.",
+        "exp_title": "Why the ocean leads",
+        "exp_text": "The ocean holds 97% of the planet's water and covers most of the surface, so it naturally supplies most evaporation—about 86% globally."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for water vapor released from plants into the air?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Condensation",
+            "feedback": "Condensation is the change from vapor to liquid, not the release from plants. The plant release is called transpiration."
+          },
+          {
+            "label": "Infiltration",
+            "feedback": "Infiltration is water soaking into the ground, not vapor leaving plants. The plant process is transpiration."
+          },
+          {
+            "label": "Precipitation",
+            "feedback": "Precipitation is water falling from the sky, not vapor from plants. The correct term is transpiration."
+          },
+          {
+            "label": "Transpiration",
+            "feedback": "Correct. Transpiration is the release of water vapor from plants into the atmosphere, often grouped with evaporation as evapotranspiration."
+          }
+        ],
+        "ok_title": "Plant vapor release",
+        "ok_line": "Plants give off water vapor through transpiration.",
+        "ko_title": "Wrong water process",
+        "ko_line": "That term describes a different part of the cycle.",
+        "exp_title": "Transpiration defined",
+        "exp_text": "Transpiration is the specific process by which plants release water vapor from their leaves into the air, helping move water from soil to atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does most of the world's precipitation fall?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Over land, especially forests",
+            "feedback": "Land receives only about 22% of global precipitation. The majority falls over the ocean because it covers most of the planet."
+          },
+          {
+            "label": "Over mountains and highlands",
+            "feedback": "Mountains get local precipitation, but they are small areas. The ocean receives about 78% of all precipitation."
+          },
+          {
+            "label": "Over the ocean",
+            "feedback": "Correct. About 78% of global precipitation occurs over the ocean, matching the ocean's large surface area and high evaporation."
+          },
+          {
+            "label": "Over lakes and rivers",
+            "feedback": "Lakes and rivers cover little surface. The ocean dominates because it is vast and supplies the most vapor."
+          }
+        ],
+        "ok_title": "Ocean gets most rain",
+        "ok_line": "Most rain falls back into the sea.",
+        "ko_title": "Wrong precipitation region",
+        "ko_line": "That area receives only a small share of rainfall.",
+        "exp_title": "Precipitation distribution",
+        "exp_text": "Because the ocean covers most of the Earth and evaporates most of the water, about 78% of global precipitation falls back onto the ocean."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for water flowing across the land surface toward lower ground?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Surface runoff",
+            "feedback": "Correct. Surface runoff is water that flows over the ground, often into rivers, lakes, or back to the ocean."
+          },
+          {
+            "label": "Infiltration",
+            "feedback": "Infiltration is water soaking into the ground, not flowing over it. Runoff is the opposite movement."
+          },
+          {
+            "label": "Percolation",
+            "feedback": "Percolation is water moving down through soil, not across the surface. The overland flow is called runoff."
+          },
+          {
+            "label": "Subsurface flow",
+            "feedback": "Subsurface flow is water moving underground, not on the surface. The surface movement is runoff."
+          }
+        ],
+        "ok_title": "Runoff defined",
+        "ok_line": "Water running over the ground is surface runoff.",
+        "ko_title": "Wrong water movement",
+        "ko_line": "That term describes a different path of water.",
+        "exp_title": "Surface runoff explained",
+        "exp_text": "Surface runoff is the flow of water across the land after precipitation, carrying water to rivers and oceans and shaping the landscape."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the average time a water molecule stays in the atmosphere before falling as precipitation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "About a few hours",
+            "feedback": "That is too short. Water vapor stays in the air long enough to travel, but the average residence time is about 9 days."
+          },
+          {
+            "label": "About a month",
+            "feedback": "A month is too long. The average time is roughly 9 days, not weeks."
+          },
+          {
+            "label": "About a year",
+            "feedback": "A year is far too long. The atmosphere exchanges water quickly; the average is about 9 days."
+          },
+          {
+            "label": "About 9 days",
+            "feedback": "Correct. After evaporating, water vapor spends about 9 days in the atmosphere before condensing and falling as precipitation."
+          }
+        ],
+        "ok_title": "Atmosphere residence",
+        "ok_line": "Water stays in the air about nine days.",
+        "ko_title": "Wrong time span",
+        "ko_line": "That is not how long water lingers in the air.",
+        "exp_title": "Residence time in air",
+        "exp_text": "The residence time of water in the atmosphere is about 9 days on average, meaning it evaporates, travels, and falls relatively quickly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which process involves water moving vertically downward through soil and rock under gravity?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Runoff",
+            "feedback": "Runoff is horizontal flow across the surface, not vertical movement underground. The correct term is percolation."
+          },
+          {
+            "label": "Percolation",
+            "feedback": "Correct. Percolation is the downward movement of water through soil and rocks, driven by gravity."
+          },
+          {
+            "label": "Condensation",
+            "feedback": "Condensation is a phase change from vapor to liquid, not movement through ground. The correct term is percolation."
+          },
+          {
+            "label": "Advection",
+            "feedback": "Advection is the movement of water through the atmosphere, not through soil. The ground movement is percolation."
+          }
+        ],
+        "ok_title": "Percolation downward",
+        "ok_line": "Water seeps down through soil by percolation.",
+        "ko_title": "Wrong water path",
+        "ko_line": "That process is not the vertical underground movement.",
+        "exp_title": "Percolation defined",
+        "exp_text": "Percolation is the downward flow of water through soil and rock layers, helping to recharge groundwater and aquifers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the movement of water vapor through the atmosphere from one place to another?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Infiltration",
+            "feedback": "Infiltration is water entering the ground, not moving through the air. The atmospheric movement is advection."
+          },
+          {
+            "label": "Evaporation",
+            "feedback": "Evaporation is the change from liquid to vapor, not the transport of that vapor. The transport is advection."
+          },
+          {
+            "label": "Advection",
+            "feedback": "Correct. Advection is the movement of water vapor in the atmosphere, which carries moisture from oceans to land."
+          },
+          {
+            "label": "Condensation",
+            "feedback": "Condensation is vapor turning to liquid, not moving through the sky. The movement is advection."
+          }
+        ],
+        "ok_title": "Advection transport",
+        "ok_line": "Wind moves water vapor across the globe.",
+        "ko_title": "Wrong vapor process",
+        "ko_line": "That is not how vapor travels through the air.",
+        "exp_title": "Advection in the cycle",
+        "exp_text": "Advection is the atmospheric movement of water vapor, essential for bringing moisture from oceans to land for precipitation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three phases of water that the water cycle moves through?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Solid, liquid, and plasma",
+            "feedback": "Plasma is not a phase of water in the water cycle. The cycle moves water through solid (ice), liquid, and vapor."
+          },
+          {
+            "label": "Ice, steam, and mist",
+            "feedback": "Steam and mist are not formal phases. The three phases are solid (ice), liquid, and vapor."
+          },
+          {
+            "label": "Solid, liquid, and vapor",
+            "feedback": "Correct. Water in the cycle exists as ice, liquid water, and water vapor."
+          },
+          {
+            "label": "Frozen, wet, and gaseous",
+            "feedback": "These are descriptive words, not the formal phase names. The phases are solid, liquid, and vapor."
+          }
+        ],
+        "ok_title": "Three phases",
+        "ok_line": "Water moves as ice, liquid, and vapor.",
+        "ko_title": "Not that phase",
+        "ko_line": "Check the list of phases.",
+        "exp_title": "Water phases",
+        "exp_text": "The water cycle moves water through three phases: solid (ice), liquid, and vapor. Each phase change, like melting or evaporation, involves absorbing or releasing heat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which reservoir is the source of most of the evaporation in the water cycle?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lakes and rivers",
+            "feedback": "Lakes and rivers do evaporate, but they hold only a tiny share of Earth's water. The ocean dominates evaporation."
+          },
+          {
+            "label": "The ocean",
+            "feedback": "Correct. The ocean supplies 86% of global evaporation because it covers most of the planet's surface."
+          },
+          {
+            "label": "Soil moisture",
+            "feedback": "Soil moisture evaporates, but it is a small source compared to the ocean. Most evaporation comes from the sea."
+          },
+          {
+            "label": "Ice caps and glaciers",
+            "feedback": "Ice sublimes directly to vapor, but that is not the main source. Evaporation from the ocean far exceeds it."
+          }
+        ],
+        "ok_title": "Ocean's role",
+        "ok_line": "The ocean drives most evaporation.",
+        "ko_title": "Smaller source",
+        "ko_line": "Other reservoirs contribute far less.",
+        "exp_title": "Main evaporation source",
+        "exp_text": "The ocean is the key reservoir in the cycle because it is the source of 86% of global evaporation. Its vast surface area provides most of the water vapor that enters the atmosphere."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 219,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which medium does light travel at its fastest speed?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A vacuum",
+            "feedback": "Correct. Light reaches its highest possible speed in a vacuum, which is empty space with no matter in it."
+          },
+          {
+            "label": "Glass",
+            "feedback": "Glass slows light down; the speed of light in vacuum is always greater."
+          },
+          {
+            "label": "Water",
+            "feedback": "Water also slows light; the fastest speed is only in a vacuum."
+          },
+          {
+            "label": "Air",
+            "feedback": "Air slows light slightly compared to a vacuum, so the speed in air is a little less than the maximum."
+          }
+        ],
+        "ok_title": "Fastest medium",
+        "ok_line": "Light's top speed happens in a vacuum.",
+        "ko_title": "Slower media",
+        "ko_line": "Glass, water and air all slow light down.",
+        "exp_title": "Speed in vacuum",
+        "exp_text": "Light travels fastest in a vacuum, where there is no material to slow it down. In any transparent material like glass, water or air, the speed is lower than that. The vacuum speed is the universal limit."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the letter 'c' stand for when used as the symbol for the speed of light?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The speed of light in glass",
+            "feedback": "No, 'c' is specifically the speed of light in a vacuum, not in glass."
+          },
+          {
+            "label": "The speed of light in a vacuum",
+            "feedback": "Correct. 'c' is the standard symbol for the speed of light in empty space."
+          },
+          {
+            "label": "The speed of light in air",
+            "feedback": "No, 'c' refers to a vacuum, not air, although the speeds are close."
+          },
+          {
+            "label": "The speed of all waves",
+            "feedback": "Not exactly. 'c' is reserved for light in a vacuum, not for sound or water waves."
+          }
+        ],
+        "ok_title": "Symbol c",
+        "ok_line": "The letter c marks the vacuum speed of light.",
+        "ko_title": "Other speeds",
+        "ko_line": "c is not the speed in glass or air.",
+        "exp_title": "Meaning of c",
+        "exp_text": "The symbol c denotes the speed of light in a vacuum, which is the fastest possible speed for light. It is a universal constant, the same everywhere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate speed of light in a vacuum?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "300 million kilometres per hour",
+            "feedback": "No, that is a thousand times too fast. The value is about one billion kilometres per hour."
+          },
+          {
+            "label": "300 000 kilometres per hour",
+            "feedback": "No, that is a thousand times too slow. The correct figure is about 300 000 kilometres per second."
+          },
+          {
+            "label": "About 300 000 kilometres per second",
+            "feedback": "Correct. In one second, light covers about 300 000 kilometres."
+          },
+          {
+            "label": "About 3 000 000 kilometres per second",
+            "feedback": "No, that is ten times too fast. The actual value is roughly 300 000 kilometres in a second."
+          }
+        ],
+        "ok_title": "Rough speed",
+        "ok_line": "Light covers about 300 000 km in a second.",
+        "ko_title": "Wrong scales",
+        "ko_line": "The speed is per second, not per hour.",
+        "exp_title": "Vacuum speed value",
+        "exp_text": "In a vacuum, light travels at about 300 000 kilometres per second, which is close to one billion kilometres per hour. This is the constant speed of light in empty space."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the speed of light when it travels through glass compared to a vacuum?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It stays the same",
+            "feedback": "No, light slows down in glass; the vacuum speed is always higher."
+          },
+          {
+            "label": "It speeds up",
+            "feedback": "No, glass cannot speed light up; it only reduces the speed."
+          },
+          {
+            "label": "It stops completely",
+            "feedback": "No, light still travels through glass, just at a lower speed."
+          },
+          {
+            "label": "It slows down",
+            "feedback": "Correct. Transparent materials like glass reduce the speed of light."
+          }
+        ],
+        "ok_title": "Glass slows light",
+        "ok_line": "Light moves slower through glass than vacuum.",
+        "ko_title": "Not unchanged",
+        "ko_line": "Glass does not keep light at the same speed.",
+        "exp_title": "Slower in materials",
+        "exp_text": "When light enters glass, its speed drops below the vacuum speed. For typical glass, the speed is about two-thirds of c, roughly 200 000 km/s."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the ratio between the speed of light in vacuum and its speed in a material called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The refractive index",
+            "feedback": "Correct. The refractive index is c divided by the speed in the material."
+          },
+          {
+            "label": "The wavelength",
+            "feedback": "No, wavelength is the distance between wave peaks, not a ratio of speeds."
+          },
+          {
+            "label": "The frequency",
+            "feedback": "No, frequency counts how many waves pass per second, not a speed ratio."
+          },
+          {
+            "label": "The amplitude",
+            "feedback": "No, amplitude is the height of a wave, not a ratio of speeds."
+          }
+        ],
+        "ok_title": "Refractive index",
+        "ok_line": "It compares vacuum speed to material speed.",
+        "ko_title": "Not other wave terms",
+        "ko_line": "It is not wavelength, frequency or amplitude.",
+        "exp_title": "Definition of refractive index",
+        "exp_text": "The refractive index of a material is the ratio of the speed of light in vacuum to its speed in that material. For example, glass has an index around 1.5, so light in glass is 1.5 times slower than in vacuum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In the theory of relativity, what does the speed of light connect?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Mass and weight",
+            "feedback": "No, relativity links mass and energy, not mass and weight."
+          },
+          {
+            "label": "Time and temperature",
+            "feedback": "No, temperature is not part of that connection."
+          },
+          {
+            "label": "Space and time",
+            "feedback": "Correct. The speed of light relates the units of space and time in spacetime."
+          },
+          {
+            "label": "Force and motion",
+            "feedback": "No, that is a general physics idea, not the specific role of c in relativity."
+          }
+        ],
+        "ok_title": "Space and time",
+        "ok_line": "c ties space and time together.",
+        "ko_title": "Wrong pairs",
+        "ko_line": "It does not link mass to weight or time to temperature.",
+        "exp_title": "Relativity's connection",
+        "exp_text": "In special relativity, the constant c connects space and time into a single structure called spacetime. This is why the famous equation is E = mc², where c appears."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the upper limit for the speed of anything with mass?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The speed of sound",
+            "feedback": "No, sound is much slower and has no relation to the universal limit."
+          },
+          {
+            "label": "The speed of light in vacuum",
+            "feedback": "Correct. Nothing with mass can reach or exceed the vacuum speed of light."
+          },
+          {
+            "label": "The speed of light in glass",
+            "feedback": "No, the limit is the vacuum speed, not the slower speed in a material."
+          },
+          {
+            "label": "There is no upper limit",
+            "feedback": "No, there is a definite upper limit given by the speed of light in vacuum."
+          }
+        ],
+        "ok_title": "Universal speed limit",
+        "ok_line": "No mass can go faster than c.",
+        "ko_title": "Not other speeds",
+        "ko_line": "Sound and glass speeds are far below the limit.",
+        "exp_title": "Limit for matter",
+        "exp_text": "In vacuum, the speed of light is the maximum speed at which matter, energy or information can travel. Any particle with mass can approach it but never reach it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the refractive index of air tell you about light in air?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Light travels much faster in air than in vacuum",
+            "feedback": "No, air slows light slightly, so it is a little slower than in vacuum."
+          },
+          {
+            "label": "Light stops in air",
+            "feedback": "No, light still moves through air, just a bit slower than in empty space."
+          },
+          {
+            "label": "Light travels at its maximum speed in air",
+            "feedback": "No, the maximum speed is only in a vacuum; air reduces it a little."
+          },
+          {
+            "label": "Light travels almost as fast in air as in vacuum",
+            "feedback": "Correct. Air has a refractive index near 1, so the speed is close to c."
+          }
+        ],
+        "ok_title": "Air's index",
+        "ok_line": "Light in air is almost as fast as in vacuum.",
+        "ko_title": "Air is not the same",
+        "ko_line": "Air slows light only a tiny amount.",
+        "exp_title": "Speed in air",
+        "exp_text": "The refractive index of air is about 1.0003, meaning light in air is only about 90 km/s slower than in vacuum. That is a very small difference."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of waves all travel at the speed of light in a vacuum?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Electromagnetic waves",
+            "feedback": "Correct. All electromagnetic radiation, including visible light, moves at c in vacuum."
+          },
+          {
+            "label": "Sound waves",
+            "feedback": "No, sound waves need a material to travel through and are much slower."
+          },
+          {
+            "label": "Water waves",
+            "feedback": "No, water waves move on a surface, not at the speed of light."
+          },
+          {
+            "label": "Seismic waves",
+            "feedback": "No, earthquake waves travel through the ground at speeds far below c."
+          }
+        ],
+        "ok_title": "Electromagnetic light",
+        "ok_line": "All EM waves share the same vacuum speed.",
+        "ko_title": "Mechanical waves",
+        "ko_line": "Sound, water and seismic waves are not light.",
+        "exp_title": "Electromagnetic radiation",
+        "exp_text": "Visible light is one form of electromagnetic radiation, and all such waves travel at the speed of light in vacuum. Sound and other mechanical waves do not."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate refractive index of glass for visible light?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "0.5",
+            "feedback": "No, an index less than 1 would mean light travels faster than c, which is impossible."
+          },
+          {
+            "label": "1.0003",
+            "feedback": "That is the index of air, not glass. Glass slows light much more."
+          },
+          {
+            "label": "1.5",
+            "feedback": "Correct. Glass has an index around 1.5 for visible light."
+          },
+          {
+            "label": "3.0",
+            "feedback": "No, that is too high. The value for glass is about half that."
+          }
+        ],
+        "ok_title": "Glass index",
+        "ok_line": "Glass has a refractive index near 1.5.",
+        "ko_title": "Wrong numbers",
+        "ko_line": "It is not 0.5, 1.0003 or 3.0.",
+        "exp_title": "Glass slows light",
+        "exp_text": "For visible light, glass has a refractive index of about 1.5, so light in glass travels at roughly 200 000 km/s, which is slower than the vacuum speed."
+      }
+    ]
+  }
+]

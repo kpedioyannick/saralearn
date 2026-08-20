@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 231,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is groundwater?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Water located beneath Earth's surface in soil and rock spaces",
+            "feedback": "Correct. Groundwater is the water found underground in the pore spaces of soil and rocks and in fractures of rock formations."
+          },
+          {
+            "label": "Water that flows only in rivers and lakes",
+            "feedback": "Incorrect. That is surface water. Groundwater is the water under the ground, not water on the surface."
+          },
+          {
+            "label": "Water that falls from the sky as rain or snow",
+            "feedback": "Incorrect. That is precipitation. Groundwater is what happens to some of that water after it soaks into the ground."
+          },
+          {
+            "label": "Water that is frozen in glaciers and ice caps",
+            "feedback": "Incorrect. That is stored ice. Groundwater is liquid water held underground, not frozen on the surface."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "Groundwater is underground water in soil and rock spaces.",
+        "ko_title": "Wrong definition",
+        "ko_line": "Check what the term 'groundwater' literally means.",
+        "exp_title": "Groundwater defined",
+        "exp_text": "Groundwater is simply the water that sits underground, filling the tiny spaces between grains of soil and rock and any cracks in the rock. It is not the water you see in rivers or lakes, nor is it rain or ice — it is the hidden water beneath your feet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an aquifer?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A layer of pure ice underground",
+            "feedback": "Incorrect. That would be frozen water, not a water-bearing rock. An aquifer is a rock or loose deposit that can yield usable water."
+          },
+          {
+            "label": "A rock or deposit that can supply a usable amount of water",
+            "feedback": "Correct. An aquifer is any unit of rock or unconsolidated deposit that can yield enough water for practical use."
+          },
+          {
+            "label": "A hole dug to reach the water table",
+            "feedback": "Incorrect. That is a well. An aquifer is the water-bearing rock itself, not the hole people dig into it."
+          },
+          {
+            "label": "A spring where water comes out naturally",
+            "feedback": "Incorrect. A spring is a place where groundwater discharges at the surface. An aquifer is the underground source that feeds it."
+          }
+        ],
+        "ok_title": "Aquifer defined",
+        "ok_line": "An aquifer is a rock or deposit that yields usable water.",
+        "ko_title": "Not an aquifer",
+        "ko_line": "An aquifer is about the rock, not the hole or the outflow.",
+        "exp_title": "Aquifer meaning",
+        "exp_text": "An aquifer is simply a body of rock or loose sediment that holds enough water and lets it move well enough that people can draw a useful supply from it. Not every rock can be an aquifer — it has to be able to give up water in usable amounts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the water table?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The surface of a lake or river",
+            "feedback": "Incorrect. That is surface water's top. The water table is underground, marking where the ground becomes fully soaked with water."
+          },
+          {
+            "label": "The bottom of an ocean",
+            "feedback": "Incorrect. The water table is a feature of the land, not the seafloor."
+          },
+          {
+            "label": "The depth where soil and rock become completely saturated with water",
+            "feedback": "Correct. The water table is the underground level below which all the pore spaces and cracks are filled with water."
+          },
+          {
+            "label": "A hard layer of rock that stops water from going deeper",
+            "feedback": "Incorrect. That would be a barrier, not a level. The water table is the top surface of the saturated zone, not a solid layer."
+          }
+        ],
+        "ok_title": "Water table defined",
+        "ok_line": "The water table is the top of the saturated underground zone.",
+        "ko_title": "Not the water table",
+        "ko_line": "The water table is a level within the ground, not a visible surface.",
+        "exp_title": "Water table meaning",
+        "exp_text": "If you dig a hole, the ground above the water table is only partly wet. The water table is the depth where every tiny space in the soil or rock is completely filled with water. Below that line, everything is saturated."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does groundwater naturally get back to the surface?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Through springs and seeps",
+            "feedback": "Correct. Groundwater naturally discharges at the surface through springs and seeps, which can form oases or wetlands."
+          },
+          {
+            "label": "Through evaporation from the ground",
+            "feedback": "Incorrect. Evaporation happens to surface water and moisture, but the natural, direct return of groundwater to the surface is by springs and seeps."
+          },
+          {
+            "label": "Through rivers flowing downhill",
+            "feedback": "Incorrect. Rivers are surface water, not a way groundwater itself returns to the surface. Springs are the natural outlets."
+          },
+          {
+            "label": "Through the roots of trees",
+            "feedback": "Incorrect. Plants take up some soil moisture, but the main natural way groundwater reaches the surface is through springs and seeps."
+          }
+        ],
+        "ok_title": "Natural discharge",
+        "ok_line": "Groundwater comes back up through springs and seeps.",
+        "ko_title": "Not the way out",
+        "ko_line": "Groundwater's natural exit is through the ground itself, not via rivers or air.",
+        "exp_title": "Springs and seeps",
+        "exp_text": "Groundwater does not stay underground forever. Where the water table meets the land surface, water flows out naturally as springs and seeps, sometimes creating oases or wetlands."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the natural source that refills groundwater?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The ocean pushing saltwater inland",
+            "feedback": "Incorrect. That is saltwater intrusion, a problem, not a source. Groundwater is refilled by fresh surface water soaking down."
+          },
+          {
+            "label": "Underground rivers flowing from distant mountains",
+            "feedback": "Incorrect. There is no such thing as a vast underground river feeding all aquifers. Recharge comes from surface water seeping down."
+          },
+          {
+            "label": "Condensation inside rock pores",
+            "feedback": "Incorrect. Groundwater is not created by condensation underground. It comes from water that falls or flows on the surface and infiltrates down."
+          },
+          {
+            "label": "Infiltration of surface water from precipitation, streams, and rivers",
+            "feedback": "Correct. Rain, snowmelt, and stream water soak into the ground and percolate downward to reach the water table, recharging groundwater."
+          }
+        ],
+        "ok_title": "Groundwater recharge",
+        "ok_line": "Surface water soaking down is what refills groundwater.",
+        "ko_title": "Wrong recharge source",
+        "ko_line": "Groundwater is replenished from the surface, not from below.",
+        "exp_title": "Recharge explained",
+        "exp_text": "Groundwater is not a closed system. Precipitation, streams, and rivers send water into the ground; that water moves downward through the soil and rock until it reaches the water table, refilling the aquifer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Approximately what share of the world's readily available fresh water is groundwater?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "About 10 percent",
+            "feedback": "Incorrect. That is too low. Groundwater makes up about thirty percent of the world's readily available fresh water."
+          },
+          {
+            "label": "About 30 percent",
+            "feedback": "Correct. Groundwater holds roughly thirty percent of all readily available fresh water on Earth."
+          },
+          {
+            "label": "About 50 percent",
+            "feedback": "Incorrect. That is too high for readily available fresh water. Groundwater is about thirty percent."
+          },
+          {
+            "label": "About 70 percent",
+            "feedback": "Incorrect. That is far too high. The correct share is about thirty percent."
+          }
+        ],
+        "ok_title": "Share of fresh water",
+        "ok_line": "Groundwater is about 30% of readily available fresh water.",
+        "ko_title": "Wrong share",
+        "ko_line": "Remember it as about three out of ten parts.",
+        "exp_title": "Groundwater's portion",
+        "exp_text": "Of all the fresh water that is readily available for use, about thirty percent is underground as groundwater. This is a large share, but not a majority."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the study of the distribution and movement of groundwater called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oceanography",
+            "feedback": "Incorrect. Oceanography is the study of the oceans, not groundwater."
+          },
+          {
+            "label": "Meteorology",
+            "feedback": "Incorrect. Meteorology deals with the atmosphere and weather, not underground water."
+          },
+          {
+            "label": "Hydrogeology",
+            "feedback": "Correct. The study of how groundwater is distributed and how it moves is called hydrogeology, also known as groundwater hydrology."
+          },
+          {
+            "label": "Geology",
+            "feedback": "Incorrect. Geology is the broad study of the Earth, but the specific study of groundwater is hydrogeology."
+          }
+        ],
+        "ok_title": "Field of study",
+        "ok_line": "Hydrogeology is the study of groundwater.",
+        "ko_title": "Wrong science",
+        "ko_line": "Groundwater study has its own name, not a general Earth science.",
+        "exp_title": "Hydrogeology defined",
+        "exp_text": "The branch of science that looks at where groundwater sits and how it travels through the ground is called hydrogeology. It combines knowledge of water and of rocks."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is 'fossil water'?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Deep groundwater that entered the ground long ago",
+            "feedback": "Correct. Fossil water is deep groundwater that infiltrated into the ground thousands of years ago, not recently."
+          },
+          {
+            "label": "Water that contains the remains of ancient sea creatures",
+            "feedback": "Incorrect. The name is about age, not fossils. It is groundwater that is very old, not water with fossils in it."
+          },
+          {
+            "label": "Water that has turned to ice in permafrost",
+            "feedback": "Incorrect. Permafrost is frozen soil, but fossil water specifically refers to old deep groundwater, not frozen ground."
+          },
+          {
+            "label": "Water that has been polluted by oil drilling",
+            "feedback": "Incorrect. That is contamination. Fossil water is simply ancient groundwater, not water mixed with oil."
+          }
+        ],
+        "ok_title": "Fossil water",
+        "ok_line": "Fossil water is very old deep groundwater.",
+        "ko_title": "Not fossil water",
+        "ko_line": "The word 'fossil' here means ancient, not containing fossils.",
+        "exp_title": "Ancient groundwater",
+        "exp_text": "Some deep groundwater has been underground for millennia, having soaked in thousands of years ago. That old water is called fossil water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Compared to surface water, how long can groundwater stay underground?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Only a few minutes",
+            "feedback": "Incorrect. That is more typical of water in the atmosphere. Groundwater can stay underground much longer."
+          },
+          {
+            "label": "Only a few days",
+            "feedback": "Incorrect. Days resemble short-term surface water storage, not groundwater. Groundwater residence times range from days to millennia."
+          },
+          {
+            "label": "A few years at most",
+            "feedback": "Incorrect. Groundwater can last far longer than a few years; some of it is over a million years old."
+          },
+          {
+            "label": "From days to millennia",
+            "feedback": "Correct. Groundwater can be a long-term reservoir, with water staying underground anywhere from days to thousands of years."
+          }
+        ],
+        "ok_title": "Residence time",
+        "ok_line": "Groundwater can stay underground for a very long time.",
+        "ko_title": "Too short",
+        "ko_line": "Groundwater is a long-term reservoir, not a quick-passing water.",
+        "exp_title": "Groundwater's time underground",
+        "exp_text": "Unlike rain that evaporates quickly or river water that flows away soon, groundwater can sit in an aquifer for a very long time — from just days in some places to thousands of years in deep, distant aquifers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the age of groundwater as it flows across the Great Artesian Basin from east to west?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stays the same everywhere",
+            "feedback": "Incorrect. The age is not uniform; it increases as the water flows westward."
+          },
+          {
+            "label": "It increases",
+            "feedback": "Correct. The groundwater is youngest where it recharges along the Eastern Divide and gets older as it flows westward across the basin."
+          },
+          {
+            "label": "It decreases",
+            "feedback": "Incorrect. The water does not get younger toward the west; it gets older."
+          },
+          {
+            "label": "It becomes unpredictable",
+            "feedback": "Incorrect. The pattern is clear: age increases from east to west across the basin."
+          }
+        ],
+        "ok_title": "Age pattern",
+        "ok_line": "Groundwater gets older from east to west.",
+        "ko_title": "Wrong trend",
+        "ko_line": "The age rises with distance from the recharge area.",
+        "exp_title": "Great Artesian Basin ages",
+        "exp_text": "In the Great Artesian Basin, water enters the ground along the Eastern Divide and then creeps slowly westward. Because it takes a very long time to travel that far, the water in the western parts is much older than the water near the recharge zone."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 237,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the large, dark, smooth patches visible on the Moon's surface called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Highlands",
+            "feedback": "The highlands are the bright, heavily cratered regions, not the dark smooth areas."
+          },
+          {
+            "label": "Maria",
+            "feedback": "Correct. Maria are ancient lava plains that appear dark and smooth, once mistaken for seas."
+          },
+          {
+            "label": "Rilles",
+            "feedback": "Rilles are narrow, winding channels or valleys, not the large dark patches."
+          },
+          {
+            "label": "Regolith",
+            "feedback": "Regolith is the loose dust and rock layer covering the surface, not the dark patches themselves."
+          }
+        ],
+        "ok_title": "Dark patches",
+        "ok_line": "Those are maria, ancient lava fields.",
+        "ko_title": "Not that name",
+        "ko_line": "Check the term for the dark lunar plains.",
+        "exp_title": "Maria on the Moon",
+        "exp_text": "The dark smooth areas are called maria, from the Latin for 'seas', because early observers thought they were bodies of water. They are actually vast plains of solidified lava from ancient volcanic eruptions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the fine, powdery layer covering the Moon's surface called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Regolith",
+            "feedback": "Correct. Regolith is the layer of broken rock and dust made by countless impacts over billions of years."
+          },
+          {
+            "label": "Basalt",
+            "feedback": "Basalt is the dark volcanic rock that makes up the maria, not the powdery covering."
+          },
+          {
+            "label": "Mantle",
+            "feedback": "The mantle is the deep layer inside the Moon, not the surface dust."
+          },
+          {
+            "label": "Crust",
+            "feedback": "The crust is the solid outer rock layer; regolith is the loose material sitting on top of it."
+          }
+        ],
+        "ok_title": "Surface dust",
+        "ok_line": "That layer is regolith.",
+        "ko_title": "Not that rock",
+        "ko_line": "Think of the powdery top layer.",
+        "exp_title": "Lunar regolith",
+        "exp_text": "Regolith is the fine, powdery soil covering the Moon, formed when meteorite impacts shattered rock into dust over billions of years. It is loose and unconsolidated, unlike solid bedrock."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the bright streaks that radiate outward from some craters on the Moon called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Rilles",
+            "feedback": "Rilles are winding channels or valleys, not the bright radial lines."
+          },
+          {
+            "label": "Maria",
+            "feedback": "Maria are the dark plains, unrelated to bright streaks from craters."
+          },
+          {
+            "label": "Rays",
+            "feedback": "Correct. Rays are bright streaks of ejected material thrown out during an impact, extending far from the crater."
+          },
+          {
+            "label": "Faults",
+            "feedback": "Faults are fractures in the crust, not the bright crater streaks."
+          }
+        ],
+        "ok_title": "Bright streaks",
+        "ok_line": "Those are rays.",
+        "ko_title": "Not that feature",
+        "ko_line": "Look for the term about ejected material.",
+        "exp_title": "Crater rays",
+        "exp_text": "Rays are bright streaks that radiate from young craters, composed of pulverized rock blasted outward during the impact. They gradually fade over millions of years as micrometeorites darken the surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do temperatures on the Moon swing to such extremes between lunar day and lunar night?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the Moon is very close to Earth",
+            "feedback": "Distance to Earth affects tides, not the Moon's surface temperature range."
+          },
+          {
+            "label": "Because the Moon has a thick atmosphere that traps heat",
+            "feedback": "The Moon has almost no atmosphere, so it cannot trap heat at all."
+          },
+          {
+            "label": "Because the Moon rotates very fast",
+            "feedback": "Fast rotation would reduce temperature differences, but the Moon rotates slowly, with each day lasting about 29.5 Earth days."
+          },
+          {
+            "label": "Because the Moon has almost no atmosphere to hold heat",
+            "feedback": "Correct. Without a significant atmosphere, there is no insulation or heat retention, so the surface heats up and cools down dramatically."
+          }
+        ],
+        "ok_title": "Extreme temperatures",
+        "ok_line": "No atmosphere means no insulation.",
+        "ko_title": "Wrong cause",
+        "ko_line": "Think about what the Moon lacks.",
+        "exp_title": "Lunar temperature swings",
+        "exp_text": "The Moon's lack of atmosphere is the key. During the two-week-long lunar day, sunlight heats the surface to about 127°C, and during the equally long night, temperatures can drop to about -173°C. Without air, there is no blanket to moderate the temperature."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary cause of 'moonquakes', the trembling occasionally detected within the Moon?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Volcanic eruptions",
+            "feedback": "The Moon's volcanoes are long extinct; they do not cause current trembling."
+          },
+          {
+            "label": "Earth's tidal pull stretching the Moon",
+            "feedback": "Correct. Earth's gravitational pull flexes the Moon's interior, creating stresses that trigger moonquakes, especially around perigee."
+          },
+          {
+            "label": "Wind and storms",
+            "feedback": "The Moon has no atmosphere, so there is no wind to shake the ground."
+          },
+          {
+            "label": "Meteorite impacts",
+            "feedback": "Impacts cause vibrations, but they are local and rare; the recurring moonquakes are from tidal stresses."
+          }
+        ],
+        "ok_title": "Moonquake cause",
+        "ok_line": "Earth's pull flexes the Moon.",
+        "ko_title": "Not that source",
+        "ko_line": "It's an ongoing gravitational effect.",
+        "exp_title": "Why moonquakes happen",
+        "exp_text": "Moonquakes are mostly triggered by Earth's tidal forces, which stretch and squeeze the Moon's interior. This flexing creates stress that releases as tremors, unlike Earth's quakes driven by tectonic plates."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the Moon have no wind, rain, or clouds of any kind?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it is too far from the Sun",
+            "feedback": "The Moon is about the same distance from the Sun as Earth; distance is not the reason."
+          },
+          {
+            "label": "Because its gravity is too weak to hold water",
+            "feedback": "Weak gravity affects water retention, but the real reason for no weather is the absence of a substantial atmosphere."
+          },
+          {
+            "label": "Because it has essentially no atmosphere",
+            "feedback": "Correct. With almost no atmosphere, there is no air to move as wind, no water vapor to condense into clouds or rain."
+          },
+          {
+            "label": "Because it always faces away from the Sun",
+            "feedback": "The Moon does face the Sun during its day; weather is not related to facing direction."
+          }
+        ],
+        "ok_title": "No weather",
+        "ok_line": "No atmosphere means no weather.",
+        "ko_title": "Wrong reasoning",
+        "ko_line": "It's all about the air.",
+        "exp_title": "Lunar atmosphere absence",
+        "exp_text": "The Moon's gravity is too weak to hold a thick atmosphere, leaving it nearly airless. Without air, there can be no wind, clouds, or rain—weather requires an atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do most craters on the Moon end up roughly circular, even when the object that made them struck at a shallow angle?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the explosion from the impact blasts outward equally in all directions",
+            "feedback": "Correct. The immense energy of the strike vaporizes and ejects material symmetrically, producing a circular hole regardless of the incoming angle."
+          },
+          {
+            "label": "Because the Moon's gravity pulls the crater into a circle",
+            "feedback": "Gravity does not reshape craters into circles; the explosion itself creates the shape."
+          },
+          {
+            "label": "Because objects always hit straight down",
+            "feedback": "Impactors come at many angles, but the explosive nature of the collision erases the directionality."
+          },
+          {
+            "label": "Because the Moon is a perfect sphere so craters look round",
+            "feedback": "The Moon's shape doesn't determine crater shape; the impact physics does."
+          }
+        ],
+        "ok_title": "Circular craters",
+        "ok_line": "Explosions make them round.",
+        "ko_title": "Not that reason",
+        "ko_line": "Think of the blast.",
+        "exp_title": "Why craters are round",
+        "exp_text": "When a meteorite hits, it explodes on impact, vaporizing itself and part of the surface. This explosion propagates equally in all directions into the ground, carving out a circular depression no matter the original impact angle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do the Moon's highland regions look noticeably paler than the dark maria nearby?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because they are covered with ice",
+            "feedback": "Ice is found only in permanently shadowed craters, not across the highlands."
+          },
+          {
+            "label": "Because they are made of lighter-colored rock, mostly anorthosite",
+            "feedback": "Correct. The highlands consist of ancient, light-colored rock rich in feldspar, while the maria are darker basalts from volcanic lava."
+          },
+          {
+            "label": "Because they are younger and fresher",
+            "feedback": "Younger surfaces are not necessarily paler; the maria are actually younger and still dark."
+          },
+          {
+            "label": "Because they have more dust",
+            "feedback": "Dust covers both regions equally; the color difference is from the underlying rock type."
+          }
+        ],
+        "ok_title": "Pale highlands",
+        "ok_line": "They are made of light rock.",
+        "ko_title": "Not the cause",
+        "ko_line": "It's about rock composition.",
+        "exp_title": "Highland rock color",
+        "exp_text": "The highlands are composed of anorthosite, a light-colored rock that formed early in the Moon's crust. In contrast, the maria are filled with dark basalt from later lava flows, creating the visible contrast."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to an object from space when it strikes the Moon's surface at high speed, forming a crater?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It bounces off and continues into space",
+            "feedback": "The impact is so violent that the object is destroyed, not bounced."
+          },
+          {
+            "label": "It sinks into the ground like a rock into mud",
+            "feedback": "It does not sink; it explodes on impact, ejecting material outward."
+          },
+          {
+            "label": "It vaporizes and blasts away surrounding rock",
+            "feedback": "Correct. The kinetic energy is so huge that the object and part of the surface turn to vapor, and the explosion excavates a crater."
+          },
+          {
+            "label": "It melts and forms a smooth glassy pit",
+            "feedback": "Melting can occur, but the main event is explosive excavation, not just melting."
+          }
+        ],
+        "ok_title": "Impact process",
+        "ok_line": "It vaporizes and excavates.",
+        "ko_title": "Wrong description",
+        "ko_line": "Think explosion, not sinking.",
+        "exp_title": "Crater formation",
+        "exp_text": "On impact, the projectile's enormous kinetic energy instantly converts to heat and shock, vaporizing the object and pulverizing the surface. The resulting explosion throws out debris, creating a bowl-shaped crater."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do craters on the Moon stay looking almost as sharp as the day they formed, sometimes for billions of years?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the Moon's gravity prevents erosion",
+            "feedback": "Gravity does cause some slumping, but it isn't the reason craters stay sharp—erosion is missing."
+          },
+          {
+            "label": "Because the Moon has a protective atmosphere",
+            "feedback": "The Moon has virtually no atmosphere, not a protective one."
+          },
+          {
+            "label": "Because the craters are kept clear by constant lava flows",
+            "feedback": "Lava flows occurred long ago and only filled some maria, not maintaining craters."
+          },
+          {
+            "label": "Because there is no wind, water, or ice to wear them down",
+            "feedback": "Correct. Without weather or flowing water, erosion is negligible, so craters retain their structure for eons."
+          }
+        ],
+        "ok_title": "Sharp craters",
+        "ok_line": "No erosion to blur them.",
+        "ko_title": "Not that reason",
+        "ko_line": "Think of what's missing.",
+        "exp_title": "Lack of erosion on the Moon",
+        "exp_text": "The Moon has no atmosphere and no liquid water, so the usual erosional forces—wind, rain, flowing ice—are absent. Only micrometeorite impacts slowly chip at the surface, so craters remain crisp for billions of years."
+      }
+    ]
+  }
+]

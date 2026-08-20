@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 124,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is a tornado, stripped down to its simplest description?",
+        "body": null,
+        "options": [
+          {
+            "label": "A violently spinning column of air stretching from a storm cloud down to the ground",
+            "feedback": "A narrow, intensely rotating column of air, reaching from the base of a storm cloud down to the surface, is exactly what a tornado is."
+          },
+          {
+            "label": "A cloud of dust and debris that forms its own wind as it travels",
+            "feedback": "Dust and debris are lifted by the tornado's wind; they do not generate the spinning motion themselves. The air was already rotating before it ever touched the ground."
+          },
+          {
+            "label": "A sudden drop in temperature that pulls air downward in a spiral",
+            "feedback": "A tornado's wind is famous for violent upward and inward motion, not a downward spiral driven by cooling."
+          },
+          {
+            "label": "A patch of unusually still air surrounded by ordinary wind",
+            "feedback": "The opposite is true — a tornado is the most violently moving air in the entire storm, not a pocket of stillness."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "A narrow, violently rotating column reaching from cloud to ground.",
+        "ko_title": "Picture the whole shape",
+        "ko_line": "Think of the single narrow column of air, and what it is doing, that everything else about a tornado follows from.",
+        "exp_title": "A column of air, spinning and reaching down",
+        "exp_text": "Inside a severe thunderstorm, a column of air can begin rotating violently and then stretch downward from the cloud base toward the ground, narrowing and speeding up as it does. Once that spinning column makes contact with the surface, it is a tornado, and everything it does — lifting debris, flattening buildings — is simply that fast rotation acting on whatever lies in its path."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a tornado's funnel narrow so dramatically compared to the wide storm cloud it hangs from?",
+        "body": null,
+        "options": [
+          {
+            "label": "Cold air pinches the funnel from outside as it descends",
+            "feedback": "Surrounding air does not squeeze the funnel inward from the sides. What narrows the column is the spin itself concentrating as it stretches, not outside pressure pinching it."
+          },
+          {
+            "label": "As the spinning column stretches downward it also spins faster, and the faster spin pulls the rotating air in toward a narrower centre",
+            "feedback": "Stretched thinner as it reaches for the ground, the rotating air spins faster to conserve its overall spin, and that faster spin draws the air in toward a tighter, narrower funnel, the same way a skater's arms are pulled inward as they spin faster."
+          },
+          {
+            "label": "Rain washes away the outer edges of the wider rotation",
+            "feedback": "Rain falling through or near a tornado does not erode the shape of the rotating air. The funnel's narrow shape comes from how the spin itself behaves as it stretches, not from rain wearing it down."
+          },
+          {
+            "label": "The ground physically squeezes the column as it touches down",
+            "feedback": "The funnel is already narrow well before it reaches the ground, often visible tapering to a point high in the air, so contact with the ground cannot be what causes the narrowing."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Stretched thinner, the spinning air speeds up and draws itself inward.",
+        "ko_title": "Think about a spinning skater",
+        "ko_line": "Stretching a rotating column of air the way a skater stretches upward has a predictable effect on both its speed and its width.",
+        "exp_title": "Stretched, sped up, and drawn inward",
+        "exp_text": "As the rotating air inside a developing tornado is stretched vertically between the storm cloud above and the ground below, it behaves the way a spinning skater does when pulling their arms in: the same amount of spin, squeezed into a taller, thinner shape, spins faster. That faster rotation in turn pulls the air even further inward toward the centre, and the result is the narrow, fast-spinning funnel that marks a tornado."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do tornadoes form from certain thunderstorms and not from ordinary rain clouds?",
+        "body": null,
+        "options": [
+          {
+            "label": "Only the largest thunderstorms by area are capable of producing rotation",
+            "feedback": "Storm size alone does not decide whether rotation develops. A storm can be enormous and still produce no tornado, or comparatively small and still spin one up, depending on other conditions."
+          },
+          {
+            "label": "Ordinary rain clouds contain more moisture than tornado-producing storms",
+            "feedback": "Moisture is common to nearly every rain-bearing cloud and is not what separates a tornado-producing storm from an ordinary one — the difference lies in how the wind is arranged, not in how wet the air is."
+          },
+          {
+            "label": "Winds blowing at different speeds and directions at different heights can tilt a storm's rising air into rotation, something an ordinary storm lacks",
+            "feedback": "Where wind speed and direction change sharply with height, the air already spiralling horizontally can be tilted upright by the storm's strong updraft, setting the whole storm rotating in a way an ordinary storm, without that changing wind, never does."
+          },
+          {
+            "label": "Tornado-producing storms always occur at higher altitude than ordinary storms",
+            "feedback": "Both kinds of storm form at essentially the same altitudes above the ground. Altitude of formation is not what separates a rotating storm from a non-rotating one."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "Wind changing with height can tip horizontal spin upright into a rotating storm.",
+        "ko_title": "Look at the wind at different heights",
+        "ko_line": "One particular arrangement of wind, changing speed and direction the higher up you go, is what sets a storm rotating in the first place.",
+        "exp_title": "Wind shear tipping a spin upright",
+        "exp_text": "When wind blows in different directions or at different speeds at different heights, a condition called wind shear, it sets up a slow horizontal spin in the air between those layers, like a rolling pin lying on its side. A powerful thunderstorm's rising air can catch that horizontal spin and tilt it upright into a vertical rotation, and it is storms that manage this tilt that go on to develop the rotating updraft a tornado can eventually form beneath."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why are a tornado's winds so much faster than the winds of the storm it forms from?",
+        "body": null,
+        "options": [
+          {
+            "label": "A tornado draws directly on the sun's heat, bypassing the storm entirely",
+            "feedback": "A tornado has no independent source of heat from the sun. Its energy comes from the same rising, spinning air already present in the parent storm, simply concentrated into a much smaller space."
+          },
+          {
+            "label": "Lightning strikes accelerate the air near the funnel",
+            "feedback": "Lightning is a brief electrical discharge that heats a narrow channel of air for a fraction of a second. It plays no role in sustaining the tornado's continuous, powerful rotation."
+          },
+          {
+            "label": "Cold air sinking from higher altitudes adds its own speed to the funnel",
+            "feedback": "Sinking cold air plays a part in some storm features, but it is not what makes a tornado's rotation so fast — that comes from concentrating the storm's existing spin into a narrow column, not from an added downward current."
+          },
+          {
+            "label": "The same amount of spinning motion found across a wide area of the storm becomes concentrated into the tornado's much narrower column",
+            "feedback": "As the broader rotation of the storm's updraft is drawn into the tornado's narrow funnel, the same overall spin is packed into far less space, and concentrating that spin into a smaller column produces dramatically faster wind speeds at its edge."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "The same spin, squeezed into a far narrower column, comes out much faster.",
+        "ko_title": "Think about concentration, not addition",
+        "ko_line": "Nothing new is added to power a tornado. The same rotation already present in the wider storm is simply packed into a much smaller space.",
+        "exp_title": "Wide, slow spin packed into a narrow, fast one",
+        "exp_text": "A thunderstorm's rotating updraft can be several kilometres across, spinning only moderately over that broad area, but when that rotation is drawn down and concentrated into a tornado's funnel, often less than a hundred metres wide, the same total amount of spin is squeezed into a far smaller space. Just as pulling in a skater's arms speeds up their spin without adding any new push, narrowing the storm's broad rotation into the tornado's tight column is what produces wind violent enough to strip bark from a tree."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a tornado lift objects as heavy as cars and small buildings off the ground?",
+        "body": null,
+        "options": [
+          {
+            "label": "The extreme difference in pressure between the tornado's core and the air just outside it creates enough of an upward and inward force to overcome an object's weight",
+            "feedback": "Air pressure inside a tornado's narrow, fast-spinning core drops sharply compared with the air just outside it, and that steep pressure difference, combined with the powerful inward and upward pull of the surrounding wind, can generate enough force to lift objects far heavier than the wind's push alone would suggest."
+          },
+          {
+            "label": "The funnel is magnetically attracted to metal objects on the ground",
+            "feedback": "A tornado is ordinary moving air, with no magnetic properties whatsoever. It lifts wood, glass and people just as readily as it lifts metal."
+          },
+          {
+            "label": "Lightning charges objects and makes them float upward",
+            "feedback": "Lightning strikes are brief and localised, and electrical charge does not make an object weigh less or float. Whatever is lifted is lifted by moving air, not by static charge."
+          },
+          {
+            "label": "The ground briefly loses its grip on gravity beneath a tornado",
+            "feedback": "Gravity is unaffected by weather of any kind, including a tornado passing overhead. What changes is the force of the air acting on an object, not the pull of gravity holding it down."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "A steep pressure drop and powerful inward wind together generate enough force to lift heavy objects.",
+        "ko_title": "Think about pressure as well as wind",
+        "ko_line": "It is not wind speed alone doing the lifting — the pressure inside the funnel itself is dramatically different from the pressure just outside it.",
+        "exp_title": "A steep pressure drop adding to the wind's push",
+        "exp_text": "Air pressure inside a tornado's core falls sharply because the air is spinning so fast that much of it is flung outward rather than allowed to press down as it normally would, leaving the centre strikingly thin. That drop in pressure at the core, combined with the sheer speed of the surrounding wind rushing both inward and upward, is together powerful enough to lift objects as heavy as vehicles clear off the ground."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do most tornadoes in the world's most tornado-prone regions form in spring rather than in the depths of winter?",
+        "body": null,
+        "options": [
+          {
+            "label": "Snow on the ground in winter absorbs any rotation before it can form",
+            "feedback": "Snow cover affects surface temperature, but it does not physically absorb or cancel out rotation happening within a storm cloud far above it."
+          },
+          {
+            "label": "Spring is when warm, moist air from lower latitudes and cold, dry air from higher latitudes are most likely to meet sharply over the same region, and that clash fuels the powerful, rotating storms tornadoes need",
+            "feedback": "In spring, warm moist air pushing up from the south and cold dry air still retreating from the north are especially likely to meet along a sharp boundary, and that clash provides both the instability and the changing wind with height that rotating storms need."
+          },
+          {
+            "label": "Lightning is chemically inactive in cold winter air",
+            "feedback": "Lightning occurs in winter thunderstorms too, just less often, and its chemistry is unrelated to whether a storm's updraft develops rotation."
+          },
+          {
+            "label": "Tornadoes require the exact day length found only in spring",
+            "feedback": "Day length changes gradually across many months and does not match the sharper spring peak in tornado activity seen in the most affected regions."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Spring is when warm, moist air and cold, dry air are most likely to clash sharply.",
+        "ko_title": "Think about what two air masses are doing in spring",
+        "ko_line": "One season is especially likely to bring a sharp meeting between warm moist air and cold dry air over the same stretch of ground.",
+        "exp_title": "The clash between two very different air masses",
+        "exp_text": "During spring in tornado-prone regions, warm, moist air pushing northward from warmer latitudes often meets cold, dry air still retreating from the direction of the pole, and the two masses can collide sharply rather than blending gradually. That clash both fuels the powerful rising motion a severe storm needs and sets up the changing wind with height that can tilt a storm's updraft into rotation, which is why this particular season sees so many more tornadoes than the depths of winter."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the same general storm setup sometimes produce a violent tornado and other times produce no tornado at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "A tornado only forms if the storm passes directly over a river or lake",
+            "feedback": "Tornadoes form and touch down over dry land far from any body of water constantly, so passing over a river or lake is not a requirement."
+          },
+          {
+            "label": "The presence of tall buildings always determines whether rotation reaches the ground",
+            "feedback": "Tornadoes touch down across open farmland and empty prairie just as often as near cities, so buildings are not what decides whether rotation completes its reach to the surface."
+          },
+          {
+            "label": "Whether a tornado forms depends on brief, small-scale shifts in the storm's own rotating updraft that are still not fully understood or reliably predicted, even when the broader ingredients look similar",
+            "feedback": "Forecasters can identify the broad ingredients favourable for tornadoes — moisture, instability, and changing wind with height — but whether a particular storm actually tightens its rotation down to the ground depends on small-scale processes inside that storm that remain difficult to observe and predict even today."
+          },
+          {
+            "label": "It depends only on how many people are watching the storm at the time",
+            "feedback": "The number of observers has no physical effect on a storm's internal wind. A tornado forms or fails to form regardless of whether anyone happens to be watching."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "The final step, from a rotating storm to a tornado reaching the ground, hinges on small-scale details that resist easy prediction.",
+        "ko_title": "Think about the last, hardest step",
+        "ko_line": "Broad favourable conditions are one thing. Something much smaller-scale, and much harder to see, decides whether the rotation actually reaches all the way down.",
+        "exp_title": "A gap between the ingredients and the outcome",
+        "exp_text": "Meteorologists can recognise the large-scale ingredients that make a storm capable of producing a tornado, but two storms with nearly identical ingredients can behave completely differently, because the final step depends on rapid, small-scale changes happening within the storm's own rotating updraft. Those changes occur on a scale too fine and too fast for current observation to capture reliably in every storm, which is why even experienced forecasters cannot say with certainty which particular storm, among several that look equally dangerous, will actually put a tornado on the ground."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do tornadoes typically last only minutes, while the thunderstorms that produce them can last for hours?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tornado uses up all of the storm's moisture on its own within minutes",
+            "feedback": "A tornado does not consume the storm's moisture supply. Moisture continues feeding the parent storm long after any individual tornado has dissipated."
+          },
+          {
+            "label": "Tornadoes are required by law to be reported and then officially ended after a few minutes",
+            "feedback": "Reporting a tornado has no physical effect on the storm itself. Official records describe what the wind is doing; they do not control how long it lasts."
+          },
+          {
+            "label": "The ground beneath a tornado cools too quickly to sustain it",
+            "feedback": "Ground temperature changes far too slowly, over hours, to explain a tornado ending within minutes. What ends it is a change inside the storm's own airflow, not a shift in the ground beneath it."
+          },
+          {
+            "label": "The tight, concentrated rotation that forms a tornado is a delicate balance within the storm that is easily disrupted, for instance as rain-cooled air wraps around and cuts off the updraft feeding it",
+            "feedback": "The narrow, intense rotation of a tornado depends on a very particular balance of rising and cooling air, and that balance is easily upset — often by cool air, dragged down by rain, wrapping around the base of the tornado and cutting off the very updraft that was sustaining it."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "The tight rotation depends on a delicate balance that is easily disrupted, often by cool, rain-driven air choking off its own updraft.",
+        "ko_title": "Think about how fragile the balance is",
+        "ko_line": "A tornado's narrow rotation depends on a precise supply of rising air. Ask what inside the same storm can interrupt that supply.",
+        "exp_title": "A fragile balance, easily broken",
+        "exp_text": "A tornado depends on a continuous, tightly organised supply of rising air feeding its rotation, and that supply is fragile compared with the broader thunderstorm around it. Rain-cooled air sinking within the same storm often spreads out and wraps around the base of the tornado, cutting off the warm updraft it needs, and once that supply is interrupted the tight rotation quickly loosens and fades even while the parent storm itself continues on for hours more."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do tornadoes almost always rotate in the same direction as the storm's broader updraft, rather than spinning independently of it?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tornado's rotation is drawn from and concentrated out of that same broader updraft, so it inherits its parent's direction of spin rather than starting fresh",
+            "feedback": "As the storm's wide, gently rotating updraft is drawn down and squeezed into the tornado's narrow funnel, the rotation is concentrated, not replaced, so the tornado spins the same way the broader updraft was already spinning."
+          },
+          {
+            "label": "The ground beneath decides which way a passing tornado will turn",
+            "feedback": "Flat, ordinary ground has no influence over which direction a tornado rotates. That direction is set well above the surface, inside the storm's own updraft."
+          },
+          {
+            "label": "Every tornado, everywhere, rotates the same fixed direction regardless of the storm above it",
+            "feedback": "Direction of rotation is not fixed across every tornado everywhere — most spin the same way as their local hemisphere's typical storm rotation, but a small number spin the opposite way to their own parent storm, so it clearly follows the storm rather than any universal fixed rule."
+          },
+          {
+            "label": "Passing aircraft occasionally set the rotation before a storm forms",
+            "feedback": "Aircraft passing through the sky leave behind only brief, thin trails of disturbed air that dissipate in moments, nowhere near enough to establish the rotation of a storm that may form hours later."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "The tornado inherits its spin from the broader updraft it is concentrated out of.",
+        "ko_title": "Think about where the spin started",
+        "ko_line": "The tornado's rotation was not created independently — trace it back to the wider rotation it was squeezed out of.",
+        "exp_title": "Inherited spin, not a fresh start",
+        "exp_text": "Long before any narrow funnel appears, the storm's broad updraft is already rotating gently across a wide area, having tilted that rotation upright from the changing wind with height described earlier. When part of that rotating updraft is drawn down and concentrated into a tornado, the funnel simply continues spinning in the same direction its parent updraft was already turning, rather than adopting any new or independent direction of its own."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a tornado's path across the ground often look erratic, skipping over some buildings while flattening others just metres away?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tornado deliberately avoids buildings that are structurally reinforced",
+            "feedback": "A tornado has no capacity to sense or avoid particular buildings. Its path is decided entirely by the airflow within it, not by what any structure is built from."
+          },
+          {
+            "label": "The wind near the funnel's base breaks into smaller, intense sub-vortices that circle around the main funnel, so the very strongest wind is concentrated in narrow moving pockets rather than spread evenly across the whole path",
+            "feedback": "Within a large tornado's base, smaller and even more intense whirls can form and orbit the main circulation, so the very worst damage happens only where one of those tight sub-vortices happens to pass, while ground just beside it, still within the tornado's overall path, is struck by comparatively less violent wind."
+          },
+          {
+            "label": "Only wooden buildings are vulnerable to a tornado's wind",
+            "feedback": "Tornadoes have destroyed buildings made of brick, concrete and steel as well as wood. Material alone does not decide which structures a tornado's path happens to strike."
+          },
+          {
+            "label": "The ground itself moves up and down ahead of the storm, missing some spots at random",
+            "feedback": "The ground does not move up and down as a storm approaches. What varies unevenly is the wind passing over the fixed ground, not the ground itself."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "Smaller, intense sub-vortices circling the main funnel concentrate the worst wind into narrow, shifting pockets.",
+        "ko_title": "Look inside the funnel itself",
+        "ko_line": "The main funnel is not always one smooth, evenly violent whirl — something smaller and even faster can be circling within it.",
+        "exp_title": "Whirls within the whirl",
+        "exp_text": "Some tornadoes, especially larger ones, contain several smaller and even more intense sub-vortices that orbit rapidly around the main circulation rather than blowing as one uniform column of wind. As the whole system moves forward, these tighter whirls sweep across the ground in narrow, shifting tracks of their own, so a house directly in the path of one sub-vortex can be destroyed while a neighbouring house, only slightly off that narrow track, is left largely untouched by the same passing storm."
+      }
+    ]
+  }
+]

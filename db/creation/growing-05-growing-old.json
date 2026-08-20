@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 264,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does skin gradually become thinner and more wrinkled with age?",
+        "body": null,
+        "options": [
+          {
+            "label": "The skin dries out permanently and can never hold water again",
+            "feedback": "Skin can still hold moisture in old age. The deeper change is in the supporting fibers, not a permanent loss of water."
+          },
+          {
+            "label": "Skin cells produce less of the collagen and elastin that keep it firm and stretchy",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The skin grows an extra layer that hides the smooth layer beneath",
+            "feedback": "No extra layer forms over time. If anything, the skin tends to become thinner, not thicker."
+          },
+          {
+            "label": "Sunlight burns away the skin's surface permanently",
+            "feedback": "Sun exposure can speed up skin aging, but it is not the underlying mechanism behind wrinkling itself, which happens even on skin that is rarely in the sun."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Less of the fibers that once kept skin firm and springy.",
+        "ko_title": "Not quite",
+        "ko_line": "Skin can still hold water at this stage. The change lies in the fibers that give it structure.",
+        "exp_title": "Fewer of the fibers that hold skin taut",
+        "exp_text": "Skin owes its firmness and stretch to a mesh of fibers called collagen and elastin, produced by cells in its deeper layer. As a person ages, those cells produce less of both fibers, and the existing mesh grows thinner, so the skin above sags and folds where it once stayed smooth."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually causes hair to turn gray or white with age?",
+        "body": null,
+        "options": [
+          {
+            "label": "The hair strand itself changes color chemically as it grows",
+            "feedback": "The color of an existing strand does not change partway through. What changes is the color of the hair produced from the root onward."
+          },
+          {
+            "label": "Washing and styling gradually strip out the natural color",
+            "feedback": "Ordinary washing and styling do not remove pigment from hair. The change happens inside the follicle itself, not on the surface."
+          },
+          {
+            "label": "The pigment-making cells in the hair follicle slow down and eventually stop",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Gray hairs grow in a completely different shape",
+            "feedback": "A gray hair is not shaped differently from a colored one. The difference is in pigment, not in the strand's form."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "The pigment supply runs low at the root, not along the strand.",
+        "ko_title": "Not the cause",
+        "ko_line": "Nothing about washing or the shape of the strand explains this. Look at the cells that supply color in the first place.",
+        "exp_title": "A pigment supply that runs low",
+        "exp_text": "Each hair follicle contains cells that load the growing strand with pigment, giving hair its color. Over the years those pigment-making cells gradually become less active and eventually stop altogether, so the strand that grows afterward comes out gray or white instead of its original shade."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do bones tend to lose density as a person grows older?",
+        "body": null,
+        "options": [
+          {
+            "label": "Bone tissue turns directly into fat",
+            "feedback": "Bone tissue does not convert itself into fat. The change is about how much bone is broken down versus rebuilt."
+          },
+          {
+            "label": "The bones stop needing calcium so the body removes it",
+            "feedback": "Bones continue to need calcium throughout life. What changes with age is the balance between breaking bone down and building it back up."
+          },
+          {
+            "label": "Old bone is no longer broken down at all",
+            "feedback": "Old bone continues to be broken down throughout life. The issue is that rebuilding falls behind, not that breakdown stops."
+          },
+          {
+            "label": "The breakdown of old bone gradually outpaces the building of new bone",
+            "feedback": "Correct."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Correct",
+        "ok_line": "Bone is always being recycled — the balance just tips with age.",
+        "ko_title": "Not quite",
+        "ko_line": "Bone is constantly being broken down and rebuilt throughout life. Think about which side of that balance shifts.",
+        "exp_title": "A lifelong balance that tips over time",
+        "exp_text": "Bone is never a fixed, unchanging material; cells constantly break down old bone while other cells rebuild new bone in its place. As a person ages, the rebuilding side of that balance gradually slows more than the breakdown side does, leaving bones a little less dense than they were before."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do joints often feel stiffer and less flexible in old age?",
+        "body": null,
+        "options": [
+          {
+            "label": "The smooth cartilage cushioning the joint gradually wears thinner",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The bones on either side of the joint fuse together",
+            "feedback": "The bones of a working joint do not fuse into one solid piece. What changes is the cushioning material between them."
+          },
+          {
+            "label": "Muscles around the joint disappear completely",
+            "feedback": "Muscles around a joint can weaken with age, but they do not vanish, and the stiffness itself has a more direct cause inside the joint."
+          },
+          {
+            "label": "The joint fills up with excess fluid",
+            "feedback": "Extra fluid is not the general cause of stiffness with age. If anything, the tissue that eases movement tends to wear down, not build up."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "The cushioning between bones thins with years of use.",
+        "ko_title": "Not the cause",
+        "ko_line": "The bones themselves are not the problem here. Think about the smooth material sitting between them.",
+        "exp_title": "Cushioning that thins with use",
+        "exp_text": "A layer of smooth cartilage covers the ends of bones inside a joint, letting them glide against each other with little friction. Decades of movement gradually wear that cartilage thinner, so the bones move against each other with less cushioning and the joint feels stiffer and less smooth than it once did."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do cuts and wounds tend to heal more slowly in older people?",
+        "body": null,
+        "options": [
+          {
+            "label": "Blood stops clotting properly with age",
+            "feedback": "Clotting still works to seal a fresh wound in old age. The slowdown happens at a later stage, in rebuilding the tissue."
+          },
+          {
+            "label": "Cells at the wound site divide and replace themselves more slowly than before",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Skin loses the ability to heal after a certain age",
+            "feedback": "Skin does not lose the ability to heal; healing still happens, just at a reduced pace rather than not at all."
+          },
+          {
+            "label": "Old skin actively resists new cell growth",
+            "feedback": "Skin is not working against its own repair. It is simply that the cells involved carry out that repair more slowly than they used to."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "The same repair process, just carried out more slowly.",
+        "ko_title": "Not quite",
+        "ko_line": "Healing does still happen at this age. Think about the pace of the cells doing the rebuilding.",
+        "exp_title": "The same repair, running slower",
+        "exp_text": "Closing a wound depends on cells at its edges dividing repeatedly to rebuild the missing skin. In older age those cells divide less readily and more slowly than they once did, so the same repair process that once closed a cut quickly now takes noticeably longer to finish."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many people find it harder to focus on close-up objects, like small print, as they get older?",
+        "body": null,
+        "options": [
+          {
+            "label": "The eye itself shrinks with age",
+            "feedback": "The overall size of the eye does not shrink in old age. The change happens to one specific structure inside it."
+          },
+          {
+            "label": "The pupil stops opening and closing properly",
+            "feedback": "The pupil mainly controls how much light enters the eye, and it is not what is responsible for focusing on nearby objects."
+          },
+          {
+            "label": "The lens inside the eye gradually stiffens and struggles to change shape for close focus",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The optic nerve wears down and weakens",
+            "feedback": "The optic nerve carries signals to the brain, but this particular difficulty with close focus comes from a structure earlier in the eye, not from the nerve."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "A lens that used to bend easily loses its flexibility.",
+        "ko_title": "Not that structure",
+        "ko_line": "This difficulty comes down to one flexible structure inside the eye that changes shape to focus.",
+        "exp_title": "A lens that stops bending as easily",
+        "exp_text": "The eye focuses on nearby objects by squeezing the lens into a rounder shape, which bends light more sharply. Over the years that lens gradually stiffens and loses some of its flexibility, so it can no longer round up as much as it once could, making close-up objects harder to bring into focus."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does hearing, especially of high-pitched sounds, often decline with age?",
+        "body": null,
+        "options": [
+          {
+            "label": "The eardrum gradually seals itself shut",
+            "feedback": "The eardrum does not close up over time. The part of the ear involved in this decline lies further inside."
+          },
+          {
+            "label": "Earwax builds up permanently and cannot be cleared",
+            "feedback": "Earwax buildup can affect hearing, but it is not the underlying cause of long-term age-related decline, and it can still be cleared."
+          },
+          {
+            "label": "The bones of the middle ear dissolve over time",
+            "feedback": "The small bones of the middle ear stay largely intact with age. The change responsible for this kind of hearing loss happens deeper inside the ear."
+          },
+          {
+            "label": "Tiny hair cells inside the inner ear wear out and, once lost, are not replaced",
+            "feedback": "Correct."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Correct",
+        "ok_line": "Cells that detect sound wear out and are never replaced.",
+        "ko_title": "Not the cause",
+        "ko_line": "The parts you might guess first, further out in the ear, are not what is changing here. Look deeper inside.",
+        "exp_title": "Cells that cannot be replaced",
+        "exp_text": "Sound is detected inside the inner ear by tiny hair-like cells, each tuned to respond to a particular pitch, with those tuned to high pitches especially exposed to wear from everyday noise. Once one of these cells is damaged beyond repair, the body has no way to grow a replacement, so its particular pitch becomes a little harder to hear from then on."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does muscle mass tend to shrink in older age, even without a specific injury?",
+        "body": null,
+        "options": [
+          {
+            "label": "Muscle fibers gradually shrink and are not fully replaced as they break down",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Muscles turn into bone tissue",
+            "feedback": "Muscle tissue does not convert into bone. The two are separate tissues that change in different ways with age."
+          },
+          {
+            "label": "The nerves that trigger muscles disappear completely",
+            "feedback": "Some nerve connections to muscle do decline with age, but they do not vanish entirely, and this is not the main reason muscle mass itself shrinks."
+          },
+          {
+            "label": "Muscle simply converts entirely into fat tissue",
+            "feedback": "Muscle tissue is not transformed into fat. Fat can build up alongside shrinking muscle, but the muscle fibers themselves are simply reduced, not converted."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Existing fibers shrink and are not fully replaced.",
+        "ko_title": "Not quite",
+        "ko_line": "Muscle tissue is not being converted into something else here. The fibers themselves are simply changing in size and number.",
+        "exp_title": "Fibers shrinking, not fully renewed",
+        "exp_text": "Muscle tissue is made of long fibers that are normally maintained by repair and renewal as older fibers wear out through use. With age, that renewal process slows down and some fibers are lost rather than replaced, so the muscle as a whole gradually shrinks even without any specific injury to explain it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many people become slightly shorter as they age?",
+        "body": null,
+        "options": [
+          {
+            "label": "The long bones of the legs shorten with age",
+            "feedback": "The long bones themselves do not shorten. The change responsible for lost height happens in the spine instead."
+          },
+          {
+            "label": "The soft discs between the bones of the spine gradually compress and thin",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The skull settles lower onto the spine",
+            "feedback": "The skull does not sink down onto the spine over time. The lost height comes from within the spine itself."
+          },
+          {
+            "label": "Muscles pull the spine into a permanently shorter shape",
+            "feedback": "Muscle tension does not permanently shorten the spine. The change is in the cushioning structures between the spine's bones."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Cushioning discs in the spine gradually lose some of their thickness.",
+        "ko_title": "Not that part",
+        "ko_line": "The bones of the legs and skull are not where this change happens. Think about what sits between the bones of the spine.",
+        "exp_title": "Cushions that lose some of their thickness",
+        "exp_text": "Soft discs sit between each pair of bones in the spine, acting as cushions that give the spine some of its length. Over decades those discs lose some of the fluid that keeps them plump and gradually compress, so the stacked height of the spine shrinks a little even though the individual bones stay the same size."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can't the body's cells keep dividing to replace themselves forever?",
+        "body": null,
+        "options": [
+          {
+            "label": "Cells run out of the space needed to divide",
+            "feedback": "Available space is not what limits a cell's ability to divide. The limit is built into the cell itself, not into the room around it."
+          },
+          {
+            "label": "Cells forget how to divide after enough time has passed",
+            "feedback": "A cell does not lose the knowledge of how to divide. What runs out is a physical structure it relies on to divide safely."
+          },
+          {
+            "label": "Protective caps on the ends of chromosomes shorten with each division until the cell can no longer divide",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Cells are gradually replaced by a different kind of tissue",
+            "feedback": "One kind of tissue does not quietly turn into another over time. The limit here is about how many times a given cell can copy itself."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "A protective cap that wears a little shorter with every division.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Nothing here is about forgetting or running out of room. Look at the ends of the chromosomes themselves.",
+        "exp_title": "A cap that wears down with every copy",
+        "exp_text": "The ends of chromosomes are capped by protective stretches of repeating material that keep the chromosome from fraying or sticking to others during division. Each time a cell divides, that cap loses a little of its length, and once it wears down past a certain point the cell stops dividing rather than risk damaging its own chromosomes."
+      }
+    ]
+  }
+]

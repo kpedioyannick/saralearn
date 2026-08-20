@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a gait?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The pattern of movement of an animal's limbs while moving over a solid surface",
+            "feedback": "Correct. A gait is the pattern of limb movement during locomotion over a solid substrate."
+          },
+          {
+            "label": "The speed at which an animal moves through water or air",
+            "feedback": "Incorrect. The term gait usually refers to movement over a solid surface, not through fluids like water or air."
+          },
+          {
+            "label": "The shape of an animal's foot",
+            "feedback": "Incorrect. That is a physical feature, not a pattern of movement."
+          },
+          {
+            "label": "The sound an animal makes while walking",
+            "feedback": "Incorrect. Sound is not part of the definition of gait; it's the limb movement pattern."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "A gait is the limb movement pattern over a solid substrate.",
+        "ko_title": "Review the definition",
+        "ko_line": "Remember that gait is about limb movement on solid ground.",
+        "exp_title": "What a gait is",
+        "exp_text": "A gait is the pattern of movement of the limbs of an animal during locomotion over a solid substrate, such as walking on the ground. It does not refer to swimming or flying through fluids."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a symmetrical gait, what do the left and right limbs of a pair do?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They move together at the same time",
+            "feedback": "Incorrect. That describes an asymmetrical gait, where limbs of a pair move together."
+          },
+          {
+            "label": "They alternate, one after the other",
+            "feedback": "Correct. In a symmetrical gait, the left and right limbs of a pair alternate."
+          },
+          {
+            "label": "They never touch the ground",
+            "feedback": "Incorrect. Both limbs always have stance and swing phases in any gait."
+          },
+          {
+            "label": "They move in a random order",
+            "feedback": "Incorrect. Symmetrical gaits have a regular alternating pattern, not random."
+          }
+        ],
+        "ok_title": "Symmetrical gait",
+        "ok_line": "Left and right limbs alternate in symmetrical gaits.",
+        "ko_title": "Check the pattern",
+        "ko_line": "Symmetry is about alternating, not moving together.",
+        "exp_title": "Symmetrical vs asymmetrical",
+        "exp_text": "In a symmetrical gait, the left and right limbs of a pair alternate their movements—one moves, then the other. In an asymmetrical gait, they move together, often leading to a suspended phase."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the duty factor of a foot?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The speed at which the foot moves during swing",
+            "feedback": "Incorrect. Duty factor is not about speed; it's about time on the ground."
+          },
+          {
+            "label": "The distance the foot travels in one cycle",
+            "feedback": "Incorrect. That is a stride length, not the duty factor."
+          },
+          {
+            "label": "The force the foot applies to the ground",
+            "feedback": "Incorrect. That is not what duty factor measures; it measures time."
+          },
+          {
+            "label": "The percentage of the total cycle that the foot is on the ground",
+            "feedback": "Correct. Duty factor is the percent of the cycle a foot spends in stance."
+          }
+        ],
+        "ok_title": "Duty factor defined",
+        "ok_line": "Duty factor is the percent of cycle on the ground.",
+        "ko_title": "Remember the definition",
+        "ko_line": "Duty factor is about time, not speed or force.",
+        "exp_title": "What duty factor means",
+        "exp_text": "The duty factor is the percentage of the entire gait cycle during which a given foot is in contact with the ground. It is typically the same for forelimbs and hindlimbs unless the animal is accelerating, decelerating, or using a trained gait."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "According to duty factor, what makes a gait a 'run'?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A duty factor of exactly 50%",
+            "feedback": "Incorrect. Exactly 50% is the boundary; runs are below 50%."
+          },
+          {
+            "label": "A duty factor greater than 50%",
+            "feedback": "Incorrect. That defines a walk, not a run."
+          },
+          {
+            "label": "A duty factor less than 50%",
+            "feedback": "Correct. When the foot is on the ground less than half the cycle, it is a run."
+          },
+          {
+            "label": "A duty factor of 100%",
+            "feedback": "Incorrect. That would mean the foot never leaves the ground, which is not a run."
+          }
+        ],
+        "ok_title": "Run by duty factor",
+        "ok_line": "A run has duty factor below 50%.",
+        "ko_title": "Check the boundary",
+        "ko_line": "Less than half the time on the ground is a run.",
+        "exp_title": "Walk vs run by duty factor",
+        "exp_text": "If the duty factor is over 50%, meaning the foot stays on the ground more than half the cycle, it is a walk. If it is under 50%, with the foot off the ground more than half the time, it is a run."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the forelimb-hindlimb phase relationship in a gait?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The timing between when the same-side forelimb and hindlimb touch the ground",
+            "feedback": "Correct. It describes the temporal relationship between the forelimb and hindlimb on the same side."
+          },
+          {
+            "label": "The distance between the front and back feet",
+            "feedback": "Incorrect. That is a spatial measurement, not a timing relationship."
+          },
+          {
+            "label": "The speed difference between the forelimbs and hindlimbs",
+            "feedback": "Incorrect. It is about timing of ground contact, not speed."
+          },
+          {
+            "label": "The force distribution between front and back legs",
+            "feedback": "Incorrect. It is about timing, not force."
+          }
+        ],
+        "ok_title": "Phase relationship",
+        "ok_line": "It's the timing between same-side limb contacts.",
+        "ko_title": "Revisit the definition",
+        "ko_line": "Phase is about when limbs touch the ground.",
+        "exp_title": "Forelimb-hindlimb phase",
+        "exp_text": "The forelimb-hindlimb phase is the temporal relationship between the limb pairs on the same side. If they touch the ground at the same time, the phase is 0%; if one is half a cycle later, it is 50%."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can lizards and salamanders not move and breathe at the same time?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They do not have lungs",
+            "feedback": "Incorrect. They do have lungs; the issue is with muscles."
+          },
+          {
+            "label": "They use the same muscles to breathe and to move their bodies sideways",
+            "feedback": "Correct. The muscles that expand the body wall for breathing are also used for lateral undulation during movement."
+          },
+          {
+            "label": "Their hearts beat too fast during movement",
+            "feedback": "Incorrect. This is about breathing muscles, not heart rate."
+          },
+          {
+            "label": "They must hold their breath to run faster",
+            "feedback": "Incorrect. They cannot choose; it's a physical constraint."
+          }
+        ],
+        "ok_title": "Carrier's constraint",
+        "ok_line": "Same muscles for breathing and moving.",
+        "ko_title": "Think about the muscles",
+        "ko_line": "It's a muscle conflict, not a lung problem.",
+        "exp_title": "Why they can't do both",
+        "exp_text": "Lizards and salamanders lack a diaphragm, so they breathe by expanding and contracting their body wall. Those same muscles are used to undulate the body side-to-side during locomotion, so the animal cannot do both at once. Some lizards can get around this with buccal pumping."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the effect of spinal flexion during a gallop in mammals?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It slows down the animal's breathing",
+            "feedback": "Incorrect. It actually increases ventilation, not slows it."
+          },
+          {
+            "label": "It prevents the lungs from inflating",
+            "feedback": "Incorrect. It helps inflate and deflate the lungs."
+          },
+          {
+            "label": "It has no effect on breathing",
+            "feedback": "Incorrect. It directly affects lung inflation."
+          },
+          {
+            "label": "It helps push air in and out of the lungs, increasing oxygen exchange",
+            "feedback": "Correct. The spinal flexion moves the abdominal organs like a piston, helping ventilation."
+          }
+        ],
+        "ok_title": "Gallop and breathing",
+        "ok_line": "Spinal flexion boosts lung ventilation.",
+        "ko_title": "Check the mechanism",
+        "ko_line": "It aids breathing, not hinders it.",
+        "exp_title": "How galloping helps mammals breathe",
+        "exp_text": "In a galloping mammal, the flexing and extending of the spine makes the abdominal organs act like a piston. This inflates and deflates the lungs with each stride, increasing ventilation and allowing more oxygen to be exchanged."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which animals are mostly capable of using asymmetrical gaits?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "All reptiles",
+            "feedback": "Incorrect. Asymmetrical gaits are largely confined to mammals."
+          },
+          {
+            "label": "All birds",
+            "feedback": "Incorrect. Birds are not the main group for these gaits."
+          },
+          {
+            "label": "Mammals",
+            "feedback": "Correct. Mammals can use asymmetrical gaits due to spinal flexibility."
+          },
+          {
+            "label": "Insects",
+            "feedback": "Incorrect. Insects use symmetrical gaits like the tripod gait."
+          }
+        ],
+        "ok_title": "Asymmetrical gait users",
+        "ok_line": "Mammals are the main users.",
+        "ko_title": "Who uses asymmetrical?",
+        "ko_line": "Think of animals with flexible spines.",
+        "exp_title": "Asymmetrical gaits in mammals",
+        "exp_text": "Almost all animals can use symmetrical gaits, but asymmetrical gaits, like galloping, are mostly confined to mammals. This is because mammals have enough spinal flexion to increase their stride length. Small crocodilians can also use a bounding gait, but mammals are the main group."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a characteristic of the tripod gait used by fruit flies?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Three legs swing together while three legs stay on the ground",
+            "feedback": "Correct. In the tripod gait, three legs move together and three support the body."
+          },
+          {
+            "label": "Only one leg moves at a time",
+            "feedback": "Incorrect. That describes a wave gait, not the tripod."
+          },
+          {
+            "label": "All six legs move together",
+            "feedback": "Incorrect. That would leave no legs on the ground."
+          },
+          {
+            "label": "Two legs swing while four stay on the ground",
+            "feedback": "Incorrect. That is a tetrapod coordination, not a tripod."
+          }
+        ],
+        "ok_title": "Tripod gait",
+        "ok_line": "Three legs swing, three stay down.",
+        "ko_title": "Check the leg count",
+        "ko_line": "It's three and three, not other combinations.",
+        "exp_title": "Fruit fly tripod gait",
+        "exp_text": "Fruit flies often use a tripod gait, where three legs swing forward together while the other three legs remain on the ground for support. At lower speeds, they may use more legs on the ground, but the tripod is common at higher speeds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In the energy-based classification, what is a walking gait compared to?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A coiled spring",
+            "feedback": "Incorrect. That is the model for running, not walking."
+          },
+          {
+            "label": "An inverted pendulum",
+            "feedback": "Correct. Walking is described as a vaulting motion like an inverted pendulum."
+          },
+          {
+            "label": "A rolling ball",
+            "feedback": "Incorrect. The model is specifically an inverted pendulum."
+          },
+          {
+            "label": "A swinging door",
+            "feedback": "Incorrect. That is not the mechanical model used."
+          }
+        ],
+        "ok_title": "Walking model",
+        "ok_line": "Walking is like an inverted pendulum.",
+        "ko_title": "Remember the model",
+        "ko_line": "It's a vaulting motion, not a spring.",
+        "exp_title": "Inverted pendulum in walking",
+        "exp_text": "In the energy-based scheme, walking gaits are characterized by a vaulting movement of the body over the legs, often described as an inverted pendulum. Kinetic and potential energy fluctuate out of phase. Running, by contrast, is described by the spring-mass model, with energy fluctuations in phase."
+      }
+    ]
+  }
+]

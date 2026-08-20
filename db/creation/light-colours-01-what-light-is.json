@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 80,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What does light travel through space as?",
+        "body": null,
+        "options": [
+          {
+            "label": "A wave and a particle at once",
+            "feedback": "It behaves as both, depending on the test you run."
+          },
+          {
+            "label": "A stream of tiny hot grains",
+            "feedback": "Light carries no matter and has no temperature."
+          },
+          {
+            "label": "A ripple in the air",
+            "feedback": "Air would stop it. Sunlight crosses empty space."
+          },
+          {
+            "label": "A very fast flow of heat",
+            "feedback": "Light delivers heat but is not made of it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Both at once, and no picture of one alone is complete.",
+        "ko_title": "Not quite.",
+        "ko_line": "The honest answer refuses to pick just one of the two.",
+        "exp_title": "Two descriptions, both needed",
+        "exp_text": "Send light through two narrow slits and it makes an interference pattern, which only a wave can do. Shine it on metal and it knocks electrons out one at a time, which only particles can do. Neither picture is wrong and neither is enough on its own. Physicists settled on calling the unit a photon and accepting that it behaves as a wave until something measures it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Does light need something to travel through?",
+        "body": null,
+        "options": [
+          {
+            "label": "No, it crosses empty space",
+            "feedback": "Sunlight reaches us through a vacuum."
+          },
+          {
+            "label": "Yes, it needs air",
+            "feedback": "There is no air between the Sun and the Earth."
+          },
+          {
+            "label": "Yes, it needs an invisible medium",
+            "feedback": "That idea was tested carefully and found false."
+          },
+          {
+            "label": "Only over very long distances",
+            "feedback": "The rule does not change with distance."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Sound needs air. Light needs nothing at all.",
+        "ko_title": "Not so.",
+        "ko_line": "There is nothing between here and the Sun, and yet the light arrives.",
+        "exp_title": "The one thing sound cannot do",
+        "exp_text": "Sound is a squeezing of air, so it dies in a vacuum — a bell ringing inside a pumped-out jar falls silent while staying visible. Light needs no such carrier. For most of the nineteenth century physicists assumed an invisible substance filled space to carry it, and a famous experiment set out to detect the Earth moving through it. It found nothing, and the idea was abandoned."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a photon?",
+        "body": null,
+        "options": [
+          {
+            "label": "The smallest possible amount of light",
+            "feedback": "Light comes in whole units and never in halves."
+          },
+          {
+            "label": "A very small particle of dust",
+            "feedback": "Dust blocks light. It is not made of it."
+          },
+          {
+            "label": "The centre of a beam of light",
+            "feedback": "A beam has no special centre."
+          },
+          {
+            "label": "A tiny spark inside a flame",
+            "feedback": "A flame emits photons but is not made of them."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Light comes in whole pieces, never in fractions.",
+        "ko_title": "Not it.",
+        "ko_line": "The word names an amount rather than an object.",
+        "exp_title": "Light arrives in whole pieces",
+        "exp_text": "Light cannot be divided endlessly. There is a smallest amount at each colour, and it is called a photon. Dim a source enough and a sensitive detector stops reading a fading glow and starts registering separate arrivals, like the first drops of rain on a roof. A photon has no mass and no charge, only energy, and the energy is set by the colour: blue photons carry more than red."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What makes one colour of light different from another?",
+        "body": null,
+        "options": [
+          {
+            "label": "The length of its wave",
+            "feedback": "Short waves read as violet, long ones as red."
+          },
+          {
+            "label": "How brightly it shines",
+            "feedback": "Brightness is how much light, not which colour."
+          },
+          {
+            "label": "How fast it travels",
+            "feedback": "In a vacuum every colour travels at the same speed."
+          },
+          {
+            "label": "How hot the source was",
+            "feedback": "Heat affects what is emitted, not what colour is."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Colour is a length, and the eye is measuring it.",
+        "ko_title": "Not that.",
+        "ko_line": "Dim a red lamp and it stays red. So brightness is not the answer.",
+        "exp_title": "Colour is a measurement of length",
+        "exp_text": "Visible light spans wavelengths from about 700 nanometres, which we see as red, down to about 400, which we see as violet. Nothing else distinguishes them: in a vacuum all colours travel at the same speed and differ only in this one number. Your eye holds three kinds of cone tuned to different parts of the range, and every colour you have ever seen is your brain comparing their three signals."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you see a wooden table but not the air in front of it?",
+        "body": null,
+        "options": [
+          {
+            "label": "The wood scatters light back at you",
+            "feedback": "Air lets almost all of it pass straight through."
+          },
+          {
+            "label": "Air gives off no light of its own",
+            "feedback": "Nor does the table. Both only handle light."
+          },
+          {
+            "label": "Air is too thin to have a colour",
+            "feedback": "Enough air is visibly blue. Look at a mountain range."
+          },
+          {
+            "label": "Your eye cannot focus on air",
+            "feedback": "The eye focuses on whatever sends it light."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "You never see objects. You see the light they send back.",
+        "ko_title": "Not it.",
+        "ko_line": "Neither the table nor the air produces light. So what differs?",
+        "exp_title": "Seeing means catching what bounced",
+        "exp_text": "Almost nothing you look at makes its own light. What reaches your eye is sunlight or lamplight that struck a surface and scattered back, and the colour you perceive is whatever the surface failed to absorb. Air scatters very little across the width of a room, so light passes through almost untouched and there is nothing to see. Stack enough air — a mountain range away — and the scattering becomes obvious as blue haze."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to the light that a black surface receives?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is absorbed and becomes heat",
+            "feedback": "Which is why black warms fastest in the sun."
+          },
+          {
+            "label": "It bounces away in all directions",
+            "feedback": "That is what makes a surface white."
+          },
+          {
+            "label": "It passes straight through",
+            "feedback": "Then the surface would be transparent, not black."
+          },
+          {
+            "label": "It is destroyed on contact",
+            "feedback": "Energy is never destroyed, only converted."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly.",
+        "ok_line": "Black is not a colour returning. It is energy staying.",
+        "ko_title": "Not so.",
+        "ko_line": "Leave a black object in the sun and touch it an hour later.",
+        "exp_title": "Black keeps what white gives back",
+        "exp_text": "A white surface scatters back nearly all the light of every colour; a black one absorbs it, and the energy becomes heat. That is the whole difference. The blackest materials ever made are forests of microscopic tubes that trap light in repeated bounces until almost none escapes — under 0.1% — and an object coated in one loses its shape to the eye, appearing as a hole rather than a thing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to light when it enters water?",
+        "body": null,
+        "options": [
+          {
+            "label": "It slows down and changes direction",
+            "feedback": "The bend is why a submerged stick looks broken."
+          },
+          {
+            "label": "It speeds up in the denser water",
+            "feedback": "Denser material always slows light down."
+          },
+          {
+            "label": "It keeps exactly the same path",
+            "feedback": "Then a straw in a glass would never look bent."
+          },
+          {
+            "label": "It loses its colour at once",
+            "feedback": "Colour survives; a pool is not grey."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Slower in water, and bent at the surface as a result.",
+        "ko_title": "Not it.",
+        "ko_line": "Put a straw in a glass of water and look from the side.",
+        "exp_title": "A bend that follows a slowdown",
+        "exp_text": "Light travels about a quarter slower in water than in a vacuum, and where it crosses the surface at an angle one side of the wave enters first and slows before the other. The wave pivots, and the beam bends — the same reason a trolley veers if one wheel hits gravel first. Everything follows from this: lenses, spectacles, the rainbow, and the fish that never sits quite where it appears."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a mirror send back such a clear picture?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its surface is extremely smooth",
+            "feedback": "Every ray bounces the same way, so the image survives."
+          },
+          {
+            "label": "Glass reflects better than metal",
+            "feedback": "The reflecting layer is metal. The glass only protects it."
+          },
+          {
+            "label": "It gives off a faint light of its own",
+            "feedback": "A mirror in a dark room shows nothing."
+          },
+          {
+            "label": "It absorbs the unwanted colours",
+            "feedback": "A mirror returns all colours equally, which is why it is neutral."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Smoothness is everything. Roughen it and the image is gone.",
+        "ko_title": "Not that.",
+        "ko_line": "White paper reflects nearly as much light and shows no picture. Why?",
+        "exp_title": "The difference is smoothness, not shininess",
+        "exp_text": "White paper reflects almost as much light as a mirror, but its surface is rough at the scale of a wave, so rays leave in every direction and the arrangement they arrived in is lost. A mirror is flat to within a fraction of a wavelength, so parallel rays stay parallel and the pattern survives. Sand the mirror lightly and it turns into white paper: the same reflectivity, the same brightness, no image."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where does the light of the Sun come from?",
+        "body": null,
+        "options": [
+          {
+            "label": "Hydrogen fusing into helium in its core",
+            "feedback": "A fraction of the mass becomes energy at each step."
+          },
+          {
+            "label": "An enormous chemical fire",
+            "feedback": "Burning would exhaust the Sun in a few thousand years."
+          },
+          {
+            "label": "Friction between its spinning layers",
+            "feedback": "Rubbing could not sustain that output for a day."
+          },
+          {
+            "label": "Sunlight reflected from other stars",
+            "feedback": "Other stars are far too distant and too faint."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Matter turning into light, four million tonnes a second.",
+        "ko_title": "Not it.",
+        "ko_line": "A fire that size would have burnt out long before life appeared.",
+        "exp_title": "Mass becoming light",
+        "exp_text": "In the core, at some fifteen million degrees, hydrogen nuclei fuse into helium. The helium weighs slightly less than the hydrogen that made it, and the missing mass leaves as energy. The Sun converts about four million tonnes of itself into light every second and has done so for four and a half billion years. A photon made in the core takes tens of thousands of years to fight its way out, then eight minutes to reach you."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lamp filament glow when it gets hot enough?",
+        "body": null,
+        "options": [
+          {
+            "label": "Anything hot enough gives off light",
+            "feedback": "Heat any material and it eventually glows red, then white."
+          },
+          {
+            "label": "The metal is burning away",
+            "feedback": "A sealed filament glows for years without burning."
+          },
+          {
+            "label": "Electricity is visible in metal",
+            "feedback": "Current itself gives off no light."
+          },
+          {
+            "label": "The metal releases a stored glow",
+            "feedback": "Nothing is stored. Cut the power and it stops."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Hot enough is all it takes, whatever the material.",
+        "ko_title": "Not so.",
+        "ko_line": "A horseshoe in a forge glows too, and nothing there is burning.",
+        "exp_title": "Everything warm is shining",
+        "exp_text": "Every object gives off light according to its temperature. At room temperature it is infrared, invisible to us but plain to a thermal camera. Around 500 °C the glow reaches into red; hotter still it turns orange, yellow, then white as more of the range is covered. A star, a poker and your own body are all doing the same thing at different temperatures — which is how astronomers read a star's heat from its colour."
+      }
+    ]
+  }
+]

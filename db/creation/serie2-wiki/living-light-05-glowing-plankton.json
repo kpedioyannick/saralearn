@@ -1,0 +1,286 @@
+[
+  {
+    "theme_id": 222,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main chemicals involved in the light production of glowing plankton?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen and hydrogen",
+            "feedback": "Oxygen is needed, but it reacts with a specific substrate, not hydrogen. The light comes from luciferin and luciferase."
+          },
+          {
+            "label": "Calcium and ATP",
+            "feedback": "Calcium and ATP are helpers some species use, but they are not the core pair. The essential pair is luciferin and luciferase."
+          },
+          {
+            "label": "Luciferin and luciferase",
+            "feedback": "Correct. Luciferin is the substrate that gets oxidized, and luciferase is the enzyme that speeds up the reaction, producing light."
+          },
+          {
+            "label": "Coelenterazine and magnesium",
+            "feedback": "Coelenterazine is one type of luciferin, and magnesium can be a cofactor, but the general answer is the substrate–enzyme pair."
+          }
+        ],
+        "ok_title": "Correct pair",
+        "ok_line": "Luciferin and luciferase are the two main ingredients.",
+        "ko_title": "Check the pair",
+        "ko_line": "The main pair is luciferin plus luciferase.",
+        "exp_title": "The light-making pair",
+        "exp_text": "Glowing plankton make light through a chemical reaction. The substrate luciferin is oxidized by the enzyme luciferase, and the excited molecule then gives off visible light as it settles down."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of organism are the glowing plankton that make waves sparkle at night?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Single-celled dinoflagellates",
+            "feedback": "Correct. Dinoflagellates are single-celled microorganisms that produce light when disturbed, creating the sparkling effect in the water."
+          },
+          {
+            "label": "Tiny jellyfish",
+            "feedback": "Jellyfish are animals, but the sparkling in the waves is caused by dinoflagellates, not by jellyfish."
+          },
+          {
+            "label": "Small crustaceans",
+            "feedback": "Crustaceans can be bioluminescent, but the ones that make a wave glow blue are dinoflagellates, not crustaceans."
+          },
+          {
+            "label": "Microscopic bacteria",
+            "feedback": "Bacteria glow in colonies, but the plankton that flash in disturbed water are dinoflagellates."
+          }
+        ],
+        "ok_title": "Plankton are algae",
+        "ok_line": "Dinoflagellates are the single-celled plankton that glow.",
+        "ko_title": "Not a jellyfish",
+        "ko_line": "The glowers in the waves are dinoflagellates.",
+        "exp_title": "Dinoflagellates",
+        "exp_text": "Dinoflagellates are single-celled organisms that live in the ocean. When they are disturbed, they flash, which is why broken waves or a moving boat can make the sea look like it is glowing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What usually triggers a glowing plankton cell to flash?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Warming of the water",
+            "feedback": "Warming does not trigger the flash. The flash happens when the cell is physically disturbed, such as by a wave or a moving object."
+          },
+          {
+            "label": "Being disturbed",
+            "feedback": "Correct. When a dinoflagellate is jostled or hit by a wave, it produces a flash of light."
+          },
+          {
+            "label": "Sunlight reaching it",
+            "feedback": "Sunlight is not the trigger; the flash happens in response to motion, not to light."
+          },
+          {
+            "label": "Lack of oxygen",
+            "feedback": "Oxygen is needed for the reaction, but the trigger for the flash is disturbance, not oxygen shortage."
+          }
+        ],
+        "ok_title": "Disturbance triggers flash",
+        "ok_line": "A jolt or wave makes the plankton flash.",
+        "ko_title": "Not temperature",
+        "ko_line": "The flash is set off by being disturbed.",
+        "exp_title": "Flash trigger",
+        "exp_text": "Dinoflagellates flash when they are physically disturbed, for example by a wave, a fish, or a boat moving through the water. This is why the sea appears to sparkle in the wake of a vessel."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do glowing plankton usually flash only at night?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They need darkness to make the chemicals",
+            "feedback": "They do not need darkness to make chemicals; they flash at night because the light is visible then. The reaction itself can happen in the day."
+          },
+          {
+            "label": "They only move at night",
+            "feedback": "They move during the day too, but the flash is not visible in daylight. The flash is a chemical reaction, not a movement."
+          },
+          {
+            "label": "They are asleep during the day",
+            "feedback": "Dinoflagellates are not asleep; the flash happens any time they are disturbed, but you cannot see it in sunlight."
+          },
+          {
+            "label": "Their light is too dim to see in daylight",
+            "feedback": "Correct. The flash is very faint, so it is only noticeable when the background is dark."
+          }
+        ],
+        "ok_title": "Visible at night",
+        "ok_line": "The glow is too faint for daylight.",
+        "ko_title": "Not about sleep",
+        "ko_line": "The flash is always there but invisible by day.",
+        "exp_title": "Why night only",
+        "exp_text": "The light from a single dinoflagellate is extremely faint. In sunlight it is completely washed out, so people notice the glow only after dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where inside a glowing plankton cell is the light made?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "In small structures within the cell",
+            "feedback": "Correct. The light is produced in tiny organelles inside the cell, where the chemicals are stored and react."
+          },
+          {
+            "label": "On the outside of the cell membrane",
+            "feedback": "The reaction happens inside the cell, not on the outer surface. The light is produced within the cell's internal structures."
+          },
+          {
+            "label": "In the nucleus",
+            "feedback": "The nucleus holds genetic material, not the light-producing chemicals. The light is made in separate organelles."
+          },
+          {
+            "label": "In the cell wall",
+            "feedback": "The cell wall is a stiff outer layer; the glowing reaction takes place inside the cell, not in the wall."
+          }
+        ],
+        "ok_title": "Inside special organelles",
+        "ok_line": "Light comes from small internal structures.",
+        "ko_title": "Not on the surface",
+        "ko_line": "The reaction happens within the cell.",
+        "exp_title": "Where the flash occurs",
+        "exp_text": "In dinoflagellates, the luciferin and luciferase are kept in small sacs or organelles inside the cell. When the cell is disturbed, the two chemicals meet and produce a flash."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What colour is the light given off by most glowing plankton in the ocean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red light is rare in the ocean and does not travel far. Glowing plankton emit blue light."
+          },
+          {
+            "label": "Green",
+            "feedback": "Green is seen in some land organisms, but ocean plankton mostly produce blue light, which travels well in water."
+          },
+          {
+            "label": "Blue",
+            "feedback": "Correct. Blue light is the typical colour because it penetrates seawater well and is visible to many marine animals."
+          },
+          {
+            "label": "White",
+            "feedback": "White light is not typical; the glow is blue, which is the colour best suited for the dark ocean."
+          }
+        ],
+        "ok_title": "Blue glow",
+        "ok_line": "Most ocean plankton emit blue light.",
+        "ko_title": "Not red",
+        "ko_line": "The light is usually blue in the sea.",
+        "exp_title": "Colour of plankton light",
+        "exp_text": "The ocean absorbs colours differently, and blue light travels the farthest in water. So most marine bioluminescence, including that of plankton, is blue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the chemical that actually gives off the light when it is excited?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Luciferase",
+            "feedback": "Luciferase is the enzyme that speeds up the reaction, not the molecule that emits light. The emitter is oxyluciferin."
+          },
+          {
+            "label": "Oxyluciferin",
+            "feedback": "Correct. After luciferin is oxidized, it becomes oxyluciferin in an excited state, and it is this molecule that releases the light."
+          },
+          {
+            "label": "Coelenterazine",
+            "feedback": "Coelenterazine is one type of luciferin, the starting material, not the final light-emitting product."
+          },
+          {
+            "label": "ATP",
+            "feedback": "ATP is an energy carrier used in some reactions, but it is not the molecule that emits light."
+          }
+        ],
+        "ok_title": "Light emitter",
+        "ok_line": "Oxyluciferin is the molecule that glows.",
+        "ko_title": "Not the enzyme",
+        "ko_line": "The emitter is oxyluciferin.",
+        "exp_title": "The glowing molecule",
+        "exp_text": "In the bioluminescence reaction, luciferin is oxidized to form oxyluciferin. This product is produced in an excited state, and when it falls back to its normal state, it releases visible light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a 'red tide'?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A bloom of many dinoflagellates that colours the water",
+            "feedback": "Correct. When dinoflagellates multiply enormously, the water can look reddish, and at night it often glows."
+          },
+          {
+            "label": "A type of glowing jellyfish",
+            "feedback": "Red tides are not jellyfish; they are huge numbers of single-celled dinoflagellates."
+          },
+          {
+            "label": "A layer of red algae on the seafloor",
+            "feedback": "The colour comes from floating dinoflagellates in the water, not from algae on the bottom."
+          },
+          {
+            "label": "A wave of warm water that makes plankton glow",
+            "feedback": "A red tide is a dense population of dinoflagellates, not a wave or warm current."
+          }
+        ],
+        "ok_title": "A dense bloom",
+        "ok_line": "Red tide is a mass of dinoflagellates.",
+        "ko_title": "Not a jellyfish",
+        "ko_line": "It is a bloom of single-celled plankton.",
+        "exp_title": "Red tide basics",
+        "exp_text": "When conditions are right, dinoflagellates multiply until the water is thick with them, sometimes colouring it red or brown. Such a bloom is called a red tide."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for light produced by an organism through a chemical reaction?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Fluorescence",
+            "feedback": "Fluorescence is a different process where an object absorbs light and re-emits it; it is not the same as making light from a chemical reaction."
+          },
+          {
+            "label": "Bioluminescence",
+            "feedback": "Correct. Bioluminescence is the production of light by an organism as a result of a chemical reaction."
+          },
+          {
+            "label": "Phosphorescence",
+            "feedback": "Phosphorescence is the slow re-emission of absorbed light, not light created by a chemical reaction inside an organism."
+          },
+          {
+            "label": "Incandescence",
+            "feedback": "Incandescence is light from heat, such as a hot metal, and is not what glowing plankton do."
+          }
+        ],
+        "ok_title": "Light from chemicals",
+        "ok_line": "Bioluminescence is organism-made light.",
+        "ko_title": "Not fluorescence",
+        "ko_line": "Organism-made light is bioluminescence.",
+        "exp_title": "Defining bioluminescence",
+        "exp_text": "Bioluminescence is the light that an organism produces through a chemical reaction inside its body. Glowing plankton are a classic example."
+      }
+    ]
+  }
+]

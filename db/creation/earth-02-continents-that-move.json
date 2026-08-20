@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 132,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Earth's rigid outer shell move as separate pieces instead of shifting as one unbroken shell?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is cracked into separate rigid plates, each carried independently by the slow-moving material beneath it",
+            "feedback": "Free edges let each broken piece move at its own pace, independently of its neighbors."
+          },
+          {
+            "label": "Gravity pulls harder on some parts of the shell than others",
+            "feedback": "Gravity pulls essentially evenly across the globe; that difference does not explain why one plate moves while its neighbor stays still."
+          },
+          {
+            "label": "The shell melts and refreezes in a different position each time",
+            "feedback": "The rigid shell stays solid the whole time it is being carried along; it does not melt in order to shift position."
+          },
+          {
+            "label": "Ocean water lubricates gaps and lets the whole shell slide",
+            "feedback": "Much of the shell has no ocean above it at all, and the pieces move independently rather than sliding together as one."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Broken pieces, each moving on its own.",
+        "ko_title": "Not one shell",
+        "ko_line": "Ask what happened to the shell long before any of it started moving.",
+        "exp_title": "Broken into moving pieces",
+        "exp_text": "Earth's outer shell is rigid but not in one piece: long ago it fractured into a set of separate plates, each with its own free edges. Because those edges are free, a plate can be carried along at its own pace by the slow flow of the softer material beneath it, independently of what its neighbors are doing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to the seafloor where two plates are pulling apart from each other?",
+        "body": null,
+        "options": [
+          {
+            "label": "The gap stays open and empty, exposing the material below directly to the ocean",
+            "feedback": "Rising material fills the gap almost as fast as it opens, so it is never left bare for long."
+          },
+          {
+            "label": "Molten rock rises to fill the gap and cools into new solid crust",
+            "feedback": "Rising melt fills the opening space and hardens into fresh seafloor as it cools."
+          },
+          {
+            "label": "The two plates crumple together into a ridge of folded rock",
+            "feedback": "Pulling apart is the opposite of crumpling together; folding happens where plates push into each other, not apart."
+          },
+          {
+            "label": "Sediment washes in from nearby coastlines and fills the space",
+            "feedback": "The gap fills from below with fresh rock long before loose sediment from distant coastlines could ever reach it."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "New floor, rising to meet the opening.",
+        "ko_title": "The gap does not stay a gap",
+        "ko_line": "Think about what lies just beneath a crack that keeps opening.",
+        "exp_title": "New floor from the gap itself",
+        "exp_text": "Where two plates are being pulled apart, the crust thins and the pressure on the material below eases, letting some of it melt and rise up through the opening crack. That rising melt reaches the seafloor, cools, and hardens into new solid rock right along the crack, continually rebuilding the floor as fast as the plates pull away from it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does the pattern of magnetism recorded in seafloor rock on either side of a spreading ridge show that the floor is spreading?",
+        "body": null,
+        "options": [
+          {
+            "label": "Rock nearer the ridge is always magnetized more strongly than rock farther away",
+            "feedback": "Strength does not simply fade with distance; what changes with distance is the direction recorded, not how strongly the rock is magnetized."
+          },
+          {
+            "label": "Only rock on one side of the ridge holds any magnetic record at all",
+            "feedback": "Rock forms and spreads away from both sides of a ridge at once, so both sides carry a record, not just one."
+          },
+          {
+            "label": "As new rock cools it locks in the magnetic field's direction at that moment, and because the field has flipped over time, the same sequence of stripes appears mirrored on both sides",
+            "feedback": "Matching mirrored bands on both sides show that the same rock, made at the same ridge, has been carried apart in both directions."
+          },
+          {
+            "label": "The ridge itself is a giant natural magnet pulling the plates apart",
+            "feedback": "The ridge is not a magnet pulling anything; the forces driving the plates apart are unrelated to any magnetism recorded in the rock."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "The same record, laid down twice, facing outward.",
+        "ko_title": "Not strength, not one-sided",
+        "ko_line": "Ask what a stripe on one side has in common with the matching stripe on the other.",
+        "exp_title": "A record laid down twice, facing outward",
+        "exp_text": "As melted rock cools into solid crust at the ridge, tiny magnetic grains inside it freeze into alignment with the planet's field at that exact moment, locking in a permanent record of its direction. Because that field has flipped back and forth many times over the planet's history, that record forms a sequence of stripes, and since crust splits and carries away from the ridge in both directions at once, the very same sequence appears mirrored on each side."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What typically happens where a dense ocean plate runs into a lighter plate at a boundary?",
+        "body": null,
+        "options": [
+          {
+            "label": "The two plates simply stop moving and lock together forever",
+            "feedback": "Plates at this kind of boundary keep moving; nothing here brings the motion to a permanent halt."
+          },
+          {
+            "label": "The lighter plate sinks beneath the denser one",
+            "feedback": "It works the other way around: the denser plate is the one that goes under, not the lighter one."
+          },
+          {
+            "label": "Both plates crumple upward together by an equal amount",
+            "feedback": "Crumpling together by equal amounts happens between two evenly matched plates, not when one plate is clearly denser than the other."
+          },
+          {
+            "label": "The denser plate bends downward and slides beneath the lighter one, back into the depths",
+            "feedback": "Being denser, that plate is pulled down and slips beneath its lighter neighbor rather than staying at the surface."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "The heavier plate is the one that goes under.",
+        "ko_title": "Density decides",
+        "ko_line": "Between two plates of unequal weight, ask which one a scale would send downward.",
+        "exp_title": "The heavier one gives way",
+        "exp_text": "At a boundary between an ocean plate and a lighter plate, the ocean plate is the denser of the two, built from rock that is naturally heavier for its size. Because it cannot float as high as its lighter neighbor, its leading edge bends downward and slides beneath the other plate, sinking gradually back into the depths it once rose from."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens where two continental plates push directly into each other?",
+        "body": null,
+        "options": [
+          {
+            "label": "Neither plate can sink, so the crust between them crumples and thickens instead",
+            "feedback": "Since both plates are too buoyant to be pushed under, the collision folds and piles up the rock between them instead."
+          },
+          {
+            "label": "One of the two plates always sinks beneath the other, just as with an ocean plate",
+            "feedback": "Continental rock is too light to be pushed under that way, unlike a denser ocean plate; a different outcome happens here."
+          },
+          {
+            "label": "The two plates simply pass through each other without effect",
+            "feedback": "Solid rock cannot pass through solid rock; the collision has to go somewhere, and it shows up as crumpling."
+          },
+          {
+            "label": "The crust between them melts completely and disappears",
+            "feedback": "The rock is not melted away by this kind of collision; it stays solid and is folded and piled up instead."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly right",
+        "ok_line": "Too light to go under, so it piles up instead.",
+        "ko_title": "Nothing sinks here",
+        "ko_line": "Both plates in this collision are equally reluctant to be pushed underground.",
+        "exp_title": "Too light to go under",
+        "exp_text": "Continental rock is lighter for its size than the rock making up an ocean plate, and that lightness is exactly what lets it float too high to be pushed down and swallowed the way a denser plate can be. When two such plates are driven into each other, the collision has nowhere to go but up and sideways, so the crust between them crumples, buckles, and thickens under the pressure."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens at a boundary where two plates slide sideways past each other?",
+        "body": null,
+        "options": [
+          {
+            "label": "New crust is created continuously along the boundary",
+            "feedback": "Creating new crust happens where plates pull apart, not where they slide past one another sideways."
+          },
+          {
+            "label": "The plates grind past one another without much crust being created or destroyed",
+            "feedback": "The motion here is mostly sideways, so rock is neither built up nor swallowed in any large amount along this kind of boundary."
+          },
+          {
+            "label": "One plate is steadily worn down and consumed by the other",
+            "feedback": "Consuming a whole plate happens where one plate sinks beneath another, not where the two merely slide past each other."
+          },
+          {
+            "label": "The two plates fuse permanently into a single plate",
+            "feedback": "Sliding past each other keeps the two plates separate and independent; it does not join them into one."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Sideways motion, without building or destroying much.",
+        "ko_title": "No gap, no collision",
+        "ko_line": "This boundary is neither opening nor closing; think about what sideways motion alone can do.",
+        "exp_title": "Grinding past, sideways",
+        "exp_text": "At this kind of boundary the two plates are neither pulling apart nor pushing into each other; instead their edges are simply being carried in different directions along the same line, scraping past one another. Because material is neither rising to fill a gap nor being forced down and destroyed, the boundary mostly just grinds without building new crust or consuming old crust in any real amount."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What kind of evidence, found on continents that are now oceans apart, suggested they were once joined together?",
+        "body": null,
+        "options": [
+          {
+            "label": "Continents on opposite sides of an ocean always have identical modern climates",
+            "feedback": "Climate today depends on latitude and other factors, and it varies widely even between continents that were once joined; matching climate is not the evidence used."
+          },
+          {
+            "label": "The ocean floor between them is completely flat and featureless",
+            "feedback": "The ocean floor between separated continents is far from flat; it carries a ridge and other features that are themselves part of the story."
+          },
+          {
+            "label": "Matching coastline shapes, rock layers, and fossil trails that line up once the continents are pushed back together",
+            "feedback": "When the pieces are fitted back together on a map, their edges, their layers of rock, and the trail of matching fossils continue seamlessly across the join."
+          },
+          {
+            "label": "Every continent contains the exact same mix of living species today",
+            "feedback": "Today's species differ a great deal between continents, since each one evolved separately after it split away; that difference points to a past joining only through the older fossil record."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "Coastlines, layers, and fossils that continue across the join.",
+        "ko_title": "Not climate, not living species",
+        "ko_line": "The evidence for a past joining is older than anything alive or blowing through the air today.",
+        "exp_title": "Pieces that still fit",
+        "exp_text": "When the outlines of continents on either side of an ocean are pushed back together on a map, their coastlines line up far more closely than chance would allow, and so do the layers of rock running through them. The same ancient fossils, belonging to creatures that could never have crossed open ocean, turn up on both sides exactly where the join predicts they should."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the motion of a plate impossible to notice from one day to the next, even though it never actually stops?",
+        "body": null,
+        "options": [
+          {
+            "label": "The plates only move once every few centuries, in sudden jumps",
+            "feedback": "Motion is not an occasional jump; it is continuous, just extremely small at any single moment."
+          },
+          {
+            "label": "The motion is an illusion; plates do not actually move at all",
+            "feedback": "The motion is real and has been tracked over long spans of time, even though no single day shows any change."
+          },
+          {
+            "label": "The motion happens quickly, but only where nobody is standing to notice",
+            "feedback": "The speed itself is not fast anywhere on a plate; the reason nothing is noticed is not about where someone happens to be standing."
+          },
+          {
+            "label": "Each day's movement is a tiny fraction of a single step, roughly like how quickly a fingernail grows",
+            "feedback": "A shift that small in a single day is far too small for a person to feel or see happening, even though it never pauses."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Exactly",
+        "ok_line": "Too slow to catch, never too slow to add up.",
+        "ko_title": "Not fake, not sudden",
+        "ko_line": "The motion is real and constant; think about how small a single day's share of it must be.",
+        "exp_title": "Too slow to catch, never too slow to add up",
+        "exp_text": "A plate's motion never stops, but the distance it covers in any one day is close to nothing at all, similar to the pace at which a fingernail lengthens. Nothing about a change that small can be felt or seen from one day to the next, even though the same tiny shift keeps happening constantly underfoot."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually keeps a plate moving, once it is already in motion?",
+        "body": null,
+        "options": [
+          {
+            "label": "The slow circulation of hot material within the mantle drags the plate along from beneath",
+            "feedback": "A rigid plate resting on that slowly circulating material gets carried along wherever the flow beneath it is heading."
+          },
+          {
+            "label": "Wind blowing across the surface pushes the plate along",
+            "feedback": "Wind acts only on the air and water at the very surface; it has no grip on rock reaching deep beneath the crust."
+          },
+          {
+            "label": "The spin of the planet flings every plate outward at the same steady rate",
+            "feedback": "Spin affects the whole planet evenly and does not single out particular plates to move at their own separate paces and directions."
+          },
+          {
+            "label": "Tides raised by the moon tug the plate a little further each day",
+            "feedback": "Tides act mainly on water; solid rock stretching deep underground is not what tides are pulling on to keep a plate advancing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Dragged along by what flows beneath it.",
+        "ko_title": "Not wind, not spin, not tides",
+        "ko_line": "The push has to reach deep beneath the crust, not just the surface.",
+        "exp_title": "Dragged from below",
+        "exp_text": "Hot material within the mantle is not still; it is slowly circulating, rising in some places and sinking in others over vast stretches of time. A rigid plate resting on top of that circulation gets carried along wherever the flow beneath it is heading, the way anything resting on a slow-moving current is carried along with it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is seafloor rock right next to a spreading ridge consistently younger than seafloor found far away from it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Rock far from the ridge is worn down by waves until it looks older than it is",
+            "feedback": "Wave action changes the shape of exposed rock, not how old the rock itself actually is; the rock's true age does not shift because of wear."
+          },
+          {
+            "label": "New crust is continuously created right at the ridge and pushed outward as more forms behind it",
+            "feedback": "Since fresh rock always appears right at the ridge and older rock is carried away from it, distance from the ridge and age go hand in hand."
+          },
+          {
+            "label": "Rock near the ridge is warmed and reset to appear young by heat rising from below",
+            "feedback": "Heat from below does not erase or reset the history already recorded in solid rock; the rock near the ridge is young because it is newly made, not because it was reset."
+          },
+          {
+            "label": "Older rock sinks and is replaced by rock rising up near the ridge only",
+            "feedback": "Rock produced at the ridge does not swap places with something already sitting there; it forms fresh from rising melt and then moves off without displacing anything."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Freshest right where it is made.",
+        "ko_title": "Not wear, not reset",
+        "ko_line": "Ask where new rock is actually produced, and what happens to it afterward.",
+        "exp_title": "Freshest where it is made",
+        "exp_text": "New crust is always being formed right along the ridge itself, where rising melt cools and solidifies before being carried away by the ongoing spreading. Because each new strip of rock forms in that same narrow place before moving off to make room for the next strip behind it, rock found farther from the ridge has simply had more time to travel and is correspondingly older."
+      }
+    ]
+  }
+]

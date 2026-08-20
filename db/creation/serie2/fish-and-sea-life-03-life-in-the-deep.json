@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the layer of the ocean where sunlight does not reach at all?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The twilight zone",
+            "feedback": "The twilight zone is the layer just below the sunlit surface, where there is still some dim light. The question asks for the layer with no sunlight at all, which is deeper."
+          },
+          {
+            "label": "The abyssal plain",
+            "feedback": "The abyssal plain is a flat area of the seafloor, not a layer of water defined by light. The layer with no sunlight is the aphotic zone, and the abyssal plain lies within it."
+          },
+          {
+            "label": "The aphotic zone",
+            "feedback": "Correct. The aphotic zone is the deep part of the ocean where sunlight never reaches, so it is permanently dark."
+          },
+          {
+            "label": "The photic zone",
+            "feedback": "The photic zone is the upper layer of the ocean where sunlight does reach, allowing photosynthesis. The layer with no sunlight is the aphotic zone."
+          }
+        ],
+        "ok_title": "No sunlight here",
+        "ok_line": "The aphotic zone is the deep, permanently dark layer.",
+        "ko_title": "Light layers confused",
+        "ko_line": "The twilight zone still has some light; the aphotic zone has none.",
+        "exp_title": "Ocean light zones",
+        "exp_text": "The ocean is divided into zones by how much sunlight penetrates. The photic zone near the surface gets full light, the twilight zone gets dim light, and the aphotic zone below receives no sunlight at all—this is the deep sea."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main source of food for animals living on the deep seafloor?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Green plants growing in the deep",
+            "feedback": "Green plants need sunlight to photosynthesize, and no sunlight reaches the deep seafloor, so plants cannot grow there. The main food source falls from above."
+          },
+          {
+            "label": "Detritus falling from the surface waters",
+            "feedback": "Correct. Dead plankton, fish remains, and other organic bits sink down from the sunlit surface, forming a slow 'marine snow' that feeds deep-sea animals."
+          },
+          {
+            "label": "Heat from underwater volcanoes",
+            "feedback": "Heat from volcanic vents supports some unique communities, but it is not the main food source for most of the deep seafloor. The primary source is organic matter falling from above."
+          },
+          {
+            "label": "Oxygen dissolved in the water",
+            "feedback": "Oxygen is needed for breathing, not as food. It does not provide energy; the deep seafloor relies on organic material that sinks down."
+          }
+        ],
+        "ok_title": "Food from above",
+        "ok_line": "Marine snow and other fallen debris feed the deep seafloor.",
+        "ko_title": "Sinking organic matter",
+        "ko_line": "Deep animals eat detritus that falls from the surface, not plants or heat.",
+        "exp_title": "Deep-sea food supply",
+        "exp_text": "In the deep sea, sunlight cannot reach, so no plants grow. The main food comes from organic particles—dead plankton, fish waste, and carcasses—that sink from the sunlit surface waters. This falling material is called marine snow, and it slowly accumulates on the seafloor where animals consume it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do most deep-sea fish use to produce their own light?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Special cells that reflect the moonlight",
+            "feedback": "Reflecting moonlight would require some light to reach the deep sea, but it is completely dark there. Deep-sea fish produce their own light through bioluminescence."
+          },
+          {
+            "label": "Tiny electric sparks stored in their scales",
+            "feedback": "Electric sparks are not used for light in most deep-sea fish. They produce light chemically through bioluminescence, not with electricity."
+          },
+          {
+            "label": "Glowing bacteria in their stomachs",
+            "feedback": "Some fish do host glowing bacteria, but most deep-sea fish produce light themselves through chemical reactions in special organs. The light-making is called bioluminescence."
+          },
+          {
+            "label": "Light organs containing chemicals that glow when mixed",
+            "feedback": "Correct. Most deep-sea fish have photophores—organs where a chemical reaction produces light. This is bioluminescence, and it is used for attracting prey, signaling, or camouflage."
+          }
+        ],
+        "ok_title": "Bioluminescence",
+        "ok_line": "Deep-sea fish glow using chemical reactions in light organs.",
+        "ko_title": "Bioluminescent organs",
+        "ko_line": "They produce light chemically, not by reflecting or storing energy.",
+        "exp_title": "Making light in the dark",
+        "exp_text": "In the total darkness of the deep sea, many fish and other animals make their own light through bioluminescence. They have special organs called photophores that mix chemicals to produce a glow. This light helps them see, attract prey, communicate, or even hide by counter-illumination."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do many deep-sea fish have very large, sensitive eyes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To catch the faintest trace of any light in the dark water",
+            "feedback": "Correct. Even in the deep sea, some light exists—from bioluminescent animals—and large eyes gather that tiny bit of light, helping fish see prey or predators."
+          },
+          {
+            "label": "To see in complete darkness without any light",
+            "feedback": "No eye can see in absolute darkness; large eyes only help when there is some light. In total darkness, fish rely on other senses like touch and pressure."
+          },
+          {
+            "label": "To allow their brains to process more visual information",
+            "feedback": "Large eyes are about gathering more light, not about brain processing power. The visual cortex size is separate from eye size."
+          },
+          {
+            "label": "To help them swim faster by improving balance",
+            "feedback": "Eyes are for seeing, not for balance. Balance in fish is controlled by the inner ear, and large eyes have nothing to do with speed."
+          }
+        ],
+        "ok_title": "Big eyes for dim light",
+        "ok_line": "Large eyes capture faint bioluminescent glows in the deep.",
+        "ko_title": "Light-gathering eyes",
+        "ko_line": "Deep-sea eyes are large to gather minimal light, not to see in pure darkness.",
+        "exp_title": "Sensitive deep-sea vision",
+        "exp_text": "In the deep sea, sunlight is absent, but bioluminescent animals emit brief flashes of light. Many fish have evolved large, extremely sensitive eyes that can detect even the faintest glimmer. This helps them spot prey, predators, or mates in the near-darkness. Fish that live where no light ever reaches may instead have tiny or absent eyes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What special adaptation do deep-sea fish have to withstand the enormous water pressure?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A thick, heavy shell like a crab",
+            "feedback": "A heavy shell would be difficult to swim with and would not help equalize pressure. Deep-sea fish have soft bodies with no gas-filled spaces that could collapse."
+          },
+          {
+            "label": "A swim bladder filled with air to push back against the pressure",
+            "feedback": "A swim bladder filled with gas would be crushed by the immense pressure. Deep-sea fish lack such gas-filled organs; their bodies are filled with fluid that cannot be compressed."
+          },
+          {
+            "label": "A body filled with fluid that cannot be compressed",
+            "feedback": "Correct. Like fish elsewhere, deep-sea fish are mostly water, and water does not compress under pressure. Since there is no gas inside them, the pressure outside and inside balance out."
+          },
+          {
+            "label": "Fins that create a special force to counteract the pressure",
+            "feedback": "Fins are for swimming and steering, not for resisting water pressure. Pressure affects the body uniformly, and fins cannot change that."
+          }
+        ],
+        "ok_title": "Pressure-proof bodies",
+        "ok_line": "Deep-sea fish are mostly water, so pressure doesn't crush them.",
+        "ko_title": "Fluid-filled bodies",
+        "ko_line": "No gas inside means outside pressure is balanced by internal fluid.",
+        "exp_title": "Withstanding deep pressure",
+        "exp_text": "At great depths, water pressure is immense, but deep-sea fish are not crushed because their bodies are filled with fluid—water—which is incompressible. Since they have no air-filled spaces like swim bladders, the pressure inside matches the pressure outside. Their soft, watery tissues are flexible and simply adapt to the high pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the function of the photophores on a deep-sea fish's belly?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To scare away predators with a sudden bright flash",
+            "feedback": "A sudden bright flash could startle predators, but that is not the primary function of belly photophores. They are used for counter-illumination camouflage."
+          },
+          {
+            "label": "To blend in with the dim light coming from above",
+            "feedback": "Correct. By glowing on their bellies to match the faint light from the surface, these fish make themselves harder to see from below—a predator looking up sees only the same dim background."
+          },
+          {
+            "label": "To attract prey that are attracted to light",
+            "feedback": "Attracting prey is the job of photophores near the mouth, not the belly. Belly lights serve as camouflage instead."
+          },
+          {
+            "label": "To allow the fish to see its own food in the dark",
+            "feedback": "Photophores are for signaling and camouflage, not for illuminating the fish's own food. The belly light is aimed downward, not toward the mouth."
+          }
+        ],
+        "ok_title": "Counter-illumination",
+        "ok_line": "Belly photophores hide the fish from predators below.",
+        "ko_title": "Hide by glowing",
+        "ko_line": "Belly lights match surface light, making the fish invisible from below.",
+        "exp_title": "Camouflage by light",
+        "exp_text": "Some deep-sea fish have photophores on their bellies that produce just enough light to match the dim glow coming from the surface. From below, a predator sees the fish's silhouette against the brighter background; if the belly glows the same brightness, the fish's outline disappears. This is called counter-illumination, a form of camouflage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do deep-sea fish that live in complete darkness find their prey?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They use their large eyes to see in the dark",
+            "feedback": "In complete darkness, even large eyes cannot see because there is no light at all. These fish rely on senses other than vision."
+          },
+          {
+            "label": "They follow the sound of the prey's heartbeat",
+            "feedback": "Fish do not have ears that can hear heartbeats from far away. They use other senses like touch and pressure, not sound from such a small source."
+          },
+          {
+            "label": "They smell the water for chemical traces",
+            "feedback": "Smell is useful for finding food over distance, but it does not give precise location in the immediate vicinity. Many deep-sea fish use sensitive touch and pressure sensors."
+          },
+          {
+            "label": "They sense vibrations and pressure changes with their lateral line",
+            "feedback": "Correct. The lateral line is a row of sensitive cells along the fish's body that detects water movement and pressure changes, helping it find prey or avoid predators in dark water."
+          }
+        ],
+        "ok_title": "Sensing without sight",
+        "ok_line": "The lateral line detects vibrations and pressure changes.",
+        "ko_title": "Non-visual senses",
+        "ko_line": "In total darkness, fish use touch and pressure sensing, not eyes.",
+        "exp_title": "The lateral line",
+        "exp_text": "In the pitch-black deep sea, many fish cannot rely on vision. They have a special sensory system called the lateral line—a line of tiny sensors along their sides that detects water movement and pressure changes. This lets them sense prey moving nearby, even without any light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do some deep-sea fish have tiny eyes or no eyes at all?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because there is no light for eyes to see in their habitat",
+            "feedback": "Correct. In the deepest, darkest parts of the ocean, no light ever reaches, so eyes would not help. Over time, these fish have lost their eyes or reduced them to tiny remnants."
+          },
+          {
+            "label": "Because eyes would make them too visible to predators",
+            "feedback": "Eyes do not make a fish more visible in the dark, since there is no light to reflect off them. The reason is simply that vision is useless without light."
+          },
+          {
+            "label": "Because they swim too fast to need eyes",
+            "feedback": "Swimming speed is unrelated to eye size. Many fast fish have large eyes; these deep-sea fish have tiny eyes because they live in permanent darkness."
+          },
+          {
+            "label": "Because they use their fins to see instead",
+            "feedback": "Fins are for swimming, not seeing. These fish rely on other senses like touch and pressure, but not through fins."
+          }
+        ],
+        "ok_title": "No need for eyes",
+        "ok_line": "In total darkness, eyes are useless, so they shrink or vanish.",
+        "ko_title": "Eyes lost to darkness",
+        "ko_line": "No light means no vision, so eyes are reduced or absent.",
+        "exp_title": "Eyes in the dark",
+        "exp_text": "In the deepest parts of the ocean, where no light ever reaches, having eyes is of no use. Over many generations, these fish have evolved to have very small eyes or none at all. Energy that would go into growing and maintaining eyes is instead used for other survival needs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the purpose of the flexible, expandable stomach in many deep-sea fish?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To store extra water for long journeys",
+            "feedback": "Deep-sea fish do not store water in their stomachs; they get water from their surroundings. The expandable stomach is for swallowing large prey."
+          },
+          {
+            "label": "To produce more digestive enzymes to break down food",
+            "feedback": "Digestive enzymes are produced in the stomach lining, but the size of the stomach is not about producing more enzymes. It is about accommodating large meals."
+          },
+          {
+            "label": "To allow them to swallow prey larger than their own mouth",
+            "feedback": "Correct. Deep-sea fish often encounter food very rarely, so they must eat whatever they find, even if it is huge. A stretchy stomach lets them swallow and store a large meal."
+          },
+          {
+            "label": "To help them float better in the water",
+            "feedback": "Floating is controlled by the swim bladder or by lipids in the body, not by the stomach. The stomach's flexibility is for eating, not buoyancy."
+          }
+        ],
+        "ok_title": "Stretchable stomachs",
+        "ok_line": "Deep-sea fish can swallow huge prey when food is rare.",
+        "ko_title": "Feasting on large prey",
+        "ko_line": "The expandable stomach allows swallowing prey bigger than the mouth.",
+        "exp_title": "Big meals in the deep",
+        "exp_text": "Life in the deep sea is sparse, so food is rare and unpredictable. When a deep-sea fish does find something to eat, it might be a large animal. An expandable, stretchy stomach allows the fish to swallow and store such a big meal, which can last it for a long time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a fish that is quickly brought up from deep water to the surface?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It becomes more active because of the extra oxygen",
+            "feedback": "The sudden change in pressure does not give extra oxygen; it causes gases in the fish's body to expand dangerously."
+          },
+          {
+            "label": "The gases in its body expand and may kill it",
+            "feedback": "Correct. When a deep-sea fish is brought to the surface, the reduced pressure makes the gases in its body—especially in its swim bladder—expand rapidly, which can injure or kill the fish."
+          },
+          {
+            "label": "It immediately adapts to the lower pressure and swims normally",
+            "feedback": "Fish cannot adapt instantly to such a large pressure drop. The expansion of gases is too fast and damaging."
+          },
+          {
+            "label": "It shrinks because the lower pressure compresses its body",
+            "feedback": "Lower pressure does not compress the body; it lets internal gases expand, making the fish swell, not shrink."
+          }
+        ],
+        "ok_title": "Pressure changes",
+        "ok_line": "Rapid ascent causes body gases to expand, harming the fish.",
+        "ko_title": "The bends in fish",
+        "ko_line": "Gases in the swim bladder inflate as pressure drops, often killing the fish.",
+        "exp_title": "Deep-sea fish at the surface",
+        "exp_text": "Deep-sea fish are adapted to immense pressure. When they are hauled to the surface, the pressure drops drastically, and gases dissolved in their body—especially in the swim bladder—expand rapidly. This can cause the stomach to push out, the eyes to bulge, and the fish to die. It is the opposite of what a human diver experiences, but equally dangerous."
+      }
+    ]
+  }
+]

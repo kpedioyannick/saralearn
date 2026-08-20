@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 228,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a mirage?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A solid object that appears where none exists",
+            "feedback": "A mirage is not a real object; it is an optical effect where light bends to show a false image, often resembling water or a distant scene."
+          },
+          {
+            "label": "An optical effect where light bends to show a false image",
+            "feedback": "Correct. A mirage happens because light rays bend as they pass through air layers of different temperatures, creating an image that isn't really there."
+          },
+          {
+            "label": "A reflection of the sky on a wet surface",
+            "feedback": "A mirage can look like a reflection, but it is not caused by an actual wet surface; it is caused by bending light in warm air."
+          },
+          {
+            "label": "A type of cloud that forms close to the ground",
+            "feedback": "Clouds are water droplets or ice crystals, not mirages. A mirage is a light-bending effect, not a physical cloud formation."
+          }
+        ],
+        "ok_title": "Correct: mirage defined",
+        "ok_line": "Yes, a mirage is a light-bending illusion, not a real object.",
+        "ko_title": "Mirage not solid",
+        "ko_line": "A mirage is an image, not a physical thing.",
+        "exp_title": "Mirage basics",
+        "exp_text": "A mirage occurs when light rays bend as they travel through air layers with different temperatures. This bending makes you see a false image, like a pool of water on a hot road, even though no water is there."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What condition is needed for a mirage to appear on a road?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Cold air near the ground and warm air above",
+            "feedback": "That is the opposite of what happens on a hot road. A mirage on a road needs warm air just above the surface and cooler air above that."
+          },
+          {
+            "label": "Even temperature throughout the air",
+            "feedback": "If the air temperature is uniform, light travels straight and no mirage forms. A temperature difference is essential for bending light."
+          },
+          {
+            "label": "Hot air just above the road and cooler air above that",
+            "feedback": "Correct. The hot air near the road is less dense and bends light upward, making the sky appear as a shiny puddle on the ground."
+          },
+          {
+            "label": "Moisture on the road surface",
+            "feedback": "Moisture can create a real reflection, but a mirage on a road is caused by heat, not water. The puddle you see is an illusion from bent light."
+          }
+        ],
+        "ok_title": "Hot road condition",
+        "ok_line": "Yes, hot air next to the road is what bends the light.",
+        "ko_title": "Wrong temperature setup",
+        "ko_line": "Mirage needs warm below, cool above, not the reverse.",
+        "exp_title": "Road mirage cause",
+        "exp_text": "On a hot road, the lowest air layer is heated strongly and becomes less dense. Light from the sky bends upward through this hot layer, so your eye sees a bright, watery patch on the road that is actually an image of the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a halo around the Sun or Moon look like?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A complete ring of light at a fixed distance from the Sun or Moon",
+            "feedback": "Correct. A halo is a full or partial circle of light, usually at about 22 degrees from the Sun or Moon, caused by ice crystals in the sky."
+          },
+          {
+            "label": "A narrow arc of coloured bands like a rainbow",
+            "feedback": "That describes a rainbow, which is caused by water droplets, not a halo. A halo is a ring, not an arc, and it is usually white with faint colour edges."
+          },
+          {
+            "label": "Two bright spots on either side of the Sun",
+            "feedback": "That describes sun dogs, which are separate bright patches, not a complete ring. A halo is a ring around the Sun."
+          },
+          {
+            "label": "A thin line of light touching the horizon",
+            "feedback": "A halo circles the light source itself, not the horizon. A line at the horizon would be a different optical effect, not a halo."
+          }
+        ],
+        "ok_title": "Halo appearance",
+        "ok_line": "Yes, a halo is a ring of light around the Sun or Moon.",
+        "ko_title": "Halo vs rainbow",
+        "ko_line": "A halo is a ring, not a rainbow arc.",
+        "exp_title": "Halo shape",
+        "exp_text": "A halo appears as a ring of light encircling the Sun or Moon, typically at a constant angular distance. It forms when light passes through ice crystals high in the atmosphere, bending slightly to create the circle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes a halo to form?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Water droplets in rain clouds",
+            "feedback": "Water droplets cause rainbows, not halos. Halos need ice crystals, which are found in high, thin clouds."
+          },
+          {
+            "label": "Dust particles in the air",
+            "feedback": "Dust scatters light but does not form a neat ring like a halo. Halos come from refraction through ice crystals, not from dust."
+          },
+          {
+            "label": "Reflection off the ground",
+            "feedback": "A halo is seen in the sky around the Sun or Moon, not from ground reflection. It is caused by light passing through ice crystals in the air."
+          },
+          {
+            "label": "Ice crystals in high, thin clouds bending light",
+            "feedback": "Correct. Ice crystals, typically in cirrus clouds, refract sunlight or moonlight at a specific angle, producing a ring of light around the source."
+          }
+        ],
+        "ok_title": "Halo cause",
+        "ok_line": "Yes, ice crystals bend light to make the halo.",
+        "ko_title": "Wrong halo source",
+        "ko_line": "Halos come from ice crystals, not droplets, dust, or reflections.",
+        "exp_title": "Ice crystal halos",
+        "exp_text": "Halos form when light passes through hexagonal ice crystals in the upper atmosphere. The crystals bend the light by about 22 degrees, creating a visible ring around the Sun or Moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are sun dogs?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Bright spots that appear directly above the Sun",
+            "feedback": "Sun dogs are on the sides of the Sun, not above it. They appear as two bright spots at the same height as the Sun."
+          },
+          {
+            "label": "Two bright spots on either side of the Sun",
+            "feedback": "Correct. Sun dogs are bright patches of light that appear horizontally to the left and right of the Sun, caused by ice crystals."
+          },
+          {
+            "label": "A ring of light completely surrounding the Sun",
+            "feedback": "That is a halo, not sun dogs. Sun dogs are separate spots, not a full ring."
+          },
+          {
+            "label": "Shadows cast by the Sun on the clouds",
+            "feedback": "Sun dogs are not shadows; they are bright spots of light, not dark regions. They come from refraction, not blocking of light."
+          }
+        ],
+        "ok_title": "Sun dogs defined",
+        "ok_line": "Yes, sun dogs are bright spots flanking the Sun.",
+        "ko_title": "Not sun dogs",
+        "ko_line": "Sun dogs sit beside the Sun, not above it or as a ring.",
+        "exp_title": "What sun dogs are",
+        "exp_text": "Sun dogs are two bright patches of light that appear on opposite sides of the Sun, usually at the same height. They form when sunlight passes through flat, hexagonal ice crystals that drift horizontally in the air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a halo usually appear as a large ring rather than a small one close to the Sun?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Sun is very far away",
+            "feedback": "The Sun's distance is not the reason; the size of the halo is set by the bending angle of light through ice crystals, not by distance to the Sun."
+          },
+          {
+            "label": "Because the ice crystals are very large",
+            "feedback": "The size of the crystals does not change the ring's angular size. All ice crystals bend light by about the same 22 degrees, giving a fixed ring size."
+          },
+          {
+            "label": "Because ice crystals bend light by a fixed angle of about 22 degrees",
+            "feedback": "Correct. The ring's radius is about 22 degrees from the Sun, set by how much the ice crystals refract light, making the halo always appear that large."
+          },
+          {
+            "label": "Because the halo is a reflection on the atmosphere",
+            "feedback": "A halo is not a reflection; it is a refraction effect. The bending angle, not reflection, determines the ring's size."
+          }
+        ],
+        "ok_title": "Fixed halo size",
+        "ok_line": "Yes, the bending angle sets the halo's size.",
+        "ko_title": "Size not from distance",
+        "ko_line": "The halo's size is fixed by crystal refraction, not distance.",
+        "exp_title": "Why halo is large",
+        "exp_text": "Light passing through ice crystals bends by about 22 degrees, no matter the crystal size or distance. That fixed bending angle makes the halo appear as a ring of that same angular size around the Sun or Moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of cloud is needed for a halo to form?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Thick, low rain clouds",
+            "feedback": "Rain clouds are made of water droplets, not ice crystals, and they block light rather than form halos. Halos need thin, high clouds."
+          },
+          {
+            "label": "Dark cumulonimbus storm clouds",
+            "feedback": "Cumulonimbus clouds contain heavy precipitation and are too thick; they obscure the Sun. Halos need thin, wispy clouds with ice crystals."
+          },
+          {
+            "label": "Any cloud, regardless of height or thickness",
+            "feedback": "Not any cloud; only thin, high clouds have the needed ice crystals and allow light through. Thick clouds block the Sun and prevent halos."
+          },
+          {
+            "label": "Thin, high cirrus clouds made of ice crystals",
+            "feedback": "Correct. Cirrus clouds are high and cold, consisting of ice crystals that let light pass through and bend to form halos."
+          }
+        ],
+        "ok_title": "Cloud for halo",
+        "ok_line": "Yes, thin high cirrus clouds are needed.",
+        "ko_title": "Wrong cloud type",
+        "ko_line": "Halos require ice crystals, not low or storm clouds.",
+        "exp_title": "Halo cloud condition",
+        "exp_text": "Halos form only when the Sun or Moon shines through thin, high cirrus clouds. These clouds are made of ice crystals, which refract light, while thicker clouds block the light and have no such crystals."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the dark band between a primary and secondary rainbow called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Alexander's dark band",
+            "feedback": "Correct. The region between the primary and secondary rainbow is darker because light that would fill it is scattered away by the droplets in a specific way, so it is named after Alexander."
+          },
+          {
+            "label": "The rainbow gap",
+            "feedback": "That is a descriptive term, but the specific name used for this dark strip is Alexander's dark band, not 'rainbow gap'."
+          },
+          {
+            "label": "The halo shadow",
+            "feedback": "This is not a shadow from a halo; it is a region of the sky between two rainbows where less light reaches your eye, called Alexander's band."
+          },
+          {
+            "label": "The mirage zone",
+            "feedback": "Mirage refers to light bending in air, not to a dark area between rainbows. The dark band is specifically Alexander's dark band."
+          }
+        ],
+        "ok_title": "Dark band named",
+        "ok_line": "Yes, it is Alexander's dark band.",
+        "ko_title": "Not a rainbow gap",
+        "ko_line": "The specific term is Alexander's dark band.",
+        "exp_title": "Alexander's dark band",
+        "exp_text": "Between the primary rainbow (inner) and the secondary bow (outer), the sky is darker than above or below. This is because light rays that would create that region are reflected in a way that leaves it empty, and it is called Alexander's dark band."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the pink band sometimes seen low in the eastern sky just after sunset?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Reflection of the Sun on clouds",
+            "feedback": "Clouds can appear pink, but this band is not from reflection on clouds; it is from the scattering of sunlight in the atmosphere after the Sun is below the horizon."
+          },
+          {
+            "label": "A secondary rainbow",
+            "feedback": "A secondary rainbow is a curved arc of colours, not a soft pink band. The pink band is caused by atmospheric scattering, not by rain droplets."
+          },
+          {
+            "label": "Scattered sunlight shining on the upper atmosphere from below the horizon",
+            "feedback": "Correct. Just after sunset, the Sun is below the horizon but its light still illuminates the higher atmosphere, scattering to create a pink glow called the belt of Venus."
+          },
+          {
+            "label": "A mirage of the Sun",
+            "feedback": "A mirage is a local bending effect, not a broad atmospheric glow. The pink band is a wide scattering phenomenon, not a mirage."
+          }
+        ],
+        "ok_title": "Pink band cause",
+        "ok_line": "Yes, scattered sunlight from below the horizon makes it.",
+        "ko_title": "Not reflection or rainbow",
+        "ko_line": "The pink band is from atmospheric scattering, not clouds or rainbows.",
+        "exp_title": "Twilight pink band",
+        "exp_text": "After sunset, the Sun's rays still hit the sky high above you. These rays scatter off air molecules, creating a pink band low in the east, with a darker blue band beneath it, known as the belt of Venus."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a Fata Morgana?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A type of halo with multiple rings",
+            "feedback": "A Fata Morgana is not a halo; it is a complex mirage that stretches and distorts distant objects, often over water."
+          },
+          {
+            "label": "A complex mirage that stretches and distorts distant objects into multiple layers",
+            "feedback": "Correct. A Fata Morgana occurs when light passes through layers of air with different temperatures, bending in a way that compresses and stretches the image, sometimes showing inverted layers."
+          },
+          {
+            "label": "A rare cloud that glows at night",
+            "feedback": "That describes noctilucent clouds, not a Fata Morgana. A Fata Morgana is a mirage, not a cloud."
+          },
+          {
+            "label": "A bright spot on the horizon at dawn",
+            "feedback": "That would be the Sun or a bright planet, not a mirage. A Fata Morgana is a distorted image, not a light source itself."
+          }
+        ],
+        "ok_title": "Fata Morgana defined",
+        "ok_line": "Yes, a Fata Morgana is a complex mirage with stretched layers.",
+        "ko_title": "Not a halo or cloud",
+        "ko_line": "A Fata Morgana is a mirage, not a halo or cloud.",
+        "exp_title": "Fata Morgana explanation",
+        "exp_text": "A Fata Morgana is a superior mirage seen mostly over water or cold surfaces. Different air temperatures bend light unevenly, so faraway objects like ships appear stretched, stacked, or even upside-down in multiple layers."
+      }
+    ]
+  }
+]

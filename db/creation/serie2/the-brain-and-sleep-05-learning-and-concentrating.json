@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 251,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the brief pause a neuron takes before it can fire again?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Synaptic delay",
+            "feedback": "The synaptic delay is the time it takes for a signal to cross the gap between neurons, not the resting period after a neuron fires."
+          },
+          {
+            "label": "Resting state",
+            "feedback": "The resting state is the neuron's normal, quiet condition before it fires, not the short recovery period right after firing."
+          },
+          {
+            "label": "Refractory period",
+            "feedback": "Correct. The refractory period is the brief moment after a neuron fires when it cannot fire again, ensuring signals travel one way."
+          },
+          {
+            "label": "Action potential",
+            "feedback": "An action potential is the electrical impulse that travels along the neuron, not the pause that follows it."
+          }
+        ],
+        "ok_title": "Neuron recovery",
+        "ok_line": "The refractory period keeps signals moving in one direction.",
+        "ko_title": "Neuron pause",
+        "ko_line": "The pause is called the refractory period, not the other terms.",
+        "exp_title": "Refractory period",
+        "exp_text": "After a neuron fires, it needs a tiny break before it can fire again; this is the refractory period. It prevents the signal from bouncing backwards, so the message keeps moving forward along the nerve."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain is mainly responsible for planning and controlling your voluntary movements?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Cerebellum",
+            "feedback": "The cerebellum fine-tunes movement and balance, but it doesn't plan or initiate voluntary actions."
+          },
+          {
+            "label": "Frontal lobe",
+            "feedback": "Correct. The frontal lobe, especially its motor areas, plans and sends commands for voluntary movements."
+          },
+          {
+            "label": "Temporal lobe",
+            "feedback": "The temporal lobe handles hearing and some memory, not planning movements."
+          },
+          {
+            "label": "Occipital lobe",
+            "feedback": "The occipital lobe processes vision, not movement planning."
+          }
+        ],
+        "ok_title": "Movement control",
+        "ok_line": "The frontal lobe starts and plans your deliberate actions.",
+        "ko_title": "Brain areas",
+        "ko_line": "Each lobe has a different job; movement planning sits in the frontal lobe.",
+        "exp_title": "Frontal lobe role",
+        "exp_text": "The frontal lobe, at the front of the brain, is the command centre for deliberate movements. It sends signals down to muscles so you can walk, talk, and reach for things."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the brain's outer layer, which is folded and only a few millimetres thick?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cerebral cortex",
+            "feedback": "Correct. The cerebral cortex is the wrinkled outer sheet of the brain, responsible for much of thinking and sensing."
+          },
+          {
+            "label": "Cerebellum",
+            "feedback": "The cerebellum is a separate structure at the back for balance, not the brain's outer layer."
+          },
+          {
+            "label": "Corpus callosum",
+            "feedback": "The corpus callosum is a bundle of fibres deep inside, connecting the two halves, not the outer layer."
+          },
+          {
+            "label": "Brainstem",
+            "feedback": "The brainstem is the stalk at the base, controlling basic life functions, not the folded outer layer."
+          }
+        ],
+        "ok_title": "Brain surface",
+        "ok_line": "The cerebral cortex wraps the brain and does the thinking.",
+        "ko_title": "Brain parts",
+        "ko_line": "The outer folded layer is the cortex, not these deeper structures.",
+        "exp_title": "Cerebral cortex",
+        "exp_text": "The cerebral cortex is the thin, wrinkled outer layer of the brain, only a few millimetres thick. Its folds give it a large surface area, which holds the neurons that handle your perceptions, thoughts, and actions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the pituitary gland mainly do?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It controls your heartbeat and breathing",
+            "feedback": "The brainstem, not the pituitary, manages heartbeat and breathing automatically."
+          },
+          {
+            "label": "It stores long-term memories",
+            "feedback": "Memory storage is spread across the brain, not held in the pituitary gland."
+          },
+          {
+            "label": "It processes visual information",
+            "feedback": "The occipital lobe handles vision; the pituitary has a different job."
+          },
+          {
+            "label": "It releases hormones that regulate other glands",
+            "feedback": "Correct. The pituitary is the master gland, sending out hormones that tell other glands what to do."
+          }
+        ],
+        "ok_title": "Master gland",
+        "ok_line": "The pituitary directs hormone release across the body.",
+        "ko_title": "Gland role",
+        "ko_line": "The pituitary's job is chemical regulation, not these other functions.",
+        "exp_title": "Pituitary function",
+        "exp_text": "The pituitary gland, small and hanging below the brain, releases hormones into the blood. These hormones travel to other glands, like the thyroid, and switch them on or off, keeping the body's chemical system balanced."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main job of the spinal cord?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To control your emotions",
+            "feedback": "Emotions are processed in brain areas like the amygdala, not in the spinal cord."
+          },
+          {
+            "label": "To produce new neurons for learning",
+            "feedback": "New neurons are born in specific brain regions, not the spinal cord."
+          },
+          {
+            "label": "To carry signals between the brain and the rest of the body",
+            "feedback": "Correct. The spinal cord is the main highway for messages travelling up to the brain and down to muscles and organs."
+          },
+          {
+            "label": "To filter out unimportant sounds",
+            "feedback": "Sound filtering happens in the brain's auditory pathways, not the spinal cord."
+          }
+        ],
+        "ok_title": "Signal highway",
+        "ok_line": "The spinal cord links the brain to your body.",
+        "ko_title": "Cord role",
+        "ko_line": "The spinal cord is a transmission cable, not for these tasks.",
+        "exp_title": "Spinal cord job",
+        "exp_text": "The spinal cord runs through your spine, carrying nerve signals up to the brain and down to the rest of the body. It also handles some rapid reflexes on its own, before the brain even gets involved."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the gap between two neurons where chemical messages are passed?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Axon",
+            "feedback": "The axon is the long fibre that carries a signal away from a neuron's cell body, not the gap between neurons."
+          },
+          {
+            "label": "Synapse",
+            "feedback": "Correct. The synapse is the tiny gap where one neuron releases chemicals that the next neuron picks up."
+          },
+          {
+            "label": "Myelin sheath",
+            "feedback": "Myelin is the fatty wrapping on some axons that speeds up signals, not a gap."
+          },
+          {
+            "label": "Dendrite",
+            "feedback": "Dendrites are branch-like extensions that receive incoming signals, not the gap between cells."
+          }
+        ],
+        "ok_title": "Neuron gap",
+        "ok_line": "The synapse is where neurons talk to each other.",
+        "ko_title": "Neuron parts",
+        "ko_line": "The gap is the synapse, not these other structures.",
+        "exp_title": "Synapse definition",
+        "exp_text": "A synapse is the narrow space between one neuron and the next. When a signal reaches the end of an axon, chemicals are released into the synapse, and the next neuron picks them up to continue the message."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain is most involved in controlling your balance and coordinating smooth movements?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Cerebellum",
+            "feedback": "Correct. The cerebellum at the back of the brain compares planned movements with what is actually happening and adjusts them for balance and coordination."
+          },
+          {
+            "label": "Frontal lobe",
+            "feedback": "The frontal lobe plans movements but doesn't fine-tune balance; that's the cerebellum's job."
+          },
+          {
+            "label": "Hippocampus",
+            "feedback": "The hippocampus is central for forming new memories, not for balance."
+          },
+          {
+            "label": "Amygdala",
+            "feedback": "The amygdala processes emotions like fear, not balance or coordination."
+          }
+        ],
+        "ok_title": "Balance centre",
+        "ok_line": "The cerebellum keeps you steady and coordinated.",
+        "ko_title": "Brain roles",
+        "ko_line": "Balance and coordination are handled by the cerebellum.",
+        "exp_title": "Cerebellum function",
+        "exp_text": "The cerebellum, located at the back and base of the brain, receives information about your body's position and movement. It then sends corrections to your muscles so you can stand upright, walk smoothly, and make precise gestures."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the fatty substance that insulates some nerve fibres and speeds up signal transmission?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Neurotransmitter",
+            "feedback": "Neurotransmitters are the chemicals that carry signals across synapses, not the insulating layer."
+          },
+          {
+            "label": "Glucose",
+            "feedback": "Glucose is a sugar that fuels the brain, not an insulator around nerves."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is carried in the blood to keep neurons alive, not a wrapping around fibres."
+          },
+          {
+            "label": "Myelin",
+            "feedback": "Correct. Myelin is the fatty sheath that wraps some nerve fibres, acting like insulation to make signals jump faster."
+          }
+        ],
+        "ok_title": "Nerve insulation",
+        "ok_line": "Myelin makes signals travel faster along nerves.",
+        "ko_title": "Nerve materials",
+        "ko_line": "The insulator is myelin, not these other substances.",
+        "exp_title": "Myelin sheath",
+        "exp_text": "Myelin is a fatty layer that surrounds certain nerve fibres, similar to insulation around a wire. It allows electrical signals to jump between gaps, so they travel much faster than unmyelinated fibres."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain acts as a relay station, sorting and sending sensory information to the right areas?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Medulla",
+            "feedback": "The medulla controls vital functions like heartbeat, not sensory routing."
+          },
+          {
+            "label": "Pons",
+            "feedback": "The pons helps with sleep and breathing, not primarily routing senses."
+          },
+          {
+            "label": "Thalamus",
+            "feedback": "Correct. The thalamus sits deep in the brain and directs most incoming sensory signals to the correct cortical regions."
+          },
+          {
+            "label": "Hypothalamus",
+            "feedback": "The hypothalamus regulates body functions like temperature and hunger, not sensory routing."
+          }
+        ],
+        "ok_title": "Sensory switchboard",
+        "ok_line": "The thalamus routes incoming senses to the right spots.",
+        "ko_title": "Deep brain parts",
+        "ko_line": "Sensory routing is the thalamus's job, not these others.",
+        "exp_title": "Thalamus role",
+        "exp_text": "The thalamus, located near the centre of the brain, works like a switchboard. Nearly all sensory information—except smell—passes through it first, and it sends each signal to the appropriate part of the cerebral cortex for processing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main function of the hippocampus in learning?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To control your breathing rate",
+            "feedback": "Breathing is managed by the brainstem, not the hippocampus."
+          },
+          {
+            "label": "To convert new experiences into lasting memories",
+            "feedback": "Correct. The hippocampus takes fresh information and helps store it in a durable form for long-term memory."
+          },
+          {
+            "label": "To interpret sounds you hear",
+            "feedback": "Hearing is processed in the temporal lobe, not the hippocampus."
+          },
+          {
+            "label": "To regulate your sleep-wake cycle",
+            "feedback": "The sleep-wake cycle is controlled mostly by the hypothalamus and brainstem, not the hippocampus."
+          }
+        ],
+        "ok_title": "Memory maker",
+        "ok_line": "The hippocampus builds new lasting memories.",
+        "ko_title": "Hippocampus job",
+        "ko_line": "Its role is memory formation, not these vital or sensory tasks.",
+        "exp_title": "Hippocampus in learning",
+        "exp_text": "The hippocampus, a curved structure deep inside the brain, acts as a gateway for new memories. When you learn something new, it processes that information and helps move it into long-term storage across the brain."
+      }
+    ]
+  }
+]

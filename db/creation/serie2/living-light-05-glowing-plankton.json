@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 222,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What single-celled organisms are most often responsible for glowing plankton displays?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dinoflagellates",
+            "feedback": "Correct. Dinoflagellates are the tiny single-celled algae whose flashes make the sea glow when disturbed."
+          },
+          {
+            "label": "Bacteria",
+            "feedback": "Bacteria can glow, but they usually form milky seas or coat surfaces, not the sparkling wave flashes of plankton. The sparkles come from dinoflagellates."
+          },
+          {
+            "label": "Diatoms",
+            "feedback": "Diatoms are single-celled algae, but they build glass shells and do not glow. The flashing kind are dinoflagellates."
+          },
+          {
+            "label": "Copepods",
+            "feedback": "Copepods are tiny animals, not single-celled, and though some glow, the classic wave-sparkle plankton are dinoflagellates."
+          }
+        ],
+        "ok_title": "Dinoflagellates glow",
+        "ok_line": "These single-celled algae flash when waves or boats jostle them.",
+        "ko_title": "Not these cells",
+        "ko_line": "Bacteria, diatoms, and copepods are not the main sources of sparkly plankton waves.",
+        "exp_title": "Glow from single cells",
+        "exp_text": "Dinoflagellates are single-celled organisms that live in the sea. Each one has a light-producing organelle inside it, and when a wave or a boat stirs the water, the cell responds with a brief flash of blue. Enough of them together make the whole wave glow."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What name is given to the light a dinoflagellate produces inside its own cell?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Photosynthesis",
+            "feedback": "Photosynthesis is how the cell makes food from sunlight, not how it makes its flash. The flash is a separate process called bioluminescence."
+          },
+          {
+            "label": "Fluorescence",
+            "feedback": "Fluorescence means absorbing light and re-emitting it at a different colour. A dinoflagellate makes its own light chemically, which is bioluminescence."
+          },
+          {
+            "label": "Bioluminescence",
+            "feedback": "Correct. Bioluminescence is light made by a living organism through a chemical reaction inside its cells."
+          },
+          {
+            "label": "Incandescence",
+            "feedback": "Incandescence is light produced by heat, like a flame or a hot metal. Bioluminescence is cold light, made without heat."
+          }
+        ],
+        "ok_title": "It is bioluminescence",
+        "ok_line": "The flash is a chemical reaction inside the cell, not borrowed light.",
+        "ko_title": "Not heat or reflection",
+        "ko_line": "Photosynthesis, fluorescence, and incandescence are different ways light appears.",
+        "exp_title": "Cell-made light",
+        "exp_text": "The flash from a dinoflagellate is bioluminescence: a chemical reaction inside the cell that releases energy as light. It is called cold light because almost none of the energy becomes heat."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What physical trigger makes a glowing dinoflagellate flash?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Warmth of the sun",
+            "feedback": "Warmth does not make the cell flash. The flash is triggered by movement or pressure in the water, not by temperature."
+          },
+          {
+            "label": "Darkness alone",
+            "feedback": "Darkness sets the stage, but it is not enough — a still cell in the dark will not flash. The flash needs a physical jolt."
+          },
+          {
+            "label": "Presence of food",
+            "feedback": "Food does not trigger the flash. The cell flashes when it is bumped or squeezed by water movement."
+          },
+          {
+            "label": "Mechanical disturbance",
+            "feedback": "Correct. When a wave, a paddle, or a fish moves the water, the cell feels the pressure and lets out a flash."
+          }
+        ],
+        "ok_title": "Movement sets it off",
+        "ok_line": "A jolt or a change in pressure makes the cell release light.",
+        "ko_title": "Not heat or hunger",
+        "ko_line": "Sunlight, darkness, and food are not the direct triggers of the flash.",
+        "exp_title": "Triggered by pressure",
+        "exp_text": "A dinoflagellate's light organelle is ready to fire. When water moves around it, the bending of the cell's surface sends a signal that opens a gate, letting the reaction happen. So a breaking wave or a passing boat sets off the flash, and a calm night does not."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What colour is the light that most glowing plankton emit?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red would be useful for red-using predators, but almost all plankton emit blue or blue-green light. Red light is rare in the open sea."
+          },
+          {
+            "label": "Blue",
+            "feedback": "Correct. Blue light travels farthest in seawater, so most glowing plankton flash in blue or blue-green."
+          },
+          {
+            "label": "Green",
+            "feedback": "Some dinoflagellates are blue-green, but pure green is uncommon. The dominant colour in the open ocean is blue."
+          },
+          {
+            "label": "White",
+            "feedback": "White light would contain many colours, but plankton light comes from a single chemical reaction that produces mostly blue-green wavelengths."
+          }
+        ],
+        "ok_title": "Blue is the colour",
+        "ok_line": "Blue light carries furthest in water, so that is the colour most plankton flash.",
+        "ko_title": "Not red or white",
+        "ko_line": "Red is rare, green is uncommon, and white is not produced by these single reactions.",
+        "exp_title": "Why blue wins",
+        "exp_text": "Water absorbs light, but blue light gets through the longest distance. Plankton flash blue because in the sea that is the colour that a watching eye can still catch from far away. Green-blue also occurs but blue dominates."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of the day do glowing plankton typically flash the most?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "At night",
+            "feedback": "Correct. The flash is most visible and also most likely at night, because the light-detecting pigment in the cell is restored in the dark."
+          },
+          {
+            "label": "At noon",
+            "feedback": "At noon sunlight floods the water, so any flash would be drowned out. The cells also prepare their light supply during the dark hours."
+          },
+          {
+            "label": "At dawn",
+            "feedback": "Dawn has too much light for flashes to be useful or visible. The plankton's flash machinery works best in full darkness."
+          },
+          {
+            "label": "At sunset",
+            "feedback": "Sunset may show some glow, but the strongest flashes come late at night when the sea is truly dark and the cells are fully loaded."
+          }
+        ],
+        "ok_title": "Night is flash time",
+        "ok_line": "The glow shows best and the cells flash most in dark hours.",
+        "ko_title": "Not in daylight",
+        "ko_line": "Noon, dawn, and sunset have too much light and the cells are less ready.",
+        "exp_title": "Night-time light",
+        "exp_text": "Dinoflagellates build up their light-producing chemicals during the day. When night falls, they are ready to flash, and the darkness makes each flash easy to see. In daylight the flash would be invisible, so the cells keep it for the night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a red tide?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A wave of red algae that glows constantly",
+            "feedback": "A red tide is not a constant glow. The water looks reddish or brownish during the day, and the glow appears only at night when the cells are disturbed."
+          },
+          {
+            "label": "A dense bloom of dinoflagellates that can colour the water",
+            "feedback": "Correct. When dinoflagellates multiply greatly, the water may turn reddish or brownish, and at night it glows in the waves."
+          },
+          {
+            "label": "A layer of red sediment stirred up from the sea floor",
+            "feedback": "Stirred sediment would make the water muddy, not glow at night. A red tide is living cells, not dirt."
+          },
+          {
+            "label": "A mass of red jellyfish drifting near the shore",
+            "feedback": "Jellyfish can glow, but a red tide is named for its colour, not for animals. It is a bloom of tiny single-celled organisms."
+          }
+        ],
+        "ok_title": "A dinoflagellate bloom",
+        "ok_line": "Huge numbers of these cells colour the water red or brown.",
+        "ko_title": "Not sediment or jellyfish",
+        "ko_line": "Red tides are living blooms, not dirt stirred up or animal swarms.",
+        "exp_title": "Huge population surge",
+        "exp_text": "A red tide happens when dinoflagellates multiply until they number millions per litre. The cells' own pigments colour the water, and at night the same water lights up when waves break. Not every red tide is poisonous, but some species release toxins that harm fish."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a bioluminescent bay?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A bay with a lighthouse that has a glowing light",
+            "feedback": "A lighthouse is a man-made light, not biological. A bioluminescent bay is a natural place where the water itself glows."
+          },
+          {
+            "label": "A bay where the sand glows at night",
+            "feedback": "The glow in such a bay comes from the water, not the sand. Floating dinoflagellates make the water sparkle when disturbed."
+          },
+          {
+            "label": "A bay filled with glowing fish that swim on the surface",
+            "feedback": "Fish are not the source. The bay glows because of tiny plankton in the water, not because of bigger animals."
+          },
+          {
+            "label": "A bay with a dense population of glowing plankton in its waters",
+            "feedback": "Correct. Such a bay holds a steady, dense population of glowing dinoflagellates that light up whenever the water moves."
+          }
+        ],
+        "ok_title": "Water full of light",
+        "ok_line": "These bays hold so many glowing plankton that splashes sparkle.",
+        "ko_title": "Not lamps or fish",
+        "ko_line": "No lighthouse, sand glow, or fish swarm explains the bay's light — it is plankton.",
+        "exp_title": "A glowing inlet",
+        "exp_text": "A bioluminescent bay is a sheltered inlet where currents keep a huge population of glowing dinoflagellates in one place. Any movement — a hand, a boat, a wave — makes the water flash blue. These bays are rare because the plankton need just the right water conditions to stay so abundant."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why did glowing plankton sometimes betray ships during wartime?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the plankton made the ship's lights brighter",
+            "feedback": "The glow did not add to the ship's own lights. It was the water around the moving ship that lit up, revealing its path."
+          },
+          {
+            "label": "Because the plankton attached to the ship and glowed on its hull",
+            "feedback": "The plankton did not stick to the hull. Their glow was a response to the water being churned by the propellers and hull."
+          },
+          {
+            "label": "Because the wake of a moving ship disturbed the plankton and made them flash",
+            "feedback": "Correct. The ship's movement stirred the water, so thousands of cells flashed, outlining the ship's trail in blue light."
+          },
+          {
+            "label": "Because the plankton glowed when they sensed the ship's engine heat",
+            "feedback": "Heat is not the trigger. The glow came from the mechanical disturbance of the water as the ship passed through it."
+          }
+        ],
+        "ok_title": "Wake shows the way",
+        "ok_line": "A glowing trail marked where a ship had gone.",
+        "ko_title": "Not heat or attachment",
+        "ko_line": "The plankton lit up because of water movement, not because of the ship's lights, heat, or clinging cells.",
+        "exp_title": "Visible from above",
+        "exp_text": "When a ship moves through water filled with glowing dinoflagellates, the propellers and hull churn the water. Each disturbed cell flashes, and the wake stays lit for a while. From a plane or another ship, that bright trail gave away the ship's position at night, a serious risk during war."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Inside a dinoflagellate, what structure actually produces the light?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Special organelles called scintillons",
+            "feedback": "Correct. Scintillons are the tiny sacs inside the cell that hold the glowing chemicals and flash when the cell is disturbed."
+          },
+          {
+            "label": "The nucleus",
+            "feedback": "The nucleus holds the cell's DNA and controls activities, but it does not make the light. That job belongs to the scintillons."
+          },
+          {
+            "label": "The chloroplasts",
+            "feedback": "Chloroplasts are for photosynthesis, making food from sunlight. They do not produce the cell's flash."
+          },
+          {
+            "label": "The cell wall",
+            "feedback": "The cell wall is a stiff outer coat. The light comes from inside the cell, not from its wall."
+          }
+        ],
+        "ok_title": "Scintillons make light",
+        "ok_line": "These small sacs hold the glowing chemicals and fire when touched.",
+        "ko_title": "Not other parts",
+        "ko_line": "Nucleus, chloroplasts, and cell wall have different jobs — the flash comes from scintillons.",
+        "exp_title": "Light sacs in the cell",
+        "exp_text": "A dinoflagellate has many small sacs called scintillons, each packed with the enzyme and the substrate that react to give light. When the cell is bent by water movement, a signal opens the sac and the reaction begins. Each flash lasts only a fraction of a second."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the best way for a person to see glowing plankton in the sea?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Sail on a bright sunny afternoon",
+            "feedback": "In daylight, the glow is invisible — sunlight overwhelms it. The plankton also stores its light for the night, so afternoon is useless."
+          },
+          {
+            "label": "Go at night and stir the water by hand or paddle",
+            "feedback": "Correct. In darkness, disturbing the water makes the cells flash, and moving your hand or a paddle produces visible sparkles."
+          },
+          {
+            "label": "Shine a flashlight on the water surface",
+            "feedback": "A flashlight would wash out the faint blue glow. What you need is darkness and a mechanical disturbance, not added light."
+          },
+          {
+            "label": "Wait for a full moon over a calm sea",
+            "feedback": "Even with moonlight, calm water gives no flash because nothing disturbs the cells. Moonlight adds light that can hide the glow."
+          }
+        ],
+        "ok_title": "Dark night, gentle stir",
+        "ok_line": "Visit at night and move the water to see the flash.",
+        "ko_title": "Not daylight or calm",
+        "ko_line": "Sunlight, flashlight, and calm water hide or prevent the glow — you need darkness and motion.",
+        "exp_title": "How to see the light",
+        "exp_text": "To see glowing plankton, go to the sea on a dark night after the cells have had time to load their light chemicals. Move the water — dip a paddle, swirl a hand, or let small waves break — and the disturbance triggers the flashes. The darker the night, the clearer the blue sparkles appear."
+      }
+    ]
+  }
+]

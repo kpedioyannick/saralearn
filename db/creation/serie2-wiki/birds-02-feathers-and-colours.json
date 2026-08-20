@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 242,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the layer of feathers covering a bird called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Feather coat",
+            "feedback": "A coat is not the term used in bird science. The correct name for the whole covering is plumage."
+          },
+          {
+            "label": "Plumage",
+            "feedback": "Plumage, also called feathering, is the entire layer of feathers and their pattern and colour."
+          },
+          {
+            "label": "Pelage",
+            "feedback": "Pelage is the hair covering of mammals, not the feather covering of birds."
+          },
+          {
+            "label": "Down",
+            "feedback": "Down is only one type of soft feather, not the whole covering. The full layer is called plumage."
+          }
+        ],
+        "ok_title": "Correct name",
+        "ok_line": "Yes, the whole feather covering is the plumage.",
+        "ko_title": "Try again",
+        "ko_line": "That term does not name the full feather layer.",
+        "exp_title": "Plumage",
+        "exp_text": "Plumage, from the Latin word for feather, is the entire layer of feathers on a bird, including its pattern, colour, and arrangement."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many times a year do most birds moult?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Once",
+            "feedback": "Some birds, like many passerines, moult only once each year, but most birds moult twice, not once."
+          },
+          {
+            "label": "Three times",
+            "feedback": "Three moults a year is not typical for most birds. Most moult twice annually."
+          },
+          {
+            "label": "Twice",
+            "feedback": "Most birds moult twice a year, producing a breeding plumage and a non-breeding plumage."
+          },
+          {
+            "label": "Four times",
+            "feedback": "Four moults a year is far more than typical. Most birds undergo two moults per year."
+          }
+        ],
+        "ok_title": "Two moults",
+        "ok_line": "Yes, most birds moult twice each year.",
+        "ko_title": "Not that many",
+        "ko_line": "The usual number of yearly moults is two.",
+        "exp_title": "Annual moult count",
+        "exp_text": "Most birds moult twice a year, replacing their feathers to form a breeding plumage and a non-breeding plumage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a duck's eclipse plumage look like?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dull and female-like",
+            "feedback": "Correct. After breeding, many male ducks moult into a drab, cryptic plumage that resembles the female's."
+          },
+          {
+            "label": "Bright and colourful",
+            "feedback": "Bright colours are the breeding plumage of male ducks, not the eclipse plumage. Eclipse is dull."
+          },
+          {
+            "label": "Pure white",
+            "feedback": "White is not typical for eclipse plumage. Eclipse is a dull, brownish, female-like appearance."
+          },
+          {
+            "label": "Brighter than the breeding plumage",
+            "feedback": "Eclipse plumage is duller, not brighter. The bright look is the breeding plumage."
+          }
+        ],
+        "ok_title": "Drab eclipse",
+        "ok_line": "Yes, eclipse plumage is dull and resembles the female.",
+        "ko_title": "Wrong look",
+        "ko_line": "Eclipse plumage is not bright or white.",
+        "exp_title": "Duck eclipse plumage",
+        "exp_text": "After breeding in mid-summer, many male ducks moult into a dull, female-like appearance called eclipse plumage, which helps them stay inconspicuous."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When a duck is in eclipse plumage, what happens to its flight feathers?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They turn white",
+            "feedback": "The flight feathers do not change colour to white; they are shed all at once during eclipse."
+          },
+          {
+            "label": "They remain unchanged",
+            "feedback": "In eclipse, ducks shed all their flight feathers simultaneously, so they do not remain unchanged."
+          },
+          {
+            "label": "They grow longer",
+            "feedback": "The flight feathers are not growing longer; they are lost completely at once."
+          },
+          {
+            "label": "They are shed all at once",
+            "feedback": "Ducks in eclipse shed all their flight feathers simultaneously, which makes them flightless for a short period."
+          }
+        ],
+        "ok_title": "Shed together",
+        "ok_line": "Yes, ducks lose all flight feathers at once in eclipse.",
+        "ko_title": "Not so",
+        "ko_line": "The flight feathers are not kept, whitened, or lengthened.",
+        "exp_title": "Flightless in eclipse",
+        "exp_text": "During eclipse, ducks shed all their flight feathers at the same time, so they become temporarily flightless."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which bird group keeps its bright breeding plumage all year round?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Ducks",
+            "feedback": "Ducks moult into a dull eclipse plumage after breeding, so they do not keep bright colours all year."
+          },
+          {
+            "label": "Hummingbirds",
+            "feedback": "Male hummingbirds retain their bright plumage and show sexual dimorphism at all times, moulting only once a year."
+          },
+          {
+            "label": "Red junglefowl",
+            "feedback": "Red junglefowl, like ducks, have an eclipse plumage after breeding, so they do not stay bright all year."
+          },
+          {
+            "label": "Fairywrens",
+            "feedback": "Most fairywrens also have an eclipse plumage, so they do not keep breeding colours year-round."
+          }
+        ],
+        "ok_title": "Always bright",
+        "ok_line": "Yes, hummingbirds keep their bright plumage all year.",
+        "ko_title": "They change",
+        "ko_line": "That group moults into a duller plumage at some point.",
+        "exp_title": "Year-round brightness",
+        "exp_text": "Unlike ducks, male hummingbirds and most lek-mating passerines keep their vivid plumage and sexual dimorphism all year, moulting only once annually."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does colour polymorphism in a bird species mean?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The bird changes colour with the seasons",
+            "feedback": "Seasonal colour change is a moult-related shift, not polymorphism. Polymorphism means different colour forms coexist in the population."
+          },
+          {
+            "label": "The bird has one fixed colour",
+            "feedback": "A single fixed colour is not polymorphism, which requires two or more colour variants present at the same time."
+          },
+          {
+            "label": "Two or more colour variants occur in the population",
+            "feedback": "Yes, in polymorphic species, both brown and grey morphs, for example, exist within the same population."
+          },
+          {
+            "label": "The bird loses all colour",
+            "feedback": "Loss of all colour is albinism, not polymorphism. Polymorphism involves multiple colour forms, not absence."
+          }
+        ],
+        "ok_title": "Multiple colours",
+        "ok_line": "Yes, polymorphism means several colour variants coexist.",
+        "ko_title": "Not that",
+        "ko_line": "Polymorphism is not a seasonal change or a single colour.",
+        "exp_title": "Colour polymorphism",
+        "exp_text": "In colour polymorphism, two or more colour variants, such as a brown and a grey morph, occur within the same bird population throughout most seasons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which bird has face colour polymorphism, with different coloured faces?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The red junglefowl",
+            "feedback": "Red junglefowl are known for eclipse plumage, not for face colour polymorphism."
+          },
+          {
+            "label": "The Guianan cock-of-the-rock",
+            "feedback": "The cock-of-the-rock keeps bright plumage all year; it is not known for face colour polymorphism."
+          },
+          {
+            "label": "The male ruff",
+            "feedback": "The male ruff has different courtship types and neck colours, but the face colour example belongs to the Gouldian finch."
+          },
+          {
+            "label": "The Gouldian finch",
+            "feedback": "The Gouldian finch shows unusual polymorphism in its face colour, with different colour variants in the population."
+          }
+        ],
+        "ok_title": "Gouldian finch",
+        "ok_line": "Yes, the Gouldian finch has face colour polymorphism.",
+        "ko_title": "Not this one",
+        "ko_line": "That bird is not the example for face colour variants.",
+        "exp_title": "Face colour variants",
+        "exp_text": "The Gouldian finch is an example of a bird with polymorphism in its face colour, showing different colour forms within the same species."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the total loss of colour in a bird?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Albinism",
+            "feedback": "Albinism is the total loss of colour, a rare condition in birds."
+          },
+          {
+            "label": "Melanism",
+            "feedback": "Melanism is an excess of dark colour, not a total loss of colour."
+          },
+          {
+            "label": "Leucism",
+            "feedback": "Leucism is a loss of pigment in some or all feathers, not a total loss of colour in the whole bird."
+          },
+          {
+            "label": "Dilution",
+            "feedback": "Dilution is a lower intensity of colour, not a complete absence of colour."
+          }
+        ],
+        "ok_title": "No colour",
+        "ok_line": "Yes, total colour loss is albinism.",
+        "ko_title": "Not that term",
+        "ko_line": "That condition is different from total pigment loss.",
+        "exp_title": "Total albinism",
+        "exp_text": "Albinism is the rare, total loss of colour in a bird, affecting feathers, eyes, bill, and skin due to a lack of melanin."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the pink or red eyes of a completely albino bird?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A red pigment in the iris",
+            "feedback": "There is no red pigment; the colour comes from blood showing through, not from a pigment."
+          },
+          {
+            "label": "A reflection of the sky",
+            "feedback": "The eye colour is not a reflection; it is blood visible through a colourless iris."
+          },
+          {
+            "label": "Blood showing through the unpigmented iris",
+            "feedback": "In a complete albino, the iris has no pigment, so the blood inside the eye makes it look pink or red."
+          },
+          {
+            "label": "A build-up of melanin",
+            "feedback": "Melanin is absent in albinism, not built up; it cannot cause pink eyes."
+          }
+        ],
+        "ok_title": "Blood behind",
+        "ok_line": "Yes, the blood shows through the clear iris.",
+        "ko_title": "Not pigment",
+        "ko_line": "The pink colour is not due to any pigment.",
+        "exp_title": "Albino eye colour",
+        "exp_text": "In a completely albino bird, the iris lacks pigment, so blood shows through, making the eyes appear pink or red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for an overabundance of yellow pigment in a bird's feathers?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Melanism",
+            "feedback": "Melanism is an excess of dark colour, not yellow. The yellow condition is xanthochromism."
+          },
+          {
+            "label": "Xanthochromism",
+            "feedback": "Xanthochromism is an overabundance of yellow, a type of schizochroism in plumage."
+          },
+          {
+            "label": "Axanthism",
+            "feedback": "Axanthism is a lack of yellow, not an overabundance of it."
+          },
+          {
+            "label": "Erythrism",
+            "feedback": "Erythrism is an excess of reddish-brown pigment, not yellow."
+          }
+        ],
+        "ok_title": "Too much yellow",
+        "ok_line": "Yes, xanthochromism means too much yellow.",
+        "ko_title": "Wrong colour",
+        "ko_line": "That condition involves a different pigment imbalance.",
+        "exp_title": "Yellow excess",
+        "exp_text": "Xanthochromism is a colour shift where yellow pigments are overabundant in the feathers, one of the schizochroism conditions."
+      }
+    ]
+  }
+]

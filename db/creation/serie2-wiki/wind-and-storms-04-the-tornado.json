@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a tornado in its simplest form?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A rapidly rotating column of air",
+            "feedback": "Correct. A tornado is a quickly spinning column of air that reaches from the ground up to a cloud."
+          },
+          {
+            "label": "A large cloud that produces heavy rain",
+            "feedback": "That describes a storm cloud like a cumulonimbus, not the tornado itself. A tornado is the spinning air beneath the cloud."
+          },
+          {
+            "label": "A strong gust of wind near the ground",
+            "feedback": "A gust is a short burst of wind, not a rotating column. Tornadoes involve a persistent, spinning column of air."
+          },
+          {
+            "label": "A low-pressure area at the centre of a storm",
+            "feedback": "A low-pressure area is a feature of a broader storm system. The tornado is the rotating column of air, not the pressure centre itself."
+          }
+        ],
+        "ok_title": "Tornado defined",
+        "ok_line": "A tornado is a spinning column of air.",
+        "ko_title": "Not a tornado",
+        "ko_line": "Think of the column of air, not the cloud or pressure.",
+        "exp_title": "Tornado basics",
+        "exp_text": "A tornado is a rapidly rotating column of air that extends from the ground up to the base of a cumulonimbus or cumulus cloud. It is the vortex of wind itself, not the condensation cloud that may form around it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does a tornado's column of air connect at its top end?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To the top of a mountain",
+            "feedback": "Mountains are on the ground, not in the sky. A tornado hangs from a cloud, not from high ground."
+          },
+          {
+            "label": "To the ground surface",
+            "feedback": "That is the bottom end of the tornado. The top connects to the cloud base, not the ground."
+          },
+          {
+            "label": "To the base of a cumulus or cumulonimbus cloud",
+            "feedback": "Correct. The rotating column attaches to the cloud base above, while its lower end touches the ground."
+          },
+          {
+            "label": "To a layer of warm air high aloft",
+            "feedback": "That is a general atmospheric layer, not a specific attachment point. The tornado's column is attached to a visible cloud base."
+          }
+        ],
+        "ok_title": "Top connection",
+        "ok_line": "The top touches the cloud base.",
+        "ko_title": "Wrong anchor",
+        "ko_line": "Think of the cloud, not the ground or air layers.",
+        "exp_title": "Cloud base anchor",
+        "exp_text": "A tornado extends vertically from the ground up to the base of a cumulonimbus or cumulus cloud. For a vortex to be called a tornado, it must be in contact with both the ground and the cloud base."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the funnel-shaped, visible part of a tornado often called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A dust devil",
+            "feedback": "A dust devil is a separate phenomenon that forms on hot, dry ground, not a part of a tornado."
+          },
+          {
+            "label": "A condensation funnel",
+            "feedback": "Correct. The visible funnel is made of condensed water droplets and is called a condensation funnel or funnel cloud."
+          },
+          {
+            "label": "A gust front",
+            "feedback": "A gust front is the leading edge of cool air from a storm, not the visible funnel of a tornado."
+          },
+          {
+            "label": "A tornado family",
+            "feedback": "A tornado family is a group of tornadoes from the same storm cell, not the visible funnel itself."
+          }
+        ],
+        "ok_title": "Visible funnel",
+        "ok_line": "It is a condensation funnel.",
+        "ko_title": "Not the funnel",
+        "ko_line": "The funnel is condensed water, not a dry wind event.",
+        "exp_title": "Condensation funnel",
+        "exp_text": "When a tornado forms, the low pressure and fast rotation cause water vapour to condense into cloud droplets, creating a visible funnel cloud. This is called a condensation funnel, and it hangs from the cloud base."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What must a vortex be touching to be classified as a tornado?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Only the ground",
+            "feedback": "That is not enough. A vortex must also touch the cloud base to be called a tornado."
+          },
+          {
+            "label": "Only the cloud",
+            "feedback": "Touching just the cloud is insufficient. It must also be in contact with the ground."
+          },
+          {
+            "label": "The ground and a tall tree",
+            "feedback": "Trees are part of the ground surface but not the required second contact. The second contact must be with the cloud base."
+          },
+          {
+            "label": "The ground and the cloud base",
+            "feedback": "Correct. Both the ground and the cloud base must be touched by the vortex for it to be considered a tornado."
+          }
+        ],
+        "ok_title": "Two contacts",
+        "ok_line": "Both ground and cloud are needed.",
+        "ko_title": "Incomplete connection",
+        "ko_line": "A vortex needs both ends connected.",
+        "exp_title": "Tornado classification",
+        "exp_text": "For a rotating column of air to be classified as a tornado, it must be in contact with the ground at its lower end and with the cloud base at its upper end. If either connection is missing, it is not a tornado."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three main types of tornadoes mentioned?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Multiple-vortex, landspout, and waterspout",
+            "feedback": "Correct. Those are the three types named: multiple-vortex tornadoes, landspouts, and waterspouts."
+          },
+          {
+            "label": "Funnel cloud, gustnado, and dust devil",
+            "feedback": "Funnel cloud is a visible part, and gustnado and dust devil are similar but separate phenomena, not types of tornadoes."
+          },
+          {
+            "label": "Wedge, rope, and stovepipe",
+            "feedback": "Those are shapes a tornado can take, not the main types."
+          },
+          {
+            "label": "Supercell, gust front, and squall line",
+            "feedback": "Those are storm features, not tornado types."
+          }
+        ],
+        "ok_title": "Three types",
+        "ok_line": "Multiple-vortex, landspout, waterspout.",
+        "ko_title": "Not the types",
+        "ko_line": "Shapes and similar phenomena are different.",
+        "exp_title": "Tornado types",
+        "exp_text": "The main types of tornadoes are multiple-vortex tornadoes, which have several small whirls circling a common centre; landspouts, which are weak and form on land; and waterspouts, which develop over bodies of water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a waterspout?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A tornado that forms over a desert",
+            "feedback": "A desert tornado would be on land, not over water. Waterspouts develop over bodies of water."
+          },
+          {
+            "label": "A tornado that develops over water",
+            "feedback": "Correct. A waterspout is a spiral of wind over a body of water, connected to a large cumulus or cumulonimbus cloud."
+          },
+          {
+            "label": "A tornado that forms from a dust devil",
+            "feedback": "Dust devils form on hot ground, not over water, and are not the source of waterspouts."
+          },
+          {
+            "label": "A tornado that occurs only in mountains",
+            "feedback": "Mountains are not bodies of water. Waterspouts are specifically over water."
+          }
+        ],
+        "ok_title": "Water tornado",
+        "ok_line": "It develops over water.",
+        "ko_title": "Not on land",
+        "ko_line": "Think of oceans and lakes.",
+        "exp_title": "Waterspout definition",
+        "exp_text": "A waterspout is a spiraling funnel-shaped wind current that connects to a large cumulus or cumulonimbus cloud and develops over bodies of water. It is generally considered a non-supercellular tornado."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a tornado family?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A single tornado that lasts a long time",
+            "feedback": "That is a long-lived tornado, not a family. A family is a group of tornadoes."
+          },
+          {
+            "label": "Several tornadoes from different storms on the same day",
+            "feedback": "That could be an outbreak, but a family is specifically from the same storm cell."
+          },
+          {
+            "label": "Multiple tornadoes produced by the same storm",
+            "feedback": "Correct. A tornado family is when one storm cell spawns more than one tornado, either at the same time or one after another."
+          },
+          {
+            "label": "A tornado that has several funnels visible at once",
+            "feedback": "That describes a multiple-vortex tornado, not a family of separate tornadoes."
+          }
+        ],
+        "ok_title": "Same storm, many tornadoes",
+        "ok_line": "One storm makes several.",
+        "ko_title": "Not a single tornado",
+        "ko_line": "A family is a group, not one vortex.",
+        "exp_title": "Tornado family",
+        "exp_text": "When a single storm cell produces more than one tornado, either simultaneously or in succession, those tornadoes together are called a tornado family. Each separate tornado is still its own vortex."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a tornado outbreak sequence?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A single severe tornado",
+            "feedback": "That is one tornado, not an outbreak. An outbreak involves many tornadoes over time."
+          },
+          {
+            "label": "A tornado that produces a family",
+            "feedback": "A family is from one storm, while an outbreak sequence spans several days and weather systems."
+          },
+          {
+            "label": "Several tornadoes on one day across a large area",
+            "feedback": "That is a tornado outbreak, but a sequence is a longer period with multiple outbreaks."
+          },
+          {
+            "label": "Several days of tornado outbreaks in the same region",
+            "feedback": "Correct. A tornado outbreak sequence is a period of several successive days with tornado outbreaks in the same general area, caused by multiple weather systems."
+          }
+        ],
+        "ok_title": "Multi-day outbreaks",
+        "ok_line": "Several days of tornadoes.",
+        "ko_title": "Shorter than that",
+        "ko_line": "Outbreaks are day-level, sequences are longer.",
+        "exp_title": "Outbreak sequence",
+        "exp_text": "A tornado outbreak sequence, sometimes called an extended tornado outbreak, is when tornado outbreaks occur on several successive days in the same area, driven by multiple weather systems rather than just one storm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a natural phenomenon similar to a tornado?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Dust devil",
+            "feedback": "Correct. Dust devils are swirling columns of air, though they form on hot, dry ground, not from storm clouds."
+          },
+          {
+            "label": "A thunderstorm's lightning",
+            "feedback": "Lightning is an electrical discharge, not a rotating column of air. It is not similar to a tornado."
+          },
+          {
+            "label": "A large hailstone",
+            "feedback": "Hail is frozen precipitation, not a wind phenomenon. It is not similar to a tornado."
+          },
+          {
+            "label": "A heavy rain band",
+            "feedback": "Rain bands are areas of precipitation, not rotating columns of air. They are not similar."
+          }
+        ],
+        "ok_title": "Similar whirls",
+        "ok_line": "Dust devils are similar.",
+        "ko_title": "Not similar",
+        "ko_line": "Lightning, hail, and rain are not whirlwinds.",
+        "exp_title": "Similar phenomena",
+        "exp_text": "Similar natural phenomena include the gustnado, dust devil, fire whirl, and steam devil. These are all swirling columns of air, though they form in different ways and are not true tornadoes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape do many tornadoes take when they are dissipating?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A wide wedge",
+            "feedback": "A wedge shape is a wide, powerful tornado, not one that is dissipating. Dying tornadoes often narrow."
+          },
+          {
+            "label": "A narrow rope",
+            "feedback": "Correct. As a tornado weakens, it often becomes a narrow, twisting tube, called a rope tornado."
+          },
+          {
+            "label": "A tall cylinder",
+            "feedback": "A cylindrical shape is a stovepipe tornado, which is not specifically a dissipating shape."
+          },
+          {
+            "label": "A solid block of clouds",
+            "feedback": "A block-like appearance is typical of a wedge tornado, not a dying one."
+          }
+        ],
+        "ok_title": "Dissipating shape",
+        "ok_line": "They become ropes.",
+        "ko_title": "Not that shape",
+        "ko_line": "Wedges and cylinders are other forms.",
+        "exp_title": "Rope tornado",
+        "exp_text": "When a tornado is in its dissipating stage, it often resembles a narrow tube or rope and may curl or twist into complex shapes. This is called 'roping out' and the tornado becomes a rope tornado."
+      }
+    ]
+  }
+]

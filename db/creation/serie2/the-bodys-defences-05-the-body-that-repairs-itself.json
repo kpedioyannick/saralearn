@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main job of the blood clot that forms at the site of a cut?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To carry oxygen to the wound",
+            "feedback": "Oxygen is carried by red blood cells in the bloodstream, not by a clot. The clot's job is to seal the wound and stop bleeding."
+          },
+          {
+            "label": "To kill any microbes that enter the cut",
+            "feedback": "Killing microbes is the work of white blood cells. A clot just plugs the gap and gives white blood cells time to work."
+          },
+          {
+            "label": "To seal the wound and stop further bleeding",
+            "feedback": "Correct. The clot is a sticky mesh of proteins and platelets that covers the cut, stops blood loss, and provides a surface for repair."
+          },
+          {
+            "label": "To remove dead tissue from the wound",
+            "feedback": "Removing dead tissue is done by white blood cells during cleaning, not by the clot itself."
+          }
+        ],
+        "ok_title": "Clot seals wound",
+        "ok_line": "A clot plugs the cut to stop bleeding.",
+        "ko_title": "Clot not for killing",
+        "ko_line": "White blood cells handle microbes, not the clot.",
+        "exp_title": "Blood clotting",
+        "exp_text": "When you get a cut, the body quickly forms a clot—a mesh of a protein called fibrin and sticky platelets—that covers the wound. This stops blood from flowing out and blocks microbes from entering. The clot also serves as a base for new skin cells to grow over."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a healing bone acts as the bridge that joins the broken pieces together?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The marrow inside the bone",
+            "feedback": "Marrow makes blood cells, but it does not join broken ends. The bridge is made by a soft tissue called callus."
+          },
+          {
+            "label": "A soft callus that hardens into bone",
+            "feedback": "Correct. A callus—soft cartilage first, then hard bone—forms around the break and connects the two pieces, later remodeling into normal bone."
+          },
+          {
+            "label": "The outer membrane called periosteum",
+            "feedback": "Periosteum covers the bone's surface and helps supply blood, but it is not the bridge itself. The callus is what joins the pieces."
+          },
+          {
+            "label": "The joint cartilage at the bone's ends",
+            "feedback": "Joint cartilage is found at joints, not at fractures. A fracture repair uses callus, not cartilage from joints."
+          }
+        ],
+        "ok_title": "Callus bridges break",
+        "ok_line": "Soft callus hardens to join bone pieces.",
+        "ko_title": "Not marrow or membrane",
+        "ko_line": "Marrow makes cells; callus makes the bridge.",
+        "exp_title": "Bone healing",
+        "exp_text": "When a bone breaks, the body first forms a blood clot, then a soft callus made of cartilage and fibrous tissue. This callus connects the broken ends. Over weeks, it hardens into bone, and then the bone reshapes itself to look normal again."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the edges of a healing skin wound as new skin grows?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They stay exactly where they were",
+            "feedback": "Edges do not stay still; they move. Skin cells at the margins divide and migrate, pulling the edges closer together."
+          },
+          {
+            "label": "They lift upward away from the wound bed",
+            "feedback": "Edges do not lift; they pull inward. The wound closes as the margins move toward each other."
+          },
+          {
+            "label": "They turn into scar tissue immediately",
+            "feedback": "Scar tissue forms after the wound closes, not at the edges first. The edges themselves contain growing skin cells."
+          },
+          {
+            "label": "They pull inward toward the center of the wound",
+            "feedback": "Correct. New skin cells at the wound margin divide and slide across, gradually shrinking the hole until it closes completely."
+          }
+        ],
+        "ok_title": "Edges pull inward",
+        "ok_line": "New skin cells draw the wound shut.",
+        "ko_title": "Not lifting or still",
+        "ko_line": "Margins move toward the center, not away.",
+        "exp_title": "Wound closure",
+        "exp_text": "During healing, skin cells at the wound's edge multiply and migrate into the gap. This action pulls the edges inward, making the wound smaller each day until only a scar remains. This inward movement is why wounds visibly shrink over time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the body use to replace red blood cells that are lost when you bleed?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The bone marrow makes new ones",
+            "feedback": "Correct. The marrow in your bones constantly produces red blood cells to replace any that are lost, whether from bleeding or normal wear."
+          },
+          {
+            "label": "The liver stores and releases extra ones",
+            "feedback": "The liver stores vitamins and cleans blood, but it does not make red blood cells. Marrow makes them."
+          },
+          {
+            "label": "The spleen filters them from old cells",
+            "feedback": "The spleen breaks down old red blood cells, but it does not create new ones. New ones come from marrow."
+          },
+          {
+            "label": "The skin absorbs them from the air",
+            "feedback": "Skin does not absorb red blood cells from air. They are produced inside your bones in the marrow."
+          }
+        ],
+        "ok_title": "Marrow makes blood",
+        "ok_line": "Bone marrow replaces lost red cells.",
+        "ko_title": "Liver and spleen store",
+        "ko_line": "Liver stores, spleen recycles, marrow creates.",
+        "exp_title": "Blood cell production",
+        "exp_text": "Red blood cells have a short life of about 120 days, so your bone marrow constantly produces new ones. When you bleed, the marrow speeds up production to bring your blood count back to normal. This is why you recover after donating blood or a small injury."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the lining of the stomach need to be replaced frequently?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because it wears away from chewing food",
+            "feedback": "Chewing happens in the mouth, not the stomach. The stomach lining wears from acid and digestive enzymes, not mechanical chewing."
+          },
+          {
+            "label": "Because the strong acid and enzymes damage it",
+            "feedback": "Correct. The stomach makes acid and protein-digesting enzymes to break down food, and these same chemicals harm the lining, so new cells are made constantly to replace them."
+          },
+          {
+            "label": "Because it is constantly rubbed by swallowed food",
+            "feedback": "Food does rub, but the main damage is chemical, not physical. The acid is the main attacker of the lining."
+          },
+          {
+            "label": "Because bacteria in the stomach eat it",
+            "feedback": "Bacteria are usually killed by the acid, and they do not eat the lining. The acid and enzymes are the cause of damage."
+          }
+        ],
+        "ok_title": "Stomach lining renews",
+        "ok_line": "Acid and enzymes damage the lining daily.",
+        "ko_title": "Not from chewing",
+        "ko_line": "Chemical damage, not chewing, drives renewal.",
+        "exp_title": "Stomach repair",
+        "exp_text": "Your stomach uses a very strong acid and digestive enzymes to break down food. These chemicals can also digest your own stomach tissue, so the lining cells only last a few days. The body replaces them rapidly, creating a fresh protective layer about every three to five days."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of tissue is formed when a deep cut in a muscle heals and the gap is filled?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "New muscle tissue exactly like the original",
+            "feedback": "Muscle cells have limited ability to divide, so a deep cut usually does not regenerate real muscle. Scar tissue takes its place."
+          },
+          {
+            "label": "Cartilage that cushions the wound",
+            "feedback": "Cartilage is for joints, not for muscle wounds. Muscle wounds heal with fibrous scar tissue, not cartilage."
+          },
+          {
+            "label": "Scar tissue made of fibrous material",
+            "feedback": "Correct. When muscle is deeply cut, the gap fills with collagen-rich scar tissue, which is strong but not contractile like muscle."
+          },
+          {
+            "label": "Bone that hardens over the injury",
+            "feedback": "Bone forms in fractures, not in muscle. Muscle wounds produce fibrous scar tissue, not bony material."
+          }
+        ],
+        "ok_title": "Muscle heals with scar",
+        "ok_line": "Deep muscle cuts leave fibrous scar tissue.",
+        "ko_title": "Not new muscle",
+        "ko_line": "Muscle cells rarely regenerate fully after deep cuts.",
+        "exp_title": "Muscle healing",
+        "exp_text": "Unlike skin or liver, muscles have limited regenerative ability. When a cut goes deep into a muscle, the body fills the gap with scar tissue made of collagen fibers. This scar holds the muscle together but lacks the ability to contract, so the muscle may lose some strength permanently."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of the white blood cells that arrive at a healing wound several days after the injury?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "To form the blood clot that stops bleeding",
+            "feedback": "Clotting happens within minutes, using platelets and fibrin, not white cells. White cells come later for cleaning and repair."
+          },
+          {
+            "label": "To produce new skin cells for the wound",
+            "feedback": "New skin cells come from the skin's own basal layer, not from white blood cells. White cells do not make skin."
+          },
+          {
+            "label": "To make the scar tissue that closes the gap",
+            "feedback": "Scar tissue is made by cells called fibroblasts, not by white blood cells. White cells help clean, not build."
+          },
+          {
+            "label": "To clean out dead tissue and fight any microbes",
+            "feedback": "Correct. White blood cells, especially macrophages, arrive to eat dead cells and bacteria, preparing the wound for repair and preventing infection."
+          }
+        ],
+        "ok_title": "White cells clean wound",
+        "ok_line": "Macrophages remove debris and germs.",
+        "ko_title": "Not clot or skin",
+        "ko_line": "Clot and skin cells have different builders.",
+        "exp_title": "Wound cleaning cells",
+        "exp_text": "After a wound, white blood cells migrate to the site within days. Macrophages are the main players: they engulf bacteria and dead tissue fragments, clearing the area so that new cells can grow. Without this cleaning, the wound would stay infected and heal poorly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a fingertip is responsible for the fingerprint pattern returning after a shallow scrape?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The blood vessels underneath the skin",
+            "feedback": "Blood vessels supply nutrients but do not create skin patterns. The fingerprint comes from the epidermis's own structure."
+          },
+          {
+            "label": "The dermis layer with its ridges",
+            "feedback": "Correct. The fingerprint pattern is set by ridges in the dermis, the deeper skin layer. A shallow scrape only damages the top epidermis, so the dermis pattern remains and the new skin follows it."
+          },
+          {
+            "label": "The hair follicles in the skin",
+            "feedback": "Fingertips have almost no hair follicles. The pattern comes from dermal ridges, not follicles."
+          },
+          {
+            "label": "The sweat glands that open at the surface",
+            "feedback": "Sweat glands open along the ridges but do not create the pattern. The pattern is structural from the dermis."
+          }
+        ],
+        "ok_title": "Dermis keeps pattern",
+        "ok_line": "Ridges in the dermis restore fingerprints.",
+        "ko_title": "Not blood or follicles",
+        "ko_line": "The dermis, not vessels, preserves the pattern.",
+        "exp_title": "Fingerprint repair",
+        "exp_text": "A fingerprint is formed by ridges in the dermis underneath the thin top layer of skin. When you scrape your fingertip shallowly, only the epidermis is removed. The dermis ridges remain intact, so as new epidermal cells grow over them, the same whorls and lines reappear exactly as before."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason a broken bone needs to be kept still during healing?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "To allow the callus to form without being torn apart",
+            "feedback": "Correct. Movement can break the fragile callus before it hardens, so keeping the bone still lets the soft bridge strengthen into solid bone."
+          },
+          {
+            "label": "To stop the bone from growing too long",
+            "feedback": "Bones do not grow longer from movement. The issue is movement disrupting the healing callus, not length."
+          },
+          {
+            "label": "To prevent the bone marrow from leaking out",
+            "feedback": "Marrow is contained inside the bone; it does not leak out when moving. Immobility is for callus stability."
+          },
+          {
+            "label": "To keep the white blood cells from leaving the area",
+            "feedback": "White blood cells stay where needed; movement does not push them away. The callus needs a quiet, stable environment."
+          }
+        ],
+        "ok_title": "Still bone heals",
+        "ok_line": "Immobility protects the callus from damage.",
+        "ko_title": "Not length or marrow",
+        "ko_line": "Callus stability is the key, not other factors.",
+        "exp_title": "Fracture immobilization",
+        "exp_text": "When a bone breaks, the body forms a soft callus that bridges the gap. This callus is delicate—any movement can tear it before it hardens into bone. That is why a cast or splint keeps the bone still: it allows the callus to mature into solid bone without disruption."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the purpose of the redness and warmth that appear around a fresh cut?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "To show that the skin is dying",
+            "feedback": "Redness and warmth do not mean death; they are signs of increased blood flow. Dying skin would turn pale or black, not red."
+          },
+          {
+            "label": "To dry out the wound faster",
+            "feedback": "Drying is not the purpose. The redness comes from extra blood, which brings cells for repair, not from drying."
+          },
+          {
+            "label": "To make the wound visible for cleaning",
+            "feedback": "Visibility is not the function. The redness and warmth are a biological response, not a signal for humans."
+          },
+          {
+            "label": "To bring extra blood and immune cells to the area",
+            "feedback": "Correct. The body widens local blood vessels, increasing blood flow. This brings oxygen, nutrients, and white blood cells to fight microbes and start repair—hence the red and warm appearance."
+          }
+        ],
+        "ok_title": "Redness brings help",
+        "ok_line": "Extra blood delivers immune cells to the cut.",
+        "ko_title": "Not dying or drying",
+        "ko_line": "Increasing blood flow, not damage, causes redness.",
+        "exp_title": "Inflammation response",
+        "exp_text": "When skin is cut, the body sends more blood to the area by widening the vessels. This incoming blood carries oxygen and white blood cells needed for defense and repair. The increased flow makes the skin look red and feel warm—these are healthy signs of the healing response working."
+      }
+    ]
+  }
+]

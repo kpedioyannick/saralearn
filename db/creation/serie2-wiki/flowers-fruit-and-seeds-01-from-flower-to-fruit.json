@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 234,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a fruit develop from in a flower?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ovary",
+            "feedback": "Correct. A fruit is the mature ovary of a flower, which enlarges and ripens after pollination."
+          },
+          {
+            "label": "The petals",
+            "feedback": "Petals are the colourful parts that attract pollinators; they usually fall off after pollination and do not become the fruit."
+          },
+          {
+            "label": "The stamens",
+            "feedback": "Stamens are the male parts that produce pollen; they do not develop into the fruit."
+          },
+          {
+            "label": "The stigma",
+            "feedback": "The stigma is the sticky tip that receives pollen; it is part of the female structure but the fruit comes from the ovary below it."
+          }
+        ],
+        "ok_title": "Ovary becomes fruit",
+        "ok_line": "The fruit grows from the mature ovary.",
+        "ko_title": "Not the petals",
+        "ko_line": "Petals and stamens do not form the fruit.",
+        "exp_title": "Fruit origin",
+        "exp_text": "A fruit is the mature ovary of a flower. After the flower is pollinated, the ovary enlarges and ripens into the fruit that holds the seeds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a simple fruit?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A raspberry",
+            "feedback": "A raspberry is an aggregate fruit, formed from many ovaries of a single flower, not a simple fruit."
+          },
+          {
+            "label": "A pineapple",
+            "feedback": "A pineapple is a multiple fruit, made from the fused ovaries of many flowers, not a simple fruit."
+          },
+          {
+            "label": "An apple",
+            "feedback": "Correct. An apple develops from a single ovary, making it a simple fruit, even though its flesh also includes the floral tube."
+          },
+          {
+            "label": "A mulberry",
+            "feedback": "A mulberry is a multiple fruit, formed from several flowers that fuse together, not a simple fruit."
+          }
+        ],
+        "ok_title": "Apple is simple",
+        "ok_line": "An apple comes from one ovary.",
+        "ko_title": "Not every fruit",
+        "ko_line": "Aggregate and multiple fruits use more than one ovary.",
+        "exp_title": "Simple fruit",
+        "exp_text": "A simple fruit forms from a single ovary and may contain one or many seeds. Apples, peaches and tomatoes are simple fruits."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How are aggregate fruits formed?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "From several flowers that fuse together",
+            "feedback": "That describes multiple fruits, not aggregate fruits. Aggregate fruits come from a single flower with many ovaries."
+          },
+          {
+            "label": "From a single flower with many ovaries",
+            "feedback": "Correct. Aggregate fruits form from one compound flower that contains many separate ovaries, each becoming a small fruitlet."
+          },
+          {
+            "label": "From one ovary only",
+            "feedback": "That is a simple fruit, which uses a single ovary, not the many ovaries of an aggregate fruit."
+          },
+          {
+            "label": "From the flower's receptacle only",
+            "feedback": "The receptacle is involved in accessory fruits like strawberries, but aggregate fruits come from multiple ovaries in one flower."
+          }
+        ],
+        "ok_title": "Many ovaries, one flower",
+        "ok_line": "Aggregate fruits use one flower with many ovaries.",
+        "ko_title": "Not fused flowers",
+        "ko_line": "Multiple fruits fuse flowers; aggregate does not.",
+        "exp_title": "Aggregate fruit formation",
+        "exp_text": "An aggregate fruit develops from a single flower that has many separate ovaries. Raspberries and blackberries are examples, each tiny bump being one ovary's fruit."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of fruit is a fig?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A simple fruit",
+            "feedback": "A fig is not a simple fruit; it forms from many flowers, so it belongs to the multiple fruit category."
+          },
+          {
+            "label": "An aggregate fruit",
+            "feedback": "Aggregate fruits come from one flower with many ovaries, but a fig is made from the fused ovaries of multiple flowers."
+          },
+          {
+            "label": "A drupe",
+            "feedback": "A drupe, like a peach, is a simple fleshy fruit with one seed; a fig is multiple and contains many tiny seeds."
+          },
+          {
+            "label": "A multiple fruit",
+            "feedback": "Correct. A fig forms from the fused ovaries of many flowers, making it a multiple fruit, like the mulberry and pineapple."
+          }
+        ],
+        "ok_title": "Fig is multiple",
+        "ok_line": "A fig comes from many flowers fused together.",
+        "ko_title": "Not simple or aggregate",
+        "ko_line": "Figs use multiple flowers, not one ovary or one flower.",
+        "exp_title": "Multiple fruit",
+        "exp_text": "A multiple fruit forms when the ovaries of several flowers fuse into one structure. Figs, mulberries and pineapples are multiple fruits."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which fruit is an example of a pepo?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A cucumber",
+            "feedback": "Correct. A cucumber is a pepo, a type of berry with an inseparable rind."
+          },
+          {
+            "label": "A lemon",
+            "feedback": "A lemon is a hesperidium, which has a separable rind, not a pepo with an inseparable rind."
+          },
+          {
+            "label": "An apple",
+            "feedback": "An apple is a pome, where the fleshy part comes from the floral tube and the endocarp is cartilaginous."
+          },
+          {
+            "label": "A peach",
+            "feedback": "A peach is a drupe with a single seed and fleshy mesocarp, not a pepo berry."
+          }
+        ],
+        "ok_title": "Cucumber is pepo",
+        "ok_line": "Cucumbers are berries with a tough rind.",
+        "ko_title": "Other fruit types",
+        "ko_line": "Lemon, apple and peach are different categories.",
+        "exp_title": "Pepo fruit",
+        "exp_text": "A pepo is a type of berry with a rind that cannot be separated from the flesh. Cucumbers and melons are pepos."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which fruit is an example of a hesperidium?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A cucumber",
+            "feedback": "A cucumber is a pepo with an inseparable rind, not a hesperidium, which has a separable rind."
+          },
+          {
+            "label": "A lemon",
+            "feedback": "Correct. A lemon is a hesperidium, a berry with a peel that can be separated from the inner flesh."
+          },
+          {
+            "label": "An apple",
+            "feedback": "An apple is a pome, not a hesperidium; its flesh develops from the floral tube rather than the ovary wall alone."
+          },
+          {
+            "label": "A peach",
+            "feedback": "A peach is a drupe with a hard stone; it is not a hesperidium berry with a peel."
+          }
+        ],
+        "ok_title": "Lemon is hesperidium",
+        "ok_line": "Lemons are berries with a removable rind.",
+        "ko_title": "Not a pepo",
+        "ko_line": "Cucumbers have inseparable rinds, unlike lemons.",
+        "exp_title": "Hesperidium fruit",
+        "exp_text": "A hesperidium is a type of berry that has a separable rind. Citrus fruits like lemons and oranges are hesperidia."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes a strawberry a false fruit?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It has no seeds at all",
+            "feedback": "Strawberries do have seeds; the tiny specks on the surface are the actual fruits, each with a seed inside."
+          },
+          {
+            "label": "It develops from several flowers",
+            "feedback": "Multiple fruits form from several flowers, but a strawberry comes from a single flower; that is not why it is false."
+          },
+          {
+            "label": "Its edible flesh comes from the receptacle, not the ovary",
+            "feedback": "Correct. In a strawberry, the fleshy part grows from the flower's receptacle, while the true fruits are the tiny achenes on the surface, so it is called an accessory fruit."
+          },
+          {
+            "label": "It is dry instead of fleshy",
+            "feedback": "Strawberries are fleshy fruits, not dry; the false-fruit label comes from which tissue forms the flesh, not from its texture."
+          }
+        ],
+        "ok_title": "Receptacle makes flesh",
+        "ok_line": "Strawberry flesh comes from the receptacle.",
+        "ko_title": "Not ovary flesh",
+        "ko_line": "True fruits use the ovary; strawberries use the receptacle.",
+        "exp_title": "Accessory fruit",
+        "exp_text": "A false fruit, or accessory fruit, is one where the edible part develops from tissues other than the ovary. In strawberries, that tissue is the flower's receptacle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a dry dehiscent fruit?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A sweet pea pod",
+            "feedback": "Correct. Sweet pea pods are dry dehiscent fruits; they build up internal tension and split open to release seeds."
+          },
+          {
+            "label": "A sunflower seed",
+            "feedback": "Sunflower seeds are dry indehiscent fruits; they do not split open but rely on physical forces for dispersal."
+          },
+          {
+            "label": "A dandelion",
+            "feedback": "Dandelions are dry indehiscent fruits; they depend on wind and do not burst open to release seeds."
+          },
+          {
+            "label": "A walnut",
+            "feedback": "Walnuts are nuts, which are dry indehiscent fruits; they do not open by themselves to release seeds."
+          }
+        ],
+        "ok_title": "Sweet pea dehisces",
+        "ok_line": "Sweet pea pods split to release seeds.",
+        "ko_title": "Indehiscent others",
+        "ko_line": "Sunflower, dandelion and walnut stay closed.",
+        "exp_title": "Dehiscent fruits",
+        "exp_text": "Dry dehiscent fruits increase internal tension until the pod bursts open to release seeds. Sweet pea, soybean, milkweed and poppy are examples."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How is the pericarp typically arranged in a fleshy fruit?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "As one single uniform layer",
+            "feedback": "The pericarp in fleshy fruits is not uniform; it has three distinct layers, though they may blend together."
+          },
+          {
+            "label": "In two layers only",
+            "feedback": "There are three layers in the pericarp of fleshy fruits, not two: the epicarp, mesocarp and endocarp."
+          },
+          {
+            "label": "All layers hard and dry",
+            "feedback": "Hard, dry layers are typical of dry fruits, not fleshy fruits, which have soft, fleshy layers."
+          },
+          {
+            "label": "As three layers: epicarp, mesocarp and endocarp",
+            "feedback": "Correct. Fleshy fruits have an outer epicarp, a middle mesocarp and an inner endocarp, though the layers may blend together."
+          }
+        ],
+        "ok_title": "Three pericarp layers",
+        "ok_line": "Fleshy fruits have three pericarp layers.",
+        "ko_title": "Not uniform or two",
+        "ko_line": "The pericarp is made of three distinct layers.",
+        "exp_title": "Pericarp structure",
+        "exp_text": "In fleshy fruits, the pericarp is made of three layers: the outer epicarp, the middle mesocarp and the inner endocarp. These layers vary in thickness and may blend."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What part of the pericarp is the flavedo in citrus fruits?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The mesocarp",
+            "feedback": "The mesocarp is the middle layer, also called albedo or pith in citrus; the flavedo is the outermost layer."
+          },
+          {
+            "label": "The epicarp",
+            "feedback": "Correct. The flavedo is the epicarp, the outermost layer of the pericarp, which forms the coloured skin of citrus fruits."
+          },
+          {
+            "label": "The endocarp",
+            "feedback": "The endocarp is the inner layer that surrounds the seeds and forms the segments; the flavedo is the outer skin."
+          },
+          {
+            "label": "The seed coat",
+            "feedback": "The seed coat is a layer around the seed itself, not part of the pericarp; the flavedo is part of the fruit's outer wall."
+          }
+        ],
+        "ok_title": "Flavedo is epicarp",
+        "ok_line": "The flavedo is the citrus outer skin.",
+        "ko_title": "Not middle or inner",
+        "ko_line": "Flavedo sits at the outermost pericarp layer.",
+        "exp_title": "Citrus epicarp",
+        "exp_text": "The flavedo is the outermost layer of the pericarp in citrus fruits, commonly called the zest. It contains essential oils and pigments that give the fruit its colour."
+      }
+    ]
+  }
+]

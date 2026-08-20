@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 172,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why is radiation the only way the Sun's heat can actually reach Earth across empty space?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because conduction works perfectly well through a vacuum",
+            "feedback": "Conduction needs touching matter to pass heat along; a vacuum has none to touch."
+          },
+          {
+            "label": "Because unlike conduction and convection, radiation needs no matter to carry it, only light",
+            "feedback": "Light can cross emptiness that neither touching particles nor a moving fluid could ever bridge."
+          },
+          {
+            "label": "Because convection carries heat fastest of the three",
+            "feedback": "Convection also needs a fluid to move through; empty space has nothing to convect."
+          },
+          {
+            "label": "Because the vacuum between the Sun and Earth secretly contains a thin gas",
+            "feedback": "The space between the two is, for practical purposes, empty."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The one method that needs nothing to lean on.",
+        "ko_title": "Not that",
+        "ko_line": "Ask which of the three ways heat moves can manage without any matter at all.",
+        "exp_title": "The one method that needs nothing to lean on",
+        "exp_text": "Conduction passes heat between touching particles, and convection carries it along with a moving fluid, both demand matter to work through. Radiation instead travels as light itself, requiring nothing between the source and whatever it eventually warms. That is the only one of the three that can cross the emptiness lying between the Sun and Earth."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the top of a tall mountain typically colder than the valley below, even though it sits closer to the Sun?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the mountaintop is shielded from the Sun's rays by nearby peaks",
+            "feedback": "Many mountaintops stand in full, unobstructed sunlight, often brighter than the valley below."
+          },
+          {
+            "label": "Because thinner air holds far less of the heat rising from the ground far below, while being nearer the Sun changes almost nothing",
+            "feedback": "A sliver closer to the Sun, and starved of the ground's usual warming."
+          },
+          {
+            "label": "Because snow at altitude actively creates cold rather than merely reflecting sunlight",
+            "feedback": "Snow doesn't generate cold; it reflects sunlight away rather than absorbing it."
+          },
+          {
+            "label": "Because the Sun's rays weaken noticeably over just a few extra kilometres of climbing",
+            "feedback": "A few kilometres of altitude change is negligible against the Sun's full distance."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Nearer the Sun by a hair, and cut off from the ground's usual warmth.",
+        "ko_title": "Not that",
+        "ko_line": "Ask where most of the air's warmth actually comes from in the first place.",
+        "exp_title": "Warmed from below, not from above",
+        "exp_text": "Most of the air's warmth comes not directly from sunlight passing through it, but from the ground far below soaking up that sunlight and passing the heat upward. Thin mountain air holds far less of that rising warmth than the denser air of a valley, so it cools quickly even in full sun. Climbing a mountain brings you only a sliver closer to the Sun itself, nowhere near enough to make up the difference."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the ground warm up during the day, rather than sunlight heating the air directly as it streams down?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sunlight passes through the mostly transparent air and is absorbed by the ground, which then warms the air above it",
+            "feedback": "The ground does the catching, and the air borrows the warmth afterward."
+          },
+          {
+            "label": "Sunlight is absorbed high in the atmosphere before it can reach the ground",
+            "feedback": "Most visible sunlight passes through the lower atmosphere largely unabsorbed, reaching the ground."
+          },
+          {
+            "label": "The air heats itself through friction as sunlight passes through it",
+            "feedback": "Passing light doesn't create meaningful friction or heat in clear air."
+          },
+          {
+            "label": "The ground reflects sunlight back into space without absorbing any of it",
+            "feedback": "The ground actually absorbs a large share of the sunlight that reaches it, rather than only reflecting it."
+          }
+        ],
+        "ok_title": "Yes",
+        "ok_line": "The ground does the catching, the air does the borrowing.",
+        "ko_title": "Not it",
+        "ko_line": "Ask what happens to sunlight on its way through clear air, and what it meets at the bottom.",
+        "exp_title": "The ground does the catching, the air does the borrowing",
+        "exp_text": "Clear air lets most visible sunlight straight through with little absorption, so it is the ground beneath that actually catches the light and turns it into heat. That warmed ground then passes its heat upward, largely to the air sitting closest to it. Air far from any sunlit ground, like that atop a mountain or high in the sky, is left out of that borrowing and stays cool."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the equator receive noticeably more solar heating than the poles at the very same moment, on the very same day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the equator is measurably closer to the Sun than the poles",
+            "feedback": "Earth's radius is negligible next to its distance from the Sun; the equator isn't meaningfully closer."
+          },
+          {
+            "label": "Because clouds are rarer over the equator than over the poles",
+            "feedback": "Cloud cover varies for its own reasons and isn't the underlying cause of this pattern."
+          },
+          {
+            "label": "Because Earth's curve makes sunlight strike the equator almost straight-on, while it strikes the poles at a shallow slant, spreading over a larger area",
+            "feedback": "The same bundle of light, packed tightly at the equator and stretched thin near the poles."
+          },
+          {
+            "label": "Because the poles rotate more slowly than the equator",
+            "feedback": "Every point on Earth completes one turn in the same day, so rotation speed doesn't set this pattern."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The same sunlight, spread differently by the planet's curve.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what the planet's own curve does to sunlight that lands at different latitudes.",
+        "exp_title": "The same sunlight, spread differently by the planet's curve",
+        "exp_text": "Because Earth is curved, sunlight lands close to head-on near the equator and increasingly sideways as you move toward a pole. The same bundle of light that warms one patch of ground at the equator gets stretched across a far wider patch near the pole, so each square of ground there receives less of it. The curve of the planet, not the distance to the Sun, is what tilts the balance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the sea stay noticeably cooler than the dry sand right next to it on a sunny beach day, even though both are lit by the same sunlight?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the sea reflects almost all sunlight straight back into the sky",
+            "feedback": "Water actually absorbs a large share of the sunlight that hits it, rather than mostly reflecting it."
+          },
+          {
+            "label": "Because water needs far more heat to raise its temperature by the same amount as sand",
+            "feedback": "The sea barely warms under the very sunlight that scorches the sand beside it."
+          },
+          {
+            "label": "Because the sand is a darker colour and water is naturally pale",
+            "feedback": "Colour isn't the deciding factor here; the gap comes from how much heat each material needs to warm up."
+          },
+          {
+            "label": "Because waves constantly bring in cold water from far offshore",
+            "feedback": "The difference shows up even where the water is calm and shallow."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Water is stubborn about warming up.",
+        "ko_title": "Not that",
+        "ko_line": "Ask how much heat it takes to raise a kilogram of water by comparison with a kilogram of sand.",
+        "exp_title": "Some materials are stubborn about warming up",
+        "exp_text": "Raising the temperature of a given amount of water takes far more heat than raising the same mass of sand by the same amount. Under identical sunlight, the sand's temperature climbs quickly while the sea's barely moves, because so much more energy has to be poured into the water before it registers as warmer. Water's slowness to heat up is also why it is slow to cool down again after the Sun sets."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the hottest part of a sunny day usually mid-afternoon rather than midday, when the Sun sits highest overhead?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The ground keeps absorbing more heat than it loses for a while even after midday, so warmth keeps building",
+            "feedback": "The peak in temperature trails behind the peak in sunlight."
+          },
+          {
+            "label": "The Sun is actually more intense in the afternoon than at midday",
+            "feedback": "The Sun's intensity peaks around midday, when it sits highest, not in the afternoon."
+          },
+          {
+            "label": "Afternoon air is thinner and easier to heat",
+            "feedback": "Air thickness doesn't change meaningfully over a few hours in one place."
+          },
+          {
+            "label": "Clouds always clear away by mid-afternoon",
+            "feedback": "Cloud cover on a given day isn't a reliable pattern tied to this daily lag."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Warming outlasts the very peak that caused it.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the ground stops gaining heat the instant sunlight starts to weaken.",
+        "exp_title": "Warming outlasts the peak that caused it",
+        "exp_text": "At midday sunlight is arriving at its strongest, but the ground is still absorbing more heat than it is managing to lose, so its temperature keeps climbing rather than levelling off right then. Only once the incoming sunlight has weakened enough, later in the afternoon, does the balance tip and the ground start losing more heat than it gains. The peak in temperature lands after the peak in sunlight, not alongside it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do clouds cool the ground beneath them, even on an otherwise sunny, bright day?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Clouds absorb sunlight and store it for later",
+            "feedback": "Clouds mostly reflect or scatter incoming light rather than storing it for a later release."
+          },
+          {
+            "label": "Clouds pull heat directly out of the ground below them",
+            "feedback": "Nothing about a cloud reaches down to draw heat from the surface; it only affects the light passing through it."
+          },
+          {
+            "label": "Clouds trap cold air pockets underneath themselves",
+            "feedback": "The cooling here isn't about trapped air pockets, but about how much sunlight is prevented from arriving at all."
+          },
+          {
+            "label": "Clouds reflect a large share of incoming sunlight back into space before it ever reaches the ground",
+            "feedback": "Whatever gets turned away that way never reaches the ground to be absorbed and turned into heat."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Sunlight turned away before it ever lands.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what a cloud's pale top and underside are actually doing to the light hitting them.",
+        "exp_title": "Sunlight turned away before it ever lands",
+        "exp_text": "A cloud's pale top and underside are pale because they are scattering a large fraction of the sunlight hitting them straight back upward, rather than letting it continue on down. Whatever gets turned away that way never reaches the ground to be absorbed and turned into heat there. Thick, bright clouds cool the most simply because they send back the most light."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you feel noticeably warmer standing in direct sunlight than in nearby shade on a cold, clear day, even when a thermometer reads the same air temperature in both spots?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because sunlight actually raises the local air temperature the moment it touches you",
+            "feedback": "The air itself, as the thermometer shows, is not meaningfully warmed in that instant."
+          },
+          {
+            "label": "Because your body produces more of its own heat when lit by the Sun",
+            "feedback": "Your body's own heat production doesn't change just because sunlight lands on you."
+          },
+          {
+            "label": "Because sunlight is directly warming your skin by radiation, on top of whatever heat the air is giving you by contact",
+            "feedback": "A second source of warmth that a thermometer, measuring only the air, never registers."
+          },
+          {
+            "label": "Because shade is always several degrees colder in the air itself",
+            "feedback": "The question already states the air temperature reads the same in both places."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Two kinds of warmth arriving at once, only one of which a thermometer catches.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what is landing on your skin in sunlight that never reaches it in the shade.",
+        "exp_title": "Two kinds of warmth arriving at once",
+        "exp_text": "In the shade, your skin only picks up heat the slow way, by contact with the surrounding air. Standing in direct sunlight adds a second, separate source: sunlight itself is landing on your skin and being absorbed as radiant heat, quite apart from anything the air is doing. A thermometer only measures the air, so it misses the extra warmth your skin is receiving directly from the light."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a dry desert often turn bitterly cold at night, right after a scorching daytime high, while a humid grassland nearby cools far less?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because deserts sit at a greater distance from the Sun after dark",
+            "feedback": "No place on Earth moves farther from the Sun just because night has fallen there."
+          },
+          {
+            "label": "Because dry air lets the ground's heat radiate away into the night sky almost unhindered, while moist air holds much of it back",
+            "feedback": "A blanket of moisture that the desert simply doesn't have."
+          },
+          {
+            "label": "Because sand cools faster than any other material on Earth",
+            "feedback": "It isn't sand's own properties driving this so much as the dryness of the surrounding air."
+          },
+          {
+            "label": "Because deserts always sit at very high altitude",
+            "feedback": "Many deserts are near sea level, so altitude isn't what decides this."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "A blanket of moisture, and its absence.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what humid air does to heat trying to escape upward at night, and what dry air fails to do.",
+        "exp_title": "A blanket of moisture, and its absence",
+        "exp_text": "Once the Sun sets, the ground keeps losing the heat it soaked up during the day by radiating it upward into the sky. Water vapour in humid air catches a good share of that outgoing heat and sends some of it back down, acting like a loose blanket over the ground. Dry desert air holds almost no water vapour to do that job, so the day's heat escapes almost unchecked and the temperature falls steeply."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a strong wind make a sunny winter day feel colder, even though it doesn't lower the actual air temperature shown on a thermometer?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Wind physically drags heat down out of the upper atmosphere",
+            "feedback": "Wind near the ground doesn't reach into the upper atmosphere; it simply moves the nearby air around you."
+          },
+          {
+            "label": "Wind blocks sunlight from reaching your skin",
+            "feedback": "Wind doesn't stand between you and the Sun; sunlight still lands on you just as before."
+          },
+          {
+            "label": "Wind lowers the true air temperature around you",
+            "feedback": "That's exactly what a thermometer shows is unchanged; only how fast heat is pulled from you is affected."
+          },
+          {
+            "label": "Wind sweeps away the thin layer of air your body has warmed and replaces it with fresh cool air, speeding up how fast you lose heat",
+            "feedback": "Your skin keeps giving up warmth instead of settling into a comfortable cushion of air."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "You're losing your borrowed warmth faster, not sitting in colder air.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what a thin layer of air right against your skin normally does for you, and what wind does to it.",
+        "exp_title": "Losing your borrowed warmth faster",
+        "exp_text": "Still air right against your skin picks up some of your warmth and, once warmed, slows further heat loss simply by sitting there. Wind constantly clears that warmed layer away and replaces it with fresh cool air, so your skin keeps giving up heat instead of settling into a comfortable cushion. The thermometer reports the air's own temperature, but your skin is reporting how fast it is being drained of the Sun's warmth and its own."
+      }
+    ]
+  }
+]

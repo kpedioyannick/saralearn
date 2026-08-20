@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 206,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Which bird travels the longest distance each year?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Arctic tern",
+            "feedback": "Pole to pole and back, around 70,000 km a year."
+          },
+          {
+            "label": "The swallow",
+            "feedback": "Europe to southern Africa — long, but a third of that."
+          },
+          {
+            "label": "The albatross",
+            "feedback": "It circles the Southern Ocean without crossing the world."
+          },
+          {
+            "label": "The Canada goose",
+            "feedback": "Its route stays within one continent."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "It chases summer from one end of the world to the other.",
+        "ko_title": "Not that one.",
+        "ko_line": "Look for the bird that breeds at one pole and winters at the other.",
+        "exp_title": "Two summers, every year",
+        "exp_text": "The Arctic tern breeds in the far north, then flies to Antarctic waters for the southern summer and comes back. Tracked birds cover around 70,000 km a year, and one Icelandic tern logged 96,000. Over a life of thirty years that is roughly three return trips to the Moon. Because it follows the light in both directions, it sees more daylight than any other animal alive."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do birds migrate?",
+        "body": null,
+        "options": [
+          {
+            "label": "They follow the food supply",
+            "feedback": "Insects vanish in winter long before the cold kills."
+          },
+          {
+            "label": "They cannot survive the cold",
+            "feedback": "Feathers handle far worse than a European winter."
+          },
+          {
+            "label": "The shorter days harm their eyes",
+            "feedback": "Day length triggers the urge, but does no damage."
+          },
+          {
+            "label": "They must return to where they hatched",
+            "feedback": "Many do, but that explains the route, not the journey."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Hunger drives it, not cold.",
+        "ko_title": "Not so.",
+        "ko_line": "A goldcrest weighs five grams and winters in Scandinavia. So cold is not the answer.",
+        "exp_title": "The food goes, not the warmth",
+        "exp_text": "Feathers insulate well enough that cold alone rarely drives a bird away — a goldcrest weighing five grams stays through a Scandinavian winter. What disappears is food. Insect-eaters have nothing left by November and must leave; seed-eaters often stay. The far north is worth the journey because its brief summer is extravagant: endless daylight, insects everywhere, and few resident competitors."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What do migrating birds burn as fuel?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fat",
+            "feedback": "Nothing else stores so much energy per gram."
+          },
+          {
+            "label": "Sugar in the blood",
+            "feedback": "It is used within minutes, not over an ocean."
+          },
+          {
+            "label": "Muscle protein",
+            "feedback": "A bird burns muscle only when the fat is gone."
+          },
+          {
+            "label": "Stored water",
+            "feedback": "Water carries no energy at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Twice the energy of anything else the body can store.",
+        "ko_title": "Not it.",
+        "ko_line": "Think about which fuel packs the most energy into the least weight.",
+        "exp_title": "Doubling in weight before departure",
+        "exp_text": "Fat yields about twice the energy per gram of protein or sugar, which matters when every gram must be carried. Before a long crossing a bird gorges and can nearly double its weight, some species turning almost half their mass to fat. The organs shift too: gut and liver shrink to save weight while flight muscles and heart grow, then the whole arrangement reverses on arrival."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which bird holds the record for the longest flight without landing?",
+        "body": null,
+        "options": [
+          {
+            "label": "The bar-tailed godwit",
+            "feedback": "Alaska to New Zealand, eleven days over open ocean."
+          },
+          {
+            "label": "The homing pigeon",
+            "feedback": "Fast over land, but it lands to feed."
+          },
+          {
+            "label": "The peregrine falcon",
+            "feedback": "The fastest diver alive, and no distance flier."
+          },
+          {
+            "label": "The wandering albatross",
+            "feedback": "It covers vast distances, but settles on the sea to feed."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly.",
+        "ok_line": "Eleven days aloft with nowhere to stop and nothing to eat.",
+        "ko_title": "No.",
+        "ko_line": "The record belongs to a wading bird crossing the Pacific.",
+        "exp_title": "Eleven days over open water",
+        "exp_text": "A tagged bar-tailed godwit flew from Alaska to New Zealand — about 13,000 km — in eleven days without once landing, feeding or drinking. There is no land on that route, so stopping is not an option: the bird either arrives or it does not. It leaves having doubled its weight in fat and arrives close to half of it. Half the brain sleeps at a time while the other half keeps flying."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a night-migrating bird find its direction?",
+        "body": null,
+        "options": [
+          {
+            "label": "By the stars and the Earth's magnetism",
+            "feedback": "It reads the sky's rotation and senses the field itself."
+          },
+          {
+            "label": "By following the coastline below",
+            "feedback": "Many routes cross open ocean with no coast in sight."
+          },
+          {
+            "label": "By calling to birds ahead",
+            "feedback": "Calls keep a flock together; they do not set the course."
+          },
+          {
+            "label": "By the warmth rising from the ground",
+            "feedback": "Rising air lifts a bird; it points nowhere."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Both together.",
+        "ok_line": "A star compass and a magnetic one, checked against each other.",
+        "ko_title": "Not that.",
+        "ko_line": "The bird crosses an ocean in the dark. What is left to steer by?",
+        "exp_title": "Two compasses, cross-checked",
+        "exp_text": "Young birds in a planetarium orient to a projected sky, and reverse when the projection reverses — they read the point the stars turn around, not any single star. They also sense the magnetic field, apparently through a light-sensitive protein in the eye that may let them see it as a pattern laid over their vision. The two are checked against one another, and a bird recalibrates its magnetic sense at sunset."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a young bird find its way the first time it migrates alone?",
+        "body": null,
+        "options": [
+          {
+            "label": "It inherits a direction and a duration",
+            "feedback": "Fly this heading for this long, and you arrive."
+          },
+          {
+            "label": "It follows the adults of its flock",
+            "feedback": "In many species the adults leave weeks earlier."
+          },
+          {
+            "label": "It searches until it finds warm weather",
+            "feedback": "Random searching would not cross an ocean."
+          },
+          {
+            "label": "It follows scent carried on the wind",
+            "feedback": "A few seabirds use smell. Songbirds do not."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The route is not taught. It is inherited as a heading and a clock.",
+        "ko_title": "Not it.",
+        "ko_line": "Many young birds leave after the adults have already gone.",
+        "exp_title": "A heading and a clock, both inherited",
+        "exp_text": "Young cuckoos never meet their parents and still reach Africa. Experiments with warblers showed why: each carries an inherited compass heading and an inherited sense of how long to hold it. Cross two populations with different routes and the young fly an intermediate heading, landing nowhere useful. Displace a young bird sideways and it keeps the original heading, missing the target; an adult, which has learnt the map, corrects."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is a stopover site?",
+        "body": null,
+        "options": [
+          {
+            "label": "A place to rest and feed on the way",
+            "feedback": "Birds land, refuel for days, then continue."
+          },
+          {
+            "label": "The place a bird spends the winter",
+            "feedback": "That is the wintering ground, at the journey's end."
+          },
+          {
+            "label": "The point where a flock forms up",
+            "feedback": "Flocks gather at the start, not partway."
+          },
+          {
+            "label": "A shelter used during a storm",
+            "feedback": "Birds do shelter, but a stopover is planned."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "A fuel stop, and the whole journey depends on it.",
+        "ko_title": "Almost.",
+        "ko_line": "It sits in the middle of the route, not at either end.",
+        "exp_title": "A few marshes hold up a whole flyway",
+        "exp_text": "Most migrants travel in stages, landing to refuel for days or weeks. A handful of these sites carry enormous traffic: the Wadden Sea, Delaware Bay, the Yellow Sea. Because the birds arrive nearly out of fuel and must regain it fast, a stopover cannot be replaced by another place further on. Drain one marsh and the birds do not divert — the population that depended on it falls."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which bird crosses the Himalayas at heights where a climber can barely move?",
+        "body": null,
+        "options": [
+          {
+            "label": "The bar-headed goose",
+            "feedback": "Recorded above 7,000 m, flapping in air holding a third of the oxygen."
+          },
+          {
+            "label": "The golden eagle",
+            "feedback": "It soars high, but it does not cross the range."
+          },
+          {
+            "label": "The snow petrel",
+            "feedback": "It nests high in Antarctica, not in Asia."
+          },
+          {
+            "label": "The Alpine swift",
+            "feedback": "It stays airborne for months, and much lower down."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Flapping hard, in air a climber could not stand up in.",
+        "ko_title": "Not that one.",
+        "ko_line": "The bird is a goose, and it does the crossing twice a year.",
+        "exp_title": "Over the roof of the world",
+        "exp_text": "Bar-headed geese cross the Himalayas between Central Asia and India, tracked above 7,000 m. At that height the air holds around a third of the oxygen at sea level, and they are not gliding but flapping — the hardest work a bird does. Their blood takes up oxygen unusually readily, their lungs are dense with capillaries, and the one-way airflow through a bird's lung does the rest. They tend to hug the terrain, climbing in the thicker air of the valleys."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do many small birds migrate at night?",
+        "body": null,
+        "options": [
+          {
+            "label": "The air is cooler and calmer",
+            "feedback": "Less turbulence, less overheating, fewer hunters about."
+          },
+          {
+            "label": "They see better in the dark",
+            "feedback": "Songbirds see poorly at night, like us."
+          },
+          {
+            "label": "The wind always blows their way",
+            "feedback": "Night wind is calmer, but it has no fixed direction."
+          },
+          {
+            "label": "They cannot navigate by daylight",
+            "feedback": "Day migrants steer perfectly well by the sun."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Cool, still air, and the hawks are asleep.",
+        "ko_title": "Not it.",
+        "ko_line": "Think about what flying by day would cost a small bird.",
+        "exp_title": "Cool air, and no hawks",
+        "exp_text": "Flying generates a great deal of heat, and a bird cannot sweat. Night air is cooler and far less turbulent, so the same distance costs less. Daytime hunters are inactive, and the day is left free for feeding — a bird that flew all night can spend the morning refuelling. Radar shows the scale of it: on a good autumn night, millions of birds cross a country while everyone below is asleep."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What tells a bird that the time to leave has come?",
+        "body": null,
+        "options": [
+          {
+            "label": "The changing length of the day",
+            "feedback": "A reliable clock, unlike weather, which varies."
+          },
+          {
+            "label": "The first hard frost",
+            "feedback": "Many leave in warm weather, weeks before any frost."
+          },
+          {
+            "label": "Food becoming scarce",
+            "feedback": "Birds often go while food is still plentiful."
+          },
+          {
+            "label": "The departure of other species",
+            "feedback": "Each species keeps its own schedule."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Day length never lies, and it never varies from year to year.",
+        "ko_title": "Not so.",
+        "ko_line": "Swifts leave in August, in fine weather, with insects everywhere.",
+        "exp_title": "The one signal that cannot mislead",
+        "exp_text": "Weather and food supply swing from year to year; day length does not. Birds measure it and it triggers a cascade — fat is laid down, the gut shrinks, and a restlessness sets in that caged birds show by fluttering towards the direction they would fly. Held under artificial daylight, a bird will prepare in the wrong season. It is why swifts leave in August with the sky still full of insects."
+      }
+    ]
+  }
+]

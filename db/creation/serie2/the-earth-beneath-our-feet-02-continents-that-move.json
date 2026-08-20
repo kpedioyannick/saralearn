@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 229,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the three main layers of Earth, from the outside inward?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Crust, mantle, core",
+            "feedback": "Yes, the crust is the thin outer shell, the mantle is the thick middle layer, and the core is the central sphere."
+          },
+          {
+            "label": "Core, mantle, crust",
+            "feedback": "That is the order from the inside out, but the question asks for the order from the outside in."
+          },
+          {
+            "label": "Crust, core, mantle",
+            "feedback": "The mantle lies between the crust and the core, not the core between the crust and the mantle."
+          },
+          {
+            "label": "Mantle, crust, core",
+            "feedback": "The crust is the outermost layer, so it must come first when listing from outside inward."
+          }
+        ],
+        "ok_title": "Earth's three layers",
+        "ok_line": "The crust, mantle, and core stack up from outside to inside.",
+        "ko_title": "Layer order wrong",
+        "ko_line": "Remember the outside layer comes first.",
+        "exp_title": "Layer arrangement",
+        "exp_text": "Earth's layers are the crust, the mantle, and the core. The crust is the thin rocky surface, the mantle is the thick layer of solid rock that can flow very slowly, and the core is the dense metallic center."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the theory that states Earth's outer shell is broken into plates that move?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Continental drift",
+            "feedback": "Continental drift is the older idea that continents move across the ocean floor, but the modern theory includes the ocean floor moving too, so it is called plate tectonics."
+          },
+          {
+            "label": "Plate tectonics",
+            "feedback": "Correct, plate tectonics is the theory that describes Earth's lithosphere as divided into moving plates."
+          },
+          {
+            "label": "Seafloor spreading",
+            "feedback": "Seafloor spreading is one process that happens along mid-ocean ridges, not the overarching theory about all plate movement."
+          },
+          {
+            "label": "Subduction",
+            "feedback": "Subduction is the process where one plate sinks beneath another, not the name of the theory explaining plate motion overall."
+          }
+        ],
+        "ok_title": "Plate motion theory",
+        "ok_line": "Plate tectonics is the name of the moving plates theory.",
+        "ko_title": "Theory name mix-up",
+        "ko_line": "The full theory includes seafloor and continents.",
+        "exp_title": "Theory of plate tectonics",
+        "exp_text": "Plate tectonics is the theory that Earth's lithosphere is divided into several rigid plates that move over the softer asthenosphere. It explains continental drift, seafloor spreading, earthquakes, and volcanoes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the boundary where two plates slide past each other horizontally?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Divergent boundary",
+            "feedback": "At a divergent boundary plates move apart, not slide sideways past each other."
+          },
+          {
+            "label": "Convergent boundary",
+            "feedback": "At a convergent boundary plates move toward each other, not past each other."
+          },
+          {
+            "label": "Transform boundary",
+            "feedback": "Correct, a transform boundary is where plates slide horizontally past one another."
+          },
+          {
+            "label": "Subduction zone",
+            "feedback": "A subduction zone is a type of convergent boundary where one plate goes under another, not a sideways slide."
+          }
+        ],
+        "ok_title": "Sliding plate boundary",
+        "ok_line": "Transform boundaries are where plates slide past.",
+        "ko_title": "Boundary type wrong",
+        "ko_line": "Movements apart, together, or alongside have different names.",
+        "exp_title": "Transform boundaries",
+        "exp_text": "At a transform boundary, two plates grind past each other horizontally, neither creating nor destroying crust. The San Andreas Fault is a famous example."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the dense, solid rock layer that makes up the uppermost part of the mantle and is attached to the crust?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Asthenosphere",
+            "feedback": "The asthenosphere is the partly molten, weak layer below the rigid l, not the rigid layer itself."
+          },
+          {
+            "label": "Outer core",
+            "feedback": "The outer core is liquid iron and nickel, much deeper than the uppermost mantle."
+          },
+          {
+            "label": "Inner core",
+            "feedback": "The inner core is the solid center of Earth, far below the mantle."
+          },
+          {
+            "label": "Lithosphere",
+            "feedback": "Correct, the lithosphere includes the crust and the solid uppermost mantle, moving together as plates."
+          }
+        ],
+        "ok_title": "Rigid outer layer",
+        "ok_line": "The lithosphere is the rigid shell that moves.",
+        "ko_title": "Layer name confusion",
+        "ko_line": "The lithosphere is above the asthenosphere.",
+        "exp_title": "Lithosphere definition",
+        "exp_text": "The lithosphere is Earth's rigid outer shell, about 100 km thick, made of the crust and the solid top of the mantle. It is what breaks into plates that move."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the process by which new oceanic crust is created at mid-ocean ridges?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Seafloor spreading",
+            "feedback": "Correct, seafloor spreading is when magma rises at the ridge, cools, and forms new crust that pushes older crust away."
+          },
+          {
+            "label": "Subduction",
+            "feedback": "Subduction is the sinking of one plate under another, not the creation of new crust."
+          },
+          {
+            "label": "Continental drift",
+            "feedback": "Continental drift is the movement of continents, not the specific creation of new seafloor."
+          },
+          {
+            "label": "Rifting",
+            "feedback": "Rifting refers to the splitting of a continent, not the formation of new oceanic crust at a ridge."
+          }
+        ],
+        "ok_title": "New seafloor creation",
+        "ok_line": "Seafloor spreading makes new oceanic crust.",
+        "ko_title": "Process name error",
+        "ko_line": "Spreading creates, subduction destroys.",
+        "exp_title": "Seafloor spreading",
+        "exp_text": "At mid-ocean ridges, plates pull apart and molten rock rises to fill the gap, cooling into new oceanic crust. This process continuously adds to the ocean floor and pushes older crust sideways."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the process where one plate slides beneath another and sinks into the mantle?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Seafloor spreading",
+            "feedback": "Seafloor spreading happens at divergent boundaries, where plates move apart, not where one sinks below another."
+          },
+          {
+            "label": "Subduction",
+            "feedback": "Correct, subduction is when a denser plate descends under another plate into the mantle."
+          },
+          {
+            "label": "Transform faulting",
+            "feedback": "Transform faulting is horizontal sliding, not vertical sinking."
+          },
+          {
+            "label": "Accretion",
+            "feedback": "Accretion is the adding of material to a plate, not the sinking of one plate under another."
+          }
+        ],
+        "ok_title": "Plate sinking process",
+        "ok_line": "Subduction is when a plate goes under.",
+        "ko_title": "Process name wrong",
+        "ko_line": "Sinking is subduction, not spreading.",
+        "exp_title": "Subduction",
+        "exp_text": "Subduction occurs at convergent boundaries where a denser oceanic plate dives beneath a lighter plate, such as a continental plate or another oceanic plate. This process recycles crust back into the mantle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of geological feature typically forms at a convergent boundary where two continental plates collide?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Mid-ocean ridge",
+            "feedback": "A mid-ocean ridge forms at divergent boundaries where plates pull apart, not at a continental collision."
+          },
+          {
+            "label": "Deep-ocean trench",
+            "feedback": "A deep-ocean trench forms where an oceanic plate subducts, not where two continental plates collide."
+          },
+          {
+            "label": "Mountain range",
+            "feedback": "Correct, when two continents collide, the crust crumples and folds upward to form mountain ranges like the Himalayas."
+          },
+          {
+            "label": "Volcanic island arc",
+            "feedback": "Volcanic island arcs form when an oceanic plate subducts under another oceanic plate, not from continental collision."
+          }
+        ],
+        "ok_title": "Continental collision result",
+        "ok_line": "Colliding continents push up mountains.",
+        "ko_title": "Feature mismatch",
+        "ko_line": "Oceanic subduction gives trenches, not mountains.",
+        "exp_title": "Mountain building",
+        "exp_text": "When two continental plates converge, neither sinks easily because both are buoyant, so the crust thickens and folds, raising tall mountain belts. The Himalayas are a classic example, formed by the collision of India and Asia."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the relatively soft layer of the upper mantle on which the lithospheric plates move?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Asthenosphere",
+            "feedback": "Correct, the asthenosphere is the hot, partially molten, weak layer that allows the lithosphere to slide over it."
+          },
+          {
+            "label": "Lithosphere",
+            "feedback": "The lithosphere is the rigid layer that moves, not the soft layer it moves on."
+          },
+          {
+            "label": "Mesosphere",
+            "feedback": "The mesosphere is the lower mantle below the asthenosphere, more rigid but still solid."
+          },
+          {
+            "label": "Outer core",
+            "feedback": "The outer core is liquid metal, far below the mantle, not the layer under the plates."
+          }
+        ],
+        "ok_title": "Layer plates slide on",
+        "ok_line": "The asthenosphere is the soft layer below plates.",
+        "ko_title": "Layer confusion",
+        "ko_line": "Plates are lithosphere; they slide on asthenosphere.",
+        "exp_title": "Asthenosphere",
+        "exp_text": "The asthenosphere is a layer of the upper mantle that is hot enough to flow slowly, though it is mostly solid. This allows the rigid lithospheric plates above it to move slowly across Earth's surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the type of boundary where two plates move directly away from each other?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Convergent boundary",
+            "feedback": "Convergent boundaries are where plates move toward each other, not away."
+          },
+          {
+            "label": "Transform boundary",
+            "feedback": "Transform boundaries are where plates slide past each other, not move apart."
+          },
+          {
+            "label": "Subduction zone",
+            "feedback": "A subduction zone is a specific type of convergent boundary, not a divergent one."
+          },
+          {
+            "label": "Divergent boundary",
+            "feedback": "Correct, a divergent boundary is where plates pull apart, allowing new crust to form."
+          }
+        ],
+        "ok_title": "Plates moving apart",
+        "ok_line": "Divergent boundaries are where plates separate.",
+        "ko_title": "Boundary type error",
+        "ko_line": "Apart is divergent, together is convergent.",
+        "exp_title": "Divergent boundaries",
+        "exp_text": "At divergent boundaries, tectonic plates move apart from one another. This occurs at mid-ocean ridges, where magma rises to fill the gap and forms new oceanic crust, and at continental rifts, where continents split apart."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the supercontinent that existed about 250 million years ago, when all continents were joined together?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Gondwana",
+            "feedback": "Gondwana was a southern supercontinent that included parts of today's continents, but it was not the single landmass that included everything."
+          },
+          {
+            "label": "Pangaea",
+            "feedback": "Correct, Pangaea was the supercontinent that included all of Earth's landmasses before they drifted apart."
+          },
+          {
+            "label": "Laurasia",
+            "feedback": "Laurasia was the northern part of Pangaea after it split, not the full supercontinent."
+          },
+          {
+            "label": "Rodinia",
+            "feedback": "Rodinia was an earlier supercontinent that existed over a billion years ago, not 250 million years ago."
+          }
+        ],
+        "ok_title": "Ancient supercontinent",
+        "ok_line": "Pangaea was the single landmass long ago.",
+        "ko_title": "Supercontinent mix-up",
+        "ko_line": "Pangaea is the one that had all continents.",
+        "exp_title": "Pangaea",
+        "exp_text": "Pangaea was a supercontinent that assembled about 300 million years ago and began to break apart around 200 million years ago. Its pieces drifted to form today's continents, as seen by matching coastlines and fossils."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 178,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the ocean bulge outward on the side of Earth facing the Moon?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the Moon's gravity pushes water away from itself",
+            "feedback": "Gravity is a pull, never a push. A push could not explain the second bulge that forms on the far side of Earth as well."
+          },
+          {
+            "label": "Because the Moon's gravity pulls a little harder on the near side of Earth than on the far side, and hardest of all on the free-flowing ocean water closest to it",
+            "feedback": "That small difference in pull across Earth's width is exactly what stretches the free-flowing ocean into a bulge."
+          },
+          {
+            "label": "Because the Moon heats the ocean water on that side",
+            "feedback": "The Moon only reflects a small, steady trickle of sunlight; it has no heating effect capable of shifting whole oceans."
+          },
+          {
+            "label": "Because Earth's rotation flings water towards the Moon",
+            "feedback": "Earth's spin flings things outward from its own axis in every direction at once, not specifically towards wherever the Moon happens to be."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Pulled unevenly",
+        "ok_line": "Nearest water feels the strongest tug, and that's the bulge.",
+        "ko_title": "A pull, never a push",
+        "ko_line": "Whatever raises the bulge has to be something reaching out and pulling, not heat and not a shove.",
+        "exp_title": "A stronger pull on the near side",
+        "exp_text": "Gravity grows weaker with distance, so the Moon pulls slightly harder on whatever is closest to it than on whatever is farther away. Solid Earth resists this small difference and holds its shape, but the ocean is free to flow, and the water nearest the Moon gets tugged into a bulge that reaches a little further towards it than the rest of the sea. That bulge of piled-up water is what a coastline feels as high tide."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a coastline typically get two high tides a day rather than just one, when the Moon only pulls from one direction?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the Moon actually orbits Earth twice a day",
+            "feedback": "The Moon takes about a month to complete one orbit, far too slow on its own to produce two daily cycles."
+          },
+          {
+            "label": "Because the Sun creates one tide and the Moon creates the other",
+            "feedback": "Both bulges come from the same body, the Moon. The Sun only makes tides bigger or smaller depending on its alignment with the Moon; it doesn't raise a separate bulge of its own."
+          },
+          {
+            "label": "Because Earth wobbles on its axis twice a day",
+            "feedback": "Earth's axis doesn't wobble on that fast a timescale. The two bulges come from how the Moon's pull differs across Earth's width, not from any wobble."
+          },
+          {
+            "label": "Because the Moon pulls hardest on the near-side ocean, weaker on the solid Earth in between, and weakest of all on the far-side ocean, which effectively gets left behind into its own bulge",
+            "feedback": "That three-way difference in pull is exactly what produces a bulge on both the near side and the far side at once."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Left behind, twice",
+        "ok_line": "One bulge pulled towards the Moon, one bulge left behind on the far side — both are real.",
+        "ko_title": "One Moon, one mechanism",
+        "ko_line": "Both bulges come from the very same pull; look for how that single pull can act differently on three different distances.",
+        "exp_title": "A near bulge and a lagging bulge",
+        "exp_text": "The Moon's pull is strongest on the near-side ocean, a little weaker on the solid Earth in the middle, and weaker still on the far-side ocean. Because the solid Earth gets tugged towards the Moon more than the far water does, that far water effectively falls behind and piles up into a second bulge on the opposite side of the planet. As Earth spins underneath these two fixed bulges once a day, most coastlines pass through both of them, which is why two high tides show up in a single day."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does high tide arrive at a given coastline roughly an hour later each day rather than at the same clock time?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the tidal bulges follow the Moon's position, and the Moon itself rises later each day as it moves along its own orbit",
+            "feedback": "The tides simply keep pace with a Moon whose own daily rising time is itself slipping later."
+          },
+          {
+            "label": "Because the ocean gradually loses energy each day",
+            "feedback": "The oceans don't run out of energy overnight. The timing shift is regular and predictable, tracking something that moves on a steady schedule."
+          },
+          {
+            "label": "Because the tides follow the Sun, which sets at a slightly different time each day",
+            "feedback": "Sunset times drift with the seasons over months, not by a steady amount every single day. The tides' daily shift instead tracks the Moon."
+          },
+          {
+            "label": "Because Earth's rotation speed changes slightly overnight",
+            "feedback": "Earth's rotation stays extremely steady from one day to the next; nothing about it changes fast enough to shift tide times by a full hour daily."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Following the Moon's clock",
+        "ok_line": "The tide keeps the Moon's schedule, and the Moon's schedule runs a little behind the Sun's each day.",
+        "ko_title": "Not the Sun, not fatigue",
+        "ko_line": "The daily shift belongs to whichever object the bulges are chasing — and that object isn't the Sun.",
+        "exp_title": "Chasing a slightly late Moon",
+        "exp_text": "The tidal bulges stay aligned with wherever the Moon currently is, not with a fixed point on the clock. Because the Moon takes a little longer than a full day to return to the same spot in the sky, it rises a bit later each day, and the bulges that track it fall a bit later too. High tide simply keeps pace with a Moon that is itself running a little behind the day before."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What causes 'spring tides', the especially large swing between high and low water that happens twice a month?",
+        "body": null,
+        "options": [
+          {
+            "label": "They only happen in the spring season",
+            "feedback": "Despite the name, they occur roughly every two weeks all year round. The name refers to water 'springing up', not the season."
+          },
+          {
+            "label": "The Moon moves unusually close to Earth on those days",
+            "feedback": "The Moon's distance changes slowly across its orbit and isn't tied to this twice-a-month schedule; alignment, not distance, drives the pattern."
+          },
+          {
+            "label": "The Sun and Moon lining up with Earth, at new moon and full moon, so their pulls combine into one stronger bulge",
+            "feedback": "That lining up of the Sun and Moon is exactly what lets their two pulls reinforce each other instead of working apart."
+          },
+          {
+            "label": "Ocean currents pile up extra water only twice a month",
+            "feedback": "Currents move water around constantly; they don't have a switch that turns on only twice a month. The regular timing instead comes from the Sun and Moon's changing alignment."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Two pulls, one direction",
+        "ok_line": "Sun and Moon lined up in a row means their bulges stack rather than compete.",
+        "ko_title": "Not the season, not distance",
+        "ko_line": "The name is misleading — think about where the Sun and Moon sit relative to Earth, not what month it is.",
+        "exp_title": "When two pulls add together",
+        "exp_text": "At new moon and full moon, the Sun, Earth and Moon fall roughly into a straight line, so the tidal pull of the Sun lines up with the tidal pull of the Moon instead of working against it. With both bulges reinforcing each other, high tide climbs a little higher and low tide drops a little lower than usual. That extra swing between high and low is what gets called a spring tide, and it returns every time the alignment repeats."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What causes 'neap tides', the unusually small swing between high and low water that happens twice a month?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Moon moves unusually far from Earth on those days",
+            "feedback": "Distance changes gradually across the whole orbit; the twice-monthly neap pattern instead follows the changing angle between the Sun and Moon, not distance."
+          },
+          {
+            "label": "The Sun and Moon pulling from roughly right angles to each other, around the first and last quarter moon, so their bulges partly cancel out",
+            "feedback": "That right-angle arrangement is exactly what lets the Sun's pull work against the Moon's instead of adding to it."
+          },
+          {
+            "label": "The Sun's gravity switches off briefly",
+            "feedback": "The Sun's pull never switches off. It simply acts at an angle to the Moon's pull instead of adding to it directly."
+          },
+          {
+            "label": "Cold water sinks and reduces the tidal range",
+            "feedback": "Water temperature has no bearing on how far gravity can stretch the ocean into a bulge. The smaller range comes from the alignment of the Sun and Moon, not water density."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Two pulls, working across each other",
+        "ok_line": "Sun and Moon at right angles means one bulge fills in where the other would empty.",
+        "ko_title": "Not distance, not temperature",
+        "ko_line": "The pattern follows the angle between the Sun and Moon, not how far away either one is or how cold the water gets.",
+        "exp_title": "When two pulls partly cancel",
+        "exp_text": "Around the first and last quarter moon, the line from Earth to the Sun sits roughly at a right angle to the line from Earth to the Moon, so their two tidal bulges no longer point the same way. Where the Moon's pull is raising a bulge, the Sun's pull is instead raising a bulge somewhere off to the side, and the two partly work against each other rather than adding up. The result is a smaller difference between high and low water than on an ordinary day."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "The Sun's gravity pulls on Earth far more strongly overall than the Moon's does. So why does the Moon dominate the tides?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Sun's gravity doesn't reach the ocean, only the Moon's does",
+            "feedback": "The Sun's gravity holds the entire Earth in orbit; it certainly reaches the oceans too. What differs is how much that pull varies from one side of Earth to the other."
+          },
+          {
+            "label": "The Moon is actually more massive than the Sun",
+            "feedback": "The Sun's mass is enormously greater than the Moon's. Total mass is not what decides which one shapes the tides more."
+          },
+          {
+            "label": "Tides respond only to the nearest large body regardless of its pull",
+            "feedback": "It isn't a simple rule of 'nearest wins'; it's that the tide-raising effect depends specifically on how sharply gravity changes over a short distance, which favours a close body over a merely massive one."
+          },
+          {
+            "label": "Tides depend on the difference in pull across Earth's width, not on the total pull, and that difference shrinks fast with distance — so the much closer Moon wins out over the far more distant Sun",
+            "feedback": "That difference-across-a-distance is exactly the quantity that decides tides, and it favours nearness over sheer mass."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Nearness beats mass",
+        "ok_line": "What matters is how much the pull changes across Earth, and that favours the closer Moon.",
+        "ko_title": "Not blocked, not less massive",
+        "ko_line": "The Sun's gravity reaches the oceans easily, and it is still vastly more massive than the Moon — the answer lies elsewhere.",
+        "exp_title": "Steepness, not strength",
+        "exp_text": "A tide is raised by the difference in pull between the near side of Earth and the far side, not by the overall strength of the pull on Earth as a whole. Gravity's pull weakens quickly with distance, so that difference shrinks fast for something very far away, however massive it is, and shrinks much less for something nearby, however small it is by comparison. The Moon's closeness lets it produce a steeper difference across Earth's width than the far more distant Sun manages, which is why the Moon leads the tides."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Does the Moon's gravity have any effect on the solid ground of Earth, or only on the ocean?",
+        "body": null,
+        "options": [
+          {
+            "label": "It affects solid ground too, flexing it very slightly, but the effect is far less visible than in water because rock is rigid and doesn't visibly pool or flow the way water does",
+            "feedback": "That resistance to flowing, not any absence of pull, is exactly why the same stretching effect is so much harder to notice in rock than in water."
+          },
+          {
+            "label": "It has no effect at all on solid rock, only on liquid water",
+            "feedback": "The Moon's gravity pulls on every part of Earth, including solid rock, which does flex by a small amount; it's simply too rigid to show it the way flowing water does."
+          },
+          {
+            "label": "It affects solid ground more strongly than water",
+            "feedback": "The stretching effect acts on all of Earth's mass fairly evenly. What makes water's response so visible is that it's free to flow and pile up, not that it's pulled harder."
+          },
+          {
+            "label": "It only affects ground located directly beneath the Moon",
+            "feedback": "Just like the ocean, the solid Earth is stretched between a near-side bulge and a far-side bulge, not just at a single point beneath the Moon."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "It flexes too",
+        "ok_line": "Solid rock feels the same pull — it just can't pile up the way water does.",
+        "ko_title": "Not zero, not stronger, not one spot",
+        "ko_line": "The Moon's pull reaches all of Earth's mass in the same stretching pattern already seen in the ocean.",
+        "exp_title": "The same stretch, a stiffer material",
+        "exp_text": "The Moon's gravity pulls on every part of Earth, not only on the ocean, stretching the solid body between a bulge on the near side and a bulge on the far side just as it does with water. Rock resists that stretch far more than water does, so the ground rises and falls by a tiny, usually imperceptible amount instead of visibly pooling into tides. Water simply makes the very same stretching effect obvious, because it is free to flow to wherever that stretch pulls it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does the Moon's tidal pull on Earth have to do with the fact that the Moon is very slowly moving farther from Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "The two effects are unrelated coincidences",
+            "feedback": "They come from the very same tidal bulge; the bulge dragged forward by Earth's spin is exactly what nudges the Moon outward."
+          },
+          {
+            "label": "The Moon is moving away because Earth's gravity is weakening",
+            "feedback": "Earth's gravity isn't weakening. The outward drift comes from a steady tug from the tidal bulge, not any loss of pulling strength."
+          },
+          {
+            "label": "Earth's faster spin drags the tidal bulge slightly ahead of the Moon, and that bulge's extra pull tugs the Moon forward, gradually pushing it into a slightly wider orbit",
+            "feedback": "That forward tug from the dragged-ahead bulge is exactly what nudges the Moon into an ever so slightly wider orbit over time."
+          },
+          {
+            "label": "Ocean water pushes the Moon away as the tides rise and fall",
+            "feedback": "Water itself has far too little mass to shove the Moon anywhere. What acts on the Moon is the gravity of the whole bulge of mass, not a physical push from waves."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A bulge that leans forward",
+        "ok_line": "Earth's spin drags the bulge ahead of the Moon, and the bulge tugs right back.",
+        "ko_title": "Same cause, not a coincidence",
+        "ko_line": "Trace both effects back to the one bulge that Earth's rotation keeps dragging out of position.",
+        "exp_title": "A forward tug from a dragged bulge",
+        "exp_text": "Earth spins faster than the Moon orbits, so Earth's rotation keeps carrying the near-side tidal bulge slightly ahead of the point directly beneath the Moon before gravity can pull it back into line. That forward-leaning bulge has its own gravity, and it tugs the Moon slightly forward along its orbit instead of straight down towards Earth. A steady forward tug on an orbiting body pushes it into a wider orbit over time, which is why the Moon keeps drifting very gradually farther away."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do narrow, funnel-shaped bays often see a much bigger difference between high and low tide than the open ocean nearby?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Moon's gravity is stronger over narrow bays",
+            "feedback": "The Moon's pull doesn't change because of the shape of a coastline. The same pull acts on a wide open sea and a narrow bay alike."
+          },
+          {
+            "label": "The same volume of water moving with the tide gets squeezed into an ever-narrower space as the bay tapers, forcing the water level to rise higher than it would in the open sea",
+            "feedback": "That squeezing of the same volume into less room is exactly what forces the water level up higher in a narrowing bay."
+          },
+          {
+            "label": "Narrow bays are always closer to the equator",
+            "feedback": "Bays with large tidal ranges exist at many latitudes, not just near the equator. The shape of the bay is what matters, not where it sits on the globe."
+          },
+          {
+            "label": "Bays have shallower water, which blocks the tide entirely",
+            "feedback": "Shallow water doesn't block a tide; here it does the opposite. Funnelled shallow water is squeezed and pushed higher rather than held back."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Squeezed, not pulled harder",
+        "ok_line": "Same water, smaller space — the level has nowhere to go but up.",
+        "ko_title": "Not stronger gravity, not latitude",
+        "ko_line": "The Moon's pull doesn't care about coastline shape; think about what happens to a fixed amount of water as its channel narrows.",
+        "exp_title": "The same tide, poured into a narrower glass",
+        "exp_text": "A rising tide moves a large volume of water toward the coast, and in the open ocean that volume can spread out over a huge area, raising the surface by only a modest amount. Where a bay narrows into a funnel shape, the same advancing volume of water is squeezed into an increasingly tight space with nowhere sideways left to go. With less room to spread out, the water has to rise higher instead, producing a far bigger swing between high and low tide than the open sea nearby."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why don't lakes and swimming pools show any noticeable tide, even though the Moon's gravity reaches them just as it reaches the ocean?",
+        "body": null,
+        "options": [
+          {
+            "label": "The Moon's gravity cannot pass over land to reach a lake",
+            "feedback": "Gravity isn't blocked by land; it reaches every part of Earth, lakes included, in the same way it reaches the ocean."
+          },
+          {
+            "label": "Lakes are too shallow for gravity to move the water",
+            "feedback": "Depth isn't the limiting factor here; even a deep lake would show no meaningful tide, because it is the narrow width, not the depth, that keeps the effect too small to see."
+          },
+          {
+            "label": "Fresh water does not respond to gravity the way salt water does",
+            "feedback": "All water, fresh or salty, responds to gravity in exactly the same way. Salt content has nothing to do with why lakes show no tide."
+          },
+          {
+            "label": "The Moon's tide-raising pull depends on the difference in gravity across a body of water's width, and a lake is far too small for that difference to add up to anything measurable",
+            "feedback": "That tiny width, far too small for the pull to meaningfully differ from one shore to the other, is exactly why no bulge ever forms."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Too small to matter",
+        "ok_line": "The pull barely changes from one edge of a lake to the other — nothing left to raise a bulge.",
+        "ko_title": "Not blocked, not shallow, not the salt",
+        "ko_line": "Gravity reaches a lake exactly as it reaches the ocean; the missing ingredient is something about the lake's size.",
+        "exp_title": "A difference too small to add up",
+        "exp_text": "What raises a tide is the difference in the Moon's pull from one edge of a body of water to the other, and that difference only becomes noticeable across a distance as vast as an ocean basin. A lake or a pool spans a tiny fraction of that distance, so the pull barely changes at all from one side to the other, leaving nothing large enough to pile the water into a visible bulge. The Moon is still pulling on every drop in the lake — there simply isn't enough width for that pull to disagree with itself."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the largest moon in the solar system?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Ganymede",
+            "feedback": "Ganymede, a moon of Jupiter, is indeed the largest moon in the solar system, bigger even than the planet Mercury."
+          },
+          {
+            "label": "Titan",
+            "feedback": "Titan is Saturn's largest moon, but it is smaller than Ganymede, which holds the top spot."
+          },
+          {
+            "label": "Earth's Moon",
+            "feedback": "Earth's Moon is large relative to Earth, but it is much smaller than Ganymede and several other moons."
+          },
+          {
+            "label": "Callisto",
+            "feedback": "Callisto is a large moon of Jupiter, but it is still smaller than Ganymede, its neighbor."
+          }
+        ],
+        "ok_title": "Largest moon",
+        "ok_line": "Ganymede is the biggest moon of all.",
+        "ko_title": "Not the largest",
+        "ko_line": "That moon is big, but another one is bigger.",
+        "exp_title": "Ganymede's size",
+        "exp_text": "Ganymede orbits Jupiter and has a diameter larger than that of Mercury, making it the largest moon in the entire solar system. Its size comes from being a captured world that formed early in the solar system's history."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet has the most moons among all eight planets?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Jupiter",
+            "feedback": "Jupiter has many moons, but Saturn has more confirmed ones, so it is not the planet with the most."
+          },
+          {
+            "label": "Saturn",
+            "feedback": "Saturn holds the record for the most confirmed moons, currently over a hundred, thanks to its large gravity and location."
+          },
+          {
+            "label": "Earth",
+            "feedback": "Earth has only one moon, which is far fewer than any of the gas giants."
+          },
+          {
+            "label": "Neptune",
+            "feedback": "Neptune has a handful of moons, but not as many as Saturn or even Jupiter."
+          }
+        ],
+        "ok_title": "Most moons",
+        "ok_line": "Saturn has the greatest number of moons.",
+        "ko_title": "Not the most",
+        "ko_line": "That planet has many moons, but not the most.",
+        "exp_title": "Moon count",
+        "exp_text": "Saturn currently has the most confirmed moons, over a hundred, because its strong gravity and large distance from the Sun allow it to capture and hold many small bodies. Jupiter follows closely, but Saturn's count is higher."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main material that makes up Saturn's rings?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Rock",
+            "feedback": "While a few chunks may be rocky, the rings are mostly made of ice, not solid rock."
+          },
+          {
+            "label": "Metal",
+            "feedback": "Metal is not a primary component; the rings reflect light like ice, not metal."
+          },
+          {
+            "label": "Ice",
+            "feedback": "Saturn's rings are composed mostly of countless icy chunks, ranging from tiny grains to house-sized boulders."
+          },
+          {
+            "label": "Gas",
+            "feedback": "The rings are made of solid particles, not gas; gas would not form distinct rings."
+          }
+        ],
+        "ok_title": "Ring material",
+        "ok_line": "Saturn's rings are mostly ice.",
+        "ko_title": "Wrong material",
+        "ko_line": "That is not what the rings are made of.",
+        "exp_title": "Icy rings",
+        "exp_text": "Saturn's rings are made of billions of ice particles, which gives them their bright appearance. The ice may come from moons that broke apart or leftover material from the planet's formation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the same side of Earth's Moon always face Earth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the Moon does not spin at all",
+            "feedback": "The Moon does spin, but it spins exactly once per orbit, which is why the same side stays facing us."
+          },
+          {
+            "label": "Because Earth's gravity holds the far side still",
+            "feedback": "Gravity does not hold a side still; it causes the Moon's rotation to match its orbit over time."
+          },
+          {
+            "label": "Because the Moon is pulled by the Sun's gravity",
+            "feedback": "The Sun's gravity affects the orbit, but it does not lock the Moon's rotation to Earth."
+          },
+          {
+            "label": "Because the Moon's rotation matches its orbital period",
+            "feedback": "The Moon rotates once on its axis in the same time it takes to orbit Earth, about 27 days, so the same hemisphere always faces us."
+          }
+        ],
+        "ok_title": "Tidal locking",
+        "ok_line": "The Moon rotates in sync with its orbit.",
+        "ko_title": "Wrong reason",
+        "ko_line": "That explanation is not what causes the fixed face.",
+        "exp_title": "Tidal locking",
+        "exp_text": "Earth's gravity has slowed the Moon's rotation until it equals its orbital period, a state called tidal locking. This is why we only ever see one side of the Moon from our planet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which moon of Jupiter is known for its active volcanoes?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Io",
+            "feedback": "Io is the most volcanically active body in the solar system, with hundreds of active volcanoes."
+          },
+          {
+            "label": "Europa",
+            "feedback": "Europa has an icy surface and a likely ocean, but no known volcanoes."
+          },
+          {
+            "label": "Ganymede",
+            "feedback": "Ganymede is a large icy moon, but it does not have active volcanoes like Io."
+          },
+          {
+            "label": "Callisto",
+            "feedback": "Callisto is heavily cratered and geologically inactive, so it has no active volcanoes."
+          }
+        ],
+        "ok_title": "Volcanic moon",
+        "ok_line": "Io is the volcanic moon of Jupiter.",
+        "ko_title": "Not volcanic",
+        "ko_line": "That moon is not known for volcanoes.",
+        "exp_title": "Io's volcanoes",
+        "exp_text": "Io's interior is heated by Jupiter's strong gravity pulling on it, which causes constant tidal flexing and leads to erupting volcanoes. It is the most volcanically active world known."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do scientists believe lies beneath Europa's icy surface?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A thick layer of rock",
+            "feedback": "Europa's interior may have rock, but the key feature beneath the ice is a liquid water ocean, not just rock."
+          },
+          {
+            "label": "A liquid water ocean",
+            "feedback": "Europa is thought to have a global ocean of liquid water under its icy crust, kept warm by tidal heating."
+          },
+          {
+            "label": "A dry desert",
+            "feedback": "Europa is covered in ice, so it is not dry or desert-like; it is icy and cold."
+          },
+          {
+            "label": "A gas giant's core",
+            "feedback": "Europa is a moon, not a gas giant, so it does not have that kind of core."
+          }
+        ],
+        "ok_title": "Europa's ocean",
+        "ok_line": "Europa likely has an ocean under its ice.",
+        "ko_title": "Wrong interior",
+        "ko_line": "That is not what is thought to be beneath the ice.",
+        "exp_title": "Hidden ocean",
+        "exp_text": "Scientists suspect that Europa has a global ocean of liquid water beneath its icy shell, because tidal heating from Jupiter's gravity keeps the water from freezing solid. This makes it a key target in the search for life."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main gas in Titan's atmosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is abundant on Earth, but Titan's atmosphere is made up of other gases, mainly nitrogen."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is a trace gas on Titan, but it is not the main component."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Titan's atmosphere is mostly nitrogen, about 95%, similar to Earth but much denser and colder."
+          },
+          {
+            "label": "Methane",
+            "feedback": "Methane is present and forms clouds and lakes, but it is not the main gas; nitrogen dominates."
+          }
+        ],
+        "ok_title": "Titan's atmosphere",
+        "ok_line": "Titan's air is mostly nitrogen.",
+        "ko_title": "Wrong gas",
+        "ko_line": "That gas is not the main one in Titan's atmosphere.",
+        "exp_title": "Nitrogen-rich air",
+        "exp_text": "Titan, a moon of Saturn, has a thick atmosphere composed primarily of nitrogen, with methane making up a small fraction. This gives it a hazy orange appearance and supports methane rain and lakes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the lakes on Titan's surface filled with?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Water",
+            "feedback": "Titan is too cold for liquid water; its lakes are made of liquid methane and ethane instead."
+          },
+          {
+            "label": "Liquid nitrogen",
+            "feedback": "Nitrogen is a gas at Titan's typical conditions, not a liquid; the lakes are hydrocarbons."
+          },
+          {
+            "label": "Liquid rock",
+            "feedback": "Rock cannot be liquid at these temperatures; the lakes are made of organic compounds."
+          },
+          {
+            "label": "Liquid methane and ethane",
+            "feedback": "Titan's lakes are filled with liquid methane and ethane, which are hydrocarbons that stay liquid at its extremely cold temperatures."
+          }
+        ],
+        "ok_title": "Titan's lakes",
+        "ok_line": "The lakes are liquid methane and ethane.",
+        "ko_title": "Wrong lake liquid",
+        "ko_line": "That is not what fills Titan's lakes.",
+        "exp_title": "Hydrocarbon lakes",
+        "exp_text": "On Titan, the surface temperature is so low that methane and ethane condense into liquids, forming lakes and seas. This is similar to how water forms lakes on Earth, but at much colder temperatures."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the shape of most small moons, like Phobos and Deimos?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Irregular and lumpy",
+            "feedback": "Small moons like Phobos and Deimos are not big enough for gravity to pull them into spheres, so they remain lumpy and potato-shaped."
+          },
+          {
+            "label": "Perfectly round",
+            "feedback": "Roundness requires enough mass for gravity to shape the body, which small moons lack."
+          },
+          {
+            "label": "Square",
+            "feedback": "No moon is square; they are all rounded or irregular, but not square."
+          },
+          {
+            "label": "Flat like a pancake",
+            "feedback": "Moons are three-dimensional; small ones are just irregular, not flat."
+          }
+        ],
+        "ok_title": "Small moon shape",
+        "ok_line": "Small moons are lumpy and irregular.",
+        "ko_title": "Wrong shape",
+        "ko_line": "That is not how small moons look.",
+        "exp_title": "Irregular shapes",
+        "exp_text": "Small moons like Phobos and Deimos lack enough gravity to compress themselves into round shapes, so they keep the irregular, lumpy appearance they had when formed or captured. Larger moons, like Earth's Moon, are round because their gravity pulls them into spheres."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planet has a moon that orbits backwards compared to the planet's rotation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Earth",
+            "feedback": "Earth's Moon orbits in the same direction as Earth's rotation, so it is not retrograde."
+          },
+          {
+            "label": "Neptune",
+            "feedback": "Neptune has a moon called Triton that orbits backward, opposite to Neptune's rotation, likely because it was captured."
+          },
+          {
+            "label": "Mars",
+            "feedback": "Mars's moons, Phobos and Deimos, orbit in the same direction as Mars's rotation, not backward."
+          },
+          {
+            "label": "Jupiter",
+            "feedback": "While Jupiter has some retrograde moons, the question specifically points to a planet known for a large one—Triton is the classic example."
+          }
+        ],
+        "ok_title": "Retrograde moon",
+        "ok_line": "Neptune's Triton orbits backward.",
+        "ko_title": "Not retrograde",
+        "ko_line": "That planet's moons do not orbit backward.",
+        "exp_title": "Triton's orbit",
+        "exp_text": "Triton, Neptune's largest moon, orbits in the opposite direction to Neptune's spin, a retrograde orbit. This is evidence that Triton was captured by Neptune's gravity rather than forming alongside the planet."
+      }
+    ]
+  }
+]

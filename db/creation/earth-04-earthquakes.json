@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 134,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What is the actual, physical cause of the shaking felt during an earthquake?",
+        "body": null,
+        "options": [
+          {
+            "label": "Built-up strain along a locked fault is suddenly released as the rock slips, sending shaking racing outward",
+            "feedback": "The sudden slip is the jolt that starts the shaking, which then travels outward through the surrounding rock."
+          },
+          {
+            "label": "Underground water pressure suddenly builds and forces the ground to move",
+            "feedback": "Water pressure is not what triggers the sudden ground motion of a quake; the cause is rock slipping along a fault, not fluid pressure alone."
+          },
+          {
+            "label": "Gas pockets trapped underground suddenly expand and push the ground upward",
+            "feedback": "Expanding trapped gas is not the source; the sudden motion comes from rock on either side of a fault slipping past each other."
+          },
+          {
+            "label": "The whole planet briefly shifts position in its rotation",
+            "feedback": "A shift in the planet's overall rotation is not something that happens; the shaking is a local event confined to the rock near a fault."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "A sudden slip, felt outward as shaking.",
+        "ko_title": "Not water, not gas, not the whole planet",
+        "ko_line": "The cause sits right at the fault itself, in the rock on either side of it.",
+        "exp_title": "A sudden slip, felt as shaking",
+        "exp_text": "Along a fault, rock on one side is pressed against rock on the other, held in place by friction even while forces keep pushing them to move relative to each other. When the built-up force finally overcomes that friction, the rock suddenly slips into a new position, and that sudden jolt sends waves of motion racing outward through the solid ground around it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does stress build up along a fault instead of being released gradually as it grows?",
+        "body": null,
+        "options": [
+          {
+            "label": "The rock on either side of a fault is too far apart to interact at all",
+            "feedback": "The two sides of a fault are pressed directly against each other, not held apart; that direct contact is exactly what lets friction lock them together."
+          },
+          {
+            "label": "Friction locks the two sides of the fault together even while the surrounding rock keeps trying to move, so the stress has nowhere to go until it overcomes that friction",
+            "feedback": "That locking is exactly why stress keeps accumulating rather than leaking away as it forms."
+          },
+          {
+            "label": "The rock nearby has no strength and simply bends without resisting",
+            "feedback": "If the rock offered no resistance at all, it would simply flow rather than storing up the strain that a quake later releases."
+          },
+          {
+            "label": "Stress is actually released continuously, and no build-up ever happens",
+            "feedback": "Stress genuinely accumulates over time along a locked fault; that build-up, and its sudden release, is exactly what an earthquake is."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "Locked by friction, until the force outgrows it.",
+        "ko_title": "Not too far apart, not weak, not already released",
+        "ko_line": "Ask what keeps the two sides of a fault from sliding the moment force is applied.",
+        "exp_title": "Locked by friction, until it isn't",
+        "exp_text": "The two sides of a fault are pressed firmly against each other, and friction between them resists any sliding even as forces elsewhere keep pushing the rock to move. Because that resistance holds the fault still despite the ongoing push, the strain has nowhere to go and keeps accumulating until it finally grows strong enough to overcome the friction holding everything in place."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does an earthquake's shaking spread outward in every direction from where the rock actually slipped?",
+        "body": null,
+        "options": [
+          {
+            "label": "The shaking only travels through open air, not through solid ground",
+            "feedback": "The shaking travels through the solid rock itself; it is not confined to open air at all."
+          },
+          {
+            "label": "It doesn't really spread; each place shakes independently at the same moment",
+            "feedback": "The shaking clearly arrives at different places at different times as it spreads outward, rather than starting everywhere at once."
+          },
+          {
+            "label": "The sudden jolt disturbs the rock right next to the slip, and that disturbance passes from one bit of rock to the next outward in every direction",
+            "feedback": "Each disturbed patch of rock disturbs its neighbor in turn, carrying the original jolt farther and farther out."
+          },
+          {
+            "label": "Shaking only travels along the exact line of the fault itself, never away from it",
+            "feedback": "The shaking moves outward through the surrounding rock in every direction, not only along the line of the fault."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "One jolt, passed rock to rock, outward in every direction.",
+        "ko_title": "Not air, not everywhere at once, not just the fault line",
+        "ko_line": "Ask how a disturbance in one bit of solid rock affects the rock sitting right next to it.",
+        "exp_title": "One jolt, passed outward through the rock",
+        "exp_text": "The sudden slip disturbs the solid rock immediately next to it, pushing and pulling it out of its resting position. That disturbed rock in turn disturbs the rock next to it, and so on outward in every direction, carrying the original jolt farther and farther from where it began."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do aftershocks happen after a large earthquake?",
+        "body": null,
+        "options": [
+          {
+            "label": "The ground continues to shake nonstop from the very first slip, without ever truly stopping",
+            "feedback": "The ground does settle between events; aftershocks are separate, smaller slips, not one continuous unending shake."
+          },
+          {
+            "label": "Loose material on the surface keeps vibrating on its own for days afterward",
+            "feedback": "The source of an aftershock is a new slip along the fault itself, not surface material continuing to vibrate on its own."
+          },
+          {
+            "label": "Rescuers and heavy activity near the site shake the ground further",
+            "feedback": "The ground shakes from movement deep along the fault, not from any activity happening at the surface afterward."
+          },
+          {
+            "label": "The main slip shifts stress onto nearby, still-locked sections of the same fault, and those sections then have their own smaller failures",
+            "feedback": "Those neighboring sections take on extra stress they were not carrying before, and can fail on their own soon after."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "Stress passed to the rock next door.",
+        "ko_title": "Not endless shaking, not surface vibration, not activity above ground",
+        "ko_line": "Ask what happens to the fault sections sitting right next to the one that just slipped.",
+        "exp_title": "Stress passed along the fault",
+        "exp_text": "When one section of a fault suddenly slips, it does not simply relax the whole fault; it shifts some of the released stress onto the sections of rock sitting right next to it. Those neighboring sections, now carrying extra stress they were not built to hold, can fail in their own smaller slips soon afterward."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can earthquakes occur at many different depths within a subduction zone, not only near the surface?",
+        "body": null,
+        "options": [
+          {
+            "label": "One plate keeps grinding down against another far underground, so the same kind of friction and strain that triggers quakes near the surface exists at depth too",
+            "feedback": "That grinding contact between the two plates does not stop once it passes below the surface."
+          },
+          {
+            "label": "Deep earthquakes are actually just distant surface earthquakes felt through the ground",
+            "feedback": "A deep earthquake truly originates far underground; it is not a surface event that merely seems deep."
+          },
+          {
+            "label": "Only the surface layer of a subduction zone is solid enough to break",
+            "feedback": "The sinking plate stays solid rock to great depths as it descends, not only right at the surface."
+          },
+          {
+            "label": "Deep quakes are caused by magma rising from below, unrelated to the plates themselves",
+            "feedback": "The quakes tied to a subduction zone come from one plate grinding against another, not from magma rising separately."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "The grinding continues as the plate sinks.",
+        "ko_title": "Not distant, not surface-only, not magma",
+        "ko_line": "Ask how far down the two grinding plates actually stay in contact with each other.",
+        "exp_title": "Grinding continues as the plate descends",
+        "exp_text": "In a subduction zone, one plate keeps sliding down against the other as it sinks, and that contact between two slabs of rock does not stop once it passes below the surface. Wherever along that descending path friction locks the two plates together and lets strain build, a quake can occur, so the same kind of event happens at shallow points and at points reaching far underground."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a shallow earthquake often feel stronger at the surface than a deep one of similar size?",
+        "body": null,
+        "options": [
+          {
+            "label": "Shallow quakes always release more energy in the first place than deep ones",
+            "feedback": "A shallow and a deep quake can release the same amount of energy at their source; what differs is how far that energy has to travel before reaching the surface."
+          },
+          {
+            "label": "Shaking from a shallow source has a shorter path to travel and loses less energy before it reaches the surface",
+            "feedback": "With less rock to cross along the way, comparatively little of the shaking's energy is lost before it arrives."
+          },
+          {
+            "label": "Deep quakes always occur on weaker rock that absorbs the shaking before it starts",
+            "feedback": "Rock at depth is not generally weaker; the difference in what is felt comes from the distance the shaking has to travel, not the strength of the rock at the source."
+          },
+          {
+            "label": "Shallow quakes are always followed by more aftershocks than deep ones",
+            "feedback": "The number of aftershocks is not what makes a single quake feel stronger at the surface; that comes down to how far the shaking traveled to reach you."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "A shorter path loses less along the way.",
+        "ko_title": "Not more energy, not weaker rock, not aftershocks",
+        "ko_line": "Ask how far the shaking from each kind of source actually has to travel to reach you.",
+        "exp_title": "A shorter path loses less along the way",
+        "exp_text": "As shaking spreads outward from where the rock slipped, it steadily loses some of its energy to the rock it passes through, the way any disturbance fades the farther it travels. A source close to the surface gives that shaking only a short path to cross before it arrives, so comparatively little energy is lost, while a deep source has to send its shaking through far more rock first."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can the same earthquake shake some places much more violently than other places at a similar distance from it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Places with more buildings always shake harder than open land",
+            "feedback": "What stands on the ground does not decide how hard the ground itself shakes; what the ground is made of does."
+          },
+          {
+            "label": "Places closer to the ocean always shake harder regardless of the ground beneath them",
+            "feedback": "Closeness to the ocean by itself is not what decides the intensity of shaking; the material the ground is made of is."
+          },
+          {
+            "label": "Soft, loose ground shakes more violently than solid bedrock, even at a similar distance from the source",
+            "feedback": "Loose ground shifts and jostles more freely than solid rock, so the same wave produces stronger shaking there."
+          },
+          {
+            "label": "Places at a higher elevation always shake less than places at sea level",
+            "feedback": "Elevation on its own does not determine how strongly a place shakes; the type of ground beneath it does."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "Loose ground jostles harder than solid rock.",
+        "ko_title": "Not buildings, not the coast, not elevation",
+        "ko_line": "Ask what the ground itself is made of at each place, not what sits on top of it.",
+        "exp_title": "Loose ground shakes harder",
+        "exp_text": "As shaking waves pass beneath a place, solid bedrock tends to move only about as much as the wave itself dictates, staying relatively firm underfoot. Soft, loose ground responds differently: it shifts and jostles more freely than solid rock does, so the same wave passing beneath it produces noticeably stronger shaking at the surface."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually causes a tsunami?",
+        "body": null,
+        "options": [
+          {
+            "label": "Strong winds blowing across the ocean surface during a storm",
+            "feedback": "Storm winds can raise ordinary waves, but a tsunami has a different origin entirely, tied to a sudden shift of the seafloor itself."
+          },
+          {
+            "label": "Rain falling heavily over the ocean all at once",
+            "feedback": "Rainfall adds only a negligible amount of water compared with what a tsunami actually displaces, and it is not the trigger at all."
+          },
+          {
+            "label": "Warm water expanding and rising near the surface",
+            "feedback": "Gradual warming and expansion of water happens far too slowly and gently to produce a sudden, fast-moving wave like a tsunami."
+          },
+          {
+            "label": "A quake that suddenly shifts a section of seafloor up or down displaces the huge volume of water sitting above it, and that displaced water spreads outward as a wave",
+            "feedback": "The whole column of ocean water above the shifted seafloor has to move too, and it spreads out from there."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "A shifted seafloor, and the water above it has nowhere else to go.",
+        "ko_title": "Not wind, not rain, not warming",
+        "ko_line": "Think about what lies directly above a section of seafloor that suddenly moves.",
+        "exp_title": "Displaced water, all at once",
+        "exp_text": "When a quake suddenly moves a section of seafloor upward or downward, it does not just shift the rock; it shoves or drops the entire column of ocean water resting directly above that section. All that displaced water has to go somewhere, and it spreads outward from the disturbed area as a wave that can travel across an entire ocean."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do earthquakes cluster along plate boundaries and fault lines rather than occurring at random across a landscape?",
+        "body": null,
+        "options": [
+          {
+            "label": "Those are exactly the places where rock is being forced past other rock, building up the strain that a quake releases",
+            "feedback": "Strain only accumulates where rock is genuinely being forced to move relative to rock beside it, and that is exactly what happens along these lines."
+          },
+          {
+            "label": "Those are simply the places where the ground happens to be the oldest",
+            "feedback": "The age of the rock in a place does not determine whether quakes cluster there; what matters is whether rock there is actively being forced past other rock."
+          },
+          {
+            "label": "Those are the coolest places on the surface, and cool rock breaks more easily",
+            "feedback": "Surface temperature has nothing to do with why quakes cluster where they do; what matters is rock being forced past other rock."
+          },
+          {
+            "label": "Those are simply the places where the ground sits at the lowest elevation",
+            "feedback": "Low elevation on its own does not cause quakes to cluster there; many boundary zones are not low-lying at all."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "Wherever rock is forced past rock, strain follows.",
+        "ko_title": "Not age, not temperature, not elevation",
+        "ko_line": "Ask what is actually happening to the rock in these places, not what the ground looks like there.",
+        "exp_title": "Where rock is actually being forced past rock",
+        "exp_text": "A fault only builds up the strain that leads to an earthquake where rock on one side is genuinely being forced to move relative to rock on the other side. Plate boundaries and the fault lines that run through them are exactly where that forcing is happening, so it is exactly there that strain keeps accumulating and being released."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does an earthquake's shaking eventually die down and stop, rather than continuing indefinitely once it starts?",
+        "body": null,
+        "options": [
+          {
+            "label": "A second, opposite slip cancels out the shaking from the first one",
+            "feedback": "The shaking does not stop because of a second, opposite event; it simply fades as the energy from the original slip runs out."
+          },
+          {
+            "label": "The energy released by the initial slip is finite, and as the waves spread out and the rock absorbs and scatters that energy, the shaking fades once it is used up",
+            "feedback": "With no fresh energy being added, less and less remains to keep the rock moving as it spreads and scatters outward."
+          },
+          {
+            "label": "Underground water absorbs the shaking directly and shuts it off",
+            "feedback": "It is the surrounding rock spreading and absorbing the finite released energy that ends the shaking, not underground water switching it off."
+          },
+          {
+            "label": "The fault reopens and lets the energy escape harmlessly into the air",
+            "feedback": "The fault does not reopen to vent energy into the air; the shaking simply fades as its fixed store of released energy is spent."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Right",
+        "ok_line": "A fixed amount of energy, spent as it spreads.",
+        "ko_title": "Not cancelled, not absorbed by water, not vented",
+        "ko_line": "The slip released a set amount of energy to begin with; ask what happens to it as it travels.",
+        "exp_title": "A fixed amount, spent as it spreads",
+        "exp_text": "The slip that starts an earthquake releases a fixed amount of energy, not an ongoing supply that keeps replenishing itself. As that energy spreads outward through the rock and is gradually absorbed and scattered along the way, less and less of it remains to keep anything moving, so the shaking dies down once that original store runs out."
+      }
+    ]
+  }
+]

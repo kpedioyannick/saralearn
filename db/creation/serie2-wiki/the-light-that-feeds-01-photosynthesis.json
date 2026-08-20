@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 223,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the process by which plants use light to make their own food?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Photosynthesis",
+            "feedback": "That's correct. Photosynthesis is the process where light energy is converted into chemical energy to make food."
+          },
+          {
+            "label": "Cellular respiration",
+            "feedback": "Cellular respiration is the opposite process, where organisms use stored food to release energy, not make it from light."
+          },
+          {
+            "label": "Transpiration",
+            "feedback": "Transpiration is the loss of water vapor from leaves, not the making of food."
+          },
+          {
+            "label": "Digestion",
+            "feedback": "Digestion breaks down food into simpler substances; it does not create food from light."
+          }
+        ],
+        "ok_title": "Correct process",
+        "ok_line": "Photosynthesis is how plants make their own food from light.",
+        "ko_title": "Not that process",
+        "ko_line": "This is not the name of the food-making process.",
+        "exp_title": "Food-making process",
+        "exp_text": "Photosynthesis is the biological process by which plants, algae, and some bacteria convert light energy into chemical energy stored in carbohydrates. It is the way autotrophs feed themselves using sunlight, water, and carbon dioxide."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of a plant cell does photosynthesis mainly take place?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "In the mitochondria",
+            "feedback": "Mitochondria are where cellular respiration happens, not photosynthesis. The chloroplast is the correct site."
+          },
+          {
+            "label": "In the nucleus",
+            "feedback": "The nucleus holds genetic material and controls the cell, but photosynthesis occurs in chloroplasts."
+          },
+          {
+            "label": "In the chloroplasts",
+            "feedback": "Correct. Chloroplasts are the organelles inside plant cells that contain chlorophyll and perform photosynthesis."
+          },
+          {
+            "label": "In the cell wall",
+            "feedback": "The cell wall provides support and shape, but it is not where photosynthesis happens."
+          }
+        ],
+        "ok_title": "Right location",
+        "ok_line": "Photosynthesis happens in chloroplasts.",
+        "ko_title": "Wrong location",
+        "ko_line": "Photosynthesis takes place in chloroplasts, not there.",
+        "exp_title": "Site of photosynthesis",
+        "exp_text": "In plants and algae, photosynthesis occurs in organelles called chloroplasts. These are abundant in leaf cells and contain the green pigment chlorophyll that captures light energy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What gas is released as a byproduct of photosynthesis in plants?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is a reactant, not a product. Plants take it in to make sugar, and release oxygen instead."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Correct. When water is split during the light-dependent reactions, oxygen gas is produced and released."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen is not involved in photosynthesis. The gas released is oxygen."
+          },
+          {
+            "label": "Hydrogen",
+            "feedback": "Hydrogen is used to make energy carriers, but it is not released as a gas. Oxygen is the byproduct."
+          }
+        ],
+        "ok_title": "Correct gas",
+        "ok_line": "Plants release oxygen during photosynthesis.",
+        "ko_title": "Incorrect gas",
+        "ko_line": "That gas is not what plants give off.",
+        "exp_title": "Oxygen release",
+        "exp_text": "In oxygenic photosynthesis, water is split to provide electrons. This splitting releases oxygen as a byproduct, which is why plants help maintain the oxygen in the air."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main pigment in plants that absorbs light for photosynthesis?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Melanin",
+            "feedback": "Melanin is a pigment in animal skin, not in plants. Plants use chlorophyll for photosynthesis."
+          },
+          {
+            "label": "Carotene",
+            "feedback": "Carotene gives some plants orange color, but chlorophyll is the primary pigment for photosynthesis."
+          },
+          {
+            "label": "Hemoglobin",
+            "feedback": "Hemoglobin is in red blood cells, not in plants. The green pigment is chlorophyll."
+          },
+          {
+            "label": "Chlorophyll",
+            "feedback": "Correct. Chlorophyll absorbs red and blue light and reflects green, giving leaves their color."
+          }
+        ],
+        "ok_title": "Correct pigment",
+        "ok_line": "Chlorophyll is the key pigment.",
+        "ko_title": "Not the pigment",
+        "ko_line": "That pigment is not used in photosynthesis.",
+        "exp_title": "Chlorophyll role",
+        "exp_text": "Chlorophyll is a green pigment found inside chloroplasts. It absorbs light energy, mainly from the red and blue parts of the spectrum, to drive photosynthesis."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main products of the light-dependent reactions that are used later to make sugar?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "ATP and NADPH",
+            "feedback": "Correct. These two energy-carrying molecules are made in the light reactions and used in the Calvin cycle."
+          },
+          {
+            "label": "Glucose and oxygen",
+            "feedback": "Glucose is made later, and oxygen is a byproduct, not used to make sugar."
+          },
+          {
+            "label": "Water and carbon dioxide",
+            "feedback": "These are reactants, not products of the light-dependent reactions."
+          },
+          {
+            "label": "RuBP and sugars",
+            "feedback": "RuBP is a molecule in the Calvin cycle, not a product of light reactions."
+          }
+        ],
+        "ok_title": "Energy carriers",
+        "ok_line": "ATP and NADPH carry energy for sugar making.",
+        "ko_title": "Wrong products",
+        "ko_line": "Those are not the energy carriers from light reactions.",
+        "exp_title": "Light reaction outputs",
+        "exp_text": "The light-dependent reactions use light energy to make ATP and NADPH. These molecules store chemical energy and are then used in the Calvin cycle to convert carbon dioxide into glucose."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the sequence of light-independent reactions that builds sugars from carbon dioxide called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Krebs cycle",
+            "feedback": "The Krebs cycle is part of cellular respiration, not the sugar-building process in photosynthesis."
+          },
+          {
+            "label": "Electron transport chain",
+            "feedback": "That is part of the light-dependent reactions, not the carbon-fixing cycle."
+          },
+          {
+            "label": "Calvin cycle",
+            "feedback": "Correct. The Calvin cycle uses ATP and NADPH to convert CO2 into carbohydrates without needing light directly."
+          },
+          {
+            "label": "Glycolysis",
+            "feedback": "Glycolysis breaks down glucose for energy, it does not build sugars from CO2."
+          }
+        ],
+        "ok_title": "Correct cycle",
+        "ok_line": "The Calvin cycle makes sugar.",
+        "ko_title": "Wrong cycle",
+        "ko_line": "That is not the sugar-making cycle.",
+        "exp_title": "Carbon fixation cycle",
+        "exp_text": "In plants, algae, and cyanobacteria, the Calvin cycle is the light-independent stage where carbon dioxide is incorporated into organic compounds, eventually forming glucose. It runs using the ATP and NADPH from the light reactions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which organisms perform photosynthesis that does NOT release oxygen?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "All green plants",
+            "feedback": "Green plants perform oxygenic photosynthesis, which does release oxygen."
+          },
+          {
+            "label": "Some bacteria and archaea",
+            "feedback": "Correct. Certain bacteria, like purple bacteria, and some archaea use anoxygenic photosynthesis without oxygen release."
+          },
+          {
+            "label": "All algae",
+            "feedback": "Algae are oxygenic; they release oxygen just like plants."
+          },
+          {
+            "label": "All cyanobacteria",
+            "feedback": "Cyanobacteria also perform oxygenic photosynthesis and release oxygen."
+          }
+        ],
+        "ok_title": "Non-oxygen producers",
+        "ok_line": "Some microbes do photosynthesis without oxygen.",
+        "ko_title": "Oxygen producers",
+        "ko_line": "These organisms do release oxygen.",
+        "exp_title": "Anoxygenic photosynthesis",
+        "exp_text": "Anoxygenic photosynthesis, found in some bacteria and archaea, does not produce oxygen. They may use hydrogen sulfide or other substances as electron donors, releasing sulfur or other byproducts instead."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the raw materials that a green plant needs to perform photosynthesis?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Oxygen and glucose",
+            "feedback": "These are products, not raw materials. The plant needs inputs from outside, not what it makes."
+          },
+          {
+            "label": "Nitrogen and phosphorus",
+            "feedback": "These are nutrients for growth, but they are not the direct inputs for photosynthesis."
+          },
+          {
+            "label": "Sunlight and soil minerals",
+            "feedback": "Sunlight is needed, but soil minerals are not part of the photosynthesis reactants. Water and CO2 are."
+          },
+          {
+            "label": "Carbon dioxide and water",
+            "feedback": "Correct. Plants take in carbon dioxide and water, and using light energy, convert them into carbohydrates and oxygen."
+          }
+        ],
+        "ok_title": "Raw materials",
+        "ok_line": "CO2 and water are the inputs.",
+        "ko_title": "Not raw materials",
+        "ko_line": "Those are not the inputs for photosynthesis.",
+        "exp_title": "Photosynthesis inputs",
+        "exp_text": "In oxygenic photosynthesis, the net equation is CO2 + water + light energy → carbohydrate + oxygen. So carbon dioxide and water are the essential raw materials that get converted into food."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where are the light-absorbing pigments located in cyanobacteria?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "In the plasma membrane",
+            "feedback": "Correct. Unlike plants, cyanobacteria have their photosynthetic pigments embedded in the cell membrane."
+          },
+          {
+            "label": "In chloroplasts",
+            "feedback": "Cyanobacteria do not have chloroplasts; they are prokaryotes. Their pigments are in the membrane."
+          },
+          {
+            "label": "In the nucleus",
+            "feedback": "Cyanobacteria lack a nucleus, and pigments are not located there anyway."
+          },
+          {
+            "label": "In mitochondria",
+            "feedback": "Mitochondria are for respiration, not for photosynthesis pigments in cyanobacteria."
+          }
+        ],
+        "ok_title": "Membrane location",
+        "ok_line": "Cyanobacteria use their cell membrane.",
+        "ko_title": "Wrong location",
+        "ko_line": "Cyanobacteria do not have that organelle.",
+        "exp_title": "Cyanobacterial pigments",
+        "exp_text": "In cyanobacteria, the proteins and pigments for photosynthesis are embedded in the plasma membrane, not in separate chloroplasts, because they are single-celled organisms without membrane-bound organelles."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main purpose of photosynthesis for a plant?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "To produce oxygen for the atmosphere",
+            "feedback": "Oxygen is a byproduct, but the plant's primary goal is to make food for itself."
+          },
+          {
+            "label": "To absorb water from the soil",
+            "feedback": "Water absorption is done by roots, not the purpose of photosynthesis."
+          },
+          {
+            "label": "To make its own food using light",
+            "feedback": "Correct. Photosynthesis converts light energy into chemical energy stored in carbohydrates, which the plant uses for growth and metabolism."
+          },
+          {
+            "label": "To attract pollinators",
+            "feedback": "Flowers attract pollinators, but that is unrelated to photosynthesis."
+          }
+        ],
+        "ok_title": "Plant's goal",
+        "ok_line": "Photosynthesis makes food for the plant.",
+        "ko_title": "Not the purpose",
+        "ko_line": "That is not the main role of photosynthesis.",
+        "exp_title": "Purpose of photosynthesis",
+        "exp_text": "Photosynthesis allows autotrophic organisms to synthesize carbohydrates from carbon dioxide and water using light energy. This stored chemical energy fuels the plant's metabolism and growth."
+      }
+    ]
+  }
+]

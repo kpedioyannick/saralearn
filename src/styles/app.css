@@ -718,24 +718,78 @@ button {
   -webkit-user-select: none;
 }
 
-.exo-head {
-  padding: 60px 22px 0;
-  padding-top: calc(60px + env(safe-area-inset-top));
+/* LA LIGNE DU HAUT, PARTAGÉE. L'orbe de lecture, la pastille
+ * d'apprentissage, le « + » et les trois points tiennent sur une seule
+ * ligne. Ils occupaient deux bandes superposées — 44 px pour l'orbe,
+ * qui laissait sa ligne aux trois quarts vide, puis 58 px pour la
+ * pastille et les boutons. La lecture récupère la seconde.
+ *
+ * La pastille est le seul élément élastique : elle prend ce qui reste
+ * et coupe son titre, les boutons gardent leur taille. */
+.exo-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
+  padding: 6px 18px 0;
   flex: none;
 }
 
-/* La marge droite dégage le rail : la question ne passe jamais dessous. */
+/* Le bandeau de lecture n'est plus une bande : il devient le premier
+ * élément de la ligne, sans marge à lui. */
+.exo-bar .audio-bar {
+  padding: 0;
+  flex: none;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.exo-bar .chip {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.exo-bar-acts {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+  margin-left: auto;
+}
+
+/* La marge droite dégage le rail : la question ne passe jamais dessous.
+ *
+ * La zone de lecture défile. Elle ne le faisait pas, et une question
+ * longue — le catalogue informatique en produit jusqu'à 240 caractères,
+ * l'explication bien plus — débordait par-dessus l'en-tête ET par-dessus
+ * les réponses : mesuré à 556 px de texte dans une boîte de 433, dont
+ * 123 px de début inatteignables.
+ *
+ * `overscroll-behavior: contain` coupe le chaînage : arrivé au bas du
+ * texte, le geste ne part pas emporter un parent. C'est le deck qui le
+ * reprend, et c'est `useDeckGestures` qui en décide.
+ *
+ * `data-scroll` marque la zone pour ce même hook : il cherche la zone
+ * de lecture sous le pointeur, et l'attribut la déclare mieux qu'un
+ * relevé de `overflow` calculé à chaque geste. */
 .exo-body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 0 70px 0 22px;
   min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/* Le centrage passe par la marge de l'enfant, pas par
+ * `justify-content: center`. Un flex centré dont le contenu dépasse
+ * déborde des DEUX côtés, et le haut sort alors de la portée du
+ * défilement — `scrollTop` à 0 montrait déjà un texte tronqué. En marge
+ * automatique, un contenu court reste centré et un contenu long
+ * commence en haut, où on le lit. */
+.exo-body > * {
+  margin-block: auto;
+  flex: none;
 }
 
 .exo-foot {
@@ -812,6 +866,16 @@ button {
   min-height: 0;
 }
 
+/* Deux sélecteurs pour une seule intention : donner ses marges au corps
+   du panneau.
+   `:first-of-type` compte parmi les éléments de MÊME TYPE, et le corps
+   est un `div` posé après `.panel-head`, lui aussi un `div` : il est
+   donc le deuxième, jamais le premier, et la règle ne l'atteignait pas.
+   Le texte touchait le bord du panneau à un pixel près. Elle continuait
+   de servir pour la liste des commentaires, où le corps est imbriqué
+   dans une enveloppe et s'y trouve bien premier — d'où la panne
+   silencieuse : un panneau sur deux avait ses marges. */
+.panel > .panel-body,
 .panel .panel-body:first-of-type {
   padding: 26px 24px;
 }
@@ -929,23 +993,50 @@ button {
   background: var(--sc-sunk);
 }
 
-.desk-card-head {
-  padding: 26px 30px 0;
+/* La ligne du haut de la carte desktop — le pendant de `.exo-bar` :
+ * l'orbe, la pastille et le « + » ensemble. `.desk-card-head`, la bande
+ * qui les portait seuls sous le loader, n'existe plus. */
+.desk-card-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 24px 0;
   flex: none;
 }
 
+.desk-card-bar .audio-bar.is-desktop {
+  padding: 0;
+  flex: none;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.desk-card-bar .chip {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.desk-card-bar .round-add {
+  margin-left: auto;
+}
+
+/* Même zone de lecture qu'en téléphone, mêmes règles — voir `.exo-body`.
+ * Celle-ci défilait déjà, mais son centrage tronquait le haut du texte
+ * de la même façon : 78 px hors de portée, `scrollTop` à 0. */
 .desk-card-body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 0 30px;
   gap: 20px;
   min-height: 0;
   overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.desk-card-body > * {
+  margin-block: auto;
+  flex: none;
 }
 
 .desk-card-foot {
@@ -982,29 +1073,27 @@ button {
   gap: 14px;
 }
 
-.desk-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-self: center;
-  flex: none;
+/* LES FLÈCHES, DANS LE RAIL. `.desk-nav` — leur colonne à part, au bord
+ * de l'écran — n'existe plus : voir `Rail`. Elles n'ont pas de
+ * compteur, donc rien ne les alignerait sur les votes sans cette
+ * hauteur minimale ; c'est celle du disque.
+ *
+ * Le survol souligne le bord comme le faisait l'ancienne colonne : ce
+ * sont des commandes de navigation, pas des votes, et rien d'autre ne
+ * les en distingue une fois dans la pile. */
+.rail-nav .rail-disc {
+  /* Le vert du « + » et de l'orbe : ces deux-là ne notent pas la carte,
+     ils la font avancer. La même encre les range du côté des commandes,
+     là où le disque blanc les rangeait du côté des votes. */
+  background: var(--sc-primary);
+  border-color: transparent;
+  color: var(--sc-on-primary);
+  transition: filter var(--dur-fast) var(--ease-out),
+    transform var(--dur-fast) var(--ease-spring);
 }
 
-.desk-nav button {
-  width: 56px;
-  height: 56px;
-  border-radius: var(--r-lg);
-  border: 1px solid var(--sc-line);
-  background: var(--sc-surface);
-  display: grid;
-  place-items: center;
-  cursor: pointer;
-  color: var(--sc-text);
-  transition: border-color var(--dur-fast) var(--ease-out);
-}
-
-.desk-nav button:hover {
-  border-color: var(--sc-text);
+.rail-nav:hover .rail-disc {
+  filter: brightness(1.06);
 }
 
 /* Les écrans secondaires reprennent la colonne centrale du cadre. */
@@ -1172,6 +1261,13 @@ button {
   display: none;
 }
 
+/* Le retour des écrans de second niveau. L'inverse de `.page-head` :
+   en téléphone c'est la flèche de `NavHead` qui le porte, et deux
+   retours sur le même écran en feraient un doublon. */
+.page-back {
+  display: none;
+}
+
 .page-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -1217,6 +1313,48 @@ button {
     margin-bottom: 6px;
   }
 
+  /* `grid-column` et `justify-self` sont là pour les `.page-inner` qui
+     sont des grilles — `auth-split` en est une. Sans eux, le retour
+     prendrait la première cellule et pousserait la colonne de droite. */
+  .page-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    align-self: flex-start;
+    justify-self: start;
+    grid-column: 1 / -1;
+    margin-top: 34px;
+    padding: 8px 16px 8px 11px;
+    border: 1px solid var(--sc-line);
+    border-radius: var(--r-pill);
+    background: var(--sc-surface);
+    color: var(--sc-text2);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .page-back:hover {
+    background: var(--sc-veil);
+    color: var(--sc-text);
+    border-color: var(--sc-text3);
+  }
+
+  /* L'en-tête réservait la bande du haut ; le retour l'occupe désormais.
+     La lui laisser en plus décalerait le titre d'une hauteur de bouton
+     et d'une gouttière. */
+  .page-back + .page-head,
+  .page-back + .about-hero {
+    padding-top: 0;
+  }
+
+  /* `auth-split` pose déjà ses 52 px en haut : le retour n'en rajoute
+     pas, il s'y installe. */
+  .auth-split > .page-back {
+    margin-top: 0;
+  }
+
   .page-title {
     margin: 0;
     font-family: var(--font-display);
@@ -1233,6 +1371,29 @@ button {
     line-height: 1.6;
     color: var(--sc-text3);
     max-width: 62ch;
+  }
+
+  /* Certaines planches (« mes apprentissages », « ajouter ») posent le
+     titre et son décompte sur une même ligne de base, sans filet : la
+     page commence tout de suite, la grille n'attend pas 130 px. */
+  .page-head.is-inline {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 14px;
+    padding: 40px 0 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .page-head.is-inline .page-title {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .page-head.is-inline .page-lead {
+    margin: 0;
+    font-size: 15px;
   }
 
   /* Colonne principale + rail de 420px : la maquette ne met pas les
@@ -1448,7 +1609,8 @@ button {
    ============================================================
 
    Posée en fixe dans la bande que chaque écran réserve déjà en haut
-   (.nav-head : 58 px, .exo-head : 60 px) : rien n'est décalé. Elle
+   (.nav-head : 58 px, .exo-bar : la ligne de l'orbe) : rien n'est
+   décalé. Elle
    disparaît en desktop, où la barre complète prend le relais. */
 
 .mobile-bar {
@@ -1466,6 +1628,87 @@ button {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid transparent;
+}
+
+/* ----- BASCULE DE LANGUE -------------------------------------
+   Deux pastilles dans un lit de voile. La cible tactile fait 34 px de
+   haut plutôt que 44 : posée dans une barre de 52 px à côté de deux
+   autres commandes, une pastille de 44 px la remplirait entièrement.
+   Le geste est rare et le doigt vise deux mots courts, côte à côte. */
+/* Le pied chiffré de la carte « Progression », en desktop. */
+.settings-stats {
+  display: flex;
+  gap: 26px;
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid var(--sc-line);
+}
+
+.settings-stat {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--sc-primary);
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  flex: none;
+  padding: 3px;
+  border-radius: var(--r-pill);
+  background: var(--sc-veil);
+}
+
+.lang-pill {
+  min-height: 28px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--sc-text3);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background var(--dur-fast) var(--ease-out);
+}
+
+.lang-pill:hover {
+  color: var(--sc-text);
+}
+
+.lang-pill.is-on {
+  background: var(--sc-surface);
+  color: var(--sc-text);
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Dans le rail replié, les deux pastilles s'empilent : 84 px moins les
+   marges ne laissent pas la place de les poser côte à côte sans les
+   réduire au point de ne plus pouvoir les viser. */
+.side-rail:not(.is-open) .lang-switch {
+  flex-direction: column;
+  align-self: center;
+  gap: 3px;
+}
+
+.side-rail:not(.is-open) .lang-pill {
+  min-width: 40px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.side-rail.is-open .lang-switch {
+  justify-content: center;
+}
+
+.side-rail.is-open .lang-pill {
+  flex: 1;
+  min-height: 34px;
 }
 
 .mobile-bar-mark {
@@ -1573,10 +1816,172 @@ button {
   gap: 12px;
 }
 
+/* « Ma progression », planche 1m : où j'en suis à gauche, où je me
+   situe à droite, en colonnes égales. En téléphone elles s'empilent
+   dans cet ordre — le classement se lit après sa mesure. */
+.rank-body {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.rank-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+/* Le point fort porte une carte, les autres une simple ligne : la
+   planche distingue le sommet du reste par la surface, pas par un
+   numéro d'ordre. */
+.rank-best {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 18px;
+  background: var(--sc-primary-soft);
+  border: 1px solid var(--sc-primary-line);
+}
+
+.rank-best-pct {
+  flex: none;
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--sc-primary);
+  white-space: nowrap;
+}
+
+/* Le pourcentage ne se coupe pas entre le nombre et son signe : posé
+   en bout de ligne, il se retrouvait à passer le « % » à la ligne dès
+   qu'un nom d'apprentissage prenait deux lignes. */
+.rank-pct {
+  flex: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--sc-primary);
+  white-space: nowrap;
+}
+
+.rank-line {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rank-line-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.rank-col-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Le sélecteur : le `select` du navigateur, habillé comme le bouton de
+   la planche. Le chevron est dessiné à côté, la flèche native masquée. */
+.rank-select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 0 16px;
+  border-radius: 12px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+  color: var(--sc-text3);
+}
+
+.rank-select select {
+  max-width: 220px;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 15px;
+  color: var(--sc-text);
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  text-overflow: ellipsis;
+}
+
+.rank-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rank-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 56px;
+  padding: 0 18px;
+  border-radius: 12px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+}
+
+.rank-row.is-me {
+  background: var(--sc-primary-soft);
+  border-color: var(--sc-primary-line);
+}
+
+/* Le rang en mono : c'est une colonne de chiffres, et le sans-serif
+   la fait danser d'une ligne à l'autre. */
+.rank-place {
+  width: 26px;
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--sc-text3);
+}
+
+.rank-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rank-row.is-me .rank-name {
+  font-weight: 700;
+}
+
+.rank-points {
+  flex: none;
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+}
+
 @media (min-width: 1024px) {
+  /* Sur la planche, l'interrupteur est dimensionné à ses deux mots :
+     étiré sur 380 px, il se lisait comme une barre d'onglets. */
   .rank-tabs {
-    max-width: 380px;
+    width: fit-content;
+    max-width: none;
+    grid-template-columns: auto auto;
+    gap: 6px;
+    border-radius: 14px;
     margin: 0 0 6px;
+  }
+
+  .rank-tabs .segment {
+    padding: 0 22px;
+    border-radius: 10px;
   }
 
   .forces-grid {
@@ -1584,6 +1989,17 @@ button {
     gap: 16px;
   }
 
+  .rank-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+  }
+
+  .rank-col .mono {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+  }
 }
 
 
@@ -1659,6 +2075,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex: none;
   min-height: 52px;
   padding: 0 16px;
   border-radius: 12px;
@@ -1698,16 +2115,22 @@ button {
     justify-content: center;
   }
 
-  /* La barre d'action suit la mesure de la page au lieu de courir
-     d'un bord à l'autre de l'écran. */
-  .desk-column.is-wide .footer-bar {
-    align-items: center;
+  /* `.create-own` pose son propre `display` : sans cette règle, la
+     classe `desk-hide` posée dessus ne l'emporterait pas. */
+  .create-own.desk-hide {
+    display: none;
   }
 
-  .desk-column.is-wide .footer-bar > * {
-    width: 100%;
-    max-width: 380px;
+  /* Sur 1180 px, un bouton plein vert d'un bord à l'autre n'est plus
+     un bouton, c'est un bandeau. Il garde son poids sans prendre la
+     mesure de la page. */
+  .themes-add {
+    align-self: flex-start;
+    width: auto;
+    min-width: 320px;
+    padding: 0 28px;
   }
+
 }
 
 .cat-sub {
@@ -1809,12 +2232,16 @@ button {
 }
 
 @media (min-width: 1024px) {
+  /* Le formulaire tient la colonne large, ce qu'on garde tient la
+     colonne étroite : c'est l'ordre de lecture de la maquette, et il
+     met l'argument à hauteur du champ email plutôt qu'après lui. */
   .auth-split {
     display: grid;
-    grid-template-columns: 1fr 460px;
-    gap: 64px;
-    align-items: center;
+    grid-template-columns: minmax(0, 1fr) 400px;
+    gap: 56px;
+    align-items: start;
     min-height: 620px;
+    padding-top: 52px;
   }
 
   .auth-pitch {
@@ -1822,7 +2249,7 @@ button {
   }
 
   .auth-head {
-    font-size: 56px;
+    font-size: 42px;
   }
 
   .auth-line {
@@ -2056,4 +2483,4147 @@ button {
     font-size: 16px;
     line-height: 2;
   }
+}
+
+/* ============================================================
+   REFONTE — un seul système de page
+   ============================================================
+
+   Six écrans étaient passés en pleine largeur et six étaient restés
+   dans la colonne téléphone de 520px : passer des réglages à la
+   création donnait l'impression de changer d'application. Tous
+   suivent désormais la même coquille, aux mesures de la maquette :
+   1180px pour les écrans de consultation et de choix, 1000px pour
+   l'atelier de création, qui est une suite de formulaires et se lit
+   mal sur une ligne trop longue. */
+
+.page-inner.is-narrow {
+  max-width: none;
+}
+
+/* Chaque écran garde sa grille propre, mais toutes viennent de la
+   maquette — aucune n'est inventée ici. */
+.split-380,
+.split-420,
+.split-340,
+.onb-hero,
+.grid-3,
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .page-inner.is-narrow {
+    max-width: 1000px;
+  }
+
+  .split-380 {
+    grid-template-columns: 1fr 380px;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .split-340 {
+    grid-template-columns: 340px 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .onb-hero {
+    grid-template-columns: 1fr 380px;
+    gap: 48px;
+    align-items: center;
+    min-height: 640px;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  /* Les tuiles de catégorie et de thème partagent la même hauteur :
+     une grille dont les cases changent de taille d'une planche à
+     l'autre se lit comme deux composants différents. */
+  .grid-3 .tile,
+  .grid-4 .tile {
+    min-height: 160px;
+    padding: 22px;
+    gap: 14px;
+  }
+
+  .grid-4 .tile {
+    min-height: 140px;
+  }
+
+  /* La barre d'action ne court plus d'un bord à l'autre : elle suit la
+     mesure de la page comme le reste. */
+  .desk-column.is-wide .footer-bar {
+    align-items: center;
+    border-top: 1px solid var(--sc-line);
+  }
+
+  .desk-column.is-wide .footer-bar > * {
+    width: 100%;
+    max-width: 380px;
+  }
+}
+
+/* ============================================================
+   ONBOARDING
+   ============================================================ */
+
+.onb-tagline {
+  font-size: 32px;
+}
+
+.onb-line {
+  font-size: 16px;
+  max-width: 52ch;
+}
+
+@media (min-width: 1024px) {
+  .onb-tagline {
+    font-size: 48px;
+    line-height: 1.15;
+  }
+
+  .onb-line {
+    font-size: 18px;
+  }
+
+  /* Le bouton d'entrée n'a pas à traverser la moitié de l'écran. */
+  .onb-actions {
+    align-items: flex-start;
+    max-width: 380px;
+  }
+}
+
+.wordmark-link,
+.mobile-bar-mark {
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* L'atelier de création : 760px, pas 1180. C'est une suite de
+   formulaires — au-delà, un champ traverse l'écran et l'œil perd le
+   lien entre le libellé et sa saisie. 1000px tenait encore un bouton
+   d'action large comme la page ; 760px est la mesure d'une colonne de
+   lecture, la même que la carte d'exercice. L'en-tête suit la même
+   largeur, sinon les traits de progression flottent au-dessus du vide. */
+@media (min-width: 1024px) {
+  .create-flow {
+    align-items: center;
+  }
+
+  .create-flow > * {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  /* 760 de contenu + les deux marges de 40 : la flèche de retour et les
+     traits de progression tombent alors sur les bords de la colonne, pas
+     40px en dedans. */
+  .create-head {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+  }
+}
+
+/* ============================================================
+   ============================================================
+   REFONTE « TOUR 1 » — SaraLearn RWD
+   ============================================================
+
+   Cette section vient après tout le reste et reprend, une par une,
+   les règles que la nouvelle planche redessine. Elle est en fin de
+   fichier plutôt que dispersée dans les sections d'origine : la
+   refonte se lit alors d'un bloc, et l'ancienne feuille reste un
+   témoin qu'on peut comparer ou retirer d'un coup.
+   ============================================================ */
+
+/* ----- TYPE --------------------------------------------------
+   Space Grotesk porte les questions et les titres, DM Sans tout
+   ce qui se lit en continu, DM Mono les étiquettes et compteurs.
+   L'italique serif de l'ancienne planche n'existe plus : la
+   classe survit pour ne rien casser, mais elle ne penche plus. */
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+}
+
+.serif-italic {
+  font-family: var(--font-ui);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--sc-text3);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--sc-text3);
+}
+
+.body {
+  line-height: 1.5;
+}
+
+/* Chiffres et compteurs : le mono aligne les colonnes d'un
+   classement, que le sans-serif fait danser. */
+.mono {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--sc-text3);
+}
+
+.num {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* ----- LOADER SEGMENTÉ ---------------------------------------
+   Trois traits au lieu d'un : on voit d'un coup d'œil où l'on en
+   est dans la série, pas seulement dans l'écran courant. */
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  background: transparent;
+  display: flex;
+  gap: 4px;
+  padding: 14px 18px 0;
+  padding-top: calc(14px + env(safe-area-inset-top));
+  z-index: 25;
+}
+
+.loader-seg {
+  flex: 1;
+  height: 3px;
+  border-radius: var(--r-pill);
+  background: var(--sc-veil-strong);
+  overflow: hidden;
+}
+
+.loader-fill {
+  height: 100%;
+  border-radius: var(--r-pill);
+  background: var(--sc-primary);
+  transition: width 250ms linear;
+}
+
+/* ----- BOUTONS ----------------------------------------------- */
+
+.btn-primary {
+  min-height: 58px;
+  border-radius: var(--r-lg);
+  box-shadow: none;
+  font-weight: 700;
+}
+
+.btn-outline {
+  min-height: 54px;
+  border-radius: 16px;
+  border: 1.5px solid var(--sc-line);
+  font-size: 16px;
+  color: var(--sc-text);
+}
+
+.btn-link {
+  color: var(--sc-primary);
+  font-weight: 700;
+}
+
+/* Le « + » du coin haut droit : déposer une connaissance est la
+   seule action de création, elle mérite une cible ronde pleine. */
+.round-add {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform var(--dur-fast) var(--ease-spring);
+}
+
+.round-add:active {
+  transform: scale(0.92);
+}
+
+/* ----- RÉPONSES ---------------------------------------------- */
+
+.options {
+  gap: 10px;
+  /* Le rail est monté au-dessus des réponses : elles reprennent
+     toute la largeur, contrairement à la planche précédente où il
+     leur mangeait 76 px. */
+  width: 100%;
+}
+
+.option {
+  min-height: 60px;
+  padding: 0 20px;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--sc-line);
+  background: var(--sc-veil);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option:not(:disabled):hover {
+  border-color: var(--sc-line-solid);
+  background: var(--sc-veil-strong);
+}
+
+/* ----- CHIPS, CARTES, JAUGES --------------------------------- */
+
+.chip {
+  gap: 8px;
+  padding: 8px 12px;
+  min-height: 38px;
+  border-radius: var(--r-pill);
+  background: var(--sc-veil);
+  border: 1px solid var(--sc-line);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--sc-text);
+}
+
+.chip-sub {
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+.card {
+  padding: 18px;
+  border-radius: 16px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+}
+
+.card-sunk {
+  border-radius: 16px;
+  background: var(--sc-veil);
+}
+
+.meter {
+  border-radius: var(--r-pill);
+  background: var(--sc-veil-strong);
+}
+
+.meter-fill {
+  border-radius: var(--r-pill);
+}
+
+.tile {
+  border-radius: 20px;
+}
+
+.checkbox {
+  border-radius: 7px;
+}
+
+/* ----- RAIL SUPERPOSÉ ----------------------------------------
+   Le rail quitte le pied de page et se pose SUR le contenu, le
+   long du bord droit, à la façon d'un fil vertical. Il tient de
+   l'en-tête au bloc de réponses ; la question réserve sa gouttière
+   dans `.exo-body`, les réponses passent dessous. */
+
+.rail {
+  right: 14px;
+  /* Sous le bouton d'ajout, jamais dessus : l'en-tête descend à 80 px
+     pour dégager le loader, et le « + » qu'il porte finit à 128. */
+  top: calc(132px + env(safe-area-inset-top));
+  /* Étirer la colonne d'un bord à l'autre et écarter ses éléments avait
+     un sens à sept : ils remplissaient la hauteur. À trois — j'aime,
+     j'aime pas, commentaires — space-between les éparpillait sur 340 px
+     de vide. Le rail reprend le `bottom` et le `gap` de sa règle de base
+     et redevient une pile compacte, accrochée en haut. */
+  /* bottom: 340px; */
+  /* gap: 0; */
+  /* justify-content: space-between; */
+  pointer-events: none;
+}
+
+.rail > * {
+  pointer-events: auto;
+}
+
+.rail-item {
+  width: 46px;
+  /* Le disque fait 42 px, ce que la planche demande. Les deux boutons
+     sans compteur — classement et réglages — n'avaient alors que 42 px
+     de haut : sous le minimum tactile. Le bouton, lui, garde 44. */
+  min-height: 44px;
+  justify-content: center;
+  gap: 2px;
+}
+
+.rail-disc {
+  width: 42px;
+  height: 42px;
+  background: var(--sc-veil);
+  border: 0;
+  box-shadow: none;
+}
+
+.rail-count {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--sc-text2);
+}
+
+/* ----- ÉCRAN D'EXERCICE -------------------------------------- */
+
+/* Le voile vert du haut : il donne sa profondeur à l'écran sans
+   rien coûter en contraste au texte, qui vit plus bas. */
+.exo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--sc-wash);
+  pointer-events: none;
+}
+
+.exo-body {
+  /* 80 px à droite : la largeur du rail plus sa respiration. */
+  padding: 0 80px 0 22px;
+  gap: 18px;
+  position: relative;
+}
+
+.exo-foot {
+  padding: 0 18px 26px;
+  padding-bottom: calc(26px + env(safe-area-inset-bottom));
+  gap: 10px;
+}
+
+.exo-type {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--sc-text3);
+}
+
+.swipe-hint {
+  justify-content: center;
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+/* ----- FÉLICITATION PLEIN ÉCRAN ------------------------------
+   Deux secondes de vert plein, confettis et rayons. C'est le seul
+   moment où l'app change entièrement de fond : la réussite se voit
+   depuis l'autre bout de la pièce. */
+
+.exo.is-ok {
+  background: var(--sc-primary);
+  color: #ffffff;
+}
+
+.exo.is-ok::before {
+  background: radial-gradient(80% 45% at 50% 40%, rgba(255, 255, 255, 0.22), transparent 70%);
+}
+
+.exo.is-ok .loader-seg {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.exo.is-ok .loader-fill {
+  background: #ffffff;
+}
+
+.exo.is-ok .exo-body {
+  padding: 0 34px;
+  align-items: center;
+  text-align: center;
+}
+
+/* Sur la félicitation, le fond EST le vert de l'action : un bouton vert
+   y devient invisible et se lit comme une ligne de texte. On l'inverse —
+   blanc plein, encre verte. Il n'existe que depuis que l'écran ne passe
+   plus seul à l'explication ; avant, il n'y avait rien à voir ici. */
+
+/* L'ORBE SUBIT LE MÊME SORT, et pour la même raison : il est vert, le
+   fond est vert. Il n'apparaissait pas ici tant que la félicitation
+   n'avait rien à lire — elle se dit maintenant, donc il se montre, donc
+   il doit se voir. Disque blanc, onde et « ▶ » en vert. */
+.exo.is-ok .audio-orb,
+.desk-card.is-ok .audio-orb {
+  background: #ffffff;
+  color: var(--sc-primary);
+}
+
+.exo.is-ok .audio-orb-glint,
+.desk-card.is-ok .audio-orb-glint {
+  opacity: 0.35;
+}
+
+.exo.is-ok .audio-orb-wave span,
+.desk-card.is-ok .audio-orb-wave span {
+  background: var(--sc-primary);
+}
+
+.exo.is-ok .audio-orb-play,
+.desk-card.is-ok .audio-orb-play {
+  background: transparent;
+  color: var(--sc-primary);
+}
+
+.exo.is-ok .audio-orb-ring,
+.desk-card.is-ok .audio-orb-ring {
+  border-color: rgba(255, 255, 255, 0.55);
+}
+.exo.is-ok .exo-foot .btn-primary,
+.desk-card.is-ok .btn-primary {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: var(--sc-primary);
+}
+
+.exo.is-ok .exo-foot .btn-primary:active,
+.desk-card.is-ok .btn-primary:active {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+
+.celebrate {
+  position: relative;
+  width: 168px;
+  height: 168px;
+  display: grid;
+  place-items: center;
+}
+
+.celebrate-burst {
+  position: absolute;
+  inset: 20px;
+  border-radius: var(--r-pill);
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  animation: slBurst 1.6s ease-out infinite;
+}
+
+.celebrate-ray {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 5px;
+  height: 46px;
+  margin: -23px 0 0 -2.5px;
+  border-radius: var(--r-pill);
+  transform-origin: 50% 100%;
+  animation: slRay 1.6s ease-out infinite;
+}
+
+.celebrate-disc {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  border-radius: var(--r-pill);
+  background: #ffffff;
+  color: var(--sc-primary);
+  display: grid;
+  place-items: center;
+  animation: slBounce 600ms var(--ease-spring) both;
+}
+
+.confetti {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.confetti span {
+  position: absolute;
+  top: -40px;
+  opacity: 0;
+  animation-name: slFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slFall {
+  0% {
+    transform: translateY(-120px) rotate(0deg);
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(900px) rotate(720deg);
+    opacity: 1;
+  }
+}
+
+@keyframes slBurst {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+@keyframes slRay {
+  0% {
+    transform: rotate(var(--a)) translateY(0) scaleY(0.2);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(var(--a)) translateY(-150px) scaleY(1);
+    opacity: 0;
+  }
+}
+
+@keyframes slBounce {
+  0% {
+    transform: scale(0.5) rotate(-8deg);
+    opacity: 0;
+  }
+  55% {
+    transform: scale(1.12) rotate(3deg);
+  }
+  75% {
+    transform: scale(0.97) rotate(-1deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+}
+
+/* ----- LIGNES DE RÉPONSE (erreur) ---------------------------- */
+
+.answer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 16px;
+  font-size: 17px;
+  border: 1px solid transparent;
+}
+
+.answer-row.is-good {
+  background: var(--sc-good-bg);
+  border-color: var(--sc-good-line);
+  font-weight: 500;
+}
+
+.answer-row.is-miss {
+  background: var(--sc-veil);
+  border-color: var(--sc-miss-line);
+  color: var(--sc-text2);
+}
+
+/* ----- EXPLICATION : les étapes numérotées ------------------- */
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--sc-veil);
+  border: 1px solid var(--sc-line);
+}
+
+.step {
+  display: flex;
+  gap: 12px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.step-num {
+  font-family: var(--font-mono);
+  color: var(--sc-primary);
+  flex: none;
+}
+
+/* ----- BARRE DE STATUT / EN-TÊTES ---------------------------- */
+
+.nav-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.icon-btn {
+  border-radius: 12px;
+  background: var(--sc-veil);
+}
+
+/* ============================================================
+   CADRE DESKTOP — rail latéral gauche
+   ============================================================ */
+
+.shell {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+
+.side-rail {
+  width: 84px;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 26px 0;
+  border-right: 1px solid var(--sc-line);
+  background: var(--sc-surface);
+  transition: width var(--dur-base) var(--ease-out);
+}
+
+.side-rail.is-open {
+  width: 248px;
+  align-items: stretch;
+  gap: 8px;
+  padding: 28px 16px;
+}
+
+.side-mark {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border-radius: 13px;
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+}
+
+.side-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 6px 22px 6px;
+}
+
+.side-link {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  border: 0;
+  background: transparent;
+  color: var(--sc-text3);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background var(--dur-fast) var(--ease-out);
+}
+
+.side-link:hover {
+  background: var(--sc-veil);
+  color: var(--sc-text);
+}
+
+.side-link.is-on {
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary);
+}
+
+.side-rail.is-open .side-link {
+  width: auto;
+  height: auto;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  color: var(--sc-text2);
+  justify-items: initial;
+}
+
+.side-rail.is-open .side-link.is-on {
+  color: var(--sc-primary-ink);
+  font-weight: 700;
+}
+
+.side-label {
+  flex: 1;
+  text-align: left;
+}
+
+.side-badge {
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+.side-toggle {
+  width: 34px;
+  height: 34px;
+  flex: none;
+  border-radius: 9px;
+  border: 0;
+  background: var(--sc-veil);
+  color: var(--sc-text3);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.side-rule {
+  height: 1px;
+  background: var(--sc-line);
+  margin: 14px;
+  border: 0;
+}
+
+.side-cta {
+  width: 48px;
+  height: 48px;
+  flex: none;
+  border-radius: var(--r-pill);
+  border: 0;
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.side-rail.is-open .side-cta {
+  width: auto;
+  min-height: 50px;
+  border-radius: var(--r-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.side-account {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 8px 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+}
+
+/* La scène d'exercice : rail d'actions, carte, colonne latérale. */
+.desk-stage {
+  gap: 40px;
+}
+
+.desk-card {
+  width: 520px;
+  height: 800px;
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.desk-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--sc-wash);
+  pointer-events: none;
+}
+
+.desk-card > * {
+  position: relative;
+}
+
+.desk-card .loader {
+  position: relative;
+  background: transparent;
+  padding: 18px 24px 0;
+}
+
+/* La flèche montante ouvre la colonne : les 40 px qui la décalaient du
+   haut la sépareraient du geste qu'elle sert. */
+.rail-desktop {
+  position: static;
+  width: 76px;
+  gap: 18px;
+  justify-content: flex-start;
+  padding-top: 0;
+  bottom: auto;
+  top: auto;
+}
+
+.rail-desktop .rail-disc {
+  width: 52px;
+  height: 52px;
+}
+
+/* ============================================================
+   PAGE PUBLIQUE — l'accueil non connecté
+   ============================================================ */
+
+.home {
+  overflow-y: auto;
+  background: var(--sc-bg);
+}
+
+.home-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px 24px;
+  border-bottom: 1px solid var(--sc-line);
+}
+
+.home-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+/* En téléphone, quatre éléments se disputent une seule ligne de 390 px :
+   la marque, FR/EN, « se connecter » et « essayer ». Aux dimensions
+   partagées ils totalisent plus que la largeur disponible et le wordmark
+   se fait écraser. On resserre plutôt que de retirer une entrée : les
+   deux pastilles sont les seules portes vers le compte et vers le flux
+   depuis le haut de page. */
+@media (max-width: 1023px) {
+  .home-top {
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .home-nav {
+    gap: 6px;
+  }
+
+  /* `min-height` et non `height` : une règle plus bas pose un
+     `min-height: 38px` sur `.chip`, qu'une hauteur fixe ne peut pas
+     contredire. Et `nowrap`, sinon « Se connecter » se casse en deux
+     lignes dans une pastille faite pour une seule. */
+  .home-nav .chip {
+    min-height: 34px;
+    height: 34px;
+    padding: 0 11px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .home-nav .lang-pill {
+    padding: 0 8px;
+    font-size: 12px;
+  }
+}
+
+/* Les deux pastilles de l'en-tête. `.chip` est un composant partagé et
+   statique ; ici il est cliquable, d'où le curseur et l'état pressé. */
+.home-chip {
+  background: transparent;
+  cursor: pointer;
+}
+
+.home-chip.is-primary {
+  background: var(--sc-primary);
+  border-color: var(--sc-primary);
+  color: var(--sc-on-primary);
+  font-weight: 700;
+}
+
+.home-hero {
+  display: grid;
+  gap: 26px;
+  padding: 44px 24px 48px;
+  align-items: center;
+}
+
+.home-kicker {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--sc-primary);
+}
+
+.home-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 42px;
+  line-height: 1.04;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-wrap: pretty;
+}
+
+.home-lead {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--sc-text2);
+  max-width: 52ch;
+  text-wrap: pretty;
+}
+
+/* Les boutons de la page publique ne traversent pas l'écran : ils se
+   posent côte à côte et se dimensionnent sur leur texte. */
+.home-cta {
+  width: auto;
+  padding: 0 26px;
+  /* `.btn-primary` est posé à 100 % pour les pieds de page de l'app ;
+     dans une colonne `stretch`, il traverserait la moitié de l'écran. */
+  align-self: flex-start;
+}
+
+/* ----- LES SECTIONS DE PRÉSENTATION --------------------------
+   Cinq bandes qui alternent le fond pour se séparer sans filet :
+   piliers, boucle, refus, communauté, partage. */
+.home-band {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 46px 24px;
+}
+
+.home-band.is-sunk {
+  background: var(--sc-sunk);
+}
+
+.home-band-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: pretty;
+}
+
+.home-band-lead {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--sc-text2);
+  max-width: 62ch;
+  text-wrap: pretty;
+}
+
+.home-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.home-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  border-radius: var(--r-lg);
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+}
+
+.home-band.is-sunk .home-item {
+  border-color: var(--sc-line-solid);
+}
+
+/* Le numéro en mono : la planche numérote toutes ses listes, et c'est
+   ce qui distingue une énumération ordonnée d'un tas de cartes. */
+.home-item-n {
+  color: var(--sc-primary);
+  font-size: 12px;
+}
+
+.home-item h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.home-item p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--sc-text2);
+}
+
+/* ----- LA CARTE DE PROMPT ------------------------------------
+   Ce qui rend concrète la promesse « l'IA écrit les questions » :
+   le prompt qu'on écrit, et l'exemple qu'il produit. */
+.home-share {
+  gap: 26px;
+}
+
+.home-prompt {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: var(--r-lg);
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line-solid);
+  box-shadow: var(--shadow-md);
+}
+
+.home-prompt-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-prompt-name {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--sc-text);
+}
+
+.home-prompt-type {
+  min-height: 28px;
+  font-size: 12px;
+  background: var(--sc-primary-soft);
+  border-color: transparent;
+  color: var(--sc-primary-ink);
+  font-weight: 700;
+  cursor: default;
+}
+
+.home-prompt-count {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+.home-prompt-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--sc-text2);
+}
+
+.home-prompt-sample {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 14px;
+  border-radius: var(--r-md);
+  background: var(--sc-sunk);
+}
+
+.home-prompt-q {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.home-prompt-opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 0 12px;
+  border-radius: var(--r-md);
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+  font-size: 14px;
+}
+
+.home-prompt-opt.is-good {
+  background: var(--sc-good-bg);
+  border-color: var(--sc-good-line);
+  color: var(--sc-primary-ink);
+  font-weight: 700;
+}
+
+.home-prompt-more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+/* ----- LA CLÔTURE -------------------------------------------- */
+.home-close {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 54px 24px 60px;
+  text-align: center;
+}
+
+.home-close-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.home-close-line {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--sc-text3);
+  max-width: 46ch;
+}
+
+.home-close-actions {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+/* La maquette d'exercice posée dans la page : un aperçu, pas un
+   écran — il ne réagit à rien et ne prend jamais le focus. */
+.home-preview {
+  position: relative;
+  width: 330px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 36px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+/* Le lavis vert de la planche. Il tient l'écran par le haut : sans
+   lui, l'aperçu est un rectangle blanc dans une page crème et ne se
+   distingue plus du fond. */
+.home-preview-wash {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    120% 60% at 50% 0%,
+    var(--sc-primary-soft),
+    transparent 60%
+  );
+}
+
+/* Le bandeau de lecture de la planche 4c : la barre et la pause. */
+.home-preview-audio {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 16px 18px 0;
+  flex: none;
+}
+
+.home-preview-bar {
+  position: relative;
+  flex: 1;
+  height: 3px;
+  border-radius: var(--r-pill);
+  background: var(--sc-line);
+  overflow: hidden;
+}
+
+.home-preview-fill {
+  display: block;
+  width: 62%;
+  height: 100%;
+  background: var(--sc-primary);
+}
+
+.home-preview-pause {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--sc-veil);
+  color: var(--sc-text2);
+  flex: none;
+}
+
+.home-preview-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  /* La marge droite dégage le rail, qui est posé PAR-DESSUS le
+     contenu : sans elle, les compteurs se lisent au travers de la
+     question et des réponses. */
+  padding: 14px 62px 22px 18px;
+  min-height: 0;
+}
+
+.home-preview-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.home-preview-chip {
+  display: inline-flex;
+  font-size: 13px;
+  min-height: 32px;
+  cursor: default;
+}
+
+.home-preview-add {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--sc-veil);
+  color: var(--sc-text2);
+  flex: none;
+}
+
+.home-preview-q {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.25;
+  /* La question de l'aperçu est une affirmation à trancher : elle
+     porte les guillemets de la planche et doit rester lisible sur
+     deux lignes, pas se couper au milieu d'un mot cité. */
+  text-wrap: pretty;
+}
+
+.home-preview-opts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.home-preview .option {
+  min-height: 46px;
+  padding: 11px 14px;
+  font-size: 15px;
+  font-weight: 500;
+  border-color: var(--sc-line);
+  background: var(--sc-surface);
+  cursor: default;
+}
+
+.home-preview .option.is-good {
+  background: var(--sc-good-bg);
+  border-color: var(--sc-good-line);
+  color: var(--sc-primary-ink);
+  font-weight: 700;
+}
+
+/* Le rail de la planche : à droite, SUR le contenu. Les deux premiers
+   sont des compteurs qui se lisent, les autres des actions — dans un
+   aperçu, aucun n'est cliquable. */
+.home-preview-rail {
+  position: absolute;
+  right: 12px;
+  bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-preview-tally {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0;
+  color: var(--sc-text3);
+}
+
+.home-preview-tally.is-ok {
+  color: var(--sc-primary);
+}
+
+.home-preview-tally.is-ko {
+  color: var(--sc-bad);
+}
+
+/* ============================================================
+   CE QUE JE PARTAGE
+   ============================================================ */
+
+.share-hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 18px;
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+}
+
+.share-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.share-stat b {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.share-stat span {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.share-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 18px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+  width: 100%;
+}
+
+.share-card.is-draft {
+  background: var(--sc-veil);
+  border-style: dashed;
+}
+
+.share-badge {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary-ink);
+  flex: none;
+}
+
+.share-badge.is-private {
+  background: var(--sc-veil);
+  color: var(--sc-text3);
+}
+
+.share-metrics {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.share-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.share-metric b {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.share-metric span {
+  font-size: 12px;
+  color: var(--sc-text3);
+}
+
+.share-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+}
+
+.stat-card b {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.stat-card span {
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+/* ============================================================
+   PODIUM DU CLASSEMENT
+   ============================================================ */
+
+.podium {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 0 18px;
+}
+
+.podium-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.podium-block {
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+  background: var(--sc-veil);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.podium-block.is-first {
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+}
+
+.podium-rank {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* ============================================================
+   DESKTOP — reprises de la refonte
+   ============================================================ */
+
+@media (min-width: 1024px) {
+  .exo-body {
+    padding: 0 30px;
+  }
+
+  .home-hero {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 60px;
+    padding: 76px 48px 64px;
+  }
+
+  .home-title {
+    font-size: 62px;
+  }
+
+  .home-lead {
+    font-size: 20px;
+  }
+
+  /* Les bandes gardent leur mesure : elles ne s'étirent pas sur
+     1440 px, elles se centrent. Sans borne, les lignes des cartes
+     couraient sur toute la largeur et devenaient illisibles. */
+  .home-band {
+    gap: 16px;
+    padding: 72px 48px;
+    align-items: center;
+  }
+
+  .home-band > * {
+    width: 100%;
+    max-width: 1080px;
+  }
+
+  .home-band-title {
+    font-size: 36px;
+  }
+
+  .home-grid {
+    gap: 20px;
+    margin-top: 18px;
+  }
+
+  .home-grid.is-three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* Le partage se lit en vis-à-vis : la promesse à gauche, le prompt
+     qui la rend concrète à droite. */
+  .home-share {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 56px;
+    align-items: start;
+  }
+
+  .home-share > * {
+    max-width: none;
+  }
+
+  .home-close {
+    padding: 84px 48px 96px;
+  }
+
+  .home-close-title {
+    font-size: 36px;
+  }
+
+  .home-top {
+    padding: 22px 48px;
+  }
+
+  .share-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* La félicitation dans le cadre desktop : c'est la carte qui verdit,
+   pas la fenêtre — l'écran garde son rail et sa colonne latérale. */
+.desk-card.is-ok {
+  background: var(--sc-primary);
+  color: #ffffff;
+  border-color: var(--sc-primary);
+}
+
+.desk-card.is-ok::before {
+  background: radial-gradient(80% 45% at 50% 40%, rgba(255, 255, 255, 0.22), transparent 70%);
+}
+
+.desk-card.is-ok .loader-seg {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.desk-card.is-ok .loader-fill {
+  background: #ffffff;
+}
+
+.desk-card.is-ok .desk-card-body {
+  align-items: center;
+  text-align: center;
+}
+
+.desk-card.is-ok .display {
+  color: inherit;
+}
+
+/* Le pied de page peut porter deux actions côte à côte depuis que la
+   publication et l'édition cohabitent sur « ce que je partage ». */
+.footer-bar {
+  gap: 10px;
+}
+
+/* ============================================================
+   MES APPRENTISSAGES — liste dense
+   ============================================================ */
+
+/* Le corps de la page : une colonne en téléphone, la grille de la
+   planche 1m en desktop — la liste à gauche, 340 px de suggestions à
+   droite. */
+.learn-body {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.learn-main {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  min-width: 0;
+}
+
+/* Le champ de recherche : voile et rayon doux en téléphone (1f), fond
+   blanc bordé en desktop (1m), où il se pose sur le papier à côté d'un
+   bouton plein. */
+.learn-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  min-height: 46px;
+  padding: 0 14px;
+  border-radius: var(--r-md);
+  background: var(--sc-veil);
+  border: 1px solid transparent;
+  font-size: 16px;
+  cursor: text;
+}
+
+.learn-search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 16px;
+  color: inherit;
+  outline: none;
+}
+
+.learn-search-row {
+  display: flex;
+  gap: 12px;
+}
+
+.learn-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* La rangée porte deux blocs : l'identité de l'apprentissage avec son
+   bouton, puis la jauge. En téléphone la grille les recompose comme la
+   planche 1f — texte et jauge en colonne, bouton à droite sur toute la
+   hauteur. En desktop (1m) la rangée devient une carte et les deux
+   blocs s'empilent pour de bon. */
+.learn-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  column-gap: 12px;
+  row-gap: 6px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--sc-veil);
+}
+
+/* La suggestion posée dans la liste du téléphone (1f) : cadre pointillé
+   sur un fond presque blanc. Elle se distingue d'une rangée suivie sans
+   changer de gabarit — la colonne ne bouge pas quand on l'ajoute. */
+.learn-row.is-sugg {
+  background: rgba(22, 26, 23, 0.03);
+  border: 1px dashed var(--sc-line);
+}
+
+/* L'intertitre qui ouvre ces suggestions. `grid-column: 1 / -1` : la
+   liste est une grille en desktop, et sans cela le titre s'installerait
+   dans une case de carte. */
+.learn-sugg-head {
+  grid-column: 1 / -1;
+  padding: 14px 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* La ligne d'un apprentissage que j'ai créé : elle s'ouvre. Le curseur
+   et le retour au survol sont ce qui le dit — sans eux, rien ne
+   distingue une ligne cliquable d'une ligne qui ne l'est pas. */
+.learn-row.is-mine {
+  cursor: pointer;
+  transition: background var(--dur-fast) linear, border-color var(--dur-fast) linear;
+}
+
+.learn-row.is-mine:hover,
+.learn-row.is-mine:focus-visible {
+  border-color: var(--sc-primary-line);
+}
+
+.learn-row-head {
+  display: contents;
+}
+
+/* ============================================================
+   FICHE D'AUTEUR — feuille du bas en téléphone, panneau en desktop
+   ============================================================ */
+
+/* Le corps de la fiche respire par blocs, pas par une gouttière
+   uniforme : l'en-tête et les chiffres se tiennent, la liste des
+   prompts s'en détache. */
+.sheet-doc {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.sheet-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.sheet-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--sc-text);
+}
+
+.sheet-sub {
+  font-size: 14px;
+  color: var(--sc-text3);
+}
+
+.sheet-lead {
+  margin: 6px 0 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--sc-text2);
+}
+
+/* Les trois mesures sur une rangée, séparées par un filet plutôt que
+   par trois cadres : à 390 px, trois cartes bordées se marchent dessus
+   et la dernière tombe seule à la ligne. */
+.sheet-stats {
+  display: flex;
+  padding: 14px 0;
+  border-top: 1px solid var(--sc-line);
+  border-bottom: 1px solid var(--sc-line);
+}
+
+.sheet-stat {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0 14px;
+  border-left: 1px solid var(--sc-line);
+}
+
+.sheet-stat:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.sheet-stat b {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--sc-text);
+}
+
+.sheet-stat span {
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--sc-text3);
+}
+
+.sheet-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Le compte à côté du titre de section : on sait combien il y en a
+   avant d'avoir fait défiler. */
+.sheet-count {
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: var(--r-pill);
+  background: var(--sc-veil);
+  color: var(--sc-text3);
+  font-size: 12px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+/* Un prompt. Le texte est celui qu'a écrit le modèle : monospace, car
+   c'est une consigne qu'on relit mot à mot — mais replié, car trois
+   consignes dépliées font un mur que personne ne parcourt. */
+.prompt-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+  border-radius: var(--r-md);
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+}
+
+.prompt-card.is-out {
+  background: transparent;
+  border-style: dashed;
+  opacity: 0.55;
+}
+
+.prompt-card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* Le numéro d'ordre : les prompts s'exécutent dans l'ordre du
+   programme, et l'auteur les désigne par leur rang. */
+.prompt-rank {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--r-pill);
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.prompt-card-title {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.prompt-name {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--sc-text);
+}
+
+.prompt-desc {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--sc-text3);
+}
+
+/* Le type de question, tel qu'il apparaît en tête d'exercice. Il dit
+   ce que le prompt produira sans qu'on ait à le lire. */
+.prompt-kind {
+  flex: none;
+  padding: 4px 8px;
+  border-radius: 7px;
+  background: var(--sc-veil);
+  color: var(--sc-text2);
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.prompt-card-tag {
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sc-text3);
+}
+
+.prompt-card-text {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--sc-sunk);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--sc-text2);
+  /* Le prompt peut porter des retours à la ligne : les écraser
+     collerait les consignes les unes aux autres. */
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.prompt-card-text.is-empty {
+  font-family: inherit;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--sc-text3);
+}
+
+/* Trois lignes, puis un dégradé qui dit qu'il en reste. Une coupe nette
+   laisse croire que le prompt s'arrête là. */
+.prompt-card-text.is-clamped {
+  position: relative;
+  max-height: 66px;
+  overflow: hidden;
+}
+
+.prompt-card-text.is-clamped::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 26px;
+  background: linear-gradient(to bottom, transparent, var(--sc-sunk));
+}
+
+.prompt-more {
+  align-self: flex-start;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--sc-primary);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.prompt-more:hover {
+  text-decoration: underline;
+}
+
+.learn-row-meter {
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* La jauge prend la place qui reste : posée dans une rangée flex, elle
+   se réduirait à son contenu, c'est-à-dire à rien. */
+.learn-row-meter .meter {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Le pourcentage écrit ne rentre pas dans la colonne du téléphone : la
+   jauge y suffit, elle se lit d'un coup d'œil. */
+.learn-pct {
+  display: none;
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+.learn-toggle {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  min-width: 44px;
+  min-height: 44px;
+  flex: none;
+  border: 0;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+  transition:
+    transform var(--dur-fast) var(--ease-spring),
+    background var(--dur-fast) linear,
+    color var(--dur-fast) linear;
+}
+
+.learn-toggle.is-on {
+  background: var(--sc-veil);
+  color: var(--sc-text3);
+}
+
+.lt-face {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Le libellé d'état n'existe qu'en desktop : en téléphone la pastille
+   fait 44 px de côté et n'a la place que du geste. */
+.lt-rest,
+.lt-word {
+  display: none;
+}
+
+/* La bascule état/geste n'a lieu qu'en desktop : c'est là que la
+   pastille porte un libellé. En téléphone elle n'a jamais montré que
+   le geste — une croix — et rien ne change. */
+@media (min-width: 1024px) {
+  .lt-rest {
+    display: flex;
+  }
+
+  .lt-word {
+    display: inline;
+  }
+
+  .learn-toggle.is-on .lt-act {
+    display: none;
+  }
+
+  .learn-toggle.is-on:hover .lt-act,
+  .learn-toggle.is-on:focus-visible .lt-act {
+    display: flex;
+  }
+
+  .learn-toggle.is-on:hover .lt-rest,
+  .learn-toggle.is-on:focus-visible .lt-rest {
+    display: none;
+  }
+}
+
+/* Au survol d'un apprentissage suivi, la croix prend la couleur du
+   retrait : le bouton annonce ce qu'il va faire avant qu'on l'appuie. */
+.learn-toggle[aria-pressed='true']:hover {
+  background: var(--sc-miss-bg) !important;
+  color: var(--sc-miss-ink) !important;
+}
+
+.learn-toggle:active {
+  transform: scale(0.94);
+}
+
+/* ============================================================
+   AJOUTER DES APPRENTISSAGES — catégories à gauche, liste à droite
+   ============================================================ */
+
+/* La page tient la hauteur de l'écran au lieu de défiler : la planche
+   pose deux blocs de hauteur fixe, chacun avec son propre défilement.
+   La colonne des catégories reste ainsi sous la main pendant qu'on
+   parcourt les apprentissages de celle qui est ouverte. */
+.pick-page {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-bottom: 12px;
+  /* La marge de page habituelle mangeait la colonne de droite : à
+     390 px, moins 118 de catégories, il ne restait pas de quoi écrire
+     un titre d'apprentissage. La planche pose ces deux blocs presque
+     bord à bord. */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pick-inner {
+  flex: 1;
+  min-height: 0;
+}
+
+/* Le nom prend la place qui reste et se coupe plutôt que de passer à
+   la ligne : une rangée haute de deux lignes rompt le rythme de la
+   liste, et le compte d'exercices se retrouvait poussé au milieu. */
+.pick-row-name {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* La barre d'outils : recherche, tris, filtres. Elle est hors des
+   colonnes qui défilent — chercher pendant que la liste file est le
+   cas normal, et une barre qui s'échappe vers le haut ne sert plus. */
+.pick-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: none;
+  padding: 0 4px 12px;
+}
+
+/* En téléphone la recherche prend sa propre ligne : posée sur la même
+   que les trois boutons, elle se réduit à la loupe. La planche
+   téléphone l'écrit d'ailleurs sur deux lignes. */
+.pick-tools .learn-search {
+  flex: 1 1 100%;
+}
+
+.pick-tool {
+  min-height: 46px;
+  padding: 0 16px;
+  flex: none;
+  border: 1px solid transparent;
+  border-radius: var(--r-md);
+  background: var(--sc-veil);
+  color: var(--sc-text2);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* « Filtres » n'ordonne rien : la planche le pose en bouton bordé, à
+   part des deux tris qui, eux, sont pleins. */
+.pick-tool.is-line {
+  background: transparent;
+  border: 1.5px solid var(--sc-line);
+}
+
+.pick-tool.is-on {
+  background: var(--sc-primary);
+  border-color: var(--sc-primary);
+  color: var(--sc-on-primary);
+  font-weight: 700;
+}
+
+/* 124 px pour les catégories : à 118, « Conjugaison » et « Orthographe »
+   — un seul mot, aucun espace où couper — débordaient du panneau. Ce
+   sont les noms réels du catalogue, pas ceux de la planche, qui fixent
+   cette largeur. */
+.pick-split {
+  display: grid;
+  grid-template-columns: 124px minmax(0, 1fr);
+  gap: 12px;
+  align-items: stretch;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Le panneau de sélection n'existe qu'à partir de 1280 px : en dessous,
+   c'est la barre du bas qui porte le compte et la sortie. */
+.pick-cart {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+  padding: 18px;
+  border-radius: 16px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+  overflow-y: auto;
+}
+
+.pick-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary-ink);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.pick-tag.is-quiet {
+  background: var(--sc-veil);
+  color: var(--sc-text3);
+  cursor: default;
+}
+
+/* Le nom et le compte d'une catégorie : empilés tant que la colonne
+   fait 118 px, côte à côte dès qu'elle en fait 260. */
+.pick-cat-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pick-cat-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+/* Dans 118 px, « Conjugaison » ne tient pas et n'a pas d'espace où se
+   couper : on l'autorise à casser dans le mot plutôt qu'à déborder du
+   panneau. */
+.pick-cat-name .side-label {
+  overflow-wrap: anywhere;
+}
+
+.pick-cat-body .side-badge {
+  padding-left: 16px;
+}
+
+/* En téléphone le titre de la catégorie s'écrit sur deux lignes s'il le
+   faut ; en desktop la ligne est assez large pour qu'une coupe nette
+   vaille mieux qu'un retour. */
+.pick-list-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  font-size: 16px;
+}
+
+.pick-list-count {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--sc-text3);
+}
+
+.pick-cats {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 6px;
+  border-radius: 16px;
+  background: var(--sc-veil);
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.pick-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  min-height: 0;
+}
+
+.pick-list-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex: none;
+  padding: 0 4px 8px;
+}
+
+.pick-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.pick-cat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 8px 10px;
+  border: 0;
+  border-left: 3px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--sc-text2);
+  font-size: 14px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.pick-cat.is-on {
+  background: var(--sc-surface);
+  border-left-color: var(--sc-primary);
+  color: var(--sc-text);
+  font-weight: 700;
+}
+
+.pick-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+  padding: 0 12px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+.pick-row:hover {
+  background: var(--sc-veil);
+}
+
+.pick-row.is-on {
+  background: var(--sc-primary-soft);
+  border-color: var(--sc-primary-line);
+  font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  .pick-page {
+    padding: 0 44px 40px;
+  }
+
+  .pick-split {
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  /* Le champ de recherche de la barre d'outils prend la place qui
+     reste ; les tris et les filtres sont dimensionnés à leur mot. */
+  .pick-tools .learn-search {
+    flex: 1 1 auto;
+    min-height: 50px;
+  }
+
+  .pick-list-title {
+    display: block;
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Sur la planche, le compte est de la taille du titre : c'est le gras
+     qui distingue la catégorie de son décompte, pas le corps. */
+  .pick-list-count {
+    font-size: inherit;
+  }
+
+  .pick-tool {
+    min-height: 50px;
+    padding: 0 18px;
+  }
+
+  /* La colonne des catégories : un panneau enfoncé, le nom à gauche et
+     le compte à droite. En téléphone le compte passe sous le nom, faute
+     de 118 px pour les deux. */
+  .pick-cats {
+    background: var(--sc-sunk);
+    padding: 12px;
+    gap: 4px;
+  }
+
+  .pick-cat {
+    min-height: 48px;
+    font-size: 16px;
+    padding: 0 14px;
+  }
+
+  .pick-cat-body {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .pick-cat-body .side-badge {
+    padding-left: 0;
+  }
+
+  /* Deux colonnes de cases, comme sur la planche desktop. `minmax(0,
+     1fr)` et non `1fr` : les noms d'apprentissage ne passent pas à la
+     ligne, leur largeur minimale est donc celle du titre entier, et une
+     colonne en `1fr` s'élargissait jusqu'à passer sous la colonne
+     voisine. */
+  .pick-rows {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 10px;
+    align-content: start;
+    padding-right: 4px;
+  }
+
+  /* Sur fond crème et à cette densité, une case non retenue doit
+     porter sa propre surface : la planche desktop les pose en blanc
+     bordé, et sans ce fond la grille ne se lit plus comme des cases
+     mais comme du texte aligné. Le téléphone les garde transparentes —
+     la liste y est simple et le fond de l'écran suffit. */
+  .pick-row {
+    background: var(--sc-surface);
+    border-color: var(--sc-line);
+  }
+
+  /* ----- MES APPRENTISSAGES, PLANCHE 1m ----------------------
+     1440 × 900 : la liste à gauche, 340 px de suggestions à droite,
+     32 px de gouttière. Les rangées deviennent des cartes blanches
+     bordées — le voile gris de la liste dense était le fond du
+     téléphone, pas celui de la planche desktop. */
+
+  /* Cette planche-ci ne borne pas la mesure à 1180 px comme « réglages »
+     ou « classement » : elle pose 44 px de marge et laisse la grille
+     prendre le reste. Une colonne de suggestions à droite ne se lit pas
+     comme du texte courant — la borner la décollerait du bord. */
+  .page-inner.is-full {
+    max-width: none;
+    padding: 0 4px;
+  }
+
+  /* La planche est dessinée pour 1440. Entre 1024 et 1280, la colonne
+     de suggestions tient encore mais la grille de cartes n'a plus la
+     place de doubler : deux colonnes y hachent les titres en mots
+     isolés. On garde la colonne, on rend la liste simple. */
+  .learn-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .learn-main {
+    gap: 22px;
+  }
+
+  .learn-search {
+    min-height: 50px;
+    padding: 0 16px;
+    background: var(--sc-surface);
+    border: 1.5px solid var(--sc-line);
+  }
+
+  /* Le bouton d'ajout n'est plus un bandeau en bas de page : il tient
+     la ligne de la recherche, dimensionné à son texte. */
+  .learn-add {
+    width: auto;
+    flex: none;
+    min-height: 50px;
+    padding: 0 20px;
+    /* 14 px, comme la recherche qu'il jouxte. Le rayon de `.btn-primary`
+       (18) le faisait plus rond que le champ, et la ligne se lisait en
+       deux morceaux au lieu d'un. */
+    border-radius: 14px;
+    font-size: 16px;
+  }
+
+  .learn-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    align-content: start;
+  }
+
+  .learn-row {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 18px;
+    background: var(--sc-surface);
+    border: 1px solid var(--sc-line);
+  }
+
+  .learn-row-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .learn-row-meter {
+    display: flex;
+  }
+
+  .learn-pct {
+    display: inline;
+    flex: none;
+  }
+
+  /* La pastille nomme l'état, elle ne se contente plus d'un glyphe :
+     « Suivi ✓ » au repos, « Retirer ✕ » sous le curseur. */
+  .learn-toggle {
+    min-width: 0;
+    min-height: 40px;
+    padding: 0 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    background: var(--sc-primary-soft);
+    color: var(--sc-primary);
+  }
+
+  .learn-toggle.is-on {
+    background: var(--sc-primary-soft);
+    color: var(--sc-primary);
+  }
+
+  /* La colonne de droite : suggestions puis invitation à produire. */
+  .learn-side {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .learn-side .mono {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+  }
+
+  .sugg-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    border-radius: var(--r-md);
+    background: var(--sc-surface);
+    border: 1px solid var(--sc-line);
+  }
+
+  /* « Partager une connaissance » vivait dans la barre du bas, où elle
+     se disputait l'œil avec l'ajout. Elle finit la colonne des
+     suggestions : c'est la dernière chose qu'on lit, et la plus rare. */
+  .learn-promo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+    padding: 18px;
+    border-radius: 16px;
+    background: var(--sc-primary-soft);
+    border: 1px solid var(--sc-primary-line);
+  }
+
+  .learn-promo-cta {
+    min-height: 44px;
+    margin-top: 4px;
+    border-radius: 12px;
+    font-size: 15px;
+    box-shadow: none;
+  }
+}
+
+/* Les mesures exactes de la planche 1m : 340 px de suggestions, 32 px
+   de gouttière, deux colonnes de cartes. À partir de 1280 px la ligne
+   d'une carte porte un titre entier, ce qui est la condition pour en
+   poser deux de front. */
+@media (min-width: 1280px) {
+  .learn-body {
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 32px;
+  }
+
+  .learn-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* « Ajouter des apprentissages », troisième colonne : 260 / reste /
+     300, comme la planche. En dessous de 1280 la colonne du milieu n'a
+     plus de quoi poser deux cases côte à côte, et la sélection retombe
+     dans la barre du bas. */
+  .pick-split {
+    grid-template-columns: 260px minmax(0, 1fr) 300px;
+  }
+
+  .pick-cart {
+    display: flex;
+  }
+
+  .pick-foot {
+    display: none;
+  }
+}
+
+/* ----- REPRISES APRÈS PASSAGE EN NAVIGATEUR -------------------
+   Trois règles de l'ancienne feuille survivaient à la refonte parce
+   qu'elles étaient plus spécifiques ou posées ailleurs. */
+
+/* La marque : « Sara » et le point prennent le vert de la planche.
+   Ils étaient à l'or de l'ancienne palette, devenu un brun d'ambre. */
+.wordmark-sara,
+.wordmark-dot,
+.mobile-bar-mark span {
+  color: var(--sc-brand);
+}
+
+/* Le loader du feed n'est plus posé en absolu sous la barre du
+   téléphone : il vit dans `.exo-top`, avec le bandeau de lecture.
+   Voir la section « BANDEAU DE LECTURE » en fin de feuille. */
+
+/* L'indice de swipe redevient une ligne discrète : la pastille noire
+   de l'ancienne planche coupait l'écran en deux juste au-dessus des
+   réponses. */
+.swipe-hint {
+  position: static;
+  margin: 0;
+  padding-top: 6px;
+}
+
+.swipe-hint span {
+  height: auto;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--sc-text3);
+  font-size: 13px;
+  font-weight: 400;
+  box-shadow: none;
+  animation: none;
+}
+
+/* Un titre d'apprentissage peut être long : la pastille le coupe au
+   lieu de passer sur deux lignes et de pousser la question. */
+.exo-bar .chip > span:nth-child(2),
+.desk-card-bar .chip > span:nth-child(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chip-sub {
+  flex: none;
+  cursor: pointer;
+}
+
+/* ============================================================
+   NOUS ÉCRIRE
+   ============================================================ */
+
+/* La pastille de sujet retenue : même dessin que les autres, remplie
+   du vert de marque — c'est la seule différence, et elle suffit. */
+.chip.is-on {
+  background: var(--sc-primary);
+  border-color: var(--sc-primary);
+  color: var(--sc-on-primary);
+  font-weight: 700;
+}
+
+.contact-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.contact-attach {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--sc-sunk);
+  border: 1px dashed var(--sc-line);
+  font-size: 15px;
+  color: var(--sc-text2);
+}
+
+.contact-note {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px;
+  border-radius: var(--r-lg);
+  background: var(--sc-primary-soft);
+  border: 1px solid var(--sc-primary-line);
+}
+
+.faq-item {
+  border-radius: 14px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+  overflow: hidden;
+}
+
+.faq-q {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 56px;
+  padding: 12px 16px;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 16px;
+  color: var(--sc-text);
+  cursor: pointer;
+}
+
+.faq-a {
+  margin: 0;
+  padding: 0 16px 16px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--sc-text2);
+}
+
+.contact-sent {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 18px;
+  padding: 40px 0;
+}
+
+.contact-sent-disc {
+  width: 88px;
+  height: 88px;
+  border-radius: var(--r-pill);
+  background: var(--sc-primary-soft);
+  display: grid;
+  place-items: center;
+}
+
+/* ============================================================
+   CONNEXION — CE QUE GARDE UN COMPTE
+   ============================================================ */
+
+.keep-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 22px;
+  border-radius: var(--r-lg);
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+}
+
+.keep-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.keep-disc {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  border-radius: 12px;
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary);
+  display: grid;
+  place-items: center;
+}
+
+.keep-local {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px;
+  border-radius: var(--r-lg);
+  background: var(--sc-primary-soft);
+  border: 1px solid var(--sc-primary-line);
+}
+
+/* ============================================================
+   GÉNÉRATION
+   ============================================================ */
+
+.gen-wait {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 20px 22px;
+}
+
+.gen-pulse {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  display: grid;
+  place-items: center;
+}
+
+/* L'anneau qui s'écarte dit que ça travaille sans promettre une
+   durée : la barre en dessous, elle, compte des exercices réels. */
+.gen-pulse::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--r-pill);
+  background: var(--sc-primary-soft);
+  animation: sl-pulse 1.8s ease-out infinite;
+}
+
+.gen-disc {
+  position: relative;
+  width: 74px;
+  height: 74px;
+  border-radius: var(--r-pill);
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary);
+  display: grid;
+  place-items: center;
+}
+
+@keyframes sl-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gen-pulse::before {
+    animation: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-split {
+    grid-template-columns: minmax(0, 1fr) 400px;
+    gap: 48px;
+  }
+
+  .contact-sent {
+    padding: 80px 0;
+  }
+}
+
+/* ============================================================
+   TOUR 4 — BANDEAU DE LECTURE
+
+   L'onde de dix-huit barres prend la largeur, un bouton de 44 px
+   bascule pause et reprise. Le bandeau coûte une quarantaine de
+   pixels ; ils sont pris sur la zone de la question, jamais sur la
+   pile de réponses, qui reste intacte.
+
+   Le bloc du haut passe DANS le flux. Le loader y était posé en
+   absolu, sous une barre du téléphone elle-même fixe : deux
+   éléments hors flux qui se marchaient dessus dès qu'on ajoutait
+   quoi que ce soit entre eux.
+   ============================================================ */
+
+.exo-top {
+  flex: none;
+  position: relative;
+  z-index: 25;
+  padding-top: env(safe-area-inset-top);
+}
+
+/* Le loader reprend sa place d'origine — 14 px — quand la lecture
+   est coupée et que le bandeau n'est pas là. */
+.exo .loader,
+.exo-top .loader {
+  position: static;
+  top: auto;
+  padding: 14px 18px 0;
+}
+
+.exo-top:has(.audio-bar) .loader {
+  padding-top: 4px;
+}
+
+.audio-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 18px 0;
+}
+
+/* L'orbe du tuteur — construction reprise de `S.avatar` / `S.avatarPlay` /
+   `VoiceWave` (sara-student, TuteurView.jsx), mais en vert : l'encre bleue
+   du tuteur détonnait dans un écran qui n'a pas d'autre bleu.
+
+   Trois arrêts, comme chez lui, sur le vert de la marque : un ton clair,
+   `--sc-primary` au centre, puis nettement plus sombre au bord — c'est cet
+   écart qui donne la rondeur. Ils sont écrits en clair et non en `var()` :
+   la rampe demande trois valeurs, la palette n'en publie que deux. */
+.audio-orb {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border: 0;
+  padding: 0;
+  border-radius: var(--r-pill);
+  background: radial-gradient(circle at 34% 30%, #4fb57c, #20814a 56%, #0d3d22);
+  box-shadow:
+    0 8px 22px -6px rgba(32, 129, 74, 0.55),
+    inset 0 2px 6px rgba(255, 255, 255, 0.28);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+/* Le reflet : un point de lumière en haut à gauche, flouté. C'est lui
+   qui donne le volume — sans lui l'orbe est un rond plat. */
+.audio-orb-glint {
+  position: absolute;
+  top: 16%;
+  left: 20%;
+  width: 22%;
+  height: 22%;
+  border-radius: var(--r-pill);
+  background: radial-gradient(circle, rgba(248, 235, 198, 0.9), transparent 70%);
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.audio-orb-ring {
+  position: absolute;
+  inset: -5px;
+  border-radius: var(--r-pill);
+  border: 2px solid #4fb57c;
+  animation: slOrbRing 1.3s ease-out infinite;
+  pointer-events: none;
+}
+
+.audio-orb-wave {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 22px;
+  pointer-events: none;
+}
+
+.audio-orb-wave span {
+  width: 2.5px;
+  flex: none;
+  border-radius: 3px;
+  background: #eaf6ee;
+  transform-origin: center center;
+  animation: slOrbWave 0.7s infinite ease-in-out;
+}
+
+/* Le voile au « ▶ » ne se pose qu'à l'arrêt : montrer la commande et le
+   son en cours au même endroit, c'est demander lequel des deux on lit. */
+.audio-orb-play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  border-radius: var(--r-pill);
+  background: rgba(9, 42, 24, 0.34);
+  color: #fff;
+  padding-left: 2px;
+  pointer-events: none;
+}
+
+@keyframes slOrbRing {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  70% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slOrbWave {
+  0%,
+  100% {
+    transform: scaleY(0.4);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+/* Un mouvement réduit éteint l'onde et l'anneau, pas la lecture. */
+@media (prefers-reduced-motion: reduce) {
+  .audio-orb-wave span {
+    animation: none;
+    transform: scaleY(0.7);
+  }
+
+  .audio-orb-ring {
+    animation: none;
+    opacity: 0.4;
+  }
+}
+
+.audio-acts {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+}
+
+.audio-btn {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: var(--sc-veil);
+  color: var(--sc-text2);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.audio-btn:active {
+  background: var(--sc-veil-strong);
+}
+
+/* ----- L'EN-TÊTE DU FEED -------------------------------------
+   La bande du haut revient au bandeau ; la marque et les trois
+   points le rejoignent SUR SA LIGNE — voir `.exo-bar`. */
+
+.more-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.more-menu .mobile-menu {
+  right: 0;
+  top: calc(100% + 6px);
+}
+
+/* Dans l'en-tête du feed, les trois points prennent le disque de
+   40 px de la planche plutôt que le bouton nu de la barre. */
+.exo-bar-acts .mobile-bar-btn {
+  width: 40px;
+  height: 40px;
+  background: var(--sc-veil);
+  color: var(--sc-text);
+}
+
+.mobile-menu-lang {
+  display: flex;
+  padding: 4px 8px 8px;
+}
+
+/* Le rail suit le bloc du haut : sous le « + », jamais dessus.
+   La hauteur est celle de la LIGNE PARTAGÉE, loader compris — 6 de
+   marge, la ligne, 4, puis 3 de segments. Elle vaut la taille du plus
+   grand de ses éléments : les boutons ronds font 40 px, l'orbe 44. Les
+   70 px qui s'ajoutaient ici étaient la bande de la pastille ; elle
+   n'existe plus, il ne reste que la respiration. */
+.exo {
+  --exo-top-h: 53px;
+}
+
+.exo:has(.audio-bar) {
+  --exo-top-h: 57px;
+}
+
+.rail {
+  top: calc(env(safe-area-inset-top) + var(--exo-top-h) + 12px);
+}
+
+/* La félicitation retire l'en-tête : le rail n'a plus lieu d'être,
+   et le loader remonte tout en haut avec le reste. */
+.exo.is-ok .exo-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+/* ----- LE MÊME BANDEAU, DANS LA CARTE DESKTOP ---------------- */
+
+.audio-bar.is-desktop {
+  padding: 12px 24px 0;
+}
+
+.desk-card:has(.audio-bar) .loader {
+  padding-top: 6px;
+}
+
+/* La carte desktop n'a plus de bande de pastille : le loader suit la
+   ligne partagée directement. */
+.desk-card .loader {
+  padding-top: 8px;
+}
+
+/* ============================================================
+   TOUR 2 — « AJOUTER », EN RAYONS
+
+   Trois zones : un en-tête qui ne défile pas, un corps qui défile,
+   un pied qui annonce ce qu'on a pris. L'arbre de catégories a
+   disparu : on balaie des rayons au lieu d'y descendre.
+
+   Téléphone seulement — au-delà de 1024 px c'est `PickerDesktop`
+   et ses trois colonnes qui rendent.
+   ============================================================ */
+
+/* La barre du téléphone occupe les 52 px du haut : l'en-tête réserve
+   la même bande que `.nav-head`, sinon la flèche retour passe dessous.
+   L'inscription, elle, n'a pas de barre — elle porte son compte
+   d'étapes — et reprend la marge de la planche. */
+.learn-head {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 66px 18px 14px;
+  padding-top: calc(66px + env(safe-area-inset-top));
+}
+
+.learn-head.is-onb {
+  padding-top: calc(26px + env(safe-area-inset-top));
+}
+
+.learn-head-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.learn-back {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  border: 0;
+  border-radius: 12px;
+  background: var(--sc-veil);
+  color: var(--sc-text);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.learn-title {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Le champ porte la bordure verte au repos, pas seulement au focus :
+   c'est la première chose que l'écran propose, il doit se voir. */
+.learn-field {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 54px;
+  padding: 0 16px;
+  border-radius: 16px;
+  background: var(--sc-surface);
+  border: 1.5px solid var(--sc-primary-line);
+}
+
+.learn-field input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 17px;
+  color: var(--sc-text);
+}
+
+.learn-field input::placeholder {
+  color: var(--sc-text3);
+}
+
+.learn-cancel {
+  flex: none;
+  border: 0;
+  background: transparent;
+  padding: 0 2px;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--sc-text3);
+  cursor: pointer;
+}
+
+.learn-hints {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.learn-hint {
+  border: 0;
+  padding: 8px 12px;
+  border-radius: var(--r-pill);
+  background: var(--sc-veil);
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--sc-text);
+  cursor: pointer;
+}
+
+.learn-count {
+  margin: 0;
+  font-size: 14px;
+  color: var(--sc-text3);
+}
+
+.learn-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 0 18px 26px;
+}
+
+/* ----- UN RAYON ---------------------------------------------- */
+
+.learn-shelf {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex: none;
+}
+
+.learn-shelf-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.learn-shelf-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--sc-text);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.learn-shelf-count {
+  font-weight: 400;
+  color: var(--sc-text3);
+}
+
+.learn-shelf-all {
+  flex: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sc-primary);
+  cursor: pointer;
+}
+
+/* Le rayon déborde de la marge de l'écran et se rattrape en padding :
+   sans ça, la dernière carte s'arrête net au bord et rien ne dit
+   qu'il y en a d'autres derrière. */
+.learn-shelf-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+  margin: 0 -18px;
+  /* La place du bas est celle de la barre. Sans elle, la barre se posait
+     sur le bord inférieur des cartes. */
+  padding: 0 18px 7px;
+  /* LA BARRE EST VISIBLE, et elle était masquée — `scrollbar-width: none`
+     plus un `::-webkit-scrollbar { display: none }`.
+
+     Masquée, rien ne disait qu'il y avait onze cartes derrière les 2,4
+     que l'écran montre. Le seul indice restant était le bout de carte
+     qui dépasse à droite, et il ne dit pas COMBIEN reste derrière.
+
+     Une barre proportionnelle le dit : un pouce court sur un rayon de
+     onze cartes annonce qu'on en voit le cinquième. C'est le seul
+     élément de cet écran qui donne la longueur d'un rayon. */
+  scrollbar-width: thin;
+  scrollbar-color: var(--sc-line) transparent;
+}
+
+.learn-shelf-row::-webkit-scrollbar {
+  height: 4px;
+}
+
+.learn-shelf-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.learn-shelf-row::-webkit-scrollbar-thumb {
+  background: var(--sc-line);
+  border-radius: 2px;
+}
+
+.learn-card {
+  box-sizing: border-box;
+  width: 148px;
+  flex: none;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 11px 12px 11px;
+  border-radius: 16px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+}
+
+/* DEUX lignes au plus, et c'était trois.
+
+   Trois lignes étaient justes pour l'ancien catalogue, où un titre
+   pouvait faire soixante caractères — « Accord du participe passé
+   (passé composé, plus-que-parfait) ». Le catalogue est aujourd'hui
+   fait de titres d'articles de Wikipédia, arrêtés à l'étage 1 : le
+   titre MÉDIAN fait treize caractères, et un seul des 183 dépasse
+   trente-quatre.
+
+   Or les cartes d'un rayon s'étirent à la hauteur de la plus haute.
+   Réserver trois lignes pour un cas sur 183, c'est un vide de deux
+   lignes sur toutes les autres — « Œil humain » tenait sur une ligne
+   et occupait la hauteur de trois. */
+.learn-card-name {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--sc-text);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Le pied pousse tout seul vers le bas : deux cartes côte à côte dont
+   l'une a un titre sur deux lignes gardent leurs boutons alignés. C'est
+   ce `auto` qui encaisse le vide que le clamp du titre réserve — il n'en
+   fabrique pas. */
+.learn-card-foot {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding-top: 4px;
+}
+
+.learn-card-meta {
+  font-size: 12px;
+  color: var(--sc-text3);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Un carré, pas une barre : le bouton portait le mot « Ajouter » et
+   prenait donc toute la largeur de la carte. Réduit au signe, une barre
+   de 148 px avec un + perdu au milieu n'aurait plus rien voulu dire.
+
+   36 px de côté — sous les 44 px recommandés pour une cible tactile,
+   mais la carte entière ne fait que 148 px de large : un bouton de 44 px
+   y occuperait le tiers de la largeur. */
+.learn-card-add {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary-ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.learn-card-add.is-on {
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+}
+
+/* ----- LES LISTES : RECHERCHE ET « TOUT VOIR » ---------------- */
+
+.learn-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.learn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.learn-group-head {
+  padding: 8px 0 2px;
+}
+
+/* Les lignes du catalogue. Elles portaient le nom `learn-row`, déjà pris
+   par les rangées de « Mes apprentissages » plus haut dans cette feuille :
+   à égalité de spécificité, la dernière déclarée l'emportait et cet écran
+   en repeignait un autre. Le préfixe `cat-` les sépare pour de bon. */
+.cat-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 60px;
+  padding: 0 14px;
+  border-radius: 14px;
+  background: var(--sc-surface);
+  border: 1px solid var(--sc-line);
+  text-align: left;
+  cursor: pointer;
+}
+
+.cat-row.is-on {
+  background: var(--sc-primary-soft);
+  border-color: var(--sc-primary-line);
+}
+
+.cat-row-name {
+  font-size: 16px;
+  color: var(--sc-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cat-row.is-on .cat-row-name {
+  font-weight: 500;
+}
+
+.cat-row-meta {
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+/* Le code de partage, partout où le catalogue montre un apprentissage.
+   `inline-flex` plutôt que `inline` : sur une carte de 148 px la ligne
+   se replie, et un fond posé sur un inline se coupe en deux au passage
+   à la ligne. `user-select: text` est explicite parce que ces pastilles
+   vivent dans des boutons, où la sélection ne va pas de soi — et un code
+   qu'on ne peut pas copier ne sert à rien. */
+.code-chip {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: var(--sc-veil);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--sc-text3);
+  white-space: nowrap;
+  flex: none;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+/* Dans la colonne desktop, la rangée pose déjà sa gouttière : la marge
+   de la pastille s'y ajouterait, et chaque pixel pris là est un pixel
+   de moins pour un titre qui se coupe déjà. */
+.pick-row .code-chip {
+  margin-left: 0;
+}
+
+.cat-row-add {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+}
+
+.cat-row.is-on .cat-row-add {
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary);
+}
+
+.learn-empty {
+  margin: 0;
+  padding: 8px 0;
+  font-size: 15px;
+  color: var(--sc-text3);
+}
+
+/* Le filet qui sépare les rayons éditoriaux des rayons de catégorie. */
+.learn-rule {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: none;
+}
+
+.learn-rule-line {
+  flex: 1;
+  height: 1px;
+  background: var(--sc-line);
+}
+
+/* ----- LE PIED ------------------------------------------------ */
+
+/* Le pied d'action de la création.
+
+   L'écran de proposition porte cinq cartes de chapitre : son unique
+   bouton tombait sous la ligne de flottaison, et il fallait défiler tout
+   le programme pour trouver la seule action de l'écran. Il se détache
+   donc du flux et reste au bas de la fenêtre, comme le pied du
+   catalogue. */
+.create-foot {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 -22px -26px;
+  padding: 12px 22px 18px;
+  padding-bottom: calc(18px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--sc-line);
+  background: var(--sc-surface);
+}
+
+.learn-foot {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px 24px;
+  padding-bottom: calc(24px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--sc-line);
+  background: var(--sc-surface);
+}
+
+.learn-foot-count {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--sc-text);
+}
+
+.learn-foot-meta {
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+.learn-done {
+  flex: none;
+  min-height: 48px;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 14px;
+  background: var(--sc-primary);
+  color: var(--sc-on-primary);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* ============================================================
+   INSCRIPTION — PLANCHE 1e
+
+   Deux étapes au lieu de trois. La grille de catégories a disparu :
+   elle demandait un choix qui n'était pas un abonnement, et qu'il
+   fallait refaire à l'écran suivant.
+   ============================================================ */
+
+/* L'accueil : la marque en haut, la promesse au milieu, les deux
+   sorties en bas. Trois blocs poussés aux extrémités, ce qui donne à
+   l'écran son air d'affiche plutôt que de formulaire. */
+.onb-screen {
+  justify-content: space-between;
+  padding: 44px 24px 30px;
+  padding-top: calc(44px + env(safe-area-inset-top));
+  padding-bottom: calc(30px + env(safe-area-inset-bottom));
+  background-image: radial-gradient(110% 60% at 20% 10%, var(--sc-primary-soft), transparent 60%);
+}
+
+.onb-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex: none;
+}
+
+.onb-promise {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.onb-screen .onb-tagline {
+  font-size: 40px;
+  line-height: 1.06;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  text-wrap: pretty;
+}
+
+.onb-screen .onb-line {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--sc-text2);
+}
+
+.onb-screen .onb-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: none;
+}
+
+/* Le champ de pseudo reprend le champ de recherche du catalogue : même
+   hauteur, même rayon, même bordure verte au repos. Il n'a pas d'icône —
+   il n'y a rien à chercher, on écrit son nom. */
+.pseudo-field {
+  margin-top: 4px;
+}
+
+.pseudo-field input {
+  font-size: 17px;
+}
+
+.pseudo-hint {
+  font-size: 14px;
+  color: var(--sc-text3);
+}
+
+.onb-have-account {
+  border: 0;
+  background: transparent;
+  padding: 6px 0;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--sc-text3);
+  text-align: center;
+  cursor: pointer;
+}
+
+/* ----- LES DEUX ÉTAPES --------------------------------------- */
+
+.onb-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 15px;
+  color: var(--sc-text3);
+}
+
+.onb-step-act {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--sc-text3);
+  cursor: pointer;
+}
+
+.onb-step-act:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.onb-step-title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.onb-step-lead {
+  margin: 0;
+  font-size: 16px;
+  color: var(--sc-text3);
+}
+
+/* La relecture : des lignes cochées qu'on décoche, pas des cartes. */
+.onb-pick {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 52px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 14px;
+  background: var(--sc-veil);
+  text-align: left;
+  cursor: pointer;
+}
+
+.onb-pick:not(.is-on) {
+  background: color-mix(in srgb, var(--sc-veil) 45%, transparent);
+}
+
+.onb-pick-name {
+  font-size: 17px;
+  color: var(--sc-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.onb-pick:not(.is-on) .onb-pick-name {
+  color: var(--sc-text3);
+}
+
+/* En desktop les deux étapes gardent leur mesure : les rayons ne
+   s'étirent pas sur 1440 px, ils se centrent. */
+@media (min-width: 1024px) {
+  .onb-screen {
+    padding: 64px 48px 48px;
+  }
+
+  .onb-screen .onb-tagline {
+    font-size: 52px;
+  }
+
+  .learn-head,
+  .learn-scroll,
+  .learn-foot {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+/* =============================================================
+   CRÉATION PAR SUJET — présentation et programme
+   =============================================================
+   L'auteur n'écrit qu'une phrase ; tout le reste est proposé. Ces
+   trois pièces servent à le montrer sans l'affirmer : ce qui vient
+   du modèle se lit comme une suggestion, pas comme un fait acquis.
+   ------------------------------------------------------------- */
+
+/* La pastille « Proposé ». Elle existait en style en ligne dans
+   l'ancienne étape de classement ; elle devient une classe parce
+   qu'elle sert maintenant à deux endroits. */
+.chip-proposed {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: var(--sc-primary-soft);
+  color: var(--sc-primary);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Le compteur d'étape. La planche 1g pose « 2 / 4 » en mono à droite du
+   titre, là où l'app posait cinq traits. Le trait dit combien il reste ;
+   le compteur dit aussi où l'on est, et tient sur une ligne. */
+.create-count {
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--sc-text3);
+}
+
+/* La ligne d'intention sous le titre. */
+.create-lead {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--sc-text2);
+  max-width: 62ch;
+}
+
+/* Le libellé d'un champ. Ce n'est volontairement pas un `.eyebrow` : la
+   planche réserve le mono capitalisé aux étiquettes de contenu
+   (« exemple généré ») et pose les libellés de saisie en 13px. */
+.field-label {
+  font-size: 13px;
+  color: var(--sc-text3);
+}
+
+.field-note {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--sc-text3);
+  max-width: 62ch;
+}
+
+/* Un champ creusé, sans filet. Le filet vert de `.learn-field` signale
+   un champ qu'on invite à remplir ; ici tout est déjà rempli, et la
+   bordure ne dirait plus rien. */
+.input-sunk,
+.textarea-sunk {
+  border: 0;
+  border-radius: var(--r-md);
+  background: var(--sc-veil);
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--sc-text);
+}
+
+.input-sunk {
+  min-height: 50px;
+  padding: 0 14px;
+}
+
+/* La description proposée fait deux à quatre phrases : à hauteur fixe,
+   la quatrième ligne bave dans le renfoncement du bas — un textarea ne
+   coupe pas son texte au bord du contenu. La boîte suit donc le texte
+   là où le navigateur le sait faire, et `rows` sert de plancher partout
+   ailleurs. */
+.textarea-sunk {
+  min-height: 78px;
+  max-height: 320px;
+  padding: 12px 14px;
+  line-height: 1.45;
+  resize: none;
+  field-sizing: content;
+}
+
+.input-sunk:focus-visible,
+.textarea-sunk:focus-visible {
+  outline: 2px solid var(--sc-primary-line);
+  outline-offset: 1px;
+}
+
+/* Le classement retenu : fond vert pâle, filet vert. La planche en fait
+   une ligne pleine largeur et non une pastille — ce n'est pas une
+   étiquette posée sur le contenu, c'est une décision prise pour lui. */
+.pick-row {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+  padding: 0 16px;
+  border-radius: var(--r-md);
+  background: var(--sc-primary-soft);
+  border: 1px solid var(--sc-primary-line);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--sc-text);
+}
+
+/* Les tags proposés. Plats : le filet de `.chip` marque le cliquable,
+   et ceux-là ne le sont pas. */
+.chip-flat {
+  border-color: transparent;
+  background: var(--sc-veil-strong);
+  cursor: default;
+}
+
+/* Le programme. Une ligne creusée par chapitre, comme les « concepts
+   repérés » de la planche, avec le rang en mono devant : le programme
+   est ordonné, la liste de la planche ne l'était pas.
+
+   Le rang vient du compteur CSS et non de la position en base : un
+   chapitre écarté ne doit pas laisser un trou dans la numérotation. */
+.programme {
+  list-style: none;
+  counter-reset: chapitre;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.programme li {
+  counter-increment: chapitre;
+  display: flex;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--sc-veil);
+}
+
+.programme li::before {
+  content: counter(chapitre);
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--sc-text3);
+}
+
+/* Titre et description dans UNE seule boîte : laissés frères du `::before`
+   en grille, la description retombait dans la colonne du rang. La mesure
+   est bornée — à pleine largeur de bureau, une description ferait une
+   ligne de 130 signes. */
+.prog-text {
+  min-width: 0;
+  max-width: 68ch;
+}
+
+.prog-title {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--sc-text);
+}
+
+.prog-line {
+  display: block;
+  margin-top: 3px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--sc-text3);
+}
+
+/* ----- LE CODE DE PARTAGE ------------------------------------ */
+
+/* Le bandeau du flux fermé sur un quiz. Il tient au-dessus du bandeau de
+   lecture, avant tout le reste : c'est le cadre dans lequel on joue, pas
+   une information de plus sur l'exercice. */
+.code-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 6px;
+  padding: 8px 14px;
+  border-radius: var(--r-pill);
+  background: var(--sc-primary-soft);
+}
+
+.code-banner-name {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+  font-size: 14px;
+  color: var(--sc-primary-ink);
+}
+
+.code-banner-name b {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.code-banner-out {
+  flex: none;
+  border: 0;
+  background: transparent;
+  padding: 4px 2px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--sc-primary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.learn-code-miss {
+  margin: 0;
+  font-size: 15px;
+  color: var(--sc-text3);
+}
+
+/* L'explication du renvoi vers le catalogue.
+   Le fond « sunk » plutôt qu'une couleur d'alerte : ce n'est ni une
+   erreur ni un avertissement, c'est une réponse à « pourquoi suis-je
+   ici ». Elle s'efface au premier apprentissage choisi. */
+.learn-why {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: var(--sc-sunk);
+  border: 1px solid var(--sc-line);
+}
+
+.learn-why-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--sc-text);
+}
+
+.learn-why-line {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--sc-text2);
+}
+
+/* ============================================================
+   PHOTO D'AMBIANCE (Unsplash)
+   ============================================================
+   Elle ne se montre pas comme le pictogramme juste au-dessus. Un
+   panneau routier est un dessin qu'on regarde ; une photo d'ambiance
+   plante une scène, et une scène tient la largeur ou ne sert à rien.
+   D'où : pleine largeur, recadrage en `cover`, ni fond blanc ni
+   bordure — le cadre du pictogramme lui donnait l'air d'une vignette
+   collée. */
+
+.exo-photo {
+  margin: 0;
+  width: 100%;
+}
+
+.exo-photo-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--r-md);
+  display: block;
+}
+
+/* Le crédit du photographe. Discret mais lisible : les conditions de
+   l'API Unsplash imposent de l'afficher, pas de le cacher. */
+.exo-photo-credit {
+  margin-top: 4px;
+  font-size: 11px;
+  opacity: 0.55;
+  text-align: right;
+}
+
+.exo-photo-credit a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+/* Le pictogramme garde son cadre d'origine, dans une balise `figure`
+   qui ne doit rien changer à sa mise en page. */
+.exo-image-cadre {
+  margin: 0;
+  align-self: flex-start;
 }

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 233,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the green pigment inside a leaf's cells that makes the leaf look green?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Chlorophyll",
+            "feedback": "Correct. Chlorophyll is the pigment that gives leaves their green colour."
+          },
+          {
+            "label": "Carotenoid",
+            "feedback": "Carotenoids are yellow and orange pigments that are normally hidden by the green chlorophyll, so they are not the source of the green colour."
+          },
+          {
+            "label": "Anthocyanin",
+            "feedback": "Anthocyanins are red and purple pigments produced later in the season, not the green pigment of summer leaves."
+          },
+          {
+            "label": "Quinone",
+            "feedback": "Quinones are involved in brown colour during late leaf death, not in the green colour of healthy leaves."
+          }
+        ],
+        "ok_title": "Green pigment named",
+        "ok_line": "Chlorophyll is the pigment that makes leaves green.",
+        "ko_title": "Pigment mix-up",
+        "ko_line": "That is a different pigment; chlorophyll is the green one.",
+        "exp_title": "Chlorophyll and leaf green",
+        "exp_text": "A green leaf is green because of chlorophyll, a pigment inside chloroplasts. During the growing season chlorophyll is abundant, and its green colour masks the other pigments that are also present in the leaf."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where inside a leaf cell is chlorophyll found?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "In the cell sap",
+            "feedback": "Cell sap is where anthocyanins develop, not where chlorophyll sits. Chlorophyll is inside chloroplasts."
+          },
+          {
+            "label": "In the cell wall",
+            "feedback": "The cell wall is the outer rigid layer, not the place for chlorophyll. Chlorophyll is inside a specific organelle within the cell."
+          },
+          {
+            "label": "In the chloroplast",
+            "feedback": "Correct. Chlorophyll is located inside chloroplasts, specifically in their thylakoid membrane."
+          },
+          {
+            "label": "In the nucleus",
+            "feedback": "The nucleus holds the genetic material, not chlorophyll. Chlorophyll belongs to the chloroplast."
+          }
+        ],
+        "ok_title": "Chlorophyll's home",
+        "ok_line": "Chlorophyll lives inside the chloroplast.",
+        "ko_title": "Wrong cell part",
+        "ko_line": "That structure does not hold chlorophyll.",
+        "exp_title": "Chloroplast location",
+        "exp_text": "Chlorophyll is found inside an organelle called a chloroplast, more precisely in the thylakoid membrane of that chloroplast. That is where the green pigment sits within the leaf cell."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does chlorophyll do for the plant?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It stores water for the leaf",
+            "feedback": "Water storage is not chlorophyll's job. Chlorophyll captures light energy to make food for the plant."
+          },
+          {
+            "label": "It captures solar rays to make food",
+            "feedback": "Correct. Chlorophyll captures sunlight and uses that energy to manufacture simple sugars from water and carbon dioxide."
+          },
+          {
+            "label": "It attracts insects for pollination",
+            "feedback": "Attracting insects is done by flowers and their colours, not by chlorophyll. Chlorophyll is about food production."
+          },
+          {
+            "label": "It forms the cork layer at the leaf base",
+            "feedback": "The cork layer is part of leaf drop, not chlorophyll's function. Chlorophyll is responsible for photosynthesis."
+          }
+        ],
+        "ok_title": "Chlorophyll's job",
+        "ok_line": "Chlorophyll makes food using sunlight.",
+        "ko_title": "Wrong function",
+        "ko_line": "That is not what chlorophyll does.",
+        "exp_title": "Photosynthesis role",
+        "exp_text": "Chlorophyll captures solar rays and uses the resulting energy to manufacture the plant's food: simple sugars made from water and carbon dioxide. These sugars are the basis of the plant's nourishment."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do leaves look green during the summer?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the leaf cells are full of water",
+            "feedback": "Water does not give leaves their green colour; it is the abundant chlorophyll that makes them green."
+          },
+          {
+            "label": "Because the leaf has a thick waxy coating",
+            "feedback": "A waxy coating helps reduce water loss but is not green. The green comes from chlorophyll within the cells."
+          },
+          {
+            "label": "Because the leaf produces red and purple pigments",
+            "feedback": "Red and purple pigments are anthocyanins, produced later in the season. In summer, green chlorophyll dominates."
+          },
+          {
+            "label": "Because chlorophyll is abundant and masks other pigments",
+            "feedback": "Correct. During the growing season chlorophyll is present in large amounts, and its green colour hides the yellows and oranges of other pigments."
+          }
+        ],
+        "ok_title": "Summer leaf green",
+        "ok_line": "Abundant chlorophyll makes summer leaves green.",
+        "ko_title": "Not the reason",
+        "ko_line": "The green comes from chlorophyll, not from those other factors.",
+        "exp_title": "Chlorophyll masking",
+        "exp_text": "When chlorophyll is abundant in the leaf's cells, its green colour dominates and masks the colours of any other pigments present. That is why summer leaves are characteristically green."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In autumn, where does the yellow and orange colour in leaves come from?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "From newly made anthocyanins",
+            "feedback": "Anthocyanins produce red and purple, not yellow and orange. The yellow and orange come from carotenoids."
+          },
+          {
+            "label": "From chlorophyll breaking down into yellow molecules",
+            "feedback": "Chlorophyll breaks down into colourless molecules, not yellow ones. The yellow was already there in carotenoids."
+          },
+          {
+            "label": "From carotenoids already present in the leaf",
+            "feedback": "Correct. Carotenoids are present all year but are masked by chlorophyll; in autumn they show through as the chlorophyll fades."
+          },
+          {
+            "label": "From the cork layer forming at the leaf base",
+            "feedback": "The cork layer is part of leaf drop and is not pigmented. The yellow colour comes from carotenoids."
+          }
+        ],
+        "ok_title": "Source of yellows",
+        "ok_line": "Carotenoids give leaves their yellow and orange.",
+        "ko_title": "Wrong pigment",
+        "ko_line": "That pigment does not give yellow and orange.",
+        "exp_title": "Carotenoid pigments",
+        "exp_text": "The yellow colour of autumn leaves is due to carotenoids, such as yellow xanthophylls and orange beta-carotene. These pigments are already present in the leaf but are masked by the intense green of chlorophyll during summer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the red and purple pigments in autumn leaves called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Carotenoids",
+            "feedback": "Carotenoids are yellow and orange, not red and purple. The reds and purples come from anthocyanins."
+          },
+          {
+            "label": "Anthocyanins",
+            "feedback": "Correct. Anthocyanins are the pigments that give the reds, purples, pinks, and their blends in autumn foliage."
+          },
+          {
+            "label": "Chlorophyll",
+            "feedback": "Chlorophyll is green and is being broken down in autumn, so it does not produce red or purple colours."
+          },
+          {
+            "label": "Quinones",
+            "feedback": "Quinones are involved in brown colours during late leaf death, not in reds and purples."
+          }
+        ],
+        "ok_title": "Red pigment named",
+        "ok_line": "Anthocyanins make leaves red and purple.",
+        "ko_title": "Wrong pigment",
+        "ko_line": "That pigment does not give red and purple.",
+        "exp_title": "Anthocyanin pigments",
+        "exp_text": "The reds, purples, pinks, and their blended combinations in autumn foliage come from pigments called anthocyanins. Unlike carotenoids, they are not present throughout the growing season but are actively produced towards the end of summer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which pigments are present in the leaf all year round, even during summer?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Carotenoids",
+            "feedback": "Correct. Carotenoids are present in leaves throughout the year, but their orange-yellow colours are masked by green chlorophyll."
+          },
+          {
+            "label": "Anthocyanins",
+            "feedback": "Anthocyanins are produced only towards the end of summer, so they are not present all year."
+          },
+          {
+            "label": "Quinones",
+            "feedback": "Quinones appear during late leaf death, not throughout the year."
+          },
+          {
+            "label": "Nonfluorescent chlorophyll catabolites",
+            "feedback": "These are colourless breakdown products of chlorophyll that appear when chlorophyll degrades, not pigments present all year."
+          }
+        ],
+        "ok_title": "Year-round pigments",
+        "ok_line": "Carotenoids stay in leaves all year.",
+        "ko_title": "Not always there",
+        "ko_line": "That pigment appears only later in the season.",
+        "exp_title": "Carotenoid presence",
+        "exp_text": "Carotenoids occur in the leaves throughout the year, along with chlorophyll, but their yellow and orange colours are hidden by the abundant green chlorophyll during summer. They become visible only when the chlorophyll fades."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What triggers the start of leaf senescence in late summer?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A sudden drop in soil moisture",
+            "feedback": "Soil moisture is not what triggers senescence; it is the shortening daylight and cooler temperatures that start it."
+          },
+          {
+            "label": "The formation of the abscission layer",
+            "feedback": "The abscission layer forms during abscission, which is part of leaf drop, not the initial trigger for senescence."
+          },
+          {
+            "label": "The production of anthocyanins",
+            "feedback": "Anthocyanin production follows senescence; it is not what starts the process."
+          },
+          {
+            "label": "Shortening daylight hours and cooling temperatures",
+            "feedback": "Correct. In late summer, with daylight hours shortening and temperatures cooling, leaf senescence begins."
+          }
+        ],
+        "ok_title": "Senescence trigger",
+        "ok_line": "Shorter days and cooler weather start leaf senescence.",
+        "ko_title": "Wrong trigger",
+        "ko_line": "That is not what starts leaf senescence.",
+        "exp_title": "Autumn trigger",
+        "exp_text": "Leaf senescence is kicked off in late summer by two environmental cues: shortening daylight hours and cooling temperatures. These changes signal the plant to begin recovering its nutritional investment from the leaves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the layer of special cork cells that forms at the base of a leaf during leaf drop called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Chloroplast",
+            "feedback": "A chloroplast is the organelle that holds chlorophyll; it is not a layer at the leaf base."
+          },
+          {
+            "label": "Thylakoid membrane",
+            "feedback": "The thylakoid membrane is inside the chloroplast and holds chlorophyll; it has nothing to do with leaf drop."
+          },
+          {
+            "label": "Abscission layer",
+            "feedback": "Correct. The abscission layer is the layer of cork cells that forms at the base of the leaf and cuts it off from the plant."
+          },
+          {
+            "label": "Ligand",
+            "feedback": "A ligand is a molecule attached to the light-harvesting complex; it is not a layer at the leaf base."
+          }
+        ],
+        "ok_title": "Leaf-drop layer",
+        "ok_line": "The abscission layer cuts the leaf off.",
+        "ko_title": "Not the layer",
+        "ko_line": "That is a different structure, not the cork layer at the leaf base.",
+        "exp_title": "Abscission layer",
+        "exp_text": "During abscission, a layer of special cork cells forms at the base of each leaf. This abscission layer gradually closes the veins and cuts the leaf off from the plant, so the leaf falls."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in the leaf do carotenoids sit within the cells?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "In the cell sap",
+            "feedback": "Cell sap is where anthocyanins develop, not where carotenoids are found. Carotenoids sit in plastids."
+          },
+          {
+            "label": "In plastids",
+            "feedback": "Correct. Carotenoids occur along with chlorophyll pigments in tiny structures called plastids inside the leaf cells."
+          },
+          {
+            "label": "In the cell wall",
+            "feedback": "The cell wall is an outer structure without pigments. Carotenoids are in plastids within the cell."
+          },
+          {
+            "label": "In the nucleus",
+            "feedback": "The nucleus holds genetic material, not pigments. Carotenoids are in plastids."
+          }
+        ],
+        "ok_title": "Carotenoid location",
+        "ok_line": "Carotenoids sit in plastids.",
+        "ko_title": "Wrong location",
+        "ko_line": "That is not where carotenoids are found.",
+        "exp_title": "Plastids and carotenoids",
+        "exp_text": "Carotenoids occur, along with chlorophyll, in tiny structures called plastids within the cells of leaves. They stay there throughout the year and become visible when chlorophyll fades in autumn."
+      }
+    ]
+  }
+]

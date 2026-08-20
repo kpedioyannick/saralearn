@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the ozone layer?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A region of Earth's stratosphere that absorbs most of the Sun's ultraviolet radiation",
+            "feedback": "Correct. The ozone layer sits in the stratosphere and absorbs most of the Sun's ultraviolet light."
+          },
+          {
+            "label": "A thin layer of oxygen at ground level that we breathe",
+            "feedback": "That is the air we breathe, not the ozone layer. The ozone layer is high in the stratosphere."
+          },
+          {
+            "label": "A layer of carbon dioxide that traps heat near the surface",
+            "feedback": "Carbon dioxide traps heat, but it is not the ozone layer. The ozone layer is made of ozone and sits in the stratosphere."
+          },
+          {
+            "label": "A layer of water vapour that forms clouds in the sky",
+            "feedback": "Clouds are made of water vapour, not ozone. The ozone layer is a separate region in the stratosphere."
+          }
+        ],
+        "ok_title": "Ozone layer defined",
+        "ok_line": "It is the stratospheric region that absorbs most ultraviolet radiation.",
+        "ko_title": "Ozone layer mix-up",
+        "ko_line": "Remember, it is high up, not at ground level.",
+        "exp_title": "Ozone layer basics",
+        "exp_text": "The ozone layer is a region of Earth's stratosphere that absorbs most of the Sun's ultraviolet radiation. It contains a high concentration of ozone compared to other parts of the atmosphere, though still small overall. It sits mainly in the lower stratosphere, roughly 15 to 35 kilometres above the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of the atmosphere is the ozone layer mainly found?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The troposphere, right above the ground",
+            "feedback": "The troposphere is the lowest layer where we live, but the ozone layer is not there. It sits higher up, in the stratosphere."
+          },
+          {
+            "label": "The lower portion of the stratosphere",
+            "feedback": "Correct. The ozone layer is mainly found in the lower part of the stratosphere, about 15 to 35 kilometres above Earth."
+          },
+          {
+            "label": "The mesosphere, above the stratosphere",
+            "feedback": "The mesosphere is above the stratosphere, but the ozone layer does not sit there. It is in the stratosphere itself."
+          },
+          {
+            "label": "The thermosphere, near the top of the atmosphere",
+            "feedback": "The thermosphere is far above the stratosphere. The ozone layer is much lower, in the stratosphere."
+          }
+        ],
+        "ok_title": "Ozone layer location",
+        "ok_line": "It is in the lower stratosphere.",
+        "ko_title": "Wrong layer picked",
+        "ko_line": "The ozone layer is not in the troposphere, mesosphere, or thermosphere.",
+        "exp_title": "Where ozone sits",
+        "exp_text": "The ozone layer is mainly found in the lower portion of the stratosphere, from about 15 to 35 kilometres above Earth. Its thickness varies seasonally and geographically, but that is its home layer."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the ozone layer absorb from the Sun's radiation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Visible light",
+            "feedback": "Visible light is not what the ozone layer absorbs. It absorbs ultraviolet radiation, which is invisible to us."
+          },
+          {
+            "label": "Infrared heat",
+            "feedback": "Infrared heat is trapped by greenhouse gases, not by the ozone layer. The ozone layer absorbs ultraviolet light."
+          },
+          {
+            "label": "Radio waves",
+            "feedback": "Radio waves are not absorbed by the ozone layer. They pass through the atmosphere without being blocked by ozone."
+          },
+          {
+            "label": "Ultraviolet radiation",
+            "feedback": "Correct. The ozone layer absorbs most of the Sun's ultraviolet radiation, protecting life on the surface."
+          }
+        ],
+        "ok_title": "Absorbed radiation",
+        "ok_line": "It absorbs ultraviolet light.",
+        "ko_title": "Wrong radiation type",
+        "ko_line": "The ozone layer specifically blocks ultraviolet, not visible or infrared.",
+        "exp_title": "Ozone's protective role",
+        "exp_text": "The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light, from about 200 to 315 nanometres. Without this absorption, that harmful radiation would reach the ground and damage exposed life forms."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which chemical element is ozone made of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Correct. Ozone is a molecule made of three oxygen atoms, written as O3."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen makes up most of the air, but ozone is not made of nitrogen. It is made purely of oxygen."
+          },
+          {
+            "label": "Carbon",
+            "feedback": "Carbon is found in carbon dioxide and many other molecules, but ozone contains no carbon. It is all oxygen."
+          },
+          {
+            "label": "Hydrogen",
+            "feedback": "Hydrogen appears in water and other compounds, but ozone has no hydrogen. It is just oxygen atoms."
+          }
+        ],
+        "ok_title": "Ozone composition",
+        "ok_line": "Ozone is made of oxygen atoms.",
+        "ko_title": "Ozone element wrong",
+        "ko_line": "Remember, ozone is O3, all oxygen.",
+        "exp_title": "Ozone's chemical make-up",
+        "exp_text": "Ozone is a molecule consisting of three oxygen atoms, with the chemical formula O3. It is a form of oxygen, different from the O2 we breathe, because it has one extra oxygen atom."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How much of the Sun's medium-frequency ultraviolet light does the ozone layer absorb?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "About half, around 50 percent",
+            "feedback": "Half is not enough. The ozone layer absorbs nearly all of the medium-frequency ultraviolet light, not just half."
+          },
+          {
+            "label": "Almost none, less than 1 percent",
+            "feedback": "That is far too low. The ozone layer is very effective at blocking medium-frequency ultraviolet light."
+          },
+          {
+            "label": "97 to 99 percent",
+            "feedback": "Correct. The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light."
+          },
+          {
+            "label": "All of it, exactly 100 percent",
+            "feedback": "Not quite 100 percent. A small fraction, 1 to 3 percent, still gets through, but the vast majority is absorbed."
+          }
+        ],
+        "ok_title": "Absorption extent",
+        "ok_line": "It absorbs 97–99% of that UV.",
+        "ko_title": "Absorption amount wrong",
+        "ko_line": "The ozone layer blocks nearly all, but not quite all, of that UV.",
+        "exp_title": "How much UV is blocked",
+        "exp_text": "The ozone layer absorbs between 97 and 99 percent of the Sun's medium-frequency ultraviolet light, which ranges from about 200 to 315 nanometres. The remaining small amount that gets through is much less harmful."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens when ultraviolet light strikes an ordinary oxygen molecule (O2) in the stratosphere?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It turns directly into a carbon dioxide molecule",
+            "feedback": "Ultraviolet light does not create carbon dioxide. It splits the O2 molecule into two separate oxygen atoms."
+          },
+          {
+            "label": "It splits the O2 into two individual oxygen atoms",
+            "feedback": "Correct. Ultraviolet light breaks an O2 molecule into two single oxygen atoms, which then combine with other O2 to form ozone."
+          },
+          {
+            "label": "It combines the O2 with nitrogen to form a new gas",
+            "feedback": "Nitrogen is not involved here. Ultraviolet light only splits the O2 molecule, it does not add nitrogen."
+          },
+          {
+            "label": "It makes the O2 molecule heavier so it sinks",
+            "feedback": "Ultraviolet light does not change the weight or make it sink. It splits the molecule into atoms."
+          }
+        ],
+        "ok_title": "UV splits oxygen",
+        "ok_line": "UV breaks O2 into single oxygen atoms.",
+        "ko_title": "Wrong reaction imagined",
+        "ko_line": "The reaction is a split, not a combination with other gases.",
+        "exp_title": "How ozone forms",
+        "exp_text": "Ultraviolet light strikes an ordinary oxygen molecule (O2) and splits it into two individual oxygen atoms. Those free atoms then combine with unbroken O2 molecules to form ozone (O3). This is how ozone is created high in the stratosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the ozone molecule (O3) break into when it absorbs ultraviolet light?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An O2 molecule and a single oxygen atom",
+            "feedback": "Correct. When ultraviolet light hits ozone, it splits into a normal oxygen molecule and one individual oxygen atom."
+          },
+          {
+            "label": "Two individual oxygen atoms",
+            "feedback": "That would be if an O2 molecule split. Ozone splits into an O2 and one O, not two separate atoms."
+          },
+          {
+            "label": "Carbon dioxide and water vapour",
+            "feedback": "Ozone contains only oxygen, so it cannot break into carbon dioxide or water. It splits into oxygen forms."
+          },
+          {
+            "label": "Three individual oxygen atoms",
+            "feedback": "Ozone has three atoms, but it does not break into three separate atoms. It splits into an O2 molecule and one O."
+          }
+        ],
+        "ok_title": "Ozone breakdown",
+        "ok_line": "Ozone splits into O2 and one O atom.",
+        "ko_title": "Wrong breakdown product",
+        "ko_line": "Remember, ozone becomes O2 plus a single oxygen atom.",
+        "exp_title": "Ozone destruction",
+        "exp_text": "When ultraviolet light hits an ozone molecule, it splits into a molecule of ordinary oxygen (O2) and a single oxygen atom. This is part of the continuing ozone–oxygen cycle, where ozone is constantly created and destroyed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the ozone–oxygen cycle?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A process where ozone is permanently locked away in the atmosphere",
+            "feedback": "Ozone is not locked away. The cycle involves continuous creation and destruction, not a fixed store."
+          },
+          {
+            "label": "A process where oxygen is converted into carbon dioxide",
+            "feedback": "The cycle does not produce carbon dioxide. It only involves oxygen molecules and ozone."
+          },
+          {
+            "label": "A process where ozone builds up without ever being destroyed",
+            "feedback": "Ozone is unstable and constantly breaks apart. The cycle is balanced, not one-way buildup."
+          },
+          {
+            "label": "A continuing process where ozone is split apart and then reformed by ultraviolet light",
+            "feedback": "Correct. Ultraviolet light both creates ozone from O2 and breaks ozone back into O2 and O, in a continuous cycle."
+          }
+        ],
+        "ok_title": "Ozone–oxygen cycle",
+        "ok_line": "It is a continuous creation and destruction loop.",
+        "ko_title": "Cycle misunderstood",
+        "ko_line": "The cycle is dynamic, not static or one-way.",
+        "exp_title": "The ongoing cycle",
+        "exp_text": "The ozone–oxygen cycle is a continuing process in the stratosphere. Ultraviolet light splits O2 into oxygen atoms, which combine with O2 to make ozone. Then ultraviolet light hits ozone, splitting it into O2 and an oxygen atom, and the cycle repeats. Ozone is constantly being made and destroyed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where is most of the ozone in Earth's atmosphere located?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "In the stratosphere",
+            "feedback": "Correct. About 90 percent of the atmosphere's ozone is found in the stratosphere."
+          },
+          {
+            "label": "In the troposphere near the ground",
+            "feedback": "Only a small fraction of ozone is in the troposphere. The vast majority is high up in the stratosphere."
+          },
+          {
+            "label": "In the mesosphere",
+            "feedback": "The mesosphere contains very little ozone. Most of it is in the stratosphere, below the mesosphere."
+          },
+          {
+            "label": "Evenly spread through all atmospheric layers",
+            "feedback": "It is not even. About 90 percent is concentrated in the stratosphere, not spread evenly."
+          }
+        ],
+        "ok_title": "Ozone distribution",
+        "ok_line": "Roughly 90% of ozone is in the stratosphere.",
+        "ko_title": "Ozone location wrong",
+        "ko_line": "Most ozone is high up, not near the ground or spread evenly.",
+        "exp_title": "Where most ozone lives",
+        "exp_text": "About 90 percent of the ozone in the atmosphere is contained in the stratosphere. Ozone concentrations are greatest between about 20 and 40 kilometres, where they range from about 2 to 8 parts per million."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of ultraviolet radiation is entirely screened out by a combination of dioxygen and ozone?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "UV-A",
+            "feedback": "UV-A is not fully screened out; most of it reaches the surface. It is UV-C that is entirely blocked."
+          },
+          {
+            "label": "UV-B",
+            "feedback": "UV-B is mostly absorbed by the ozone layer, but not entirely screened out. Some UV-B still reaches the surface, and it is UV-C that is completely blocked."
+          },
+          {
+            "label": "UV-C",
+            "feedback": "Correct. UV-C, which is very harmful, is entirely screened out by a combination of dioxygen and ozone at around 35 kilometres altitude."
+          },
+          {
+            "label": "Visible light",
+            "feedback": "Visible light is not ultraviolet and is not screened out by ozone. UV-C is the one fully blocked."
+          }
+        ],
+        "ok_title": "UV-C fully blocked",
+        "ok_line": "UV-C is completely screened out.",
+        "ko_title": "Wrong UV type",
+        "ko_line": "UV-C is the one fully blocked, not UV-A or UV-B.",
+        "exp_title": "Which UV is stopped",
+        "exp_text": "Ultraviolet radiation is divided into UV-A, UV-B, and UV-C. UV-C, which is very harmful to all living things, is entirely screened out by a combination of dioxygen (for wavelengths below 200 nm) and ozone (for wavelengths above about 200 nm), by around 35 kilometres altitude."
+      }
+    ]
+  }
+]

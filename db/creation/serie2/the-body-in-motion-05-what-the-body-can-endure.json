@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 254,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the immediate fuel source that muscles use for a sudden, explosive effort like a sprint?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Fat stored in fat cells",
+            "feedback": "Fat is a slow-burning fuel that the body taps into during long, gentle efforts, not for a sudden sprint that needs energy in an instant."
+          },
+          {
+            "label": "A molecule called ATP already present in the muscle",
+            "feedback": "Muscles keep a small reserve of ATP ready to go, which is why a sprint can start without any delay in fuel delivery."
+          },
+          {
+            "label": "Oxygen carried by red blood cells",
+            "feedback": "Oxygen helps break down fuel for longer efforts, but it is not a fuel itself, and a sprint begins before oxygen can be used."
+          },
+          {
+            "label": "Glucose stored in the liver",
+            "feedback": "Liver glucose must travel through the blood to reach a muscle, which takes time, so it cannot power the very first explosive seconds."
+          }
+        ],
+        "ok_title": "Immediate energy",
+        "ok_line": "ATP is the muscle's ready-to-use fuel for instant bursts.",
+        "ko_title": "Fuel mix mix-up",
+        "ko_line": "Different efforts draw on different fuel sources.",
+        "exp_title": "ATP for instant effort",
+        "exp_text": "Every muscle fibre holds a limited store of ATP (adenosine triphosphate), the molecule that directly powers contraction. When you sprint, that store is used up in a few seconds, which is why an all-out burst cannot last long and why the body must then switch to other fuels."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a long, gentle walk, which fuel does the body mainly burn for energy?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "ATP stored in the muscles",
+            "feedback": "That store lasts only a few seconds and is meant for explosive starts, not for a steady long walk."
+          },
+          {
+            "label": "Glucose from the bloodstream",
+            "feedback": "Blood glucose is used more heavily during moderate or intense efforts, while a gentle walk leans mostly on another fuel."
+          },
+          {
+            "label": "Fat stored in the body",
+            "feedback": "At low effort levels the body has plenty of oxygen, so it can slowly break down fat, which gives a large but steady supply of energy."
+          },
+          {
+            "label": "Creatine phosphate in the muscles",
+            "feedback": "Creatine phosphate helps regenerate ATP for short, powerful bursts and is spent within seconds, not during a long walk."
+          }
+        ],
+        "ok_title": "Gentle fuel choice",
+        "ok_line": "A slow walk uses fat as its main fuel.",
+        "ko_title": "Fuel confusion",
+        "ko_line": "Effort intensity decides which fuel the body picks.",
+        "exp_title": "Fat for endurance",
+        "exp_text": "When you walk at a gentle pace, your muscles work below the point where oxygen is scarce, so they can burn fat. Fat releases energy slowly but in large amounts, which suits a long, steady effort. Faster or harder work forces the body to switch to faster-burning fuels like glucose."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a muscle feel weak and shaky after being worked very hard for a long time?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Its fuel supply is running low and waste products have built up",
+            "feedback": "Hard work drains the muscle of its quick fuel and leaves behind chemical by-products that interfere with contraction, so force drops."
+          },
+          {
+            "label": "It has lost some of its fibres permanently",
+            "feedback": "Muscle fibres are not lost from ordinary hard effort; weakness comes from temporary chemical changes, not from fibres dying."
+          },
+          {
+            "label": "It has grown too much blood inside it",
+            "feedback": "Blood flow does increase during exercise, but the weakness comes from fuel depletion and waste buildup, not from excess blood."
+          },
+          {
+            "label": "It has run out of oxygen completely",
+            "feedback": "Oxygen supply affects fuel use, but the immediate cause of fatigue is the shortage of fuel and accumulation of by-products in the fibres."
+          }
+        ],
+        "ok_title": "Cause of fatigue",
+        "ok_line": "Depleted fuel and built-up waste make a muscle weak.",
+        "ko_title": "Fatigue misread",
+        "ko_line": "Tiredness is chemical, not structural damage.",
+        "exp_title": null,
+        "exp_text": "A hard-working muscle uses up its ready fuel and produces waste products faster than the blood can clear them. Those wastes interfere with the machinery that makes the muscle contract, so each contraction becomes weaker even though you are still trying to push. Rest allows fuel to be restored and wastes to be flushed away."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes a muscle cramp during or right after hard physical effort?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The muscle has been stretched too far",
+            "feedback": "Stretching can tear fibres, but a cramp is a contraction problem, not a stretching problem."
+          },
+          {
+            "label": "The muscle has run out of oxygen",
+            "feedback": "Oxygen shortage contributes to fatigue, but a cramp is an involuntary spasm driven by nerve and electrolyte changes, not simply low oxygen."
+          },
+          {
+            "label": "The muscle has lost its ability to relax at all",
+            "feedback": "A cramp is a sudden, uncontrolled contraction, but the muscle can normally relax again once the spasm ends."
+          },
+          {
+            "label": "Overworked muscle fibres contract on their own and will not let go",
+            "feedback": "When fibres are exhausted, their control signals become unreliable, so some fibres keep firing and clamp the muscle tight."
+          }
+        ],
+        "ok_title": "Cramp mechanism",
+        "ok_line": "An exhausted muscle gets stuck contracting on its own.",
+        "ko_title": "Cramp mistaken",
+        "ko_line": "A cramp is a spasm, not an injury or thirst alone.",
+        "exp_title": null,
+        "exp_text": "A cramp happens when muscle fibres that have been driven hard start firing without proper control from the brain and spinal cord. The fibres shorten and stay shortened, so the whole muscle feels like a hard knot. Fatigue, low salt levels, and poor blood flow all make this uncontrolled firing more likely."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does an unfamiliar bout of hard exercise leave muscles sore a day or two later rather than right away?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The muscle is still contracting during the exercise",
+            "feedback": "Soreness appears later because it comes from damage and repair processes that take time, not from the contractions themselves."
+          },
+          {
+            "label": "Lactic acid stays trapped in the muscle after the workout",
+            "feedback": "Lactic acid is cleared within about an hour, so it cannot explain soreness that appears a full day later."
+          },
+          {
+            "label": "Tiny tears in the muscle fibres trigger an inflammatory response that builds over time",
+            "feedback": "Unusual hard effort creates microscopic damage to the fibres, and the body's repair response, with swelling and tenderness, peaks roughly a day or two afterwards."
+          },
+          {
+            "label": "The muscle loses water during the effort and only feels sore once it rehydrates",
+            "feedback": "Dehydration does not produce delayed soreness; the pain comes from actual fibre damage and the resulting inflammation."
+          }
+        ],
+        "ok_title": "Delayed soreness",
+        "ok_line": "Micro-tears and inflammation set in after the workout.",
+        "ko_title": "Soreness misattributed",
+        "ko_line": "The pain is from healable damage, not leftover acid.",
+        "exp_title": null,
+        "exp_text": "When you do an exercise your muscles are not used to, the effort strains the fibres enough to cause very small tears. The body responds by sending inflammatory cells to repair the damage, and that process makes the area tender. Because the repair work takes a day or two to build up, the soreness peaks after the workout, not during it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During a long, hard effort, why does the body send extra blood to the skin?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To carry more oxygen to the skin cells",
+            "feedback": "Skin cells do not need extra oxygen during exercise; the blood is sent there to release heat, not to feed the skin."
+          },
+          {
+            "label": "To carry heat away from the working muscles and release it at the surface",
+            "feedback": "Hard-working muscles generate a lot of heat, and blood picks it up and carries it to the skin, where it can escape into the air."
+          },
+          {
+            "label": "To remove waste products from the skin",
+            "feedback": "The skin does sweat out some waste, but the main reason for extra skin blood flow during exercise is temperature control."
+          },
+          {
+            "label": "To feed the sweat glands more fuel",
+            "feedback": "Sweat glands work on their own blood supply, but the extra skin blood flow's main job is carrying heat to the surface."
+          }
+        ],
+        "ok_title": "Heat escape route",
+        "ok_line": "Blood carries muscle heat to the skin to cool it.",
+        "ko_title": "Blood flow purpose",
+        "ko_line": "Skin blood flow is about cooling, not nutrition.",
+        "exp_title": null,
+        "exp_text": "Working muscles produce far more heat than the body needs. Blood flowing through those muscles picks up that heat and carries it to the skin, where the heat can leave the body. That is why your skin flushes red during hard effort — the extra blood near the surface is helping you cool down."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can some muscle fibres keep working steadily for a long time while others tire within seconds?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They are built differently and rely on different fuel supplies",
+            "feedback": "Slow fibres have many mitochondria and use oxygen to burn fuel steadily, while fast fibres rely on quick, limited ATP stores."
+          },
+          {
+            "label": "They are bigger and therefore stronger",
+            "feedback": "Size affects force, not endurance; a large fast fibre still tires quickly, while a small slow fibre can keep going."
+          },
+          {
+            "label": "They receive more blood from the heart",
+            "feedback": "All fibres share the same blood supply, but slow fibres are better equipped to use the oxygen that blood brings."
+          },
+          {
+            "label": "They do not need any fuel to contract",
+            "feedback": "Every muscle fibre needs fuel; slow fibres just have a more efficient way of using it over a long time."
+          }
+        ],
+        "ok_title": "Two fibre types",
+        "ok_line": "Slow fibres endure; fast fibres tire quickly.",
+        "ko_title": "Fibre misread",
+        "ko_line": "Endurance comes from design, not size or blood.",
+        "exp_title": null,
+        "exp_text": "Human muscles contain two main kinds of fibres. Slow-twitch fibres are packed with mitochondria and can burn oxygen and fat for hours, so they keep contracting steadily. Fast-twitch fibres produce powerful contractions using a small ATP store that lasts only seconds, which is why they are great for sprints but exhaust quickly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What changes in the body of someone who repeatedly performs long, hard physical effort?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Their muscles grow more fast-twitch fibres",
+            "feedback": "Endurance training mostly improves slow fibres and blood supply; fast-twitch growth comes from strength or power training."
+          },
+          {
+            "label": "Their bones become softer and more flexible",
+            "feedback": "Hard training actually strengthens bones, and flexibility is not the main adaptation for endurance."
+          },
+          {
+            "label": "They develop more blood vessels and more mitochondria in their muscles",
+            "feedback": "Extra capillaries bring more oxygen, and extra mitochondria allow the muscle to burn fuel more efficiently, so the same effort feels easier."
+          },
+          {
+            "label": "Their heart beats faster at rest",
+            "feedback": "Regular endurance training generally lowers resting heart rate because the heart pumps more blood per beat."
+          }
+        ],
+        "ok_title": "Training adaptations",
+        "ok_line": "Muscles gain blood vessels and mitochondria.",
+        "ko_title": "Adaptation myths",
+        "ko_line": "Endurance training builds supply, not more speed fibres.",
+        "exp_title": null,
+        "exp_text": "When you regularly do long, hard efforts, your body responds by growing more tiny blood vessels around the muscle fibres and adding more mitochondria inside them. That means oxygen and fuel reach the fibres faster, and the fibres can convert them into energy more efficiently. Over time, the same distance or pace becomes easier because the muscle is better equipped for sustained work."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a long, sustained effort suddenly feel dramatically harder partway through, even before you slow down?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Your muscles have completely run out of ATP",
+            "feedback": "If ATP were completely gone, the muscle would stop working entirely, not just feel harder."
+          },
+          {
+            "label": "Your heart has stopped pumping efficiently",
+            "feedback": "The heart keeps pumping well through prolonged effort; the sudden difficulty comes from changes within the muscles themselves."
+          },
+          {
+            "label": "Your blood sugar has all turned into fat",
+            "feedback": "Blood sugar does drop, but it converts to energy, not fat, and the sudden effort surge has a different cause."
+          },
+          {
+            "label": "The muscles have shifted from using fat to using glucose, which runs low",
+            "feedback": "Early on, muscles burn mostly fat, but as effort continues and intensity rises, they rely more on glucose, and when that supply drops, fatigue hits hard."
+          }
+        ],
+        "ok_title": "The wall",
+        "ok_line": "Glucose stores run low as effort drags on.",
+        "ko_title": "Sudden fatigue",
+        "ko_line": "The effort feels harder when fuel switches and runs low.",
+        "exp_title": null,
+        "exp_text": "In the early part of a long effort, the body burns a mix of fat and glucose, with plenty in reserve. As time passes, the muscles depend more and more on glucose, and the body's stored glucose begins to run out. When the glucose reserve is nearly empty, the muscles cannot sustain the same pace, so the effort suddenly feels much harder — a sensation often called hitting the wall."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a short pause during hard, repeated physical effort let you push through more bursts than if you never stopped at all?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It lets the muscles grow new fibres",
+            "feedback": "Growing new fibres takes days or weeks, not seconds, so a short pause cannot do that."
+          },
+          {
+            "label": "It allows the muscles to rebuild some of their quick ATP supply",
+            "feedback": "In just a few seconds of rest, the body can regenerate a portion of the ATP that was used up, so the next burst can start fresh."
+          },
+          {
+            "label": "It lets the blood completely remove all waste products",
+            "feedback": "Complete waste removal takes many minutes, not a short pause, but even partial removal helps."
+          },
+          {
+            "label": "It gives the heart time to beat faster",
+            "feedback": "A pause usually slows the heart, and the benefit of rest is about restoring muscle fuel, not raising heart rate."
+          }
+        ],
+        "ok_title": "Short rest benefit",
+        "ok_line": "Pauses restore a little quick fuel for the next burst.",
+        "ko_title": "Rest misread",
+        "ko_line": "A short pause recharges ATP, not new fibres.",
+        "exp_title": null,
+        "exp_text": "Every muscle fibre keeps a small amount of ATP ready for immediate use, and hard bursts drain it quickly. During even a brief rest, the muscle cells start regenerating ATP from other stored molecules. With that small reserve refilled, you can produce another powerful effort, whereas without any pause the ATP store stays empty and the muscle gives out sooner."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 249,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What two parts make up the vestibular system in the human body?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The otolith organs and the semicircular canals",
+            "feedback": "Correct. The vestibular system, which gives us our sense of balance, is made of the otolith organs and the semicircular canals."
+          },
+          {
+            "label": "The cochlea and the eardrum",
+            "feedback": "The cochlea and eardrum are parts of hearing, not balance. Balance comes from the otolith organs and semicircular canals."
+          },
+          {
+            "label": "The saccule and the utricle alone",
+            "feedback": "Those two are the otolith organs, but the vestibular system also includes the three semicircular canals."
+          },
+          {
+            "label": "The hair cells and the endolymph",
+            "feedback": "Those are structures inside the vestibular system, not the two main parts that define it."
+          }
+        ],
+        "ok_title": "Two main parts",
+        "ok_line": "The vestibular system is the otolith organs plus the semicircular canals.",
+        "ko_title": "Not hearing parts",
+        "ko_line": "Remember that balance and hearing use different inner-ear structures.",
+        "exp_title": "Vestibular system basics",
+        "exp_text": "The vestibular system is the sense organ for balance. It consists of the otolith organs, which detect linear accelerations, and the semicircular canals, which detect angular accelerations."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the semicircular canals detect?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Linear accelerations",
+            "feedback": "Linear accelerations are detected by the otolith organs, not the semicircular canals. The canals respond to turning motions."
+          },
+          {
+            "label": "Angular accelerations",
+            "feedback": "Correct. The three semicircular canals recognize accelerations in pitch, yaw, and roll, which are all angular movements."
+          },
+          {
+            "label": "Gravitational forces",
+            "feedback": "Gravitational forces stimulate the otolith organs, not the semicircular canals. The canals detect rotation."
+          },
+          {
+            "label": "Sound vibrations",
+            "feedback": "Sound is handled by the cochlea. The semicircular canals are strictly for balance, not hearing."
+          }
+        ],
+        "ok_title": "Detect rotation",
+        "ok_line": "Semicircular canals sense angular accelerations like turning your head.",
+        "ko_title": "Not linear or gravity",
+        "ko_line": "Linear and gravitational effects belong to the otolith organs.",
+        "exp_title": "Semicircular canal role",
+        "exp_text": "The semicircular canals are three fluid-filled loops that detect angular accelerations, providing the brain with information about rotations in pitch, yaw, and roll."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the vestibular system responds to linear accelerations, like when a car speeds up or slows down?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The semicircular canals",
+            "feedback": "Semicircular canals detect angular accelerations, not linear ones. Linear accelerations are handled by the otolith organs."
+          },
+          {
+            "label": "The cochlea",
+            "feedback": "The cochlea is for hearing, not for balance or linear motion. Linear acceleration is sensed by the otolith organs."
+          },
+          {
+            "label": "The otolith organs",
+            "feedback": "Correct. The otolith organs, made of the saccule and utricle, are stimulated by linear accelerations."
+          },
+          {
+            "label": "The eardrum",
+            "feedback": "The eardrum vibrates with sound; it has no role in detecting linear acceleration. That's the otolith organs' job."
+          }
+        ],
+        "ok_title": "Otoliths sense linear",
+        "ok_line": "The saccule and utricle detect linear accelerations.",
+        "ko_title": "Canals sense turning",
+        "ko_line": "The semicircular canals detect angular changes, not straight-line speed changes.",
+        "exp_title": "Otolith organ function",
+        "exp_text": "The otolith organs, the saccule and the utricle, are the part of the vestibular system that responds to linear accelerations, such as speeding up, slowing down, or tilting relative to gravity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of illusion is caused by stimulation of the semicircular canals?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Somatogyral illusions",
+            "feedback": "Correct. Somatogyral illusions result from angular accelerations stimulating the semicircular canals."
+          },
+          {
+            "label": "Somatogravic illusions",
+            "feedback": "Somatogravic illusions come from linear accelerations acting on the otolith organs, not the semicircular canals."
+          },
+          {
+            "label": "Visual illusions",
+            "feedback": "Visual illusions are based on what the eyes see, not on the semicircular canals. The canals cause somatogyral illusions."
+          },
+          {
+            "label": "Auditory illusions",
+            "feedback": "Auditory illusions relate to hearing, not balance. The semicircular canals produce somatogyral illusions."
+          }
+        ],
+        "ok_title": "Somatogyral from canals",
+        "ok_line": "Semicircular canal stimulation causes somatogyral illusions.",
+        "ko_title": "Somatogravic is different",
+        "ko_line": "Somatogravic illusions come from the otolith organs, not the canals.",
+        "exp_title": "Illusion types by source",
+        "exp_text": "Somatogyral illusions are produced by angular accelerations that stimulate the semicircular canals. In contrast, somatogravic illusions arise from linear accelerations acting on the otolith organs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the most common vestibular illusion experienced during flight?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The graveyard spiral",
+            "feedback": "The graveyard spiral is a known illusion, but it is not the most common one. The most common is the leans."
+          },
+          {
+            "label": "The Coriolis illusion",
+            "feedback": "The Coriolis illusion is a serious one, but it's not the most frequent. The leans is the most common."
+          },
+          {
+            "label": "The head-up illusion",
+            "feedback": "The head-up illusion is a type of somatogravic illusion, not the most common vestibular one. The leans takes that title."
+          },
+          {
+            "label": "The leans",
+            "feedback": "Correct. The leans is described as the most common illusion during flight."
+          }
+        ],
+        "ok_title": "Most common: leans",
+        "ok_line": "The leans is the most common illusion pilots face.",
+        "ko_title": "Others exist too",
+        "ko_line": "Graveyard spiral, Coriolis, and head-up are all real but less frequent.",
+        "exp_title": "Frequency of illusions",
+        "exp_text": "Among vestibular illusions, the leans is the most common. It typically happens when a pilot gradually enters a bank so slowly that the semicircular canals don't detect it, then suddenly rolls back to wings-level."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During the graveyard spin, what happens to the pilot's sensation of rotation as the spin continues?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The sensation gets stronger",
+            "feedback": "The opposite is true: the sensation fades with time, not strengthens. The pilot becomes less aware of the rotation."
+          },
+          {
+            "label": "The pilot becomes less aware of it",
+            "feedback": "Correct. As the spin continues, the pilot becomes desensitized and less aware of the spin."
+          },
+          {
+            "label": "The pilot senses rotation in the opposite direction",
+            "feedback": "That only happens after a correction is made, not while the spin continues steadily. Initially, awareness fades."
+          },
+          {
+            "label": "The pilot senses rotation in the same direction but faster",
+            "feedback": "The sensation does not speed up; it diminishes. The pilot gradually loses the sense of spinning."
+          }
+        ],
+        "ok_title": "Awareness fades",
+        "ok_line": "During a graveyard spin, the pilot grows less aware of the spin.",
+        "ko_title": "Not stronger or reversed",
+        "ko_line": "Reversal occurs only after correction, not during the steady spin.",
+        "exp_title": "Graveyard spin effect",
+        "exp_text": "The graveyard spin occurs because the semicircular canals adapt to a constant rotation. Over time, the pilot no longer feels the spin, and when a correction is made, it can feel like spinning the opposite way."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which illusion involves the simultaneous stimulation of two semicircular canals?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The leans",
+            "feedback": "The leans is caused by a single canal detection issue, not simultaneous stimulation of two canals. That describes the Coriolis illusion."
+          },
+          {
+            "label": "The graveyard spin",
+            "feedback": "The graveyard spin stems from adaptation in one axis, not two canals at once. The Coriolis illusion is the dual-canal one."
+          },
+          {
+            "label": "The Coriolis illusion",
+            "feedback": "Correct. The Coriolis illusion comes from a sudden head tilt while turning, which stimulates two semicircular canals at once."
+          },
+          {
+            "label": "The head-down illusion",
+            "feedback": "The head-down illusion is a somatogravic effect from linear deceleration, not from two canals. The Coriolis illusion fits the description."
+          }
+        ],
+        "ok_title": "Coriolis: two canals",
+        "ok_line": "The Coriolis illusion fires two semicircular canals together.",
+        "ko_title": "Others use one canal",
+        "ko_line": "Leans and graveyard spin involve single-axis stimulation.",
+        "exp_title": "Coriolis illusion mechanism",
+        "exp_text": "The Coriolis illusion occurs when a pilot tilts their head while the aircraft is turning. This movement stimulates two semicircular canals simultaneously, creating a powerful sensation of rolling, pitching, and yawing all at once."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of acceleration causes somatogravic illusions?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Angular acceleration",
+            "feedback": "Angular acceleration causes somatogyral illusions, not somatogravic ones. Somatogravic illusions require linear acceleration."
+          },
+          {
+            "label": "Constant velocity",
+            "feedback": "Constant velocity with no acceleration gives no stimulation to the otolith organs. Somatogravic illusions need linear acceleration or gravity changes."
+          },
+          {
+            "label": "Gravitational force alone",
+            "feedback": "Gravitational force does stimulate the otolith organs, but somatogravic illusions specifically arise from linear accelerations, not just standing still under gravity."
+          },
+          {
+            "label": "Linear acceleration",
+            "feedback": "Correct. Somatogravic illusions are caused by linear accelerations acting on the otolith organs."
+          }
+        ],
+        "ok_title": "Linear for somatogravic",
+        "ok_line": "Somatogravic illusions stem from linear accelerations.",
+        "ko_title": "Angular gives somatogyral",
+        "ko_line": "Angular accelerations produce somatogyral, not somatogravic, illusions.",
+        "exp_title": "Somatogravic cause",
+        "exp_text": "Somatogravic illusions are caused by linear accelerations, such as speeding up or slowing down in a straight line. These accelerations stimulate the otolith organs, leading to false sensations of pitch."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens during the head-up illusion?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The pilot perceives the nose as pitching up",
+            "feedback": "Correct. A sudden forward acceleration makes the pilot feel the nose is pitching up, even though the aircraft is level."
+          },
+          {
+            "label": "The pilot perceives the nose as pitching down",
+            "feedback": "That is the head-down illusion, which comes from deceleration, not acceleration. During the head-up illusion, the nose feels like it's going up."
+          },
+          {
+            "label": "The pilot feels the aircraft tumbling backward",
+            "feedback": "Tumbling backward is the inversion illusion, which happens after an abrupt change from climb to level flight, not from forward acceleration."
+          },
+          {
+            "label": "The pilot feels the aircraft is not moving",
+            "feedback": "The head-up illusion involves a sense of nose-up pitch, not a feeling of stillness. Acceleration causes that false sensation."
+          }
+        ],
+        "ok_title": "False nose-up",
+        "ok_line": "Head-up illusion makes the pilot sense the nose pitching up.",
+        "ko_title": "Head-down is opposite",
+        "ko_line": "Deceleration causes head-down illusion, not head-up.",
+        "exp_title": "Head-up illusion description",
+        "exp_text": "The head-up illusion occurs when a sudden forward linear acceleration makes the pilot feel the aircraft's nose is pitching up, even though it is in level flight. This can lead the pilot to push the controls forward mistakenly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What visual cue can create the illusion of being too high on final approach?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A wide runway",
+            "feedback": "A wide runway creates the illusion of being too low, not too high. Narrow runways give the too-high illusion."
+          },
+          {
+            "label": "A narrow or long runway",
+            "feedback": "Correct. A narrow or long runway, along with upsloping terrain, makes the pilot think they are too high on approach."
+          },
+          {
+            "label": "A downsloping terrain",
+            "feedback": "Downsloping terrain creates the illusion of being too low, not too high. Upsloping terrain gives the too-high impression."
+          },
+          {
+            "label": "A well-lit runway at night",
+            "feedback": "A well-lit runway itself doesn't directly cause a too-high illusion. The black-hole approach deals with darkness, not runway width or slope."
+          }
+        ],
+        "ok_title": "Narrow runway = high",
+        "ok_line": "Narrow or long runways make you feel too high.",
+        "ko_title": "Wide runway = low",
+        "ko_line": "Wide runways make you feel too low, not too high.",
+        "exp_title": "Linear perspective illusion",
+        "exp_text": "The size and shape of a runway affect how high a pilot feels they are. A narrow or long runway, or an upsloping terrain, gives the visual illusion of being too high, causing the pilot to descend too steeply."
+      }
+    ]
+  }
+]

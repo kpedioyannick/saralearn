@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 236,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the process that produces the Sun's light and heat?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Nuclear fusion",
+            "feedback": "Correct. In the Sun's core, hydrogen nuclei combine into helium, releasing vast amounts of energy as light and heat."
+          },
+          {
+            "label": "Chemical burning",
+            "feedback": "Chemical burning, like a fire on Earth, releases far less energy and would consume the Sun in a short time—it is not what powers the Sun."
+          },
+          {
+            "label": "Nuclear fission",
+            "feedback": "Nuclear fission splits heavy atoms like uranium; the Sun instead merges light hydrogen atoms, which is fusion."
+          },
+          {
+            "label": "Electrical discharge",
+            "feedback": "An electrical discharge, such as lightning, is a sudden flow of charge, not the steady energy source of the Sun."
+          }
+        ],
+        "ok_title": "Fusion confirmed",
+        "ok_line": "Hydrogen becomes helium, releasing energy.",
+        "ko_title": "Wrong process",
+        "ko_line": "Check what the Sun's core does with hydrogen.",
+        "exp_title": "The Sun's power source",
+        "exp_text": "The Sun converts hydrogen into helium through nuclear fusion in its core. This process joins light atomic nuclei to form heavier ones, and the mass difference becomes energy. That energy streams out as light and heat, sustaining the Sun for billions of years."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the temperature of the Sun's visible surface, the photosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "About 15 million degrees Celsius",
+            "feedback": "That is the temperature of the Sun's core, where fusion happens, not its visible surface."
+          },
+          {
+            "label": "About 1 million degrees Celsius",
+            "feedback": "That is closer to the temperature of the corona, the Sun's outer atmosphere, not the photosphere."
+          },
+          {
+            "label": "About 5,500 degrees Celsius",
+            "feedback": "Correct. The photosphere, the layer we see as the Sun's surface, averages about 5,500°C."
+          },
+          {
+            "label": "About 100 degrees Celsius",
+            "feedback": "That is the boiling point of water on Earth, far too cool for the Sun's surface, which glows white-hot."
+          }
+        ],
+        "ok_title": "Surface temperature",
+        "ok_line": "The visible surface is about 5,500°C.",
+        "ko_title": "Temperature mix-up",
+        "ko_line": "Distinguish core, surface, and corona temperatures.",
+        "exp_title": "The photosphere's heat",
+        "exp_text": "The photosphere is the Sun's visible surface, the layer from which sunlight escapes into space. It sits at about 5,500 degrees Celsius, much cooler than the core at 15 million degrees, yet still hot enough to emit intense visible light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of the Sun does nuclear fusion actually occur?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "In the corona",
+            "feedback": "The corona is the Sun's thin outer atmosphere, far too cool and diffuse for fusion to happen there."
+          },
+          {
+            "label": "In the photosphere",
+            "feedback": "The photosphere is only the visible surface; fusion needs much higher pressure and temperature found deeper."
+          },
+          {
+            "label": "In the chromosphere",
+            "feedback": "The chromosphere is a thin layer above the photosphere, not hot or dense enough for fusion."
+          },
+          {
+            "label": "In the core",
+            "feedback": "Correct. Only the core has the extreme temperature and pressure needed to fuse hydrogen into helium."
+          }
+        ],
+        "ok_title": "Core location",
+        "ok_line": "Fusion happens only in the core.",
+        "ko_title": "Wrong layer",
+        "ko_line": "Remember the core is innermost and hottest.",
+        "exp_title": "Where fusion lives",
+        "exp_text": "The Sun's core, its innermost region, is the only place where conditions are extreme enough for nuclear fusion. There, temperatures reach about 15 million degrees Celsius and pressures are enormous, allowing hydrogen to fuse into helium and release energy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the thin outer layer of the Sun's atmosphere that is visible during a total solar eclipse?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Photosphere",
+            "feedback": "The photosphere is the bright surface that is hidden by the Moon during a total eclipse, not the faint outer layer."
+          },
+          {
+            "label": "Corona",
+            "feedback": "Correct. The corona is the Sun's outer atmosphere, usually washed out by the bright surface but visible when the Moon covers it."
+          },
+          {
+            "label": "Chromosphere",
+            "feedback": "The chromosphere is a thin pink layer just above the photosphere; the corona is much farther out and fainter."
+          },
+          {
+            "label": "Core",
+            "feedback": "The core is deep inside the Sun and cannot be seen at all from Earth."
+          }
+        ],
+        "ok_title": "Corona spotted",
+        "ok_line": "The corona appears as a white halo.",
+        "ko_title": "Wrong atmospheric layer",
+        "ko_line": "The visible surface is the photosphere, not the corona.",
+        "exp_title": "The Sun's outer atmosphere",
+        "exp_text": "The corona is the Sun's outermost atmospheric layer, extending millions of kilometers into space. It is extremely hot but very thin, so its faint light is normally overwhelmed by the bright photosphere. During a total solar eclipse, the Moon blocks the bright surface, allowing the corona to shine as a white halo."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which term best describes the Sun's matter, a hot, ionized gas with free electrons and nuclei?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Solid",
+            "feedback": "A solid has a fixed shape and tightly packed atoms, which the Sun's hot matter does not."
+          },
+          {
+            "label": "Liquid",
+            "feedback": "A liquid flows but keeps a definite volume; the Sun's matter is far too hot and energetic to be liquid."
+          },
+          {
+            "label": "Plasma",
+            "feedback": "Correct. At millions of degrees, atoms break apart into ions and free electrons, forming plasma."
+          },
+          {
+            "label": "Ordinary gas",
+            "feedback": "Ordinary gas has neutral atoms, but the Sun's heat strips electrons off, making it a plasma."
+          }
+        ],
+        "ok_title": "Plasma state",
+        "ok_line": "The Sun is a glowing plasma ball.",
+        "ko_title": "State of matter",
+        "ko_line": "Heat breaks atoms into charged particles.",
+        "exp_title": "Sun's physical state",
+        "exp_text": "The Sun is made of plasma, the fourth state of matter. At its extreme temperatures, atoms lose their electrons, leaving a mix of free electrons and positive ions. This ionized gas conducts electricity and responds to magnetic fields, behaving differently from an ordinary neutral gas."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main element in the Sun's composition?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Hydrogen",
+            "feedback": "Correct. Hydrogen makes up about three-quarters of the Sun's mass and is the fuel for fusion."
+          },
+          {
+            "label": "Helium",
+            "feedback": "Helium is the product of fusion and makes up about a quarter of the Sun's mass, but hydrogen is more abundant."
+          },
+          {
+            "label": "Carbon",
+            "feedback": "Carbon is a minor trace element in the Sun, not the main component."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is present only in small amounts; the Sun is predominantly hydrogen."
+          }
+        ],
+        "ok_title": "Hydrogen dominant",
+        "ok_line": "Hydrogen is the Sun's main fuel.",
+        "ko_title": "Wrong element",
+        "ko_line": "Helium comes second, not first.",
+        "exp_title": "The Sun's chemical makeup",
+        "exp_text": "The Sun is composed mostly of hydrogen, about 74% by mass, with helium at about 24%. All other elements together make up only a small fraction. Hydrogen is the fuel for nuclear fusion, producing helium and releasing the energy that powers the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the Sun's energy mostly travel as through the vacuum of space to reach Earth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sound waves",
+            "feedback": "Sound needs a medium like air or water to travel; space is empty, so sound cannot cross it."
+          },
+          {
+            "label": "Heat by direct contact",
+            "feedback": "Conduction requires touching; the Sun and Earth are far apart with nothing between them, so heat cannot transfer by contact."
+          },
+          {
+            "label": "Moving particles",
+            "feedback": "While the solar wind carries some particles, they are not the main carrier of the Sun's light and heat; that is radiation."
+          },
+          {
+            "label": "Electromagnetic radiation",
+            "feedback": "Correct. The Sun emits light (including visible, infrared, and ultraviolet) as electromagnetic radiation, which travels through empty space."
+          }
+        ],
+        "ok_title": "Radiation travels",
+        "ok_line": "Light crosses space as electromagnetic waves.",
+        "ko_title": "Wrong carrier",
+        "ko_line": "Space is empty, so only radiation gets through.",
+        "exp_title": "How solar energy arrives",
+        "exp_text": "Energy from the Sun crosses the vacuum of space as electromagnetic radiation, primarily visible light, plus infrared and ultraviolet. These waves need no medium and travel at the speed of light. When they strike Earth's surface, they warm it—that is the heat we feel from sunshine."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a sunspot appear dark against the rest of the Sun's surface?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It is a hole in the Sun",
+            "feedback": "A sunspot is not a hole; it is a cooler, darker region on the surface, still solidly part of the Sun."
+          },
+          {
+            "label": "It is cooler than the surrounding surface",
+            "feedback": "Correct. Sunspots are about 3,000–4,500°C, cooler than the 5,500°C surroundings, so they emit less light and appear dark."
+          },
+          {
+            "label": "It reflects light away",
+            "feedback": "The Sun emits light rather than reflecting it; a sunspot's darkness comes from its lower temperature, not reflection."
+          },
+          {
+            "label": "It is made of a different material",
+            "feedback": "Sunspots are made of the same plasma as the rest of the Sun; only their temperature differs."
+          }
+        ],
+        "ok_title": "Cooler spot",
+        "ok_line": "Cooler plasma shines less brightly.",
+        "ko_title": "Not a hole",
+        "ko_line": "Darkness means lower temperature, not absence of matter.",
+        "exp_title": "Why sunspots are dark",
+        "exp_text": "A sunspot is a region on the Sun's photosphere where a strong magnetic field suppresses the flow of hot plasma from below, making that area cooler than its surroundings, roughly 4,000°C versus 5,500°C. Because it is cooler, it emits less light, so it appears dark by contrast, though it is still intensely hot."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the solar flares that erupt from the Sun's surface?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sudden releases of magnetic energy",
+            "feedback": "Correct. When twisted magnetic fields in the Sun's atmosphere snap or reconnect, they release stored energy as a flare."
+          },
+          {
+            "label": "Rocks falling into the Sun",
+            "feedback": "Meteor impacts are negligible and not the cause; flares come from magnetic activity inside the Sun."
+          },
+          {
+            "label": "Nuclear explosions in the core",
+            "feedback": "Fusion in the core is steady, not explosive; flares occur in the atmosphere, driven by magnetic fields."
+          },
+          {
+            "label": "Rapid cooling of the surface",
+            "feedback": "Flares are explosive brightenings, not cooling events; cooling would dim, not flare."
+          }
+        ],
+        "ok_title": "Magnetic bursts",
+        "ok_line": "Flares come from magnetic reconnection.",
+        "ko_title": "Wrong trigger",
+        "ko_line": "Magnetic fields, not impacts or explosions, cause flares.",
+        "exp_title": "What powers solar flares",
+        "exp_text": "Solar flares are intense bursts of radiation caused by the sudden release of magnetic energy stored in the Sun's corona. When magnetic field lines twist and reconnect, they accelerate charged particles and emit light across many wavelengths. These flares often happen near sunspots, where magnetic fields are strongest."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the auroras near Earth's poles when solar activity sends charged particles toward our planet?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The particles heat the air to burn it",
+            "feedback": "Auroras are not burning; they are excited air molecules emitting light, like in a neon tube, not combustion."
+          },
+          {
+            "label": "The particles reflect sunlight",
+            "feedback": "Reflection would not produce the moving, colored curtains; auroras come from the particles colliding with atmospheric gases."
+          },
+          {
+            "label": "The particles collide with gas atoms, making them glow",
+            "feedback": "Correct. When charged solar particles hit oxygen and nitrogen high in the atmosphere, those atoms emit light of various colors."
+          },
+          {
+            "label": "The particles create a magnetic field around Earth",
+            "feedback": "Earth's magnetic field guides the particles, but the glow itself comes from collisions with gas, not from a new magnetic field."
+          }
+        ],
+        "ok_title": "Glowing collisions",
+        "ok_line": "Solar particles excite air, producing light.",
+        "ko_title": "Not burning or reflecting",
+        "ko_line": "Glow comes from excited gas atoms.",
+        "exp_title": "How auroras form",
+        "exp_text": "Auroras occur when charged particles from the Sun, carried by the solar wind or a coronal mass ejection, are funneled by Earth's magnetic field toward the polar regions. There, they collide with oxygen and nitrogen atoms in the upper atmosphere, transferring energy that the atoms release as visible light—green, red, and purple curtains in the sky."
+      }
+    ]
+  }
+]

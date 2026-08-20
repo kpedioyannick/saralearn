@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a star in its earliest stage, formed from a collapsing fragment of a giant molecular cloud?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Red giant",
+            "feedback": "A red giant is a much later stage, when a star swells up after exhausting its core hydrogen. The earliest stage, right after the cloud fragment condenses, is called a protostar."
+          },
+          {
+            "label": "Protostar",
+            "feedback": "Correct. As a fragment of a giant molecular cloud collapses, it condenses into a rotating ball of superhot gas called a protostar."
+          },
+          {
+            "label": "White dwarf",
+            "feedback": "A white dwarf is the dense remnant left behind after a star like the Sun has exhausted its fuel, not the initial stage. The initial stage is a protostar."
+          },
+          {
+            "label": "Main-sequence star",
+            "feedback": "A main-sequence star is the stable phase that comes after the protostar settles into equilibrium, not the earliest stage itself."
+          }
+        ],
+        "ok_title": "Protostar named",
+        "ok_line": "The earliest stage is the protostar.",
+        "ko_title": "Wrong stage",
+        "ko_line": "That name belongs to a later or final phase.",
+        "exp_title": "Star's first stage",
+        "exp_text": "A star begins as a protostar, which forms when a fragment of a giant molecular cloud collapses and condenses into a rotating ball of superhot gas."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the clouds of gas and dust from which all stars are formed called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Planetary nebulae",
+            "feedback": "Planetary nebulae are expelled outer layers of a star like the Sun at the end of its life, not the birth clouds. Birth clouds are nebulae or molecular clouds."
+          },
+          {
+            "label": "White dwarfs",
+            "feedback": "White dwarfs are dense remnants of dead stars, not clouds. The birth clouds are nebulae or molecular clouds."
+          },
+          {
+            "label": "Nebulae or molecular clouds",
+            "feedback": "Correct. All stars are formed from collapsing clouds of gas and dust, often called nebulae or molecular clouds."
+          },
+          {
+            "label": "Supernovae",
+            "feedback": "A supernova is an explosion of a very massive star at the end of its life, not a birth cloud. Birth clouds are nebulae or molecular clouds."
+          }
+        ],
+        "ok_title": "Birth clouds named",
+        "ok_line": "Stars form from nebulae.",
+        "ko_title": "Not the birth cloud",
+        "ko_line": "That term describes a later or different object.",
+        "exp_title": "Star-forming clouds",
+        "exp_text": "Stars form from collapsing clouds of gas and dust, which are called nebulae or molecular clouds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What process powers a star for most of its existence?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Gravitational collapse",
+            "feedback": "Gravitational collapse happens during formation, pulling the cloud together, but it is not what powers the star throughout its life. Nuclear fusion is the long-term power source."
+          },
+          {
+            "label": "Cooling and shrinking",
+            "feedback": "Cooling and shrinking are not an energy source; they happen as a star fades. Nuclear fusion is what powers a star for most of its existence."
+          },
+          {
+            "label": "Magnetic fields",
+            "feedback": "Magnetic fields can influence formation details, but they do not power the star. Nuclear fusion in the core does."
+          },
+          {
+            "label": "Nuclear fusion",
+            "feedback": "Correct. Nuclear fusion, initially of hydrogen atoms at the core, generates the energy that powers a star for most of its existence."
+          }
+        ],
+        "ok_title": "Fusion powers stars",
+        "ok_line": "Nuclear fusion is the main power source.",
+        "ko_title": "Not the power source",
+        "ko_line": "That process does not sustain a star's energy output.",
+        "exp_title": "Star's energy source",
+        "exp_text": "A star is powered for most of its existence by nuclear fusion, starting with the fusion of hydrogen atoms at its core."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the core of a star like the Sun after it has exhausted its nuclear fuel?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It collapses into a dense white dwarf",
+            "feedback": "Correct. When a star like the Sun exhausts its fuel, its core collapses into a dense white dwarf."
+          },
+          {
+            "label": "It explodes as a supernova",
+            "feedback": "Supernovae happen only to stars with about ten or more times the Sun's mass, not to Sun-like stars. The Sun's core becomes a white dwarf."
+          },
+          {
+            "label": "It becomes a neutron star",
+            "feedback": "Neutron stars form from the collapsed cores of very massive stars after a supernova, not from a star like the Sun. The Sun's core becomes a white dwarf."
+          },
+          {
+            "label": "It expands into a black hole",
+            "feedback": "Black holes form from the collapse of extremely massive stellar cores, not from a Sun-like star. The Sun's core becomes a white dwarf."
+          }
+        ],
+        "ok_title": "White dwarf remnant",
+        "ok_line": "Sun-like stars leave white dwarfs.",
+        "ko_title": "Heavier remnant",
+        "ko_line": "That fate belongs to much more massive stars.",
+        "exp_title": null,
+        "exp_text": "Once a star like the Sun runs out of nuclear fuel, its core collapses into a dense white dwarf, and the outer layers are expelled as a planetary nebula."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the outer layers expelled when a star like the Sun becomes a white dwarf called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A supernova remnant",
+            "feedback": "A supernova remnant is the debris left after a very massive star explodes, not what a Sun-like star expels. The Sun-like star's outer layers form a planetary nebula."
+          },
+          {
+            "label": "A planetary nebula",
+            "feedback": "Correct. When a star like the Sun exhausts its fuel, its outer layers are expelled as a planetary nebula."
+          },
+          {
+            "label": "A molecular cloud",
+            "feedback": "A molecular cloud is a star-forming cloud, not the expelled envelope of a dying Sun-like star. The expelled layers form a planetary nebula."
+          },
+          {
+            "label": "A protostar",
+            "feedback": "A protostar is an early stage of star formation, not the expelled outer layers of a dying star. Those layers form a planetary nebula."
+          }
+        ],
+        "ok_title": "Expelled layers' name",
+        "ok_line": "They form a planetary nebula.",
+        "ko_title": "Wrong debris name",
+        "ko_line": "That term describes a different object or phase.",
+        "exp_title": null,
+        "exp_text": "When a star like the Sun runs out of fuel, its outer layers are pushed away as a planetary nebula, leaving the white dwarf core behind."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of star can end its life in a supernova explosion?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A red dwarf",
+            "feedback": "Red dwarfs are small, low-mass stars that never explode; they slowly become white dwarfs. Supernovae require much more massive stars."
+          },
+          {
+            "label": "A star like the Sun",
+            "feedback": "A star like the Sun is a mid-sized star that ends as a white dwarf with a planetary nebula, not a supernova. Supernovae need about ten or more solar masses."
+          },
+          {
+            "label": "A star with around ten or more times the Sun's mass",
+            "feedback": "Correct. Stars with about ten or more times the Sun's mass can explode in a supernova."
+          },
+          {
+            "label": "A brown dwarf",
+            "feedback": "Brown dwarfs never fuse hydrogen and simply fade away; they are far too small to explode. Supernovae require stars with at least ten solar masses."
+          }
+        ],
+        "ok_title": "Supernova candidates",
+        "ok_line": "Only very massive stars explode.",
+        "ko_title": "Too small to explode",
+        "ko_line": "Those stars do not reach supernova conditions.",
+        "exp_title": null,
+        "exp_text": "A star with around ten or more times the Sun's mass can explode in a supernova, when its inert iron core collapses."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two possible dense remnants left behind after a supernova explosion?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A neutron star or a black hole",
+            "feedback": "Correct. When a very massive star's iron core collapses, it becomes either an extremely dense neutron star or a black hole."
+          },
+          {
+            "label": "A white dwarf or a red giant",
+            "feedback": "White dwarfs come from Sun-like stars, and red giants are a phase before the end, not remnants of a supernova. Supernovae leave neutron stars or black holes."
+          },
+          {
+            "label": "A brown dwarf or a protostar",
+            "feedback": "Brown dwarfs and protostars are early or failed stars, not remnants of a supernova. Supernovae leave neutron stars or black holes."
+          },
+          {
+            "label": "A planetary nebula or a red dwarf",
+            "feedback": "A planetary nebula is the expelled shell of a Sun-like star, and red dwarfs are low-mass main-sequence stars. Supernovae leave neutron stars or black holes."
+          }
+        ],
+        "ok_title": "Supernova remnants",
+        "ok_line": "Neutron stars or black holes remain.",
+        "ko_title": "Not the remnants",
+        "ko_line": "Those objects come from different processes.",
+        "exp_title": null,
+        "exp_text": "A supernova occurs when a very massive star's inert iron core collapses, leaving behind either a neutron star or a black hole, depending on the mass."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a protostar that never reaches a temperature high enough for hydrogen fusion to begin, having a mass below roughly 0.08 solar masses?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Red dwarf",
+            "feedback": "A red dwarf is a low-mass star that does fuse hydrogen on the main sequence, unlike a brown dwarf, which never ignites hydrogen fusion."
+          },
+          {
+            "label": "White dwarf",
+            "feedback": "A white dwarf is a dense remnant of a dead star, not a failed star. The object that never fuses hydrogen is a brown dwarf."
+          },
+          {
+            "label": "Neutron star",
+            "feedback": "A neutron star is a supernova remnant, not a failed star. The object that never fuses hydrogen is a brown dwarf."
+          },
+          {
+            "label": "Brown dwarf",
+            "feedback": "Correct. A protostar with mass less than about 0.08 solar masses never gets hot enough for hydrogen fusion and is called a brown dwarf."
+          }
+        ],
+        "ok_title": "Brown dwarf defined",
+        "ok_line": "It never ignites hydrogen fusion.",
+        "ko_title": "Wrong stellar object",
+        "ko_line": "That term names a different kind of star or remnant.",
+        "exp_title": null,
+        "exp_text": "A brown dwarf is a protostar with too little mass to reach the temperature needed for hydrogen fusion, so it shines dimly and fades away over time."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to a brown dwarf over time after it forms?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It explodes as a supernova",
+            "feedback": "Supernovae require stars with at least ten solar masses; brown dwarfs are far too small and never explode. They simply fade away."
+          },
+          {
+            "label": "It shines dimly and fades away, cooling gradually",
+            "feedback": "Correct. Brown dwarfs shine dimly and fade away slowly, cooling gradually over hundreds of millions of years."
+          },
+          {
+            "label": "It becomes a red giant",
+            "feedback": "Red giants are a stage for mid-sized stars after the main sequence, not for brown dwarfs. Brown dwarfs never fuse hydrogen and just cool down."
+          },
+          {
+            "label": "It turns into a main-sequence star",
+            "feedback": "Brown dwarfs lack the mass to ignite hydrogen fusion, so they never reach the main sequence. They simply fade away."
+          }
+        ],
+        "ok_title": "Brown dwarf fate",
+        "ok_line": "They cool and fade away.",
+        "ko_title": "Wrong fate",
+        "ko_line": "Brown dwarfs do not follow those paths.",
+        "exp_title": null,
+        "exp_text": "A brown dwarf, lacking hydrogen fusion, shines only faintly from leftover heat and gradually cools, fading away over hundreds of millions of years."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate core temperature required for hydrogen fusion to begin in a forming star?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "100 million kelvin",
+            "feedback": "100 million kelvin is the temperature needed for helium fusion, not hydrogen fusion. Hydrogen fusion begins at about 10 million kelvin."
+          },
+          {
+            "label": "1 million kelvin",
+            "feedback": "1 million kelvin is too cool; the core must reach about 10 million kelvin to ignite hydrogen fusion."
+          },
+          {
+            "label": "10 million kelvin",
+            "feedback": "Correct. The core temperature must reach about 10 million kelvin to start the proton–proton chain and fuse hydrogen."
+          },
+          {
+            "label": "1000 kelvin",
+            "feedback": "1000 kelvin is far too low; fusion requires extreme temperatures around 10 million kelvin."
+          }
+        ],
+        "ok_title": "Hydrogen fusion temperature",
+        "ok_line": "It starts at about 10 million kelvin.",
+        "ko_title": "Wrong temperature",
+        "ko_line": "That value does not match fusion ignition conditions.",
+        "exp_title": null,
+        "exp_text": "For a more-massive protostar, the core temperature eventually reaches about 10 million kelvin, initiating hydrogen fusion through the proton–proton chain reaction."
+      }
+    ]
+  }
+]

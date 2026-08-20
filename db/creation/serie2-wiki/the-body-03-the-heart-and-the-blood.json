@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 248,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main circuits of the circulatory system in vertebrates?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Systemic and pulmonary",
+            "feedback": "Correct. The systemic circuit carries oxygenated blood from the left heart to the body and returns deoxygenated blood to the right heart, while the pulmonary circuit takes deoxygenated blood to the lungs and returns oxygenated blood to the left heart."
+          },
+          {
+            "label": "Arterial and venous",
+            "feedback": "Not quite. These are types of blood vessels, not the two major circuits. The two circuits are named by the routes they take: systemic for the body and pulmonary for the lungs."
+          },
+          {
+            "label": "Coronary and cerebral",
+            "feedback": "Close but not the main divisions. Coronary and cerebral are additional routes serving specific organs, while the two fundamental circuits are systemic and pulmonary."
+          },
+          {
+            "label": "Macro and micro",
+            "feedback": "Those are subdivisions of the systemic circuit, not the two primary circuits. The whole system splits first into systemic and pulmonary."
+          }
+        ],
+        "ok_title": "Correct circuit",
+        "ok_line": "You identified the two main loops.",
+        "ko_title": "Not the main two",
+        "ko_line": "Remember the big picture: body and lungs.",
+        "exp_title": "Circulatory circuits",
+        "exp_text": "The circulatory system in vertebrates splits into two major circuits. The systemic circulation carries oxygen-rich blood from the left heart through the body and returns oxygen-poor blood to the right heart. The pulmonary circulation takes deoxygenated blood from the right heart to the lungs, where it picks up oxygen, and brings it back to the left heart. These two loops work together continuously."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which blood vessels carry blood away from the heart?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Veins",
+            "feedback": "Not that. Veins carry blood toward the heart, not away. Arteries are the ones that carry blood away from the heart."
+          },
+          {
+            "label": "Arteries",
+            "feedback": "Correct. Arteries are the blood vessels that transport blood away from the heart, and the largest of them branch into smaller arterioles and then capillaries."
+          },
+          {
+            "label": "Capillaries",
+            "feedback": "Capillaries are the tiny vessels where exchange happens, but they do not carry blood away from the heart. That job belongs to arteries."
+          },
+          {
+            "label": "Venules",
+            "feedback": "No, venules are small veins that collect blood from capillaries and lead toward the heart. Arteries are the ones leaving the heart."
+          }
+        ],
+        "ok_title": "Away from heart",
+        "ok_line": "Arteries are the departure routes.",
+        "ko_title": "Toward or away?",
+        "ko_line": "Veins come back, arteries go out.",
+        "exp_title": "Blood vessel directions",
+        "exp_text": "The circulatory system uses arteries to carry blood away from the heart and veins to bring it back. Arteries branch into smaller arterioles and then into capillaries, where nutrients and gases exchange. Capillaries then merge into venules, which combine into veins that return blood to the heart."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the pulmonary circulation do?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It carries oxygenated blood to the whole body",
+            "feedback": "That describes the systemic circulation, not the pulmonary one. Pulmonary refers to the lungs, not the body at large."
+          },
+          {
+            "label": "It carries deoxygenated blood from the lungs to the heart",
+            "feedback": "The path is reversed. Pulmonary circulation takes deoxygenated blood from the heart to the lungs and then returns oxygenated blood back to the heart."
+          },
+          {
+            "label": "It takes deoxygenated blood to the lungs and returns oxygenated blood to the heart",
+            "feedback": "Correct. The pulmonary circuit starts at the right heart, sends deoxygenated blood via the pulmonary artery to the lungs for gas exchange, and brings oxygen-rich blood back through the pulmonary vein to the left atrium."
+          },
+          {
+            "label": "It supplies blood to the heart muscle itself",
+            "feedback": "That is the coronary circulation, a separate small loop that feeds the heart muscle, not the pulmonary circuit."
+          }
+        ],
+        "ok_title": "Lung loop",
+        "ok_line": "Pulmonary means lungs, and that is the job.",
+        "ko_title": "Wrong route",
+        "ko_line": "It is about lungs, not the body or heart muscle.",
+        "exp_title": "Pulmonary circuit function",
+        "exp_text": "The pulmonary circulation is the loop that runs between the heart and the lungs. Deoxygenated blood leaves the right ventricle through the pulmonary artery, reaches the lungs where carbon dioxide is released and oxygen is absorbed, and then returns via the pulmonary vein to the left atrium. This ensures the blood is re-oxygenated for the body."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which structures carry blood from the heart to the lungs in the pulmonary circulation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Pulmonary arteries",
+            "feedback": "Correct. The pulmonary arteries transport deoxygenated blood from the right ventricle to the lungs. Despite being arteries, they carry oxygen-poor blood because this is the pulmonary circuit."
+          },
+          {
+            "label": "Pulmonary veins",
+            "feedback": "Those do the opposite: they bring oxygen-rich blood from the lungs back to the left atrium. The away-bound vessels are the arteries."
+          },
+          {
+            "label": "Venae cavae",
+            "feedback": "The venae cavae are the large veins that return deoxygenated blood from the body to the right atrium, not to the lungs."
+          },
+          {
+            "label": "Aorta",
+            "feedback": "The aorta is the major artery that carries oxygenated blood from the left ventricle to the body, not to the lungs."
+          }
+        ],
+        "ok_title": "Lungs-bound vessels",
+        "ok_line": "Arteries head to the lungs.",
+        "ko_title": "Check the direction",
+        "ko_line": "Veins come back; aorta goes to the body.",
+        "exp_title": "Pulmonary artery role",
+        "exp_text": "In the pulmonary circulation, the right ventricle pumps deoxygenated blood through the pulmonary semilunar valve into the pulmonary artery, which leads to the lungs. In the lungs, gas exchange happens, and then the pulmonary vein carries the fresh oxygenated blood back to the left atrium."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main artery that receives oxygenated blood from the left ventricle?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Pulmonary artery",
+            "feedback": "No, the pulmonary artery takes deoxygenated blood to the lungs, not oxygenated blood from the left ventricle. The large artery that leaves the left ventricle is the aorta."
+          },
+          {
+            "label": "Superior vena cava",
+            "feedback": "That is a large vein that returns deoxygenated blood to the right atrium, not an artery leaving the left ventricle."
+          },
+          {
+            "label": "Inferior vena cava",
+            "feedback": "This vein brings deoxygenated blood from the lower body to the heart, far from being the major artery from the left ventricle."
+          },
+          {
+            "label": "Aorta",
+            "feedback": "Correct. The aorta is the massive, thick-walled artery that leaves the left ventricle and carries oxygenated blood to the systemic circulation, arching and giving branches to supply the body."
+          }
+        ],
+        "ok_title": "Left ventricle's artery",
+        "ok_line": "The aorta is the big one.",
+        "ko_title": "Not that vessel",
+        "ko_line": "Veins return; pulmonary artery goes to lungs.",
+        "exp_title": "Aorta origin",
+        "exp_text": "When the left ventricle contracts, blood passes through the aortic semilunar valve into the aorta. The aorta is an elastic, thick-walled artery that arches and branches to supply the upper body, abdomen, pelvis, and lower limbs. Its elasticity helps keep blood pressure steady throughout the systemic circulation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of capillaries in the circulatory system?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They carry blood from the heart to the body",
+            "feedback": "That is the job of arteries. Capillaries are much smaller and are where the exchange of materials happens between blood and tissues."
+          },
+          {
+            "label": "They connect arteries to veins and allow exchange with tissues",
+            "feedback": "Correct. Arteries branch into arterioles and then into capillaries, which form networks where nutrients, oxygen, and waste products pass between blood and body cells. Capillaries then merge into venules and veins."
+          },
+          {
+            "label": "They return blood to the heart",
+            "feedback": "That is the job of veins. Capillaries are the middle link, not the return path."
+          },
+          {
+            "label": "They pump blood through the system",
+            "feedback": "Pumping is done by the heart, not by capillaries, which are tiny thin-walled vessels."
+          }
+        ],
+        "ok_title": "Capillary function",
+        "ok_line": "Exchange happens in capillaries.",
+        "ko_title": "Wrong vessel job",
+        "ko_line": "Arteries leave, veins return, capillaries exchange.",
+        "exp_title": "Capillary role",
+        "exp_text": "Capillaries are the smallest blood vessels, formed when arterioles branch. They form a vast network where the blood exchanges oxygen, nutrients, and waste with surrounding tissues. After this exchange, capillaries merge into venules, which then join into veins that carry blood back to the heart."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which two large veins return deoxygenated blood to the right atrium?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Pulmonary veins",
+            "feedback": "Pulmonary veins bring oxygenated blood from the lungs to the left atrium, not deoxygenated blood to the right atrium."
+          },
+          {
+            "label": "Carotid arteries",
+            "feedback": "Those are arteries that supply the head, not veins returning blood to the heart."
+          },
+          {
+            "label": "Superior and inferior vena cava",
+            "feedback": "Correct. The superior vena cava drains blood from the upper body and the inferior vena cava from the lower body; both empty into the right atrium."
+          },
+          {
+            "label": "Aorta and pulmonary trunk",
+            "feedback": "The aorta carries blood away from the left ventricle, and the pulmonary trunk goes to the lungs. Neither returns blood to the right atrium."
+          }
+        ],
+        "ok_title": "Returning veins",
+        "ok_line": "Venae cavae bring blood back.",
+        "ko_title": "Not the returning pair",
+        "ko_line": "Pulmonary veins go to the left atrium.",
+        "exp_title": "Venae cavae",
+        "exp_text": "The systemic circulation returns deoxygenated blood to the right atrium through two large veins: the superior vena cava, which collects blood from the upper body, and the inferior vena cava, which collects blood from the lower body. Both empty into the right atrium, beginning the pulmonary circuit."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between arteries and veins in terms of blood flow direction?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Arteries carry blood away from the heart, veins carry it toward the heart",
+            "feedback": "Exactly. The heart pumps blood into arteries, which branch and deliver it to the body; veins collect blood and return it to the heart."
+          },
+          {
+            "label": "Arteries carry only oxygenated blood, veins carry only deoxygenated blood",
+            "feedback": "This is a common confusion, but in the pulmonary circuit the pulmonary artery carries deoxygenated blood and pulmonary veins carry oxygenated blood. Direction is the reliable difference."
+          },
+          {
+            "label": "Arteries have valves, veins do not",
+            "feedback": "It is the other way around: veins have valves along their length to prevent backflow, while arteries generally do not."
+          },
+          {
+            "label": "Arteries are thin-walled, veins are thick-walled",
+            "feedback": "Arteries have thick, elastic walls because they bear high pressure from the heart; veins have thinner walls and rely on valves."
+          }
+        ],
+        "ok_title": "Flow direction",
+        "ok_line": "Out via arteries, back via veins.",
+        "ko_title": "Direction is key",
+        "ko_line": "Remember the heart is the pump in the middle.",
+        "exp_title": "Arteries vs veins",
+        "exp_text": "The fundamental distinction is direction: arteries carry blood away from the heart (into the systemic or pulmonary circuits), while veins return blood toward the heart. This holds true even though pulmonary arteries carry deoxygenated blood and pulmonary veins carry oxygenated blood. The wall thickness and valves follow from this pressure difference, but the direction is the defining feature."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What makes the aorta able to help maintain blood pressure throughout the body?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Its thick muscular pump action",
+            "feedback": "The aorta does not pump; the heart does. The aorta's property is its elasticity, not muscle contraction."
+          },
+          {
+            "label": "Its many valves",
+            "feedback": "The aorta does not have multiple valves; it has one semilunar valve at its start. Elasticity, not valves, helps maintain pressure."
+          },
+          {
+            "label": "Its narrow opening",
+            "feedback": "A narrow opening would increase resistance, not maintain steady pressure. The elasticity of the aortic wall is the key factor."
+          },
+          {
+            "label": "Its elastic walls",
+            "feedback": "Correct. The aorta's walls are elastic, so when the heart ejects blood, the aorta recoils and keeps pressure stable as blood flows onward."
+          }
+        ],
+        "ok_title": "Elastic aorta",
+        "ok_line": "Recoil keeps pressure steady.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think elasticity, not pumping.",
+        "exp_title": "Aortic elasticity",
+        "exp_text": "The aorta has thick, elastic walls. When the left ventricle pumps blood into it, the aorta stretches and then recoils, which helps maintain blood pressure throughout the circulatory system. As the aorta branches into smaller arteries, their elasticity decreases while compliance increases, so the effect is strongest near the heart."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the hepatic portal vein a special exception to?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It carries oxygenated blood to the liver",
+            "feedback": "No, the hepatic portal vein carries blood that has absorbed nutrients from the gastrointestinal tract, not oxygen-rich blood. Its exception is about its route, not its oxygen content."
+          },
+          {
+            "label": "It does not return blood directly to the heart after leaving capillaries",
+            "feedback": "Correct. Normally arteries branch to capillaries that merge into veins going back to the heart, but the hepatic portal vein collects from capillaries around the gut and then branches into another capillary system in the liver, bypassing the heart temporarily."
+          },
+          {
+            "label": "It carries blood from the liver to the heart",
+            "feedback": "That would be a normal vein, not an exception. The hepatic portal vein heads from the gut to the liver, not directly to the heart."
+          },
+          {
+            "label": "It contains no blood cells",
+            "feedback": "The portal vein carries blood like any other; its uniqueness is the capillary-to-capillary connection, not the absence of cells."
+          }
+        ],
+        "ok_title": "Portal exception",
+        "ok_line": "Capillary to capillary, not to heart.",
+        "ko_title": "Wrong exception",
+        "ko_line": "It is about the route, not oxygen or cells.",
+        "exp_title": "Hepatic portal vein",
+        "exp_text": "The usual pattern is: arteries branch into capillaries, which join into veins that return to the heart. The hepatic portal vein breaks this rule: it forms from capillaries around the gastrointestinal tract (where digestion products are absorbed), then instead of going to the heart, it branches into a second set of capillaries inside the liver. This allows the liver to process nutrients before they reach the general circulation."
+      }
+    ]
+  }
+]

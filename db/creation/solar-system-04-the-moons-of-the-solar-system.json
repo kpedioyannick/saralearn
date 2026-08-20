@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 184,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why do large moons like Jupiter's Ganymede look like round little worlds, while tiny moons like Jupiter's Amalthea look like lumpy rocks?",
+        "body": null,
+        "options": [
+          {
+            "label": "Large moons cooled more slowly, giving them time to smooth out",
+            "feedback": "Cooling rate affects how a moon's interior settles, not whether gravity is strong enough to reshape its overall bulk into a sphere."
+          },
+          {
+            "label": "A large moon has enough of its own gravity to pull itself into a sphere; a small one doesn't",
+            "feedback": "Once a moon has enough mass, its own gravity pulls evenly inward from every direction hard enough to overcome the rock's own strength, crushing down high points and filling in low ones until the body settles into a sphere."
+          },
+          {
+            "label": "Large moons are shaped by their planet's rings brushing against them",
+            "feedback": "Most moons, including Ganymede, don't orbit anywhere near a ring system at all, so nothing there is smoothing their shape."
+          },
+          {
+            "label": "Small moons are simply younger and haven't finished forming yet",
+            "feedback": "Age isn't the deciding factor; a small moon can be just as old as a large one and still never gain enough gravity to round itself out."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Enough gravity to round out",
+        "ok_line": "Big enough moons pull themselves into a sphere; small ones can't.",
+        "ko_title": "Not cooling, not rings, not age",
+        "ko_line": "It comes down to how much gravity the moon itself can generate.",
+        "exp_title": "Only the massive ones can round themselves out",
+        "exp_text": "A moon's own gravity pulls its material inward from every direction, and once a moon is massive enough, that pull becomes strong enough to overpower the rigidity of rock, crushing down high points and filling in low ones until the body settles into a sphere. A small moon simply doesn't have enough mass to generate that pull, so it keeps the lumpy, irregular shape it formed with instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the same side of many moons, including Earth's Moon, always face their planet?",
+        "body": null,
+        "options": [
+          {
+            "label": "The planet's gravity gradually slowed the moon's spin until it matched the moon's orbital period",
+            "feedback": "A planet's gravity pulls slightly harder on the near side of a moon than the far side, raising a small tidal bulge, and friction from that shifting bulge drains energy from the moon's spin until it slows to match the orbit."
+          },
+          {
+            "label": "The moon has no spin of its own at all",
+            "feedback": "A tidally locked moon does still spin — once per orbit — it isn't standing still; that matching rate is exactly what keeps the same face pointed inward."
+          },
+          {
+            "label": "Sunlight always heats one side more, which locks it in place",
+            "feedback": "Sunlight sweeps across every side of a moon in turn as it orbits; it isn't fixed on one hemisphere in a way that could lock the spin."
+          },
+          {
+            "label": "The planet's magnetic field holds the moon's near side in place",
+            "feedback": "Most moons aren't magnetic enough for any planet's field to grip and hold one side toward it; the locking effect comes from gravity, not magnetism."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Slowed until the two match",
+        "ok_line": "A tidal drag on spin, kept up until it locks step with the orbit.",
+        "ko_title": "Not spinless, not sunlight, not magnetism",
+        "ko_line": "The locking comes from a gravitational drag on the moon's own rotation.",
+        "exp_title": "A slow drag that locks the spin to the orbit",
+        "exp_text": "A planet's gravity pulls slightly harder on the near side of a moon than the far side, stretching it into a small tidal bulge, and as the moon spins that bulge keeps shifting position, with friction inside the moon steadily draining energy from its spin. Over a very long stretch of time, that drain slows the moon's rotation until it exactly matches the time needed to complete one orbit, at which point the same face stays permanently turned toward the planet."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Jupiter's moon Io have such intense, constant volcanic activity?",
+        "body": null,
+        "options": [
+          {
+            "label": "It sits closest to the Sun of any moon, and solar heat drives the eruptions",
+            "feedback": "Io is far out near Jupiter, nowhere close to the Sun; solar heating there is extremely weak, not the source of its heat."
+          },
+          {
+            "label": "Its atmosphere traps heat in a runaway greenhouse effect",
+            "feedback": "Io's atmosphere is extremely thin, far too thin to trap meaningful heat the way a thick atmosphere like Venus's does."
+          },
+          {
+            "label": "Radioactive elements inside it are unusually concentrated compared with other moons",
+            "feedback": "There's no particular reason to think Io holds more radioactive material than other moons its size; the heat here comes from an outside source, not decay inside."
+          },
+          {
+            "label": "Jupiter's gravity, along with pulls from neighbouring moons, repeatedly flexes Io's interior and generates heat through friction",
+            "feedback": "Io's orbit is kept slightly non-circular by the regular gravitational tugs of its neighbouring moons, so Jupiter's own powerful gravity pulls on Io with varying strength as it swings around, flexing the moon's interior and generating friction deep inside."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Squeezed until it melts",
+        "ok_line": "Flexed again and again, and the friction turns to heat.",
+        "ko_title": "Not the Sun, not an atmosphere, not extra radioactivity",
+        "ko_line": "The heat comes from being repeatedly stretched and squeezed by gravity.",
+        "exp_title": "Kneaded by gravity until it melts",
+        "exp_text": "Io's neighbouring moons regularly tug on its orbit and keep it from settling into a perfect circle around Jupiter, so as Io swings nearer and farther from Jupiter's powerful gravity, the strength of the pull on it keeps changing and its interior gets stretched and squeezed over and over. That repeated flexing generates friction deep inside the moon, and the friction produces enough heat to keep rock molten and erupting."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do scientists suspect Jupiter's moon Europa hides a liquid ocean beneath its icy surface, despite sunlight there being extremely faint?",
+        "body": null,
+        "options": [
+          {
+            "label": "Europa's thick atmosphere traps enough heat to melt the ice below",
+            "feedback": "Europa has essentially no atmosphere to speak of, so there's nothing there to trap heat that way."
+          },
+          {
+            "label": "Its surface ice is naturally warmer than ice anywhere else in the solar system",
+            "feedback": "Europa's surface is in fact extremely cold; the warmth suspected underground has nothing to do with the surface temperature."
+          },
+          {
+            "label": "Tidal flexing from Jupiter's gravity, similar to what heats Io, keeps its interior warm enough to melt ice below the surface",
+            "feedback": "Europa, like Io, has its orbit kept slightly stretched by neighbouring moons, so Jupiter's gravity flexes its interior with a gentler version of the same squeezing that powers Io's volcanoes, generating enough heat to keep water liquid underground."
+          },
+          {
+            "label": "Its icy crust is thin enough that a small amount of sunlight melts through it directly",
+            "feedback": "Sunlight this far from the Sun is far too weak to melt through any thickness of ice, thin or thick; whatever heat is at work is coming from inside the moon, not from sunlight."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Warmed the same way as Io, just gentler",
+        "ok_line": "Squeezed less violently than Io, but squeezed all the same.",
+        "ko_title": "Not an atmosphere, not warmer ice, not sunlight",
+        "ko_line": "The suspected heat source is the same gravitational flexing that powers Io's volcanoes, just milder.",
+        "exp_title": "Warmed from inside, the way Io is",
+        "exp_text": "Europa's orbit, like Io's, is kept slightly stretched by the regular gravitational tug of neighbouring moons, so Jupiter's powerful gravity flexes its interior as it swings around, generating friction and heat inside the moon, though more gently than the flexing that keeps Io's volcanoes erupting. That milder but steady internal heat is thought to be enough to keep a layer of water liquid beneath Europa's frozen outer shell, hidden away from the faint, distant sunlight above."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Saturn's moon Titan hold onto a thick atmosphere while Earth's Moon, a similarly sized body, has none at all?",
+        "body": null,
+        "options": [
+          {
+            "label": "Titan's stronger magnetic field traps the gas in place",
+            "feedback": "Titan doesn't generate a notably strong magnetic field of its own; what keeps its atmosphere in place is a matter of temperature and gravity, not magnetism."
+          },
+          {
+            "label": "Titan is cold enough, and massive enough, that gas molecules there move too slowly on average to escape into space",
+            "feedback": "How fast gas molecules move depends on temperature, and Titan is cold enough that its molecules move slowly enough for its modest gravity to hold most of them in place."
+          },
+          {
+            "label": "Titan constantly produces new gas through volcanic eruptions faster than it can escape",
+            "feedback": "Titan does have some internal activity, but a supply of new gas wouldn't explain a stable, thick atmosphere unless the existing gas were also staying put rather than escaping quickly."
+          },
+          {
+            "label": "Earth's Moon never had any gas to begin with",
+            "feedback": "Earth's Moon likely did have some outgassing early on; the reason nothing built up into an atmosphere is that whatever gas appeared escaped rather than being retained."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Cold enough to hold on",
+        "ok_line": "Slow molecules and just enough gravity are enough to keep them.",
+        "ko_title": "Not magnetism, not fresh gas, not never having any",
+        "ko_line": "It's a balance between temperature and gravity that decides whether gas escapes.",
+        "exp_title": "A balance between cold and gravity",
+        "exp_text": "Whether a gas molecule escapes a moon depends on how fast it's moving compared with the moon's escape speed, and how fast it moves on average depends on temperature. Titan is cold enough that its gas molecules move slowly enough for its modest gravity to hold most of them in, while Earth's Moon, sitting much closer to the Sun's warmth, has gas moving too fast on average for its similar gravity to keep hold of it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do a few moons orbit their planet backwards, opposite to the direction the planet itself spins?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are thought to be objects the planet captured after they wandered too close, rather than bodies that formed alongside it",
+            "feedback": "A moon that forms alongside its planet naturally ends up orbiting in the same direction the planet spins, since it inherits the disk's motion, while a moon on a backwards orbit shows every sign of having formed elsewhere and later been captured."
+          },
+          {
+            "label": "They were flipped over by a collision with another moon",
+            "feedback": "A collision might damage or destroy a moon rather than smoothly reverse the direction of its entire orbit; that kind of flip isn't what a moon-to-moon impact typically produces."
+          },
+          {
+            "label": "The planet's rings pushed them into the opposite direction over time",
+            "feedback": "Rings orbit in the same direction as the planet's spin and interact mainly with material near the planet, not with distant moons; they aren't reversing anything."
+          },
+          {
+            "label": "Every moon naturally settles into a backwards orbit eventually",
+            "feedback": "Most moons keep orbiting the same direction their planet spins for as long as they exist; a backwards orbit is the unusual case, not the natural endpoint."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A stranger the planet caught",
+        "ok_line": "Formed elsewhere, and captured with whatever direction it already had.",
+        "ko_title": "Not a flip, not the rings, not the usual outcome",
+        "ko_line": "A backwards orbit is a sign of where the moon came from, not something that happens to any moon.",
+        "exp_title": "A visitor caught mid-passage",
+        "exp_text": "A moon born from the same disk of material that built its planet naturally inherits that disk's spin direction, so it orbits the same way the planet turns. A moon travelling backwards instead carries no reason to share the planet's spin at all, which is exactly what would be expected of an object that formed somewhere else entirely and was later pulled into orbit after wandering too close to the planet's gravity."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some of Saturn's narrow rings stay tightly confined instead of gradually spreading out and dispersing over time?",
+        "body": null,
+        "options": [
+          {
+            "label": "The ring particles are frozen together into one solid sheet",
+            "feedback": "Ring particles remain separate, individually orbiting objects; they aren't fused into a solid sheet."
+          },
+          {
+            "label": "Saturn's magnetic field herds the particles back into place",
+            "feedback": "A magnetic field acts on charged particles, not on the mostly neutral ice and rock making up ring material, so it isn't what's confining the ring."
+          },
+          {
+            "label": "The rings are too cold for the particles to drift apart",
+            "feedback": "Temperature affects the state of the ice in the ring particles, not whether their orbits spread apart over time; that spreading is a matter of gravity and collisions, not heat."
+          },
+          {
+            "label": "Small 'shepherd' moons orbiting just inside and outside the ring tug stray particles back with their gravity",
+            "feedback": "A small moon orbiting just inside the edge of a narrow ring speeds up any particle that strays inward and a moon just outside slows down any particle that strays outward, and both effects push wandering particles back toward the middle."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Herded from both sides",
+        "ok_line": "A moon on each edge nudges strays back into line.",
+        "ko_title": "Not frozen solid, not magnetism, not the cold",
+        "ko_line": "What confines the ring is the gravity of small moons patrolling its edges.",
+        "exp_title": "Herded by moons on either side",
+        "exp_text": "A small moon orbiting just inside a narrow ring's edge speeds up any particle that drifts inward past it, nudging that particle back outward, while a moon orbiting just outside the ring slows down particles that drift out, nudging them back inward. With a shepherd moon working each edge, particles that would otherwise spread apart from collisions keep getting herded back toward the middle, holding the ring in a narrow band."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't a moon eventually fall into the planet it orbits, given that gravity is constantly pulling it inward?",
+        "body": null,
+        "options": [
+          {
+            "label": "The planet's magnetic field pushes the moon back out whenever it drifts inward",
+            "feedback": "Magnetic fields act on charged particles, not on the bulk rock and ice of a moon; that push isn't what's holding a moon in its orbit."
+          },
+          {
+            "label": "Sunlight pressure balances the planet's pull on the moon",
+            "feedback": "Sunlight pressure is far too weak at a planet's distance to meaningfully counter that planet's own much stronger gravity."
+          },
+          {
+            "label": "The moon's sideways orbital motion keeps carrying it past the planet just as gravity pulls it inward, the same balance that keeps planets from falling into the Sun",
+            "feedback": "A moon is constantly falling toward its planet under gravity, but it also carries sideways motion that keeps carrying it past the point it was falling toward, so it curves around instead of ever hitting the ground."
+          },
+          {
+            "label": "The moon is too light for the planet's gravity to have much effect on it",
+            "feedback": "A moon's gravity is exactly what holds it in orbit in the first place; if the planet's pull had little effect, the moon wouldn't be circling it at all."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Falling and missing, forever",
+        "ok_line": "Sideways speed keeps the moon curving past instead of down.",
+        "ko_title": "Not magnetism, not sunlight, not lightness",
+        "ko_line": "It's the same balance of falling and moving sideways that keeps any orbit going.",
+        "exp_title": "An orbit is a fall that keeps missing",
+        "exp_text": "A moon is always falling toward its planet under gravity, but it is also always carrying sideways motion from however it came to be orbiting in the first place, and that sideways motion keeps carrying it past the spot it was falling toward before it arrives there. The result is a closed curving path that repeats indefinitely, the same balance of constant falling and constant sideways motion that keeps a planet from ever spiraling into the Sun."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Titan have lakes of liquid methane rather than liquid water on its surface?",
+        "body": null,
+        "options": [
+          {
+            "label": "Titan's atmosphere contains no water at all, only methane",
+            "feedback": "Titan does hold traces of water, but nearly all of it is frozen rock-hard as part of the icy crust rather than existing as liquid; the key issue is temperature, not the total absence of water."
+          },
+          {
+            "label": "Titan's surface is so cold that water stays frozen solid while methane, a gas on Earth, condenses into liquid there instead",
+            "feedback": "Every substance has a temperature range where it exists as liquid, and Titan's surface sits far colder than water's freezing point, while methane happens to have a liquid range that matches Titan's frigid conditions almost perfectly."
+          },
+          {
+            "label": "Titan's gravity is too weak to hold onto liquid water",
+            "feedback": "Gravity strong enough to hold an atmosphere and surface liquid at all is strong enough to hold liquid water just as easily; the reason isn't gravity but temperature."
+          },
+          {
+            "label": "Underground volcanoes on Titan constantly melt methane ice into lakes",
+            "feedback": "Titan's extreme surface cold, not volcanic melting, is what keeps liquid methane pooling there; there's no need for underground heating to explain lakes that are simply cold enough to exist as they are."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "The right substance for the temperature",
+        "ok_line": "Water freezes solid there; methane is exactly the liquid range fit.",
+        "ko_title": "Not missing water, not weak gravity, not volcanoes",
+        "ko_line": "It comes down to which substance can be liquid at Titan's surface temperature.",
+        "exp_title": "A different substance fits a colder world",
+        "exp_text": "Every substance turns liquid only within its own particular range of temperature, and Titan's surface is far colder than the point where water freezes solid, so any water there stays locked as ice rather than flowing. Methane, a gas at the temperatures found on Earth, has a liquid range that happens to match Titan's frigid conditions, so it is methane rather than water that fills Titan's lakes and rivers."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some moons, like Earth's Moon, slowly drift farther from their planet over time, while others slowly spiral inward instead?",
+        "body": null,
+        "options": [
+          {
+            "label": "It depends on whether the moon orbits faster or slower than the planet spins, which decides which way the tidal bulge drags and transfers momentum",
+            "feedback": "A moon raises a small tidal bulge on its planet, and if the planet spins faster than the moon orbits, that bulge gets dragged slightly ahead by the planet's rotation and pulls the moon forward, adding energy that pushes it gradually outward."
+          },
+          {
+            "label": "It depends only on how big the moon is compared with its planet",
+            "feedback": "Size comparison by itself doesn't decide the direction; moons of very different relative sizes can be seen both drifting outward and drifting inward, so it isn't size alone doing the sorting."
+          },
+          {
+            "label": "Moons drift outward if they're made of ice and inward if they're made of rock",
+            "feedback": "Composition isn't what decides the direction a moon drifts; the direction comes from a comparison between orbital speed and the planet's spin rate, regardless of what the moon is made of."
+          },
+          {
+            "label": "It depends on how many other moons are orbiting the same planet",
+            "feedback": "The presence of other moons can nudge an orbit in small ways, but it isn't what decides the basic inward-versus-outward drift; that comes from the relationship between the moon's own orbit and the planet's spin."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Ahead or behind decides in or out",
+        "ok_line": "The tidal bulge either drags the moon forward or holds it back.",
+        "ko_title": "Not size, not composition, not moon count",
+        "ko_line": "What decides the direction is a comparison between orbital speed and spin rate.",
+        "exp_title": "Whichever one is faster drags the other",
+        "exp_text": "A moon raises a small tidal bulge in its planet, and that bulge gets carried slightly ahead of or behind the moon depending on whether the planet spins faster or slower than the moon orbits. A bulge dragged ahead by a fast-spinning planet pulls the moon forward and pushes it gradually outward, while a bulge left behind by a slower-spinning planet drags on a faster-orbiting moon and pulls it gradually inward instead."
+      }
+    ]
+  }
+]

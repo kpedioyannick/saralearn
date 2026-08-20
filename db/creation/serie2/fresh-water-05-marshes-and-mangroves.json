@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 231,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a marsh and a mangrove forest?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Marshes have salty water, mangroves have fresh water",
+            "feedback": "That is backwards—mangroves grow in salty coastal water, while marshes can have fresh or brackish water, depending on where they sit."
+          },
+          {
+            "label": "Marshes have trees, mangroves have only grasses",
+            "feedback": "It is the other way around: mangroves are forests of salt-tolerant trees, while marshes are dominated by grasses, rushes, and other soft-stemmed plants."
+          },
+          {
+            "label": "Marshes are dominated by grasses and reeds, while mangroves are dominated by salt-tolerant trees",
+            "feedback": "Correct—a marsh is a wetland of grasses and reeds, while a mangrove forest is a coastal wetland where trees like the red mangrove stand in the water."
+          },
+          {
+            "label": "Marshes only form inland, mangroves only form on coastlines",
+            "feedback": "Marshes can also form on coasts, for example where rivers meet the sea; the key difference is the plant life, not the location alone."
+          }
+        ],
+        "ok_title": "Correct distinction",
+        "ok_line": "You've told the two wetlands apart by their plants.",
+        "ko_title": "Plant life decides",
+        "ko_line": "Look at what grows, not just where the wetland sits.",
+        "exp_title": "Wetland plant types",
+        "exp_text": "A marsh is a wetland covered mostly by soft-stemmed plants like grasses, sedges, and reeds that stand in shallow water or waterlogged soil. A mangrove forest is a coastal wetland filled with trees that tolerate salt water. The plants themselves are the clearest sign of which wetland you are in."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where in a mangrove tree do the arching roots that rise above the water usually attach?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They grow out from the trunk and lower branches, reaching down into the mud",
+            "feedback": "Correct—these prop roots (or stilt roots) spread out from the trunk and lower limbs and anchor into the mud, standing above water like a web."
+          },
+          {
+            "label": "They grow from the leaves and drip down into the water",
+            "feedback": "Roots never grow from leaves; that is how some vines climb, not how mangrove roots form."
+          },
+          {
+            "label": "They grow only from the tips of the highest branches, hanging free",
+            "feedback": "Roots attach at the base of the tree; the high branches carry leaves, not roots."
+          },
+          {
+            "label": "They grow horizontally across the water surface, never touching the mud",
+            "feedback": "Mangrove roots must reach into the mud to anchor the tree and take up water and nutrients; they do not just float on the surface."
+          }
+        ],
+        "ok_title": "Root attachment point",
+        "ok_line": "Those arched roots come from the trunk and lower branches.",
+        "ko_title": "Roots anchor below",
+        "ko_line": "Mangrove roots must reach the mud to hold the tree steady.",
+        "exp_title": "Mangrove prop roots",
+        "exp_text": "Mangrove trees such as the red mangrove grow prop roots that branch out from the trunk and the lower parts of the branches. These roots arch outward and then plunge down into the mud, standing above the waterline in between. They give the tree a wide, stable footing in soft coastal mud and also help the tree breathe."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do mangrove trees do with the salt they take in with the surrounding water?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They store all the salt in their trunks forever",
+            "feedback": "Storing salt would eventually poison the tree; mangroves have active ways to remove or block salt instead."
+          },
+          {
+            "label": "They push some salt out through their leaves and concentrate the rest in older leaves that fall off",
+            "feedback": "Correct—many mangroves have salt glands that excrete salt onto the leaf surface, and others dump salt into old leaves that drop away."
+          },
+          {
+            "label": "They turn the salt into sugar inside their leaves",
+            "feedback": "Salt cannot be changed into sugar; the tree uses sunlight to make sugar, while salt is removed by physical means."
+          },
+          {
+            "label": "They ignore the salt completely and it just passes through them",
+            "feedback": "Not true—salt would build up to deadly levels; mangroves must actively filter, excrete, or shed it."
+          }
+        ],
+        "ok_title": "Salt removal methods",
+        "ok_line": "Mangroves get rid of salt through leaves and leaf fall.",
+        "ko_title": "Salt is not stored",
+        "ko_line": "Mangroves actively remove salt to survive in seawater.",
+        "exp_title": "Mangrove salt tolerance",
+        "exp_text": "Mangrove trees live in water that would kill most plants because of its salt. They cope in three main ways: some filter most of the salt out at the roots, some push salt out through special glands on their leaves, and many concentrate salt in their oldest leaves and then let those leaves fall off. All these methods keep the salt inside the tree below the level that would harm it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the mud in a marsh often appear black and smell like rotten eggs?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the mud contains a lot of iron that rusts in the air",
+            "feedback": "Rusting iron would give a reddish or orange colour, not black, and the rotten-egg smell comes from something else."
+          },
+          {
+            "label": "Because the mud is full of dead bacteria from surface water",
+            "feedback": "It is not the bacteria themselves that cause the smell; it is the gas they release when they break down material without oxygen."
+          },
+          {
+            "label": "Because the mud is mixed with ash from old fires",
+            "feedback": "Ash is not present in every marsh, and it does not produce the rotten-egg scent that comes from sulfur gas."
+          },
+          {
+            "label": "Because bacteria in the oxygen-free mud break down dead plants and release hydrogen sulfide gas",
+            "feedback": "Correct—waterlogged mud has almost no oxygen, so bacteria decompose plant material anaerobically and give off hydrogen sulfide, which smells like rotten eggs and darkens the mud."
+          }
+        ],
+        "ok_title": "Smelly marsh mud",
+        "ok_line": "Oxygen-free bacteria make the sulfide gas.",
+        "ko_title": "No oxygen, then sulfur",
+        "ko_line": "The smell comes from a gas, not from dirt or ash.",
+        "exp_title": "Anaerobic decay in mud",
+        "exp_text": "In a marsh, the soil is so full of water that air cannot get in. Without oxygen, certain bacteria break down dead plant material through a process that releases hydrogen sulfide gas—the same substance that gives rotten eggs their smell. This gas also reacts with metals in the mud and turns it black, which is why you see and smell it together."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of plant typically forms the main ground cover in a freshwater marsh?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Tall hardwood trees like oaks",
+            "feedback": "Trees like oaks cannot stand their roots in waterlogged soil for long; they are not the main plants of a marsh."
+          },
+          {
+            "label": "Cacti and other desert plants",
+            "feedback": "Desert plants are adapted to dryness, the exact opposite of the waterlogged conditions that marsh plants need."
+          },
+          {
+            "label": "Soft-stemmed plants like cattails, reeds, and sedges",
+            "feedback": "Correct—freshwater marshes are covered with grasses, sedges, cattails, reeds, and other soft-stemmed plants that thrive in shallow water."
+          },
+          {
+            "label": "Mosses and lichens on bare rock",
+            "feedback": "Mosses can live in wet places, but a marsh is dominated by rooted vascular plants that stand tall above the water, not just a thin layer of moss."
+          }
+        ],
+        "ok_title": "Marsh vegetation type",
+        "ok_line": "Cattails, reeds, and sedges are the classic marsh plants.",
+        "ko_title": "Soft stems rule",
+        "ko_line": "Marsh plants are flexible, soft-stemmed, and water-loving.",
+        "exp_title": "Freshwater marsh plants",
+        "exp_text": "A freshwater marsh is dominated by herbaceous plants—those with soft, non-woody stems. Cattails, bulrushes, reeds, and many kinds of sedges grow in the shallow water and waterlogged mud. These plants are specially adapted to have air spaces in their stems and roots, which carry oxygen down to parts buried under the water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main function of the hollow, air-filled channels inside the stems and roots of marsh plants?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To store food for the winter",
+            "feedback": "Food is stored in roots or tubers, not in air-filled channels; these channels have a different purpose."
+          },
+          {
+            "label": "To carry oxygen from the leaves down to the roots buried in waterlogged mud",
+            "feedback": "Correct—the air spaces (called aerenchyma) form a continuous pipe system that brings oxygen from the leaves above water to the roots below, where the mud has no oxygen."
+          },
+          {
+            "label": "To make the plant float on the water surface",
+            "feedback": "Only some floating plants use air spaces to stay afloat; rooted marsh plants stand upright in the mud, not floating."
+          },
+          {
+            "label": "To let water flow up quickly from the roots to the leaves",
+            "feedback": "Water moves up through the xylem tubes, not through the air channels; air channels move gas, not liquid."
+          }
+        ],
+        "ok_title": "Air channels in stems",
+        "ok_line": "They deliver oxygen to buried roots.",
+        "ko_title": "Oxygen delivery system",
+        "ko_line": "Those hollow tubes are for breathing, not for food or floating.",
+        "exp_title": "Aerenchyma in marsh plants",
+        "exp_text": "Marsh plants live with their roots in mud that has almost no oxygen. To survive, they grow a network of air-filled channels called aerenchyma that runs from the leaves, through the stem, and down into the roots. Oxygen made during photosynthesis travels through these channels to the submerged parts, letting the roots respire even in waterlogged soil."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these best describes the water level in a typical marsh throughout the year?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is usually shallow and stays fairly constant, though it can rise after heavy rain and drop in dry spells",
+            "feedback": "Correct—marshes hold shallow water most of the time, with seasonal rises and falls, but they rarely dry out completely."
+          },
+          {
+            "label": "It is always at least several meters deep, like a lake",
+            "feedback": "Marshes are wetlands with shallow water; deep open water belongs to lakes and rivers, not to marshes."
+          },
+          {
+            "label": "It is always perfectly dry at the surface, with water only far below",
+            "feedback": "That would be ordinary dry land, not a marsh—a marsh is defined by its waterlogged soil and standing water."
+          },
+          {
+            "label": "It rises and falls with the ocean tides twice a day",
+            "feedback": "Only coastal salt marshes feel tides; a typical freshwater marsh inland is not affected by ocean tides."
+          }
+        ],
+        "ok_title": "Marsh water levels",
+        "ok_line": "Shallow water, with some seasonal change, is the norm.",
+        "ko_title": "Wetlands stay wet",
+        "ko_line": "A marsh is wet most of the year, though not deeply.",
+        "exp_title": "Marsh hydrology",
+        "exp_text": "A marsh is a wetland where the water table sits at or just above the soil surface for most of the year. The water is generally shallow—often only a few centimeters to a meter deep—and the level changes with the seasons: it rises after rains and snowmelt, and drops during drier periods. But even in dry times, the soil stays waterlogged because the marsh sits in a low spot that collects water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do mangrove seedlings get a start in life so they can grow into new trees?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They spread as tiny seeds carried by the wind like dandelions",
+            "feedback": "Mangrove seeds are heavy and fleshy, not wind-blown; they travel by water instead."
+          },
+          {
+            "label": "They sprout underground from long runners and never come above the water",
+            "feedback": "Mangroves do not reproduce by underground runners; they produce visible seedlings that float on the water."
+          },
+          {
+            "label": "They germinate while still attached to the parent tree and drop as ready-made seedlings that float until they root",
+            "feedback": "Correct—mangroves grow their seeds into elongated seedlings (called propagules) on the tree, and these drop into the water, float upright, and plant themselves when they reach shallow mud."
+          },
+          {
+            "label": "They rely on birds to carry their dry seeds up into trees",
+            "feedback": "Birds may eat some mangrove fruits, but the main dispersal method is floating in water, not being carried by birds."
+          }
+        ],
+        "ok_title": "Mangrove seedling strategy",
+        "ok_line": "Seedlings grow on the tree, then float away to root.",
+        "ko_title": "Float first, then root",
+        "ko_line": "Mangrove young plants travel by water, not by wind or birds.",
+        "exp_title": "Mangrove propagules",
+        "exp_text": "Unlike most trees that drop seeds, mangrove trees grow their seeds into long, torpedo-shaped seedlings while still attached to the branches. When mature, these propagules drop off, stick into the mud like darts, or float away in the water. They can survive for weeks floating, and when they reach a shallow spot with soft mud, they root and grow into a new tree."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What gives the water in many marshes its brown, tea-like colour?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Red algae that bloom in the water",
+            "feedback": "Algae blooms are green or sometimes red but they are not the cause of the tea colour in typical marsh water."
+          },
+          {
+            "label": "Clay particles washed in from nearby fields",
+            "feedback": "Clay makes water look muddy and grey-brown, but marsh water's tea colour comes from dissolved plant matter, not sediment."
+          },
+          {
+            "label": "Iron oxide dissolved from the soil",
+            "feedback": "Iron oxide gives rusty orange or red tint, not the deep tea-brown of marsh water."
+          },
+          {
+            "label": "Dissolved tannins and other compounds from decomposing plant material",
+            "feedback": "Correct—as leaves and stems decay in the waterlogged marsh, they release organic acids called tannins that stain the water brown, much like tea leaves stain hot water."
+          }
+        ],
+        "ok_title": "Tea-coloured water",
+        "ok_line": "Tannins from rotting plants cause the brown.",
+        "ko_title": "Plant stains water",
+        "ko_line": "It is dissolved organic matter, not mud or minerals.",
+        "exp_title": "Tannins in marsh water",
+        "exp_text": "In many marshes, especially those with lots of peat or decaying vegetation, the water takes on a brown colour like weak tea. The cause is tannins and other organic acids released as plant material breaks down slowly in the oxygen-poor water. These dissolved compounds tint the water and can also make it slightly acidic, which is natural for such wetlands."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main reason mangrove forests are able to stand firm on soft, muddy coastlines where waves and tides constantly move the ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They float on the water and move with the currents",
+            "feedback": "Mangroves are rooted trees, not floating plants; they cannot move with the tide."
+          },
+          {
+            "label": "Their wide arching root systems anchor them firmly in the mud",
+            "feedback": "Correct—the prop roots and underground roots spread out over a large area, gripping the mud like a tripod and holding the tree upright even in soft, shifting sediment."
+          },
+          {
+            "label": "They attach themselves to rocks with sticky pads",
+            "feedback": "Mangroves do not use sticky pads; they are trees with true roots that grow into the soil."
+          },
+          {
+            "label": "They lean on each other to keep from falling",
+            "feedback": "Mangroves do not support each other; each tree stands on its own root system, though they grow close together."
+          }
+        ],
+        "ok_title": "Mangrove anchorage",
+        "ok_line": "Wide, arched roots grip the mud securely.",
+        "ko_title": "Roots provide stability",
+        "ko_line": "Mangroves stand because their roots spread widely, not because they float or cling.",
+        "exp_title": "Mangrove root stability",
+        "exp_text": "Mangrove trees grow on soft, waterlogged mud that is constantly affected by tides and waves. Their secret is a broad, arching root system: prop roots spread out from the trunk like the legs of a stool, and they are reinforced by a dense mat of underground roots. This structure spreads the tree's weight over a large area and grips the mud, so the tree stays upright through storms and changing tides."
+      }
+    ]
+  }
+]

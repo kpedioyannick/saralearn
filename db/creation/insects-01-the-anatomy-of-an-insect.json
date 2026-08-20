@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 221,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why is an insect's body built from three separate sections instead of one solid piece?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because each section is shaped for a different job",
+            "feedback": "That is exactly it: sensing, moving and the internal organs each get their own dedicated section."
+          },
+          {
+            "label": "So the body can fold flat to slip through cracks",
+            "feedback": "An insect's sections are jointed, but folding through cracks is not why the plan exists — plenty of one-piece animals squeeze through gaps too."
+          },
+          {
+            "label": "Because it lets the insect regrow a missing section",
+            "feedback": "An insect cannot regrow a lost head, thorax or abdomen; a missing section stays missing."
+          },
+          {
+            "label": "So the exoskeleton uses less material overall",
+            "feedback": "Splitting the body into sections does not save material — the hard covering still wraps every part of it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly right",
+        "ok_line": "Head, thorax, abdomen — one body, three jobs.",
+        "ko_title": "Not the reason",
+        "ko_line": "Look at what each section actually carries, not what shape the split makes possible.",
+        "exp_title": "Three parts, three jobs",
+        "exp_text": "An insect's body is divided into head, thorax and abdomen because each one is built around a single task. The head carries the eyes, antennae and mouth for sensing and feeding, the thorax carries the legs and wings for moving, and the abdomen holds the organs for digesting food and breathing. Splitting the work between three connected sections lets each one be shaped for exactly what it does."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where are all six of an insect's legs attached?",
+        "body": null,
+        "options": [
+          {
+            "label": "To the thorax, one pair from each of its three segments",
+            "feedback": "The thorax is fused from three segments, and every one of them carries a pair of legs."
+          },
+          {
+            "label": "To the abdomen, since it needs the most support",
+            "feedback": "The abdomen carries no legs at all — it holds the digestive and breathing organs instead, with nothing to anchor a leg to."
+          },
+          {
+            "label": "Two to the head and four to the abdomen",
+            "feedback": "The head has no legs; it carries only the sensing parts and the mouth, well clear of any joint for walking."
+          },
+          {
+            "label": "One pair to the head, one to the thorax, one to the abdomen",
+            "feedback": "Only the thorax carries legs. The head and abdomen are built for other jobs and have no leg joints on them."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right spot",
+        "ok_line": "The thorax carries every leg the insect has.",
+        "ko_title": "Wrong section",
+        "ko_line": "Only one of the three body sections is built for standing and walking.",
+        "exp_title": "The thorax does the standing",
+        "exp_text": "The thorax is made of three fused segments, and each one carries a single pair of legs on its underside — which is why an insect always stands on six legs, never more and never fewer. The same segments also anchor the flight muscles, so the thorax works as the section built entirely around movement, on the ground and in the air."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What do an insect's antennae mainly sense?",
+        "body": null,
+        "options": [
+          {
+            "label": "Smells and touch in the air around it",
+            "feedback": "Sensory hairs and pits along the antenna pick up drifting chemicals and direct contact."
+          },
+          {
+            "label": "Light and color, like a second pair of eyes",
+            "feedback": "Seeing light is the job of the eyes. The antennae are built to pick up chemicals and contact, not light."
+          },
+          {
+            "label": "Air pressure, to judge how high it is flying",
+            "feedback": "Judging height from air pressure is not a sense insects rely on; the antennae's hairs are tuned to particles and touch, not pressure changes."
+          },
+          {
+            "label": "The pull of gravity, to stay upright",
+            "feedback": "Staying upright is managed through the legs and balance organs elsewhere in the body, not through the antennae."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correctly sensed",
+        "ok_line": "A pair of feelers built to smell the air and feel what they touch.",
+        "ko_title": "Wrong sense",
+        "ko_line": "Think about what covers the surface of an antenna, not what shape it has.",
+        "exp_title": "Feelers that smell",
+        "exp_text": "Each antenna is covered in tiny sensory hairs and pits, and every one is wired to a nerve that fires when a particular chemical particle lands on it or when it brushes against something. Together these signals let the insect build a picture of smells drifting on the air and of surfaces it touches directly, which is how it tracks down food, finds a mate, or senses danger nearby."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a compound eye differ from a single-lens eye like a human's?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is built from many separate lenses, each aimed in its own direction",
+            "feedback": "Every one of the tiny units in a compound eye has its own lens pointed a little differently from its neighbours."
+          },
+          {
+            "label": "It has one large lens that can change shape to focus",
+            "feedback": "Changing the shape of one lens to focus is closer to how our own eyes work; a compound eye does not have a single lens at all."
+          },
+          {
+            "label": "It senses only light and dark, without any lenses",
+            "feedback": "A compound eye is packed with lenses, not lens-free skin — each tiny unit has its own lens on top of it."
+          },
+          {
+            "label": "It uses a curved mirror instead of a lens to gather light",
+            "feedback": "Insect eyes gather light through lenses, not mirrors; no reflecting surface is involved in how the image forms."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Well spotted",
+        "ok_line": "Not one eye but thousands of narrow ones, side by side.",
+        "ko_title": "Different design",
+        "ko_line": "Ask how many separate light-gathering units sit inside the eye, not what shape it has from outside.",
+        "exp_title": "A mosaic instead of one picture",
+        "exp_text": "A compound eye is packed with narrow units called ommatidia, each with its own tiny lens pointed in a slightly different direction, and each feeding its own thin sliver of the scene to the brain. The brain stitches these slivers into a mosaic rather than one sharp picture, and because a moving object trips one unit after another in sequence, that mosaic is especially good at catching motion."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does an insect have to shed its exoskeleton as it grows?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because the hardened outer casing itself cannot stretch",
+            "feedback": "Once the casing has set hard, it stays fixed in size, so a bigger body needs a new one."
+          },
+          {
+            "label": "To wash away germs that collect on its surface",
+            "feedback": "Shedding is not a cleaning step; the old casing comes off because it physically cannot grow any larger, not because it is dirty."
+          },
+          {
+            "label": "To change color for a new season",
+            "feedback": "Color can shift for other reasons, but the reason an insect must molt is size, not shade."
+          },
+          {
+            "label": "To remove wings that are no longer needed",
+            "feedback": "Wings are not shed during a molt — many insects gain their wings through molting, they do not lose them this way."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly right",
+        "ok_line": "A rigid casing has only one way to get bigger: come off.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what a hard casing can and cannot do as the body inside it grows.",
+        "exp_title": "Growing out of its own shell",
+        "exp_text": "An insect's exoskeleton is a hardened outer layer, and once it has set it cannot expand along with the body growing underneath it. So before that happens, the insect grows a new, larger casing in soft form beneath the old one, splits the old shell open and climbs free, then swells briefly before the fresh covering hardens around its new size."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does an insect get oxygen to its body, since it has no lungs?",
+        "body": null,
+        "options": [
+          {
+            "label": "Air travels straight to its tissues through a network of narrow tubes",
+            "feedback": "Openings along the body lead into branching tubes that carry air directly to where it is needed."
+          },
+          {
+            "label": "Its blood carries oxygen inward from its skin",
+            "feedback": "In an insect, blood does not carry oxygen at all — that job is handled by tubes that reach the tissues directly."
+          },
+          {
+            "label": "It swallows air and absorbs oxygen through its gut",
+            "feedback": "Oxygen does not enter through the digestive system; a separate set of openings and tubes handles breathing on its own."
+          },
+          {
+            "label": "It stores oxygen in a sac and releases it slowly",
+            "feedback": "There is no storage sac for oxygen — the insect draws air in continuously through openings along its body rather than saving it up."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right mechanism",
+        "ok_line": "Air travels straight to the cells, no lungs and no blood involved.",
+        "ko_title": "Not how it works",
+        "ko_line": "An insect's breathing route bypasses the blood entirely — think about where the air actually ends up.",
+        "exp_title": "Breathing without lungs or blood",
+        "exp_text": "Small openings called spiracles line the sides of an insect's body and let air in, and from there a branching network of tubes called tracheae carries that air directly to every tissue that needs it. Because the tubes reach the cells themselves, the blood never has to carry oxygen the way ours does — the air simply travels the rest of the way on its own."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do different insects have such differently shaped mouthparts?",
+        "body": null,
+        "options": [
+          {
+            "label": "Each set is shaped for how that insect actually feeds",
+            "feedback": "Chewing, piercing and sipping each demand a different tool, and the mouthparts are built to match."
+          },
+          {
+            "label": "Mouthparts are decorative and play no role in feeding",
+            "feedback": "Every part of an insect's mouth is built to handle food in some way; none of it is there simply to be seen."
+          },
+          {
+            "label": "Younger insects use one mouth shape and swap it for another once fully grown, regardless of diet",
+            "feedback": "Some insects do change mouthparts between young and adult stages, but the shape still tracks what that stage eats, not age on its own."
+          },
+          {
+            "label": "All insects share one basic mouth shape underneath minor differences",
+            "feedback": "The differences go far deeper than minor detail — some mouths chew solid food while others form a sealed tube for liquid, entirely different tools."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right idea",
+        "ok_line": "The mouth follows the meal.",
+        "ko_title": "Not the reason",
+        "ko_line": "Compare what a chewing insect eats with what a sipping insect drinks, and the shapes explain themselves.",
+        "exp_title": "A tool built for the diet",
+        "exp_text": "A beetle chewing through a leaf carries a pair of hard mandibles that close sideways like pincers to cut and grind solid food. A butterfly sipping nectar instead carries a long, flexible tube formed from two grooved parts locked together, which coils out of the way when not feeding and unrolls to reach deep into a flower. Each shape matches the meal it has to handle."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where do an insect's wings attach to its body?",
+        "body": null,
+        "options": [
+          {
+            "label": "To the thorax, growing from its upper surface",
+            "feedback": "The wings hinge onto the same section that carries the legs, and the muscles that power them sit right beside that hinge."
+          },
+          {
+            "label": "To the abdomen, folded flat along its length",
+            "feedback": "The abdomen carries no wings — it is given over entirely to digestion, breathing and reproduction."
+          },
+          {
+            "label": "To the head, just behind the eyes",
+            "feedback": "The head carries the sensing parts and mouth; no insect grows wings from its head."
+          },
+          {
+            "label": "Loosely to the body, held on only by muscle without any joint",
+            "feedback": "Wings are not loose flaps — each one is fixed at a hinge point on the thorax that lets it pivot as muscles pull on it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right section",
+        "ok_line": "Wings grow out of the same section that carries the legs.",
+        "ko_title": "Wrong section",
+        "ko_line": "Wings and legs both belong to the same one of the three body sections.",
+        "exp_title": "One section for every kind of motion",
+        "exp_text": "Wings grow out of the upper edge of the thorax, hinged at a joint that lets each one swing up and down. Muscles packed inside the thorax pull on the casing itself, flexing its walls so that the hinge levers the wing through its stroke, rather than pulling on the wing directly. The same section that carries the legs is what carries and powers the wings."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the main job of an insect's abdomen, since it carries no legs or wings?",
+        "body": null,
+        "options": [
+          {
+            "label": "Housing the organs for digestion, breathing and reproduction",
+            "feedback": "Free of any legs or wings to power, the abdomen is given over entirely to the body's internal work."
+          },
+          {
+            "label": "Holding the flight muscles that beat the wings",
+            "feedback": "The flight muscles sit inside the thorax, right next to the wings they power, not inside the abdomen."
+          },
+          {
+            "label": "Storing extra nerve tissue to speed up reflexes",
+            "feedback": "The main cluster of nerve tissue sits in the head, and reflex signals travel along a nerve cord rather than being stored in the abdomen."
+          },
+          {
+            "label": "Filtering the air before it reaches the tracheae",
+            "feedback": "Air is not filtered in the abdomen before use — it enters directly through spiracles and travels straight into the tracheal tubes from there."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right job",
+        "ok_line": "No legs, no wings — but everything for digesting, breathing and reproducing.",
+        "ko_title": "Wrong organ, wrong place",
+        "ko_line": "The abdomen carries no legs or wings, so ask what it does carry instead.",
+        "exp_title": "The section built for the inside work",
+        "exp_text": "Free of legs and wings, the abdomen is given over entirely to internal work: its segments hold the gut that digests food, and the spiracles and tracheae that continue the breathing system, along with the organs used for reproduction. Its cuticle is thinner and more flexible than the thorax's, which lets it stretch to hold a meal or a batch of eggs without cracking."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How do an insect's muscles manage to move its body if it has no internal bones?",
+        "body": null,
+        "options": [
+          {
+            "label": "They attach to ridges on the inside of the hard exoskeleton",
+            "feedback": "With no bones to pull against, the muscles anchor instead to the inner face of the casing itself."
+          },
+          {
+            "label": "They attach to a separate internal skeleton hidden under the exoskeleton",
+            "feedback": "An insect has no internal skeleton at all; the hard outer casing is the only skeleton it has."
+          },
+          {
+            "label": "They float freely in the body cavity and push against organs to move",
+            "feedback": "Muscles that only push against soft organs could not produce controlled movement — they need a firm surface to pull against."
+          },
+          {
+            "label": "They attach to the outside of the exoskeleton, where they can be seen",
+            "feedback": "Muscles sit inside the body, anchored to the inner face of the casing, not exposed on the outside where they would have nothing to pull against from within."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right mechanism",
+        "ok_line": "The skeleton is the outside, and the muscles pull from within it.",
+        "ko_title": "Not quite",
+        "ko_line": "An insect has exactly one hard structure to work with — think about which side of it a muscle could actually grip.",
+        "exp_title": "A skeleton worn on the outside",
+        "exp_text": "With no bones inside its body, an insect's hard outer casing does the job a skeleton normally does, and ridges on its inner surface give muscles something firm to anchor to. When a muscle contracts, it pulls two of these anchor points closer together, and because the casing is jointed at the leg and wing bases, that pull bends the joint and moves the part attached to it."
+      }
+    ]
+  }
+]

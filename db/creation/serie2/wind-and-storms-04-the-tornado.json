@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the cloud column that a tornado hangs from called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A wall cloud",
+            "feedback": "Correct. A tornado often forms from a rotating wall cloud, which is a lowered, rotating part of the thunderstorm base."
+          },
+          {
+            "label": "A cumulus cloud",
+            "feedback": "That is a puffy, fair-weather cloud, not the storm cloud that hosts a tornado. Tornadoes come from severe thunderstorms, which have a different structure."
+          },
+          {
+            "label": "A stratus cloud",
+            "feedback": "Stratus clouds are flat, layered clouds that bring drizzle or overcast skies, not violent tornadoes. Tornadoes hang from powerful cumulonimbus storm clouds."
+          },
+          {
+            "label": "A cirrus cloud",
+            "feedback": "Cirrus clouds are thin, wispy ice clouds high in the sky, far from where tornadoes form. Tornadoes are attached to thunderstorm clouds near the ground."
+          }
+        ],
+        "ok_title": "Wall cloud base",
+        "ok_line": "Tornadoes descend from a rotating wall cloud.",
+        "ko_title": "Cloud type mismatch",
+        "ko_line": "Pick the storm cloud, not the fair-weather one.",
+        "exp_title": "Tornado's parent cloud",
+        "exp_text": "A tornado is a violently rotating column of air that hangs from a wall cloud, which is a lowered, rotating section of a severe thunderstorm's base. The wall cloud is part of the cumulonimbus, the tall storm cloud, but it is the specific rotating feature that tornadoes form from."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical lifetime of a tornado before it dissipates?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Several hours",
+            "feedback": "That is too long for most tornadoes. Thunderstorms can last hours, but the tornado itself rarely persists that long; it usually dies in minutes."
+          },
+          {
+            "label": "Several days",
+            "feedback": "No tornado lasts days. Even the most violent ones are short-lived, and this timescale fits weather systems, not single tornadoes."
+          },
+          {
+            "label": "A few minutes to about an hour",
+            "feedback": "Correct. Most tornadoes last only minutes, though the strongest ones can persist for up to an hour, but not much more."
+          },
+          {
+            "label": "A few seconds",
+            "feedback": "That is too brief. While some weak tornadoes touch down very briefly, typical tornadoes last several minutes, not just seconds."
+          }
+        ],
+        "ok_title": "Brief but violent",
+        "ok_line": "Tornadoes usually last minutes, not hours.",
+        "ko_title": "Lifetime mismatch",
+        "ko_line": "Choose the range that matches observed tornadoes.",
+        "exp_title": "Tornado duration",
+        "exp_text": "Tornadoes are short-lived phenomena, typically lasting a few minutes to about an hour, with most lasting less than ten minutes. The thunderstorm that spawns them can persist for hours, but the tornado itself is a brief, intense vortex."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In the Northern Hemisphere, what is the usual direction of rotation for a tornado?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Clockwise",
+            "feedback": "That is opposite of the typical rotation. Tornadoes in the Northern Hemisphere usually spin counterclockwise, matching the storm's rotation."
+          },
+          {
+            "label": "Counterclockwise",
+            "feedback": "Correct. Most tornadoes in the Northern Hemisphere rotate counterclockwise, following the same spin as their parent thunderstorm's mesocyclone."
+          },
+          {
+            "label": "It varies randomly",
+            "feedback": "Rotation is not random. The large-scale storm system imposes a consistent spin direction, so most tornadoes follow the same pattern."
+          },
+          {
+            "label": "Always clockwise",
+            "feedback": "No, that is not correct. While rare exceptions exist, the overwhelming majority rotate counterclockwise in the Northern Hemisphere."
+          }
+        ],
+        "ok_title": "Northern spin",
+        "ok_line": "Tornadoes usually spin counterclockwise up north.",
+        "ko_title": "Rotation direction",
+        "ko_line": "Think of the storm's mesocyclone spin.",
+        "exp_title": "Tornado rotation in the north",
+        "exp_text": "Due to the Coriolis effect and the storm's internal dynamics, tornadoes in the Northern Hemisphere overwhelmingly rotate counterclockwise, as seen from above. This matches the rotation of the parent thunderstorm's mesocyclone, and the tornado inherits that spin."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary source of the energy that powers a tornado's intense winds?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The sun's heat directly",
+            "feedback": "The sun does provide the initial energy, but a tornado does not run directly on sunlight. The storm system converts the energy into rotation and wind."
+          },
+          {
+            "label": "The Earth's rotation",
+            "feedback": "The Earth's rotation helps set the spin, but it is not the main energy source. The tornado's power comes from the storm's heat and moisture."
+          },
+          {
+            "label": "The tornado's own speed",
+            "feedback": "That is circular reasoning. The tornado's speed is the result, not the cause; something must drive the winds."
+          },
+          {
+            "label": "The thunderstorm's updraft and warm, moist air",
+            "feedback": "Correct. The violent updraft of warm, moist air in a severe thunderstorm, with its release of latent heat, powers the vortex and sustains its winds."
+          }
+        ],
+        "ok_title": "Storm's heat engine",
+        "ok_line": "Warm, rising air fuels the tornado.",
+        "ko_title": "Energy source mix-up",
+        "ko_line": "Look for the storm's internal fuel.",
+        "exp_title": "Tornado energy source",
+        "exp_text": "A tornado's power comes from the strong updraft of the parent thunderstorm, which feeds on warm, moist air. As that air rises, it cools and condenses, releasing latent heat, which further strengthens the updraft. That rising motion, combined with wind shear, creates and sustains the intense rotation of the tornado."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the invisible, rotating column of air inside a thunderstorm that a tornado forms from called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A mesocyclone",
+            "feedback": "Correct. A mesocyclone is a rotating updraft within a severe thunderstorm, and it is the parent circulation that can spawn a tornado."
+          },
+          {
+            "label": "A microburst",
+            "feedback": "A microburst is a strong downdraft, not a rotating updraft. It is unrelated to tornado formation, though it can cause damaging winds."
+          },
+          {
+            "label": "A supercell's cloud base",
+            "feedback": "The cloud base is the visible bottom of the storm, not the rotating column itself. The rotation is a distinct feature within the updraft."
+          },
+          {
+            "label": "A wall cloud",
+            "feedback": "The wall cloud is a lowered cloud base, not the rotating column. The mesocyclone is the circulation aloft from which the wall cloud and tornado descend."
+          }
+        ],
+        "ok_title": "Parent circulation",
+        "ok_line": "The mesocyclone is the rotating storm core.",
+        "ko_title": "Rotation vs. cloud part",
+        "ko_line": "Name the rotating column, not the cloud feature.",
+        "exp_title": "Mesocyclone defined",
+        "exp_text": "A mesocyclone is a rotating column of air, typically a few kilometres wide, that forms within a severe thunderstorm, especially a supercell. It is the circulation that often leads to tornado formation, as the tornado draws its spin from this larger rotating updraft."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the funnel-shaped cloud of a tornado made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Dust and debris",
+            "feedback": "Dust and debris can be in the funnel, but they are picked up, not what the funnel is made of. The core is water droplets."
+          },
+          {
+            "label": "Sand and soil",
+            "feedback": "Sand and soil are the same as dust, not the main content. A tornado's visible funnel is primarily condensed water vapor."
+          },
+          {
+            "label": "Water droplets condensed from moist air",
+            "feedback": "Correct. The funnel is visible because water vapor condenses into tiny droplets in the low-pressure, rapidly cooling air of the vortex."
+          },
+          {
+            "label": "Smoke and ash",
+            "feedback": "Smoke and ash would come from fires, not from a tornado's formation. Tornadoes form in moist, stormy air, not from burning."
+          }
+        ],
+        "ok_title": "Visible funnel",
+        "ok_line": "The funnel is condensed water, not dust.",
+        "ko_title": "Funnel composition",
+        "ko_line": "Think of cloud droplets, not ground material.",
+        "exp_title": "Tornado's visible part",
+        "exp_text": "The funnel cloud of a tornado is made of water droplets, the same as any cloud. As the vortex spins, the air pressure inside drops, cooling it enough for water vapor to condense into a visible funnel. Dust and debris are added later, near the ground, but the classic funnel is condensed moisture."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical width of a tornado's funnel at the ground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A few kilometres",
+            "feedback": "That is far too wide. Tornadoes are narrow, even the biggest ones, and a few kilometres would be the width of a hurricane's core, not a tornado."
+          },
+          {
+            "label": "Around 100 metres, but can be up to a kilometre",
+            "feedback": "Correct. Most tornadoes are roughly 100 metres wide, though the largest can approach a kilometre or slightly more."
+          },
+          {
+            "label": "A few metres",
+            "feedback": "That is too narrow for most tornadoes. Even weak ones usually span tens of metres; only a rare rope tornado might be that thin."
+          },
+          {
+            "label": "Always over a kilometre",
+            "feedback": "No, that is not typical. Very large tornadoes exist, but most are much narrower, and a kilometre-wide tornado is an extreme event."
+          }
+        ],
+        "ok_title": "Narrow but mighty",
+        "ok_line": "Most tornado funnels are about 100 metres wide.",
+        "ko_title": "Width range",
+        "ko_line": "Pick the typical range, not extremes.",
+        "exp_title": "Tornado width",
+        "exp_text": "Tornadoes are narrow columns, typically about 100 metres wide at the ground, though they can range from tens of metres to about a kilometre in rare, very strong cases. This narrowness is why they cause intense local damage but affect a small area compared to a hurricane."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What weather condition is typically necessary for the formation of a tornado from a thunderstorm?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A very cold, dry air mass",
+            "feedback": "Cold dry air alone does not create tornadoes. Tornadoes need warm, moist air near the ground for the updraft, not a cold dry surface."
+          },
+          {
+            "label": "A steady, gentle rain",
+            "feedback": "Steady rain is typical of a passing shower, not the violent updrafts that produce tornadoes. Tornadoes come from intense, severe thunderstorms."
+          },
+          {
+            "label": "A calm, clear sky beforehand",
+            "feedback": "Clear skies are not a cause. Many tornado days start clear, but the storm must develop; calmness before is not a requirement."
+          },
+          {
+            "label": "Strong wind shear and a powerful updraft",
+            "feedback": "Correct. Tornadoes need both a strong updraft of warm, moist air and wind shear — changing wind speed and direction with height — to create the rotation."
+          }
+        ],
+        "ok_title": "Key ingredients",
+        "ok_line": "Wind shear plus a strong updraft spawn tornadoes.",
+        "ko_title": "Formation conditions",
+        "ko_line": "Look for instability and changing winds.",
+        "exp_title": "Tornado prerequisites",
+        "exp_text": "Tornadoes form when a thunderstorm has a very strong updraft and the wind changes speed and direction with height, a condition called wind shear. This shear causes the updraft to rotate, forming a mesocyclone, which can then tighten into a tornado. Warm, moist low-level air provides the fuel for the strong updraft."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical forward speed of a tornado as it moves across the ground?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "About 50 kilometres per hour",
+            "feedback": "Correct. Tornadoes usually travel at speeds of tens of kilometres per hour, often around 50 km/h, though some move slower or faster."
+          },
+          {
+            "label": "About 5 kilometres per hour",
+            "feedback": "That is too slow. While a few tornadoes move very slowly, typical storms and tornadoes move much faster, at highway speeds."
+          },
+          {
+            "label": "About 500 kilometres per hour",
+            "feedback": "That is the speed of the tornado's rotating wind, not its forward motion. The tornado itself moves far slower, at tens of kilometres per hour."
+          },
+          {
+            "label": "About 200 kilometres per hour",
+            "feedback": "That is too fast for a tornado's forward motion. Even fast-moving tornadoes rarely exceed 100 km/h, and 200 km/h is close to the wind speed inside."
+          }
+        ],
+        "ok_title": "Forward motion",
+        "ok_line": "Tornadoes move at tens of km/h, not hundreds.",
+        "ko_title": "Speed confusion",
+        "ko_line": "Separate wind speed from travel speed.",
+        "exp_title": "Tornado movement speed",
+        "exp_text": "Tornadoes move across the ground at speeds typically between 30 and 70 kilometres per hour, averaging around 50 km/h. This forward speed is set by the storm's movement, not by the tornado's internal rotation, which is much faster."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for a tornado that forms over water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A water spout",
+            "feedback": "The correct term is 'waterspout', one word, not 'water spout'. But this term does name a tornado over water, so it is close but not exact."
+          },
+          {
+            "label": "A hurricane's eye",
+            "feedback": "No, the eye is the calm centre of a hurricane, not a tornado over water. Waterspouts are separate, smaller phenomena."
+          },
+          {
+            "label": "A waterspout",
+            "feedback": "Correct. A waterspout is a tornado-like column of rotating air that forms over a body of water, often weaker than land tornadoes."
+          },
+          {
+            "label": "A mesocyclone",
+            "feedback": "A mesocyclone is the rotating updraft inside a thunderstorm, not a tornado over water. A waterspout is the tornado itself."
+          }
+        ],
+        "ok_title": "Marine tornado",
+        "ok_line": "A tornado over water is a waterspout.",
+        "ko_title": "Term mix-up",
+        "ko_line": "Know the specific name for over-water tornadoes.",
+        "exp_title": "Waterspout defined",
+        "exp_text": "A waterspout is a tornado that forms or travels over a body of water, appearing as a rotating column of air and spray. Many are weaker than land tornadoes, but they can still be destructive to boats and coastal areas."
+      }
+    ]
+  }
+]

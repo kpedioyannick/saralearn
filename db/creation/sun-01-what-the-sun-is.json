@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 171,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why can nuclear fusion happen only deep in the Sun's core, and not throughout its whole body?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because only the core contains hydrogen",
+            "feedback": "Hydrogen fills the whole Sun, not just the core; what's special about the core is the conditions, not the fuel."
+          },
+          {
+            "label": "Because sunlight can only escape from the middle",
+            "feedback": "That confuses light escaping with fusion happening; the two are separate matters, and fusion doesn't depend on where light gets out."
+          },
+          {
+            "label": "Because only the core is crushed hot and dense enough to force nuclei together",
+            "feedback": "The squeeze from every layer above is what makes the difference."
+          },
+          {
+            "label": "Because the Sun's magnetic field is strongest there",
+            "feedback": "Magnetic field strength doesn't drive fusion; the crush of pressure and heat does."
+          }
+        ],
+        "ok_title": "Exactly",
+        "ok_line": "The squeeze only gets fierce enough right at the centre.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what's actually different about the core besides sitting in the middle.",
+        "exp_title": "A furnace lit only where the squeeze is greatest",
+        "exp_text": "Hydrogen nuclei carry the same positive charge and push each other apart, so joining them takes a violent shove. Only in the core does the weight of every layer above press down hard enough, at a temperature high enough, to force that collision through despite the repulsion. Move outward from the core and the crush eases, the reaction stops, and the hydrogen there simply sits unfused."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the Sun shaped like a near-perfect sphere rather than some other shape?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Gravity pulls its matter equally inward from every direction",
+            "feedback": "A pull that strong, with no preferred direction, settles into a sphere and nothing else."
+          },
+          {
+            "label": "Spinning stretches it evenly into a ball",
+            "feedback": "Spin actually flattens a rotating body slightly at the poles rather than rounding it out to begin with."
+          },
+          {
+            "label": "Magnetic fields hold its surface in a smooth curve",
+            "feedback": "Magnetism shapes loops and flares on the surface, not the star's overall bulk shape."
+          },
+          {
+            "label": "Pressure from fusion pushes the surface into a round shell",
+            "feedback": "Fusion's outward push balances gravity's pull; it doesn't by itself curve the surface into roundness."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Gravity has no favourite direction to pull in.",
+        "ko_title": "Not that",
+        "ko_line": "Think about what a huge mass does to every part of itself, equally.",
+        "exp_title": "Gravity has no favourite direction",
+        "exp_text": "A mass this large pulls on every part of itself, and that pull is strongest toward the centre and identical whichever way you measure it. Any lump or bulge would simply be pulled back down until the surface sat the same distance from the centre all the way round. A sphere is the one shape where that pull is satisfied everywhere at once."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does the Sun's matter mostly consist of?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Mostly heavy metals like iron and nickel",
+            "feedback": "Heavy elements make up only a tiny sliver of the Sun's mass; that's a rocky planet's makeup, not a star's."
+          },
+          {
+            "label": "Roughly equal parts of every element",
+            "feedback": "The real mix is heavily skewed toward the two lightest elements, not spread evenly across all of them."
+          },
+          {
+            "label": "Mostly carbon and oxygen, like a planet's crust",
+            "feedback": "Those are trace elements in the Sun, not its bulk."
+          },
+          {
+            "label": "Overwhelmingly hydrogen, with most of the remainder helium",
+            "feedback": "The leftover gas of the early universe, kept largely intact when the Sun formed."
+          }
+        ],
+        "ok_title": "Correct",
+        "ok_line": "The two lightest elements make up nearly all of it.",
+        "ko_title": "Not that",
+        "ko_line": "Think about what the very early universe was made of, before any star had cooked up heavier elements.",
+        "exp_title": "Almost entirely the two lightest elements",
+        "exp_text": "The cloud of gas that collapsed to form the Sun was made almost entirely of hydrogen and helium left over from the early universe, and the Sun kept that ratio through its formation. Every heavier element together, carbon, oxygen, iron, and the rest, adds up to only a sliver of its mass. A star's makeup mirrors the raw material it condensed from far more than it mirrors a planet's crust."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the Sun's matter usually described as plasma rather than as an ordinary gas?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because it is compressed into a liquid-like state",
+            "feedback": "The Sun isn't liquid; it stays fluid and gas-like throughout, just electrically charged."
+          },
+          {
+            "label": "Because the heat strips electrons free, leaving charged particles",
+            "feedback": "A mix of bare nuclei and loose electrons, which behaves quite differently from an intact atom."
+          },
+          {
+            "label": "Because it contains no atoms at all",
+            "feedback": "Atomic nuclei are still there; it's the electrons that are torn loose, not the atoms erased entirely."
+          },
+          {
+            "label": "Because sunlight itself is a form of matter",
+            "feedback": "Light carries no mass, so it has nothing to do with what makes the Sun's matter a plasma."
+          }
+        ],
+        "ok_title": "Yes",
+        "ok_line": "Charged particles behave very differently from an ordinary gas.",
+        "ko_title": "Not it",
+        "ko_line": "Ask what the heat is doing to the atoms themselves, not to the space around them.",
+        "exp_title": "A gas with its electrons torn loose",
+        "exp_text": "At the Sun's temperatures, collisions are violent enough to knock electrons away from their atoms, leaving behind a mix of bare nuclei and free electrons rather than intact atoms. That mix carries electric charge, so it responds to magnetic fields and conducts electricity in ways an ordinary gas cannot. This charged, electron-stripped state is what separates plasma from the gas filling a balloon."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the Sun's visible surface so much cooler than its core?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because fusion happens only at the core, and the heat spreads out and cools on its long trip outward",
+            "feedback": "The surface never gets to feel the core's full heat, only what survives the journey."
+          },
+          {
+            "label": "Because the surface is shielded from sunlight by the layers above it",
+            "feedback": "The surface is what makes the sunlight; it isn't waiting on a source above it that could shield it."
+          },
+          {
+            "label": "Because the outer layers are made of a different, cooler material",
+            "feedback": "The whole Sun is essentially the same hydrogen and helium mix; composition doesn't drive this gradient."
+          },
+          {
+            "label": "Because the Sun spins faster at its surface than at its core",
+            "feedback": "Rotation speed isn't what sets the temperature at any given depth."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "It cools the whole way from the core to the surface.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask where the heat is actually made, and how far it has to travel afterward.",
+        "exp_title": "Heat that has a long way to travel",
+        "exp_text": "Fusion happens only in the crushed, superheated core, and everything the surface radiates first has to fight its way out through the enormous mass piled above that core. Spread across that much distance and that many collisions along the way, the same energy that started off blistering hot arrives at the surface far diluted. The surface glows only as hot as what survives that long outward journey."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does energy actually travel from the Sun's core out toward its surface?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It is carried directly by sunbeams shooting straight out",
+            "feedback": "Light can't travel in a straight line through matter that dense; it is absorbed and re-emitted constantly instead."
+          },
+          {
+            "label": "It leaks out instantly, the moment fusion makes it",
+            "feedback": "The trip is slow rather than instant, precisely because of the dense matter blocking a direct path."
+          },
+          {
+            "label": "It is passed along step by step by radiation, then carried the rest of the way by churning currents of hot plasma",
+            "feedback": "Two different relays for two different parts of the journey."
+          },
+          {
+            "label": "It is pumped outward by the Sun's magnetic field",
+            "feedback": "The magnetic field shapes surface activity like sunspots, not the core-to-surface energy transport."
+          }
+        ],
+        "ok_title": "Yes",
+        "ok_line": "A relay first, then a boil.",
+        "ko_title": "Not that",
+        "ko_line": "Ask whether the path outward is open enough for light to simply shoot through.",
+        "exp_title": "A relay race, then a boil",
+        "exp_text": "Close to the core, energy moves as light being absorbed and re-emitted over and over by the dense plasma, a slow relay rather than a clean beam. Nearer the surface the plasma becomes thin enough that this relay stalls, so instead whole blobs of hot plasma physically rise, dump their heat, and sink again, the way water churns in a pot about to boil. Both stages exist because neither one alone can carry the energy the rest of the way."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the Sun's visible surface look grainy or mottled rather than perfectly smooth?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because sunspots cover almost the entire surface",
+            "feedback": "Sunspots are comparatively rare dark patches; they aren't the source of the fine grainy texture seen everywhere."
+          },
+          {
+            "label": "Because the tops of countless rising convection cells poke through, each cooling and sinking at its edges",
+            "feedback": "Every grain is one cell of rising, cooling, sinking plasma, caught mid-motion."
+          },
+          {
+            "label": "Because dust from space settles unevenly on it",
+            "feedback": "Nothing solid can settle on or survive at the surface's temperatures."
+          },
+          {
+            "label": "Because the equipment used to photograph it distorts the image",
+            "feedback": "The grain shows up in every observation and every instrument, not as an imaging artefact."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "You're looking at the surface of a slow boil.",
+        "ko_title": "Not it",
+        "ko_line": "Ask what's happening just beneath that surface, constantly.",
+        "exp_title": "The surface of a slow boil",
+        "exp_text": "Just beneath the surface, blobs of hot plasma rise from below, spread out, release their heat, and sink again along their cooler edges, over and over. Each rising blob shows up as one bright grain with a darker rim, and the whole visible surface is covered in these cells at once. The grainy look is simply that churning motion, caught at the exact moment it reaches daylight."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the Sun's thin outer atmosphere, the corona, far hotter than the bright surface just beneath it?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because it sits closer to the core than the surface does",
+            "feedback": "The corona lies above and beyond the surface, farther from the core, not closer."
+          },
+          {
+            "label": "Because sunlight is more concentrated out there",
+            "feedback": "Light thins out with distance rather than concentrating further from its source."
+          },
+          {
+            "label": "Because friction with the solar wind heats it",
+            "feedback": "The solar wind actually flows outward from the corona, so it can't be an outside force heating it from within."
+          },
+          {
+            "label": "Because tangled magnetic field lines above the surface release stored energy directly into that thin gas",
+            "feedback": "Energy delivered straight from the field, bypassing the surface's own heat entirely."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The heat arrives from the field above, not from the surface below.",
+        "ko_title": "Not that",
+        "ko_line": "Ordinary heat flow can't explain something above running hotter than what's beneath it. Look for another source.",
+        "exp_title": "Heated from above, not from below",
+        "exp_text": "Ordinary heat flowing outward from the surface could never make the thin gas above it hotter than the surface itself, so the leading explanation looks upward instead: magnetic field lines threading through the corona get twisted and stressed, and when they snap and reconnect they dump their stored energy straight into the surrounding plasma. Because that gas is so thin, even a modest amount of released energy sends its temperature soaring far past the surface it sits above."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't the Sun collapse inward under the pull of its own enormous gravity?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Outward pressure from the fusion happening in its core balances gravity's inward pull",
+            "feedback": "Neither force wins outright; they hold each other exactly in check."
+          },
+          {
+            "label": "The Sun is rotating fast enough to hold its own shape open",
+            "feedback": "The Sun's rotation is far too slow, and its gravity far too strong, for spin alone to resist collapse."
+          },
+          {
+            "label": "A rigid frozen core underneath supports the weight above it",
+            "feedback": "Nothing in the Sun is solid or rigid; it is fluid plasma all the way through."
+          },
+          {
+            "label": "The vacuum of space pushes back against the Sun's surface",
+            "feedback": "A vacuum exerts no outward push of any kind."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "Two forces holding each other in check.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what is pushing back against gravity from the inside.",
+        "exp_title": "A stalemate that has lasted billions of years",
+        "exp_text": "Gravity is constantly pulling every part of the Sun toward its centre, and left alone it would crush the whole star down. Fusion in the core answers that pull with an outward push of hot, expanding gas and radiation, and as long as fusion keeps burning, that push matches the pull layer for layer. The Sun holds its size not because either force wins, but because the two stay in balance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why will the Sun eventually swell into a much larger, cooler \"red giant\" star?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because it will start spinning much faster as it ages",
+            "feedback": "Faster spin isn't what drives this change; the supply of fuel in the core does."
+          },
+          {
+            "label": "Because its magnetic field will suddenly collapse",
+            "feedback": "That isn't the trigger described by how stars are known to age."
+          },
+          {
+            "label": "Because once core hydrogen runs low, fusion shifts to a shell around a shrinking core, pushing the outer layers to expand",
+            "feedback": "A fiercer shell of fusion pours out more energy than the old core ever did, and the extra push swells the star."
+          },
+          {
+            "label": "Because sunspots will eventually cover its whole surface",
+            "feedback": "Sunspot coverage doesn't drive a star's overall size or stage of life."
+          }
+        ],
+        "ok_title": "Right",
+        "ok_line": "The fire moves outward once the centre runs low.",
+        "ko_title": "Not that",
+        "ko_line": "Ask what happens once the core's original fuel starts to run out.",
+        "exp_title": "Fuel runs low at the centre, so the fire moves outward",
+        "exp_text": "When the core finally runs short of hydrogen to fuse, it can no longer hold up its own weight and begins to contract and heat further, while fusion catches on in a shell of fresh hydrogen still surrounding it. That shell burns fiercely and pours out more energy than the old core ever did, and the extra push swells the layers above into a far larger, cooler envelope. The Sun does not so much run out of fire as move it to a new address."
+      }
+    ]
+  }
+]

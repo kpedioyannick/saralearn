@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 143,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does water flow out of a hillside at a spring, instead of staying underground?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "An underground river has broken through to open air",
+            "feedback": "Groundwater usually has no channel to travel through at all; it soaks through countless tiny gaps between grains of rock and sand, so there is no river inside the hill to break through."
+          },
+          {
+            "label": "The saturated rock inside the hill reaches open air at the slope",
+            "feedback": "Follow the slope down and the rock that is soaked with water eventually reaches the surface; the water inside it has nowhere left to go but out."
+          },
+          {
+            "label": "Rain has pooled in a hollow just beneath the topsoil",
+            "feedback": "A shallow pool like that would empty within days of the rain stopping. A spring keeps running long after, because it draws on water held far deeper."
+          },
+          {
+            "label": "Pressure from an approaching storm pushes the water up",
+            "feedback": "Storms add water to the ground later; they do not reach down and squeeze water that is already there. The push here has a steadier cause."
+          }
+        ],
+        "ok_title": "That is the mechanism",
+        "ok_line": "Underground water follows the slope until the ground runs out from under it.",
+        "ko_title": "Not that path",
+        "ko_line": "Ask what shape the hill itself is tracing underground.",
+        "exp_title": "Where the underground surfaces",
+        "exp_text": "Rain that sinks into the ground keeps sinking until it reaches rock too dense to pass through, and above that rock the spaces between grains fill up with water, layer after layer, like a sponge soaking from below. That soaked layer has an upper edge, and where a hillside slopes down far enough to cut across that edge, the saturated rock is suddenly at the surface instead of below it. The water inside stops being underground water and starts being a spring."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What allows a layer of rock deep underground to hold water like a hidden reservoir?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The rock is naturally hollow, like a cave",
+            "feedback": "Caves do hold water in a few famous places, but most aquifers have no open chambers; the storage space is far smaller and far more common than a cave."
+          },
+          {
+            "label": "The rock melts slightly and reforms around the water",
+            "feedback": "Rock this deep is solid and unchanged; nothing here is soft enough to close around anything."
+          },
+          {
+            "label": "Underground pressure squeezes water into the stone itself",
+            "feedback": "Water does not enter the mineral grains themselves. It stays in the gaps between them, however hard the rock is squeezed."
+          },
+          {
+            "label": "The rock is made of countless grains with tiny gaps between them",
+            "feedback": "Sand, sandstone and gravel are all built from separate grains that never quite touch on every side, and those countless small gaps add up to real storage space."
+          }
+        ],
+        "ok_title": "Right texture",
+        "ok_line": "Not a hollow rock, a porous one.",
+        "ko_title": "Wrong picture",
+        "ko_line": "Think of the rock as grains poured together, not as a single solid block.",
+        "exp_title": "A rock built like a sponge",
+        "exp_text": "Rock such as sandstone or gravel is not one solid mass; it is made of separate grains stacked together, and no two grains fit so perfectly that no space is left between them. Those countless small gaps, called pores, connect to one another through the rock, so water can seep in and settle into them the way it settles into the holes of a sponge. A layer of rock riddled with connected pores like that can hold as much water as an open tank, without ever looking wet from the outside."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does water drawn from a deep well often feel cold, even in the middle of summer?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Deep underground stays at a steady temperature all year",
+            "feedback": "A few metres down, the ground stops tracking the seasons at all, and that steady temperature is far cooler than a summer afternoon above it."
+          },
+          {
+            "label": "Cold air sinks down through cracks and chills the water",
+            "feedback": "Very little air moves through saturated rock at all; the pores are already full of water, leaving no space for a draft of air to travel through."
+          },
+          {
+            "label": "The water has just melted from underground ice",
+            "feedback": "Underground ice is rare and belongs to frozen ground far colder than most aquifers ever get; ordinary groundwater was never frozen at all."
+          },
+          {
+            "label": "Pumping the water up cools it as it rises",
+            "feedback": "Pumping stirs and moves water; it has nothing that would draw heat out of it. Water pumped from a warm layer arrives warm."
+          }
+        ],
+        "ok_title": "Steady, not seasonal",
+        "ok_line": "The ground you're standing on forgot summer arrived.",
+        "ko_title": "Look further down",
+        "ko_line": "The chill was already there before the water was ever touched.",
+        "exp_title": "Underground has no summer",
+        "exp_text": "Heat from the sun only reaches a few metres into the soil before it is absorbed and spread out faster than it can build up, so beneath that shallow layer the temperature barely shifts between January and July. Water sitting in an aquifer far below that point has been sitting at that same steady temperature for a long time before anyone pumps it. Pulled up into a hot afternoon, it feels cold simply because it never warmed up in the first place."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does water from a natural spring often taste different from water straight out of the tap?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It has been boiled underground by heat in the rock",
+            "feedback": "Most spring water was never near enough to deep heat to be boiled; the rock it passed through was ordinary and cool."
+          },
+          {
+            "label": "It contains trapped air bubbles that change the flavour",
+            "feedback": "Water pressed through solid rock loses trapped air rather than gaining it; there is no room for bubbles to form in a pore full of water."
+          },
+          {
+            "label": "It has dissolved small amounts of mineral from the rock around it",
+            "feedback": "Given long enough in contact with rock, water picks up traces of whatever that rock is made of, and those traces are what change the taste."
+          },
+          {
+            "label": "It has been filtered through charcoal underground",
+            "feedback": "Charcoal is not a natural part of most rock layers; nothing underground resembles a filter built for that purpose."
+          }
+        ],
+        "ok_title": "Tasting the rock",
+        "ok_line": "The flavour is a report on where the water has been.",
+        "ko_title": "Not the cause",
+        "ko_line": "Ask what a slow soak through solid rock could actually add to plain water.",
+        "exp_title": "Water remembers the rock it crossed",
+        "exp_text": "As water creeps through the pores of a rock layer, it stays in contact with mineral grains for long stretches of time, and even a hard mineral gives up a little of itself to water pressed against it that long. Different rock layers are made of different minerals, so the exact taste changes from one spring to the next depending on what it seeped through. A sip of spring water carries a faint trace of stone that a tap, drawing from a different source, was never in contact with."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does water sometimes shoot up on its own from a drilled well, with no pump involved?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The drill bit heats the water and forces it to expand",
+            "feedback": "Drilling makes a narrow hole; it does not heat the rock enough to make water expand and rise on its own."
+          },
+          {
+            "label": "The water is trapped between two layers of rock and under pressure",
+            "feedback": "Squeezed between two layers it cannot pass through, that water carries pressure the way a hose does when you put a thumb over the end, and a well gives it somewhere to go."
+          },
+          {
+            "label": "Gas underground pushes the water up like a fizzy drink",
+            "feedback": "Groundwater almost never carries enough dissolved gas to push itself anywhere; the force behind a rising well has a different, steadier source."
+          },
+          {
+            "label": "The well is dug on a very steep hillside",
+            "feedback": "Steepness on the surface has no effect on what is happening far below it; plenty of these wells are drilled on land that is nearly flat."
+          }
+        ],
+        "ok_title": "Sandwiched and squeezed",
+        "ok_line": "The well didn't create the pressure, it just gave it a way out.",
+        "ko_title": "Not the source",
+        "ko_line": "The force at work here was already stored underground, waiting for an opening.",
+        "exp_title": "A layer of water under a lid",
+        "exp_text": "Some aquifers sit sandwiched between two layers of rock that water cannot pass through, one above and one below, so the water inside is confined rather than free to spread. Water higher up the slope keeps pushing into that confined layer, and with nowhere to escape sideways, the whole layer ends up under real pressure. Drill down and puncture the upper layer, and that pressure has a way out at last, driving the water up the hole without any pump."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a spring keep flowing steadily through weeks without rain?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Springs are connected to the sea underground",
+            "feedback": "Most springs sit far from any coast and are fed by rain falling on the land around them, not by a hidden connection to the sea."
+          },
+          {
+            "label": "The rock around the spring makes its own water",
+            "feedback": "Rock cannot produce water; every drop in an aquifer arrived from rain or snow that fell somewhere and seeped down."
+          },
+          {
+            "label": "Drought only affects rivers, never groundwater",
+            "feedback": "A long enough drought does eventually lower a spring's flow too. It just takes far longer to show, which is the real question here."
+          },
+          {
+            "label": "The aquifer feeding it stores months or years of past rain",
+            "feedback": "The water leaving the spring today fell as rain long before the dry spell began, drawn from a reserve built up over a much longer stretch of time."
+          }
+        ],
+        "ok_title": "Drawing on the reserve",
+        "ok_line": "The spring isn't running on today's weather, it's running on last year's.",
+        "ko_title": "Wrong timescale",
+        "ko_line": "The water coming out today did not fall as rain this week.",
+        "exp_title": "A reservoir with a very long memory",
+        "exp_text": "An aquifer fills slowly, over many rainy seasons, and it empties just as slowly, releasing its water through a spring at a steady trickle rather than all at once. Because the amount stored is so much larger than what falls in any single week, a run of dry weather barely dents it. The spring you see flowing during a drought is still spending water that soaked into the ground long before the dry spell began."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to rain after it soaks into open soil, on its way to becoming groundwater?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It keeps sinking downward until it reaches rock it cannot pass",
+            "feedback": "Gravity keeps pulling it down through gaps in the soil and rock, and it only stops descending once it meets a layer solid enough to block it."
+          },
+          {
+            "label": "It spreads out sideways as soon as it touches soil",
+            "feedback": "Water does eventually spread sideways underground, but only later, once its downward path is blocked; the first movement after rain is straight down."
+          },
+          {
+            "label": "It evaporates back into the air within the soil",
+            "feedback": "Some surface moisture does evaporate, but water that has already sunk past the top layer of soil is cut off from the air above it and cannot rise back through it."
+          },
+          {
+            "label": "It stays exactly where it lands until a plant absorbs it",
+            "feedback": "Roots do take up a share of soil moisture, but water not caught by a root keeps moving under its own weight rather than sitting still."
+          }
+        ],
+        "ok_title": "Straight down first",
+        "ok_line": "Gravity decides the direction before anything else does.",
+        "ko_title": "Wrong direction, or too soon",
+        "ko_line": "Ask what force is acting on the water the moment it enters the soil.",
+        "exp_title": "The path rain takes underground",
+        "exp_text": "Soil and the rock beneath it are full of tiny connected gaps, and water entering the ground simply falls through them the same way it would fall through open air, just far more slowly. It keeps descending as long as the gaps ahead of it stay open, which can mean travelling through many separate layers of soil and rock. Only when it reaches a layer packed too tight to pass through does the water stop its descent and start collecting instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does water pumped from deep underground usually need far less cleaning than water taken straight from a river?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Underground water is naturally colder, which kills germs",
+            "feedback": "Cold slows the growth of many microbes, but cold alone does not remove them, and groundwater still needs to be free of germs that a river could easily carry."
+          },
+          {
+            "label": "Rock underground releases chemicals that purify water",
+            "feedback": "Rock adds trace minerals to water, not cleaning agents; nothing in ordinary stone is designed to destroy or remove contaminants."
+          },
+          {
+            "label": "The soil and rock it passed through trapped particles and microbes",
+            "feedback": "Pushed through pore after pore, water leaves behind almost everything too large to fit, including most of what would make it unsafe."
+          },
+          {
+            "label": "Deep water has never been exposed to the sun",
+            "feedback": "Sunlight can help break down some contaminants at the surface, so its absence underground would work against cleanliness, not for it."
+          }
+        ],
+        "ok_title": "Filtered on the way down",
+        "ok_line": "The cleaning already happened, one narrow gap at a time.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what a long crawl through solid rock would leave behind.",
+        "exp_title": "A filter with no moving parts",
+        "exp_text": "As water works its way down through soil and rock, it is forced through gaps far too narrow for sediment, and often too narrow for many microbes, to pass alongside it. Whatever cannot fit gets left behind, layer after layer, long before the water reaches an aquifer. By the time it is pumped back up, it has already been through a straining process a river's water, which runs openly across the surface, never goes through at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the water table under a field sit higher after a wet season than after a dry one?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The rock underground expands when it absorbs water",
+            "feedback": "The rock itself does not swell or shift position; what changes is how much of the space inside it is filled with water, not the size of the space itself."
+          },
+          {
+            "label": "More rain has soaked down and refilled the saturated layer",
+            "feedback": "Every rainy stretch pushes fresh water down into the ground, and that water raises the upper edge of the layer that is already saturated."
+          },
+          {
+            "label": "Plants push water back into the ground in wet weather",
+            "feedback": "Roots draw water up out of the ground toward the leaves; nothing about a plant sends water back down into deeper soil."
+          },
+          {
+            "label": "The sun pulls the water table closer to the surface in winter",
+            "feedback": "The sun's pull works the other way, drawing moisture up and out through evaporation, and it is weaker, not stronger, in winter."
+          }
+        ],
+        "ok_title": "Recharged from above",
+        "ok_line": "Rain doesn't just run off, a share of it goes straight down to top up the table.",
+        "ko_title": "Wrong direction of travel",
+        "ko_line": "Ask which way the extra water is actually moving through the ground.",
+        "exp_title": "A level that answers to rainfall",
+        "exp_text": "The water table marks the top of the ground that is fully saturated, and that boundary is not fixed; it sits wherever the balance between water going in and water draining or being used happens to land. A wet season sends far more rain down through the soil than dry weeks do, and that extra water raises the saturated layer's upper edge as it arrives. Once the rain stops and the ground keeps draining toward rivers and wells without being resupplied, the same edge sinks back down again."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can pumping too much water out of the ground cause the land above to sink?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The extra weight of pumps and pipes presses the ground down",
+            "feedback": "The equipment used for pumping is far too light, spread over far too much ground, to press soil layers down on its own."
+          },
+          {
+            "label": "Removing water lets underground caves collapse",
+            "feedback": "Most aquifers are not open caves; the sinking happens in ordinary porous rock and sediment, without any cavern to collapse."
+          },
+          {
+            "label": "The ground dries out and shrinks like drying clay on the surface",
+            "feedback": "Surface clay does crack and shrink as it dries, but the sinking in question happens far below the surface, where drying in that sense does not occur."
+          },
+          {
+            "label": "Water was holding open the spaces between grains of sediment",
+            "feedback": "With that support gone, the loose sediment grains settle closer together, and the layer they were part of takes up noticeably less space than before."
+          }
+        ],
+        "ok_title": "Support removed",
+        "ok_line": "The water wasn't just filling the gaps, it was propping them open.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what the water was physically doing to the grains around it before it was pumped out.",
+        "exp_title": "Ground that settles once its support is gone",
+        "exp_text": "In loose sediment, water filling the gaps between grains presses outward against them a little, helping to keep the whole structure spread out and resisting the weight pressing down from above. Pump that water out faster than it can be replaced, and the grains lose that support and shift closer together under their own weight. The layer packs down into less space than it took up before, and the ground surface above it, having nothing rigid to rest on, settles down along with it."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 252,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is genetics the study of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Genes, genetic variation, and heredity in organisms",
+            "feedback": "That is exactly what genetics studies, and heredity is vital to evolution."
+          },
+          {
+            "label": "Only the structure of DNA inside cells",
+            "feedback": "DNA structure is part of genetics, but genetics also covers variation and how traits are passed on, not just the molecule."
+          },
+          {
+            "label": "The behavior of animals in their habitats",
+            "feedback": "That describes ecology or ethology, not genetics. Genetics focuses on genes and heredity."
+          },
+          {
+            "label": "How organisms change physically during their lifetime",
+            "feedback": "That is development or growth, not the study of genes and inheritance."
+          }
+        ],
+        "ok_title": "Genetics defined",
+        "ok_line": "Genetics is the study of genes, genetic variation, and heredity.",
+        "ko_title": "Not quite",
+        "ko_line": "Check the object of study for genetics.",
+        "exp_title": "What genetics covers",
+        "exp_text": "Genetics is the study of genes, genetic variation, and heredity in organisms. Heredity, the passing of traits from parents to offspring, is vital to evolution, which is why genetics is an important branch of biology."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What did Mendel observe that pea plants inherit traits by way of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A continuous blend of parental traits",
+            "feedback": "That was the old blending inheritance idea, which Mendel's work contradicted. He showed traits come from distinct units of inheritance."
+          },
+          {
+            "label": "The environment directly shaping each plant",
+            "feedback": "Environment can affect growth, but Mendel found inheritance works through discrete units, not direct environmental shaping."
+          },
+          {
+            "label": "Discrete units of inheritance",
+            "feedback": "Yes, Mendel observed that pea plants inherit traits by way of discrete units, a term that is still used today for what is referred to as a gene."
+          },
+          {
+            "label": "The chromosomes of the parent plants",
+            "feedback": "Chromosomes were not known to carry genes until long after Mendel. He spoke of units of inheritance, not chromosomes."
+          }
+        ],
+        "ok_title": "Discrete units",
+        "ok_line": "Traits are inherited through discrete units of inheritance.",
+        "ko_title": "Wrong idea",
+        "ko_line": "The correct term is discrete units of inheritance.",
+        "exp_title": "Mendel's finding",
+        "exp_text": "Mendel studied pea plants and observed that they inherit traits by way of discrete units of inheritance. This term is still used today and is a somewhat ambiguous definition of what is referred to as a gene."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the word 'genetics' derive from, according to its etymology?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A Latin word meaning 'heredity'",
+            "feedback": "The etymology given is from Greek, not Latin. The Greek word genetikos means 'genitive' or 'generative'."
+          },
+          {
+            "label": "A Greek word meaning 'genitive' or 'generative'",
+            "feedback": "Correct. The word genetics comes from the ancient Greek genetikos, meaning 'genitive' or 'generative', which in turn derives from genesis meaning 'origin'."
+          },
+          {
+            "label": "A German word meaning 'origin'",
+            "feedback": "The origin is Greek, not German. The Greek genesis means 'origin'."
+          },
+          {
+            "label": "An English word meaning 'inheritance'",
+            "feedback": "The word is derived from Greek, not English. The Greek genetikos is the source."
+          }
+        ],
+        "ok_title": "Greek origin",
+        "ok_line": "Genetics comes from the Greek genetikos.",
+        "ko_title": "Check the language",
+        "ko_line": "The root is Greek, not Latin, German, or English.",
+        "exp_title": "Etymology of genetics",
+        "exp_text": "Genetics was coined from the ancient Greek genetikos, meaning 'genitive' or 'generative', which itself comes from genesis meaning 'origin'. So the name points to the origin of traits."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What idea about inheritance did Mendel's work provide examples against?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "That traits are inherited via chromosomes",
+            "feedback": "Chromosomes were not part of Mendel's work. He provided examples against blending, not for or against chromosomes."
+          },
+          {
+            "label": "That traits are inherited in discrete units",
+            "feedback": "Mendel's work supported discrete units, not opposed them. He argued against blending inheritance."
+          },
+          {
+            "label": "That only dominant traits are inherited",
+            "feedback": "Mendel showed both dominant and recessive traits appear; his examples opposed blending, not dominance."
+          },
+          {
+            "label": "That individuals inherit a smooth blend of traits from their parents",
+            "feedback": "Yes, Mendel's work provided examples where traits were definitely not blended after hybridization, showing traits come from combinations of distinct genes rather than a continuous blend."
+          }
+        ],
+        "ok_title": "Against blending",
+        "ok_line": "Mendel showed traits are not blended.",
+        "ko_title": "Not that idea",
+        "ko_line": "Mendel's examples opposed blending inheritance.",
+        "exp_title": "Blending inheritance",
+        "exp_text": "A popular 19th-century theory was blending inheritance: the idea that individuals inherit a smooth blend of traits from their parents. Mendel's work provided examples where traits were definitely not blended after hybridization, showing traits are produced by combinations of distinct genes rather than a continuous blend."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the theory that individuals inherit traits strengthened by their parents called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Blending inheritance",
+            "feedback": "Blending is about mixing traits, not about inheriting strengthened ones. The wrong theory here is the inheritance of acquired characteristics."
+          },
+          {
+            "label": "Particulate inheritance",
+            "feedback": "Particulate inheritance is the idea that traits come from distinct units, which is what Mendel supported. The wrong theory is the inheritance of acquired characteristics."
+          },
+          {
+            "label": "Inheritance of acquired characteristics",
+            "feedback": "Correct. This theory, commonly associated with Jean-Baptiste Lamarck, is now known to be wrong—the experiences of individuals do not affect the genes they pass to their children."
+          },
+          {
+            "label": "Pangenesis",
+            "feedback": "Pangenesis had both acquired and inherited aspects, but it is not the name for the belief that individuals inherit traits strengthened by parents."
+          }
+        ],
+        "ok_title": "Acquired characteristics",
+        "ok_line": "That theory is the inheritance of acquired characteristics.",
+        "ko_title": "Wrong name",
+        "ko_line": "The incorrect theory is about inheriting strengthened traits.",
+        "exp_title": "Disproved theory",
+        "exp_text": "The inheritance of acquired characteristics is the belief that individuals inherit traits strengthened by their parents. It is now known to be wrong because the experiences of individuals do not affect the genes they pass to their children."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What did Mendel trace in pea plants and describe mathematically?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Inheritance patterns of certain traits",
+            "feedback": "Yes, Mendel traced the inheritance patterns of certain traits in pea plants and described them mathematically, showing heredity was particulate."
+          },
+          {
+            "label": "The structure of chromosomes",
+            "feedback": "Chromosome structure was not known in Mendel's time. He traced inheritance patterns of traits."
+          },
+          {
+            "label": "The sequence of nucleotides in DNA",
+            "feedback": "DNA sequence was discovered much later. Mendel worked with observable traits in pea plants."
+          },
+          {
+            "label": "The number of genes in a cell",
+            "feedback": "Genes as units were not yet defined in Mendel's time. He traced how traits were inherited."
+          }
+        ],
+        "ok_title": "Inheritance patterns",
+        "ok_line": "Mendel traced inheritance patterns in pea plants.",
+        "ko_title": "Not that",
+        "ko_line": "Mendel studied how traits pass down, not molecules or chromosomes.",
+        "exp_title": "Mendel's method",
+        "exp_text": "In his paper on plant hybridization, Mendel traced the inheritance patterns of certain traits in pea plants and described them mathematically. His work suggested that heredity was particulate, not acquired, and that inheritance patterns could be explained through simple rules and ratios."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "According to the discovery described, what determines whether offspring are biologically male or female?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The mother's chromosomes",
+            "feedback": "The discovery was that sex is determined by the male. Females only had the X chromosome, while males had both X and Y chromosomes."
+          },
+          {
+            "label": "The sex chromosomes contributed by the male",
+            "feedback": "Correct. Nettie Stevens discovered that females only had the X chromosome and males had both X and Y chromosomes, and concluded that sex is a chromosomal factor determined by the male."
+          },
+          {
+            "label": "The number of chromosomes in the egg",
+            "feedback": "The finding was about the presence of X and Y chromosomes in males, not about the number of chromosomes in the egg."
+          },
+          {
+            "label": "The environment during early development",
+            "feedback": "The discovery showed sex is a chromosomal factor, not an environmental one. It is determined by which sex chromosome the male contributes."
+          }
+        ],
+        "ok_title": "Male determines sex",
+        "ok_line": "Sex is determined by the male's chromosomes.",
+        "ko_title": "Not the right factor",
+        "ko_line": "Sex is a chromosomal factor determined by the male.",
+        "exp_title": "Chromosomal sex",
+        "exp_text": "In studies of the mealworm, scientists found that females only had the X chromosome and males had both X and Y chromosomes. This led to the conclusion that sex is a chromosomal factor and is determined by the male."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What did Thomas Hunt Morgan argue in 1911, based on observations of a fruit fly mutation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "That DNA is the genetic material",
+            "feedback": "That was established later, in 1944, by the Avery–MacLeod–McCarty experiment. Morgan argued about genes and chromosomes."
+          },
+          {
+            "label": "That traits are inherited as a smooth blend",
+            "feedback": "Morgan's work supported the idea that genes are on chromosomes, not blending inheritance."
+          },
+          {
+            "label": "That genes are arranged in a circle",
+            "feedback": "Morgan argued genes are on chromosomes, and later work showed they are arranged linearly, not in a circle."
+          },
+          {
+            "label": "That genes are on chromosomes",
+            "feedback": "Yes, based on observations of a sex-linked white eye mutation in fruit flies, Thomas Hunt Morgan argued that genes are on chromosomes."
+          }
+        ],
+        "ok_title": "Genes on chromosomes",
+        "ok_line": "Morgan argued genes are located on chromosomes.",
+        "ko_title": "Not his claim",
+        "ko_line": "Morgan's argument was about the location of genes, not about DNA or blending.",
+        "exp_title": "Chromosomal theory",
+        "exp_text": "In 1911, Thomas Hunt Morgan argued that genes are on chromosomes, based on observations of a sex-linked white eye mutation in fruit flies. Later, his student Alfred Sturtevant used genetic linkage to show that genes are arranged linearly on the chromosome."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What shape did Watson and Crick determine for DNA in 1953?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A double helix",
+            "feedback": "Correct. Their double-helix model had two strands of DNA with nucleotides pointing inward, forming rungs on a twisted ladder."
+          },
+          {
+            "label": "A single straight strand",
+            "feedback": "DNA is not a single straight strand; it is a double helix with two strands."
+          },
+          {
+            "label": "A circular loop",
+            "feedback": "DNA in some bacteria is circular, but the structure determined by Watson and Crick was the double helix of cellular DNA."
+          },
+          {
+            "label": "A flat ribbon",
+            "feedback": "The model was a twisted ladder, not a flat ribbon. It is a double helix."
+          }
+        ],
+        "ok_title": "Double helix",
+        "ok_line": "DNA has a double-helix structure.",
+        "ko_title": "Wrong shape",
+        "ko_line": "Watson and Crick found a double helix, not a straight or flat shape.",
+        "exp_title": "DNA structure",
+        "exp_text": "James Watson and Francis Crick determined the structure of DNA in 1953, using X-ray crystallography work that indicated DNA has a helical structure. Their double-helix model had two strands with nucleotides pointing inward, each matching a complementary nucleotide on the other strand to form what look like rungs on a twisted ladder."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What property does DNA have that allows new partner strands to be reconstructed from the old ones?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It is a single strand",
+            "feedback": "DNA has two strands, not one. The property that allows reconstruction is its complementary pairing in the double helix."
+          },
+          {
+            "label": "It is made of proteins",
+            "feedback": "DNA is not made of proteins. It is made of nucleotides, and the double helix allows semi-conservative replication."
+          },
+          {
+            "label": "It is semi-conservative",
+            "feedback": "Correct. Because the strands can separate and each can serve as a template for a new partner strand, DNA is semi-conservative—one strand of new DNA is from an original parent strand."
+          },
+          {
+            "label": "It is circular",
+            "feedback": "Circularity is not the property that enables reconstruction. The complementary base pairing is what allows new strands to be built."
+          }
+        ],
+        "ok_title": "Semi-conservative nature",
+        "ok_line": "DNA is semi-conservative, allowing new strands to form.",
+        "ko_title": "Not that property",
+        "ko_line": "The reconstruction comes from the double helix's complementary strands.",
+        "exp_title": "How DNA copies",
+        "exp_text": "The double-helix structure suggested a simple method for replication: if the strands are separated, new partner strands can be reconstructed for each based on the sequence of the old strand. This gives DNA its semi-conservative nature, where one strand of new DNA is from an original parent strand."
+      }
+    ]
+  }
+]

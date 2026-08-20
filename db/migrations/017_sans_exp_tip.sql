@@ -1,0 +1,27 @@
+-- 017 — Retrait de exp_tip
+--
+-- Le champ avait deux rôles annoncés dans CLAUDE.md : « la prise
+-- mémorable ou l'expérience à faire soi-même ». Mesuré sur les 280
+-- exercices écrits, 3 % seulement (11) étaient formulés comme une
+-- expérience ; le reste était un second fait. Et 51 recopiaient au
+-- moins deux mots de la dernière phrase d'exp_text.
+--
+-- La cause était dans le rendu autant que dans l'écriture :
+-- PhaseBlocks.tsx affichait exp_tip comme le dernier <div class="step">
+-- du même conteneur que les phrases d'exp_text, à taille et interligne
+-- identiques. Il se lisait donc comme une phrase de plus. Deux chutes,
+-- aucun rappel.
+--
+-- Décision : un seul champ porte l'explication, exp_text, et il porte le
+-- mécanisme. Ce qui méritait d'être dit dans un tip devient soit une
+-- phrase du mécanisme, soit sa propre question dans le chapitre records.
+--
+-- Les 280 valeurs sont archivées en clair dans
+-- db/archive/exp_tip_retires.json avant cette migration.
+--
+-- Aucune vue ne cite exp_tip (v_exercise_health, v_user_theme_progress,
+-- v_global_rank, v_theme_week_rank vérifiées), la colonne n'est dans
+-- aucun index et dans aucun CHECK : DROP COLUMN suffit, sans
+-- reconstruction de table.
+
+ALTER TABLE exercise DROP COLUMN exp_tip;

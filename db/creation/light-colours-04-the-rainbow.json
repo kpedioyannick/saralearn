@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 83,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Where must the Sun be for you to see a rainbow?",
+        "body": null,
+        "options": [
+          {
+            "label": "Behind you",
+            "feedback": "The light comes over your shoulder and returns from the rain."
+          },
+          {
+            "label": "In front of you",
+            "feedback": "Then you would be looking straight into it, and see none."
+          },
+          {
+            "label": "Directly overhead",
+            "feedback": "At noon in summer the bow falls below the horizon."
+          },
+          {
+            "label": "Anywhere in the sky",
+            "feedback": "The angle is fixed, so the position matters entirely."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Sun behind, rain ahead, and your own shadow points at the centre.",
+        "ko_title": "Not that.",
+        "ko_line": "The light has to bounce off the back of each drop and come back to you.",
+        "exp_title": "Sun behind, rain in front",
+        "exp_text": "Light enters a raindrop, reflects off the inside of its far wall and comes back out towards the Sun's side, which means towards you if the Sun is at your back. The centre of the bow sits exactly opposite the Sun — follow your own shadow and you are pointing at it. Because that point is below the horizon whenever the Sun is more than 42 degrees up, rainbows belong to early morning and late afternoon."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What happens to sunlight inside a single raindrop?",
+        "body": null,
+        "options": [
+          {
+            "label": "It bends, reflects, and bends again",
+            "feedback": "Twice at the surface, once off the back wall."
+          },
+          {
+            "label": "It bounces straight off the surface",
+            "feedback": "Then no colours would separate at all."
+          },
+          {
+            "label": "It passes through unchanged",
+            "feedback": "Light entering water always bends."
+          },
+          {
+            "label": "It is absorbed and given out again",
+            "feedback": "A raindrop absorbs almost nothing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Three events in one drop, and the colours part company on the way.",
+        "ko_title": "Not it.",
+        "ko_line": "The light has to get in, turn around, and get out again.",
+        "exp_title": "Three turns inside one drop",
+        "exp_text": "Light bends as it enters the drop, travels across, reflects off the inner face of the back, crosses again and bends once more on the way out. It leaves heading back towards the Sun's side, at about 42 degrees off its original path. Both bends separate the colours a little, and the whole bow depends on that small difference — red emerging at 42 degrees, violet at 40."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which colour lies on the outer edge of a rainbow?",
+        "body": null,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "It leaves the drop at the widest angle, 42 degrees."
+          },
+          {
+            "label": "Violet",
+            "feedback": "It bends most, so it sits on the inside."
+          },
+          {
+            "label": "Green",
+            "feedback": "It falls in the middle of the band."
+          },
+          {
+            "label": "Yellow",
+            "feedback": "Between red and green, and never at the edge."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Red outside, violet inside — always, in a single bow.",
+        "ko_title": "The other edge.",
+        "ko_line": "The colour that bends least ends up furthest out.",
+        "exp_title": "Least bent, furthest out",
+        "exp_text": "Red is slowed least by water, so it turns least and emerges at the widest angle — about 42 degrees — which places it on the outside of the arc. Violet turns most and leaves at 40, landing on the inside. The gap is only two degrees, roughly four times the width of the Moon, so the whole band of colour is narrower than most people remember it being."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the second bow of a double rainbow show its colours reversed?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its light bounced twice inside the drop",
+            "feedback": "The extra reflection flips the order."
+          },
+          {
+            "label": "It comes from higher raindrops",
+            "feedback": "Height changes nothing about the sequence."
+          },
+          {
+            "label": "It is a mirror image of the first",
+            "feedback": "Nothing in the sky reflects the first bow."
+          },
+          {
+            "label": "The Sun has moved between them",
+            "feedback": "Both bows appear at the same instant."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "One extra bounce, and the whole order turns around.",
+        "ko_title": "Not that.",
+        "ko_line": "The two bows come from the same rain at the same moment. Something inside the drop differs.",
+        "exp_title": "One more bounce, one reversed order",
+        "exp_text": "In the outer bow, light reflects twice inside the raindrop instead of once. The second reflection turns the colour sequence over, so red faces inwards and violet outwards. It also emerges at a wider angle, near 51 degrees, and loses light at each bounce — which is why the second bow is always the fainter of the two. Between them lies a noticeably dark strip called Alexander's band."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Can two people standing side by side see the same rainbow?",
+        "body": null,
+        "options": [
+          {
+            "label": "No, each sees a different one",
+            "feedback": "The bow depends on where the eye is, drop by drop."
+          },
+          {
+            "label": "Yes, if they look at the same time",
+            "feedback": "Timing is not what decides it."
+          },
+          {
+            "label": "Yes, rainbows hang in a fixed place",
+            "feedback": "A rainbow has no location in the sky at all."
+          },
+          {
+            "label": "Only if the Sun is low enough",
+            "feedback": "The Sun's height changes the size, not the answer."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "A rainbow is not a thing in the sky. It is an angle from your eye.",
+        "ko_title": "Not so.",
+        "ko_line": "Ask yourself where the rainbow actually is. Then ask whose eye decides.",
+        "exp_title": "There is no rainbow out there",
+        "exp_text": "Each drop sends its colours out at fixed angles, so which drops you see depends entirely on where your eye is. Move a step and a different set of drops does the work. There is no object in the sky, no distance to it, and no way to reach it — walk towards a rainbow and it retreats exactly as fast as you advance. Two people side by side are each seeing a private bow made from different rain."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What shape is a rainbow really?",
+        "body": null,
+        "options": [
+          {
+            "label": "A full circle",
+            "feedback": "The ground hides the lower half from anyone standing on it."
+          },
+          {
+            "label": "A half circle",
+            "feedback": "That is only the part above the horizon."
+          },
+          {
+            "label": "A curved band with two ends",
+            "feedback": "It has no ends. The circle simply gets cut off."
+          },
+          {
+            "label": "A flat arch across the sky",
+            "feedback": "It curves in three dimensions, not on a plane."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Always a circle. The ground just removes the bottom.",
+        "ko_title": "Not quite.",
+        "ko_line": "Ask what stops you from seeing the rest of it.",
+        "exp_title": "A circle with its lower half buried",
+        "exp_text": "Every drop at 42 degrees from the point opposite the Sun contributes, and those drops form a complete ring. Standing on the ground you only see the part above the horizon, because there is no falling rain below your feet to fill in the rest. From an aircraft, with rain or mist below, the full circle appears — often with the shadow of the plane sitting at its centre."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a fogbow almost white instead of coloured?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fog droplets are far too small",
+            "feedback": "The colours spread and overlap into white."
+          },
+          {
+            "label": "Fog contains no real water",
+            "feedback": "Fog is water, in very small drops."
+          },
+          {
+            "label": "Fog reflects only white light",
+            "feedback": "Sunlight arrives with every colour in it."
+          },
+          {
+            "label": "There is too little sun in fog",
+            "feedback": "Dimness would fade a bow, not decolour it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Too small to sort the colours, so they blur back together.",
+        "ko_title": "Not it.",
+        "ko_line": "Fog is made of water like rain. The difference is the size of the drops.",
+        "exp_title": "Drops too small to sort colour",
+        "exp_text": "A raindrop is around a millimetre across and separates colours cleanly. A fog droplet is a hundred times smaller, and at that scale light spreads as it passes — the colours smear across each other until the bow is a broad white arc with the faintest orange rim outside and blue within. Sailors call it a sea-dog, and it appears over cold water where fog and low sun meet."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a garden hose make a rainbow on a sunny day?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its spray acts like falling rain",
+            "feedback": "Any water drops at the right angle will do it."
+          },
+          {
+            "label": "Tap water bends light differently",
+            "feedback": "It is the same water as rain."
+          },
+          {
+            "label": "The nozzle splits the light",
+            "feedback": "The nozzle never touches the sunlight."
+          },
+          {
+            "label": "The pressure changes the colours",
+            "feedback": "Pressure has nothing to do with it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly.",
+        "ok_line": "Rain is not required. Only drops, sunlight and the right angle.",
+        "ko_title": "Not that.",
+        "ko_line": "A rainbow needs three things, and a rain cloud is not one of them.",
+        "exp_title": "Any drops will do",
+        "exp_text": "A rainbow needs sunlight, water drops and the right angle between them — nothing more. A hose, a waterfall, a fountain or breaking surf all produce one, and with your back to the Sun you can place it wherever you spray. It is the easiest way to prove that the bow depends on your position: take one step sideways and the arc follows you exactly."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Can a rainbow appear at night?",
+        "body": null,
+        "options": [
+          {
+            "label": "Yes, by the light of a full Moon",
+            "feedback": "A moonbow, usually too faint to show its colours."
+          },
+          {
+            "label": "No, there is never enough light",
+            "feedback": "A bright full Moon is enough, rarely."
+          },
+          {
+            "label": "No, water behaves differently at night",
+            "feedback": "Water is unchanged by the hour."
+          },
+          {
+            "label": "Yes, from the light of the stars",
+            "feedback": "Starlight is thousands of times too weak."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The Moon can do it, though your eyes barely register the colour.",
+        "ko_title": "Not it.",
+        "ko_line": "Anything bright enough and behind you will serve. What is up at night?",
+        "exp_title": "The moonbow",
+        "exp_text": "Moonlight is reflected sunlight, so it makes a bow by exactly the same rules — the Sun's opposite point becomes the Moon's. It needs a full or near-full Moon, low in the sky, with rain opposite. The colours are there but the light is too dim for the colour cells in your eye, so it reads as a pale white arc. A long camera exposure brings the full spectrum back out."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do the colours of a rainbow blend rather than form seven clean bands?",
+        "body": null,
+        "options": [
+          {
+            "label": "The range of colour is continuous",
+            "feedback": "Wavelength changes smoothly, with no gaps."
+          },
+          {
+            "label": "The rain is moving too fast",
+            "feedback": "The drops fall, but the bow stays sharp."
+          },
+          {
+            "label": "Our eyes cannot resolve them",
+            "feedback": "The blending is in the light, not in the eye."
+          },
+          {
+            "label": "The bands overlap by accident",
+            "feedback": "There are no bands to overlap."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The bands were never there. Someone counted them into being.",
+        "ko_title": "Not it.",
+        "ko_line": "Ask whether nature draws lines between one wavelength and the next.",
+        "exp_title": "Seven was a choice, not a count",
+        "exp_text": "Wavelength varies smoothly from about 700 to 400 nanometres with no steps anywhere, so a rainbow holds an unbroken gradient. Newton settled on seven names, adding indigo to match the seven notes of a musical scale — a decision about harmony rather than about light. Other cultures have counted five, or three, or two. Nothing in the sky divides at those places."
+      }
+    ]
+  }
+]

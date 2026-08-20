@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 233,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main trigger that tells a deciduous tree it is time to start preparing its leaves for autumn?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The first frost of the season",
+            "feedback": "Frost can damage leaves, but it is not what starts the autumn preparation. The tree usually begins weeks before any frost."
+          },
+          {
+            "label": "The tree running out of water",
+            "feedback": "Water shortage can cause leaf drop in a crisis, but that is not the seasonal signal. The regular trigger is the shorter days of late summer."
+          },
+          {
+            "label": "The shortening of daylight hours",
+            "feedback": "That is right. As days get shorter, the tree senses the change and starts to seal off leaves and pull nutrients back in."
+          },
+          {
+            "label": "The wind blowing harder as autumn arrives",
+            "feedback": "Wind can knock leaves off, but it is not the signal that makes the tree let go deliberately. The day length is the cue."
+          }
+        ],
+        "ok_title": "Day length trigger",
+        "ok_line": "Shorter days tell the tree autumn is coming.",
+        "ko_title": "Wrong autumn signal",
+        "ko_line": "Frost, drought, and wind are not the seasonal trigger.",
+        "exp_title": "The seasonal cue",
+        "exp_text": "The tree reads the shrinking daylight hours, not the temperature or the first frost, as the reliable sign that winter is on its way. That is why autumn colour and leaf fall start around the same time each year even if one year is warmer or colder than another."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the abscission layer, and where does it form?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A thick layer of wax that covers the leaf surface to hold in moisture",
+            "feedback": "That thin waxy coat is the cuticle, and it protects the leaf all summer, not just in autumn. The abscission layer forms at the leaf stalk's base."
+          },
+          {
+            "label": "A layer of cells across the base of the leaf stalk that seals the twig",
+            "feedback": "Exactly. That layer of softer cells weakens and then closes off the twig, cutting the leaf loose cleanly."
+          },
+          {
+            "label": "A layer of tiny hairs on the underside of the leaf that traps water",
+            "feedback": "Hairs on leaves help with moisture and insects, but they are not what detaches the leaf. The separation happens at the stalk base."
+          },
+          {
+            "label": "A ring of bark that grows around the twig every autumn",
+            "feedback": "Bark grows on the twig itself, not as a ring that drops leaves. The separation zone is inside the leaf stalk."
+          }
+        ],
+        "ok_title": "The leaf's cut line",
+        "ok_line": "Abscission cells seal the twig and let the leaf go.",
+        "ko_title": "Not the leaf coat",
+        "ko_line": "The cuticle and hairs are not the separation layer.",
+        "exp_title": "Where the leaf breaks",
+        "exp_text": "The abscission layer is a band of cells forming across the base of the leaf stalk. In autumn these cells weaken and then die, and the leaf breaks off at that line while the twig has already sealed itself shut underneath."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What colour do leaves typically turn if the tree only breaks down its green pigment and does not produce any new pigment?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Red",
+            "feedback": "Red comes from a new pigment, anthocyanin, that some trees build only in autumn. If the tree makes none, the leaf will not turn red."
+          },
+          {
+            "label": "Brown",
+            "feedback": "Brown appears when, after the green fades, the leaf dies and the remaining cell contents dry out. Freshly yellow leaves are not brown yet."
+          },
+          {
+            "label": "Purple",
+            "feedback": "Purple, like red, needs anthocyanin. Without that pigment, the leaf stays yellow or orange, not purple."
+          },
+          {
+            "label": "Yellow or orange",
+            "feedback": "Right. With the green chlorophyll gone, the yellow and orange carotenoids that were hiding underneath show through."
+          }
+        ],
+        "ok_title": "Green fades to yellow",
+        "ok_line": "Carotenoids show once chlorophyll is broken down.",
+        "ko_title": "Red is extra work",
+        "ko_line": "Red and purple need a new autumn pigment.",
+        "exp_title": "The hidden colours",
+        "exp_text": "Chlorophyll, the green pigment, masks other pigments called carotenoids that are already in the leaf all summer. When the tree breaks down chlorophyll in autumn, those yellow and orange colours simply become visible, with no new pigment needed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What produces the red and purple colours in some autumn leaves?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A new pigment, anthocyanin, that the tree builds in the leaf",
+            "feedback": "Correct. Some trees actively make anthocyanin in autumn, and that fresh pigment gives the red and purple shades."
+          },
+          {
+            "label": "The same carotenoids that make leaves yellow",
+            "feedback": "Carotenoids are yellow and orange, not red. Red needs a different pigment made later in the season."
+          },
+          {
+            "label": "The breakdown of chlorophyll turning it red",
+            "feedback": "Chlorophyll breaks down into colourless compounds, not red ones. The red is a separate pigment the tree builds."
+          },
+          {
+            "label": "The drying and dying of the leaf tissue",
+            "feedback": "Drying leaves go brown, not red. The red appears while the leaf is still alive and actively making anthocyanin."
+          }
+        ],
+        "ok_title": "Anthocyanin builds red",
+        "ok_line": "A fresh autumn pigment colours the leaf red or purple.",
+        "ko_title": "Not from old pigments",
+        "ko_line": "Carotenoids and chlorophyll do not produce red.",
+        "exp_title": "The autumn pigment",
+        "exp_text": "Red and purple leaves get their colour from anthocyanin, a pigment the tree synthesises in the leaf during autumn. It is produced fresh, often in sunny bright days, and it is not simply leftover from the leaf's summer chemistry."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What actually breaks the connection so a leaf can fall off the twig in autumn?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The wind snapping the leaf off the twig",
+            "feedback": "Wind can tear a leaf loose, but the tree prepares an orderly break itself. The abscission layer weakens first, so wind only finishes what the tree started."
+          },
+          {
+            "label": "The weight of snow pulling the leaf down",
+            "feedback": "Snow may bend branches, but leaves normally fall before heavy snow arrives. The detachment is driven by the tree's own cells."
+          },
+          {
+            "label": "The dying of the cells in the abscission layer at the leaf stalk's base",
+            "feedback": "That is it. Those cells weaken and then die, and the leaf separates along that line, leaving a sealed scar."
+          },
+          {
+            "label": "The leaf rotting off because it stops getting water",
+            "feedback": "The leaf dries out, but it does not rot while still attached. The tree actively cuts it loose at the stalk base."
+          }
+        ],
+        "ok_title": "Cells release the leaf",
+        "ok_line": "The abscission layer's death lets the leaf detach.",
+        "ko_title": "Not outside forces",
+        "ko_line": "Wind and snow only help after the tree loosens the leaf.",
+        "exp_title": "The tear point",
+        "exp_text": "The tree weakens the abscission layer at the base of the leaf stalk, and those cells eventually die. The leaf then breaks off at that exact line, and the twig is already sealed with a protective scar, so no open wound is left."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a deciduous tree drop its broad leaves before winter rather than keeping them through the cold months?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the leaves would freeze and become too heavy for the branches",
+            "feedback": "Frozen leaves are brittle, but the real reason to drop them is that they cannot work in winter and keeping them would cost too much water and energy."
+          },
+          {
+            "label": "Because the leaves would lose too much water and the tree could not replace it from cold, frozen soil",
+            "feedback": "That is correct. Broad leaves lose water constantly, and with the ground frozen the roots cannot take up enough to replace it, so the tree lets the leaves go."
+          },
+          {
+            "label": "Because the leaves would block the sunlight from reaching the buds",
+            "feedback": "Buds are small and often protected by scales; leaves would not block their light. The main problem is water loss, not shading."
+          },
+          {
+            "label": "Because the leaves would attract insects that would eat the tree's stored food",
+            "feedback": "Insects are not the reason for leaf drop. The tree sheds leaves to survive winter's low water supply, not to hide stored food."
+          }
+        ],
+        "ok_title": "Winter water saving",
+        "ok_line": "Dropping leaves stops water loss the frozen ground cannot replace.",
+        "ko_title": "Not about ice or pests",
+        "ko_line": "Freezing, shade, and insects are not why leaves fall.",
+        "exp_title": "Why leaves fall",
+        "exp_text": "Broad leaves are large surfaces that lose water steadily. In winter the soil freezes and the roots cannot take up water, so keeping the leaves would dry the tree out. By dropping them, the tree cuts that water loss and survives the cold months."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "After a leaf falls, what does the twig usually show where the leaf was attached?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A small pool of sticky sap that slowly hardens",
+            "feedback": "Some trees ooze resin if wounded, but a normal leaf drop leaves a clean, dry scar, not a sap pool. The seal is already formed."
+          },
+          {
+            "label": "A tiny hole where the leaf stalk snapped off",
+            "feedback": "The twig does not get a hole. The abscission layer seals the twig shut before the leaf detaches."
+          },
+          {
+            "label": "A ragged tear of bark and wood",
+            "feedback": "A natural leaf fall is neat. The abscission layer cuts cleanly; a ragged tear would happen only in damage."
+          },
+          {
+            "label": "A small, neat, closed scar",
+            "feedback": "Right. The abscission layer has already sealed the twig, so the scar is flat and closed, protecting the tree from moisture loss and infection."
+          }
+        ],
+        "ok_title": "A sealed leaf scar",
+        "ok_line": "The abscission layer leaves a clean, closed scar.",
+        "ko_title": "No open wound",
+        "ko_line": "Leaf drop seals the twig rather than leaving a hole.",
+        "exp_title": "The leaf scar",
+        "exp_text": "When the leaf falls, the twig surface at the leaf's base is already sealed by the abscission layer. The result is a small, neat scar with no open wound, which keeps the tree healthy through winter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "If a tree drops leaves from part of its crown in the middle of summer, what is most likely the cause?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A shortage of water or a problem in that part of the tree",
+            "feedback": "That is right. A sudden loss of leaves outside autumn is the tree's emergency response to stress, such as drought, root damage, or an injury."
+          },
+          {
+            "label": "The normal autumn leaf drop happening early that year",
+            "feedback": "Autumn leaf drop is tied to shortening days, which do not happen in midsummer. A mid-summer drop is not the regular seasonal change."
+          },
+          {
+            "label": "The tree getting too much sunlight and shedding extra leaves",
+            "feedback": "Extra sunlight does not make a tree shed leaves. Leaves are not shed for surplus light; they are dropped when the tree is stressed."
+          },
+          {
+            "label": "The tree finishing its growth and resting before the next season",
+            "feedback": "A tree does not rest by dropping leaves in summer. That behaviour is a sign of trouble, not a planned pause."
+          }
+        ],
+        "ok_title": "Stress causes early drop",
+        "ok_line": "Summer leaf loss signals water shortage or damage.",
+        "ko_title": "Not planned autumn",
+        "ko_line": "Midsummer leaf drop is an emergency, not a season.",
+        "exp_title": "Emergency leaf fall",
+        "exp_text": "When a tree loses leaves in the middle of summer, it is usually cutting its losses because it cannot support all its leaves — often due to drought, broken roots, or a local injury. It sacrifices part of its crown to save the rest."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do conifers still look fully green in winter even though they do shed some needles too?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They stop losing any needles during the cold months",
+            "feedback": "Conifers do shed needles in winter, but it is a slow, steady process, not a sudden mass drop. They never stop entirely."
+          },
+          {
+            "label": "Their needles are made of green wax that does not fade",
+            "feedback": "The waxy coat keeps moisture in, but the green colour comes from chlorophyll inside the needle, not from wax."
+          },
+          {
+            "label": "They drop only a fraction of their needles each year and keep the rest for several years",
+            "feedback": "Exactly. A conifer keeps most of its needles for years, so it always looks green even while old needles fall off one by one."
+          },
+          {
+            "label": "They grow new green needles to replace each one as it falls during winter",
+            "feedback": "Conifers do grow new needles in spring, not continuously in winter. The green look comes from keeping old needles, not from quick replacement."
+          }
+        ],
+        "ok_title": "Needles last years",
+        "ok_line": "Conifers keep most needles through winter, shedding a few.",
+        "ko_title": "Not winter regrowth",
+        "ko_line": "They look green because they keep old needles, not because they regrow.",
+        "exp_title": "Evergreen appearance",
+        "exp_text": "Conifer needles stay attached for several years, so only a small fraction drops each year. In winter the tree still carries its older green needles, which is why it appears fully green even as it slowly sheds a few."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Once the abscission layer starts forming, what happens to the leaf's own supply of water and sugars before the leaf actually falls?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The leaf continues to receive full water and sugar until it drops",
+            "feedback": "No, the abscission layer cuts off the flow. The leaf is gradually sealed off, so its supplies stop well before it detaches."
+          },
+          {
+            "label": "The leaf's connections to the twig close off, so water and sugar stop moving in and out",
+            "feedback": "That is correct. The forming layer blocks the tubes, so the leaf is isolated and the tree can pull valuable nutrients out of it first."
+          },
+          {
+            "label": "The leaf pumps extra water into its stalk to swell it and push itself off",
+            "feedback": "Water pressure does not push the leaf off. The separation is caused by cells dying and breaking along the layer."
+          },
+          {
+            "label": "The leaf sends all its remaining sugars down to its own roots",
+            "feedback": "A leaf has no roots. Sugars are pulled from the leaf into the twig and then stored by the tree, not sent down as a leaf action."
+          }
+        ],
+        "ok_title": "Connections close off",
+        "ok_line": "The abscission layer seals the leaf's tubes before it falls.",
+        "ko_title": "No more flow",
+        "ko_line": "Water and sugar stop reaching the leaf as the layer forms.",
+        "exp_title": "The leaf is cut off",
+        "exp_text": "As the abscission layer forms, it blocks the leaf's water and sugar tubes, isolating the leaf from the twig. The tree then recycles nutrients from the leaf while it is still attached, and only after that does the leaf detach."
+      }
+    ]
+  }
+]

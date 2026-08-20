@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 149,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Where does the salt dissolved in the ocean actually come from in the first place?",
+        "body": null,
+        "options": [
+          {
+            "label": "Rain slowly dissolves minerals out of rock, and rivers carry those dissolved minerals down to the sea",
+            "feedback": "Rain, made faintly acidic by gases in the air, wears tiny amounts of mineral out of rock on every continent, and rivers deliver that steady trickle to the ocean, drop by drop, over an immense stretch of time."
+          },
+          {
+            "label": "Fish and other sea creatures excrete the salt found in the water",
+            "feedback": "Living things take in salts from the water around them; they aren't the source that put those salts there."
+          },
+          {
+            "label": "Salt was mixed into the ocean deliberately when it was measured out",
+            "feedback": "The saltiness of the sea comes from an ongoing physical process, not a single mixing event."
+          },
+          {
+            "label": "Volcanoes on land release clouds of salt that settle into the nearest sea",
+            "feedback": "Volcanic gas does add a little material to the ocean over time, but it is a minor contributor next to what rivers carry down from weathered rock."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "From the rock to the river to the sea",
+        "ok_line": "A slow delivery that has never stopped.",
+        "ko_title": "Not the source",
+        "ko_line": "Ask what has been feeding the ocean minerals for as long as rivers have flowed.",
+        "exp_title": "Rock, dissolved a grain at a time",
+        "exp_text": "Rainwater picks up a trace of carbon dioxide from the air, which makes it weakly acidic, and that acidity slowly dissolves minerals out of the rock it flows over. Rivers gather that dissolved mineral load from across entire continents and carry it down to the sea, and although each river's share is tiny, the delivery has continued for an immense stretch of time."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the salt stay behind in the ocean when so much water constantly evaporates from its surface?",
+        "body": null,
+        "options": [
+          {
+            "label": "Salt evaporates too, but it falls back down again immediately",
+            "feedback": "Salt does not evaporate into the air at all under ordinary conditions; it has no reason to fall back down because it never rises in the first place."
+          },
+          {
+            "label": "The sun burns off the salt along with the water",
+            "feedback": "Sunlight supplies the energy for evaporation, but it doesn't destroy or remove the salt — only water molecules leave as vapour."
+          },
+          {
+            "label": "Evaporation lifts only water molecules into the air, leaving the dissolved salt behind in the sea",
+            "feedback": "When water evaporates, individual water molecules escape into the air as vapour, while the salt ions stay dissolved in the water that remains — they simply aren't light or volatile enough to rise with it."
+          },
+          {
+            "label": "Waves push the salt back toward the shore before it can evaporate",
+            "feedback": "Waves move water around but play no part in separating salt from water molecules during evaporation."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Only the water leaves",
+        "ok_line": "Vapour rises pure; the salt has nowhere to go.",
+        "ko_title": "Not what happens",
+        "ko_line": "Ask which part of seawater actually turns into vapour.",
+        "exp_title": "Vapour without its salt",
+        "exp_text": "Evaporation works by individual water molecules gaining enough energy to break free of the liquid and drift into the air, and only water molecules are light and small enough to do that. The salt ions dissolved among them stay bound in the remaining liquid, so every drop of water that leaves the sea as vapour leaves its salt behind, and the water left in the ocean grows slightly saltier for the loss."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the water right where a large river meets the ocean much less salty than the open sea nearby?",
+        "body": null,
+        "options": [
+          {
+            "label": "Rivers carry extra oxygen that cancels out the salt near their mouths",
+            "feedback": "Oxygen dissolved in water has no effect on how much salt is present."
+          },
+          {
+            "label": "A river's fresh water dilutes the seawater around the river mouth before it fully mixes into the ocean",
+            "feedback": "A river delivers a huge volume of nearly salt-free water into one small area, and near the mouth that fresh water hasn't yet blended into the far larger, saltier ocean around it."
+          },
+          {
+            "label": "The seabed near a river mouth is naturally lower in salt content",
+            "feedback": "The seabed rock doesn't set the salt level of the water above it; the water's saltiness comes from what's dissolved in it."
+          },
+          {
+            "label": "Boats stir the water near a river mouth, spreading the salt out thinner",
+            "feedback": "Boat traffic has no meaningful effect on the amount of salt dissolved across an entire estuary."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Diluted at the source",
+        "ok_line": "Fresh water pours in faster than it can mix away.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what a river is actually adding to that patch of sea.",
+        "exp_title": "A pocket of fresh water not yet mixed in",
+        "exp_text": "A river carries almost no dissolved salt compared with the ocean, and it pours that fresh water steadily into one small stretch of coast. Close to the river mouth this incoming fresh water hasn't yet spread out and blended with the much larger volume of salty ocean around it, so the water there measures far less salty than the open sea only a short distance further out."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the Red Sea noticeably saltier than the ocean on average?",
+        "body": null,
+        "options": [
+          {
+            "label": "It has an unusually salty rock formation on its floor",
+            "feedback": "The seabed's rock type isn't what sets the water's salt level; the balance between evaporation and fresh water inflow is."
+          },
+          {
+            "label": "It receives runoff from especially salty mountains nearby",
+            "feedback": "There's no exceptional salt deposit feeding it from nearby mountains; the cause is climate and geography, not the surrounding rock."
+          },
+          {
+            "label": "Fishing boats have removed most of the fresh-water species that once diluted it",
+            "feedback": "Removing living creatures from water does not change how salty that water is."
+          },
+          {
+            "label": "It sits in a hot, dry region where evaporation is intense and almost no rivers add fresh water to dilute it",
+            "feedback": "Heat drives strong evaporation that keeps drawing water away, and with barely any river flowing in to replace it, the salt left behind climbs to an unusually high concentration."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Hot, dry, and cut off from rivers",
+        "ok_line": "Water leaves fast and almost nothing comes to replace it.",
+        "ko_title": "Not the cause",
+        "ko_line": "Weigh what adds fresh water against what removes it.",
+        "exp_title": "Losing water faster than it arrives",
+        "exp_text": "How salty a sea becomes depends on the balance between water added and water lost. The Red Sea sits under an intensely hot, dry climate that evaporates its surface quickly, while almost no rivers flow into it to bring fresh water back in. With water leaving far faster than it is replaced, the salt it carries becomes ever more concentrated in what remains."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does salty seawater need to drop to a lower temperature than fresh water before it freezes?",
+        "body": null,
+        "options": [
+          {
+            "label": "Salt makes the water denser, and dense water simply can't freeze",
+            "feedback": "Denser water can and does freeze; density alone isn't what blocks it. The interference comes from the salt disrupting the crystal structure, not from density."
+          },
+          {
+            "label": "Salty water is warmed by sunlight more than fresh water is",
+            "feedback": "Salt doesn't change how much sunlight water absorbs; the freezing difference is about crystal formation, not extra warming."
+          },
+          {
+            "label": "The dissolved salt ions get in the way of water molecules locking together into the orderly pattern that ice requires",
+            "feedback": "Ice forms when water molecules arrange themselves into a regular crystal lattice, and salt ions scattered among them disrupt that arrangement, so the water has to be colder still before it can lock into place."
+          },
+          {
+            "label": "Waves in salty water keep breaking up any ice before it can be measured",
+            "feedback": "The freezing point is a property of the water itself, not something waves interfere with after the fact."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Salt in the way",
+        "ok_line": "Ions block the orderly lattice that ice needs to form.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask what ice actually needs to do at the molecular level, and what's blocking it.",
+        "exp_title": "A crystal that salt keeps interrupting",
+        "exp_text": "Freezing is water molecules settling into a fixed, repeating crystal lattice. In salty water, dissolved ions sit scattered among those molecules and keep getting in the way of that orderly arrangement, so more energy has to be removed, and the temperature has to drop further, before the molecules can finally lock into ice around them."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is it easier to float in very salty water than in an ordinary swimming pool?",
+        "body": null,
+        "options": [
+          {
+            "label": "Dissolved salt adds mass to the water without adding much volume, making the water itself denser and more buoyant",
+            "feedback": "Packing extra salt into the same volume of water raises its density, and denser water pushes back harder against a floating body, so less of the body needs to sink below the surface to displace enough water to hold it up."
+          },
+          {
+            "label": "Salt makes water warmer, and warm water holds a body up better",
+            "feedback": "Temperature isn't what changes buoyancy here; it's the added density from dissolved salt."
+          },
+          {
+            "label": "Salt reduces the pull of gravity on anything floating in it",
+            "feedback": "Gravity doesn't change based on what's dissolved in nearby water; only the water's density is affected."
+          },
+          {
+            "label": "Salty water is thinner and lets a body sit lower where the current holds it up",
+            "feedback": "Salty water is not thinner — it is measurably denser than fresh water, which is exactly why it supports more weight."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Denser water pushes back harder",
+        "ok_line": "More salt packed in means more upward push.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what dissolving salt actually does to the water's density.",
+        "exp_title": "Heavier water holds more up",
+        "exp_text": "Dissolving salt into water adds mass to it while barely changing its volume, so the water becomes denser. A denser fluid exerts a stronger upward push on anything floating in it, so a body needs to displace less of it to be held at the surface, and that is why floating feels so much easier in very salty water than in fresh."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't the ocean keep getting saltier and saltier forever, given that rivers never stop delivering minerals to it?",
+        "body": null,
+        "options": [
+          {
+            "label": "The sun burns off any extra salt once the ocean reaches a certain level",
+            "feedback": "Sunlight evaporates water, not salt; it has no way to remove excess dissolved salt from the sea."
+          },
+          {
+            "label": "Rivers actually stopped adding salt to the ocean long ago",
+            "feedback": "Rivers still carry dissolved minerals to the sea continuously; the input side of the balance hasn't stopped."
+          },
+          {
+            "label": "Storms wash the extra salt back onto land",
+            "feedback": "Storms move water and spray around locally, but they don't remove a meaningful share of the ocean's dissolved salt."
+          },
+          {
+            "label": "Salt is steadily removed as well — locked into seafloor sediment and minerals nearly as fast as rivers deliver it",
+            "feedback": "Some dissolved minerals settle out of seawater and become part of the seafloor's sediment and rock over long stretches of time, and that steady removal balances the steady delivery from rivers, holding the ocean's saltiness roughly level."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "In balance, not just in",
+        "ok_line": "What arrives from rivers is roughly matched by what settles out.",
+        "ko_title": "Not the reason",
+        "ko_line": "If rivers keep adding salt, something else has to be taking it away.",
+        "exp_title": "A slow balance, not an endless build-up",
+        "exp_text": "Rivers do keep adding dissolved minerals to the sea, but the ocean is not simply filling up. Some of those minerals are drawn out of the water again, forming seafloor sediments and new mineral deposits over immense stretches of time. Because removal keeps pace with delivery, the overall saltiness of the ocean has stayed roughly steady rather than climbing without end."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the salt content of the open ocean fairly similar from one region to another, despite salt entering from so many different rivers and coastlines?",
+        "body": null,
+        "options": [
+          {
+            "label": "Every river on Earth happens to carry an identical amount of salt",
+            "feedback": "Rivers vary enormously in how much dissolved mineral they carry; the evenness of ocean salinity isn't because the inputs are identical."
+          },
+          {
+            "label": "Ocean currents and mixing spread dissolved salt across huge distances, blending local differences away",
+            "feedback": "Currents constantly carry water — and the salt within it — across entire ocean basins, and that continuous stirring evens out local differences far faster than any single river or coastline could keep them apart."
+          },
+          {
+            "label": "Salt naturally spreads itself out evenly through water without any current needed",
+            "feedback": "Left undisturbed, dissolved salt spreads only very slowly by diffusion; it is the ocean's constant motion that does the real mixing."
+          },
+          {
+            "label": "Fish redistribute salt as they migrate across the ocean",
+            "feedback": "Migrating creatures carry far too little salt in their bodies to affect the ocean's overall salinity."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Stirred, not still",
+        "ok_line": "Currents carry salt far beyond where it entered.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what keeps moving water — and everything dissolved in it — across the whole ocean.",
+        "exp_title": "Mixed by constant motion",
+        "exp_text": "Salt enters the ocean unevenly, more from some coastlines and rivers than others, yet the open sea ends up fairly uniform. Currents flowing across entire ocean basins carry water, and the salt dissolved in it, over immense distances, and that constant circulation blends away the local differences long before they could build up into large regional gaps."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the water just beneath forming sea ice in the polar oceans become saltier than the water around it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Sea ice absorbs fresh water from the air, leaving the sea beneath relatively saltier by comparison",
+            "feedback": "Ice forming doesn't pull fresh water from the air; the extra salt below comes from what the freezing process pushes out of the ice itself."
+          },
+          {
+            "label": "Fish gather beneath the ice and release salt into the water there",
+            "feedback": "Living creatures don't secrete meaningful amounts of salt; the effect comes from the physical process of freezing itself."
+          },
+          {
+            "label": "As ice crystals form, they exclude the dissolved salt, which drains into the water just below, making that water denser and saltier",
+            "feedback": "When seawater freezes, its molecules lock into an ice lattice that has almost no room for salt ions, so the salt is squeezed out into the surrounding liquid, and that rejected salt sinks as a dense, cold, extra-salty plume."
+          },
+          {
+            "label": "Sunlight reflecting off the ice heats the water below and boils off its fresh content",
+            "feedback": "Ice reflects sunlight away rather than concentrating heat beneath it, and the water below sea ice is far too cold for boiling to play any role."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Squeezed out, not left behind",
+        "ok_line": "Ice keeps the water, freezing rejects the salt.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about what freezing actually locks into place, and what it has no room for.",
+        "exp_title": "What freezing leaves behind",
+        "exp_text": "Ice is built from water molecules locked into an orderly crystal lattice, and that lattice has essentially no space for dissolved salt ions. As seawater freezes, the salt is pushed out of the forming ice and released into the water directly underneath, and because that rejected salt makes the water there denser as well as saltier, it sinks away beneath the ice as a distinct plume."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a lake with no outlet, fed only by rivers, end up saltier than the ocean itself over time?",
+        "body": null,
+        "options": [
+          {
+            "label": "With no outflow, the only way water leaves is by evaporation, which removes water but leaves every trace of incoming salt trapped inside",
+            "feedback": "Rivers keep delivering a small load of dissolved minerals with nowhere to drain away, and since evaporation removes only water, each cycle concentrates the salt left behind a little further, generation after generation."
+          },
+          {
+            "label": "Such lakes are fed by underground salt mines rather than ordinary rivers",
+            "feedback": "The rivers feeding these lakes are ordinary fresh-water rivers; the saltiness builds up through evaporation, not from an underground mineral source."
+          },
+          {
+            "label": "Lakes without an outlet receive far more rainfall than the ocean does",
+            "feedback": "Rainfall over such lakes isn't unusually heavy; what matters is that water can only leave by evaporation, not by an outflowing river."
+          },
+          {
+            "label": "The rock beneath these lakes is always naturally salty to begin with",
+            "feedback": "It's the trapping of incoming river salt over time, through repeated evaporation, that builds up the salt — not an unusually salty lakebed from the start."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Water leaves, salt stays",
+        "ok_line": "No outlet means every trace of salt that arrives is stuck for good.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what happens to the salt a river brings in when the lake has no way to drain it back out.",
+        "exp_title": "A trap with only one exit, and salt can't use it",
+        "exp_text": "An ordinary lake with an outflowing river carries dissolved salt back out almost as fast as rivers bring it in, keeping the water fresh. A lake with no outlet has no such exit: water can only leave by evaporating, and evaporation removes pure water while leaving the incoming salt behind. Cycle after cycle, that trapped salt keeps accumulating until the lake becomes far saltier than the sea that feeds ordinary oceans."
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 146,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a river drop suddenly over a waterfall instead of just getting gradually steeper?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The river picks up speed and leaps off the ground on its own",
+            "feedback": "Moving water follows the shape of the ground under it; it has no way to launch itself off a riverbed that is still sloping downward."
+          },
+          {
+            "label": "An earthquake once cracked the riverbed apart at that spot",
+            "feedback": "Most waterfalls owe nothing to earthquakes; the drop comes from an ordinary difference in how fast different rock layers wear away."
+          },
+          {
+            "label": "A layer of hard rock sits over softer rock that erodes faster beneath it",
+            "feedback": "The soft rock underneath wears away far quicker than the hard rock above it, so the hard layer is left jutting out over a hollow, with the river pouring straight off its edge."
+          },
+          {
+            "label": "The river was diverted onto a cliff by a landslide",
+            "feedback": "Most waterfalls have flowed along the same course for a very long time, wearing their drop into the rock gradually rather than being redirected onto a ready-made cliff."
+          }
+        ],
+        "ok_title": "Two rocks, two speeds",
+        "ok_line": "The drop is really just uneven erosion, made visible.",
+        "ko_title": "Not the cause",
+        "ko_line": "Ask what is different about the rock right at the point where the river drops.",
+        "exp_title": "A drop carved by two different rocks",
+        "exp_text": "Where a river crosses a layer of hard rock sitting on top of a softer layer, the current wears away at both, but the soft rock underneath gives way far faster than the hard rock above it. As the soft layer is hollowed out, the hard rock above it is left overhanging, with nothing beneath to support its outer edge. The river reaching that edge has no gentle slope left to follow and simply falls straight off it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the position of a waterfall slowly shift upstream over a very long time?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The river digs a new channel each year to avoid the old one",
+            "feedback": "A river does not abandon its channel and dig a fresh one nearby; the same fall keeps wearing at the same spot, moving gradually rather than jumping to a new course."
+          },
+          {
+            "label": "Rain gradually pushes the whole cliff backward",
+            "feedback": "Rain falling on a cliff has nowhere near enough force to move solid rock backward; the real erosion is happening at the base of the fall, driven by the river itself."
+          },
+          {
+            "label": "Trees growing on the cliff edge push the rock apart",
+            "feedback": "Tree roots can crack rock in small ways over time, but that effect is far too slow and localized to account for a cliff edge retreating steadily upstream."
+          },
+          {
+            "label": "The soft rock under the hard cap keeps eroding, and the overhang collapses",
+            "feedback": "As the current keeps hollowing out the softer rock beneath the ledge, the unsupported hard rock above eventually breaks off and falls, and the new edge left behind sits a little further upstream than before."
+          }
+        ],
+        "ok_title": "Undercut, then it breaks",
+        "ok_line": "The waterfall isn't moving so much as losing its edge, piece by piece.",
+        "ko_title": "Wrong mechanism",
+        "ko_line": "The movement happens because something underneath keeps disappearing, not because of anything above the water.",
+        "exp_title": "An edge that keeps losing its footing",
+        "exp_text": "At the base of a waterfall, the falling water and the force of its impact keep eroding the softer rock that lies beneath the hard, resistant cap forming the fall's edge. As that soft rock hollows out further and further back under the ledge, the hard rock above it is left with less and less support, until a section of it eventually breaks away and crashes down. Each time that happens, the fall's edge is left standing a short distance further upstream than it was before."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the pool at the base of a waterfall often much deeper than the riverbed elsewhere along the same river?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Falling water and swirling stones grind out a deep hollow",
+            "feedback": "Water dropping from a height hits the bottom with far more force than a gently flowing current ever does, and any stones caught in that turbulence get spun around and scoured against the rock, digging the hollow deeper over time."
+          },
+          {
+            "label": "The pool was already there before the waterfall formed",
+            "feedback": "In most cases the plunge pool forms after the waterfall, carved out specifically by the falling water; it is a result of the fall, not something the fall simply found already there."
+          },
+          {
+            "label": "Fish dig out the pool by feeding on the riverbed",
+            "feedback": "Feeding fish disturb only the loose surface of a riverbed; they have no way to carve solid rock into a deep basin."
+          },
+          {
+            "label": "Cold air trapped at the base of the falls dissolves the rock",
+            "feedback": "Air, cold or otherwise, does not dissolve solid rock; whatever is deepening this pool has to be something with physical force behind it."
+          }
+        ],
+        "ok_title": "Scoured out from above",
+        "ok_line": "The fall isn't just dropping water into that pool, it's grinding it deeper.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about the extra force a waterfall brings that an ordinary stretch of river doesn't have.",
+        "exp_title": "A hollow ground out by the fall itself",
+        "exp_text": "Water dropping from height strikes the riverbed below with far more force than the same water would apply while simply flowing along a level stretch. Any stones and gravel swept over the edge along with it get caught in the churning water at the base and are spun and dragged against the rock beneath, acting like an abrasive tool driven by the falling current. Repeated endlessly, that grinding action carves out a basin distinctly deeper than the ordinary riverbed upstream or downstream of the fall."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a fine mist often hang in the air at the base of a large waterfall?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The waterfall's water is warmer than the surrounding air",
+            "feedback": "The temperature of the water is not what produces mist here; falling water striking rock does the same thing whether the water is warm or cold."
+          },
+          {
+            "label": "Falling water shatters into fine droplets on impact",
+            "feedback": "Hitting the rocks and pool below at speed breaks the falling water apart into countless tiny droplets, and droplets that small are light enough to be carried up and hang suspended in the air rather than falling straight through it."
+          },
+          {
+            "label": "Clouds are drawn down toward the waterfall by its noise",
+            "feedback": "Sound has no pull on clouds or moisture in the air; nothing about a waterfall's noise draws anything downward."
+          },
+          {
+            "label": "The rocks at the base release trapped water vapour",
+            "feedback": "Solid rock does not store or release water vapour in any meaningful amount; the mist is made entirely of the river's own water, broken apart in the fall."
+          }
+        ],
+        "ok_title": "Water broken into a cloud",
+        "ok_line": "The mist is the waterfall itself, just in much smaller pieces.",
+        "ko_title": "Not the source",
+        "ko_line": "Ask what physically happens to a stream of water the instant it slams into rock at speed.",
+        "exp_title": "A fall that turns itself into mist",
+        "exp_text": "Water plunging from a height gathers considerable speed before it reaches the bottom, and striking rock or a churning pool at that speed shatters the falling stream apart into countless tiny droplets. Droplets that small are light enough for the surrounding air currents to catch and lift, rather than simply plummeting through to the ground. Suspended and drifting on those currents, the shattered water hangs in the air around the base of the fall as a fine, drifting mist."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a rainbow often be seen hovering in the spray at the base of a waterfall on a sunny day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The waterfall's spray is naturally coloured by minerals",
+            "feedback": "Ordinary water spray carries no colour of its own; the colours a viewer sees are added by something happening to the light, not by anything dissolved in the water."
+          },
+          {
+            "label": "Sunlight reflects off the wet rocks in a spread of colours",
+            "feedback": "Wet rock reflects light much like dry rock does, without splitting it into separate colours; a rainbow needs something the light can pass through, not just something it bounces off."
+          },
+          {
+            "label": "Sunlight bends and splits apart as it passes through the droplets",
+            "feedback": "Each tiny droplet of spray acts like a small prism, bending the sunlight passing through it by a slightly different amount depending on colour, and that spreads white light out into the same band of colours every raindrop produces."
+          },
+          {
+            "label": "The cold air near the falls changes how colours appear",
+            "feedback": "Cold air on its own does not alter the colours of light passing through it; the splitting effect comes from the water droplets, not the temperature of the air around them."
+          }
+        ],
+        "ok_title": "The same trick as a rainbow after rain",
+        "ok_line": "A waterfall's spray does exactly what a raindrop does, just constantly and close to the ground.",
+        "ko_title": "Wrong ingredient",
+        "ko_line": "The colours come from what the sunlight is passing through, not what it's bouncing off or how cold the air is.",
+        "exp_title": "The same bending, every single droplet",
+        "exp_text": "Sunlight looks white, but it is really made of every colour blended together, and each colour bends by a very slightly different amount whenever it passes from air into water and back out again. A cloud of fine spray hanging in the air near a waterfall is full of tiny droplets doing exactly that, each one splitting the sunlight passing through it into that same familiar spread of colours. Standing at the right angle to catch the light bent back this way, a viewer sees the split colours line up into an arc, hovering in the mist rather than falling with the rain."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the base of a large waterfall often sound far louder than a calm stretch of the same river?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The rock walls around the falls amplify the river's normal sound",
+            "feedback": "Rock nearby can reflect and slightly amplify sound, but a calm stretch of the same river makes almost no sound to amplify in the first place; something is generating far more noise here to begin with."
+          },
+          {
+            "label": "Falling water travels faster than the speed of sound",
+            "feedback": "Falling water, however fast, never approaches anywhere close to the speed of sound; that comparison plays no part in why a waterfall is loud."
+          },
+          {
+            "label": "Birds and animals gather near waterfalls and add to the noise",
+            "feedback": "Wildlife noise near a waterfall is far too faint compared with the roar of the water itself to account for the difference in loudness."
+          },
+          {
+            "label": "Turbulent water traps and bursts countless tiny air bubbles",
+            "feedback": "Water crashing violently into the pool below drags in huge numbers of tiny air bubbles, and each one collapsing or bursting apart releases a small burst of sound, which together add up to a constant roar."
+          }
+        ],
+        "ok_title": "Countless small bursts, added together",
+        "ok_line": "The roar isn't the water hitting the pool, it's the air trapped inside doing that.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what's happening inside the churning water itself, not around it.",
+        "exp_title": "A roar made of countless small bursts",
+        "exp_text": "A calm stretch of river moves smoothly enough that almost no air gets mixed into the water, so it makes very little sound. Water crashing down at the base of a waterfall, by contrast, churns violently enough to trap huge numbers of tiny air bubbles beneath the surface, and each of those bubbles collapsing or bursting apart releases a small, sharp pulse of sound. Multiplied across the countless bubbles being formed and destroyed every second in the turbulence, those tiny pulses blend together into the steady roar heard from a distance."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some waterfalls partly freeze into towering columns of ice in winter, while water can still be heard or seen flowing behind the ice?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Spray freezes on contact with cold air, building an outer shell",
+            "feedback": "Fine droplets thrown off by the falling water have almost no heat to lose before they freeze, so they turn to ice quickly on any surface they land on, layer after layer, while the larger mass of water still flowing down the middle carries too much heat to freeze that fast."
+          },
+          {
+            "label": "The whole waterfall turns to ice from the bottom upward",
+            "feedback": "Ice does not build from the bottom of a falling waterfall upward; it forms first on the outer edges and slower-moving spray, where the water loses heat fastest, then thickens inward and downward over time."
+          },
+          {
+            "label": "The river's minerals cause it to freeze at a higher temperature",
+            "feedback": "Dissolved minerals in ordinary river water make almost no difference to its freezing point; the reason part of the fall freezes while water still flows is about exposure and speed, not chemistry."
+          },
+          {
+            "label": "Sunlight reflecting off snow keeps part of the fall from freezing",
+            "feedback": "Reflected sunlight in winter carries very little warmth, nowhere near enough to keep flowing water from freezing on its own; the moving core of the fall stays liquid for a different reason."
+          }
+        ],
+        "ok_title": "Two speeds of freezing",
+        "ok_line": "The spray freezes fast because it has almost nothing left to lose. The main flow doesn't, because it still has plenty.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Ask why the outer edges of a falling stream would cool faster than the thick moving centre of it.",
+        "exp_title": "Ice built from the outside in",
+        "exp_text": "As a waterfall drops, spray and thin sheets of water spread out around its edges, and that thinly spread water has very little heat stored in it, so freezing air can chill it to ice almost immediately on contact. Each freezing layer builds outward from the rock and from the last layer of ice, gradually thickening into a shell around the falls. The thick core of water still pouring down the middle carries far more stored heat for its size and moves too quickly for the cold air to freeze it before it reaches the bottom, so it keeps flowing, hidden inside the ice building up around it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the water at the very top of a waterfall often look glassy and smooth, just before it drops?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The current slows down right before the edge",
+            "feedback": "The current actually speeds up rather than slowing as it nears the edge; a slowing current would look rougher and more sluggish, not smoother."
+          },
+          {
+            "label": "The water briefly loses contact and friction with the riverbed",
+            "feedback": "As the bed drops away beneath the flow, the water is no longer dragging against a rough surface, and without that friction disturbing it, the surface smooths out into an unbroken sheet."
+          },
+          {
+            "label": "Minerals in the water form a thin glassy film",
+            "feedback": "Ordinary river water carries far too little dissolved mineral to form any kind of visible film on its surface."
+          },
+          {
+            "label": "Sunlight reflecting off the falls creates the smooth appearance",
+            "feedback": "Light reflecting off water can make it look bright, but it does not change the actual shape or texture of the water's surface, which is what a smooth, glassy look really comes from."
+          }
+        ],
+        "ok_title": "Smooth because nothing's dragging on it",
+        "ok_line": "For a moment, the water is falling freely rather than rubbing against anything.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what's normally roughing up a river's surface, and what happens to that right at the edge.",
+        "exp_title": "A surface smoothed by losing its friction",
+        "exp_text": "Along most of a riverbed, friction between the moving water and the rough surface beneath it stirs up small ripples and turbulence across the water's surface. Right where the riverbed drops away into the fall, the water is briefly moving without anything underneath it to drag against, so that source of turbulence disappears for a moment. Freed from that friction, the flow smooths itself out into the glassy, unbroken sheet visible just before it plunges over the edge."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do some waterfalls have a hollow, cave-like space behind the curtain of falling water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The falling water carves a cave directly out of the hard rock",
+            "feedback": "The falling water strikes mainly the softer rock at the base, not the hard rock forming the ledge above; the hard rock is what is left standing, not what gets carved into a cave."
+          },
+          {
+            "label": "Underground streams meet the waterfall and hollow out a chamber",
+            "feedback": "Most such hollows form without any separate underground stream involved; the falling water itself, working on the softer rock beneath the ledge, is doing the excavating."
+          },
+          {
+            "label": "The softer rock beneath the hard ledge erodes back further",
+            "feedback": "As the current keeps wearing away the weaker rock underneath, it hollows out a recess that reaches further back than the hard rock above, which is tough enough to remain standing as a kind of roof over the empty space."
+          },
+          {
+            "label": "Bats and other animals dig out the space over generations",
+            "feedback": "Animals may later use a hollow like this once it exists, but nothing they do is capable of excavating solid rock in the first place."
+          }
+        ],
+        "ok_title": "A roof that outlasted its floor",
+        "ok_line": "The hard rock didn't get carved into a cave, it's what's left after everything softer around it was.",
+        "ko_title": "Not quite the process",
+        "ko_line": "The same soft-rock, hard-rock split that makes the waterfall itself also explains the hollow behind it.",
+        "exp_title": "A hollow behind a rock that refused to erode",
+        "exp_text": "The same layer of soft rock that erodes quickly beneath a waterfall's hard cap does not stop wearing away once the fall itself has formed; the current striking the base keeps hollowing it out further and further back. Because the hard rock forming the ledge above resists that same erosion, it stays standing well after the softer rock beneath it has been worn well back, leaving a gap between the falling water and the rock behind it. That gap, roofed by the resistant ledge and floored by whatever soft rock is left, is the hollow space a visitor can sometimes walk into behind the falling curtain."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't a waterfall stop the moment rain stops falling in the area around it?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Waterfalls store their own reserve of water behind the falls",
+            "feedback": "A waterfall itself has no storage of its own; it simply passes along whatever water the river above it is currently carrying."
+          },
+          {
+            "label": "The rock at the top of the falls slowly releases trapped water",
+            "feedback": "Solid rock at the edge of a fall holds no meaningful reserve of water to release; the flow depends entirely on what the river upstream is delivering."
+          },
+          {
+            "label": "Waterfalls are fed directly by underground rivers, not rainfall",
+            "feedback": "Very few waterfalls are fed primarily by a separate underground river; most simply carry the same water flowing in the river above them."
+          },
+          {
+            "label": "The whole river catchment upstream keeps releasing stored water",
+            "feedback": "Rain that fell days or weeks earlier is still making its way down through soil, streams and tributaries across the wider area the river drains, so water keeps arriving at the falls long after the rain itself has stopped."
+          }
+        ],
+        "ok_title": "Still arriving from everywhere upstream",
+        "ok_line": "The rain that's feeding the falls right now fell somewhere else, a while ago.",
+        "ko_title": "Wrong reservoir",
+        "ko_line": "The falls have no reserve of their own; the water still coming has to be arriving from further away.",
+        "exp_title": "Fed by an entire catchment, not just today's rain",
+        "exp_text": "A waterfall is simply the point where a river happens to drop; whatever water reaches it is whatever the whole river, and everything feeding that river, is currently carrying. Rain falling across a wide catchment does not reach the river all at once; some of it takes days or weeks to travel through soil, streams and smaller tributaries before adding to the main flow. Water keeps arriving at the falls from those slower routes long after the rain that produced it has already stopped falling."
+      }
+    ]
+  }
+]

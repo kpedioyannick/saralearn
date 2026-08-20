@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 190,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Polaris, the pole star, appear to stay almost motionless while every other star wheels around it overnight?",
+        "body": null,
+        "options": [
+          {
+            "label": "It sits almost exactly above the point Earth's axis of rotation aims at",
+            "feedback": "As Earth spins on that axis, the point in the sky the axis points toward barely appears to move at all, and Polaris happens to sit right near it."
+          },
+          {
+            "label": "It is not actually a star, so it does not share their motion",
+            "feedback": "Polaris is a genuine star like the others; what sets it apart from them is only its position, not its nature."
+          },
+          {
+            "label": "It is far closer to Earth than the other stars",
+            "feedback": "Polaris is not unusually close to Earth. Its steadiness has nothing to do with distance and everything to do with where it sits relative to Earth's axis."
+          },
+          {
+            "label": "It does not spin along with the rest of the sky",
+            "feedback": "Polaris appears to move only a tiny amount, but strictly speaking even it traces a very small circle; it is not perfectly and completely motionless."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right cause",
+        "ok_line": "It sits almost exactly where Earth's axis points, so Earth's spin barely shifts it.",
+        "ko_title": "Think about the axis",
+        "ko_line": "Every star's overnight motion comes from Earth spinning on its axis. Where in the sky would that spinning barely move anything at all?",
+        "exp_title": "Sitting near the one point that barely moves",
+        "exp_text": "As Earth spins on its axis, every star appears to trace a circle around the point that axis is aimed at in the sky, and stars far from that point sweep wide arcs overnight. Polaris happens to sit almost exactly on that point itself, so the circle it traces is tiny enough to look, to the eye, like it is simply standing still while everything else wheels around it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why isn't Polaris the brightest star in the sky, despite being so useful for finding direction?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its usefulness comes from its fixed position, not from how much light it gives off",
+            "feedback": "What makes Polaris valuable is that it barely moves relative to the horizon, a property that has nothing to do with how bright it happens to look."
+          },
+          {
+            "label": "Brightness fades the longer a star is used for navigation",
+            "feedback": "Using a star to find direction does not affect its physical brightness in any way; a star's light output is unrelated to how people happen to use it."
+          },
+          {
+            "label": "It only appears dim because it never moves",
+            "feedback": "Staying still in the sky changes nothing about how much light actually reaches the eye; brightness and steadiness are separate properties."
+          },
+          {
+            "label": "Every star used for navigation must be exceptionally faint",
+            "feedback": "There is no rule linking usefulness for navigation to faintness; Polaris happens to be moderately bright, and that has never been the reason it works for this purpose."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right idea",
+        "ok_line": "Position, not brightness, is doing the useful work here.",
+        "ko_title": "Separate properties",
+        "ko_line": "What actually makes a star useful for finding direction, and does that have anything to do with brightness?",
+        "exp_title": "Useful for where it sits, not for how it shines",
+        "exp_text": "What makes a star valuable for finding direction is whether it holds a fixed spot in the sky night after night, and that depends entirely on how close it sits to the point Earth's axis points toward, not on how much light it gives off. Polaris happens to be only moderately bright, but because it sits so close to that fixed point, its steady position is what makes it useful, regardless of how it compares to brighter stars elsewhere in the sky."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the height of Polaris above the horizon tell an observer their latitude on Earth?",
+        "body": null,
+        "options": [
+          {
+            "label": "The angle between the horizon and Polaris matches the observer's angular distance from the equator",
+            "feedback": "That angle changes purely with how far north the observer stands, so measuring it directly gives the observer their own latitude."
+          },
+          {
+            "label": "Polaris physically moves higher in the sky as someone travels north",
+            "feedback": "Polaris itself is not moving; it is the observer's own position on Earth's curved surface that changes the angle at which they see it."
+          },
+          {
+            "label": "Polaris is only visible from certain latitudes at all",
+            "feedback": "Polaris can be seen from a wide range of northern latitudes; the reason it works for locating yourself isn't visibility at a single spot, but the way its height changes smoothly from place to place."
+          },
+          {
+            "label": "The horizon itself tilts depending on the season",
+            "feedback": "The horizon's angle relative to Polaris depends on the observer's latitude, not on the time of year; the same spot sees roughly the same height for Polaris in every season."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right geometry",
+        "ok_line": "The angle up to Polaris and the observer's distance from the equator are the same number.",
+        "ko_title": "Think about the geometry",
+        "ko_line": "Nothing about Polaris itself is changing here. What does change is the angle of the horizon beneath it, depending on where on Earth's curved surface you stand.",
+        "exp_title": "A built-in angle reader",
+        "exp_text": "Because Polaris sits almost exactly along the direction of Earth's axis, the angle between the horizon and Polaris, as seen by any observer, works out to equal that observer's own angular distance north of the equator. Someone standing at the equator sees Polaris sitting right at the horizon, while someone much farther north sees it much higher overhead, and that single angle is enough to read off their latitude directly."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Polaris disappear below the horizon once a traveller crosses far enough south, into the Southern Hemisphere?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's curvature blocks the direction toward the northern celestial pole once you're far enough south",
+            "feedback": "Past a certain point south of the equator, the bulk of Earth itself sits between the observer and the direction Polaris lies in, hiding it below the horizon entirely."
+          },
+          {
+            "label": "Polaris only shines during certain months of the year",
+            "feedback": "Polaris shines continuously; whether it can be seen at all from a given spot depends on latitude, not on the time of year."
+          },
+          {
+            "label": "Polaris moves to a different part of the sky south of the equator",
+            "feedback": "Polaris does not relocate anywhere; it is the observer's own changing position on Earth's curved surface that shifts what part of the sky is visible."
+          },
+          {
+            "label": "The southern sky is naturally too bright for it to be seen",
+            "feedback": "Sky brightness is not what removes Polaris from view; it is the geometry of standing on the far side of Earth's curve from that direction in space."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right cause",
+        "ok_line": "Far enough south, and Earth's own bulk gets in the way of that direction entirely.",
+        "ko_title": "Think about Earth's shape",
+        "ko_line": "Nothing changes about Polaris itself when someone crosses the equator. What does change about their view of the sky, standing on a curved planet?",
+        "exp_title": "Blocked by the planet itself",
+        "exp_text": "Polaris sits in a fixed direction relative to Earth's axis, and how much of the sky around that direction an observer can see depends on where they stand on Earth's curved surface. Travel far enough south of the equator and the direction toward Polaris ends up behind the curve of the planet from the observer's point of view, so Earth's own bulk blocks the view of it entirely, while the opposite pole of the sky rises into view instead."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is there no bright star as reliably useful for finding south as Polaris is for finding north?",
+        "body": null,
+        "options": [
+          {
+            "label": "No conveniently bright star happens to sit close to the southern celestial pole",
+            "feedback": "Whether a bright star sits near the point an axis aims at is simply a matter of chance, and near the southern pole, nothing very bright happens to be positioned there right now."
+          },
+          {
+            "label": "The southern half of the sky does not rotate the way the northern half does",
+            "feedback": "Both halves of the sky rotate the same way, around the two opposite points where Earth's axis aims; the difference here is only which stars happen to sit near each point."
+          },
+          {
+            "label": "Southern stars are permanently dimmer than northern ones",
+            "feedback": "Star brightness has nothing to do with which hemisphere of the sky a star sits in; the real issue is simply that no bright star happens to line up near the southern pole point."
+          },
+          {
+            "label": "Finding south is not actually possible using stars",
+            "feedback": "Careful observers can still work out south using patterns of stars in the southern sky; what is missing is only a single bright star sitting conveniently on the pole point itself, the way Polaris does in the north."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right reason",
+        "ok_line": "It comes down to chance — no bright star happens to sit near that particular point.",
+        "ko_title": "A coincidence, not a rule",
+        "ko_line": "Ask whether a bright star sitting near an axis point is guaranteed by anything, or whether it just happens to be true in the north.",
+        "exp_title": "A coincidence that only worked out once",
+        "exp_text": "A star being useful this way depends entirely on the coincidence of a bright star happening to sit close to the point an axis aims at in the sky, and there is no reason that should happen at both ends. Near the northern celestial pole, Polaris happens to sit close enough and shine brightly enough to serve the purpose, but near the southern celestial pole, no comparably bright star happens to sit in a similarly convenient spot."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why won't Polaris always remain the pole star, even thousands of years from now?",
+        "body": null,
+        "options": [
+          {
+            "label": "Earth's axis itself slowly wobbles over thousands of years, tracing a large circle and pointing elsewhere over time",
+            "feedback": "As that wobble slowly drags the axis's direction around a wide circle in the sky, it eventually points toward other stars entirely, and Polaris loses its special position."
+          },
+          {
+            "label": "Polaris is slowly moving away from Earth's line of sight",
+            "feedback": "Polaris does have its own motion through space, but it is not that motion which unseats it as the pole star; it is Earth's own axis changing direction."
+          },
+          {
+            "label": "The Earth's rotation is gradually slowing to a stop",
+            "feedback": "A change in rotation speed would not shift which direction the axis points; the wobble that matters here is the axis slowly sweeping around, not slowing down."
+          },
+          {
+            "label": "New stars keep forming closer to the pole point every century",
+            "feedback": "Star formation on that kind of timescale is far too rare and unpredictable to explain this; the shift is caused by the axis's own direction slowly changing, not by new stars appearing."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right mechanism",
+        "ok_line": "The axis itself is slowly sweeping around, dragging the pole point away from Polaris over time.",
+        "ko_title": "Think about the axis, not the star",
+        "ko_line": "Polaris only holds its role because of where Earth's axis happens to point right now. What if the axis itself doesn't point the same way forever?",
+        "exp_title": "A wobbling axis, not a fixed target",
+        "exp_text": "Earth's axis does not point in a perfectly fixed direction forever; like a slowly spinning top, it wobbles gradually, tracing a wide circle across the sky over thousands of years. As that circle carries the axis's direction away from where Polaris sits, other stars along the same circle will each take a turn being the star nearest the pole, so Polaris holds this role only for as long as the wobbling axis happens to point its way."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do stars near Polaris trace only small circles overnight, while stars far from it sweep huge arcs across the sky?",
+        "body": null,
+        "options": [
+          {
+            "label": "The radius of each star's circle grows with how far it sits from the axis point Polaris marks",
+            "feedback": "A star sitting very close to that fixed point only has to swing a short distance to complete its circle, while one much farther away has to sweep a far wider path."
+          },
+          {
+            "label": "Stars near Polaris move through space more slowly than other stars",
+            "feedback": "How fast a star truly travels through space has nothing to do with the size of the circle it appears to trace overnight; that circle's size depends only on how close the star sits to the axis point."
+          },
+          {
+            "label": "Distant stars are dragged along faster by Earth's spin",
+            "feedback": "Earth's spin carries the whole sky around at the very same rate for every star; what differs between stars is only how large a circle that shared rate produces."
+          },
+          {
+            "label": "Stars far from Polaris are not actually going in circles at all",
+            "feedback": "Every star traces a circle around the axis point over the course of a full rotation; stars far from Polaris simply trace a much larger one, not some other kind of path."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right relationship",
+        "ok_line": "Closer to the axis point means a smaller circle; farther away means a wider one.",
+        "ko_title": "Think about distance from the axis point",
+        "ko_line": "Every star circles the very same fixed point at the very same rate. What decides how large each individual circle turns out to be?",
+        "exp_title": "Same spin, different radius",
+        "exp_text": "Every star in the sky circles the same fixed point, near Polaris, once for each full turn Earth makes on its axis, and all of them complete that circle in the same amount of time. What differs from star to star is simply how far each one sits from that central point: a star close to it only has a short distance to sweep to complete its circle, while a star much farther away has to travel a far greater distance to get all the way around in that same time."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Polaris look almost perfectly fixed rather than tracing a visible circle of its own, even though it is not exactly on the axis point itself?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its small offset from the true pole traces a circle so tiny it is barely noticeable to the eye",
+            "feedback": "Being that close to the exact axis point still leaves Polaris with some motion, but the circle is so small that, without careful measurement, it looks like no motion at all."
+          },
+          {
+            "label": "Polaris sits exactly, precisely on the axis point with zero offset",
+            "feedback": "Polaris sits very close to the axis point but not perfectly on it; that small remaining offset is what keeps it from being absolutely stationary, even if the resulting motion is hard to notice."
+          },
+          {
+            "label": "Its own true motion through space happens to exactly cancel Earth's spin",
+            "feedback": "A star's own motion through space and Earth's spin are two completely unrelated things; nothing about Polaris's true motion is cancelling anything caused by Earth turning."
+          },
+          {
+            "label": "Earth's spin does not affect stars that are especially far away",
+            "feedback": "Earth's spin makes every star appear to circle the axis point, regardless of how far away that star truly is; distance is not what explains Polaris's steadiness here."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right nuance",
+        "ok_line": "Close to the true pole, not on it — so the circle it traces is real, just too small to catch by eye.",
+        "ko_title": "Not perfectly exact",
+        "ko_line": "Polaris sits very near the axis point, but \"near\" is not quite the same as \"exactly on it.\"",
+        "exp_title": "A tiny circle mistaken for a dot",
+        "exp_text": "Polaris sits close to, but not exactly on, the point in the sky that Earth's axis points toward, so like every other star it does trace a circle around that point as Earth spins. Because its offset from the true pole is so small, though, the circle it traces is tiny compared with the wide arcs traced by stars farther away, and to the unaided eye watching over a single night, that tiny circle is easy to mistake for no motion at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does Polaris always indicate the same compass direction, true north, whether an observer stands near the equator or much farther north, even though its height above the horizon changes between the two?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its direction relative to Earth's axis is fixed everywhere north of the equator, even though the viewing angle differs",
+            "feedback": "Wherever an observer stands north of the equator, the direction toward Polaris always aligns with true north; only the angle at which they look up to see it, its height, changes with their own latitude."
+          },
+          {
+            "label": "Its compass direction shifts gradually the farther north an observer travels",
+            "feedback": "It is the height of Polaris above the horizon that changes with latitude, not the compass direction it points toward, which stays fixed at true north throughout the Northern Hemisphere."
+          },
+          {
+            "label": "Compasses and Polaris happen to always agree by coincidence",
+            "feedback": "The agreement is not coincidental; both are pointing toward directions tied to Earth's own axis of rotation, which is exactly why they line up so consistently."
+          },
+          {
+            "label": "Only observers standing at the North Pole can use Polaris for direction",
+            "feedback": "Polaris indicates true north for any observer across the entire Northern Hemisphere, not only at the North Pole itself; what changes with location is simply how high it appears, not whether it still marks north."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right distinction",
+        "ok_line": "Direction stays fixed everywhere north of the equator; only the height in the sky changes with latitude.",
+        "ko_title": "Separate two things",
+        "ko_line": "Height above the horizon and compass direction are two different measurements. Which one of them is tied to an observer's own latitude?",
+        "exp_title": "One fixed direction, one changing height",
+        "exp_text": "Polaris sits along the direction of Earth's axis, and that direction relative to the ground stays the same compass bearing, true north, no matter where north of the equator an observer stands. What does change with the observer's own latitude is only how high above the horizon they have to look to find it, since that angle depends on their distance from the equator, while the direction itself never shifts."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Does Polaris itself stay exactly unchanging as a star, given that its role is to mark a fixed point in the sky?",
+        "body": null,
+        "options": [
+          {
+            "label": "No, its actual light output slowly rises and falls in a repeating cycle even as its position holds steady",
+            "feedback": "That repeating brightening and dimming makes Polaris what's called a pulsating variable star; the part of it that stays fixed is only its direction in the sky, not its physical state."
+          },
+          {
+            "label": "Yes, every property of Polaris is completely constant",
+            "feedback": "Only its position relative to Earth's axis stays essentially fixed; other properties of the star, like the amount of light it gives off moment to moment, are not frozen at all."
+          },
+          {
+            "label": "Yes, because a star used for navigation cannot also be changing",
+            "feedback": "Nothing about being useful for finding direction requires a star to be unchanging in every other way; those are two entirely separate properties of the star."
+          },
+          {
+            "label": "No, because it is slowly cooling down and will soon stop shining",
+            "feedback": "Polaris is not on the verge of going out; the change that is well established about it is a small, repeating rise and fall in brightness, not a steady fade toward darkness."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right answer",
+        "ok_line": "Fixed in direction, but not frozen as a star — its light genuinely pulses over time.",
+        "ko_title": "Position is not the whole story",
+        "ko_line": "What stays fixed about Polaris is only where it sits in the sky. Does that mean nothing else about it is changing?",
+        "exp_title": "Steady in direction, restless in brightness",
+        "exp_text": "Polaris holding a fixed spot in the sky is only a statement about its position relative to Earth's axis; it says nothing about the star's own physical behaviour. Left to itself, Polaris slightly swells and shrinks in a repeating cycle, and its brightness rises and falls along with that cycle, making it a genuine pulsating variable star even while the direction it marks in our sky stays reliably fixed."
+      }
+    ]
+  }
+]

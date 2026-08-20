@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 255,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How does a signal travel along the length of a single neuron?",
+        "body": null,
+        "options": [
+          {
+            "label": "As a chemical carried in the blood",
+            "feedback": "That is how hormones travel to distant organs, not how a nerve fibre fires within milliseconds."
+          },
+          {
+            "label": "As a wave of sound",
+            "feedback": "Sound needs a vibrating medium to carry it. Nothing inside a neuron vibrates to pass a message along."
+          },
+          {
+            "label": "As a travelling electrical impulse",
+            "feedback": "A reversal of charge runs down the fibre from one end to the other."
+          },
+          {
+            "label": "As a beam of light",
+            "feedback": "Nothing in the fibre generates or channels light. The signal is electrical, not optical."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Exactly right",
+        "ok_line": "A pulse of charge racing down the fibre.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about what actually moves inside a nerve fibre.",
+        "exp_title": "A travelling electrical pulse",
+        "exp_text": "A resting neuron keeps its inside slightly negative compared with the fluid outside, held there by pumps that shuffle charged particles across its membrane. When the neuron is triggered, tiny gates in the membrane snap open and let charged particles rush in, flipping that patch of membrane positive for an instant. That flip triggers the neighbouring patch to flip too, and the reversal runs down the fibre from one patch to the next like a line of falling dominoes."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does one neuron pass its message on to the next neuron?",
+        "body": null,
+        "options": [
+          {
+            "label": "The two neurons fuse together",
+            "feedback": "Neurons stay separate cells. If they fused, a signal would spread everywhere at once instead of following a path."
+          },
+          {
+            "label": "A chemical crosses the tiny gap between them",
+            "feedback": "A messenger released by the first neuron drifts across the gap and locks onto the second."
+          },
+          {
+            "label": "The electrical pulse jumps straight across the gap",
+            "feedback": "For most connections the pulse cannot leap open space; it has to be converted into a chemical signal first."
+          },
+          {
+            "label": "The first neuron's whole cell body moves next to the second",
+            "feedback": "Neurons stay fixed in place. Only a chemical messenger makes the short trip across the gap."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Exactly",
+        "ok_line": "A chemical courier crossing a narrow gap.",
+        "ko_title": "Not the electrical route",
+        "ko_line": "Ask what actually crosses the gap between two neurons.",
+        "exp_title": "A gap crossed by chemistry, not electricity",
+        "exp_text": "Two neurons never quite touch; a narrow gap called a synapse separates them. When the electrical pulse reaches the end of the first neuron, it triggers tiny sacs to burst open and spill a chemical messenger into that gap. The messenger drifts across and locks onto matching receptors on the second neuron, and only then does the electrical signal start up again on the other side."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a fatty coating around some nerve fibres make their signals travel faster?",
+        "body": null,
+        "options": [
+          {
+            "label": "It insulates the fibre so the signal jumps between gaps instead of crawling along every point",
+            "feedback": "The pulse leaps from one bare gap in the coating to the next rather than rebuilding itself continuously."
+          },
+          {
+            "label": "It thickens the fibre so more signal fits inside",
+            "feedback": "Width isn't the reason for the speed gain here; the coating changes how the signal has to travel, not how much fits."
+          },
+          {
+            "label": "It cools the fibre, and cool wires conduct better",
+            "feedback": "Temperature isn't the mechanism at play. Body temperature stays about the same all along the fibre."
+          },
+          {
+            "label": "It feeds the fibre extra energy for the trip",
+            "feedback": "The coating doesn't supply fuel. It changes the route the signal is forced to take."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "That's the trick",
+        "ok_line": "Insulation turns crawling into leaping.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Think about how the signal is forced to travel, not what it's made of.",
+        "exp_title": "Skipping instead of crawling",
+        "exp_text": "A bare nerve fibre has to regenerate its electrical pulse at every point along its length, which takes time. Wrapping a fatty sheath around long stretches of the fibre blocks the pulse from leaking out there, leaving only small gaps in the wrapping where the signal can actually restart. The pulse then leaps from gap to gap instead of rebuilding itself continuously, and leaping covers ground that crawling never could."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the brain need a steady, uninterrupted supply of blood to keep working?",
+        "body": null,
+        "options": [
+          {
+            "label": "It stores fuel for emergencies, so blood flow is only a backup",
+            "feedback": "The brain actually keeps very little fuel of its own stored. That is exactly why a break in supply matters so much."
+          },
+          {
+            "label": "It uses blood mainly to stay warm",
+            "feedback": "Temperature regulation isn't the main job of that blood flow. It delivers fuel and oxygen for firing neurons."
+          },
+          {
+            "label": "Blood carries used signals away for disposal",
+            "feedback": "Blood does clear some waste, but the more urgent job is delivering what constantly active neurons burn through."
+          },
+          {
+            "label": "Firing neurons constantly burn fuel and oxygen that must be resupplied without pause",
+            "feedback": "Neurons spend fuel resetting themselves after every signal, and they hold almost no reserve of their own."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Exactly",
+        "ok_line": "A furnace that never gets to rest.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask what firing neurons are constantly spending, and how little of it is stored.",
+        "exp_title": "A furnace with almost no fuel tank",
+        "exp_text": "Every time a neuron fires, it has to pump the charged particles that leaked across its membrane back to where they started before it can fire again. That pumping burns fuel constantly, and the brain keeps only a thin reserve of its own, nothing like a muscle's store. So the blood supply has to keep arriving without a break, because any pause starts to starve neurons that were already running on empty."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does damage to the left side of the brain often affect movement on the right side of the body?",
+        "body": null,
+        "options": [
+          {
+            "label": "Nerve fibres cross over from one side to the other on their way down",
+            "feedback": "The pathways carrying movement commands switch sides near the base of the brain."
+          },
+          {
+            "label": "The right side of the body is controlled by copies stored on both sides",
+            "feedback": "Each side of the body mainly answers to one side of the brain, not to a shared copy on both."
+          },
+          {
+            "label": "Blood flows diagonally from left to right inside the skull",
+            "feedback": "Blood vessels don't cross the body that way. The crossing happens in the nerve pathways, not in the blood supply."
+          },
+          {
+            "label": "The right side of the body is simply the stronger side",
+            "feedback": "Strength differences between the two sides of the body have nothing to do with which side of the brain controls them."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Crossed wiring",
+        "ok_line": "The command switches sides on its way down.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about where the pathways cross, not about strength or blood flow.",
+        "exp_title": "A wiring plan that swaps sides",
+        "exp_text": "The bundles of nerve fibres that carry movement commands from the brain travel down through the neck, and near the base of the brain most of those fibres cross over to the opposite side. From there downward, the fibres that started on the left continue their journey down the right side of the spinal cord, and the reverse happens for fibres that started on the right. A command formed on the left ends up moving muscles on the right, because the wiring switched sides on the way down."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What job does the thick bundle of fibres connecting the brain's two hemispheres do?",
+        "body": null,
+        "options": [
+          {
+            "label": "It stores long-term memories",
+            "feedback": "Memory storage is handled elsewhere, spread through the outer layer of the brain, not in this connecting bundle."
+          },
+          {
+            "label": "It filters out sounds the brain doesn't need",
+            "feedback": "Sound filtering happens along the hearing pathways, not in this structure joining the two hemispheres."
+          },
+          {
+            "label": "It lets the two hemispheres constantly share information with each other",
+            "feedback": "A dense cable of fibres links the two sides directly, so signals can cross between them continuously."
+          },
+          {
+            "label": "It controls breathing and heartbeat",
+            "feedback": "Those automatic functions are run by a lower structure near the top of the spinal cord, not by this bundle."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A constant bridge",
+        "ok_line": "Two halves, talking without pause.",
+        "ko_title": "Not this structure's job",
+        "ko_line": "This bundle's whole purpose is joining the two hemispheres together.",
+        "exp_title": "A bridge between two halves",
+        "exp_text": "The brain's two hemispheres each handle their own inputs and outputs, but neither works well cut off from the other. A dense cable of fibres connects them directly, so signals can cross from one side to the other almost as soon as they arise. Through that bridge, something noticed on one side becomes available to the other side too."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What job does the finely wrinkled structure at the back and base of the brain mainly do?",
+        "body": null,
+        "options": [
+          {
+            "label": "It stores emotional memories",
+            "feedback": "Emotional memories are tied to structures nearer the middle of the brain, not to this one."
+          },
+          {
+            "label": "It fine-tunes movement and balance by comparing intended and actual motion",
+            "feedback": "It checks the plan for a movement against reports of what the muscles actually did."
+          },
+          {
+            "label": "It processes what the eyes see",
+            "feedback": "Vision is handled at the back of the brain in a different area, not by this wrinkled structure."
+          },
+          {
+            "label": "It regulates body temperature",
+            "feedback": "Temperature control is handled by a small structure deep in the brain, not by this one."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A constant correction",
+        "ok_line": "Plan and outcome, compared moment to moment.",
+        "ko_title": "Not this structure",
+        "ko_line": "This one's whole job is comparing intended movement with actual movement.",
+        "exp_title": "A constant comparison, correcting as it goes",
+        "exp_text": "This structure receives a copy of every movement command the brain sends out, alongside a stream of reports from muscles and joints about what is actually happening. It compares the plan against the outcome, and when the two don't match, it sends small correcting signals back before the mismatch grows large enough to notice. That steady correction is what lets a moving body cross a room without watching each step."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What job does the stalk-like structure connecting the brain to the spinal cord mainly do?",
+        "body": null,
+        "options": [
+          {
+            "label": "It plans future actions",
+            "feedback": "Planning ahead is work done further forward in the brain, not by this stalk-like structure."
+          },
+          {
+            "label": "It stores skills learned through practice",
+            "feedback": "Stored skills live in circuits built up elsewhere; this structure isn't where they are kept."
+          },
+          {
+            "label": "It processes language",
+            "feedback": "Language is handled by regions further up and to the side, not by this lower structure."
+          },
+          {
+            "label": "It runs automatic functions like breathing and heartbeat without conscious control",
+            "feedback": "Clusters of neurons here keep essential rhythms going on their own."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "The background jobs",
+        "ok_line": "Breathing and heartbeat, running without a decision.",
+        "ko_title": "Not this structure",
+        "ko_line": "This stalk keeps vital rhythms going without needing conscious control.",
+        "exp_title": "Running the background jobs",
+        "exp_text": "This lower stalk connects the brain to the spinal cord, and it contains clusters of neurons that keep essential rhythms going without needing a decision from the thinking parts of the brain above. Breathing in and out, keeping the heart beating at a steady pace, adjusting blood pressure — all of it is monitored and adjusted from down here, moment to moment. A person can lose consciousness entirely and this part keeps working regardless."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can you pull your hand away from something painfully hot before you consciously feel the pain?",
+        "body": null,
+        "options": [
+          {
+            "label": "The signal loops through the spinal cord and back out, without waiting for the brain",
+            "feedback": "A short loop at the spinal cord sends the muscle its command directly."
+          },
+          {
+            "label": "Pain signals travel faster than movement signals",
+            "feedback": "It isn't a difference in signal speed. It's a difference in how far the signal has to travel before a response fires."
+          },
+          {
+            "label": "The hand acts on its own, with no nerves involved",
+            "feedback": "The hand still needs nerves to pull away. What's skipped is a stop at the brain, not the nerves themselves."
+          },
+          {
+            "label": "The brain decides instantly, faster than normal thought",
+            "feedback": "The brain isn't what decides here. The decision to pull away is made lower down, before the brain even gets word."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "A shortcut",
+        "ok_line": "The spinal cord answers before the brain hears about it.",
+        "ko_title": "Not quite",
+        "ko_line": "Think about how far the signal actually has to travel before your hand moves.",
+        "exp_title": "A shortcut that skips the brain",
+        "exp_text": "A sensory neuron carrying the pain signal reaches the spinal cord and, instead of only continuing up to the brain, connects there directly to a motor neuron heading back out to the muscle. That short loop lets the muscle contract and pull the hand away before the original signal has even finished its longer trip up to the brain and back. The feeling of pain arrives afterward, once the slower route catches up."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't the brain get badly bruised every time the head takes a small knock?",
+        "body": null,
+        "options": [
+          {
+            "label": "The skull absorbs all the force before it reaches the brain",
+            "feedback": "The skull is rigid and mostly transmits force rather than absorbing it. Something else does the cushioning."
+          },
+          {
+            "label": "The brain is too light to be affected by knocks",
+            "feedback": "The brain's weight isn't what protects it. The protection comes from what surrounds it."
+          },
+          {
+            "label": "A layer of fluid surrounds the brain and cushions sudden movement",
+            "feedback": "A clear fluid bathes the brain and lets it shift slightly rather than slam straight into bone."
+          },
+          {
+            "label": "The brain is fixed rigidly to the inside of the skull",
+            "feedback": "The opposite is closer to the truth: the brain floats rather than being clamped tight, and that is part of what protects it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Cushioned, not crushed",
+        "ok_line": "A fluid layer absorbs the jolt.",
+        "ko_title": "Not quite",
+        "ko_line": "Ask what surrounds the brain and softens sudden movement.",
+        "exp_title": "Floating instead of fixed",
+        "exp_text": "The brain sits bathed in a clear fluid inside the skull, and that fluid does two jobs at once: it holds the brain's weight so it isn't crushed under its own mass, and it cushions sudden jolts by letting the brain shift slightly rather than slam straight into bone. A small knock moves the skull first, and the fluid absorbs and spreads out that motion before it reaches the brain itself. A hard enough knock can still overwhelm that cushioning, but a small one never gets the chance."
+      }
+    ]
+  }
+]

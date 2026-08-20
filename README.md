@@ -17,7 +17,7 @@ python3 -m uvicorn api.main:app --port 8010     # /docs pour l'OpenAPI
 # Front
 npm install
 npm run dev        # http://localhost:5174
-npm run build      # tsc + vite build
+npm run build      # tsc + vite build + garde-fou de déploiement
 npm run typecheck
 ```
 
@@ -126,12 +126,11 @@ sqlite3 data/sara.db < db/seed_demo.sql     # le contenu de src/data/content.ts
 ```
 
 ```
-category ─┬─ sub_category ─┐
-          └────────────────┴─> theme ─< theme_tag >─ tag
-                             │  (source_markdown, visibility)
-                             └─< exercise_prompt >── prompt
-                                      │              (type_question × type_bloom, versionné)
-                                      └─< exercise
+category ──> theme ─< theme_tag >─ tag
+               │  (source_markdown, visibility)
+               └─< exercise_prompt >── prompt
+                        │              (type_question × type_bloom, versionné)
+                        └─< exercise
 ```
 
 Côté usage : `app_user`, `user_theme`, `attempt`, `exercise_like`, `exercise_comment`.
@@ -179,6 +178,77 @@ lit la réponse dans le DevTools — sans enjeu sur une app d'apprentissage sans
 couple (type × Bloom), avec le texte exact envoyé au modèle. Les exercices arrivent en
 `draft` : rien n'entre au feed sans relecture. Le service LLM se configure par
 `SARA_LLM_URL` (défaut : le proxy local sur 8003).
+
+## Créer une connaissance
+
+L'auteur écrit un sujet — « les fonctions PHP », « l'imparfait de l'indicatif ». Rien
+d'autre : ni titre, ni catégorie, ni cours. Deux appels au modèle en tirent le reste.
+
+```
+sujet ──> POST /knowledge/outline
+          titre · description · catégorie · 3 à 5 chapitres · tags
+             │  l'auteur corrige et valide
+             └> POST /knowledge/{id}/prompts
+                un prompt, un type de question et un exemple PAR CHAPITRE
+                   │  l'auteur relit et valide
+                   └> POST /knowledge/{id}/generate
+                      les exercices, en draft, comme avant
+```
+
+| Table | Rôle |
+|---|---|
+| `theme` | la connaissance |
+| `chapter` | son programme — `generated_prompt`, `type_question`, `example` |
+| `exercise_prompt` | un lancement, citant `chapter_id` **ou** `prompt_id`, jamais les deux |
+
+**Le programme appartient à la connaissance, pas à la taxonomie.** « Déclarer une
+fonction » n'a de sens que dans « Les fonctions en PHP », là où une catégorie doit
+servir cent thèmes. Un programme de trois à cinq chapitres ne tient pas dans un niveau
+de classement.
+
+**Un seul niveau de classement.** `sub_category` a été retirée (migration 013) : une
+seule sous-catégorie a jamais existé, « Auto » sous « Permis de conduire », et l'écran
+de création ne l'a jamais proposée — 93 des 106 thèmes n'en portaient aucune. Un
+deuxième niveau qu'aucun chemin ne remplit n'est pas une taxonomie, c'est une colonne.
+
+**Le modèle crée les catégories, mais reconnaît avant de créer.** Il reçoit les
+catégories existantes et doit dire si l'une convient ; un dernier filet compare le nom
+proposé aux libellés en place. Sans ça, « Programmation », « Développement » et
+« Code » cohabitent au bout d'un mois sans que personne ne l'ait décidé — et une
+taxonomie qui se dédouble ne se recolle pas. Une catégorie créée naît en `draft` et
+n'entre au catalogue qu'une fois retenue : sinon chaque essai abandonné en laisse une.
+
+**Le prompt d'un chapitre est composé, pas recopié.** Le modèle n'écrit que les
+consignes pédagogiques ; le contrat de sortie — quatre options pour un QCM, `exp_text`
+obligatoire, libellés sous 60 caractères — est écrit dans `api/chapters.py` et scellé
+par-dessus. Un modèle à qui on demande d'inventer ce contrat le réinvente à chaque
+appel, et les exercices sont écartés en silence à l'insertion.
+
+**`cloze` est exclu du choix du modèle.** `llm.validate` ne conserve que le libellé de
+chaque option et laisse tomber `blank` et `correct` : un texte à trous produit par
+cette voie perd le lien entre ses candidats et ses trous. Les neuf en base viennent des
+scripts, qui passent par `api/critic.py`. À rouvrir quand `validate` saura les lire.
+
+**Tout s'écrit en base au fil de l'eau, en brouillon** — thème `private`, chapitres et
+catégorie `draft`. Une création interrompue se reprend par `GET /knowledge/{id}`, et on
+garde la trace de ce que le modèle a proposé même quand l'auteur le corrige.
+
+Les deux chemins coexistent : `POST /themes/{id}/generate` part toujours des 42
+gabarits versionnés et du Markdown déposé. Le dépôt de documents a seulement disparu de
+l'écran, pas de l'API.
+
+### Ce qui reste à surveiller
+
+Le modèle penche vers `short_answer` et rate son exemple une fois sur deux quand il le
+choisit — l'aperçu est alors écarté, le chapitre non. Trois tours de consigne ont été
+nécessaires pour arriver là : le premier abusait de `short_answer`, le deuxième l'a
+supprimé jusque sur « conjuguer les verbes du 1er groupe », où écrire la forme est
+justement l'exercice. L'auteur voit le type et peut le changer avant de valider.
+
+Et surtout : **il n'y a plus de source vérifiable.** Le modèle écrit sur ce qu'il sait.
+Acceptable sur les fonctions PHP, discutable sur « Permis de conduire », où le pipeline
+des panneaux — lui adossé à une ligne de `sign` — reste le seul à garantir ce qu'il
+affirme. Rien ne distingue les deux dans l'interface.
 
 ## Français et anglais
 
@@ -276,10 +346,10 @@ n'est pas une sauvegarde, c'est un espoir.
 ### Restaurer
 
 ```bash
-sudo systemctl stop sara-exos-api
+pm2 stop sara-learn
 gunzip -c /var/backups/saralearn/sara-AAAAMMJJ-HHMMSS.db.gz > data/sara.db
 sqlite3 data/sara.db "PRAGMA integrity_check;"
-sudo systemctl start sara-exos-api
+pm2 start sara-learn
 ```
 
 ### La limite à connaître
@@ -291,9 +361,16 @@ une destination et des identifiants.
 
 ## Configuration
 
-Toute la configuration de l'API vit dans **`.env`**, à la racine, lu par systemd
-(`EnvironmentFile=`). Format systemd : `CLE=valeur`, une par ligne, **sans `export`
-ni guillemets** — des guillemets seraient pris pour une partie de la valeur.
+Toute la configuration de l'API vit dans **`.env`**, à la racine. C'est
+`api/config.py` qui le lit au démarrage, pas le superviseur : le fichier vaut donc
+aussi bien sous pm2 que pour un lancement à la main. Format `CLE=valeur`, une par
+ligne, sans `export` — les guillemets autour de la valeur sont retirés à la
+lecture.
+
+Une variable déjà présente dans l'environnement **n'est jamais remplacée** par
+`.env`. Utile pour surcharger le temps d'un essai ; sournois quand un process a
+été lancé avec des valeurs qui ne sont plus celles du fichier, puisqu'il tourne
+alors sur une configuration que plus rien ne documente.
 
 | Variable | Rôle |
 |---|---|
@@ -305,8 +382,12 @@ ni guillemets** — des guillemets seraient pris pour une partie de la valeur.
 cp .env.example .env
 openssl rand -hex 32          # une valeur pour SARA_ADMIN_TOKEN
 chmod 600 .env                # il contient un secret
-sudo systemctl restart sara-exos-api
+pm2 restart sara-learn
 ```
+
+`SARA_SECRET` n'est volontairement pas dans `.env` : à défaut, la signature des
+jetons vient de `data/.secret`, écrit une fois puis relu. Redémarrer l'API ne
+déconnecte donc personne — poser la variable, si.
 
 `.env` est en `600` et listé dans `.gitignore`. **Ne le recopie jamais dans un vhost
 Apache** : c'est ainsi qu'une clé OpenAI s'est retrouvée en clair dans
@@ -332,6 +413,21 @@ Le jeton est comparé en `hmac.compare_digest` sur les octets, et une variable a
 ou vide ferme l'accès plutôt que de l'ouvrir. Côté navigateur il vit en
 `sessionStorage` : il meurt avec l'onglet.
 
+## Mesure d'audience
+
+**Il n'y en a pas.** Google Tag Manager (conteneur `GTM-P2PR5ZNF`) a été posé dans
+`index.html` le 7 août 2026, puis **retiré le 10 août 2026** à la demande du
+propriétaire du projet. Le dépôt ne charge plus aucun script de mesure, ne pose
+aucun cookie de mesure, et n'ouvre aucune connexion vers un tiers au chargement.
+
+Ce que ça solde au passage : la dette du bandeau de consentement, qui n'a plus
+d'objet — sans traceur, rien à faire consentir. Elle est retirée de `TODO.md`.
+
+Le conteneur et la propriété GA4 (`G-PQR5WJ1Z34`) existent toujours côté Google ;
+seul leur appel a disparu du code. Les rebrancher un jour ne demande que de
+remettre les deux extraits dans `index.html` — mais alors le bandeau redevient dû
+**avant** le script, pas après.
+
 ## Déploiement
 
 En ligne sur **https://learn.sara.education** — le front, et l'API sous `/api`.
@@ -339,19 +435,71 @@ En ligne sur **https://learn.sara.education** — le front, et l'API sous `/api`
 | Élément | Où |
 |---|---|
 | Front (bundle statique) | `/var/www/saralearn/dist`, servi par Apache |
-| API | `sara-exos-api.service`, uvicorn sur `127.0.0.1:8010` |
+| API | pm2 `sara-learn` → `start.sh`, uvicorn sur `127.0.0.1:8010` |
 | Vhosts | `/etc/apache2/sites-available/040-learn.sara.education*.conf` |
 | Configuration | `/var/www/saralearn/.env` (voir *Configuration*) |
+| Adresse de l'API dans le bundle | `.env.production` → `VITE_API_URL=/api` |
 | Certificat | Let's Encrypt, déjà en place pour ce domaine |
 
 ```bash
 # Déployer une nouvelle version du front
-VITE_API_URL=/api npm run build
+npm run build
 
 # Redémarrer l'API
-sudo systemctl restart sara-exos-api
-journalctl -u sara-exos-api -f
+pm2 restart sara-learn
+pm2 logs sara-learn
 ```
+
+`npm run build` suffit : `.env.production` fixe `VITE_API_URL=/api`, et
+`scripts/check_build.mjs` refuse tout bundle contenant une adresse de boucle locale.
+
+**`npm run build` publie.** `dist/` est la racine servie par Apache : il n'y a pas
+d'étape entre construire et mettre en ligne, et la commande emporte tout ce qui
+traîne sur le disque, commité ou non. Avant de la lancer, comparer ce qu'elle
+produirait à ce qui est déjà servi — une construction vers un dossier de travail
+(`npx vite build --outDir /tmp/…`) donne les mêmes empreintes de fichiers quand
+rien n'a changé.
+
+### La supervision de l'API
+
+`pm2` gère les vingt-deux services de cette machine ; l'API de SaraLearn en fait
+partie depuis le 7 août 2026.
+
+```bash
+pm2 start /var/www/saralearn/start.sh --name sara-learn
+pm2 save          # sans ça, rien ne revient au redémarrage
+```
+
+**`pm2 save` n'est pas une formalité.** pm2 rejoue au démarrage la liste
+enregistrée dans `~/.pm2/dump.pm2`, pas les process en cours. Ajouter un service
+sans l'enregistrer donne une supervision qui marche jusqu'au premier redémarrage,
+puis plus rien — et le fichier trouvé ici datait de deux mois.
+
+`start.sh` ne pose aucune variable d'environnement : `api/config.py` lit `.env`
+lui-même. Les secrets ne sont donc ni dans ce script, ni visibles dans la table
+des process.
+
+**Un seul superviseur à la fois.** Une unité `sara-exos-api.service` visait le
+même port ; laissée activée, elle bouclait sur un échec toutes les quelques
+secondes depuis qu'un lancement à la main lui avait pris le 8010, et se serait
+disputé le port avec pm2 au redémarrage suivant. Elle est désactivée
+(`systemctl disable --now`), l'unité reste sur disque. Pour revenir à systemd, il
+faut faire l'inverse des deux côtés : `pm2 delete sara-learn && pm2 save`, puis
+réactiver l'unité.
+
+Vérifier que la supervision fait son travail, plutôt que de le supposer :
+
+```bash
+kill -9 $(pm2 pid sara-learn)      # doit revenir en une seconde
+curl -s -o /dev/null -w '%{http_code}\n' https://learn.sara.education/api/health
+```
+
+Cette vérification existe parce que la panne était **silencieuse au moment où on la
+crée**. Le code a pour valeur par défaut `http://127.0.0.1:8010` : juste en
+développement, mortel en ligne, où cette adresse désigne la machine du visiteur. Un
+bundle construit sans `VITE_API_URL` se déployait sans une erreur et affichait « le
+serveur ne répond pas » à tout le monde. Elle sort maintenant dans le terminal, avant
+d'atteindre `dist/`.
 
 L'API **n'écoute que sur la boucle locale** : Apache est le seul chemin d'entrée.
 `--root-path /api` lui indique où elle est montée, pour que `/api/docs` et les URLs
@@ -400,10 +548,14 @@ base et servie par `GET /api/credits`, pas maintenue à la main dans le front.
 - **Le dépôt de fichier et l'enregistrement audio** de l'écran de création sont des
   intentions visuelles : seul le Markdown collé est réellement exploité.
 - **La relecture des thèmes `pending`** n'a pas d'interface admin.
-- **Deux vestiges à trancher.** `saralearn-api.service` pointait vers l'ancien backend
-  chatSara disparu et bouclait sur un échec depuis 420 000 redémarrages : je l'ai
-  désactivé, l'unité est encore sur disque. Et `api.sara.education` proxifie toujours
-  vers le port 8001, où plus rien n'écoute — il répond 503.
+- **Deux unités systemd à trancher.** `saralearn-api.service` pointait vers l'ancien
+  backend chatSara disparu et bouclait sur un échec depuis 420 000 redémarrages ;
+  `sara-exos-api.service` visait le port de l'API avant le passage à pm2. Les deux
+  sont désactivées et inertes, les fichiers restent sur disque. À supprimer une fois
+  qu'on est sûr de ne pas revenir à systemd.
+- `api.sara.education` ne proxifie plus vers le port 8001 disparu : il répond
+  désormais en 308 vers `learn.sara.education/api/`. Reste à savoir si ce domaine
+  a encore des appelants, ou s'il peut disparaître.
 - **Les tests vivent hors du dépôt.** Les 79 assertions de bout en bout sont dans le
   scratchpad de session : à déplacer dans le dépôt avant qu'elles disparaissent.
 

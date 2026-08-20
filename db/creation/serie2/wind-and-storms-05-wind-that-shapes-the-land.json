@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 227,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the process by which wind-blown sand gradually wears away the surfaces of rocks in a desert?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Abrasion",
+            "feedback": "Correct. Abrasion is when particles carried by wind scrape and grind against rock surfaces, slowly wearing them down."
+          },
+          {
+            "label": "Deposition",
+            "feedback": "Deposition is the opposite—it's when wind drops and leaves material, not when it wears rock away."
+          },
+          {
+            "label": "Weathering",
+            "feedback": "Weathering includes breakdown of rock by many causes like temperature or water, but wind-blown sand specifically cutting into rock is abrasion."
+          },
+          {
+            "label": "Erosion",
+            "feedback": "Erosion is the general movement of material by wind, water, or ice; abrasion is the specific grinding action of wind-carried particles."
+          }
+        ],
+        "ok_title": "Abrasion defined",
+        "ok_line": "Wind-carried sand grinds rock away.",
+        "ko_title": "Not deposition",
+        "ko_line": "That builds up, not wears down.",
+        "exp_title": "Wind abrasion",
+        "exp_text": "Abrasion happens when wind lifts sand or dust and hurls it against rock. Each impact chips off tiny fragments, and over many years the rock becomes smooth and rounded. Deposition would leave material behind instead."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In a sandstorm, what happens to most of the sand carried by the wind?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It rises high into the sky and travels for thousands of kilometres",
+            "feedback": "Only the finest dust rises that high; sand grains are too heavy to be lifted far above the ground."
+          },
+          {
+            "label": "It stays close to the ground, usually within a metre or so",
+            "feedback": "Correct. Sand grains are relatively heavy, so the wind can only lift them a short distance—usually less than a metre—before they fall back, while lighter dust can go much higher."
+          },
+          {
+            "label": "It settles immediately, never moving more than a few centimetres",
+            "feedback": "Sand does move, but it bounces and hops along the surface rather than staying completely still; it can travel kilometres this way, just not high up."
+          },
+          {
+            "label": "It forms a solid layer that blocks the wind entirely",
+            "feedback": "Sand remains individual grains in motion; it does not form a solid barrier that stops the wind."
+          }
+        ],
+        "ok_title": "Sand stays low",
+        "ok_line": "Heavy sand hops near the ground.",
+        "ko_title": "Dust rises high",
+        "ko_line": "That's dust, not sand.",
+        "exp_title": "Sand vs. dust height",
+        "exp_text": "Wind can lift sand grains only a short distance because they are relatively heavy, so most sand stays within about a metre of the surface, bouncing along. Fine dust is much lighter and can be carried many kilometres up into the atmosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the regular ripples that often appear on the surface of a sand dune?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Raindrops hitting the sand",
+            "feedback": "Ripples form mainly in dry, windy conditions; rain would flatten the sand, not create evenly spaced waves."
+          },
+          {
+            "label": "Animals or insects walking across the dune",
+            "feedback": "Animal tracks are irregular and scattered, not the evenly spaced, repeating pattern of wind-formed ripples."
+          },
+          {
+            "label": "The wind pushing sand grains into small mounds and hollows",
+            "feedback": "Correct. As wind moves sand grains, they pile up in small ridges and leave gaps, creating a regular ripple pattern that migrates with the wind."
+          },
+          {
+            "label": "The dune slowly sliding downhill under its own weight",
+            "feedback": "Sliding would create curved slump shapes, not the straight, evenly spaced ripples that run across the dune surface."
+          }
+        ],
+        "ok_title": "Ripples from wind",
+        "ok_line": "Wind builds small ridges and troughs.",
+        "ko_title": "Not from rain",
+        "ko_line": "Ripples need dry, blowing sand.",
+        "exp_title": "Dune ripple formation",
+        "exp_text": "When wind blows across loose sand, it picks up some grains and drops others. The dropped grains collect into small ridges, while areas between are scoured out. The result is a regular pattern of ripples, spaced roughly evenly, which shifts as the wind continues."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a sand dune slowly move across the desert over time?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It stays in place, only changing shape",
+            "feedback": "A dune does change shape, but it also migrates; sand is blown from one side to the other, so the whole dune creeps forward."
+          },
+          {
+            "label": "It rolls like a giant wheel",
+            "feedback": "A dune does not roll; it moves by sand being eroded from one slope and deposited on the other."
+          },
+          {
+            "label": "It cracks and splits into smaller dunes",
+            "feedback": "Dunes may split, but that is not how an individual dune travels; the main movement is gradual sideways advance."
+          },
+          {
+            "label": "Wind blows sand from one side to the other, making it creep forward",
+            "feedback": "Correct. Wind picks up sand from the windward side, carries it over the crest, and drops it on the leeward side. Over months and years, the whole dune shifts in the direction the wind blows."
+          }
+        ],
+        "ok_title": "Dune migration",
+        "ok_line": "Sand moves from one slope to another.",
+        "ko_title": "Not rolling",
+        "ko_line": "Dunes creep, they don't roll.",
+        "exp_title": null,
+        "exp_text": "A dune migrates because wind constantly removes sand from the side facing the wind and deposits it on the sheltered side. Grain by grain, the dune's position shifts downwind, sometimes many metres per year."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does planting a fence or line of shrubs across a windy, sandy area often cause a small dune to build up right beside it?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The barrier slows the wind, so it drops the sand it was carrying",
+            "feedback": "Correct. When wind hits a fence or shrubs, its speed drops. Slower wind cannot carry as much sand, so it deposits the grains, building up a mound."
+          },
+          {
+            "label": "The barrier pushes sand upward, piling it high",
+            "feedback": "A barrier does not push sand up; it only reduces wind speed, causing deposition at ground level."
+          },
+          {
+            "label": "The barrier attracts sand because of its colour",
+            "feedback": "Colour does not attract sand; the effect is purely mechanical—slower wind drops its load."
+          },
+          {
+            "label": "The barrier blocks all wind, so sand piles from both sides equally",
+            "feedback": "A barrier blocks wind on the downwind side primarily, so sand piles mainly on the windward side, not equally on both."
+          }
+        ],
+        "ok_title": "Barriers catch sand",
+        "ok_line": "Slower wind drops its sand load.",
+        "ko_title": "Not attracting sand",
+        "ko_line": "It's about wind speed, not colour.",
+        "exp_title": null,
+        "exp_text": "Wind carrying sand naturally drops grains when it slows down. A fence or row of shrubs interrupts the airflow, causing the wind to slow abruptly and release its sand, which accumulates into a small dune right next to the obstacle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is loess, and where does it come from?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A layer of fine sand left by ancient rivers",
+            "feedback": "Loess is wind-deposited, not river-deposited; river deposits are called alluvium."
+          },
+          {
+            "label": "A thick, fine, fertile soil carried by wind from distant dry regions",
+            "feedback": "Correct. Loess is composed of fine silt and clay particles that wind has carried and laid down over large areas, often forming deep, fertile soils."
+          },
+          {
+            "label": "A type of rock formed from compressed sand dunes",
+            "feedback": "Rock formed from compressed sand is sandstone, not loess; loess is loose, unconsolidated soil."
+          },
+          {
+            "label": "A mixture of volcanic ash and water",
+            "feedback": "Volcanic ash deposits have a different origin; loess is specifically wind-blown sediment, not volcanic."
+          }
+        ],
+        "ok_title": "Wind-made soil",
+        "ok_line": "Fine dust settles to form loess.",
+        "ko_title": "Not river sand",
+        "ko_line": "That's alluvium, not loess.",
+        "exp_title": null,
+        "exp_text": "Loess is a fine-grained, fertile soil that forms when wind picks up silt and clay from dry, barren areas and carries it long distances before depositing it. Thick layers of loess are found on several continents, often far from their source."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do trees on a windy coastline or ridge often end up permanently bent, all leaning in the same direction?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They grow toward the sunlight, which is strongest in that direction",
+            "feedback": "Trees lean toward light, but on a windy coast they bend away from the wind, not toward a light source; the dominant cause is wind pressure."
+          },
+          {
+            "label": "They are pushed over by animals or people",
+            "feedback": "Animal or human pressure would be irregular, not a consistent single direction across all trees."
+          },
+          {
+            "label": "Constant wind pushes their branches and trunk, causing them to grow away from it",
+            "feedback": "Correct. Persistent wind pushes against young trees, and they respond by growing with a permanent lean away from the prevailing wind direction."
+          },
+          {
+            "label": "They are pulled by the roots, which grow toward the sea",
+            "feedback": "Roots anchor the tree; they do not pull the trunk in a direction, and this does not explain the uniform lean."
+          }
+        ],
+        "ok_title": "Wind shapes trees",
+        "ok_line": "Steady wind bends trunks downwind.",
+        "ko_title": "Not sunlight alone",
+        "ko_line": "Wind, not just light, causes the lean.",
+        "exp_title": null,
+        "exp_text": "In exposed coastal or ridge areas, wind blows almost constantly from one direction. Young trees are flexible, so the wind presses them downwind; as they grow, they harden in that bent posture. Every tree on the same slope leans the same way because they all face the same prevailing wind."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does wind-driven erosion strip topsoil from a plowed farm field much faster than from a neighbouring field left covered in grass?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Plowing exposes loose soil directly to the wind, while grass roots hold the soil in place",
+            "feedback": "Correct. A plowed field has bare, loose soil with no protective cover, so wind can easily lift it. Grass roots bind the soil and the leaves slow the wind at the surface."
+          },
+          {
+            "label": "Plowed soil is naturally lighter than grass-covered soil",
+            "feedback": "Soil weight is similar; the difference is that bare soil is not anchored and is fully exposed, not that it is lighter."
+          },
+          {
+            "label": "Grass actively pushes soil downward, making it heavier",
+            "feedback": "Grass does not push soil down; it holds it with roots and reduces wind speed near the ground."
+          },
+          {
+            "label": "Plowed fields are always on higher ground than grass fields",
+            "feedback": "Elevation varies, but even on flat ground, plowed fields erode faster because they lack the protective plant cover."
+          }
+        ],
+        "ok_title": "Bare soil erodes",
+        "ok_line": "Grass roots protect the soil.",
+        "ko_title": "Not lighter soil",
+        "ko_line": "It's about cover, not weight.",
+        "exp_title": null,
+        "exp_text": "Plowing breaks up soil into loose particles with no plant cover, so wind can lift and carry them away easily. In a grassy field, roots bind the soil and the grass slows wind at the surface, so far less erosion occurs."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do sand dunes typically form only where there is a steady supply of loose, dry sand and a fairly steady wind direction?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because dunes need wet sand to stick together",
+            "feedback": "Wet sand is too heavy and sticky for wind to move easily; dunes form from dry, loose sand."
+          },
+          {
+            "label": "Because dunes form only in areas with no wind at all",
+            "feedback": "Wind is essential to build dunes; without wind, sand just lies flat."
+          },
+          {
+            "label": "Because dunes need steep mountains to block the wind",
+            "feedback": "Mountains are not required; dunes form on flat deserts as long as there is loose sand and wind."
+          },
+          {
+            "label": "Because wind needs loose sand to pick up and a consistent direction to pile it into a mound",
+            "feedback": "Correct. Without loose, dry sand, there is nothing for wind to carry; without a steady wind direction, sand gets scattered rather than accumulated into a dune."
+          }
+        ],
+        "ok_title": "Dune prerequisites",
+        "ok_line": "Loose sand and steady wind are needed.",
+        "ko_title": "Not wet sand",
+        "ko_line": "Dry sand is what wind can move.",
+        "exp_title": null,
+        "exp_text": "For a dune to grow, the wind must be able to pick up grains of sand, so the sand must be dry and loose. Also, the wind must blow mostly from one direction; if it blows from many directions, sand is spread out instead of piled into a dune."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do isolated pillars and arches of rock in deserts often have a narrower base than top?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The top is harder, so the bottom erodes faster from water",
+            "feedback": "Water can erode, but the distinctive narrow base of desert rock pillars is mainly caused by wind-blown sand, which is most effective near the ground."
+          },
+          {
+            "label": "Wind-blown sand scours the bottom most strongly because sand travels close to the ground",
+            "feedback": "Correct. Since sand grains are heavy, they stay low, so they grind against the base of rocks more than the upper parts, gradually carving a narrow neck."
+          },
+          {
+            "label": "The bottom is older, so it has had more time to erode",
+            "feedback": "All parts of the pillar are the same age; the difference is that the bottom is exposed to more abrasive sand, not that it is older."
+          },
+          {
+            "label": "The top is heavier, so it presses down and crushes the base",
+            "feedback": "Rock does not crush under its own weight in this way; the shape is due to external abrasion, not internal pressure."
+          }
+        ],
+        "ok_title": "Narrow base from sand",
+        "ok_line": "Sand scours low, not high.",
+        "ko_title": "Not age or water",
+        "ko_line": "It's the low-flying sand that carves.",
+        "exp_title": null,
+        "exp_text": "Wind-blown sand moves only a short distance above the ground, so it hits the lower part of rocks far more often than the upper parts. Over long periods, this constant grinding wears away the base more, leaving the top wider and the middle narrow—forming pillars with a waist."
+      }
+    ]
+  }
+]

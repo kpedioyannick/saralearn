@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 85,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What lies just beyond the red end of visible light?",
+        "body": null,
+        "options": [
+          {
+            "label": "Infrared",
+            "feedback": "Longer waves, felt as warmth rather than seen."
+          },
+          {
+            "label": "Ultraviolet",
+            "feedback": "That sits beyond violet, at the other end."
+          },
+          {
+            "label": "X-rays",
+            "feedback": "Far beyond violet, with much shorter waves."
+          },
+          {
+            "label": "Gamma rays",
+            "feedback": "The shortest waves of all, at the far extreme."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "Below red, hence the name.",
+        "ko_title": "Wrong end.",
+        "ko_line": "Beyond red means longer waves, not shorter ones.",
+        "exp_title": "Below red",
+        "exp_text": "Infrared runs from about 700 nanometres out to a millimetre. It was found in 1800 by Herschel, who spread sunlight with a prism and laid thermometers along the band to see which colour carried most heat. The one he parked beyond the red edge, as a control, climbed highest of all. He had discovered light nobody could see, using an instrument that could not see either."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does a warm body give off that the eye cannot detect?",
+        "body": null,
+        "options": [
+          {
+            "label": "Infrared light",
+            "feedback": "Everything above absolute zero emits it constantly."
+          },
+          {
+            "label": "Ultraviolet light",
+            "feedback": "That needs temperatures far beyond a living body."
+          },
+          {
+            "label": "Visible light too faint to see",
+            "feedback": "A body emits essentially none in our range."
+          },
+          {
+            "label": "Nothing at all",
+            "feedback": "A thermal camera finds you in a dark room."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "You are shining constantly, just not where your eyes look.",
+        "ko_title": "Not that.",
+        "ko_line": "A thermal camera sees you in a pitch-dark room. What is it catching?",
+        "exp_title": "You are glowing right now",
+        "exp_text": "Everything above absolute zero emits light according to its temperature, and a body at 37 °C emits in the infrared around 10 micrometres — some hundred watts of it. A thermal camera makes an image from your own emission with no lamp of any kind, which is why it works in total darkness. Snakes such as pit vipers have organs that do the same and hunt warm prey by it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What lies just beyond the violet end of visible light?",
+        "body": null,
+        "options": [
+          {
+            "label": "Ultraviolet",
+            "feedback": "Shorter waves, energetic enough to burn skin."
+          },
+          {
+            "label": "Infrared",
+            "feedback": "That lies beyond red, with longer waves."
+          },
+          {
+            "label": "Radio waves",
+            "feedback": "The longest waves of all, far past infrared."
+          },
+          {
+            "label": "Microwaves",
+            "feedback": "Also long, and well beyond the red side."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Yes.",
+        "ok_line": "Beyond violet, and carrying more energy than any colour we see.",
+        "ko_title": "Wrong side.",
+        "ko_line": "Past violet the waves get shorter, and shorter means more energetic.",
+        "exp_title": "Beyond violet, and stronger",
+        "exp_text": "Ultraviolet runs from about 400 nanometres down to 10. Its photons carry more energy than visible ones — enough to break chemical bonds, which is why it burns skin and damages DNA while a far brighter red lamp does nothing. Most of the Sun's ultraviolet is absorbed high up by ozone, and the fraction that gets through is what tans, burns, and makes vitamin D."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does ultraviolet light burn skin when brighter red light does not?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its photons carry more energy each",
+            "feedback": "Enough to break the bonds in a molecule."
+          },
+          {
+            "label": "There is far more of it in sunlight",
+            "feedback": "There is much less of it than visible light."
+          },
+          {
+            "label": "It travels faster than red light",
+            "feedback": "Every colour travels at the same speed."
+          },
+          {
+            "label": "It penetrates much deeper into skin",
+            "feedback": "It goes less deep than red, and does more harm."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "It is the size of each hit that matters, not how many.",
+        "ko_title": "Not it.",
+        "ko_line": "A hundred gentle taps do not break what one hard blow does.",
+        "exp_title": "One strong photon beats many weak ones",
+        "exp_text": "A photon's energy is set by its wavelength, and shorter means stronger. Visible photons lack the energy to break the bonds holding a molecule together, so they warm and no more. An ultraviolet photon carries enough to snap one, and when it lands in DNA the damage must be repaired or the cell fails. Brightness only changes how many arrive; it never changes what a single one can do."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a bee benefit from seeing ultraviolet?",
+        "body": null,
+        "options": [
+          {
+            "label": "Flowers show hidden guide marks",
+            "feedback": "Patterns lead straight to the nectar."
+          },
+          {
+            "label": "It can fly after dark",
+            "feedback": "There is no ultraviolet at night either."
+          },
+          {
+            "label": "It sees through leaves",
+            "feedback": "Ultraviolet passes through leaves no better than light does."
+          },
+          {
+            "label": "It can judge distance better",
+            "feedback": "Distance comes from movement, not from colour."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "The flower painted directions for a customer with different eyes.",
+        "ko_title": "Not that.",
+        "ko_line": "Think about what a flower most wants a bee to find.",
+        "exp_title": "Signs written for another eye",
+        "exp_text": "Bee vision is shifted from ours: it extends into the ultraviolet and stops before red. Photographed in ultraviolet, many flowers reveal bullseyes and converging stripes centred on the nectar — a landing pattern invisible to us but obvious to the insect the flower needs. Some birds use it too, and several species that look identical to us are plainly different to each other."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What do radio waves and visible light have in common?",
+        "body": null,
+        "options": [
+          {
+            "label": "They are the same kind of wave",
+            "feedback": "Only the wavelength differs between them."
+          },
+          {
+            "label": "Both can be seen by some animals",
+            "feedback": "No animal has ever detected radio waves."
+          },
+          {
+            "label": "Both need air to travel",
+            "feedback": "Neither does. Both cross empty space."
+          },
+          {
+            "label": "Both are made by hot objects only",
+            "feedback": "Radio waves come from cold sources too."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly.",
+        "ok_line": "One family, one speed, one difference: the length of the wave.",
+        "ko_title": "Not it.",
+        "ko_line": "Ask what actually separates a radio wave from a red one.",
+        "exp_title": "One spectrum, many names",
+        "exp_text": "Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays and gamma rays are all the same phenomenon, differing only in wavelength — from kilometres down to less than the width of an atom. All travel at the same speed in a vacuum. The names are ours, marking the instruments we use and the effects we notice; nature draws no line anywhere along it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can X-rays show the bones inside a hand?",
+        "body": null,
+        "options": [
+          {
+            "label": "Bone stops them more than flesh",
+            "feedback": "The shadow of the bone falls on the detector."
+          },
+          {
+            "label": "Bone gives off X-rays of its own",
+            "feedback": "Bone emits nothing. It only blocks."
+          },
+          {
+            "label": "They reflect off hard surfaces",
+            "feedback": "The image is a shadow, not a reflection."
+          },
+          {
+            "label": "Flesh turns them into visible light",
+            "feedback": "Flesh mostly lets them straight through."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "It is a shadow picture, and calcium casts the darkest one.",
+        "ko_title": "Not that.",
+        "ko_line": "Nothing is shining out of your hand. Something is being blocked.",
+        "exp_title": "A shadow, not a photograph",
+        "exp_text": "X-rays pass through soft tissue easily but are absorbed by heavier elements, and bone is loaded with calcium. What the detector records is a shadow: bright where the rays got through, dark where they did not. Röntgen produced the first such image in 1895 — his wife's hand, wedding ring included — and the same principle checks luggage and welds today."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How can a telescope show a cloud of gas that is completely dark to the eye?",
+        "body": null,
+        "options": [
+          {
+            "label": "It detects the infrared the cloud emits",
+            "feedback": "Cold gas glows in wavelengths we cannot see."
+          },
+          {
+            "label": "It magnifies the faint visible light",
+            "feedback": "There is none to magnify. The cloud is opaque."
+          },
+          {
+            "label": "It lights the cloud from a distance",
+            "feedback": "No beam could reach that far."
+          },
+          {
+            "label": "It waits for the cloud to catch fire",
+            "feedback": "Nothing burns in the vacuum of space."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Change the wavelength and the darkness turns out to be full.",
+        "ko_title": "Not it.",
+        "ko_line": "The cloud is dark to your eyes. That says nothing about other wavelengths.",
+        "exp_title": "Dark only to us",
+        "exp_text": "Cold clouds of dust and gas block visible light entirely, which is why parts of the Milky Way look empty. But they are warm enough to glow in the infrared, and infrared passes through dust that stops visible light. Telescopes built for those wavelengths show newborn stars inside clouds that appear as holes in an ordinary photograph. The same trick reveals the centre of our own galaxy."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which invisible light reaches us from the earliest universe?",
+        "body": null,
+        "options": [
+          {
+            "label": "Microwaves",
+            "feedback": "A faint hum filling the sky in every direction."
+          },
+          {
+            "label": "Ultraviolet",
+            "feedback": "It would not survive the journey across that time."
+          },
+          {
+            "label": "X-rays",
+            "feedback": "They come from hot modern objects, not the beginning."
+          },
+          {
+            "label": "Gamma rays",
+            "feedback": "They mark violent recent events, not the early universe."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Correct.",
+        "ok_line": "The oldest light there is, stretched into microwaves by the journey.",
+        "ko_title": "Not that.",
+        "ko_line": "Light stretches as the universe expands. Where does very old light end up?",
+        "exp_title": "The oldest light of all",
+        "exp_text": "About 380,000 years after the beginning, the universe cooled enough for light to travel freely, and that first release still fills space. Expansion has stretched it from a fierce glow into faint microwaves, arriving from every direction at once. It was found by accident in 1964 by two engineers who spent a year hunting a hiss in their antenna, and even cleaned out pigeon droppings looking for the cause."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do humans see only such a narrow band of all this light?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is the band that reaches the ground",
+            "feedback": "The atmosphere and water let this range through."
+          },
+          {
+            "label": "It is the only band that exists in daylight",
+            "feedback": "Sunlight arrives across a far wider range."
+          },
+          {
+            "label": "Wider vision would be too confusing",
+            "feedback": "Other animals manage a wider range perfectly well."
+          },
+          {
+            "label": "The eye is too small for other waves",
+            "feedback": "Size is not what sets the limit."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right.",
+        "ok_line": "Eyes were built for the light that was actually available.",
+        "ko_title": "Not it.",
+        "ko_line": "Ask which wavelengths ever make it down to where eyes evolved.",
+        "exp_title": "Eyes made for the light that arrives",
+        "exp_text": "The Sun peaks in this range, the atmosphere is transparent to it, and water — where eyes first developed — lets it through better than anything else. Ozone absorbs the ultraviolet, water vapour and carbon dioxide take out much of the infrared. Vision evolved to use what was reliably there, which is why our window sits exactly over the atmosphere's clearest gap."
+      }
+    ]
+  }
+]

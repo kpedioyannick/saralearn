@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do the orbits of regular moons differ from those of irregular moons?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Regular moons orbit in the same direction as their planet's spin and close to the equator; irregular moons can orbit either direction and often at steep angles.",
+            "feedback": "Correct. Regular moons go along with the planet's rotation and stay near the equator, while irregular moons can be prograde or retrograde and tilt far from it."
+          },
+          {
+            "label": "Regular moons orbit far from the planet, while irregular moons stay close to the planet's surface.",
+            "feedback": "That mixes up the terms. The distinction is about orbit direction and tilt, not distance from the planet."
+          },
+          {
+            "label": "Regular moons orbit backwards against the planet's spin, while irregular moons orbit with it.",
+            "feedback": "It is the opposite: regular moons are prograde, matching the planet's rotation, and irregular moons may be retrograde."
+          },
+          {
+            "label": "Regular moons always have retrograde orbits, while irregular moons have prograde orbits.",
+            "feedback": "No, regular moons are prograde, so they go with the planet's rotation; irregular moons can be retrograde."
+          }
+        ],
+        "ok_title": "Regular vs irregular",
+        "ok_line": "Regular moons follow the planet's spin; irregular ones often don't.",
+        "ko_title": "Orbit confusion",
+        "ko_line": "Check the direction and tilt, not the distance.",
+        "exp_title": "Two moon classes",
+        "exp_text": "Moons split into two categories by orbit. Regular moons travel prograde — in the same direction as their planet rotates — and stay close to the planet's equator. Irregular moons may go prograde or retrograde (against the rotation) and frequently sit at extreme angles to the equator. Irregular moons are likely captured minor planets, and most are under 10 kilometres across."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which planets in the solar system have no moons at all?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mercury and Venus",
+            "feedback": "That pair is exactly right — Mercury and Venus are the only planets with no moons."
+          },
+          {
+            "label": "Mercury and Mars",
+            "feedback": "Mars has two moons, Phobos and Deimos, so only one of these lacks moons."
+          },
+          {
+            "label": "Venus and Earth",
+            "feedback": "Earth has one large Moon, so Venus is the only moonless one here."
+          },
+          {
+            "label": "Earth and Mars",
+            "feedback": "Both Earth and Mars have moons, so that pair is not correct."
+          }
+        ],
+        "ok_title": "No moons",
+        "ok_line": "Mercury and Venus orbit alone.",
+        "ko_title": "Which planets?",
+        "ko_line": "Remember Mars has two moons and Earth has one.",
+        "exp_title": "Moonless planets",
+        "exp_text": "Mercury, the innermost planet, has no moons, and neither does Venus. Mars has two small moons, Phobos and Deimos, while Earth has one large Moon. The other planets each have many moons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the names of Mars's two moons?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Phobos and Deimos",
+            "feedback": "Correct — those are the two moons of Mars, named after fear and dread."
+          },
+          {
+            "label": "Titan and Rhea",
+            "feedback": "Those are moons of Saturn, not Mars."
+          },
+          {
+            "label": "Io and Europa",
+            "feedback": "Those are two of Jupiter's large moons, not Mars's."
+          },
+          {
+            "label": "Charon and Hydra",
+            "feedback": "Those belong to Pluto, not Mars."
+          }
+        ],
+        "ok_title": "Mars's moons",
+        "ok_line": "Phobos and Deimos circle the red planet.",
+        "ko_title": "Wrong moons",
+        "ko_line": "Those names come from other planets.",
+        "exp_title": "Fear and dread",
+        "exp_text": "Mars has two known moons, Phobos and Deimos, meaning 'fear' and 'dread'. They are named after the attendants of Ares, the Greek war god. Searches have found no others, putting any additional moon's maximum radius at 90 metres."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which moon is the largest and most massive in the entire solar system?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Titan",
+            "feedback": "Titan is Saturn's largest and is the second-largest moon overall, but Ganymede is bigger."
+          },
+          {
+            "label": "Earth's Moon",
+            "feedback": "Earth's Moon is the largest moon of any rocky planet, but it is not the largest of all."
+          },
+          {
+            "label": "Callisto",
+            "feedback": "Callisto is a large moon of Jupiter, but Ganymede is bigger and more massive."
+          },
+          {
+            "label": "Ganymede",
+            "feedback": "Correct — Ganymede, orbiting Jupiter, is the largest and most massive moon in the solar system."
+          }
+        ],
+        "ok_title": "Biggest moon",
+        "ok_line": "Ganymede tops the list.",
+        "ko_title": "Moon size",
+        "ko_line": "Titan is second, not first.",
+        "exp_title": "Ganymede",
+        "exp_text": "Among all moons, Ganymede — one of Jupiter's Galilean moons — is the largest and most massive. Titan, Saturn's largest moon, comes second. Both are large enough to be gravitationally rounded, as are about 17 other moons."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is unusual about Triton's orbit compared with other large moons?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It orbits Neptune backwards, against the planet's rotation",
+            "feedback": "Correct. Triton is unique among large moons for having a retrograde orbit, which suggests it was once a captured dwarf planet."
+          },
+          {
+            "label": "It orbits Neptune in the same direction as all other large moons",
+            "feedback": "That is the usual pattern for large moons, but Triton is the exception."
+          },
+          {
+            "label": "It orbits exactly over Neptune's equator with no tilt",
+            "feedback": "Retrograde motion, not a perfect equatorial plane, is what makes Triton stand out."
+          },
+          {
+            "label": "It is locked so one side always faces Neptune",
+            "feedback": "Being tidally locked is common for moons; Triton's oddity is its backward orbit."
+          }
+        ],
+        "ok_title": "Backward moon",
+        "ok_line": "Triton orbits Neptune in reverse.",
+        "ko_title": "Not the norm",
+        "ko_line": "Triton breaks the rule for large moons.",
+        "exp_title": "Captured dwarf planet",
+        "exp_text": "Triton, Neptune's largest moon, has a retrograde orbit — it travels opposite to Neptune's rotation. That is unique for a large moon and suggests Triton was originally a dwarf planet that got captured by Neptune's gravity. Triton holds more than 99.5 percent of all mass orbiting Neptune."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many known moons does Pluto have, and which is its largest?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Three, with Nix being the largest",
+            "feedback": "Pluto has five moons, not three, and Charon is the largest of them."
+          },
+          {
+            "label": "Five, with Charon being the largest",
+            "feedback": "Correct. Pluto has five confirmed moons, and Charon is by far the largest."
+          },
+          {
+            "label": "Two, with Hydra being the largest",
+            "feedback": "Pluto has five moons; Charon is the large one, Hydra is one of the small ones."
+          },
+          {
+            "label": "Four, with Styx being the largest",
+            "feedback": "There are five moons, and Styx is among the smallest, not the largest."
+          }
+        ],
+        "ok_title": "Pluto's moons",
+        "ok_line": "Five moons, Charon leads.",
+        "ko_title": "Moon count",
+        "ko_line": "Pluto has more than two or three.",
+        "exp_title": "Pluto and Charon",
+        "exp_text": "Pluto, a dwarf planet, has five confirmed moons. Its largest, Charon, is more than half as large as Pluto itself and so big that the two bodies orbit a point outside Pluto's surface, forming a binary system. The other four moons — Nix, Hydra, Kerberos and Styx — are far smaller and orbit the Pluto–Charon pair."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are Saturn's rings made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Solid rock boulders and dust",
+            "feedback": "Saturn's rings are icy, not rocky."
+          },
+          {
+            "label": "Gas and plasma",
+            "feedback": "Rings are solid chunks, not gas; they orbit the planet like tiny moonlets."
+          },
+          {
+            "label": "Icy objects ranging from a centimetre to hundreds of metres across",
+            "feedback": "Correct. Saturn's rings are made of countless icy pieces, each on its own orbit around the planet."
+          },
+          {
+            "label": "Liquid water and slush",
+            "feedback": "The rings are solid ice, not liquid."
+          }
+        ],
+        "ok_title": "Ring material",
+        "ok_line": "Saturn's rings are ice chunks.",
+        "ko_title": "Wrong make-up",
+        "ko_line": "Think icy, not rocky or gassy.",
+        "exp_title": "Icy ring particles",
+        "exp_text": "Saturn's rings consist of icy objects, with sizes from one centimetre to hundreds of metres, each orbiting the planet separately. Because of this, the exact number of Saturn's moons cannot be fixed — there is no clear boundary between tiny ring particles and named moons. At least 150 'moonlets' embedded in the rings have been detected by their disturbances."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which dwarf planets are confirmed to have no moons?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Pluto and Eris",
+            "feedback": "Both Pluto and Eris do have moons: Pluto has five, Eris has one called Dysnomia."
+          },
+          {
+            "label": "Haumea and Makemake",
+            "feedback": "Haumea has two moons and Makemake has one, so this pair is wrong."
+          },
+          {
+            "label": "Ceres and Orcus",
+            "feedback": "Ceres has no moons, but Orcus does have one."
+          },
+          {
+            "label": "Ceres and Sedna",
+            "feedback": "Correct — Ceres has no known moons, and Sedna also has none among the agreed dwarf planets."
+          }
+        ],
+        "ok_title": "No moons on dwarfs",
+        "ok_line": "Ceres and Sedna orbit alone.",
+        "ko_title": "Dwarf moons",
+        "ko_line": "Most dwarf planets have at least one moon.",
+        "exp_title": "Moonless dwarf planets",
+        "exp_text": "Among the dwarf planets, Ceres has no known moons — it is about 90 percent certain none larger than 1 km exists. Sedna, generally agreed to be a dwarf planet, also has none. In contrast, Eris, Haumea, Makemake, Orcus, Quaoar and Gonggong all have at least one moon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do most irregular moons in the solar system come from?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They are probably captured minor planets from surrounding space",
+            "feedback": "Correct. Irregular moons are thought to be minor planets that were captured by their planet's gravity."
+          },
+          {
+            "label": "They formed in the same disk of gas as their planet",
+            "feedback": "That is how regular moons form, not irregular ones. Irregular moons have orbits that point to capture."
+          },
+          {
+            "label": "They are broken pieces of the planet itself",
+            "feedback": "Irregular moons' chaotic orbits suggest outside capture, not breakup of the planet."
+          },
+          {
+            "label": "They are escaped moons from other planets",
+            "feedback": "There is no evidence of such transfers; capture from space is the explanation."
+          }
+        ],
+        "ok_title": "Captured moons",
+        "ok_line": "Irregular moons are captured bodies.",
+        "ko_title": "Wrong origin",
+        "ko_line": "Not formed with the planet.",
+        "exp_title": "Capture origin",
+        "exp_text": "Irregular moons have orbits that can be retrograde or sharply tilted, which is hard to explain by forming with the planet. Instead, they are probably minor planets that were captured from surrounding space. Most irregular moons are less than 10 kilometres in diameter."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the names of Uranus's moons typically based on?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Greek and Roman gods",
+            "feedback": "That pattern fits Jupiter's moons; Uranus's moons follow a different naming scheme."
+          },
+          {
+            "label": "Inuit, Norse and Gallic mythologies",
+            "feedback": "Those are used for Saturn's irregular moons, not Uranus's."
+          },
+          {
+            "label": "Characters from Shakespeare's works and a poem by Alexander Pope",
+            "feedback": "Correct. All of Uranus's moons are named after characters from Shakespeare and from Pope's 'The Rape of the Lock'."
+          },
+          {
+            "label": "Fear and dread attendants of a war god",
+            "feedback": "That describes Mars's moons, not Uranus's."
+          }
+        ],
+        "ok_title": "Uranus naming",
+        "ok_line": "Shakespeare and Pope inspire the names.",
+        "ko_title": "Wrong theme",
+        "ko_line": "Uranus's moons break the mythology trend.",
+        "exp_title": "Literary moons",
+        "exp_text": "Unlike most planetary moons, which draw names from classical mythology, all of Uranus's moons are named after characters from the works of William Shakespeare and from Alexander Pope's poem 'The Rape of the Lock'. Uranus has 29 known moons, with five large enough to be in hydrostatic equilibrium."
+      }
+    ]
+  }
+]

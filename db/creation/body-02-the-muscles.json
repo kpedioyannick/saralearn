@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why does bending your arm at the elbow always need two different muscles rather than one?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because bone cannot move without two anchor points",
+            "feedback": "A bone can be pulled by a single muscle attached at one end just fine; the issue is only getting it to move back the other way."
+          },
+          {
+            "label": "Because one muscle would get too tired to do both",
+            "feedback": "Tiredness is not the reason two are needed; even a fully rested single muscle still could not straighten the arm back out on its own."
+          },
+          {
+            "label": "Because the elbow joint needs extra grip to stay steady",
+            "feedback": "Steadying the joint is a side effect of having muscles on both sides, not the reason bending needs a second muscle to undo it."
+          },
+          {
+            "label": "Because a muscle can only pull, never push",
+            "feedback": "A contracting muscle only ever pulls its two ends closer together; it has no way to push a bone away from itself."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "A one-way pull",
+        "ok_line": "A muscle drags, it never shoves.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what a contracting muscle can physically do to the bones on either end of it.",
+        "exp_title": "A rope, not a rod",
+        "exp_text": "A muscle works like a rope rather than a rigid rod: when it contracts, it shortens and drags its two ends closer together, and that is the only motion it can produce. Once the arm has bent, that same muscle has no way to lengthen itself back out again on command. Straightening the arm needs a second muscle on the opposite side of the joint, pulling the bone back the other way."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why do muscles around a joint usually work in opposing pairs?",
+        "body": null,
+        "options": [
+          {
+            "label": "So the joint has a spare muscle in case one is injured",
+            "feedback": "A partner muscle bends or straightens the joint in daily use; it is not sitting idle as a backup for an injury."
+          },
+          {
+            "label": "So one muscle can bend the joint while the other straightens it again",
+            "feedback": "One muscle shortens to pull the joint one way, and its partner on the far side shortens to pull it back."
+          },
+          {
+            "label": "So blood can flow into the joint from two directions",
+            "feedback": "Blood reaches a joint through vessels running alongside it, not because two muscles happen to pull from opposite sides."
+          },
+          {
+            "label": "So the limb can grow evenly on both sides",
+            "feedback": "Growth in a limb's bones is not what paired muscles are arranged to manage."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Push and pull, minus the push",
+        "ok_line": "Two ropes, pulling from opposite sides.",
+        "ko_title": "Not what the pair is for",
+        "ko_line": "Remember that neither muscle in the pair can push — each can only pull.",
+        "exp_title": "Two ropes on opposite sides",
+        "exp_text": "Since a muscle can only shorten and pull, moving a joint in two directions takes two separate muscles attached on opposite sides of it. When one contracts and pulls the joint one way, its partner on the far side lengthens and relaxes to let that happen; asking for the movement to reverse means relaxing the first muscle and contracting the other instead. Bending and straightening a joint is really two separate pulls, taking turns."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What does a tendon actually do that the muscle itself cannot?",
+        "body": null,
+        "options": [
+          {
+            "label": "It stores extra fuel for the muscle to burn",
+            "feedback": "Fuel for a working muscle is carried in by the blood and stored inside the muscle tissue itself, not inside the tendon."
+          },
+          {
+            "label": "It supplies the muscle with the signal to contract",
+            "feedback": "The signal to contract travels along a nerve, not through the tendon; the tendon only transmits force, not instructions."
+          },
+          {
+            "label": "It anchors the muscle's pull firmly onto the bone",
+            "feedback": "A tendon is the tough, non-stretching cord that transmits a muscle's pull directly onto the bone it is attached to."
+          },
+          {
+            "label": "It lets the muscle stretch further than it normally could",
+            "feedback": "A tendon is built to resist stretching, not to add to it; a stretchier tendon would waste some of the muscle's pull instead of delivering it."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "A cord, not a spring",
+        "ok_line": "Stiff on purpose, so no pull goes to waste.",
+        "ko_title": "Not the tendon's job",
+        "ko_line": "A tendon is built to resist stretching, not to carry signals or fuel.",
+        "exp_title": "A cord that wastes nothing",
+        "exp_text": "Muscle tissue itself is too soft to grip bone directly, so at each end it narrows into a tendon: a tight bundle of fibres far tougher and less stretchy than the muscle it grows from. Because the tendon barely stretches, almost all of the force from a shortening muscle passes straight through it and into the bone rather than being absorbed along the way. It works like a taut cable bolted between an engine and the load it has to shift."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a muscle need a constant supply of blood even while it is doing nothing?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its cells need a steady flow of fuel and oxygen just to stay alive",
+            "feedback": "Muscle tissue is living tissue, and like any living tissue its cells need oxygen and fuel arriving continuously, whether the muscle is working or resting."
+          },
+          {
+            "label": "Blood keeps the tendons attached to the bone",
+            "feedback": "A tendon is held to bone by the way its fibres are woven into the bone's surface, not by anything carried in the bloodstream."
+          },
+          {
+            "label": "Blood carries the nerve signal that keeps the muscle in shape",
+            "feedback": "Nerve signals travel along nerve fibres, entirely separate from the blood vessels running through the muscle."
+          },
+          {
+            "label": "Blood keeps the muscle warm so it does not stiffen",
+            "feedback": "Warmth is a side effect of blood flow, not the reason the flow is needed; a resting muscle still needs the oxygen and fuel that blood delivers."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Living tissue, constant upkeep",
+        "ok_line": "A muscle at rest is still burning fuel to stay alive.",
+        "ko_title": "Not the reason",
+        "ko_line": "Ask what any living cell, muscle or not, needs delivered to it without pause.",
+        "exp_title": "Upkeep never stops",
+        "exp_text": "Every cell in a muscle is alive, and staying alive costs a steady trickle of fuel and oxygen even when the muscle is not contracting at all. Blood vessels thread through the muscle in a dense network so that no cell sits far from a supply line. Cut that supply off, even in a muscle that is doing nothing, and its cells begin to fail within minutes."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is a muscle built from many separate bundles of fibres rather than one single block of tissue?",
+        "body": null,
+        "options": [
+          {
+            "label": "So the muscle can repair itself faster after every use",
+            "feedback": "Repair happens at the level of individual fibres regardless of how they are bundled; bundling is not what speeds recovery."
+          },
+          {
+            "label": "So the muscle can vary how much force it uses for a task",
+            "feedback": "Activating a few bundles gives a light pull, and activating more gives a stronger one, all from the same muscle."
+          },
+          {
+            "label": "So the muscle takes up less space inside the limb",
+            "feedback": "A bundled muscle and a solid block of the same tissue would take up close to the same space; bundling is not a space-saving trick."
+          },
+          {
+            "label": "So the muscle can be seen more clearly through the skin",
+            "feedback": "Visibility through the skin has nothing to do with why muscle tissue is organised into bundles."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A dial, not a switch",
+        "ok_line": "Recruit a few bundles for a light task, more for a heavy one.",
+        "ko_title": "Not the point of bundling",
+        "ko_line": "Think about lifting something light versus something heavy with the same arm.",
+        "exp_title": "Force with a dial on it",
+        "exp_text": "A muscle is made of many separate bundles of fibres, each controlled by its own branch of the nerve feeding the muscle. Picking up a pencil calls on only a small number of those bundles, while pushing a heavy door calls on far more of them at once, all inside the same muscle. Splitting the muscle this way turns its pull into something adjustable rather than a single fixed force that fires all or nothing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the wall of a blood vessel or the wall of the stomach contain muscle that behaves so differently from the muscle in your arm?",
+        "body": null,
+        "options": [
+          {
+            "label": "It works automatically, without needing a conscious decision to move it",
+            "feedback": "The muscle in these walls contracts on signals the body sends on its own, without waiting for a decision to move, unlike the muscle that bends an arm."
+          },
+          {
+            "label": "It is not really muscle, just tissue that looks similar",
+            "feedback": "The tissue lining vessels and internal organs is genuine muscle, built to contract and relax; it only differs in how it is controlled."
+          },
+          {
+            "label": "It only contracts once and then has to regrow",
+            "feedback": "This muscle contracts and relaxes repeatedly over a lifetime, the same as the muscle that moves a limb."
+          },
+          {
+            "label": "It cannot use any of the body's blood supply",
+            "feedback": "Like every other muscle tissue, it depends on a blood supply to keep working; it is not cut off from it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Automatic, not absent",
+        "ok_line": "Real muscle, just running without a hand on the switch.",
+        "ko_title": "Not the difference",
+        "ko_line": "The tissue is genuine muscle either way — the difference is in who, or what, decides when it contracts.",
+        "exp_title": "Muscle that runs itself",
+        "exp_text": "The muscle you use to bend an arm contracts only when a nerve signal from a conscious decision tells it to. The muscle lining a blood vessel or an internal organ wall is built differently and answers instead to signals the body sends automatically, adjusting its squeeze without any decision being made about it. Both are true muscle tissue capable of contracting; what differs is who is holding the controls."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a muscle feel warm after it has been working hard?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tendons stretch and generate heat through tension",
+            "feedback": "A tendon barely stretches at all, which is exactly what lets it transmit force efficiently; that stiffness is not a source of heat."
+          },
+          {
+            "label": "Friction between the bones grinding together warms the muscle",
+            "feedback": "Cartilage keeps the bones inside a joint from grinding against each other; the heat is not coming from bone contact."
+          },
+          {
+            "label": "Blood is trapped inside the muscle and cannot escape",
+            "feedback": "Blood keeps flowing through a working muscle rather than being trapped; the warmth comes from the contraction itself, not from blocked circulation."
+          },
+          {
+            "label": "Contracting releases heat as a by-product of burning fuel",
+            "feedback": "Turning fuel into the energy of a contraction is not perfectly efficient, and the energy lost along the way comes off as heat."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Heat as leftover energy",
+        "ok_line": "Not every bit of fuel becomes movement — some becomes warmth.",
+        "ko_title": "Not the source",
+        "ko_line": "Ask where the energy in the fuel actually goes once the muscle contracts.",
+        "exp_title": "Warmth as spare energy",
+        "exp_text": "A muscle converts the energy stored in its fuel into the pull of a contraction, but that conversion is not perfectly efficient, and only part of the energy released actually becomes movement. The rest is given off as heat right there in the tissue. The harder and longer the muscle works, the more fuel it burns and the more of that leftover heat builds up."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually makes a working muscle start to feel tired?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its fuel and oxygen run low while waste products build up inside it",
+            "feedback": "As contraction keeps drawing on fuel and oxygen faster than they can be resupplied, byproducts accumulate in the tissue and the muscle's pull weakens."
+          },
+          {
+            "label": "The tendon gradually stretches out and loses its grip on the bone",
+            "feedback": "A tendon keeps its stiffness through repeated use; it does not gradually stretch out and loosen its hold on the bone."
+          },
+          {
+            "label": "The nerve controlling the muscle wears out and stops signalling",
+            "feedback": "The nerve fibre itself keeps sending its signal reliably; the weakness shows up inside the muscle tissue, not in a failing nerve."
+          },
+          {
+            "label": "The muscle runs out of room to bundle its fibres any tighter",
+            "feedback": "Fatigue is not a matter of running out of physical space inside the muscle; it comes from what is happening chemically inside its cells."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Running low, not running out of room",
+        "ok_line": "A tired muscle is a muscle short on supplies and full of waste.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Fatigue starts inside the muscle cells themselves, in what they have and what they are accumulating.",
+        "exp_title": "Short on supplies, full of waste",
+        "exp_text": "Every contraction burns through fuel and oxygen stored in and delivered to the muscle, and heavy, sustained work can draw on both faster than blood can replace them. At the same time, the chemical reactions that power contraction leave behind by-products that build up in the tissue faster than they can be cleared away. Between the falling supply and the rising waste, the muscle's fibres contract with less and less force until the whole muscle feels weak and heavy."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a muscle stay contracted for a while but never forever, without you deliberately relaxing it?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tendon slowly slips loose from where it is anchored",
+            "feedback": "A tendon's attachment to bone does not loosen under a sustained pull; it stays firmly anchored throughout."
+          },
+          {
+            "label": "The bone underneath starts to bend under the strain",
+            "feedback": "Bone is rigid enough to resist a muscle's pull without bending; the limit on holding a contraction comes from the muscle, not the bone."
+          },
+          {
+            "label": "Sustaining a contraction still costs fuel that eventually runs short",
+            "feedback": "Holding a contraction is not free — the muscle keeps spending fuel to stay shortened, and once that supply thins, the pull can no longer be held."
+          },
+          {
+            "label": "Nerve signals can only be sent in short, one-off bursts",
+            "feedback": "A nerve can keep sending a steady signal for as long as it is needed; the limit on holding a contraction lies in the muscle's own fuel supply."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Holding costs as much as pulling",
+        "ok_line": "A contraction held in place is still spending fuel to stay there.",
+        "ko_title": "Not the limit",
+        "ko_line": "The bone and tendon can take the strain indefinitely — ask what inside the muscle cannot.",
+        "exp_title": "Even holding still costs something",
+        "exp_text": "Staying contracted is not a passive state a muscle simply sits in — the fibres have to keep spending fuel to hold their shortened position, the same way holding a heavy bag up takes ongoing effort rather than none at all. As that fuel is used up faster than it can be replaced, the fibres lose the ability to keep pulling and the contraction weakens on its own. A muscle held tense for long enough will let go whether or not you choose to relax it."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually sets off a muscle fibre's contraction in the first place?",
+        "body": null,
+        "options": [
+          {
+            "label": "A rise in the temperature of the muscle",
+            "feedback": "Warmth is something a working muscle gives off afterward, not a signal that starts the contraction going."
+          },
+          {
+            "label": "An electrical signal arriving from a nerve",
+            "feedback": "A nerve fibre reaches each muscle fibre and delivers the signal that sets its contraction off."
+          },
+          {
+            "label": "Pressure from the blood flowing through the muscle",
+            "feedback": "Blood flow delivers fuel and oxygen to the muscle, but the flow itself is not what tells a fibre to contract."
+          },
+          {
+            "label": "The tendon being pulled taut from outside the muscle",
+            "feedback": "A tendon transmits force once a muscle has already contracted; it is not what starts that contraction going."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "A message, then a pull",
+        "ok_line": "Nothing shortens until the signal arrives.",
+        "ko_title": "Not the trigger",
+        "ko_line": "Ask what has to reach the fibre before anything about it changes at all.",
+        "exp_title": "A message before the pull",
+        "exp_text": "Each muscle fibre is met by the branching end of a nerve fibre at a tiny junction, and a contraction begins only once a signal travels down that nerve and arrives there. The arrival of the signal sets off a change inside the fibre that lets its internal filaments grab and slide past each other, shortening the fibre. Without that signal reaching the junction, the machinery inside the fibre stays switched off and the muscle stays still."
+      }
+    ]
+  }
+]

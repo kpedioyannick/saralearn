@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 232,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary cause of ocean tides on Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The gravitational pull of the Moon and the Sun",
+            "feedback": "Correct. The Moon's gravity is the main driver, and the Sun adds a smaller effect, together stretching Earth's oceans into tidal bulges."
+          },
+          {
+            "label": "The rotation of Earth on its axis",
+            "feedback": "Rotation affects when tides occur at a place, but it doesn't create the bulges — those come from the Moon's and Sun's gravity."
+          },
+          {
+            "label": "The wind blowing across the ocean surface",
+            "feedback": "Wind creates waves and currents, but tides rise and fall on a regular schedule independent of weather."
+          },
+          {
+            "label": "The differences in water temperature between equator and poles",
+            "feedback": "Temperature differences drive ocean currents, not the twice-daily rise and fall of the tide."
+          }
+        ],
+        "ok_title": "Tide cause",
+        "ok_line": "The Moon's gravity pulls on the oceans, and the Sun's gravity adds a smaller pull.",
+        "ko_title": "Tide cause",
+        "ko_line": "Not rotation, wind, or temperature — gravity from the Moon and Sun makes the tide.",
+        "exp_title": "Gravity's pull",
+        "exp_text": "The Moon's gravitational pull is strongest on the side of Earth facing it, drawing water toward it to form a bulge. On the opposite side, inertia and the Moon's pull combine to make a second bulge. The Sun's gravity also pulls, but less strongly because it is far away. Together these bulges travel as Earth rotates, giving most coasts two high tides a day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a typical coastline have two high tides roughly every day?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Moon orbits Earth once every 24 hours",
+            "feedback": "The Moon's orbit takes about 27 days, not one day, so that isn't why two bulges appear daily."
+          },
+          {
+            "label": "Because the Sun and Moon each create one tide separately",
+            "feedback": "They act together, not one per tide — the two daily high tides come from two bulges, not from two different bodies."
+          },
+          {
+            "label": "Because one bulge forms on the side facing the Moon and another on the opposite side",
+            "feedback": "Correct. The Moon's gravity pulls water toward it on one side, and on the far side a bulge forms as Earth is pulled slightly away from the water — so two bulges exist, giving two high tides as Earth turns."
+          },
+          {
+            "label": "Because Earth's rotation pushes the water into two separate heaps",
+            "feedback": "Rotation doesn't pile water up by itself; the bulges are gravitational, not centrifugal heaps."
+          }
+        ],
+        "ok_title": "Two bulges",
+        "ok_line": "The Moon makes one bulge facing it and another opposite it.",
+        "ko_title": "Two bulges",
+        "ko_line": "The two daily high tides are from two bulges, not from Moon and Sun separately.",
+        "exp_title": "Daily double tide",
+        "exp_text": "The Moon's gravity creates a bulge of water on the near side of Earth. On the far side, because Earth is pulled toward the Moon more strongly than the water there, a second bulge forms. As Earth rotates once a day, each point on the coast passes through both bulges, so it experiences two high tides and two low tides each day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a 'spring tide' in everyday tidal terms?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A tide that happens only in the season of spring",
+            "feedback": "The name has nothing to do with the season — it means the tide 'springs up' higher."
+          },
+          {
+            "label": "The highest and lowest tides of the month, occurring when the Sun and Moon align",
+            "feedback": "Correct. When the Sun, Moon, and Earth line up, their gravitational pulls add together, making the tidal range — the gap between high and low water — especially large."
+          },
+          {
+            "label": "A tide driven by the melting of snow in rivers",
+            "feedback": "River flow can change local water level, but spring tides are a purely gravitational effect, not related to snowmelt."
+          },
+          {
+            "label": "The smallest tide of the month, happening when the Moon is at a right angle to the Sun",
+            "feedback": "That describes a neap tide, not a spring tide — spring tides are the largest, not the smallest."
+          }
+        ],
+        "ok_title": "Spring tide",
+        "ok_line": "Sun and Moon align, pulling together for a big tidal range.",
+        "ko_title": "Spring tide",
+        "ko_line": "Spring tides are the big ones — alignment, not season or snow, makes them.",
+        "exp_title": "Big monthly tide",
+        "exp_text": "Around the new moon and the full moon, the Sun, Moon, and Earth are roughly in a straight line. Their gravitational pulls then work in the same direction, producing higher high tides and lower low tides — a large tidal range called a spring tide. It happens about twice a month, not in one season."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a 'neap tide'?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A tide that happens twice a year during autumn",
+            "feedback": "Neap tides recur roughly every two weeks, not just in autumn, and the name isn't tied to a season."
+          },
+          {
+            "label": "The tide with the largest difference between high and low water",
+            "feedback": "That's a spring tide — neaps are the weakest, with the smallest difference."
+          },
+          {
+            "label": "A tide caused only by the Sun, with no role for the Moon",
+            "feedback": "Both the Sun and Moon always pull; at neap tides, their pulls partially cancel rather than one acting alone."
+          },
+          {
+            "label": "The weakest tide of the month, when the Sun and Moon pull at right angles",
+            "feedback": "Correct. When the Moon is at first or last quarter, the Sun and Moon pull in perpendicular directions from Earth, so their effects partly cancel, giving a small tidal range."
+          }
+        ],
+        "ok_title": "Neap tide",
+        "ok_line": "Sun and Moon pull at right angles, so the tide is small.",
+        "ko_title": "Neap tide",
+        "ko_line": "Neap tides are the small ones — right angles, not the largest.",
+        "exp_title": "Smallest monthly tide",
+        "exp_text": "About a week after each spring tide, the Moon sits at a right angle to the Sun as seen from Earth. Their gravitational pulls then compete rather than add, so the high tide isn't very high and the low tide isn't very low. The tidal range is small — that's a neap tide. It happens twice a month, like spring tides."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does high tide happen roughly fifty minutes later each day?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the Moon moves ahead in its orbit while Earth rotates",
+            "feedback": "Correct. Earth turns once in 24 hours, but during that time the Moon has moved about 12° along its orbit, so a point on Earth must rotate a bit more to line up again with the Moon — about 50 extra minutes."
+          },
+          {
+            "label": "Because the Sun's gravity slows Earth's rotation slightly each day",
+            "feedback": "The Sun's pull does slow Earth over very long periods, but not on a daily cycle — that wouldn't produce a 50-minute daily delay."
+          },
+          {
+            "label": "Because the oceans deepen gradually as tidal waves travel",
+            "feedback": "Ocean depth affects wave speed, not the daily timing of high tide at a fixed point."
+          },
+          {
+            "label": "Because the Moon rises later in the sky each night",
+            "feedback": "The Moon does rise later, but that's a symptom of the same orbital motion, not a separate cause — the key is the Moon moving along its orbit, not rising later as such."
+          }
+        ],
+        "ok_title": "Later each day",
+        "ok_line": "The Moon drifts along its orbit, so Earth needs extra time to catch up.",
+        "ko_title": "Later each day",
+        "ko_line": "It's the Moon's orbital motion, not slow-down or rising later.",
+        "exp_title": "Daily delay",
+        "exp_text": "In the 24 hours it takes Earth to turn once, the Moon has traveled about 12° farther along its orbit. A fixed point on Earth must rotate slightly longer to come directly under the Moon again — that's roughly 50 extra minutes. So high tide, which follows the Moon's position, occurs about 50 minutes later each day."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why can a narrow, funnel-shaped bay experience a tide much higher than the open ocean nearby?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the bay is deeper than the open ocean",
+            "feedback": "Deeper water generally lets tidal waves move faster, not pile up higher — the effect comes from the bay narrowing and shallowing."
+          },
+          {
+            "label": "Because the water is forced into a smaller space as it moves toward the bay's closed end",
+            "feedback": "Correct. As the incoming tidal water enters a bay that narrows and gets shallower, the same volume of water is squeezed into a smaller cross-section, so it rises higher — like water backing up in a funnel."
+          },
+          {
+            "label": "Because the Moon's gravity works more strongly inside an enclosed bay",
+            "feedback": "The Moon's pull is essentially the same everywhere on Earth — the bay's shape, not a stronger pull, causes the extra height."
+          },
+          {
+            "label": "Because the bay's water is saltier, so it expands more",
+            "feedback": "Salt content affects density, not tidal amplification — the shape of the bay is what matters."
+          }
+        ],
+        "ok_title": "Funnel effect",
+        "ok_line": "The bay squeezes water, so the tide rises higher.",
+        "ko_title": "Funnel effect",
+        "ko_line": "It's the narrowing shape, not depth, salt, or a stronger pull.",
+        "exp_title": "Amplified tide",
+        "exp_text": "When the tidal wave moves from the open ocean into a bay that narrows and becomes shallower, the water is forced into a progressively smaller space. The same volume of water has to rise higher to fit, so the tidal range can be many times larger in the bay than in the open sea nearby. Famous examples include the Bay of Fundy."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a 'tidal bore'?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A sudden drop in water level at the mouth of a river",
+            "feedback": "A bore is a rising wave, not a drop — it's the tide rushing into the river, not water falling away."
+          },
+          {
+            "label": "A type of underwater wave caused by earthquakes",
+            "feedback": "Earthquakes generate tsunamis, which are different from tidal bores — bores come from the ordinary tide."
+          },
+          {
+            "label": "A wave that travels upstream against a river's current as the tide comes in",
+            "feedback": "Correct. Under the right conditions — a large tidal range and a funnel-shaped river mouth — the rising tide forms a visible wave that pushes upstream against the river's flow."
+          },
+          {
+            "label": "A slow current that carries sand out to sea at low tide",
+            "feedback": "That's an ebb current, not a bore — a bore is a travelling wave moving upstream."
+          }
+        ],
+        "ok_title": "Tidal bore",
+        "ok_line": "The tide pushes a wave upstream against the river.",
+        "ko_title": "Tidal bore",
+        "ko_line": "It's a rising wave, not a drop or a tsunami or sand flow.",
+        "exp_title": "River wave",
+        "exp_text": "In certain rivers with a wide, funnel-shaped mouth and a large tidal range, the incoming tide doesn't just rise gradually — it forms a distinct wave with a steep front that travels upstream, sometimes for many kilometres. This wave is called a tidal bore. It happens only where the river's shape and the tide's size line up just right."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does an almost enclosed sea like the Mediterranean have only a very small tidal range?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because it has no connection to the open ocean",
+            "feedback": "The Mediterranean does connect to the Atlantic through the Strait of Gibraltar — it's not fully closed."
+          },
+          {
+            "label": "Because the Moon's gravity is weaker over inland seas",
+            "feedback": "The Moon pulls on all water equally — it's the sea's shape, not a weaker pull, that limits the tide."
+          },
+          {
+            "label": "Because its water is warmer than the open ocean",
+            "feedback": "Temperature affects density, not tide height — the Mediterranean's small tide is a shape and size effect."
+          },
+          {
+            "label": "Because the narrow entrance blocks most of the tidal wave coming from the ocean",
+            "feedback": "Correct. A tidal wave from the Atlantic can only pass through the narrow Strait of Gibraltar, so almost all of its energy is cut off. The Mediterranean then mostly responds to the weaker local pull of the Moon and Sun, giving a small rise and fall."
+          }
+        ],
+        "ok_title": "Small tide",
+        "ok_line": "A narrow entrance stops the ocean's tidal wave.",
+        "ko_title": "Small tide",
+        "ko_line": "It's the bottleneck, not weaker pull or warmer water or no connection.",
+        "exp_title": "Cut-off tide",
+        "exp_text": "The Mediterranean is connected to the open Atlantic only by the narrow Strait of Gibraltar. Tidal waves from the open ocean can barely squeeze through, so the Mediterranean doesn't receive the large Atlantic tide. Its own tidal range is therefore only tens of centimetres, compared with several metres on the open Atlantic coast."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why don't all coasts around the world experience high tide at the same moment?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because tides behave like waves that travel across each ocean basin",
+            "feedback": "Correct. The tide isn't a single worldwide bulge moving as one — it propagates as waves across each ocean basin, with each basin having its own shape and depth, so high tide arrives at different times in different places."
+          },
+          {
+            "label": "Because the Moon orbits Earth at different speeds throughout the month",
+            "feedback": "The Moon's speed varies slightly, but that doesn't explain why distant coasts have high tide at different clock times — that's a basin wave effect."
+          },
+          {
+            "label": "Because the Sun's gravity overrides the Moon's pull in some regions",
+            "feedback": "The Sun adds a small effect everywhere but doesn't override the Moon, and it doesn't set the timing of local high tide."
+          },
+          {
+            "label": "Because some oceans are fresh and others are salty",
+            "feedback": "Salt content doesn't set tide timing — the travel of the tidal wave through the ocean is what varies."
+          }
+        ],
+        "ok_title": "Different times",
+        "ok_line": "Each ocean basin carries the tide as a travelling wave.",
+        "ko_title": "Different times",
+        "ko_line": "Not orbit speed, Sun override, or salt — it's basin waves.",
+        "exp_title": "Local tide arrival",
+        "exp_text": "If the tide were a single rigid bulge, high tide would occur everywhere at once. Instead, the gravitational pull creates bulges that move as waves across each ocean basin, and each basin's shape and depth affect how fast and where those waves travel. As a result, high tide arrives at different times along different coastlines — hours apart in some cases."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the difference between a 'rising tide' and a 'falling tide' at a specific point on the coast?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A rising tide happens only during the day, and a falling tide only at night",
+            "feedback": "Tides are not tied to day and night — they follow the Moon's position and happen on a ~12.4-hour cycle."
+          },
+          {
+            "label": "A rising tide is when water level goes up; a falling tide is when it goes down",
+            "feedback": "Correct. 'Rising' (or flood) means the water is climbing toward high tide; 'falling' (or ebb) means it's dropping toward low tide."
+          },
+          {
+            "label": "A rising tide is caused by the Moon, and a falling tide by the Sun",
+            "feedback": "Both the Moon and Sun act together on both rising and falling tides — it's not one body for each direction."
+          },
+          {
+            "label": "A rising tide moves water toward the coast, and a falling tide moves it away from the shore",
+            "feedback": "That describes the water's movement, but the core difference is simply the water level going up versus going down — your phrasing is close but not the defining feature."
+          }
+        ],
+        "ok_title": "Rise and fall",
+        "ok_line": "Rising means water climbing; falling means water dropping.",
+        "ko_title": "Rise and fall",
+        "ko_line": "It's about water level, not time of day or which body causes it.",
+        "exp_title": "Tidal phase",
+        "exp_text": "At any coast, the tide is either rising, when the water level is climbing toward its highest point, or falling, when it's descending toward its lowest. Between high and low tide, the water is either coming in or going out. This rise and fall repeats roughly every 12 hours and 25 minutes, giving about two highs and two lows a day."
+      }
+    ]
+  }
+]

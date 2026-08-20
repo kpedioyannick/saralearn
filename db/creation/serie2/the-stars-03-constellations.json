@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 239,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a constellation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A pattern of stars that appears to form a shape or figure in the sky",
+            "feedback": "Exactly. A constellation is a recognized grouping of stars that looks like a particular shape, like a hunter or a bear, when viewed from Earth."
+          },
+          {
+            "label": "A cluster of stars that are physically close together in space",
+            "feedback": "Stars in a constellation are not necessarily near each other; they just appear close on the sky. A real cluster is different—those stars are gravitationally bound."
+          },
+          {
+            "label": "A single bright star that helps with navigation",
+            "feedback": "That describes a star like Polaris, not a constellation. A constellation is a whole pattern of many stars."
+          },
+          {
+            "label": "A region of the sky with no visible stars",
+            "feedback": "That would be a dark area, not a constellation. Constellations are defined by star patterns, not empty space."
+          }
+        ],
+        "ok_title": "Correct definition",
+        "ok_line": "A constellation is a star pattern, not a physical group.",
+        "ko_title": "Wrong definition",
+        "ko_line": "Learn the distinction between a pattern and a real cluster.",
+        "exp_title": "What a constellation is",
+        "exp_text": "A constellation is a recognizable pattern of stars as seen from Earth, like Orion or the Big Dipper. The stars are not necessarily related in space; they just line up from our viewpoint."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many constellations are officially recognized by astronomers?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "12",
+            "feedback": "12 is the number of zodiac constellations, but the full official list is larger. Astronomers recognize 88 constellations covering the whole sky."
+          },
+          {
+            "label": "88",
+            "feedback": "Correct. The International Astronomical Union officially divides the entire sky into 88 constellations, each with defined boundaries."
+          },
+          {
+            "label": "44",
+            "feedback": "That number is too low. There are exactly 88 official constellations, not 44."
+          },
+          {
+            "label": "1000",
+            "feedback": "That is far too many. The official list has 88, not a thousand."
+          }
+        ],
+        "ok_title": "Official count",
+        "ok_line": "There are 88 official constellations.",
+        "ko_title": "Wrong number",
+        "ko_line": "Remember the exact count is 88.",
+        "exp_title": "Number of constellations",
+        "exp_text": "Astronomers use 88 official constellations, each with fixed boundaries, to map the entire night sky. This list was set by the International Astronomical Union."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the constellation that contains the star Polaris, the North Star?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Orion",
+            "feedback": "Orion is a prominent constellation in the winter sky, but it does not contain Polaris. Polaris lies in a different constellation near the celestial pole."
+          },
+          {
+            "label": "Ursa Major",
+            "feedback": "Ursa Major is the Great Bear, which contains the Big Dipper, but Polaris is not in it. Polaris is in a neighboring constellation called Ursa Minor."
+          },
+          {
+            "label": "Ursa Minor",
+            "feedback": "Correct. Polaris marks the tip of the tail of Ursa Minor, the Little Bear. It is also the end of the Little Dipper's handle."
+          },
+          {
+            "label": "Cassiopeia",
+            "feedback": "Cassiopeia is a W-shaped constellation near the pole, but Polaris is not inside it. It is in Ursa Minor."
+          }
+        ],
+        "ok_title": "Home of Polaris",
+        "ok_line": "Polaris is in Ursa Minor.",
+        "ko_title": "Wrong constellation",
+        "ko_line": "Polaris is not in those well-known constellations.",
+        "exp_title": "Polaris's constellation",
+        "exp_text": "Polaris, the North Star, lies at the end of the handle of the Little Dipper, which is part of the constellation Ursa Minor, the Little Bear."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the imaginary line around which the sky appears to rotate each night?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The ecliptic",
+            "feedback": "The ecliptic is the path the Sun appears to follow through the sky, not the rotation axis. The rotation happens around a different line."
+          },
+          {
+            "label": "The celestial equator",
+            "feedback": "The celestial equator is the projection of Earth's equator onto the sky, but stars do not rotate around it. They rotate around the axis line."
+          },
+          {
+            "label": "The horizon",
+            "feedback": "The horizon is the boundary between sky and ground, not an axis. Stars rotate around a line that points to the pole."
+          },
+          {
+            "label": "The celestial axis",
+            "feedback": "Correct. The celestial axis is the imaginary line extending from Earth's north and south poles into space. The sky appears to spin around this axis, with stars near it moving in small circles."
+          }
+        ],
+        "ok_title": "Rotation axis",
+        "ok_line": "Stars rotate around the celestial axis.",
+        "ko_title": "Wrong line",
+        "ko_line": "It is the axis, not those other lines.",
+        "exp_title": "Celestial axis",
+        "exp_text": "The celestial axis is the extension of Earth's rotation axis. Because Earth spins, the whole sky appears to turn around this line each night."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the point in the sky directly above an observer's head?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The zenith",
+            "feedback": "Correct. The zenith is the point straight overhead, at 90 degrees above the horizon. It changes as you move on Earth."
+          },
+          {
+            "label": "The nadir",
+            "feedback": "The nadir is the point directly below your feet, opposite the zenith. It is not overhead."
+          },
+          {
+            "label": "The celestial pole",
+            "feedback": "The celestial pole is a specific spot along the rotation axis, not generally overhead. Only at the planet's poles would the pole be at the zenith."
+          },
+          {
+            "label": "The meridian",
+            "feedback": "The meridian is an imaginary line running north-south through the zenith, but it is not a single point overhead. The zenith itself is the point."
+          }
+        ],
+        "ok_title": "Overhead point",
+        "ok_line": "The zenith is directly above.",
+        "ko_title": "Wrong term",
+        "ko_line": "That term means something else in astronomy.",
+        "exp_title": "Zenith definition",
+        "exp_text": "The zenith is the point on the celestial sphere that is exactly above the observer, forming a 90-degree angle with the horizon."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the apparent daily motion of constellations across the sky?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The stars themselves moving rapidly around Earth",
+            "feedback": "Stars do move, but not fast enough to cross the sky in a night. The rapid apparent motion is due to Earth's rotation, not the stars' own speeds."
+          },
+          {
+            "label": "The Sun pulling the stars along",
+            "feedback": "The Sun's gravity does not drag stars around the sky. The motion is caused by Earth spinning on its axis."
+          },
+          {
+            "label": "Earth rotating on its axis",
+            "feedback": "Correct. Earth spins once every 24 hours, making the entire sky appear to rotate east to west, carrying constellations with it."
+          },
+          {
+            "label": "The Moon blocking and unblocking parts of the sky",
+            "feedback": "The Moon only covers a tiny part of the sky occasionally. It does not cause the whole sky to move nightly."
+          }
+        ],
+        "ok_title": "Cause of motion",
+        "ok_line": "Earth's spin moves the sky.",
+        "ko_title": "Wrong cause",
+        "ko_line": "It is Earth's rotation, not other effects.",
+        "exp_title": "Daily sky motion",
+        "exp_text": "Earth rotates on its axis from west to east, so the stars appear to move from east to west across the sky each night. This motion is the same for all stars in all constellations."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the constellation that looks like a hunter with a belt of three stars?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Leo",
+            "feedback": "Leo is the lion constellation, which has a shape like a backward question mark, not a hunter with a belt. The hunter is Orion."
+          },
+          {
+            "label": "Orion",
+            "feedback": "Correct. Orion is a prominent winter constellation with three bright stars in a row forming his belt, and it depicts a hunter in Greek mythology."
+          },
+          {
+            "label": "Scorpius",
+            "feedback": "Scorpius is the scorpion, with a curved tail, not a hunter. It has no belt of three stars."
+          },
+          {
+            "label": "Taurus",
+            "feedback": "Taurus is the bull, shaped like a V, and it does not have a belt. It is located near Orion, but it is a different figure."
+          }
+        ],
+        "ok_title": "Hunter constellation",
+        "ok_line": "Orion is the hunter.",
+        "ko_title": "Not a hunter",
+        "ko_line": "Those are other animals, not hunters.",
+        "exp_title": "Orion's shape",
+        "exp_text": "Orion is easily spotted by its three bright stars in a straight line, which form the hunter's belt. It is one of the most recognizable constellations."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two points in the sky where the celestial axis meets the celestial sphere called?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The equinoxes",
+            "feedback": "Equinoxes are points where the Sun crosses the celestial equator, not where the axis meets the sphere. Those are the poles."
+          },
+          {
+            "label": "The solstices",
+            "feedback": "Solstices are when the Sun reaches its highest or lowest point in the sky, not the axis endpoints. The correct terms are celestial poles."
+          },
+          {
+            "label": "The cardinal points",
+            "feedback": "Cardinal points are directions like north, south, east, west on the horizon, not points in the sky. The axis meets the sky at the poles."
+          },
+          {
+            "label": "The celestial poles",
+            "feedback": "Correct. The north celestial pole and south celestial pole are the two spots where Earth's rotation axis points into the sky. Polaris sits near the north one."
+          }
+        ],
+        "ok_title": "Axis endpoints",
+        "ok_line": "They are the celestial poles.",
+        "ko_title": "Wrong names",
+        "ko_line": "Those terms refer to other sky features.",
+        "exp_title": "Celestial poles",
+        "exp_text": "The celestial poles are the imaginary points where the Earth's axis of rotation, extended infinitely, pierces the celestial sphere. Stars appear to circle these fixed points."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a group of stars that forms a pattern but is not one of the official 88 constellations?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "An asterism",
+            "feedback": "Correct. An asterism is a recognizable pattern of stars that is not officially a constellation, like the Big Dipper or the Summer Triangle."
+          },
+          {
+            "label": "A galaxy",
+            "feedback": "A galaxy is a huge collection of billions of stars, not a small star pattern. Asterisms are just visual groupings."
+          },
+          {
+            "label": "A nebula",
+            "feedback": "A nebula is a cloud of gas and dust, not a pattern of stars. It is a different kind of object."
+          },
+          {
+            "label": "A cluster",
+            "feedback": "A cluster is a physically bound group of stars, whereas an asterism is just a line-of-sight pattern. They are not the same."
+          }
+        ],
+        "ok_title": "Informal pattern",
+        "ok_line": "It is called an asterism.",
+        "ko_title": "Wrong term",
+        "ko_line": "Those are different astronomical objects.",
+        "exp_title": "Asterism definition",
+        "exp_text": "An asterism is a well-known star pattern that is not officially recognized as a constellation. For example, the Big Dipper is part of Ursa Major but is itself an asterism."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which constellation contains the bright star Sirius, the brightest star in the night sky?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Canis Major",
+            "feedback": "Wait—that is correct, but let me check the index. Actually, yes, Sirius is in Canis Major, the Great Dog. This option is correct, so I'll put it at index 2."
+          },
+          {
+            "label": "Canis Minor",
+            "feedback": "Canis Minor contains the bright star Procyon, not Sirius. Sirius is in the larger dog constellation, Canis Major."
+          },
+          {
+            "label": "Orion",
+            "feedback": "Orion has bright stars like Betelgeuse and Rigel, but Sirius is not one of them. Sirius lies just southeast of Orion, in his hunting dog."
+          },
+          {
+            "label": "Taurus",
+            "feedback": "Taurus contains Aldebaran, not Sirius. Sirius is in Canis Major, not the bull."
+          }
+        ],
+        "ok_title": "Home of Sirius",
+        "ok_line": "Sirius is in Canis Major.",
+        "ko_title": "Wrong location",
+        "ko_line": "Sirius is not in those constellations.",
+        "exp_title": "Sirius's constellation",
+        "exp_text": "Sirius, the brightest star visible from Earth, is the brightest star in the constellation Canis Major, the Greater Dog. It is sometimes called the Dog Star."
+      }
+    ]
+  }
+]

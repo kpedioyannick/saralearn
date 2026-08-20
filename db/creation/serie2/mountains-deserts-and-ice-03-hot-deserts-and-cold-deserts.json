@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 230,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference between a hot desert and a cold desert?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The temperature, with hot deserts being hot year-round and cold deserts having cold winters",
+            "feedback": "Yes, the key difference is temperature: hot deserts stay hot all year, while cold deserts have freezing winters even if summers are mild."
+          },
+          {
+            "label": "The amount of rainfall, with hot deserts getting more rain than cold deserts",
+            "feedback": "Both hot and cold deserts are dry, so rainfall alone does not separate them; temperature is the main distinction."
+          },
+          {
+            "label": "The type of sand, with hot deserts having red sand and cold deserts having white sand",
+            "feedback": "Sand color is not used to classify deserts; the defining difference is temperature, not the color of the ground."
+          },
+          {
+            "label": "The location, with hot deserts near the equator and cold deserts near the poles",
+            "feedback": "Many hot deserts are near 30 degrees latitude, not the equator, and cold deserts can be mid-latitude; the real distinction is temperature."
+          }
+        ],
+        "ok_title": "Hot vs cold",
+        "ok_line": "Temperature separates hot from cold deserts.",
+        "ko_title": "Not rainfall",
+        "ko_line": "Rainfall is similar—both are dry.",
+        "exp_title": "Desert classification",
+        "exp_text": "Hot deserts, like the Sahara, are hot all year, while cold deserts, like the Gobi, have freezing winters. Both are dry, but temperature is the defining feature that tells them apart."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a typical feature of a hot desert landscape?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Thick ice sheets covering the ground",
+            "feedback": "Ice sheets belong to cold deserts like Antarctica, not hot deserts, which have no permanent ice."
+          },
+          {
+            "label": "Dense forests with tall trees",
+            "feedback": "Forests need water; hot deserts are too dry for such growth, so they have sparse vegetation instead."
+          },
+          {
+            "label": "Sand dunes and rocky plateaus",
+            "feedback": "Correct—hot deserts often have sand dunes, rocky plateaus, and gravel plains as common landforms."
+          },
+          {
+            "label": "Glaciers carving valleys",
+            "feedback": "Glaciers are found in cold regions, not hot deserts, which lack the ice needed to form them."
+          }
+        ],
+        "ok_title": "Desert landforms",
+        "ok_line": "Sand dunes and rocky plateaus are classic.",
+        "ko_title": "Not icy",
+        "ko_line": "Ice and glaciers belong to cold places.",
+        "exp_title": "Hot desert features",
+        "exp_text": "Hot deserts are characterized by sand dunes, rocky plateaus, and gravel plains, all shaped by wind and sparse rain, not by ice or dense vegetation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is Antarctica considered a desert even though it is covered in ice?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because the ice is actually frozen saltwater",
+            "feedback": "Antarctica's ice is mostly freshwater from snow, not saltwater; the desert status comes from dryness, not ice type."
+          },
+          {
+            "label": "Because it receives very little precipitation, mostly as snow",
+            "feedback": "Yes, a desert is defined by low precipitation, and Antarctica gets very little, so it qualifies despite being icy."
+          },
+          {
+            "label": "Because it has no living organisms at all",
+            "feedback": "Deserts can support life; Antarctica's desert label is about dryness, not absence of life."
+          },
+          {
+            "label": "Because its temperature never rises above freezing",
+            "feedback": "Temperature alone does not define a desert; many deserts are cold, but the key is very low precipitation."
+          }
+        ],
+        "ok_title": "Dry definition",
+        "ok_line": "Little precipitation makes it a desert.",
+        "ko_title": "Ice not salt",
+        "ko_line": "Ice is freshwater; dryness is the cause.",
+        "exp_title": "Antarctic desert",
+        "exp_text": "A desert is defined by very low precipitation, and Antarctica receives only about 50 mm of snow-water equivalent per year, making it a cold desert despite its thick ice cover."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical temperature pattern in a hot desert over a single day?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Very hot during the day and freezing cold at night",
+            "feedback": "Correct—clear skies and dry air cause rapid heat loss at night, leading to cold temperatures despite the day's heat."
+          },
+          {
+            "label": "Warm during the day and slightly cooler at night",
+            "feedback": "That describes milder climates; hot deserts have extreme swings, often dropping many degrees after sunset."
+          },
+          {
+            "label": "Hot all day and night with little change",
+            "feedback": "Deserts lose heat quickly at night because there is little water vapor or cloud cover to trap warmth."
+          },
+          {
+            "label": "Cold during the day and hot at night",
+            "feedback": "The opposite is true; the sun heats the ground intensely by day, and radiative cooling makes nights cold."
+          }
+        ],
+        "ok_title": "Day-night swing",
+        "ok_line": "Deserts heat by day, freeze by night.",
+        "ko_title": "Not constant",
+        "ko_line": "Rapid cooling happens after sunset.",
+        "exp_title": "Desert temperature range",
+        "exp_text": "In hot deserts, the sun heats the ground intensely during the day, but at night the dry air and clear sky let heat escape rapidly, causing temperatures to plunge, sometimes below freezing."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes a cold desert like the Gobi to have such dry conditions?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is located right on the equator where air rises",
+            "feedback": "The equator is wet and rainy; the Gobi is far north, far from the equator, so this does not apply."
+          },
+          {
+            "label": "It is covered by a thick ice sheet that blocks moisture",
+            "feedback": "The Gobi has no ice sheet; it is a rocky desert, dryness comes from being sheltered from moist winds."
+          },
+          {
+            "label": "It receives heavy rainfall in winter that freezes",
+            "feedback": "The Gobi is dry, not rainy; freezing temperatures do not add moisture, and precipitation is low."
+          },
+          {
+            "label": "It lies in the rain shadow of high mountains",
+            "feedback": "Yes, the Himalayas and other mountains block moist air from reaching the Gobi, leaving it dry."
+          }
+        ],
+        "ok_title": "Rain shadow",
+        "ok_line": "Mountains block moisture from the Gobi.",
+        "ko_title": "Not equatorial",
+        "ko_line": "The Gobi is mid-latitude, not near the equator.",
+        "exp_title": "Gobi dryness",
+        "exp_text": "The Gobi is a cold desert because the high Himalayas and nearby ranges stop moist ocean air from arriving, creating a rain shadow where precipitation is scarce."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do hot deserts and cold deserts have in common?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They both have sandy surfaces everywhere",
+            "feedback": "Many deserts have rock or gravel surfaces; sand is not universal, so this is not a common feature."
+          },
+          {
+            "label": "They both receive very little precipitation",
+            "feedback": "Correct—both types are defined by low precipitation, usually under 250 mm per year."
+          },
+          {
+            "label": "They both have hot summers and cold winters",
+            "feedback": "Hot deserts have hot winters too, so this is not shared by all deserts."
+          },
+          {
+            "label": "They both are found near the equator",
+            "feedback": "Cold deserts often lie at higher latitudes, so location is not a shared trait."
+          }
+        ],
+        "ok_title": "Shared dryness",
+        "ok_line": "Both are dry with little rain.",
+        "ko_title": "Not sand",
+        "ko_line": "Surfaces vary, but dryness does not.",
+        "exp_title": "Desert commonality",
+        "exp_text": "The defining trait of any desert, hot or cold, is very low precipitation. This shared dryness shapes the sparse life and slow erosion in both environments."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which desert is an example of a cold desert?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sahara",
+            "feedback": "The Sahara is a hot desert, not cold, with year-round high temperatures."
+          },
+          {
+            "label": "The Arabian Desert",
+            "feedback": "The Arabian Desert is hot, lying in a tropical band, not cold."
+          },
+          {
+            "label": "The Gobi",
+            "feedback": "Correct—the Gobi is a cold desert with freezing winters and low precipitation."
+          },
+          {
+            "label": "The Kalahari",
+            "feedback": "The Kalahari is a hot desert, with warm temperatures throughout the year."
+          }
+        ],
+        "ok_title": "Cold desert example",
+        "ok_line": "The Gobi is a classic cold desert.",
+        "ko_title": "Hot examples",
+        "ko_line": "Sahara, Arabian, and Kalahari are hot.",
+        "exp_title": "Cold desert regions",
+        "exp_text": "The Gobi, located in Asia, is a cold desert because it has severe winters and receives little precipitation, unlike the hot deserts of Africa and Arabia."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical vegetation like in a hot desert?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sparse plants like cacti and shrubs adapted to drought",
+            "feedback": "Yes, hot deserts have specialized plants that store water and survive long dry periods."
+          },
+          {
+            "label": "Dense evergreen forests with many tree species",
+            "feedback": "Forests require abundant rainfall, which hot deserts lack."
+          },
+          {
+            "label": "Grasslands with tall grasses and scattered trees",
+            "feedback": "Grasslands need more moisture; hot deserts are too dry for such growth."
+          },
+          {
+            "label": "Mosses and lichens covering the ground",
+            "feedback": "Mosses and lichens thrive in moist conditions, not hot deserts."
+          }
+        ],
+        "ok_title": "Desert plants",
+        "ok_line": "Cacti and shrubs survive drought.",
+        "ko_title": "Not forests",
+        "ko_line": "Rain is too scarce for dense growth.",
+        "exp_title": "Hot desert flora",
+        "exp_text": "Hot deserts support sparse vegetation, such as cacti and drought-tolerant shrubs, which have adaptations like thick skins and water storage to survive long dry spells."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does precipitation in a cold desert typically differ from that in a hot desert?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cold deserts get more rain than hot deserts",
+            "feedback": "Both are dry; cold deserts often get even less precipitation, often as snow, not more rain."
+          },
+          {
+            "label": "Cold deserts get all their precipitation as rain",
+            "feedback": "Cold deserts often receive snow, especially in winter, not just rain."
+          },
+          {
+            "label": "Cold deserts have no precipitation at all",
+            "feedback": "They do get some snow and rain, though very little; zero precipitation is not typical."
+          },
+          {
+            "label": "Cold deserts receive less precipitation, often as snow",
+            "feedback": "Correct—cold deserts are usually drier than hot deserts and much of their scant precipitation falls as snow."
+          }
+        ],
+        "ok_title": "Precipitation type",
+        "ok_line": "Cold deserts get snow and very little rain.",
+        "ko_title": "Not more rain",
+        "ko_line": "Cold deserts are often drier, not wetter.",
+        "exp_title": "Desert precipitation",
+        "exp_text": "Cold deserts like the Gobi receive very little precipitation, typically under 250 mm, and much of it comes as snow in winter, making them drier than many hot deserts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical surface material found in many hot deserts?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Thick layers of ice and packed snow",
+            "feedback": "Ice and snow are cold desert features, not hot deserts which have none."
+          },
+          {
+            "label": "Sand, gravel, and bare rock",
+            "feedback": "Yes, hot deserts commonly have sand dunes, gravel plains, and exposed rocky surfaces."
+          },
+          {
+            "label": "Deep, fertile soil rich in organic matter",
+            "feedback": "Deserts lack organic-rich soil because plants are sparse and decomposition is slow."
+          },
+          {
+            "label": "Lush green vegetation covering the ground",
+            "feedback": "Vegetation is sparse in hot deserts, not covering the ground."
+          }
+        ],
+        "ok_title": "Desert surface",
+        "ok_line": "Sand, gravel, and rock dominate.",
+        "ko_title": "No ice or soil",
+        "ko_line": "Hot deserts lack ice and rich topsoil.",
+        "exp_title": "Hot desert ground",
+        "exp_text": "Hot deserts are covered by sand, gravel, and bare rock, shaped by wind erosion and rare rainfall, with little organic soil because vegetation is sparse."
+      }
+    ]
+  }
+]

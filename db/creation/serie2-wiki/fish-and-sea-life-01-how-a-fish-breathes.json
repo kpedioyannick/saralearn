@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 243,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many chambers does a fish's heart have?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Two chambers",
+            "feedback": "Correct. The fish heart has two chambers, and it pumps blood in a single loop through the gills and then around the body."
+          },
+          {
+            "label": "Three chambers",
+            "feedback": "That is not right. A fish's heart has only two chambers, not three. Three-chambered hearts are found in some amphibians and reptiles."
+          },
+          {
+            "label": "Four chambers",
+            "feedback": "Incorrect. Four chambers describe the heart of mammals and birds, not fish. A fish's heart has just two chambers."
+          },
+          {
+            "label": "One chamber",
+            "feedback": "No, a fish's heart has two chambers. With only one chamber, it could not separate the blood coming in from the blood going out."
+          }
+        ],
+        "ok_title": "Two-chambered heart",
+        "ok_line": "A fish's heart has two chambers.",
+        "ko_title": "Incorrect chamber count",
+        "ko_line": "The fish heart has only two chambers, not the number you chose.",
+        "exp_title": "Fish heart structure",
+        "exp_text": "The heart of a fish has two chambers. It pumps blood first to the gills, where oxygen is taken up, and then the same blood continues around the rest of the body in a single loop. That is why the heart only needs two chambers."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does the blood go right after it leaves a fish's heart?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Straight to the brain",
+            "feedback": "That is not correct. The blood does not go to the brain first. It goes to the gills first, where it picks up oxygen, and then it travels around the body."
+          },
+          {
+            "label": "To the gills",
+            "feedback": "Correct. After the heart pumps, the blood passes through the respiratory surfaces of the gills to get oxygen before going around the body."
+          },
+          {
+            "label": "To the stomach",
+            "feedback": "No, the stomach is not the first stop. The blood goes to the gills first to be oxygenated, then it circulates to organs like the stomach."
+          },
+          {
+            "label": "To the tail",
+            "feedback": "Incorrect. The tail receives blood later, not immediately after the heart. The gills get the blood first."
+          }
+        ],
+        "ok_title": "Gills first",
+        "ok_line": "Blood goes from the heart to the gills.",
+        "ko_title": "Wrong first stop",
+        "ko_line": "The heart sends blood to the gills first, not to the organ you picked.",
+        "exp_title": "Blood flow start",
+        "exp_text": "A fish's heart pumps blood to the gills first. The gills are the respiratory surfaces where the blood takes up oxygen from the water. After that, the oxygen-rich blood flows around the rest of the body in the same single loop."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main skeleton of a fish made of?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only hard bone",
+            "feedback": "Not quite. While bony fish have a skeleton of bone, cartilaginous fish like sharks have a skeleton made of cartilage. So the main skeleton is not only bone across all fish."
+          },
+          {
+            "label": "Only soft cartilage",
+            "feedback": "That is only true for cartilaginous fish. Bony fish have a skeleton made of bone, so the answer is not only cartilage."
+          },
+          {
+            "label": "Either cartilage or bone",
+            "feedback": "Correct. A fish's skeleton is made either of cartilage, as in sharks and rays, or of bone, as in bony fish."
+          },
+          {
+            "label": "A mix of bone and shell",
+            "feedback": "No, a fish's skeleton is not made of shell. It is made either of cartilage or of bone, depending on the type of fish."
+          }
+        ],
+        "ok_title": "Cartilage or bone",
+        "ok_line": "Fish skeletons are cartilage or bone.",
+        "ko_title": "Wrong skeleton material",
+        "ko_line": "The fish skeleton is made of either cartilage or bone, not what you chose.",
+        "exp_title": "Two skeleton types",
+        "exp_text": "Fish come in two big groups based on their skeleton. Cartilaginous fish, such as sharks and rays, have a skeleton made of cartilage. Bony fish, which include most common fish, have a skeleton made of bone. So the main skeleton is either cartilage or bone."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a fish's body forms the central support structure?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The vertebral column",
+            "feedback": "Correct. The vertebral column, made of vertebrae, is the main skeletal element of a fish, running along the length of its body and giving support."
+          },
+          {
+            "label": "The skull",
+            "feedback": "Incorrect. The skull supports the head, but the main central support of the whole body is the vertebral column, not the skull."
+          },
+          {
+            "label": "The fins",
+            "feedback": "No, fins are for movement and steering, not for central support. The vertebral column is the main support structure."
+          },
+          {
+            "label": "The gill arches",
+            "feedback": "That is wrong. Gill arches support the gills, not the whole body. The vertebral column is the main skeletal element."
+          }
+        ],
+        "ok_title": "Vertebral column",
+        "ok_line": "The vertebral column is the main support.",
+        "ko_title": "Wrong support structure",
+        "ko_line": "The vertebral column, not the part you chose, is the main support of a fish.",
+        "exp_title": "Central skeleton",
+        "exp_text": "The vertebral column is the main skeletal element of a fish. It is made up of many small bones called vertebrae that are lightweight but strong. All the other parts, like the ribs, attach to it, and it runs from head to tail along the middle of the body."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the fins of a fish made of?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Hard shell plates",
+            "feedback": "No, fins are not made of shell. They are made of either bony or soft spines called rays, not shell plates."
+          },
+          {
+            "label": "Cartilage only",
+            "feedback": "Incorrect. Fins are not made only of cartilage. They are composed of either bony or soft spines called rays."
+          },
+          {
+            "label": "Muscle only",
+            "feedback": "That is wrong. While muscles support the fins from the body, the fin itself is made of spines called rays, not just muscle."
+          },
+          {
+            "label": "Bony or soft spines called rays",
+            "feedback": "Correct. The fins are composed of either bony or soft spines named rays, and these give the fin its shape."
+          }
+        ],
+        "ok_title": "Fin rays",
+        "ok_line": "Fins are made of bony or soft rays.",
+        "ko_title": "Wrong fin material",
+        "ko_line": "Fins are made of bony or soft spines called rays, not what you picked.",
+        "exp_title": "Fin structure",
+        "exp_text": "The fins of a fish are made up of either bony or soft spines, and these are called rays. These rays give the fin its structure and flexibility. With the exception of the tail fin, the fins are not directly connected to the spine; they are supported by the muscles of the trunk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which fin of a fish is directly connected to the spine?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The dorsal fin",
+            "feedback": "Incorrect. The dorsal fin, on the top of the body, is not directly connected to the spine. Only the caudal fin has that direct connection."
+          },
+          {
+            "label": "The caudal fin",
+            "feedback": "Correct. The caudal fin, or tail fin, is the one fin that has a direct connection with the spine."
+          },
+          {
+            "label": "The pectoral fins",
+            "feedback": "No, the pectoral fins on the sides are not directly connected to the spine. Only the caudal fin is connected that way."
+          },
+          {
+            "label": "The pelvic fins",
+            "feedback": "That is wrong. The pelvic fins are not directly attached to the spine. The tail fin is the only fin with that connection."
+          }
+        ],
+        "ok_title": "Tail fin connection",
+        "ok_line": "Only the caudal fin connects to the spine.",
+        "ko_title": "Wrong fin connection",
+        "ko_line": "Only the tail fin, the caudal fin, is directly connected to the spine.",
+        "exp_title": "Caudal fin attachment",
+        "exp_text": "Among all the fins of a fish, only the caudal fin, the tail fin, has a direct connection with the spine. The other fins, such as the dorsal, pectoral, and pelvic fins, have no direct connection with the spine; they are supported by the muscles of the trunk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the lateral line system of a fish detect?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Low-frequency vibrations and nearby movements",
+            "feedback": "Correct. The lateral line running along the sides of a fish detects low-frequency vibrations, responding to nearby movements and changes in water pressure."
+          },
+          {
+            "label": "High-frequency sounds from far away",
+            "feedback": "Incorrect. The lateral line detects low-frequency vibrations, not high-frequency sounds. High-frequency sounds are not mentioned for this system."
+          },
+          {
+            "label": "Colors and light underwater",
+            "feedback": "No, color and light are detected by the eyes, not by the lateral line. The lateral line senses vibrations and pressure changes."
+          },
+          {
+            "label": "Smells in the water",
+            "feedback": "That is wrong. Smell is not detected by the lateral line. The lateral line responds to nearby movements and changes in water pressure."
+          }
+        ],
+        "ok_title": "Lateral line sensing",
+        "ok_line": "It detects low-frequency vibrations and nearby movements.",
+        "ko_title": "Wrong lateral line function",
+        "ko_line": "The lateral line detects vibrations and movement, not what you chose.",
+        "exp_title": "Lateral line role",
+        "exp_text": "The lateral line is a system of sense organs that runs along the length of a fish's sides. It detects low-frequency vibrations and responds to nearby movements and to changes in water pressure. This helps the fish sense what is going on around it in the water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a fish have in its head that lets it hear, besides the lateral line?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "An outer ear",
+            "feedback": "That is not correct. Fish do not have an outer ear. They have an inner ear only, and the lateral line also picks up vibrations."
+          },
+          {
+            "label": "A middle ear",
+            "feedback": "Incorrect. Fish do not have a middle ear. They have an inner ear, but no external or middle ear."
+          },
+          {
+            "label": "An inner ear",
+            "feedback": "Correct. Fish have an inner ear, but they do not have an external or middle ear. The inner ear helps with balance and hearing."
+          },
+          {
+            "label": "No ear at all",
+            "feedback": "That is wrong. Fish do have an inner ear, even though they lack external and middle ears."
+          }
+        ],
+        "ok_title": "Inner ear only",
+        "ok_line": "Fish have an inner ear, no outer or middle.",
+        "ko_title": "Wrong ear structure",
+        "ko_line": "Fish have an inner ear, not the type you chose.",
+        "exp_title": "Fish hearing organs",
+        "exp_text": "Fish have an inner ear, but they do not have an external ear or a middle ear. The inner ear helps them sense balance and possibly hear. Low-frequency vibrations in the water are also picked up by the lateral line, which runs along the sides of the body."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What body shape is common among fast-moving fish?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Filiform, like an eel",
+            "feedback": "Incorrect. The filiform body shape is long and eel-like, but it is not described as the shape for fast-moving fish. Fast-moving fish usually have a fusiform shape."
+          },
+          {
+            "label": "Fusiform, streamlined",
+            "feedback": "Correct. A fusiform body is streamlined, which is often found in fast-moving fish because it reduces drag in the water."
+          },
+          {
+            "label": "Compressed, tall and thin",
+            "feedback": "No, compressed bodies are laterally thin and tall, but that is not what is described as the shape of fast-moving fish. Fast fish tend to be fusiform."
+          },
+          {
+            "label": "Depressed, flattened",
+            "feedback": "That is wrong. Depressed bodies are flattened top-to-bottom, like rays. Fast-moving fish usually have a fusiform, streamlined shape."
+          }
+        ],
+        "ok_title": "Fusiform shape",
+        "ok_line": "Fast fish are often fusiform and streamlined.",
+        "ko_title": "Wrong body shape",
+        "ko_line": "Fast-moving fish are usually fusiform, not the shape you chose.",
+        "exp_title": "Streamlined body",
+        "exp_text": "Many fast-moving fish have a fusiform body, which is streamlined and shaped to cut through water easily. Other body shapes exist, like filiform for eels and worm-shaped, or compressed and depressed, but fusiform is the one linked to speed."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the ribs of a fish attach to?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The skull",
+            "feedback": "No, the ribs do not attach to the skull. They attach to the spine, the vertebral column."
+          },
+          {
+            "label": "The fins",
+            "feedback": "Incorrect. The fins are not the attachment point for ribs. Ribs attach to the spine, not to fins."
+          },
+          {
+            "label": "The gill arches",
+            "feedback": "That is wrong. Ribs do not connect to the gill arches. They attach to the vertebral column."
+          },
+          {
+            "label": "The spine",
+            "feedback": "Correct. The ribs attach to the spine, the vertebral column, which runs through the body."
+          }
+        ],
+        "ok_title": "Ribs to spine",
+        "ok_line": "Fish ribs attach to the spine.",
+        "ko_title": "Wrong rib attachment",
+        "ko_line": "The ribs attach to the spine, not to the part you chose.",
+        "exp_title": "Rib connection",
+        "exp_text": "In a fish, the ribs attach to the spine, which is also called the vertebral column. The spine is the main support structure that runs along the length of the body, and the ribs extend from it to protect the body cavity."
+      }
+    ]
+  }
+]

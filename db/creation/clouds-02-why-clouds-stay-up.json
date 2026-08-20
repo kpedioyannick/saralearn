@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 112,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't the water in a cloud simply fall straight to the ground, given that water is far denser than air?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because cloud droplets weigh less than the air holding them up",
+            "feedback": "Water is roughly a thousand times denser than air; a droplet is never lighter than the air around it, whatever its size."
+          },
+          {
+            "label": "Because the water is somehow attached to the cloud's edges",
+            "feedback": "A cloud has no edges strong enough to hold anything; droplets drift freely through it and are replaced constantly."
+          },
+          {
+            "label": "Because each droplet is so small that air resistance overwhelms its weight",
+            "feedback": "At that size, drag matters far more than gravity, so a droplet sinks at a crawl instead of a fall."
+          },
+          {
+            "label": "Because a magnetic pull between droplets and the air keeps them apart",
+            "feedback": "There's no magnetism involved in an ordinary droplet or in ordinary air; nothing about either one is magnetic."
+          }
+        ],
+        "ok_title": "Small enough to float",
+        "ok_line": "Size decides who wins between gravity and drag.",
+        "ko_title": "Not weightless, just tiny",
+        "ko_line": "The droplet is still being pulled down. Ask what is pushing back just as hard.",
+        "exp_title": "Too small to fall fast",
+        "exp_text": "Gravity pulls on a cloud droplet exactly as it pulls on any drop of water, but a droplet only a few thousandths of a millimetre across has an enormous amount of surface for how little it weighs, and air resistance acts on that surface. For something that small, drag very nearly cancels out gravity's pull, so instead of dropping it sinks at a pace so slow that any gentle stirring of the air carries it back up again. That is the balance that lets a whole cloud sit in the sky without falling."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What part do rising currents of air (updrafts) play inside a cloud that has not yet started to rain?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "They cool the droplets so they don't evaporate",
+            "feedback": "Evaporation is driven by dryness in the surrounding air, not by temperature alone; updrafts don't work by cooling droplets."
+          },
+          {
+            "label": "They push the whole cloud sideways across the sky",
+            "feedback": "Sideways movement of a cloud comes from the general wind carrying the air mass along, not from the vertical currents inside it."
+          },
+          {
+            "label": "They freeze the droplets solid so they stop sinking",
+            "feedback": "Most cloud droplets stay liquid well below freezing; an updraft doesn't work by turning them to ice."
+          },
+          {
+            "label": "They carry air upward fast enough to counter the droplets' slow sinking",
+            "feedback": "An updraft rising as fast as, or faster than, a droplet sinks leaves that droplet no closer to the ground."
+          }
+        ],
+        "ok_title": "Matching speeds",
+        "ok_line": "A droplet going nowhere is really two motions cancelling out.",
+        "ko_title": "Not cooling, not freezing",
+        "ko_line": "An updraft is a current of moving air. What does moving air do to something sinking through it?",
+        "exp_title": "A current that cancels the fall",
+        "exp_text": "A cloud droplet is always sinking, however slowly, under its own weight. Inside a growing cloud, though, air is also rising -- sometimes gently, sometimes forcefully -- carried upward by the same buoyancy that built the cloud in the first place. Where that upward current moves as fast as or faster than the droplet's own slow sinking, the droplet is carried back up as quickly as it falls, and it can drift there for a long time before conditions change."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a cloud tend to keep roughly the same shape for a while, even though the water making it up isn't a fixed batch?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Droplets keep evaporating at its edges while new ones form inside",
+            "feedback": "The outline holds steady not because it's static but because losses and gains keep happening at about the same rate."
+          },
+          {
+            "label": "The droplets are held together by a thin outer skin",
+            "feedback": "Nothing wraps around a cloud from outside; each droplet floats independently in the surrounding air."
+          },
+          {
+            "label": "Every droplet in the cloud is exactly the same age",
+            "feedback": "New droplets are forming and old ones evaporating continuously, so the droplets inside a cloud are all different ages at once."
+          },
+          {
+            "label": "Once formed, the droplets never move again",
+            "feedback": "Droplets circulate constantly with the currents of air rising and sinking through the cloud; nothing about them is still."
+          }
+        ],
+        "ok_title": "Steady in outline, not in substance",
+        "ok_line": "The cloud is a balance being renewed, not a block staying put.",
+        "ko_title": "It only looks unchanging",
+        "ko_line": "Ask what's happening where the cloud meets the drier air around it.",
+        "exp_title": "A shape held by turnover",
+        "exp_text": "At a cloud's ragged edge, its droplets keep drifting into surrounding air that is too dry to be saturated, and there they evaporate back into invisible vapour within moments. At the same time, moist air is still rising through the cloud's interior, cooling past its dew point and condensing fresh droplets to replace exactly the ones being lost at the margins. The outline you see holds its shape not because nothing is changing, but because loss at the edge and gain within roughly balance out."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a lone droplet inside a cloud almost stop growing once vapour has already condensed onto it a little?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It has used up all the vapour in the whole cloud",
+            "feedback": "A single droplet is nowhere near large enough to exhaust the vapour supply for an entire cloud; plenty remains around it."
+          },
+          {
+            "label": "Its surface grows too slowly, relative to its size, for more vapour to add much",
+            "feedback": "Past a certain size, direct condensation adds so little that growing further this way would take an unreasonable stretch of time."
+          },
+          {
+            "label": "It becomes too heavy for more vapour to stick to it",
+            "feedback": "Weight has nothing to do with whether vapour can condense onto a surface; a heavier droplet accepts vapour just as easily as a light one."
+          },
+          {
+            "label": "The air around it turns instantly dry",
+            "feedback": "The air doesn't dry out around one droplet in particular; the surrounding moisture stays available to any droplet nearby."
+          }
+        ],
+        "ok_title": "Growth by condensation stalls",
+        "ok_line": "A bigger droplet needs proportionally more vapour just to grow the same amount further.",
+        "ko_title": "Not starved, not too heavy",
+        "ko_line": "Compare how much surface a droplet gains against how much bigger it needs to get.",
+        "exp_title": "Condensation runs out of usefulness",
+        "exp_text": "A droplet grows by taking on vapour across its surface, but as it gets bigger its volume grows much faster than its surface does, so each further step in size needs proportionally more vapour landing on relatively less surface to achieve it. Beyond a certain small size, this direct condensation becomes far too slow to explain how quickly real droplets go on to grow into raindrops. Past that point, a droplet's further growth depends on colliding and merging with other droplets rather than on more vapour condensing onto it alone."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a cloud eventually give up its water as rain rather than holding it up indefinitely?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The whole cloud eventually loses its updraft all at once",
+            "feedback": "A cloud's updraft can weaken, but rain often begins well before that happens, driven by something happening to the droplets themselves."
+          },
+          {
+            "label": "Sunlight breaks the droplets apart into rain-sized pieces",
+            "feedback": "Sunlight has no such effect on a water droplet; light passes through or reflects off it without shattering it."
+          },
+          {
+            "label": "Some droplets collide and merge with others until they're heavy enough to fall",
+            "feedback": "Once a droplet is large enough that gravity finally beats the drag holding it up, it falls -- and keeps colliding with smaller droplets in its path as it goes, growing heavier still."
+          },
+          {
+            "label": "The cloud simply runs out of room for more droplets",
+            "feedback": "A cloud isn't a container with a fixed capacity; new droplets and vapour keep moving through it as long as conditions allow."
+          }
+        ],
+        "ok_title": "Merging changes everything",
+        "ok_line": "A big enough droplet finally outweighs the drag that was holding the small ones up.",
+        "ko_title": "Not sunlight, not a full cloud",
+        "ko_line": "Ask what has to happen between two droplets before either one can fall.",
+        "exp_title": "Big enough to win against the air",
+        "exp_text": "Droplets of slightly different sizes fall through a cloud at slightly different speeds, so a larger droplet sinking a little faster runs into smaller ones in its path and swallows them on contact. Each collision leaves a bigger droplet behind, and a bigger droplet keeps winning more collisions as it goes, snowballing in size the further it travels through the cloud. Once it is heavy enough that gravity's pull finally exceeds the air resistance that once held it up, it falls all the way to the ground as rain."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why can a powerful updraft inside a building storm cloud keep even fairly large droplets from falling?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Large droplets weigh less than small ones inside a strong updraft",
+            "feedback": "Weight doesn't change depending on the strength of the air current around a droplet; a larger droplet is always heavier than a smaller one."
+          },
+          {
+            "label": "The droplets freeze and become lighter than liquid water",
+            "feedback": "Ice is very slightly less dense than liquid water, but the difference is far too small to explain floating against a real updraft; the current itself is doing the work."
+          },
+          {
+            "label": "The cloud's air pressure pushes them upward from below",
+            "feedback": "It's the motion of the rising air, not a difference in pressure pushing on the droplet, that carries a droplet upward."
+          },
+          {
+            "label": "The upward speed of the air can still exceed the droplet's own falling speed",
+            "feedback": "As long as the air itself is rising faster than the droplet would otherwise sink, the droplet is carried along with it."
+          }
+        ],
+        "ok_title": "Speed against speed, again",
+        "ok_line": "Even a heavier droplet loses this contest if the air beneath it is moving up fast enough.",
+        "ko_title": "Not lighter, not pushed by pressure",
+        "ko_line": "The same balance from a calm cloud still applies here -- just with much faster air on both sides.",
+        "exp_title": "A stronger current, a bigger droplet",
+        "exp_text": "A larger droplet does sink faster than a small one, since its weight has grown more than its surface has. But the updrafts inside a vigorously building storm cloud can be forceful enough to rise faster still, and as long as that is true, the droplet is carried upward along with the current rather than sinking through it. Only once the droplet grows heavier than even that strong updraft can support, or the updraft itself weakens, does gravity finally take over."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does fog at ground level not fall to the earth the way rain does, even though it's made of essentially the same kind of droplets as a cloud?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Fog droplets are just as small as cloud droplets, so drag holds them up the same way",
+            "feedback": "Being close to the ground changes nothing about the size of a droplet, and size is what decides whether it falls freely or drifts."
+          },
+          {
+            "label": "Fog is a gas, unlike the liquid water in a cloud",
+            "feedback": "Fog is made of the same tiny liquid droplets as any low cloud; nothing about being near the ground turns it back into a gas."
+          },
+          {
+            "label": "The ground pushes air upward to hold the fog in place",
+            "feedback": "Cool, still ground-level air tends to sink rather than rise, and fog forms and lingers in exactly that kind of air."
+          },
+          {
+            "label": "Fog droplets are electrically charged and repel the ground",
+            "feedback": "There's no meaningful electrical repulsion involved; a droplet drifting near the ground behaves under gravity and drag exactly as one higher up does."
+          }
+        ],
+        "ok_title": "Same droplet, same physics",
+        "ok_line": "Nothing about being close to the ground changes what holds a tiny droplet up.",
+        "ko_title": "It isn't a gas, and nothing is holding it there",
+        "ko_line": "Fog is a cloud that happens to be touching the ground. Ask what keeps any cloud's droplets up.",
+        "exp_title": "A cloud that happens to touch the ground",
+        "exp_text": "Fog forms by exactly the same process as any other cloud -- air cooling to its dew point and condensing tiny droplets -- the only difference is that this happens right at ground level instead of higher up. Those droplets are just as small as the ones in a cloud overhead, so the same balance between their slight weight and the air resistance around them keeps them drifting rather than falling. It takes the same kind of growth, through collision and merging, to turn fog into drizzle as it does to turn a cloud into rain."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does wind carrying a cloud across the sky not tear its droplets apart in the process?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The droplets are too heavy for wind to move",
+            "feedback": "A droplet is astonishingly light for its size, and it moves with the surrounding air far more readily than something heavy would."
+          },
+          {
+            "label": "The droplets simply ride along inside the moving body of air",
+            "feedback": "Wind moves the air as a whole, and each droplet drifts within it exactly as any lightweight speck would, without being pulled apart."
+          },
+          {
+            "label": "Wind only moves the outer surface of a cloud",
+            "feedback": "Wind moves an entire mass of air together, from its outer surface right through its interior, not just a thin outer layer."
+          },
+          {
+            "label": "The droplets briefly turn to vapour and reform once the wind passes",
+            "feedback": "Droplets don't evaporate and reappear on this kind of schedule; wind carries them along as droplets the whole time."
+          }
+        ],
+        "ok_title": "Passengers in the moving air",
+        "ok_line": "A droplet has no more reason to resist the wind than any other tiny thing suspended in it.",
+        "ko_title": "Not too heavy, not just the surface",
+        "ko_line": "Ask what wind actually is, and where a droplet sits relative to it.",
+        "exp_title": "Carried, not fought",
+        "exp_text": "Wind is simply air itself in motion, and a cloud droplet is suspended within that air rather than attached to any fixed point in the sky. As the whole body of air moves, every droplet inside it moves along with it, in the same direction and at very nearly the same speed, the way a speck of dust travels with a draught rather than getting left behind by it. The cloud appears to travel across the sky as one shape because the droplets making it up, old ones evaporating and new ones forming, are all riding the same current together."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the ragged edge of a cloud often look thin and wispy compared with its denser interior?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The droplets at the edge are frozen while the interior stays liquid",
+            "feedback": "Both the edge and the interior of most clouds are made of the same kind of droplet; freezing isn't what thins out the edge."
+          },
+          {
+            "label": "Wind physically stretches the droplets thinner at the edge",
+            "feedback": "Wind can stretch and shear the visible shape of a cloud, but it doesn't thin out individual droplets -- it disperses them."
+          },
+          {
+            "label": "The edge is where droplets are mixing with drier surrounding air and evaporating",
+            "feedback": "Fewer droplets survive there, which is exactly why that part of a cloud always looks thinner and less solid."
+          },
+          {
+            "label": "Sunlight bleaches the droplets at the edge",
+            "feedback": "Sunlight doesn't alter a water droplet's appearance in this way; the same droplets look identical whether lit directly or in shadow."
+          }
+        ],
+        "ok_title": "Thin because it's disappearing",
+        "ok_line": "The wispy look is droplets in the middle of vanishing, not a different kind of droplet.",
+        "ko_title": "Not freezing, not stretching, not bleaching",
+        "ko_line": "Ask what's different about the air just outside the cloud's outline.",
+        "exp_title": "Where the cloud is losing, not gaining",
+        "exp_text": "Just beyond a cloud's outline sits air that hasn't reached saturation, and wherever the cloud's edge mixes into that drier air, its droplets begin evaporating back into invisible vapour. Because that evaporation is still in progress rather than finished, the edge is left with fewer droplets scattered more thinly than the packed, actively condensing interior. The wispy look of a cloud's margin is really droplets caught mid-vanish, thinning out toward nothing."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't a growing cloud simply keep collecting more and more droplets forever, without ever raining?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the sky can only hold a fixed number of clouds at once",
+            "feedback": "There's no such limit on how many clouds can exist or how large one can grow; the sky imposes no ceiling of that kind."
+          },
+          {
+            "label": "Because sunlight eventually destroys the oldest droplets",
+            "feedback": "Sunlight doesn't destroy droplets on any such schedule; a cloud's lifetime isn't set by how long light has shone on it."
+          },
+          {
+            "label": "Because wind always breaks a cloud apart before it grows too heavy",
+            "feedback": "Many clouds do get sheared apart by wind, but plenty of others grow undisturbed until something else -- not wind -- brings them down as rain."
+          },
+          {
+            "label": "Because droplets keep colliding and growing until some finally get too heavy to stay aloft",
+            "feedback": "That growth by collision doesn't pause; it simply keeps producing bigger droplets until gravity starts winning."
+          }
+        ],
+        "ok_title": "Growth has a natural end point",
+        "ok_line": "Every collision is a small step toward a droplet gravity can finally beat drag with.",
+        "ko_title": "Not a limit, not sunlight, not always wind",
+        "ko_line": "Ask what keeps happening to droplets, collision after collision, as a cloud ages.",
+        "exp_title": "Collecting itself becomes the end",
+        "exp_text": "Inside a maturing cloud, droplets are constantly colliding and merging as they drift past each other at slightly different speeds, and each merger produces one droplet a little larger than the two that made it. That growth doesn't level off on its own; it goes on for as long as the cloud persists, steadily shifting the balance among its droplets toward fewer, larger ones. Sooner or later some of those droplets cross the size where gravity finally outweighs the air resistance holding them up, and the cloud begins losing its water as rain."
+      }
+    ]
+  }
+]

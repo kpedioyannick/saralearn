@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 232,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the moment when the tidal current stops and then reverses direction?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Slack water",
+            "feedback": "Correct. Slack water is the moment when the tidal current ceases, and it is usually near high or low tide."
+          },
+          {
+            "label": "Flooding",
+            "feedback": "Flooding is when sea level rises over several hours, covering the intertidal zone, not a pause in the current."
+          },
+          {
+            "label": "Ebbing",
+            "feedback": "Ebbing is when sea level falls over several hours, revealing the intertidal zone, not a pause in the current."
+          },
+          {
+            "label": "Turning",
+            "feedback": "Turning describes the tide reversing direction after slack water, but the moment of cessation itself is called slack water."
+          }
+        ],
+        "ok_title": "Cessation of current",
+        "ok_line": "Slack water is when the tidal current stops, ready to reverse.",
+        "ko_title": "Tidal stages confuse",
+        "ko_line": "Remember slack water is a pause, not a rise or fall.",
+        "exp_title": "Tidal current halt",
+        "exp_text": "Slack water is the moment when the tidal current ceases and then reverses. It usually occurs near high water and low water, marking the pause between flood and ebb."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How many high tides and low tides does a semi-diurnal tide have in one day?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "One high tide and one low tide",
+            "feedback": "That describes a diurnal tide, with one tidal cycle per day, not a semi-diurnal one."
+          },
+          {
+            "label": "Two high tides and two low tides",
+            "feedback": "Correct. Semi-diurnal tides have two high waters and two low waters each day."
+          },
+          {
+            "label": "Two high tides and one low tide",
+            "feedback": "A semi-diurnal tide always pairs highs with lows; the two high waters are accompanied by two low waters."
+          },
+          {
+            "label": "One high tide and two low tides",
+            "feedback": "That would be unbalanced and not how tides work; semi-diurnal means two of each."
+          }
+        ],
+        "ok_title": "Daily tidal rhythm",
+        "ok_line": "Semi-diurnal tides bring two highs and two lows each day.",
+        "ko_title": "Count the cycles",
+        "ko_line": "Semi- means two, so you get two highs and two lows.",
+        "exp_title": "Semi-diurnal tide",
+        "exp_text": "A semi-diurnal tide is the most common pattern, giving two high waters and two low waters each day. The two highs are not necessarily the same height, just as the two lows can differ."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which celestial body is primarily responsible for the ocean tides?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The Sun alone",
+            "feedback": "The Sun does affect tides, but its influence is weaker than the Moon's because it is so far away."
+          },
+          {
+            "label": "The planets",
+            "feedback": "Planets are too small and too distant to cause tides on Earth; the main bodies are the Moon and the Sun."
+          },
+          {
+            "label": "The Moon",
+            "feedback": "Correct. The Moon's gravitational pull, combined with Earth's rotation, is the primary cause of tides."
+          },
+          {
+            "label": "The stars",
+            "feedback": "Stars are far too distant to have any noticeable tidal effect on Earth's oceans."
+          }
+        ],
+        "ok_title": "Main tidal driver",
+        "ok_line": "The Moon is the primary cause of ocean tides.",
+        "ko_title": "Sun not first",
+        "ko_line": "The Moon's nearness makes its pull stronger than the Sun's.",
+        "exp_title": "Moon's pull",
+        "exp_text": "Tides are mainly caused by the Moon's gravitational force, with the Sun contributing a secondary effect. The Moon's proximity to Earth makes its tidal influence larger than the Sun's, despite the Sun being much more massive."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the average sea level used as a reference for measuring tides?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Highest astronomical tide",
+            "feedback": "That is the highest predicted tide, not the average level; mean sea level is the average."
+          },
+          {
+            "label": "Lowest astronomical tide",
+            "feedback": "That is the lowest predicted tide, far below the average; mean sea level lies in between."
+          },
+          {
+            "label": "Mean high water springs",
+            "feedback": "That is the average of the two high tides on spring days, a specific tide level, not the overall average sea level."
+          },
+          {
+            "label": "Mean sea level",
+            "feedback": "Correct. Mean sea level is the average sea level, constant for a location over a long period and used as a datum."
+          }
+        ],
+        "ok_title": "Reference tide level",
+        "ok_line": "Mean sea level is the average sea level used as a baseline.",
+        "ko_title": "Not extreme levels",
+        "ko_line": "Mean sea level is the average, not the highest or lowest.",
+        "exp_title": "Tide datum",
+        "exp_text": "Mean sea level (MSL) is the average sea level at a location over a long time. It serves as the reference level against which tide heights are compared."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "During which moon phases do spring tides occur?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "New moon and full moon",
+            "feedback": "Correct. Spring tides happen around new and full moon when the Sun, Moon, and Earth line up."
+          },
+          {
+            "label": "First quarter and third quarter",
+            "feedback": "Those phases give neap tides, when the Sun and Moon are at right angles and partially cancel each other."
+          },
+          {
+            "label": "Only new moon",
+            "feedback": "Spring tides also occur at full moon, not just new moon; both are syzygy configurations."
+          },
+          {
+            "label": "Only full moon",
+            "feedback": "Spring tides also occur at new moon; the alignment matters, not the specific phase."
+          }
+        ],
+        "ok_title": "Spring tide timing",
+        "ok_line": "Spring tides occur at new and full moon when the bodies align.",
+        "ko_title": "Quadrature gives neaps",
+        "ko_line": "Quarter moons give neap tides, not spring tides.",
+        "exp_title": "Syzygy alignment",
+        "exp_text": "Spring tides happen about twice a month, when the Sun, Moon, and Earth form a straight line, called syzygy. This occurs at new moon and full moon, and the tidal range is at its maximum."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is the lunar day longer than the solar day?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The Moon orbits opposite to Earth's rotation",
+            "feedback": "The Moon orbits in the same direction as Earth spins, not opposite, which is why the lunar day is longer."
+          },
+          {
+            "label": "The Moon orbits in the same direction as Earth rotates",
+            "feedback": "Correct. Because the Moon moves in the same direction as Earth's spin, Earth must rotate a bit more to catch up to the Moon."
+          },
+          {
+            "label": "The Moon is much farther away than the Sun",
+            "feedback": "Distance does not make the lunar day longer; it is the Moon's orbital motion relative to Earth's rotation that matters."
+          },
+          {
+            "label": "The Moon does not move at all",
+            "feedback": "The Moon does orbit Earth, and that motion is why the lunar day is longer than the solar day."
+          }
+        ],
+        "ok_title": "Lunar vs solar day",
+        "ok_line": "The lunar day is longer because the Moon moves in the same direction as Earth's spin.",
+        "ko_title": "Orbital direction key",
+        "ko_line": "The Moon's same-direction orbit adds extra time to the lunar day.",
+        "exp_title": "Longer lunar day",
+        "exp_text": "The lunar day lasts about 24 hours and 50 minutes, longer than the solar day. This happens because the Moon orbits Earth in the same direction as Earth rotates, so Earth must rotate a little more for the Moon to return to the same position in the sky."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate period of the principal lunar semi-diurnal constituent, M2?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "24 hours",
+            "feedback": "That is a full day, but M2 is about half a tidal lunar day, giving roughly 12 hours and 25 minutes."
+          },
+          {
+            "label": "24 hours and 50 minutes",
+            "feedback": "That is the length of a full lunar day, not the M2 constituent, which is half of that."
+          },
+          {
+            "label": "12 hours and 25.2 minutes",
+            "feedback": "Correct. M2 has a period of about 12 hours and 25.2 minutes, half a lunar day."
+          },
+          {
+            "label": "6 hours",
+            "feedback": "That is too short; the M2 period is close to half a day, not a quarter of a day."
+          }
+        ],
+        "ok_title": "M2 period",
+        "ok_line": "M2 repeats every 12 hours and 25 minutes.",
+        "ko_title": "Half lunar day",
+        "ko_line": "M2 is half the lunar day, so it is about 12.4 hours.",
+        "exp_title": "Principal tidal constituent",
+        "exp_text": "The M2 tidal constituent is the largest in most locations, with a period of about 12 hours and 25.2 minutes. This matches half a lunar day, the time between successive high tides in many places."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the tidal range when the Moon is at perigee?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The range decreases",
+            "feedback": "At perigee the Moon is closest, so the pull is stronger and the range increases, not decreases."
+          },
+          {
+            "label": "The range stays the same",
+            "feedback": "Distance changes the tidal force; closer means a larger range, so it does not stay constant."
+          },
+          {
+            "label": "The range becomes zero",
+            "feedback": "The range never becomes zero; perigee actually makes the range larger."
+          },
+          {
+            "label": "The range increases",
+            "feedback": "Correct. At perigee, the Moon is closest to Earth, so the gravitational pull is stronger and the tidal range grows."
+          }
+        ],
+        "ok_title": "Perigee effect",
+        "ok_line": "At perigee the tidal range increases because the Moon is closer.",
+        "ko_title": "Closer means stronger",
+        "ko_line": "Perigee brings the Moon closer, raising the tidal range.",
+        "exp_title": "Lunar distance influence",
+        "exp_text": "The distance between the Moon and Earth affects tide heights. When the Moon is at perigee, its closest point, the tidal range is larger; at apogee, the farthest point, the range is smaller."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is a reference tide level defined as the highest tide that can be predicted?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Highest astronomical tide (HAT)",
+            "feedback": "Correct. HAT is the highest tide that can be predicted, not including extra height from weather."
+          },
+          {
+            "label": "Mean high water springs (MHWS)",
+            "feedback": "This is the average of the two high tides on spring days, not the absolute highest possible tide."
+          },
+          {
+            "label": "Mean sea level (MSL)",
+            "feedback": "MSL is the average sea level, far below the highest possible tide."
+          },
+          {
+            "label": "Lower high water",
+            "feedback": "Lower high water is one of the day's two high tides, not the highest predicted ever."
+          }
+        ],
+        "ok_title": "Highest predicted tide",
+        "ok_line": "HAT is the highest tide that can be predicted for a location.",
+        "ko_title": "Not an average",
+        "ko_line": "HAT is the extreme high, not the mean or average high.",
+        "exp_title": "Reference tide levels",
+        "exp_text": "The highest astronomical tide (HAT) is the tallest tide that can be predicted to occur. Meteorological conditions can add extra height, but the level itself is set by astronomical influences."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the term for the difference in height between high water and low water over about half a day?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Tidal stream",
+            "feedback": "A tidal stream is the oscillating current produced by tides, not the height difference."
+          },
+          {
+            "label": "Semi-diurnal range",
+            "feedback": "Correct. The semi-diurnal range is the difference in height between high and low waters over about half a day."
+          },
+          {
+            "label": "Daily inequality",
+            "feedback": "Daily inequality refers to the difference in height between the two high waters or the two low waters of a day, not the range."
+          },
+          {
+            "label": "Slack water",
+            "feedback": "Slack water is when the current stops, unrelated to the height difference between high and low."
+          }
+        ],
+        "ok_title": "Tide range",
+        "ok_line": "The semi-diurnal range is the height gap between high and low water.",
+        "ko_title": "Range vs current",
+        "ko_line": "Range is a height difference, not a current or inequality.",
+        "exp_title": "Semi-diurnal range",
+        "exp_text": "The semi-diurnal range is the difference in water height between high and low tides over about half a day. This range varies over a two-week cycle, being largest at spring tides and smallest at neap tides."
+      }
+    ]
+  }
+]

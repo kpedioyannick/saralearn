@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 235,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the distinct leaf types found on a single fern plant?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Spores and sori",
+            "feedback": "Spores and sori are the reproductive structures that develop on the fertile fronds, not leaf types themselves."
+          },
+          {
+            "label": "Megaphylls and microphylls",
+            "feedback": "Ferns have only megaphylls; microphylls belong to clubmosses, a different group of plants."
+          },
+          {
+            "label": "Sporophylls and trophophylls",
+            "feedback": "Correct: sporophylls are the fertile fronds that produce spores, while trophophylls are the sterile fronds that do not, as seen in some fern families."
+          },
+          {
+            "label": "Pinnae and pinnules",
+            "feedback": "Pinnae and pinnules are the subdivisions of a single frond, not whole leaves on the plant."
+          }
+        ],
+        "ok_title": "Two frond types",
+        "ok_line": "Ferns can carry both spore-producing and purely green fronds.",
+        "ko_title": "Leaf division mix-up",
+        "ko_line": "The names for leaf parts are different from the names for whole leaves.",
+        "exp_title": "Fern leaf roles",
+        "exp_text": "A fern may produce two kinds of fronds: sporophylls, which are fertile and bear the sporangia, and trophophylls, which are sterile and only photosynthesize. This division is common in families like the Blechnaceae."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the fern's underground stem?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Rhizome",
+            "feedback": "Correct: the stem of a fern is often called a rhizome, even though it only grows underground in some species."
+          },
+          {
+            "label": "Stipe",
+            "feedback": "The stipe is the main stalk connecting the leaf to the stem, not the underground stem itself."
+          },
+          {
+            "label": "Prothallus",
+            "feedback": "The prothallus is the heart-shaped gametophyte, a separate small plant in the fern's life cycle."
+          },
+          {
+            "label": "Sorus",
+            "feedback": "A sorus is a cluster of sporangia on a fertile frond, not a part of the stem."
+          }
+        ],
+        "ok_title": "Fern stem alias",
+        "ok_line": "The creeping underground part is the rhizome.",
+        "ko_title": "Stem vs. leaf parts",
+        "ko_line": "The stipe and sori belong to the frond, not the stem.",
+        "exp_title": "Underground stem",
+        "exp_text": "The stem of a fern is often called a rhizome. It grows underground in some species, but in others it creeps above ground as a stolon or stands erect as a trunk."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the structures on a fern frond that actually produce spores?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Rhizoids",
+            "feedback": "Rhizoids are root-like structures on the gametophyte that anchor it, not spore producers."
+          },
+          {
+            "label": "Antheridia",
+            "feedback": "Antheridia produce male gametes on the prothallus, not spores on the frond."
+          },
+          {
+            "label": "Archegonia",
+            "feedback": "Archegonia hold the egg on the prothallus, not spores on the frond."
+          },
+          {
+            "label": "Sporangia",
+            "feedback": "Correct: sporangia are the cases that hold spores, and they cluster together in sori on the underside of fertile fronds."
+          }
+        ],
+        "ok_title": "Spore-making organs",
+        "ok_line": "Each sporangium is a tiny spore case.",
+        "ko_title": "Gamete vs. spore parts",
+        "ko_line": "Antheridia and archegonia belong to the gametophyte, not the spore-producing frond.",
+        "exp_title": "Sporangia and sori",
+        "exp_text": "Spores are born in sporangia, which usually cluster into groups called sori on the underside of fertile fronds. A protective covering called an indusium may shield them."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the protective cover that can shield a fern's sporangia?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Sorus",
+            "feedback": "A sorus is the cluster of sporangia itself, not the cover over it."
+          },
+          {
+            "label": "Indusium",
+            "feedback": "Correct: the indusium is a protective coating that may cover the sporangia in some ferns."
+          },
+          {
+            "label": "Pinna",
+            "feedback": "A pinna is a leaflet of the frond, not a cover for sporangia."
+          },
+          {
+            "label": "Crozier",
+            "feedback": "A crozier is the coiled young frond before it unrolls, not a cover."
+          }
+        ],
+        "ok_title": "Spore case shield",
+        "ok_line": "The indusium hides the sporangia.",
+        "ko_title": "Cover vs. cluster",
+        "ko_line": "The sorus is the cluster, the indusium is what may cover it.",
+        "exp_title": "Indusium role",
+        "exp_text": "In some ferns, the sporangia are covered by a thin protective layer called an indusium. This shield is part of the frond and helps safeguard the developing spores."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the gametophyte of a fern called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Sporophyll",
+            "feedback": "A sporophyll is a fertile frond that makes spores, not the gametophyte."
+          },
+          {
+            "label": "Sporangium",
+            "feedback": "A sporangium is a spore case on the sporophyte, not the gametophyte."
+          },
+          {
+            "label": "Prothallus",
+            "feedback": "Correct: the gametophyte is a small, free-living, heart- or kidney-shaped structure called a prothallus."
+          },
+          {
+            "label": "Rhizome",
+            "feedback": "The rhizome is the stem of the sporophyte, not a gametophyte."
+          }
+        ],
+        "ok_title": "Heart-shaped gametophyte",
+        "ok_line": "The prothallus is the fern's gametophyte.",
+        "ko_title": "Gametophyte confusion",
+        "ko_line": "The prothallus is not a spore-producing part of the adult fern.",
+        "exp_title": "Prothallus description",
+        "exp_text": "The fern gametophyte is a small, green, photosynthetic structure called a prothallus. It is usually heart- or kidney-shaped, about 3–10 mm long, and produces the gametes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the fern root system look like?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Fibrous",
+            "feedback": "Correct: fern roots are always fibrous, with many thin roots rather than one thick taproot."
+          },
+          {
+            "label": "A single taproot",
+            "feedback": "Ferns do not have a central taproot; their roots are always fibrous."
+          },
+          {
+            "label": "No roots at all",
+            "feedback": "Ferns have underground roots that take up water and nutrients; they do have roots."
+          },
+          {
+            "label": "Rhizoids instead",
+            "feedback": "Rhizoids are on the gametophyte prothallus, not on the adult sporophyte's roots."
+          }
+        ],
+        "ok_title": "Fern root shape",
+        "ok_line": "Fern roots are always thin and fibrous.",
+        "ko_title": "Root structure mix-up",
+        "ko_line": "Taproots and rhizoids belong to other plants or stages.",
+        "exp_title": "Fibrous root system",
+        "exp_text": "Ferns have underground, non-photosynthetic roots that are always fibrous. They are structurally very similar to the roots of seed plants and take up water and nutrients from the soil."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a fern leaf that is divided so deeply that the segments are completely separate?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Pinnatifid",
+            "feedback": "Pinnatifid means the segments are only partially separated, still connected along the midrib."
+          },
+          {
+            "label": "Pinnate",
+            "feedback": "Correct: when the leaf segments are completely separated from one another, the frond is pinnate."
+          },
+          {
+            "label": "Bipinnate",
+            "feedback": "Bipinnate means the frond is divided twice, not just once."
+          },
+          {
+            "label": "Tripinnate",
+            "feedback": "Tripinnate means the frond branches three times, not once."
+          }
+        ],
+        "ok_title": "Fully divided frond",
+        "ok_line": "Pinnate leaves have completely separate segments.",
+        "ko_title": "Depth of division",
+        "ko_line": "Pinnatifid, bipinnate and tripinnate describe other degrees of cutting.",
+        "exp_title": "Pinnate definition",
+        "exp_text": "A pinnate fern frond has its leaf segments completely separated from one another, unlike a pinnatifid frond where the segments stay partially connected. If divided twice or three times, it becomes bipinnate or tripinnate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of leaves do ferns have, compared to clubmosses?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Microphylls",
+            "feedback": "Microphylls are the simple leaves of clubmosses, not ferns."
+          },
+          {
+            "label": "No leaves",
+            "feedback": "Ferns have true leaves called megaphylls; they definitely have leaves."
+          },
+          {
+            "label": "Needle-like leaves",
+            "feedback": "Ferns have broad, divided leaves, not needles."
+          },
+          {
+            "label": "Megaphylls",
+            "feedback": "Correct: ferns have megaphylls, which are larger and more complex than the microphylls of clubmosses."
+          }
+        ],
+        "ok_title": "Leaf complexity",
+        "ok_line": "Fern leaves are megaphylls.",
+        "ko_title": "Leaf type mix-up",
+        "ko_line": "Microphylls belong to clubmosses, not ferns.",
+        "exp_title": "Megaphyll definition",
+        "exp_text": "Ferns have leaves called megaphylls, which are more complex than the microphylls of clubmosses. These larger leaves are often pinnate and make up the fronds."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the correct name for the tightly coiled young fern frond?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Indusium",
+            "feedback": "The indusium is a protective cover over sporangia, not a young frond."
+          },
+          {
+            "label": "Sorus",
+            "feedback": "A sorus is a cluster of sporangia, not a young leaf."
+          },
+          {
+            "label": "Crozier",
+            "feedback": "Correct: the coiled young frond is called a crozier or fiddlehead."
+          },
+          {
+            "label": "Stipe",
+            "feedback": "The stipe is the mature stalk of a frond, not the coiled young leaf."
+          }
+        ],
+        "ok_title": "Coiled young leaf",
+        "ok_line": "The crozier unrolls into a full frond.",
+        "ko_title": "Young vs. mature parts",
+        "ko_line": "The stipe is the full-grown stalk, not the coil.",
+        "exp_title": "Crozier and circinate vernation",
+        "exp_text": "In leptosporangiate ferns, new leaves emerge as a tight spiral called a crozier or fiddlehead. This unrolling is known as circinate vernation, and it expands the frond into its final shape."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the role of the rhizoids on a fern's gametophyte?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "To produce spores",
+            "feedback": "Rhizoids do not make spores; sporangia on the sporophyte do that."
+          },
+          {
+            "label": "To anchor the prothallus and absorb water",
+            "feedback": "Correct: rhizoids are root-like single cells that anchor the prothallus and absorb water and mineral salts."
+          },
+          {
+            "label": "To make food through photosynthesis",
+            "feedback": "The prothallus is green and does photosynthesize, but the rhizoids themselves are not photosynthetic."
+          },
+          {
+            "label": "To hold the egg",
+            "feedback": "The archegonia hold the egg, not the rhizoids."
+          }
+        ],
+        "ok_title": "Rhizoid function",
+        "ok_line": "Rhizoids anchor and absorb.",
+        "ko_title": "Rhizoid job mix-up",
+        "ko_line": "Spores, photosynthesis and eggs are made by other structures.",
+        "exp_title": "Gametophyte anchoring",
+        "exp_text": "The prothallus of a fern is anchored to the soil by rhizoids, which are single greatly elongated cells. These rhizoids absorb water and mineral salts over their whole structure, though they are not true roots."
+      }
+    ]
+  }
+]

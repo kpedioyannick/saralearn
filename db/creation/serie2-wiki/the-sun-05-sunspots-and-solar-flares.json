@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 236,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the two main structures of a sunspot?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A central umbra and a surrounding penumbra",
+            "feedback": "Correct. The umbra is the darkest central part, and the penumbra is the lighter region around it."
+          },
+          {
+            "label": "A core and a corona",
+            "feedback": "That is not right. The core and corona are parts of the Sun's overall structure, not of a sunspot."
+          },
+          {
+            "label": "A nucleus and a tail",
+            "feedback": "No. A nucleus and tail describe a comet, not a sunspot."
+          },
+          {
+            "label": "A filament and a granule",
+            "feedback": "Incorrect. Filaments and granules are different features on the Sun, not the two main parts of a sunspot."
+          }
+        ],
+        "ok_title": "Correct structure",
+        "ok_line": "A sunspot's two main parts are the umbra and penumbra.",
+        "ko_title": "Misidentified parts",
+        "ko_line": "Remember, the umbra and penumbra are the specific parts of a sunspot.",
+        "exp_title": "Sunspot structures",
+        "exp_text": "A sunspot has a central umbra, which is the darkest region, and a surrounding penumbra that is brighter. The penumbra is made of radially elongated filaments and is not always complete around the umbra."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes a sunspot to appear dark against the rest of the Sun's surface?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It is a hole in the Sun's surface",
+            "feedback": "Not quite. A sunspot is not a hole; it is a region with a lower temperature, and the Wilson effect suggests it is a depression, but not a hole through the surface."
+          },
+          {
+            "label": "It is covered by a cloud of dust",
+            "feedback": "No. There are no clouds of dust on the Sun; the darkness comes from the temperature being lower than the surrounding area."
+          },
+          {
+            "label": "It is cooler than the surrounding surface",
+            "feedback": "Correct. The sunspot's temperature is much lower, around 3000–4500 K compared to about 5780 K, so it appears dark."
+          },
+          {
+            "label": "It reflects less sunlight than the rest of the surface",
+            "feedback": "No. The Sun's surface emits its own light, and sunspots are darker because they emit less due to lower temperature, not because they reflect less."
+          }
+        ],
+        "ok_title": "Cooler region",
+        "ok_line": "A sunspot is darker because it is cooler than its surroundings.",
+        "ko_title": "Wrong cause",
+        "ko_line": "The darkness is due to temperature, not holes, dust, or reflection.",
+        "exp_title": "Why sunspots are dark",
+        "exp_text": "The umbra's temperature is roughly 3000–4500 K, much cooler than the photosphere at about 5780 K. Since the emitted light is very sensitive to temperature, the cooler spot looks dark against the bright background."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the magnetic field do to cause a sunspot's darkening?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It pushes the sunspot's material away",
+            "feedback": "Not exactly. The magnetic field does not push material away; it inhibits convection, which reduces energy flow."
+          },
+          {
+            "label": "It inhibits convection, reducing energy flow",
+            "feedback": "Correct. The strong magnetic field suppresses the normal convective motions, so less heat reaches the surface, making it cooler."
+          },
+          {
+            "label": "It attracts extra light to the spot",
+            "feedback": "No. The magnetic field does not attract light; it reduces the temperature, so the spot emits less light."
+          },
+          {
+            "label": "It creates a shadow by blocking light from the Sun's core",
+            "feedback": "No. The magnetic field does not block light from the core; it reduces the efficiency of heat transport by convection."
+          }
+        ],
+        "ok_title": "Magnetic effect",
+        "ok_line": "The magnetic field slows convection, cooling the sunspot.",
+        "ko_title": "Magnetic misunderstanding",
+        "ko_line": "The field inhibits convection, not pushes material or blocks light.",
+        "exp_title": "Magnetic inhibition",
+        "exp_text": "Sunspots form from magnetic flux tubes that project through the photosphere. The strong magnetic field inhibits convection, so the energy flux from the interior decreases, lowering the surface temperature and making the spot dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In which part of a sunspot is the magnetic field strongest and most vertical?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The penumbra",
+            "feedback": "No. The penumbra has a more inclined magnetic field, not the strongest and most vertical."
+          },
+          {
+            "label": "The surrounding photosphere",
+            "feedback": "Incorrect. The photosphere outside the sunspot is not where the sunspot's magnetic field is strongest."
+          },
+          {
+            "label": "The light bridges",
+            "feedback": "No. Light bridges have a weaker, more tilted magnetic field compared to the umbra."
+          },
+          {
+            "label": "The umbra",
+            "feedback": "Correct. The umbra is the darkest part and has the strongest magnetic field, which is approximately vertical to the surface."
+          }
+        ],
+        "ok_title": "Strongest field",
+        "ok_line": "The umbra has the strongest and most vertical magnetic field.",
+        "ko_title": "Field location error",
+        "ko_line": "The umbra, not the penumbra or light bridges, has the strongest field.",
+        "exp_title": "Umbra's magnetic field",
+        "exp_text": "Within a sunspot, the umbra is where the magnetic field is strongest and nearly normal to the Sun's surface. The penumbra's field is more inclined, and light bridges have a weaker, tilted field."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the small darkened spots that appear before a sunspot forms a penumbra?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Solar pores",
+            "feedback": "Correct. Sunspots start as small dark spots without a penumbra, called solar pores, which can grow and develop a penumbra."
+          },
+          {
+            "label": "Light bridges",
+            "feedback": "No. Light bridges are bright regions that penetrate or divide an umbra, not the initial dark spots."
+          },
+          {
+            "label": "Prominences",
+            "feedback": "Incorrect. Prominences are large, bright features in the corona, not small dark spots on the photosphere."
+          },
+          {
+            "label": "Coronal loops",
+            "feedback": "No. Coronal loops are structures in the corona, not the precursors of sunspots."
+          }
+        ],
+        "ok_title": "Solar pores",
+        "ok_line": "Sunspots begin as solar pores, small dark spots without a penumbra.",
+        "ko_title": "Wrong precursor",
+        "ko_line": "Solar pores, not light bridges or prominences, are the early stage of sunspots.",
+        "exp_title": "Formation of sunspots",
+        "exp_text": "Sunspots initially appear as small darkened spots lacking a penumbra, called solar pores. Over time, they grow and move together, and when a pore becomes large enough, about 3,500 km in diameter, a penumbra begins to form."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How long can a single sunspot last?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Only a few hours",
+            "feedback": "No. Sunspots typically last from a few days to a few months, not just hours."
+          },
+          {
+            "label": "Exactly eleven years",
+            "feedback": "Incorrect. Eleven years is the length of the solar cycle, not the lifetime of a single sunspot."
+          },
+          {
+            "label": "From a few days to a few months",
+            "feedback": "Correct. Individual sunspots or groups may last from a few days up to a few months before they decay."
+          },
+          {
+            "label": "Several decades",
+            "feedback": "No. That is far too long; sunspots eventually decay within weeks or months."
+          }
+        ],
+        "ok_title": "Sunspot lifetime",
+        "ok_line": "A sunspot can last from a few days to a few months.",
+        "ko_title": "Lifetime error",
+        "ko_line": "Sunspots decay quickly, not over decades or the full solar cycle.",
+        "exp_title": "Duration of sunspots",
+        "exp_text": "Individual sunspots or groups of sunspots may last anywhere from a few days to a few months, but eventually they decay. The solar cycle lasts about eleven years, much longer than any single sunspot."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate temperature range of the umbra, the darkest part of a sunspot?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "About 5780 K",
+            "feedback": "No. That is the temperature of the surrounding photosphere, not the cooler umbra."
+          },
+          {
+            "label": "Roughly 3000–4500 K",
+            "feedback": "Correct. The umbra is much cooler than the surrounding surface, which is why it looks dark."
+          },
+          {
+            "label": "About 1,000,000 K",
+            "feedback": "That is far too hot; that temperature is typical of the corona, not a sunspot's umbra."
+          },
+          {
+            "label": "Near absolute zero",
+            "feedback": "No. The umbra is still extremely hot, just cooler than the surrounding photosphere."
+          }
+        ],
+        "ok_title": "Umbra temperature",
+        "ok_line": "The umbra is about 3000–4500 K, cooler than the photosphere.",
+        "ko_title": "Wrong temperature",
+        "ko_line": "The umbra is cooler than the photosphere, not as hot as the corona.",
+        "exp_title": "Cooler umbra",
+        "exp_text": "The umbra's temperature is roughly 3000–4500 K, much lower than the surrounding material at about 5780 K. This lower temperature makes the sunspot appear dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the typical duration of the solar cycle that governs sunspot numbers?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "About one year",
+            "feedback": "No. The solar cycle is much longer than a year; it lasts about eleven years."
+          },
+          {
+            "label": "About a month",
+            "feedback": "Incorrect. A month is far too short for the solar cycle."
+          },
+          {
+            "label": "About 100 years",
+            "feedback": "No. The solar cycle is roughly eleven years, not a century."
+          },
+          {
+            "label": "About eleven years",
+            "feedback": "Correct. The solar cycle lasts typically about eleven years, varying from just under 10 to just over 12 years."
+          }
+        ],
+        "ok_title": "Solar cycle length",
+        "ok_line": "The solar cycle is about eleven years long.",
+        "ko_title": "Cycle length error",
+        "ko_line": "The cycle is roughly eleven years, not months or centuries.",
+        "exp_title": "Eleven-year cycle",
+        "exp_text": "Solar cycles last typically about eleven years, varying from just under 10 to just over 12 years. Sunspot numbers increase quickly and decrease more slowly over this cycle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the highest and lowest points of sunspot activity in the solar cycle called?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Solar maximum and solar minimum",
+            "feedback": "Correct. The highest activity is solar maximum, and the lowest is solar minimum."
+          },
+          {
+            "label": "Solar peak and solar trough",
+            "feedback": "Not the standard terms. The official names are solar maximum and solar minimum."
+          },
+          {
+            "label": "Solar eclipse and solar solstice",
+            "feedback": "No. Those are unrelated phenomena; the correct terms are maximum and minimum."
+          },
+          {
+            "label": "Solar flare and solar calm",
+            "feedback": "No. Both are wrong; the cycle's extremes are called maximum and minimum."
+          }
+        ],
+        "ok_title": "Cycle extremes",
+        "ok_line": "Maximum and minimum mark the highest and lowest sunspot activity.",
+        "ko_title": "Wrong terms",
+        "ko_line": "Use solar maximum and solar minimum, not other names.",
+        "exp_title": "Solar max and min",
+        "exp_text": "The point of highest sunspot activity during a cycle is known as solar maximum, and the point of lowest activity as solar minimum. These terms describe the population of sunspots over the cycle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where on the Sun do sunspots first appear early in the solar cycle, according to Spörer's law?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "At the equator",
+            "feedback": "No. Early in the cycle, sunspots appear at higher latitudes, then move toward the equator later."
+          },
+          {
+            "label": "At the poles",
+            "feedback": "No. Sunspots appear at higher latitudes, but not at the poles themselves."
+          },
+          {
+            "label": "At higher latitudes",
+            "feedback": "Correct. Early in the cycle, sunspots appear at higher latitudes and then move towards the equator as the cycle approaches maximum."
+          },
+          {
+            "label": "Randomly across the entire surface",
+            "feedback": "No. Their movement follows a pattern, not random placement; they start at higher latitudes and drift to the equator."
+          }
+        ],
+        "ok_title": "Spörer's law",
+        "ok_line": "Sunspots start at higher latitudes and move toward the equator.",
+        "ko_title": "Latitude error",
+        "ko_line": "Sunspots begin at higher latitudes, not at the equator or poles.",
+        "exp_title": "Latitude migration",
+        "exp_text": "Early in the cycle, sunspots appear at higher latitudes and then move towards the equator as the cycle approaches maximum, following Spörer's law. This is a regular pattern over the solar cycle."
+      }
+    ]
+  }
+]

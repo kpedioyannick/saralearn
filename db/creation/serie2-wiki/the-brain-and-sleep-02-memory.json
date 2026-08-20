@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 251,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the general name for the mind's ability to encode, store, and retrieve information?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Memory",
+            "feedback": "Correct. Memory is the faculty of the mind that handles encoding, storage, and retrieval of information."
+          },
+          {
+            "label": "Perception",
+            "feedback": "Perception is about sensing the world, not the storage and recall of information. The faculty described here is memory."
+          },
+          {
+            "label": "Attention",
+            "feedback": "Attention is the focus given to stimuli, not the process of storing and recalling them. The faculty is memory."
+          },
+          {
+            "label": "Imagination",
+            "feedback": "Imagination creates new ideas rather than storing and retrieving past information. The correct faculty is memory."
+          }
+        ],
+        "ok_title": "Memory defined",
+        "ok_line": "Memory is the mind's system for encoding, storing, and retrieving information.",
+        "ko_title": "Faculty mix-up",
+        "ko_line": "Remember that memory specifically deals with storing and recalling information.",
+        "exp_title": "Memory as a faculty",
+        "exp_text": "Memory is the faculty of the mind that encodes, stores, and retrieves information when needed. It is the retention of information over time for influencing future action. Without it, language, relationships, and personal identity could not develop."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of memory holds sensory information for less than one second after it is perceived?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Short-term memory",
+            "feedback": "Short-term memory lasts several seconds to a minute without rehearsal, not less than one second. The quick-lasting store is sensory memory."
+          },
+          {
+            "label": "Sensory memory",
+            "feedback": "Correct. Sensory memory holds information from the senses for less than one second after perception."
+          },
+          {
+            "label": "Long-term memory",
+            "feedback": "Long-term memory stores information for much longer, potentially a lifetime, not under a second. The brief store is sensory memory."
+          },
+          {
+            "label": "Working memory",
+            "feedback": "Working memory is part of short-term memory and lasts longer than a second. The immediate, automatic store is sensory memory."
+          }
+        ],
+        "ok_title": "Sensory memory duration",
+        "ok_line": "Sensory memory lasts less than one second after an item is perceived.",
+        "ko_title": "Memory types confused",
+        "ko_line": "Remember the time scales: sensory is under a second, short-term is seconds to a minute.",
+        "exp_title": "The briefest memory",
+        "exp_text": "Sensory memory holds information derived from the senses for less than one second after an item is perceived. It is automatic and out of cognitive control, so you briefly 'see' more than you can report."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of sensory memory stores visual information?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Echoic memory",
+            "feedback": "Echoic memory stores auditory information, not visual. For what you see, it's iconic memory."
+          },
+          {
+            "label": "Haptic memory",
+            "feedback": "Haptic memory stores touch stimuli, not visual. The visual store is iconic memory."
+          },
+          {
+            "label": "Iconic memory",
+            "feedback": "Correct. Iconic memory is the fast-decaying store of visual information."
+          },
+          {
+            "label": "Semantic memory",
+            "feedback": "Semantic memory is a long-term memory for meanings, not a sensory store. Visual sensory memory is iconic memory."
+          }
+        ],
+        "ok_title": "Iconic memory named",
+        "ok_line": "Iconic memory briefly stores visual images.",
+        "ko_title": "Sensory types swapped",
+        "ko_line": "Match each sensory memory to its sense: iconic for sight, echoic for hearing, haptic for touch.",
+        "exp_title": "Visual sensory memory",
+        "exp_text": "Iconic memory is a type of sensory memory that briefly stores an image that has been perceived for a small duration. It decays quickly, which is why you can see a display but not report every item."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of memory stores sounds that were perceived for a short duration?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Echoic memory",
+            "feedback": "Correct. Echoic memory is the fast-decaying store of auditory information."
+          },
+          {
+            "label": "Iconic memory",
+            "feedback": "Iconic memory is for visual information, not sounds. For hearing, it's echoic memory."
+          },
+          {
+            "label": "Haptic memory",
+            "feedback": "Haptic memory is for touch, not sounds. The auditory store is echoic memory."
+          },
+          {
+            "label": "Procedural memory",
+            "feedback": "Procedural memory is for skills learned gradually, not for brief sound storage. Echoic memory holds sounds."
+          }
+        ],
+        "ok_title": "Echoic memory named",
+        "ok_line": "Echoic memory briefly holds auditory information.",
+        "ko_title": "Sensory memory mismatch",
+        "ko_line": "Remember that echoic memory deals with hearing, not with vision or touch.",
+        "exp_title": "Auditory sensory memory",
+        "exp_text": "Echoic memory is a type of sensory memory that briefly stores sounds that have been perceived for short durations. It decays quickly, so you only hold the sound for a moment unless you attend to it further."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of memory represents a database for touch stimuli?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Iconic memory",
+            "feedback": "Iconic memory is for visual information, not touch. Touch is stored in haptic memory."
+          },
+          {
+            "label": "Echoic memory",
+            "feedback": "Echoic memory is for sounds, not touch. The touch store is haptic memory."
+          },
+          {
+            "label": "Episodic memory",
+            "feedback": "Episodic memory recalls events with 'what, when, where', not touch sensations. Touch is in haptic memory."
+          },
+          {
+            "label": "Haptic memory",
+            "feedback": "Correct. Haptic memory is the type of sensory memory that represents touch stimuli."
+          }
+        ],
+        "ok_title": "Haptic memory named",
+        "ok_line": "Haptic memory stores touch information.",
+        "ko_title": "Touch memory misplaced",
+        "ko_line": "Touch is not visual or auditory, so it belongs to haptic memory.",
+        "exp_title": "Touch sensory memory",
+        "exp_text": "Haptic memory is a type of sensory memory that represents a database for touch stimuli. It holds information from the sense of touch for a very brief period after the stimulus is perceived."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate capacity of short-term memory according to classic experiments?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "About 12 items",
+            "feedback": "About 12 items is the capacity of sensory memory from classic experiments, not short-term memory. Short-term holds about 7 plus or minus 2 items."
+          },
+          {
+            "label": "About 7 plus or minus 2 items",
+            "feedback": "Correct. Classic experiments showed short-term memory holds about 7 plus or minus 2 items."
+          },
+          {
+            "label": "Exactly 4 items",
+            "feedback": "Some modern views suggest 4–5 items, but classic experiments found about 7 plus or minus 2. That is the classic figure."
+          },
+          {
+            "label": "Unlimited",
+            "feedback": "Short-term memory has a very limited capacity, unlike long-term memory. Classic experiments found about 7 plus or minus 2 items."
+          }
+        ],
+        "ok_title": "Short-term capacity",
+        "ok_line": "Short-term memory holds about 7 plus or minus 2 items.",
+        "ko_title": "Capacity estimate wrong",
+        "ko_line": "Remember that short-term memory is limited, and the classic number is 7 plus or minus 2.",
+        "exp_title": "The magical number",
+        "exp_text": "Short-term memory allows recall for several seconds to a minute without rehearsal, but its capacity is very limited. Classic experiments showed a store of about 7 plus or minus 2 items, though modern estimates are lower, around 4–5 items."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What process can increase the capacity of short-term memory by grouping information into meaningful chunks?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Rehearsal",
+            "feedback": "Rehearsal repeats information to keep it in short-term memory, but it doesn't increase capacity. Chunking groups items into meaningful units to raise capacity."
+          },
+          {
+            "label": "Elaboration",
+            "feedback": "Elaboration connects new information to existing knowledge for long-term memory, not for short-term capacity. The process that increases capacity here is chunking."
+          },
+          {
+            "label": "Chunking",
+            "feedback": "Correct. Chunking groups information into meaningful chunks to increase memory capacity."
+          },
+          {
+            "label": "Priming",
+            "feedback": "Priming is an unconscious activation of responses, not a way to increase short-term capacity. Chunking is the grouping process."
+          }
+        ],
+        "ok_title": "Chunking boosts capacity",
+        "ok_line": "Chunking groups items into meaningful units to remember more.",
+        "ko_title": "Process name wrong",
+        "ko_line": "Grouping into meaningful chunks is called chunking, not rehearsal or elaboration.",
+        "exp_title": "Chunking in short-term memory",
+        "exp_text": "Memory capacity can be increased through chunking, where information is grouped into meaningful units. For example, a ten-digit phone number can be chunked into an area code, a three-digit block, and a four-digit block, making it far more effective to remember than a string of ten digits."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of memory is primarily used when remembering a telephone number for many years through repetition?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Sensory memory",
+            "feedback": "Sensory memory lasts less than a second, not years. Long-term memory holds information for many years through repetition."
+          },
+          {
+            "label": "Short-term memory",
+            "feedback": "Short-term memory lasts only seconds to a minute without rehearsal, not years. Repetition over years stores it in long-term memory."
+          },
+          {
+            "label": "Working memory",
+            "feedback": "Working memory is for active processing, not long-term storage. The long-term storage comes from long-term memory."
+          },
+          {
+            "label": "Long-term memory",
+            "feedback": "Correct. Long-term memory stores information for a long duration, potentially a whole life span, such as remembering telephone numbers for many years."
+          }
+        ],
+        "ok_title": "Long-term stored number",
+        "ok_line": "Repeated information moves into long-term memory.",
+        "ko_title": "Memory duration mix-up",
+        "ko_line": "Years-long retention is the hallmark of long-term memory, not short-term or sensory.",
+        "exp_title": "Long-term memory for repetition",
+        "exp_text": "Long-term memory can store much larger quantities of information for a much longer duration, potentially for a whole life span. For example, one can remember telephone numbers for many years through repetition, and this information is stored in long-term memory."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does long-term memory mainly encode information, according to research?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Semantically, by meaning",
+            "feedback": "Correct. Long-term memory encodes information semantically, based on meaning."
+          },
+          {
+            "label": "Acoustically, by sound",
+            "feedback": "Acoustic encoding is found in short-term memory, not long-term. Long-term memory mainly encodes by meaning."
+          },
+          {
+            "label": "Visually, by shape",
+            "feedback": "Visual encoding is less central; long-term memory primarily uses semantic encoding. Meaning is the key."
+          },
+          {
+            "label": "Haptically, by touch",
+            "feedback": "Haptic encoding is a sensory memory for touch, not the main code for long-term. Long-term memory uses meaning."
+          }
+        ],
+        "ok_title": "Long-term semantic code",
+        "ok_line": "Long-term memory stores by meaning, not by sound.",
+        "ko_title": "Encoding code wrong",
+        "ko_line": "Short-term uses sound; long-term uses meaning, so semantic is correct.",
+        "exp_title": "Semantic encoding in long-term memory",
+        "exp_text": "Long-term memory encodes information semantically, meaning it stores by the meaning of the information. This is different from short-term memory, which relies mostly on an acoustic code based on sound."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of the brain is associated with storage of memories, and physical damage to it can corrupt the storage process?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Cerebellum",
+            "feedback": "The cerebellum handles coordination, not memory storage. The hippocampus is the area linked to memory storage."
+          },
+          {
+            "label": "Hippocampus",
+            "feedback": "Correct. Physical damage to the hippocampus, an area associated with memory storage, can corrupt storage."
+          },
+          {
+            "label": "Brain stem",
+            "feedback": "The brain stem controls basic functions, not memory storage. The hippocampus is the memory-related area."
+          },
+          {
+            "label": "Spinal cord",
+            "feedback": "The spinal cord carries signals, not memory. The hippocampus is the brain area for memory storage."
+          }
+        ],
+        "ok_title": "Hippocampus and storage",
+        "ok_line": "Damage to the hippocampus corrupts memory storage.",
+        "ko_title": "Brain area mistaken",
+        "ko_line": "Memory storage is tied to the hippocampus, not the cerebellum or brain stem.",
+        "exp_title": "Hippocampus in memory",
+        "exp_text": "The storage process can become corrupted by physical damage to areas of the brain associated with memory storage, such as the hippocampus. This shows that normal functioning and brain damage both affect memory's accuracy and capacity."
+      }
+    ]
+  }
+]

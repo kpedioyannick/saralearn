@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 250,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "What makes food keep moving down the esophagus after you swallow it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Gravity pulling it downward",
+            "feedback": "Peristalsis works even when someone is lying down or hanging upside down, so gravity cannot be what drives it."
+          },
+          {
+            "label": "A current of saliva sweeping it along",
+            "feedback": "Saliva moistens the food so it slides more easily, but nothing about saliva itself pushes it forward."
+          },
+          {
+            "label": "Rings of muscle squeezing in a travelling wave",
+            "feedback": "Muscle just behind the food tightens while muscle ahead relaxes, and that wave carries the food along."
+          },
+          {
+            "label": "Suction pulling it from the stomach end",
+            "feedback": "The stomach does not pull; whatever moves food along has to act all the way down the tube, not just at the far end."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Exactly",
+        "ok_line": "A wave of squeezing muscle, not a drop.",
+        "ko_title": "Not the mover",
+        "ko_line": "Ask what would still work even if someone swallowed upside down.",
+        "exp_title": "A travelling squeeze",
+        "exp_text": "The wall of the esophagus is built from rings of muscle, and just behind a swallowed lump of food, those rings tighten while the ones ahead relax, one after another in a travelling wave called peristalsis. That wave carries the food along by squeezing it forward, which is why swallowing still works whether someone is sitting upright or lying flat."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What stops food from sliding into the windpipe instead of the esophagus when you swallow?",
+        "body": null,
+        "options": [
+          {
+            "label": "The tongue blocks the throat",
+            "feedback": "The tongue pushes food to the back of the mouth, but it cannot reach far enough down to guard the windpipe."
+          },
+          {
+            "label": "A flap of tissue folds down over the windpipe",
+            "feedback": "The epiglottis tilts down at the moment of swallowing and covers the windpipe's opening."
+          },
+          {
+            "label": "Breathing pauses long enough that nothing can go the wrong way",
+            "feedback": "Breathing does briefly stop during a swallow, but a paused breath alone would not physically block an open tube; something has to cover it."
+          },
+          {
+            "label": "Mucus in the throat traps it",
+            "feedback": "Mucus lines the airway and catches dust, but a lump of food is far too large and heavy for a coating of mucus to stop."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "That's the guard",
+        "ok_line": "A flap doing a valve's job.",
+        "ko_title": "Not quite",
+        "ko_line": "Something has to physically cover the opening, not just slow things down.",
+        "exp_title": "A lid that closes at the right moment",
+        "exp_text": "At the top of the windpipe sits a flap of cartilage called the epiglottis, and the act of swallowing tilts it down to cover the windpipe's opening just as food passes over the top of the throat. Once the food has moved on into the esophagus, the flap springs back up so breathing can carry on as normal."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the stomach churn its contents into a thick, soupy mixture?",
+        "body": null,
+        "options": [
+          {
+            "label": "To mix food evenly with acid and enzymes so digestion can continue",
+            "feedback": "Rolling contractions fold and squeeze everything together with the juices released into the same space."
+          },
+          {
+            "label": "To warm the food up to body temperature",
+            "feedback": "Food reaches body temperature simply by sitting inside the body; the stomach's churning is for mixing, not for heating."
+          },
+          {
+            "label": "To break down fibre completely before it leaves the stomach",
+            "feedback": "Fibre passes through the stomach largely unchanged; nothing in the stomach is equipped to break it down."
+          },
+          {
+            "label": "To measure how much food has been eaten",
+            "feedback": "The stomach stretches as it fills, and stretch is what gets sensed; churning itself carries no such measurement."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right idea",
+        "ok_line": "Churning is mixing, not measuring.",
+        "ko_title": "Wrong job",
+        "ko_line": "Ask what churning actually changes about the food, not what it senses.",
+        "exp_title": "Turning a meal into a workable mixture",
+        "exp_text": "Thick muscular walls in the stomach contract in rolling waves that fold and squeeze everything inside, working the food together with acid and digestive enzymes released into the same space. That constant mixing exposes every part of the meal to those juices, breaking it down into a thick liquid that can pass, a little at a time, into the small intestine."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why doesn't the strong acid inside the stomach dissolve the stomach's own wall?",
+        "body": null,
+        "options": [
+          {
+            "label": "The acid is too weak to affect living tissue",
+            "feedback": "The acid is strong enough to break down meat and bone fragments; weakness is not what protects the stomach."
+          },
+          {
+            "label": "The stomach wall constantly regrows faster than the acid can damage it",
+            "feedback": "Some cells are replaced often, but that alone would not stop acid from harming the surface in the meantime; something has to keep the acid off the tissue itself."
+          },
+          {
+            "label": "Food absorbs all the acid before it reaches the wall",
+            "feedback": "Acid is released directly against the stomach's own lining, not only where food happens to be sitting."
+          },
+          {
+            "label": "A thick layer of mucus coats and shields the lining",
+            "feedback": "That coating sits between the acid and the tissue, keeping the acid from reaching it directly."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "That's the shield",
+        "ok_line": "A coating between the acid and the tissue.",
+        "ko_title": "Not the reason",
+        "ko_line": "Something has to physically separate the acid from the wall it sits against.",
+        "exp_title": "A lining that keeps the acid at arm's length",
+        "exp_text": "Cells in the stomach wall constantly secrete a thick layer of mucus that coats the inner surface, and that layer is also laced with substances that neutralise acid that gets close to it. Food inside the stomach's open space is bathed in acid without that protection, which is exactly why the acid can digest a meal while leaving the wall behind it untouched."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What controls how quickly partly digested food leaves the stomach for the small intestine?",
+        "body": null,
+        "options": [
+          {
+            "label": "The pressure of food pushing from behind",
+            "feedback": "Pressure alone would empty the stomach all at once; something has to hold most of it back and let only a little through at a time."
+          },
+          {
+            "label": "The small intestine pulling food toward it",
+            "feedback": "The small intestine has no way to reach back into the stomach and draw anything out of it."
+          },
+          {
+            "label": "A ring of muscle that opens and closes like a valve",
+            "feedback": "The pyloric sphincter stays mostly closed and relaxes only briefly and repeatedly, letting a small amount through each time."
+          },
+          {
+            "label": "How much the person has chewed their food",
+            "feedback": "Chewing changes how food is broken down before it is even swallowed, but it plays no part in the exit from the stomach much later."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Correct",
+        "ok_line": "A valve, opening in careful spurts.",
+        "ko_title": "Not the controller",
+        "ko_line": "Ask what physically stands between the stomach and the intestine.",
+        "exp_title": "A gate that only opens a little at a time",
+        "exp_text": "At the stomach's lower end sits the pyloric sphincter, a ring of muscle that stays mostly closed and relaxes only briefly and repeatedly, letting a small squirt of the liquefied meal through each time. That slow, metered release keeps the small intestine from being flooded with more than it can handle at once."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What normally stops the stomach's contents from moving back up into the esophagus?",
+        "body": null,
+        "options": [
+          {
+            "label": "A ring of muscle at the join between esophagus and stomach stays clamped shut",
+            "feedback": "That ring opens only briefly to let a swallowed mouthful pass, then closes again behind it."
+          },
+          {
+            "label": "The stomach is too full for anything to travel upward",
+            "feedback": "A full stomach is under more pressure, if anything, which would push contents up more easily rather than less."
+          },
+          {
+            "label": "Gravity, since the stomach sits below the esophagus",
+            "feedback": "Gravity would not explain why nothing comes back up when someone bends over or lies down; something has to actively hold the opening shut."
+          },
+          {
+            "label": "The epiglottis closes off the top of the stomach",
+            "feedback": "The epiglottis guards the windpipe near the throat; the join between esophagus and stomach is a separate opening entirely, further down."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Exactly",
+        "ok_line": "A clamp at the doorway, not a fluke of position.",
+        "ko_title": "Not enough",
+        "ko_line": "Whatever holds this shut has to keep working even lying down or bent over.",
+        "exp_title": "A clamp that only opens for swallowed food",
+        "exp_text": "Where the esophagus meets the stomach, a ring of muscle stays contracted and shut, opening only briefly to let a swallowed mouthful pass through before closing again behind it. That constant clamping is what keeps the stomach's contents, acid included, from washing back upward when someone bends forward or lies down after eating."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why is the small intestine tightly coiled inside the abdomen rather than lying in one straight stretch?",
+        "body": null,
+        "options": [
+          {
+            "label": "Coiling slows food down so it digests for longer",
+            "feedback": "Coiling changes the shape the tube takes, not the pace food moves through it; that pace comes from muscle contractions, not from bends."
+          },
+          {
+            "label": "Coils help the intestine grip the food more firmly",
+            "feedback": "Grip along the tube comes from muscle contractions all along its length, whether it happens to be coiled or laid out straight."
+          },
+          {
+            "label": "It grows in coils to make room for future meals",
+            "feedback": "The shape of the intestine does not change to anticipate a coming meal; it stays folded the same way whether it is empty or full."
+          },
+          {
+            "label": "It is several metres long, and coiling is how that length fits inside a small space",
+            "feedback": "A tube that long can only fit into so little room by being folded back on itself again and again."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Right",
+        "ok_line": "A long tube, folded to fit.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about the length of the tube compared with the space it has to sit in.",
+        "exp_title": "A long tube in a small space",
+        "exp_text": "The small intestine is a single tube many times longer than the torso it sits inside, and the only way a tube that long can fit into so little room is by being folded back on itself again and again. That coiling packs the whole length into the abdomen without the tube crossing itself so tightly that food would struggle to pass through."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What is the large intestine's main job as leftover material passes through it?",
+        "body": null,
+        "options": [
+          {
+            "label": "Breaking down fibre into sugar",
+            "feedback": "The body has no enzyme able to break down fibre; it moves through largely as it arrived."
+          },
+          {
+            "label": "Absorbing most of the remaining water and compacting the waste",
+            "feedback": "By this stage the material is mostly water, fibre and bacteria, and much of that water gets drawn back into the body."
+          },
+          {
+            "label": "Adding fresh digestive juices to finish digestion",
+            "feedback": "By this stage almost nothing left is being chemically broken down further; there is nothing left for fresh digestive juices to act on."
+          },
+          {
+            "label": "Neutralising the acid that arrived from the stomach",
+            "feedback": "The stomach's acid is neutralised much earlier, as soon as the mixture enters the small intestine, long before reaching the large intestine."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Water reclaimed, waste compacted.",
+        "ko_title": "Not this stage",
+        "ko_line": "By the time material reaches the large intestine, digestion itself is essentially finished.",
+        "exp_title": "Wringing out the last of the water",
+        "exp_text": "By the time undigested material reaches the large intestine, almost all of the nutrients have already been absorbed further back, leaving mostly water, fibre and bacteria. The lining of the large intestine draws much of that remaining water back into the body, which thickens the leftover material into the waste that is eventually passed."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What triggers the gag reflex at the back of the throat?",
+        "body": null,
+        "options": [
+          {
+            "label": "A drop in blood sugar",
+            "feedback": "Blood sugar levels have no connection to the throat; the gag reflex responds to something touching the throat directly."
+          },
+          {
+            "label": "Swallowing too much saliva at once",
+            "feedback": "Saliva is swallowed constantly throughout the day without triggering the reflex; it takes contact against the throat itself to set it off."
+          },
+          {
+            "label": "Touch or pressure against the back of the throat",
+            "feedback": "Nerve endings there respond to touch and trigger a sudden contraction to push the object back out."
+          },
+          {
+            "label": "The stomach signalling that it is already full",
+            "feedback": "A full stomach can cause discomfort or nausea, but that signal comes from the stomach itself, not from anything touching the throat."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Exactly",
+        "ok_line": "Contact at the throat sets it off.",
+        "ko_title": "Not the trigger",
+        "ko_line": "This reflex fires from something physically touching one spot, not from a level or a feeling elsewhere.",
+        "exp_title": "A reflex guarding the entrance",
+        "exp_text": "Nerve endings at the back of the throat respond to touch or pressure, and when something presses against them, they send a signal that triggers a sudden contraction to push the object back out. That reflex sits right at the entrance to the airway and esophagus, ready to react before anything unwanted can be swallowed the wrong way."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a large, fatty meal tend to sit in the stomach longer than a light meal before it feels fully digested?",
+        "body": null,
+        "options": [
+          {
+            "label": "Fat clogs the stomach's muscles so they contract less",
+            "feedback": "The stomach's muscles keep contracting normally with a fatty meal; what changes is how fast the exit valve lets contents through, not the churning itself."
+          },
+          {
+            "label": "Fatty food takes longer to swallow, delaying the whole process",
+            "feedback": "Swallowing itself takes moments regardless of what was eaten; the delay from a fatty meal happens much later, inside the stomach."
+          },
+          {
+            "label": "Fat needs to be chewed for longer before it can be swallowed",
+            "feedback": "Chewing time depends on the food's texture and a person's habits, not on its fat content specifically, and it has no bearing on what happens once the meal reaches the stomach."
+          },
+          {
+            "label": "Fat reaching the small intestine signals the stomach to release its contents more slowly",
+            "feedback": "That signal travels back to the stomach and causes its exit valve to open less often and for shorter bursts."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "That's it",
+        "ok_line": "A slowdown signal, sent from further along.",
+        "ko_title": "Not the cause",
+        "ko_line": "The delay happens at the stomach's exit, well after chewing and swallowing are done.",
+        "exp_title": "A signal that holds the gate shut longer",
+        "exp_text": "When fat arrives in the small intestine, it triggers signals that travel back to the stomach and cause its exit valve to open less often and for shorter bursts. That slower release gives the small intestine more time to work on the fat already there before more arrives, which is why a fatty meal keeps the stomach fuller for longer."
+      }
+    ]
+  }
+]

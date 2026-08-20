@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 224,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the pressure that the air around Earth exerts on everything?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Atmospheric pressure (air pressure)",
+            "feedback": "Correct. Air pressure is another name for the pressure exerted by the weight of the air above a point."
+          },
+          {
+            "label": "Hydrostatic pressure",
+            "feedback": "That is a general term for pressure in a fluid due to its weight, but the specific name for air's pressure on Earth is atmospheric pressure."
+          },
+          {
+            "label": "Surface tension",
+            "feedback": "That is a property of liquid surfaces, not of the whole air pressing on things."
+          },
+          {
+            "label": "Gravitational pull",
+            "feedback": "That is the force that causes the pressure, not the name of the pressure itself."
+          }
+        ],
+        "ok_title": "Air's own pressure",
+        "ok_line": "Atmospheric pressure is the pressure from the weight of the air above.",
+        "ko_title": "Not the force itself",
+        "ko_line": "That is the cause, not the name of the pressure.",
+        "exp_title": "The meaning of air pressure",
+        "exp_text": "Atmospheric pressure, also called air pressure, is the pressure within Earth's atmosphere. It comes from the weight of the air above pressing down on everything below, and it acts in all directions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does atmospheric pressure measure?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The temperature of the air",
+            "feedback": "Temperature is a separate property of air and does not itself measure pressure."
+          },
+          {
+            "label": "The humidity of the air",
+            "feedback": "Humidity is the amount of water vapour in the air, not the force it exerts."
+          },
+          {
+            "label": "The force per unit area exerted by the air",
+            "feedback": "Correct. Pressure is defined as force acting on each unit of area, and atmospheric pressure is that force from the air."
+          },
+          {
+            "label": "The speed of the wind",
+            "feedback": "Wind speed is about air moving, not the static pressure it exerts."
+          }
+        ],
+        "ok_title": "Force on an area",
+        "ok_line": "Air pressure is the force the air applies per unit area.",
+        "ko_title": "Not temperature or wind",
+        "ko_line": "Those are different properties of the air.",
+        "exp_title": "What pressure counts",
+        "exp_text": "Atmospheric pressure measures the force that air exerts on each unit of surface area. The heavier the column of air above, the greater the force on every patch of surface below."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At sea level, what is the typical atmospheric pressure approximately equal to?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Zero pressure",
+            "feedback": "Zero pressure would mean no air pressing at all, which only happens in empty space, not at sea level."
+          },
+          {
+            "label": "One standard atmosphere (1 atm)",
+            "feedback": "Correct. The standard atmosphere is defined to match the average sea-level pressure of Earth."
+          },
+          {
+            "label": "Half a standard atmosphere",
+            "feedback": "That would be the pressure at a much higher altitude, not at sea level."
+          },
+          {
+            "label": "The pressure of a vacuum",
+            "feedback": "A vacuum has no air to exert pressure; sea-level air presses with a substantial force."
+          }
+        ],
+        "ok_title": "Sea-level standard",
+        "ok_line": "Sea-level pressure averages about one atmosphere.",
+        "ko_title": "Not a vacuum or half",
+        "ko_line": "Sea level carries the full weight of the air column above it.",
+        "exp_title": "The reference pressure",
+        "exp_text": "The standard atmosphere (1 atm) is a unit of pressure that is roughly the mean sea-level atmospheric pressure on Earth. So at sea level the air typically presses with about one atmosphere of pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is the main cause of atmospheric pressure?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The rotation of Earth",
+            "feedback": "Rotation modifies the pressure, but it is not the main cause of it."
+          },
+          {
+            "label": "The sun's heat",
+            "feedback": "Heat affects density and movements of air, but it does not create the pressure itself."
+          },
+          {
+            "label": "The moon's pull",
+            "feedback": "The moon's gravity mainly affects tides, not the overall pressure of the air."
+          },
+          {
+            "label": "The weight of the air above",
+            "feedback": "Correct. Gravity pulls the air down, so the column of air above a point presses down with its weight, creating pressure."
+          }
+        ],
+        "ok_title": "Air's own weight",
+        "ok_line": "The overlying air's weight is what pushes down.",
+        "ko_title": "Not the sun or moon",
+        "ko_line": "Those may influence conditions but do not produce the pressure.",
+        "exp_title": "Why air presses",
+        "exp_text": "Atmospheric pressure is caused by the gravitational attraction pulling the air toward Earth, so the air above a point has weight and presses down. The more air mass you have overhead, the greater the pressure."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to atmospheric pressure as you go to higher altitudes, like up a mountain?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It decreases",
+            "feedback": "Correct. Higher up there is less air overhead, so less weight presses down."
+          },
+          {
+            "label": "It stays the same",
+            "feedback": "If it stayed the same, the thinner air at altitude would still press as hard as at sea level, which it does not."
+          },
+          {
+            "label": "It increases",
+            "feedback": "An increase would mean more air above, which is the opposite of what happens as you climb."
+          },
+          {
+            "label": "It varies randomly without any pattern",
+            "feedback": "Pressure changes with altitude in a regular way: it falls as you go higher."
+          }
+        ],
+        "ok_title": "Thinner higher up",
+        "ok_line": "Less air above means lower pressure.",
+        "ko_title": "Not constant or rising",
+        "ko_line": "Altitude clearly lowers the pressure.",
+        "exp_title": "Altitude and pressure",
+        "exp_text": "As elevation increases, there is less air above the point, so the atmospheric pressure decreases. That is why mountain tops have noticeably lower air pressure than sea level."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for the average pressure at sea level that weather reports usually give?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Surface pressure",
+            "feedback": "Surface pressure is the actual pressure at a location on the ground, which may be above or below sea level, not the sea-level average."
+          },
+          {
+            "label": "High pressure",
+            "feedback": "That is a specific weather condition, not the term for the average sea-level reading."
+          },
+          {
+            "label": "Mean sea-level pressure",
+            "feedback": "Correct. That is the pressure adjusted to what it would be at mean sea level, and it is the value used in routine weather reports."
+          },
+          {
+            "label": "Barometric formula",
+            "feedback": "That is a mathematical equation for calculating pressure at altitude, not the name of the average pressure."
+          }
+        ],
+        "ok_title": "Sea-level reading",
+        "ok_line": "Weather reports use the pressure corrected to sea level.",
+        "ko_title": "Not ground-level pressure",
+        "ko_line": "The ground pressure differs from the sea-level standard.",
+        "exp_title": "The report value",
+        "exp_text": "Mean sea-level pressure is the atmospheric pressure computed as if the measurement point were at mean sea level. That is the value normally given in weather reports, because it removes the effect of altitude."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which pressure is measured directly at a location's actual ground or ocean surface?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mean sea-level pressure",
+            "feedback": "That is a corrected value for sea level, not the direct pressure at a mountain or valley location."
+          },
+          {
+            "label": "Surface pressure",
+            "feedback": "Correct. Surface pressure is the atmospheric pressure at a specific point on Earth's surface, whether on terrain or ocean."
+          },
+          {
+            "label": "Standard atmosphere",
+            "feedback": "That is a fixed reference unit, not a reading at a particular location."
+          },
+          {
+            "label": "Hydropressure",
+            "feedback": "That is not a term used for current air pressure at a location."
+          }
+        ],
+        "ok_title": "Ground-level pressure",
+        "ok_line": "Surface pressure is the pressure at the actual location.",
+        "ko_title": "Not the sea-level average",
+        "ko_line": "Sea-level pressure is a standardised value, not the local reading.",
+        "exp_title": "Direct local pressure",
+        "exp_text": "Surface pressure is the atmospheric pressure exactly at a location on Earth's surface, such as a mountain top or an ocean. It is proportional to the mass of air directly over that spot."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In the relationship P = F / A, what does A stand for?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Altitude",
+            "feedback": "Altitude affects pressure but is not the letter A in this formula."
+          },
+          {
+            "label": "Air mass",
+            "feedback": "Mass is often represented by m, not by A in the pressure formula."
+          },
+          {
+            "label": "Acceleration",
+            "feedback": "Acceleration due to gravity is represented by g, not A."
+          },
+          {
+            "label": "Surface area",
+            "feedback": "Correct. Pressure equals force divided by the area over which that force acts, so A is the area."
+          }
+        ],
+        "ok_title": "Area in the formula",
+        "ok_line": "A is the surface area receiving the force.",
+        "ko_title": "Not altitude or mass",
+        "ko_line": "Those are different quantities in the formula.",
+        "exp_title": "Reading P = F/A",
+        "exp_text": "In the equation P = F/A, P is pressure, F is the force, and A is the surface area. So pressure tells you how much force presses on each unit of area."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the average surface pressure on Earth, compared with the average mean sea-level pressure?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "It is lower than the mean sea-level pressure",
+            "feedback": "Correct. The average surface pressure is about 985 hPa, while the mean sea-level pressure is about 1,013 hPa, so surface pressure is lower on average."
+          },
+          {
+            "label": "It is the same as the mean sea-level pressure",
+            "feedback": "They would be the same only if every location were exactly at sea level, but many places are higher."
+          },
+          {
+            "label": "It is higher than the mean sea-level pressure",
+            "feedback": "Higher would mean more air overhead on average, but the average surface is above sea level, so it is less."
+          },
+          {
+            "label": "It has no relation to mean sea-level pressure",
+            "feedback": "Both are measures of atmospheric pressure on Earth, so they are related, just different averages."
+          }
+        ],
+        "ok_title": "Averages differ",
+        "ok_line": "Surface average is below the sea-level average.",
+        "ko_title": "Not equal or higher",
+        "ko_line": "The Earth's surface is generally above sea level, lowering its average.",
+        "exp_title": "Two averages compared",
+        "exp_text": "The average surface pressure on Earth is about 985 hPa, whereas the average mean sea-level pressure is about 1,013 hPa. The difference comes from the many land areas that sit above sea level, where the air is thinner."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the mass of a column of air relate to the pressure it exerts?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The pressure is independent of the air's mass",
+            "feedback": "If mass did not matter, a heavier column would not press more, but it always does."
+          },
+          {
+            "label": "The pressure decreases as the mass increases",
+            "feedback": "More mass above would pull down harder, not less, so pressure would rise."
+          },
+          {
+            "label": "The pressure increases as the mass increases",
+            "feedback": "Correct. The weight per unit area of the air above is exactly what creates the pressure."
+          },
+          {
+            "label": "The pressure is equal to the mass times the speed of the air",
+            "feedback": "That mixes in velocity, which is not part of the static pressure relationship."
+          }
+        ],
+        "ok_title": "Mass drives pressure",
+        "ok_line": "Heavier air overhead means higher pressure.",
+        "ko_title": "Not independent or inverse",
+        "ko_line": "Pressure and mass go together, not against each other.",
+        "exp_title": "Weight of air overhead",
+        "exp_text": "Atmospheric pressure is proportional to the weight per unit area of the air above a location. If you have more air mass overhead, the pressure is greater; if less, it is lower."
+      }
+    ]
+  }
+]

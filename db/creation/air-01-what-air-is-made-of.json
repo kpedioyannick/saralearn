@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 106,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "Which gas makes up most of the air around you?",
+        "body": null,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is vital, but it fills only a small share of the air; a different gas fills most of it."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is present only in a tiny trace amount, far short of filling most of the air."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Air is a mixture of several gases, and this one alone accounts for most of it."
+          },
+          {
+            "label": "Water vapour",
+            "feedback": "Water vapour comes and goes with the weather, but it never comes close to being the largest share."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right gas",
+        "ok_line": "The air around you is mostly a gas you never even notice.",
+        "ko_title": "Not the main one",
+        "ko_line": "The gas you breathe for energy isn't the one that fills most of the sky.",
+        "exp_title": "The gas that fills the sky",
+        "exp_text": "Air is a mixture of several gases, not one single substance, and they are not present in equal shares. Oxygen, water vapour, carbon dioxide and a handful of others share only a small part of it between them. The gas that fills most of the air around you is nitrogen."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does the nitrogen in the air stay so plentiful instead of slowly getting used up?",
+        "body": null,
+        "options": [
+          {
+            "label": "Its two atoms are locked together too tightly to break apart easily",
+            "feedback": "Each nitrogen molecule is built from two atoms joined by an unusually strong bond, which almost nothing manages to break."
+          },
+          {
+            "label": "Living things use it up but plants quickly restock it",
+            "feedback": "Plants pull carbon dioxide from the air to build their food, not nitrogen gas; restocking nitrogen isn't their job."
+          },
+          {
+            "label": "It reacts with almost everything, so it keeps reforming",
+            "feedback": "The opposite is closer to the truth: nitrogen resists reacting with other substances rather than breaking apart and reforming."
+          },
+          {
+            "label": "There is so much of it that using it up would take forever regardless",
+            "feedback": "Even a huge amount runs out eventually if something keeps consuming it; nitrogen persists because almost nothing can break it apart in the first place."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Locked tight",
+        "ok_line": "Some bonds are too strong for ordinary chemistry to touch.",
+        "ko_title": "Not quantity, chemistry",
+        "ko_line": "The staying power of nitrogen isn't about how much of it there is.",
+        "exp_title": "A bond few things can break",
+        "exp_text": "Each nitrogen molecule in the air is built from two nitrogen atoms joined by an unusually strong bond. Breaking that bond takes far more energy than most ordinary chemical reactions can supply, so nitrogen passes by unreacted in nearly everything it touches. Its two atoms are locked together too tightly to break apart easily."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which gas in the air is burned by living cells to release energy, and used up by fires?",
+        "body": null,
+        "options": [
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen sits by almost unreacted; nothing burns or breathes using it."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is what remains after burning or breathing, not what gets consumed to release energy."
+          },
+          {
+            "label": "Argon",
+            "feedback": "Argon does not combine with anything at all, whether inside a flame or inside a cell."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Burning fuel and breathing inside a living cell both consume this gas from the air to release energy."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "That's the one",
+        "ok_line": "The gas cells burn and flames consume are the same one.",
+        "ko_title": "Wrong gas",
+        "ko_line": "Ask which gas actually gets consumed, not which one is left over afterward.",
+        "exp_title": "The gas that gets used up",
+        "exp_text": "Burning fuel and breathing inside a living cell are both a kind of combustion, one slow and one fast, and both consume the same ingredient from the air. That ingredient combines with fuel or food and disappears in the process, leaving other gases behind unchanged. The gas that is burned to release energy is oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where does the oxygen that fills the air ultimately come from?",
+        "body": null,
+        "options": [
+          {
+            "label": "It has always simply been there, unchanging",
+            "feedback": "The mix of gases in the air has not stayed fixed forever; oxygen had to accumulate from somewhere."
+          },
+          {
+            "label": "Green plants and algae release it while making their food",
+            "feedback": "Plants and algae take apart water and carbon dioxide to build food, and release this gas as they do."
+          },
+          {
+            "label": "Volcanoes release it along with other gases",
+            "feedback": "Volcanic gas is rich in carbon dioxide, sulphur compounds and water vapour, not oxygen."
+          },
+          {
+            "label": "Rain washes it down out of clouds",
+            "feedback": "Clouds are made of water, not oxygen; rain carries water back to the ground and nothing more."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Traced to its source",
+        "ok_line": "The air's oxygen has a living origin.",
+        "ko_title": "Not from there",
+        "ko_line": "Oxygen had to be produced by something; think of what makes it as a by-product.",
+        "exp_title": "A by-product of feeding",
+        "exp_text": "Plants, algae and similar living things build their food by taking apart water and carbon dioxide, keeping the parts they need and releasing what they don't. What they release escapes into the air, and over long stretches of time it built up the share now breathed by every animal. The oxygen filling the air ultimately comes from green plants and algae releasing it while making their food."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Argon sits quietly in the air without ever combining with anything else. Why?",
+        "body": null,
+        "options": [
+          {
+            "label": "It is too rare to react with other gases",
+            "feedback": "Argon is more common than several other gases in the air, so scarcity isn't the reason it stays uncombined."
+          },
+          {
+            "label": "It only reacts at very cold temperatures",
+            "feedback": "Argon behaves the same whether the air is warm or freezing; temperature is not what keeps it from combining."
+          },
+          {
+            "label": "Its atoms already have a full, stable arrangement of electrons",
+            "feedback": "Atoms bond by trading electrons to fill gaps in their outer layer, and argon's outer layer has no such gap."
+          },
+          {
+            "label": "Every other gas has already reacted with something else",
+            "feedback": "Nitrogen and oxygen, the two gases making up most of the air, remain unreacted too; argon isn't unusual for that reason."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Already complete",
+        "ok_line": "There's nothing left for argon's atoms to gain or lose.",
+        "ko_title": "Not the reason",
+        "ko_line": "Argon's calm has to do with what's inside its atoms, not how much of it there is.",
+        "exp_title": "An atom with nothing to trade",
+        "exp_text": "Atoms usually bond with each other by sharing or trading electrons to fill gaps in their outer layer. Argon has no such gap to fill: its atoms already have a full, stable arrangement of electrons."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Carbon dioxide makes up only a tiny share of the air, yet every breathing and burning thing keeps adding more of it. Why does its share stay so small?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because plants are constantly pulling it back out of the air to build their food",
+            "feedback": "Breathing, decay and burning release it constantly, and plants pull it back out just as constantly."
+          },
+          {
+            "label": "Because breathing and burning barely produce any of it",
+            "feedback": "Both processes constantly release carbon dioxide; production is not the reason its share stays small."
+          },
+          {
+            "label": "Because it escapes into space faster than other gases",
+            "feedback": "Carbon dioxide is heavier than nitrogen or oxygen, if anything the least likely of the gases to drift off into space."
+          },
+          {
+            "label": "Because it turns into oxygen soon after being released",
+            "feedback": "Carbon dioxide and oxygen are separate gases; one does not simply convert into the other on its own."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Taken back out",
+        "ok_line": "What goes in keeps coming back out, just as fast.",
+        "ko_title": "Look at the other side",
+        "ko_line": "A gas can stay scarce even while being produced, if something else keeps removing it.",
+        "exp_title": "Added and removed at once",
+        "exp_text": "Breathing, decay and burning constantly release carbon dioxide into the air. At the same time, countless plants are pulling it back out just as constantly, using it to build their food. Its share of the air stays small because plants are constantly pulling it back out of the air to build their food."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Which part of the air's mixture changes the most from place to place and day to day?",
+        "body": null,
+        "options": [
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen's share stays almost exactly the same everywhere, from a rainforest to a desert."
+          },
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen's share barely shifts from place to place; it stays close to the same proportion almost everywhere air is found."
+          },
+          {
+            "label": "Argon",
+            "feedback": "Argon is chemically inert and its share barely varies anywhere in the lower air."
+          },
+          {
+            "label": "Water vapour",
+            "feedback": "This part rises over oceans and warm wet ground and all but vanishes over dry, cold places."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "The variable one",
+        "ok_line": "Every other gas holds steady; this one does not.",
+        "ko_title": "Steadier than that",
+        "ko_line": "Most of the air's ingredients barely change wherever you go. One does not behave that way.",
+        "exp_title": "The one ingredient that comes and goes",
+        "exp_text": "Nitrogen, oxygen and argon occur in almost the same proportion everywhere air is found, whether over a desert or a rainforest. One part of the mixture behaves quite differently, rising over oceans and warm wet ground and all but vanishing over dry, cold places. The part of the air's mixture that changes the most from place to place and day to day is water vapour."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Besides nitrogen, oxygen, argon, carbon dioxide and water vapour, is anything else actually present in air?",
+        "body": null,
+        "options": [
+          {
+            "label": "Nothing else; those five make up the whole of it",
+            "feedback": "A handful of other gases are also present, just in far smaller amounts than the main five."
+          },
+          {
+            "label": "A few more gases, such as neon and helium, in tiny amounts",
+            "feedback": "After the main five gases are accounted for, a sliver of the mixture is filled by gases like these."
+          },
+          {
+            "label": "Solid dust only, no further gases",
+            "feedback": "Dust and other particles do drift in air, but more gases exist beyond the main five as well."
+          },
+          {
+            "label": "Pure vacuum filling the remaining space",
+            "feedback": "Air has no empty gaps in it; wherever there is air, there is gas, right down to the smallest remaining share."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "The last trace",
+        "ok_line": "A handful of extra gases, hardly noticed, fill out the rest.",
+        "ko_title": "Not quite empty",
+        "ko_line": "Even the smallest remaining share of the mixture is still made of something.",
+        "exp_title": "What's left after the main five",
+        "exp_text": "After nitrogen, oxygen, argon, water vapour and carbon dioxide are accounted for, a sliver of the mixture still remains. That sliver is filled by a few more gases, such as neon and helium, in tiny amounts."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Air feels like empty space around you. Is it actually made of real matter?",
+        "body": null,
+        "options": [
+          {
+            "label": "Yes, air is made of real molecules, just spread out and invisible",
+            "feedback": "Each gas in the air is made of countless real molecules, too small to see and spaced too far apart to block light."
+          },
+          {
+            "label": "No, air is just empty space with nothing in it",
+            "feedback": "If air were truly empty space, sound could not travel through it and wind could not push against anything at all."
+          },
+          {
+            "label": "Air is a kind of energy rather than matter",
+            "feedback": "Energy has no substance to be breathed in or burned; air is inhaled, weighed and compressed, all things only matter can do."
+          },
+          {
+            "label": "Air only becomes matter once it is trapped inside something",
+            "feedback": "Air is the same substance whether drifting freely outdoors or trapped inside a closed space; trapping it changes nothing about what it is made of."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Real, just spread thin",
+        "ok_line": "Invisible is not the same as absent.",
+        "ko_title": "Not truly empty",
+        "ko_line": "Something that can be breathed in, weighed and compressed cannot be nothing at all.",
+        "exp_title": "Matter you cannot see",
+        "exp_text": "Every gas in the air is made of countless real molecules, each too small to see and spaced too far apart to block light. That is why air looks like empty space even though it can be breathed in, felt as wind, and weighed. Air is made of real molecules, just spread out and invisible."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why don't the heavier gases in air sink to the bottom and the lighter ones rise to the top, leaving separate layers?",
+        "body": null,
+        "options": [
+          {
+            "label": "Because all the gases in air weigh exactly the same",
+            "feedback": "Nitrogen, oxygen, argon and carbon dioxide do not weigh the same as each other; if weight alone decided the outcome, they would separate."
+          },
+          {
+            "label": "Because the gases are chemically bonded to one another",
+            "feedback": "Nitrogen, oxygen and argon do not bond with each other at all; they exist side by side without joining into a single substance."
+          },
+          {
+            "label": "Because the air near the ground never moves",
+            "feedback": "Air near the ground is rarely still; it is stirred by rising warmth and constant currents."
+          },
+          {
+            "label": "Because moving air keeps stirring and blending the gases together",
+            "feedback": "Rising warmth and constant currents keep folding pockets of one gas back through the others before they can settle."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Kept mixed",
+        "ok_line": "Motion does what stillness never could.",
+        "ko_title": "Not settled, stirred",
+        "ko_line": "A mixture stays blended when something keeps disturbing it, not because it holds still or because its parts are joined.",
+        "exp_title": "Blended by constant motion",
+        "exp_text": "Left perfectly still, gases of different weights would slowly separate, with the heaviest sinking lowest. Air near the ground is never perfectly still, and rising warmth and countless currents keep the whole mixture stirred. The gases stay blended because moving air keeps stirring and blending them together."
+      }
+    ]
+  }
+]

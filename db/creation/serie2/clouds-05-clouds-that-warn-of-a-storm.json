@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 225,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a cloud that brings rain, thunder, and lightning, and is built like a towering mountain?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Stratus",
+            "feedback": "Stratus is a flat, grey sheet cloud that often brings steady drizzle, not the tall storm tower that produces thunder and lightning."
+          },
+          {
+            "label": "Cirrus",
+            "feedback": "Cirrus is thin and wispy, made of ice crystals high in the sky, and it does not produce storms."
+          },
+          {
+            "label": "Cumulonimbus",
+            "feedback": "Correct. A cumulonimbus cloud grows very tall, from a low base to a high anvil top, and it is the storm cloud that brings heavy rain, thunder, and lightning."
+          },
+          {
+            "label": "Cumulus",
+            "feedback": "A fair-weather cumulus is puffy and flat-bottomed, but it does not grow into a storm; only its towering relative, cumulonimbus, does."
+          }
+        ],
+        "ok_title": "Storm cloud name",
+        "ok_line": "Cumulonimbus is the tall cloud that brings thunderstorms.",
+        "ko_title": "Check your cloud types",
+        "ko_line": "Remember which cloud is built like a mountain and brings storms.",
+        "exp_title": "The storm cloud",
+        "exp_text": "Cumulonimbus is the cloud that reaches from low altitudes up to the top of the troposphere, spreading out at its top like an anvil. It is the only cloud that produces thunder, lightning, and heavy downpours."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which part of a growing storm cloud usually spreads out flat and wide, forming the anvil shape?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The base",
+            "feedback": "The base is the flat, dark underside of the storm, not the spreading top; the anvil forms at the top."
+          },
+          {
+            "label": "The top",
+            "feedback": "Correct. When the rising air in the storm reaches the stable layer of the atmosphere, it spreads sideways, flattening the top into an anvil shape."
+          },
+          {
+            "label": "The middle",
+            "feedback": "The middle is where the updraft and rain shafts are, but it does not spread out; the spreading happens at the top."
+          },
+          {
+            "label": "The sides",
+            "feedback": "The sides are the vertical walls of the storm, not the flat spreading part; the anvil is specifically the top."
+          }
+        ],
+        "ok_title": "Anvil location",
+        "ok_line": "The anvil is the flat top of a storm cloud.",
+        "ko_title": "Where the anvil sits",
+        "ko_line": "Think of the anvil as the skyward spread of the storm's summit.",
+        "exp_title": "The anvil top",
+        "exp_text": "As the updraft in a storm cloud reaches the strong, stable layer of the atmosphere (the tropopause), it can no longer rise, so it pushes sideways. That spreading creates the flat, wide anvil shape at the top of the cloud."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the base of a storm cloud often look like compared with an ordinary fair-weather cloud's base?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It is higher and brighter",
+            "feedback": "The storm base is actually lower and darker, not higher and brighter; darkness comes from thick cloud blocking sunlight."
+          },
+          {
+            "label": "It is higher and darker",
+            "feedback": "The base of a storm cloud is usually lower than a fair-weather base, not higher, and darkness comes from thickness, not altitude."
+          },
+          {
+            "label": "It is lower and brighter",
+            "feedback": "The base is indeed lower, but it appears darker, not brighter, because the thick cloud above blocks light."
+          },
+          {
+            "label": "It is lower and darker",
+            "feedback": "Correct. The storm's base sits close to the ground and is thick with rain, so little light passes through, making it look dark or sometimes greenish."
+          }
+        ],
+        "ok_title": "Storm base look",
+        "ok_line": "Storm bases are low and dark.",
+        "ko_title": "Storm base colour",
+        "ko_line": "Thick cloud makes the base dark, not bright.",
+        "exp_title": "Dark storm base",
+        "exp_text": "A storm cloud's base is both lower than a fair-weather cloud's and much darker, because the heavy concentration of water droplets and ice blocks nearly all sunlight from passing through. That darkness often holds the promise of rain or hail."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What kind of cloud forms a long, wedge-shaped roll along the leading edge of an approaching thunderstorm?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Shelf cloud",
+            "feedback": "Correct. A shelf cloud is a low, horizontal wedge that appears at the front of a thunderstorm, where cool outflow air lifts warm, moist air."
+          },
+          {
+            "label": "Mammatus cloud",
+            "feedback": "Mammatus clouds hang in pouches below the storm's base, not along the leading edge as a wedge."
+          },
+          {
+            "label": "Lenticular cloud",
+            "feedback": "Lenticular clouds are lens-shaped and form near mountains in stable air, not at the front of a thunderstorm."
+          },
+          {
+            "label": "Cirrostratus cloud",
+            "feedback": "Cirrostratus is a high, thin ice veil that can produce halos, and it has nothing to do with the leading edge of a storm."
+          }
+        ],
+        "ok_title": "Wedge cloud type",
+        "ok_line": "The leading edge wedge is a shelf cloud.",
+        "ko_title": "Recognising shelf clouds",
+        "ko_line": "Look for the wedge at the storm's front, not below or behind it.",
+        "exp_title": "Shelf cloud formation",
+        "exp_text": "When a thunderstorm's cold, dense outflow (the downdraft) hits the ground and spreads outward, it lifts the warm, humid air ahead of it. That lifted air condenses into a long, wedge-shaped shelf cloud that rides along the leading edge of the storm."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the rounded, pouch-like clouds that hang underneath the base of an already mature storm cloud called?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Shelf cloud",
+            "feedback": "A shelf cloud is a long wedge at the storm's front, not the hanging pouches below the base."
+          },
+          {
+            "label": "Wall cloud",
+            "feedback": "A wall cloud is a lowered, sometimes rotating patch under the storm, but it is a single column, not a pattern of pouches."
+          },
+          {
+            "label": "Mammatus cloud",
+            "feedback": "Correct. Mammatus clouds are the rounded sacs that hang below the storm's base, formed when sinking air in the storm pushes down in pockets."
+          },
+          {
+            "label": "Cumulus cloud",
+            "feedback": "Cumulus is a puffy fair-weather cloud that grows upward, not the hanging pouches seen under a storm."
+          }
+        ],
+        "ok_title": "Pouch cloud name",
+        "ok_line": "The pouches are mammatus clouds.",
+        "ko_title": "Mammatus vs others",
+        "ko_line": "Pouches hang, while wedges and columns sit differently.",
+        "exp_title": "Mammatus pouches",
+        "exp_text": "Mammatus clouds look like rounded bags or pouches protruding from the underside of a storm cloud. They form when air in the cloud sinks in localized pockets, causing the cloud base to sag downward in bulbous shapes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What condition in the air above is responsible for the flat, anvil-shaped top of a mature storm cloud?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The air is very warm and rising fast",
+            "feedback": "Warm rising air would help the cloud grow taller, not stop it; the anvil appears when rising air stops."
+          },
+          {
+            "label": "The air is stable and does not let the cloud rise further",
+            "feedback": "Correct. When the rising updraft hits a stable layer where the surrounding air is warmer than the cloud, the updraft can't go higher, so it spreads out sideways."
+          },
+          {
+            "label": "The air is very dry and pulls moisture away",
+            "feedback": "Dry air would dissolve the cloud or prevent growth, not create a flat spreading top."
+          },
+          {
+            "label": "The air is cold enough to freeze all the water",
+            "feedback": "Freezing happens at high altitudes, but the anvil's flatness comes from the stable layer, not from freezing alone."
+          }
+        ],
+        "ok_title": "Anvil cause",
+        "ok_line": "A stable layer stops the rise and spreads the top.",
+        "ko_title": "Why the top flattens",
+        "ko_line": "The cloud can't push through a stable layer.",
+        "exp_title": "Stable layer anvil",
+        "exp_text": "The atmosphere has a stable layer, usually the tropopause, where temperature stops decreasing with height and even increases. A storm's powerful updraft reaches this layer and can no longer rise, so the cloud spreads horizontally, forming the flat anvil."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "When a storm cloud's top changes from a bubbling, cauliflower appearance to a smooth, fibrous one, what has happened to the cloud?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It has turned into a different cloud type entirely",
+            "feedback": "It is still the same storm cloud (cumulonimbus), only its top texture has changed as it matures."
+          },
+          {
+            "label": "It has begun to rain and lost all its ice",
+            "feedback": "Rain does not remove the ice; the fibrous look comes from ice crystals, not from losing them."
+          },
+          {
+            "label": "It has stopped growing and is starting to evaporate",
+            "feedback": "Evaporation would shrink the cloud, not give it a smooth, fibrous texture; the fibrous look means the top is now made of ice."
+          },
+          {
+            "label": "Its top has reached high altitude where water freezes into ice crystals",
+            "feedback": "Correct. As the storm cloud grows high, the water in its top turns to ice crystals, which smoothing out the bubble texture into a streaky, fibrous appearance."
+          }
+        ],
+        "ok_title": "Storm top change",
+        "ok_line": "The fibrous top means ice crystals formed.",
+        "ko_title": "Top texture meaning",
+        "ko_line": "Ice makes the top smooth and streaky.",
+        "exp_title": "Ice crystal top",
+        "exp_text": "A young cumulonimbus has a bubbly, cauliflower-like top made of liquid droplets. When it grows high into freezing temperatures, the droplets turn to ice crystals, which are less rounded and more fibrous, smoothing the top into a streaky, anvil-like appearance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name for a lowered, sometimes rotating patch of cloud that hangs beneath a thunderstorm's main base, separate from the rest of the cloud?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Wall cloud",
+            "feedback": "Correct. A wall cloud is a localized lowering under the storm's base, often rotating, and it can be a sign of strong updrafts."
+          },
+          {
+            "label": "Mammatus cloud",
+            "feedback": "Mammatus are pouches, not a single lowered rotating patch; wall clouds are a distinct feature."
+          },
+          {
+            "label": "Shelf cloud",
+            "feedback": "A shelf cloud forms at the leading edge as a wedge, not under the base as a separate rotating patch."
+          },
+          {
+            "label": "Cumulus cloud",
+            "feedback": "Cumulus is a separate fair-weather cloud, not a feature attached to a thunderstorm."
+          }
+        ],
+        "ok_title": "Wall cloud name",
+        "ok_line": "The lowering under the storm is a wall cloud.",
+        "ko_title": "Wall vs other storm clouds",
+        "ko_line": "A wall cloud is under the base, not at the edge.",
+        "exp_title": "Wall cloud feature",
+        "exp_text": "A wall cloud is a pronounced lowering from the base of a thunderstorm, sometimes slowly rotating. It forms where strong updrafts pull moist air upward, and it is often found in the part of the storm where tornadoes can develop."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the underside of a mature storm cloud often appear to churn and boil visibly, unlike the calm underside of a fair-weather cloud?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the cloud is made of ice crystals that sparkle",
+            "feedback": "Sparkling ice would not cause churning; it is the motion of air that makes the underside look active."
+          },
+          {
+            "label": "Because the cloud's base is moving very fast sideways",
+            "feedback": "Fast sideways movement would make the whole cloud slide, not churn or boil in place."
+          },
+          {
+            "label": "Because strong updrafts and downdrafts push air and droplets in different directions",
+            "feedback": "Correct. Inside a storm, powerful rising and sinking air currents constantly lift and drop the cloud's water, making the base roil and bubble."
+          },
+          {
+            "label": "Because the cloud is evaporating rapidly from the bottom",
+            "feedback": "Evaporation would thin the cloud, not cause the visible churning of its surface."
+          }
+        ],
+        "ok_title": "Storm base churning",
+        "ok_line": "Updrafts and downdrafts make the base boil.",
+        "ko_title": "Why it looks active",
+        "ko_line": "Air moving up and down stirs the cloud's underside.",
+        "exp_title": "Turbulent storm base",
+        "exp_text": "A mature storm cloud is full of strong updrafts and downdrafts. These currents mix air and water droplets in opposite directions, causing the base of the cloud to appear to churn, boil, or roll, while a calm fair-weather cloud has gentle, uniform motion."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of cloud is the towering, dense storm cloud that can produce heavy rain, hail, and tornadoes?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Altostratus",
+            "feedback": "Altostratus is a mid-level grey sheet that gives steady light precipitation, not the violent storm cloud."
+          },
+          {
+            "label": "Cumulonimbus",
+            "feedback": "Correct. Cumulonimbus is the only cloud that reaches from low levels to the tropopause and is capable of severe weather like hail and tornadoes."
+          },
+          {
+            "label": "Nimbostratus",
+            "feedback": "Nimbostratus is a thick, grey rain cloud, but it is flat and does not build into a towering storm with thunder and lightning."
+          },
+          {
+            "label": "Cumulus",
+            "feedback": "Cumulus is a puffy fair-weather cloud; it can grow, but only its towering relative, cumulonimbus, brings the full storm."
+          }
+        ],
+        "ok_title": "Severe storm cloud",
+        "ok_line": "The severe storm cloud is cumulonimbus.",
+        "ko_title": "Not all clouds storm",
+        "ko_line": "Only the towering cumulonimbus brings hail and tornadoes.",
+        "exp_title": "Cumulonimbus power",
+        "exp_text": "Cumulonimbus is the massive, vertically developed cloud that produces thunderstorms. Its strong updrafts and large water and ice content can lead to heavy rain, hail, and even tornadoes, setting it apart from flatter rain clouds like nimbostratus."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 250,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is body water?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The water that a person drinks each day",
+            "feedback": "Drinking water is how water enters the body, but body water is the total water already present in the body's tissues, blood, bones, and elsewhere."
+          },
+          {
+            "label": "The water content of an animal's body, found in tissues, blood, bones, and other parts",
+            "feedback": "Correct. Body water is all the water inside the animal body, spread across different fluids and tissues."
+          },
+          {
+            "label": "The water in the environment, such as rivers and oceans",
+            "feedback": "That is external water, not the water inside an animal's body. Body water refers specifically to what is within the body."
+          },
+          {
+            "label": "The water that leaves the body as urine",
+            "feedback": "Urine is a way water is lost, not the body's total water content. Body water includes all water inside, not just what is excreted."
+          }
+        ],
+        "ok_title": "Body water defined",
+        "ok_line": "Body water is all the water inside an animal's body.",
+        "ko_title": "Not external water",
+        "ko_line": "Body water is internal, not what you drink or see outside.",
+        "exp_title": "What body water is",
+        "exp_text": "Body water is the water contained in an animal's body, found in tissues, blood, bones, and other fluids. It includes water inside cells and outside cells, and it adds up to the total body water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What percentage of an average adult human's weight is water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "About 45%",
+            "feedback": "That low value can occur in some obese people, but it is not the average for adults. The average adult is around 60% water by weight."
+          },
+          {
+            "label": "About 75%",
+            "feedback": "That is closer to the water content of a newborn infant, not the average adult. Adults average around 60%."
+          },
+          {
+            "label": "About 60%",
+            "feedback": "Correct. The average adult human is approximately 60% water by weight, though it varies with age, sex, and body composition."
+          },
+          {
+            "label": "About 80%",
+            "feedback": "No body tissue that common reaches that high; muscle is about 75% water, but the whole adult body averages around 60%."
+          }
+        ],
+        "ok_title": "Adult water fraction",
+        "ok_line": "An average adult is about 60% water by weight.",
+        "ko_title": "Not 45, 75, or 80%",
+        "ko_line": "Those numbers are for specific cases, not the adult average.",
+        "exp_title": "Average adult body water",
+        "exp_text": "On average, an adult human's body is about 60% water by weight. This fraction varies with age, sex, and how much fat the person has."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of tissue holds more water: muscle or fat?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Muscle tissue",
+            "feedback": "Correct. Muscle tissue is about 75% water, while adipose (fat) tissue is only about 10% water."
+          },
+          {
+            "label": "Fat tissue",
+            "feedback": "Fat tissue holds very little water—only about 10%—whereas muscle is about 75% water."
+          },
+          {
+            "label": "Both hold the same amount",
+            "feedback": "They differ greatly. Muscle is roughly seven times more watery than fat."
+          },
+          {
+            "label": "Neither holds water",
+            "feedback": "Both tissues contain some water; muscle holds a lot, and fat holds a little. Neither is completely dry."
+          }
+        ],
+        "ok_title": "Water in muscle vs fat",
+        "ok_line": "Muscle holds far more water than fat.",
+        "ko_title": "Fat is water-poor",
+        "ko_line": "Fat holds little water, which is why it affects body water percentage.",
+        "exp_title": "Which tissue is wetter",
+        "exp_text": "Muscle tissue contains about 75% water, while adipose (fat) tissue contains only about 10% water. This explains why people with more fat tend to have a lower total body water percentage."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the largest single compartment of body water?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Plasma",
+            "feedback": "Plasma is part of extracellular fluid but only makes up about one-fifth of it. The largest compartment is inside cells."
+          },
+          {
+            "label": "Intracellular fluid",
+            "feedback": "Correct. Intracellular fluid, the water inside cells, makes up about two-thirds of body water."
+          },
+          {
+            "label": "Interstitial fluid",
+            "feedback": "Interstitial fluid is part of extracellular fluid, which is only one-third of body water. Intracellular fluid is twice that."
+          },
+          {
+            "label": "Transcellular fluid",
+            "feedback": "Transcellular fluid is a small fraction and is often ignored in calculations. It is not the largest compartment."
+          }
+        ],
+        "ok_title": "Biggest water compartment",
+        "ok_line": "Water inside cells is the largest part of body water.",
+        "ko_title": "Not extracellular or plasma",
+        "ko_line": "Extracellular fluids together are only a third of body water.",
+        "exp_title": "Where most body water sits",
+        "exp_text": "The intracellular fluid, the water inside the body's cells, holds about two-thirds of total body water. The extracellular fluid outside cells holds the remaining one-third."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of the following is an example of extracellular fluid?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Fluid inside a cell",
+            "feedback": "That is intracellular fluid, which is inside cells. Extracellular fluid is outside cells."
+          },
+          {
+            "label": "Cytoplasm of a muscle cell",
+            "feedback": "Cytoplasm is inside the cell membrane, so it counts as intracellular fluid, not extracellular."
+          },
+          {
+            "label": "Water within a red blood cell",
+            "feedback": "That is inside a cell, so it is intracellular. Extracellular fluid surrounds cells."
+          },
+          {
+            "label": "Plasma in the blood",
+            "feedback": "Correct. Blood plasma is a part of extracellular fluid, which is the water outside cells."
+          }
+        ],
+        "ok_title": "Extracellular fluid example",
+        "ok_line": "Plasma is a type of extracellular fluid.",
+        "ko_title": "Inside cells is not it",
+        "ko_line": "Anything inside a cell is intracellular fluid.",
+        "exp_title": "What counts as extracellular",
+        "exp_text": "Extracellular fluid is found outside cells. Examples include plasma, interstitial fluid, and transcellular fluids like those in the gut or around the brain."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What fraction of body water is intracellular fluid?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Two-thirds",
+            "feedback": "Correct. About two-thirds (roughly 62.5% in a standard body) of body water is inside cells."
+          },
+          {
+            "label": "One-third",
+            "feedback": "One-third is the extracellular fluid fraction, not the intracellular one. Intracellular fluid is larger."
+          },
+          {
+            "label": "One-fifth",
+            "feedback": "One-fifth is the share of plasma within extracellular fluid, not the intracellular fraction."
+          },
+          {
+            "label": "Three-quarters",
+            "feedback": "That is closer to the water content of muscle tissue, not the intracellular share of body water."
+          }
+        ],
+        "ok_title": "Intracellular share",
+        "ok_line": "Two-thirds of body water is inside cells.",
+        "ko_title": "Fractions confused",
+        "ko_line": "One-third is extracellular, one-fifth is plasma's share.",
+        "exp_title": "How much water is in cells",
+        "exp_text": "Intracellular fluid makes up about two-thirds of total body water. The remaining one-third is extracellular fluid, which includes plasma and interstitial fluid."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What fraction of extracellular fluid is plasma?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "One-half",
+            "feedback": "Plasma is not half of the extracellular fluid. It is a smaller fraction—about one-fifth."
+          },
+          {
+            "label": "One-third",
+            "feedback": "That is the fraction of extracellular fluid compared to body water, not the plasma share within extracellular fluid."
+          },
+          {
+            "label": "One-fifth",
+            "feedback": "Correct. Plasma makes up about one-fifth (20%) of the extracellular fluid."
+          },
+          {
+            "label": "Two-thirds",
+            "feedback": "Two-thirds is the intracellular fluid fraction, not plasma's share of extracellular fluid."
+          }
+        ],
+        "ok_title": "Plasma in extracellular",
+        "ok_line": "Plasma is one-fifth of extracellular fluid.",
+        "ko_title": "Wrong fraction",
+        "ko_line": "Plasma is not that large; it is about a fifth.",
+        "exp_title": "Plasma's share",
+        "exp_text": "Of the extracellular fluid, plasma accounts for about one-fifth, or 20%. The rest is mostly interstitial fluid."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main way water enters the body?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Through the skin",
+            "feedback": "Skin does not absorb significant water; water mainly enters by drinking, not through the skin."
+          },
+          {
+            "label": "By drinking",
+            "feedback": "Correct. The usual and main way water is added to the body is by drinking liquids."
+          },
+          {
+            "label": "Through breathing",
+            "feedback": "Breathing actually loses water vapour, not gains it. Water intake is not through the lungs."
+          },
+          {
+            "label": "Through the ears",
+            "feedback": "There is no significant water absorption through the ears. Drinking is the main route."
+          }
+        ],
+        "ok_title": "Water entry route",
+        "ok_line": "Drinking is how the body usually gets water.",
+        "ko_title": "Not skin or lungs",
+        "ko_line": "Skin and lungs lose water; drinking adds it.",
+        "exp_title": "How water gets in",
+        "exp_text": "The most common way water enters the body is by drinking. Water also comes from foods, especially watery ones like plants, raw meat, and fish."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to the body's water content as a vertebrate animal gets older?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "It increases",
+            "feedback": "Water content does not increase with age; it tends to decrease as bone mass rises and water proportion falls."
+          },
+          {
+            "label": "It stays the same",
+            "feedback": "It does not stay constant; older vertebrates generally have a lower fraction of body water."
+          },
+          {
+            "label": "It depends only on how much the animal drinks",
+            "feedback": "Drinking affects hydration, but age itself shifts the body water fraction downward due to changes in body composition."
+          },
+          {
+            "label": "It decreases",
+            "feedback": "Correct. Older vertebrate animals have higher relative bone mass, which lowers their body water percentage."
+          }
+        ],
+        "ok_title": "Water with age",
+        "ok_line": "Older vertebrates have less body water.",
+        "ko_title": "Not increasing or stable",
+        "ko_line": "Age lowers water content because bones take up more proportion.",
+        "exp_title": "Age effect on body water",
+        "exp_text": "As a vertebrate animal gets older, its body water content decreases. This happens because the relative amount of bone increases, and bone holds less water than soft tissue."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the action of antidiuretic hormone on body water?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It removes water from the body",
+            "feedback": "That is not what antidiuretic hormone does. It helps regulate water, but it does not remove water; it helps retain it."
+          },
+          {
+            "label": "It has no effect on water",
+            "feedback": "Antidiuretic hormone is one of the hormones that regulate body water, so it does have an effect."
+          },
+          {
+            "label": "It helps regulate body water",
+            "feedback": "Correct. Antidiuretic hormone, along with aldosterone and atrial natriuretic peptide, regulates how much water the body keeps."
+          },
+          {
+            "label": "It turns water into urine",
+            "feedback": "That is not its role. It acts to control water balance, not to convert water into urine."
+          }
+        ],
+        "ok_title": "Hormone control",
+        "ok_line": "Antidiuretic hormone helps regulate body water.",
+        "ko_title": "Not removal or conversion",
+        "ko_line": "It regulates balance, not remove or transform water.",
+        "exp_title": "Hormones and water",
+        "exp_text": "Body water is regulated by hormones, including antidiuretic hormone, aldosterone, and atrial natriuretic peptide. These hormones adjust how much water is retained or excreted."
+      }
+    ]
+  }
+]

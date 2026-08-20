@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 222,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the word 'bioluminescence' mean?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Light produced by a living organism",
+            "feedback": "Correct. Bioluminescence is the production of light by an organism through a chemical reaction inside its body."
+          },
+          {
+            "label": "Light from a burning flame",
+            "feedback": "That's fire, not bioluminescence. Bioluminescence comes from a chemical reaction within a living thing, not from burning."
+          },
+          {
+            "label": "Light reflected from the moon",
+            "feedback": "Moonlight is reflected sunlight, not produced by an organism. Bioluminescence is light the organism itself makes."
+          },
+          {
+            "label": "Light from a lamp",
+            "feedback": "A lamp makes light by electricity or burning, not by a living organism's chemistry. Bioluminescence is made by the organism."
+          }
+        ],
+        "ok_title": "Correct meaning",
+        "ok_line": "Yes, it's living light.",
+        "ko_title": "Not that",
+        "ko_line": "That's a different kind of light.",
+        "exp_title": "Living light",
+        "exp_text": "Bioluminescence is the production of light by an organism as the result of a chemiluminescence reaction inside its body. The light is genuinely made by the living thing, not borrowed from outside."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which living things can produce bioluminescence?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Only fish",
+            "feedback": "Fish are not the only ones. Many kinds of animals, plus fungi, bacteria, and dinoflagellates, can glow."
+          },
+          {
+            "label": "Marine animals, fireflies, fungi, and some bacteria",
+            "feedback": "Correct. Bioluminescence appears in many marine vertebrates and invertebrates, in land insects like fireflies, in certain fungi, and in some bacteria and dinoflagellates."
+          },
+          {
+            "label": "Only insects",
+            "feedback": "Insects like fireflies do glow, but so do many marine animals and fungi. It is not limited to insects."
+          },
+          {
+            "label": "Only plants",
+            "feedback": "Plants are not mentioned as bioluminescent in the reference. Glowing organisms include animals, fungi, and microbes."
+          }
+        ],
+        "ok_title": "Many groups",
+        "ok_line": "Yes, a wide range of life glows.",
+        "ko_title": "Too narrow",
+        "ko_line": "More groups than that glow.",
+        "exp_title": "Wide distribution",
+        "exp_text": "Bioluminescence occurs in marine vertebrates and invertebrates, in terrestrial arthropods like fireflies, in some fungi, and in microorganisms such as some bacteria and dinoflagellates. It is not confined to one group."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the names of the two key chemicals in most bioluminescent reactions?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen and hydrogen",
+            "feedback": "Those are elements, not the specific substrate and enzyme of bioluminescence. The reaction uses luciferin and luciferase."
+          },
+          {
+            "label": "Chlorophyll and glucose",
+            "feedback": "Chlorophyll and glucose are used in photosynthesis, not in making light. Bioluminescence uses luciferin and luciferase."
+          },
+          {
+            "label": "Luciferin and luciferase",
+            "feedback": "Correct. Luciferin is the substrate and luciferase is the enzyme that catalyzes the oxidation of luciferin to produce light."
+          },
+          {
+            "label": "ATP and calcium",
+            "feedback": "ATP and calcium can be cofactors in some species, but they are not the principal reaction pair. The main pair is luciferin and luciferase."
+          }
+        ],
+        "ok_title": "Two key players",
+        "ok_line": "Yes, those are the pair.",
+        "ko_title": "Not those",
+        "ko_line": "That's not the main pair.",
+        "exp_title": "Substrate and enzyme",
+        "exp_text": "In most bioluminescent reactions, luciferin (the substrate) is oxidized by an enzyme called luciferase. The enzyme speeds up the reaction that leads to the emission of light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the light emitter in the bioluminescent reaction?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The luciferin itself",
+            "feedback": "Not exactly. Luciferin is the starting material, but after oxidation it becomes oxyluciferin, which is the actual light emitter."
+          },
+          {
+            "label": "The enzyme luciferase",
+            "feedback": "Luciferase is the catalyst, not the emitter. It helps the reaction but does not itself give out the light."
+          },
+          {
+            "label": "The cofactor ATP",
+            "feedback": "ATP is an energy-carrying cofactor in some species, not the light-emitter. The excited oxyluciferin emits the light."
+          },
+          {
+            "label": "Oxyluciferin",
+            "feedback": "Correct. When luciferin is oxidized, it becomes oxyluciferin in an excited state, and as it returns to the ground state it emits visible light."
+          }
+        ],
+        "ok_title": "Excited product",
+        "ok_line": "Yes, oxyluciferin gives out the light.",
+        "ko_title": "Not the emitter",
+        "ko_line": "That's a different part of the reaction.",
+        "exp_title": "Excited oxyluciferin",
+        "exp_text": "The reaction oxidizes luciferin into oxyluciferin in an excited state. When this molecule falls back to its ground state, it releases energy as visible light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these can be needed by some luciferases as extra helpers?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Calcium or magnesium ions",
+            "feedback": "Correct. Some species require cofactors such as calcium or magnesium ions, and sometimes ATP, for the luciferase to work."
+          },
+          {
+            "label": "Chlorophyll",
+            "feedback": "Chlorophyll is used in photosynthesis, not as a helper in bioluminescence. The helpers mentioned are ions and ATP."
+          },
+          {
+            "label": "Iron",
+            "feedback": "Iron is not mentioned as a cofactor for luciferase. Calcium and magnesium ions are the ones named."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Carbon dioxide is a product of some reactions but not a helper for luciferase. The cofactors are ions like calcium and magnesium."
+          }
+        ],
+        "ok_title": "Cofactors",
+        "ok_line": "Yes, ions can help.",
+        "ko_title": "Not a helper",
+        "ko_line": "That's not a mentioned cofactor.",
+        "exp_title": "Needed helpers",
+        "exp_text": "In some species, the luciferase needs extra molecules to function, such as calcium or magnesium ions, and sometimes the energy carrier ATP. These are called cofactors."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is coelenterazine?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "An enzyme that makes light",
+            "feedback": "That would be a luciferase. Coelenterazine is actually a type of luciferin, the substrate that gets oxidized."
+          },
+          {
+            "label": "A type of luciferin found in many animal groups",
+            "feedback": "Correct. Coelenterazine is a luciferin that appears in 11 different animal phyla, though some animals get it from their food."
+          },
+          {
+            "label": "A pigment that gives animals their colour",
+            "feedback": "That's a pigment like melanin or carotenoid. Coelenterazine is a light-producing substrate, not a colour pigment."
+          },
+          {
+            "label": "A cofactor that helps luciferase",
+            "feedback": "Cofactors are ions or ATP, not coelenterazine. Coelenterazine is the luciferin, the chemical that gets changed to make light."
+          }
+        ],
+        "ok_title": "A luciferin",
+        "ok_line": "Yes, it's a common luciferin.",
+        "ko_title": "Not that",
+        "ko_line": "That's a different role.",
+        "exp_title": "Widespread luciferin",
+        "exp_text": "Coelenterazine is one particular luciferin. It is found in 11 different animal phyla, although in some of those animals, the luciferin comes from their diet rather than being made by the animal itself."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How do luciferins and luciferases differ in their variety between species?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Both vary greatly",
+            "feedback": "Luciferases vary greatly, but luciferins vary little. So they are not both highly varied."
+          },
+          {
+            "label": "Both stay the same",
+            "feedback": "Luciferins stay similar, but luciferases differ widely from species to species. So the pattern is not 'both the same'."
+          },
+          {
+            "label": "Luciferins vary little, luciferases vary widely",
+            "feedback": "Correct. In evolution, luciferins are quite similar across species, while luciferases are very different between species."
+          },
+          {
+            "label": "Luciferins vary widely, luciferases vary little",
+            "feedback": "That is backwards. It is the luciferases that vary widely, not the luciferins."
+          }
+        ],
+        "ok_title": "Different patterns",
+        "ok_line": "Yes, they behave differently.",
+        "ko_title": "Opposite order",
+        "ko_line": "It's the other way around.",
+        "exp_title": "Stable substrate, varied enzyme",
+        "exp_text": "Over evolution, luciferins have changed very little—coelenterazine is shared across many phyla. Luciferases, by contrast, differ a great deal from one species to another."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is a use of bioluminescence by animals?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Camouflage, mimicry, and signaling to mates",
+            "feedback": "Correct. Animals use bioluminescence for counterillumination camouflage, mimicry to lure prey, and signaling to others of the same species, including attracting mates."
+          },
+          {
+            "label": "Making food from sunlight",
+            "feedback": "That is photosynthesis, which uses sunlight, not bioluminescence. Bioluminescence is light made by the animal itself for other purposes."
+          },
+          {
+            "label": "Cooling the body",
+            "feedback": "Bioluminescence does not cool the body. Its uses include camouflage, mimicry, and signaling."
+          },
+          {
+            "label": "Digesting food",
+            "feedback": "Digestion is a different process. Bioluminescence is used for camouflage, mimicry, and communication, not for digestion."
+          }
+        ],
+        "ok_title": "Animal uses",
+        "ok_line": "Yes, those are real uses.",
+        "ko_title": "Not a use",
+        "ko_line": "That's a different function.",
+        "exp_title": "Light's purposes",
+        "exp_text": "Animals use their light to blend in with surrounding light (counterillumination), to imitate other animals to lure prey, and to send signals to others, such as attracting a mate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What did early observers like Aristotle and Pliny mention about light?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "That the moon gives light at night",
+            "feedback": "That's moonlight, not bioluminescence. Aristotle and Pliny mentioned glowing damp wood and dead fish."
+          },
+          {
+            "label": "That stars twinkle",
+            "feedback": "Star twinkling is an atmospheric effect, not bioluminescence. The early writers mentioned glows from wood and fish."
+          },
+          {
+            "label": "That fireflies only glow in summer",
+            "feedback": "They didn't say that. Aristotle and Pliny noted that damp wood sometimes gives off a glow."
+          },
+          {
+            "label": "That damp wood sometimes glows",
+            "feedback": "Correct. Both Aristotle and Pliny the Elder recorded that damp wood can give off a glow, which is a form of bioluminescence."
+          }
+        ],
+        "ok_title": "Early observations",
+        "ok_line": "Yes, they noted glowing wood.",
+        "ko_title": "Wrong subject",
+        "ko_line": "That's not what they mentioned.",
+        "exp_title": "Ancient sightings",
+        "exp_text": "Aristotle and Pliny the Elder both wrote that damp wood sometimes gives off a glow. They were describing natural bioluminescence, long before it was understood."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where does bioluminescence most often occur?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "On land, in plants",
+            "feedback": "Plants are not known for bioluminescence, and the phenomenon is far more common in the sea. On land it appears in fungi, bacteria, and some insects."
+          },
+          {
+            "label": "In marine environments",
+            "feedback": "Correct. Bioluminescence is widely distributed among animal groups, especially in marine environments."
+          },
+          {
+            "label": "In deserts",
+            "feedback": "Deserts are not mentioned as a common place for bioluminescence. It is especially common in the sea."
+          },
+          {
+            "label": "In freshwater lakes",
+            "feedback": "Freshwater is not highlighted. The reference says marine environments are especially rich in bioluminescence."
+          }
+        ],
+        "ok_title": "Ocean focus",
+        "ok_line": "Yes, the sea is where it thrives.",
+        "ko_title": "Not the main place",
+        "ko_line": "That's not the main habitat.",
+        "exp_title": "Marine abundance",
+        "exp_text": "Bioluminescence is widely distributed among animal groups, and it is especially common in marine environments. On land, it occurs in fungi, bacteria, and some invertebrates like insects."
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 228,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the correct scientific name for a shooting star?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A comet fragment burning up",
+            "feedback": "That describes what it is made of, but the scientific name for the streak of light itself is different — it is called a meteor."
+          },
+          {
+            "label": "A meteorite",
+            "feedback": "A meteorite is the piece of rock that actually survives the fall and lands on the ground. The streak you see in the sky is not a meteorite yet."
+          },
+          {
+            "label": "A meteor",
+            "feedback": "Correct. A shooting star is a meteor — the bright trail of light produced when a small space rock heats up and vaporizes in the atmosphere."
+          },
+          {
+            "label": "An asteroid",
+            "feedback": "An asteroid is a large rocky body orbiting the Sun, much bigger than the tiny grain that causes a typical shooting star."
+          }
+        ],
+        "ok_title": "Correct name",
+        "ok_line": "A shooting star is a meteor.",
+        "ko_title": "Not meteorite yet",
+        "ko_line": "Meteorite is only after it lands.",
+        "exp_title": "Meteor vs meteorite",
+        "exp_text": "A meteor is the flash of light you see as a small particle from space burns up high in the atmosphere. If any piece survives and reaches the ground, that surviving piece is called a meteorite. The shooting star you see is always a meteor, not the rock that might later be found on Earth."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do most shooting stars come from?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "From the Moon's surface",
+            "feedback": "The Moon does not give off particles that streak across our sky. Shooting stars come from material left behind by comets or from rocky debris in space."
+          },
+          {
+            "label": "From dust and small rocks left behind by comets",
+            "feedback": "Correct. Comets shed trails of dust and small debris as they orbit the Sun. When Earth plows into this debris, the particles enter our atmosphere and burn up as meteors."
+          },
+          {
+            "label": "From the Sun's outer layer",
+            "feedback": "The Sun's outer layer is extremely hot gas, not solid particles. Shooting stars are solid particles, not solar material."
+          },
+          {
+            "label": "From volcanic eruptions on Earth",
+            "feedback": "Volcanoes put ash and rock into the atmosphere, but those fragments fall quickly and do not create high-speed streaks like meteors do."
+          }
+        ],
+        "ok_title": "Comet debris",
+        "ok_line": "Comets leave dust and rocks that become meteors.",
+        "ko_title": "Not from Earth or Sun",
+        "ko_line": "Meteors do not come from our planet or the Sun.",
+        "exp_title": "Source of meteors",
+        "exp_text": "Most shooting stars are tiny particles — often no bigger than a grain of sand — that were shed by comets. As the comet travels, it leaves a trail of dust and small fragments. When Earth's orbit carries it through that trail, the particles slam into our atmosphere at high speed and burn up, producing the streaks we call meteors."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "At what altitude do most meteors become visible as bright streaks?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Near the ground, just a few hundred meters up",
+            "feedback": "Meteors burn up far higher than that. If they got that low, they would be hitting the ground as meteorites, not producing a streak overhead."
+          },
+          {
+            "label": "Just above the clouds, about 10 kilometers up",
+            "feedback": "That is the height of ordinary clouds, not the upper atmosphere where meteors glow. Meteors appear much higher, in the mesosphere."
+          },
+          {
+            "label": "In the stratosphere, about 30 kilometers up",
+            "feedback": "The stratosphere is still too low. Meteors typically become visible higher up, above 70 kilometers."
+          },
+          {
+            "label": "High in the mesosphere, around 80 to 120 kilometers up",
+            "feedback": "Correct. Meteors enter the atmosphere at these high altitudes, where the air is thin but dense enough to heat the particle rapidly and make it glow."
+          }
+        ],
+        "ok_title": "High altitude",
+        "ok_line": "Meteors glow in the mesosphere.",
+        "ko_title": "Too low",
+        "ko_line": "Clouds and stratosphere are far below meteors.",
+        "exp_title": "Where meteors shine",
+        "exp_text": "A meteor becomes visible when it enters the mesosphere, roughly 80 to 120 kilometers above the ground. At that height the air is thin, but there are still enough molecules to collide with the incoming particle and heat it to incandescence. Below about 80 kilometers, most meteors have already vaporized and gone dark."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes a meteor to heat up and glow as it travels through the atmosphere?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Friction with air molecules compresses and heats the air ahead of it",
+            "feedback": "Correct. The meteor moves so fast that it slams into air molecules, compressing the air in front and heating it up, which in turn melts and vaporizes the meteor's surface."
+          },
+          {
+            "label": "It is heated by sunlight before entering the atmosphere",
+            "feedback": "Sunlight warms objects in space, but it is nowhere near enough to make them glow. The intense heating only happens during the fast flight through the air."
+          },
+          {
+            "label": "Chemical reactions with oxygen ignite it like a flame",
+            "feedback": "Burning like a flame is not what happens. The glow comes from the extreme heat of compression, not from a chemical combustion reaction."
+          },
+          {
+            "label": "Electrical charge builds up on its surface and discharges",
+            "feedback": "There is no significant electric discharge on a meteor. The brightness is purely from the heat generated by the enormous speed through the air."
+          }
+        ],
+        "ok_title": "Friction heat",
+        "ok_line": "Fast impact with air makes it glow.",
+        "ko_title": "Not sunlight or burning",
+        "ko_line": "The heat comes from motion, not other sources.",
+        "exp_title": "Why meteors glow",
+        "exp_text": "A meteor travels at tens of kilometers per second. As it pushes through the atmosphere, it compresses the air in front of it so violently that the air itself heats to thousands of degrees. That heat vaporizes the meteor's surface, and the hot vapor and compressed air glow visibly, producing the streak of light."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do most shooting stars last for only about a second?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because they fall straight down and hit the ground quickly",
+            "feedback": "They do not fall straight down alone; they are moving at orbital speeds, and they burn up high in the atmosphere long before reaching the ground, so the visible streak is short."
+          },
+          {
+            "label": "Because they are too small to reflect sunlight for long",
+            "feedback": "They are not reflecting sunlight — they are glowing from their own heat. The short duration is about how quickly the tiny particle vaporizes, not about reflection."
+          },
+          {
+            "label": "Because the tiny particle vaporizes completely within that time",
+            "feedback": "Correct. A typical meteor is the size of a grain of sand or a small pebble. At such high speed, it is completely vaporized in less than a second or two, ending the visible streak."
+          },
+          {
+            "label": "Because the atmosphere is too thin at those heights to sustain a glow",
+            "feedback": "The atmosphere is thin there, but it is still thick enough to heat the particle. The reason the streak ends is that the particle is used up, not that the air runs out."
+          }
+        ],
+        "ok_title": "Tiny particle",
+        "ok_line": "The whole meteor burns away quickly.",
+        "ko_title": "Not ground impact",
+        "ko_line": "It vaporizes high up, never reaching the ground.",
+        "exp_title": "Short-lived streak",
+        "exp_text": "The particle that makes a typical meteor is extremely small. Once it enters the dense enough part of the atmosphere, it is heated so intensely that it is consumed in under a second or two. With nothing left to heat, the glowing trail stops — that is why the flash lasts only about a second."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the small solid object that enters the atmosphere and becomes a meteor called?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A meteorite",
+            "feedback": "A meteorite is the name for the object only after it has landed on the ground. Before and during its flight it is called something else."
+          },
+          {
+            "label": "A meteoroid",
+            "feedback": "Correct. A meteoroid is the small rock or dust particle traveling through space. When it enters the atmosphere and glows, it is called a meteor."
+          },
+          {
+            "label": "A comet",
+            "feedback": "A comet is a large icy body with a visible tail, much bigger than the small grains that cause shooting stars. Comets are not the objects themselves."
+          },
+          {
+            "label": "An asteroid",
+            "feedback": "An asteroid is a large rocky body, often kilometers across. The typical meteoroid that makes a shooting star is far smaller than an asteroid."
+          }
+        ],
+        "ok_title": "Meteoroid",
+        "ok_line": "The rock in space is a meteoroid.",
+        "ko_title": "Not meteorite yet",
+        "ko_line": "It only becomes a meteorite after landing.",
+        "exp_title": "Names of a space rock",
+        "exp_text": "The same object has different names depending on where it is. While still in space, it is a meteoroid. As it streaks through the atmosphere and glows, it is a meteor. If any part survives and reaches the ground, that piece is a meteorite."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What do the particles that create a meteor shower come from?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "The debris trail left by a comet",
+            "feedback": "Correct. A comet leaves behind a stream of dust and small rocks along its orbit. When Earth crosses that stream, we see a meteor shower."
+          },
+          {
+            "label": "The remains of a shattered planet",
+            "feedback": "No known meteor shower comes from a shattered planet. Showers are tied to comets' debris trails, not to broken planets."
+          },
+          {
+            "label": "Dust blown off the Moon by impacts",
+            "feedback": "Moon dust does not reach Earth as meteors. Meteor showers are from cometary debris, not from the Moon."
+          },
+          {
+            "label": "Particles ejected from the Sun's corona",
+            "feedback": "The Sun ejects plasma and charged particles, but those are not solid rocks that produce streaks of light. Showers need solid debris."
+          }
+        ],
+        "ok_title": "Comet trail",
+        "ok_line": "Showers come from comet debris.",
+        "ko_title": "Not Moon or Sun",
+        "ko_line": "The source is icy comets, not other bodies.",
+        "exp_title": "Meteor shower origin",
+        "exp_text": "When a comet orbits the Sun, it sheds dust and small rocky particles that spread out along its path. If Earth's orbit passes through this debris stream, many particles enter our atmosphere around the same time, producing a meteor shower. The shower is named after the constellation from which the meteors appear to radiate."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why do the meteors of a shower appear to radiate from a single point in the sky?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because they all come from the same star in that constellation",
+            "feedback": "Stars are far away and do not emit shooting stars. The apparent radiation is a perspective effect, not a real origin at a star."
+          },
+          {
+            "label": "Because the Earth's rotation makes them cluster around that point",
+            "feedback": "Earth's rotation does not create a common radiant point. The effect is due to parallel paths viewed in perspective, not to rotation."
+          },
+          {
+            "label": "Because they all originate from that exact spot in the atmosphere",
+            "feedback": "The meteors actually enter at different points across the sky, but they are moving parallel to each other. Perspective makes them seem to come from one spot."
+          },
+          {
+            "label": "Because they enter the atmosphere on parallel paths, and perspective makes parallel lines seem to meet at a point",
+            "feedback": "Correct. All the comet debris particles are traveling along nearly parallel orbits. When you look at them from Earth, those parallel paths appear to converge at a single point in the distance, just like railroad tracks seem to meet on the horizon."
+          }
+        ],
+        "ok_title": "Perspective effect",
+        "ok_line": "Parallel paths seem to meet at one point.",
+        "ko_title": "Not a real point",
+        "ko_line": "The radiant is just an optical illusion.",
+        "exp_title": "The radiant point",
+        "exp_text": "In a meteor shower, all the particles are moving in roughly the same direction — parallel to each other. Because of perspective, any set of parallel lines appears to converge at a single distant point. That point, called the radiant, is not a real source; the meteors are actually falling all over the sky, but they trace back to that one spot."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why are there more meteors visible after midnight than in the hours just after sunset?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the Earth's shadow blocks them before midnight",
+            "feedback": "Earth's shadow does affect twilight, but the main reason for more meteors after midnight is that you are on the forward side of Earth's motion, not the shadow."
+          },
+          {
+            "label": "Because the atmosphere is thinner after midnight",
+            "feedback": "The atmosphere thickness does not change with time of night. The effect is about which side of Earth faces into the incoming debris."
+          },
+          {
+            "label": "Because after midnight you are on the side of Earth moving forward into the meteor stream",
+            "feedback": "Correct. Earth orbits the Sun, and the side moving forward (the leading side) sweeps up more particles. After midnight, your location is rotating onto that leading side, so you see more meteors."
+          },
+          {
+            "label": "Because the radiant point of most showers is only visible after midnight",
+            "feedback": "The radiant's visibility varies by shower and location, but even random sporadic meteors are more numerous after midnight because of Earth's forward motion."
+          }
+        ],
+        "ok_title": "Earth's motion",
+        "ok_line": "After midnight you face the oncoming debris.",
+        "ko_title": "Not shadow or air",
+        "ko_line": "The increase is due to Earth's orbital direction.",
+        "exp_title": "Why more meteors at night",
+        "exp_text": "As Earth travels around the Sun, it plows through space. The hemisphere that faces the direction of motion (the leading side) intercepts more particles than the trailing side. After midnight, your spot on Earth rotates onto that leading side, so more meteors enter your sky. Just after sunset, you are on the trailing side, where fewer particles are encountered."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a meteor shower's name usually based on?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The comet that shed the debris",
+            "feedback": "Some showers are linked to known comets, but the shower's name itself is not usually the comet's name — it is named after something else."
+          },
+          {
+            "label": "The constellation from which the meteors appear to radiate",
+            "feedback": "Correct. Meteor showers are named after the constellation where their radiant point lies, such as the Perseids from Perseus or the Leonids from Leo."
+          },
+          {
+            "label": "The month in which they peak",
+            "feedback": "The time of year is important, but the name does not come from the calendar month; it comes from the sky position."
+          },
+          {
+            "label": "The color of the meteors",
+            "feedback": "Meteor colors vary with composition, but showers are not named after their colors. They are named for their radiant constellations."
+          }
+        ],
+        "ok_title": "Named by radiant",
+        "ok_line": "Showers take the constellation's name.",
+        "ko_title": "Not comet or month",
+        "ko_line": "The name points to where the meteors seem to appear.",
+        "exp_title": "Meteor shower naming",
+        "exp_text": "Each meteor shower is named after the constellation that contains its radiant point — the spot in the sky from which all its meteors seem to shoot. For example, the Perseids appear to radiate from the constellation Perseus, and the Geminids from Gemini. This helps skywatchers know where to look."
+      }
+    ]
+  }
+]

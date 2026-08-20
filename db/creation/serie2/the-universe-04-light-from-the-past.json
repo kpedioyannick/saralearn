@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 240,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the term 'light-year' actually measure?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Time, specifically the time light takes to travel from the Sun to Earth",
+            "feedback": "A light-year is not a measure of time at all. It is a unit of distance, equal to how far light travels in one year."
+          },
+          {
+            "label": "Time, specifically the time light takes to travel from one side of the Milky Way to the other",
+            "feedback": "That would also be a time measure, but a light-year is a distance, not a duration. It is about how far light goes in a year, not how long anything takes."
+          },
+          {
+            "label": "Distance, specifically the distance light travels in one year",
+            "feedback": "Correct. A light-year is a unit of length, used because space is so vast that ordinary units like kilometers become unwieldy."
+          },
+          {
+            "label": "Brightness, specifically the amount of light a star emits in one year",
+            "feedback": "Brightness is measured in luminosity or magnitude, not in light-years. Light-years measure only distance."
+          }
+        ],
+        "ok_title": "Light-year is distance",
+        "ok_line": "A light-year tells how far light goes in a year, not how long something takes.",
+        "ko_title": "Not a time unit",
+        "ko_line": "A light-year is about distance, not duration.",
+        "exp_title": "Light-year defined",
+        "exp_text": "A light-year is simply the distance that light travels in the span of one year. Since light moves at about 300,000 kilometers per second, that distance is enormous — about 9.5 trillion kilometers. Astronomers use it to describe how far away stars and galaxies are, because ordinary measurements would be too large to handle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does light from a distant galaxy take an extremely long time to reach us, even though light is the fastest thing there is?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the galaxy is so far away that even light's speed is slow by comparison",
+            "feedback": "Correct. The distance to another galaxy is so staggeringly huge that light, fast as it is, still needs billions of years to cross it."
+          },
+          {
+            "label": "Because light slows down as it travels through the vacuum of space",
+            "feedback": "Light does not slow down in empty space; it always moves at its constant speed. The delay comes purely from the enormous distances involved."
+          },
+          {
+            "label": "Because galaxies move away from us, making the light have to catch up",
+            "feedback": "The expansion of the universe does stretch light, but the main reason for the long travel time is simply the sheer distance. Even a stationary galaxy would take just as long."
+          },
+          {
+            "label": "Because light gets blocked and redirected by dust and gas along the way",
+            "feedback": "Dust and gas can dim or scatter light, but they do not slow it down. The travel time is set by the distance light must cover at constant speed."
+          }
+        ],
+        "ok_title": "Distance beats speed",
+        "ok_line": "The galaxy is so far away that even fast light needs immense time.",
+        "ko_title": "Speed is constant",
+        "ko_line": "Light does not slow down; the distance is just enormous.",
+        "exp_title": "Why light takes so long",
+        "exp_text": "Light is the fastest thing in the universe, but it still travels at a finite speed. A distant galaxy can be so far away that even at that speed, the light needs hundreds of millions or billions of years to bridge the gap. So when we see that galaxy, we are seeing it as it was when the light left, not as it is now."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the parallax method let a small shift in a nearby star's apparent position, seen from opposite sides of Earth's orbit, reveal its distance?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "It uses the shift in color of the star to calculate how far the light has traveled",
+            "feedback": "Color shift, or redshift, is about motion and distance in a different way, not parallax. Parallax works with the apparent change in position against background stars."
+          },
+          {
+            "label": "It measures how much the star seems to move against distant stars; the larger the shift, the closer the star",
+            "feedback": "Correct. When Earth moves from one side of its orbit to the other, a nearby star appears to shift slightly relative to very distant stars. The bigger that shift, the closer the star is."
+          },
+          {
+            "label": "It measures how fast the star's brightness changes as Earth orbits the Sun",
+            "feedback": "Brightness changes relate to pulsation or eclipses, not parallax. Parallax is purely about the apparent angular shift."
+          },
+          {
+            "label": "It compares the star's position at two different times of night to see how far it has moved",
+            "feedback": "Comparing positions at different times of night shows Earth's rotation, not its orbit. Parallax uses opposite sides of the orbit, about six months apart."
+          }
+        ],
+        "ok_title": "Shift reveals distance",
+        "ok_line": "A bigger apparent shift against distant stars means a closer star.",
+        "ko_title": "Not about color or brightness",
+        "ko_line": "Parallax is an angular shift, not a color or brightness change.",
+        "exp_title": "Parallax basics",
+        "exp_text": "Parallax works like this: as Earth moves from one side of its orbit to the other, the line of sight to a nearby star changes slightly, making the star appear to shift against the much more distant stars behind it. The angle of that shift is directly related to the star's distance — the larger the shift, the nearer the star. This method works well only for stars close enough that the shift is measurable."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a light source appear dimmer the farther away it is, following a precise, predictable rule rather than just a rough trend?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because the light spreads out over a larger area, and the area grows in proportion to the distance",
+            "feedback": "Not quite. The area grows with the square of the distance, so the light spreads out over four times the area when distance doubles."
+          },
+          {
+            "label": "Because the light gets absorbed by space as it travels, so distance reduces it steadily",
+            "feedback": "Space is mostly empty, so absorption is negligible. The dimming comes from geometric spreading, not from any material in between."
+          },
+          {
+            "label": "Because the source shrinks in size as seen from farther away, so it seems to give off less light",
+            "feedback": "The apparent size does shrink, but that is not the reason for dimming. The dimming rule comes from how the same amount of light spreads over a growing sphere."
+          },
+          {
+            "label": "Because the same total light spreads out over a sphere whose surface area grows with the square of the distance, so brightness drops as the inverse square",
+            "feedback": "Correct. The same light is spread over a sphere that is four times larger in surface area when distance doubles, so each patch of sky gets a quarter of the light. That is the inverse square law."
+          }
+        ],
+        "ok_title": "Inverse square law",
+        "ok_line": "Brightness falls as one over distance squared, because light spreads over a growing sphere.",
+        "ko_title": "Not absorption or shrinking",
+        "ko_line": "The dimming is geometric spreading, not material absorption.",
+        "exp_title": "Why distance dims light",
+        "exp_text": "Light from a source radiates outward in all directions, covering an ever-larger sphere. The area of that sphere grows with the square of the distance, so the same amount of light is spread thinner. At double the distance, the light is spread over four times the area, making it appear one quarter as bright. This is why brightness follows the inverse square law."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "If the true brightness of a certain kind of object is already known, how does seeing it look unusually faint in the sky reveal how far away it is?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It shows the object must be very old, because faint light comes from old objects",
+            "feedback": "Faintness in this case is not about age but about distance. A known bright object that looks faint must be far away, not necessarily old."
+          },
+          {
+            "label": "It shows the object is moving away from us, so its light gets weaker",
+            "feedback": "Motion away stretches light to redder colors but does not by itself explain the faintness in the way distance does. The faintness is a distance clue."
+          },
+          {
+            "label": "Because the known true brightness lets us compare: if it looks dimmer than expected, it must be farther away",
+            "feedback": "Correct. If we know how bright an object intrinsically is, and we see it appearing fainter, the only reason is that it is farther away. We then use the inverse square law to calculate that distance."
+          },
+          {
+            "label": "Because the light gets stretched and loses energy, making it appear dimmer than it truly is",
+            "feedback": "Stretching (redshift) does reduce photon energy, but for nearby objects the effect is tiny. The main factor that makes a known-bright object look faint is distance."
+          }
+        ],
+        "ok_title": "Compare bright to faint",
+        "ok_line": "A known-bright object looking faint must be far away.",
+        "ko_title": "Not age or motion alone",
+        "ko_line": "Faintness here is a distance effect, not an age effect.",
+        "exp_title": "Standard candles",
+        "exp_text": "Some objects, like certain types of supernovae, have a known, fixed true brightness. When astronomers see one appearing much fainter than that known value, they know the only explanation is that it is very far away. By comparing the observed faintness to the known brightness, and using the inverse square law, they can calculate the distance."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why are the gaps between separate galaxies enormously larger, in proportion, than the gaps between stars inside a single galaxy?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because galaxies are much bigger than stars, so they need more room",
+            "feedback": "Size alone does not force larger relative gaps. It is the actual spacing: star distances within a galaxy are tiny compared to galaxy-to-galaxy distances."
+          },
+          {
+            "label": "Because stars within a galaxy are packed relatively close together, while galaxies themselves are scattered far apart across the universe",
+            "feedback": "Correct. Within a galaxy, stars are separated by many light-years but still close on a galactic scale. Galaxies, however, are separated by millions of light-years, so their proportional gaps are far larger."
+          },
+          {
+            "label": "Because galaxies repel each other, while stars attract each other",
+            "feedback": "Galaxies do not repel; they attract each other gravitationally. The large gaps are simply a result of how the universe expanded and structured itself."
+          },
+          {
+            "label": "Because there are far fewer galaxies than stars, so they have more empty space between them",
+            "feedback": "The number does affect average spacing, but the key is that galaxies are extremely rare relative to their own size, leaving vast empty stretches between them."
+          }
+        ],
+        "ok_title": "Vast intergalactic voids",
+        "ok_line": "Galaxies are much farther apart, relative to their size, than stars are.",
+        "ko_title": "No repulsion involved",
+        "ko_line": "The gaps come from cosmic structure, not from repulsion.",
+        "exp_title": "Spacing in the universe",
+        "exp_text": "Inside a galaxy, stars may be a few light-years apart, which is small compared to the galaxy's own size of tens of thousands of light-years. In contrast, galaxies themselves are separated by millions of light-years, which is many times their own diameter. The universe is mostly empty space, with galaxies as tiny islands scattered across vast distances."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the parallax method stop working once a galaxy is far enough away, forcing a completely different way of judging its distance?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Because the apparent shift becomes so tiny that it cannot be measured accurately",
+            "feedback": "Correct. As distance increases, the parallax angle shrinks to a point where it is smaller than the measurement error, so the method becomes useless."
+          },
+          {
+            "label": "Because the galaxy's light becomes too faint to see at all",
+            "feedback": "Faintness is a practical limit for observing, but not the reason parallax fails. Parallax fails because the angle shift is too small, regardless of brightness."
+          },
+          {
+            "label": "Because the galaxy moves away too fast for the shift to be noticed",
+            "feedback": "The galaxy's motion does not affect parallax, which is based on Earth's orbital movement. Even a stationary galaxy would have an immeasurably small parallax at large distances."
+          },
+          {
+            "label": "Because the galaxy's light gets stretched, changing the apparent position",
+            "feedback": "Stretching (redshift) affects color, not position. Parallax relies on angular shift, which becomes too small, not on color changes."
+          }
+        ],
+        "ok_title": "Shift too tiny",
+        "ok_line": "At large distances, the parallax angle is too small to measure.",
+        "ko_title": "Not faintness or motion",
+        "ko_line": "Parallax fails because the angle is too small, not because of brightness or speed.",
+        "exp_title": "Parallax limit",
+        "exp_text": "Parallax works only for objects close enough that the shift in position is measurable. As distance grows, the shift shrinks. Beyond a certain point, the angle becomes smaller than the precision of any instrument, so parallax gives no useful information. Astronomers then switch to other methods, like comparing known brightness to observed faintness."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the age of the universe place a hard limit on how far into space we will ever be able to see?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Because light cannot travel faster than the speed of the universe's expansion",
+            "feedback": "Expansion does move galaxies apart, but the limit on how far we can see comes from the total time light has had to travel, not from expansion speed."
+          },
+          {
+            "label": "Because all the farthest galaxies have already moved beyond the edge of the universe",
+            "feedback": "There is no edge to the universe. The limit is about how old the universe is, not about any edge."
+          },
+          {
+            "label": "Because the universe is too small to contain light from farther away",
+            "feedback": "The universe is not a finite object with a boundary. The limit is temporal: light has only had about 13.8 billion years to reach us."
+          },
+          {
+            "label": "Because light from objects farther away has not had enough time to reach us since the universe began",
+            "feedback": "Correct. The universe is about 13.8 billion years old, so light from anything farther away than that distance could not have arrived yet. There is simply not enough time for that light to have made the journey."
+          }
+        ],
+        "ok_title": "Age limits vision",
+        "ok_line": "Light has only had a finite time to travel since the universe began.",
+        "ko_title": "Not an edge or expansion",
+        "ko_line": "The limit is the universe's age, not any boundary or expansion speed.",
+        "exp_title": "Cosmic horizon",
+        "exp_text": "Light moves at a finite speed, so the farthest light we can possibly see is that which has had the entire age of the universe to travel. Since the universe is about 13.8 billion years old, we cannot see anything farther than about 13.8 billion light-years away. Objects beyond that distance are simply too far for their light to have reached us yet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why is looking farther out into space the same thing as looking further back in time?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because the universe is expanding, so distant objects are moving away and appear older",
+            "feedback": "Expansion stretches light but does not directly make distant objects appear older. The time relation comes from light travel time itself."
+          },
+          {
+            "label": "Because the light from distant objects is dimmer, so we see their past state",
+            "feedback": "Dimness is not the reason for time delay. The time delay comes from the speed of light, not from brightness."
+          },
+          {
+            "label": "Because light takes time to reach us, so the light we see from a distant object left it in the past",
+            "feedback": "Correct. When we look at a galaxy a billion light-years away, the light has been traveling for a billion years. We are seeing the galaxy as it was a billion years ago, not as it is now."
+          },
+          {
+            "label": "Because distant objects are older than nearby objects by the nature of the universe",
+            "feedback": "Distant objects are not inherently older; they are just farther away. The time delay is purely a result of light's travel time."
+          }
+        ],
+        "ok_title": "Light travel time",
+        "ok_line": "Farther means the light left earlier, so we see the past.",
+        "ko_title": "Not expansion or dimness",
+        "ko_line": "The past view comes from light's speed, not from expansion or brightness.",
+        "exp_title": "Time and distance",
+        "exp_text": "Light has a finite speed, so any light we receive has spent a certain amount of time traveling. The farther away an object is, the longer its light has been on its way. Therefore, when we observe a distant galaxy, we are seeing it as it was when the light departed — which is further in the past for greater distances."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does the very faintest, most stretched light reaching us from certain patches of sky count as evidence of some of the earliest galaxies that ever formed?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Because that light is the oldest light in the universe, left over from the Big Bang",
+            "feedback": "The oldest light is the cosmic microwave background, which is uniform and not from individual galaxies. The faint stretched light in patches is from individual earliest galaxies, not the background."
+          },
+          {
+            "label": "Because the extreme stretching means the light left very early, and the faintness indicates it is very far away",
+            "feedback": "Correct. The more stretched (redshifted) the light, the longer it has been traveling, meaning it left when the universe was young. The faintness shows it has come from an enormous distance, so we are seeing galaxies from when the universe was very young."
+          },
+          {
+            "label": "Because that light is the brightest light ever emitted, but it has been weakened by dust",
+            "feedback": "The faintness is from distance, not dust absorption. And the stretching tells how old the light is, not that it was originally the brightest."
+          },
+          {
+            "label": "Because that light comes from the edge of the universe where the Big Bang happened",
+            "feedback": "There is no physical edge, and the Big Bang did not happen at a single point in space. The early galaxies we see are just the ones whose light has traveled nearly the whole age of the universe."
+          }
+        ],
+        "ok_title": "Earliest galaxy light",
+        "ok_line": "The most stretched and faint light reveals galaxies from the young universe.",
+        "ko_title": "Not the background glow",
+        "ko_line": "This is light from individual early galaxies, not the cosmic microwave background.",
+        "exp_title": "Very distant galaxies",
+        "exp_text": "When astronomers detect extremely faint light that is stretched to very long wavelengths, they know it has traveled for nearly the entire age of the universe. That means it left a galaxy when the universe was only a few hundred million years old. The combination of high redshift and extreme faintness points to galaxies that formed very early in cosmic history."
+      }
+    ]
+  }
+]

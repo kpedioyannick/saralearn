@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 235,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the word 'alga' mean in Latin and in English?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Small plant",
+            "feedback": "That is not the Latin meaning. The Latin word 'alga' means 'seaweed'."
+          },
+          {
+            "label": "Green plant",
+            "feedback": "That is not correct. The Latin word 'alga' specifically means 'seaweed', not just any green plant."
+          },
+          {
+            "label": "Water plant",
+            "feedback": "Almost, but the precise translation is 'seaweed', not a general water plant."
+          },
+          {
+            "label": "Seaweed",
+            "feedback": "Correct. The singular 'alga' is Latin for 'seaweed' and keeps that meaning in English."
+          }
+        ],
+        "ok_title": "Alga means seaweed",
+        "ok_line": "The Latin word 'alga' and its English meaning both point to seaweed.",
+        "ko_title": "Wrong Latin meaning",
+        "ko_line": "The correct translation is seaweed, not a generic plant.",
+        "exp_title": "Meaning of alga",
+        "exp_text": "The word 'alga' comes from Latin and means 'seaweed'. In English, it still holds that same meaning when talking about a single alga."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are algae made of at their most basic level, and what do they produce?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "They are all multicellular and produce no oxygen",
+            "feedback": "That is not right. Many algae are single-celled, and all photosynthetic algae produce oxygen."
+          },
+          {
+            "label": "They are mostly simple photosynthetic organisms that produce oxygen",
+            "feedback": "Correct. Algae are mostly photosynthetic organisms, and the photosynthetic ones release oxygen."
+          },
+          {
+            "label": "They are all heterotrophic and consume other organisms",
+            "feedback": "That is wrong. Most algae are photoautotrophs, meaning they use light to make food, and they produce oxygen."
+          },
+          {
+            "label": "They are all land plants without roots or leaves",
+            "feedback": "No, algae are not land plants. They are a separate group of mostly aquatic photosynthetic organisms."
+          }
+        ],
+        "ok_title": "Algae basics",
+        "ok_line": "Most algae are simple photosynthetic organisms that give off oxygen.",
+        "ko_title": "Not all algae",
+        "ko_line": "Many algae are unicellular, and they are not land plants.",
+        "exp_title": "Algal nature",
+        "exp_text": "Algae are a large and diverse group of photosynthetic organisms, mostly living in water. The photosynthetic ones split water molecules and release oxygen."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Where do most algae live?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "In water, especially the sea",
+            "feedback": "Correct. Most algae are aquatic, and many live in the ocean, though freshwater algae also exist."
+          },
+          {
+            "label": "On dry land in deserts",
+            "feedback": "That is not typical. Most algae need water; only a few exceptional species tolerate dry soil or rocks."
+          },
+          {
+            "label": "Inside the bodies of animals",
+            "feedback": "No, that is not where most algae live. Some are parasitic or heterotrophic, but the large majority are free-living in water."
+          },
+          {
+            "label": "On the bark of trees in forests",
+            "feedback": "That is not the main habitat. Most algae are aquatic, not tree-dwelling."
+          }
+        ],
+        "ok_title": "Algae are aquatic",
+        "ok_line": "Most algae live in water, especially marine environments.",
+        "ko_title": "Not dry land",
+        "ko_line": "Only a few algae can survive out of water, and they still need moisture.",
+        "exp_title": "Where algae live",
+        "exp_text": "Most algae are aquatic, with many found in the sea. Freshwater algae also exist, and a few species can grow on damp soil, rocks, or even in caves."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main role of algae in aquatic ecosystems?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They are the main consumers of fish",
+            "feedback": "That is incorrect. Algae do not eat fish; they are primary producers, making food from sunlight."
+          },
+          {
+            "label": "They are decomposers that break down dead matter",
+            "feedback": "No, that is not their primary role. Algae are mostly photoautotrophs that produce their own food and serve as the base of the food web."
+          },
+          {
+            "label": "They are the main primary producers",
+            "feedback": "Correct. Most algae are photoautotrophs and serve as the chief primary producers in aquatic environments."
+          },
+          {
+            "label": "They are parasites that harm other organisms",
+            "feedback": "That is wrong. Although some algae are parasitic, the vast majority are not; they are primary producers."
+          }
+        ],
+        "ok_title": "Primary producers",
+        "ok_line": "Algae are the main food makers in water ecosystems.",
+        "ko_title": "Not consumers",
+        "ko_line": "Algae mostly make their own food, not eat others.",
+        "exp_title": "Algae in food webs",
+        "exp_text": "Most algae are photoautotrophs, meaning they use sunlight to make their own food. They are therefore the primary producers that feed nearly everything else in aquatic ecosystems."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these algae have chloroplasts that came directly from cyanobacteria, without another step in between?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Diatoms and brown algae",
+            "feedback": "That is not correct. Diatoms and brown algae have secondary chloroplasts derived indirectly from red or green algae."
+          },
+          {
+            "label": "Green algae, red algae, and grey algae",
+            "feedback": "Correct. Chlorophytes (green algae), rhodophytes (red algae), and glaucophytes (grey algae) have primary chloroplasts directly from cyanobacteria."
+          },
+          {
+            "label": "Euglenoids and cryptomonads",
+            "feedback": "That is wrong. Euglenoids and cryptomonads have secondary chloroplasts from an intermediate algal ancestor."
+          },
+          {
+            "label": "Only cyanobacteria themselves",
+            "feedback": "They do have cyanobacterial origin, but the question asks about algae with chloroplasts. Cyanobacteria are not algae with chloroplasts—they are the source of the chloroplasts."
+          }
+        ],
+        "ok_title": "Primary chloroplasts",
+        "ok_line": "Green, red, and grey algae got chloroplasts directly from cyanobacteria.",
+        "ko_title": "Secondary chloroplasts",
+        "ko_line": "Other algae got theirs indirectly through another algal step.",
+        "exp_title": "Chloroplast origins",
+        "exp_text": "The primary chloroplasts found in green, red, and grey algae came directly from cyanobacteria that were engulfed. In contrast, diatoms, cryptomonads, euglenoids, and brown algae have secondary chloroplasts derived through an intermediate red or green alga."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a unicellular alga typically lack that land plants have?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A cell wall",
+            "feedback": "No, algae do have cell walls. They lack roots, leaves, and stems."
+          },
+          {
+            "label": "Chlorophyll",
+            "feedback": "That is not correct. Most algae contain chlorophyll a, which is why they are green."
+          },
+          {
+            "label": "Cell membranes",
+            "feedback": "That is wrong. All living cells have cell membranes, including algae."
+          },
+          {
+            "label": "Roots, leaves, and stems",
+            "feedback": "Correct. Most algae are single-celled and have no roots, leaves, or stems, unlike land plants."
+          }
+        ],
+        "ok_title": "No roots or leaves",
+        "ok_line": "A typical alga is just one cell with no plant organs.",
+        "ko_title": "Has other parts",
+        "ko_line": "Algae do have cell walls and chlorophyll, but not roots or leaves.",
+        "exp_title": "Algal simplicity",
+        "exp_text": "Most algae are single-celled organisms. They do not grow roots, leaves, or stems as land plants do; they simply float or drift in water."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a defining feature of the land plants, or embryophytes, that algae do not have?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "They have chlorophyll a",
+            "feedback": "That is not defining—algae also have chlorophyll a. The difference lies in reproductive structures."
+          },
+          {
+            "label": "They are photosynthetic",
+            "feedback": "Many algae are photosynthetic too, so that is not the distinguishing feature."
+          },
+          {
+            "label": "They have female reproductive organs with protective layers around the embryo",
+            "feedback": "Correct. Embryophytes possess female reproductive organs with protective cell layers that shield the zygote and developing embryo."
+          },
+          {
+            "label": "They live in water",
+            "feedback": "That is the opposite. Land plants generally live on land, and algae are aquatic. But the key difference is in reproduction."
+          }
+        ],
+        "ok_title": "Protected embryo",
+        "ok_line": "Land plants protect their embryo inside special tissues; algae do not.",
+        "ko_title": "Not that trait",
+        "ko_line": "Chlorophyll and photosynthesis are shared with algae, so they are not unique.",
+        "exp_title": "Embryophyte trait",
+        "exp_text": "The innovation of land plants is having female reproductive organs with protective cell layers that keep the zygote and developing embryo safe. Algae lack this protection, which is why they are not embryophytes."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is a common way that many unicellular and colonial algae reproduce asexually?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "By cell division, allowing rapid population growth",
+            "feedback": "Correct. Asexual reproduction in algae permits efficient population increases with less variation."
+          },
+          {
+            "label": "By forming seeds",
+            "feedback": "That is not correct. Algae do not make seeds; they reproduce asexually or sexually via gametes."
+          },
+          {
+            "label": "By producing flowers",
+            "feedback": "No, algae do not have flowers. Their reproduction is much simpler."
+          },
+          {
+            "label": "Only through fusion of gametes",
+            "feedback": "That is sexual reproduction, not asexual. Asexual reproduction does not involve gamete fusion."
+          }
+        ],
+        "ok_title": "Asexual division",
+        "ok_line": "Algae multiply quickly by simple cell division.",
+        "ko_title": "No seeds or flowers",
+        "ko_line": "Algae do not use seeds or flowers to reproduce.",
+        "exp_title": "Rapid multiplication",
+        "exp_text": "Many algae reproduce asexually, which allows their numbers to increase very efficiently. This is why a pond can turn green so fast under the right conditions."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In sexual reproduction of unicellular algae, what happens when two compatible gametes meet?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "One gamete kills the other",
+            "feedback": "That is not right. They fuse together, they do not fight."
+          },
+          {
+            "label": "They fuse to form a zygote",
+            "feedback": "Correct. Two specialized haploid gametes make contact and fuse to form a zygote."
+          },
+          {
+            "label": "They separate and each grows into a new alga",
+            "feedback": "That is not sexual reproduction. In sexual reproduction, gametes must combine."
+          },
+          {
+            "label": "They produce spores without combining",
+            "feedback": "That is asexual reproduction, not sexual. Spores can form without gamete fusion."
+          }
+        ],
+        "ok_title": "Gametes fuse",
+        "ok_line": "Two gametes join to make a zygote.",
+        "ko_title": "Not that way",
+        "ko_line": "Sexual reproduction always involves fusion of gametes.",
+        "exp_title": "Fertilization in algae",
+        "exp_text": "When two haploid gametes that are sexually compatible meet, they fuse together to form a single diploid zygote. This fusion is the start of the sexual life cycle."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is an algal turf?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "A single tall seaweed that grows alone",
+            "feedback": "That is not a turf. A turf is a dense, carpet-like bed of many algae."
+          },
+          {
+            "label": "The root system of a kelp",
+            "feedback": "No, that is a holdfast, not a turf. A turf is a bed of algae on the seafloor."
+          },
+          {
+            "label": "A type of floating algae that drifts with currents",
+            "feedback": "That is plankton, not a turf. Turfs are attached and form a carpet-like layer."
+          },
+          {
+            "label": "A thick, carpet-like bed of seaweed less than 15 cm tall",
+            "feedback": "Correct. Algal turfs are short, dense beds of seaweed that cover areas of a square metre or more."
+          }
+        ],
+        "ok_title": "Algal turf bed",
+        "ok_line": "A turf is a short, carpet-like mat of seaweed.",
+        "ko_title": "Not a single plant",
+        "ko_line": "Turfs consist of many algae, not one tall individual.",
+        "exp_title": "Definition of turf",
+        "exp_text": "An algal turf is a thick, carpet-like bed of seaweed that usually stands less than 15 cm tall. It can contain one or many species and covers a large area, often competing with corals and kelps."
+      }
+    ]
+  }
+]

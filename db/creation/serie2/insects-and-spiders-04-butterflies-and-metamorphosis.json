@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 245,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the four stages of a butterfly's life in order?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Egg, larva, pupa, adult",
+            "feedback": "Correct. The butterfly starts as an egg, hatches into a larva (caterpillar), transforms into a pupa (chrysalis), and emerges as an adult."
+          },
+          {
+            "label": "Larva, egg, pupa, adult",
+            "feedback": "The egg comes first, not after the larva. The order is egg, larva, pupa, adult."
+          },
+          {
+            "label": "Pupa, larva, egg, adult",
+            "feedback": "The pupa is the third stage, not the first. The correct order starts with the egg."
+          },
+          {
+            "label": "Adult, pupa, larva, egg",
+            "feedback": "This is the reverse of the actual order. The butterfly's life begins as an egg, not as an adult."
+          }
+        ],
+        "ok_title": "Correct order",
+        "ok_line": "The butterfly life cycle follows egg, larva, pupa, adult.",
+        "ko_title": "Wrong sequence",
+        "ko_line": "Check the starting and ending stages of the cycle.",
+        "exp_title": "Butterfly life cycle",
+        "exp_text": "The four stages are egg, larva, pupa, and adult. The egg hatches into a caterpillar (larva), which later forms a chrysalis (pupa), and from that emerges the adult butterfly."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a caterpillar spend most of its time doing while it is a larva?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Eating leaves and growing",
+            "feedback": "Correct. A caterpillar's main job is to eat as much as possible to grow rapidly before it pupates."
+          },
+          {
+            "label": "Building a cocoon",
+            "feedback": "Building a cocoon happens during the pupa stage, not while the caterpillar is still a larva."
+          },
+          {
+            "label": "Laying eggs",
+            "feedback": "Laying eggs is done by the adult butterfly, not by a caterpillar."
+          },
+          {
+            "label": "Flying from flower to flower",
+            "feedback": "Caterpillars have no wings and cannot fly; that is the adult butterfly's activity."
+          }
+        ],
+        "ok_title": "Larva's main task",
+        "ok_line": "The caterpillar eats and grows continuously.",
+        "ko_title": "Not a larva task",
+        "ko_line": "Remember what stage can fly or lay eggs.",
+        "exp_title": "Caterpillar growth",
+        "exp_text": "As a larva, the caterpillar eats leaves almost nonstop to store energy and grow. It only becomes able to fly or lay eggs after metamorphosis turns it into an adult."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the protective shell called that a butterfly forms around itself during the pupa stage?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Cocoon",
+            "feedback": "A cocoon is a silken covering made by some moths, not by butterflies. Butterflies form a chrysalis."
+          },
+          {
+            "label": "Eggshell",
+            "feedback": "The eggshell is the outer covering of the egg, not of the pupa stage."
+          },
+          {
+            "label": "Exoskeleton",
+            "feedback": "The exoskeleton is the outer skeleton of an insect's body, not the protective case of the pupa."
+          },
+          {
+            "label": "Chrysalis",
+            "feedback": "Correct. The chrysalis is the hard protective case that a butterfly pupa forms around itself."
+          }
+        ],
+        "ok_title": "Pupa shell",
+        "ok_line": "Butterflies use a chrysalis, not a cocoon.",
+        "ko_title": "Wrong shell name",
+        "ko_line": "Cocoon belongs to moths, chrysalis to butterflies.",
+        "exp_title": "Butterfly pupa",
+        "exp_text": "During the pupa stage, a butterfly wraps itself in a chrysalis, a firm case that protects the body while it transforms. Moths often make a silken cocoon instead."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does the caterpillar's body break down into inside the chrysalis?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Nothing; it stays the same",
+            "feedback": "The caterpillar's body does change greatly inside the chrysalis, not stay unchanged."
+          },
+          {
+            "label": "A thick liquid-like substance",
+            "feedback": "Correct. Inside the chrysalis, the caterpillar's body breaks down into a soupy substance from which new adult structures form."
+          },
+          {
+            "label": "A pile of dry scales",
+            "feedback": "Scales are on the adult butterfly's wings; the caterpillar does not turn into dry scales."
+          },
+          {
+            "label": "Hard bones",
+            "feedback": "Insects have no bones, so nothing inside the chrysalis becomes bone."
+          }
+        ],
+        "ok_title": "Inside the chrysalis",
+        "ok_line": "The caterpillar body liquefies during transformation.",
+        "ko_title": "No breakdown",
+        "ko_line": "Real transformation happens inside, not stasis.",
+        "exp_title": "Metamorphosis process",
+        "exp_text": "Inside the chrysalis, the caterpillar's tissues break down into a fluid-like mass. Then cells reorganize to form the butterfly's wings, legs, and other adult parts."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a caterpillar need to shed its skin several times as it grows?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Because its skin becomes too heavy",
+            "feedback": "The skin does not gain weight; it becomes too tight for the growing body inside."
+          },
+          {
+            "label": "Because a new color is needed",
+            "feedback": "Color change is not the reason; the caterpillar's outer covering simply cannot stretch enough."
+          },
+          {
+            "label": "Because its skin cannot stretch to fit its growing body",
+            "feedback": "Correct. The outer skin is rigid and cannot expand, so the caterpillar must shed it and grow a larger one."
+          },
+          {
+            "label": "Because the old skin gets dirty",
+            "feedback": "Dirt is not the cause; the limiting factor is that the skin is not flexible enough to grow with the body."
+          }
+        ],
+        "ok_title": "Shedding reason",
+        "ok_line": "The rigid skin must be replaced as the body grows.",
+        "ko_title": "Not a reason",
+        "ko_line": "Focus on the inflexibility, not on weight or color.",
+        "exp_title": "Caterpillar molting",
+        "exp_text": "A caterpillar's outer skin is not stretchy, so as the body grows larger, the skin becomes too tight and splits. The caterpillar sheds it and forms a new, roomier skin, repeating this several times."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a butterfly use its long coiled proboscis for?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Sucking nectar from flowers",
+            "feedback": "Correct. The proboscis is a straw-like tube that the butterfly unrolls to drink nectar."
+          },
+          {
+            "label": "Biting leaves",
+            "feedback": "Butterflies do not bite; their mouthparts are for sucking liquids, not chewing solids."
+          },
+          {
+            "label": "Stinging enemies",
+            "feedback": "Butterflies have no stinger; the proboscis is used only for feeding."
+          },
+          {
+            "label": "Smelling food from a distance",
+            "feedback": "Smelling is done by antennae, not by the proboscis, which is for drinking."
+          }
+        ],
+        "ok_title": "Proboscis use",
+        "ok_line": "It is a straw for drinking nectar.",
+        "ko_title": "Wrong function",
+        "ko_line": "Only sucking liquids, not biting or stinging.",
+        "exp_title": "Butterfly feeding",
+        "exp_text": "The proboscis is a long, flexible tube that stays coiled under the head. When the butterfly lands on a flower, it unrolls the tube and sips nectar, much like drinking with a straw."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main difference in the antennae of a butterfly compared to a moth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Butterflies have feathery antennae, moths have none",
+            "feedback": "Actually, moths have feathery or comb-like antennae, while butterflies have club-tipped ones."
+          },
+          {
+            "label": "Butterflies have no antennae, moths have long ones",
+            "feedback": "Both butterflies and moths have antennae; the difference is in their shape."
+          },
+          {
+            "label": "Butterflies have straight antennae, moths have curled ones",
+            "feedback": "Moths often have feathery or threadlike antennae, not curled. Butterflies end in a club shape."
+          },
+          {
+            "label": "Butterflies have club-tipped antennae, moths have feathery or comb-like ones",
+            "feedback": "Correct. A butterfly's antenna has a thin shaft that ends in a rounded club, while a moth's antenna is often feathery or comb-shaped."
+          }
+        ],
+        "ok_title": "Antenna difference",
+        "ok_line": "Club tips vs. feathery shapes tell them apart.",
+        "ko_title": "Shape mix-up",
+        "ko_line": "Remember which one has the knob at the end.",
+        "exp_title": "Butterfly vs moth antennae",
+        "exp_text": "A reliable way to tell them apart is the antennae: butterflies have thin stalks with a small knob at the end, while moths have feathery or comb-like antennae without a club tip."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does a male butterfly find a female of his own species over a distance?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "By hearing her wings",
+            "feedback": "Butterflies do not make sounds that carry far; they rely mainly on scent."
+          },
+          {
+            "label": "By smelling chemicals she releases in the air",
+            "feedback": "Correct. The female releases special scents called pheromones, and the male follows the scent trail to find her."
+          },
+          {
+            "label": "By watching her bright colors from far away",
+            "feedback": "Bright colors matter up close, but scents travel farther and work even when she is hidden."
+          },
+          {
+            "label": "By feeling vibrations in the ground",
+            "feedback": "Butterflies do not use ground vibrations for finding mates; they rely on airborne chemicals."
+          }
+        ],
+        "ok_title": "Finding a mate",
+        "ok_line": "The male follows her pheromones in the air.",
+        "ko_title": "Wrong method",
+        "ko_line": "Scents, not sounds or sight, guide him.",
+        "exp_title": "Chemical communication",
+        "exp_text": "Female butterflies emit chemical signals called pheromones that drift on the wind. A male butterfly can detect these with his antennae and fly upwind to locate the female."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does a female butterfly look for when she chooses a plant to lay her eggs on?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "A plant with the most colorful flowers",
+            "feedback": "Flower color is not what matters for egg-laying; she needs a plant that the caterpillar can eat."
+          },
+          {
+            "label": "Any plant that is tall and leafy",
+            "feedback": "Not all leaves are edible to the caterpillar; the right plant species is essential."
+          },
+          {
+            "label": "A plant that the caterpillars can eat and grow on",
+            "feedback": "Correct. She chooses a plant whose leaves are the right food for the caterpillars that will hatch from the eggs."
+          },
+          {
+            "label": "A plant that has nectar for the adult butterfly",
+            "feedback": "Nectar is for the adult's food, not for the eggs. The eggs need the plant's leaves for the young."
+          }
+        ],
+        "ok_title": "Egg-laying choice",
+        "ok_line": "The plant must be edible for the young.",
+        "ko_title": "Wrong choice",
+        "ko_line": "Leaf quality, not flower beauty or nectar, decides.",
+        "exp_title": "Host plant selection",
+        "exp_text": "A female butterfly uses her feet and antennae to test plants for the right chemicals. She picks a plant whose leaves are suitable food for the caterpillars so they can grow after hatching."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Why does a newly emerged butterfly have crumpled wings, and what does it do about them?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "They are soft and wet; it pumps fluid into them to expand and dry them",
+            "feedback": "Correct. When it emerges, the wings are folded and damp. The butterfly pumps blood-like fluid through them, stretching them out, then waits for them to harden."
+          },
+          {
+            "label": "They are broken; it cannot repair them",
+            "feedback": "The wings are not broken; they are simply not yet expanded. They become fully usable after stretching and drying."
+          },
+          {
+            "label": "They are too small; it grows new ones",
+            "feedback": "It does not grow new wings; the existing crumpled ones expand into full size."
+          },
+          {
+            "label": "They are folded for flying; it unfolds them like a fan",
+            "feedback": "The unfolding is not a mechanical action; fluid pressure inside the wing veins does the expansion, and then they dry hard."
+          }
+        ],
+        "ok_title": "Wings after emergence",
+        "ok_line": "They expand with fluid and then dry hard.",
+        "ko_title": "Wing misconception",
+        "ko_line": "They are not broken, just not yet inflated.",
+        "exp_title": "First flight preparation",
+        "exp_text": "A fresh butterfly comes out with tiny, soft, crumpled wings. It pumps fluid from its body into the wing veins, which unfolds and stretches them to full size, then rests while they harden before flying."
+      }
+    ]
+  }
+]

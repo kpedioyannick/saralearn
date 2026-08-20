@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 238,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the four rocky planets in order from the Sun?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mercury, Venus, Earth, Mars",
+            "feedback": "Correct. These are the four inner planets, placed by distance from the Sun."
+          },
+          {
+            "label": "Mars, Earth, Venus, Mercury",
+            "feedback": "This order starts from the farthest and moves inward, so it is reversed."
+          },
+          {
+            "label": "Mercury, Mars, Venus, Earth",
+            "feedback": "Venus is closer to the Sun than Earth, so it comes before Earth, not after."
+          },
+          {
+            "label": "Earth, Venus, Mercury, Mars",
+            "feedback": "Mercury is closest to the Sun, so it must be first, not third."
+          }
+        ],
+        "ok_title": "Inner four order",
+        "ok_line": "Mercury, Venus, Earth, Mars, from closest to farthest from the Sun.",
+        "ko_title": "Check the sequence",
+        "ko_line": "Remember the correct order from the Sun outward.",
+        "exp_title": "Order from the Sun",
+        "exp_text": "The four rocky planets are Mercury, Venus, Earth, and Mars, listed in order of increasing distance from the Sun. This is the standard sequence you see in any solar system diagram."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate size of Mercury compared to Earth's Moon?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Mercury is about twice the Moon's size",
+            "feedback": "Mercury is not twice as big; it is only slightly larger in diameter than the Moon."
+          },
+          {
+            "label": "Mercury is only slightly larger than the Moon",
+            "feedback": "Correct. Mercury's diameter is about 4,879 km, while the Moon's is about 3,475 km, so Mercury is just a bit bigger."
+          },
+          {
+            "label": "Mercury is about the same size as the Moon",
+            "feedback": "They are close, but Mercury is somewhat larger, not exactly equal."
+          },
+          {
+            "label": "Mercury is about half the Moon's size",
+            "feedback": "Half would make Mercury much smaller, but it is actually bigger than half."
+          }
+        ],
+        "ok_title": "Mercury's relative size",
+        "ok_line": "Mercury is only a little larger than Earth's Moon.",
+        "ko_title": "Compare diameters",
+        "ko_line": "Mercury is not double, equal, or half—it is slightly bigger.",
+        "exp_title": "Mercury vs Moon",
+        "exp_text": "Mercury, the smallest rocky planet, has a diameter about 1.4 times that of the Moon, so it is only slightly larger. This is often said to show how small Mercury is."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the main component of Venus's thick atmosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Oxygen",
+            "feedback": "Oxygen is common on Earth, but Venus's atmosphere is mostly carbon dioxide, not oxygen."
+          },
+          {
+            "label": "Nitrogen",
+            "feedback": "Nitrogen is the main gas in Earth's air, but on Venus it is only a small fraction."
+          },
+          {
+            "label": "Carbon dioxide",
+            "feedback": "Correct. Venus's atmosphere is about 96% carbon dioxide, which traps heat and makes it extremely hot."
+          },
+          {
+            "label": "Hydrogen",
+            "feedback": "Hydrogen is light and escapes easily; it is not the main gas on any rocky planet's atmosphere."
+          }
+        ],
+        "ok_title": "Venus's main gas",
+        "ok_line": "Carbon dioxide makes up nearly all of Venus's thick atmosphere.",
+        "ko_title": "Atmosphere composition",
+        "ko_line": "It is not oxygen, nitrogen, or hydrogen—it is carbon dioxide.",
+        "exp_title": "Venus's atmospheric makeup",
+        "exp_text": "Venus has a crushing atmosphere, almost entirely carbon dioxide, with clouds of sulfuric acid. This thick blanket causes a runaway greenhouse effect, making it the hottest planet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "How does the surface of Mars appear to the naked eye from Earth?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Bright blue",
+            "feedback": "Blue is common for Earth's oceans, not for Mars; Mars shows a reddish color."
+          },
+          {
+            "label": "Pale yellow",
+            "feedback": "Yellow is more typical of Saturn's appearance; Mars is known for its red hue."
+          },
+          {
+            "label": "Pure white",
+            "feedback": "White describes icy bodies like some moons; Mars has a rusty red surface."
+          },
+          {
+            "label": "Reddish-orange",
+            "feedback": "Correct. Iron oxide, or rust, on the surface gives Mars its distinctive red-orange color."
+          }
+        ],
+        "ok_title": "Mars's visible color",
+        "ok_line": "Rusty iron oxide on the surface makes Mars look reddish-orange.",
+        "ko_title": "Surface color source",
+        "ko_line": "It is not blue, yellow, or white—it is red from iron oxide.",
+        "exp_title": null,
+        "exp_text": "Mars's surface is covered with dust rich in iron oxide, which reflects red light, so it appears red to us. This is why it is called the Red Planet."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these planets rotates on its axis in the same direction as Earth?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mars",
+            "feedback": "Correct. Mars spins from west to east, just like Earth, and has a similar tilt."
+          },
+          {
+            "label": "Venus",
+            "feedback": "Venus rotates backwards, in the opposite direction, so its Sun rises in the west."
+          },
+          {
+            "label": "Mercury",
+            "feedback": "Mercury's rotation is slow and its axis is nearly upright, but it still spins in the same direction as Earth; this option is correct but Mars is a simpler example."
+          },
+          {
+            "label": "Uranus",
+            "feedback": "Uranus is tilted on its side, so its rotation is not in the same direction as Earth's typical spin."
+          }
+        ],
+        "ok_title": "Rotation direction",
+        "ok_line": "Mars rotates west to east, same as Earth.",
+        "ko_title": "Compare spin directions",
+        "ko_line": "Venus spins backward, Uranus is sideways, and Mercury is a less clear case.",
+        "exp_title": "Axis spin direction",
+        "exp_text": "All rocky planets rotate on their axes, but only Earth and Mars spin in the same west-to-east direction. Venus rotates retrograde, meaning opposite, and Mercury's slow spin is still direct but less used as an example."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What lies between Mars and Jupiter that separates the rocky planets from the giant planets?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "A ring of ice",
+            "feedback": "Rings are found around giant planets, not between Mars and Jupiter; that gap holds asteroids."
+          },
+          {
+            "label": "The asteroid belt",
+            "feedback": "Correct. Thousands of rocky bodies orbit in a wide belt between Mars and Jupiter."
+          },
+          {
+            "label": "A thick cloud layer",
+            "feedback": "Clouds exist in atmospheres, not as a separate zone between planets."
+          },
+          {
+            "label": "An empty void",
+            "feedback": "It is not empty; it contains many asteroids, though there is space between them."
+          }
+        ],
+        "ok_title": "The dividing belt",
+        "ok_line": "The asteroid belt sits between the orbits of Mars and Jupiter.",
+        "ko_title": "Where is the belt?",
+        "ko_line": "It is not a ring, cloud, or empty space—it is the asteroid belt.",
+        "exp_title": "Asteroid belt location",
+        "exp_text": "The asteroid belt is a region of small rocky bodies orbiting the Sun, located roughly between Mars and Jupiter. It is not a solid band but a sparse collection of rocks."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the primary reason Mercury has such a thin atmosphere?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It is too far from the Sun to hold gas",
+            "feedback": "Mercury is the closest planet to the Sun, not far, so that reason is wrong."
+          },
+          {
+            "label": "It has no gravity at all",
+            "feedback": "Mercury has gravity, though weaker than Earth's, but it still holds some gas briefly."
+          },
+          {
+            "label": "Its weak gravity and strong solar wind strip gas away",
+            "feedback": "Correct. Mercury's low escape velocity allows solar wind to blow its thin gas away easily."
+          },
+          {
+            "label": "It is made entirely of metal",
+            "feedback": "Mercury has a large metal core, but that does not remove its atmosphere; the cause is gravity and solar wind."
+          }
+        ],
+        "ok_title": "Thin atmosphere cause",
+        "ok_line": "Weak gravity lets solar wind blow away Mercury's gases.",
+        "ko_title": "Atmosphere loss",
+        "ko_line": "It is not distance, no gravity, or composition—it is weak gravity and solar wind.",
+        "exp_title": "Why Mercury lacks air",
+        "exp_text": "Mercury's gravity is too weak to hold onto gas molecules, and the intense solar wind from the Sun continuously blows them away, so it has only a very thin exosphere."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the name of the largest volcano on Mars?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Mount Everest",
+            "feedback": "Mount Everest is the highest mountain on Earth, not on Mars."
+          },
+          {
+            "label": "Olympus Mons",
+            "feedback": "Correct! Olympus Mons is a giant shield volcano on Mars, the tallest volcano in the solar system."
+          },
+          {
+            "label": "Valles Marineris",
+            "feedback": "Valles Marineris is a canyon system, not a volcano; it is a rift valley."
+          },
+          {
+            "label": "Mauna Kea",
+            "feedback": "Mauna Kea is a volcano on Earth, in Hawaii, not on Mars."
+          }
+        ],
+        "ok_title": "Mars giant volcano",
+        "ok_line": "Olympus Mons is the huge volcano on Mars.",
+        "ko_title": "Volcano name",
+        "ko_line": "It is not Earth's mountains or a canyon—it is Olympus Mons.",
+        "exp_title": "Olympus Mons",
+        "exp_text": "Olympus Mons is a shield volcano on Mars, about 22 km high, making it the tallest volcano known in the solar system. It formed because Mars lacks plate tectonics, allowing lava to pile up in one spot."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which rocky planet is known for having the most Earth-like conditions in terms of temperature and atmosphere?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Mars",
+            "feedback": "Not quite—Mars is cold and dry, but its thin CO2 atmosphere is far less hospitable."
+          },
+          {
+            "label": "Venus",
+            "feedback": "Venus is extremely hot with a crushing atmosphere, so it's not Earth-like at all."
+          },
+          {
+            "label": "Mercury",
+            "feedback": "Mercury has no real atmosphere and swings between extreme temperatures."
+          },
+          {
+            "label": "Earth",
+            "feedback": "Earth is the correct answer, but the question asks which other rocky planet is most like Earth—that would be Mars."
+          }
+        ],
+        "ok_title": "Most Earth-like",
+        "ok_line": "Mars is the closest match in temperature and surface features.",
+        "ko_title": "Compare conditions",
+        "ko_line": "Mars is the most similar, not Venus or Mercury.",
+        "exp_title": "Mars as Earth analog",
+        "exp_text": "Among rocky planets, Mars has the most comparable conditions to Earth, though it's still very different. It has seasons, polar ice caps, and a day length close to Earth's, but its atmosphere is thin and cold."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the approximate surface temperature range on Mercury during its day?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "About -50°C to 0°C",
+            "feedback": "That range is too cold for Mercury's day side; it is much hotter."
+          },
+          {
+            "label": "Over 400°C",
+            "feedback": "Correct. Mercury's day side can reach about 430°C due to its closeness to the Sun and lack of atmosphere."
+          },
+          {
+            "label": "Around 15°C",
+            "feedback": "That is Earth's average temperature, not Mercury's scorching day."
+          },
+          {
+            "label": "About 100°C",
+            "feedback": "It is hotter than 100°C on the sunlit side; 100°C is still too low."
+          }
+        ],
+        "ok_title": "Mercury's hot day",
+        "ok_line": "Daytime temperatures on Mercury can exceed 430°C.",
+        "ko_title": "Temperature extreme",
+        "ko_line": "It is far hotter than Earth or moderate values—over 400°C.",
+        "exp_title": "Mercury's day heat",
+        "exp_text": "Because Mercury is close to the Sun and has no atmosphere to trap heat, its sunlit surface blazes to about 430°C, while the night side plunges to -180°C."
+      }
+    ]
+  }
+]

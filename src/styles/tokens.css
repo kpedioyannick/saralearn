@@ -1,140 +1,179 @@
 /* ============================================================
-   Sara — design tokens
-   Imported from the Réviz design system (colors_and_type.css),
-   trimmed to what this app uses, plus the app's runtime theme
-   tokens (--sc-*) which flip between the paper and dark worlds.
+   SaraLearn — design tokens
+   Refonte « tour 1 » : papier tiède #F7F5EF, action verte
+   #20814A, ambre de reprise #9A6B12, rouge réservé au compteur
+   d'échecs. Space Grotesk porte les questions, DM Sans
+   l'interface, DM Mono les étiquettes et les compteurs.
    ============================================================ */
 
 :root {
   /* ----- TYPEFACES ---------------------------------------- */
-  --font-display: 'Newsreader', 'Iowan Old Style', Georgia, serif;
-  --font-ui: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-ui: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  /* ----- INK / PAPER (design-system source values) --------- */
-  --paper: #faf7f0;
-  --paper-deep: #f2ede2;
+  /* ----- INK / PAPER (valeurs sources de la planche) -------- */
+  --paper: #f7f5ef;
+  --paper-deep: #f0eee6;
   --surface: #ffffff;
-  --surface-sunk: #f6f2ea;
+  --surface-sunk: #f0eee6;
 
-  --ink-900: #1a1814;
-  --ink-700: #3f3a33;
-  --ink-500: #6e665b;
-  --line: #e5decf;
-  --line-strong: #d2c9b5;
+  --ink-900: #161a17;
+  --ink-700: #3f453f;
+  --ink-500: #6b7069;
+  --line: #dfddd4;
+  --line-strong: #c9c7bd;
 
-  /* ----- ACCENT (Gold Leaf) ------------------------------- */
-  --gold-100: #f8ebc6;
-  --gold-300: #e8c56f;
-  --gold-500: #c8932e;
-  --gold-700: #8e6516;
+  /* ----- VERT DE MARQUE — porte toutes les actions ---------- */
+  --brand-green: #20814a;
+  --brand-green-50: #e9f2ec;
+  --brand-green-100: #cfe4d8;
+  --brand-green-700: #176036;
 
-  /* ----- BRAND GREEN — carries every action ---------------- */
-  --brand-green: #118c44;
-  --brand-green-50: #e6f4ec;
-  --brand-green-100: #c8e7d3;
-  --brand-green-700: #0a5c2c;
+  /* ----- SEMANTIQUE ---------------------------------------- */
+  /* L'ambre porte l'erreur et la reprise : c'est lui qui tient le
+     ton non punitif de l'app. Le rouge ne sert qu'au compteur
+     d'échecs du rail et aux actions destructrices (supprimer). */
+  --warning-50: #f3ecdd;
+  --warning-500: #9a6b12;
+  --warning-700: #7d570d;
 
-  /* ----- SEMANTIC ----------------------------------------- */
-  --success-50: #e8f5ec;
-  --success-500: #2f9352;
-  --success-700: #1b5e33;
-  --warning-50: #fff3de;
-  --warning-500: #d88a0e;
-  --amber-50: #fff8eb;
-  --amber-300: #f4c66b;
-  --amber-ink: #5c3a02;
+  --success-50: #e9f2ec;
+  --success-500: #20814a;
+  --success-700: #176036;
 
-  /* ----- THEME COLOURS (subject dots) --------------------- */
-  --sky-500: #1684d6;
-  --sky-50: #ecf6fe;
-  --violet-500: #7a4fcb;
-  --violet-50: #f3eefe;
-  --rose-500: #ec4880;
-  --rose-50: #fff1f4;
-  --amber-500: #e29412;
+  --danger-50: #f9eae8;
+  --danger-500: #c4342b;
+
+  /* Confettis de la félicitation — jamais employés comme couleur
+     d'interface, seulement dans l'animation plein écran. */
+  --confetti-1: #ffffff;
+  --confetti-2: #8ae0ae;
+  --confetti-3: #f2c744;
+  --confetti-4: #7fc4ff;
+  --confetti-5: #ff9ec4;
+  --confetti-6: #c9f27a;
+
+  /* Conservés pour les rares appels résiduels : l'or de l'ancienne
+     célébration retombe sur l'ambre de la nouvelle planche. */
+  --gold-100: #f3ecdd;
+  --gold-300: #f2c744;
+  --gold-500: #9a6b12;
+  --gold-700: #7d570d;
+  --amber-50: #f3ecdd;
+  --amber-300: #f2c744;
+  --amber-ink: #7d570d;
+
+  /* ----- COULEURS DE CATÉGORIE (pastilles) ----------------- */
+  --sky-500: #2f7fbf;
+  --sky-50: #e9f1f8;
+  --violet-500: #6f56b0;
+  --violet-50: #efecf8;
+  --rose-500: #c4526f;
+  --rose-50: #f9ecef;
+  --amber-500: #9a6b12;
   --college-500: #2f8a74;
   --lycee-500: #4e3a91;
 
-  /* ----- RADIUS ------------------------------------------- */
-  --r-md: 10px;
-  --r-lg: 14px;
-  --r-xl: 20px;
+  /* ----- RAYONS -------------------------------------------- */
+  /* La planche arrondit large : 18px sur un bouton de réponse,
+     20px sur une carte, 42px sur le cadre du téléphone. */
+  --r-md: 14px;
+  --r-lg: 18px;
+  --r-xl: 22px;
   --r-2xl: 28px;
   --r-pill: 999px;
 
-  /* ----- ELEVATION ---------------------------------------- */
-  --shadow-sm: 0 1px 2px rgba(26, 24, 20, 0.06);
-  --shadow-md: 0 2px 4px rgba(26, 24, 20, 0.05);
-  --shadow-lg: 0 4px 8px rgba(26, 24, 20, 0.06), 0 16px 32px -8px rgba(26, 24, 20, 0.12);
-  --shadow-xl: 0 8px 16px rgba(26, 24, 20, 0.08), 0 32px 64px -16px rgba(26, 24, 20, 0.18);
-  --shadow-sunk: inset 0 1px 2px rgba(26, 24, 20, 0.08);
+  /* ----- ÉLÉVATION ----------------------------------------- */
+  --shadow-sm: 0 1px 2px rgba(15, 22, 18, 0.05);
+  --shadow-md: 0 2px 6px rgba(15, 22, 18, 0.06);
+  --shadow-lg: 0 6px 14px rgba(15, 22, 18, 0.07), 0 20px 40px -14px rgba(15, 22, 18, 0.16);
+  --shadow-xl: 0 10px 20px rgba(15, 22, 18, 0.08), 0 30px 70px -20px rgba(15, 22, 18, 0.28);
+  --shadow-sunk: inset 0 1px 2px rgba(15, 22, 18, 0.07);
 
-  /* ----- MOTION ------------------------------------------- */
+  /* ----- MOUVEMENT ----------------------------------------- */
   --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
-  --ease-spring: cubic-bezier(0.34, 1.34, 0.64, 1);
+  --ease-spring: cubic-bezier(0.2, 1.4, 0.4, 1);
   --dur-fast: 140ms;
-  --dur-base: 220ms;
+  --dur-base: 240ms;
   --dur-slow: 360ms;
 }
 
 /* ============================================================
-   Runtime theme — the app paints exclusively through these.
-   Light is the retained direction: papier crème, action verte.
+   Thème d'exécution — l'app ne peint qu'à travers ces jetons.
    ============================================================ */
 
 .theme-light {
-  --sc-bg: #faf7f0;
+  --sc-bg: #f7f5ef;
   --sc-surface: #ffffff;
-  --sc-sunk: #f6f2ea;
-  --sc-text: #1a1814;
-  --sc-text2: #3f3a33;
-  --sc-text3: #6e665b;
-  --sc-line: #e5decf;
-  --sc-primary: #0a5c2c;
-  --sc-primary-soft: #e6f4ec;
+  --sc-sunk: #f0eee6;
+  /* La planche empile beaucoup de « noir à 6 % » sur du blanc comme
+     sur du papier : un voile translucide se pose sur les deux, une
+     couleur pleine ne le peut pas. */
+  --sc-veil: rgba(22, 26, 23, 0.06);
+  --sc-veil-strong: rgba(22, 26, 23, 0.1);
+  --sc-text: #161a17;
+  --sc-text2: #3f453f;
+  --sc-text3: #6b7069;
+  --sc-line: rgba(22, 26, 23, 0.12);
+  --sc-line-solid: #dfddd4;
+  --sc-primary: #20814a;
+  --sc-primary-ink: #176036;
+  --sc-primary-soft: rgba(32, 129, 74, 0.12);
+  --sc-primary-line: rgba(32, 129, 74, 0.4);
   --sc-on-primary: #ffffff;
-  /* Le vert de la marque — celui du « Sara » du logo. Distinct
-     du vert d'action (--sc-primary), qui est plus sombre pour
-     tenir le contraste sur un bouton plein. */
+  /* Le vert du « Sara » du logo et le vert d'action ne font plus
+     qu'un dans cette planche : #20814A tient 4,7:1 sur le papier. */
   --sc-brand: #20814a;
-  --sc-scrim: rgba(26, 24, 20, 0.32);
-  --sc-shimmer: linear-gradient(90deg, #f6f2ea 0%, #ece6d8 40%, #f6f2ea 80%);
+  --sc-scrim: rgba(15, 22, 18, 0.32);
+  --sc-shimmer: linear-gradient(90deg, #f0eee6 0%, #e4e1d6 40%, #f0eee6 80%);
+  --sc-wash: radial-gradient(120% 60% at 50% 0%, rgba(32, 129, 74, 0.13), transparent 60%);
 }
 
 .theme-dark {
-  --sc-bg: #14120f;
-  --sc-surface: #1e1b17;
-  --sc-sunk: #221e19;
-  --sc-text: #f5f1e8;
-  --sc-text2: #dcd5c6;
-  --sc-text3: #a79e90;
-  --sc-line: #33302a;
-  --sc-primary: #74c494;
-  --sc-primary-soft: #10241a;
-  --sc-on-primary: #08190e;
-  /* #20814a tombe à ~2,4:1 sur le fond sombre : illisible. On
-     éclaircit la même teinte plutôt que d'en changer. */
+  --sc-bg: #101311;
+  --sc-surface: #191d1a;
+  --sc-sunk: #1f2320;
+  --sc-veil: rgba(242, 244, 240, 0.07);
+  --sc-veil-strong: rgba(242, 244, 240, 0.12);
+  --sc-text: #f2f4f0;
+  --sc-text2: #cbd0ca;
+  --sc-text3: #959c95;
+  --sc-line: rgba(242, 244, 240, 0.14);
+  --sc-line-solid: #2c312d;
+  /* #20814A tombe à ~2,4:1 sur le fond sombre : on éclaircit la même
+     teinte plutôt que d'en changer. */
+  --sc-primary: #4fb57c;
+  --sc-primary-ink: #8ad3a8;
+  --sc-primary-soft: rgba(79, 181, 124, 0.16);
+  --sc-primary-line: rgba(79, 181, 124, 0.42);
+  --sc-on-primary: #06180e;
   --sc-brand: #4fb57c;
-  --sc-scrim: rgba(8, 7, 5, 0.58);
-  --sc-shimmer: linear-gradient(90deg, #221e19 0%, #2e2921 40%, #221e19 80%);
+  --sc-scrim: rgba(4, 8, 5, 0.58);
+  --sc-shimmer: linear-gradient(90deg, #1f2320 0%, #2a2f2b 40%, #1f2320 80%);
+  --sc-wash: radial-gradient(120% 60% at 50% 0%, rgba(79, 181, 124, 0.14), transparent 60%);
 }
 
-/* The error card keeps a calm green on both grounds — never a red,
-   never a cross. Dark needs its own pair to stay legible. */
+/* La carte d'erreur : la bonne réponse en vert calme, le choix fautif
+   en ambre. Aucune croix, aucun rouge — le rouge reste au compteur. */
 .theme-light {
-  --sc-good-bg: #e8f5ec;
-  --sc-good-line: #2f9352;
-  --sc-good-ink: #1b5e33;
-  --sc-miss-bg: #fff3de;
-  --sc-miss-line: #d88a0e;
-  --sc-miss-ink: #8e6516;
+  --sc-good-bg: rgba(32, 129, 74, 0.14);
+  --sc-good-line: rgba(32, 129, 74, 0.4);
+  --sc-good-ink: #176036;
+  --sc-miss-bg: rgba(154, 107, 18, 0.1);
+  --sc-miss-line: rgba(154, 107, 18, 0.35);
+  --sc-miss-ink: #9a6b12;
+  --sc-bad: #c4342b;
+  --sc-bad-bg: rgba(196, 52, 43, 0.1);
 }
 
 .theme-dark {
-  --sc-good-bg: #10281a;
-  --sc-good-line: #3f9f63;
-  --sc-good-ink: #86d3a3;
-  --sc-miss-bg: #2a2418;
-  --sc-miss-line: #d88a0e;
-  --sc-miss-ink: #f4c66b;
+  --sc-good-bg: rgba(79, 181, 124, 0.16);
+  --sc-good-line: rgba(79, 181, 124, 0.42);
+  --sc-good-ink: #8ad3a8;
+  --sc-miss-bg: rgba(242, 199, 68, 0.12);
+  --sc-miss-line: rgba(242, 199, 68, 0.34);
+  --sc-miss-ink: #e6bf5c;
+  --sc-bad: #e2685e;
+  --sc-bad-bg: rgba(226, 104, 94, 0.14);
 }

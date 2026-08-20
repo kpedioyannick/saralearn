@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 225,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is fog, in essential terms, compared with an ordinary cloud in the sky?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "A low-lying cloud that sits near the ground",
+            "feedback": "Correct. Fog is essentially a cloud that forms at or near the Earth's surface, typically resembling stratus."
+          },
+          {
+            "label": "A cloud that has fallen from the sky",
+            "feedback": "Fog does not fall from above; it forms directly at low altitude when water vapor condenses near the ground."
+          },
+          {
+            "label": "A cloud made of ice crystals only",
+            "feedback": "Fog can contain ice crystals, but it is usually made of tiny water droplets, just like most clouds."
+          },
+          {
+            "label": "A cloud that never contains water droplets",
+            "feedback": "Fog is a visible aerosol of tiny water droplets or ice crystals held in the air near the surface."
+          }
+        ],
+        "ok_title": "Fog is a low cloud",
+        "ok_line": "Fog sits at ground level, unlike clouds higher up.",
+        "ko_title": "Not fallen, not icy",
+        "ko_line": "Fog forms low, not by falling, and is usually water droplets.",
+        "exp_title": "Fog and cloud relation",
+        "exp_text": "Fog is a visible aerosol of tiny water droplets or ice crystals held in the air near the Earth's surface. It is a type of low-lying cloud, usually resembling stratus, and forms when water vapor condenses close to the ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "By definition, what visibility does fog reduce to?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "More than 1 kilometer",
+            "feedback": "Mist causes lesser impairment than fog; fog specifically reduces visibility to less than 1 km, not more."
+          },
+          {
+            "label": "Exactly 5 kilometers",
+            "feedback": "That is far too high; fog is defined by reducing visibility below 1 km."
+          },
+          {
+            "label": "Less than 1 kilometer",
+            "feedback": "Correct. Fog is defined by reducing visibility to less than 1 km (0.62 mi)."
+          },
+          {
+            "label": "About 10 meters",
+            "feedback": "That is much too short; the definition threshold is 1 km, not 10 meters."
+          }
+        ],
+        "ok_title": "Visibility under 1 km",
+        "ok_line": "Fog makes seeing harder than mist.",
+        "ko_title": "Not fog's cutoff",
+        "ko_line": "Only under 1 km counts as fog.",
+        "exp_title": "Fog definition",
+        "exp_text": "By definition, fog reduces visibility to less than 1 km (0.62 mi), whereas mist causes lesser impairment of visibility."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the difference between air temperature and dew point that allows fog to form?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "More than 5 °C",
+            "feedback": "A difference greater than 5 °C is too large; fog needs the air to be very close to saturation, so the difference must be small."
+          },
+          {
+            "label": "Less than 2.5 °C",
+            "feedback": "Correct. Fog forms when the difference between air temperature and dew point is less than 2.5 °C (4.5 °F)."
+          },
+          {
+            "label": "Exactly 10 °C",
+            "feedback": "That difference is far too large; at 10 °C the air is far from saturated and fog will not form."
+          },
+          {
+            "label": "Zero, always",
+            "feedback": "It can be zero, but the condition is less than 2.5 °C, not necessarily exactly zero."
+          }
+        ],
+        "ok_title": "Close to dew point",
+        "ok_line": "The air must be almost saturated.",
+        "ko_title": "Difference too big",
+        "ko_line": "Fog needs a small gap, not a wide one.",
+        "exp_title": "Fog formation condition",
+        "exp_text": "Fog forms when the difference between air temperature and dew point is less than 2.5 °C (4.5 °F)."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "On what surfaces does radiation fog form?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "Over any water surface",
+            "feedback": "Radiation fog cannot form over a water surface; it needs land that cools by radiating heat away at night."
+          },
+          {
+            "label": "Only on bare rock",
+            "feedback": "Radiation fog forms over various land types, including swampy terrain and valleys, not only bare rock."
+          },
+          {
+            "label": "On lakes and rivers",
+            "feedback": "Water bodies do not cool the same way as land, so radiation fog does not form over them."
+          },
+          {
+            "label": "Over swampy terrain and valleys",
+            "feedback": "Correct. Radiation fog most often occurs over swampy terrain and in valleys where cold air collects at the bottom."
+          }
+        ],
+        "ok_title": "Land, not water",
+        "ok_line": "Radiation fog needs cooling ground.",
+        "ko_title": "Water is wrong",
+        "ko_line": "Radiation fog never forms over water.",
+        "exp_title": "Radiation fog location",
+        "exp_text": "Radiation fog forms by the cooling of Earth's surface after sunset. It most often occurs over swampy terrain and in valleys, and it cannot form over a water surface."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is ground fog?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Fog that obscures less than 60% of the sky",
+            "feedback": "Correct. Ground fog is defined as fog that obscures less than 60% of the sky and does not extend to the base of any overhead clouds."
+          },
+          {
+            "label": "Fog that covers the entire sky",
+            "feedback": "That would obscure more than 60% of the sky, which is not ground fog."
+          },
+          {
+            "label": "Fog that forms only over oceans",
+            "feedback": "Ground fog is not tied to oceans; it is shallow fog, often radiation fog over land."
+          },
+          {
+            "label": "Fog that is always deeper than 100 meters",
+            "feedback": "Ground fog is often shallow, sometimes only tens of centimeters deep, not necessarily deep."
+          }
+        ],
+        "ok_title": "Shallow fog",
+        "ok_line": "Ground fog leaves most sky visible.",
+        "ko_title": "Not full coverage",
+        "ko_line": "Ground fog hides less than 60% of sky.",
+        "exp_title": "Ground fog definition",
+        "exp_text": "Ground fog is fog that obscures less than 60% of the sky and does not extend to the base of any overhead clouds. It is usually a synonym for shallow radiation fog."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What happens to water vapor near bits of salt to form sea fog?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "It freezes into ice",
+            "feedback": "Sea fog forms by condensation, not freezing. The vapor condenses onto salt particles to make droplets."
+          },
+          {
+            "label": "It evaporates into the air",
+            "feedback": "Evaporation is the opposite; fog forms when vapor condenses into liquid droplets."
+          },
+          {
+            "label": "It condenses on the salt",
+            "feedback": "Correct. Sea fog forms as water vapor condenses on bits of salt in the air near saline water."
+          },
+          {
+            "label": "It turns directly into snow",
+            "feedback": "Sea fog is made of liquid droplets, not snow, and forms by condensation on salt."
+          }
+        ],
+        "ok_title": "Salt as nuclei",
+        "ok_line": "Salt bits help vapor become droplets.",
+        "ko_title": "Not freezing or evaporating",
+        "ko_line": "It's condensation, not other changes.",
+        "exp_title": "Sea fog formation",
+        "exp_text": "Sea fog shows up near bodies of saline water and is formed as water vapor condenses on bits of salt."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "In what conditions does radiation fog form?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "In cloudy, windy conditions",
+            "feedback": "Clouds and wind prevent radiation fog; it needs clear skies and calm conditions for the ground to cool."
+          },
+          {
+            "label": "During a rainstorm",
+            "feedback": "Rain and strong winds do not create radiation fog; it forms on clear, calm nights."
+          },
+          {
+            "label": "On warm, humid afternoons",
+            "feedback": "Radiation fog forms mostly at night, after the ground cools, not during warm afternoons."
+          },
+          {
+            "label": "In clear and calm conditions after sunset",
+            "feedback": "Correct. Radiation fog forms by the cooling of the Earth's surface after sunset, in clear and calm conditions."
+          }
+        ],
+        "ok_title": "Clear, calm nights",
+        "ok_line": "Ground cools and fog forms.",
+        "ko_title": "Clouds and wind block",
+        "ko_line": "Clear skies and no wind are needed.",
+        "exp_title": "Radiation fog conditions",
+        "exp_text": "Radiation fog is formed by the cooling of Earth's surface and lower atmosphere after sunset, in clear and calm conditions. The ground reradiates heat, cooling the air above it."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What does advection fog form when?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Warm air rises over mountains",
+            "feedback": "That describes orographic lifting, not advection fog, which requires moist air moving over a cool surface."
+          },
+          {
+            "label": "Moist air passes over a cool surface",
+            "feedback": "Correct. Advection fog occurs when moist air passes over a cool surface by advection (wind) and is cooled."
+          },
+          {
+            "label": "Cold air sinks into valleys at night",
+            "feedback": "That is radiation fog, not advection fog, which involves wind moving air over a cooler surface."
+          },
+          {
+            "label": "Rain evaporates near the ground",
+            "feedback": "That describes frontal fog, where raindrops evaporate into cooler air, not advection fog."
+          }
+        ],
+        "ok_title": "Moist air cooled",
+        "ok_line": "Wind moves air over cold ground.",
+        "ko_title": "Not sinking or raining",
+        "ko_line": "Advection needs wind over cool surface.",
+        "exp_title": "Advection fog formation",
+        "exp_text": "Advection fog occurs when moist air passes over a cool surface by advection (wind) and is cooled. It is common when warm moist air encounters cooler waters or snow-covered ground."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of fog forms when raindrops evaporate into cooler air near the ground?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Radiation fog",
+            "feedback": "Radiation fog forms from ground cooling at night, not from evaporating raindrops."
+          },
+          {
+            "label": "Advection fog",
+            "feedback": "Advection fog forms by moist air moving over a cool surface, not from raindrops evaporating."
+          },
+          {
+            "label": "Frontal fog",
+            "feedback": "Correct. Frontal fog forms when raindrops falling from warmer air above a front evaporate into cooler air near the surface, saturating it."
+          },
+          {
+            "label": "Sea fog",
+            "feedback": "Sea fog forms near saline water where vapor condenses on salt, not from evaporating raindrops."
+          }
+        ],
+        "ok_title": "Frontal fog",
+        "ok_line": "Rain evaporates into cool air.",
+        "ko_title": "Other fog types",
+        "ko_line": "Rain evaporation defines frontal fog.",
+        "exp_title": "Frontal fog formation",
+        "exp_text": "Frontal fog forms in much the same way as stratus cloud near a front when raindrops, falling from relatively warm air above, evaporate into cooler air close to the Earth's surface and cause it to become saturated."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are fog droplets?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Tiny water droplets or ice crystals in the air",
+            "feedback": "Correct. Fog is a visible aerosol consisting of tiny water droplets or ice crystals held in the air near the Earth's surface."
+          },
+          {
+            "label": "Dust particles floating in the air",
+            "feedback": "Dust is a condensation nucleus, not the droplets themselves; fog is made of water droplets or ice crystals."
+          },
+          {
+            "label": "Large raindrops falling slowly",
+            "feedback": "Fog droplets are tiny and suspended, not large falling raindrops."
+          },
+          {
+            "label": "Water vapor gas visible to the eye",
+            "feedback": "Water vapor is invisible; fog is the visible condensed droplets, not the gas itself."
+          }
+        ],
+        "ok_title": "Tiny droplets or ice",
+        "ok_line": "Fog is made of visible water bits.",
+        "ko_title": "Not dust or vapor",
+        "ko_line": "Fog is condensed water, not gas or dust.",
+        "exp_title": "Fog composition",
+        "exp_text": "Fog is a visible aerosol consisting of tiny water droplets or ice crystals held in the air near the Earth's surface."
+      }
+    ]
+  }
+]

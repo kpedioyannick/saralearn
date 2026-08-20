@@ -1,0 +1,307 @@
+[
+  {
+    "chapter_id": 262,
+    "items": [
+      {
+        "type_question": "qcm",
+        "prompt": "How do a child's long bones, like the thigh bone, get longer as the child grows?",
+        "body": null,
+        "options": [
+          {
+            "label": "The whole bone stretches like elastic",
+            "feedback": "Bone is rigid, not stretchy. Length is added by growing new bone, not by stretching existing bone."
+          },
+          {
+            "label": "New bone forms at growth plates near each end",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The bone marrow pushes the ends outward",
+            "feedback": "Marrow fills the space inside a bone; it does not push the ends of the bone further apart."
+          },
+          {
+            "label": "Old bone cells multiply throughout the shaft",
+            "feedback": "The middle shaft of a long bone is not where new length is added. That happens at specific zones nearer the ends."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Length is added at a narrow strip near each end.",
+        "ko_title": "Not the mechanism",
+        "ko_line": "Bone is rigid, so nothing about it stretches. Ask where new bone is actually being added.",
+        "exp_title": "A narrow strip that keeps adding length",
+        "exp_text": "Near each end of a long bone sits a thin layer of cartilage called a growth plate, where cells keep dividing and turning into new bone. As that layer keeps producing bone on one side while staying cartilage on the other, the whole bone gains length little by little through childhood."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a growing bone get wider, not just longer?",
+        "body": null,
+        "options": [
+          {
+            "label": "It gets wider only as growth plates thicken",
+            "feedback": "Growth plates add length at the ends. Width is added somewhere else along the bone entirely."
+          },
+          {
+            "label": "The marrow cavity expands outward",
+            "feedback": "The marrow cavity is hollow space inside the bone; expanding space alone would not add solid bone to the outside."
+          },
+          {
+            "label": "A thin layer around the bone's surface adds new bone from the outside",
+            "feedback": "Correct."
+          },
+          {
+            "label": "Muscles pressing on the bone force it to widen",
+            "feedback": "Pressure from muscles does not build new bone tissue. Widening comes from a layer of cells on the bone itself."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "A separate layer handles width while growth plates handle length.",
+        "ko_title": "Not that layer",
+        "ko_line": "Growth plates are only responsible for length. Something else, wrapped around the outside of the bone, handles width.",
+        "exp_title": "Building outward, layer by layer",
+        "exp_text": "A thin membrane called the periosteum wraps around the outside of every bone, and cells within it lay down new bone tissue on the surface. Layer after layer added from outside makes the bone gradually thicker as the child grows, working independently of the growth plates that add length."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Does a child grow at a steady pace year after year, or in bursts?",
+        "body": null,
+        "options": [
+          {
+            "label": "A perfectly steady pace, adding the same amount every month",
+            "feedback": "Growth is not a smooth, unchanging line. Measured over time, the pace clearly speeds up and slows down."
+          },
+          {
+            "label": "It slows down every single year without exception",
+            "feedback": "There are stretches where growth speeds back up rather than slowing further, so a steady slowdown does not match what actually happens."
+          },
+          {
+            "label": "It grows in one long push right after birth and then stops entirely",
+            "feedback": "Growth does not stop for long stretches of childhood. There are quieter periods, but they are not a complete halt."
+          },
+          {
+            "label": "In uneven bursts, with quiet stretches in between",
+            "feedback": "Correct."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Correct",
+        "ok_line": "Growth speeds up and slows down rather than staying constant.",
+        "ko_title": "Not steady",
+        "ko_line": "Measured carefully over the months, a child's growth line is not flat and even.",
+        "exp_title": "Speeding up, then easing off",
+        "exp_text": "Growth plates do not add bone at a constant rate; instead their activity rises and falls over weeks and months in response to changing hormone levels and other signals. That uneven pace is why a child's clothes can suddenly stop fitting after a quiet stretch of barely growing at all."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Why does a young child's skull still have flexible joints between its bone plates, years after birth?",
+        "body": null,
+        "options": [
+          {
+            "label": "The brain keeps growing for years, and the skull needs room to expand with it",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The plates are actually fused already and just look separate",
+            "feedback": "The plates are genuinely still separate at this stage, with soft, flexible tissue still filling the gaps between them."
+          },
+          {
+            "label": "The joints let the child chew more efficiently",
+            "feedback": "Chewing is handled by the jaw, which is not one of the plates that make up the rounded upper skull."
+          },
+          {
+            "label": "They protect against bumps to the head",
+            "feedback": "Flexible joints do not act as padding against impact. Their role is tied to something happening inside the skull, not outside it."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "The joints stay open as long as the brain still has growing to do.",
+        "ko_title": "Not the reason",
+        "ko_line": "Think about what keeps growing inside the skull long after birth, and what it needs room for.",
+        "exp_title": "Room for a growing brain",
+        "exp_text": "A young child's skull is made of separate bone plates joined by flexible strips of tissue called sutures, rather than one solid shell. Those sutures let the plates drift slightly apart as the brain inside keeps expanding, and they gradually close once that growth has largely settled down."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Where does a fingernail actually grow from?",
+        "body": null,
+        "options": [
+          {
+            "label": "The visible white tip, which is the growing edge",
+            "feedback": "The white tip is the oldest part of the nail, already dead and simply being pushed forward, not where growth begins."
+          },
+          {
+            "label": "A hidden root under the skin at the base of the nail",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The whole nail thickens evenly at once",
+            "feedback": "Growth is not spread evenly across the nail. It begins in one specific spot and pushes outward from there."
+          },
+          {
+            "label": "Growth happens from the sides inward",
+            "feedback": "The sides of the nail are guided by grooves in the skin, but new nail is not produced from the sides themselves."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "Hidden under the skin, pushing the visible nail forward.",
+        "ko_title": "Not that spot",
+        "ko_line": "The part of the nail you can see is already old. Look for where new nail is actually made.",
+        "exp_title": "A hidden root doing the pushing",
+        "exp_text": "A fingernail grows from a root tucked under the skin at its base, where living cells constantly divide and fill with a tough protein called keratin. As new cells are added there, they push the older, hardened cells ahead of them, carrying the visible nail forward across the fingertip."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "Does a single hair keep growing forever, or does something else happen?",
+        "body": null,
+        "options": [
+          {
+            "label": "It grows forever unless it is cut",
+            "feedback": "Left uncut, a hair still stops lengthening on its own well before it becomes unusually long."
+          },
+          {
+            "label": "It grows to a fixed length and then stops changing entirely",
+            "feedback": "The hair does not simply stop and sit unchanged. What happens next is a further, active stage, not a permanent pause."
+          },
+          {
+            "label": "It grows for a while, then rests and eventually falls out, replaced by a new one",
+            "feedback": "Correct."
+          },
+          {
+            "label": "It only grows while a person is a child",
+            "feedback": "Hair keeps growing well past childhood, cycling through the same stages throughout life."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "Growth, rest, and replacement, on repeat.",
+        "ko_title": "Not a straight line",
+        "ko_line": "A hair does not simply grow and stop for good. Think in terms of a repeating cycle instead.",
+        "exp_title": "A repeating cycle, not one long growth",
+        "exp_text": "Each hair follicle cycles through an active growing stage, a shorter resting stage, and then a shedding stage where the old hair is released. Once a hair is shed, the same follicle starts the cycle over and grows a new one in its place."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "How does a scraped knee close itself back up over the following days?",
+        "body": null,
+        "options": [
+          {
+            "label": "The skin around the wound stretches to cover the gap",
+            "feedback": "Existing skin does not simply stretch over an open wound. New tissue has to be built to fill it in."
+          },
+          {
+            "label": "A layer of dust and dirt seals it shut",
+            "feedback": "Dirt sitting on a wound does not close it and can interfere with healing rather than help it."
+          },
+          {
+            "label": "Blood alone fills the gap and stays there permanently",
+            "feedback": "A blood clot forms early on and protects the wound, but it is later replaced by new tissue rather than staying there forever."
+          },
+          {
+            "label": "Cells at the wound's edge divide and grow inward to rebuild the skin",
+            "feedback": "Correct."
+          }
+        ],
+        "correct_index": 3,
+        "ok_title": "Correct",
+        "ok_line": "New cells rebuild the surface from the edges inward.",
+        "ko_title": "Not quite",
+        "ko_line": "A clot protects the wound early on, but something has to actually rebuild the skin underneath it.",
+        "exp_title": "Rebuilding from the edges in",
+        "exp_text": "Once a clot has sealed a scrape and protected it from the outside, cells at the wound's edges begin dividing and creeping across the gap, laying down new skin as they go. That advancing sheet of new cells gradually meets in the middle, closing the wound from both edges toward its center."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "As a child's bones grow longer, what has to happen to the muscles and tendons attached to them?",
+        "body": null,
+        "options": [
+          {
+            "label": "They have to lengthen too, to keep up with the bones",
+            "feedback": "Correct."
+          },
+          {
+            "label": "They stay the same length and simply stretch tighter forever",
+            "feedback": "A muscle held at constant tension without lengthening would restrict movement rather than allow it, which is not what happens as a child grows."
+          },
+          {
+            "label": "They shrink to balance out the longer bones",
+            "feedback": "Shrinking muscles would pull a growing skeleton out of shape rather than let it move freely."
+          },
+          {
+            "label": "They detach and reattach further along the bone",
+            "feedback": "Muscles and tendons stay attached at the same points throughout growth; they do not repeatedly detach and reattach."
+          }
+        ],
+        "correct_index": 0,
+        "ok_title": "Right",
+        "ok_line": "Muscle and tendon growth has to keep pace with bone growth.",
+        "ko_title": "Not quite",
+        "ko_line": "If bones grew longer but nothing attached to them changed, think about what would happen to movement.",
+        "exp_title": "Keeping pace with the skeleton",
+        "exp_text": "Muscles and tendons are anchored to the growing ends of bones, so as a growth plate adds length, the fibers attached there are stretched and respond by adding new material of their own. That ongoing lengthening lets muscles and tendons keep the same working tension over a limb that is steadily getting longer."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "What actually makes a loose baby tooth fall out?",
+        "body": null,
+        "options": [
+          {
+            "label": "Chewing gradually wears it down to nothing",
+            "feedback": "Chewing wears the biting surface a little, but it does not dissolve the root or make the whole tooth loose."
+          },
+          {
+            "label": "The permanent tooth growing beneath it dissolves its root",
+            "feedback": "Correct."
+          },
+          {
+            "label": "The gum pushes it out to make room for new gum tissue",
+            "feedback": "The gum is not building new gum tissue that shoves the tooth aside. The pressure comes from a tooth developing beneath it instead."
+          },
+          {
+            "label": "It simply stops receiving blood after childhood begins",
+            "feedback": "Baby teeth keep a working blood and nerve supply for years. What removes them is a targeted process beneath, not a general cutoff."
+          }
+        ],
+        "correct_index": 1,
+        "ok_title": "Correct",
+        "ok_line": "The tooth beneath it quietly dissolves the root away.",
+        "ko_title": "Not the cause",
+        "ko_line": "Something growing underneath the baby tooth is responsible — think about what that might be.",
+        "exp_title": "Dissolved from beneath",
+        "exp_text": "As a permanent tooth develops in the jaw below a baby tooth, cells around it break down the baby tooth's root little by little. With the root gone, the baby tooth is left held in place by little more than a thin flap of gum, loose enough to fall out on its own."
+      },
+      {
+        "type_question": "qcm",
+        "prompt": "When do a baby's first teeth actually begin forming?",
+        "body": null,
+        "options": [
+          {
+            "label": "Only after the first tooth appears in the mouth",
+            "feedback": "By the time a tooth is visible in the mouth, it has already been developing out of sight for a long stretch beforehand."
+          },
+          {
+            "label": "During the first weeks after birth",
+            "feedback": "Formation is already well underway by birth. It does not first begin in the weeks that follow."
+          },
+          {
+            "label": "Long before birth, as buds hidden inside the jaw",
+            "feedback": "Correct."
+          },
+          {
+            "label": "They do not begin forming until the permanent teeth are ready",
+            "feedback": "Baby teeth and permanent teeth develop on their own separate timelines, and baby teeth are far along before the permanent set even begins."
+          }
+        ],
+        "correct_index": 2,
+        "ok_title": "Right",
+        "ok_line": "Hidden buds forming long before a single tooth is ever seen.",
+        "ko_title": "Too late",
+        "ko_line": "By the time a tooth shows above the gum, it has been developing for a long stretch out of sight.",
+        "exp_title": "Buds forming out of sight",
+        "exp_text": "Tiny buds for every baby tooth start forming inside the jaw well before birth, tucked beneath the gum where they cannot be seen. Each bud slowly hardens and grows over months, pushing up through the gum long after that hidden development began."
+      }
+    ]
+  }
+]

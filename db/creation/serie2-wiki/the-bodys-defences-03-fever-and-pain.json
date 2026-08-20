@@ -1,0 +1,317 @@
+[
+  {
+    "theme_id": 253,
+    "items": [
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What are the five cardinal signs of inflammation?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Heat, pain, redness, swelling, and loss of function",
+            "feedback": "Correct. These five signs—calor, dolor, rubor, tumor, and functio laesa—are the classic indicators of acute inflammation."
+          },
+          {
+            "label": "Heat, cold, numbness, itching, and redness",
+            "feedback": "That's not right. Cold and numbness are not cardinal signs; the classic signs are heat, pain, redness, swelling, and loss of function."
+          },
+          {
+            "label": "Pain, bleeding, bruising, stiffness, and fatigue",
+            "feedback": "No. Bleeding, bruising, stiffness, and fatigue are not among the five cardinal signs, which are heat, pain, redness, swelling, and loss of function."
+          },
+          {
+            "label": "Redness, swelling, fever, chills, and headache",
+            "feedback": "Incorrect. Fever, chills, and headache are not cardinal signs of inflammation; the five are heat, pain, redness, swelling, and loss of function."
+          }
+        ],
+        "ok_title": "Five signs",
+        "ok_line": "Heat, pain, redness, swelling, and loss of function mark inflammation.",
+        "ko_title": "Wrong signs",
+        "ko_line": "These are not the five canonical signs of inflammation.",
+        "exp_title": "Cardinal signs",
+        "exp_text": "Acute inflammation classically shows five signs: heat, pain, redness, swelling, and loss of function. They come from Latin: calor, dolor, rubor, tumor, and functio laesa. These are the basic visible and felt features of inflammation."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the pain felt during inflammation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "The accumulation of fluid in the tissue",
+            "feedback": "Not quite. Fluid accumulation causes swelling, not pain directly. Pain comes from chemicals like bradykinin and histamine that stimulate nerve endings."
+          },
+          {
+            "label": "Chemicals such as bradykinin and histamine that stimulate nerve endings",
+            "feedback": "Correct. These released chemicals sensitize nerve endings, producing the sensation of pain at the inflamed site."
+          },
+          {
+            "label": "Increased blood flow to the area",
+            "feedback": "No. Increased blood flow causes heat and redness, not pain. Pain is due to chemical stimulation of nerves."
+          },
+          {
+            "label": "The loss of function of the affected tissue",
+            "feedback": "Incorrect. Loss of function is a separate sign; pain itself is triggered by chemicals like bradykinin and histamine acting on nerves."
+          }
+        ],
+        "ok_title": "Pain chemicals",
+        "ok_line": "Bradykinin and histamine make nerves fire, causing pain.",
+        "ko_title": "Pain sources",
+        "ko_line": "Pain is not from fluid, blood flow, or loss of function.",
+        "exp_title": "Mechanism of pain",
+        "exp_text": "During inflammation, cells release chemicals such as bradykinin and histamine. These substances stimulate nerve endings, making them more sensitive and producing the feeling of pain at the inflamed site."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the redness and heat seen in an inflamed area?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "The accumulation of white blood cells",
+            "feedback": "Not exactly. White blood cells migrate to the site but they don't directly cause redness or heat; that comes from increased blood flow."
+          },
+          {
+            "label": "The leakage of plasma into the tissue",
+            "feedback": "No. Plasma leakage causes swelling, not redness or heat. Redness and heat result from increased blood flow."
+          },
+          {
+            "label": "Increased blood flow to the inflamed site",
+            "feedback": "Correct. More blood arrives at the area, bringing heat from the body core and making the skin look red."
+          },
+          {
+            "label": "The release of bradykinin and histamine",
+            "feedback": "Incorrect. Those chemicals cause pain, not redness or heat. Redness and heat come from increased blood flow."
+          }
+        ],
+        "ok_title": "Redness and heat",
+        "ok_line": "Extra blood flow warms and reddens the inflamed spot.",
+        "ko_title": "Wrong cause",
+        "ko_line": "Redness and heat are from blood flow, not cells or leakage.",
+        "exp_title": "Vascular response",
+        "exp_text": "Inflammation widens blood vessels and speeds up blood flow to the injured tissue. This increased blood flow carries body-core warmth to the surface, producing heat, and makes the skin appear red."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the swelling in an inflamed area?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The growth of new tissue",
+            "feedback": "No. New tissue growth is part of repair, not initial swelling. Swelling is due to fluid accumulation."
+          },
+          {
+            "label": "The migration of neutrophils",
+            "feedback": "Not quite. White blood cells do move in, but the visible swelling comes from fluid leaking into the tissue."
+          },
+          {
+            "label": "The release of bradykinin",
+            "feedback": "Incorrect. Bradykinin causes pain, not swelling. Swelling is caused by accumulation of fluid."
+          },
+          {
+            "label": "The accumulation of fluid in the tissue",
+            "feedback": "Correct. Blood vessels become more permeable, letting plasma and fluid leak out, which makes the tissue swell."
+          }
+        ],
+        "ok_title": "Swelling fluid",
+        "ok_line": "Fluid leaking from vessels builds up and causes swelling.",
+        "ko_title": "Wrong swelling cause",
+        "ko_line": "Swelling is from fluid, not tissue growth or cell movement.",
+        "exp_title": "Edema and swelling",
+        "exp_text": "During inflammation, blood vessels become leaky. Plasma and fluid escape into the surrounding tissue, accumulating there. This extra fluid makes the area swell, a condition called edema."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of immunity does inflammation belong to?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Innate immunity",
+            "feedback": "Correct. Inflammation is a generic, non-specific response, so it is part of innate immunity, not adaptive immunity."
+          },
+          {
+            "label": "Adaptive immunity",
+            "feedback": "No. Adaptive immunity is specific to particular pathogens; inflammation is a general response, so it's innate."
+          },
+          {
+            "label": "Humoral immunity",
+            "feedback": "Incorrect. Humoral immunity involves antibodies, which is adaptive; inflammation is innate and non-specific."
+          },
+          {
+            "label": "Cell-mediated immunity",
+            "feedback": "Not right. Cell-mediated immunity is a type of adaptive response; inflammation is innate because it's generic."
+          }
+        ],
+        "ok_title": "Innate response",
+        "ok_line": "Inflammation is a non-specific, innate defence.",
+        "ko_title": "Not adaptive",
+        "ko_line": "Inflammation is not a specific adaptive response.",
+        "exp_title": "Immunity type",
+        "exp_text": "Inflammation is classified as a mechanism of innate immunity. It responds the same way to many different triggers—trauma, pathogens, toxins—without needing prior exposure, making it a general first-line defence."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What is the difference between acute and chronic inflammation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Acute lasts for months, chronic lasts for days",
+            "feedback": "Actually, it's the reverse: acute is short-term (days), chronic lasts months or years."
+          },
+          {
+            "label": "Acute is short-term, chronic lasts months or years",
+            "feedback": "Correct. Acute inflammation is the immediate, brief response; chronic inflammation is prolonged, lasting months to years."
+          },
+          {
+            "label": "Acute involves lymphocytes, chronic involves neutrophils",
+            "feedback": "No. Acute inflammation involves neutrophils mainly; chronic inflammation features macrophages, lymphocytes, and plasma cells."
+          },
+          {
+            "label": "Acute is caused by allergens, chronic by bacteria",
+            "feedback": "Incorrect. Both can be caused by various stimuli; the key difference is duration, not the specific cause."
+          }
+        ],
+        "ok_title": "Acute vs chronic",
+        "ok_line": "Acute is brief; chronic drags on for months or years.",
+        "ko_title": "Wrong distinction",
+        "ko_line": "The difference is duration, not cause or cell type.",
+        "exp_title": "Duration of inflammation",
+        "exp_text": "Acute inflammation is the initial, short-term response, lasting only a few days. Chronic inflammation is prolonged, persisting for months or years, with different cells like macrophages and lymphocytes dominating."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which of these is one of the five cardinal signs of inflammation?",
+        "body": null,
+        "correct_index": 2,
+        "options": [
+          {
+            "label": "Itching",
+            "feedback": "Itching is not one of the five cardinal signs. The five are heat, pain, redness, swelling, and loss of function."
+          },
+          {
+            "label": "Coldness",
+            "feedback": "Coldness is not a sign of inflammation; inflammation brings increased heat to the area."
+          },
+          {
+            "label": "Redness",
+            "feedback": "Correct. Redness, called rubor, is one of the five cardinal signs of inflammation."
+          },
+          {
+            "label": "Numbness",
+            "feedback": "Numbness is not one of the five cardinal signs. Pain is the sign, not numbness."
+          }
+        ],
+        "ok_title": "Cardinal sign named",
+        "ok_line": "Redness is one of the five classic signs of inflammation.",
+        "ko_title": "Wrong sign picked",
+        "ko_line": "Review which signs belong to the list of five.",
+        "exp_title": "Five cardinal signs",
+        "exp_text": "The five cardinal signs of inflammation are heat, pain, redness, swelling, and loss of function. These come from Latin names: calor, dolor, rubor, tumor, and functio laesa."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What causes the swelling (tumor) seen during acute inflammation?",
+        "body": null,
+        "correct_index": 3,
+        "options": [
+          {
+            "label": "The growth of new muscle cells",
+            "feedback": "New muscle cells are not part of inflammation. Swelling comes from fluid collecting in the tissue."
+          },
+          {
+            "label": "The multiplication of bacteria in the area",
+            "feedback": "Bacteria may trigger inflammation, but the swelling itself is not caused by bacteria multiplying."
+          },
+          {
+            "label": "The production of extra bone tissue",
+            "feedback": "Bone tissue is not involved in the swelling of inflamed soft tissue."
+          },
+          {
+            "label": "Accumulation of fluid leaking from blood vessels",
+            "feedback": "Correct. Increased blood vessel permeability lets plasma and fluid leak into the tissue, causing it to swell."
+          }
+        ],
+        "ok_title": "Swelling from fluid",
+        "ok_line": "Fluid leaking out of blood vessels builds up and makes the tissue swell.",
+        "ko_title": "Wrong cause of swelling",
+        "ko_line": "Swelling is not from tissue growth or microbes, but from fluid.",
+        "exp_title": "Cause of tumor",
+        "exp_text": "During acute inflammation, blood vessels become more permeable, allowing plasma and fluid to exude into the tissue. This accumulation of fluid is what produces the swelling called tumor."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "Which type of immune response is inflammation considered a part of?",
+        "body": null,
+        "correct_index": 0,
+        "options": [
+          {
+            "label": "Innate immunity",
+            "feedback": "Correct. Inflammation is a generic response and is part of innate immunity, not the adaptive immunity that learns specific threats."
+          },
+          {
+            "label": "Adaptive immunity",
+            "feedback": "Adaptive immunity involves learning specific microbes. Inflammation is a general response, so it is innate, not adaptive."
+          },
+          {
+            "label": "Humoral immunity",
+            "feedback": "Humoral immunity refers to antibodies in body fluids, which is a branch of adaptive immunity. Inflammation is innate."
+          },
+          {
+            "label": "Cell-mediated immunity",
+            "feedback": "Cell-mediated immunity is part of adaptive immunity. Inflammation is a broader, non-specific response."
+          }
+        ],
+        "ok_title": "Innate immunity link",
+        "ok_line": "Inflammation is a generic response, part of innate immunity.",
+        "ko_title": "Wrong immunity type",
+        "ko_line": "Inflammation does not depend on prior learning, so it is innate.",
+        "exp_title": "Inflammation's immune class",
+        "exp_text": "Inflammation is a generic response that works the same way for many different threats, so it belongs to innate immunity rather than adaptive immunity."
+      },
+      {
+        "type_question": "qcm",
+        "type_bloom": "remember",
+        "prompt": "What type of cell is most common at the site of acute inflammation?",
+        "body": null,
+        "correct_index": 1,
+        "options": [
+          {
+            "label": "Lymphocytes",
+            "feedback": "Lymphocytes are more common in chronic inflammation, not in the acute phase."
+          },
+          {
+            "label": "Neutrophils",
+            "feedback": "Correct. Neutrophils, a type of granulocyte, are the main white blood cells that gather quickly during acute inflammation."
+          },
+          {
+            "label": "Plasma cells",
+            "feedback": "Plasma cells are more associated with chronic inflammation and antibody production, not acute inflammation."
+          },
+          {
+            "label": "Red blood cells",
+            "feedback": "Red blood cells carry oxygen and are not the main immune cells involved in acute inflammation."
+          }
+        ],
+        "ok_title": "Acute cell type",
+        "ok_line": "Neutrophils predominate during acute inflammation.",
+        "ko_title": "Wrong predominant cell",
+        "ko_line": "Acute inflammation draws neutrophils, not lymphocytes or plasma cells.",
+        "exp_title": "Neutrophils in acute inflammation",
+        "exp_text": "During acute inflammation, granulocytes, especially neutrophils, migrate from the blood into the injured tissue. They are the dominant cells in this early phase."
+      }
+    ]
+  }
+]

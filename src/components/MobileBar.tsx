@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { Dict } from '../i18n'
 import { type Screen, routeOf, useStore } from '../state/store'
 import { Icon } from './Icon'
+import { LangSwitch } from './LangSwitch'
 import { Wordmark } from './Wordmark'
 
 /**
@@ -14,16 +15,31 @@ import { Wordmark } from './Wordmark'
  * soit court : quatre destinations et l'état du compte, rien de plus.
  *
  * La barre se pose dans la bande que chaque écran réserve déjà en haut
- * (`.nav-head`, `.exo-head`) : elle ne décale aucun contenu.
+ * (`.nav-head`) : elle ne décale aucun contenu.
+ *
+ * Le feed d'exercices fait exception depuis la planche 4c : sa bande du
+ * haut est prise par le bandeau de lecture, et c'est `.exo-bar` — la
+ * ligne de l'orbe, que la pastille et les boutons partagent — qui porte
+ * les trois points, à droite du « + ». Voir `MoreMenu`, qui sert les
+ * deux.
  */
 const LINKS: { screen: Screen; label: (t: Dict) => string }[] = [
-  { screen: 'themes', label: (t) => t.myThemes },
+  { screen: 'themes', label: (t) => t.myLearnings },
+  { screen: 'shared', label: (t) => t.whatIShare },
   { screen: 'rank', label: (t) => t.ranking },
   { screen: 'settings', label: (t) => t.settings },
   { screen: 'about', label: (t) => t.about },
 ]
 
-export function MobileBar() {
+/**
+ * Les trois points et ce qu'ils cachent.
+ *
+ * `withLang` ajoute la bascule de langue dans le menu. Elle est en clair
+ * dans la barre du haut — quelqu'un qui ne lit pas le français ne
+ * devinera pas que « ⋮ » cache sa langue — mais le feed n'a plus de
+ * barre où la poser, et le menu vaut mieux que rien.
+ */
+export function MoreMenu({ withLang = false }: { withLang?: boolean }) {
   const { s, go, set, user, t } = useStore()
   const [open, setOpen] = useState(false)
   const box = useRef<HTMLDivElement>(null)
@@ -47,18 +63,7 @@ export function MobileBar() {
   const signedIn = user !== null && !user.is_anonymous
 
   return (
-    <div className="mobile-bar" ref={box}>
-      <a
-        className="mobile-bar-mark"
-        href={routeOf('exo')}
-        onClick={(e) => {
-          e.preventDefault()
-          go('exo', 'q')
-        }}
-      >
-        <Wordmark size={20} />
-      </a>
-
+    <div className="more-menu" ref={box}>
       <button
         className="mobile-bar-btn"
         onClick={() => setOpen((v) => !v)}
@@ -89,6 +94,12 @@ export function MobileBar() {
 
           <hr className="mobile-menu-rule" />
 
+          {withLang && (
+            <div className="mobile-menu-lang">
+              <LangSwitch compact />
+            </div>
+          )}
+
           {signedIn && user ? (
             <span className="mobile-menu-account">
               <Icon name="user" size={15} color="var(--sc-text3)" />
@@ -110,6 +121,31 @@ export function MobileBar() {
           )}
         </div>
       )}
+    </div>
+  )
+}
+
+export function MobileBar() {
+  const { go } = useStore()
+
+  return (
+    <div className="mobile-bar">
+      <a
+        className="mobile-bar-mark"
+        href={routeOf('exo')}
+        onClick={(e) => {
+          e.preventDefault()
+          go('exo', 'q')
+        }}
+      >
+        <Wordmark size={20} />
+      </a>
+
+      {/* En clair dans la barre, pas dans le menu : quelqu'un qui ne lit
+          pas le français ne devinera pas que « ⋮ » cache sa langue. */}
+      <LangSwitch compact />
+
+      <MoreMenu />
     </div>
   )
 }
