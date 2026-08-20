@@ -40,6 +40,7 @@ from __future__ import annotations
 import asyncio
 import json
 import os
+import random
 import re
 import sqlite3
 import unicodedata
@@ -306,7 +307,7 @@ async def _ecrire_un_lot(chapter_id: int, lang: str, count: int = BATCH) -> int:
         if not verdict.ok:
             continue
         known.add(_norm(item["prompt"]))
-        kept.append(item)
+        kept.append(_melanger(item))
 
     with connection() as conn:
         with transaction(conn):
@@ -346,6 +347,38 @@ async def _ecrire_un_lot(chapter_id: int, lang: str, count: int = BATCH) -> int:
                 (chapter_id, chapter_id),
             )
     return len(kept)
+
+
+def _melanger(item: dict) -> dict:
+    """La bonne réponse change de place avant d'entrer en base.
+
+    LE MODÈLE LA MET DEVANT, toujours. Mesuré sur les 261 premières
+    cartes : bonne réponse en position 1 ou 2 dans 223 d'entre elles, en
+    position 4 dans cinq. Il écrit la vraie d'abord et invente les
+    fausses ensuite ; l'ordre du JSON suit l'ordre de sa pensée. Un
+    élève qui joue les deux premières cases gagne sans lire, et le taux
+    de réussite ne mesure plus rien.
+
+    Le mélange est ici et non dans la consigne : on a demandé au modèle
+    de varier la position, il ne s'y tient pas — c'est une contrainte de
+    forme, elle se règle en Python. `correct_index` est recalculé depuis
+    la nouvelle place, jamais recopié, et chaque libellé emporte son
+    `feedback` avec lui.
+
+    La traduction n'est pas concernée : elle est écrite APRÈS, depuis
+    ces options-ci, donc dans cet ordre-ci. Voir `scripts/melanger_options.py`
+    pour le rattrapage de ce qui était déjà en ligne.
+    """
+    options = item.get("options") or []
+    correct = item.get("correct_index")
+    if len(options) < 2 or not isinstance(correct, int) or not 0 <= correct < len(options):
+        return item
+    ordre = list(range(len(options)))
+    random.shuffle(ordre)
+    item = dict(item)
+    item["options"] = [options[i] for i in ordre]
+    item["correct_index"] = ordre.index(correct)
+    return item
 
 
 async def ecrire_et_traduire(chapter_id: int, count: int = BATCH) -> int:
