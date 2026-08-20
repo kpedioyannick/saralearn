@@ -43,6 +43,7 @@ from api.photos import (  # noqa: E402
     illustrer,
     illustrer_etape,
     oublier_le_quota,
+    prochaine_reprise,
     quota_epuise,
     restant,
     revele,
@@ -200,8 +201,14 @@ async def poser_les_photos(boucle: bool) -> int:
         # serrée, à rappeler trois APIs toutes les secondes pour la même
         # réponse vide.
         if pose == 0 or quota_epuise():
-            print("  rien à en tirer pour l'instant — reprise dans une heure")
-            time.sleep(3660)
+            # L'ATTENTE SUIT LA BANQUE QUI SE ROUVRE LE PLUS TÔT, et non
+            # l'heure d'Unsplash. Pixabay compte à la MINUTE : dormir
+            # une heure parce qu'il est à sec, c'est laisser dormir six
+            # mille requêtes. Le 20/08/2026, 348 images d'étapes en
+            # attente annonçaient quatre heures pour cette seule raison.
+            attente = prochaine_reprise()
+            print(f"  rien à en tirer pour l'instant — reprise dans {attente} s")
+            time.sleep(attente)
             # Le compteur d'AVANT l'attente ne vaut plus rien, et le
             # garder bloque tout : une ronde dimensionnée sur zéro ne
             # fait aucun appel, et sans appel l'en-tête ne se relit

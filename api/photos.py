@@ -78,6 +78,7 @@ import json
 import os
 import re
 import sqlite3
+import time
 import unicodedata
 import urllib.parse
 import urllib.request
@@ -300,6 +301,10 @@ def _appel(nom: str, url: str, entetes: dict | None = None, **params) -> dict | 
             reste = r.headers.get("X-Ratelimit-Remaining")
         if reste is not None and str(reste).isdigit():
             _RESTANT[nom] = int(reste)
+            if _RESTANT[nom] <= 2:
+                _VIDE_DEPUIS.setdefault(nom, time.monotonic())
+            else:
+                _VIDE_DEPUIS.pop(nom, None)
         return json.loads(corps) if corps else {}
     except Exception as exc:  # noqa: BLE001 — quota, réseau, clé absente
         # 403 chez Unsplash, 429 chez les deux autres : dans les trois cas
@@ -308,6 +313,7 @@ def _appel(nom: str, url: str, entetes: dict | None = None, **params) -> dict | 
         # au lieu d'enchaîner quarante refus.
         if getattr(exc, "code", None) in (403, 429):
             _RESTANT[nom] = 0
+            _VIDE_DEPUIS.setdefault(nom, time.monotonic())
         return None
 
 
@@ -440,18 +446,62 @@ def quota_epuise() -> bool:
     ) if banques_ouvertes() else True
 
 
-def oublier_le_quota() -> None:
-    """Rendre les compteurs à leur état « on ne sait pas ».
+# CHAQUE BANQUE SE RENOUVELLE À SON PROPRE RYTHME, et les confondre coûte
+# cher. Unsplash et Pexels comptent à l'HEURE ; Pixabay compte à la
+# MINUTE — cent requêtes, soit six mille par heure.
+#
+# Le veilleur dormait une heure dès que les trois compteurs étaient à
+# zéro, Pixabay compris. Mesuré le 20/08/2026 : 348 images d'étapes en
+# attente, un rythme de 83 par heure, quatre heures annoncées — quand
+# Pixabay seul pouvait les poser en dix minutes. On attend donc le
+# renouvellement LE PLUS COURT, et on ne rouvre que les banques dont le
+# délai est écoulé : rouvrir Unsplash toutes les minutes lui ferait
+# dépenser son quota horaire en refus.
+RENOUVELLEMENT = {"Unsplash": 3660, "Pexels": 3660, "Pixabay": 65}
 
-    À appeler après avoir attendu le renouvellement horaire, et NULLE
-    PART AILLEURS. Sans ça, un compteur tombé à zéro est un cul-de-sac :
-    l'appelant dimensionne sa ronde sur `restant()`, une ronde de zéro
-    carte ne fait aucun appel, et seul un appel rafraîchit l'en-tête.
-    La boucle d'illustration s'est endormie quatorze heures là-dessus le
-    20/08/2026, quota plein, 173 cartes en attente.
+# Quand chaque compteur est tombé à sec. Vide tant qu'aucune banque ne
+# l'est.
+_VIDE_DEPUIS: dict[str, float] = {}
+
+
+def prochaine_reprise() -> int:
+    """Combien de secondes attendre avant que quelque chose se rouvre.
+
+    La plus courte des attentes restantes, jamais moins de cinq
+    secondes. Une heure s'il n'y a rien à attendre — le cas ne devrait
+    pas se présenter, mais un veilleur qui tourne à vide vaut mieux
+    qu'un veilleur qui tourne en rond.
     """
-    for n in _RESTANT:
-        _RESTANT[n] = None
+    maintenant = time.monotonic()
+    restants = [
+        RENOUVELLEMENT[n] - (maintenant - depuis)
+        for n, depuis in _VIDE_DEPUIS.items()
+        if n in RENOUVELLEMENT
+    ]
+    if not restants:
+        return 3660
+    return max(5, int(min(restants)) + 2)
+
+
+def oublier_le_quota() -> None:
+    """Rendre leur compteur aux banques dont le délai est écoulé.
+
+    Un compteur tombé à zéro est un cul-de-sac : l'appelant dimensionne
+    sa ronde sur `restant()`, une ronde de zéro carte ne fait aucun
+    appel, et seul un appel rafraîchit l'en-tête. La boucle
+    d'illustration s'est endormie quatorze heures là-dessus le
+    20/08/2026, quota plein, 173 cartes en attente.
+
+    Ce qui n'a pas fini d'attendre reste à zéro : c'est ce qui empêche
+    de brûler le quota horaire d'Unsplash en le rappelant chaque minute
+    pour la seule raison que Pixabay, lui, est prêt.
+    """
+    maintenant = time.monotonic()
+    for n in list(_RESTANT):
+        depuis = _VIDE_DEPUIS.get(n)
+        if depuis is None or maintenant - depuis >= RENOUVELLEMENT.get(n, 3660):
+            _RESTANT[n] = None
+            _VIDE_DEPUIS.pop(n, None)
 
 
 async def chercher(requete: str) -> dict | None:
