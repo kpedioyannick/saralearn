@@ -5045,6 +5045,19 @@ button {
      comme du texte courant — la borner la décollerait du bord. */
   .page-inner.is-full {
     max-width: none;
+    /* `width: 100%` N'EST PAS REDONDANT ICI, et son absence était le
+       bug. `.page-inner` porte `margin: 0 auto` pour se centrer sous
+       1180 px. Dans un parent en colonne, une marge horizontale
+       automatique ANNULE l'étirement : le bloc se cale alors sur son
+       contenu. Tant que `max-width` valait 1180 ça ne se voyait pas —
+       la borne faisait la largeur. En la retirant ici, la page s'est
+       mise à suivre le plus long titre de chapitre.
+
+       Mesuré sur « ajouter » en 1920 px : colonne du milieu à 659 px
+       sur une catégorie de huit chapitres, 805 sur une de trente-six,
+       et tout le bloc glissait de 73 px vers la gauche en changeant de
+       catégorie. */
+    width: 100%;
     padding: 0 4px;
   }
 
