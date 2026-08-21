@@ -4875,6 +4875,23 @@ button {
   padding: 0 4px 8px;
 }
 
+/* LA GOUTTIÈRE EST RÉSERVÉE MÊME QUAND ELLE NE SERT PAS. Mesuré sur la
+   page « ajouter » en 1440 px : la colonne du milieu fait 652 px sur une
+   catégorie de vingt-et-un chapitres et 644 sur une de huit — huit
+   pixels d'écart, exactement la barre de défilement qui apparaît quand
+   la liste dépasse. Toute la page se décalait donc en changeant de
+   catégorie.
+
+   `scrollbar-gutter: stable` garde la place prise en permanence : la
+   colonne ne bouge plus, qu'il y ait de quoi défiler ou non. Posé sur
+   les trois listes de l'écran, pas seulement celle du milieu — les deux
+   autres débordent aussi, sur un petit écran ou une longue sélection. */
+.pick-rows,
+.pick-cats,
+.pick-cart {
+  scrollbar-gutter: stable;
+}
+
 .pick-rows {
   display: flex;
   flex-direction: column;
