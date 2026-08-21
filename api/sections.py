@@ -267,10 +267,23 @@ Return ONLY a JSON object of the form {{"exercises": [ ... ]}}, holding
   "exp_title"      the title of the explanation
   "exp_text"       the explanation — required. It closes the mechanism
                    the question opened, starting from the scene the
-                   learner was shown. This is where the technical name
-                   finally appears, to name what has just been
-                   understood. Clear, sharp, precise. Neither too long
-                   nor too short
+                   learner was shown.
+
+                   EXPLAIN IT THE WAY YOU WOULD TO A FIVE-YEAR-OLD.
+                   Short words, short sentences, things a child has
+                   already seen and touched — water, a ball, a hand, the
+                   Sun. No formula, no equation, no "consists of", no
+                   "is defined as". If a sentence needs a word the child
+                   would not know, use another sentence.
+
+                   ONE EXCEPTION, AND IT MATTERS: the technical name.
+                   It appears at the end, once, to NAME what has just
+                   been understood — never to explain it. "That bending
+                   is called refraction", not "refraction is the change
+                   of direction of a wave". The word is the reward for
+                   having understood, never the toll to get in.
+
+                   Clear, sharp, precise. Neither too long nor too short
   "steps"          the SAME explanation, cut into 3 to 5 steps that
                    follow one another. Each step is an object:
                      {"text": "...", "image_title": "..."}

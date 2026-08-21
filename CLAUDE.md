@@ -235,6 +235,11 @@ Magnetic fields / Wind speed* —, on élimine au flair et on n'apprend rien. Se
 tromper doit montrer à l'élève son propre modèle ; le `feedback` dit où
 l'intuition lâche.
 
+**L'explication se dit comme à un enfant de cinq ans** (21/08/2026, dans la
+consigne). Mots courts, phrases courtes, des choses qu'on a déjà vues et
+touchées — l'eau, une balle, une main, le Soleil. Ni formule, ni équation, ni
+« se compose de ». Une seule exception, et c'est la règle suivante.
+
 **Le mot technique est la récompense, pas le péage.** Aucun jargon dans l'énoncé
 ni dans les quatre libellés ; le terme apparaît dans `exp_text`, pour nommer ce
 qu'on vient de comprendre.
