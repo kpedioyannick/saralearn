@@ -6848,3 +6848,52 @@ button {
 .desk-card-body:has(.exp-suite) .exp-texte {
   padding: 0 4px 4px;
 }
+
+/* ============================================================
+   LES BARRES DE DÉFILEMENT — au dessin du site
+
+   Elles étaient celles du système : grises, larges, avec leurs flèches
+   sous Windows, et deux d'entre elles côte à côte sur l'écran
+   « ajouter » suffisaient à casser une planche par ailleurs sobre.
+
+   Le rayon de `.learn-shelf-row` avait déjà sa barre habillée, et pour
+   une raison qui vaut ici aussi : une barre proportionnelle DIT combien
+   reste derrière. On ne la cache donc pas, on l'accorde — trait fin,
+   couleur de filet, coins arrondis, piste transparente.
+
+   Les 8 px réservés par `scrollbar-gutter: stable` sont calés sur cette
+   largeur-ci : la changer décalerait les colonnes de « ajouter ».
+   ============================================================ */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--sc-line-solid) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--sc-line-solid);
+  border-radius: 99px;
+  /* La bordure transparente amincit le pouce sans réduire la zone
+     qu'on peut attraper à la souris : 8 px de cible, 4 px de trait. */
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--sc-text3);
+  background-clip: content-box;
+}
+
+/* Le coin entre deux barres, gris système par défaut. */
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
