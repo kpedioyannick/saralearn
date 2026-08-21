@@ -6733,11 +6733,15 @@ button {
   background: #ffffff;
 }
 
+/* Le texte reprend les marges que la zone de lecture a perdues. Sans
+   elles il courait d'un bord à l'autre de l'écran : l'image, elle, est
+   à fond perdu — c'est ce qu'on veut d'une image, jamais d'un texte. */
 .exp-texte {
   flex: none;
   display: flex;
   flex-direction: column;
   gap: 6px;
+  padding: 0 22px 4px;
 }
 
 .exp-phrase {
@@ -6748,7 +6752,25 @@ button {
   color: var(--sc-text);
 }
 
+/* LE RAIL PASSE SUR UNE PHOTO, plus sur du papier. Ses disques étaient
+   translucides sur fond crème, ce qui suffisait ; sur un ciel clair les
+   compteurs deviennent illisibles. On les opacifie pour cette phase, et
+   pour elle seule. */
+.exo:has(.exp-suite) .rail-disc {
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.22);
+}
+
+.exo:has(.exp-suite) .rail-count {
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55);
+}
+
 /* Le cadre desktop a sa propre zone de lecture, mêmes règles. */
 .desk-card-body:has(.exp-suite) {
   overflow: hidden;
+}
+
+.desk-card-body:has(.exp-suite) .exp-texte {
+  padding: 0 4px 4px;
 }

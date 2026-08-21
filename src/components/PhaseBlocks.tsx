@@ -417,6 +417,9 @@ export function ExplanationBlock({ desktop }: Props) {
       </div>
 
       <div className="exp-texte">
+        {/* L'étiquette « Explication » n'apparaît qu'au premier pas :
+            répétée sous chaque image, elle prendrait une ligne à chaque
+            fois pour redire ce qu'on sait déjà. */}
         {rang === 0 && <span className="eyebrow">{t.explanation}</span>}
         <p key={rang} className="exp-phrase anim-fade-up" style={{ fontSize: desktop ? 21 : 18 }}>
           {exo.steps[rang].text}
