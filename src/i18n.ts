@@ -533,6 +533,24 @@ const fr = {
     'À cause du reflet de la Lune',
   ],
 
+  // L'OBJECTIF DE L'APP, DIT AVANT SES FONCTIONS.
+  // Les quatre intentions du fondateur, dans ses mots. Elles viennent
+  // avant la boucle et avant la liste des fonctions parce qu'elles
+  // disent POURQUOI on joue, quand tout le reste dit comment.
+  //
+  // Trois mots, sans glose. Chacun portait une ligne d'explication —
+  // « aucune leçon à lire avant », « se tromper montre où le
+  // raisonnement a lâché » — retirées : elles décrivaient la mécanique
+  // de l'app, que les deux bandes suivantes détaillent déjà. Le mot nu
+  // dit l'intention et laisse la page respirer.
+  //
+  // Pas de surtitre non plus : le titre annonce la liste et se termine
+  // par deux points.
+  homeAimsTitle: 'Ce que nous essayons de développer :',
+  homeAims: ['La curiosité', "L'autonomie", "L'intuition", 'La résilience'],
+
+
+
   homeLoopEyebrow: "La boucle d'apprentissage",
   // Trois écrans, pas quatre. La réussite et l'erreur ne se suivent
   // jamais — `setPhase(good ? 'ok' : 'ko')` — ce sont les deux issues
@@ -1111,6 +1129,9 @@ const en: Dict = {
     'Due to absorption of red light',
     'Due to the Moon’s reflection',
   ],
+
+  homeAimsTitle: 'What we are trying to develop:',
+  homeAims: ['Curiosity', 'Autonomy', 'Intuition', 'Resilience'],
 
   homeLoopEyebrow: 'The learning loop',
   homeLoopTitle: 'Three screens, then it starts over',

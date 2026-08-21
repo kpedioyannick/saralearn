@@ -49,7 +49,7 @@ from . import sections
 from .critic import review
 from .db import connection, row, rows, scalar, transaction
 from .llm import GenerationError, ask, validate
-from .photos import illustrer_chapitre, illustrer_les_etapes
+from .photos import illustrer_chapitre
 from .traduction import traduire_partout
 
 # Sous ce nombre d'exercices encore servables, on recharge. Pas à zéro :
@@ -417,8 +417,22 @@ async def ecrire_et_traduire(chapter_id: int, count: int = BATCH) -> int:
     # carte sans image, il ne peut pas lire une carte en anglais quand il
     # a demandé le français. L'ordre suit ce qui manque le plus.
     await illustrer_chapitre(chapter_id)
-    # Puis les étapes de l'explication, qui ont leur propre titre
-    # d'image. Après la photo de la carte : celle-là se voit dès la
-    # question, les autres seulement quand l'élève a répondu.
-    await illustrer_les_etapes(chapter_id)
+    # LES IMAGES D'ÉTAPES SONT COUPÉES (21/08/2026), et c'est la photo de
+    # la question qui reste affichée pendant toute l'explication.
+    #
+    # Mesuré sur 907 étapes illustrées : ce que les banques rendent pour
+    # une étape est du décor, pas le mécanisme. Une banque indexe des
+    # objets, une explication décrit des relations — « wavefront pivoting
+    # at glass surface » rend un caillou brillant. Les images générées
+    # font mieux sur le style mais placent le mécanisme À CÔTÉ de
+    # l'endroit où il se produit, ce qui est pire qu'une absence : sur
+    # une illusion d'optique, cet endroit EST la leçon.
+    #
+    # La photo de la question, elle, a déjà été jugée bonne — c'est la
+    # scène dont la question parle, et l'élève vient de la regarder. La
+    # garder sous les yeux pendant l'explication relie les deux écrans.
+    #
+    # `photos.illustrer_les_etapes` n'est pas supprimée : le jour où des
+    # gabarits dessinés remplacent les banques, c'est ici qu'ils se
+    # rebranchent. Voir aussi `scripts/illustrer_catalogue.py`.
     return produits

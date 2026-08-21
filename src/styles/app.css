@@ -3608,6 +3608,30 @@ button {
   color: var(--sc-text2);
 }
 
+
+/* ----- LES QUATRE INTENTIONS ---------------------------------
+   La bande qui dit à quoi sert l'app, entre le héros et la boucle.
+
+   Elle ne réutilise pas `.home-item` volontairement : les deux grilles
+   qui suivent sont des cartes numérotées qui énumèrent des FONCTIONS,
+   celle-ci énonce un objectif. Même traitement, on lisait trois fois
+   la même liste. D'où le filet à gauche et pas de fond de carte.
+
+   Le mot est seul — il n'y a plus de ligne dessous —, donc il porte la
+   bande à lui tout seul et se pose plus gros que les titres de carte. */
+.home-aim {
+  margin: 0;
+  padding: 2px 0 2px 14px;
+  border-left: 2px solid var(--sc-primary);
+  font-family: var(--font-display);
+  font-size: 22px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--sc-primary);
+  text-wrap: balance;
+}
+
 /* ----- LA CARTE DE PROMPT ------------------------------------
    Ce qui rend concrète la promesse « l'IA écrit les questions » :
    le prompt qu'on écrit, et l'exemple qu'il produit. */
@@ -4120,6 +4144,18 @@ button {
 
   .home-grid.is-three {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* Quatre mots, quatre colonnes. C'était deux colonnes tant que
+     chacun traînait une phrase d'explication ; nus, ils tiennent tous
+     sur une ligne et la bande se lit d'un seul regard. */
+  .home-aims {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px 32px;
+  }
+
+  .home-aim {
+    font-size: 26px;
   }
 
   /* Le partage se lit en vis-à-vis : la promesse à gauche, le prompt
@@ -6667,6 +6703,14 @@ button {
   border-radius: var(--r-lg);
   overflow: hidden;
   background: var(--sc-veil);
+}
+
+/* L'image ne change plus d'une étape à l'autre : elle ne se refond
+   donc plus, et son lent zoom n'a plus à repartir. `is-fixe` coupe les
+   deux — une photo qui respire pendant quarante secondes finit par
+   sortir de son cadre. */
+.exp-image-img.is-fixe {
+  animation: slFade 340ms var(--ease-out) both;
 }
 
 .exp-image-img {

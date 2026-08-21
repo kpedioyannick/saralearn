@@ -377,31 +377,31 @@ export function ExplanationBlock({ desktop }: Props) {
   if (!exo.steps.length) return <ExplanationPave desktop={desktop} />
 
   const rang = Math.max(0, Math.min(exo.steps.length - 1, s.step))
-  // L'image de l'étape, ou la dernière connue en remontant.
-  let vue = -1
-  for (let i = rang; i >= 0; i--) {
-    if (exo.steps[i].image) {
-      vue = i
-      break
-    }
-  }
-  const img = vue >= 0 ? exo.steps[vue] : null
 
   return (
     <div className="exp-suite">
+      {/* LA PHOTO DE LA QUESTION RESTE, D'UN BOUT À L'AUTRE (21/08/2026).
+          Chaque étape a eu la sienne pendant une journée, et ça ne
+          tenait pas : une banque indexe des objets, une explication
+          décrit des relations, et ce qui revenait était du décor. Les
+          images générées font mieux sur le style mais posent le
+          mécanisme à côté de l'endroit où il se produit — sur une
+          illusion d'optique, cet endroit est la leçon.
+          Celle de la question, elle, a déjà été jugée : c'est la scène
+          dont la question parle, l'élève vient de la regarder, et la
+          garder relie les deux écrans. Le texte, lui, avance. */}
       <div className="exp-image">
-        {img?.image && (
+        {exo.image && (
           <img
-            key={img.image}
-            src={img.image}
-            alt={img.image_alt ?? ''}
-            className="exp-image-img"
+            src={exo.image}
+            alt={exo.imageAlt ?? ''}
+            className="exp-image-img is-fixe"
           />
         )}
-        {img?.image_credit && (
+        {exo.imageCredit && (
           <span className="exp-image-credit">
-            {img.image_credit}
-            {img.image_source ? ` · ${img.image_source}` : ''}
+            {exo.imageCredit}
+            {exo.imageSource ? ` · ${exo.imageSource}` : ''}
           </span>
         )}
         <div className="exp-pastilles">

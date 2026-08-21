@@ -118,14 +118,14 @@ VEILLE = 600
 async def poser_les_photos(boucle: bool) -> int:
     total = 0
     while True:
-        # LA FILE TIENT DEUX SORTES DE TRAVAUX : la photo d'ambiance
-        # d'une carte, et l'image d'une étape de son explication. Elles
-        # puisent au même quota, chez les mêmes banques — les compter à
-        # part ferait dimensionner deux rondes qui s'ignorent, et la
-        # seconde taperait dans un quota que la première a vidé.
+        # LA FILE NE TIENT PLUS QUE LES PHOTOS DE CARTES. Les images
+        # d'étapes ont été coupées le 21/08/2026 : ce que les banques
+        # rendaient pour une étape était du décor, jamais le mécanisme,
+        # et l'explication garde désormais la photo de la question.
+        # Le raisonnement complet est dans `topup.ecrire_et_traduire`.
         #
-        # Les cartes passent devant : leur photo se voit dès la
-        # question, celle d'une étape seulement quand l'élève a répondu.
+        # `illustrer_etape` reste importée et vivante : elle attend des
+        # gabarits dessinés, qui eux seront exacts.
         with connection() as conn:
             reste = [
                 ("carte", r["id"], None)
@@ -133,16 +133,6 @@ async def poser_les_photos(boucle: bool) -> int:
                     conn,
                     "SELECT id FROM exercise WHERE state = 'validated'"
                     "   AND image_query IS NOT NULL AND image_url IS NULL ORDER BY id",
-                )
-            ] + [
-                ("etape", r["exercise_id"], r["rang"])
-                for r in rows(
-                    conn,
-                    "SELECT s.exercise_id, s.rang FROM exercise_step s"
-                    "  JOIN exercise e ON e.id = s.exercise_id"
-                    " WHERE e.state = 'validated' AND s.image_url IS NULL"
-                    "   AND s.image_title IS NOT NULL AND TRIM(s.image_title) <> ''"
-                    " ORDER BY s.exercise_id, s.rang",
                 )
             ]
         if not reste:

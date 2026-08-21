@@ -111,6 +111,17 @@ function Numbered({ n, title, line }: { n: number; title: string; line: string }
   )
 }
 
+/**
+ * Une intention : le mot seul, un filet à gauche.
+ *
+ * Pas de numéro, contrairement à `Numbered` : la curiosité ne vient
+ * pas « avant » l’autonomie, les quatre tiennent ensemble. Numéroter
+ * aurait annoncé une progression qui n'existe pas.
+ */
+function Aim({ label }: { label: string }) {
+  return <h3 className="home-aim">{label}</h3>
+}
+
 export function Home() {
   const { go, set, enterFeed, t } = useStore()
   const isDesktop = useIsDesktop()
@@ -170,6 +181,20 @@ export function Home() {
             visuelle du produit sur toute la page, et l'app vise le
             téléphone en premier — le cacher là était un contresens. */}
         <Preview />
+      </section>
+
+      {/* L'OBJECTIF, AVANT LES FONCTIONS. Le héros dit sur quoi on
+          apprend, cette bande dit à quoi ça sert, et tout ce qui suit
+          dit comment. Elle est la seule de la page à ne pas décrire
+          une fonction — c'est pour ça qu'elle n'a ni carte ni numéro. */}
+      <section className="home-band home-aims-band">
+        <h2 className="home-band-title">{t.homeAimsTitle}</h2>
+
+        <div className="home-grid home-aims">
+          {t.homeAims.map((a) => (
+            <Aim key={a} label={a} />
+          ))}
+        </div>
       </section>
 
       {/* La section « Trois piliers » vivait ici. Elle disait une
